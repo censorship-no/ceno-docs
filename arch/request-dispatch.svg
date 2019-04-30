@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="62cm" height="62cm" viewBox="20 48 1223 1234" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs/>
+  <g id="Fons">
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="100" y="100" width="80" height="36" rx="20" ry="20"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="140" y="121.9">
+        <tspan x="140" y="121.9">Browser</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="300" y="100" width="80" height="52" rx="20" ry="20"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="340" y="121.9">
+        <tspan x="340" y="121.9">Web</tspan>
+        <tspan x="340" y="137.9">proxy</tspan>
+      </text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="283" y1="100" x2="180" y2="100"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="283,105 299,100 283,95 "/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="240" y="80">HTTP pxy req</text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="196.851" y1="138.247" x2="300" y2="152"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="197.512,133.291 180.991,136.132 196.19,143.203 "/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="240" y="160">HTTP resp</text>
+    </g>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="160" y="80">
+      <tspan x="160" y="80">1</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="400" y="100">
+      <tspan x="400" y="100">2</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="320" y="180">
+      <tspan x="320" y="180">3</tspan>
+    </text>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 4; stroke: #000000" x1="80" y1="60" x2="80" y2="220"/>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:700" x="20" y="120">
+      <tspan x="20" y="120">HTTP</tspan>
+      <tspan x="20" y="136">request</tspan>
+    </text>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="100" y="500" width="87.7" height="52" rx="20" ry="20"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="143.85" y="521.9">
+        <tspan x="143.85" y="521.9">Request</tspan>
+        <tspan x="143.85" y="537.9">dispatcher</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="300" y="500" width="103.35" height="52" rx="20" ry="20"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="351.675" y="521.9">
+        <tspan x="351.675" y="521.9">Origin server</tspan>
+        <tspan x="351.675" y="537.9">client</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="500" y="500" width="80" height="36" rx="20" ry="20"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="540" y="521.9">
+        <tspan x="540" y="521.9">Origin</tspan>
+      </text>
+    </g>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 4; stroke: #c0c0c0" x1="460" y1="460" x2="460" y2="620"/>
+    <text font-size="12.8" style="fill: #c0c0c0; fill-opacity: 1; stroke: none;text-anchor:end;font-family:sans-serif;font-style:normal;font-weight:normal" x="440" y="460">
+      <tspan x="440" y="460">Client</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #c0c0c0; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="480" y="460">
+      <tspan x="480" y="460">Origin</tspan>
+    </text>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="283" y1="500" x2="187.7" y2="500"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="283,505 299,500 283,495 "/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="243.85" y="480">HTTP pxy req</text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="483" y1="500" x2="403.35" y2="500"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="483,505 499,500 483,495 "/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="451.676" y="480">HTTP req</text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="420.122" y1="549.224" x2="500" y2="536"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="419.305,544.291 404.337,551.837 420.938,554.156 "/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="460" y="560">HTTP resp</text>
+    </g>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="420" y="580">
+      <tspan x="420" y="580">(head+body)</tspan>
+    </text>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="204.7" y1="552" x2="300" y2="552"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="204.7,547 188.7,552 204.7,557 "/>
+    </g>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 4; stroke: #000000" x1="80" y1="460" x2="80" y2="620"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 4; stroke: #c0c0c0" x1="240" y1="60" x2="240" y2="220"/>
+    <text font-size="12.8" style="fill: #c0c0c0; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="260" y="60">
+      <tspan x="260" y="60">Client</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #c0c0c0; fill-opacity: 1; stroke: none;text-anchor:end;font-family:sans-serif;font-style:normal;font-weight:normal" x="220" y="60">
+      <tspan x="220" y="60">Browser</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="20" y="500">
+      <tspan x="20" y="500">HTTP</tspan>
+      <tspan x="20" y="516">origin</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="160" y="480">
+      <tspan x="160" y="480">1</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="380" y="480">
+      <tspan x="380" y="480">2</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="520" y="560">
+      <tspan x="520" y="560">3</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="320" y="580">
+      <tspan x="320" y="580">4</tspan>
+    </text>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="100" y="880" width="87.7" height="52" rx="20" ry="20"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="143.85" y="901.9">
+        <tspan x="143.85" y="901.9">Request</tspan>
+        <tspan x="143.85" y="917.9">dispatcher</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="300" y="880" width="121.4" height="52" rx="20" ry="20"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="360.7" y="901.9">
+        <tspan x="360.7" y="901.9">Hidden service</tspan>
+        <tspan x="360.7" y="917.9">implementation</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="500" y="880" width="80" height="52" rx="20" ry="20"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="540" y="901.9">
+        <tspan x="540" y="901.9">Injector</tspan>
+        <tspan x="540" y="917.9">service</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="700" y="880" width="80" height="36" rx="20" ry="20"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="740" y="901.9">
+        <tspan x="740" y="901.9">Origin</tspan>
+      </text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="283" y1="880" x2="187.7" y2="880"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="283,885 299,880 283,875 "/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="243.85" y="860">canon(HTTP pxy req)</text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="483" y1="880" x2="421.4" y2="880"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="483,885 499,880 483,875 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="683" y1="880" x2="580" y2="880"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="683,885 699,880 683,875 "/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="640" y="860">canon(HTTP req)</text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="596.851" y1="929.753" x2="700" y2="916"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="596.19,924.797 580.991,931.868 597.512,934.709 "/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="660" y="940">HTTP resp</text>
+    </g>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="620" y="960">
+      <tspan x="620" y="960">(head+body)</tspan>
+    </text>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="438.4" y1="932" x2="500" y2="932"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="438.4,927 422.4,932 438.4,937 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="204.7" y1="932" x2="300" y2="932"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="204.7,927 188.7,932 204.7,937 "/>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke: none" x="600" y="1005.44" width="37" height="32.6471" rx="0" ry="0"/>
+      <ellipse style="fill: #ffffff; fill-opacity: 1; stroke: none" cx="618.5" cy="1038.09" rx="18.5" ry="5.44118"/>
+      <ellipse style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" cx="618.5" cy="1005.44" rx="18.5" ry="5.44118"/>
+      <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" d="M 637 1005.44 L 637,1038.09 C 637,1041.09 628.717,1043.53 618.5,1043.53 C 608.283,1043.53 600,1041.09 600,1038.09 L 600,1005.44"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="618.5" y="1055.53">
+        <tspan x="618.5" y="1055.53">Distributed</tspan>
+        <tspan x="618.5" y="1071.53">storage</tspan>
+      </text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="597.065" y1="986.795" x2="559.044" y2="932.963"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="592.981,989.679 606.296,999.864 601.15,983.91 "/>
+    </g>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="500" y="1000">
+      <tspan x="500" y="1000">(maybe inject)</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="160" y="860">
+      <tspan x="160" y="860">1</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="400" y="860">
+      <tspan x="400" y="860">2</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="560" y="860">
+      <tspan x="560" y="860">3</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="940">
+      <tspan x="720" y="940">4</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="560" y="960">
+      <tspan x="560" y="960">5</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="520" y="960">
+      <tspan x="520" y="960">6</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="320" y="960">
+      <tspan x="320" y="960">7</tspan>
+    </text>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="192.488" y1="1004.75" x2="157.151" y2="933.004"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="188.003,1006.96 199.558,1019.1 196.974,1002.54 "/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="300" y="980">canon(HTTP pxy req)+HTTP resp</text>
+    </g>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="120" y="1000">
+      <tspan x="120" y="1000">(seed</tspan>
+      <tspan x="120" y="1016">according</tspan>
+      <tspan x="120" y="1032">to config)</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="180" y="960">
+      <tspan x="180" y="960">8</tspan>
+    </text>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 4; stroke: #c0c0c0" x1="460" y1="840" x2="460" y2="1080"/>
+    <text font-size="12.8" style="fill: #c0c0c0; fill-opacity: 1; stroke: none;text-anchor:end;font-family:sans-serif;font-style:normal;font-weight:normal" x="440" y="840">
+      <tspan x="440" y="840">Client</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #c0c0c0; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="480" y="840">
+      <tspan x="480" y="840">Injector</tspan>
+    </text>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 4; stroke: #c0c0c0" x1="660" y1="840" x2="660" y2="1000"/>
+    <text font-size="12.8" style="fill: #c0c0c0; fill-opacity: 1; stroke: none;text-anchor:end;font-family:sans-serif;font-style:normal;font-weight:normal" x="640" y="840">
+      <tspan x="640" y="840">Injector</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #c0c0c0; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="680" y="840">
+      <tspan x="680" y="840">Origin</tspan>
+    </text>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 4; stroke: #000000" x1="80" y1="840" x2="80" y2="1080"/>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="20" y="880">
+      <tspan x="20" y="880">HTTP</tspan>
+      <tspan x="20" y="896">injector</tspan>
+    </text>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="200" y="1020" width="80" height="52" rx="20" ry="20"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="240" y="1041.9">
+        <tspan x="240" y="1041.9">Cache</tspan>
+        <tspan x="240" y="1057.9">manager</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="320" y="1020" width="121.4" height="52" rx="20" ry="20"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="380.7" y="1041.9">
+        <tspan x="380.7" y="1041.9">Cache</tspan>
+        <tspan x="380.7" y="1057.9">implementation</tspan>
+      </text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="303" y1="1020" x2="280" y2="1020"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="303,1025 319,1020 303,1015 "/>
+    </g>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="260" y="1000">
+      <tspan x="260" y="1000">9</tspan>
+    </text>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="100" y="1180" width="87.7" height="52" rx="20" ry="20"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="143.85" y="1201.9">
+        <tspan x="143.85" y="1201.9">Request</tspan>
+        <tspan x="143.85" y="1217.9">dispatcher</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="300" y="1180" width="80" height="52" rx="20" ry="20"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="340" y="1201.9">
+        <tspan x="340" y="1201.9">Cache</tspan>
+        <tspan x="340" y="1217.9">manager</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="500" y="1180" width="121.4" height="52" rx="20" ry="20"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="560.7" y="1201.9">
+        <tspan x="560.7" y="1201.9">Cache</tspan>
+        <tspan x="560.7" y="1217.9">implementation</tspan>
+      </text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="283" y1="1180" x2="187.7" y2="1180"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="283,1185 299,1180 283,1175 "/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="243.85" y="1160">canon(HTTP pxy req)</text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="483" y1="1180" x2="380" y2="1180"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="483,1185 499,1180 483,1175 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="397" y1="1232" x2="500" y2="1232"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="397,1227 381,1232 397,1237 "/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="460" y="1248">HTTP resp</text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="204.7" y1="1232" x2="300" y2="1232"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="204.7,1227 188.7,1232 204.7,1237 "/>
+    </g>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="160" y="1160">
+      <tspan x="160" y="1160">1</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="360" y="1160">
+      <tspan x="360" y="1160">2</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="520" y="1260">
+      <tspan x="520" y="1260">3</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="320" y="1260">
+      <tspan x="320" y="1260">4</tspan>
+    </text>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 4; stroke: #000000" x1="80" y1="1120" x2="80" y2="1280"/>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="20" y="1180">
+      <tspan x="20" y="1180">HTTP</tspan>
+      <tspan x="20" y="1196">cache</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="420" y="1260">
+      <tspan x="420" y="1260">(head+body)</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="20" y="320">
+      <tspan x="20" y="320">Web</tspan>
+      <tspan x="20" y="336">request</tspan>
+    </text>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 4; stroke: #000000" x1="80" y1="260" x2="80" y2="420"/>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="100" y="300" width="80" height="52" rx="20" ry="20"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="140" y="321.9">
+        <tspan x="140" y="321.9">Web</tspan>
+        <tspan x="140" y="337.9">proxy</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="300" y="300" width="87.7" height="52" rx="20" ry="20"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="343.85" y="321.9">
+        <tspan x="343.85" y="321.9">Request</tspan>
+        <tspan x="343.85" y="337.9">dispatcher</tspan>
+      </text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="283" y1="300" x2="180" y2="300"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="283,305 299,300 283,295 "/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="240" y="280">HTTP pxy req</text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="197" y1="352" x2="300" y2="352"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="197,347 181,352 197,357 "/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="260" y="380">HTTP resp</text>
+    </g>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="160" y="280">
+      <tspan x="160" y="280">1</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="400" y="280">
+      <tspan x="400" y="280">2</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="320" y="380">
+      <tspan x="320" y="380">3</tspan>
+    </text>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="387.7" y1="326" x2="435.557" y2="320.51"/>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" points="428.414,326.362 437.779,320.255 427.274,316.427 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="387.7" y1="326" x2="435.68" y2="338.844"/>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" points="426.887,341.666 437.84,339.422 429.473,332.006 "/>
+    </g>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="420" y1="300" x2="420" y2="360"/>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="460" y="340">
+      <tspan x="460" y="340">&lt;HTTP injector&gt;</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="460" y="360">
+      <tspan x="460" y="360">&lt;HTTP cache&gt;</tspan>
+    </text>
+    <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="400" y="380" width="80" height="40" rx="0" ry="0"/>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="440" y="396.425">
+      <tspan x="440" y="396.425">Dispatcher</tspan>
+      <tspan x="440" y="412.425">config</tspan>
+    </text>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="364.337" y1="353" x2="400" y2="400"/>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="220" y="400">
+      <tspan x="220" y="400">(head+body)</tspan>
+    </text>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="100" y="700" width="87.7" height="52" rx="20" ry="20"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="143.85" y="721.9">
+        <tspan x="143.85" y="721.9">Request</tspan>
+        <tspan x="143.85" y="737.9">dispatcher</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="300" y="700" width="121.4" height="52" rx="20" ry="20"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="360.7" y="721.9">
+        <tspan x="360.7" y="721.9">Hidden service</tspan>
+        <tspan x="360.7" y="737.9">implementation</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="500" y="700" width="80" height="52" rx="20" ry="20"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="540" y="721.9">
+        <tspan x="540" y="721.9">Proxy</tspan>
+        <tspan x="540" y="737.9">service</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="700" y="700" width="80" height="36" rx="20" ry="20"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="740" y="721.9">
+        <tspan x="740" y="721.9">Origin</tspan>
+      </text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="283" y1="700" x2="187.7" y2="700"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="283,705 299,700 283,695 "/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="243.85" y="680">HTTP pxy req</text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="483" y1="700" x2="421.4" y2="700"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="483,705 499,700 483,695 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="683" y1="700" x2="580" y2="700"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="683,705 699,700 683,695 "/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="640" y="680">HTTP req</text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="596.851" y1="749.753" x2="700" y2="736"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="596.19,744.797 580.991,751.868 597.512,754.709 "/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="660" y="760">HTTP resp</text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="438.4" y1="752" x2="500" y2="752"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="438.4,747 422.4,752 438.4,757 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="204.7" y1="752" x2="300" y2="752"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="204.7,747 188.7,752 204.7,757 "/>
+    </g>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="160" y="680">
+      <tspan x="160" y="680">1</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="400" y="680">
+      <tspan x="400" y="680">2</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="560" y="680">
+      <tspan x="560" y="680">3</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="720" y="760">
+      <tspan x="720" y="760">4</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="520" y="780">
+      <tspan x="520" y="780">5</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="320" y="780">
+      <tspan x="320" y="780">6</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="180" y="780">
+      <tspan x="180" y="780">7</tspan>
+    </text>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 4; stroke: #c0c0c0" x1="460" y1="660" x2="460" y2="800"/>
+    <text font-size="12.8" style="fill: #c0c0c0; fill-opacity: 1; stroke: none;text-anchor:end;font-family:sans-serif;font-style:normal;font-weight:normal" x="440" y="660">
+      <tspan x="440" y="660">Client</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #c0c0c0; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="480" y="660">
+      <tspan x="480" y="660">Proxy</tspan>
+    </text>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 4; stroke: #c0c0c0" x1="660" y1="660" x2="660" y2="800"/>
+    <text font-size="12.8" style="fill: #c0c0c0; fill-opacity: 1; stroke: none;text-anchor:end;font-family:sans-serif;font-style:normal;font-weight:normal" x="640" y="660">
+      <tspan x="640" y="660">Proxy</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #c0c0c0; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="680" y="660">
+      <tspan x="680" y="660">Origin</tspan>
+    </text>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 4; stroke: #000000" x1="80" y1="660" x2="80" y2="800"/>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="20" y="700">
+      <tspan x="20" y="700">HTTP</tspan>
+      <tspan x="20" y="716">proxy</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="620" y="780">
+      <tspan x="620" y="780">(head+body)</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="460" y="300">
+      <tspan x="460" y="300">&lt;HTTP origin&gt;</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="460" y="320">
+      <tspan x="460" y="320">&lt;HTTP proxy&gt;</tspan>
+    </text>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="387.7" y1="326" x2="435.995" y2="301.991"/>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" points="431.269,309.924 437.998,300.995 426.817,300.97 "/>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="387.7" y1="326" x2="436.251" y2="357.562"/>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" points="427.016,357.523 438.125,358.781 432.466,349.139 "/>
+    </g>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="200" y="180">
+      <tspan x="200" y="180">(head+body)</tspan>
+    </text>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="380.977" y1="122.927" x2="415.54" y2="120.334"/>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" points="408.172,125.901 417.77,120.167 407.424,115.929 "/>
+    </g>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="440" y="120">
+      <tspan x="440" y="120">&lt;Web request&gt;</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:700" x="720" y="120">
+      <tspan x="720" y="120">HTTPS</tspan>
+      <tspan x="720" y="136">request</tspan>
+      <tspan x="720" y="152"></tspan>
+      <tspan x="720" y="168">(always</tspan>
+      <tspan x="720" y="184">MitM)</tspan>
+    </text>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 4; stroke: #000000" x1="780" y1="60" x2="780" y2="220"/>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="800" y="100" width="80" height="36" rx="20" ry="20"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="840" y="121.9">
+        <tspan x="840" y="121.9">Browser</tspan>
+      </text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="1000" y="100" width="80" height="52" rx="20" ry="20"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1040" y="121.9">
+        <tspan x="1040" y="121.9">Web</tspan>
+        <tspan x="1040" y="137.9">proxy</tspan>
+      </text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="983" y1="100" x2="880" y2="100"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="983,105 999,100 983,95 "/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="940" y="80">HTTP CONNECT</text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="896.851" y1="138.247" x2="1000" y2="152"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="897.512,133.291 880.991,136.132 896.19,143.203 "/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="940" y="180">TLS socket fwd</text>
+    </g>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="860" y="80">
+      <tspan x="860" y="80">1</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1100" y="100">
+      <tspan x="1100" y="100">5</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1020" y="180">
+      <tspan x="1020" y="180">4</tspan>
+    </text>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 4; stroke: #c0c0c0" x1="940" y1="60" x2="940" y2="220"/>
+    <text font-size="12.8" style="fill: #c0c0c0; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="960" y="60">
+      <tspan x="960" y="60">Client</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #c0c0c0; fill-opacity: 1; stroke: none;text-anchor:end;font-family:sans-serif;font-style:normal;font-weight:normal" x="920" y="60">
+      <tspan x="920" y="60">Browser</tspan>
+    </text>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="1120" y="160" width="98.1" height="52" rx="20" ry="20"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1169.05" y="181.9">
+        <tspan x="1169.05" y="181.9">Certification</tspan>
+        <tspan x="1169.05" y="197.9">authority</tspan>
+      </text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="1102.56" y1="168.483" x2="1040" y2="152"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="1101.29,173.318 1118.04,172.559 1103.84,163.648 "/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1120" y="160">host</text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="1055.65" y1="158.649" x2="1120" y2="186"/>
+      <polygon style="fill: #000000; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="1057.6,154.048 1040.92,152.391 1053.69,163.251 "/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1100" y="200">cert</text>
+    </g>
+    <g>
+      <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x1="1080.98" y1="122.927" x2="1115.54" y2="120.334"/>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" points="1108.17,125.901 1117.77,120.167 1107.42,115.929 "/>
+    </g>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1140" y="120">
+      <tspan x="1140" y="120">&lt;Web request&gt;</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1080" y="160">
+      <tspan x="1080" y="160">2</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="1120" y="220">
+      <tspan x="1120" y="220">3</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="860" y="680">
+      <tspan x="860" y="680">HTTP/1.1 200 OK</tspan>
+      <tspan x="860" y="696">Server: xginn/1.2.3</tspan>
+      <tspan x="860" y="712">Date: Mon, 27 Nov 2017 20:17:44 GMT</tspan>
+      <tspan x="860" y="728">Content-Type: text/html</tspan>
+      <tspan x="860" y="744">Content-Length: 867</tspan>
+      <tspan x="860" y="760">Last-Modified: Mon, 14 Sep 2015 15:57:26 GMT</tspan>
+      <tspan x="860" y="776">ETag: "55f6ee66-363"</tspan>
+      <tspan x="860" y="792">Connection: close</tspan>
+      <tspan x="860" y="808"></tspan>
+      <tspan x="860" y="824">&lt;BODY&gt;</tspan>
+    </text>
+    <rect style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="840" y="660" width="360" height="180" rx="0" ry="0"/>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="820" y="320">
+      <tspan x="820" y="320">HTTP pxy req:</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="860" y="360">
+      <tspan x="860" y="360">GET https://example.com/foo.html HTTP/1.1</tspan>
+      <tspan x="860" y="376">Host: example.com</tspan>
+      <tspan x="860" y="392">Accept: text/html</tspan>
+      <tspan x="860" y="408">Accept-Language: en-US;en</tspan>
+      <tspan x="860" y="424">Connection: close</tspan>
+    </text>
+    <rect style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="840" y="340" width="360" height="100" rx="0" ry="0"/>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="860" y="520">
+      <tspan x="860" y="520">GET /foo.html HTTP/1.1</tspan>
+      <tspan x="860" y="536">Host: example.com</tspan>
+      <tspan x="860" y="552">Accept: text/html</tspan>
+      <tspan x="860" y="568">Accept-Language: en-US;en</tspan>
+      <tspan x="860" y="584">Connection: close</tspan>
+    </text>
+    <rect style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="840" y="500" width="360" height="100" rx="0" ry="0"/>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="820" y="480">
+      <tspan x="820" y="480">HTTP req:</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="820" y="640">
+      <tspan x="820" y="640">HTTP resp:</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="820" y="880">
+      <tspan x="820" y="880">HTTP CONNECT:</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="860" y="920">
+      <tspan x="860" y="920">CONNECT example.com:443 HTTP/1.1</tspan>
+      <tspan x="860" y="936">Host: example.com:443</tspan>
+    </text>
+    <rect style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="840" y="900" width="360" height="60" rx="0" ry="0"/>
+    <line style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke-dasharray: 4; stroke: #c0c0c0" x1="240" y1="260" x2="240" y2="420"/>
+    <text font-size="12.8" style="fill: #c0c0c0; fill-opacity: 1; stroke: none;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="260" y="260">
+      <tspan x="260" y="260">Client library</tspan>
+    </text>
+    <text font-size="12.8" style="fill: #c0c0c0; fill-opacity: 1; stroke: none;text-anchor:end;font-family:sans-serif;font-style:normal;font-weight:normal" x="220" y="260">
+      <tspan x="220" y="260">API</tspan>
+    </text>
+  </g>
+</svg>

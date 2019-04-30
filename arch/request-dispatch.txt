@@ -1,0 +1,89 @@
+This is a proposal for handling HTTP/HTTPS requests in Ouinet.  In the "branch
+diagrams" described below, the big circles represent system components, the
+texts close to them the info passed between components, the arrows the
+direction of info flow, and the numbers the order of operations.  When an
+arrow has no accompanying text, the same info from the previous arrow is
+assumed.  The big boxes show examples on the content of plain HTTP requests
+and responses, HTTP proxy requests (with an `absoluteURI` as in RFC2616) and
+HTTP `CONNECT` requests.
+
+Since both HTTP and HTTPS are clearly related with web usage, the two initial
+branches "HTTP request" and "HTTPS request" start at the browser itself.  The
+HTTP one works in a request/response basis while the HTTPS one works in a
+connect/socket basis, which may need support for the two approaches in the web
+proxy component.
+
+----
+
+**HTTP request** describes the case when the *browser* tries to load a plain
+HTTP URL.  It contacts the *web proxy* provided by the Ouinet client and sends
+an *HTTP proxy request* to it.  The web proxy performs the **web request** (as
+described below) and sends the obtained *HTTP response* (head and body) back
+to the *browser*.
+
+The case for the **HTTPS request** is more complex since the browser sends to
+the *web proxy* an *HTTP CONNECT* request, which only reveals the host and
+port of the server to connect to.  To be able to access the full information
+about the request, the *web proxy* proceeds to perform a man-in-the-middle by
+asking the client's *certification authority* for a *certificate*
+(incl. private key) for the request's host, and goes on to establish a TLS
+connection with the *browser* for the rest of the traffic.  Once it can access
+the plain text request, the web proxy performs the **web request** (as
+described below) and sends the obtained *HTTP response* (head and body) back
+to the *browser*.
+
+To perform a **web request**, the *web proxy* sends the *HTTP proxy request*
+(containing either an ``http://...`` or ``https://...`` URL) to the *request
+dispatcher* (using the API to access the client library).  The dispatcher uses
+its *dispatcher configuration* to match the request and decide whether to send
+it to the origin, to the proxy, to the injector or to the cache, which makes
+the flow continue to the **HTTP origin**, **HTTP proxy**, **HTTP injector** or
+**HTTP cache** branches, respectively (see below).  In any case, an *HTTP
+response* (head and body) is obtained and passed back to the *web proxy*.
+
+----
+
+The **dispatcher configuration** may for instance consist of a list of
+*request expressions* and associated *access mechanisms*.  The request is
+matched against the expressions until one succeds, in which case the listed
+mechanisms are tried in order until one succeeds to download the resource.  A
+*default policy* selects the mechanisms to use when no expression matches.
+
+Possible access mechanisms are: `origin` (i.e. clearnet access), `proxy` (HTTP
+Proxy ouiservice), `injector` (caching Injector ouiservice), `cache`
+(distributed cache).  Policy `proxy injector cache` attempts to retrieve the
+freshest possible content without hitting clearnet; `injector cache` gives
+more importance to publishing content to the cache than getting fresh content.
+A default policy of `origin proxy` always tries to fetch fresh content and
+avoids caching it for privacy reasons.
+
+----
+
+In **HTTP origin** (i.e. send request to origin), the *request dispatcher*
+sends the *HTTP pxy req* to the *origin server client*, which performs a
+normal *HTTP request* via HTTP or HTTPS (scheme-less, e.g. `GET /foo.txt
+HTTP/1.1` with `Host: example.com`).  The *HTTP response* from the *origin* is
+passed back to the *origin server client* and the *request dispatcher*.
+
+In **HTTP proxy** (i.e. send request via proxy), the *request dispatcher*
+sends the *HTTP pxy req* to the *hidden-service implementation* (HSI), which
+forwards the info to the *proxy service*.  The proxy sends the corresponding
+*HTTP request* to the *origin*, which replies with an *HTTP response* which is
+passed all the way back to the *request dispatcher*.
+
+In **HTTP injector** (i.e. send request to injector), the *request dispatcher*
+sends the canonicalized *HTTP pxy req* to the *hidden-service implementation*,
+which forwards the info to the *injector service*.  The injector sends the
+corresponding canonicalized *HTTP request* to the *origin* (via HTTP or HTTPS)
+and gets an *HTTP reponse* back, which is forwarded back to the dispatcher.
+The injector uses different information from the request and response to
+decide whether to inject it in the distributed cache.  The dispatcher may also
+decide to cache and seed the response: it sends both the canonicalized *HTTP
+pxy req* and the *HTTP resp* (head and body) to the *cache manager* which
+sends it to the *cache implementation* for storage.
+
+In **HTTP cache** (i.e. retrieve page from cache), the *request dispatcher*
+sends the canonicalized *HTTP pxy req* to the *cache manager*, which sends the
+request to the *cache implementation*, which retrieves the stored *HTTP
+response* and sends it back to the *cache manager* and the *request
+dispatcher*.
