@@ -62,11 +62,11 @@ The CENO browser for Android is available [in Google Play](https://play.google.c
 
 CENO is completely Free/Libre/Open Source Software.  If you are interested in its source code please check the following Git repositories:
 
-  - Browser components: [Firefox fork](https://github.com/equalitie/gecko-dev/tree/ceno), [included extensions](https://github.com/equalitie/ouifennec-distribution), [settings extension source](https://github.com/equalitie/ouifennec-ext-settings)
+  - Browser components: [Firefox fork](https://github.com/censorship-no/ceno-browser/tree/ceno), [included extensions](https://github.com/censorship-no/ceno-distribution), [settings extension source](https://github.com/censorship-no/ceno-ext-settings)
   - [Ouinet source](https://github.com/equalitie/ouinet)
   - Other project-related repositories: [Censorship.no! GitHub organization](https://github.com/censorship-no)
 
-You may also be interested in the (no longer maintained) [previous incarnation of CENO](https://github.com/equalitie/ceno), built on the [Freenet][] anonymous file sharing and content publishing network.
+You may also be interested in the (no longer maintained) [previous incarnation of CENO](https://github.com/censorship-no-archive/ceno1), built on the [Freenet][] anonymous file sharing and content publishing network.
 
 [Freenet]: https://freenetproject.org/
 
