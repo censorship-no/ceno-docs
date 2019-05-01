@@ -1,4 +1,4 @@
-# Censorship.No!
+# Censorship.no!
 
 ![](./images/ceno-logo.png "CENO logo")
 
