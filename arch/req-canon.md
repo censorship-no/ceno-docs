@@ -430,8 +430,11 @@ From <https://en.wikipedia.org/wiki/List_of_HTTP_header_fields#Request_fields>:
     Browser…), including this information would reduce request reusability for
     probably no relevant benefit.
 
-  - `TE`: DROP: This header only indicates how the transfer with the first
+  - `TE`: ADD: This header only indicates how the transfer with the first
     entity takes place, it is irrelevant for further or future connections.
+    However, in client-to-injector requests the client should indicate that it
+    will take care of the trailer, since some cache back-ends may use them for
+    hashes, signatures, etc.
 
   - `User-Agent`: ADD: Although we may want to leave privacy enhancement of
     requests to dedicated tools (Privoxy, Tor Browser…), leaving the browser's
@@ -486,6 +489,7 @@ A simple request coming from a desktop browser for URL
     Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8(CRLF)
     Accept-Encoding: (CRLF)
     Accept-Language: ca,en-US;q=0.7,en;q=0.3(CRLF)
+    TE: trailers(CRLF)
     Upgrade-Insecure-Requests: 1(CRLF)
     User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:60.0) Gecko/20100101 Firefox/60.0(CRLF)
     X-Ouinet-Version: 0(CRLF)
@@ -502,6 +506,7 @@ A ``HEAD`` request with all possible headers:
     DNT: 1(CRLF)
     From: Ouinet API tester(CRLF)
     Origin: http://example.net:8080(CRLF)
+    TE: trailers(CRLF)
     Upgrade-Insecure-Requests: 1(CRLF)
     User-Agent: Mozilla/5.0 (Windows NT 6.1; rv:60.0) Gecko/20100101 Firefox/60.0(CRLF)
     X-Ouinet-Version: 0(CRLF)
