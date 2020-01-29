@@ -76,6 +76,10 @@ If you want to remove all stored pages, you can use the standard procedures to d
 
 ----
 
+# Screenshots
+
+Can be found in the [images/screenshots folder](images/screenshots)
+
 # About eQualitie
 
 ![](./images/equalitie-logo.png "eQualitie logo")
