@@ -33,22 +33,6 @@ We recommend that you use this tool in controlled environments and **only assume
 
 We keep on working to make this software better, and your feedback to <cenoers@equalit.ie> is very welcome!
 
-----
-
-# Why CENO?
-
-The majority of internationally-bound traffic in countries that filter content requests is routed through a fixed number of centralized exchanges where surveillance and censorship technology is installed.  Traditional circumvention technologies require the user to connect directly to a proxy in the uncensored zone.  This design gives the censor an advantage in locating and blocking popular proxies, VPN servers, relays, bridges, etc.
-
-## The CENO advantage
-
-![Overview of the CENO network](./images/ceno-infographic.png)
-
-CENO proposes a fundamentally different solution: reduce the requests to externally available proxy servers and enable the storage of retrieved content inside the censored zone.  CENO's advantage comes from being both a transport and a storage solution.
-
-Peer-to-peer routing is the ideal solution for the “cat and mouse” scenario that most circumvention providers end up playing with the censor.  Clients need not know the location of a proxy to relay censored content, instead using small world networks to connect to their peers, and eventually to a proxy in the uncensored zone.
-
-Once a website is accessed by a single user, it is stored and continues to propagate inside the country peer-to-peer.  Content remains available inside the censored zone even if external connectivity is cut.  Content can be seeded into the network via alternative means as well (e.g. uploaded from a USB drive).
-
 # Features
 
   - Browse with normal speeds when Internet access is not censored.
