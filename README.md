@@ -50,6 +50,44 @@ VPNs for people who can't access blocked websites.
 In addition any publicly available content that any CENO user visits shall be
 shared in a BitTorrent like fashion to others.
 
+## What does not work (yet)
+
+As mentioned, CENO is still in its alpha stage. Here is a list of important
+information CENO users need to know:
+
+### Battery and data usage
+
+To prolong availability of CENO bridges, the CENO browser shall continue
+working even when it goes to the background. We have not yet put in place
+functionality which would disable all networking operations when the device
+switches to cellular internet, nor when it is disconnected from the charger.
+
+Until we implement this functionality, to preserve the device batter and
+network bandwidth, users need to explicitly disable CENO either by shutting it
+down from Android's list of running applications, or by tapping the "Tap to
+stop CENO" button from the notification area.
+
+### CENO is not an anonymizer
+
+CENO users should also be aware of the fact that CENO is not a network to
+anonymize users such as Tor or I2P. More akin to BitTorrent, IP addresses or
+users sharing particular content is publicly visible by anyone understanding
+the internals of the BitTorrent DHT protocol.
+
+### Complete blackout
+
+At the moment, CENO relies on bridge nodes whose IP addesses are not black
+listed by countries with hars censorship (hence why support from ordinary
+people is so important to us). However, in the event of a complete internet
+blackout where no data can pass the internation boundary, CENO will cease to
+work.
+
+In the future we're hoping to address this problem by:
+
+1. Letting users "import" web content by other means than the Internet into the
+   censored zones and then disseminate it in a distributed fashion.
+2. Modifying the protocol to find alternative routes to relay the traffic
+   outside of the censored country and back if one exists. 
 # Features
 
   - Browse with normal speeds when Internet access is not censored.
