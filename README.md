@@ -20,9 +20,15 @@ The *Censorship.no!* project is run by [eQualitie][] in support of Articles 18, 
 [eQualitie]: https://equalit.ie/
 [Universal Declaration of Human Rights]: https://www.un.org/en/universal-declaration-human-rights/
 
+# Current Status
+
+CENO is currently in its ALPHA stage. It is being tested in censored countries
+and while there are still many more-or-less small things that need to be done
+before we move to BETA stage.
+
 # Warning!
 
-CENO is still **highly experimental alpha software**.  We offer it with the best intention that it is useful to you, but due to its highly innovative nature and stage of development, you may expect some issues while using it.  In particular:
+CENO is still **experimental ALPHA software**.  We offer it with the best intention that it is useful to you, but due to its highly innovative nature and stage of development, you may expect some issues while using it.  In particular:
 
   - The availability of web content (especially under censorship conditions) may vary widely with factors like web site configuration, network capacity, and the presence, connectivity and browsing behavior of other CENO users.  The behavior of the mechanisms currently used to share content between users may be erratic.
   - The application may use substantial device resources like network traffic, disk space and battery power.
@@ -30,7 +36,19 @@ CENO is still **highly experimental alpha software**.  We offer it with the best
 
 We recommend that you use this tool in controlled environments and **only assume reasonable risks**.  eQualitie and its associates decline any legal responsibility derived from the use of this software.
 
-We keep on working to make this software better, and your feedback to <cenoers@equalit.ie> is very welcome!
+## What works
+
+Basic functionality is in place and it currently being tested. Provided that
+there is enough bridges outside of censored countries, and that those countries
+haven't sealed off their international communication completely, CENO users are
+able to connect to blocked websites and then share the content to other peers.
+
+When users start the CENO browser, they automatically become part of the CENO
+network. This means that - when possible - these devices shall act as temporary
+VPNs for people who can't access blocked websites.
+
+In addition any publicly available content that any CENO user visits shall be
+shared in a BitTorrent like fashion to others.
 
 # Features
 
@@ -66,6 +84,10 @@ When you access or *request* a web page using CENO, the application first looks 
 
 Users can selectively disable each of these mechanisms so that they are skipped altogether.  In the CENO application menu, just select the *CENO* entry and use the check boxes corresponding to the different mechanisms.
 
+# Caching
+
+Once a particular content has crossed the boundary to a censored zone, it is furhter distributed in a BitTorrent-like fashion. This has 
+
 # On content storage and availability
 
 As you can see, your application will only be sharing *content that you have previously accessed*, and it will do that while it is running.  Conversely, if access to a page's origin or to the injector is not possible, the page will only be available if other users who have previously accessed the same page are still running their application.  The more applications actively sharing a page, the more chances for other users to get it.
@@ -75,6 +97,10 @@ Content does not stay in your device forever.  After your application has stored
 If you want to remove all stored pages, you can use the standard procedures to delete the application's data in Android.  Be warned that currently *this will also remove other information* like favorites and browsing history from CENO.  We may later on add a way to remove stored pages without having to delete all application data.
 
 ----
+
+# Feedback
+
+We keep on working to make this software better, and your feedback to <cenoers@equalit.ie> is very welcome!
 
 # Screenshots
 
