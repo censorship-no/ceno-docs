@@ -30,6 +30,7 @@ before we move to BETA stage.
 
 CENO is still **experimental ALPHA software**.  We offer it with the best intention that it is useful to you, but due to its highly innovative nature and stage of development, you may expect some issues while using it.  In particular:
 
+#### Complete blackout
   - The availability of web content (especially under censorship conditions) may vary widely with factors like web site configuration, network capacity, and the presence, connectivity and browsing behavior of other CENO users.  The behavior of the mechanisms currently used to share content between users may be erratic.
   - The application may use substantial device resources like network traffic, disk space and battery power.
   - Last but not least, **CENO is not an anonymity tool**: information about your browsing might be leaked to other CENO users, as well as the fact that your application is providing particular web content to others.  Content accessed with the application may stay in storage in clear text for some time (continue reading for more information on this).  Other security or privacy-affecting issues might exist.
