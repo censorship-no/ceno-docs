@@ -138,7 +138,8 @@ If you want to remove all stored pages, you can use the standard procedures to d
 
 # Feedback
 
-We keep on working to make this software better, and your feedback to <cenoers@equalit.ie> is very welcome!
+As mentioned, we're currently in a testing phase and are happy to receive
+positive and negative feedback as well as questions at <cenoers@equalit.ie>.
 
 # Screenshots
 
