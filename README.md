@@ -95,6 +95,29 @@ VPNs for people who can't access blocked websites.
 In addition any publicly available content that any CENO user visits shall be
 shared in a BitTorrent like fashion to others.
 
+# How to use CENO
+
+### As a user
+
+Using CENO is as easy as downloading the application on an Android device
+and use it to browse web sites as one would with other mainstream browsers.
+
+One caveat however is that to at the moment, to access private web sites
+such as Twitter, Facebook or Gmail, one has to access it through the
+incognito tab. This is because the non-incognito tab strips down all
+private data from HTTP requests to ensure they don't get leaked into
+the distributed cache.
+
+On the other hand, the incognito tab leaves private data (e.g. passwords)
+intact but the connection stays encrypted and thus only the destination server
+can see the details of rht HTTP transaction (making caching impossible).
+
+### As a bridge
+
+Bridges help route HTTP exchanges to and from censored zones. To become
+a bridge is again as easy as installing the CENO browser on an Android
+device and leaving it running for as long as possible.
+
 # Features
 
   - Browse with normal speeds when Internet access is not censored.
