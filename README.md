@@ -20,34 +20,103 @@ The *Censorship.no!* project is run by [eQualitie][] in support of Articles 18, 
 [eQualitie]: https://equalit.ie/
 [Universal Declaration of Human Rights]: https://www.un.org/en/universal-declaration-human-rights/
 
+# Current Status
+
+CENO is currently in its ALPHA stage. It is being tested in censored countries
+and while there are still many more-or-less small things that need to be done
+before we move to BETA stage.
+
 # Warning!
 
-CENO is still **highly experimental alpha software**.  We offer it with the best intention that it is useful to you, but due to its highly innovative nature and stage of development, you may expect some issues while using it.  In particular:
+CENO is still **experimental ALPHA software**.  We offer it with the best
+intention that it is useful to you, but due to its highly innovative nature and
+stage of development, you may expect some issues while using it.
 
-  - The availability of web content (especially under censorship conditions) may vary widely with factors like web site configuration, network capacity, and the presence, connectivity and browsing behavior of other CENO users.  The behavior of the mechanisms currently used to share content between users may be erratic.
-  - The application may use substantial device resources like network traffic, disk space and battery power.
-  - The application may experience hangs or crashes.
-  - Last but not least, **CENO is not an anonymity tool**: information about your browsing might be leaked to other CENO users, as well as the fact that your application is providing particular web content to others.  Content accessed with the application may stay in storage in clear text for some time (continue reading for more information on this).  Other security or privacy-affecting issues might exist.
+We recommend that you use this tool in controlled environments and **only
+assume reasonable risks**.  eQualitie and its associates decline any legal
+responsibility derived from the use of this software.
 
-We recommend that you use this tool in controlled environments and **only assume reasonable risks**.  eQualitie and its associates decline any legal responsibility derived from the use of this software.
+#### Batter and data usage
 
-We keep on working to make this software better, and your feedback to <cenoers@equalit.ie> is very welcome!
+To prolong availability of CENO bridges, the CENO browser shall continue
+working even when it goes to the background. We have not yet put in place
+functionality which would disable all networking operations when the device
+switches to cellular internet, nor when it is disconnected from the charger.
 
-----
+Until we implement this functionality, to preserve the device batter and
+network bandwidth, users need to explicitly disable CENO either by shutting it
+down from Android's list of running applications, or by tapping the "Tap to
+stop CENO" button from the notification area.
 
-# Why CENO?
+#### CENO is not an anonymity tool
 
-The majority of internationally-bound traffic in countries that filter content requests is routed through a fixed number of centralized exchanges where surveillance and censorship technology is installed.  Traditional circumvention technologies require the user to connect directly to a proxy in the uncensored zone.  This design gives the censor an advantage in locating and blocking popular proxies, VPN servers, relays, bridges, etc.
+CENO users should also be aware of the fact that CENO is not a network to
+anonymize users such as Tor or I2P. More akin to BitTorrent, IP addresses or
+users sharing particular content is publicly visible by anyone understanding
+the internals of the BitTorrent DHT protocol.
 
-## The CENO advantage
+Information about your browsing might be leaked to other CENO users, as well as
+the fact that your application is providing particular web content to others.
+Content accessed with the application may stay in storage in clear text for
+some time (continue reading for more information on this).  Other security or
+privacy-affecting issues might exist.
 
-![Overview of the CENO network](./images/ceno-infographic.png)
+#### Censorship circumvention may fail
 
-CENO proposes a fundamentally different solution: reduce the requests to externally available proxy servers and enable the storage of retrieved content inside the censored zone.  CENO's advantage comes from being both a transport and a storage solution.
+At the moment, CENO relies on bridge nodes whose IP addesses are not black
+listed by countries with hars censorship (hence why support from ordinary
+people is so important to us). However, in the event of a complete internet
+blackout where no data can pass the internation boundary, CENO will cease to
+work.
 
-Peer-to-peer routing is the ideal solution for the “cat and mouse” scenario that most circumvention providers end up playing with the censor.  Clients need not know the location of a proxy to relay censored content, instead using small world networks to connect to their peers, and eventually to a proxy in the uncensored zone.
+The availability of web content (especially under censorship conditions) may
+vary widely with factors like web site configuration, network capacity, and the
+presence, connectivity and browsing behavior of other CENO users.  The behavior
+of the mechanisms currently used to share content between users may be erratic.
 
-Once a website is accessed by a single user, it is stored and continues to propagate inside the country peer-to-peer.  Content remains available inside the censored zone even if external connectivity is cut.  Content can be seeded into the network via alternative means as well (e.g. uploaded from a USB drive).
+In the future we're hoping to address these problem by:
+
+1. Letting users "import" web content by other means than the Internet into the
+   censored zones and then disseminate it in a distributed fashion.
+2. Modifying the protocol to find alternative routes to relay the traffic
+   outside of the censored country and back if one exists. 
+
+## What works
+
+Basic functionality is in place and it currently being tested. Provided that
+there is enough bridges outside of censored countries, and that those countries
+haven't sealed off their international communication completely, CENO users are
+able to connect to blocked websites and then share the content to other peers.
+
+When users start the CENO browser, they automatically become part of the CENO
+network. This means that - when possible - these devices shall act as temporary
+VPNs for people who can't access blocked websites.
+
+In addition any publicly available content that any CENO user visits shall be
+shared in a BitTorrent like fashion to others.
+
+# How to use CENO
+
+### As a user
+
+Using CENO is as easy as downloading the application on an Android device
+and use it to browse web sites as one would with other mainstream browsers.
+
+One caveat however is that to at the moment, to access private web sites
+such as Twitter, Facebook or Gmail, one has to access it through the
+incognito tab. This is because the non-incognito tab strips down all
+private data from HTTP requests to ensure they don't get leaked into
+the distributed cache.
+
+On the other hand, the incognito tab leaves private data (e.g. passwords)
+intact but the connection stays encrypted and thus only the destination server
+can see the details of rht HTTP transaction (making caching impossible).
+
+### As a bridge
+
+Bridges help route HTTP exchanges to and from censored zones. To become
+a bridge is again as easy as installing the CENO browser on an Android
+device and leaving it running for as long as possible.
 
 # Features
 
@@ -83,6 +152,10 @@ When you access or *request* a web page using CENO, the application first looks 
 
 Users can selectively disable each of these mechanisms so that they are skipped altogether.  In the CENO application menu, just select the *CENO* entry and use the check boxes corresponding to the different mechanisms.
 
+# Caching
+
+Once a particular content has crossed the boundary to a censored zone, it is furhter distributed in a BitTorrent-like fashion. This has 
+
 # On content storage and availability
 
 As you can see, your application will only be sharing *content that you have previously accessed*, and it will do that while it is running.  Conversely, if access to a page's origin or to the injector is not possible, the page will only be available if other users who have previously accessed the same page are still running their application.  The more applications actively sharing a page, the more chances for other users to get it.
@@ -91,7 +164,54 @@ Content does not stay in your device forever.  After your application has stored
 
 If you want to remove all stored pages, you can use the standard procedures to delete the application's data in Android.  Be warned that currently *this will also remove other information* like favorites and browsing history from CENO.  We may later on add a way to remove stored pages without having to delete all application data.
 
+# Help by becoming a bridge
+
+As mentioned above, because random IP addresses are usually not blocked, CENO
+relies on users outside of censored zones to act as bridges. Therefore we'd
+like to ask people willing to help the CENO project as well as people behind the
+internet walls to install the CENO browser on an Android device, start it up
+and let it run for as long as possible.
+
+# CENO Browser Settings Page
+
+CENO provides a small settings page that can be accessed by clicking the Fennec
+"options" icon (three vertical dots in the top right corner) and then clicking
+the "CENO" option. It should be noted that these settings need not be tweaked
+for normal operation. As of this writing, they are mainly there to help debugging
+different strategies of censorship avoidance.
+
+In particular, the page contains these four editable options:
+
+* Origin access: when enabled, this instructs CENO that it may try accessing
+  the origin web server directly. Mostly for non encrypted web sites, it may
+  be the case that the censor supplies to the user a bogus website in which
+  case CENO can't distinguish it from the real one. In such case it may help
+  to disable this option and thus to alway use CENOs multi hop transport
+  to get the content.
+* Proxy access: this option instructs CENO that it can bypass the distributed
+  cache mechanism. If other options are disabled, HTTPS exchanges shall be
+  routed through bridges and injectors, but they'll be encrypted in such a
+  way that only the destination servers can decrypt them.
+* Injector access: when enabled, HTTP requests made from the non-incognito
+  tab shall be stripped from any private information (e.g. non white listed
+  HTTP headers, GET variables and all non GET requests shall be stripped
+  away) and sent to the injector. Injector shall get the HTTP response
+  from origin servers, sign it and send it back to the CENO client. Because
+  the response is signed, the CENO client shall start sharing that HTTP
+  response using BitTorrent like protocol.
+* Distributed cache option allows the CENO client to make HTTP requests 
+  to the distributed cache.
+
 ----
+
+# Feedback
+
+As mentioned, we're currently in a testing phase and are happy to receive
+positive and negative feedback as well as questions at <cenoers@equalit.ie>.
+
+# Screenshots
+
+Can be found in the [images/screenshots folder](images/screenshots)
 
 # About eQualitie
 
