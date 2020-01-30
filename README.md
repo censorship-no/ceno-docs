@@ -141,6 +141,14 @@ Content does not stay in your device forever.  After your application has stored
 
 If you want to remove all stored pages, you can use the standard procedures to delete the application's data in Android.  Be warned that currently *this will also remove other information* like favorites and browsing history from CENO.  We may later on add a way to remove stored pages without having to delete all application data.
 
+# Help by becoming a bridge
+
+As mentioned above, because random IP addresses are usually not blocked, CENO
+relies on users outside of censored zones to act as bridges. Therefore we'd
+like to ask people willing to help the CENO project as well as people behind the
+internet walls to install the CENO browser on an Android device, start it up
+and let it run for as long as possible.
+
 ----
 
 # Feedback
