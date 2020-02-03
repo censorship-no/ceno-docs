@@ -2,11 +2,11 @@
 
 ![](./images/ceno-logo.png "CENO logo")
 
-CENO (short for [Censorship.no!][]) is a mobile Web browser using a novel approach to circumventing Internet censorship, targeting to enable unfettered access to the World Wide Web for netizens operating in highly restrictive Internet environments.
+CENO (short for [Censorship.no!][]) is a mobile Web browser using a novel approach to circumvent Internet censorship infrastructure, allowing users living in a censored zone to share retrieved content with each other, peer to peer. 
 
 [Censorship.no!]: https://censorship.no/
 
-CENO users do not need to know a friendly proxy server in the uncensored zone in order to bypass local filtering — setting CENO apart from most other circumvention initiatives.  CENO is being built in expectation of aggressive Internet filtering and the establishment of [national intranets][] to fence off nations from the Web.
+CENO users do not need to know a friendly proxy server in an uncensored zone in order to bypass local filtering — setting CENO apart from most other circumvention initiatives.  CENO is being built in expectation of aggressive Internet filtering and the establishment of [national intranets][] to fence off nations from the Web.
 
 [national intranets]: http://en.wikipedia.org/wiki/National_intranet
 
@@ -22,108 +22,39 @@ The *Censorship.no!* project is run by [eQualitie][] in support of Articles 18, 
 
 # Current Status
 
-CENO is currently in its ALPHA stage. It is being tested in censored countries
-and while there are still many more-or-less small things that need to be done
-before we move to BETA stage.
+CENO is currently in ALPHA release. It is being tested in countries that censor large parts of the Internet from their citizens. A number of smaller tasks remain to be done before the software is moved into a BETA release.
 
-# Warning!
+# Warnings!
 
-CENO is still **experimental ALPHA software**.  We offer it with the best
-intention that it is useful to you, but due to its highly innovative nature and
-stage of development, you may expect some issues while using it.
+CENO is still **experimental ALPHA software**.  We offer it with the best intention that it is useful to you, but due to its highly innovative nature and stage of development, you may expect some issues while using it.
 
-We recommend that you use this tool in controlled environments and **only
-assume reasonable risks**.  eQualitie and its associates decline any legal
-responsibility derived from the use of this software.
+We recommend that you use this tool in controlled environments and **only assume reasonable risks**. eQualitie and its associates decline any legal responsibility derived from the use of this software. See 'Operational Warnings' below for more information on what you need to be aware of in running the Aplha release. 
 
-#### Batter and data usage
+## What currently works
+  - Browse any website with normal speed when Internet access to the resource is not censored.
+  - Browse any website (with slightly slower connection time) when it has been selectively censored (via DNS or IP).
+  - Retrieve requested website content directly from the distributed cache and naturally browse web pages that other people have previously visited, even when the resource or any existing CENO injectors are not accessible. 
+  
+When users start the CENO browser, they automatically become part of the CENO network. This means that - when possible - these devices shall act as temporary proxies (bridges) for people who cannot access desired websites due to network censorship.
 
-To prolong availability of CENO bridges, the CENO browser shall continue
-working even when it goes to the background. We have not yet put in place
-functionality which would disable all networking operations when the device
-switches to cellular internet, nor when it is disconnected from the charger.
+Provided that there are enough CENO bridges located outside of the censored zone, and that the country has not sealed off international communication completely, CENO users are able to connect to any website and then share its contents with other peers.
 
-Until we implement this functionality, to preserve the device batter and
-network bandwidth, users need to explicitly disable CENO either by shutting it
-down from Android's list of running applications, or by tapping the "Tap to
-stop CENO" button from the notification area.
-
-#### CENO is not an anonymity tool
-
-CENO users should also be aware of the fact that CENO is not a network to
-anonymize users such as Tor or I2P. More akin to BitTorrent, IP addresses or
-users sharing particular content is publicly visible by anyone understanding
-the internals of the BitTorrent DHT protocol.
-
-Information about your browsing might be leaked to other CENO users, as well as
-the fact that your application is providing particular web content to others.
-Content accessed with the application may stay in storage in clear text for
-some time (continue reading for more information on this).  Other security or
-privacy-affecting issues might exist.
-
-#### Censorship circumvention may fail
-
-At the moment, CENO relies on bridge nodes whose IP addesses are not black
-listed by countries with hars censorship (hence why support from ordinary
-people is so important to us). However, in the event of a complete internet
-blackout where no data can pass the internation boundary, CENO will cease to
-work.
-
-The availability of web content (especially under censorship conditions) may
-vary widely with factors like web site configuration, network capacity, and the
-presence, connectivity and browsing behavior of other CENO users.  The behavior
-of the mechanisms currently used to share content between users may be erratic.
-
-In the future we're hoping to address these problem by:
-
-1. Letting users "import" web content by other means than the Internet into the
-   censored zones and then disseminate it in a distributed fashion.
-2. Modifying the protocol to find alternative routes to relay the traffic
-   outside of the censored country and back if one exists. 
-
-## What works
-
-Basic functionality is in place and it currently being tested. Provided that
-there is enough bridges outside of censored countries, and that those countries
-haven't sealed off their international communication completely, CENO users are
-able to connect to blocked websites and then share the content to other peers.
-
-When users start the CENO browser, they automatically become part of the CENO
-network. This means that - when possible - these devices shall act as temporary
-VPNs for people who can't access blocked websites.
-
-In addition any publicly available content that any CENO user visits shall be
-shared in a BitTorrent like fashion to others.
+## Future functionality 
+  - Retrieve and naturally browse content inserted off-line (like website captures) under a complete national Internet disconnection.
 
 # How to use CENO
 
-### As a user
+## As a user
 
-Using CENO is as easy as downloading the application on an Android device
-and use it to browse web sites as one would with other mainstream browsers.
+Using CENO is as easy as downloading the application on an Android device and using it to browse websites as one would with any other mainstream browser.
 
-One caveat however is that to at the moment, to access private web sites
-such as Twitter, Facebook or Gmail, one has to access it through the
-incognito tab. This is because the non-incognito tab strips down all
-private data from HTTP requests to ensure they don't get leaked into
-the distributed cache.
+One caveat at the moment, when accessing dynamic websites such as Twitter, Facebook or Gmail, one has to open and incognito tab in the CENO browser. This is because the non-incognito tab strips down all private data from HTTP requests to ensure they don't get leaked into the distributed cache.
 
-On the other hand, the incognito tab leaves private data (e.g. passwords)
-intact but the connection stays encrypted and thus only the destination server
-can see the details of rht HTTP transaction (making caching impossible).
+On the other hand, the incognito tab leaves private data (e.g. passwords) intact but the connection stays encrypted and thus only the destination server can see the details of the HTTP transaction (making caching impossible).
 
-### As a bridge
+## As a bridge
 
-Bridges help route HTTP exchanges to and from censored zones. To become
-a bridge is again as easy as installing the CENO browser on an Android
-device and leaving it running for as long as possible.
-
-# Features
-
-  - Browse with normal speeds when Internet access is not censored.
-  - Still reach sites (with slower speeds) when they have been selectively censored (either via DNS or IP).
-  - Retrieve directly from other users and naturally browse web pages that they visited previously, even when the country's Internet access has afterwards been completely cut off.
-  - Retrieve and naturally browse content inserted off-line (like web site captures) under complete national Internet disconnection.
+Bridges help route HTTP exchanges to and from censored zones. To become a bridge is again as easy as installing the CENO browser on an Android device and leaving it running for as long as possible. Make sure that your local wifi network supports UPnP. 
 
 # Where to get it
 
@@ -139,11 +70,37 @@ You may also be interested in the (no longer maintained) [previous incarnation o
 
 [Freenet]: https://freenetproject.org/
 
+# Operational Warnings
+## Battery and data usage
+
+To prolong availability of CENO bridges, the CENO browser shall continue working even when it goes to the background. We have not yet put in place functionality which would disable all networking operations when the device switches to cellular internet, nor when it is disconnected from the charger. 
+
+Until we implement this functionality, to preserve the device battery and network bandwidth, users need to explicitly disable CENO either by shutting it down from Android's list of running applications, or by tapping the "Tap to stop CENO" button from the notification area.
+
+## CENO is not an anonymity tool
+
+CENO users should also be aware of the fact that CENO is not a network to anonymize users such as Tor or I2P. More akin to BitTorrent, the IP addresses of users sharing particular content is visible to anyone who can understand the internal workings of the BitTorrent DHT protocol.
+
+Information about your browsing might be leaked to other CENO users, as well as the fact that your application is providing particular web content to others. Content accessed with the application may remain in storage in clear text for
+some time (continue reading for more information on this).  Other security or privacy-affecting issues might exist.
+
+## Censorship circumvention will not always work
+
+At the moment, CENO relies on bridge nodes whose IP addesses are not banned by countries performing network censorship. We rely on people living outside the censored zoen (this may be you!) running the CENO client and acting as bridges to people inside the censored zone. Currently, in the event of a complete internet blackout where no data can pass the internation boundary, CENO will cease to work.
+
+The availability of web content (especially under censorship conditions) may vary widely with factors like web site configuration, network capacity, and the presence, connectivity and browsing behavior of other CENO users.  The behavior
+of the mechanisms currently used to share content between users may be erratic.
+
+In the future we're hoping to address these problem by:
+
+1. Letting users "import" web content by other means than the Internet into a censored zone and disseminate it via decentralized content sharing protocols.
+2. Modifying the protocol to find alternative routes to relay the traffic outside of the censored country and back (if one exists). 
+
 # How does it work?
 
 ![Different ways of retrieving content over CENO](./images/ceno-access.svg)
 
-When you access or *request* a web page using CENO, the application first looks at the browser request to decide whether the page seems *cacheable*, i.e. potentially safe to be saved and publicly shared with other CENO users (requests with e.g. authentication tokens, cookies or dynamic connections are not).  Then it attempts to retrieve the page using several *mechanisms* until one of them succeeds:
+When you access or *request* a web page using CENO, the application first looks at the browser request to decide whether the page seems *cacheable*, i.e. potentially safe to be saved and publicly shared with other CENO users (requests with authentication tokens, cookies or dynamic connections are not cached). Then it attempts to retrieve the page using several *mechanisms* until one of them succeeds:
 
   - It first attempts to retrieve the page straight from its **origin** (i.e. web server) as a normal browser would do.
   - If that fails, and the page seems cacheable, the application tries to get it from the **distributed cache**, i.e. from other CENO users that may have previously accessed it.  If it succeeds, the application itself starts sharing the page with other users.
@@ -166,11 +123,8 @@ If you want to remove all stored pages, you can use the standard procedures to d
 
 # Help by becoming a bridge
 
-As mentioned above, because random IP addresses are usually not blocked, CENO
-relies on users outside of censored zones to act as bridges. Therefore we'd
-like to ask people willing to help the CENO project as well as people behind the
-internet walls to install the CENO browser on an Android device, start it up
-and let it run for as long as possible.
+As mentioned above, because random IP addresses are usually not blocked, CENO relies on users outside of censored zones to act as bridges. Therefore we'd like to ask people willing to help the CENO project as well as people behind the
+internet walls to install the CENO browser on an Android device, start it up and let it run for as long as possible.
 
 # CENO Browser Settings Page
 
