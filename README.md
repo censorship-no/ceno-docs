@@ -111,7 +111,12 @@ Users can selectively disable each of these mechanisms so that they are skipped 
 
 # Caching
 
-Once a particular content has crossed the boundary to a censored zone, it is furhter distributed in a BitTorrent-like fashion. This has 
+Once a particular content has crossed the boundary to a censored zone, it is
+furhter distributed in a BitTorrent-like fashion. This has several advantages:
+
+* Content remains accessible even after the censor shuts down internation traffic completely.
+* National traffic is often cheaper in censored countries which may lead to decreased internet price.
+* Device to Device communication (currnetly WiFi only) may suffice in retrieving content.
 
 # On content storage and availability
 
