@@ -161,6 +161,101 @@ In particular, the page contains these four editable options:
 * Distributed cache option allows the CENO client to make HTTP requests 
   to the distributed cache.
 
+# Threat model
+
+When the CENO browser is started on a device, a number of internal IO processes
+are activated. The primary one - one that does not depend on any prior browsing
+- is that the app shall attempt to determine whether it can communicate with
+its configured injector servers. This operation is likely to fail in heavily
+censored countries, but when it does NOT fail, the application becomes a
+bridge for others to reach injectors.
+
+Another IO process that starts on app launch is content sharing of the distributed
+cache. This action depends on whether a user has used this CENO browser in the
+past to view public websites through the injector. If so, that particular content
+shall be offered through BitTorrent's DHT network to others for download.
+
+We call the former process as "acting as a bridge" and the latter as "acting as
+a seeder". In addition, we call "acting as a user" the process of user browsing
+internet websites. With this terminology in mind, users may ask the following
+questions about the threat model:
+
+## As a user
+
+**Q1: As a user, can bridges see my communication with the destination websites?**
+
+No. The only role of a bridge is to forward raw traffic between a user and an
+injector. This communication is always encrypted using TLS and bridges don't
+have the private keys required to access the content of the communication.
+
+**Q2: As a user, can injectors see my communication with the destination websites?**
+
+Yes and no. When the user requests a website from a non-incognito browser tab,
+all private data is stripped away from all HTTP(S) requests, and only then
+forwarded to the injector, encrypted with its public key. Stripped data
+includes all non-white-listed HTTP header fields and GET query parameters. In
+addition this is done only when the HTTP request is using the GET method.
+
+On the other hand, when the user accesses a website using an incognito tab or
+when non-GET HTTP method is used (e.g. POST, PUT,...), then no private data is
+stripped away from the request, but the whole communication is encrypted with
+the destination server's private keys. This means that in this other case the
+injector can not decrypt the content.
+
+**Q2: As a user, can injectors see my IP address?**
+
+Yes. However, injectors can not distinguish whether the request came from a
+CENO user or a bridge. Thus requests going to the injector can not be reliably
+assigned an originating IP addresses.
+
+**Q3: As a user, can my private data leak to the distributed cache?**
+
+Hopefully not. As mentioned above, the CENO browser tries hard to strip away
+any private data from any HTTP request going out. In addition, the injector
+does not itself do any data sharing. In fact, the injector's sole purpose is
+to sign the response so that the user can start sharing it (i.e. to act as
+seeder). This means that when the HTTP response comes back to the CENO
+browser, it is further analysed, and if the destination server indicates that
+it's a private message, that is another clue for CENO not to seed it.
+
+Still, there could be cases of badly designed or malicious pages which may
+collect some information from you (like an email address in a form or some
+browser fingerprints using Javascript) and stuff it in the URL of a GET
+request as normal path components
+(e.g. `http://example.com/subscribe/you@example.org`). If you suspect that a
+page may be doing that, better be on the safe side and use an incognito tab.
+
+## As a seeder
+
+**Q4: As a seeder, what data is seeded from my device?**
+
+Currently the only content that is seeded by a device is any non-private
+HTTP(S) reponse for which the request went out from the non-incognito CENO
+tab.
+
+This means that users don't share anything they haven't accessed themselves
+in the recent past.
+
+**Q5: As a seeder, can an anyone find out what I seed?**
+
+Yes and no. Anyone understanding the protocol enough could construct a tool to
+find out what IP addresses are sharing a particular content (as with
+BitTorrent). However, it is _not_ possible to target specific IPs and get a
+list of all the resources shared by devices behind them.
+
+## As a bridge
+
+**Q6: As a bridge, can others find my IP address?**
+
+Yes, every CENO browser able to communicate with injectors will register its
+IP address in the BitTorrent's DHT where others can find them.
+
+**Q7: As a bridge, is it possible I am helping someone to access content which is illegal in my country?**
+
+Yes. However, bridges currently only relay encrypted communication between a
+CENO user and one of the injectors. This means that a bridge shall never make
+_direct_ HTTP requests to any other server on someone else's behalf.
+
 ----
 
 # Feedback
