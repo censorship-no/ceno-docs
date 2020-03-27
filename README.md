@@ -44,7 +44,7 @@ Provided that there are enough CENO bridges located outside of the censored zone
 
 # How to use CENO
 
-Please refer to the [Censorship.no! User Manual](user-manual/SUMMARY.md) for a detailed introduction to CENO and Ouinet, the concepts they rely upon, and how to use them.
+Please refer to the [Censorship.no! User Manual](user-manual/en/SUMMARY.md) for a detailed introduction to CENO and Ouinet, the concepts they rely upon, and how to use them.
 
 ## As a user
 
