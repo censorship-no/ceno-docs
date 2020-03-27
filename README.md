@@ -15,7 +15,7 @@ CENO is based on [Firefox for Android][] (a.k.a. Mozilla Fennec), extended to ma
 [Firefox for Android]: https://www.mozilla.org/firefox/android/
 [Ouinet library]: https://github.com/equalitie/ouinet/
 
-The *Censorship.no!* project is run by [eQualitie][] in support of Articles 18, 19 and 20 of the [Universal Declaration of Human Rights]().  Please contact <cenoers@equalit.ie> in case of doubt or for further information.
+The *Censorship.no!* project is run by [eQualitie][] in support of Articles 18, 19 and 20 of the [Universal Declaration of Human Rights][].  Please contact <cenoers@equalit.ie> in case of doubt or for further information.
 
 [eQualitie]: https://equalit.ie/
 [Universal Declaration of Human Rights]: https://www.un.org/en/universal-declaration-human-rights/
