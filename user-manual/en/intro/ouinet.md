@@ -17,4 +17,6 @@ Same as the CENO Browser, Ouinet is developed by [eQualitie][] as Free/Libre/Ope
 
 Ouinet is most useful for software developers, content creators and publishers who want to enable users of their applications to directly and transparently share retrieved Web content with other users.
 
-TODO
+Please note that Ouinet is still an experimental project: some features may not work reliably enough in certain scenarios, bugs may exist and crashes may occur.  We encourage you to ask us at <cenoers@equalit.ie>, test it and report back; your feedback will be very welcome.
+
+**Warning:** *Ouinet is not an anonymity tool*.  If you are unsure about its adequacy for a certain task, do not hesitate to contact us.
