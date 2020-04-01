@@ -60,6 +60,7 @@ export_cmd() {  # CASE_N OUT_NAME < CASE_TABLE
 case_tbl="$(gen_case_table "$DIAGRAM")"
 case_last=$(echo "$case_tbl" | tail -1 | cut -f1 -d' ')
 
+out_name="$(basename "${DIAGRAM%.*}")"
 for icase in $(seq 0 $case_last); do
-    echo "$case_tbl" | export_cmd $icase "${DIAGRAM%.*}-$icase" | sh
+    echo "$case_tbl" | export_cmd $icase "${out_name}-$icase" | sh
 done
