@@ -1,6 +1,13 @@
 #!/bin/sh
 
-DIAGRAM=flows.dia
+set -e
+
+if [ $# -ne 1 ]; then
+    echo "Usage: $0 DIAGRAM.dia"
+    exit 1
+fi
+
+DIAGRAM="$1"
 
 gen_case_table() {
     sed -En 's/.*<dia:layer\b.*\bname="([^"]+)".*/\1/p' "$DIAGRAM" \
