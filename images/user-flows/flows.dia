@@ -2199,7 +2199,7 @@ blocking#</dia:string>
         <dia:point val="21,1"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="20.95,0.95;28.05,8.05"/>
+        <dia:rectangle val="21,1;28,8"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
         <dia:point val="21,1"/>
@@ -2209,6 +2209,9 @@ blocking#</dia:string>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="7"/>
+      </dia:attribute>
+      <dia:attribute name="border_width">
+        <dia:real val="1.1754943508222875e-38"/>
       </dia:attribute>
       <dia:attribute name="border_color">
         <dia:color val="#ffffffff"/>
@@ -2225,7 +2228,7 @@ blocking#</dia:string>
         <dia:point val="33,4"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="32.95,3.95;39.05,10.05"/>
+        <dia:rectangle val="33,4;39,10"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
         <dia:point val="33,4"/>
@@ -2235,6 +2238,9 @@ blocking#</dia:string>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="6"/>
+      </dia:attribute>
+      <dia:attribute name="border_width">
+        <dia:real val="1.1754943508222875e-38"/>
       </dia:attribute>
       <dia:attribute name="border_color">
         <dia:color val="#ffffffff"/>
@@ -2251,7 +2257,7 @@ blocking#</dia:string>
         <dia:point val="40,11"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="39.95,10.95;46.05,17.05"/>
+        <dia:rectangle val="40,11;46,17"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
         <dia:point val="40,11"/>
@@ -2261,6 +2267,9 @@ blocking#</dia:string>
       </dia:attribute>
       <dia:attribute name="elem_height">
         <dia:real val="6"/>
+      </dia:attribute>
+      <dia:attribute name="border_width">
+        <dia:real val="1.1754943508222875e-38"/>
       </dia:attribute>
       <dia:attribute name="border_color">
         <dia:color val="#ffffffff"/>
