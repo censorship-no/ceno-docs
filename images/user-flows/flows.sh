@@ -9,8 +9,9 @@ fi
 
 DIAGRAM="$1"
 
-gen_case_table() {
-    sed -En 's/.*<dia:layer\b.*\bname="([^"]+)".*/\1/p' "$DIAGRAM" \
+gen_case_table() {  # DIAGRAM
+    local diagram="$1"
+    sed -En 's/.*<dia:layer\b.*\bname="([^"]+)".*/\1/p' "$diagram" \
     | {
         icase=0
         while read layer; do
@@ -56,7 +57,7 @@ export_cmd() {  # CASE_N OUT_NAME < CASE_TABLE
     echo "rm -f \"\$tmp\""
 }
 
-case_tbl="$(gen_case_table)"
+case_tbl="$(gen_case_table "$DIAGRAM")"
 case_last=$(echo "$case_tbl" | tail -1 | cut -f1 -d' ')
 
 for icase in $(seq 0 $case_last); do
