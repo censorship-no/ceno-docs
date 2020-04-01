@@ -2,12 +2,15 @@
 
 set -e
 
-if [ $# -ne 1 ]; then
-    echo "Usage: $0 DIAGRAM.dia"
+DIAGRAM_FILE="flows.dia"
+
+if [ $# -gt 1 ]; then
+    echo "Usage: $0 [OUT_NAME]"
     exit 1
 fi
 
-DIAGRAM="$1"
+DIAGRAM="$(dirname "$(realpath "$0")")/$DIAGRAM_FILE"
+OUT_NAME="${1:-$(basename "${DIAGRAM%.*}")}"
 
 gen_case_table() {  # DIAGRAM
     local diagram="$1"
@@ -60,7 +63,6 @@ export_cmd() {  # CASE_N OUT_NAME < CASE_TABLE
 case_tbl="$(gen_case_table "$DIAGRAM")"
 case_last=$(echo "$case_tbl" | tail -1 | cut -f1 -d' ')
 
-out_name="$(basename "${DIAGRAM%.*}")"
 for icase in $(seq 0 $case_last); do
-    echo "$case_tbl" | export_cmd $icase "${out_name}-$icase" | sh
+    echo "$case_tbl" | export_cmd $icase "${OUT_NAME}-$icase" | sh
 done
