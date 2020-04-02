@@ -1,5 +1,24 @@
 #!/bin/sh
 
+# This script takes the Dia `$DIAGRAM_FILE` sitting next to it and,
+# for each layer having a name not in parentheses,
+# it creates an output SVG file named `OUT_NAME-N.svg` in the current directory
+# (with N=0,1,2...).
+#
+# When generating the output file for a given layer,
+# the rest of layers are hidden with the exception of
+# layers below it having a name in parentheses.
+# For instance, when generating the file for the layer "Baz" below:
+#
+#     Baz
+#     Bar
+#     (X2)
+#     Foo
+#     (X1)
+#
+# Only layers "Baz", "(X2)" and "(X1)" are shown.
+# For the layer "Foo", only "Foo" and "(X1)" are shown.
+
 set -e
 
 DIAGRAM_FILE="flows.dia"
