@@ -6,7 +6,7 @@ The CENO Browser is an example of an application which uses Ouinet technology to
 
 > **Technical note:** There is in fact one small gotcha.  Since the client acts as an HTTP proxy running on your device, for the client to be able to decrypt and act upon HTTPS content requests, the application using it (i.e. the Web browser part) needs to accept a special certificate issued by the client itself (and only used in your device).  The CENO Browser already takes care of setting this certificate up for its private use so that you do not need to worry.
 
-However these direct paths may not be available.  For instance, your Internet service provider (ISP) may be blocking access to *X*'s origin server or the proxy because of a state order (even if other traffic is still allowed).  As the user of the top left client depicted below, both attempts to reach content *X* would fail for you.  We will come this weird "injector" node in a moment.
+However these direct paths may not be available.  For instance, your Internet service provider (ISP) may be blocking access to *X*'s origin server or the proxy because of a state order (even if other traffic is still allowed).  As the user of the top left client depicted below, both attempts to reach content *X* (the little document close to its origin server) would fail for you.  We will come this weird "injector" node in a moment.
 
 ![Figure: User cannot reach content directly](images/user-flow-0.svg)
 
