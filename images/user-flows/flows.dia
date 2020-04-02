@@ -1206,15 +1206,6 @@ blocking#</dia:string>
       <dia:attribute name="line_style">
         <dia:enum val="4"/>
       </dia:attribute>
-      <dia:attribute name="end_arrow">
-        <dia:enum val="1"/>
-      </dia:attribute>
-      <dia:attribute name="end_arrow_length">
-        <dia:real val="0.5"/>
-      </dia:attribute>
-      <dia:attribute name="end_arrow_width">
-        <dia:real val="0.5"/>
-      </dia:attribute>
       <dia:connections>
         <dia:connection handle="0" to="O10" connection="8"/>
         <dia:connection handle="1" to="O3" connection="8"/>
