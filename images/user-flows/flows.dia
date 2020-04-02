@@ -1898,10 +1898,10 @@ blocking#</dia:string>
     </dia:object>
     <dia:object type="Standard - Text" version="1" id="O52">
       <dia:attribute name="obj_pos">
-        <dia:point val="43,15"/>
+        <dia:point val="42,11"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="42.2437,13.9475;43.7563,16.0525"/>
+        <dia:rectangle val="42,9.9475;43.5125,12.0525"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
@@ -1915,13 +1915,13 @@ blocking#</dia:string>
             <dia:real val="2.2577776908874512"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="43,15.625"/>
+            <dia:point val="42,11.625"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000ff"/>
           </dia:attribute>
           <dia:attribute name="alignment">
-            <dia:enum val="1"/>
+            <dia:enum val="0"/>
           </dia:attribute>
         </dia:composite>
       </dia:attribute>
@@ -1931,16 +1931,16 @@ blocking#</dia:string>
     </dia:object>
     <dia:object type="Filesystem - File" version="1" id="O53">
       <dia:attribute name="obj_pos">
-        <dia:point val="42,19"/>
+        <dia:point val="40,10"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="41.9,18.9;43.7414,21.1"/>
+        <dia:rectangle val="39.9,9.9;41.7414,12.1"/>
       </dia:attribute>
       <dia:attribute name="meta">
         <dia:composite type="dict"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
-        <dia:point val="42,19"/>
+        <dia:point val="40,10"/>
       </dia:attribute>
       <dia:attribute name="elem_width">
         <dia:real val="1.6000000000000008"/>
@@ -1976,10 +1976,10 @@ blocking#</dia:string>
     </dia:object>
     <dia:object type="Standard - Text" version="1" id="O54">
       <dia:attribute name="obj_pos">
-        <dia:point val="42.8,20"/>
+        <dia:point val="40.8,11"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="42.5388,19.605;43.0613,20.395"/>
+        <dia:rectangle val="40.5388,10.605;41.0613,11.395"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
@@ -1993,7 +1993,7 @@ blocking#</dia:string>
             <dia:real val="0.84666663408279419"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="42.8,20.235"/>
+            <dia:point val="40.8,11.235"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#000000ff"/>
@@ -2012,10 +2012,10 @@ blocking#</dia:string>
     </dia:object>
     <dia:object type="Standard - Text" version="1" id="O55">
       <dia:attribute name="obj_pos">
-        <dia:point val="42.8,21"/>
+        <dia:point val="40.8,12"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="42.8,19.9475;44.3125,22.0525"/>
+        <dia:rectangle val="40.8,10.9475;42.3125,13.0525"/>
       </dia:attribute>
       <dia:attribute name="text">
         <dia:composite type="text">
@@ -2029,7 +2029,7 @@ blocking#</dia:string>
             <dia:real val="2.2577776908874512"/>
           </dia:attribute>
           <dia:attribute name="pos">
-            <dia:point val="42.8,21.625"/>
+            <dia:point val="40.8,12.625"/>
           </dia:attribute>
           <dia:attribute name="color">
             <dia:color val="#3f9f00ff"/>
