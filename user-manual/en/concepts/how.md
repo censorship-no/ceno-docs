@@ -42,6 +42,10 @@ Fortunately, Ouinet offers a way to retrieve such content and furthermore make i
 
 TODO
 
+> **Technical note:** In fact, Ouinet injectors can also operate as normal, non-caching HTTP proxies, with the added bonus that they can be reached via other Ouinet clients acting as bridges.  In this case, the injector will not see the actual information flowing between the client starting the connection and the origin server (unless it is a plain, unencrypted HTTP connection itself).  This is currently what Ouinet clients (including the CENO Browser) do when trying to access content over a proxy.
+
+TODO
+
 ![User reaches for injector](images/user-flow-2.svg)
 
 ![User receives signed content from injector](images/user-flow-3.svg)
