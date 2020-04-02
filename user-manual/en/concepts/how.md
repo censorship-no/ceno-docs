@@ -10,11 +10,27 @@ However these direct paths may not be available.  For instance, your Internet se
 
 ![Figure: User cannot reach content directly](images/user-flow-0.svg)
 
-With a normal browser you would be out of luck.
+With a normal browser you would be out of luck.  However, with Ouinet you can ask other clients for their copies of content *X*, shall they already have one (we will see how they get these copies later on).  The set of all content stored by Ouinet clients is called the **distributed cache**, i.e. a store which sits in no single place.
 
-TODO
+But how can your client find who has this content?  In any Web browser, to access content *X* it needs to know its [Uniform Resource Locator][] (URL), that is the address in the browser's location bar, e.g. `https://example.com/foo/x`.  From that URL, a normal browser would infer that it has to contact the server `example.com` using the HTTP protocol (the language used to exchange Web resources) over SSL/TLS (a security layer over TCP, the Internet's rules for programs to talk to each other) and request the resource `/foo/x`.
+
+[Uniform Resource Locator]: https://en.wikipedia.org/wiki/Uniform_Resource_Locator
+
+Ouinet looks for the content in a different way.  It uses an index not unlike that of a book: in Ouinet's **distributed cache index** you look up the whole URL of the content and get a list of clients holding a copy of it.  The index itself is distributed, with clients in charge of announcing which content they have to others.  Actually, only a *hint* on each URL is announced, so that someone spying your device's traffic cannot tell which content you have, but someone looking for a particular content can follow the hints towards your client.
+
+> **Technical note:** One way the index is implemented is using [BitTorrent][]'s [Distributed Hash Table][] (DHT) to get the addresses (IP and port) of the clients with the content.  The DHT uses a [Cryptographic hash function][] to compute the table key from the content's URL and some other parameters as the injector key (see below), so that several indexes can coexist.
+>
+> Also, the CENO Browser does not announce the URL of every single resource it holds: with any modern page having tens or hundreds of components (images, style sheets, scripts…), that would cause a lot of traffic.  Instead, resources are grouped under the URL of the page pulling them, and only that URL is announced.  This is done with the help of an *ad hoc* browser extension (described later on).
+
+[Cryptographic hash function]: https://en.wikipedia.org/wiki/Cryptographic_hash_function
+[BitTorrent]: https://en.wikipedia.org/wiki/BitTorrent
+[Distributed Hash Table]: https://en.wikipedia.org/wiki/Distributed_hash_table
+
+Going back to our example scenario, there are two clients holding some content.  Unfortunately, one is holding content *Y* and the other one content *Z*, so your client would find no entries for content *X* in the distributed cache index, as depicted below.
 
 ![Content not found in the distributed cache](images/user-flow-1.svg)
+
+TODO
 
 ![User reaches for injector](images/user-flow-2.svg)
 
