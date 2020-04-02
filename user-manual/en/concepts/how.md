@@ -2,6 +2,8 @@
 
 This section will explain CENO and Ouinet operation by going over a series of scenarios and explaining how they behave in each of them.  Main concepts and terms used by Ouinet will be introduced (highlighted **in bold letters**) and used afterwards for efficiency and to avoid confusions.
 
+## Accessing content directly
+
 The CENO Browser is an example of an application which uses Ouinet technology to retrieve and share Web content.  We call such an application a Ouinet **client**.  When you use your client (i.e. CENO) to try to access some content *X*, hosted in some Web server which we call *X*'s **origin** server, your client tries to contact the origin server over the Internet either directly or via some other machine specialized in contacting Web servers on behalf of others, a so called **proxy** server, then request the desired content.  This is not different from the way in which any normal Web browser works.
 
 > **Technical note:** There is in fact one small gotcha.  Since the client acts as an HTTP proxy running on your device, for the client to be able to decrypt and act upon HTTPS content requests, the application using it (i.e. the Web browser part) needs to accept a special certificate issued by the client itself (and only used in your device).  The CENO Browser already takes care of setting this certificate up for its private use so that you do not need to worry.
@@ -10,7 +12,11 @@ However these direct paths may not be available.  For instance, your Internet se
 
 ![Figure: User cannot reach content directly](images/user-flow-0.svg)
 
-With a normal browser you would be out of luck.  However, with Ouinet you can ask other clients for their copies of content *X*, shall they already have one (we will see how they get these copies later on).  The set of all content stored by Ouinet clients is called the **distributed cache**, i.e. a store which sits in no single place.
+With a normal browser you would be out of luck.  However, with Ouinet you can ask other clients for their copies of content *X*, shall they already have one (we will see how they get these copies later on).
+
+## Searching for shared content
+
+The set of all content stored by Ouinet clients is called the **distributed cache**, i.e. a store which sits in no single place.
 
 But how can your client find who has this content?  In any Web browser, to access content *X* it needs to know its [Uniform Resource Locator][] (URL), that is the address in the browser's location bar, e.g. `https://example.com/foo/x`.  From that URL, a normal browser would infer that it has to contact the server `example.com` using the HTTP protocol (the language used to exchange Web resources) over SSL/TLS (a security layer over TCP, the Internet's rules for programs to talk to each other) and request the resource `/foo/x`.
 
@@ -29,6 +35,8 @@ Ouinet looks for the content in a different way.  It uses an index not unlike th
 Going back to our example scenario, there are two clients holding some content.  Unfortunately, one is holding content *Y* and the other one content *Z*, so your client would find no entries for content *X* in the distributed cache index, as depicted below.
 
 ![Content not found in the distributed cache](images/user-flow-1.svg)
+
+## Sharing new content
 
 TODO
 
