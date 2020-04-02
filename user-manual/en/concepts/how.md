@@ -12,13 +12,13 @@ However these direct paths may not be available.  For instance, your Internet se
 
 ![Figure: User cannot reach content directly](images/user-flow-0.svg)
 
-With a normal browser you would be out of luck.  However, with Ouinet you can ask other clients for their copies of content *X*, shall they already have one (we will see how they get these copies later on).
+With a normal browser you would be out of luck.  However, with Ouinet you can ask other clients for their copies of content *X*, shall they already have one (we will see how they get these copies later on).  Let us see how Ouinet does this.
 
 ## Searching for shared content
 
-The set of all content stored by Ouinet clients is called the **distributed cache**, i.e. a store which sits in no single place.
+The set of all content stored by Ouinet clients is called the **distributed cache**, i.e. a store which sits in no single place.  But how can your client find which other clients forming the cache have the desired content?
 
-But how can your client find who has this content?  In any Web browser, to access content *X* it needs to know its [Uniform Resource Locator][] (URL), that is the address in the browser's location bar, e.g. `https://example.com/foo/x`.  From that URL, a normal browser would infer that it has to contact the server `example.com` using the HTTP protocol (the language used to exchange Web resources) over SSL/TLS (a security layer over TCP, the Internet's rules for programs to talk to each other) and request the resource `/foo/x`.
+In any Web browser, to access content *X* it needs to know its [Uniform Resource Locator][] (URL), that is the address in the browser's location bar, e.g. `https://example.com/foo/x`.  From that URL, a normal browser would infer that it has to contact the server `example.com` using the HTTP protocol (the language used to exchange Web resources) over SSL/TLS (a security layer over TCP, the Internet's rules for programs to talk to each other) and request the resource `/foo/x`.
 
 [Uniform Resource Locator]: https://en.wikipedia.org/wiki/Uniform_Resource_Locator
 
@@ -35,6 +35,8 @@ Ouinet looks for the content in a different way.  It uses an index not unlike th
 Going back to our example scenario, there are two clients holding some content.  Unfortunately, one is holding content *Y* and the other one content *Z*, so your client would find no entries for content *X* in the distributed cache index, as depicted below.
 
 ![Content not found in the distributed cache](images/user-flow-1.svg)
+
+Fortunately, Ouinet offers a way to retrieve such content and furthermore make it available to other clients on the distributed cache.  Please read on to know how.
 
 ## Sharing new content
 
