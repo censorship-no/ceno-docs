@@ -68,6 +68,14 @@ Well, the point is that an injector does not just retrieve content on behalf of 
 
 You could of course download a page from your browser and copy the resulting files to other people, which should be fine if you knew each other.  But what if you received such files from an unknown person?  How could you be sure that the content actually came from the Web site it claims to, that it was retrieved at a certain date or that the information in it was not manipulated?
 
+We want CENO and Ouinet usage to scale and provide as much content to as many people as possible, so we do want you to be able to receive content from people you do not know.  To enable you to accept such content, Ouinet uses **content signing**: your client is configured to trust content which is signed using a special key owned by injectors.  Whenever a client tells an injector to retrieve some Web content for sharing, the injector gets it from the origin server, uses the key to sign it, and returns the signed content to the client.
+
+> **Technical note:** In fact, the injector signs individual blocks of data as they come, so even if the connection is cut in the middle while retrieving a big file, the downloaded data can still be shared by the client which received it.
+
+Different injectors may have different keys, so you can choose which injectors to trust.  Picture it like this: you may trust a document signed by a *notary public* from your country, no matter who gave it to you (national or foreigner), while you wouldn't be required to accept a document signed by a notary from another country.  The CENO Browser is already configured to trust a set of injectors run by eQualitie.
+
+> **Technical note:** Injectors use a public/private key pair to create Ed25519 signatures; public keys are small enough as to allow them to be sent along signatures, and encoded as 64 hexadecimal characters or 52 Base32 characters, they may even be exchanged on the phone or written down in a piece of paper.
+
 TODO
 
 ![User reaches for injector](images/user-flow-2.svg)
