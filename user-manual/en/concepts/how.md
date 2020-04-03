@@ -42,7 +42,7 @@ Fortunately, Ouinet offers a way to retrieve such content and furthermore make i
 
 ### Proxies on steroids
 
-In Ouinet, there is a special kind of proxy servers called **injectors** which try very hard to stay reachable in spite of certain blocking measures:
+In Ouinet, there is a special kind of proxy servers called **injectors** which sit in the (hopefully) free side of the Internet and try very hard to stay reachable in spite of certain blocking measures:
 
   - First of all, connections between clients and injectors are encrypted (using standard SSL/TLS like in HTTPS) to avoid attackers from identifying injectors by eavesdropping traffic.
 
@@ -64,9 +64,9 @@ But there exist other tools allowing you to reach proxies in stringent network i
 
 ### Trusting shared content
 
-Well, the point is that an injector does not just retrieve content on behalf of your client, it also allows you to share that content with others at a later time, even *when there is no longer access to the injector or most of the Internet*.
+Well, the point is that an injector does not just retrieve content on behalf of your client, it also allows you to *share that content with others at a later time, even when there is no longer access to the injector or most of the Internet*.
 
-You could of course download a page in your browser and copy the resulting files to other people, which should be fine if you knew each other.  But what if you received such files from an unknown person?  How could you be sure that the content actually came from the Web site it claims, that it was retrieved at a certain date or that the information in them has not been manipulated?
+You could of course download a page from your browser and copy the resulting files to other people, which should be fine if you knew each other.  But what if you received such files from an unknown person?  How could you be sure that the content actually came from the Web site it claims to, that it was retrieved at a certain date or that the information in it was not manipulated?
 
 TODO
 
