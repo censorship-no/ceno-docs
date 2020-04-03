@@ -40,6 +40,8 @@ Fortunately, Ouinet offers a way to retrieve such content and furthermore make i
 
 ## Sharing new content
 
+### Proxies on steroids
+
 In Ouinet, there is a special kind of proxy servers called **injectors** which try very hard to stay reachable in spite of certain blocking measures:
 
   - First of all, connections between clients and injectors are encrypted (using standard SSL/TLS like in HTTPS) to avoid attackers from identifying injectors by eavesdropping traffic.
@@ -59,6 +61,12 @@ In Ouinet, there is a special kind of proxy servers called **injectors** which t
 An injector can behave like a normal (though extra available) proxy server, and this is indeed what Ouinet clients (including the CENO Browser) do currently when trying to access content over a proxy.  In this case, the injector will neither see the actual information flowing between your client and the origin server (unless it is a plain, unencrypted HTTP connection itself).
 
 But there exist other tools allowing you to reach proxies in stringent network interference conditions so, what is so special about Ouinet injectors?
+
+### Trusting shared content
+
+Well, the point is that an injector does not just retrieve content on behalf of your client, it also allows you to share that content with others at a later time, even *when there is no longer access to the injector or most of the Internet*.
+
+You could of course download a page in your browser and copy the resulting files to other people, which should be fine if you knew each other.  But what if you received such files from an unknown person?  How could you be sure that the content actually came from the Web site it claims, that it was retrieved at a certain date or that the information in them has not been manipulated?
 
 TODO
 
