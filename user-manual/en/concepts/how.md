@@ -56,9 +56,9 @@ In Ouinet, there is a special kind of proxy servers called **injectors** which t
 
     Please note that since client-to-injector connections are encrypted, bridges are not able to see the information flowing between them.
 
-TODO
+An injector can behave like a normal (though extra available) proxy server, and this is indeed what Ouinet clients (including the CENO Browser) do currently when trying to access content over a proxy.  In this case, the injector will neither see the actual information flowing between your client and the origin server (unless it is a plain, unencrypted HTTP connection itself).
 
-> **Technical note:** In fact, a Ouinet injector can also operate as a normal, non-caching HTTP proxy, with the added bonus that it can be reached via Ouinet bridges.  In this case, the injector will neither see the actual information flowing between your client and the origin server (unless it is a plain, unencrypted HTTP connection itself).  This is currently what Ouinet clients (including the CENO Browser) do when trying to access content over a proxy.
+But there exist other tools allowing you to reach proxies in stringent network interference conditions so, what is so special about Ouinet injectors?
 
 TODO
 
