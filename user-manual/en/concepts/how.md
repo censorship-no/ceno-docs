@@ -18,7 +18,7 @@ With a normal browser you would be out of luck.  However, with Ouinet you can as
 
 The set of all content stored by Ouinet clients is called the **distributed cache**, i.e. a store which sits in no single place.  But how can your client find which other clients forming the cache have the desired content?
 
-In any Web browser, to access content *X* it needs to know its [Uniform Resource Locator][] (URL), that is the address in the browser's location bar, e.g. `https://example.com/foo/x`.  From that URL, a normal browser would infer that it has to contact the server `example.com` using the HTTP protocol (the language used to exchange Web resources) over SSL/TLS (a security layer over TCP, the Internet's rules for programs to talk to each other) and request the resource `/foo/x`.
+In any Web browser, to access content *X* it needs to know its [Uniform Resource Locator][] (URL), that is the address in the browser's location bar, e.g. `https://example.com/foo/x`.  From that URL, a normal browser would infer that it has to contact the Web server called `example.com` using the HTTP protocol (the language used to exchange Web resources) over SSL/TLS (a security layer over TCP, the Internet's rules for programs to talk to each other) and request the resource `/foo/x`.
 
 [Uniform Resource Locator]: https://en.wikipedia.org/wiki/Uniform_Resource_Locator
 
