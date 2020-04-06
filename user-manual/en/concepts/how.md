@@ -94,8 +94,18 @@ This combined operation of retrieval, signing, storage and announcement is what 
 
 ![Figure: Client receives signed content from injector](images/user-flow-3.svg)
 
-TODO
+## Browsing under complete blocking
+
+Please note that the mechanism described above still requires that *some path exists* across blocking and towards the rest of the Internet.  But sometimes that path will also be missing: think about complete international disconnections, natural disasters, or simply excessive congestion of the few existing paths (due to everybody trying to go across them).  This is where the real power of the distributed cache comes into play.
+
+Let us imagine that after you retrieved content *X* from the injector, a disaster leaves your region isolated from the world.  It turns out that content *X* becomes especially relevant since it describes some ways in which you can help your community in such a situation.
+
+At that moment a second person using the CENO Browser also tries to get that content.  Access to the origin server or to anything beyond your region is impossible, so CENO checks the distributed cache index for that content and it finds that your device is sharing it.  CENO gets your Internet address from the index, connects to it and requests the content as shown below.
 
 ![Figure: Client receives signed content from client](images/user-flow-4.svg)
 
+Now that second device also holds a copy of content *X* and can share it too.  If a third person interested in that content uses the CENO Browser to retrieve it, CENO will now see *two* addresses in the index for the content: your device's and that of the second user.  If the content is heavy (e.g. a video), this third device may try to get half of it from each of the other devices (as shown below), thus speeding up the download and reducing the traffic they use.
+
 ![Figure: Client receives signed content from multiple clients](images/user-flow-5.svg)
+
+Finally, the situation may get even worse and all commercial and state network infrastructure be shut down.  In this case, Ouinet and the CENO Browser also have some support for *device-to-device* sharing of content between two clients sitting on the same local network (e.g. connected to the same Wi-Fi access point), even if the network has no access to others.
