@@ -10,7 +10,7 @@ The CENO Browser is an example of an application which uses Ouinet technology to
 
 However these direct paths may not be available.  For instance, your Internet service provider (ISP) may be blocking access to *X*'s origin server or the proxy because of a state order (even if other traffic is still allowed).  As the user of the top left client depicted below, both attempts to reach content *X* (the little document close to its origin server) would fail for you.  We will come this weird "injector" node in a moment.
 
-![Figure: User cannot reach content directly](images/user-flow-0.svg)
+![Figure: Client cannot reach content directly](images/user-flow-0.svg)
 
 With a normal browser you would be out of luck.  However, with Ouinet you can ask other clients for their copies of content *X*, shall they already have one (we will see how they get these copies later on).  Let us see how Ouinet does this.
 
@@ -34,7 +34,7 @@ Ouinet looks for the content in a different way.  It uses an index not unlike th
 
 Going back to our example scenario, there are two clients holding some content.  Unfortunately, one is holding content *Y* and the other one content *Z*, so your client would find no entries for content *X* in the distributed cache index, as depicted below.
 
-![Content not found in the distributed cache](images/user-flow-1.svg)
+![Figure: Content not found in the distributed cache](images/user-flow-1.svg)
 
 Fortunately, Ouinet offers a way to retrieve such content and furthermore make it available to other clients on the distributed cache.  Please read on to know how.
 
@@ -78,10 +78,10 @@ Different injectors may have different keys, so you can choose which injectors t
 
 TODO
 
-![User reaches for injector](images/user-flow-2.svg)
+![Figure: Client reaches for injector](images/user-flow-2.svg)
 
-![User receives signed content from injector](images/user-flow-3.svg)
+![Figure: Client receives signed content from injector](images/user-flow-3.svg)
 
-![User receives signed content from client](images/user-flow-4.svg)
+![Figure: Client receives signed content from client](images/user-flow-4.svg)
 
-![User receives signed content from multiple clients](images/user-flow-5.svg)
+![Figure: Client receives signed content from multiple clients](images/user-flow-5.svg)
