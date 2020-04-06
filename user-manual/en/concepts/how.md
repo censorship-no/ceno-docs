@@ -76,11 +76,25 @@ Different injectors may have different keys, so you can choose which injectors t
 
 > **Technical note:** Injectors use a public/private key pair to create Ed25519 signatures; public keys are small enough as to allow them to be sent along signatures, and encoded as 64 hexadecimal characters or 52 Base32 characters, they may even be exchanged on the phone or written down in a piece of paper.
 
-TODO
+### Content injection
+
+Remember that in our example scenario your client had already tried to retrieve content *X* directly from the origin server and from other clients to no avail.  The client plays its last Ouinet card and tries to contact a trusted injector to get a signed copy of the content that it can share with other clients.
+
+In the figure below you can see a possible outcome of that operation: the client first tries to contact the injector directly (e.g. using an Internet address that it got from the injector swarm), but sadly it is already blocked by your ISP; fortunately, the bridge swarm shows the Internet addresses for two other clients which are still able to reach an injector.  Your client opens a tunnel to the injector through one of these clients, so the injector gets the request for content *X* from your client, and asks its origin server for it.
 
 ![Figure: Client reaches for injector](images/user-flow-2.svg)
 
+As content *X* is received by the injector, it signs it with its key, adds the signature to the content and sends it back to your client via the tunnel it arrived from (let us say it did through the client sitting beyond the blocking).  Once the content reaches your client, it does three things:
+
+ 1. It delivers it to you (in the case of CENO, it shows the content on the browser).
+ 2. It saves the content in your device, for further sharing with other clients.  It will stay there for a configurable amount of time, or until you decide to clean all stored content.
+ 3. It announces in the distributed cache index that it is in possession of a copy of that content, so that other clients can find it.
+
+This combined operation of retrieval, signing, storage and announcement is what we call **content injection**, and it is shown in the figure below.
+
 ![Figure: Client receives signed content from injector](images/user-flow-3.svg)
+
+TODO
 
 ![Figure: Client receives signed content from client](images/user-flow-4.svg)
 
