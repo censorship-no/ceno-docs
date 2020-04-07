@@ -33,4 +33,4 @@ While in private mode:
 
 Please read the section on [risks](risks.md) for a more detailed explanation.  Also note that your client can continue to operate as a bridge regardless of public or private browsing.
 
-Usually one would use public mode to browse news, watch videos, read documentation and other mostly static content, while private mode would better fit more dynamic content or authenticated Web applications like mail, chat or social networking platforms.
+So as a rule of thumb, one would use public mode to browse news, watch videos, read documentation and other mostly static content, while private mode would better fit more dynamic content or authenticated Web applications like mail, chat or social networking platforms.
