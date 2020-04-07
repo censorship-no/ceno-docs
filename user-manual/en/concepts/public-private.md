@@ -34,7 +34,3 @@ While in private mode:
 Please read the section on [risks](risks.md) for a more detailed explanation.
 
 Usually one would use public mode to browse news, watch videos, read documentation and other mostly static content, while private mode would better fit more dynamic content or authenticated Web applications like mail, chat or social networking platforms.
-
-To open a new tab in private browsing mode in the CENO Browser, just choose *New Private Tab* in its main menu.  You will get a tab with a darker tool bar.
-
-TODO: screen captures
