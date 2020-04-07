@@ -17,7 +17,7 @@ The different behavior results in different characteristics.  Thus, in public mo
 
  1. You have better chances to get Web content (even under complete blocking), and help others get that content (from you).
  2. Pages with dynamic content (e.g. updating in real time) may not work.
- 3. Pages requiring authentication do not work (passwords and cookies are removed by the injector).
+ 3. Pages requiring authentication do not work (passwords and cookies are removed by the client).
  4. Some browsing activity may be leaked to other users.
  5. Some browsing activity may be leaked to injectors.
  6. You need to trust injectors to sign all content.
