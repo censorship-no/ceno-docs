@@ -8,11 +8,11 @@ The CENO Browser is an example of an application which uses Ouinet technology to
 
 > **Technical note:** There is in fact one small gotcha.  Since the client acts as an HTTP proxy running on your device, for the client to be able to decrypt and act upon HTTPS content requests, the application using it (i.e. the Web browser part) needs to accept a special certificate issued by the client itself (and only used in your device).  The CENO Browser already takes care of setting this certificate up for its private use so that you do not need to worry.
 
-However these direct paths may not be available.  For instance, your Internet service provider (ISP) may be blocking access to *X*'s origin server or the proxy because of a state order (even if other traffic is still allowed).  As the user of the top left client depicted below, both attempts to reach content *X* (the little document close to its origin server) would fail for you.  We will come this weird "injector" node in a moment.
+However these direct paths may not be available.  For instance, your Internet service provider (ISP) may be blocking access to *X*'s origin server or the proxy because of a state order (even if other traffic is still allowed).  As the user of the top left client depicted below, both attempts to reach content *X* (the little document close to its origin server) would fail for you.  We will come to this weird "injector" node in a moment.
 
 ![Figure: Client cannot reach content directly](images/user-flow-0.svg)
 
-With a normal browser you would be out of luck.  However, with Ouinet you can ask other clients for their copies of content *X*, shall they already have one (we will see how they get these copies later on).  Let us see how Ouinet does this.
+With a normal browser you would be out of luck.  However, with Ouinet you can ask other clients for their copies of content *X*, shall they already have one (we will see how they get these copies later on).  Let us see how Ouinet does this asking.
 
 ## Searching for shared content
 
@@ -32,7 +32,7 @@ Ouinet looks for the content in a different way.  It uses an index not unlike th
 [BitTorrent]: https://en.wikipedia.org/wiki/BitTorrent
 [Distributed Hash Table]: https://en.wikipedia.org/wiki/Distributed_hash_table
 
-Going back to our example scenario, there are two clients holding some content.  Unfortunately, one is holding content *Y* and the other one content *Z*, so your client would find no entries for content *X* in the distributed cache index, as depicted below.
+Clients offering some particular content over the distributed cache are said to be **seeding** it or to be their *seeders* (these terms come from the file sharing world).  Going back to our example scenario, there are two clients seeding some content.  Unfortunately, one is seeding content *Y* and the other one content *Z*, so your client would find no entries for content *X* in the distributed cache index, as depicted below.
 
 ![Figure: Content not found in the distributed cache](images/user-flow-1.svg)
 
@@ -87,10 +87,10 @@ In the figure below you can see a possible outcome of that operation: the client
 As content *X* is received by the injector, it signs it with its key, adds the signature to the content and sends it back to your client via the tunnel it arrived from (let us say it did through the client sitting beyond the blocking).  Once the content reaches your client, it does three things:
 
  1. It delivers it to you (in the case of CENO, it shows the content on the browser).
- 2. It saves the content in your device, for further sharing with other clients.  It will stay there for a configurable amount of time, or until you decide to clean all stored content.
+ 2. It saves the content in your device, for further seeding to other clients.  It will stay there for a configurable amount of time, or until you decide to clean all stored content.
  3. It announces in the distributed cache index that it is in possession of a copy of that content, so that other clients can find it.
 
-This combined operation of retrieval, signing, storage and announcement is what we call **content injection**, and it is shown in the figure below.
+The whole combined operation of retrieval, signing, storage and announcement is what we call **content injection**, and it is shown in the figure below.
 
 ![Figure: Client receives signed content from injector](images/user-flow-3.svg)
 
@@ -100,11 +100,11 @@ Please note that the mechanism described above still requires that *some path ex
 
 Let us imagine that after you retrieved content *X* from the injector, a disaster leaves your region isolated from the world.  It turns out that content *X* becomes especially relevant since it describes some ways in which you can help your community in such a situation.
 
-At that moment a second person using the CENO Browser also tries to get that content.  Access to the origin server or to anything beyond your region is impossible, so CENO checks the distributed cache index for that content and it finds that your device is sharing it.  CENO gets your Internet address from the index, connects to it and requests the content as shown below.
+At that moment a second person using the CENO Browser also tries to get that content.  Access to the origin server or to anything beyond your region is impossible, so CENO checks the distributed cache index for that content and it finds that your device is seeding it.  CENO gets your Internet address from the index, connects to it and requests the content as shown below.
 
 ![Figure: Client receives signed content from client](images/user-flow-4.svg)
 
-Now that second device also holds a copy of content *X* and can share it too.  If a third person interested in that content uses the CENO Browser to retrieve it, CENO will now see *two* addresses in the index for the content: your device's and that of the second user.  If the content is heavy (e.g. a video), this third device may try to get half of it from each of the other devices (as shown below), thus speeding up the download and reducing the traffic they use.
+Now that second device also holds a copy of content *X*, so it announces this in the distributed cache index, thus becoming a seeder.  If a third person interested in that content uses the CENO Browser to retrieve it, CENO will now see *two* addresses in the index for the content: your device's and that of the second user.  If the content is heavy (e.g. a video), this third device may try to get half of it from each of the other devices (as shown below), thus speeding up the download and reducing the traffic they use.
 
 ![Figure: Client receives signed content from multiple clients](images/user-flow-5.svg)
 

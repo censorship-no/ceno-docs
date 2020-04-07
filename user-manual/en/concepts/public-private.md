@@ -1,6 +1,6 @@
 # Public vs. private browsing
 
-Because of all the techniques offered by Ouinet to overcome connectivity issues, CENO may become a convenient way to get all kinds of Web content.  And, as you may have noticed, whenever you inject a page using the CENO Browser, its content becomes available to others (either from your device or from others that got it from yours).  There could be some pages though which you may not wish to share with others, or let them know that you visited or are trying to visit.  Fortunately, CENO can help you with a special mode of operation.
+Because of all the techniques offered by Ouinet to overcome connectivity issues, CENO may become a convenient way to get all kinds of Web content.  And, as you may have noticed, whenever you inject a page using the CENO Browser, its content becomes available to others (either from your device or from others that got it from yours).  There could be some pages though which you may not wish to seed to others, or let them know that you visited or are trying to visit.  Fortunately, CENO can help you with a special mode of operation.
 
 The default mode when you launch the application is **public browsing**.  In it, CENO accesses Web content as described previously:
 
@@ -31,6 +31,6 @@ While in private mode:
  5. Limited browsing activity is leaked to injectors (with HTTPS, only the origin server name or address).
  6. You need not trust injectors (with HTTPS, usual certificate-based security still works).
 
-Please read the section on [risks](risks.md) for a more detailed explanation.  Also note that your client can continue to operate as a bridge regardless of public or private browsing.
+Please read the section on [risks](risks.md) for a more detailed explanation.  Also note that your client can continue to operate as a bridge and a seeder (of other content) regardless of public or private browsing.
 
 So as a rule of thumb, one would use public mode to browse news, watch videos, read documentation and other mostly static content, while private mode would better fit more dynamic content or authenticated Web applications like mail, chat or social networking platforms.
