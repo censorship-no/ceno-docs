@@ -15,7 +15,7 @@ CENO also has a **private browsing** mode.  In it, the distributed cache is neve
 
 The different behavior results in different characteristics.  Thus, in public mode:
 
- 1. You have better chances to get Web content (even under complete blocking).
+ 1. You have better chances to get Web content (even under complete blocking), and help others get that content (from you).
  2. Pages with dynamic content (e.g. updating in real time) may not work.
  3. Pages requiring authentication do not work (passwords and cookies are removed by the injector).
  4. Some browsing activity may be leaked to other users.
@@ -24,7 +24,7 @@ The different behavior results in different characteristics.  Thus, in public mo
 
 While in private mode:
 
- 1. You have less chances to get Web content (some connectivity is required).
+ 1. You have less chances to get Web content (some connectivity is required), and others cannot get it from you.
  2. Pages with dynamic content may work.
  3. Pages requiring authentication may work (with HTTPS, the injector does not see your passwords).
  4. Browsing activity is not leaked to other users.
