@@ -10,6 +10,7 @@ The main advantages of using CENO and Ouinet over other circumvention technologi
 
   - **Faster browsing:** Since your client can retrieve different parts of the same content from various clients at the same time, the load of delivering the content is distributed among different networks and devices, thus avoiding clogging the paths to a single client (especially when delivering a big resource like a video).  This is not only useful when infrastructure connecting to other countries is limited, but also for publishers to avoid resource usage spikes at origin servers when some of their content becomes very popular (the so-called [Slashdot effect][]).
 
-  - **Cheaper browsing:** Content popular in a particular region tends to get copied in CENO/Ouinet clients in that region, even if the origin server is abroad.  If you are interested in that content, your client will probably get it from some other client in your region.  In some countries where international traffic is more expensive than local one, this can actually make you save money.
+  - **Cheaper browsing:** Content popular in a particular region tends to get copied in CENO/Ouinet clients in that region, even if the origin server is abroad.  If you are interested in that content, your client will probably get it from some other client in your region.  In some countries where international traffic is more expensive than local one (e.g. in the presence of a [National intranet][]), this can actually make you save money.
 
 [Slashdot effect]: https://en.wikipedia.org/wiki/Slashdot_effect
+[National intranet]: https://en.wikipedia.org/wiki/National_intranet
