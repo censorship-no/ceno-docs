@@ -12,4 +12,4 @@ The CENO Browser can be installed via the following means:
 
 CENO requires *no special permissions* to run.
 
-**Warning:** Please be *extremely skeptical* about installing the CENO Browser from sources other than the ones listed above.  Because of the application's nature, their potential users may become a target for all kinds of fake or manipulated versions used to violate the user's privacy or attack other CENO and Ouinet users.  If in doubt, please contact <cenoers@equalit.ie> before installing a suspicious app.
+> **Warning:** Please be *extremely skeptical* about installing the CENO Browser from sources other than the ones listed above.  Because of the application's nature, their potential users may become a target for all kinds of fake or manipulated versions used to violate the user's privacy or attack other CENO and Ouinet users.  If in doubt, please contact <cenoers@equalit.ie> before installing a suspicious app.
