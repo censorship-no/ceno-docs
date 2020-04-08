@@ -18,6 +18,7 @@
 
   - [Using the CENO Browser](browser/README.md)
 
+      - [Installing CENO](browser/install.md)
       - [CENO settings](browser/settings.md)
       - [Testing the Browser](browser/testing.md)
 
