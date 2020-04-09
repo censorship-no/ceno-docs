@@ -33,4 +33,11 @@ The page also provides you with some information about your CENO Browser app and
   - *UPnP status* indicates whether CENO was able to tell your router or access point to allow incoming connections towards it.  Also include in reports.
   - *Reachability status* indicates how likely it is for your device to be able to effectively seed content to other clients.  Also include in reports.
 
-TODO
+Finally, there is an *Enable log file* check box that allows you to collect all of Ouinet's internal messages and download them to a file.  This should only be used when diagnosing some problem in CENO; just follow these steps:
+
+ 1. Open the CENO Settings page and check *Enable log file*.
+ 2. Go back to browsing and do whatever actions that trigger the troublesome behavior.
+ 3. Return to the Settings page and click on the *Download* link next to the *Enable log file* check box.  Save the file for later use.
+ 4. Uncheck *Enable log file* to avoid the logs from growing too large.
+
+Now you can use the saved log file to document an issue report, but try to avoid making it public since it may contain sensitive information about your browsing.
