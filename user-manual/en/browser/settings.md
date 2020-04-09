@@ -24,4 +24,13 @@ The four check boxes selectively enable or disable the different mechanisms that
 
   - **Distributed cache:** This allows CENO to try to retrieve content from the distributed cache (i.e. from other CENO and Ouinet clients seeding it).
 
+The page also provides you with some information about your CENO Browser app and Ouinet client:
+
+  - *CENO Browser* indicates the exact version of CENO that you are using.  Please include this information in your issue reports.
+  - *Ouinet* shows the version of Ouinet backing CENO.  Also include in reports.
+  - *CENO Extension* shows the version of the extension that integrates Firefox with CENO.  Also include in reports.
+  - *Local UDP endpoint(s)* are the Internet addresses used by CENO to seed signed content to other clients.  These are shown to help test and debug the app, and should not be generally disclosed.
+  - *UPnP status* indicates whether CENO was able to tell your router or access point to allow incoming connections towards it.  Also include in reports.
+  - *Reachability status* indicates how likely it is for your device to be able to effectively seed content to other clients.  Also include in reports.
+
 TODO
