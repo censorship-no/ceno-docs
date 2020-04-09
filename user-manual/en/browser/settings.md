@@ -8,7 +8,9 @@ These features are available in a page that can be accessed by choosing *CENO* i
 
 ![Figure: The CENO Settings page](images/settings.png)
 
-The four check boxes selectively enable or disable the different mechanisms that CENO as a Ouinet client uses to retrieve content:
+## Choosing access mechanisms
+
+The four check boxes on the top of the page selectively enable or disable the different mechanisms that CENO as a Ouinet client uses to retrieve content:
 
   - **Origin access:** When enabled, this allows CENO to try to reach the origin server directly.
 
@@ -24,6 +26,8 @@ The four check boxes selectively enable or disable the different mechanisms that
 
   - **Distributed cache:** This allows CENO to try to retrieve content from the distributed cache (i.e. from other CENO and Ouinet clients seeding it).
 
+## About your app
+
 The page also provides you with some information about your CENO Browser app and Ouinet client:
 
   - *CENO Browser* indicates the exact version of CENO that you are using.  Please include this information in your issue reports.
@@ -33,11 +37,13 @@ The page also provides you with some information about your CENO Browser app and
   - *UPnP status* indicates whether CENO was able to tell your router or access point to allow incoming connections towards it.  Also include in reports.
   - *Reachability status* indicates how likely it is for your device to be able to effectively seed content to other clients.  Also include in reports.
 
-Finally, there is an *Enable log file* check box that allows you to collect all of Ouinet's internal messages and download them to a file.  This should only be used when diagnosing some problem in CENO; just follow these steps:
+## Collecting log messages
 
- 1. Open the CENO Settings page and check *Enable log file*.
+At the bottom of the page there is an *Enable log file* check box that allows you to collect all of Ouinet's internal messages and download them to a file.  This should only be used when diagnosing some problem in CENO; just follow these steps:
+
+ 1. At the CENO Settings page, check *Enable log file*.
  2. Go back to browsing and do whatever actions that trigger the troublesome behavior.
- 3. Return to the Settings page and click on the *Download* link next to the *Enable log file* check box.  Save the file for later use.
+ 3. Return to the CENO Settings page and click on the *Download* link next to the *Enable log file* check box.  Save the file for later use.
  4. Uncheck *Enable log file* to avoid the logs from growing too large.
 
 Now you can use the saved log file to document an issue report, but try to avoid making it public since it may contain sensitive information about your browsing.
