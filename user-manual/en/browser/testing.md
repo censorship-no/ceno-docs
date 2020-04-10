@@ -2,7 +2,7 @@
 
 Now that you know how to [install](install.md) and [configure](settings.md) CENO, let us follow some steps to test whether different Ouinet-specific features work.  This will involve selectively enabling and disabling different access mechanisms.  Keep in mind however that in day-to-day usage of CENO, you will seldom need to change the default settings at all.
 
-For these tests you will need at least two devices connected to the same Wi-Fi network, and if possible a third one on a completely different network.  Please note that the devices in the same network will need to communicate directly, and some public Wi-Fi networks do not allow this, so please try to use some private one.
+For these tests you will need at least two devices connected to the same Wi-Fi network, and if possible a third one on a completely different network.
 
 ## Accessing an injector
 
@@ -29,6 +29,8 @@ After completing the test above on the first device, leave CENO running on it (t
  4. The chosen site should eventually show up.
 
 If it works, it means that both devices are able to deliver that content to other clients.
+
+If it does not, and the second device shows an error page telling something like `Failed to retrieve the resource (after attempting all configured mechanisms)`, it could be that the Wi-Fi network does not allow direct communication between devices connected to it.  This happens in some public Wi-Fi networks, so try using a private one.
 
 ## Getting content from remote users
 
