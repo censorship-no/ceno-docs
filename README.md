@@ -133,36 +133,6 @@ If you want to remove all stored pages, you can use the standard procedures to d
 As mentioned above, because random IP addresses are usually not blocked, CENO relies on users outside of censored zones to act as bridges. Therefore we'd like to ask people willing to help the CENO project as well as people behind the
 internet walls to install the CENO browser on an Android device, start it up and let it run for as long as possible.
 
-# CENO Browser Settings Page
-
-CENO provides a small settings page that can be accessed by clicking the Fennec
-"options" icon (three vertical dots in the top right corner) and then clicking
-the "CENO" option. It should be noted that these settings need not be tweaked
-for normal operation. As of this writing, they are mainly there to help debugging
-different strategies of censorship avoidance.
-
-In particular, the page contains these four editable options:
-
-* Origin access: when enabled, this instructs CENO that it may try accessing
-  the origin web server directly. Mostly for non encrypted web sites, it may
-  be the case that the censor supplies to the user a bogus website in which
-  case CENO can't distinguish it from the real one. In such case it may help
-  to disable this option and thus to alway use CENOs multi hop transport
-  to get the content.
-* Proxy access: this option instructs CENO that it can bypass the distributed
-  cache mechanism. If other options are disabled, HTTPS exchanges shall be
-  routed through bridges and injectors, but they'll be encrypted in such a
-  way that only the destination servers can decrypt them.
-* Injector access: when enabled, HTTP requests made from the non-incognito
-  tab shall be stripped from any private information (e.g. non white listed
-  HTTP headers, GET variables and all non GET requests shall be stripped
-  away) and sent to the injector. Injector shall get the HTTP response
-  from origin servers, sign it and send it back to the CENO client. Because
-  the response is signed, the CENO client shall start sharing that HTTP
-  response using BitTorrent like protocol.
-* Distributed cache option allows the CENO client to make HTTP requests 
-  to the distributed cache.
-
 # Threat model
 
 When the CENO browser is started on a device, a number of internal IO processes
