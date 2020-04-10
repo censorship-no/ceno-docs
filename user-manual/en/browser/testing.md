@@ -34,4 +34,10 @@ If it does not, and the second device shows an error page telling something like
 
 ## Getting content from remote users
 
-TODO
+We have done a small-scale test of the distributed cache.  Let us now test how it works over the Internet.
+
+Please leave CENO running on the first device as with the previous test, and stop CENO on the second device (by tapping on its "Tap to stop" notification).  This time you will need a third device, but it must be connected to a different Wi-Fi network (maybe another friend can help from home).  The steps to follow for that device are exactly the same as those in the previous test.
+
+If the third device can load the site used for the test, you are all set.  The first device is able to seed content to others, and it can most probably also act as a bridge.  Congratulations!
+
+If the test is not working, it could be due to a variety of reasons.  One of them is that the network of the first device does not allow incoming connections: if you open its *CENO Settings* page, under *Reachability status* it should say *reachable* or *likely reachable*.  If it does not, but it does say so in the third device, you can try to reverse the roles of the two devices and repeat the tests (just make sure to choose a different site).
