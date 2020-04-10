@@ -45,7 +45,7 @@ At the bottom of the page there is an *Enable log file* check box that allows yo
 
  1. At the CENO Settings page, check *Enable log file*.
  2. Go back to browsing and do whatever actions that trigger the troublesome behavior.
- 3. Return to the CENO Settings page and click on the *Download* link next to the *Enable log file* check box.  Save the file for later use.
+ 3. Return to the CENO Settings page and click on the *Download* link next to the *Enable log file* check box.  Save the file for later use.  Android may ask you at this point whether to allow CENO access to stored media: this is needed to be able to save the file.
  4. Uncheck *Enable log file* to avoid the logs from growing too large.
 
 Now you can use the saved log file to document an issue report, but try to avoid making it public since it may contain sensitive information about your browsing.
