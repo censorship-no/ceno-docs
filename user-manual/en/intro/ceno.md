@@ -28,6 +28,6 @@ CENO is specially convenient for people interested in Web content that may be ta
 
 One does not need advanced computer knowledge to use CENO: since it inherits the ease of use of Firefox (with CENO-specific functionality getting out of the way as much as possible), it feels like a normal browser.  Any person used to browsing the Web should feel comfortable with it.
 
-CENO does however create more Internet traffic than your usual Web browser, since it needs to announce the Web content it is sharing, and possibly deliver it to other users that request it.  CENO thus relies on moderately good in-country connectivity.  For the moment, we recommend using CENO when connected to Wi-Fi to avoid exhausting mobile data limits.
+CENO does however create more Internet traffic than your usual Web browser, since it needs to announce the Web content it is sharing, and possibly deliver it to other users that request it.  CENO thus relies on moderately good in-country connectivity.  For the moment, we recommend using CENO when connected to Wi-Fi to avoid exhausting mobile data limits and to increase the chances of being able to deliver content to other users.
 
 **Warning:** *CENO is not an anonymity tool.*  In fact, using CENO may allow others to know whether you have accessed or are providing certain Web content.  Please take careful consideration of which risks you can assume by using this tool.  See the sections on [public vs. private browsing](../concepts/public-private.md) and [risks](../concepts/risks.md) for further information.
