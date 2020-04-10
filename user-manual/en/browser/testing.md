@@ -30,7 +30,7 @@ After completing the test above on the first device, leave CENO running on it (t
 
 If it works, it means that both devices are able to deliver that content to other clients.
 
-If it does not, and the second device shows an error page telling something like `Failed to retrieve the resource (after attempting all configured mechanisms)`, it could be that the Wi-Fi network does not allow direct communication between devices connected to it.  This happens in some public Wi-Fi networks, so try using a private one.
+If it does not, and the second device shows an error page telling something like "Failed to retrieve the resource (after attempting all configured mechanisms)", it could be that the Wi-Fi network does not allow direct communication between devices connected to it.  This happens in some public Wi-Fi networks, so try using a private one.
 
 ## Getting content from remote users
 
