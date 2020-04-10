@@ -26,6 +26,8 @@ The four check boxes on the top of the page selectively enable or disable the di
 
   - **Distributed cache:** This allows CENO to try to retrieve content from the distributed cache (i.e. from other CENO and Ouinet clients seeding it).
 
+> **Warning:** Please note that CENO does not yet remember these settings after restarting the app.  If you require some of the previous mechanisms to be off while using CENO, please remember to open the Settings page whenever you start the app and uncheck their boxes before browsing.  Sorry for the inconvenience.
+
 ## About your app
 
 The page also provides you with some information about your CENO Browser app and Ouinet client:
