@@ -32,7 +32,7 @@ Ouinet looks for the content in a different way.  It uses an index not unlike th
 [BitTorrent]: https://en.wikipedia.org/wiki/BitTorrent
 [Distributed Hash Table]: https://en.wikipedia.org/wiki/Distributed_hash_table
 
-Clients offering some particular content over the distributed cache are said to be **seeding** it or to be their *seeders* (these terms come from the file sharing world).  Going back to our example scenario, there are two clients seeding some content.  Unfortunately, one is seeding content *Y* and the other one content *Z*, so your client would find no entries for content *X* in the distributed cache index, as depicted below.
+Clients offering some particular content over the distributed cache are said to be **seeding** it or to be their *seeders* (these terms come from the P2P file sharing world).  Going back to our example scenario, there are two clients seeding some content.  Unfortunately, one is seeding content *Y* and the other one content *Z*, so your client would find no entries for content *X* in the distributed cache index, as depicted below.
 
 ![Figure: Content not found in the distributed cache](images/user-flow-1.svg)
 
@@ -51,7 +51,7 @@ In Ouinet, there is a special kind of proxy servers called **injectors** which s
   - Even if an injector was identified and access to it was blocked by your ISP, there are several of them and it does not matter which one your client contacts over the Internet.
   - Some or all injectors may be blocked, but then the set of injectors can vary over time (with new ones being added).
 
-    Your client need not know their Internet addresses in advance; instead, it performs a lookup in the **injector swarm**, a single-entry distributed index (similar to the distributed cache index) which yields the addresses of currently available injectors.
+    Your client need not know their Internet addresses in advance; instead, it performs a lookup in the **injector swarm** (another term from P2P file sharing), a single-entry distributed index similar to the distributed cache index which yields the addresses of currently available injectors.
   - Finally, even if your client may not be able to reach any injector, some other clients may.  When a client is able to reach an injector and believes itself to be reachable by other clients, it becomes a **bridge** client and adds its own Internet address to the **bridge swarm**, another single-entry distributed index.
 
     So your client can look for such an address, connect to the bridge behind it and tell it to establish another connection to an injector on its behalf, creating a **tunnel** between your client and the injector.  Then a connection can be established between them inside of the tunnel.
