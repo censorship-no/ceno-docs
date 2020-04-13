@@ -6,8 +6,8 @@ This setting applies *to each tab* that you open in the browser, i.e. you can ha
 
 You can tell public tabs from private ones because the former have a lighter (or white) tool bar:
 
-![Figure: A public browsing tab (TODO)](images/public-tab.png)
+![Figure: A public browsing tab](images/public-tab.png)
 
 In contrast, the latter have a darker tool bar:
 
-![Figure: A private browsing tab (TODO)](images/private-tab.png)
+![Figure: A private browsing tab](images/private-tab.png)
