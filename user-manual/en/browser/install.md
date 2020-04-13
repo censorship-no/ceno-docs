@@ -18,4 +18,4 @@ As soon as you start the app you will notice that a CENO icon appears on your de
 
 Since running such service uses network and processor resources, you may want to stop it whenever you are on the move (i.e. not connected to Wi-Fi or far from a charger).  Tapping the notification attached to the icon will stop both CENO and its service at once (until you open CENO again).
 
-![Figure: Tap the notification to stop the CENO service (TODO)](images/tap-stop.png)
+![Figure: Tap the notification to stop the CENO service](images/tap-stop.png)
