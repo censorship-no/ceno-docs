@@ -4,6 +4,8 @@ Now that you know how to [install](install.md) and [configure](settings.md) CENO
 
 For these tests you will need at least two devices connected to the same Wi-Fi network, and if possible a third one on a completely different network.
 
+All the tests will be performed using [public browsing](public-private.md).
+
 ## Accessing an injector
 
 Let us first check whether your CENO Browser can reach an injector.  This may look trivial but your client will already be exercising several Ouinet features in the process: looking up the injector address in the injector swarm, trying to contact it directly and, if it is blocked by your access provider or country, looking up the bridge swarm and trying to contact the injector via some other Ouinet client.
