@@ -17,6 +17,12 @@ In the first device perform the following steps:
 
 If the site does load, you can be happy that your device can reach the injector!  Since you are able to query swarms and contact other clients, you are also likely to be able to retrieve content from the distributed cache.
 
+By the way, if you push the CENO icon in the tool bar, it will open a popup like the one below, showing how many elements from the site were retrieved using each of the different access mechanisms.  Only *Injector access* should have a non-zero value since the other mechanisms were disabled.
+
+![Figure: Mechanisms used when testing injection](images/sources-inject.png)
+
+You may notice that there is a counter for *Local cache*.  This is not a different mechanism *per se*: elements counted here are indeed part of the distributed cache, but they happen to already be stored in your device, so CENO does not need to retrieve them over the network.
+
 ## Getting content from close users
 
 Since your first device was able to get some content from an injector, let us test if it is able to share it with another device over the distributed cache.  The simplest way is to use CENO's device-to-device support to check whether getting and verifying signed content works.
@@ -28,7 +34,9 @@ After completing the test above on the first device, leave CENO running on it (t
  3. Go back to Firefox's home page and visit the same site in the same manner as you did above (i.e. by selecting one of the recommended web sites or entering its URL in the address bar).
  4. The chosen site should eventually show up.
 
-If it works, it means that both devices are able to deliver that content to other clients.
+If it works, it means that both devices are able to deliver that content to other clients.  Pushing the CENO tool bar icon should show a popup like the one below, where only *Distributed cache* has a non-zero value.
+
+![Figure: Mechanisms used when testing distributed cache retrieval](images/sources-dcache.png)
 
 If it does not, and the second device shows an error page telling something like "Failed to retrieve the resource (after attempting all configured mechanisms)", it could be that the Wi-Fi network does not allow direct communication between devices connected to it.  This happens in some public Wi-Fi networks, so try using a private one.
 
