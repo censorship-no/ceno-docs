@@ -23,7 +23,11 @@ By the way, if you push the CENO icon in the tool bar, it will open a popup like
 
 ![Figure: Mechanisms used when testing injection](images/sources-inject.png)
 
-You may notice that there is a counter for *Local cache*.  This is not a different mechanism *per se*: elements counted here are indeed part of the distributed cache, but they happen to already be stored in your device, so CENO does not need to retrieve them over the network.
+In contrast, if you had used private browsing with default settings, you may have seen a popup like the one below, with non-zero counts in *Origin* or *Proxy* mechanisms.
+
+![Figure: Mechanisms used with private browsing](images/sources-proxy.png)
+
+Finally, you may have also noticed that there is a counter for *Local cache*.  This is not a different mechanism *per se*: elements counted here are indeed part of the distributed cache, but they happen to already be stored in your device, so CENO does not need to retrieve them over the network.
 
 ## Getting content from close users
 
