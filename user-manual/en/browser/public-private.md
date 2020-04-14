@@ -11,3 +11,5 @@ You can tell public tabs from private ones because the former have a lighter (or
 In contrast, the latter have a darker tool bar:
 
 ![Figure: A private browsing tab](images/private-tab.png)
+
+Once you have loaded a page in a tab, the colored CENO icon in the tool bar will help you know how it did actually retrieve the different elements in it.  We will cover this icon later on.
