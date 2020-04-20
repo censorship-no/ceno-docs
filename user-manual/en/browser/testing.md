@@ -4,7 +4,7 @@ Now that you know how to [install](install.md) and [configure](settings.md) CENO
 
 For these tests you will need at least two devices connected to the same Wi-Fi network, and if possible a third one on a completely different network.
 
-All the tests will be performed using [public browsing](public-private.md).
+All the tests will be performed using [public browsing](public-private.md).  If something does not work as expected, please be patient and check the section on [troubleshooting](troubleshooting.md).
 
 ## Accessing an injector
 
@@ -44,8 +44,6 @@ If it works, it means that both devices are able to deliver that content to othe
 
 ![Figure: Mechanisms used when testing distributed cache retrieval](images/sources-dcache.png)
 
-If it does not, and the second device shows an error page telling something like "Failed to retrieve the resource (after attempting all configured mechanisms)", it could be that the Wi-Fi network does not allow direct communication between devices connected to it.  This happens in some public Wi-Fi networks, so try using a private one.
-
 ## Getting content from remote users
 
 We have done a small-scale test of the distributed cache.  Let us now test how it works over the Internet.
@@ -53,7 +51,3 @@ We have done a small-scale test of the distributed cache.  Let us now test how i
 Please leave CENO running on the first device as with the previous test, and stop CENO on the second device (by tapping on its "Tap to stop" notification).  This time you will need a third device, but it must be connected to a different Wi-Fi network (maybe another friend can help from home).  The steps to follow for that device are exactly the same as those in the previous test.
 
 If the third device can load the site used for the test, you are all set.  The first device is able to seed content to others, and it can most probably also act as a bridge.  Congratulations!
-
-If the test is not working, it could be due to a variety of reasons.  One of them is that the network of the first device does not allow incoming connections: if you open its *CENO Settings* page, under *Reachability status* it should say *reachable* or *likely reachable*.  If it does not, but it does say so in the third device, you can try to reverse the roles of the two devices and repeat the tests (just make sure to choose a different site).
-
-> **Technical note:** If both devices report *undecided* reachability and you can change the configuration of your access point, there is one more thing you can try: create a permanent port redirection from the port shown in the first device's *CENO Settings* page, under *Local UDP endpoint(s)* to the address and port reported there.  CENO chooses a random port on first run and keeps it for subsequent runs, so you should just make sure that the access point always assigns the same IP address to the device (e.g. via a static DHCP lease for the device's MAC address).

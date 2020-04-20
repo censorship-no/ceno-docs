@@ -22,5 +22,6 @@
       - [Using public or private browsing](browser/public-private.md)
       - [CENO settings](browser/settings.md)
       - [Testing the Browser](browser/testing.md)
+      - [Troubleshooting](browser/troubleshooting.md)
 
   - [Annex: The Ouinet client front-end](client/front-end.md)
