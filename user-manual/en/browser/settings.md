@@ -6,7 +6,7 @@ The CENO Browser allows you to change some Ouinet-specific settings and get info
 
 These features are available in a page that can be accessed by choosing *CENO* in the app's main menu.  Please note that the menu entry may take a few seconds to pop up on app start.  The page should look like this:
 
-![Figure: The CENO Settings page](images/settings.png)
+![Figure: The *CENO Settings* page](images/settings.png)
 
 ## Choosing access mechanisms
 
@@ -43,9 +43,9 @@ The page also provides you with some information about your CENO Browser app and
 
 At the bottom of the page there is an *Enable log file* check box that allows you to collect all of Ouinet's internal messages and download them to a file.  This should only be used when diagnosing some problem in CENO; just follow these steps:
 
- 1. At the CENO Settings page, check *Enable log file*.
+ 1. At the *CENO Settings* page, check *Enable log file*.
  2. Go back to browsing and do whatever actions that trigger the troublesome behavior.
- 3. Return to the CENO Settings page and click on the *Download* link next to the *Enable log file* check box.  Save the file for later use.  Android may ask you at this point whether to allow CENO access to stored media: this is needed to be able to save the file.
+ 3. Return to the *CENO Settings* page and click on the *Download* link next to the *Enable log file* check box.  Save the file for later use.  Android may ask you at this point whether to allow CENO access to stored media: this is needed to be able to save the file.
  4. Uncheck *Enable log file* to avoid the logs from growing too large.
 
 Now you can use the saved log file to document an issue report, but try to avoid making it public since it may contain sensitive information about your browsing.
