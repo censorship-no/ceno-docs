@@ -28,7 +28,7 @@ TODO
 
 TODO
 
-## Content cannot be retrieved from my device
+## Others cannot retrieve content seeded by my device
 
 First, make sure that your device is still seeding the content by going to the *CENO Settings* page, only leaving the *Distributed cache* box checked, then accessing that content again: it should load (at least partially), and pushing the CENO address bar icon should only show non-zero values under *Distributed cache* or *Local cache*.
 
