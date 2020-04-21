@@ -30,7 +30,7 @@ TODO
 
 ## Others cannot retrieve content seeded by my device
 
-First, make sure that your device is still seeding the content by going to the *CENO Settings* page, only leaving the *Distributed cache* box checked, then accessing that content again: it should load (at least partially), and pushing the CENO address bar icon should only show non-zero values under *Distributed cache* or *Local cache*.
+First, make sure that your device is still seeding the content by going to the [*CENO Settings* page](settings.md), only leaving the *Distributed cache* box checked, then accessing that content again: it should load (at least partially), and pushing the CENO address bar icon should only show non-zero values under *Distributed cache* or *Local cache*.
 
 If the content does not load, it could be that CENO has already removed it, since it automatically cleans up stale content (older than a week by default) from your local cache.  Enable *Injector access* in the Settings page and access the content again.  Please allow a couple of minutes to pass for the device to announce the content in the distributed cache index.  Disable *Injector access* and access the content again; if it still does not load, it may be that the particular content is not deemed safe for sharing by Ouinet (e.g. because the origin server precludes it or it requires authentication).
 
