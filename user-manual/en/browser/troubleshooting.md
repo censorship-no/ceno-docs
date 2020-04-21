@@ -20,11 +20,29 @@ If you get an error like "The proxy server is refusing connections" when visitin
 
 > **Technical note:** This may happen if another application is already listening on TCP ports `127.0.0.1:8077` or `127.0.0.1:8078`.
 
-## Retrieving content via the injector does not work
+## Accessing some content shows "Failed to retrieve the resource"
+
+This means that CENO tried all available mechanisms to access the content, but none of them succeeded.
+
+You should make sure that the following requirements are fulfilled for CENO to work:
+
+  - You are running a recent version of the CENO Browser.  Obsolete versions may not be able to communicate with newer injectors or other clients.  Check the [installation instructions](install.md) to know where to get new versions.
+  - All access mechanisms in the [Settings page](settings.md) are enabled.  Otherwise CENO will not be able to circumvent some connectivity issues when accessing content.
+  - Your device has a working connection to the network, i.e. your normal Web browser is able to open some Web sites.  CENO and Ouinet cannot work when all network connectivity is shut down (although users may still find a common Wi-Fi access point to do device-to-device sharing).
+
+If that is the case, it is worth explaining what may be happening for all access mechanisms to fail, so that you get an idea of the chances that you have to get the content.
+
+### Origin access
+
+Your CENO Browser cannot directly reach the content's origin server.  Either the server is having some difficulties itself (e.g. it is down or under some attack), or someone is interfering with your connection to it.
+
+This is the main use case for CENO and the other mechanisms should compensate for it.
+
+### Proxy/Injector access
 
 TODO
 
-## Retrieving content from the distributed cache does not work
+### Distributed cache
 
 TODO
 
