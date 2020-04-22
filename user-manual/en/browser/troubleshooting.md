@@ -40,7 +40,21 @@ This is the main use case for CENO and the other mechanisms should compensate fo
 
 ### Proxy/Injector access
 
-TODO
+Someone is interfering with your connection to Internet addresses in the injector swarm.  Since this is expected to happen eventually as CENO (and Ouinet) gain traction, CENO resorts to reach injectors via bridge clients.
+
+There are different reasons for CENO not to be able to reach such clients:
+
+  - No other client is reachable by you.  If only a few Ouinet clients are online, it is entirely possible that none of them is in a network which allows it to be reached from the outside.  This should become less likely as CENO and Ouinet get popular and more clients with diverse connectivity get online.
+
+    The extreme case here is that connections between Ouinet clients are detected as such by a censor and blocked.  This is quite unlikely (since it may entail blocking all BitTorrent traffic) and currently beyond what Ouinet supports, but we plan to make it more resistant against these attacks.
+
+  - No other client can reach an injector.  Since it is unlikely that all injectors are simultaneously down, that may mean that you can only reach Ouinet clients which are themselves affected by similar network interference as yours.
+
+    This can happen when all traffic leaving or entering the country you are in is interrupted.  CENO should resort to getting content from the distributed cache in this case.
+
+    Again, as CENO and Ouinet become more popular, the chances increase that there are at least a few clients that do have some kind of access to international sites.  Even if access is precarious, a single Ouinet client able to inject some content into the country could suffice to enable it to spread (over the distributed cache) without further need to access the outside world.
+
+Finally, we do run some Ouinet clients with good connectivity in (hopefully) censorship-free countries to try to avoid those two situations, but please note that clients with such stable Internet addresses could get blocked as well.
 
 ### Distributed cache
 
