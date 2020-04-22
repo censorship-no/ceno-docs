@@ -30,7 +30,7 @@ You should make sure that the following requirements are fulfilled for CENO to w
   - All access mechanisms in the [Settings page](settings.md) are enabled.  Otherwise CENO will not be able to circumvent some connectivity issues when accessing content.
   - Your device has a working connection to the network, i.e. your normal Web browser is able to open some Web sites.  CENO and Ouinet cannot work when all network connectivity is shut down (although users may still find a common Wi-Fi access point to do device-to-device sharing).
 
-If that is the case, it is worth explaining what may be happening for all access mechanisms to fail, so that you get an idea of the chances that you have to get the content.
+If that is the case, it is worth explaining what may be happening for all access mechanisms to fail, so that you get an idea of the chances that you have to get content using CENO.
 
 ### Origin access
 
