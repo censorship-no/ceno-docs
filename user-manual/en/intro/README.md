@@ -1,7 +1,5 @@
 # Introduction
 
-TODO: more context
-
 The Internet and the World Wide Web have become more and more important for people around the world as a source of all kinds of information, and a way to exercise fundamental rights.  At the same time, recent years have seen an increase in all kinds of network censorship and other types of network interference (see the reports from [OONI][ooni-reports], [Magma][magma-reports], [Censored Planet][cplan-reports]), both from private and state actors.
 
 [ooni-reports]: https://ooni.org/reports/
