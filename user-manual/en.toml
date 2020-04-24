@@ -2,5 +2,8 @@
 authors = ["Ivan Vilata-i-Balaguer"]
 language = "en"
 multilingual = false
-src = "."
+src = "en"
 title = "Censorship.no! User Manual"
+
+[build]
+build-dir = "en.book"
