@@ -7,7 +7,7 @@ CENO (short for [Censorship.no!][]) is a Web browser for mobile devices (such as
 
 What sets CENO apart from most other circumvention initiatives is that users can continue to share Web content even when no (or extremely limited) connectivity exists across national borders, as long as it stays reasonably good in-country.  CENO is thus built in expectation of aggressive Internet filtering and the establishment of [national intranets][] to fence off nations from the Web.
 
-[national intranets]: http://en.wikipedia.org/wiki/National_intranet
+[national intranets]: https://en.wikipedia.org/wiki/National_intranet
 
 CENO is an adapted version of [Firefox for Android][], a popular, modern, feature-rich and secure Free/Libre/Open-Source browser.  CENO extends Firefox with **Ouinet**, the underlying technology allowing it to share content between devices (described in later sections).
 
