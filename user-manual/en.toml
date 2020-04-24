@@ -1,0 +1,12 @@
+[book]
+authors = ["Ivan Vilata-i-Balaguer"]
+language = "en"
+multilingual = false
+src = "en"
+title = "Censorship.no! User Manual"
+
+[output.html]
+git-repository-url = "https://github.com/censorship-no/ceno-docs"
+
+[build]
+build-dir = "en.book"
