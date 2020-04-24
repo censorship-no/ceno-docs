@@ -10,7 +10,7 @@ The items shown in the page include:
 
   - A link to enable the client as a certificate authority (CA) at your browser, since the client needs to intercept HTTPS traffic.
 
-    You only need this to use a plain browser for testing the Ouinet client, in which case you will also have to configure its HTTP/HTTPS proxies to `127.0.0.1:8077`, and manually enable the [CENO Extension]() for injection to work.  We very strongly recommend using a *separate, specific browser profile* for this purpose.
+    You only need this to use a plain browser for testing the Ouinet client, in which case you will also have to configure its HTTP/HTTPS proxies to `127.0.0.1:8077`, and manually enable the [CENO Extension][] for injection to work.  We very strongly recommend using a *separate, specific browser profile* for this purpose.
 
     Please note that none of this needs to be done for the CENO Browser, since it is already configured like that.
 
