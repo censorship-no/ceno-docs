@@ -6,8 +6,10 @@
 
   - [Introduction](intro/README.md)
 
+      - [Quick Start Guide?](intro/qsg.md)
       - [What is the CENO Browser?](intro/ceno.md)
       - [What is Ouinet?](intro/ouinet.md)
+      - [Frequently Asked Questions?](intro/faq.md)
 
   - [Main concepts](concepts/README.md)
 
@@ -21,6 +23,7 @@
       - [Installing CENO](browser/install.md)
       - [Using public or private browsing](browser/public-private.md)
       - [CENO settings](browser/settings.md)
+      - [Helping others](browser/proxy.md)
       - [Testing the Browser](browser/testing.md)
       - [Troubleshooting](browser/troubleshooting.md)
 
