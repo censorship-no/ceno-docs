@@ -25,6 +25,7 @@
       - [CENO settings](browser/settings.md)
       - [Helping others](browser/proxy.md)
       - [Testing the Browser](browser/testing.md)
+      - [Helping others](browser/bridging.mg)
       - [Troubleshooting](browser/troubleshooting.md)
 
   - [Annex: The Ouinet client front-end](client/front-end.md)
