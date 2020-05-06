@@ -23,7 +23,6 @@
       - [Installing CENO](browser/install.md)
       - [Using public or private browsing](browser/public-private.md)
       - [CENO settings](browser/settings.md)
-      - [Helping others](browser/proxy.md)
       - [Testing the Browser](browser/testing.md)
       - [Helping others](browser/bridging.mg)
       - [Troubleshooting](browser/troubleshooting.md)
