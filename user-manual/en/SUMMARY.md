@@ -6,10 +6,10 @@
 
   - [Introduction](intro/README.md)
 
-      - [Quick Start Guide?](intro/qsg.md)
       - [What is the CENO Browser?](intro/ceno.md)
       - [What is Ouinet?](intro/ouinet.md)
-      - [Frequently Asked Questions?](intro/faq.md)
+      - [Quick Start Guide](intro/qsg.md)
+      - [Frequently Asked Questions](intro/faq.md)
 
   - [Main concepts](concepts/README.md)
 
