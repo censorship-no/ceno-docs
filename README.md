@@ -15,6 +15,14 @@ CENO is based on [Firefox for Android][] (a.k.a. Mozilla Fennec), extended to ma
 [Firefox for Android]: https://www.mozilla.org/firefox/android/
 [Ouinet library]: https://github.com/equalitie/ouinet/
 
+For a user-level introduction to CENO and Ouinet, the concepts they rely upon, and how to use them, please refer to the [Censorship.no! User Manual][].
+
+[Censorship.no! User Manual]: https://censorship.no/user-manual/en/
+
+For a technical-level, full specification of the Ouinet network, its components and protocols, please refer to the [Ouinet white paper][].
+
+[Ouinet white paper]: https://github.com/equalitie/ouinet/blob/master/doc/ouinet-network-whitepaper.md
+
 The *Censorship.no!* project is run by [eQualitie][] in support of Articles 18, 19 and 20 of the [Universal Declaration of Human Rights][].  Please contact <cenoers@equalit.ie> in case of doubt or for further information.
 
 [eQualitie]: https://equalit.ie/
@@ -44,7 +52,7 @@ Provided that there are enough CENO bridges located outside of the censored zone
 
 # How to use CENO
 
-Please refer to the [Censorship.no! User Manual](https://censorship.no/user-manual/en/) for a detailed introduction to CENO and Ouinet, the concepts they rely upon, and how to use them.
+Please refer to the [Censorship.no! User Manual](https://censorship.no/user-manual/en/) for detailed instructions.
 
 ## As a user
 
