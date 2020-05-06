@@ -1,12 +1,12 @@
 # Helping other CENO users browse the Web
 
-A peer-to peer-network is built from every node connected to it (yes, that means you as well!) The more nodes, the stronger and more versatile the network becomes. If you are running the CENO Browser from a country that does not censor the internet (or not as heavily as some), consider helping other CENO users by becoming a **bridge** node. You will then route traffic between clients living in heavily censored countries and the CENO network injectors. You wont be able to see this traffic (it will be sent through an encrypted tunnel) nor will any of this traffic remain on your device. 
-
-**Note:** enabling UPnP on your Wifi router may expose some of the devices on your network to external interference. Please make yourself [aware of the risks](https://www.howtogeek.com/122487/htg-explains-is-upnp-a-security-risk) and also consider using alternative methods as explained below.
+A peer-to peer-network is built from every node connected to it (yes, that means you as well!) The more nodes - the stronger and more versatile the network becomes. If you're running the CENO Browser from a country that does not censor the internet (or not as heavily as some), consider helping other CENO users by becoming a **bridge** node. You will then begin to route traffic between clients living in heavily censored countries and the CENO network injectors. You wont be able to see their traffic (it will be sent through an encrypted tunnel) nor will any of this traffic remain on your device. 
 
 # How to become a CENO bridge
 
-This functionality is already built into the CENO browser client. Your phone will need to be connected to a WiFi network that has [UPnP](https://en.wikipedia.org/wiki/Universal_Plug_and_Play) enabled. The **CENO Settings** menu will indicate the UPnP status of your phone. Note that many WiFi routers switch this option **on** by default. 
+This functionality is already built into the CENO browser client. Your phone will need to be connected to a WiFi network that has [UPnP](https://en.wikipedia.org/wiki/Universal_Plug_and_Play) enabled. The **CENO Settings** menu will indicate the UPnP status on your network. 
+
+**Note:** enabling UPnP on the Wifi router may expose devices on your network to external interference. Please make yourself [aware of the risks](https://www.howtogeek.com/122487/htg-explains-is-upnp-a-security-risk) and also consider using alternative methods as explained below.
 
 <img src="images/upnp-no.png" height="100">
 
@@ -22,7 +22,7 @@ Indicates that UPnP is working and you can bridge connections for other CENO use
 
 # Enabling UPnP on your WiFi router
 
-There are many WiFi routers on the market and each has their own particular features. Herein a list of popular manufacturers' instructions for enabling UPnP:
+There are many WiFi routers on the market and each has their own particular features. Herein a list of some manufacturers' instructions for enabling UPnP:
 
 * [Linksys](https://www.linksys.com/us/support-article?articleNum=138290)
 * [D-Link](https://eu.dlink.com/uk/en/support/faq/routers/wired-routers/di-series/how-do-i-enable-upnp-on-my-router)
@@ -32,3 +32,8 @@ There are many WiFi routers on the market and each has their own particular feat
 
 # Alternative methods to allow CENO bridging
 
+Instead of enabling UPnP on your router, you can create a port forwarding rule, to make sure that connections from the CENO network are forwarded to your smartphone. You will need to login to the router's administration interface and locate the *port forwarding* option. To see which IP address you need to forward the connections to and the relevant port, open the **CENO Settings** menu and look under the *Local UDP endpoint(s)*. 
+
+<img src="images/udp-port.png" height="100">
+
+**Note:** The port forwarding must be for the UDP protocol (not TCP). Your smartphone's local network IP address may change from time to time (unless you know how to allocate a static address to the device) so you should periodically review the CENO settings menu to see that the phone is reachable to the CENO network. 
