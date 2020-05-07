@@ -15,20 +15,28 @@ CENO is based on [Firefox for Android][] (a.k.a. Mozilla Fennec), extended to ma
 [Firefox for Android]: https://www.mozilla.org/firefox/android/
 [Ouinet library]: https://github.com/equalitie/ouinet/
 
-The *Censorship.no!* project is run by [eQualitie][] in support of Articles 18, 19 and 20 of the [Universal Declaration of Human Rights]().  Please contact <cenoers@equalit.ie> in case of doubt or for further information.
+For a user-level introduction to CENO and Ouinet, the concepts they rely upon, and how to use them, please refer to the [Censorship.no! User Manual][].
+
+[Censorship.no! User Manual]: https://censorship.no/user-manual/en/
+
+For a technical-level, full specification of the Ouinet network, its components and protocols, please refer to the [Ouinet white paper][].
+
+[Ouinet white paper]: https://github.com/equalitie/ouinet/blob/master/doc/ouinet-network-whitepaper.md
+
+The *Censorship.no!* project is run by [eQualitie][] in support of Articles 18, 19 and 20 of the [Universal Declaration of Human Rights][].  Please contact <cenoers@equalit.ie> in case of doubt or for further information.
 
 [eQualitie]: https://equalit.ie/
 [Universal Declaration of Human Rights]: https://www.un.org/en/universal-declaration-human-rights/
 
 # Current Status
 
-CENO is currently in ALPHA release. It is being tested in countries that censor large parts of the Internet from their citizens. A number of smaller tasks remain to be done before the software is moved into a BETA release.
+CENO is currently in BETA release. It is being tested in countries that censor large parts of the Internet from their citizens. More extensive user testing and feedback is expected before the software is moved into a stable release.
 
 # Warnings!
 
-CENO is still **experimental ALPHA software**.  We offer it with the best intention that it is useful to you, but due to its highly innovative nature and stage of development, you may expect some issues while using it.
+We offer CENO with the best intention that it is useful to you, but due to its highly innovative nature and stage of development, you may expect some issues while using it.
 
-We recommend that you use this tool in controlled environments and **only assume reasonable risks**. eQualitie and its associates decline any legal responsibility derived from the use of this software. See 'Operational Warnings' below for more information on what you need to be aware of in running the Aplha release. 
+We recommend that you use this tool in controlled environments and **only assume reasonable risks**. eQualitie and its associates decline any legal responsibility derived from the use of this software. See 'Operational Warnings' below for more information on what you need to be aware of in running the beta release.
 
 ## What currently works
   - Browse any website with normal speed when Internet access to the resource is not censored.
@@ -44,7 +52,7 @@ Provided that there are enough CENO bridges located outside of the censored zone
 
 # How to use CENO
 
-Please refer to the [Censorship.no! User Manual](user-manual/en/SUMMARY.md) for a detailed introduction to CENO and Ouinet, the concepts they rely upon, and how to use them.
+Please refer to the [Censorship.no! User Manual](https://censorship.no/user-manual/en/) for detailed instructions.
 
 ## As a user
 
