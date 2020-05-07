@@ -30,11 +30,7 @@ The *Censorship.no!* project is run by [eQualitie][] in support of Articles 18, 
 
 # Current Status
 
-CENO is currently in BETA release. It is being tested in countries that censor large parts of the Internet from their citizens. More extensive user testing and feedback is expected before the software is moved into a stable release.
-
-# Warnings!
-
-We offer CENO with the best intention that it is useful to you, but due to its highly innovative nature and stage of development, you may expect some issues while using it.
+CENO is currently in BETA release. It is being tested in countries that censor large parts of the Internet from their citizens. We offer it with the best intention that it is useful to you, but due to its highly innovative nature and stage of development, you may expect some issues while using it. We will be submitting the codebase to an independent audit in the near future and will update this entry when that work is completed.
 
 We recommend that you use this tool in controlled environments and **only assume reasonable risks**. eQualitie and its associates decline any legal responsibility derived from the use of this software. See 'Operational Warnings' below for more information on what you need to be aware of in running the beta release.
 

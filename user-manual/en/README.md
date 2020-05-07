@@ -1,5 +1,5 @@
 # Censorship.no! User Manual
 
-This manual documents the **CENO Browser** and related technologies created by the [Censorship.no!](https://censorship.no/) project, always with final users in mind.  Some technical notes (marked as such) are added for clarification, but they can be safely skipped.
+This manual is aimed at users of the **CENO Browser** and related technologies, as created for the [Censorship.no!](https://censorship.no/) project by [eQualitie](https://equalit.ie).
 
-If you are looking for technical documentation (like protocol specifications and implementation details), please refer to the [CENO documentation repository](https://github.com/censorship-no/ceno-docs/), where you will find pointers for further reading.
+If you are looking for technical documentation, please refer to the [CENO documentation repository](https://github.com/censorship-no/ceno-docs/), where you will find pointers for further reading and details on implementation, as well as the  [protocol specifications](https://github.com/equalitie/ouinet/blob/technical-whitepaper/doc/ouinet-network-whitepaper.md).

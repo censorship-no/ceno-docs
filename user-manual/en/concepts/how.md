@@ -1,18 +1,18 @@
 # How does it work?
 
-This section will explain CENO and Ouinet operation by going over a series of scenarios and explaining how they behave in each of them.  Main concepts and terms used by Ouinet will be introduced (highlighted **in bold letters**) and used afterwards for efficiency and to avoid confusions.
+This section will explain CENO and Ouinet operation by going over a series of scenario explanations. Terminology and concepts important to Ouinet will be introduced (highlighted **in bold letters**) and used afterwards for efficiency and to avoid confusions.
 
 ## Accessing content directly
 
-The CENO Browser is an example of an application which uses Ouinet technology to retrieve and share Web content.  We call such an application a Ouinet **client**.  When you use your client (i.e. CENO) to try to access some content *X*, hosted in some Web server which we call *X*'s **origin** server, your client tries to contact the origin server over the Internet either directly or via some other machine specialized in contacting Web servers on behalf of others, a so called **proxy** server, then request the desired content.  This is not different from the way in which any normal Web browser works.
+The CENO Browser is an example of an application which uses Ouinet technology to retrieve and share Web content.  We call such an application a Ouinet **client**.  When you use your client (i.e. CENO) to try to access some content *X*, hosted an a Web server, which we will call *X*'s **origin** server, your client tries to contact the origin server over the Internet either directly or via some other machine configured to contact Web servers on behalf of others, a so called **proxy** server, then request the desired content. This is not different from the way in which any normal Web browser works.
 
-> **Technical note:** There is in fact one small gotcha.  Since the client acts as an HTTP proxy running on your device, for the client to be able to decrypt and act upon HTTPS content requests, the application using it (i.e. the Web browser part) needs to accept a special certificate issued by the client itself (and only used in your device).  The CENO Browser already takes care of setting this certificate up for its private use so that you do not need to worry.
+> **Technical note:** There is in fact one small gotcha.  Since the client acts as a HTTP proxy running on your device, for the client to be able to decrypt and act upon HTTPS content requests, the application using it (i.e. the Web browser part) needs to accept a special certificate issued by the client itself (and only used in your device).  The CENO Browser already takes care of setting this certificate up for its private use so that you do not need to worry.
 
-However these direct paths may not be available.  For instance, your Internet service provider (ISP) may be blocking access to *X*'s origin server or the proxy because of a state order (even if other traffic is still allowed).  As the user of the top left client depicted below, both attempts to reach content *X* (the little document close to its origin server) would fail for you.  We will come to this weird "injector" node in a moment.
+However these direct paths may not be available.  For instance, your Internet service provider (ISP) may be blocking access to *X*'s origin server or the proxy because of a state order (even if other traffic is still allowed).  As the user of the top left client depicted below, both attempts to reach content *X* (the little document close to its origin server) would fail for you.  You may also note the "injector" node on the diagram. We will explain that in a moment.
 
 ![Figure: Client cannot reach content directly](images/user-flow-0.svg)
 
-With a normal browser you would be out of luck.  However, with Ouinet you can ask other clients for their copies of content *X*, shall they already have one (we will see how they get these copies later on).  Let us see how Ouinet does this asking.
+With a normal browser you would be out of luck.  However, with Ouinet you can ask other clients for their copies of content *X*, should they already have a copy. Let's see how Ouinet perform this request.
 
 ## Searching for shared content
 
