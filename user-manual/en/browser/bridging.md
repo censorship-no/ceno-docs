@@ -28,11 +28,11 @@ Indicates that UPnP is working and you can bridge connections for other CENO use
 
 There are many WiFi routers on the market and each has their own particular features. Herein a list of some manufacturers' instructions for enabling UPnP:
 
-* [Linksys](https://www.linksys.com/us/support-article?articleNum=138290)
-* [D-Link](https://eu.dlink.com/uk/en/support/faq/routers/wired-routers/di-series/how-do-i-enable-upnp-on-my-router)
-* [Huawei](https://consumer.huawei.com/ph/support/content/en-us00275342/)
-* [Xfinity](https://www.xfinity.com/support/articles/configure-device-discovery-for-wifi)
-* [Tp-link](https://community.tp-link.com/us/home/kb/detail/348)
+  * [Linksys](https://www.linksys.com/us/support-article?articleNum=138290)
+  * [D-Link](https://eu.dlink.com/uk/en/support/faq/routers/wired-routers/di-series/how-do-i-enable-upnp-on-my-router)
+  * [Huawei](https://consumer.huawei.com/ph/support/content/en-us00275342/)
+  * [Xfinity](https://www.xfinity.com/support/articles/configure-device-discovery-for-wifi)
+  * [Tp-link](https://community.tp-link.com/us/home/kb/detail/348)
 
 ## Alternative methods to allow CENO bridging
 
@@ -40,4 +40,4 @@ Instead of enabling UPnP on your router, you can create a port forwarding rule, 
 
 ![Figure: Local UDP endpoints](images/udp-port.png)
 
-**Note:** The port forwarding must be for the UDP protocol (not TCP). Your smartphone's local network IP address may change from time to time (unless you know how to allocate a static address to the device) so you should periodically review the CENO settings menu to see that the phone is reachable to the CENO network. 
+> **Note:** The port forwarding must be for the UDP protocol (not TCP). Your smartphone's local network IP address may change from time to time (unless you know how to allocate a static address to the device) so you should periodically review the CENO settings menu to see that the phone is reachable to the CENO network.
