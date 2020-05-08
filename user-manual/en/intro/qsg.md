@@ -1,6 +1,6 @@
 # Quick start guide
 
-The CENO Browser allows you to access any website on the internet, even if it is censored in your country. CENO uses a peer-to-peer infrastructure to route your requests, as well as to store and share retrieved content with others. [Read more](ceno.md).
+The CENO Browser allows you to access any Web site on the Internet, even if it is censored in your country.  CENO uses a peer-to-peer infrastructure to route your requests, as well as to store and share retrieved content with others.  [Read more about CENO](ceno.md).
 
 ## How to get started
 
@@ -18,5 +18,5 @@ The CENO Browser is in [BETA][] but it should work out-of-the-box. If you are co
 ## More questions?
 
   * Please see the [FAQ](faq.md).
-  * Refer to the [Troubleshooting guide](../browser/troubleshooting.md).
+  * Refer to the [troubleshooting guide](../browser/troubleshooting.md).
   * Contact us by writing to <cenoers@equalit.ie>.
