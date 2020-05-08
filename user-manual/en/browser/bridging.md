@@ -36,8 +36,8 @@ There are many WiFi routers on the market and each has their own particular feat
 
 ## Alternative methods to allow CENO bridging
 
-Instead of enabling UPnP on your router, you can create a port forwarding rule, to make sure that connections from the CENO network are forwarded to your smartphone. You will need to login to the router's administration interface and locate the *port forwarding* option. To see which IP address you need to forward the connections to and the relevant port, open the **CENO Settings** menu and look under the *Local UDP endpoint(s)*.
+Instead of enabling UPnP on your router, you can create a port forwarding rule, to make sure that connections from the CENO network are forwarded to your smartphone. You will need to login to the router's administration interface and locate the *port forwarding* option. To see which IP address you need to forward the connections to and the relevant port, open the *CENO Settings* page and look under the *Local UDP endpoint(s)*.
 
 ![Figure: Local UDP endpoints](images/udp-port.png)
 
-> **Note:** The port forwarding must be for the UDP protocol (not TCP). Your smartphone's local network IP address may change from time to time (unless you know how to allocate a static address to the device) so you should periodically review the CENO settings menu to see that the phone is reachable to the CENO network.
+> **Note:** The port forwarding must be for the UDP protocol (not TCP). Your smartphone's local network IP address may change from time to time (unless you know how to allocate a static address to the device) so you should periodically review the *CENO Settings* page to see that the phone is reachable to the CENO network.

@@ -9,7 +9,7 @@ What sets CENO apart from most other circumvention initiatives is that users can
 
 [national intranets]: https://en.wikipedia.org/wiki/National_intranet
 
-The CENO Browser is built on an adapted version of [Firefox for Android][], a popular, modern, feature-rich and secure Free/Libre/Open-Source browser. CENO extends Firefox with **Ouinet**, the underlying technology allowing it to share content between devices (described in later sections).
+The CENO Browser is built on an adapted version of [Firefox for Android][], a popular, modern, feature-rich and secure Free/Libre/Open-Source browser.  CENO extends Firefox with **Ouinet**, the underlying technology allowing it to share content between devices (described in later sections).
 
 [Firefox for Android]: https://www.mozilla.org/firefox/android/
 
@@ -24,10 +24,10 @@ The *Censorship.no!* project is run by [eQualitie][] in support of Articles 18, 
 
 ## Who is it for?
 
-CENO is meant for everyone but is particularly convenient for people interested in Web content that is censored on their network, and those those living in countries where connectivity to the global Internet is spotty, unreliable and expensive.  It encourages and enables sharing of content among users, creating a decentralized network of peers, helping each other.
+CENO is meant for everyone but is particularly convenient for people interested in Web content that is censored on their network, and those those living in countries where connectivity to the global Internet is spotty, unreliable or expensive.  It encourages and enables sharing of content among users, creating a decentralized network of peers, helping each other.
 
-You do not need to be an advanced computer user or even understand how peer-to-peer networks operate, to use CENO. The user experience is akin to operating a standard Web browser (CENO-specific functionality is largely hidden under the hood).
+You do not need to be an advanced computer user or even understand how peer-to-peer networks operate, to use CENO.  The user experience is akin to operating a standard Web browser (CENO-specific functionality is largely hidden under the hood).
 
-CENO can however generate more Internet traffic than your usual Web browser - since it needs to announce Web content it is sharing to the network, and possibly deliver this content to other users. CENO thus relies on moderately good in-country connectivity.  For the moment, we recommend using CENO when connected to Wi-Fi to avoid exhausting mobile data limits and to increase the chances of being able to deliver website contents to other users.
+CENO can however generate more Internet traffic than your usual Web browser – since it needs to announce Web content it is sharing to the network, and possibly deliver this content to other users.  CENO thus relies on moderately good in-country connectivity.  For the moment, we recommend using CENO when connected to Wi-Fi to avoid exhausting mobile data limits and to increase the chances of being able to deliver Web content to other users.
 
 > **Warning:** *CENO is not an anonymity tool.*  In fact, using CENO may allow others to know whether you have accessed or are providing certain Web content.  Please take careful consideration of which risks you can assume by using this tool.  See the sections on [public vs. private browsing](../concepts/public-private.md) and [risks](../concepts/risks.md) for further information.
