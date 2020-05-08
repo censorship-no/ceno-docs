@@ -8,7 +8,7 @@
 
       - [What is the CENO Browser?](intro/ceno.md)
       - [What is Ouinet?](intro/ouinet.md)
-      - [Quick Start Guide](intro/qsg.md)
+      - [Quick start guide](intro/qsg.md)
       - [Frequently Asked Questions](intro/faq.md)
 
   - [Main concepts](concepts/README.md)
