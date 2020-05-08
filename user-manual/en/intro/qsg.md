@@ -19,7 +19,9 @@ Detailed installation instructions are [here](../browser/install.md).
 
 ## Configuration
 
-The CENO Browser is in [BETA][] but it should work out-of-the-box.
+The CENO Browser is in [BETA][] but it should work out-of-the-box.  You can find some [diagnostics and settings](../browser/settings.md) under the *CENO* menu entry.
+
+If you want to make sure that your app is also helping others access blocked content, please [read this section](../browser/bridging.md).
 
 [BETA]: https://en.wikipedia.org/wiki/Software_release_life_cycle#Beta
 
