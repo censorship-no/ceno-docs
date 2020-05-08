@@ -24,9 +24,9 @@ The *Censorship.no!* project is run by [eQualitie][] in support of Articles 18, 
 
 ## Who is it for?
 
-CENO is meant for everyone but is particularly convenient for people interested in Web content that is censored on their network, and those those living in countries where connectivity to the global Internet is spotty, unreliable and expensive.  It encourages and enables sharing of content among users, creating a decentralized network of peers, helping each other. 
+CENO is meant for everyone but is particularly convenient for people interested in Web content that is censored on their network, and those those living in countries where connectivity to the global Internet is spotty, unreliable and expensive.  It encourages and enables sharing of content among users, creating a decentralized network of peers, helping each other.
 
-You do not need to be an advanced computer user or even understand how peer-to-peer networks operate, to use CENO. The user experience is akin to operating a standard Web browser (CENO-specific functionality is largely hidden under the hood). 
+You do not need to be an advanced computer user or even understand how peer-to-peer networks operate, to use CENO. The user experience is akin to operating a standard Web browser (CENO-specific functionality is largely hidden under the hood).
 
 CENO can however generate more Internet traffic than your usual Web browser - since it needs to announce Web content it is sharing to the network, and possibly deliver this content to other users. CENO thus relies on moderately good in-country connectivity.  For the moment, we recommend using CENO when connected to Wi-Fi to avoid exhausting mobile data limits and to increase the chances of being able to deliver website contents to other users.
 

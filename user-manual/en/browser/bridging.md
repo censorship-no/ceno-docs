@@ -1,6 +1,6 @@
 # Helping other CENO users browse the Web
 
-A peer-to peer-network is built from every node connected to it (yes, that means you as well!) The more nodes - the stronger and more versatile the network becomes. If you're running the CENO Browser from a country that does not censor the internet (or not as heavily as some), consider helping other CENO users by becoming a **bridge** node. You will then begin to route traffic between clients living in heavily censored countries and the CENO network injectors. You wont be able to see their traffic (it will be sent through an encrypted tunnel) nor will any of this traffic remain on your device. 
+A peer-to peer-network is built from every node connected to it (yes, that means you as well!) The more nodes - the stronger and more versatile the network becomes. If you're running the CENO Browser from a country that does not censor the internet (or not as heavily as some), consider helping other CENO users by becoming a **bridge** node. You will then begin to route traffic between clients living in heavily censored countries and the CENO network injectors. You wont be able to see their traffic (it will be sent through an encrypted tunnel) nor will any of this traffic remain on your device.
 
 ## How to become a CENO bridge
 
@@ -36,7 +36,7 @@ There are many WiFi routers on the market and each has their own particular feat
 
 ## Alternative methods to allow CENO bridging
 
-Instead of enabling UPnP on your router, you can create a port forwarding rule, to make sure that connections from the CENO network are forwarded to your smartphone. You will need to login to the router's administration interface and locate the *port forwarding* option. To see which IP address you need to forward the connections to and the relevant port, open the **CENO Settings** menu and look under the *Local UDP endpoint(s)*. 
+Instead of enabling UPnP on your router, you can create a port forwarding rule, to make sure that connections from the CENO network are forwarded to your smartphone. You will need to login to the router's administration interface and locate the *port forwarding* option. To see which IP address you need to forward the connections to and the relevant port, open the **CENO Settings** menu and look under the *Local UDP endpoint(s)*.
 
 ![Figure: Local UDP endpoints](images/udp-port.png)
 

@@ -33,4 +33,4 @@ While in private mode:
 
 As a conclusion: if you are using CENO to read the news, watch videos, browse Wikipedia and other static resources that are otherwise censored in your network, consider using the default *public browsing* mode. And if you want to login to Twitter or edit your Wordpress website, use *private browsing* mode.
 
-Please read the section on [risks](risks.md) for a more detailed explanation.  Also note that your client can continue to operate as a bridge and a seeder (of other content) regardless of public or private browsing. We explain this in greater detail in the [Helping others](../browser/bridging.md) section of the manual. 
+Please read the section on [risks](risks.md) for a more detailed explanation.  Also note that your client can continue to operate as a bridge and a seeder (of other content) regardless of public or private browsing. We explain this in greater detail in the [Helping others](../browser/bridging.md) section of the manual.
