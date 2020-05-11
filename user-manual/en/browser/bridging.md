@@ -40,4 +40,6 @@ Instead of enabling UPnP on your router, you can create a port forwarding rule, 
 
 ![Figure: Local UDP endpoints](images/udp-port.png)
 
-> **Note:** The port forwarding must be for the UDP protocol (not TCP). Your smartphone's local network IP address may change from time to time (unless you know how to allocate a static address to the device) so you should periodically review the *CENO Settings* page to see that the phone is reachable to the CENO network.
+The port forwarding must be for the UDP protocol (not TCP).  CENO chooses a random port on first run and keeps it for subsequent runs, but your device's local network IP address may change from time to time.  Thus you should periodically review the *CENO Settings* page to see that your device is reachable to the CENO network.
+
+> **Technical note:** Alternatively, you can make sure that the router always assigns the same IP address to your device (e.g. via a static DHCP lease for the device's MAC address).
