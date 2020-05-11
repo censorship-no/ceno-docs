@@ -3,13 +3,13 @@
 The Internet and the World Wide Web have become more and more important for people around the world as a source of all kinds of information, and a way to exercise fundamental rights.  At the same time, recent years have seen an increase in all kinds of network censorship and other types of network interference (see the reports from [OONI][ooni-reports], [Magma][magma-reports], [Censored Planet][cplan-reports]), both from private and state actors.
 
 [ooni-reports]: https://ooni.org/reports/
-    "Open Observatory of Network Interference — Research reports"
+    "Open Observatory of Network Interference – Research reports"
 
 [magma-reports]: https://magma.lavafeld.org/publications/
     "Magma publications"
 
 [cplan-reports]: https://censoredplanet.org/reports
-    "Censored Planet — Reports"
+    "Censored Planet – Reports"
 
 The Web relies on your devices being able to reach special computers called *web servers* (run by content creators, publishers or Internet services providers) that hold the content which you want to retrieve, and to do so in a synchronized way, more like keeping a live chat on the telephone than exchanging some letters.  Unfortunately, this requires that the web server you need is connected to the network and has enough available resources to talk to your device at that moment.
 
