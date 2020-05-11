@@ -14,15 +14,15 @@ This functionality is already built into the CENO Browser.  Your device will nee
 
 ![Figure: UPnP not enabled](images/upnp-no.png)
 
-Indicates that UPnP is not enabled on your WiFi router.
+A status like the one shown in the previous figure indicates that UPnP is not enabled on your WiFi router.
 
 ![Figure: UPnP likely enabled](images/upnp-maybe.png)
 
-Indicates that UPnP is likely working and CENO is currently verifying connectivity.
+The status above indicates that UPnP is likely working and CENO is currently verifying connectivity.
 
 ![Figure: UPnP enabled](images/upnp-yes.png)
 
-Indicates that UPnP is working and you can bridge connections for other CENO users.
+The status above indicates that UPnP is working and you can bridge connections for other CENO users.
 
 ## Enabling UPnP on your Wi-Fi router
 
