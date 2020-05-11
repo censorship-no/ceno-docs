@@ -4,7 +4,7 @@ The CENO Browser allows you to access any Web site on the Internet, even if it i
 
 ## How to get started
 
-You will need an Android phone:
+You will need an Android device:
 
  1. Install the CENO Browser from [Google Play][ceno-gplay], [GitHub][ceno-gh] or [Paskoocheh][ceno-pask].  *No special permissions are needed*.
  2. Run it and press *NEXT* on introductory screens, then press *START BROWSING*.

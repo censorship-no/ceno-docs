@@ -24,7 +24,7 @@ For further details, please check the section on the differences between [public
 
 ## Privacy and security
 
-### Will my phone store content which I did not request?
+### Will my device store content which I did not request?
 
 Short answer: no.
 
@@ -52,7 +52,7 @@ Whenever your CENO Browser serves content to another user or forwards their traf
 
 Although Ouinet is much lighter in resources than other data-sharing applications, it can still result in increased data usage and fees.  We recommend keeping an eye on the app's data usage (under Android settings) and running CENO on Wi-Fi instead of mobile connections.
 
-### Does the CENO Browser use a lot of battery on my phone?
+### Does the CENO Browser use a lot of battery on my device?
 
 Short answer: more than your usual browser.
 
