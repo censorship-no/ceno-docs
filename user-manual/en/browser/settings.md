@@ -38,6 +38,7 @@ The page also provides you with some information about your CENO Browser app and
   - *Local UDP endpoint(s)* are the Internet addresses used by CENO to seed signed content to other clients.  These are shown to help test and debug the app, and should not be generally disclosed.
   - *UPnP status* indicates whether CENO was able to tell your router or access point to allow incoming connections towards it.  Also include in reports.
   - *Reachability status* indicates how likely it is for your device to be able to effectively seed content to other clients.  Also include in reports.
+  - *Local cache size* shows an approximation of how much storage is taken by the content being seeded from your device's local cache.  The button sitting next to the size allows you to empty the whole cache at once (and thus no longer seed that content).  Please note that this does not affect the normal browsing cache, which should be cleared using *Settings* in the app's main menu, then *Clear private data*.
 
 ## Collecting log messages
 
