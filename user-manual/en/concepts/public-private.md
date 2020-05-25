@@ -16,16 +16,16 @@ CENO also has a **private browsing** mode.  In it, the distributed cache is neve
 The different behavior results in different characteristics.  Thus, in public mode:
 
  1. You have better chances to get Web content, and help others get that content (from you).
- 2. Pages with dynamic content (e.g. updated in real time) may not work.
- 3. Pages requiring authentication do not work (passwords and cookies are removed by the client).
- 4. Some browsing activity may be leaked to other users.
- 5. Some browsing activity may be leaked to injectors.
- 6. You need to trust injectors to sign all content.
+ 2. Pages with dynamic content (e.g. updated in real time) may break in obvious or subtle ways.
+ 3. Pages requiring authentication do not work (as passwords and cookies are removed by the client).
+ 4. Some browsing activity may be leaked to other users (see [risks](risks.md)).
+ 5. Some browsing activity may be leaked to injectors (see [risks](risks.md)).
+ 6. You need to trust injectors to retrieve and sign Web content.
 
 While in private mode:
 
- 1. You have less chances to get Web content (some connectivity to international servers is required), and other CENO users cannot get the content from you.
- 2. Pages with dynamic content may work.
+ 1. You may not be able to access blocked Web content if international connectivity is too scarce; even if you could, other CENO users would not get that content from you.
+ 2. Pages with dynamic content will probably work.
  3. Pages requiring authentication may work (when your connection is protected by HTTPS, the injector does not see your passwords).
  4. Browsing activity is not leaked to other users.
  5. Limited browsing activity is leaked to injectors (with HTTPS, only the origin server name or address).
