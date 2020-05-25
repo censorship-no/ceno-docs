@@ -14,17 +14,29 @@ The four check boxes on the top of the page selectively enable or disable the di
 
   - **Origin access:** When enabled, this allows CENO to try to reach the origin server directly.
 
+    This mechanism works in both private and public browsing modes, though content thus retrieved cannot be shared with others.
+
     In case that getting most Web content is not particularly slow or expensive, direct access may be more than enough for most of the cases.  However, such direct connections may be tracked by your ISP or government.  Disabling this option may avoid such connections and trivial tracking to some extent (but not completely, see [risks](../concepts/risks.md)).
 
     Also, when accessing a Web site over insecure HTTP (instead of the more secure HTTPS), a censor may intercept the connection and supply the user with a bogus site, a tampering which CENO cannot detect by itself.  In such case it may help to disable this option and thus always resort to other, safer CENO mechanisms.
 
-  - **Proxy access:** This option allows CENO to use injectors as normal proxy servers whenever content is not intended to be injected (e.g. in private browsing mode).  If other mechanisms are not used, requests shall be routed through bridges and injectors and, if using HTTPS, encrypted in such a way that only the origin servers can decrypt them.
+  - **Proxy access:** This option allows CENO to use injectors as normal HTTP proxy servers to reach origin servers.
 
-    Please note that disabling both origin and proxy access will render private browsing useless.
+    This mechanism only works in private browsing mode.
 
-  - **Injector access:** This option enables CENO, for requests made in public browsing mode, to strip any private information and send them to an injector.  The injector shall get the content from an origin server, sign it and send it back to CENO, which shall start seeding it.
+    When accessing content over HTTPS, only origin servers will be able to decrypt traffic.  When using plain HTTP, the injector may also see the unencrypted traffic (but it should still not sign or share its content with others).  Other participants like bridges will never see the unencrypted traffic.
+
+  - **Injector access:** This option enables CENO to strip any private information from requests and send them to an injector.  The injector shall get the content from an origin server, sign it and send it back to CENO, which shall start seeding it.
+
+    This mechanism only works in public browsing mode.
+
+    Other participants like bridges will not see the unencrypted traffic.
 
   - **Distributed cache:** This allows CENO to try to retrieve content from the distributed cache (i.e. from other CENO and Ouinet clients seeding it).
+
+    This mechanism only works in public browsing mode.
+
+Disabling both origin and proxy access will render private browsing useless.  Likewise, disabling origin access, injector access and the distributed cache will render public browsing useless.
 
 > **Warning:** Please note that CENO does not yet remember these settings after restarting the app.  If you require some of the previous mechanisms to be off while using CENO, please remember to open the Settings page whenever you start the app and uncheck their boxes before browsing.  Sorry for the inconvenience.
 
@@ -38,6 +50,7 @@ The page also provides you with some information about your CENO Browser app and
   - *Local UDP endpoint(s)* are the Internet addresses used by CENO to seed signed content to other clients.  These are shown to help test and debug the app, and should not be generally disclosed.
   - *UPnP status* indicates whether CENO was able to tell your router or access point to allow incoming connections towards it.  Also include in reports.
   - *Reachability status* indicates how likely it is for your device to be able to effectively seed content to other clients.  Also include in reports.
+  - *Local cache size* shows an approximation of how much storage is taken by the content being seeded from your device's local cache.  The button sitting next to the size allows you to empty the whole cache at once (and thus no longer seed that content).  Please note that this does not affect the normal browsing cache, which should be cleared using *Settings* in the app's main menu, then *Clear private data*.
 
 ## Collecting log messages
 
