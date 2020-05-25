@@ -1,6 +1,6 @@
 # What is the CENO Browser?
 
-CENO (short for [Censorship.no!][]) is a Web browser for mobile devices (such as smartphones and tablets) which uses a novel approach to circumvent Internet censorship and share retrieved content among all users in a [peer-to-peer][P2P] (P2P) fashion.  This reduces overall reliance on international network exchanges, and allows frequently requested Web content to persist in the network, even during heavy filtering and throttling events.
+CENO (short for [Censorship.no!][]) is a Web browser for mobile Android devices (such as smartphones and tablets) which uses a novel approach to circumvent Internet censorship and share retrieved content among all users in a [peer-to-peer][P2P] (P2P) fashion.  This reduces overall reliance on international network exchanges, and allows frequently requested Web content to persist in the network, even during heavy filtering and throttling events.
 
 [Censorship.no!]: https://censorship.no/
 [P2P]: https://en.wikipedia.org/wiki/Peer-to-peer
