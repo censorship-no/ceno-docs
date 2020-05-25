@@ -10,7 +10,7 @@ Since CENO is based on Mozilla Firefox for Android, it provides all the features
 
 Also, since CENO and Ouinet are still under development, you may experience some instability.  That may also mean that backwards-incompatible changes are introduced which require you to uninstall the application or remove stored data (including bookmarks and site settings) before upgrading.
 
-For important work on Web sites not subject to censorship, we recommend that you use a normal Web browser instead of CENO.  Please read the section on [risks](../concepts/risks.md) for more information.
+For important work on Web sites not subject to censorship, we recommend that you use your habitual Web browser instead of CENO.  Please read the section on [risks](../concepts/risks.md) for more information.
 
 ## Can I use the CENO Browser to access Twitter, Facebook and Gmail?
 
@@ -18,7 +18,7 @@ Short answer: yes, by using private tabs.
 
 Although CENO strives to provide a user experience as similar to normal Web browsing as possible, some of the techniques used to avoid network interference do not play well with such dynamic sites.  This is the case with CENO's default mode of operation (i.e. public browsing), since it strips down all private data (like passwords and cookies) from Web traffic to ensure that it does not leak to other untrusted CENO or Ouinet users.
 
-To avoid this and enable the use of such dynamic sites in CENO, you can use private tabs (i.e. private browsing), which leave private data intact and keep connections to the sites encrypted and thus protected from everyone else.  However this requires that some direct or indirect path exists to reach those Web sites.
+To avoid this and enable the use of such dynamic sites in CENO, you can use private tabs (i.e. private browsing), which leave private data intact and keep connections to the sites encrypted and thus protected from everyone else.  However this requires that network traffic from your device can reach those Web sites in some way.
 
 For further details, please check the section on the differences between [public and private browsing](../concepts/public-private.md).
 
