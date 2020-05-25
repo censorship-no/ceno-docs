@@ -5,7 +5,7 @@ CENO (short for [Censorship.no!][]) is a Web browser for mobile devices (such as
 [Censorship.no!]: https://censorship.no/
 [P2P]: https://en.wikipedia.org/wiki/Peer-to-peer
 
-What sets CENO apart from most other circumvention initiatives is that users can continue to share Web content even when no (or extremely limited) connectivity exists across national borders.  CENO is thus built in expectation of aggressive Internet filtering and the establishment of [national intranets][] to fence off nations from the Web.
+What sets CENO apart from most other circumvention initiatives is that users can continue to share Web content even when no (or extremely limited) connectivity exists across national borders.  CENO is thus built in prevision of aggressive Internet filtering and the establishment of [national intranets][] to fence off nations from the Web.
 
 [national intranets]: https://en.wikipedia.org/wiki/National_intranet
 
@@ -28,6 +28,6 @@ CENO is meant for everyone but is particularly convenient for people interested 
 
 You do not need to be an advanced computer user or even understand how peer-to-peer networks operate, to use CENO.  The user experience is akin to operating a standard Web browser (CENO-specific functionality is largely hidden under the hood).
 
-CENO can however generate more Internet traffic than your usual Web browser – since it needs to announce Web content it is sharing to the network, and possibly deliver this content to other users that request it.  CENO thus relies on moderately good in-country connectivity.  For the moment, we recommend using CENO when connected to Wi-Fi to avoid exhausting mobile data limits and to increase the chances of being able to deliver Web content to other users.
+CENO can however generate more Internet traffic than your usual Web browser – since it needs to let other users know what Web content it is sharing to the network, and possibly deliver this content to those that request it.  CENO thus relies on moderately good in-country connectivity.  We recommend using CENO when connected to Wi-Fi not just to avoid exhausting mobile data limits (should you have them), but also to increase the chances of being able to deliver Web content to other users.
 
 > **Warning:** *CENO is not an anonymity tool.*  In fact, using CENO may allow others to know whether you have accessed or are providing certain Web content.  Please take careful consideration of which risks you can assume by using this tool.  See the sections on [public vs. private browsing](../concepts/public-private.md) and [risks](../concepts/risks.md) for further information.
