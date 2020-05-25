@@ -10,9 +10,9 @@ These features are available in a page that can be accessed by choosing *CENO* i
 
 ## Choosing access mechanisms
 
-The four check boxes on the top of the page selectively enable or disable the different mechanisms that CENO as a Ouinet client uses to retrieve content:
+The four check boxes on the top of the page selectively enable or disable the different mechanisms that CENO as a Ouinet client uses to retrieve content (all of them are enabled by default):
 
-  - **Origin access:** When enabled, this allows CENO to try to reach the origin server directly.
+  - **Origin access:** When enabled, this allows CENO to try to reach the origin server directly before attempting the rest of mechanisms below.
 
     This mechanism works in both private and public browsing modes, though content thus retrieved cannot be shared with others.
 
