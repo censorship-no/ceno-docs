@@ -10,9 +10,9 @@ These features are available in a page that can be accessed by choosing *CENO* i
 
 ## Choosing access mechanisms
 
-The four check boxes on the top of the page selectively enable or disable the different mechanisms that CENO as a Ouinet client uses to retrieve content:
+The four check boxes on the top of the page selectively enable or disable the different mechanisms that CENO as a Ouinet client uses to retrieve content (all of them are enabled by default):
 
-  - **Origin access:** When enabled, this allows CENO to try to reach the origin server directly.
+  - **Origin access:** When enabled, this allows CENO to try to reach the origin server directly before attempting the rest of mechanisms below.
 
     This mechanism works in both private and public browsing modes, though content thus retrieved cannot be shared with others.
 
@@ -50,7 +50,17 @@ The page also provides you with some information about your CENO Browser app and
   - *Local UDP endpoint(s)* are the Internet addresses used by CENO to seed signed content to other clients.  These are shown to help test and debug the app, and should not be generally disclosed.
   - *UPnP status* indicates whether CENO was able to tell your router or access point to allow incoming connections towards it.  Also include in reports.
   - *Reachability status* indicates how likely it is for your device to be able to effectively seed content to other clients.  Also include in reports.
-  - *Local cache size* shows an approximation of how much storage is taken by the content being seeded from your device's local cache.  The button sitting next to the size allows you to empty the whole cache at once (and thus no longer seed that content).  Please note that this does not affect the normal browsing cache, which should be cleared using *Settings* in the app's main menu, then *Clear private data*.
+  - *Local cache size* shows an approximation of how much storage is taken by the content being seeded from your device's local cache.
+
+## Purging the local cache
+
+Next to the *Local cache size* value above, there is a button which allows you to stop seeding and drop all content shared by your device over Ouinet.  This allows you to free up some storage space in your device while keeping other CENO settings like favorites.
+
+If you also want to clear CENO's normal browsing cache (the one used by the browser but not shared with others) or other items like cookies, the browsing history or favorites, you should choose *Settings* in the app's main menu, then *Clear private data*.  You will be asked about which items you want to clear.
+
+To drop everything at the same time, you can use Android's general *Settings* page and, under the *Apps* entry, choose CENO and then *Clear data*.  CENO will stop and forget all your settings and data.
+
+> **Warning:** Please be careful with the last two actions since loosing CENO settings cannot be undone!
 
 ## Collecting log messages
 

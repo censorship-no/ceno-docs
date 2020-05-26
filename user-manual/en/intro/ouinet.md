@@ -1,6 +1,6 @@
 # What is Ouinet?
 
-[Ouinet][] is a core echnology which allows the CENO browser to share Web content with other devices.  Ouinet comes in the form of reusable computer code (a library) that an application can use to become a participant in a network of cooperating nodes that communicate directly ([peer-to-peer][P2P] or P2P) to help access and store new Web content, and to request and deliver previously accessed content to others.
+[Ouinet][] is a core technology which allows the CENO browser to share Web content with other devices.  Ouinet comes in the form of reusable computer code (a library) that an application like CENO can use to become a participant in a network of cooperating nodes that communicate directly ([peer-to-peer][P2P] or P2P) to help access and store new Web content, and to request and deliver previously accessed content to others.
 
 [Ouinet]: https://github.com/equalitie/ouinet/
 [P2P]: https://en.wikipedia.org/wiki/Peer-to-peer

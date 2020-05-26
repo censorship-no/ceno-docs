@@ -40,7 +40,7 @@ This is the main use case for CENO and the other mechanisms should compensate fo
 
 ### Proxy/Injector access
 
-Someone is interfering with your connection to Internet addresses in the injector swarm.  Since this is expected to happen eventually as CENO (and Ouinet) gain traction, CENO resorts to reach injectors via bridge clients.
+Someone is interfering with your connection to Internet addresses in the injector swarm.  Since this is expected to happen eventually as CENO (and Ouinet) gain traction, CENO resorts to reach injectors via other clients acting as bridges.
 
 There are different reasons for CENO not to be able to reach such clients:
 
@@ -50,7 +50,7 @@ There are different reasons for CENO not to be able to reach such clients:
 
   - No other client can reach an injector.  Since it is unlikely that all injectors are simultaneously down, that may mean that you can only reach Ouinet clients which are themselves affected by similar network interference as yours.
 
-    This can happen when all traffic leaving or entering the country you are in is interrupted.  CENO should resort to getting content from the distributed cache in this case.
+    This can happen when all traffic leaving or entering the country you are in is interrupted.  CENO would resort in this case to getting and using the content from the distributed cache, even if it is stale.
 
     Again, as CENO and Ouinet become more popular, the chances increase that there are at least a few clients that do have some kind of access to international sites.  Even if access is precarious, a single Ouinet client able to inject some content into the country could suffice to enable it to spread (over the distributed cache) without further need to access the outside world.
 

@@ -14,9 +14,9 @@ No.  The only role of a bridge is to forward raw traffic between a client and an
 
 ### Can injectors see my communication with the origin server?
 
-Yes and no.  When the user requests content [in public browsing mode](public-private.md), all private data is stripped away from the request by the client, and only then encrypted for and forwarded to the injector, which proceeds to decrypt it.
+Yes and no.  When the user requests content [in public browsing mode](public-private.md), all private data (like passwords and cookies) is first removed from the request by the client, and only then is the request encrypted for and forwarded to the injector, which proceeds to decrypt it.
 
-On the other hand, when the request uses private browsing mode, it is not modified by the client, and the whole communication is encrypted for the origin server.  This means that in this other case the injector cannot decrypt the content.
+On the other hand, when the request uses private browsing mode, it is not modified by the client, but the whole communication is encrypted for the origin server.  This means that in this other case the injector cannot decrypt the content.
 
 > **Technical note:**  Only `GET` HTTP requests are candidates for injection, with query parameters removed, along with all but a limited set of fundamental and privacy-preserving HTTP header fields.
 
@@ -28,7 +28,7 @@ assigned an originating IP addresses.
 
 ### Can my private data leak to the distributed cache?
 
-Hopefully not.  As mentioned above, the CENO Browser tries hard to strip away any private data from any request for injection.  In addition, the injector does not itself do any seeding; in fact, its sole purpose is to sign content so that Ouinet clients can seed it.  This means that when the content comes back to the client, it is further analyzed, and if the origin server indicated that it is of private nature, CENO will not to seed it either.
+Hopefully not.  As mentioned above, the CENO Browser tries hard to remove any private data (passwords, cookies…) from any request for injection.  In addition, the injector does not itself do any seeding; in fact, its sole purpose is to sign content so that Ouinet clients can seed it.  This means that when the content comes back to the client, it is further analyzed, and if the origin server indicated that it is of private nature, CENO will not to seed it either.
 
 Still, there could be cases of badly designed or malicious pages which may collect some information from you (like an email address in a form or some browser fingerprints using JavaScript) and stuff it in another link URL as normal path components (e.g. `http://example.com/subscribe/you@example.org`).  If you suspect that a page may be doing that, better be on the safe side and use private browsing for it.
 
@@ -39,7 +39,7 @@ Most probably not.  Whenever CENO contacts an origin server directly, it behaves
 However, when it uses an injector to get some content from its origin server, there are (at least) two ways for the latter to know that CENO or Ouinet is involved:
 
  1. The source address of the connection reaching the origin server is found in the injector swarm (since the connection comes indeed from the injector).
- 2. Certain information is present or absent in the request for content that is characteristic of Ouinet.  This only happens when the injector is requesting the content on behalf of the client for signing it (mainly because the request is stripped from information unique to your particular device).
+ 2. The presence or absence of certain information in the request for content is characteristic of Ouinet.  This happens when the injector is requesting the content because your client asked it to retrieve and sign that content, as the injector removes information unique to your particular device from the request.
 
 Please note that these only mark the request as coming from Ouinet, but they do not link it to you or your particular device.  However, if the request did for some of the reasons mentioned in the previous question still contain some personally identifiable information, it could be used to mark you as a CENO user.
 
