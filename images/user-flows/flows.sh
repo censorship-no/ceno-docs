@@ -83,5 +83,5 @@ case_tbl="$(gen_case_table "$DIAGRAM")"
 case_last=$(echo "$case_tbl" | tail -1 | cut -f1 -d' ')
 
 for icase in $(seq 0 $case_last); do
-    echo "$case_tbl" | export_cmd $icase "${OUT_NAME}-$icase" | sh
+    echo "$case_tbl" | export_cmd $icase "${OUT_NAME}-$icase" | dash
 done
