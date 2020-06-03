@@ -36,7 +36,9 @@ When in *public browsing* mode:
 
   - The second mechanism allows CENO to try to retrieve content from the **distributed cache**, i.e. from other CENO and Ouinet clients seeding it.
 
-Disabling both origin and proxy access will render private browsing useless.  Likewise, disabling origin access, injector access and the distributed cache will render public browsing useless.
+Disabling all the mechanisms available for either public or private browsing mode will render them useless.  If you establish such a configuration, a warning will be shown as depicted below.
+
+![Figure: Invalid settings for private browsing](images/settings-no-private.png)
 
 > **Warning:** Please note that CENO does not yet remember these settings after restarting the app.  If you require some of the previous mechanisms to be off while using CENO, please remember to open the Settings page whenever you start the app and uncheck their boxes before browsing.  Sorry for the inconvenience.
 
