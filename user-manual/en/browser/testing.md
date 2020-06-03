@@ -13,21 +13,21 @@ Let us first check whether your CENO Browser can reach an injector.  This may lo
 In the first device perform the following steps:
 
  1. First of all, install CENO if needed and start it.  On the first run a series of introductory screens will appear: just click on *NEXT* until *START BROWSING* appears, then click it.  In the end, CENO's home page will appear.
- 2. Open the app's main menu and choose *CENO* to open the *CENO Settings* page.  Since we only want to test injector access, uncheck the boxes for *Origin access*, *Proxy access* and *Distributed cache*.
+ 2. Open the app's main menu and choose *CENO* to open the *CENO Settings* page.  Since we only want to test injector access, uncheck all the boxes for access mechanisms except *Get content via injector*.
  3. Go back to CENO's home page.  Either select one of the recommended Web sites, or enter the URL of some other site at the address bar at the top of the window.  If you know about a site which is usually blocked for you, go ahead and enter it!
  4. The chosen site should eventually show up.
 
 If the site does load, you can be happy that your device can reach the injector!  Since you are able to query swarms and contact other clients, you are also likely to be able to retrieve content from the distributed cache.
 
-By the way, if you push the CENO icon in the address bar, it will open a popup like the one below, showing how many elements from the site were retrieved using each of the different access mechanisms.  Only *Injector access* should have a non-zero value since the other mechanisms were disabled.
+By the way, if you push the CENO icon in the address bar, it will open a popup like the one below, showing how many elements from the site were retrieved using each of the different access mechanisms.  Only *Via CENO injector (shared)* should have a non-zero value since the other mechanisms were disabled.
 
 ![Figure: Mechanisms used when testing injection](images/sources-inject.png)
 
-In contrast, if you had used private browsing with default settings, you may have seen a popup like the one below, with non-zero counts in *Origin* or *Proxy* mechanisms.
+In contrast, if you had used private browsing with default settings, you may have seen a popup like the one below, with non-zero counts in *Direct from origin website* or *Via CENO injector as proxy*.
 
 ![Figure: Mechanisms used with private browsing](images/sources-proxy.png)
 
-Finally, you may have also noticed that there is a counter for *Local cache*.  This is not a different mechanism *per se*: elements counted here are indeed part of the distributed cache, but they happen to already be stored in your device, so CENO does not need to retrieve them over the network.
+Finally, you may have also noticed that there is a counter for *Shared by local CENO cache*.  This is not a different mechanism *per se*: elements counted here are indeed part of the distributed cache, but they happen to already be stored in your device, so CENO does not need to retrieve them over the network.
 
 ## Getting content from close users
 
@@ -36,11 +36,11 @@ Since your first device was able to get some content from an injector, let us te
 After completing the test above on the first device, leave CENO running on it (the CENO icon should appear in its notification bar).  Then get hold of a second device (you can invite a friend over to do the test) and connect it to the same Wi-Fi network.  Then follow the steps below on that device:
 
  1. Install CENO if needed, start it and proceed to CENO's home page as above.
- 2. Open the *CENO Settings* page as above.  Since we only want to test distributed cache access, uncheck the boxes for *Origin access*, *Proxy access* and *Injector access*.
+ 2. Open the *CENO Settings* page as above.  Since we only want to test distributed cache access, uncheck all the boxes for access mechanisms except *Get content shared by other users*.
  3. Go back to CENO's home page and visit the same site in the same manner as you did above (i.e. by selecting one of the recommended web sites or entering its URL in the address bar).
  4. The chosen site should eventually show up.
 
-If it works, it means that both devices are able to deliver that content to other clients.  Pushing the CENO address bar icon should show a popup like the one below, where only *Distributed cache* has a non-zero value.
+If it works, it means that both devices are able to deliver that content to other clients.  Pushing the CENO address bar icon should show a popup like the one below, where only *Shared by others' CENO cache* has a non-zero value.
 
 ![Figure: Mechanisms used when testing distributed cache retrieval](images/sources-dcache.png)
 
