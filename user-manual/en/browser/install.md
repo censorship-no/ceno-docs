@@ -20,6 +20,6 @@ When you run CENO for the first time, you will be presented with a series of scr
 
 Every time that you start the app a CENO icon will appear on your device's notification bar.  This icon represents the *CENO Browser service*, which is the part of CENO that runs permanently (even when you are not browsing) and allows other clients to use your device as a bridge and retrieve content from it at any time.
 
-Since running such service uses network and processor resources, you may want to stop it whenever you are on the move (i.e. not connected to Wi-Fi or far from a charger).  Tapping the notification attached to the icon will stop both CENO and its service at once (until you open CENO again).
+Since running such service uses network and processor resources, you may want to stop it whenever you are on the move (i.e. not connected to Wi-Fi or far from a charger).  Tapping on the notification attached to the icon will stop both CENO and its service at once (until you open CENO again).
 
-![Figure: Tap the notification to stop the CENO service](images/tap-stop.png)
+![Figure: Tap on the notification to stop the CENO service](images/tap-stop.png)
