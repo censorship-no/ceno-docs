@@ -58,11 +58,9 @@ The page also provides you with some information about your CENO Browser app and
 
 Next to the *Local cache size* value above, there is a button which allows you to stop seeding and drop all content shared by your device over Ouinet.  This allows you to free up some storage space in your device while keeping other CENO settings like favorites.
 
-If you also want to clear CENO's normal browsing cache (the one used by the browser but not shared with others) or other items like cookies, the browsing history or favorites, you should choose *Settings* in the app's main menu, then *Clear private data*.  You will be asked about which items you want to clear.
+If you want to clear CENO's normal browsing cache (the one used by the browser but not shared with others) or other items like cookies, the browsing history or favorites, you should choose *Settings* in the app's main menu, then *Clear private data*.  You will be asked about which items you want to clear.
 
-To drop everything at the same time, you can use Android's general *Settings* page and, under the *Apps* entry, choose CENO and then *Clear data*.  CENO will stop and forget all your settings and data.
-
-> **Warning:** Please be careful with the last two actions since loosing CENO settings cannot be undone!
+To drop everything at the same time (especially if you are in a hurry), please learn how to use the "panic button" feature described in [Installing CENO](install.md).
 
 ## Collecting log messages
 
