@@ -36,8 +36,8 @@ If you tap on that new action, CENO will be stopped and all its data removed *wi
 
 If you do not tap on the action, it will go away in a few seconds.
 
-> *Note:* The method described above requires that CENO is running on your device.  To accomplish the same effect when CENO is stopped, you can use Android's general *Settings* page and, under the *Apps* entry, choose CENO and then *Clear data*.
+> **Note:** The method described above requires that CENO is running on your device.  To accomplish the same effect when CENO is stopped, you can use Android's general *Settings* page and, under the *Apps* entry, choose CENO and then *Clear data*.
 >
 > As a harsher alternative, you may completely uninstall the app.
 
-> *Warning:* Android may still keep other traces of having used an app besides its data, for instance in its system log.
+> **Warning:** Android may still keep other traces of having used an app besides its data, for instance in its system log.
