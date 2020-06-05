@@ -16,7 +16,9 @@ CENO requires *no special permissions* to run.
 
 When you run CENO for the first time, you will be presented with a series of screens introducing some features generic to Firefox browsers.  Just scroll through them by pressing *NEXT* until you see a *Sign in to Sync* button and a *START BROWSING* link.  Firefox Sync has not been tested to work with CENO, so just push *START BROWSING*.
 
-Also, every time that you start the app a CENO icon will appear on your device's notification bar.  This icon represents the *CENO Browser service*, which is the part of CENO that runs permanently (even when you are not browsing) and allows other clients to use your device as a bridge and retrieve content from it at any time.
+## Stopping CENO completely
+
+Every time that you start the app a CENO icon will appear on your device's notification bar.  This icon represents the *CENO Browser service*, which is the part of CENO that runs permanently (even when you are not browsing) and allows other clients to use your device as a bridge and retrieve content from it at any time.
 
 Since running such service uses network and processor resources, you may want to stop it whenever you are on the move (i.e. not connected to Wi-Fi or far from a charger).  Tapping the notification attached to the icon will stop both CENO and its service at once (until you open CENO again).
 
