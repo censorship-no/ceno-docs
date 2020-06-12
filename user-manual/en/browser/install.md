@@ -26,9 +26,9 @@ Since running such service uses network and processor resources, you may want to
 
 ## Purging all CENO data (the "panic button")
 
-The *CENO Browser service* notification includes a few accompanying actions which can be triggered by tapping on them.  The *Home* action will just open CENO with a new public browsing tab showing its home page.  The *Stop & purge* action demands more explanation.
+The *CENO Browser service* notification shown above includes a few accompanying actions which can be triggered by tapping on them.  The *Home* action will just open CENO with a new public browsing tab showing its home page.  The *Stop & purge* action demands more explanation.
 
-> **Note:** If the actions below the notification are not visible, tap on the small v-shaped icon near the notification's first line to unfold it.
+> **Note:** If the actions below the notification are not visible, drag the notification from its center towards the bottom to unfold it.
 
 Shall you ever need to quickly stop CENO and clear absolutely all the data related with it (not only cached content but also settings like favorites, passwords and all browsing history), you can tap on *Stop & purge*.  To avoid losing your data accidentally, this will not remove anything yet, but just show an additional *Tap if sure!* action for a brief moment, as pictured below.
 
