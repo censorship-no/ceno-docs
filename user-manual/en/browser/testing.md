@@ -27,8 +27,6 @@ In contrast, if you had used private browsing with default settings, you may hav
 
 ![Figure: Mechanisms used with private browsing](images/sources-proxy.png)
 
-Finally, you may have also noticed that there is a counter for *Shared by you*.  This is not a different mechanism *per se*: elements counted here are indeed part of the distributed cache, but they happen to already be stored in your device, so CENO does not need to retrieve them over the network.
-
 ## Getting content from close users
 
 Since your first device was able to get some content from an injector, let us test if it is able to share it with another device over the distributed cache.  The simplest way is to use CENO's device-to-device support to check whether getting and verifying signed content works.
@@ -43,6 +41,8 @@ After completing the test above on the first device, leave CENO running on it (t
 If it works, it means that both devices are able to deliver that content to other clients.  Pushing the CENO address bar icon should show a popup like the one below, where only *Shared by other CENO users* has a non-zero value.
 
 ![Figure: Mechanisms used when testing distributed cache retrieval](images/sources-dcache.png)
+
+Finally, you may have also noticed that there is a counter for *Shared by you*.  This is not a different mechanism *per se*: elements counted here are indeed part of the distributed cache, but they happen to already be stored in your device, so CENO does not need to retrieve them over the network.
 
 ## Getting content from remote users
 
