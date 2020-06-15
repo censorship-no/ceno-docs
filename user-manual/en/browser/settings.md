@@ -10,11 +10,9 @@ These features are available in a page that can be accessed by choosing *CENO* i
 
 ## Choosing access mechanisms
 
-The four check boxes on the top of the page selectively enable or disable the different mechanisms that CENO as a Ouinet client uses to retrieve content.  All of them are enabled by default, and they are grouped depending on the browsing modes where they are available.
+The four check boxes on the top of the page selectively enable or disable the different mechanisms or *sources* that CENO as a Ouinet client uses to retrieve content.  All of them are enabled by default.
 
-When in *public or private browsing* modes:
-
-  - The only mechanism available to both modes, known as **origin access**, allows CENO to try to reach the origin server directly before attempting other mechanisms enabled below.
+  - *Direct from website* (or **origin access**) allows CENO to try to reach the origin server directly before attempting other mechanisms enabled below.
 
     Although this mechanism works in both private and public browsing modes, content thus retrieved cannot be shared with others.
 
@@ -22,19 +20,21 @@ When in *public or private browsing* modes:
 
     Also, when accessing a Web site over insecure HTTP (instead of the more secure HTTPS), a censor may intercept the connection and supply the user with a bogus site, a tampering which CENO cannot detect by itself.  In such case it may help to disable this option and thus always resort to other, safer CENO mechanisms.
 
-When in *private browsing* mode:
+  - *Via the CENO network (private)* (or **proxy access**) allows CENO to use injectors as normal HTTP proxy servers to reach origin servers.
 
-  - The only mechanism exclusive to this mode, known as **proxy access**, allows CENO to use injectors as normal HTTP proxy servers to reach origin servers.
+    This mechanism only works in private browsing mode.
 
     When accessing content over HTTPS, only origin servers will be able to decrypt traffic.  When using plain HTTP, the injector may also see the unencrypted traffic (but it should still not sign or share its content with others).  Other participants like bridges will never see the unencrypted traffic.
 
-When in *public browsing* mode:
-
-  - The first mechanism, known as **injector access**, enables CENO to strip any private information from requests and send them to an injector.  The injector shall get the content from an origin server, sign it and send it back to CENO, which shall start seeding it.
+  - *Via the CENO network (public)* (or **injector access**) enables CENO to strip any private information from requests and send them to an injector.  The injector shall get the content from an origin server, sign it and send it back to CENO, which shall start seeding it.
 
     Other participants like bridges will not see the unencrypted traffic.
 
-  - The second mechanism allows CENO to try to retrieve content from the **distributed cache**, i.e. from other CENO and Ouinet clients seeding it.
+    This mechanism only works in public browsing mode.
+
+  - *Shared by other CENO users* allows CENO to try to retrieve content from the **distributed cache**, i.e. from other CENO and Ouinet clients seeding it.
+
+    This mechanism only works in public browsing mode.
 
 Disabling all the mechanisms available for either public or private browsing mode will render them useless.  If you establish such a configuration, a warning will be shown as depicted below.
 
