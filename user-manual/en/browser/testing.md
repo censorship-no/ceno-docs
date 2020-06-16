@@ -13,7 +13,7 @@ Let us first check whether your CENO Browser can reach an injector.  This may lo
 In the first device perform the following steps:
 
  1. First of all, install CENO if needed and start it.  On the first run a series of introductory screens will appear: just click on *NEXT* until *START BROWSING* appears, then click it.  In the end, CENO's home page will appear.
- 2. Open the app's main menu and choose *CENO* to open the *CENO Settings* page.  Since we only want to test injector access, uncheck all the boxes for access mechanisms except *Get content via injector*.
+ 2. Open the app's main menu and choose *CENO* to open the *CENO Settings* page.  Since we only want to test injector access, uncheck all the boxes for access mechanisms except *Via the CENO network (public)*.
  3. Go back to CENO's home page.  Either select one of the recommended Web sites, or enter the URL of some other site at the address bar at the top of the window.  If you know about a site which is usually blocked for you, go ahead and enter it!
  4. The chosen site should eventually show up.
 
@@ -34,7 +34,7 @@ Since your first device was able to get some content from an injector, let us te
 After completing the test above on the first device, leave CENO running on it (the CENO icon should appear in its notification bar).  Then get hold of a second device (you can invite a friend over to do the test) and connect it to the same Wi-Fi network.  Then follow the steps below on that device:
 
  1. Install CENO if needed, start it and proceed to CENO's home page as above.
- 2. Open the *CENO Settings* page as above.  Since we only want to test distributed cache access, uncheck all the boxes for access mechanisms except *Get content shared by other users*.
+ 2. Open the *CENO Settings* page as above.  Since we only want to test distributed cache access, uncheck all the boxes for access mechanisms except *Shared by other CENO users*.
  3. Go back to CENO's home page and visit the same site in the same manner as you did above (i.e. by selecting one of the recommended web sites or entering its URL in the address bar).
  4. The chosen site should eventually show up.
 
