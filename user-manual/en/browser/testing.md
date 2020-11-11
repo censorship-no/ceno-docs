@@ -4,7 +4,7 @@ Now that you know how to [install](install.md) and [configure](settings.md) CENO
 
 To complete all the tests below you will need at least two devices connected to the same Wi-Fi network, and a third one on a completely different network.
 
-All the tests will be performed using [public browsing](public-private.md).  If something does not work as expected, please be patient and check the section on [troubleshooting](troubleshooting.md).
+All the tests will be performed using [public browsing](public-private.md).  If something does not work as expected, please be patient and check the section on [troubleshooting](troubleshooting.md).  Specifically, if the browser gets stuck for more than a couple of minutes while loading a page, you may hit stop and reload it (although this may alter results slightly).
 
 ## Accessing an injector
 
