@@ -10,7 +10,7 @@ These features are available in a page that can be accessed by choosing *CENO* i
 
 ## Choosing access mechanisms
 
-The four check boxes on the top of the page selectively enable or disable the different mechanisms or *sources* that CENO as a Ouinet client uses to retrieve content.  All of them are enabled by default.
+The four check boxes on the top of the page selectively enable or disable the different mechanisms or *sources* that CENO as a Ouinet client uses to retrieve content while using either [public or private browsing](public-private.md) tabs.  All boxes are enabled by default.
 
   - *Direct from website* (or **origin access**) allows CENO to try to reach the origin server directly before attempting other mechanisms enabled below.
 
