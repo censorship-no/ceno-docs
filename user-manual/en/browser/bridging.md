@@ -6,7 +6,7 @@ A peer-to-peer network is built from every node connected to it (yes, that means
 
 ## How to become a CENO bridge
 
-This functionality is already built into the CENO Browser.  Your device will need to be connected to a Wi-Fi network that has [UPnP][] enabled.
+This functionality is already built into the CENO Browser.  Your device will need to be connected to a Wi-Fi network that has either [UPnP][] enabled or explicit port forwarding configured for CENO.  See below for further details.
 
 [UPnP]: https://en.wikipedia.org/wiki/Universal_Plug_and_Play
 
