@@ -36,7 +36,7 @@ There are many Wi-Fi routers on the market and each has their own particular fea
   * [Xfinity](https://www.xfinity.com/support/articles/configure-device-discovery-for-wifi)
   * [TP-Link](https://community.tp-link.com/us/home/kb/detail/348)
 
-## Alternative methods to allow CENO bridging
+## Using port forwarding as an alternative to UPnP
 
 Instead of enabling UPnP on your router, you can create a port forwarding rule, to make sure that connections from the CENO network are forwarded to your device.  You will need to login to the router's administration interface and locate the *port forwarding* option.  To see which IP address you need to forward the connections to and the relevant port, open the *CENO Settings* page and look under the *Local UDP endpoint(s)*.
 
