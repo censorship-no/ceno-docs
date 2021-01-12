@@ -20,6 +20,10 @@ Thus if you intend to have CENO acting as a permanent, always-reachable bridge, 
  1. Have your device plugged in to power at all times.
  2. Have the device's screen on at all times.
 
+    One convenient way of doing this without much power consumption and obnoxious, permanent lighting is using Android's screen saver: enable it under *Settings / Display / Screen saver* (or *Daydream* in some versions), pick the *Clock* widget, choose *When to start screen saver* in the menu and select *While charging* or *Either*.  A very dimmed down clock will appear on a black background while the device is not active.
+
+    Please note that you should not use the power button to lock the device as this will turn the screen off.  Instead, just wait for the device to lock itself with the screen on.
+
 ## Enabling UPnP on your Wi-Fi router
 
 [UPnP][] is the easiest way of making your CENO Browser reachable to the CENO network.  The [CENO Settings](settings.md) page will indicate the UPnP status on your local network.
