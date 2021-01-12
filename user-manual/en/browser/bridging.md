@@ -8,6 +8,18 @@ A peer-to-peer network is built from every node connected to it (yes, that means
 
 This functionality is already built into the CENO Browser.  Your device will need to be connected to a Wi-Fi network that has either UPnP enabled or explicit port forwarding configured for CENO.  See below for further details.
 
+However, please note that Android will only allow a mobile device to act as a proper bridge while you are actively using it, as power-saving features will throttle the operation of CENO otherwise.
+
+> **Technical note:** This is due to Android's [Doze mode][] slowing down the operation of the native Ouinet library.  Unfortunately, disabling battery optimization for CENO does not seem to exclude Ouinet from it.
+
+[Doze mode]: https://developer.android.com/training/monitoring-device-state/doze-standby
+    "Android Developers – Optimize for Doze and App Standby"
+
+Thus if you intend to have CENO acting as a permanent, always-reachable bridge, besides a properly configured Wi-Fi network you will need to:
+
+ 1. Have your device plugged in to power at all times.
+ 2. Have the device's screen on at all times.
+
 ## Enabling UPnP on your Wi-Fi router
 
 [UPnP][] is the easiest way of making your CENO Browser reachable to the CENO network.  The [CENO Settings](settings.md) page will indicate the UPnP status on your local network.
