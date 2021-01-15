@@ -72,7 +72,7 @@ We want CENO and Ouinet usage to scale and provide as much content to as many pe
 
 > **Technical note:** In fact, the injector signs individual blocks of data as they come, so even if the connection is cut in the middle while retrieving a big file, the downloaded data can still be shared by the client which received it.
 
-Different injectors may have different keys, so you can choose which injectors to trust.  Picture it like this: you may trust a document signed by a *notary public* from your country, no matter who gave it to you (national or foreigner), while you wouldn't be required to accept a document signed by a notary from another country.  The CENO Browser is already configured to trust a set of injectors run by eQualitie.
+Different injectors may have different keys, so you can choose which injectors to trust.  Picture it like this: you may trust a document signed by a *notary public* from your country, no matter who gave it to you (national or foreigner), while you would not be required to accept a document signed by a notary from another country.  The CENO Browser is already configured to trust a set of injectors run by eQualitie.
 
 > **Technical note:** Injectors use a public/private key pair to create Ed25519 signatures; public keys are small enough as to allow them to be sent along signatures, and encoded as 64 hexadecimal characters or 52 Base32 characters, they may even be exchanged on the phone or written down in a piece of paper.
 
