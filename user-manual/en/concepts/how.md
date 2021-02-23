@@ -1,14 +1,14 @@
 # How does it work?
 
-This section will explain CENO and Ouinet operation by going over a series of scenario explanations.  Terminology and concepts important to Ouinet will be introduced (highlighted **in bold letters**) and used afterwards for efficiency and to avoid confusions.
+This section will explain CENO and Ouinet operation by going over a series of scenarios.  Terminology and concepts important to Ouinet will be introduced (highlighted **in bold letters**) and used afterwards for efficiency and to avoid confusion.
 
 ## Accessing content directly
 
-The CENO Browser is an example of an application which uses Ouinet technology to retrieve and share Web content.  We call such an application a Ouinet **client**.  When you use your client (i.e. CENO) to try to access some content *X*, hosted in a Web server, which we will call *X*'s **origin** server, your client tries to contact the origin server over the Internet either directly or via some other machine configured to contact Web servers on behalf of others, a so called **proxy** server, then request the desired content.  This is not different from the way in which any normal Web browser works.
+The CENO Browser is an example of an application that uses Ouinet technology to retrieve and share Web content.  We call such an application a Ouinet **client**.  When you use your client (i.e. CENO) to try to access some content *X*, hosted on a Web server (which we will call *X*'s **origin** server), your client tries to contact the origin server over the Internet either directly or via some other machine configured to contact Web servers on behalf of others (a so-called **proxy** server) and then requests the desired content.  This is no different from the way in which any normal Web browser works.
 
-> **Technical note:** There is in fact one small gotcha.  Since the client acts as an HTTP proxy running on your device, for the client to be able to decrypt and act upon HTTPS content requests, the application using the client (i.e. the Web browser part – like Firefox in CENO) needs to accept a special certificate issued by the client itself (and only used in your device).  The CENO Browser already takes care of setting this certificate up for its private use so that you do not need to worry.
+> **Technical note:** There is in fact one small gotcha.  Since the client acts as an HTTP proxy running on your device, for the client to be able to decrypt and act upon HTTPS content requests, the application using the client (i.e. the Web browser part – like Firefox in CENO) needs to accept a special certificate issued by the client itself (and only used on your device).  The CENO Browser already takes care of setting this certificate up for its private use so that you do not need to worry.
 
-However these direct paths may not be available.  For instance, your Internet service provider (ISP) may be blocking access to *X*'s origin server or the proxy because of a state order (even if other traffic is still allowed).  As the user of the top left client depicted below, both attempts to reach content *X* (the little document close to its origin server) would fail for you.  You may also note the "injector" node on the diagram.  We will explain that in a moment.
+However, these direct paths may not be available.  For instance, your Internet service provider (ISP) may be blocking access to *X*'s origin server or the proxy because of a state order (even if other traffic is still allowed).  As the user of the top left client depicted below, both attempts to reach content *X* (the little document close to its origin server) would fail for you.  You may also note the "injector" node on the diagram.  We will explain that in a moment.
 
 ![Figure: Client cannot reach content directly](images/user-flow-0.svg)
 
@@ -22,29 +22,29 @@ In any Web browser, to access content *X* it needs to know its [Uniform Resource
 
 [Uniform Resource Locator]: https://en.wikipedia.org/wiki/Uniform_Resource_Locator
 
-Ouinet looks for the content in a different way.  It uses an index not unlike that of a book: in Ouinet's **distributed cache index** you look up the whole URL of the content and get a list of clients holding a copy of it.  The index itself is distributed, with clients in charge of announcing which content they have to others.  Actually, only a *hint* on each URL is announced, so that someone spying your device's traffic cannot tell which content you have, but someone looking for a particular content can follow the hints towards your client.
+Ouinet looks for the content in a different way.  It uses an index not unlike that of a book: in Ouinet's **distributed cache index** you look up the whole URL of the content and get a list of clients holding a copy of it.  The index itself is distributed, with clients in charge of announcing what content they have to others.  Actually, only a *hint* on each URL is announced, so that someone spying your device's traffic cannot tell which content you have, but someone looking for a particular content can follow the hints towards your client.
 
 > **Technical note:** One way the index is implemented is using [BitTorrent][]'s [Distributed Hash Table][] (DHT) to get the addresses (IP and port) of the clients with the content.  The DHT uses a [Cryptographic hash function][] to compute the table key from the content's URL and some other parameters as the injector key (see below), so that several indexes can coexist.
 >
-> Also, the CENO Browser does not announce the URL of every single resource it holds: with any modern page having tens or hundreds of components (images, style sheets, scripts…), that would cause a lot of traffic.  Instead, resources are grouped under the URL of the page pulling them, and only that URL is announced.  This is done with the help of an *ad hoc* browser extension (described later on).
+> Also, the CENO Browser does not announce the URL of every single resource it holds: with any modern page having tens or hundreds of components (images, style sheets, scripts…), that would create a lot of traffic.  Instead, resources are grouped under the URL of the page pulling them, and only that URL is announced.  This is done with the help of an *ad hoc* browser extension (described later on).
 
 [Cryptographic hash function]: https://en.wikipedia.org/wiki/Cryptographic_hash_function
 [BitTorrent]: https://en.wikipedia.org/wiki/BitTorrent
 [Distributed Hash Table]: https://en.wikipedia.org/wiki/Distributed_hash_table
 
-Clients offering some particular content over the distributed cache are said to be **seeding** it or to be their *seeders* (these terms come from the P2P file sharing world).  Going back to our example scenario, there are two clients seeding some content.  Unfortunately, one is seeding content *Y* and the other one content *Z*, so your client would find no entries for content *X* in the distributed cache index, as depicted below.
+Clients offering some particular content over the distributed cache are said to be **seeding** it or to be their *seeders* (these terms come from the P2P file-sharing world).  Going back to our example scenario, there are two clients seeding some content.  Unfortunately, one is seeding content *Y* and the other one content *Z*, so your client would find no entries for content *X* in the distributed cache index, as depicted below:
 
 ![Figure: Content not found in the distributed cache](images/user-flow-1.svg)
 
-Fortunately, Ouinet offers a way to retrieve such content and furthermore make it available to other clients on the distributed cache.  Please read on to know how.
+Fortunately, Ouinet offers a way to retrieve such content and furthermore make it available to other clients in the distributed cache.  Please read on to learn how.
 
 ## Sharing new content
 
 ### Proxies on steroids
 
-In Ouinet, there is a special kind of proxy servers called **injectors** which sit in the (hopefully) free side of the Internet and try very hard to stay reachable in spite of certain blocking measures:
+In Ouinet, there are special kinds of proxy servers called **injectors** which sit in the (hopefully) free side of the Internet and try very hard to stay reachable despite blocking measures:
 
-  - First of all, connections between clients and injectors are encrypted (using standard SSL/TLS like in HTTPS) to avoid attackers from identifying injectors by eavesdropping traffic.
+  - First of all, connections between clients and injectors are encrypted (using standard SSL/TLS like in HTTPS) to avoid attackers from identifying injectors by eavesdropping on web traffic.
 
     By the way, injector certificates are shipped in the CENO Browser, allowing it to detect attackers trying to impersonate injectors.
   - If encryption was not sufficient, connections to injectors can use special obfuscation techniques (like I2P and Tor's Pluggable Transports) to make identification even more difficult.
@@ -66,15 +66,15 @@ But there exist other tools allowing you to reach proxies in stringent network i
 
 Well, the point is that an injector does not just retrieve content on behalf of your client, it also allows you to *share that content with others at a later time, even when there is no longer access to the injector or most of the Internet*.
 
-You could of course download a page from your browser and copy the resulting files to other people, which should be fine if you knew each other.  But what if you received such files from an unknown person?  How could you be sure that the content actually came from the Web site it claims to, that it was retrieved at a certain date or that the information in it was not manipulated?
+You could of course download a page from your browser and copy the resulting files to other people, which should be fine if you know each other.  But what if you received such files from an unknown person?  How could you be sure that the content actually came from the website it claims to, that it was retrieved at a certain date or that the information in it was not manipulated?
 
-We want CENO and Ouinet usage to scale and provide as much content to as many people as possible, so we do want you to be able to receive content from people you do not know.  To enable you to accept such content, Ouinet uses **content signing**: your client is configured to trust content which is signed using a special key owned by injectors.  Whenever a client tells an injector to retrieve some Web content for sharing, the injector gets it from the origin server, uses the key to sign it, and returns the signed content to the client.
+We want CENO and Ouinet usage to scale and provide as much content to as many people as possible, so we do want you to be able to receive content from people you do not know.  To enable you to accept such content, Ouinet uses **content signing**: your client is configured to trust content that is signed using a special key owned by injectors.  Whenever a client tells an injector to retrieve some Web content for sharing, the injector gets it from the origin server, uses the key to sign it, and returns the signed content to the client.
 
-> **Technical note:** In fact, the injector signs individual blocks of data as they come, so even if the connection is cut in the middle while retrieving a big file, the downloaded data can still be shared by the client which received it.
+> **Technical note:** In fact, the injector signs individual blocks of data as they come, so even if the connection is cut in the middle while retrieving a big file, the downloaded data can still be shared by the client that received it.
 
 Different injectors may have different keys, so you can choose which injectors to trust.  Picture it like this: you may trust a document signed by a *notary public* from your country, no matter who gave it to you (national or foreigner), while you wouldn't be required to accept a document signed by a notary from another country.  The CENO Browser is already configured to trust a set of injectors run by eQualitie.
 
-> **Technical note:** Injectors use a public/private key pair to create Ed25519 signatures; public keys are small enough as to allow them to be sent along signatures, and encoded as 64 hexadecimal characters or 52 Base32 characters, they may even be exchanged on the phone or written down in a piece of paper.
+> **Technical note:** Injectors use a public/private key pair to create Ed25519 signatures; public keys are small enough to allow them to be sent along signatures, and encoded as 64 hexadecimal characters or 52 Base32 characters. They may even be exchanged on the phone or written down on a piece of paper.
 
 ### Content injection
 
@@ -84,13 +84,13 @@ In the figure below you can see a possible outcome of that operation: the client
 
 ![Figure: Client reaches for injector](images/user-flow-2.svg)
 
-As content *X* is received by the injector, it signs it with its key, adds the signature to the content and sends it back to your client via the tunnel it arrived from (let us say it did through the client sitting beyond the blocking).  Once the content reaches your client, it does three things:
+As content *X* is received by the injector, it signs it with its key, adds the signature to the content and sends it back to your client via the tunnel it arrived from (say, through the client sitting beyond the blocking).  Once the content reaches your client, it does three things:
 
  1. It delivers it to you (in the case of CENO, it shows the content on the browser).
- 2. It saves the content in your device, for further seeding to other clients.  It will stay there for a configurable amount of time, or until you decide to clean all stored content.
+ 2. It saves the content on your device for further seeding to other clients.  It will stay there for a configurable amount of time, or until you decide to clear all stored content.
  3. It announces in the distributed cache index that it is in possession of a copy of that content, so that other clients can find it.
 
-The whole combined operation of retrieval, signing, storage and announcement is what we call **content injection**, and it is shown in the figure below.
+The whole combined operation of retrieval, signing, storage and announcement is what we call **content injection**, as shown in the figure below.
 
 ![Figure: Client receives signed content from injector](images/user-flow-3.svg)
 
@@ -108,4 +108,4 @@ Now that second device also holds a copy of content *X*, so it announces this in
 
 ![Figure: Client receives signed content from multiple clients](images/user-flow-5.svg)
 
-Finally, the situation may get even worse and all commercial and state network infrastructure be shut down.  In this case, Ouinet and the CENO Browser also have some support for *device-to-device* sharing of content between two clients sitting on the same local network (e.g. connected to the same Wi-Fi access point), even if the network has no access to others.
+Finally, the situation may get even worse, and all commercial and state network infrastructure may be shut down.  In this case, Ouinet and the CENO Browser also have some support for *device-to-device* sharing of content between two clients sitting on the same local network (e.g. connected to the same Wi-Fi access point), even if the network has no access to others.

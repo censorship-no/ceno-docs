@@ -1,6 +1,6 @@
 # Public vs. private browsing
 
-Because of the many techniques to overcome connectivity issues, CENO may become a convenient way for you to get all kinds of Web content.  And, as you may have already read in previous sections, whenever you retrieve and seed a page using the CENO Browser, it becomes available to others.  There may be some content however that you do not wish to share (or you do not want to let others know that you are trying to or did retrieve), and fortunately CENO can help you in this instance as well.
+Because of the many techniques used to overcome connectivity issues, CENO may become a convenient way for you to get all kinds of Web content.  And, as you may have already read in previous sections, whenever you retrieve and seed a page using the CENO Browser, it becomes available to others.  There may be some content, however, that you do not wish to share (or you do not want to let others know that you are trying to or did retrieve), and fortunately CENO can help you in this instance as well.
 
 The default mode when you launch the application is **public browsing**.  In it, CENO accesses Web content as described previously:
 
@@ -31,6 +31,6 @@ While in private mode:
  5. Limited browsing activity is leaked to injectors (with HTTPS, only the origin server name or address).
  6. You need not trust injectors (with HTTPS, usual certificate-based security still works).
 
-As a conclusion: if you are using CENO to read the news, watch videos, browse Wikipedia and other static resources that are otherwise censored in your network, consider using the default *public browsing* mode.  And if you want to login to Twitter or edit your WordPress website, use *private browsing* mode.
+In conclusion: if you are using CENO to read the news, watch videos, browse Wikipedia and other static resources that are otherwise censored in your network, consider using the default *public browsing* mode.  And if you want to login to Twitter or edit your WordPress website, use *private browsing* mode.
 
 Please read the section on [risks](risks.md) for a more detailed explanation.  Also note that your client can continue to operate as a bridge and a seeder regardless of public or private browsing.  We explain this in greater detail in the [Helping others](../browser/bridging.md) section of the manual.

@@ -6,7 +6,7 @@
 
 Short answer: yes, at least for some non-critical browsing.
 
-Since CENO is based on Mozilla Firefox for Android, it provides all the features that expected from a modern browser.  However, its reliance on Ouinet technology for retrieving web content may affect its operation in subtle ways (some of them potentially involving your privacy).
+Since CENO is based on Mozilla Firefox for Android, it provides all the features that are expected from a modern browser.  However, its reliance on Ouinet technology for retrieving web content may affect its operation in subtle ways (some of them potentially involving your privacy).
 
 Also, since CENO and Ouinet are still under development, you may experience some instability.  That may also mean that backwards-incompatible changes are introduced which require you to uninstall the application or remove stored data (including bookmarks and site settings) before upgrading.
 
@@ -18,19 +18,19 @@ Short answer: yes, by using private tabs.
 
 Although CENO strives to provide a user experience as similar to normal Web browsing as possible, some of the techniques used to avoid network interference do not play well with such dynamic sites.  This is the case with CENO's default mode of operation (i.e. public browsing), since it strips down all private data (like passwords and cookies) from Web traffic to ensure that it does not leak to other untrusted CENO or Ouinet users.
 
-To avoid this and enable the use of such dynamic sites in CENO, you can use private tabs (i.e. private browsing), which leave private data intact and keep connections to the sites encrypted and thus protected from everyone else.  However this requires that network traffic from your device can reach those Web sites in some way.
+To avoid this and enable the use of such dynamic sites in CENO, you can use private tabs (i.e. private browsing), which leave private data intact and keep connections to the sites encrypted and thus protected from everyone else.  However, this requires that network traffic from your device can reach those websites in some way.
 
-For further details, please check the section on the differences between [public and private browsing](../concepts/public-private.md).
+For further details, please refer to the section on the differences between [public and private browsing](../concepts/public-private.md).
 
 ## Privacy and security
 
-### Will my device store content which I did not request?
+### Will my device store content that I did not request?
 
 Short answer: no.
 
 CENO only shares content that you requested (using [public browsing](../concepts/public-private.md)).
 
-Please note that a malicious Web site may still try to trick your browser into retrieving content from other sites without your knowledge so as to force your device to store and share it with other users.  Hopefully Firefox code already does a pretty good job in detecting and blocking such attempts, but you should still avoid visiting suspicious sites.
+Please note that a malicious website may still try to trick your browser into retrieving content from other sites without your knowledge so as to force your device to store and share it with other users.  While Firefox code already does a pretty good job at detecting and blocking such attempts, you should still avoid visiting suspicious sites.
 
 Read more about how your CENO Browser retrieves and shares Web content with others [here](../concepts/how.md).
 
@@ -38,7 +38,7 @@ Read more about how your CENO Browser retrieves and shares Web content with othe
 
 Short answer: yes, with some technical knowledge and resources.
 
-CENO is not an anonymity tool.  An attacker able to spy your network traffic can see content being requested from or served to another user from your device.  The attacker can also test whether you are sharing a particular content, although they cannot list all the contents that you are sharing.
+CENO is not an anonymity tool.  An attacker able to spy on your network traffic can see content being requested from or served to another user from your device.  The attacker can also assess whether you are sharing a particular website, although they cannot list all the content that you are sharing.
 
 However, content being retrieved into the network for the first time or using [private browsing](../concepts/public-private.md) will travel over encrypted connections.  See [how content retrieval works](../concepts/how.md) and the associated [risks](../concepts/risks.md) for more information.
 
@@ -48,9 +48,9 @@ However, content being retrieved into the network for the first time or using [p
 
 Short answer: more than your usual browser.
 
-Whenever your CENO Browser serves content to another user or forwards their traffic, it is consuming an extra amount of data which depends on factors like how popular the content is, how big, and how well-connected your device is.  Sharing more content also implies more overhead.
+Whenever your CENO Browser serves content to another user or forwards their traffic, it is consuming extra data depending on factors like how popular or large the content is, and how well-connected your device is.  Sharing more content also implies more overhead.
 
-Although Ouinet is much lighter in resources than other data-sharing applications, it can still result in increased data usage and fees.  We recommend keeping an eye on the app's data usage (under Android settings) and running CENO on Wi-Fi instead of mobile connections.
+Although CENO is much lighter in resources than other data-sharing applications, it can still result in increased data usage and fees.  We recommend keeping an eye on the app's data usage (under Android settings) and running CENO while connected to Wi-Fi instead of using mobile data.
 
 ### Does the CENO Browser use a lot of battery on my device?
 
