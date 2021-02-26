@@ -1,11 +1,11 @@
 # What is Ouinet?
 
-[Ouinet][] is a core technology which allows the CENO browser to share Web content with other devices.  Ouinet comes in the form of reusable computer code (a library) that an application like CENO can use to become a participant in a network of cooperating nodes that communicate directly ([peer-to-peer][P2P] or P2P) to help access and store new Web content, and to request and deliver previously accessed content to others.
+[Ouinet][] is a core technology that allows the CENO browser to share Web content with other devices.  Ouinet comes in the form of reusable computer code (a library) that an application like CENO can use to become a participant in a network of cooperating nodes that communicate directly ([peer-to-peer][P2P] or P2P) to help access and store new Web content, and to request and deliver previously accessed content to others.
 
 [Ouinet]: https://github.com/equalitie/ouinet/
 [P2P]: https://en.wikipedia.org/wiki/Peer-to-peer
 
-Ouinet is based on a clever combination and use of existing technologies to accomplish each of its functionalities: locating other participants is done with techniques coming from the world of file sharing (BitTorrent's distributed hash table), communicating with them uses common Web and file sharing protocols (HTTP proxy requests and BitTorrent's µTP), and modern industry standards ensure the security of communications and the authenticity of exchanged content (TLS encryption and Ed25519 signatures).  Ouinet allows replacing particular technologies with others if needed (for instance, some uses of µTP can be replaced by Tor's Pluggable Transports).
+Ouinet is based on a clever combination and use of existing technologies to accomplish each of its functionalities: locating other participants is done with techniques coming from the world of file-sharing (BitTorrent's distributed hash table), communicating with them uses common Web and file-sharing protocols (HTTP proxy requests and BitTorrent's µTP), and modern industry standards ensure the security of communications and the authenticity of exchanged content (TLS encryption and Ed25519 signatures).  Ouinet allows replacing particular technologies with others if needed (for instance, some uses of µTP can be replaced by Tor's Pluggable Transports).
 
 On mobile devices, Ouinet can be embedded into end-user applications (as an Android library).  In computers, it can be used by normal Web clients like browsers (as a local HTTP proxy).
 
@@ -17,6 +17,6 @@ Same as the CENO Browser, Ouinet is developed by [eQualitie][] as Free/Libre/Ope
 
 Ouinet is mostly useful for software developers, content creators and publishers who want to enable users of their applications to share retrieved content with other users.  This reduces the overall demand on the application server and improves content accessibility for users living in countries that block access to that server.
 
-Please note that Ouinet is still an experimental project: some features may not work reliably enough in certain scenarios, bugs may exist and crashes may occur.  We encourage you to ask us at <cenoers@equalit.ie>, test it and report back; your feedback will be very welcome.
+Please note that Ouinet is still an experimental project: some features may not work reliably enough in certain scenarios, bugs may exist and crashes may occur.  We encourage you to reach out to us at <cenoers@equalit.ie>, test it and report back - your feedback is very welcome!
 
 > **Warning:** *Ouinet is not an anonymity tool*.  If you are unsure about its adequacy for a certain task, do not hesitate to contact us.
