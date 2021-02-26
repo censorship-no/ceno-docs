@@ -1,0 +1,103 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>What is Ouinet? &#8212; Censorship.No!  documentation</title>
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="what-is-ouinet">
+<h1>What is Ouinet?<a class="headerlink" href="#what-is-ouinet" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="https://github.com/equalitie/ouinet/">Ouinet</a> is a core technology that allows the CENO browser to share Web content with other devices.  Ouinet comes in the form of reusable computer code (a library) that an application like CENO can use to become a participant in a network of cooperating nodes that communicate directly (<a class="reference external" href="https://en.wikipedia.org/wiki/Peer-to-peer">peer-to-peer</a> or P2P) to help access and store new Web content, and to request and deliver previously accessed content to others.</p>
+<p>Ouinet is based on a clever combination and use of existing technologies to accomplish each of its functionalities: locating other participants is done with techniques coming from the world of file-sharing (BitTorrent’s distributed hash table), communicating with them uses common Web and file-sharing protocols (HTTP proxy requests and BitTorrent’s µTP), and modern industry standards ensure the security of communications and the authenticity of exchanged content (TLS encryption and Ed25519 signatures).  Ouinet allows replacing particular technologies with others if needed (for instance, some uses of µTP can be replaced by Tor’s Pluggable Transports).</p>
+<p>On mobile devices, Ouinet can be embedded into end-user applications (as an Android library).  In computers, it can be used by normal Web clients like browsers (as a local HTTP proxy).</p>
+<p>Same as the CENO Browser, Ouinet is developed by <a class="reference external" href="https://equalit.ie/">eQualitie</a> as Free/Libre/Open-Source software.</p>
+<div class="section" id="who-is-it-for">
+<h2>Who is it for?<a class="headerlink" href="#who-is-it-for" title="Permalink to this headline">¶</a></h2>
+<p>Ouinet is mostly useful for software developers, content creators and publishers who want to enable users of their applications to share retrieved content with other users.  This reduces the overall demand on the application server and improves content accessibility for users living in countries that block access to that server.</p>
+<p>Please note that Ouinet is still an experimental project: some features may not work reliably enough in certain scenarios, bugs may exist and crashes may occur.  We encourage you to reach out to us at <a class="reference external" href="mailto:cenoers&#37;&#52;&#48;equalit&#46;ie">cenoers<span>&#64;</span>equalit<span>&#46;</span>ie</a>, test it and report back - your feedback is very welcome!</p>
+<blockquote>
+<div><strong>Warning:</strong> <em>Ouinet is not an anonymity tool</em>.  If you are unsure about its adequacy for a certain task, do not hesitate to contact us.</div></blockquote>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../README.html">Censorship.No!</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../README.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2021, eQualitie.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.8.5</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.8</a>
+      
+      |
+      <a href="../_sources/intro/ouinet.md.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

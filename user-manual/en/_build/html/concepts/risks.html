@@ -1,0 +1,154 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Risks in using CENO/Ouinet &#8212; Censorship.No!  documentation</title>
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="risks-in-using-ceno-ouinet">
+<h1>Risks in using CENO/Ouinet<a class="headerlink" href="#risks-in-using-ceno-ouinet" title="Permalink to this headline">¶</a></h1>
+<p>As with any sufficiently complex computing system, and especially such an innovative one, using the CENO Browser (and any Ouinet client in general) is not free from some risks.  In this section we will compile and describe them to help you understand their implications according to the different roles you may play when using CENO:</p>
+<ul class="simple">
+<li>as a <em>user</em> browsing Web sites</li>
+<li>as a <em>seeder</em> sharing content over the distributed cache that you previously visited</li>
+<li>as a <em>bridge</em> allowing other users to reach an injector</li>
+</ul>
+<div class="section" id="as-a-user">
+<h2>As a user<a class="headerlink" href="#as-a-user" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="can-bridges-see-my-communication-with-the-origin-server">
+<h3>Can bridges see my communication with the origin server?<a class="headerlink" href="#can-bridges-see-my-communication-with-the-origin-server" title="Permalink to this headline">¶</a></h3>
+<p>No.  The only role of a bridge is to forward raw traffic between a client and an injector.  This communication is always encrypted and bridges do not have the private keys required to access the content of the communication.</p>
+</div>
+<div class="section" id="can-injectors-see-my-communication-with-the-origin-server">
+<h3>Can injectors see my communication with the origin server?<a class="headerlink" href="#can-injectors-see-my-communication-with-the-origin-server" title="Permalink to this headline">¶</a></h3>
+<p>Yes and no.  When the user requests content <a class="reference internal" href="public-private.html"><span class="doc">in public browsing mode</span></a>, all private data (like passwords and cookies) is first removed from the request by the client, and only then is the request encrypted for and forwarded to the injector, which proceeds to decrypt it.</p>
+<p>On the other hand, when the request uses private browsing mode, it is not modified by the client, but the whole communication is encrypted for the origin server.  This means that in this other case the injector cannot decrypt the content.</p>
+<blockquote>
+<div><strong>Technical note:</strong>  Only <code class="docutils literal notranslate"><span class="pre">GET</span></code> HTTP requests are candidates for injection, with query parameters removed, along with all but a limited set of fundamental and privacy-preserving HTTP header fields.</div></blockquote>
+</div>
+<div class="section" id="can-injectors-see-my-ip-address">
+<h3>Can injectors see my IP address?<a class="headerlink" href="#can-injectors-see-my-ip-address" title="Permalink to this headline">¶</a></h3>
+<p>Yes.  However, injectors cannot distinguish whether a request came from a CENO user or a bridge.  Thus requests going to the injector cannot be reliably assigned an originating IP addresses.</p>
+</div>
+<div class="section" id="can-my-private-data-leak-to-the-distributed-cache">
+<h3>Can my private data leak to the distributed cache?<a class="headerlink" href="#can-my-private-data-leak-to-the-distributed-cache" title="Permalink to this headline">¶</a></h3>
+<p>Hopefully not.  As mentioned above, the CENO Browser tries hard to remove any private data (passwords, cookies…) from any request for injection.  In addition, the injector does not itself do any seeding; in fact, its sole purpose is to sign content so that Ouinet clients can seed it.  This means that when the content comes back to the client, it is further analyzed, and if the origin server indicated that it is of a private nature, CENO will not seed it either.</p>
+<p>Still, there could be cases of badly designed or malicious pages which may collect some information from you (like an email address in a form or some browser fingerprints using JavaScript) and stuff it in another link URL as normal path components (e.g. <code class="docutils literal notranslate"><span class="pre">http://example.com/subscribe/you&#64;example.org</span></code>).  If you suspect that a page may be doing that, better be on the safe side and use private browsing for it.</p>
+</div>
+<div class="section" id="can-the-origin-server-know-whether-i-am-using-ceno">
+<h3>Can the origin server know whether I am using CENO?<a class="headerlink" href="#can-the-origin-server-know-whether-i-am-using-ceno" title="Permalink to this headline">¶</a></h3>
+<p>Most probably not.  Whenever CENO contacts an origin server directly, it behaves as normal Firefox for Android does, so your particular device appears as a normal Firefox app of the same version.</p>
+<p>However, when it uses an injector to get some content from its origin server, there are (at least) two ways for the latter to know that CENO or Ouinet is involved:</p>
+<ol class="simple">
+<li>The source address of the connection reaching the origin server is found in the injector swarm (since the connection comes indeed from the injector);</li>
+<li>The presence or absence of certain information in the request for content is characteristic of Ouinet.  This happens when the injector is requesting the content because your client asked it to retrieve and sign that content, as the injector removes information unique to your particular device from the request.</li>
+</ol>
+<p>Please note that these only mark the request as coming from Ouinet, but they do not link it to you or your particular device.  However, if the request did for some of the reasons mentioned in the previous question still contain some personally identifiable information, it could be used to mark you as a CENO user.</p>
+<p>In general, if a particular website (such as a governmental site) expects you to connect to it as an identifiable individual, from a specific region (or from a <a class="reference external" href="https://en.wikipedia.org/wiki/National_intranet">national intranet</a>), we recommend that you use a normal Web browser instead of CENO.</p>
+</div>
+</div>
+<div class="section" id="as-a-seeder">
+<h2>As a seeder<a class="headerlink" href="#as-a-seeder" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="what-data-is-seeded-from-my-device">
+<h3>What data is seeded from my device?<a class="headerlink" href="#what-data-is-seeded-from-my-device" title="Permalink to this headline">¶</a></h3>
+<p>Currently, the only content that is seeded by CENO is any non-private Web content which was requested in public browsing mode.  This also means that users do not seed anything they have not accessed themselves in the recent past.</p>
+</div>
+<div class="section" id="can-an-anyone-find-out-what-i-seed">
+<h3>Can an anyone find out what I seed?<a class="headerlink" href="#can-an-anyone-find-out-what-i-seed" title="Permalink to this headline">¶</a></h3>
+<p>Yes and no.  Anyone with enough understanding of Ouinet’s operations could construct a tool to find out what IP addresses a particular content is being shared from (as with BitTorrent).  However, it is not possible to target a specific IP address and get a list of all the content seeded by clients behind it.</p>
+</div>
+</div>
+<div class="section" id="as-a-bridge">
+<h2>As a bridge<a class="headerlink" href="#as-a-bridge" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="can-others-find-my-ip-address">
+<h3>Can others find my IP address?<a class="headerlink" href="#can-others-find-my-ip-address" title="Permalink to this headline">¶</a></h3>
+<p>Yes, every CENO Browser able to communicate with injectors will register its IP address in the bridge swarm where other Ouinet clients can find them.</p>
+</div>
+<div class="section" id="is-it-possible-that-i-am-helping-someone-to-access-content-which-is-illegal-in-my-country">
+<h3>Is it possible that I am helping someone to access content which is illegal in my country?<a class="headerlink" href="#is-it-possible-that-i-am-helping-someone-to-access-content-which-is-illegal-in-my-country" title="Permalink to this headline">¶</a></h3>
+<p>Yes.  However, bridges only relay encrypted communication between a Ouinet client and an injector.  This means that a bridge shall never make direct requests for content to any other server on someone else’s behalf.</p>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../README.html">Censorship.No!</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../README.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2021, eQualitie.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.8.5</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.8</a>
+      
+      |
+      <a href="../_sources/concepts/risks.md.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

@@ -1,0 +1,153 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>CENO settings &#8212; Censorship.No!  documentation</title>
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="ceno-settings">
+<h1>CENO settings<a class="headerlink" href="#ceno-settings" title="Permalink to this headline">¶</a></h1>
+<p>The CENO Browser allows you to change some Ouinet-specific settings and get information about your client in a simple manner.  This should not be needed for normal operation, but it may be useful to help test different strategies against network interference, and to report issues with the app.</p>
+<blockquote>
+<div><strong>Technical note:</strong> These options are provided by the <em>CENO Extension</em>, a Firefox extension which comes installed out of the box with CENO and takes care of proper integration with Ouinet like enabling content injection and cache retrieval under public browsing, hinting the user about the source of the content being visualized, and warning about new versions of Ouinet.</div></blockquote>
+<p>These features are available in a page that can be accessed by choosing <em>CENO</em> in the app’s main menu.  Please note that the menu entry may take a few seconds to pop up on app start.  The page should look like this:</p>
+<p><img alt="['Figure: The ', None, ' page']" src="../_images/settings.png" /></p>
+<div class="section" id="choosing-access-mechanisms">
+<h2>Choosing access mechanisms<a class="headerlink" href="#choosing-access-mechanisms" title="Permalink to this headline">¶</a></h2>
+<p>The four check boxes on the top of the page selectively enable or disable the different mechanisms or <em>sources</em> that CENO as a Ouinet client uses to retrieve content.  All of them are enabled by default.</p>
+<ul>
+<li><p class="first"><em>Direct from website</em> (or <strong>origin access</strong>) allows CENO to try to reach the origin server directly before attempting other mechanisms enabled below.</p>
+<p>Although this mechanism works in both private and public browsing modes, content thus retrieved cannot be shared with others.</p>
+<p>In case that getting most Web content is not particularly slow or expensive, this mechanism may be more than enough for most of the cases.  However, such direct connections may be tracked by your ISP or government.  Disabling this option may avoid such connections and trivial tracking to some extent (but not completely, see <a class="reference internal" href="../concepts/risks.html"><span class="doc">risks</span></a>).</p>
+<p>Also, when accessing a Web site over insecure HTTP (instead of the more secure HTTPS), a censor may intercept the connection and supply the user with a bogus site, a tampering which CENO cannot detect by itself.  In such case it may help to disable this option and thus always resort to other, safer CENO mechanisms.</p>
+</li>
+<li><p class="first"><em>Via the CENO network (private)</em> (or <strong>proxy access</strong>) allows CENO to use injectors as normal HTTP proxy servers to reach origin servers.</p>
+<p>This mechanism only works in private browsing mode.</p>
+<p>When accessing content over HTTPS, only origin servers will be able to decrypt traffic.  When using plain HTTP, the injector may also see the unencrypted traffic (but it should still not sign or share its content with others).  Other participants like bridges will never see the unencrypted traffic.</p>
+</li>
+<li><p class="first"><em>Via the CENO network (public)</em> (or <strong>injector access</strong>) enables CENO to strip any private information from requests and send them to an injector.  The injector shall get the content from an origin server, sign it and send it back to CENO, which shall start seeding it.</p>
+<p>Other participants like bridges will not see the unencrypted traffic.</p>
+<p>This mechanism only works in public browsing mode.</p>
+</li>
+<li><p class="first"><em>Shared by other CENO users</em> allows CENO to try to retrieve content from the <strong>distributed cache</strong>, i.e. from other CENO and Ouinet clients seeding it.</p>
+<p>This mechanism only works in public browsing mode.</p>
+</li>
+</ul>
+<p>Disabling all the mechanisms available for either public or private browsing mode will render them useless.  If you establish such a configuration, a warning will be shown as depicted below.</p>
+<p><img alt="['Figure: Invalid settings - private browsing']" src="../_images/settings-no-private.png" /></p>
+<blockquote>
+<div><strong>Warning:</strong> Please note that CENO does not yet remember these settings after restarting the app.  If you require some of the previous mechanisms to be off while using CENO, please remember to open the Settings page whenever you start the app and uncheck their boxes before browsing.  Sorry for the inconvenience.</div></blockquote>
+</div>
+<div class="section" id="about-your-app">
+<h2>About your app<a class="headerlink" href="#about-your-app" title="Permalink to this headline">¶</a></h2>
+<p>The page also provides you with some information about your CENO Browser app and Ouinet client:</p>
+<ul class="simple">
+<li><em>CENO Browser</em> indicates the exact version of CENO that you are using.  Please include this information in your issue reports.</li>
+<li><em>Ouinet</em> shows the version of Ouinet backing CENO.  Also include in reports.</li>
+<li><em>CENO Extension</em> shows the version of the extension that integrates Firefox with CENO.  Also include in reports.</li>
+<li><em>Local UDP endpoint(s)</em> are the Internet addresses used by CENO to seed signed content to other clients.  These are shown to help test and debug the app, and should not be generally disclosed.</li>
+<li><em>UPnP status</em> indicates whether CENO was able to tell your router or access point to allow incoming connections towards it.  Also include in reports.</li>
+<li><em>Reachability status</em> indicates how likely it is for your device to be able to effectively seed content to other clients.  Also include in reports.</li>
+<li><em>Local cache size</em> shows an approximation of how much storage is taken by the content being seeded from your device’s local cache.</li>
+</ul>
+</div>
+<div class="section" id="purging-the-local-cache">
+<h2>Purging the local cache<a class="headerlink" href="#purging-the-local-cache" title="Permalink to this headline">¶</a></h2>
+<p>Next to the <em>Local cache size</em> value above, there is a button which allows you to stop seeding and drop all content shared by your device over Ouinet.  This allows you to free up some storage space in your device while keeping other CENO settings like favorites.</p>
+<p>If you want to clear CENO’s normal browsing cache (the one used by the browser but not shared with others) or other items like cookies, the browsing history or favorites, you should choose <em>Settings</em> in the app’s main menu, then <em>Clear private data</em>.  You will be asked about which items you want to clear.</p>
+<p>To drop everything at the same time (especially if you are in a hurry), please learn how to use the “panic button” feature described in <a class="reference internal" href="install.html"><span class="doc">Installing CENO</span></a>.</p>
+</div>
+<div class="section" id="collecting-log-messages">
+<h2>Collecting log messages<a class="headerlink" href="#collecting-log-messages" title="Permalink to this headline">¶</a></h2>
+<p>At the bottom of the page there is an <em>Enable log file</em> check box that allows you to collect all of Ouinet’s internal messages and download them to a file.  This should only be used when diagnosing some problem in CENO; just follow these steps:</p>
+<ol class="simple">
+<li>At the <em>CENO Settings</em> page, check <em>Enable log file</em>.</li>
+<li>Go back to browsing and do whatever actions that trigger the troublesome behavior.</li>
+<li>Return to the <em>CENO Settings</em> page and click on the <em>Download</em> link next to the <em>Enable log file</em> check box.  Save the file for later use.  Android may ask you at this point whether to allow CENO access to stored media: this is needed to be able to save the file.</li>
+<li>Uncheck <em>Enable log file</em> to avoid the logs from growing too large.</li>
+</ol>
+<p>Now you can use the saved log file to document an issue report, but try to avoid making it public since it may contain sensitive information about your browsing.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../README.html">Censorship.No!</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../README.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2021, eQualitie.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.8.5</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.8</a>
+      
+      |
+      <a href="../_sources/browser/settings.md.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

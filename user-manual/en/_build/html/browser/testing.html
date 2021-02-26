@@ -1,0 +1,131 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Testing the Browser &#8212; Censorship.No!  documentation</title>
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="testing-the-browser">
+<h1>Testing the Browser<a class="headerlink" href="#testing-the-browser" title="Permalink to this headline">¶</a></h1>
+<p>Now that you know how to <a class="reference internal" href="install.html"><span class="doc">install</span></a> and <a class="reference internal" href="settings.html"><span class="doc">configure</span></a> CENO, let us follow some steps to test whether different Ouinet-specific features work.  This will involve selectively enabling and disabling different access mechanisms.  Keep in mind however that in day-to-day usage of CENO, you will seldom need to change the default settings at all.</p>
+<p>To complete all the tests below you will need at least two devices connected to the same Wi-Fi network, and a third one on a completely different network.</p>
+<p>All the tests will be performed using <a class="reference internal" href="public-private.html"><span class="doc">public browsing</span></a>.  If something does not work as expected, please be patient and check the section on <a class="reference internal" href="troubleshooting.html"><span class="doc">troubleshooting</span></a>.</p>
+<div class="section" id="accessing-an-injector">
+<h2>Accessing an injector<a class="headerlink" href="#accessing-an-injector" title="Permalink to this headline">¶</a></h2>
+<p>Let us first check whether your CENO Browser can reach an injector.  This may look trivial but your client will already be exercising several Ouinet features in the process: looking up the injector address in the injector swarm, trying to contact it directly and, if it is blocked by your access provider or country, looking up the bridge swarm and trying to contact the injector via some other Ouinet client.</p>
+<p>In the first device perform the following steps:</p>
+<ol class="simple">
+<li>First of all, install CENO if needed and start it.  On the first run a series of introductory screens will appear: just click on <em>NEXT</em> until <em>START BROWSING</em> appears, then click it.  In the end, CENO’s home page will appear.</li>
+<li>Open the app’s main menu and choose <em>CENO</em> to open the <em>CENO Settings</em> page.  Since we only want to test injector access, uncheck all the boxes for access mechanisms except <em>Get content via injector</em>.</li>
+<li>Go back to CENO’s home page.  Either select one of the recommended Web sites, or enter the URL of some other site at the address bar at the top of the window.  If you know about a site which is usually blocked for you, go ahead and enter it!</li>
+<li>The chosen site should eventually show up.</li>
+</ol>
+<p>If the site does load, you can be happy that your device can reach the injector!  Since you are able to query swarms and contact other clients, you are also likely to be able to retrieve content from the distributed cache.</p>
+<p>By the way, if you push the CENO icon in the address bar, it will open a popup like the one below, showing how many elements from the site were retrieved using each of the different access mechanisms.  Only <em>Via CENO network (public)</em> should have a non-zero value since the other mechanisms were disabled.</p>
+<p><img alt="['Figure: Mechanisms used when testing injection']" src="../_images/sources-inject.png" /></p>
+<p>In contrast, if you had used private browsing with default settings, you may have seen a popup like the one below, with non-zero counts in <em>Direct from website</em> or <em>Via CENO network (private)</em>.</p>
+<p><img alt="['Figure: Mechanisms used with private browsing']" src="../_images/sources-proxy.png" /></p>
+</div>
+<div class="section" id="getting-content-from-close-users">
+<h2>Getting content from close users<a class="headerlink" href="#getting-content-from-close-users" title="Permalink to this headline">¶</a></h2>
+<p>Since your first device was able to get some content from an injector, let us test if it is able to share it with another device over the distributed cache.  The simplest way is to use CENO’s device-to-device support to check whether getting and verifying signed content works.</p>
+<p>After completing the test above on the first device, leave CENO running on it (the CENO icon should appear in its notification bar).  Then get hold of a second device (you can invite a friend over to do the test) and connect it to the same Wi-Fi network.  Then follow the steps below on that device:</p>
+<ol class="simple">
+<li>Install CENO if needed, start it and proceed to CENO’s home page as above.</li>
+<li>Open the <em>CENO Settings</em> page as above.  Since we only want to test distributed cache access, uncheck all the boxes for access mechanisms except <em>Get content shared by other users</em>.</li>
+<li>Go back to CENO’s home page and visit the same site in the same manner as you did above (i.e. by selecting one of the recommended web sites or entering its URL in the address bar).</li>
+<li>The chosen site should eventually show up.</li>
+</ol>
+<p>If it works, it means that both devices are able to deliver that content to other clients.  Pushing the CENO address bar icon should show a popup like the one below, where only <em>Shared by other CENO users</em> has a non-zero value.</p>
+<p><img alt="['Figure: Mechanisms used when testing distributed cache retrieval']" src="../_images/sources-dcache.png" /></p>
+<p>Finally, you may have also noticed that there is a counter for <em>Shared by you</em>.  This is not a different mechanism <em>per se</em>: elements counted here are indeed part of the distributed cache, but they happen to already be stored in your device, so CENO does not need to retrieve them over the network.</p>
+</div>
+<div class="section" id="getting-content-from-remote-users">
+<h2>Getting content from remote users<a class="headerlink" href="#getting-content-from-remote-users" title="Permalink to this headline">¶</a></h2>
+<p>We have done a small-scale test of the distributed cache.  Let us now test how it works over the Internet.</p>
+<p>Please leave CENO running on the first device as with the previous test, and stop CENO on the second device (by showing its notifications and pushing “Tap to stop”).  This time you will need a third device, but it must be connected to a different Wi-Fi network (maybe another friend can help from home).  The steps to follow for that device are exactly the same as those in the previous test.</p>
+<p>If the third device can load the site used for the test, you are all set.  The first device is able to seed content to others, and it can most probably also act as a bridge.  Congratulations!</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../README.html">Censorship.No!</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../README.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2021, eQualitie.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.8.5</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.8</a>
+      
+      |
+      <a href="../_sources/browser/testing.md.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

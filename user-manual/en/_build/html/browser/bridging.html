@@ -1,0 +1,126 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Helping other CENO users browse the Web &#8212; Censorship.No!  documentation</title>
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="helping-other-ceno-users-browse-the-web">
+<h1>Helping other CENO users browse the Web<a class="headerlink" href="#helping-other-ceno-users-browse-the-web" title="Permalink to this headline">¶</a></h1>
+<p>A peer-to-peer network is built from every node connected to it (yes, that means you as well).  The more nodes, the stronger and more versatile the network becomes.  If you are running the CENO Browser from a country that does not censor the Internet (or not as heavily as some), consider helping other CENO users by becoming a <strong>bridge</strong> node.  You will then begin to route traffic between clients living in heavily censored countries and CENO injectors.  You will not be able to see their traffic (it will be sent through an encrypted tunnel) nor will any of this traffic remain on your device.</p>
+<blockquote>
+<div><strong>Note:</strong> The configuration described in this section may also help your device to effectively seed content to others on the distributed cache, so please consider applying it as well when using CENO in a censoring country (but keep in mind the <a class="reference internal" href="../concepts/risks.html"><span class="doc">risks</span></a> of serving such content to others).</div></blockquote>
+<div class="section" id="how-to-become-a-ceno-bridge">
+<h2>How to become a CENO bridge<a class="headerlink" href="#how-to-become-a-ceno-bridge" title="Permalink to this headline">¶</a></h2>
+<p>This functionality is already built into the CENO Browser.  Your device will need to be connected to a Wi-Fi network that has <a class="reference external" href="https://en.wikipedia.org/wiki/Universal_Plug_and_Play">UPnP</a> enabled.  The <a class="reference internal" href="settings.html"><span class="doc">CENO Settings</span></a> page will indicate the UPnP status on your network.</p>
+<blockquote>
+<div><strong>Note:</strong> Enabling UPnP on the Wi-Fi router may expose devices on your network to external interference.  Please make yourself <a class="reference external" href="https://www.howtogeek.com/122487/htg-explains-is-upnp-a-security-risk">aware of the risks</a> and also consider using alternative methods as explained below.</div></blockquote>
+<p><img alt="['Figure: UPnP not enabled']" src="../_images/upnp-no.png" /></p>
+<p>A status like the one shown in the previous figure indicates that UPnP is not enabled on your WiFi router.</p>
+<p><img alt="['Figure: UPnP likely enabled']" src="../_images/upnp-maybe.png" /></p>
+<p>The status above indicates that UPnP is likely working and CENO is currently verifying connectivity.</p>
+<p><img alt="['Figure: UPnP enabled']" src="../_images/upnp-yes.png" /></p>
+<p>The status above indicates that UPnP is working and you can bridge connections for other CENO users.</p>
+</div>
+<div class="section" id="enabling-upnp-on-your-wi-fi-router">
+<h2>Enabling UPnP on your Wi-Fi router<a class="headerlink" href="#enabling-upnp-on-your-wi-fi-router" title="Permalink to this headline">¶</a></h2>
+<p>There are many Wi-Fi routers on the market and each has their own particular features.  Herein a list of some manufacturers’ instructions for enabling UPnP:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://www.linksys.com/us/support-article?articleNum=138290">Linksys</a></li>
+<li><a class="reference external" href="https://eu.dlink.com/uk/en/support/faq/routers/wired-routers/di-series/how-do-i-enable-upnp-on-my-router">D-Link</a></li>
+<li><a class="reference external" href="https://consumer.huawei.com/ph/support/content/en-us00275342/">Huawei</a></li>
+<li><a class="reference external" href="https://www.xfinity.com/support/articles/configure-device-discovery-for-wifi">Xfinity</a></li>
+<li><a class="reference external" href="https://community.tp-link.com/us/home/kb/detail/348">TP-Link</a></li>
+</ul>
+</div>
+<div class="section" id="alternative-methods-to-allow-ceno-bridging">
+<h2>Alternative methods to allow CENO bridging<a class="headerlink" href="#alternative-methods-to-allow-ceno-bridging" title="Permalink to this headline">¶</a></h2>
+<p>Instead of enabling UPnP on your router, you can create a port forwarding rule, to make sure that connections from the CENO network are forwarded to your device.  You will need to login to the router’s administration interface and locate the <em>port forwarding</em> option.  To see which IP address you need to forward the connections to and the relevant port, open the <em>CENO Settings</em> page and look under the <em>Local UDP endpoint(s)</em>.</p>
+<p><img alt="['Figure: Local UDP endpoints']" src="../_images/udp-port.png" /></p>
+<p>The port forwarding must be for the UDP protocol (not TCP).  CENO chooses a random port on first run and keeps it for subsequent runs, but your device’s local network IP address may change from time to time.  Thus you should periodically review the <em>CENO Settings</em> page to see that your device is reachable to the CENO network.</p>
+<blockquote>
+<div><strong>Technical note:</strong> Alternatively, you can make sure that the router always assigns the same IP address to your device (e.g. via a static DHCP lease for the device’s MAC address).</div></blockquote>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../README.html">Censorship.No!</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../README.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2021, eQualitie.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.8.5</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.8</a>
+      
+      |
+      <a href="../_sources/browser/bridging.md.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

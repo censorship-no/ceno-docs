@@ -1,0 +1,175 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>How does it work? &#8212; Censorship.No!  documentation</title>
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="how-does-it-work">
+<h1>How does it work?<a class="headerlink" href="#how-does-it-work" title="Permalink to this headline">¶</a></h1>
+<p>This section will explain CENO and Ouinet operation by going over a series of scenarios.  Terminology and concepts important to Ouinet will be introduced (highlighted <strong>in bold letters</strong>) and used afterwards for efficiency and to avoid confusion.</p>
+<div class="section" id="accessing-content-directly">
+<h2>Accessing content directly<a class="headerlink" href="#accessing-content-directly" title="Permalink to this headline">¶</a></h2>
+<p>The CENO Browser is an example of an application that uses Ouinet technology to retrieve and share Web content.  We call such an application a Ouinet <strong>client</strong>.  When you use your client (i.e. CENO) to try to access some content <em>X</em>, hosted on a Web server (which we will call <em>X</em>’s <strong>origin</strong> server), your client tries to contact the origin server over the Internet either directly or via some other machine configured to contact Web servers on behalf of others (a so-called <strong>proxy</strong> server) and then requests the desired content.  This is no different from the way in which any normal Web browser works.</p>
+<blockquote>
+<div><strong>Technical note:</strong> There is in fact one small gotcha.  Since the client acts as an HTTP proxy running on your device, for the client to be able to decrypt and act upon HTTPS content requests, the application using the client (i.e. the Web browser part – like Firefox in CENO) needs to accept a special certificate issued by the client itself (and only used on your device).  The CENO Browser already takes care of setting this certificate up for its private use so that you do not need to worry.</div></blockquote>
+<p>However, these direct paths may not be available.  For instance, your Internet service provider (ISP) may be blocking access to <em>X</em>’s origin server or the proxy because of a state order (even if other traffic is still allowed).  As the user of the top left client depicted below, both attempts to reach content <em>X</em> (the little document close to its origin server) would fail for you.  You may also note the “injector” node on the diagram.  We will explain that in a moment.</p>
+<p><img alt="['Figure: Client cannot reach content directly']" src="../_images/user-flow-0.svg" /></p>
+<p>With a normal browser you would be out of luck.  However, with Ouinet you can ask other clients for their copies of content <em>X</em>, should they already have a copy.  Let us see how Ouinet performs this request.</p>
+</div>
+<div class="section" id="searching-for-shared-content">
+<h2>Searching for shared content<a class="headerlink" href="#searching-for-shared-content" title="Permalink to this headline">¶</a></h2>
+<p>The set of all content stored by Ouinet clients is called the <strong>distributed cache</strong>, i.e. a store which sits in no single place.  But how can your client find which other clients forming the cache have the desired content?</p>
+<p>In any Web browser, to access content <em>X</em> it needs to know its <a class="reference external" href="https://en.wikipedia.org/wiki/Uniform_Resource_Locator">Uniform Resource Locator</a> (URL), that is the address in the browser’s location bar, e.g. <code class="docutils literal notranslate"><span class="pre">https://example.com/foo/x</span></code>.  From that URL, a normal browser would infer that it has to contact the Web server called <code class="docutils literal notranslate"><span class="pre">example.com</span></code> using the HTTP protocol (the language used to exchange Web resources) over SSL/TLS (a security layer over TCP, the Internet’s rules for programs to talk to each other) and request the resource <code class="docutils literal notranslate"><span class="pre">/foo/x</span></code>.</p>
+<p>Ouinet looks for the content in a different way.  It uses an index not unlike that of a book: in Ouinet’s <strong>distributed cache index</strong> you look up the whole URL of the content and get a list of clients holding a copy of it.  The index itself is distributed, with clients in charge of announcing what content they have to others.  Actually, only a <em>hint</em> on each URL is announced, so that someone spying your device’s traffic cannot tell which content you have, but someone looking for a particular content can follow the hints towards your client.</p>
+<blockquote>
+<div><p><strong>Technical note:</strong> One way the index is implemented is using <a class="reference external" href="https://en.wikipedia.org/wiki/BitTorrent">BitTorrent</a>’s <a class="reference external" href="https://en.wikipedia.org/wiki/Distributed_hash_table">Distributed Hash Table</a> (DHT) to get the addresses (IP and port) of the clients with the content.  The DHT uses a <a class="reference external" href="https://en.wikipedia.org/wiki/Cryptographic_hash_function">Cryptographic hash function</a> to compute the table key from the content’s URL and some other parameters as the injector key (see below), so that several indexes can coexist.</p>
+<p>Also, the CENO Browser does not announce the URL of every single resource it holds: with any modern page having tens or hundreds of components (images, style sheets, scripts…), that would create a lot of traffic.  Instead, resources are grouped under the URL of the page pulling them, and only that URL is announced.  This is done with the help of an <em>ad hoc</em> browser extension (described later on).</p>
+</div></blockquote>
+<p>Clients offering some particular content over the distributed cache are said to be <strong>seeding</strong> it or to be their <em>seeders</em> (these terms come from the P2P file-sharing world).  Going back to our example scenario, there are two clients seeding some content.  Unfortunately, one is seeding content <em>Y</em> and the other one content <em>Z</em>, so your client would find no entries for content <em>X</em> in the distributed cache index, as depicted below:</p>
+<p><img alt="['Figure: Content not found in the distributed cache']" src="../_images/user-flow-1.svg" /></p>
+<p>Fortunately, Ouinet offers a way to retrieve such content and furthermore make it available to other clients in the distributed cache.  Please read on to learn how.</p>
+</div>
+<div class="section" id="sharing-new-content">
+<h2>Sharing new content<a class="headerlink" href="#sharing-new-content" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="proxies-on-steroids">
+<h3>Proxies on steroids<a class="headerlink" href="#proxies-on-steroids" title="Permalink to this headline">¶</a></h3>
+<p>In Ouinet, there are special kinds of proxy servers called <strong>injectors</strong> which sit in the (hopefully) free side of the Internet and try very hard to stay reachable despite blocking measures:</p>
+<ul>
+<li><p class="first">First of all, connections between clients and injectors are encrypted (using standard SSL/TLS like in HTTPS) to avoid attackers from identifying injectors by eavesdropping on web traffic.</p>
+<p>By the way, injector certificates are shipped in the CENO Browser, allowing it to detect attackers trying to impersonate injectors.</p>
+</li>
+<li><p class="first">If encryption was not sufficient, connections to injectors can use special obfuscation techniques (like I2P and Tor’s Pluggable Transports) to make identification even more difficult.</p>
+</li>
+<li><p class="first">Even if an injector was identified and access to it was blocked by your ISP, there are several of them and it does not matter which one your client contacts over the Internet.</p>
+</li>
+<li><p class="first">Some or all injectors may be blocked, but then the set of injectors can vary over time (with new ones being added).</p>
+<p>Your client need not know their Internet addresses in advance; instead, it performs a lookup in the <strong>injector swarm</strong> (another term from P2P file sharing), a single-entry distributed index similar to the distributed cache index which yields the addresses of currently available injectors.</p>
+</li>
+<li><p class="first">Finally, even if your client may not be able to reach any injector, some other clients may.  When a client is able to reach an injector and believes itself to be reachable by other clients, it becomes a <strong>bridge</strong> client and adds its own Internet address to the <strong>bridge swarm</strong>, another single-entry distributed index.</p>
+<p>So your client can look for such an address, connect to the bridge behind it and tell it to establish another connection to an injector on its behalf, creating a <strong>tunnel</strong> between your client and the injector.  Then a connection can be established between them inside of the tunnel.</p>
+<p>Please note that since client-to-injector connections are encrypted, bridges are not able to see the information flowing between them.</p>
+</li>
+</ul>
+<p>An injector can behave like a normal (though extra available) proxy server, and this is indeed what Ouinet clients (including the CENO Browser) do currently when trying to access content over a proxy.  In this case, the injector will neither see the actual information flowing between your client and the origin server (unless it is a plain, unencrypted HTTP connection itself).</p>
+<p>But there exist other tools allowing you to reach proxies in stringent network interference conditions so, what is so special about Ouinet injectors?</p>
+</div>
+<div class="section" id="trusting-shared-content">
+<h3>Trusting shared content<a class="headerlink" href="#trusting-shared-content" title="Permalink to this headline">¶</a></h3>
+<p>Well, the point is that an injector does not just retrieve content on behalf of your client, it also allows you to <em>share that content with others at a later time, even when there is no longer access to the injector or most of the Internet</em>.</p>
+<p>You could of course download a page from your browser and copy the resulting files to other people, which should be fine if you know each other.  But what if you received such files from an unknown person?  How could you be sure that the content actually came from the website it claims to, that it was retrieved at a certain date or that the information in it was not manipulated?</p>
+<p>We want CENO and Ouinet usage to scale and provide as much content to as many people as possible, so we do want you to be able to receive content from people you do not know.  To enable you to accept such content, Ouinet uses <strong>content signing</strong>: your client is configured to trust content that is signed using a special key owned by injectors.  Whenever a client tells an injector to retrieve some Web content for sharing, the injector gets it from the origin server, uses the key to sign it, and returns the signed content to the client.</p>
+<blockquote>
+<div><strong>Technical note:</strong> In fact, the injector signs individual blocks of data as they come, so even if the connection is cut in the middle while retrieving a big file, the downloaded data can still be shared by the client that received it.</div></blockquote>
+<p>Different injectors may have different keys, so you can choose which injectors to trust.  Picture it like this: you may trust a document signed by a <em>notary public</em> from your country, no matter who gave it to you (national or foreigner), while you wouldn’t be required to accept a document signed by a notary from another country.  The CENO Browser is already configured to trust a set of injectors run by eQualitie.</p>
+<blockquote>
+<div><strong>Technical note:</strong> Injectors use a public/private key pair to create Ed25519 signatures; public keys are small enough to allow them to be sent along signatures, and encoded as 64 hexadecimal characters or 52 Base32 characters. They may even be exchanged on the phone or written down on a piece of paper.</div></blockquote>
+</div>
+<div class="section" id="content-injection">
+<h3>Content injection<a class="headerlink" href="#content-injection" title="Permalink to this headline">¶</a></h3>
+<p>Remember that in our example scenario your client had already tried to retrieve content <em>X</em> directly from the origin server and from other clients to no avail.  The client plays its last Ouinet card and tries to contact a trusted injector to get a signed copy of the content that it can share with other clients.</p>
+<p>In the figure below you can see a possible outcome of that operation: the client first tries to contact the injector directly (e.g. using an Internet address that it got from the injector swarm), but sadly it is already blocked by your ISP; fortunately, the bridge swarm shows the Internet addresses for two other clients which are still able to reach an injector.  Your client opens a tunnel to the injector through one of these clients, so the injector gets the request for content <em>X</em> from your client, and asks its origin server for it.</p>
+<p><img alt="['Figure: Client reaches for injector']" src="../_images/user-flow-2.svg" /></p>
+<p>As content <em>X</em> is received by the injector, it signs it with its key, adds the signature to the content and sends it back to your client via the tunnel it arrived from (say, through the client sitting beyond the blocking).  Once the content reaches your client, it does three things:</p>
+<ol class="simple">
+<li>It delivers it to you (in the case of CENO, it shows the content on the browser).</li>
+<li>It saves the content on your device for further seeding to other clients.  It will stay there for a configurable amount of time, or until you decide to clear all stored content.</li>
+<li>It announces in the distributed cache index that it is in possession of a copy of that content, so that other clients can find it.</li>
+</ol>
+<p>The whole combined operation of retrieval, signing, storage and announcement is what we call <strong>content injection</strong>, as shown in the figure below.</p>
+<p><img alt="['Figure: Client receives signed content from injector']" src="../_images/user-flow-3.svg" /></p>
+</div>
+</div>
+<div class="section" id="browsing-under-complete-blocking">
+<h2>Browsing under complete blocking<a class="headerlink" href="#browsing-under-complete-blocking" title="Permalink to this headline">¶</a></h2>
+<p>Please note that the mechanism described above still requires that <em>some path exists</em> across blocking and towards the rest of the Internet.  But sometimes that path will also be missing: think about complete international disconnections, natural disasters, or simply excessive congestion of the few existing paths (due to everybody trying to go across them).  This is where the real power of the distributed cache comes into play.</p>
+<p>Let us imagine that after you retrieved content <em>X</em> from the injector, a disaster leaves your region isolated from the world.  It turns out that content <em>X</em> becomes especially relevant since it describes some ways in which you can help your community in such a situation.</p>
+<p>At that moment a second person using the CENO Browser also tries to get that content.  Access to the origin server or to anything beyond your region is impossible, so CENO checks the distributed cache index for that content and it finds that your device is seeding it.  CENO gets your Internet address from the index, connects to it and requests the content as shown below.</p>
+<p><img alt="['Figure: Client receives signed content from client']" src="../_images/user-flow-4.svg" /></p>
+<p>Now that second device also holds a copy of content <em>X</em>, so it announces this in the distributed cache index, thus becoming a seeder.  If a third person interested in that content uses the CENO Browser to retrieve it, CENO will now see <em>two</em> addresses in the index for the content: your device’s and that of the second user.  If the content is heavy (e.g. a video), this third device may try to get half of it from each of the other devices (as shown below), thus speeding up the download and reducing the traffic they use.</p>
+<p><img alt="['Figure: Client receives signed content from multiple clients']" src="../_images/user-flow-5.svg" /></p>
+<p>Finally, the situation may get even worse, and all commercial and state network infrastructure may be shut down.  In this case, Ouinet and the CENO Browser also have some support for <em>device-to-device</em> sharing of content between two clients sitting on the same local network (e.g. connected to the same Wi-Fi access point), even if the network has no access to others.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../README.html">Censorship.No!</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../README.html">Documentation overview</a><ul>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2021, eQualitie.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.8.5</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.8</a>
+      
+      |
+      <a href="../_sources/concepts/how.md.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
