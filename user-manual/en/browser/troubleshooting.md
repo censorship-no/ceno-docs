@@ -30,7 +30,7 @@ You should make sure that the following requirements are fulfilled for CENO to w
   - All access mechanisms in the [Settings page](settings.md) are enabled.  Otherwise CENO will not be able to circumvent some connectivity issues when accessing content.
   - Your device has a working connection to the network, i.e. your normal Web browser is able to open some Web sites.  CENO and Ouinet cannot work when all network connectivity is shut down (although users may still find a common Wi-Fi access point to do device-to-device sharing).
 
-If that is the case, it is worth explaining what may be happening for all access mechanisms to fail, so that you get an idea of the chances that you have to get content using CENO.
+If that is the case, it is worth explaining what may be happening for all access mechanisms to fail, to give you an idea of your chances for getting content using CENO.
 
 ### Origin access
 
@@ -40,11 +40,11 @@ This is the main use case for CENO and the other mechanisms should compensate fo
 
 ### Proxy/Injector access
 
-Someone is interfering with your connection to Internet addresses in the injector swarm.  Since this is expected to happen eventually as CENO (and Ouinet) gain traction, CENO resorts to reach injectors via other clients acting as bridges.
+Someone is interfering with your connection to Internet addresses in the injector swarm.  Since this is expected to happen eventually as CENO (and Ouinet) gain traction, CENO resorts to reaching injectors via other clients acting as bridges.
 
-There are different reasons for CENO not to be able to reach such clients:
+There are different reasons for CENO being unable to reach such clients:
 
-  - No other client is reachable by you.  If only a few Ouinet clients are online, it is entirely possible that none of them is in a network which allows it to be reached from the outside.  This should become less likely as CENO and Ouinet get popular and more clients with diverse connectivity get online.
+  - No other client is reachable by you.  If only a few Ouinet clients are online, it is entirely possible that none of them are in a network that can be reached from the outside.  This should become less likely as CENO and Ouinet get popular and more clients with diverse connectivity come online.
 
     The extreme case here is that connections between Ouinet clients are detected as such by a censor and blocked.  This is quite unlikely (since it may entail blocking all BitTorrent traffic) and currently beyond what Ouinet supports, but we plan to make it more resistant against these attacks.
 
@@ -60,7 +60,7 @@ Finally, we do run some Ouinet clients with good connectivity in (hopefully) cen
 
 Keep in mind that an absolute requirement to be able to retrieve any content from the distributed cache is that it has already been injected by some other CENO or Ouinet user.  This means that popular content is more likely to eventually get injected and replicated in a natural manner, while more obscure content is less so, unless someone takes care of using CENO or some other Ouinet client to inject and keep seeding it (which may further expose them to some [risks](../concepts/risks.md)).
 
-Please note that some content which is not considered safe for sharing will never be injected, no matter how many people retrieve it using public browsing.  This includes content marked as private by the origin server, content which requires authentication, and some traffic exchanged by certain dynamic Web applications.
+Please note that some content which is not considered safe for sharing will never be injected, no matter how many people retrieve it using public browsing.  This includes content marked as private by the origin server, content that requires authentication, and some traffic exchanged by certain dynamic Web applications.
 
 Also note that the clients holding copies of injected content need to be reachable by you.  The same observations described in the previous point for reaching bridge clients do apply here.
 

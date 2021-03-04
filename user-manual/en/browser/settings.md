@@ -1,34 +1,34 @@
 # CENO settings
 
-The CENO Browser allows you to change some Ouinet-specific settings and get information about your client in a simple manner.  This should not be needed for normal operation, but it may be useful to help test different strategies against network interference, and to report issues with the app.
+CENO Browser allows you to change some Ouinet-specific settings and get information about your client in a simple manner.  This should not be needed for normal operation, but it would be helpful for testing different strategies against network interference, as well as reporting issues with the app.
 
-> **Technical note:** These options are provided by the *CENO Extension*, a Firefox extension which comes installed out of the box with CENO and takes care of proper integration with Ouinet like enabling content injection and cache retrieval under public browsing, hinting the user about the source of the content being visualized, and warning about new versions of Ouinet.
+> **Technical note:** These options are provided by the *CENO Extension*, a Firefox extension which comes installed out of the box with CENO and takes care of proper integration with Ouinet, like enabling content injection and cache retrieval under public browsing, hinting the user about the source of the content being visualized, and notifying about new versions of Ouinet.
 
-These features are available in a page that can be accessed by choosing *CENO* in the app's main menu.  Please note that the menu entry may take a few seconds to pop up on app start.  The page should look like this:
+These features are available on a page that can be accessed by choosing *CENO* in the app's main menu.  Please note that the menu entry may take a few seconds to pop up on app start.  The page should look like this:
 
 ![Figure: The *CENO Settings* page](images/settings.png)
 
 ## Choosing access mechanisms
 
-The four check boxes on the top of the page selectively enable or disable the different mechanisms or *sources* that CENO as a Ouinet client uses to retrieve content while using either [public or private browsing](public-private.md) tabs.  All boxes are enabled by default.
+The four checkboxes on the top of the page selectively enable or disable the different mechanisms or *sources* that CENO as a Ouinet client uses to retrieve content while using either [public or private browsing](public-private.md) tabs.  All boxes are enabled by default.
 
   - *Direct from website* (or **origin access**) allows CENO to try to reach the origin server directly before attempting other mechanisms enabled below.
 
     Although this mechanism works in both private and public browsing modes, content thus retrieved cannot be shared with others.
 
-    In case that getting most Web content is not particularly slow or expensive, this mechanism may be more than enough for most of the cases.  However, such direct connections may be tracked by your ISP or government.  Disabling this option may avoid such connections and trivial tracking to some extent (but not completely, see [risks](../concepts/risks.md)).
+    If getting most Web content is not particularly slow or expensive, this mechanism may be more than enough for most use cases.  However, such direct connections may be tracked by your ISP or government. To some extent, disabling this option may avoid such connections and trivial tracking (but not completely, see [risks](../concepts/risks.md)).
 
-    Also, when accessing a Web site over insecure HTTP (instead of the more secure HTTPS), a censor may intercept the connection and supply the user with a bogus site, a tampering which CENO cannot detect by itself.  In such case it may help to disable this option and thus always resort to other, safer CENO mechanisms.
+    Also, when accessing a Web site over insecure HTTP (instead of the more secure HTTPS), a censor may intercept the connection and supply the user with a bogus site, a tampering which CENO cannot detect by itself.  In such cases, it may help to disable this option and thus always resort to other, safer CENO mechanisms.
 
   - *Via the CENO network (private)* (or **proxy access**) allows CENO to use injectors as normal HTTP proxy servers to reach origin servers.
 
     This mechanism only works in private browsing mode.
 
-    When accessing content over HTTPS, only origin servers will be able to decrypt traffic.  When using plain HTTP, the injector may also see the unencrypted traffic (but it should still not sign or share its content with others).  Other participants like bridges will never see the unencrypted traffic.
+    When accessing content over HTTPS, only origin servers will be able to decrypt traffic.  When using plain HTTP, the injector may also see the unencrypted traffic (but it should still not sign or share its content with others).  Other participants, such as bridges, will never see the unencrypted traffic.
 
-  - *Via the CENO network (public)* (or **injector access**) enables CENO to strip any private information from requests and send them to an injector.  The injector shall get the content from an origin server, sign it and send it back to CENO, which shall start seeding it.
+  - *Via the CENO network (public)* (or **injector access**) enables CENO to strip any private information from requests and send them to an injector.  The injector gets the content from an origin server, signs it, and sends it back to CENO - which then begins seeding it.
 
-    Other participants like bridges will not see the unencrypted traffic.
+    Other participants (such as bridges) will not see the unencrypted traffic.
 
     This mechanism only works in public browsing mode.
 
@@ -36,15 +36,15 @@ The four check boxes on the top of the page selectively enable or disable the di
 
     This mechanism only works in public browsing mode.
 
-Disabling all the mechanisms available for either public or private browsing mode will render them useless.  If you establish such a configuration, a warning will be shown as depicted below.
+Disabling all of the mechanisms available for either public or private browsing mode will render them useless.  If you establish such a configuration, a warning will be shown as depicted below:
 
 ![Figure: Invalid settings for private browsing](images/settings-no-private.png)
 
-> **Warning:** Please note that CENO does not yet remember these settings after restarting the app.  If you require some of the previous mechanisms to be off while using CENO, please remember to open the Settings page whenever you start the app and uncheck their boxes before browsing.  Sorry for the inconvenience.
+> **Warning:** Please note that CENO does not remember these settings upon restarting the app.  If you require some of the previous mechanisms to be off while using CENO, please remember to open the Settings page whenever you start the app and uncheck their boxes before browsing.  We apologize for the inconvenience.
 
 ## About your app
 
-The page also provides you with some information about your CENO Browser app and Ouinet client:
+This page also provides you with some information about your CENO Browser app and Ouinet client:
 
   - *CENO Browser* indicates the exact version of CENO that you are using.  Please include this information in your issue reports.
   - *CENO Extension* shows the version of the extension that integrates Firefox with CENO.  Also include in reports.
@@ -57,9 +57,9 @@ The page also provides you with some information about your CENO Browser app and
 
 ## Purging the local cache
 
-Next to the *Local cache size* value above, there is a button which allows you to stop seeding and drop all content shared by your device over Ouinet.  This allows you to free up some storage space in your device while keeping other CENO settings like favorites.
+Next to the *Local cache size* value above, there is a button which allows you to stop seeding and drop all content shared by your device over Ouinet.  This allows you to free up some storage space in your device while keeping other CENO settings like Favorites.
 
-If you want to clear CENO's normal browsing cache (the one used by the browser but not shared with others) or other items like cookies, the browsing history or favorites, you should choose *Settings* in the app's main menu, then *Clear private data*.  You will be asked about which items you want to clear.
+If you want to clear CENO's normal browsing cache (the one used by the browser but not shared with others) or other items like cookies, browsing history or favorites, you should choose *Settings* in the app's main menu, then *Clear private data*.  You will be asked about which items you want to clear.
 
 To drop everything at the same time (especially if you are in a hurry), please learn how to use the "panic button" feature described in [Installing CENO](install.md).
 
@@ -72,4 +72,4 @@ At the bottom of the page there is an *Enable log file* check box that allows yo
  3. Return to the *CENO Settings* page and click on the *Download* link next to the *Enable log file* check box.  Save the file for later use.  Android may ask you at this point whether to allow CENO access to stored media: this is needed to be able to save the file.
  4. Uncheck *Enable log file* to avoid the logs from growing too large.
 
-Now you can use the saved log file to document an issue report, but try to avoid making it public since it may contain sensitive information about your browsing.
+You can now use the saved log file to document an issue report, but try to avoid making it public since it may contain sensitive information about your browsing.
