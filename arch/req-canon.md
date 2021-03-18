@@ -71,7 +71,8 @@ characters, space, and non-ASCII characters are represented using
 percent-encoding with upper case letters (e.g. ``ç`` is encoded as ``%C3%A7``,
 see <https://tools.ietf.org/html/rfc3986>), while the rest of characters use
 their plain representation.  The same rules also apply to headers containing
-URI components like ``Host``.
+URI components like ``Host``.  URIs should never contain fragments (`#foo`),
+as they should be entirely handled by the client.
 
 After the request line, the ``Host`` header is included as the first header
 (as recommended in <https://tools.ietf.org/html/rfc7230#section-5.4>), and
