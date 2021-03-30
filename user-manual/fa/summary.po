@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-03-30 16:26+0000\n"
+"PO-Revision-Date: 2021-03-31 17:26+0000\n"
 "Last-Translator: Mojtaba Golmohammadi <MojtabaGol@gmail.com>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "user-manual/fa/>\n"
@@ -14,3 +14,6 @@ msgstr ""
 #
 msgid "Summary"
 msgstr "چکیده"
+
+msgid "[Censorship.no!](README.md)"
+msgstr "[سانسور.نه!] (README.md)"
