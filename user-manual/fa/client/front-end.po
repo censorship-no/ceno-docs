@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-03-30 16:26+0000\n"
+"PO-Revision-Date: 2021-03-31 17:26+0000\n"
 "Last-Translator: Mojtaba Golmohammadi <MojtabaGol@gmail.com>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "client-front-end/fa/>\n"
@@ -12,6 +12,5 @@ msgstr ""
 "X-Generator: Weblate 4.6-dev\n"
 
 #
-#, fuzzy
 msgid "Annex: The Ouinet client front-end"
-msgstr "پیوست: فرانت‌اند سرویس‌گیرنده‌ی کوئینت"
+msgstr "پیوست: فرانت‌اند سرویس‌گیرنده‌ی وینت"
