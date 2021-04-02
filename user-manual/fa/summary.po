@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-03-31 17:26+0000\n"
+"PO-Revision-Date: 2021-04-03 19:26+0000\n"
 "Last-Translator: Mojtaba Golmohammadi <MojtabaGol@gmail.com>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "user-manual/fa/>\n"
@@ -16,4 +16,58 @@ msgid "Summary"
 msgstr "چکیده"
 
 msgid "[Censorship.no!](README.md)"
-msgstr "[سانسور.نه!] (README.md)"
+msgstr "[Censorship.no!](README.md)"
+
+msgid "[Annex: The Ouinet client front-end](client/front-end.md)"
+msgstr "[پیوست: فرانت‌اند سرویس‌گیرنده‌ی وینت](client/front-end.md)"
+
+msgid "[Troubleshooting](browser/troubleshooting.md)"
+msgstr "[شناسایی و رفع اشکال](browser/troubleshooting.md)"
+
+msgid "[Helping others](browser/bridging.md)"
+msgstr "[کمک به دیگران](browser/bridging.md)"
+
+msgid "[Testing the Browser](browser/testing.md)"
+msgstr "[آزمایش مرورگر](browser/testing.md)"
+
+msgid "[CENO settings](browser/settings.md)"
+msgstr "[تنظیمات سنو](browser/settings.md)"
+
+msgid "[Using public or private browsing](browser/public-private.md)"
+msgstr "[استفاده از مرور عمومی یا خصوصی](browser/public-private.md)"
+
+msgid "[Installing CENO](browser/install.md)"
+msgstr "[نصب سنو](browser/install.md)"
+
+msgid "[Using the CENO Browser](browser/README.md)"
+msgstr "[استفاده از مرورگر سنو](browser/README.md)"
+
+msgid "[Risks in using CENO/Ouinet](concepts/risks.md)"
+msgstr "[خطرات استفاده از سنو/وینت](concepts/risks.md)"
+
+msgid "[Advantages of using CENO/Ouinet](concepts/advantages.md)"
+msgstr "[امتیازهای استفاده از سنو/وینت](concepts/advantages.md)"
+
+msgid "[Public vs. private browsing](concepts/public-private.md)"
+msgstr "[مقایسه‌ی مرور عمومی و خصوصی](concepts/public-private.md)"
+
+msgid "[How does it work?](concepts/how.md)"
+msgstr "[این مرورگر چگونه کار می‌کند؟](concepts/how.md)"
+
+msgid "[Main concepts](concepts/README.md)"
+msgstr "[مفاهیم اصلی](concepts/README.md)"
+
+msgid "[Frequently Asked Questions](intro/faq.md)"
+msgstr "[پرسش‌های متداول](intro/faq.md)"
+
+msgid "[Quick start guide](intro/qsg.md)"
+msgstr "[راهنمای شروع سریع](intro/qsg.md)"
+
+msgid "[What is Ouinet?](intro/ouinet.md)"
+msgstr "[وینت چیست؟](intro/ouinet.md)"
+
+msgid "[What is the CENO Browser?](intro/ceno.md)"
+msgstr "[مرورگر سنو چیست؟](intro/ceno.md)"
+
+msgid "[Introduction](intro/README.md)"
+msgstr "[مقدمه](intro/README.md)"
