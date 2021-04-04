@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-04-03 19:26+0000\n"
+"PO-Revision-Date: 2021-04-05 10:26+0000\n"
 "Last-Translator: Mojtaba Golmohammadi <MojtabaGol@gmail.com>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "ceno/fa/>\n"
@@ -91,7 +91,7 @@ msgstr ""
 "ای مرکززدوده از همتایانی می‌آفریند که به یکدیگر کمک می‌کنند."
 
 msgid "Who is it for?"
-msgstr "این مرورگر برای چه کسی است؟"
+msgstr "وینت برای چه کسانی است؟"
 
 msgid ""
 "The *Censorship.no!* project is run by [eQualitie](https://equalit.ie/) in "
