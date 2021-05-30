@@ -3,28 +3,30 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-02 02:42+0200\n"
-"PO-Revision-Date: 2021-03-02 01:42+0000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2021-06-01 19:32+0000\n"
+"Last-Translator: Cho Lwin Phu <CHRISTINEIVY19@gmail.com>\n"
+"Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
+"user-manual/my/>\n"
 "Language: my\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.5\n"
+"X-Generator: Weblate 4.7-dev\n"
 
 #
 msgid "Summary"
-msgstr ""
+msgstr "အကျဉ်းချုပ်"
 
+#, fuzzy
 msgid "[Censorship.no!](README.md)"
-msgstr ""
+msgstr "[Censorship.no!](README.md)"
 
 msgid "[Introduction](intro/README.md)"
 msgstr ""
 
 msgid "[What is the CENO Browser?](intro/ceno.md)"
-msgstr ""
+msgstr "[What is the CENO Browser?](intro/ceno.md)"
 
 msgid "[What is Ouinet?](intro/ouinet.md)"
 msgstr ""
