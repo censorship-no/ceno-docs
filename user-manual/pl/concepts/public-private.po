@@ -1,0 +1,133 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-16 04:02+0200\n"
+"PO-Revision-Date: 2021-03-16 03:02+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.5.2-dev\n"
+
+#
+msgid "Public vs. private browsing"
+msgstr ""
+
+msgid ""
+"Because of the many techniques used to overcome connectivity issues, CENO "
+"may become a convenient way for you to get all kinds of Web content. And, as"
+" you may have already read in previous sections, whenever you retrieve and "
+"seed a page using the CENO Browser, it becomes available to others. There "
+"may be some content, however, that you do not wish to share (or you do not "
+"want to let others know that you are trying to or did retrieve), and "
+"fortunately CENO can help you in this instance as well."
+msgstr ""
+
+msgid ""
+"The default mode when you launch the application is **public browsing**. In "
+"it, CENO accesses Web content as described previously:"
+msgstr ""
+
+msgid "Direct access is attempted."
+msgstr ""
+
+msgid "Failing that, the distributed cache is searched."
+msgstr ""
+
+msgid ""
+"Failing that, the content is requested via an injector (maybe via another "
+"client)."
+msgstr ""
+
+msgid ""
+"CENO also has a **private browsing** mode. In it, the distributed cache is "
+"never searched, and injection is never attempted:"
+msgstr ""
+
+msgid ""
+"Failing that, an injector is contacted (maybe via another client) and used "
+"*as a normal proxy server*. Note that in this case, neither the injector nor"
+" your client updates the distributed cache with your page."
+msgstr ""
+
+msgid ""
+"The different behavior results in different characteristics. Thus, in public"
+" mode:"
+msgstr ""
+
+msgid ""
+"You have better chances to get Web content, and help others get that content"
+" (from you)."
+msgstr ""
+
+msgid ""
+"Pages with dynamic content (e.g. updated in real time) may break in obvious "
+"or subtle ways."
+msgstr ""
+
+msgid ""
+"Pages requiring authentication do not work (as passwords and cookies are "
+"removed by the client)."
+msgstr ""
+
+msgid ""
+"Some browsing activity may be leaked to other users (see [risks](risks.md))."
+msgstr ""
+
+msgid ""
+"Some browsing activity may be leaked to injectors (see [risks](risks.md))."
+msgstr ""
+
+msgid "You need to trust injectors to retrieve and sign Web content."
+msgstr ""
+
+msgid "While in private mode:"
+msgstr ""
+
+msgid ""
+"You may not be able to access blocked Web content if international "
+"connectivity is too scarce; even if you could, other CENO users would not "
+"get that content from you."
+msgstr ""
+
+msgid "Pages with dynamic content will probably work."
+msgstr ""
+
+msgid ""
+"Pages requiring authentication may work (when your connection is protected "
+"by HTTPS, the injector does not see your passwords)."
+msgstr ""
+
+msgid "Browsing activity is not leaked to other users."
+msgstr ""
+
+msgid ""
+"Limited browsing activity is leaked to injectors (with HTTPS, only the "
+"origin server name or address)."
+msgstr ""
+
+msgid ""
+"You need not trust injectors (with HTTPS, usual certificate-based security "
+"still works)."
+msgstr ""
+
+msgid ""
+"In conclusion: if you are using CENO to read the news, watch videos, browse "
+"Wikipedia and other static resources that are otherwise censored in your "
+"network, consider using the default *public browsing* mode. And if you want "
+"to login to Twitter or edit your WordPress website, use *private browsing* "
+"mode."
+msgstr ""
+
+msgid ""
+"Please read the section on [risks](risks.md) for a more detailed "
+"explanation. Also note that your client can continue to operate as a bridge "
+"and a seeder regardless of public or private browsing. We explain this in "
+"greater detail in the [Helping others](../browser/bridging.md) section of "
+"the manual."
+msgstr ""
