@@ -1,0 +1,77 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-02 02:42+0200\n"
+"PO-Revision-Date: 2021-06-01 19:32+0000\n"
+"Last-Translator: Cho Lwin Phu <CHRISTINEIVY19@gmail.com>\n"
+"Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
+"user-manual/my/>\n"
+"Language: my\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.7-dev\n"
+
+#
+msgid "Summary"
+msgstr "အကျဉ်းချုပ်"
+
+#, fuzzy
+msgid "[Censorship.no!](README.md)"
+msgstr "[Censorship.no!](README.md)"
+
+msgid "[Introduction](intro/README.md)"
+msgstr ""
+
+msgid "[What is the CENO Browser?](intro/ceno.md)"
+msgstr "[What is the CENO Browser?](intro/ceno.md)"
+
+msgid "[What is Ouinet?](intro/ouinet.md)"
+msgstr ""
+
+msgid "[Quick start guide](intro/qsg.md)"
+msgstr ""
+
+msgid "[Frequently Asked Questions](intro/faq.md)"
+msgstr ""
+
+msgid "[Main concepts](concepts/README.md)"
+msgstr ""
+
+msgid "[How does it work?](concepts/how.md)"
+msgstr ""
+
+msgid "[Public vs. private browsing](concepts/public-private.md)"
+msgstr ""
+
+msgid "[Advantages of using CENO/Ouinet](concepts/advantages.md)"
+msgstr ""
+
+msgid "[Risks in using CENO/Ouinet](concepts/risks.md)"
+msgstr ""
+
+msgid "[Using the CENO Browser](browser/README.md)"
+msgstr ""
+
+msgid "[Installing CENO](browser/install.md)"
+msgstr ""
+
+msgid "[Using public or private browsing](browser/public-private.md)"
+msgstr ""
+
+msgid "[CENO settings](browser/settings.md)"
+msgstr ""
+
+msgid "[Testing the Browser](browser/testing.md)"
+msgstr ""
+
+msgid "[Helping others](browser/bridging.md)"
+msgstr ""
+
+msgid "[Troubleshooting](browser/troubleshooting.md)"
+msgstr ""
+
+msgid "[Annex: The Ouinet client front-end](client/front-end.md)"
+msgstr ""
