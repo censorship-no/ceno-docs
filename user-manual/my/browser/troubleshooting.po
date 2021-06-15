@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-10 11:02+0200\n"
-"PO-Revision-Date: 2021-06-14 17:15+0000\n"
+"PO-Revision-Date: 2021-06-15 09:32+0000\n"
 "Last-Translator: Cho Lwin Phu <CHRISTINEIVY19@gmail.com>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "browser-troubleshooting/my/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 
 #
 msgid "Troubleshooting"
-msgstr ""
+msgstr "ပြဿနာဖြေရှင်းခြင်း"
 
 msgid ""
 "This section will give you some hints about what to do when different, known"
