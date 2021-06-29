@@ -1,0 +1,53 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-05 20:50+0200\n"
+"PO-Revision-Date: 2021-03-05 19:50+0000\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.5.1-dev\n"
+
+#
+msgid "Using public or private browsing"
+msgstr ""
+
+msgid ""
+"As described [in a previous section](../concepts/public-private.md), CENO "
+"has two different modes of operation depending on whether you want to share "
+"with others the content that you browse (public browsing) or not (private "
+"browsing)."
+msgstr ""
+
+msgid ""
+"This setting applies *to each tab* that you open in the browser, i.e. you "
+"can have public browsing tabs and private browsing tabs. The default in CENO"
+" whenever you start it or open a new tab (using *New tab* in the app's main "
+"menu) is to use public browsing. To open a new tab in private browsing mode,"
+" just choose *New private tab* in the main menu."
+msgstr ""
+
+msgid ""
+"You can tell public tabs from private ones because public tabs have a "
+"lighter (or white) tool bar:"
+msgstr ""
+
+msgid "![Figure: A public browsing tab](images/public-tab.png)"
+msgstr ""
+
+msgid "In contrast, private tabs have a darker tool bar:"
+msgstr ""
+
+msgid "![Figure: A private browsing tab](images/private-tab.png)"
+msgstr ""
+
+msgid ""
+"Once you have loaded a page in a tab, the colored CENO icon in the address "
+"bar will help you know how it did actually retrieve the different elements "
+"in it. We will cover this icon later on."
+msgstr ""
