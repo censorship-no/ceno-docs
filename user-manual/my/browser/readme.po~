@@ -1,0 +1,89 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-01 17:07-0700\n"
+"PO-Revision-Date: 2021-06-09 13:32+0000\n"
+"Last-Translator: Cho Lwin Phu <CHRISTINEIVY19@gmail.com>\n"
+"Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
+"browser-readme/my/>\n"
+"Language: my\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.7-dev\n"
+
+#
+#. type: Plain text
+#: en/browser/README.md:2
+#, fuzzy
+#| msgid "Using the CENO Browser"
+msgid "# Using the CENO Browser"
+msgstr "# CENO ဘရောက်ဇာ အသုံးပြုခြင်း"
+
+#. type: Plain text
+#: en/browser/README.md:4
+#, fuzzy
+#| msgid ""
+#| "This chapter gives you some hints on the usage of the CENO Browser as far "
+#| "as its Ouinet-related capabilities are concerned. Please always keep in "
+#| "mind that CENO is based on [Firefox for Android](https://www.mozilla.org/"
+#| "firefox/android/), so for all the help on generic browsing topics you "
+#| "should refer to Mozilla's [Firefox for Android Support](https://support."
+#| "mozilla.org/en-US/products/mobile) pages."
+msgid ""
+"This chapter gives you some hints on the usage of CENO Browser as far as its "
+"Ouinet-related capabilities are concerned.  Please always keep in mind that "
+"CENO is based on [Firefox for Android][], so for all questions on generic "
+"browsing topics you should refer to Mozilla's [Firefox for Android Support]"
+"[] pages."
+msgstr ""
+"ဤအခန်းတွင် CENO ဘရောက်ဇာ သုံးစွဲပုံနှင့် ပတ်သက်၍ ၎င်း၏ Ouinet နှင့် သက်ဆိုင်သော စွမ်းဆောင်ရည်များကို "
+"ထည့်သွင်းစဉ်းစားထားသမျှ သင့်အား အကြံပြုချက်အချို့ ပေးသည်။ CENO ကို [Firefox for Android]"
+"[] အပေါ်တွင် အခြေခံသောကြောင့် ယေဘုယျ ရှာဖွေမှု "
+"အကြောင်းအရာများနှင့် သက်ဆိုင်သော အကူအညီအားလုံးအတွက် သင်သည် Mozilla ၏ [Firefox for Android "
+"ပံ့ပိုးမှု][] စာမျက်နှာများကို  ရည်ညွှန်းသင့်ကြောင်း ကျေးဇူးပြု၍ အမြဲမှတ်သားထားပါ။"
+
+#. type: Plain text
+#: en/browser/README.md:7
+msgid ""
+"[Firefox for Android]: https://www.mozilla.org/firefox/android/ [Firefox for "
+"Android Support]: https://support.mozilla.org/en-US/products/mobile"
+msgstr ""
+"[Firefox for Android]: https://www.mozilla.org/firefox/android/ [Firefox for "
+"Android Support]: https://support.mozilla.org/en-US/products/mobile"
+
+#. type: Plain text
+#: en/browser/README.md:9
+#, fuzzy
+#| msgid ""
+#| "When relevant, screen captures will be included to illustrate the text. "
+#| "Please note that these may slightly differ from what you see on your "
+#| "device, especially as CENO development progresses. This documentation is "
+#| "up to date for CENO version 0.0.22."
+msgid ""
+"When relevant, screen captures will be included to illustrate the text.  "
+"Please note that these may slightly differ from what you see on your device, "
+"especially as CENO development progresses.  This documentation is up to date "
+"for CENO version 0.0.29."
+msgstr ""
+"သင့်လျော်သည့် အချိန်တွင် စာသားကို ပုံဖော်ရန် စခရင်ရှော့(တ်)များ ပါဝင်ပါမည်။ အထူးသဖြင့် CENO ၏ "
+"ဖန်တီးတီထွင်မှု တိုးတက်လာသည်နှင့်အမျှ ၎င်းတို့သည် သင့်စက်ပေါ်တွင် သင်မြင်သည့်အရာနှင့် အနည်းငယ် ကွာခြားနိုင်ကြောင်း "
+"ကျေးဇူးပြု၍ သတိပြုပါ။ ဤစာရွက်စာတမ်းသည် CENO ဗာရှင်း 0.0.29 အတွက် ခေတ်မီပါသည်။"
+
+#. type: Plain text
+#: en/browser/README.md:10
+#, fuzzy
+#| msgid ""
+#| "If your application shows some looks or behavior substantially different "
+#| "from that described in here, do not hesitate to contact us at "
+#| "[cenoers@equalit.ie](mailto:cenoers@equalit.ie) and report the issue."
+msgid ""
+"If your application exhibits behaviors substantially different from those "
+"described here, do not hesitate to contact us at <cenoers@equalit.ie> and "
+"report the issue."
+msgstr ""
+"သင့်အက်ပလီကေးရှင်းသည် ဤနေရာတွင် ဖော်ပြထားသည့်အရာနှင့် များစွာကွာခြားသော အသွင်အပြင်များ သို့မဟုတ် "
+"အပြုအမူအချို့ကို ပြသပါက ကျွန်ုပ်တို့ထံ  <cenoers@equalit.ie> သို့ "
+"ဆက်သွယ်ပြီး ပြဿနာကို တိုင်ကြားရန် ဝန်မလေးပါနှင့်။"

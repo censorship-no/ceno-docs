@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-05 20:50+0200\n"
+"POT-Creation-Date: 2021-07-05 10:55-0700\n"
 "PO-Revision-Date: 2021-03-05 19:50+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/censorship-no/"
@@ -15,41 +15,56 @@ msgstr ""
 "X-Generator: Weblate 4.5.1-dev\n"
 
 #
+#. type: Plain text
+#: ../../en/browser/README.md:2
+msgid "# Using the CENO Browser"
+msgstr "# Using the CENO Browser"
 
-msgid "Using the CENO Browser"
-msgstr "Using the CENO Browser"
-
+#. type: Plain text
+#: ../../en/browser/README.md:4
 msgid ""
-"This chapter gives you some hints on the usage of the CENO Browser as far as"
-" its Ouinet-related capabilities are concerned. Please always keep in mind "
-"that CENO is based on [Firefox for "
-"Android](https://www.mozilla.org/firefox/android/), so for all the help on "
-"generic browsing topics you should refer to Mozilla's [Firefox for Android "
-"Support](https://support.mozilla.org/en-US/products/mobile) pages."
+"This chapter gives you some hints on the usage of CENO Browser as far as its "
+"Ouinet-related capabilities are concerned.  Please always keep in mind that "
+"CENO is based on [Firefox for Android][], so for all questions on generic "
+"browsing topics you should refer to Mozilla's [Firefox for Android Support]"
+"[] pages."
 msgstr ""
-"This chapter gives you some hints on the usage of the CENO Browser as far as "
-"its Ouinet-related capabilities are concerned. Please always keep in mind "
-"that CENO is based on [Firefox for Android](https://www.mozilla.org/firefox/"
-"android/), so for all the help on generic browsing topics you should refer "
-"to Mozilla's [Firefox for Android Support](https://support.mozilla.org/en-US/"
-"products/mobile) pages."
+"This chapter gives you some hints on the usage of CENO Browser as far as its "
+"Ouinet-related capabilities are concerned.  Please always keep in mind that "
+"CENO is based on [Firefox for Android][], so for all questions on generic "
+"browsing topics you should refer to Mozilla's [Firefox for Android Support]"
+"[] pages."
 
+#. type: Plain text
+#: ../../en/browser/README.md:7
 msgid ""
-"When relevant, screen captures will be included to illustrate the text. "
-"Please note that these may slightly differ from what you see on your device,"
-" especially as CENO development progresses. This documentation is up to date"
-" for CENO version 0.0.22."
+"[Firefox for Android]: https://www.mozilla.org/firefox/android/ [Firefox for "
+"Android Support]: https://support.mozilla.org/en-US/products/mobile"
+msgstr ""
+"[Firefox for Android]: https://www.mozilla.org/firefox/android/ [Firefox for "
+"Android Support]: https://support.mozilla.org/en-US/products/mobile"
+
+#. type: Plain text
+#: ../../en/browser/README.md:9
+msgid ""
+"When relevant, screen captures will be included to illustrate the text.  "
+"Please note that these may slightly differ from what you see on your device, "
+"especially as CENO development progresses.  This documentation is up to date "
+"for CENO version 0.0.29."
 msgstr ""
 "When relevant, screen captures will be included to illustrate the text. "
 "Please note that these may slightly differ from what you see on your device, "
 "especially as CENO development progresses. This documentation is up to date "
-"for CENO version 0.0.22."
+"for CENO version 0.0.29."
 
+#. type: Plain text
+#: ../../en/browser/README.md:10
 msgid ""
-"If your application shows some looks or behavior substantially different "
-"from that described in here, do not hesitate to contact us at "
-"[cenoers@equalit.ie](mailto:cenoers@equalit.ie) and report the issue."
+"If your application exhibits behaviors substantially different from those "
+"described here, do not hesitate to contact us at <cenoers@equalit.ie> and "
+"report the issue."
 msgstr ""
-"If your application shows some looks or behavior substantially different "
-"from that described in here, do not hesitate to contact us at "
-"[cenoers@equalit.ie](mailto:cenoers@equalit.ie) and report the issue."
+"If your application exhibits behaviors substantially different from those "
+"described here, do not hesitate to contact us at <cenoers@equalit.ie> and "
+"report the issue."
+
