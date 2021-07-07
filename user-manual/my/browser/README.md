@@ -7,4 +7,4 @@
 သင့်အက်ပလီကေးရှင်းသည် ဤနေရာတွင် ဖော်ပြထားသည့်အရာနှင့် များစွာကွာခြားသော အသွင်အပြင်များ သို့မဟုတ် အပြုအမူအချို့ကို ပြသပါက ကျွန်ုပ်တို့ထံ [cenoers@equalit.ie](mailto:cenoers@equalit.ie) သို့ ဆက်သွယ်ပြီး ပြဿနာကို တိုင်ကြားရန် ဝန်မလေးပါနှင့်။
 
 [Firefox for Android]: https://www.mozilla.org/firefox/android/
-[Firefox for Android Support]: https://support.mozilla.org/en-US/products/mobile
+[Firefox for Android ပံ့ပိုးမှု]: https://support.mozilla.org/en-US/products/mobile
