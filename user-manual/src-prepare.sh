@@ -1,5 +1,7 @@
 #!/bin/sh
 # Usage: ./src-prepare.sh LANGUAGE
+# Prepare the sources for a Manual translation and place them under `LANGUAGE.src`.
+
 set -e
 
 test "$1"

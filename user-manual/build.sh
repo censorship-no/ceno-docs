@@ -1,5 +1,7 @@
 #!/bin/sh
 # Usage: ./build.sh LANGUAGE
+# Render the Manual for the given language and place it under `LANGUAGE.book`.
+
 set -e
 test -f "$1.toml"
 conf="$1.toml"
