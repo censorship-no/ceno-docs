@@ -44,19 +44,19 @@ Fortunately, Ouinet offers a way to retrieve such content and furthermore make i
 
 In Ouinet, there are special kinds of proxy servers called **injectors** which sit in the (hopefully) free side of the Internet and try very hard to stay reachable despite blocking measures:
 
-  - First of all, connections between clients and injectors are encrypted (using standard SSL/TLS like in HTTPS) to avoid attackers from identifying injectors by eavesdropping on web traffic.
+- First of all, connections between clients and injectors are encrypted (using standard SSL/TLS like in HTTPS) to avoid attackers from identifying injectors by eavesdropping on web traffic.
 
-    By the way, injector certificates are shipped in the CENO Browser, allowing it to detect attackers trying to impersonate injectors.
-  - If encryption was not sufficient, connections to injectors can use special obfuscation techniques (like I2P and Tor's Pluggable Transports) to make identification even more difficult.
-  - Even if an injector was identified and access to it was blocked by your ISP, there are several of them and it does not matter which one your client contacts over the Internet.
-  - Some or all injectors may be blocked, but then the set of injectors can vary over time (with new ones being added).
+  By the way, injector certificates are shipped in the CENO Browser, allowing it to detect attackers trying to impersonate injectors.
+- If encryption was not sufficient, connections to injectors can use special obfuscation techniques (like I2P and Tor's Pluggable Transports) to make identification even more difficult.
+- Even if an injector was identified and access to it was blocked by your ISP, there are several of them and it does not matter which one your client contacts over the Internet.
+- Some or all injectors may be blocked, but then the set of injectors can vary over time (with new ones being added).
 
-    Your client need not know their Internet addresses in advance; instead, it performs a lookup in the **injector swarm** (another term from P2P file sharing), a single-entry distributed index similar to the distributed cache index which yields the addresses of currently available injectors.
-  - Finally, even if your client may not be able to reach any injector, some other clients may.  When a client is able to reach an injector and believes itself to be reachable by other clients, it becomes a **bridge** client and adds its own Internet address to the **bridge swarm**, another single-entry distributed index.
+  Your client need not know their Internet addresses in advance; instead, it performs a lookup in the **injector swarm** (another term from P2P file sharing), a single-entry distributed index similar to the distributed cache index which yields the addresses of currently available injectors.
+- Finally, even if your client may not be able to reach any injector, some other clients may.  When a client is able to reach an injector and believes itself to be reachable by other clients, it becomes a **bridge** client and adds its own Internet address to the **bridge swarm**, another single-entry distributed index.
 
-    So your client can look for such an address, connect to the bridge behind it and tell it to establish another connection to an injector on its behalf, creating a **tunnel** between your client and the injector.  Then a connection can be established between them inside of the tunnel.
+  So your client can look for such an address, connect to the bridge behind it and tell it to establish another connection to an injector on its behalf, creating a **tunnel** between your client and the injector.  Then a connection can be established between them inside of the tunnel.
 
-    Please note that since client-to-injector connections are encrypted, bridges are not able to see the information flowing between them.
+  Please note that since client-to-injector connections are encrypted, bridges are not able to see the information flowing between them.
 
 An injector can behave like a normal (though extra available) proxy server, and this is indeed what Ouinet clients (including the CENO Browser) do currently when trying to access content over a proxy.  In this case, the injector will neither see the actual information flowing between your client and the origin server (unless it is a plain, unencrypted HTTP connection itself).
 
@@ -86,9 +86,9 @@ In the figure below you can see a possible outcome of that operation: the client
 
 As content *X* is received by the injector, it signs it with its key, adds the signature to the content and sends it back to your client via the tunnel it arrived from (say, through the client sitting beyond the blocking).  Once the content reaches your client, it does three things:
 
- 1. It delivers it to you (in the case of CENO, it shows the content on the browser).
- 2. It saves the content on your device for further seeding to other clients.  It will stay there for a configurable amount of time, or until you decide to clear all stored content.
- 3. It announces in the distributed cache index that it is in possession of a copy of that content, so that other clients can find it.
+1. It delivers it to you (in the case of CENO, it shows the content on the browser).
+2. It saves the content on your device for further seeding to other clients.  It will stay there for a configurable amount of time, or until you decide to clear all stored content.
+3. It announces in the distributed cache index that it is in possession of a copy of that content, so that other clients can find it.
 
 The whole combined operation of retrieval, signing, storage and announcement is what we call **content injection**, as shown in the figure below.
 

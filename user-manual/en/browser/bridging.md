@@ -18,12 +18,12 @@ However, please note that Android will only allow a mobile device to act as a pr
 
 Thus if you intend to have CENO acting as a permanent, always-reachable bridge, besides a properly configured Wi-Fi network you will need to:
 
- 1. Have your device plugged in to power at all times.
- 2. Have the device's screen on at all times.
+1. Have your device plugged in to power at all times.
+2. Have the device's screen on at all times.
 
-    One convenient way of doing this without much power consumption and obnoxious, permanent lighting is using Android's screen saver: enable it under *Settings / Display / Screen saver* (or *Daydream* in some versions), pick the *Clock* widget, choose *When to start screen saver* in the menu and select *While charging* or *Either*.  A very dimmed down clock will appear on a black background while the device is not active.
+   One convenient way of doing this without much power consumption and obnoxious, permanent lighting is using Android's screen saver: enable it under *Settings / Display / Screen saver* (or *Daydream* in some versions), pick the *Clock* widget, choose *When to start screen saver* in the menu and select *While charging* or *Either*.  A very dimmed down clock will appear on a black background while the device is not active.
 
-    Please note that you should not use the power button to lock the device as this will turn the screen off.  Instead, just wait for the device to lock itself with the screen on.
+   Please note that you should not use the power button to lock the device as this will turn the screen off.  Instead, just wait for the device to lock itself with the screen on.
 
 ## Enabling UPnP on your Wi-Fi router
 
@@ -48,11 +48,11 @@ The status above indicates that UPnP is working and you can bridge connections f
 
 There are many Wi-Fi routers on the market and each has their own particular features.  Herein a list of some manufacturers' instructions for enabling UPnP:
 
-  * [Linksys](https://www.linksys.com/us/support-article?articleNum=138290)
-  * [D-Link](https://eu.dlink.com/uk/en/support/faq/routers/wired-routers/di-series/how-do-i-enable-upnp-on-my-router)
-  * [Huawei](https://consumer.huawei.com/ph/support/content/en-us00275342/)
-  * [Xfinity](https://www.xfinity.com/support/articles/configure-device-discovery-for-wifi)
-  * [TP-Link](https://community.tp-link.com/us/home/kb/detail/348)
+- [Linksys](https://www.linksys.com/us/support-article?articleNum=138290)
+- [D-Link](https://eu.dlink.com/uk/en/support/faq/routers/wired-routers/di-series/how-do-i-enable-upnp-on-my-router)
+- [Huawei](https://consumer.huawei.com/ph/support/content/en-us00275342/)
+- [Xfinity](https://www.xfinity.com/support/articles/configure-device-discovery-for-wifi)
+- [TP-Link](https://community.tp-link.com/us/home/kb/detail/348)
 
 ## Using port forwarding as an alternative to UPnP
 

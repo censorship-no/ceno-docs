@@ -26,9 +26,9 @@ This means that CENO tried all available mechanisms to access the content, but n
 
 You should make sure that the following requirements are fulfilled for CENO to work:
 
-  - You are running a recent version of the CENO Browser.  Obsolete versions may not be able to communicate with newer injectors or other clients.  Check the [installation instructions](install.md) to know where to get new versions.
-  - All access mechanisms in the [Settings page](settings.md) are enabled.  Otherwise CENO will not be able to circumvent some connectivity issues when accessing content.
-  - Your device has a working connection to the network, i.e. your normal Web browser is able to open some Web sites.  CENO and Ouinet cannot work when all network connectivity is shut down (although users may still find a common Wi-Fi access point to do device-to-device sharing).
+- You are running a recent version of the CENO Browser.  Obsolete versions may not be able to communicate with newer injectors or other clients.  Check the [installation instructions](install.md) to know where to get new versions.
+- All access mechanisms in the [Settings page](settings.md) are enabled.  Otherwise CENO will not be able to circumvent some connectivity issues when accessing content.
+- Your device has a working connection to the network, i.e. your normal Web browser is able to open some Web sites.  CENO and Ouinet cannot work when all network connectivity is shut down (although users may still find a common Wi-Fi access point to do device-to-device sharing).
 
 If that is the case, it is worth explaining what may be happening for all access mechanisms to fail, to give you an idea of your chances for getting content using CENO.
 
@@ -44,15 +44,15 @@ Someone is interfering with your connection to Internet addresses in the injecto
 
 There are different reasons for CENO being unable to reach such clients:
 
-  - No other client is reachable by you.  If only a few Ouinet clients are online, it is entirely possible that none of them are in a network that can be reached from the outside.  This should become less likely as CENO and Ouinet get popular and more clients with diverse connectivity come online.
+- No other client is reachable by you.  If only a few Ouinet clients are online, it is entirely possible that none of them are in a network that can be reached from the outside.  This should become less likely as CENO and Ouinet get popular and more clients with diverse connectivity come online.
 
-    The extreme case here is that connections between Ouinet clients are detected as such by a censor and blocked.  This is quite unlikely (since it may entail blocking all BitTorrent traffic) and currently beyond what Ouinet supports, but we plan to make it more resistant against these attacks.
+  The extreme case here is that connections between Ouinet clients are detected as such by a censor and blocked.  This is quite unlikely (since it may entail blocking all BitTorrent traffic) and currently beyond what Ouinet supports, but we plan to make it more resistant against these attacks.
 
-  - No other client can reach an injector.  Since it is unlikely that all injectors are simultaneously down, that may mean that you can only reach Ouinet clients which are themselves affected by similar network interference as yours.
+- No other client can reach an injector.  Since it is unlikely that all injectors are simultaneously down, that may mean that you can only reach Ouinet clients which are themselves affected by similar network interference as yours.
 
-    This can happen when all traffic leaving or entering the country you are in is interrupted.  CENO would resort in this case to getting and using the content from the distributed cache, even if it is stale.
+  This can happen when all traffic leaving or entering the country you are in is interrupted.  CENO would resort in this case to getting and using the content from the distributed cache, even if it is stale.
 
-    Again, as CENO and Ouinet become more popular, the chances increase that there are at least a few clients that do have some kind of access to international sites.  Even if access is precarious, a single Ouinet client able to inject some content into the country could suffice to enable it to spread (over the distributed cache) without further need to access the outside world.
+  Again, as CENO and Ouinet become more popular, the chances increase that there are at least a few clients that do have some kind of access to international sites.  Even if access is precarious, a single Ouinet client able to inject some content into the country could suffice to enable it to spread (over the distributed cache) without further need to access the outside world.
 
 Finally, we do run some Ouinet clients with good connectivity in (hopefully) censorship-free countries to try to avoid those two situations, but please note that clients with such stable Internet addresses could get blocked as well.
 

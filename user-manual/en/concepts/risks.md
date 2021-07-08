@@ -2,9 +2,9 @@
 
 As with any sufficiently complex computing system, and especially such an innovative one, using the CENO Browser (and any Ouinet client in general) is not free from some risks.  In this section we will compile and describe them to help you understand their implications according to the different roles you may play when using CENO:
 
-  - as a *user* browsing Web sites
-  - as a *seeder* sharing content over the distributed cache that you previously visited
-  - as a *bridge* allowing other users to reach an injector
+- as a *user* browsing Web sites
+- as a *seeder* sharing content over the distributed cache that you previously visited
+- as a *bridge* allowing other users to reach an injector
 
 ## As a user
 
@@ -36,8 +36,8 @@ Most probably not.  Whenever CENO contacts an origin server directly, it behaves
 
 However, when it uses an injector to get some content from its origin server, there are (at least) two ways for the latter to know that CENO or Ouinet is involved:
 
- 1. The source address of the connection reaching the origin server is found in the injector swarm (since the connection comes indeed from the injector);
- 2. The presence or absence of certain information in the request for content is characteristic of Ouinet.  This happens when the injector is requesting the content because your client asked it to retrieve and sign that content, as the injector removes information unique to your particular device from the request.
+1. The source address of the connection reaching the origin server is found in the injector swarm (since the connection comes indeed from the injector);
+2. The presence or absence of certain information in the request for content is characteristic of Ouinet.  This happens when the injector is requesting the content because your client asked it to retrieve and sign that content, as the injector removes information unique to your particular device from the request.
 
 Please note that these only mark the request as coming from Ouinet, but they do not link it to you or your particular device.  However, if the request did for some of the reasons mentioned in the previous question still contain some personally identifiable information, it could be used to mark you as a CENO user.
 

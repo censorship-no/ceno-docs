@@ -66,5 +66,5 @@ Short answer: no, but we strongly recommend it.
 
 Although CENO should work fine on a mobile connection, there are two reasons why we recommend using a Wi-Fi connection instead:
 
- 1. CENO consumes an extra amount of data which may result in a higher phone bill (see above).
- 2. Mobile connections often make reaching your device more difficult from the outside than Wi-Fi ones, thus decreasing the chances that you can help other users get content.
+1. CENO consumes an extra amount of data which may result in a higher phone bill (see above).
+2. Mobile connections often make reaching your device more difficult from the outside than Wi-Fi ones, thus decreasing the chances that you can help other users get content.

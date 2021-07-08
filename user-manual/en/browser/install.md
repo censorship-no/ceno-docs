@@ -2,9 +2,9 @@
 
 The CENO Browser can be installed via the following means:
 
-  - [Google Play][ceno-gplay] (*CENO Browser* from *eQualitie*): the recommended source for most Android users.
-  - [GitHub][ceno-gh]: for Android devices without Google Play.
-  - [Paskoocheh][ceno-pask]: for users in countries blocking access to the previous channels.
+- [Google Play][ceno-gplay] (*CENO Browser* from *eQualitie*): the recommended source for most Android users.
+- [GitHub][ceno-gh]: for Android devices without Google Play.
+- [Paskoocheh][ceno-pask]: for users in countries blocking access to the previous channels.
 
 [ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno
 [ceno-gh]: https://github.com/censorship-no/ceno-browser/releases
