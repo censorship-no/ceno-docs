@@ -1,5 +1,5 @@
 #!/bin/sh
-# Usage: build.sh LANGUAGE
+# Usage: ./build.sh LANGUAGE
 set -e
 test -f "$1.toml"
 conf="$1.toml"

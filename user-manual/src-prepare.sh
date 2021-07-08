@@ -1,5 +1,5 @@
 #!/bin/sh
-# Usage: src-prepare.sh LANGUAGE
+# Usage: ./src-prepare.sh LANGUAGE
 set -e
 
 test "$1"
