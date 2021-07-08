@@ -1,7 +1,8 @@
+BOOKS := $(patsubst %.toml,%.book,$(subst book.toml,,$(wildcard *.toml)))
+
 .PHONY: clean
 
-all:
-	exit 1  # not implemented yet
+all:	$(BOOKS)
 
 clean:
 	rm -rf *.src *.book book.toml
