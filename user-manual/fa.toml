@@ -1,0 +1,12 @@
+[book]
+authors = ["Ivan Vilata-i-Balaguer", "Dmitri Vitaliev", "Jenny Ryan"]
+language = "fa"
+multilingual = false
+src = "fa"
+title = "دفترچه‌ی راهنمای کاربر Censorship.no! (سنو)"
+
+[output.html]
+git-repository-url = "https://github.com/censorship-no/ceno-docs"
+
+[build]
+build-dir = "fa.book"
