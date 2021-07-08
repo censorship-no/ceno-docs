@@ -17,18 +17,13 @@ for po in $(find . -name '*.po'); do
     po2md -q -w 100000 -p "$po" -s "$DEST/$md" "../en/$md"
 done
 
-# Copy translated images.
-for img in $(find . -name '*.png' -o -name '*.svg'); do
-    imgd="$(dirname "$DEST/$img")"
-    mkdir -p "$imgd"
-    cp "$img" "$imgd"
-done
-
-# Copy non-translated images.
-cd ../en
-for img in $(find . -name '*.png' -o -name '*.svg'); do
-    imgd="$(dirname "$DEST/$img")"
-    if test -f "$imgd/$(basename "$img")"; then continue; fi
-    mkdir -p "$imgd"
-    cp "$img" "$imgd"
+# Copy translated, then untranslated images.
+for dir in . ../en; do
+    cd "$dir"
+    for img in $(find . -name '*.png' -o -name '*.svg'); do
+        imgd="$(dirname "$DEST/$img")"
+        if test -f "$imgd/$(basename "$img")"; then continue; fi
+        mkdir -p "$imgd"
+        cp "$img" "$imgd"
+    done
 done
