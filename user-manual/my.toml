@@ -2,7 +2,7 @@
 authors = ["Ivan Vilata-i-Balaguer", "Dmitri Vitaliev", "Jenny Ryan"]
 language = "my"
 multilingual = false
-src = "my"
+src = "my.src"
 title = "Censorship.no! သုံးစွဲသူ လက်စွဲ"
 
 [output.html]

@@ -2,6 +2,7 @@ book.toml
 *.book
 
 en.pot
+*.src
 
 *~
 .*.swp
