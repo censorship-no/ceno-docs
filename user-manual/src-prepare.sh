@@ -12,7 +12,7 @@ mkdir "$DEST"  # fail if existing
 
 # Generate Markdown files from PO translations.
 for po in $(find . -name '*.po'); do
-    md="$(dirname "$po")/$(echo "$(basename "${po%%.po}" | sed -e 's/readme/README/' -e 's/summary/SUMMARY/').md")"
+    md="${po%%.po}.md"
     mkdir -p "$(dirname "$DEST/$md")"
     po2md -q -w 100000 -p "$po" -s "$DEST/$md" "../en/$md"
 done
