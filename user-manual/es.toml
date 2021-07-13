@@ -2,7 +2,7 @@
 authors = ["Ivan Vilata-i-Balaguer", "Dmitri Vitaliev", "Jenny Ryan"]
 language = "es"
 multilingual = false
-src = "es"
+src = "es.src"
 title = "Censorship.no! Manual del Usuario"
 
 [output.html]
