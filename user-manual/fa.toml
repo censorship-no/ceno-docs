@@ -2,7 +2,7 @@
 authors = ["Ivan Vilata-i-Balaguer", "Dmitri Vitaliev", "Jenny Ryan"]
 language = "fa"
 multilingual = false
-src = "fa"
+src = "fa.src"
 title = "دفترچه‌ی راهنمای کاربر Censorship.no! (سنو)"
 
 [output.html]

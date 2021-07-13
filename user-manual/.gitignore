@@ -1,5 +1,7 @@
 book.toml
 *.book
 
+*.src
+
 *~
 .*.swp
