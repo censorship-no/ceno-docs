@@ -1,12 +1,10 @@
 #!/bin/sh
-# Usage: ./po-update.sh LANGUAGE
-# Update PO files in `LANGUAGE` with latest PO templates from `en.pot`.
+# Usage: ./po-update.sh
+# Update PO files with latest PO templates from `en.pot`.
 
 set -e
 
-test "$1"
-cd "$1"
-
 for po in $(find . -name '*.po'); do
-    msgmerge -q --previous -U "$po" "../en.pot/${po}t"
+    pot="en.pot/$(echo "$po" | sed -E 's#^\./[^/]+/##')t"
+    msgmerge -q --previous -U "$po" "$pot"
 done
