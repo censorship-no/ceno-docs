@@ -15,9 +15,11 @@ msgstr ""
 "X-Generator: Weblate 4.8-dev\n"
 
 #
+#: intro/qsg.md:block 1 (header)
 msgid "Quick start guide"
 msgstr "Guía para inicio rápido"
 
+#: intro/qsg.md:block 2 (paragraph)
 msgid ""
 "The CENO Browser allows you to access any website on the Internet, even if "
 "it is censored in your country. CENO uses a peer-to-peer infrastructure to "
@@ -29,24 +31,21 @@ msgstr ""
 "enrutar tus solicitudes, como así también para almacenar y compartir "
 "contenido descargado con otros. [Lee más acerca de CENO](ceno.md)."
 
+#: intro/qsg.md:block 3 (header)
 msgid "How to get started"
 msgstr "Cómo empezar"
 
+#: intro/qsg.md:block 4 (paragraph)
 msgid "You will need an Android device:"
 msgstr "Necesitarás un dispositivo Android:"
 
+#: intro/qsg.md:block 5 (ordered list)
 msgid ""
-"Install the CENO Browser from [Google "
-"Play](https://play.google.com/store/apps/details?id=ie.equalit.ceno), "
-"[GitHub](https://github.com/censorship-no/ceno-browser/releases) or "
-"[Paskoocheh](https://paskoocheh.com/tools/124/android.html). *No special "
-"permissions are needed*."
+"Install the CENO Browser from [Google Play][ceno-gplay], [GitHub][ceno-gh] "
+"or [Paskoocheh][ceno-pask]. *No special permissions are needed*."
 msgstr ""
-"Instala el Navegador CENO desde [Google Play](https://play.google.com/store/"
-"apps/details?id=ie.equalit.ceno), [GitHub](https://github.com/censorship-no/"
-"ceno-browser/releases) o [Paskoocheh](https://paskoocheh.com/tools/124/"
-"android.html). *No se necesitan permisos especiales*."
 
+#: intro/qsg.md:block 5 (ordered list)
 msgid ""
 "Run it and press *NEXT* on the introductory screens, then press *START "
 "BROWSING*."
@@ -54,57 +53,100 @@ msgstr ""
 "Ejecútalo y presiona *SIGUIENTE* en las pantallas introductorias, luego "
 "presiona *EMPEZAR A NAVEGAR*."
 
+#: intro/qsg.md:block 5 (ordered list)
 msgid ""
 "Browse pages normally to help other users access them; if concerned about "
-"privacy for some page or if it is not loading as expected, use a private tab"
-" (see [public vs. private browsing](../concepts/public-private.md))."
+"privacy for some page or if it is not loading as expected, use a private tab "
+"(see [public vs. private browsing](../concepts/public-private.md))."
 msgstr ""
 "Navega las páginas normalmente para ayudar a otros usuarios a accederlas; si "
 "estás preocupado acerca de la privacidad por alguna página, o si no está "
 "siendo cargada como es de esperar, usa una pestaña privada (ver [navegación "
 "pública vs. privada](../concepts/public-private.md))."
 
+#: intro/qsg.md:block 5 (ordered list)
 msgid "Tap on the CENO notification to stop it completely."
 msgstr "Pulsa en la notificación CENO para detenerlo completamente."
 
+#: intro/qsg.md:block 6 (paragraph)
 msgid "Detailed installation instructions are [here](../browser/install.md)."
 msgstr ""
 "Las instrucciones detalladas de instalación están [aquí](../browser/install."
 "md)."
 
+#: intro/qsg.md:block 7 (header)
 msgid "Configuration"
 msgstr "Configuración"
 
+#: intro/qsg.md:block 8 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "The CENO Browser is in [BETA](https://en.wikipedia.org/wiki/"
+#| "Software_release_life_cycle#Beta) but it should work out-of-the-box. You "
+#| "can find some [diagnostics and settings](../browser/settings.md) under "
+#| "the *CENO* menu entry."
 msgid ""
-"The CENO Browser is in "
-"[BETA](https://en.wikipedia.org/wiki/Software_release_life_cycle#Beta) but "
-"it should work out-of-the-box. You can find some [diagnostics and "
-"settings](../browser/settings.md) under the *CENO* menu entry."
+"The CENO Browser is in [BETA][BETA] but it should work out-of-the-box. You "
+"can find some [diagnostics and settings](../browser/settings.md) under the "
+"*CENO* menu entry."
 msgstr ""
 "El Navegador CENO está en estado [BETA](https://en.wikipedia.org/wiki/"
 "Software_release_life_cycle#Beta), pero debería funcionar como viene. Puedes "
 "encontrar algunos [diagnósticos y ajustes](../browser/settings.md) bajo la "
 "entrada de menú *CENO*."
 
+#: intro/qsg.md:block 9 (paragraph)
 msgid ""
-"If you want to make sure that your app is also helping others access blocked"
-" content, please [read this section](../browser/bridging.md)."
+"If you want to make sure that your app is also helping others access blocked "
+"content, please [read this section](../browser/bridging.md)."
 msgstr ""
 "Si quieres asegurarte de que tu aplicación también está ayudando a otros a "
 "acceder a contenido bloqueado, por favor [lee esta sección](../browser/"
 "bridging.md)."
 
+#: intro/qsg.md:block 10 (header)
 msgid "More questions?"
 msgstr "¿Más preguntas?"
 
+#: intro/qsg.md:block 11 (unordered list)
 msgid "Please see the [FAQ](faq.md)."
 msgstr "Por favor mira las [PMF](faq.md)."
 
+#: intro/qsg.md:block 11 (unordered list)
 msgid "Refer to the [troubleshooting guide](../browser/troubleshooting.md)."
 msgstr ""
 "Consulta a la [guía de solución de problemas](../browser/troubleshooting.md)."
 
+#: intro/qsg.md:block 11 (unordered list)
 msgid ""
 "Contact us by writing to [cenoers@equalit.ie](mailto:cenoers@equalit.ie)."
 msgstr ""
 "Contáctanos por escrito a [cenoers@equalit.ie](mailto:cenoers@equalit.ie)."
+
+#: intro/qsg.md:block 11 (unordered list)
+msgid ""
+"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
+msgstr ""
+
+#: intro/qsg.md:block 11 (unordered list)
+msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
+msgstr ""
+
+#: intro/qsg.md:block 11 (unordered list)
+msgid "[ceno-pask]: https://paskoocheh.com/tools/124/android.html"
+msgstr ""
+
+#: intro/qsg.md:block 11 (unordered list)
+msgid "[BETA]: https://en.wikipedia.org/wiki/Software_release_life_cycle#Beta"
+msgstr ""
+
+#~ msgid ""
+#~ "Install the CENO Browser from [Google Play](https://play.google.com/store/"
+#~ "apps/details?id=ie.equalit.ceno), [GitHub](https://github.com/censorship-"
+#~ "no/ceno-browser/releases) or [Paskoocheh](https://paskoocheh.com/"
+#~ "tools/124/android.html). *No special permissions are needed*."
+#~ msgstr ""
+#~ "Instala el Navegador CENO desde [Google Play](https://play.google.com/"
+#~ "store/apps/details?id=ie.equalit.ceno), [GitHub](https://github.com/"
+#~ "censorship-no/ceno-browser/releases) o [Paskoocheh](https://paskoocheh."
+#~ "com/tools/124/android.html). *No se necesitan permisos especiales*."

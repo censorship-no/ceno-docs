@@ -15,28 +15,38 @@ msgstr ""
 "X-Generator: Weblate 4.8-dev\n"
 
 #
+#: intro/ouinet.md:block 1 (header)
 msgid "What is Ouinet?"
 msgstr "¿Qué es Ouinet?"
 
+#: intro/ouinet.md:block 2 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "[Ouinet](https://github.com/equalitie/ouinet/) is a core technology that "
+#| "allows the CENO browser to share Web content with other devices. Ouinet "
+#| "comes in the form of reusable computer code (a library) that an "
+#| "application like CENO can use to become a participant in a network of "
+#| "cooperating nodes that communicate directly ([peer-to-peer](https://en."
+#| "wikipedia.org/wiki/Peer-to-peer) or P2P) to help access and store new Web "
+#| "content, and to request and deliver previously accessed content to others."
 msgid ""
-"[Ouinet](https://github.com/equalitie/ouinet/) is a core technology that "
-"allows the CENO browser to share Web content with other devices. Ouinet "
-"comes in the form of reusable computer code (a library) that an application "
-"like CENO can use to become a participant in a network of cooperating nodes "
-"that communicate directly ([peer-to-"
-"peer](https://en.wikipedia.org/wiki/Peer-to-peer) or P2P) to help access and"
-" store new Web content, and to request and deliver previously accessed "
-"content to others."
+"[Ouinet][Ouinet] is a core technology that allows the CENO browser to share "
+"Web content with other devices. Ouinet comes in the form of reusable "
+"computer code (a library) that an application like CENO can use to become a "
+"participant in a network of cooperating nodes that communicate directly "
+"([peer-to-peer][P2P] or P2P) to help access and store new Web content, and "
+"to request and deliver previously accessed content to others."
 msgstr ""
 "[Ouinet](https://github.com/equalitie/ouinet/) es una tecnología esencial "
 "que le permite al Navegador CENO compartir contenido Web con otros "
 "dispositivos. Ouinet se presenta en forma de código de computadora "
 "reutilizable (una biblioteca) que una aplicación como CENO puede usar para "
 "tornarse en participante en una red de nodos cooperativos que se comunican "
-"directamente ([par a par](https://en.wikipedia.org/wiki/Peer-to-peer) o P2P)"
-", para ayudar a acceder y almacenar nuevo contenido Web, y solicitar y "
+"directamente ([par a par](https://en.wikipedia.org/wiki/Peer-to-peer) o "
+"P2P), para ayudar a acceder y almacenar nuevo contenido Web, y solicitar y "
 "entregar contenido previamente accedido a otros."
 
+#: intro/ouinet.md:block 3 (paragraph)
 msgid ""
 "Ouinet is based on a clever combination and use of existing technologies to "
 "accomplish each of its functionalities: locating other participants is done "
@@ -60,6 +70,7 @@ msgstr ""
 "necesario (por ejemplo, algunos usos de µTP pueden ser reemplazados por los "
 "Transportes Conectables de Tor)."
 
+#: intro/ouinet.md:block 4 (paragraph)
 msgid ""
 "On mobile devices, Ouinet can be embedded into end-user applications (as an "
 "Android library). In computers, it can be used by normal Web clients like "
@@ -69,23 +80,29 @@ msgstr ""
 "usuario final (como una biblioteca Android). En computadoras, puede ser "
 "usada por clientes Web normales, como navegadores (como proxy HTTP local)."
 
+#: intro/ouinet.md:block 5 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "Same as the CENO Browser, Ouinet is developed by [eQualitie](https://"
+#| "equalit.ie/) as Free/Libre/Open-Source software."
 msgid ""
-"Same as the CENO Browser, Ouinet is developed by "
-"[eQualitie](https://equalit.ie/) as Free/Libre/Open-Source software."
+"Same as the CENO Browser, Ouinet is developed by [eQualitie][eQualitie] as "
+"Free/Libre/Open-Source software."
 msgstr ""
-"Al igual que el Navegador CENO, Ouinet está desarrollada por "
-"[eQualitie](https://equalit.ie/) como software Gratis/Libre/de Código "
-"Abierto."
+"Al igual que el Navegador CENO, Ouinet está desarrollada por [eQualitie]"
+"(https://equalit.ie/) como software Gratis/Libre/de Código Abierto."
 
+#: intro/ouinet.md:block 6 (header)
 msgid "Who is it for?"
 msgstr "¿Para quién es?"
 
+#: intro/ouinet.md:block 7 (paragraph)
 msgid ""
 "Ouinet is mostly useful for software developers, content creators and "
-"publishers who want to enable users of their applications to share retrieved"
-" content with other users. This reduces the overall demand on the "
-"application server and improves content accessibility for users living in "
-"countries that block access to that server."
+"publishers who want to enable users of their applications to share retrieved "
+"content with other users. This reduces the overall demand on the application "
+"server and improves content accessibility for users living in countries that "
+"block access to that server."
 msgstr ""
 "Ouinet es mayormente útil para desarrolladores de software, creadores de "
 "contenido y publicistas que quieren habilitar a los usuarios de sus "
@@ -94,12 +111,13 @@ msgstr ""
 "accesibilidad del contenido para usuarios viviendo en países que bloquean el "
 "acceso a ese servidor."
 
+#: intro/ouinet.md:block 8 (paragraph)
 msgid ""
 "Please note that Ouinet is still an experimental project: some features may "
 "not work reliably enough in certain scenarios, bugs may exist and crashes "
-"may occur. We encourage you to reach out to us at "
-"[cenoers@equalit.ie](mailto:cenoers@equalit.ie), test it and report back - "
-"your feedback is very welcome!"
+"may occur. We encourage you to reach out to us at [cenoers@equalit.ie]"
+"(mailto:cenoers@equalit.ie), test it and report back - your feedback is very "
+"welcome!"
 msgstr ""
 "Por favor ten en cuenta que Ouinet aún es un proyecto experimental: algunas "
 "características pudieran no funcionar en forma suficientemente confiable en "
@@ -107,6 +125,7 @@ msgstr ""
 "a contactarnos a [cenoers@equalit.ie](mailto:cenoers@equalit.ie), probarla e "
 "informar - ¡tus comentarios son bienvenidos!"
 
+#: intro/ouinet.md:block 9 (quote)
 msgid ""
 "**Warning:** *Ouinet is not an anonymity tool*. If you are unsure about its "
 "adequacy for a certain task, do not hesitate to contact us."
@@ -114,3 +133,15 @@ msgstr ""
 "**Advertencia:** *Ouinet no es una herramienta de anonimato*. Si no estás "
 "seguro acerca de si es adecuada para una cierta tarea, no dudes en "
 "contactarnos."
+
+#: intro/ouinet.md:block 9 (quote)
+msgid "[Ouinet]: https://github.com/equalitie/ouinet/"
+msgstr ""
+
+#: intro/ouinet.md:block 9 (quote)
+msgid "[P2P]: https://en.wikipedia.org/wiki/Peer-to-peer"
+msgstr ""
+
+#: intro/ouinet.md:block 9 (quote)
+msgid "[eQualitie]: https://equalit.ie/"
+msgstr ""

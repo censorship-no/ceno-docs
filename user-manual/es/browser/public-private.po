@@ -15,13 +15,21 @@ msgstr ""
 "X-Generator: Weblate 4.7.2-dev\n"
 
 #
+#: browser/public-private.md:block 1 (header)
 msgid "Using public or private browsing"
 msgstr "Usando navegación pública o privada"
 
+#: browser/public-private.md:block 2 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "As described [in a previous section](../concepts/public-private.md), CENO "
+#| "has two different modes of operation depending on whether you want to "
+#| "share with others the content that you browse (public browsing) or not "
+#| "(private browsing)."
 msgid ""
 "As described [in a previous section](../concepts/public-private.md), CENO "
 "has two different modes of operation depending on whether you want to share "
-"with others the content that you browse (public browsing) or not (private "
+"the content that you browse with others (public browsing) or not (private "
 "browsing)."
 msgstr ""
 "Como se describió [en una sección previa](../concepts/public-private.md), "
@@ -29,12 +37,20 @@ msgstr ""
 "compartir con otros el contenido por el que navegas (navegación pública) o "
 "no (navegación privada)."
 
+#: browser/public-private.md:block 3 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "This setting applies *to each tab* that you open in the browser, i.e. you "
+#| "can have public browsing tabs and private browsing tabs. The default in "
+#| "CENO whenever you start it or open a new tab (using *New tab* in the "
+#| "app's main menu) is to use public browsing. To open a new tab in private "
+#| "browsing mode, just choose *New private tab* in the main menu."
 msgid ""
 "This setting applies *to each tab* that you open in the browser, i.e. you "
-"can have public browsing tabs and private browsing tabs. The default in CENO"
-" whenever you start it or open a new tab (using *New tab* in the app's main "
-"menu) is to use public browsing. To open a new tab in private browsing mode,"
-" just choose *New private tab* in the main menu."
+"can have public browsing tabs and private browsing tabs. CENO's default "
+"whenever you start it or open a new tab (using *New tab* in the app's main "
+"menu) is to use public browsing. To open a new tab in private browsing mode, "
+"just choose *New private tab* in the main menu."
 msgstr ""
 "Esta configuración se aplica *a cada pestaña* que abres en el navegador, "
 "esto es, puedes tener pestañas de navegación pública y de navegación "
@@ -43,6 +59,7 @@ msgstr ""
 "usar navegación pública. Para abrir una nueva pestaña en modo de navegación "
 "privado, solo elige *Nueva pestaña privada* en el menú principal."
 
+#: browser/public-private.md:block 4 (paragraph)
 msgid ""
 "You can tell public tabs from private ones because public tabs have a "
 "lighter (or white) tool bar:"
@@ -50,21 +67,30 @@ msgstr ""
 "Puedes diferenciar a las pestañas públicas de las privadas porque las "
 "públicas tienen una barra de herramientas más clara (o blanca):"
 
+#: browser/public-private.md:block 5 (paragraph)
 msgid "![Figure: A public browsing tab](images/public-tab.png)"
 msgstr "![Figura: Una pestaña de navegación pública](images/public-tab.png)"
 
+#: browser/public-private.md:block 6 (paragraph)
 msgid "In contrast, private tabs have a darker tool bar:"
 msgstr ""
 "En contraste, las pestañas privadas tienen una barra de herramientas más "
 "oscura:"
 
+#: browser/public-private.md:block 7 (paragraph)
 msgid "![Figure: A private browsing tab](images/private-tab.png)"
 msgstr "![Figura: Una pestaña de navegación privada](images/private-tab.png)"
 
+#: browser/public-private.md:block 8 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "Once you have loaded a page in a tab, the colored CENO icon in the "
+#| "address bar will help you know how it did actually retrieve the different "
+#| "elements in it. We will cover this icon later on."
 msgid ""
 "Once you have loaded a page in a tab, the colored CENO icon in the address "
-"bar will help you know how it did actually retrieve the different elements "
-"in it. We will cover this icon later on."
+"bar will help you know how it actually retrieved the different elements of "
+"the content. We will cover this icon later on."
 msgstr ""
 "Una vez que hayas cargado una página en una pestaña, el ícono coloreado de "
 "CENO en la barra de direcciones te ayudará a saber cómo descargó realmente "
