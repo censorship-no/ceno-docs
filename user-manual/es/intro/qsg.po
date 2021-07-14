@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-03 02:50+0200\n"
 "PO-Revision-Date: 2021-07-15 08:14+0000\n"
-"Last-Translator: Zuhualime Akoochimoya <zakooch@protonmail.ch>\n"
+"Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/censorship-no/"
 "qsg/es/>\n"
 "Language: es\n"
@@ -81,21 +81,14 @@ msgid "Configuration"
 msgstr "Configuración"
 
 #: intro/qsg.md:block 8 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "The CENO Browser is in [BETA](https://en.wikipedia.org/wiki/"
-#| "Software_release_life_cycle#Beta) but it should work out-of-the-box. You "
-#| "can find some [diagnostics and settings](../browser/settings.md) under "
-#| "the *CENO* menu entry."
 msgid ""
 "The CENO Browser is in [BETA][BETA] but it should work out-of-the-box. You "
 "can find some [diagnostics and settings](../browser/settings.md) under the "
 "*CENO* menu entry."
 msgstr ""
-"El Navegador CENO está en estado [BETA](https://en.wikipedia.org/wiki/"
-"Software_release_life_cycle#Beta), pero debería funcionar como viene. Puedes "
-"encontrar algunos [diagnósticos y ajustes](../browser/settings.md) bajo la "
-"entrada de menú *CENO*."
+"El Navegador CENO está en estado [BETA][BETA], pero debería funcionar como "
+"viene. Puedes encontrar algunos [diagnósticos y ajustes](../browser/settings."
+"md) bajo la entrada de menú *CENO*."
 
 #: intro/qsg.md:block 9 (paragraph)
 msgid ""
@@ -129,18 +122,21 @@ msgstr ""
 msgid ""
 "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
 msgstr ""
+"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
 
 #: intro/qsg.md:block 11 (unordered list)
 msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
-msgstr ""
+msgstr "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
 
 #: intro/qsg.md:block 11 (unordered list)
 msgid "[ceno-pask]: https://paskoocheh.com/tools/124/android.html"
-msgstr ""
+msgstr "[ceno-pask]: https://paskoocheh.com/tools/124/android.html"
 
 #: intro/qsg.md:block 11 (unordered list)
 msgid "[BETA]: https://en.wikipedia.org/wiki/Software_release_life_cycle#Beta"
 msgstr ""
+"[BETA]: https://es.wikipedia.org/wiki/"
+"Ciclo_de_vida_del_lanzamiento_de_software#Beta"
 
 #~ msgid ""
 #~ "Install the CENO Browser from [Google Play](https://play.google.com/store/"
