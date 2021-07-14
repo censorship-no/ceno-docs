@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-10 11:02+0200\n"
-"PO-Revision-Date: 2021-06-29 11:33+0000\n"
-"Last-Translator: Cho Lwin Phu <CHRISTINEIVY19@gmail.com>\n"
+"PO-Revision-Date: 2021-07-14 12:33+0000\n"
+"Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "browser-troubleshooting/my/>\n"
 "Language: my\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.7.1-dev\n"
+"X-Generator: Weblate 4.7.2-dev\n"
 
 #
 #: browser/troubleshooting.md:block 1 (header)
@@ -210,12 +210,11 @@ msgstr ""
 "ကြိုးစားသည်။"
 
 #: browser/troubleshooting.md:block 22 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "There are different reasons for CENO not to be able to reach such clients:"
 msgid ""
 "There are different reasons for CENO being unable to reach such clients:"
-msgstr "CENO သည် ထိုလက်ခံစက်များသို့ မရောက်ရှိနိုင်သည့် ကွဲပြားသော အကြောင်းရင်းများ ရှိသည်-"
+msgstr ""
+"CENO သည် ထိုလက်ခံစက်များသို့ မရောက်ရှိနိုင်သည့် ကွဲပြားသော အကြောင်းရင်းများ "
+"ရှိသည်-"
 
 #: browser/troubleshooting.md:block 23 (unordered list)
 #, fuzzy
@@ -318,13 +317,6 @@ msgstr ""
 "ထိုအကြောင်းအရာကို သဘာဝကျစွာ ပွားယူရန် ဖြစ်နိုင်ခြေ ပိုနည်းသည်။"
 
 #: browser/troubleshooting.md:block 27 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Please note that some content which is not considered safe for sharing "
-#| "will never be injected, no matter how many people retrieve it using "
-#| "public browsing. This includes content marked as private by the origin "
-#| "server, content which requires authentication, and some traffic exchanged "
-#| "by certain dynamic Web applications."
 msgid ""
 "Please note that some content which is not considered safe for sharing will "
 "never be injected, no matter how many people retrieve it using public "
@@ -332,10 +324,11 @@ msgid ""
 "content that requires authentication, and some traffic exchanged by certain "
 "dynamic Web applications."
 msgstr ""
-"မျှဝေရန် ဘေးမကင်းဟု ယူဆရသော အကြောင်းအရာအချို့ကို အများသုံး ရှာဖွေမှု အသုံးပြု၍ ပြန်ထုတ်သည့်လူ "
-"မည်မျှများသည်ဖြစ်စေ လုံးဝ ထိုးသွင်းမည် မဟုတ်ကြောင်း သတိပြုပါ။ ယင်းတွင် မူလ ဆာဗာမှ သီးသန့်အဖြစ် "
-"မှတ်သားထားသော အကြောင်းအရာ၊ စစ်မှန်ကြောင်း သက်သေပြရန် လိုအပ်သော အကြောင်းအရာနှင့် အချို့သော "
-"တက်ကြွသည့် ဝက်ဘ် အက်ပလီကေးရှင်းများက ဖလှယ်ထားသော အသွားအလာအချို့ ပါဝင်သည်။"
+"မျှဝေရန် ဘေးမကင်းဟု ယူဆရသော အကြောင်းအရာအချို့ကို အများသုံး ရှာဖွေမှု "
+"အသုံးပြု၍ ပြန်ထုတ်သည့်လူ မည်မျှများသည်ဖြစ်စေ လုံးဝ ထိုးသွင်းမည် မဟုတ်ကြောင်း "
+"သတိပြုပါ။ ယင်းတွင် မူလ ဆာဗာမှ သီးသန့်အဖြစ် မှတ်သားထားသော အကြောင်းအရာ၊ "
+"စစ်မှန်ကြောင်း သက်သေပြရန် လိုအပ်သော အကြောင်းအရာနှင့် အချို့သော တက်ကြွသည့် "
+"ဝက်ဘ် အက်ပလီကေးရှင်းများက ဖလှယ်ထားသော အသွားအလာအချို့ ပါဝင်သည်။"
 
 #: browser/troubleshooting.md:block 28 (paragraph)
 msgid ""
