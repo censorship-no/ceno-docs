@@ -8,7 +8,5 @@ test "$1"
 cd "$1"
 
 for po in $(find . -name '*.po'); do
-    tmp="$(mktemp)"
-    msgmerge -q "$po" "../en.pot/${po}t" > "$tmp"
-    mv "$tmp" "$po"
+    msgmerge -q -U "$po" "../en.pot/${po}t"
 done
