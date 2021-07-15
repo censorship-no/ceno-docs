@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-05-07 21:07+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
+"PO-Revision-Date: 2021-07-15 16:53+0000\n"
+"Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-install/fa/>\n"
 "Language: fa\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.7-dev\n"
+"X-Generator: Weblate 4.7.2-dev\n"
 
 #
 #: browser/install.md:block 1 (header)
@@ -44,16 +44,12 @@ msgstr ""
 "دستگاه اندروید بدون گوگل‌پلی."
 
 #: browser/install.md:block 3 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "[Paskoocheh](https://paskoocheh.com/tools/124/android.html): for users in "
-#| "countries blocking access to the previous channels."
 msgid ""
 "[Paskoocheh][ceno-pask]: for users in countries blocking access to the "
 "previous channels."
 msgstr ""
-"[پس‌کوچه](https://paskoocheh.com/tools/124/android.html): برای کاربران ساکن "
-"در کشورهایی که دسترسی به کانال‌های قبلی در آن‌ها مسدود است."
+"[پس‌کوچه][ceno-pask]: برای کاربران ساکن در کشورهایی که دسترسی به کانال‌های "
+"قبلی در آن‌ها مسدود است."
 
 #: browser/install.md:block 4 (paragraph)
 msgid "CENO requires *no special permissions* to run."
@@ -262,4 +258,4 @@ msgstr ""
 
 #: browser/install.md:block 19 (quote)
 msgid "[ceno-pask]: https://paskoocheh.com/tools/124/android.html"
-msgstr ""
+msgstr "[ceno-pask]: https://paskoocheh.com/tools/124/android.html"
