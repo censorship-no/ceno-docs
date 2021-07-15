@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-15 05:03+0200\n"
-"PO-Revision-Date: 2021-07-15 08:14+0000\n"
+"PO-Revision-Date: 2021-07-15 16:53+0000\n"
 "Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/censorship-no/"
 "advantages/es/>\n"
@@ -87,7 +87,7 @@ msgstr ""
 "Esto no solamente es útil cuando la infraestructura que conecta con otros "
 "países está limitada, sino también para que los publicadores eviten picos de "
 "uso de recursos en los servidores de origen cuando alguno de sus contenidos "
-"se torne muy popular (el así llamado [efecto Slashdot][Slashdot effect])."
+"se torne muy popular (el así llamado [efecto Slashdot][efecto Slashdot])."
 
 #: concepts/advantages.md:block 3 (unordered list)
 msgid ""
@@ -104,12 +104,12 @@ msgstr ""
 "servidor de origen está en el extranjero. Si estás interesado en ese "
 "contenido, tu cliente probablemente lo obtendrá desde algún otro cliente en "
 "tu región. En algunos paíeses donde el tráfico internacional es más caro que "
-"el local (ej.: en presencia de una [intranet nacional][National intranet]), "
+"el local (ej.: en presencia de una [intranet nacional][intranet nacional]), "
 "esto realmente puede ahorrarte dinero."
 
 #: concepts/advantages.md:block 3 (unordered list)
 msgid "[Slashdot effect]: https://en.wikipedia.org/wiki/Slashdot_effect"
-msgstr "[Efecto Slashdot]: https://en.wikipedia.org/wiki/Slashdot_effect"
+msgstr "[efecto Slashdot]: https://en.wikipedia.org/wiki/Slashdot_effect"
 
 #: concepts/advantages.md:block 3 (unordered list)
 msgid "[National intranet]: https://en.wikipedia.org/wiki/National_intranet"
