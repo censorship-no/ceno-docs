@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2021-07-15 03:09+0000\n"
-"Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
+"PO-Revision-Date: 2021-07-15 16:53+0000\n"
+"Last-Translator: Zuhualime Akoochimoya <zakooch@protonmail.ch>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/censorship-no/"
 "browser-install/es/>\n"
 "Language: es\n"
@@ -17,31 +17,36 @@ msgstr ""
 #
 #: browser/install.md:block 1 (header)
 msgid "Installing CENO"
-msgstr ""
+msgstr "Instalando CENO"
 
 #: browser/install.md:block 2 (paragraph)
 msgid "The CENO Browser can be installed via the following means:"
 msgstr ""
+"El Navegador CENO puede ser instalado a través de los siguientes medios:"
 
 #: browser/install.md:block 3 (unordered list)
 msgid ""
 "[Google Play][ceno-gplay] (*CENO Browser* from *eQualitie*): the recommended "
 "source for most Android users."
 msgstr ""
+"[Google Play][ceno-gplay] (*Navegador CENO*, de *eQualitie*): la fuente "
+"recomendada para la mayoría de los usuarios de Android."
 
 #: browser/install.md:block 3 (unordered list)
 msgid "[GitHub][ceno-gh]: for Android devices without Google Play."
-msgstr ""
+msgstr "[GitHub][ceno-gh]: para dispositivos Android sin Google Play."
 
 #: browser/install.md:block 3 (unordered list)
 msgid ""
 "[Paskoocheh][ceno-pask]: for users in countries blocking access to the "
 "previous channels."
 msgstr ""
+"[Paskoocheh][ceno-pask]: para usuarios en países que bloquean el acceso a "
+"los canales previos."
 
 #: browser/install.md:block 4 (paragraph)
 msgid "CENO requires *no special permissions* to run."
-msgstr ""
+msgstr "CENO *no requiere permisos especiales* para ejecutarse."
 
 #: browser/install.md:block 5 (quote)
 msgid ""
@@ -52,6 +57,13 @@ msgid ""
 "other CENO and Ouinet users. If in doubt, please contact [cenoers@equalit.ie]"
 "(mailto:cenoers@equalit.ie) before installing a suspicious app."
 msgstr ""
+"**Advertencia:** Por favor sé *extremadamente escéptico* al instalar el "
+"Navegador CENO desde otras fuentes que no sean las listadas arriba. Debido a "
+"la naturaleza de la aplicación, sus usuarios potenciales podrían tornarse en "
+"el blanco de todas clases de versiones falsas o manipuladas, usadas para "
+"violar la privacidad del usuario o atacar a otros usuarios de CENO y Ouinet. "
+"Ante la duda, por favor contacta a [cenoers@equalit."
+"ie](mailto:cenoers@equalit.ie) antes de instalar una aplicación sospechosa."
 
 #: browser/install.md:block 6 (paragraph)
 msgid ""
