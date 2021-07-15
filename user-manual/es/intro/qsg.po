@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-03 02:50+0200\n"
-"PO-Revision-Date: 2021-07-05 15:32+0000\n"
+"PO-Revision-Date: 2021-07-15 08:14+0000\n"
 "Last-Translator: Zuhualime Akoochimoya <zakooch@protonmail.ch>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/censorship-no/"
 "qsg/es/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.8-dev\n"
+"X-Generator: Weblate 4.7.2-dev\n"
 
 #
 #: intro/qsg.md:block 1 (header)
@@ -44,6 +44,8 @@ msgid ""
 "Install the CENO Browser from [Google Play][ceno-gplay], [GitHub][ceno-gh] "
 "or [Paskoocheh][ceno-pask]. *No special permissions are needed*."
 msgstr ""
+"Instala el Navegador CENO desde [Google Play][ceno-gplay], [GitHub][ceno-gh] "
+"o [Paskoocheh][ceno-pask]. *No se necesitan permisos especiales*."
 
 #: intro/qsg.md:block 5 (ordered list)
 msgid ""
