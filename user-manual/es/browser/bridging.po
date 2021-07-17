@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2021-07-17 10:14+0000\n"
+"PO-Revision-Date: 2021-07-18 10:33+0000\n"
 "Last-Translator: Zuhualime Akoochimoya <zakooch@protonmail.ch>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/censorship-no/"
 "browser-bridging/es/>\n"
@@ -150,7 +150,7 @@ msgstr ""
 
 #: browser/bridging.md:block 10 (header)
 msgid "Enabling UPnP on your Wi-Fi router"
-msgstr ""
+msgstr "Habilitando UPnP en tu enrutador Wi-Fi"
 
 #: browser/bridging.md:block 11 (paragraph)
 msgid ""
@@ -158,6 +158,10 @@ msgid ""
 "CENO network. The [CENO Settings](settings.md) page will indicate the UPnP "
 "status on your local network."
 msgstr ""
+"[\"Plug and Play\" Universal][UPnP] es la manera más fácil de hacer que tu "
+"Navegador CENO sea alcanzable para la red CENO. La página de ["
+"Configuraciones de CENO](settings.md) indicará el estado de UPnP en tu red "
+"local."
 
 #: browser/bridging.md:block 12 (quote)
 msgid ""
@@ -165,6 +169,10 @@ msgid ""
 "network to external interference. Please make yourself [aware of the risks]"
 "[upnp-risks] and also consider using alternative methods as explained below."
 msgstr ""
+"**Nota:** Habilitar UPnP en el enrutador Wi-Fi podría exponer a los "
+"dispositivos en tu red a interferencia externa. Por favor sé [ conciente de "
+"los riesgos][upnp-risks] y también considera usar métodos alternativos como "
+"se explicó abajo."
 
 #: browser/bridging.md:block 13 (paragraph)
 msgid "![Figure: UPnP not enabled](images/upnp-no.png)"
