@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2021-07-18 10:33+0000\n"
+"PO-Revision-Date: 2021-07-19 10:16+0000\n"
 "Last-Translator: Zuhualime Akoochimoya <zakooch@protonmail.ch>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/censorship-no/"
 "browser-bridging/es/>\n"
@@ -176,33 +176,39 @@ msgstr ""
 
 #: browser/bridging.md:block 13 (paragraph)
 msgid "![Figure: UPnP not enabled](images/upnp-no.png)"
-msgstr ""
+msgstr "![Figura: UPnP no habilitado](images/upnp-no.png)"
 
 #: browser/bridging.md:block 14 (paragraph)
 msgid ""
 "A status like the one shown in the previous figure indicates that UPnP is "
 "not enabled on your WiFi router."
 msgstr ""
+"Un estado como el mostrado en la figura previa indica que UPnP no está "
+"habilitado en tu enrutador Wi-Fi."
 
 #: browser/bridging.md:block 15 (paragraph)
 msgid "![Figure: UPnP likely enabled](images/upnp-maybe.png)"
-msgstr ""
+msgstr "![Figura: UPnP probablemente habilitado](images/upnp-maybe.png)"
 
 #: browser/bridging.md:block 16 (paragraph)
 msgid ""
 "The status above indicates that UPnP is likely working and CENO is currently "
 "verifying connectivity."
 msgstr ""
+"El estado de arriba indica que UPnP probablemente está funcionando, y en "
+"este momento CENO está verificando la conectividad."
 
 #: browser/bridging.md:block 17 (paragraph)
 msgid "![Figure: UPnP enabled](images/upnp-yes.png)"
-msgstr ""
+msgstr "![Figura: UPnP habilitado](images/upnp-yes.png)"
 
 #: browser/bridging.md:block 18 (paragraph)
 msgid ""
 "The status above indicates that UPnP is working and you can bridge "
 "connections for other CENO users."
 msgstr ""
+"El estado de arriba indica que UPnP está funcionando, y puedes actuar como "
+"puente para las conexiones de otros usuarios de CENO."
 
 #: browser/bridging.md:block 19 (paragraph)
 msgid ""
@@ -210,34 +216,41 @@ msgid ""
 "features. Herein a list of some manufacturers' instructions for enabling "
 "UPnP:"
 msgstr ""
+"Hay muchos enrutadores Wi-Fi en el mercado, y cada uno tiene sus propias "
+"características particulares. He aquí una lista de las instrucciones de "
+"algunos fabricantes para habilitar UPnP:"
 
 #: browser/bridging.md:block 20 (unordered list)
 msgid "[Linksys](https://www.linksys.com/us/support-article?articleNum=138290)"
-msgstr ""
+msgstr "[Linksys](https://www.linksys.com/us/support-article?articleNum=138290)"
 
 #: browser/bridging.md:block 20 (unordered list)
 msgid ""
 "[D-Link](https://eu.dlink.com/uk/en/support/faq/routers/wired-routers/di-"
 "series/how-do-i-enable-upnp-on-my-router)"
 msgstr ""
+"[D-Link](https://eu.dlink.com/uk/en/support/faq/routers/wired-routers/"
+"di-series/how-do-i-enable-upnp-on-my-router)"
 
 #: browser/bridging.md:block 20 (unordered list)
 msgid "[Huawei](https://consumer.huawei.com/ph/support/content/en-us00275342/)"
-msgstr ""
+msgstr "[Huawei](https://consumer.huawei.com/ph/support/content/en-us00275342/)"
 
 #: browser/bridging.md:block 20 (unordered list)
 msgid ""
 "[Xfinity](https://www.xfinity.com/support/articles/configure-device-"
 "discovery-for-wifi)"
 msgstr ""
+"[Xfinity](https://www.xfinity.com/support/articles/configure-device-"
+"discovery-for-wifi)"
 
 #: browser/bridging.md:block 20 (unordered list)
 msgid "[TP-Link](https://community.tp-link.com/us/home/kb/detail/348)"
-msgstr ""
+msgstr "[TP-Link](https://community.tp-link.com/us/home/kb/detail/348)"
 
 #: browser/bridging.md:block 21 (header)
 msgid "Using port forwarding as an alternative to UPnP"
-msgstr ""
+msgstr "Usando redireccionamiento de puertos como alternativa a UPnP"
 
 #: browser/bridging.md:block 22 (paragraph)
 msgid ""
@@ -248,10 +261,18 @@ msgid ""
 "forward the connections to and the relevant port, open the *CENO Settings* "
 "page and look under the *Local UDP endpoint(s)*."
 msgstr ""
+"En vez de habilitar UPnP en tu enrutador, puedes crear una regla de "
+"redireccionamiento de puerto para asegurarte que las conexiones desde la red "
+"CENO sean dirigidas a tu dispositivo. Necesitarás iniciar sesión en la "
+"interfaz administrativa del enrutador, y ubicar la opción *"
+"redireccionamiento de puertos*. Para ver a cuál dirección IP necesitas "
+"redirigir las conexiones y el puerto relevante, abre la página *"
+"Configuraciones de CENO* y mira la sección *Punto(s) final(es) UDP "
+"local(es)*."
 
 #: browser/bridging.md:block 23 (paragraph)
 msgid "![Figure: Local UDP endpoints](images/udp-port.png)"
-msgstr ""
+msgstr "![Figura: Puntos finales UDP locales](images/udp-port.png)"
 
 #: browser/bridging.md:block 24 (paragraph)
 msgid ""
@@ -261,6 +282,12 @@ msgid ""
 "periodically review the *CENO Settings* page to see that your device is "
 "reachable to the CENO network."
 msgstr ""
+"La redirección de puerto debe ser para el protocolo UDP (no TCP). CENO elige "
+"un puerto aleatorio en la primera ejecución y lo mantiene por las "
+"subsiguientes, pero la dirección IP de tu dispositivo en la red local podría "
+"cambiar de tiempo en tiempo. Por lo que periódicamente deberías revisar la "
+"página *Configuraciones de CENO* para ver que tu dispositivo sea alcanzable "
+"para la red CENO."
 
 #: browser/bridging.md:block 25 (quote)
 msgid ""
@@ -268,16 +295,21 @@ msgid ""
 "assigns the same IP address to your device (e.g. via a static DHCP lease for "
 "the device's MAC address)."
 msgstr ""
+"**Nota tácnica:** Alternativamente, puedes asegurarte de que el enrutador "
+"siempre confiera la misma dirección IP a tu dispositivo (ej., a través de "
+"una asignación DHCP estática para la dirección MAC del dispositivo)."
 
 #: browser/bridging.md:block 25 (quote)
 msgid ""
 "[Doze mode]: https://developer.android.com/training/monitoring-device-state/"
 "doze-standby"
 msgstr ""
+"[Modo doze]: https://developer.android.com/training/monitoring-device-state/"
+"doze-standby"
 
 #: browser/bridging.md:block 25 (quote)
 msgid "[Dont't kill my app!]: https://dontkillmyapp.com/"
-msgstr ""
+msgstr "[¡No mates a mi aplicación!]: https://dontkillmyapp.com/"
 
 #: browser/bridging.md:block 25 (quote)
 msgid "[UPnP]: https://en.wikipedia.org/wiki/Universal_Plug_and_Play"
@@ -288,3 +320,5 @@ msgid ""
 "[upnp-risks]: https://www.howtogeek.com/122487/htg-explains-is-upnp-a-"
 "security-risk"
 msgstr ""
+"[Riesgos de UPnP]: https://www.howtogeek.com/122487/htg-explains-is-upnp-a"
+"-security-risk"
