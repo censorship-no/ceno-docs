@@ -1,6 +1,7 @@
 [book]
 authors = ["Ivan Vilata-i-Balaguer", "Dmitri Vitaliev", "Jenny Ryan"]
 language = "fa"
+_direction = "rtl"
 multilingual = false
 src = "fa.src"
 title = "دفترچه‌ی راهنمای کاربر Censorship.no! (سنو)"
