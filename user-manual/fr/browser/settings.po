@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2021-04-23 07:32+0000\n"
-"Last-Translator: J. Lavoie <j.lavoie@net-c.ca>\n"
+"PO-Revision-Date: 2021-07-19 10:16+0000\n"
+"Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/censorship-no/"
 "browser-settings/fr/>\n"
 "Language: fr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.7-dev\n"
+"X-Generator: Weblate 4.7.2-dev\n"
 
 #
 #: browser/settings.md:block 1 (header)
@@ -87,12 +87,6 @@ msgid "Choosing access mechanisms"
 msgstr "Choix des mécanismes d’accès"
 
 #: browser/settings.md:block 7 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "The four check boxes on the top of the page selectively enable or disable "
-#| "the different mechanisms or *sources* that CENO as a Ouinet client uses "
-#| "to retrieve content while using either [public or private browsing]"
-#| "(public-private.md) tabs. All boxes are enabled by default."
 msgid ""
 "The four checkboxes on the top of the page selectively enable or disable the "
 "different mechanisms or *sources* that CENO as a Ouinet client uses to "
@@ -102,8 +96,8 @@ msgstr ""
 "Les quatre cases à cocher en haut de la page permettent d’activer ou de "
 "désactiver sélectivement les différents mécanismes ou *sources* que CENO, en "
 "tant que client Ouinet, utilise pour récupérer du contenu en utilisant les "
-"onglets [navigation publique ou privée] (public-private.md). Toutes les "
-"cases sont activées par défaut."
+"onglets [navigation publique ou privée](public-private.md). Toutes les cases "
+"sont activées par défaut."
 
 #: browser/settings.md:block 8 (unordered list)
 msgid ""
