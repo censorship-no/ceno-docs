@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-05-07 21:07+0000\n"
+"PO-Revision-Date: 2021-07-21 23:33+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-readme/fa/>\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.7-dev\n"
+"X-Generator: Weblate 4.7.2-dev\n"
 
 #
 #: browser/README.md:block 1 (header)
@@ -32,11 +32,11 @@ msgid ""
 "questions on generic browsing topics you should refer to Mozilla's [Firefox "
 "for Android Support][Firefox for Android Support] pages."
 msgstr ""
-"این فصل درباره‌ی استفاده از مرورگر سنو در مورد توانایی‌های آن در رابطه با وینت "
-"سرنخ‌هایی به شما می‌دهد. لطفاً همیشه به یاد داشته باشید که سنو بر اساس "
-"[فایرفاکس برای اندروید](https://www.mozilla.org/firefox/android/) ساخته شده "
-"است، بنابراین برای هرگونه کمکی درباره‌ی بحث عمومی مرورگری باید به صفحات "
-"[پشتیبانی فایرفاکس برای اندروید](https://support.mozilla.org/en-US/products/"
+"این فصل درباره‌ی استفاده از مرورگر سنو در مورد توانایی‌های آن در رابطه با "
+"وینت سرنخ‌هایی به شما می‌دهد. لطفاً همیشه به یاد داشته باشید که سنو بر اساس ["
+"فایرفاکس برای اندروید](https://www.mozilla.org/firefox/android) ساخته شده "
+"است، بنابراین برای هرگونه کمکی درباره‌ی بحث عمومی مرورگری باید به صفحات ["
+"پشتیبانی فایرفاکس برای اندروید](https://support.mozilla.org/en-US/products/"
 "mobile) موزیلا مراجعه کنید."
 
 #: browser/README.md:block 3 (paragraph)
@@ -58,23 +58,18 @@ msgstr ""
 "۰.۰.۲۲ به‌روز است."
 
 #: browser/README.md:block 4 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "If your application shows some looks or behavior substantially different "
-#| "from that described in here, do not hesitate to contact us at "
-#| "[cenoers@equalit.ie](mailto:cenoers@equalit.ie) and report the issue."
 msgid ""
 "If your application exhibits behaviors substantially different from those "
 "described here, do not hesitate to contact us at [cenoers@equalit.ie](mailto:"
 "cenoers@equalit.ie) and report the issue."
 msgstr ""
-"اگر نرم‌افزار شما در ظاهر یا رفتار تفاوت عمده‌ای را با آن‌چه در این‌جا توصیف شد "
-"نشان می‌دهد، در تماس با ما با نشانی [cenoers@equalit.ie](mailto:"
-"cenoers@equalit.ie) مکث نکنید و مشکل را گزارش کنید."
+"اگر نرم‌افزار شما در ظاهر یا رفتار تفاوت عمده‌ای را با آن‌چه در این‌جا توصیف "
+"شد نشان می‌دهد، در تماس با ما با نشانی [cenoers@equalit."
+"ie](mailto:cenoers@equalit.ie) مکث نکنید و مشکل را گزارش کنید."
 
 #: browser/README.md:block 4 (paragraph)
 msgid "[Firefox for Android]: https://www.mozilla.org/firefox/android/"
-msgstr ""
+msgstr "[Firefox for Android]: https://www.mozilla.org/firefox/android"
 
 #: browser/README.md:block 4 (paragraph)
 msgid ""
