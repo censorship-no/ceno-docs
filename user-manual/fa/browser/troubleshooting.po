@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-05-07 21:07+0000\n"
+"PO-Revision-Date: 2021-07-21 23:33+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-troubleshooting/fa/>\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.7-dev\n"
+"X-Generator: Weblate 4.7.2-dev\n"
 
 #
 #: browser/troubleshooting.md:block 1 (header)
@@ -154,11 +154,6 @@ msgstr ""
 "مشترک وای‌فای برای اشتراک‌گذاری دستگاه‌-به‌-دستگاه بیابند)."
 
 #: browser/troubleshooting.md:block 16 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "If that is the case, it is worth explaining what may be happening for all "
-#| "access mechanisms to fail, so that you get an idea of the chances that "
-#| "you have to get content using CENO."
 msgid ""
 "If that is the case, it is worth explaining what may be happening for all "
 "access mechanisms to fail, to give you an idea of your chances for getting "
