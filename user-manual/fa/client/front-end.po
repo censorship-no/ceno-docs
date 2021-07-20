@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-05-07 21:10+0000\n"
+"PO-Revision-Date: 2021-07-21 23:33+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "client-front-end/fa/>\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.7-dev\n"
+"X-Generator: Weblate 4.7.2-dev\n"
 
 #
 #: client/front-end.md:block 1 (header)
@@ -56,14 +56,6 @@ msgstr ""
 "چون سرویس‌گیرنده نیاز به رهگیریِ ترافیک HTTPS دارد."
 
 #: client/front-end.md:block 6 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "You only need this to use a plain browser for testing the Ouinet client, "
-#| "in which case you will also have to configure its HTTP/HTTPS proxies to "
-#| "`127.0.0.1:8077`, and manually enable the [CENO Extension](https://github."
-#| "com/censorship-no/ceno-ext-settings/) for injection to work. We very "
-#| "strongly recommend using a *separate, specific browser profile* for this "
-#| "purpose."
 msgid ""
 "You only need this to use a plain browser for testing the Ouinet client, in "
 "which case you will also have to configure its HTTP/HTTPS proxies to "
@@ -71,10 +63,11 @@ msgid ""
 "for injection to work. We very strongly recommend using a *separate, "
 "specific browser profile* for this purpose."
 msgstr ""
-"شما فقط به این نیاز دارید تا برای آزمودن سرویس‌گیرنده‌ی وینت از یک مرورگر ساده "
-"استفاده کنید، که در آن صورت بایستی پروکسی‌های HTTP/HTTPS آن را هم روی "
-"`127.0.0.1:8077` تنظیم کنید، و [افزونه‌ی سنو](https://github.com/censorship-"
-"no/ceno-ext-settings/) را هم به صورت دستی فعال کنید تا انژکشن به کار بیفتد."
+"شما فقط به این نیاز دارید تا برای آزمودن سرویس‌گیرنده‌ی وینت از یک مرورگر "
+"ساده استفاده کنید، که در آن صورت بایستی پروکسی‌های HTTP/HTTPS آن را هم روی "
+"`127.0.0.1:8077` تنظیم کنید، و [افزونه‌ی سنو](https://github.com/"
+"censorship-no/ceno-ext-settings) را هم به صورت دستی فعال کنید تا انژکشن به "
+"کار بیفتد."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
@@ -126,4 +119,4 @@ msgstr ""
 
 #: client/front-end.md:block 6 (unordered list)
 msgid "[CENO Extension]: https://github.com/censorship-no/ceno-ext-settings/"
-msgstr ""
+msgstr "[CENO Extension]: https://github.com/censorship-no/ceno-ext-settings/"
