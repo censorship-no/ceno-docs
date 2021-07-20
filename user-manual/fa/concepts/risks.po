@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-05-07 21:10+0000\n"
+"PO-Revision-Date: 2021-07-21 23:33+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "risks/fa/>\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.7-dev\n"
+"X-Generator: Weblate 4.7.2-dev\n"
 
 #
 #: concepts/risks.md:block 1 (header)
@@ -309,4 +309,4 @@ msgstr ""
 
 #: concepts/risks.md:block 31 (paragraph)
 msgid "[National intranet]: https://en.wikipedia.org/wiki/National_intranet"
-msgstr ""
+msgstr "[National intranet]: https://en.wikipedia.org/wiki/National_intranet"
