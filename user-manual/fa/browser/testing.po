@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-05-07 21:30+0000\n"
+"PO-Revision-Date: 2021-07-21 23:33+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-testing/fa/>\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.7-dev\n"
+"X-Generator: Weblate 4.7.2-dev\n"
 
 #
 #: browser/testing.md:block 1 (header)
@@ -39,14 +39,6 @@ msgstr ""
 "شبکه‌ی وای‌فای مشترک وصل باشند، و نیز یک دستگاه سوم روی یک شبکه‌ی کاملاً متفاوت."
 
 #: browser/testing.md:block 4 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "All the tests will be performed using [public browsing](public-private."
-#| "md). If something does not work as expected, please be patient and check "
-#| "the section on [troubleshooting](troubleshooting.md). Specifically, if "
-#| "the browser gets stuck for more than a couple of minutes while loading a "
-#| "page, you may hit stop and reload it (although this may alter results "
-#| "slightly)."
 msgid ""
 "All of the tests will be performed using [public browsing](public-private."
 "md). If something does not work as expected, please be patient and check the "
@@ -54,12 +46,12 @@ msgid ""
 "browser gets stuck for more than a couple of minutes while loading a page, "
 "you may hit stop and reload it (although this may alter results slightly)."
 msgstr ""
-"تمام تست‌ها با استفاده از [مرور عمومی](public-private.md) اجرا خواهند شد. اگر "
-"چیزی طبق انتظار کار نکرد، لطفاً بردبار باشید و بخش مربوط به [شناسایی و رفع "
-"اشکالات](troubleshooting.md) را چک کنید. به‌طور مشخص، اگر مرورگر در حین "
-"بارگذاری یک صفحه بیشتر از چند دقیقه گیر کرد، می‌توانید دکمه‌ی توقف را بفشارید "
-"و آن را از نو بارگذاری کنید (گرچه این کار ممکن است باعث تغییر اندکی در نتایج "
-"شود)."
+"تمام تست‌ها با استفاده از [مرور عمومی](public-private.md) اجرا خواهند شد. "
+"اگر چیزی طبق انتظار کار نکرد، لطفاً بردبار باشید و بخش مربوط به [شناسایی و "
+"رفع اشکالات](troubleshooting.md) را چک کنید. به‌طور مشخص، اگر مرورگر در حین "
+"بارگذاری یک صفحه بیشتر از چند دقیقه گیر کرد، می‌توانید دکمه‌ی توقف را "
+"بفشارید و آن را از نو بارگذاری کنید (گرچه این کار ممکن است باعث تغییر اندکی "
+"در نتایج شود)."
 
 #: browser/testing.md:block 5 (header)
 msgid "Accessing an injector"
@@ -90,8 +82,6 @@ msgstr ""
 "تلاش برای تماس با تزریق‌کننده از طریق یک سرویس‌گیرنده‌ی وینت."
 
 #: browser/testing.md:block 7 (paragraph)
-#, fuzzy
-#| msgid "In the first device perform the following steps:"
 msgid "On the first device perform the following steps:"
 msgstr "در نخستین دستگاه این مرحله‌ها را اجرا کنید:"
 
@@ -308,11 +298,6 @@ msgstr ""
 "هستند."
 
 #: browser/testing.md:block 24 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "If the third device can load the site used for the test, you are all set. "
-#| "The first device is able to seed content to others, and it can most "
-#| "probably also act as a bridge. Congratulations!"
 msgid ""
 "If the third device can load the site used for the test, you are all set. "
 "The first device is able to seed content to others, and it can most probably "
