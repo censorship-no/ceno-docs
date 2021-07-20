@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-05-07 21:07+0000\n"
+"PO-Revision-Date: 2021-07-21 23:33+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-public-private/fa/>\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.7-dev\n"
+"X-Generator: Weblate 4.7.2-dev\n"
 
 #
 #: browser/public-private.md:block 1 (header)
@@ -17,21 +17,15 @@ msgid "Using public or private browsing"
 msgstr "استفاده از مرورگر عمومی یا خصوصی"
 
 #: browser/public-private.md:block 2 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "As described [in a previous section](../concepts/public-private.md), CENO "
-#| "has two different modes of operation depending on whether you want to "
-#| "share with others the content that you browse (public browsing) or not "
-#| "(private browsing)."
 msgid ""
 "As described [in a previous section](../concepts/public-private.md), CENO "
 "has two different modes of operation depending on whether you want to share "
 "the content that you browse with others (public browsing) or not (private "
 "browsing)."
 msgstr ""
-"همان‌طور که [در بخش پیشین](../concepts/public-private.md) توصیف کردیم، سنو دو "
-"حالت یا شیوه‌ی مختلف عملیات دارد، بسته به این‌که آیا می‌خواهید محتوایی را که "
-"دارید مرور می‌کنید با دیگران به اشتراک بگذارید (مرور عمومی) یا خیر (مرور "
+"همان‌طور که [در بخش پیشین](../concepts/public-private.md) توصیف کردیم، سنو "
+"دو حالت یا شیوه‌ی مختلف عملیات دارد، بسته به این‌که آیا می‌خواهید محتوایی را "
+"که دارید مرور می‌کنید با دیگران به اشتراک بگذارید (مرور عمومی) یا خیر (مرور "
 "خصوصی)."
 
 #: browser/public-private.md:block 3 (paragraph)
