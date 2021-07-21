@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-16 04:02+0200\n"
 "PO-Revision-Date: 2021-07-21 18:21+0000\n"
-"Last-Translator: Tun Tun AUNG <tuntunaung@codingclassroom.org>\n"
+"Last-Translator: Thei Su San <tsusan.mm@gmail.com>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "how/my/>\n"
 "Language: my\n"
@@ -243,14 +243,17 @@ msgid ""
 "make it available to other clients in the distributed cache. Please read on "
 "to learn how."
 msgstr ""
+"Ouinet တွင်ထိုသို့ရှာဖွေမရသည့် အကြောင်းအရာများကို ရှာဖွေနိုင်ရန် နှင့် "
+"အခြားလက်ခံစက်များမှ ယင်းအကြောင်းအရာများကို ဖြန့်ချီထားသော ယာယီမှတ်ဉာဏ်တွင် "
+"ရှာဖွေနိုင်သည့် နည်းလမ်းကို ထည့်သွင်းထားသည်။"
 
 #: concepts/how.md:block 17 (header)
 msgid "Sharing new content"
-msgstr ""
+msgstr "အကြောင်းအရာသစ်များကို မျှဝေခြင်း"
 
 #: concepts/how.md:block 18 (header)
 msgid "Proxies on steroids"
-msgstr ""
+msgstr "ထူးကဲစွမ်းရည်ရှိသည့် ပရောက်စီများ"
 
 #: concepts/how.md:block 19 (paragraph)
 msgid ""
@@ -258,6 +261,10 @@ msgid ""
 "which sit in the (hopefully) free side of the Internet and try very hard to "
 "stay reachable despite blocking measures:"
 msgstr ""
+"Ouinet တွင် အထူးပရောက်စီ အမျိုးအစားများ ဖြစ်သည့် **ထိုးသွင်းစက်များ** "
+"ပါဝင်သည်။ ၎င်းတို့ကို အင်တာနက်၏ လွတ်လပ်သော အခြမ်းတွင် အထိုင်ချထားသည့် အတွက် "
+"ပိတ်ဆို့မှုနည်းလမ်းများသုံးသည့်တိုင် အသုံးပြုသူများမှ ၎င်းတို့ကို "
+"လက်လှမ်းမီစေမည် ဖြစ်သည်။"
 
 #: concepts/how.md:block 20 (unordered list)
 msgid ""
