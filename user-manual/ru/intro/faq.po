@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-03 02:50+0200\n"
-"PO-Revision-Date: 2021-07-21 23:33+0000\n"
+"PO-Revision-Date: 2021-07-22 13:33+0000\n"
 "Last-Translator: Adam K <uz@zu.uz>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/censorship-no/"
 "faq/ru/>\n"
@@ -243,7 +243,7 @@ msgstr ""
 
 #: intro/faq.md:block 28 (header)
 msgid "Does the CENO Browser use a lot of battery on my device?"
-msgstr "Потребляет ли CENO Browser больше заряда батареи на моем устройстве?"
+msgstr "Потребляет ли Браузер CENO больше заряда батареи на моем устройстве?"
 
 #: intro/faq.md:block 30 (paragraph)
 msgid ""
