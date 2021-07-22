@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2021-07-22 13:33+0000\n"
+"PO-Revision-Date: 2021-07-23 04:34+0000\n"
 "Last-Translator: Tun Tun AUNG <tuntunaung@codingclassroom.org>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "browser-readme/my/>\n"
@@ -59,6 +59,7 @@ msgstr ""
 "တိုင်ကြားရန် ဝန်မလေးပါနှင့်။"
 
 #: browser/README.md:block 4 (paragraph)
+#, fuzzy
 msgid "[Firefox for Android]: https://www.mozilla.org/firefox/android/"
 msgstr "[Firefox for Android]: https://www.mozilla.org/firefox/android/"
 
