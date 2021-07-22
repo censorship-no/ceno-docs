@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-02 02:42+0200\n"
-"PO-Revision-Date: 2021-07-03 06:32+0000\n"
+"PO-Revision-Date: 2021-07-21 23:33+0000\n"
 "Last-Translator: Tun Tun AUNG <tuntunaung@codingclassroom.org>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "user-manual/my/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.8-dev\n"
+"X-Generator: Weblate 4.7.2-dev\n"
 
 #
 #: SUMMARY.md:block 1 (header)
@@ -73,7 +73,9 @@ msgstr "[CENO ထည့်သွင်းခြင်း](browser/install.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Using public or private browsing](browser/public-private.md)"
-msgstr "[အများသုံး သို့မဟုတ် သီးသန့် ရှာဖွေမှုကို အသုံးပြုခြင်း](browser/public-private.md)"
+msgstr ""
+"[အများသုံး သို့မဟုတ် သီးသန့် ရှာဖွေမှုကို အသုံးပြုခြင်း](browser/public-"
+"private.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[CENO settings](browser/settings.md)"
@@ -93,4 +95,5 @@ msgstr "[ပြဿနာ ဖြေရှင်းခြင်း](browser/troubl
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Annex: The Ouinet client front-end](client/front-end.md)"
-msgstr "[နောက်ဆက်တွဲ- Ouinet လက်ခံစက် သုံးစွဲသူ ကြားခံစနစ်](client/front-end.md)"
+msgstr ""
+"[နောက်ဆက်တွဲ- Ouinet လက်ခံစက် သုံးစွဲသူ ကြားခံစနစ်](client/front-end.md)"

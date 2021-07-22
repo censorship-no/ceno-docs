@@ -3,21 +3,22 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-16 04:04+0200\n"
-"PO-Revision-Date: 2021-03-16 03:04+0000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2021-07-21 23:33+0000\n"
+"Last-Translator: Adam K <uz@zu.uz>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/censorship-no/"
+"browser-testing/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.5.2-dev\n"
+"X-Generator: Weblate 4.7.2-dev\n"
 
 #
 #: browser/testing.md:block 1 (header)
 msgid "Testing the Browser"
-msgstr ""
+msgstr "Тестирование браузера"
 
 #: browser/testing.md:block 2 (paragraph)
 msgid ""
@@ -27,12 +28,21 @@ msgid ""
 "different access mechanisms. Keep in mind however that in day-to-day usage "
 "of CENO, you will seldom need to change the default settings at all."
 msgstr ""
+"Теперь, когда вы знаете, как [установить](install.md) и [настроить](settings."
+"md) CENO, давайте выполним несколько шагов, чтобы проверить, работают ли "
+"различные функции, специфичные для Ouinet. Это включает в себя выборочное "
+"включение и отключение различных механизмов доступа. Помните, что при "
+"повседневном использовании CENO вам редко придется изменять настройки по "
+"умолчанию."
 
 #: browser/testing.md:block 3 (paragraph)
 msgid ""
 "To complete all the tests below you will need at least two devices connected "
 "to the same Wi-Fi network, and a third one on a completely different network."
 msgstr ""
+"Для выполнения всех приведенных ниже тестов вам потребуется как минимум два "
+"устройства, подключенных к одной и той же сети Wi-Fi, а третье - к "
+"совершенно другой сети."
 
 #: browser/testing.md:block 4 (paragraph)
 msgid ""
@@ -42,10 +52,16 @@ msgid ""
 "browser gets stuck for more than a couple of minutes while loading a page, "
 "you may hit stop and reload it (although this may alter results slightly)."
 msgstr ""
+"Все тесты будут проводиться с использованием [публичного просмотра](public-"
+"private.md). Если что-то работает не так, как ожидалось, пожалуйста, "
+"наберитесь терпения и ознакомьтесь с разделом [устранение "
+"неполадок](troubleshooting.md). В частности, если браузер застревает при "
+"загрузке страницы более чем на пару минут, вы можете остановить и "
+"перезагрузить ее (хотя это может несколько изменить результаты)."
 
 #: browser/testing.md:block 5 (header)
 msgid "Accessing an injector"
-msgstr ""
+msgstr "Доступ к инъектору"
 
 #: browser/testing.md:block 6 (paragraph)
 msgid ""
@@ -56,10 +72,16 @@ msgid ""
 "provider or country, looking up the bridge swarm and trying to contact the "
 "injector via some other Ouinet client."
 msgstr ""
+"Сначала давайте проверим, может ли ваш Браузер CENO связаться с инъектором. "
+"Это может показаться тривиальным, но ваш клиент уже будет использовать "
+"несколько функций Ouinet: искать адрес инъектора в узле инъекторов, пытаться "
+"связаться с ним напрямую и, если он заблокирован вашим провайдером доступа "
+"или страной, искать узел моста и пытаться связаться с инъектором через какой-"
+"либо другой клиент Ouinet."
 
 #: browser/testing.md:block 7 (paragraph)
 msgid "On the first device perform the following steps:"
-msgstr ""
+msgstr "На первом устройстве выполните следующие действия:"
 
 #: browser/testing.md:block 8 (ordered list)
 msgid ""
@@ -67,6 +89,9 @@ msgid ""
 "introductory screens will appear: just click on *NEXT* until *START "
 "BROWSING* appears, then click it. In the end, CENO's home page will appear."
 msgstr ""
+"Прежде всего, установите CENO и запустите его. При первом запуске появится "
+"ряд вводных экранов: просто нажмите на *NEXT*, пока не появится *START "
+"BROWSING*, затем нажмите на него. В конце появится главная страница CENO."
 
 #: browser/testing.md:block 8 (ordered list)
 msgid ""
@@ -74,6 +99,9 @@ msgid ""
 "Since we only want to test injector access, uncheck all the boxes for access "
 "mechanisms except *Via the CENO network (public)*."
 msgstr ""
+"Откройте главное меню приложения и выберите *CENO*, чтобы открыть страницу *"
+"Настройки CENO*. Поскольку мы хотим проверить только доступ к инжектору, "
+"снимите флажки со всех механизмов доступа, кроме *В публичной сети CENO*."
 
 #: browser/testing.md:block 8 (ordered list)
 msgid ""
@@ -82,10 +110,14 @@ msgid ""
 "window. If you know about a site which is usually blocked for you, go ahead "
 "and enter it!"
 msgstr ""
+"Вернитесь на домашнюю страницу CENO. Либо выберите один из рекомендованных "
+"веб-сайтов, либо введите URL-адрес другого сайта в адресной строке в верхней "
+"части окна. Если вы знаете сайт, который обычно для вас заблокирован, "
+"введите его!"
 
 #: browser/testing.md:block 8 (ordered list)
 msgid "The chosen site should eventually show up."
-msgstr ""
+msgstr "В итоге должен отобразиться нужный сайт."
 
 #: browser/testing.md:block 9 (paragraph)
 msgid ""
@@ -93,6 +125,10 @@ msgid ""
 "injector! Since you are able to query swarms and contact other clients, you "
 "are also likely to be able to retrieve content from the distributed cache."
 msgstr ""
+"Если сайт загружается, вы можете быть довольны тем, что ваше устройство "
+"может связаться с инъектором! Поскольку вы можете запрашивать узлы и "
+"связываться с другими клиентами, вы также, скорее всего, сможете получить "
+"содержимое из распределенного кэша."
 
 #: browser/testing.md:block 10 (paragraph)
 msgid ""
@@ -102,11 +138,18 @@ msgid ""
 "network (public)* should have a non-zero value since the other mechanisms "
 "were disabled."
 msgstr ""
+"Кстати, если нажать на значок CENO в адресной строке, откроется всплывающее "
+"окно, как показано ниже, показывающее, сколько элементов с сайта было "
+"получено с помощью каждого из различных механизмов доступа. Только *В "
+"публичной сети CENO* должно иметь ненулевое значение, поскольку другие "
+"механизмы будут отключены."
 
 #: browser/testing.md:block 11 (paragraph)
 msgid ""
 "![Figure: Mechanisms used when testing injection](images/sources-inject.png)"
 msgstr ""
+"![Рисунок: Схемы, используемые при тестировании инъекций](images/sources-"
+"inject.png)"
 
 #: browser/testing.md:block 12 (paragraph)
 msgid ""
@@ -114,15 +157,20 @@ msgid ""
 "have seen a popup like the one below, with non-zero counts in *Direct from "
 "website* or *Via CENO network (private)*."
 msgstr ""
+"С другой стороны, если вы использовали приватный просмотр с настройками по "
+"умолчанию, вы могли увидеть всплывающее окно, подобное приведенному ниже, с "
+"ненулевыми показателями в *Напрямую с веб-сайта* или *В приватной сети CENO*."
 
 #: browser/testing.md:block 13 (paragraph)
 msgid ""
 "![Figure: Mechanisms used with private browsing](images/sources-proxy.png)"
 msgstr ""
+"![Рисунок: Схемы, используемые при приватном просмотре] (images/sources-proxy"
+".png)"
 
 #: browser/testing.md:block 14 (header)
 msgid "Getting content from close users"
-msgstr ""
+msgstr "Получение контента от близких пользователей"
 
 #: browser/testing.md:block 15 (paragraph)
 msgid ""
@@ -131,6 +179,11 @@ msgid ""
 "cache. The simplest way is to use CENO's device-to-device support to check "
 "whether getting and verifying signed content works."
 msgstr ""
+"Поскольку ваше первое устройство смогло получить некоторое содержимое от "
+"инъектора, давайте проверим, может ли оно поделиться им с другим устройством "
+"через распределенный кэш. Самый простой способ - использовать поддержку CENO "
+"между устройствами, чтобы проверить, работает ли получение и проверка "
+"подписанного контента."
 
 #: browser/testing.md:block 16 (paragraph)
 msgid ""
@@ -139,11 +192,18 @@ msgid ""
 "device (you can invite a friend over to help test) and connect it to the "
 "same Wi-Fi network. Next, follow the steps below on that device:"
 msgstr ""
+"После выполнения описанной выше проверки на первом устройстве оставьте CENO "
+"запущенным на нем (значок CENO должен появиться в панели уведомлений). Затем "
+"добавьте второе устройство (вы можете пригласить друга, чтобы помочь с "
+"тестированием) и подключите его к той же сети Wi-Fi. Затем выполните "
+"описанные ниже действия на этом устройстве:"
 
 #: browser/testing.md:block 17 (ordered list)
 msgid ""
 "Install CENO if needed, start it and proceed to CENO's home page as above."
 msgstr ""
+"Установите CENO, если необходимо, запустите его и перейдите на домашнюю "
+"страницу CENO, как указано выше."
 
 #: browser/testing.md:block 17 (ordered list)
 msgid ""
@@ -151,6 +211,9 @@ msgid ""
 "distributed cache access, uncheck all the boxes for access mechanisms except "
 "*Shared by other CENO users*."
 msgstr ""
+"Откройте страницу *Настройки CENO*, как указано выше. Поскольку мы хотим "
+"протестировать только распределенный доступ к кэшу, снимите флажки со всех "
+"механизмов доступа, кроме *Предоставленным другими пользователями CENO*."
 
 #: browser/testing.md:block 17 (ordered list)
 msgid ""
@@ -158,6 +221,9 @@ msgid ""
 "you did above (i.e. by selecting one of the recommended web sites or "
 "entering its URL in the address bar)."
 msgstr ""
+"Вернитесь на домашнюю страницу CENO и посетите тот же сайт тем же способом, "
+"что и выше (т.е. выбрав один из рекомендованных сайтов или введя его URL в "
+"адресной строке)."
 
 #: browser/testing.md:block 18 (paragraph)
 msgid ""
@@ -165,12 +231,18 @@ msgid ""
 "other clients. Pushing the CENO address bar icon should show a popup like "
 "the one below, where only *Shared by other CENO users* has a non-zero value."
 msgstr ""
+"Если он работает, это означает, что оба устройства могут доставлять это "
+"содержимое другим клиентам. При нажатии на значок адресной строки CENO "
+"должно появиться всплывающее окно, как показано ниже, где только *"
+"Предоставлено другим пользователям CENO* имеет ненулевое значение."
 
 #: browser/testing.md:block 19 (paragraph)
 msgid ""
 "![Figure: Mechanisms used when testing distributed cache retrieval](images/"
 "sources-dcache.png)"
 msgstr ""
+"![Рисунок: Схемы, используемые при тестировании распределенного поиска кэша]("
+"images/sources-dcache.png)"
 
 #: browser/testing.md:block 20 (paragraph)
 msgid ""
@@ -179,16 +251,22 @@ msgid ""
 "indeed part of the distributed cache, but they happen to already be stored "
 "in your device, so CENO does not need to retrieve them over the network."
 msgstr ""
+"Наконец, вы, возможно, заметили, что есть счетчик *Предоставлено вами*. Это "
+"не другой механизм *как таковой*: элементы, учитываемые здесь, действительно "
+"являются частью распределенного кэша, но они уже хранятся на вашем "
+"устройстве, поэтому CENO не нужно извлекать их по сети."
 
 #: browser/testing.md:block 21 (header)
 msgid "Getting content from remote users"
-msgstr ""
+msgstr "Получение контента от удаленных пользователей"
 
 #: browser/testing.md:block 22 (paragraph)
 msgid ""
 "We have done a small-scale test of the distributed cache. Let us now test "
 "how it works over the Internet."
 msgstr ""
+"Мы провели мелкомасштабное тестирование распределенного кэша. Теперь давайте "
+"проверим, как он работает через Интернет."
 
 #: browser/testing.md:block 23 (paragraph)
 msgid ""
@@ -199,6 +277,12 @@ msgid ""
 "home). The steps to follow for that device are exactly the same as those in "
 "the previous test."
 msgstr ""
+"Пожалуйста, оставьте CENO запущенным на первом устройстве, как и в "
+"предыдущем тесте, и остановите CENO на втором устройстве (показав его "
+"уведомления и нажав “Нажмите чтобы остановить\"). На этот раз вам "
+"понадобится третье устройство, но оно должно быть подключено к другой сети "
+"Wi-Fi (возможно, вам поможет другой друг из дома). Для этого устройства "
+"необходимо выполнить те же действия, что и в предыдущем тесте."
 
 #: browser/testing.md:block 24 (paragraph)
 msgid ""
@@ -206,7 +290,10 @@ msgid ""
 "The first device is able to seed content to others, and it can most probably "
 "also act as a bridge."
 msgstr ""
+"Если третье устройство может загрузить сайт, используемый для теста, все "
+"готово. Первое устройство может передавать контент другим, и, скорее всего, "
+"оно также может выступать в качестве моста."
 
 #: browser/testing.md:block 25 (paragraph)
 msgid "Congratulations!"
-msgstr ""
+msgstr "Поздравляем!"

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-07-15 16:53+0000\n"
-"Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
+"PO-Revision-Date: 2021-07-21 23:33+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "qsg/fa/>\n"
 "Language: fa\n"
@@ -74,12 +74,6 @@ msgid "Configuration"
 msgstr "تنظیم"
 
 #: intro/qsg.md:block 8 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "The CENO Browser is in [BETA](https://en.wikipedia.org/wiki/"
-#| "Software_release_life_cycle#Beta) but it should work out-of-the-box. You "
-#| "can find some [diagnostics and settings](../browser/settings.md) under "
-#| "the *CENO* menu entry."
 msgid ""
 "The CENO Browser is in [BETA][BETA] but it should work out-of-the-box. You "
 "can find some [diagnostics and settings](../browser/settings.md) under the "
@@ -87,8 +81,8 @@ msgid ""
 msgstr ""
 "مرورگر سنو در حال حاضر در نسخه‌ی [‌بتا](https://en.wikipedia.org/wiki/"
 "Software_release_life_cycle#Beta) ارائه می‌شود، اما باید به محض نصب به‌خوبی "
-"کار کند. شما می‌توانید بعضی [تنظیمات و عیب‌یابی‌ها](browser/settings.md/..) را "
-"ذیل عنوان *سنو* در منو بیابید."
+"کار کند. شما می‌توانید بعضی [تنظیمات و عیب‌یابی‌ها](browser/settings.md/..) "
+"را ذیل عنوان *سنو* در منو بیابید."
 
 #: intro/qsg.md:block 9 (paragraph)
 msgid ""
@@ -121,10 +115,11 @@ msgstr ""
 msgid ""
 "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
 msgstr ""
+"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
 
 #: intro/qsg.md:block 11 (unordered list)
 msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
-msgstr ""
+msgstr "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
 
 #: intro/qsg.md:block 11 (unordered list)
 msgid "[ceno-pask]: https://paskoocheh.com/tools/124/android.html"
