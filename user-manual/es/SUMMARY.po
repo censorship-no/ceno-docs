@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-02 02:42+0200\n"
-"PO-Revision-Date: 2021-07-05 15:32+0000\n"
-"Last-Translator: Zuhualime Akoochimoya <zakooch@protonmail.ch>\n"
+"PO-Revision-Date: 2021-07-24 05:33+0000\n"
+"Last-Translator: Anatoli <djanatoli@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/censorship-no/"
 "user-manual/es/>\n"
 "Language: es\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.8-dev\n"
+"X-Generator: Weblate 4.7.2-dev\n"
 
 #
 #: SUMMARY.md:block 1 (header)
@@ -65,7 +65,7 @@ msgstr "[Riesgos al usar CENO/Ouinet](concepts/risks.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Using the CENO Browser](browser/README.md)"
-msgstr "[Usando al Navegador CENO](browser/README.md)"
+msgstr "[Usando el Navegador CENO](browser/README.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Installing CENO](browser/install.md)"
@@ -81,7 +81,7 @@ msgstr "[Configuración de CENO](browser/settings.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Testing the Browser](browser/testing.md)"
-msgstr "[Probando al navegador](browser/testing.md)"
+msgstr "[Probando el navegador](browser/testing.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Helping others](browser/bridging.md)"
