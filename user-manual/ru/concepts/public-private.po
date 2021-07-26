@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-16 04:02+0200\n"
-"PO-Revision-Date: 2021-07-21 23:33+0000\n"
+"PO-Revision-Date: 2021-07-22 13:33+0000\n"
 "Last-Translator: Adam K <uz@zu.uz>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/censorship-no/"
 "public-private/ru/>\n"
@@ -130,7 +130,7 @@ msgstr ""
 
 #: concepts/public-private.md:block 8 (ordered list)
 msgid "You need to trust injectors to retrieve and sign Web content."
-msgstr "Вы должны доверять инъекторам получать и подписывать веб-содержимое."
+msgstr "Вы должны доверять инъекторам получать и подписывать веб-контент."
 
 #: concepts/public-private.md:block 9 (paragraph)
 msgid "While in private mode:"

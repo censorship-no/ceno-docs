@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2021-07-21 23:33+0000\n"
+"PO-Revision-Date: 2021-07-22 13:33+0000\n"
 "Last-Translator: Tun Tun AUNG <tuntunaung@codingclassroom.org>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "browser-bridging/my/>\n"
@@ -278,10 +278,12 @@ msgid ""
 "periodically review the *CENO Settings* page to see that your device is "
 "reachable to the CENO network."
 msgstr ""
-"ပေါ့တ်တစ်ဆင့်ပို့ခြင်းသည် UDP ပရိုတိုကောအတွက် ဖြစ်ရမည် (TCP မဖြစ်ရပါ)။ CENO သည် ပထမအကြိမ် "
-"လုပ်ဆောင်ချိန်တွင် အလျဉ်းသင့်သော ပေါ့တ်တစ်ခုကို ရွေးချယ်ပြီး နောင်လာမည့်လုပ်ဆောင်ချက်များအတွက် ၎င်းကို "
-"သိမ်းထားသော်လည်း သင့်စက်၏ ဒေသတွင်း ကွန်ရက် IP လိပ်စာသည် မကြာခဏ ပြောင်းလဲနိုင်သည်။ ထို့ကြောင့် သင်သည် "
-"CENO ကွန်ရက်က သင့်စက်ထံ ရောက်ရှိနိုင်ကြောင်း ကြည့်ရန် *CENO ဆက်တင်များ* စာမျက်နှာကို ပုံမှန် စစ်ဆေးသင့်သည်။"
+"ပေါ့တ်တစ်ဆင့်ပို့ခြင်းသည် UDP ပရိုတိုကောအတွက် ဖြစ်ရမည် (TCP မဖြစ်ရပါ)။ CENO "
+"သည် ပထမအကြိမ် လုပ်ဆောင်ချိန်တွင် အလျဉ်းသင့်သော ပေါ့တ်တစ်ခုကို ရွေးချယ်ပြီး "
+"နောင်လာမည့် လုပ်ဆောင်ချက်များအတွက် ၎င်းကို သိမ်းထားသော်လည်း သင့်စက်၏ ဒေသတွင်း"
+" ကွန်ရက် IP လိပ်စာသည် မကြာခဏ ပြောင်းလဲနိုင်သည်။ ထို့ကြောင့် သင်သည် CENO "
+"ကွန်ရက်က သင့်စက်ထံ ရောက်ရှိနိုင်ကြောင်း ကြည့်ရန် *CENO ဆက်တင်များ* "
+"စာမျက်နှာကို ပုံမှန် စစ်ဆေးသင့်သည်။"
 
 #: browser/bridging.md:block 25 (quote)
 msgid ""
@@ -301,6 +303,7 @@ msgstr ""
 "doze-standby"
 
 #: browser/bridging.md:block 25 (quote)
+#, fuzzy
 msgid "[Dont't kill my app!]: https://dontkillmyapp.com/"
 msgstr "[Dont't kill my app!]: https://dontkillmyapp.com/"
 

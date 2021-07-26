@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-02 02:42+0200\n"
-"PO-Revision-Date: 2021-07-21 23:33+0000\n"
+"PO-Revision-Date: 2021-07-23 04:34+0000\n"
 "Last-Translator: Tun Tun AUNG <tuntunaung@codingclassroom.org>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "ceno/my/>\n"
@@ -29,7 +29,7 @@ msgid ""
 "Web content to persist in the network even during heavy filtering and "
 "throttling events."
 msgstr ""
-"CENO ( [Censorship.no!][Censorship.no!]) ၏ အတိုကောက် အခေါ်အဝေါ် ) ဆိုသည်မှာ "
+"CENO ( [Censorship.no!][Censorship.no!] ၏ အတိုကောက် အခေါ်အဝေါ် ) ဆိုသည်မှာ "
 "(စမတ်ဖုန်း နှင့် တက်ဘလက် တို့ကဲ့သို့) မိုဘိုင်း Android နည်းပညာသုံး "
 "စက်ပစ္စည်းများတွင် အသုံးပြု နိုင်သည့် ဝက်ဘ်ဘရောက်ဇာဖြစ်သည်။ ၎င်းကို "
 "အင်တာနက်ဆင်ဆာပိတ်ဆို့မှုကို ကျော်လွှားရန်နှင့် ဆင်ဆာဖြတ်ထားသည့် "
@@ -146,6 +146,7 @@ msgstr ""
 "ဖြစ်သည်။"
 
 #: intro/ceno.md:block 11 (quote)
+#, fuzzy
 msgid ""
 "**Warning:** *CENO is not an anonymity tool.* In fact, using CENO may allow "
 "others to know whether you have accessed or are sharing certain Web content. "
@@ -153,7 +154,7 @@ msgid ""
 "this tool. See the sections on [public vs. private browsing](../concepts/"
 "public-private.md) and [risks](../concepts/risks.md) for further information."
 msgstr ""
-"**သတိပြုရန် ** *CENO သည် ကိုယ်ရေးလျှို့ဝှက်ပေးသည့် နည်းပညာ မဟုတ်ပါ။ * ထိုမျှ"
+"**သတိပြုရန်-** *CENO သည် ကိုယ်ရေးလျှို့ဝှက်ပေးသည့် နည်းပညာ မဟုတ်ပါ။ * ထိုမျှ"
 "မက CENO အသုံးပြုခြင်းက သင်ဝင်ရောက်ထားထားသော (သို့မဟုတ်) မျှဝေထားသည့် "
 "ဝက်ဘ်အကြောင်းအရာများကို အခြားသူများကိုပါ သိရှိစေနိုင်သည်။ ဤအချက်ကို "
 "သတိပြုပြီး မှ အသုံးပြုရန် သင့်/မသင့် ကို ဆုံးဖြတ်ပါ။ ပိုမိုသိရှိလိုလျှင် "
@@ -170,10 +171,12 @@ msgid "[P2P]: https://en.wikipedia.org/wiki/Peer-to-peer"
 msgstr "[P2P]: https://en.wikipedia.org/wiki/Peer-to-peer"
 
 #: intro/ceno.md:block 11 (quote)
+#, fuzzy
 msgid "[national intranets]: https://en.wikipedia.org/wiki/National_intranet"
 msgstr "[national intranets]: https://en.wikipedia.org/wiki/National_intranet"
 
 #: intro/ceno.md:block 11 (quote)
+#, fuzzy
 msgid "[Firefox for Android]: https://www.mozilla.org/firefox/android/"
 msgstr "[Firefox for Android]: https://www.mozilla.org/firefox/android/"
 

@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2021-07-21 23:33+0000\n"
+"PO-Revision-Date: 2021-07-23 04:34+0000\n"
 "Last-Translator: Tun Tun AUNG <tuntunaung@codingclassroom.org>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "browser-readme/my/>\n"
@@ -44,8 +44,8 @@ msgid ""
 msgstr ""
 "သင့်လျော်သည့် အချိန်တွင် စာသားကို ပုံဖော်ရန် စခရင်ရှော့(တ်)များ ပါဝင်ပါမည်။ "
 "အထူးသဖြင့် CENO ၏ ဖန်တီးတီထွင်မှု တိုးတက်လာသည်နှင့်အမျှ ၎င်းတို့သည် "
-"သင့်စက်ပေါ်တွင် သင်မြင်သည့်အရာနှင့် အနည်းငယ် ကွာခြားနိုင်ကြောင်း ကျေးဇူးပြု၍"
-"  သတိပြုပါ။ ဤစာရွက်စာတမ်းသည် CENO ဗာရှင်း 0.0.29 အတွက် ခေတ်မီပါသည်။"
+"သင့်စက်ပေါ်တွင် သင်မြင်သည့်အရာနှင့် အနည်းငယ် ကွာခြားနိုင်ကြောင်း ကျေးဇူးပြု၍ "
+"သတိပြုပါ။ ဤစာရွက်စာတမ်းသည် CENO ဗာရှင်း 0.0.29 အတွက် ခေတ်မီပါသည်။"
 
 #: browser/README.md:block 4 (paragraph)
 msgid ""
@@ -59,6 +59,7 @@ msgstr ""
 "တိုင်ကြားရန် ဝန်မလေးပါနှင့်။"
 
 #: browser/README.md:block 4 (paragraph)
+#, fuzzy
 msgid "[Firefox for Android]: https://www.mozilla.org/firefox/android/"
 msgstr "[Firefox for Android]: https://www.mozilla.org/firefox/android/"
 
