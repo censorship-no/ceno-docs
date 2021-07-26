@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2021-07-15 08:14+0000\n"
+"PO-Revision-Date: 2021-07-26 15:11+0000\n"
 "Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/censorship-no/"
 "browser-settings/es/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 #
 #: browser/settings.md:block 1 (header)
 msgid "CENO settings"
-msgstr "Configuraciones de CENO"
+msgstr "Configuración de CENO"
 
 #: browser/settings.md:block 2 (paragraph)
 msgid ""
@@ -213,7 +213,7 @@ msgstr ""
 "**Advertencia:** Por favor ten en cuenta que CENO no recuerda estas "
 "configuraciones al reiniciar la aplicación. Si requieres que alguno de los "
 "mecanismos previos esté desactivado mientras usas CENO, por favor recuerda "
-"abrir la página de Configuraciones cada vez que inicies la aplicación, y "
+"abrir la página de Configuración cada vez que inicies la aplicación, y "
 "desmarca sus casillas antes de navegar. Lamentamos las molestias."
 
 #: browser/settings.md:block 12 (header)
@@ -325,9 +325,9 @@ msgid ""
 msgstr ""
 "Si quieres limpiar la caché de navegación normal de CENO (la usada por el "
 "navegador pero no compartida con otros) u otros ítems, como cookies, el "
-"historial de navegación o los favoritos, deberías elegir *Configuraciones* "
-"en el menú principal de la aplicación, y luego *Limpiar datos privados*. Se "
-"te preguntará acerca de qué ítems deseas limpiar."
+"historial de navegación o los favoritos, deberías elegir *Configuración* en "
+"el menú principal de la aplicación, y luego *Limpiar datos privados*. Se te "
+"preguntará acerca de qué ítems deseas limpiar."
 
 #: browser/settings.md:block 18 (paragraph)
 msgid ""
@@ -358,8 +358,7 @@ msgstr ""
 #: browser/settings.md:block 21 (ordered list)
 msgid "At the *CENO Settings* page, check *Enable log file*."
 msgstr ""
-"En la página *Configuraciones de CENO*, marca *Habilitar archivo de "
-"registro*."
+"En la página *Configuración de CENO*, marca *Habilitar archivo de registro*."
 
 #: browser/settings.md:block 21 (ordered list)
 msgid ""
@@ -376,7 +375,7 @@ msgid ""
 "ask you at this point whether to allow CENO access to stored media: this is "
 "needed to be able to save the file."
 msgstr ""
-"Regresa a la página *Configuraciones de CENO* y haz clic en el vínculo "
+"Regresa a la página *Configuración de CENO* y haz clic en el vínculo "
 "*Descargar* al lado de la casilla de comprobación *Habilitar archivo de "
 "registro*. Guarda el archivo para su uso posterior. Android podría "
 "preguntarte en este momento si le permites a CENO acceso a medios "
