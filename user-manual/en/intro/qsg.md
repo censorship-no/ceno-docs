@@ -7,7 +7,7 @@ The CENO Browser allows you to access any website on the Internet, even if it is
 You will need an Android device:
 
 1. Install the CENO Browser from [Google Play][ceno-gplay], [GitHub][ceno-gh] or [Paskoocheh][ceno-pask].  *No special permissions are needed*.
-2. Run it and press *NEXT* on the introductory screens, then press *START BROWSING*.
+2. Run it.
 3. Browse pages normally to help other users access them; if concerned about privacy for some page or if it is not loading as expected, use a private tab (see [public vs. private browsing](../concepts/public-private.md)).
 4. Tap on the CENO notification to stop it completely.
 

@@ -12,7 +12,7 @@ Let us first check whether your CENO Browser can reach an injector.  This may lo
 
 On the first device perform the following steps:
 
-1. First of all, install CENO and start it.  On the first run, a series of introductory screens will appear: just click on *NEXT* until *START BROWSING* appears, then click it.  In the end, CENO's home page will appear.
+1. First of all, install CENO and start it.  Its home page will appear.
 2. Open the app's main menu and choose *CENO* to open the *CENO Settings* page.  Since we only want to test injector access, uncheck all the boxes for access mechanisms except *Via the CENO network (public)*.
 3. Go back to CENO's home page.  Either select one of the recommended Web sites, or enter the URL of some other site at the address bar at the top of the window.  If you know about a site which is usually blocked for you, go ahead and enter it!
 4. The chosen site should eventually show up.
