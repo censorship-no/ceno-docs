@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2021-07-21 23:33+0000\n"
-"Last-Translator: Tun Tun AUNG <tuntunaung@codingclassroom.org>\n"
+"PO-Revision-Date: 2021-07-28 08:43+0000\n"
+"Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "client-front-end/my/>\n"
 "Language: my\n"
@@ -16,10 +16,12 @@ msgstr ""
 
 #
 #: client/front-end.md:block 1 (header)
+#, fuzzy
 msgid "Annex: The Ouinet client front-end"
 msgstr "နောက်ဆက်တွဲ- The Ouinet client အက်ပလီကေးရှင်း ရှေ့စာမျက်နှာ"
 
 #: client/front-end.md:block 2 (paragraph)
+#, fuzzy
 msgid ""
 "The Ouinet client (as run by e.g. the CENO Browser) offers a front-end page "
 "with some information and actions which may be useful for debugging the "
@@ -43,6 +45,7 @@ msgstr ""
 "](http://127.0.0.1:8078/) ဖြစ်သည်။ ဖွင့်လိုက်လျှင် ဤသို့တွေ့ရမည်။"
 
 #: client/front-end.md:block 4 (paragraph)
+#, fuzzy
 msgid "![Figure: The client front-end](images/front-end.png)"
 msgstr "ပုံ- ![Figure: The client front-end](images/front-end.png)"
 
@@ -59,6 +62,7 @@ msgstr ""
 "ခွင့်ပြုချက်လက်မှတ် (CA) ရယူရန် လင့်ခ်"
 
 #: client/front-end.md:block 6 (unordered list)
+#, fuzzy
 msgid ""
 "You only need this to use a plain browser for testing the Ouinet client, in "
 "which case you will also have to configure its HTTP/HTTPS proxies to "
@@ -82,6 +86,7 @@ msgstr ""
 "လမ်းညွှန်ချက်များအတိုင်း အဆင်သင့် ပြောင်းလဲထားပြီးဖြစ်သည်။"
 
 #: client/front-end.md:block 6 (unordered list)
+#, fuzzy
 msgid ""
 "Buttons to enable or disable the different mechanisms used by the client to "
 "access content. They are equivalent to the check boxes in the [*CENO "
@@ -99,8 +104,8 @@ msgid ""
 "useful for reporting errors)."
 msgstr ""
 "လုပ်ဆောင်ချက်များကို အဆင့်အလိုက် ရွေးချယ်နိုင်သည့် သေတ္တာများ။ ဥပမာ- စနစ်က "
-"အလိုအလျောက် ရွေးချယ်ထား သော 'INFO' (သတင်းအချက်အလက် မက်ဆေ့ချ်များ၊ "
-"သတိပြုစရာများနှင့် အမှားများ) သို့မဟုတ် 'DEBUG' (အမှားများကို သတင်းပို့ရာတွင်"
+"အလိုအလျောက် ရွေးချယ်ထား သော `INFO` (သတင်းအချက်အလက် မက်ဆေ့ချ်များ၊ "
+"သတိပြုစရာများနှင့် အမှားများ) သို့မဟုတ် `DEBUG` (အမှားများကို သတင်းပို့ရာတွင်"
 " အသုံးဝင်သည့် လုပ်ဆောင်ချက်) စသည်ဖြင့် ရွေးချယ်နိုင်သည်။"
 
 #: client/front-end.md:block 6 (unordered list)
@@ -119,4 +124,4 @@ msgstr ""
 
 #: client/front-end.md:block 6 (unordered list)
 msgid "[CENO Extension]: https://github.com/censorship-no/ceno-ext-settings/"
-msgstr ""
+msgstr "[CENO Extension]: https://github.com/censorship-no/ceno-ext-settings/"
