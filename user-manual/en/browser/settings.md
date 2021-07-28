@@ -6,7 +6,7 @@ CENO Browser allows you to change some Ouinet-specific settings and get informat
 
 These features are available on a page that can be accessed by choosing *CENO* in the app's main menu.  Please note that the menu entry may take a few seconds to pop up on app start.  The page should look like this:
 
-![Figure: The *CENO Settings* page](images/settings.png)
+![Figure: The CENO Settings page](images/settings.png)
 
 ## Choosing access mechanisms
 
