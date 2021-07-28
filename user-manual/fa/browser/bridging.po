@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-07-21 23:33+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
+"PO-Revision-Date: 2021-07-27 22:33+0000\n"
+"Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-bridging/fa/>\n"
 "Language: fa\n"
@@ -81,6 +81,7 @@ msgstr ""
 "می‌کند."
 
 #: browser/bridging.md:block 7 (quote)
+#, fuzzy
 msgid ""
 "**Technical note:** This is mainly due to Android's [Doze mode](https://"
 "developer.android.com/training/monitoring-device-state/doze-standby "
@@ -97,8 +98,8 @@ msgstr ""
 "متاسفانه غیر فعال کردن گزینه بهینه‌‌سازی باتری برای CENO کتابخانه Ouinet را "
 "از این وضعیت مستثنی نمی‌کند. ممکن است دستگاه خاص شما تنظیمات ذخیره انرژی "
 "ویژه خود را داشته باشد که این هم در عملکرد سنو اختلال ایجاد می‌کند. در این "
-"مورد به این وب سایت بروید و گزینه [Dont't kill my app](https://dontkillmyapp."
-"com) را برای مدل دستگاه خود چک کنید."
+"مورد به این وب سایت بروید و گزینه [Dont't kill my app][Dont't kill my app] "
+"را برای مدل دستگاه خود چک کنید."
 
 #: browser/bridging.md:block 8 (paragraph)
 msgid ""
@@ -153,9 +154,8 @@ msgid ""
 "CENO network. The [CENO Settings](settings.md) page will indicate the UPnP "
 "status on your local network."
 msgstr ""
-"[UPnP](https://en.wikipedia.org/wiki/Universal_Plug_and_Play) راحت ترین راه "
-"برای این است که مرورگر CENO خود را به شبکه CENO متصل کنید. تنظیمات CENO خود "
-"به ‌خود UPnP را روی شبکه محلی شما مشخص می‌کند."
+"[UPnP][UPnP] راحت ترین راه برای این است که مرورگر CENO خود را به شبکه CENO "
+"متصل کنید. تنظیمات CENO خود به ‌خود UPnP را روی شبکه محلی شما مشخص می‌کند."
 
 #: browser/bridging.md:block 12 (quote)
 msgid ""
@@ -169,7 +169,7 @@ msgstr ""
 
 #: browser/bridging.md:block 13 (paragraph)
 msgid "![Figure: UPnP not enabled](images/upnp-no.png)"
-msgstr "![نمودار: UPnP غیرفعال است ](تصویرها /upnp-no.png)"
+msgstr "![نمودار: UPnP غیرفعال است ](images/upnp-no.png)"
 
 #: browser/bridging.md:block 14 (paragraph)
 msgid ""
@@ -181,7 +181,7 @@ msgstr ""
 
 #: browser/bridging.md:block 15 (paragraph)
 msgid "![Figure: UPnP likely enabled](images/upnp-maybe.png)"
-msgstr "![نمودار: UPnP احتمالا فعال است ](تصویرها/upnp-maybe.png)"
+msgstr "![نمودار: UPnP احتمالا فعال است ](images/upnp-maybe.png)"
 
 #: browser/bridging.md:block 16 (paragraph)
 msgid ""
@@ -193,7 +193,7 @@ msgstr ""
 
 #: browser/bridging.md:block 17 (paragraph)
 msgid "![Figure: UPnP enabled](images/upnp-yes.png)"
-msgstr "![نمودار: UPnP فعال است](تصویرها/upnp-yes.png)"
+msgstr "![نمودار: UPnP فعال است](images/upnp-yes.png)"
 
 #: browser/bridging.md:block 18 (paragraph)
 msgid ""
@@ -265,7 +265,7 @@ msgstr ""
 
 #: browser/bridging.md:block 23 (paragraph)
 msgid "![Figure: Local UDP endpoints](images/udp-port.png)"
-msgstr "![نمودار: Local UDP endpoints](تصویرها/udp-port.png)"
+msgstr "![نمودار: Local UDP endpoints](images/udp-port.png)"
 
 #: browser/bridging.md:block 24 (paragraph)
 msgid ""
