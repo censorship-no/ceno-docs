@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-07-27 22:33+0000\n"
+"PO-Revision-Date: 2021-07-28 08:43+0000\n"
 "Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-bridging/fa/>\n"
@@ -81,7 +81,6 @@ msgstr ""
 "می‌کند."
 
 #: browser/bridging.md:block 7 (quote)
-#, fuzzy
 msgid ""
 "**Technical note:** This is mainly due to Android's [Doze mode](https://"
 "developer.android.com/training/monitoring-device-state/doze-standby "
@@ -92,13 +91,13 @@ msgid ""
 "interfere with CENO; please check [Dont't kill my app!][Dont't kill my app!] "
 "for your device's brand."
 msgstr ""
-"نکات فنی** این موضوع بیشتر به ویژگی‌های اندروید اختصاص دارد : در حالت "
+"**نکته‌ی فنی:** این موضوع بیشتر به ویژگی‌های اندروید اختصاص دارد : در حالت "
 "[Doze](https://developer.android.com/training/monitoring-device-state/doze-"
 "standby) یا استندبای اندروید عملکرد اصلی مجموعه Ouinet را کند می‌کند. "
 "متاسفانه غیر فعال کردن گزینه بهینه‌‌سازی باتری برای CENO کتابخانه Ouinet را "
 "از این وضعیت مستثنی نمی‌کند. ممکن است دستگاه خاص شما تنظیمات ذخیره انرژی "
 "ویژه خود را داشته باشد که این هم در عملکرد سنو اختلال ایجاد می‌کند. در این "
-"مورد به این وب سایت بروید و گزینه [Dont't kill my app][Dont't kill my app] "
+"مورد به این وب سایت بروید و گزینه [Dont't kill my app!][Dont't kill my app!] "
 "را برای مدل دستگاه خود چک کنید."
 
 #: browser/bridging.md:block 8 (paragraph)
@@ -287,8 +286,9 @@ msgid ""
 "assigns the same IP address to your device (e.g. via a static DHCP lease for "
 "the device's MAC address)."
 msgstr ""
-"نکات فنی** به عنوان جایگزین، شما می‌توانید همیشه مطمئن شوید که مودم آدرس آی‌پی "
-"یکسانی را به‌کار می‌گیرد. به طور مثال، از طریق DHCP برای دستگاه‌های MAC."
+"**نکته‌ی فنی:** به عنوان جایگزین، شما می‌توانید همیشه مطمئن شوید که مودم "
+"آدرس آی‌پی یکسانی را به‌کار می‌گیرد. به طور مثال، از طریق DHCP برای دستگاه‌"
+"های MAC."
 
 #: browser/bridging.md:block 25 (quote)
 msgid ""
@@ -300,7 +300,7 @@ msgstr ""
 
 #: browser/bridging.md:block 25 (quote)
 msgid "[Dont't kill my app!]: https://dontkillmyapp.com/"
-msgstr "[Dont't kill my app!]: https://dontkillmyapp.com"
+msgstr "[Dont't kill my app!]: https://dontkillmyapp.com/"
 
 #: browser/bridging.md:block 25 (quote)
 msgid "[UPnP]: https://en.wikipedia.org/wiki/Universal_Plug_and_Play"
