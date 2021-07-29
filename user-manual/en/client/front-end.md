@@ -20,6 +20,6 @@ The items shown in the page include:
 
 - The public key used to verify signatures from injectors, and the configured way to reach them.  The default `bep5` method looks up Internet addresses in a BitTorrent injector swarm, as explained [here](../concepts/how.md).
 
-- Information on your local cache like the maximum accepted age of cached content, the approximate size of the cache, and a button to purge it completely.
+- Information on your local cache like the maximum accepted age of cached content, the approximate size of the cache, and a button to purge it completely, similar to what is available from the [*CENO Settings* page](../browser/settings.md).
 
 [CENO Extension]: https://github.com/censorship-no/ceno-ext-settings/
