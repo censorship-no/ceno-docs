@@ -16,7 +16,9 @@ The items shown in the page include:
 
 - Buttons to enable or disable the different mechanisms used by the client to access content.
 
-- Selectors to choose different log levels, like the default `INFO` (informational messages, warnings and errors) or `DEBUG` (verbose output useful for reporting errors).
+- Selectors to choose different log levels, like the default `INFO` (informational messages, warnings and errors) or `DEBUG` (verbose output useful for reporting errors).  The log file can also be enabled and retrieved from here.
+
+  When enabling the log file, the log level is automatically set to `DEBUG` (though you may change it again from here).  When disabling the log file, the original log level is restored.
 
 - The public key used to verify signatures from injectors, and the configured way to reach them.  The default `bep5` method looks up Internet addresses in a BitTorrent injector swarm, as explained [here](../concepts/how.md).
 
