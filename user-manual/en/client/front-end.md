@@ -22,7 +22,9 @@ The items shown in the page include:
 
 - Global client state and version information.  Useful when reporting errors.
 
-- The public key used to verify signatures from injectors, and the configured way to reach them.  The default `bep5` method looks up Internet addresses in a BitTorrent injector swarm, as explained [here](../concepts/how.md).
+- Information about client connectivity and injector addressing.  The default `bep5` method looks up Internet addresses in a BitTorrent injector swarm, as explained [here](../concepts/how.md).
+
+- The public key used to verify signatures from injectors in the distributed cache.
 
 - Information on your local cache like the maximum accepted age of cached content, the approximate size of the cache, and a button to purge it completely.
 
