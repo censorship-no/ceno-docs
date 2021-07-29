@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-03 02:50+0200\n"
-"PO-Revision-Date: 2021-07-21 23:33+0000\n"
+"PO-Revision-Date: 2021-07-30 09:27+0000\n"
 "Last-Translator: Anatoli <djanatoli@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/censorship-no/"
 "qsg/es/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 #
 #: intro/qsg.md:block 1 (header)
 msgid "Quick start guide"
-msgstr "Guía para inicio rápido"
+msgstr "Guía de inicio rápido"
 
 #: intro/qsg.md:block 2 (paragraph)
 msgid ""
