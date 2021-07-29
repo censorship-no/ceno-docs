@@ -26,6 +26,6 @@ The items shown in the page include:
 
 - The public key used to verify signatures from injectors in the distributed cache.
 
-- Information on your local cache like the maximum accepted age of cached content, the approximate size of the cache, and a button to purge it completely.
+- Information on your local cache like the maximum content age, approximate size of the cache, a button to purge it completely, and a link to the list of announced cache entries.
 
 [CENO Extension]: https://github.com/censorship-no/ceno-ext-settings/
