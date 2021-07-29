@@ -38,6 +38,8 @@ After completing the test above on the first device, leave CENO running on it (t
 3. Go back to CENO's home page and visit the same site in the same manner as you did above (i.e. by selecting one of the recommended web sites or entering its URL in the address bar).
 4. The chosen site should eventually show up.
 
+If it does not work, your Wi-Fi network may be blocking direct communication between its devices.  This "client isolation" may happen in public networks like those of parks, bars or hotels.  Please try again on a different network.
+
 If it works, it means that both devices are able to deliver that content to other clients.  Pushing the CENO address bar icon should show a popup like the one below, where only *Shared by other CENO users* has a non-zero value.
 
 ![Figure: Mechanisms used when testing distributed cache retrieval](images/sources-dcache.png)
