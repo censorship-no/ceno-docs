@@ -54,6 +54,7 @@ This page also provides you with some information about your CENO Browser app an
 - *UPnP status* indicates whether CENO was able to tell your router or access point to allow incoming connections towards it.  Also include in reports.
 - *Reachability status* indicates how likely it is for your device to be able to effectively seed content to other clients.  Also include in reports.
 - *Local cache size* shows an approximation of how much storage is taken by the content being seeded from your device's local cache.
+- *Content shared by you* allows you to check the content being announced by your device.
 
 ## Purging the local cache
 
