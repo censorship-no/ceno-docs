@@ -14,8 +14,6 @@ CENO requires *no special permissions* to run.
 
 > **Warning:** Please be *extremely skeptical* about installing the CENO Browser from sources other than the ones listed above.  Because of the application's nature, their potential users may become a target for all kinds of fake or manipulated versions used to violate user privacy or attack other CENO and Ouinet users.  If in doubt, please contact <cenoers@equalit.ie> before installing a suspicious app.
 
-When you run CENO for the first time, you will be presented with a series of screens introducing some features generic to Firefox browsers.  Just scroll through them by pressing *NEXT* until you see a *Sign in to Sync* button and a *START BROWSING* link.  Firefox Sync has not been tested to work with CENO, so just push *START BROWSING*.
-
 ## Stopping CENO completely
 
 Every time you start the app, a CENO icon will appear on your device's notification bar.  This icon represents the *CENO Browser service*, which is the part of CENO that runs permanently (even when you are not browsing) and allows other clients to use your device as a bridge and retrieve content from it at any time.

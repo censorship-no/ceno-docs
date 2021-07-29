@@ -56,7 +56,7 @@ There are many Wi-Fi routers on the market and each has their own particular fea
 
 ## Using port forwarding as an alternative to UPnP
 
-Instead of enabling UPnP on your router, you can create a port forwarding rule to make sure that connections from the CENO network are forwarded to your device.  You will need to login to the router's administrative interface and locate the *port forwarding* option.  To see which IP address you need to forward the connections to and the relevant port, open the *CENO Settings* page and look under the *Local UDP endpoint(s)*.
+Instead of enabling UPnP on your router, you can create a port forwarding rule to make sure that connections from the CENO network are forwarded to your device.  You will need to login to the router's administrative interface and locate the *port forwarding* option.  To see which IP address you need to forward the connections to and the relevant port, open the *CENO Settings* page and look under the *Local UDP endpoints*.
 
 ![Figure: Local UDP endpoints](images/udp-port.png)
 
