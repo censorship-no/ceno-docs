@@ -50,7 +50,7 @@ This page also provides you with some information about your CENO Browser app an
 - *CENO Extension* shows the version of the extension that integrates Firefox with CENO.  Also include in reports.
 - *Ouinet* shows the version of Ouinet backing CENO.  Also include in reports.
 - *Ouinet protocol* is the version number of the protocol that CENO uses to talk to other Ouinet clients and injectors.  Also include in reports.
-- *Local UDP endpoint(s)* are the Internet addresses used by CENO to seed signed content to other clients.  These are shown to help test and debug the app, and should not be generally disclosed.
+- *Local UDP endpoints* are the Internet addresses used by CENO to seed signed content to other clients.  These are shown to help test and debug the app, and should not be generally disclosed.
 - *UPnP status* indicates whether CENO was able to tell your router or access point to allow incoming connections towards it.  Also include in reports.
 - *Reachability status* indicates how likely it is for your device to be able to effectively seed content to other clients.  Also include in reports.
 - *Local cache size* shows an approximation of how much storage is taken by the content being seeded from your device's local cache.
