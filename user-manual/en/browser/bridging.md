@@ -34,17 +34,36 @@ Thus if you intend to have CENO acting as a permanent, always-reachable bridge, 
 [UPnP]: https://en.wikipedia.org/wiki/Universal_Plug_and_Play
 [upnp-risks]: https://www.howtogeek.com/122487/htg-explains-is-upnp-a-security-risk
 
-![Figure: UPnP not enabled](images/upnp-no.png)
+A status like the one below indicates that UPnP is not enabled on your WiFi router:
 
-A status like the one shown in the previous figure indicates that UPnP is not enabled on your WiFi router.
+> **UPnP status**
+>
+>     inactive
+>
+> **Reachability status**
+>
+>     undecided
 
-![Figure: UPnP likely enabled](images/upnp-maybe.png)
+The status below indicates that UPnP is likely working and CENO is currently verifying connectivity:
 
-The status above indicates that UPnP is likely working and CENO is currently verifying connectivity.
+> **UPnP status**
+>
+>     enabled
+>
+> **Reachability status**
+>
+>     undecided
 
-![Figure: UPnP enabled](images/upnp-yes.png)
 
-The status above indicates that UPnP is working and you can bridge connections for other CENO users.
+The status below indicates that UPnP is working and you can bridge connections for other CENO users:
+
+> **UPnP status**
+>
+>     enabled
+>
+> **Reachability status**
+>
+>     likely reachable / reachable
 
 There are many Wi-Fi routers on the market and each has their own particular features.  Herein a list of some manufacturers' instructions for enabling UPnP:
 
@@ -58,7 +77,9 @@ There are many Wi-Fi routers on the market and each has their own particular fea
 
 Instead of enabling UPnP on your router, you can create a port forwarding rule to make sure that connections from the CENO network are forwarded to your device.  You will need to login to the router's administrative interface and locate the *port forwarding* option.  To see which IP address you need to forward the connections to and the relevant port, open the *CENO Settings* page and look under the *Local UDP endpoints*.
 
-![Figure: Local UDP endpoints](images/udp-port.png)
+> **Local UDP endpoints**
+>
+>     192.168.1.132:28729
 
 The port forwarding must be for the UDP protocol (not TCP).  CENO chooses a random port on first run and keeps it for subsequent runs, but your device's local network IP address may change from time to time.  Thus you should periodically review the *CENO Settings* page to see that your device is reachable to the CENO network.
 
