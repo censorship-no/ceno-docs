@@ -28,4 +28,6 @@ The items shown in the page include:
 
 - Information on your local cache like the maximum content age, approximate size of the cache, a button to purge it completely, and a link to the list of announced cache entries.
 
+- The directory of the external, static cache if enabled (CENO does not currently use this).
+
 [CENO Extension]: https://github.com/censorship-no/ceno-ext-settings/
