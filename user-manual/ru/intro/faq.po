@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-03 02:50+0200\n"
-"PO-Revision-Date: 2021-07-22 13:33+0000\n"
+"PO-Revision-Date: 2021-08-01 14:45+0000\n"
 "Last-Translator: Adam K <uz@zu.uz>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/censorship-no/"
 "faq/ru/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.7.2-dev\n"
+"X-Generator: Weblate 4.8-dev\n"
 
 #
 #: intro/faq.md:block 1 (header)
@@ -75,7 +75,7 @@ msgstr ""
 #: intro/faq.md:block 8 (header)
 msgid "Can I use the CENO Browser to access Twitter, Facebook and Gmail?"
 msgstr ""
-"Могу ли я использовать браузер CENO для доступа к Twitter, Facebook и Gmail?"
+"Могу ли я использовать Браузер CENO для доступа к Twitter, Facebook и Gmail?"
 
 #: intro/faq.md:block 9 (paragraph)
 msgid "Short answer: yes, by using private tabs."
@@ -161,14 +161,14 @@ msgid ""
 "Read more about how your CENO Browser retrieves and shares Web content with "
 "others [here](../concepts/how.md)."
 msgstr ""
-"Более подробно о том, как ваш браузер CENO извлекает веб-контент и делится "
+"Более подробно о том, как ваш Браузер CENO извлекает веб-контент и делится "
 "им с другими пользователями [здесь](../concepts/how.md)."
 
 #: intro/faq.md:block 19 (header)
 msgid ""
 "Can anyone see if I am using the CENO Browser to access censored Web sites?"
 msgstr ""
-"Может ли кто-нибудь определить, использую ли я браузер CENO для доступа к "
+"Может ли кто-нибудь определить, использую ли я Браузер CENO для доступа к "
 "сайтам, подвергающимся цензуре?"
 
 #: intro/faq.md:block 20 (paragraph)
@@ -222,7 +222,7 @@ msgid ""
 "large the content is, and how well-connected your device is. Sharing more "
 "content also implies more overhead."
 msgstr ""
-"Каждый раз, когда ваш браузер CENO передает контент другому пользователю или "
+"Каждый раз, когда ваш Браузер CENO передает контент другому пользователю или "
 "перенаправляет его трафик, он потребляет избыточный объем данных, зависящий "
 "от таких факторов, как популярность или объем контента, а также от того, "
 "насколько надежно подключено ваше устройство. Передача большего количества "
