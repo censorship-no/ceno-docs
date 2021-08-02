@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2021-07-28 08:43+0000\n"
-"Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
+"PO-Revision-Date: 2021-08-03 08:32+0000\n"
+"Last-Translator: Tun Tun AUNG <tuntunaung@codingclassroom.org>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "client-front-end/my/>\n"
 "Language: my\n"
@@ -12,13 +12,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.7.2-dev\n"
+"X-Generator: Weblate 4.8-dev\n"
 
 #
 #: client/front-end.md:block 1 (header)
-#, fuzzy
 msgid "Annex: The Ouinet client front-end"
-msgstr "နောက်ဆက်တွဲ- The Ouinet client အက်ပလီကေးရှင်း ရှေ့စာမျက်နှာ"
+msgstr "နောက်ဆက်တွဲ- Ouinet သုံးစွဲသူအတွက် စာမျက်နှာ"
 
 #: client/front-end.md:block 2 (paragraph)
 #, fuzzy
