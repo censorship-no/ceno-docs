@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2021-07-23 04:34+0000\n"
-"Last-Translator: Tun Tun AUNG <tuntunaung@codingclassroom.org>\n"
+"PO-Revision-Date: 2021-08-03 08:32+0000\n"
+"Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "browser-readme/my/>\n"
 "Language: my\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.7.2-dev\n"
+"X-Generator: Weblate 4.8-dev\n"
 
 #
 #: browser/README.md:block 1 (header)
@@ -29,11 +29,11 @@ msgid ""
 msgstr ""
 "ဤအခန်းတွင် CENO ဘရောက်ဇာ သုံးစွဲပုံနှင့် ပတ်သက်၍ ၎င်း၏ Ouinet နှင့် "
 "သက်ဆိုင်သော စွမ်းဆောင်ရည်များကို ထည့်သွင်းစဉ်းစားထားသမျှ သင့်အား "
-"အကြံပြုချက်အချို့ ပေးသည်။ CENO ကို [Firefox for Android][Firefox for Android]"
-" အပေါ်တွင် အခြေခံသောကြောင့် ယေဘုယျ ရှာဖွေမှု အကြောင်းအရာများနှင့် သက်ဆိုင်သော"
-" အကူအညီအားလုံးအတွက် သင်သည် Mozilla ၏ [Firefox for Android ပံ့ပိုးမှု]["
-"Firefox for Android ပံ့ပိုးမှု] စာမျက်နှာများကို ရည်ညွှန်းသင့်ကြောင်း "
-"ကျေးဇူးပြု၍ အမြဲမှတ်သားထားပါ။"
+"အကြံပြုချက်အချို့ ပေးသည်။ CENO ကို [Android အတွက် Firefox][Android အတွက် "
+"Firefox] အပေါ်တွင် အခြေခံသောကြောင့် ယေဘုယျ ရှာဖွေမှု အကြောင်းအရာများနှင့် "
+"သက်ဆိုင်သော အကူအညီအားလုံးအတွက် သင်သည် Mozilla ၏ [Firefox for Android "
+"ပံ့ပိုးမှု][Firefox for Android ပံ့ပိုးမှု] စာမျက်နှာများကို "
+"ရည်ညွှန်းသင့်ကြောင်း ကျေးဇူးပြု၍ အမြဲမှတ်သားထားပါ။"
 
 #: browser/README.md:block 3 (paragraph)
 msgid ""
@@ -59,14 +59,13 @@ msgstr ""
 "တိုင်ကြားရန် ဝန်မလေးပါနှင့်။"
 
 #: browser/README.md:block 4 (paragraph)
-#, fuzzy
 msgid "[Firefox for Android]: https://www.mozilla.org/firefox/android/"
-msgstr "[Firefox for Android]: https://www.mozilla.org/firefox/android/"
+msgstr "[Android အတွက် Firefox] https://www.mozilla.org/firefox/android/"
 
 #: browser/README.md:block 4 (paragraph)
 msgid ""
 "[Firefox for Android Support]: https://support.mozilla.org/en-US/products/"
 "mobile"
 msgstr ""
-"[Firefox for Android Support]: https://support.mozilla.org/en-US/products/"
+"[Firefox for Android ပံ့ပိုးမှု]: https://support.mozilla.org/en-US/products/"
 "mobile"

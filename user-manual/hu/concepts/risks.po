@@ -1,23 +1,13 @@
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-04 20:09+0200\n"
-"PO-Revision-Date: 2021-07-30 09:27+0000\n"
-"Last-Translator: Anatoli <djanatoli@gmail.com>\n"
-"Language-Team: Spanish <https://hosted.weblate.org/projects/censorship-no/"
-"risks/es/>\n"
-"Language: es\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Language: hu\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.7.2-dev\n"
 
-#
 #: concepts/risks.md:block 1 (header)
 msgid "Risks in using CENO/Ouinet"
-msgstr "Riesgos al usar CENO/Ouinet"
+msgstr ""
 
 #: concepts/risks.md:block 2 (paragraph)
 msgid ""
@@ -27,35 +17,28 @@ msgid ""
 "to help you understand their implications according to the different roles "
 "you may play when using CENO:"
 msgstr ""
-"Como con cualquier sistema de computación suficientemente complejo, y "
-"especialmente uno tan innovador, el uso del Navegador CENO (y cualquier "
-"cliente Ouinet en general) no está libre de algunos riesgos. En esta sección "
-"los compilaremos y describiremos para ayudarte a entender sus implicaciones, "
-"de acuerdo a los diferentes roles que podrías jugar cuando uses CENO:"
 
 #: concepts/risks.md:block 3 (unordered list)
 msgid "as a *user* browsing Web sites"
-msgstr "como *usuario* navegando sitios Web"
+msgstr ""
 
 #: concepts/risks.md:block 3 (unordered list)
 msgid ""
 "as a *seeder* sharing content over the distributed cache that you previously "
 "visited"
 msgstr ""
-"como *sembrador* compartiendo contenido a través de la caché distribuída que "
-"visitaste previamente"
 
 #: concepts/risks.md:block 3 (unordered list)
 msgid "as a *bridge* allowing other users to reach an injector"
-msgstr "como *puente* permitiendo a otros usuarios alcanzar un inyector"
+msgstr ""
 
 #: concepts/risks.md:block 4 (header)
 msgid "As a user"
-msgstr "Como usuario"
+msgstr ""
 
 #: concepts/risks.md:block 5 (header)
 msgid "Can bridges see my communication with the origin server?"
-msgstr "¿Los puentes pueden ver mis comunicaciones con el servidor de origen?"
+msgstr ""
 
 #: concepts/risks.md:block 6 (paragraph)
 msgid ""
@@ -63,15 +46,10 @@ msgid ""
 "an injector. This communication is always encrypted and bridges do not have "
 "the private keys required to access the content of the communication."
 msgstr ""
-"No. El único rol de un puente es redirigir el tráfico en bruto entre un "
-"cliente y un inyector. Esta comunicación siempre está cifrada, y los puentes "
-"no tienen las claves privadas requeridas para acceder al contenido de las "
-"comunicaciones."
 
 #: concepts/risks.md:block 7 (header)
 msgid "Can injectors see my communication with the origin server?"
 msgstr ""
-"¿Los inyectores pueden ver mis comunicaciones con el servidor de origen?"
 
 #: concepts/risks.md:block 8 (paragraph)
 msgid ""
@@ -80,11 +58,6 @@ msgid ""
 "from the request by the client, and only then is the request encrypted for "
 "and forwarded to the injector, which proceeds to decrypt it."
 msgstr ""
-"Sí y no. Cuando el usuario solicita contenido [en el modo de navegación "
-"pública](public-private.md), todos los datos privados (como contraseñas y "
-"cookies) son primero removidos de la solicitud por el cliente, y sólo "
-"entonces la solicitud es cifrada y redirigida hacia el inyector, el cual "
-"procede a descifrarla."
 
 #: concepts/risks.md:block 9 (paragraph)
 msgid ""
@@ -93,10 +66,6 @@ msgid ""
 "origin server. This means that in this other case the injector cannot "
 "decrypt the content."
 msgstr ""
-"Por otro lado, cuando la solicitud usa el modo de navegación privada, no es "
-"modificada por el cliente, sino que la comunicación completa es cifrada por "
-"el servidor de origen. Esto significa que en este otro caso el inyector no "
-"puede descifrar el contenido."
 
 #: concepts/risks.md:block 10 (quote)
 msgid ""
@@ -104,14 +73,10 @@ msgid ""
 "with query parameters removed, along with all but a limited set of "
 "fundamental and privacy-preserving HTTP header fields."
 msgstr ""
-"**Nota técnica:** Solamente las solicitudes HTTP `GET` son candidatas para "
-"la inyección, con los parámetros de la consulta removidos, junto con todos "
-"excepto un conjunto limitado de campos de encabezados HTTP fundamentales y "
-"conservadores de la privacidad."
 
 #: concepts/risks.md:block 11 (header)
 msgid "Can injectors see my IP address?"
-msgstr "¿Los inyectores pueden ver mi dirección IP?"
+msgstr ""
 
 #: concepts/risks.md:block 12 (paragraph)
 msgid ""
@@ -119,14 +84,10 @@ msgid ""
 "CENO user or a bridge. Thus requests going to the injector cannot be "
 "reliably assigned an originating IP addresses."
 msgstr ""
-"Sí. Sin embargo, los inyectores no pueden distinguir si una solicitud vino "
-"desde un usuario de CENO o un puente. Por lo que entonces a las solicitudes "
-"yendo hasta el inyector no se les puede asignar confiablemente una dirección "
-"IP de origen."
 
 #: concepts/risks.md:block 13 (header)
 msgid "Can my private data leak to the distributed cache?"
-msgstr "¿Mis datos privados pueden filtrarse a la caché distribuída?"
+msgstr ""
 
 #: concepts/risks.md:block 14 (paragraph)
 msgid ""
@@ -138,13 +99,6 @@ msgid ""
 "if the origin server indicated that it is of a private nature, CENO will not "
 "seed it either."
 msgstr ""
-"Esperamos que no. Como se mencionó arriba, el Navegador CENO intenta con "
-"todas sus fuerzas eliminar cualesquiera datos privados (contraseñas, "
-"cookies…) de cualquier solicitud para inyección. Además, el inyector no "
-"siembra por sí mismo; de hecho, su único propósito es firmar contenido de "
-"manera que los clientes Ouinet puedan sembrarlo. Esto significa que cuando "
-"el contenido vuelve al cliente, es vuelto a analizar, y si el servidor de "
-"origen indicó que es de naturaleza privada, CENO tampoco lo sembrará."
 
 #: concepts/risks.md:block 15 (paragraph)
 msgid ""
@@ -155,17 +109,10 @@ msgid ""
 "org`). If you suspect that a page may be doing that, better be on the safe "
 "side and use private browsing for it."
 msgstr ""
-"Aún así, pudiera haber casos de páginas pobremente diseñadas o maliciosas, "
-"las cuales podrían recolectar alguna información sobre tí (como una "
-"dirección electrónica en un formulario o algunas huellas digitales del "
-"navegador usando JavaScript) e incluirlas en otro vínculo URL como "
-"componentes normales de la ruta (ej., `http://example.com/subscribe/"
-"you@example.org`). Si sospechas que una página podría estar haciendo eso, "
-"mejor elegir el lado seguro y usar navegación privada para ella."
 
 #: concepts/risks.md:block 16 (header)
 msgid "Can the origin server know whether I am using CENO?"
-msgstr "¿El servidor de origen puede saber si estoy usando CENO?"
+msgstr ""
 
 #: concepts/risks.md:block 17 (paragraph)
 msgid ""
@@ -173,10 +120,6 @@ msgid ""
 "behaves as normal Firefox for Android does, so your particular device "
 "appears as a normal Firefox app of the same version."
 msgstr ""
-"Muy probablemente no. Cada vez que CENO contacta un servidor de origen "
-"directamente, se comporta como lo hace un Firefox para Android normal, por "
-"lo que tu dispositivo particular aparece como una aplicación Firefox normal "
-"de la misma versión."
 
 #: concepts/risks.md:block 18 (paragraph)
 msgid ""
@@ -184,18 +127,12 @@ msgid ""
 "server, there are (at least) two ways for the latter to know that CENO or "
 "Ouinet is involved:"
 msgstr ""
-"Sin embargo, cuando usa un inyector para obtener algún contenido desde su "
-"servidor de origen, hay (al menos) dos maneras para que este sepa que CENO o "
-"Ouinet están involucrados:"
 
 #: concepts/risks.md:block 19 (ordered list)
 msgid ""
 "The source address of the connection reaching the origin server is found in "
 "the injector swarm (since the connection comes indeed from the injector);"
 msgstr ""
-"La dirección primitiva de la conexión llegando al servidor de origen se "
-"encuentra en el enjambre de inyectores (ya que la conexión viene de hecho "
-"desde el inyector);"
 
 #: concepts/risks.md:block 19 (ordered list)
 msgid ""
@@ -205,11 +142,6 @@ msgid ""
 "the injector removes information unique to your particular device from the "
 "request."
 msgstr ""
-"La presencia o ausencia de cierta información en la solicitud de contenido "
-"es característica de Ouinet. Esto pasa cuando el inyector está solicitando "
-"el contenido porque tu cliente le pidió que descargue y firme ese contenido, "
-"ya que el inyector remueve de la solicitud información única a tu "
-"dispositivo en particular."
 
 #: concepts/risks.md:block 20 (paragraph)
 msgid ""
@@ -219,11 +151,6 @@ msgid ""
 "some personally identifiable information, it could be used to mark you as a "
 "CENO user."
 msgstr ""
-"Por favor ten en cuenta que estas solamente marcan la solicitud como "
-"proviniente desde Ouinet, pero no las vinculan a tí o a tu dispositivo en "
-"particular. Sin embargo, si la solicitud aún contenía alguna información "
-"personalmente identificable por algunas de las razones mencionadas en la "
-"pregunta previa, pudiera ser usada para marcarte como usuario de CENO."
 
 #: concepts/risks.md:block 21 (paragraph)
 msgid ""
@@ -232,18 +159,14 @@ msgid ""
 "(or from a [national intranet][National intranet]), we recommend that you "
 "use a normal Web browser instead of CENO."
 msgstr ""
-"En general, si un sitio web en particular (tal como un sitio gubernamental) "
-"espera que te conectes a él como individuo identificable, desde una región "
-"específica (o desde una [intranet nacional][intranet nacional]), "
-"recomendamos que uses un navegador Web normal en vez de CENO."
 
 #: concepts/risks.md:block 22 (header)
 msgid "As a seeder"
-msgstr "Como sembrador"
+msgstr ""
 
 #: concepts/risks.md:block 23 (header)
 msgid "What data is seeded from my device?"
-msgstr "¿Qué datos son sembrados desde mi dispositivo?"
+msgstr ""
 
 #: concepts/risks.md:block 24 (paragraph)
 msgid ""
@@ -252,14 +175,10 @@ msgid ""
 "users do not seed anything they have not accessed themselves in the recent "
 "past."
 msgstr ""
-"Por el momento, el único contenido que es sembrado por CENO es cualquier "
-"contenido Web no privado que fue solicitado en modo de navegación pública. "
-"Esto también significa que los usuarios no siembran nada que no hayan "
-"accedido ellos mismos en el pasado reciente."
 
 #: concepts/risks.md:block 25 (header)
 msgid "Can an anyone find out what I seed?"
-msgstr "¿Cualquiera puede descubrir lo que siembro?"
+msgstr ""
 
 #: concepts/risks.md:block 26 (paragraph)
 msgid ""
@@ -269,36 +188,26 @@ msgid ""
 "specific IP address and get a list of all the content seeded by clients "
 "behind it."
 msgstr ""
-"Sí y no. Cualquiera con suficiente entendimiento de las operaciones de "
-"Ouinet podría construir una herramienta para descubrir desde qué direcciones "
-"IP un contenido en particular está siendo compartido (como con BitTorrent). "
-"Sin embargo, no es posible apuntar a una dirección IP específica y obtener "
-"una lista de todo el contenido sembrado por los clientes detrás de ella."
 
 #: concepts/risks.md:block 27 (header)
 msgid "As a bridge"
-msgstr "Como puente"
+msgstr ""
 
 #: concepts/risks.md:block 28 (header)
 msgid "Can others find my IP address?"
-msgstr "¿Otros pueden encontrar mi dirección IP?"
+msgstr ""
 
 #: concepts/risks.md:block 29 (paragraph)
 msgid ""
 "Yes, every CENO Browser able to communicate with injectors will register its "
 "IP address in the bridge swarm where other Ouinet clients can find them."
 msgstr ""
-"Sí, cada Navegador CENO capaz de comunicarse con los inyectores registrará "
-"su dirección IP en el enjambre de puentes donde otros clientes Ouinet puedan "
-"encontrarlos."
 
 #: concepts/risks.md:block 30 (header)
 msgid ""
 "Is it possible that I am helping someone to access content which is illegal "
 "in my country?"
 msgstr ""
-"¿Es posible que esté ayudando a alguien a acceder a contenido que es ilegal "
-"en mi país?"
 
 #: concepts/risks.md:block 31 (paragraph)
 msgid ""
@@ -306,11 +215,7 @@ msgid ""
 "client and an injector. This means that a bridge shall never make direct "
 "requests for content to any other server on someone else's behalf."
 msgstr ""
-"Sí. Sin embargo, los puentes solamente repiten una comunicación cifrada "
-"entre un cliente Ouinet y un inyector. Esto significa que un puente nunca "
-"hará solicitudes directas por contenido a cualquier otro servidor de parte "
-"de alguien más."
 
 #: concepts/risks.md:block 31 (paragraph)
 msgid "[National intranet]: https://en.wikipedia.org/wiki/National_intranet"
-msgstr "[Intranet nacional]: https://es.wikipedia.org/wiki/Intranet_nacional"
+msgstr ""

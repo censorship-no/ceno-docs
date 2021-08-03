@@ -1,23 +1,13 @@
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2021-07-30 09:27+0000\n"
-"Last-Translator: Anatoli <djanatoli@gmail.com>\n"
-"Language-Team: Spanish <https://hosted.weblate.org/projects/censorship-no/"
-"browser-settings/es/>\n"
-"Language: es\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Language: hu\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.7.2-dev\n"
 
-#
 #: browser/settings.md:block 1 (header)
 msgid "CENO settings"
-msgstr "Configuración de CENO"
+msgstr ""
 
 #: browser/settings.md:block 2 (paragraph)
 msgid ""
@@ -27,11 +17,6 @@ msgid ""
 "strategies against network interference, as well as reporting issues with "
 "the app."
 msgstr ""
-"El Navegador CENO te permite cambiar algunas configuraciones específicas de "
-"Ouinet y obtener información acerca de tu cliente en una manera simple. Esto "
-"no debiera ser necesario para la operación normal, pero puede ser útil para "
-"ayudar a probar diferentes estrategias en contra de la interferencia de red, "
-"e informar de problemas con la aplicación."
 
 #: browser/settings.md:block 3 (quote)
 msgid ""
@@ -41,12 +26,6 @@ msgid ""
 "cache retrieval under public browsing, hinting the user about the source of "
 "the content being visualized, and notifying about new versions of Ouinet."
 msgstr ""
-"**Nota téchnica:** Estas opciones son provistas por la *Extensión CENO*, una "
-"extensión de Firefox que viene instalada con CENO y se ocupa de la "
-"integración apropiada con Ouinet, como la habilitación de la inyección de "
-"contenido y la descarga de caché bajo navegación pública, dar al usuario "
-"pistas acerca de la fuente del contenido que está siendo visualizado, y "
-"notificar acerca de nuevas versiones de Ouinet."
 
 #: browser/settings.md:block 4 (paragraph)
 msgid ""
@@ -54,18 +33,14 @@ msgid ""
 "*CENO* in the app's main menu. Please note that the menu entry may take a "
 "few seconds to pop up on app start. The page should look like this:"
 msgstr ""
-"Estas características están disponibles en una página que puede ser accedida "
-"eligiendo *CENO* en el menú principal de la aplicación. Por favor ten en "
-"cuenta que la entrada de menú podría tardar unos pocos segundos en aparecer "
-"al iniciarse la aplicación. La página debería parecerse a esto:"
 
 #: browser/settings.md:block 5 (paragraph)
 msgid "**![ page](images/settings.png)"
-msgstr "**![ página](images/settings.png)"
+msgstr ""
 
 #: browser/settings.md:block 6 (header)
 msgid "Choosing access mechanisms"
-msgstr "Eligiendo mecanismos de acceso"
+msgstr ""
 
 #: browser/settings.md:block 7 (paragraph)
 msgid ""
@@ -74,28 +49,18 @@ msgid ""
 "retrieve content while using either [public or private browsing](public-"
 "private.md) tabs. All boxes are enabled by default."
 msgstr ""
-"Las cuatro casillas de selección en la parte superior de la página habilitan "
-"o deshabilitan selectivamente los diferentes mecanismos o *fuentes* que "
-"CENO, como cliente Ouinet, usa para descargar contenido mientras que utiliza "
-"pestañas tanto de [navegación pública como privada](public-private.md). "
-"Todas las casillas están habilitadas por defecto."
 
 #: browser/settings.md:block 8 (unordered list)
 msgid ""
 "*Direct from website* (or **origin access**) allows CENO to try to reach the "
 "origin server directly before attempting other mechanisms enabled below."
 msgstr ""
-"*Directo desde el sitio web* (o **acceso de origen**) le permite a CENO "
-"intentar alcanzar al servidor de origen directamente antes de intentar otros "
-"mecanismos habilitados abajo."
 
 #: browser/settings.md:block 8 (unordered list)
 msgid ""
 "Although this mechanism works in both private and public browsing modes, "
 "content thus retrieved cannot be shared with others."
 msgstr ""
-"Auque este mecanismo funciona tanto en los modos de navegación privada como "
-"pública, el contenido así descargado no puede ser compartido con otros."
 
 #: browser/settings.md:block 8 (unordered list)
 msgid ""
@@ -105,12 +70,6 @@ msgid ""
 "disabling this option may avoid such connections and trivial tracking (but "
 "not completely, see [risks](../concepts/risks.md))."
 msgstr ""
-"Si obtener la mayoría del contenido Web no es particularmente lento o caro, "
-"este mecanismo podría ser más que suficiente para la mayoría de los casos. "
-"Sin embargo, tales conexiones directas podrían ser rastreadas por tu ISP o "
-"gobierno. Deshabilitar esta opción podría evitar tales conexiones y su "
-"rastreo trivial en alguna medida (pero no completamente, ver [riesgos](../"
-"concepts/risks.md))."
 
 #: browser/settings.md:block 8 (unordered list)
 msgid ""
@@ -120,24 +79,16 @@ msgid ""
 "cases, it may help to disable this option and thus always resort to other, "
 "safer CENO mechanisms."
 msgstr ""
-"También, al acceder a un sitio Web sobre HTTP inseguro (en vez del más "
-"seguro HTTPS), un censor podría interceptar las conexiones y suministrar al "
-"usuario con un sitio falso, una manipulación a la cual CENO no puede "
-"detectar por sí mismo. En tal caso, podría ayudar deshabilitar esta opción "
-"y, de esa manera, recurrir siempre a otros mecanismos de CENO más seguros."
 
 #: browser/settings.md:block 8 (unordered list)
 msgid ""
 "*Via the CENO network (private)* (or **proxy access**) allows CENO to use "
 "injectors as normal HTTP proxy servers to reach origin servers."
 msgstr ""
-"*A través de la red CENO (privada)* (o **acceso por proxy**) le permite a "
-"CENO usar inyectores como servidores proxy HTTP normales para alcanzar a los "
-"servidores de origen."
 
 #: browser/settings.md:block 8 (unordered list)
 msgid "This mechanism only works in private browsing mode."
-msgstr "Este mecanismo solamente funciona en el modo privado de navegación."
+msgstr ""
 
 #: browser/settings.md:block 8 (unordered list)
 msgid ""
@@ -147,11 +98,6 @@ msgid ""
 "others). Other participants, such as bridges, will never see the unencrypted "
 "traffic."
 msgstr ""
-"Al acceder contenido sobre HTTPS, solamente los servidores de origen serán "
-"capaces de descifrar el tráfico. Al usar HTTP común, el inyector también "
-"podría ver el tráfico no cifrado (pero aún así no firma o comparte su "
-"contenido con otros). Otros participantes, como los puentes, nunca verán el "
-"tráfico no cifrado."
 
 #: browser/settings.md:block 8 (unordered list)
 msgid ""
@@ -160,28 +106,21 @@ msgid ""
 "The injector gets the content from an origin server, signs it, and sends it "
 "back to CENO - which then begins seeding it."
 msgstr ""
-"*A través de la red CENO (pública)* (o **acceso por inyector**) permite a "
-"CENO quitar cualquier información privada de las solicitudes y enviarlas a "
-"un inyector. El inyector obtiene el contenido desde un servidor de origen, "
-"lo firma y lo envia de vuelta a CENO, el cual empezará a sembrarlo."
 
 #: browser/settings.md:block 8 (unordered list)
 msgid ""
 "Other participants (such as bridges) will not see the unencrypted traffic."
-msgstr "Otros participantes (como los puentes) no verán el tráfico no cifrado."
+msgstr ""
 
 #: browser/settings.md:block 8 (unordered list)
 msgid "This mechanism only works in public browsing mode."
-msgstr "Este mecanismo solamente funciona en el modo de navegación público."
+msgstr ""
 
 #: browser/settings.md:block 8 (unordered list)
 msgid ""
 "*Shared by other CENO users* allows CENO to try to retrieve content from the "
 "**distributed cache**, i.e. from other CENO and Ouinet clients seeding it."
 msgstr ""
-"*Compartido por otros usuarios de CENO* le permite a CENO intentar descargar "
-"contenido desde la **caché distribuída**, esto es, desde otros clientes de "
-"CENO y Ouinet sembrándolo."
 
 #: browser/settings.md:block 9 (paragraph)
 msgid ""
@@ -189,17 +128,12 @@ msgid ""
 "browsing mode will render them useless. If you establish such a "
 "configuration, a warning will be shown as depicted below:"
 msgstr ""
-"Deshabilitar todos los mecanismos disponibles, tornará inútiles tanto al "
-"modo de navegación pública como privada. Si estableces tal configuración, "
-"será mostrada una advertencia como se ilustra abajo:"
 
 #: browser/settings.md:block 10 (paragraph)
 msgid ""
 "![Figure: Invalid settings for private browsing](images/settings-no-private."
 "png)"
 msgstr ""
-"![Figura: Configuración inválida para navegación privada](images/settings-no-"
-"private.png)"
 
 #: browser/settings.md:block 11 (quote)
 msgid ""
@@ -209,55 +143,39 @@ msgid ""
 "start the app and uncheck their boxes before browsing. We apologize for the "
 "inconvenience."
 msgstr ""
-"**Advertencia:** Por favor ten en cuenta que CENO no recuerda estas "
-"configuraciones al reiniciar la aplicación. Si requieres que alguno de los "
-"mecanismos previos esté desactivado mientras usas CENO, por favor recuerda "
-"abrir la página de Configuración cada vez que inicies la aplicación, y "
-"desmarca sus casillas antes de navegar. Lamentamos las molestias."
 
 #: browser/settings.md:block 12 (header)
 msgid "About your app"
-msgstr "Acerca de tu aplicación"
+msgstr ""
 
 #: browser/settings.md:block 13 (paragraph)
 msgid ""
 "This page also provides you with some information about your CENO Browser "
 "app and Ouinet client:"
 msgstr ""
-"Esta página también te provee con alguna información acerca de tu aplicación "
-"del Navegador CENO y el cliente Ouinet:"
 
 #: browser/settings.md:block 14 (unordered list)
 msgid ""
 "*CENO Browser* indicates the exact version of CENO that you are using. "
 "Please include this information in your issue reports."
 msgstr ""
-"*Navegador CENO* indica la versión exacta de CENO que estás usando. Por "
-"favor incluye esta información en tus informes de problemas."
 
 #: browser/settings.md:block 14 (unordered list)
 msgid ""
 "*CENO Extension* shows the version of the extension that integrates Firefox "
 "with CENO. Also include in reports."
 msgstr ""
-"*Extensión CENO* muestra la versión de la extensión que integra Firefox con "
-"CENO. También inclúyela en los informes."
 
 #: browser/settings.md:block 14 (unordered list)
 msgid ""
 "*Ouinet* shows the version of Ouinet backing CENO. Also include in reports."
 msgstr ""
-"*Ouinet* muestra la versión de Ouinet detrás de CENO. También inclúyela en "
-"los informes."
 
 #: browser/settings.md:block 14 (unordered list)
 msgid ""
 "*Ouinet protocol* is the version number of the protocol that CENO uses to "
 "talk to other Ouinet clients and injectors. Also include in reports."
 msgstr ""
-"*Protocolo Ouinet* es el número de versión del protocolo que usa CENO para "
-"hablar con otros clientes Ouinet e inyectores. También inclúyela en los "
-"informes."
 
 #: browser/settings.md:block 14 (unordered list)
 msgid ""
@@ -265,41 +183,28 @@ msgid ""
 "signed content to other clients. These are shown to help test and debug the "
 "app, and should not be generally disclosed."
 msgstr ""
-"*Punto(s) final(es) UDP local(es)* son las direcciones de Internet usadas "
-"por CENO para sembrar contenido firmado a otros clientes. Estos se muestran "
-"para ayudar a probar la aplicación y eliminar errores, y generalmente no "
-"debieran ser divulgados."
 
 #: browser/settings.md:block 14 (unordered list)
 msgid ""
 "*UPnP status* indicates whether CENO was able to tell your router or access "
 "point to allow incoming connections towards it. Also include in reports."
 msgstr ""
-"*Estado UPnP* indica si CENO fue capaz de decirle a tu enrutador o punto de "
-"acceso que permita conexiones entrantes hacia él. También inclúyelo en "
-"informes."
 
 #: browser/settings.md:block 14 (unordered list)
 msgid ""
 "*Reachability status* indicates how likely it is for your device to be able "
 "to effectively seed content to other clients. Also include in reports."
 msgstr ""
-"*Estado de alcanzabilidad* indica qué tan probable es que tu dispositivo sea "
-"capaz de sembrar contenido efectivamente para otros clientes. También "
-"inclúyelo en informes."
 
 #: browser/settings.md:block 14 (unordered list)
 msgid ""
 "*Local cache size* shows an approximation of how much storage is taken by "
 "the content being seeded from your device's local cache."
 msgstr ""
-"*Tamaño de la caché local* muestra una aproximación de cuánto almacenamiento "
-"es ocupado por el contenido que está siendo sembrado desde la caché local de "
-"tu dispositivo."
 
 #: browser/settings.md:block 15 (header)
 msgid "Purging the local cache"
-msgstr "Purgando la caché local"
+msgstr ""
 
 #: browser/settings.md:block 16 (paragraph)
 msgid ""
@@ -308,11 +213,6 @@ msgid ""
 "This allows you to free up some storage space in your device while keeping "
 "other CENO settings like Favorites."
 msgstr ""
-"Al lado del valor de arriba *Tamaño de la caché local*, hay un botón que te "
-"permite detener el sembrado y descartar todo el contenido compartido por tu "
-"dispositivo a través de Ouinet. Esto te permite liberar algo del espacio de "
-"almacenamiento en tu dispositivo, mientras que mantienes otras "
-"configuraciones CENO, como los favoritos."
 
 #: browser/settings.md:block 17 (paragraph)
 msgid ""
@@ -322,11 +222,6 @@ msgid ""
 "then *Clear private data*. You will be asked about which items you want to "
 "clear."
 msgstr ""
-"Si quieres limpiar la caché de navegación normal de CENO (la usada por el "
-"navegador pero no compartida con otros) u otros ítems, como cookies, el "
-"historial de navegación o los favoritos, deberías elegir *Configuración* en "
-"el menú principal de la aplicación, y luego *Limpiar datos privados*. Se te "
-"preguntará acerca de qué ítems deseas limpiar."
 
 #: browser/settings.md:block 18 (paragraph)
 msgid ""
@@ -334,13 +229,10 @@ msgid ""
 "please learn how to use the \"panic button\" feature described in "
 "[Installing CENO](install.md)."
 msgstr ""
-"Para descartar todo al mismo tiempo (especialmente si estás en un apuro), "
-"por favor aprende cómo usar la característica \"botón de pánico\", descrita "
-"en [Instalando CENO](install.md)."
 
 #: browser/settings.md:block 19 (header)
 msgid "Collecting log messages"
-msgstr "Recopilando mensajes de registro"
+msgstr ""
 
 #: browser/settings.md:block 20 (paragraph)
 msgid ""
@@ -349,23 +241,16 @@ msgid ""
 "a file. This should only be used when diagnosing some problem in CENO; just "
 "follow these steps:"
 msgstr ""
-"En la parte inferior de la página hay una casilla de comprobación *Habilitar "
-"archivo de registro* que te permite recopilar todos los mensajes internos de "
-"Ouinet y descargarlos a un archivo. Esto solamente debería ser usado al "
-"diagnosticar algún problema en CENO; solo sigue estos pasos:"
 
 #: browser/settings.md:block 21 (ordered list)
 msgid "At the *CENO Settings* page, check *Enable log file*."
 msgstr ""
-"En la página *Configuración de CENO*, marca *Habilitar archivo de registro*."
 
 #: browser/settings.md:block 21 (ordered list)
 msgid ""
 "Go back to browsing and do whatever actions that trigger the troublesome "
 "behavior."
 msgstr ""
-"Vuelve a navegar y haz cualquier acción que desencadene el comportamiento "
-"problemático."
 
 #: browser/settings.md:block 21 (ordered list)
 msgid ""
@@ -374,16 +259,10 @@ msgid ""
 "ask you at this point whether to allow CENO access to stored media: this is "
 "needed to be able to save the file."
 msgstr ""
-"Regresa a la página *Configuración de CENO* y haz clic en el vínculo "
-"*Descargar* al lado de la casilla de comprobación *Habilitar archivo de "
-"registro*. Guarda el archivo para su uso posterior. Android podría "
-"preguntarte en este momento si le permites a CENO acceso a medios "
-"almacenados: esto es necesario para poder guardar el archivo."
 
 #: browser/settings.md:block 21 (ordered list)
 msgid "Uncheck *Enable log file* to avoid the logs from growing too large."
 msgstr ""
-"Desmarca *Habilitar archivo de registro* para evitar que crezca en demasía."
 
 #: browser/settings.md:block 22 (paragraph)
 msgid ""
@@ -391,6 +270,3 @@ msgid ""
 "avoid making it public since it may contain sensitive information about your "
 "browsing."
 msgstr ""
-"Ahora puedes usar el archivo de registro guardado para documentar un informe "
-"de problemas, pero intenta evitar hacerlo público, ya que podría contener "
-"información delicada acerca de tu navegación."

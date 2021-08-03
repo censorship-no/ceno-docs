@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-03 02:50+0200\n"
-"PO-Revision-Date: 2021-07-21 23:33+0000\n"
+"PO-Revision-Date: 2021-08-01 14:45+0000\n"
 "Last-Translator: Adam K <uz@zu.uz>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/censorship-no/"
 "readme/ru/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.7.2-dev\n"
+"X-Generator: Weblate 4.8-dev\n"
 
 #
 #: intro/README.md:block 1 (header)
@@ -107,7 +107,7 @@ msgid ""
 "This is where the CENO Browser and Ouinet come into play. This chapter will "
 "introduce you to them."
 msgstr ""
-"Именно здесь в игру вступают браузер CENO и Ouinet. В этой главе мы "
+"Именно здесь в игру вступают Браузер CENO и Ouinet. В этой главе мы "
 "познакомим вас с ними."
 
 #: intro/README.md:block 6 (paragraph)
