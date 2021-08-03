@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-08-03 08:32+0000\n"
-"Last-Translator: Mya Myintzu Hlaing <myamyintzu10@gmail.com>\n"
+"PO-Revision-Date: 2021-08-03 13:53+0000\n"
+"Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "qsg/my/>\n"
 "Language: my\n"
@@ -65,7 +65,7 @@ msgstr ""
 "အင်တာနက်စာမျက်နှာများကို ပုံမှန်အတိုင်းရှာဖွေပါ။ "
 "တချို့သောအင်တာနက်စာမျက်နှာများအတွက် လုံခြုံရေးပိုင်းကို သံသယရှိတယ် "
 "(သို့မဟုတ်) သင်ထင်ထားသလို ပုံမှန်အတိုင်းအလုပ်မလုပ်ဘူးဆိုပါက private tab ကို "
-"အသုံးပြုပါ။ ( [public vs. private browsing]ကိုကြည့်ပါ(../concepts/public-"
+"အသုံးပြုပါ။ ([public vs. private browsing]ကိုကြည့်ပါ(../concepts/public-"
 "private.md))"
 
 #: intro/qsg.md:block 5 (ordered list)
