@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-08-03 13:53+0000\n"
-"Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
+"PO-Revision-Date: 2021-08-04 15:34+0000\n"
+"Last-Translator: Mya Myintzu Hlaing <myamyintzu10@gmail.com>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "qsg/my/>\n"
 "Language: my\n"
@@ -36,7 +36,6 @@ msgid "How to get started"
 msgstr "ဘယ်လို စတင် အသုံးပြုရမလဲ"
 
 #: intro/qsg.md:block 4 (paragraph)
-#, fuzzy
 msgid "You will need an Android device:"
 msgstr ""
 "Android စနစ် အသုံးပြုသော စမတ်ဖုန်း (သို့မဟုတ်) tablet တစ်ခု လိုအပ်ပါတယ်။"
@@ -46,6 +45,8 @@ msgid ""
 "Install the CENO Browser from [Google Play][ceno-gplay], [GitHub][ceno-gh] "
 "or [Paskoocheh][ceno-pask]. *No special permissions are needed*."
 msgstr ""
+"CENO ဘရောက်ဇာကို [Google Play][ceno-gplay], [GitHub][ceno-gh] or [Paskoocheh"
+"][ceno-pask] တို့ကနေ ထည့်သွင်းပါ။ *အထူးခွင့်ပြုချက်များ မလိုအပ်ပါ။"
 
 #: intro/qsg.md:block 5 (ordered list)
 msgid ""
@@ -90,6 +91,10 @@ msgid ""
 "can find some [diagnostics and settings](../browser/settings.md) under the "
 "*CENO* menu entry."
 msgstr ""
+"CENO ဘရောက်ဇာသည် beta အဆင့်တွင်ရှိသေးသော်လည်း လုပ်ဆောင်ချက်များကို "
+"ချက်ချင်းဆောင်ရွက်ပေးနိုင်ပါသည်။ ၄င်းတို့ကို *CENO* မီနူးထဲက "
+"ရေးသွင်းချက်တစ်ခုဖြစ်သည့် ပြဿနာအဖြေရှာခြင်းနှင့်ဆက်တင်များ(../browser/"
+"settings.md)တွင် သင် ရှာတွေ့နိုင်ပါသည်။"
 
 #: intro/qsg.md:block 9 (paragraph)
 msgid ""
@@ -106,7 +111,7 @@ msgstr "မေးခွန်းမေးစရာရှိပါသလား?"
 
 #: intro/qsg.md:block 11 (unordered list)
 msgid "Please see the [FAQ](faq.md)."
-msgstr "အမေးအများဆုံး မေးခွန်းများကိုကြည့်ပါ"
+msgstr "အမေးအများဆုံးမေးခွန်းများ(faq.md) ကို ကြည့်ပါ"
 
 #: intro/qsg.md:block 11 (unordered list)
 msgid "Refer to the [troubleshooting guide](../browser/troubleshooting.md)."
@@ -135,4 +140,4 @@ msgstr "[ceno-pask]: https://paskoocheh.com/tools/124/android.html"
 
 #: intro/qsg.md:block 11 (unordered list)
 msgid "[BETA]: https://en.wikipedia.org/wiki/Software_release_life_cycle#Beta"
-msgstr ""
+msgstr "[BETA]: https://en.wikipedia.org/wiki/Software_release_life_cycle#Beta"
