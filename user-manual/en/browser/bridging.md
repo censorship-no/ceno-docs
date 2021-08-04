@@ -51,9 +51,9 @@ sudo docker run --name ceno-client \
   --restart unless-stopped equalitie/ceno-client
 ```
 
-The command will start a container named `ceno-client` that will run on every boot unless you explicitly tell it to stop.  Please check [here][ceno-docker-client] for more information on how to manipulate the container.
+The command will start a container named `ceno-client` that will run on every boot unless you explicitly tell it to stop.  Please check the [CENO Docker client documentation][ceno-client-doc] for more information on how to manipulate the container.
 
-[ceno-docker-client]: https://github.com/censorship-no/ceno-docker-client
+[ceno-client-doc]: https://github.com/censorship-no/ceno-docker-client#running-the-client
 
 > **Note:** This client has no *CENO Settings* page.  When instructed below to access it, open instead the [client front-end](../client/front-end.md), which contains mostly equivalent information.
 
