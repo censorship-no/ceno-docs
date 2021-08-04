@@ -59,7 +59,7 @@ The command will start a container named `ceno-client` that will run on every bo
 
 ## Enabling UPnP on your Wi-Fi router
 
-[UPnP][] is the easiest way of making your CENO Browser reachable to the CENO network.  The [CENO Settings](settings.md) page will indicate the UPnP status on your local network.
+[UPnP][] is the easiest way of making your CENO Browser (or computer client) reachable to the CENO network.  The [CENO Settings](settings.md) page will indicate the UPnP status on your local network.
 
 > **Note:** Enabling UPnP on the Wi-Fi router may expose devices on your network to external interference.  Please make yourself [aware of the risks][upnp-risks] and also consider using alternative methods as explained below.
 
