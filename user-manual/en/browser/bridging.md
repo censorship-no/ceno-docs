@@ -55,7 +55,7 @@ The command will start a container named `ceno-client` that will run on every bo
 
 [ceno-client-doc]: https://github.com/censorship-no/ceno-docker-client#running-the-client
 
-> **Note:** This client has no *CENO Settings* page.  When instructed below to access it, open instead the [client front-end](../client/front-end.md), which contains mostly equivalent information.
+> **Note:** This client has no *CENO Settings*: when instructed below to access that page, open instead the [client front-end](../client/front-end.md), which contains mostly equivalent information.
 
 ## Enabling UPnP on your Wi-Fi router
 
