@@ -25,9 +25,41 @@ Thus if you intend to have CENO acting as a permanent, always-reachable bridge, 
 
    Please note that you should not use the power button to lock the device as this will turn the screen off.  Instead, just wait for the device to lock itself with the screen on.
 
+If that setup is not an option for you, do not desist yet!  If you have a computer with good connectivity that stays on most of the time, please continue reading.
+
+## Running a bridge on a computer
+
+If your computer supports [Docker containers][docker], you can run a pre-configured CENO client on it to act as a bridge.  If Docker is not yet installed, please follow the instructions to [install the Docker Engine][docker-install] in your platform.  For Debian derivatives like Ubuntu or Linux Mint, you can just run: `sudo apt install docker.io`
+
+[docker]: https://en.wikipedia.org/wiki/Docker_(software)
+[docker-install]: https://docs.docker.com/engine/install/
+
+To deploy a CENO client container you only need to run the following command on a terminal (it looks scary but you can just copy and paste it as is on the command line):
+
+```sh
+sudo docker run --name ceno-client \
+  -dv ceno:/var/opt/ouinet --network host \
+  --restart unless-stopped equalitie/ceno-client
+```
+
+If your computer is not based on GNU/Linux, the command needs to be slightly different:
+
+```sh
+sudo docker run --name ceno-client \
+  -dv ceno:/var/opt/ouinet \
+  -p 127.0.0.1:8077-8078:8077-8078 -p 28729:28729/udp \
+  --restart unless-stopped equalitie/ceno-client
+```
+
+The command will start a container named `ceno-client` that will run on every boot unless you explicitly tell it to stop.  Please check the [CENO Docker client documentation][ceno-client-doc] for more information on how to manipulate the container.
+
+[ceno-client-doc]: https://github.com/censorship-no/ceno-docker-client#running-the-client
+
+> **Note:** This client has no *CENO Settings*: when instructed below to access that page, open instead the [client front-end](../client/front-end.md), which contains mostly equivalent information.
+
 ## Enabling UPnP on your Wi-Fi router
 
-[UPnP][] is the easiest way of making your CENO Browser reachable to the CENO network.  The [CENO Settings](settings.md) page will indicate the UPnP status on your local network.
+[UPnP][] is the easiest way of making your CENO Browser (or computer client) reachable to the CENO network.  The [CENO Settings](settings.md) page will indicate the UPnP status on your local network.
 
 > **Note:** Enabling UPnP on the Wi-Fi router may expose devices on your network to external interference.  Please make yourself [aware of the risks][upnp-risks] and also consider using alternative methods as explained below.
 
