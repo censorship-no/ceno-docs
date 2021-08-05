@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-08-04 15:34+0000\n"
+"PO-Revision-Date: 2021-08-05 15:20+0000\n"
 "Last-Translator: Mya Myintzu Hlaing <myamyintzu10@gmail.com>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "qsg/my/>\n"
@@ -65,15 +65,15 @@ msgstr ""
 "အခြားအသုံးပြုသူများကို ကို ဿင်ေရာက်ကြည့်ရှုနိုင်ရန် ကူညီနိုင်ရန် "
 "အင်တာနက်စာမျက်နှာများကို ပုံမှန်အတိုင်းရှာဖွေပါ။ "
 "တချို့သောအင်တာနက်စာမျက်နှာများအတွက် လုံခြုံရေးပိုင်းကို သံသယရှိတယ် "
-"(သို့မဟုတ်) သင်ထင်ထားသလို ပုံမှန်အတိုင်းအလုပ်မလုပ်ဘူးဆိုပါက private tab ကို "
-"အသုံးပြုပါ။ ([public vs. private browsing]ကိုကြည့်ပါ(../concepts/public-"
-"private.md))"
+"(သို့မဟုတ်) သင်ထင်ထားသလို ပုံမှန်အတိုင်းအလုပ်မလုပ်ဘူးဆိုပါက "
+"သီးသန့်ရှာဖွေမှုကို အသုံးပြုပါ။ ([အများသုံး သို့မဟုတ် သီးသန့်ရှာဖွေမှု "
+"အသုံးပြုခြင်း]ကိုကြည့်ပါ(../concepts/public-private.md))"
 
 #: intro/qsg.md:block 5 (ordered list)
 msgid "Tap on the CENO notification to stop it completely."
 msgstr ""
-"notification တွင် ပေါ်နေသော CENO notification ကိုနှိပ်ပြီး "
-"လုပ်ဆောင်မှုများကို လုံးဝ ရပ်လိုက်လို့ရပါတယ်။"
+"အသိပေးချက်များတွင် ပေါ်နေသော CENO အသိပေးချက်ကိုနှိပ်ပြီး လုပ်ဆောင်မှုများကို "
+"လုံးဝ ရပ်လိုက်လို့ရပါတယ်။"
 
 #: intro/qsg.md:block 6 (paragraph)
 msgid "Detailed installation instructions are [here](../browser/install.md)."
