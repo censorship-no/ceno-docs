@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-16 04:02+0200\n"
-"PO-Revision-Date: 2021-08-05 15:45+0000\n"
+"PO-Revision-Date: 2021-08-06 18:34+0000\n"
 "Last-Translator: Mya Myintzu Hlaing <myamyintzu10@gmail.com>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "how/my/>\n"
@@ -542,6 +542,7 @@ msgstr ""
 #: concepts/how.md:block 33 (paragraph)
 msgid "![Figure: Client reaches for injector](images/user-flow-2.svg)"
 msgstr ""
+"![ပုံ - သုံးစွဲသူမှ ထိုးသွင်းစက်ထံ ရောက်ရှိလာပုံ](images/user-flow-2.svg)"
 
 #: concepts/how.md:block 34 (paragraph)
 msgid ""
@@ -550,12 +551,21 @@ msgid ""
 "it arrived from (say, through the client sitting beyond the blocking). Once "
 "the content reaches your client, it does three things:"
 msgstr ""
+"အကြောင်းအရာ * X * ကိုထိုးသွင်းစက်မှ လက်ခံရရှိသည်နှင့်တစ်ပြိုင်နက် "
+"ထိုးသွင်းစက်သည် ၎င်း၏သော့နှင့်အမှတ်အသားပြုလုပ်ပြီး "
+"အကြောင်းအရာထဲသို့လက်မှတ်ကိုထည့်သည်။ ထိုးသွင်းစက်သည် ပြန်လည်ရောက်ရှိလာသော "
+"အကြောင်းအရာ*X*ကို ချိတ်ဆက်လိုဏ်ခေါင်းမှတဆင့် သင်၏သုံးစွဲသူထံ ပြန်ပို့သည် "
+"(ပိတ်ဆို့ခြင်းကို ကျော်လွန်လျက် ရှိနေသော သုံးစွဲသူဟု ဆိုကြပါစို့)။ "
+"အကြောင်းအရာသည် သင်၏သုံးစွဲသူထံ တစ်ခါမျှရောက်ပြီးသည်နှင့်တစ်ပြိုင်နက် "
+"၎င်းသည်အချက်သုံးချက်ကိုလုပ်ဆောင်သည်။"
 
 #: concepts/how.md:block 35 (ordered list)
 msgid ""
 "It delivers it to you (in the case of CENO, it shows the content on the "
 "browser)."
 msgstr ""
+"အကြောင်းအရာကို သင့်ထံသို့ ပို့ဆောင်ပေးသည်။ (CENO တွင် ဖြစ်ခဲ့လျှင် ၄င်းသည် "
+"အကြောင်းအရာကို browser တွင် ဖော်ပြသည်)"
 
 #: concepts/how.md:block 35 (ordered list)
 msgid ""
@@ -563,28 +573,40 @@ msgid ""
 "will stay there for a configurable amount of time, or until you decide to "
 "clear all stored content."
 msgstr ""
+"ထိုးသွင်းစက်သည် အခြားသော သုံးစွဲသူများကို အကြောင်းအရာများ ဆက်လက်မျှဝေနိုင်ရန်"
+" ၄င်းတို့ကို သင့်စက်ပေါ်တွင်သိမ်းထားသည်။ အကြောင်းအရာများသည် သတ်မှတ်ထားသော "
+"အချိန်အတိုင်းအတာတစ်ခုအထိ သို့မဟုတ် သိမ်းထားသော အကြောင်းအရာများအားလုံးကို "
+"ဖျက်ပစ်လိုက်ရန် သင်ဆုံးဖြတ်သောအချိန်အထိ သင့်စက်ပေါ်တွင် ရှိနေပါလိမ့်မည်။"
 
 #: concepts/how.md:block 35 (ordered list)
 msgid ""
 "It announces in the distributed cache index that it is in possession of a "
 "copy of that content, so that other clients can find it."
 msgstr ""
+"ထိုးသွင်းစက်သည် အကြောင်းအရာမိတ္တူတစ်စုံပိုင်ဆိုင်ကြောင်း၊ ထို့ကြောင့် "
+"အခြားသော သုံးစွဲသူများမှ ရှာတွေ့နိုင်ကြောင်းကို ဖြန့်ချိထားသော "
+"ယာယီမှတ်ဥာဏ်အညွှန်းကိန်းထဲတွင် ကြေညာလိုက်သည်။"
 
 #: concepts/how.md:block 36 (paragraph)
 msgid ""
 "The whole combined operation of retrieval, signing, storage and announcement "
 "is what we call **content injection**, as shown in the figure below."
 msgstr ""
+"ပြန်ထုတ်ခြင်း၊ လက်မှတ်ထိုးခြင်း၊ သိမ်းဆည်းနေရာနှင့် ကြေညာချက် အစရှိသည်တို့ "
+"ပေါင်းစပ်ထားသော လုပ်ဆောင်ချက်တစ်ခုလုံးကို ကျွန်ုပ်တို့က **အကြောင်းအရာကို "
+"ထိုးသွင်းခြင်း** ဟုခေါ်သည်။ အောက်ဖော်ပြပါပုံတွင် ကြည့်ပါ။"
 
 #: concepts/how.md:block 37 (paragraph)
 msgid ""
 "![Figure: Client receives signed content from injector](images/user-flow-3."
 "svg)"
 msgstr ""
+"![ပုံ - ထိုးသွင်းစက်မှ လက်မှတ်ထိုးပြီးသော အကြောင်းအရာများကို သုံးစွဲသူမှ "
+"လက်ခံရရှိပုံ](images/user-flow-3.svg)"
 
 #: concepts/how.md:block 38 (header)
 msgid "Browsing under complete blocking"
-msgstr ""
+msgstr "အပြည့်အဝ ပိတ်ဆို့ခံထားရခြင်းတွင် အင်တာနက်စာမျက်နှာများအား ရှာဖွေခြင်း"
 
 #: concepts/how.md:block 39 (paragraph)
 msgid ""
