@@ -3,20 +3,21 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-02 02:42+0200\n"
-"PO-Revision-Date: 2021-03-02 01:42+0000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2021-08-10 03:34+0000\n"
+"Last-Translator: Jane Kong <myonjane@gmail.com>\n"
+"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
+"censorship-no/ceno/zh_Hans/>\n"
 "Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.5\n"
+"X-Generator: Weblate 4.8-dev\n"
 
 #
 #: intro/ceno.md:block 1 (header)
 msgid "What is the CENO Browser?"
-msgstr ""
+msgstr "CENO浏览器是什么？"
 
 #: intro/ceno.md:block 2 (paragraph)
 msgid ""
@@ -28,6 +29,9 @@ msgid ""
 "Web content to persist in the network even during heavy filtering and "
 "throttling events."
 msgstr ""
+"CENO（[Censorship.no!][Censorship.no!]的简称）是一个用于移动安卓设备（如智能手机和平板电脑）的网络浏览器，它使用一种新"
+"颖的方法来规避互联网审查制度，并以[点对点][P2P]（P2P）的方式在所有用户中分享获取的内容。这减少了对国际网络交换的总体依赖，并允许经常请求的网络内"
+"容在网络中持续存在，即使在严重的过滤和限流事件中也是如此。"
 
 #: intro/ceno.md:block 3 (paragraph)
 msgid ""
@@ -37,6 +41,8 @@ msgid ""
 "anticipation of aggressive Internet filtering and the establishment of "
 "[national intranets][national intranets] to fence off nations from the Web."
 msgstr ""
+"CENO与其他大多数规避措施的不同之处在于，即使在没有（或极其有限的）跨国界连接的情况下，用户也可以继续分享网络内容。因此，CENO的建立，是预计到了积极"
+"的互联网过滤和建立[国家内部网][国家内部网]以将国家与互联网隔离开的情况。"
 
 #: intro/ceno.md:block 4 (paragraph)
 msgid ""
@@ -46,10 +52,12 @@ msgid ""
 "technology allowing it to share content between devices (described in later "
 "sections)."
 msgstr ""
+"CENO浏览器是建立在[Firefox for Android][Firefox for Android]的改编版本上的，这是一个流行的、现代的、功能丰富"
+"的、安全的自由/开放源码浏览器。CENO用**Ouinet**扩展了Firefox，该底层技术使其能够在设备之间共享内容（在后面的章节中描述）。"
 
 #: intro/ceno.md:block 5 (header)
 msgid "Who develops CENO?"
-msgstr ""
+msgstr "CENO是谁开发的？"
 
 #: intro/ceno.md:block 6 (paragraph)
 msgid ""
