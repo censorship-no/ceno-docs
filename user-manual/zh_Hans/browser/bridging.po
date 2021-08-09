@@ -3,20 +3,21 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2021-03-05 19:50+0000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2021-08-10 03:34+0000\n"
+"Last-Translator: Jane Kong <myonjane@gmail.com>\n"
+"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
+"censorship-no/browser-bridging/zh_Hans/>\n"
 "Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.5.1-dev\n"
+"X-Generator: Weblate 4.8-dev\n"
 
 #
 #: browser/bridging.md:block 1 (header)
 msgid "Helping other CENO users browse the Web"
-msgstr ""
+msgstr "帮助其他CENO用户浏览互联网"
 
 #: browser/bridging.md:block 2 (paragraph)
 msgid ""
@@ -42,7 +43,7 @@ msgstr ""
 
 #: browser/bridging.md:block 4 (header)
 msgid "How to become a CENO bridge"
-msgstr ""
+msgstr "如何成为CENO的网桥"
 
 #: browser/bridging.md:block 5 (paragraph)
 msgid ""
@@ -51,13 +52,14 @@ msgid ""
 "explicit port forwarding configured for CENO. See the next sections for "
 "further details."
 msgstr ""
+"这一功能已经内置于CENO浏览器中。您的设备将需要连接到一个Wi-Fi网络，并将此网络为CENO配置UPnP功能或显式端口转发。更多细节请看下面的章节。"
 
 #: browser/bridging.md:block 6 (paragraph)
 msgid ""
 "However, please note that Android will only allow a mobile device to act as "
 "a proper bridge while you are actively using it, as power-saving features "
 "will throttle the operation of CENO otherwise."
-msgstr ""
+msgstr "然而，请注意，安卓系统只允许移动设备在您使用它时充当可用的桥梁。在不使用设备时，省电功能将扼杀CENO的运作。"
 
 #: browser/bridging.md:block 7 (quote)
 msgid ""
@@ -75,15 +77,15 @@ msgstr ""
 msgid ""
 "Thus if you intend to have CENO acting as a permanent, always-reachable "
 "bridge, besides a properly configured Wi-Fi network you will need to:"
-msgstr ""
+msgstr "因此，如果您打算让CENO充当一个永久的、一直可以到达的网桥，除了一个正确配置的Wi-Fi网络，您还需要："
 
 #: browser/bridging.md:block 9 (ordered list)
 msgid "Have your device plugged in to power at all times."
-msgstr ""
+msgstr "将您的设备一直插着电源。"
 
 #: browser/bridging.md:block 9 (ordered list)
 msgid "Have the device's screen on at all times."
-msgstr ""
+msgstr "始终保持设备的屏幕开启。"
 
 #: browser/bridging.md:block 9 (ordered list)
 msgid ""
@@ -100,11 +102,11 @@ msgid ""
 "Please note that you should not use the power button to lock the device as "
 "this will turn the screen off. Instead, just wait for the device to lock "
 "itself with the screen on."
-msgstr ""
+msgstr "请注意，不要使用电源按钮来锁定设备，因为这将关闭屏幕。只需在屏幕开启时等待，让设备自行锁定。"
 
 #: browser/bridging.md:block 10 (header)
 msgid "Enabling UPnP on your Wi-Fi router"
-msgstr ""
+msgstr "在您的Wi-Fi路由器上启用UPnP"
 
 #: browser/bridging.md:block 11 (paragraph)
 msgid ""
@@ -128,7 +130,7 @@ msgstr ""
 msgid ""
 "A status like the one shown in the previous figure indicates that UPnP is "
 "not enabled on your WiFi router."
-msgstr ""
+msgstr "像上图所示的状态，表明你的WiFi路由器上没有启用UPnP。"
 
 #: browser/bridging.md:block 15 (paragraph)
 msgid "![Figure: UPnP likely enabled](images/upnp-maybe.png)"
