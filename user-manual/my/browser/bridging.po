@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2021-07-22 13:33+0000\n"
-"Last-Translator: Tun Tun AUNG <tuntunaung@codingclassroom.org>\n"
+"PO-Revision-Date: 2021-08-11 17:33+0000\n"
+"Last-Translator: Mya Myintzu Hlaing <myamyintzu10@gmail.com>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "browser-bridging/my/>\n"
 "Language: my\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.7.2-dev\n"
+"X-Generator: Weblate 4.8-dev\n"
 
 #
 #: browser/bridging.md:block 1 (header)
@@ -303,9 +303,8 @@ msgstr ""
 "doze-standby"
 
 #: browser/bridging.md:block 25 (quote)
-#, fuzzy
 msgid "[Dont't kill my app!]: https://dontkillmyapp.com/"
-msgstr "[Dont't kill my app!]: https://dontkillmyapp.com/"
+msgstr "[Don't kill my app!]: https://dontkillmyapp.com/"
 
 #: browser/bridging.md:block 25 (quote)
 msgid "[UPnP]: https://en.wikipedia.org/wiki/Universal_Plug_and_Play"
