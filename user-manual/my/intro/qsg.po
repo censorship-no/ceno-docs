@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-08-05 15:20+0000\n"
-"Last-Translator: Mya Myintzu Hlaing <myamyintzu10@gmail.com>\n"
+"PO-Revision-Date: 2021-08-10 09:37+0000\n"
+"Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "qsg/my/>\n"
 "Language: my\n"
@@ -46,17 +46,18 @@ msgid ""
 "or [Paskoocheh][ceno-pask]. *No special permissions are needed*."
 msgstr ""
 "CENO ဘရောက်ဇာကို [Google Play][ceno-gplay], [GitHub][ceno-gh] or [Paskoocheh"
-"][ceno-pask] တို့ကနေ ထည့်သွင်းပါ။ *အထူးခွင့်ပြုချက်များ မလိုအပ်ပါ။"
+"][ceno-pask] တို့ကနေ ထည့်သွင်းပါ။ *အထူးခွင့်ပြုချက်များ မလိုအပ်ပါ*။"
 
 #: intro/qsg.md:block 5 (ordered list)
 msgid ""
 "Run it and press *NEXT* on the introductory screens, then press *START "
 "BROWSING*."
 msgstr ""
-"၎င်းကို run ပြီးမိတ်ဆက်မျက်နှာပြင်များပေါ်တွင် *NEXT *ကိုနှိပ်ပါ၊ ထို့နောက် *"
-"START BROWSING *ကိုနှိပ်ပါ။"
+"၎င်းကို run ပြီးမိတ်ဆက်မျက်နှာပြင်များပေါ်တွင် *NEXT* ကိုနှိပ်ပါ၊ ထို့နောက် *"
+"START BROWSING* ကိုနှိပ်ပါ။"
 
 #: intro/qsg.md:block 5 (ordered list)
+#, fuzzy
 msgid ""
 "Browse pages normally to help other users access them; if concerned about "
 "privacy for some page or if it is not loading as expected, use a private tab "
@@ -86,12 +87,13 @@ msgid "Configuration"
 msgstr "ဖွဲ့စည်းပုံစနစ်"
 
 #: intro/qsg.md:block 8 (paragraph)
+#, fuzzy
 msgid ""
 "The CENO Browser is in [BETA][BETA] but it should work out-of-the-box. You "
 "can find some [diagnostics and settings](../browser/settings.md) under the "
 "*CENO* menu entry."
 msgstr ""
-"CENO ဘရောက်ဇာသည် beta အဆင့်တွင်ရှိသေးသော်လည်း လုပ်ဆောင်ချက်များကို "
+"CENO ဘရောက်ဇာသည် [beta][BETA] အဆင့်တွင်ရှိသေးသော်လည်း လုပ်ဆောင်ချက်များကို "
 "ချက်ချင်းဆောင်ရွက်ပေးနိုင်ပါသည်။ ၄င်းတို့ကို *CENO* မီနူးထဲက "
 "ရေးသွင်းချက်တစ်ခုဖြစ်သည့် ပြဿနာအဖြေရှာခြင်းနှင့်ဆက်တင်များ(../browser/"
 "settings.md)တွင် သင် ရှာတွေ့နိုင်ပါသည်။"
@@ -110,6 +112,7 @@ msgid "More questions?"
 msgstr "မေးခွန်းမေးစရာရှိပါသလား?"
 
 #: intro/qsg.md:block 11 (unordered list)
+#, fuzzy
 msgid "Please see the [FAQ](faq.md)."
 msgstr "အမေးအများဆုံးမေးခွန်းများ(faq.md) ကို ကြည့်ပါ"
 
