@@ -3,20 +3,21 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-16 04:02+0200\n"
-"PO-Revision-Date: 2021-03-16 03:02+0000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2021-08-10 09:37+0000\n"
+"Last-Translator: Jane Kong <myonjane@gmail.com>\n"
+"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
+"censorship-no/public-private/zh_Hans/>\n"
 "Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.5.2-dev\n"
+"X-Generator: Weblate 4.8-dev\n"
 
 #
 #: concepts/public-private.md:block 1 (header)
 msgid "Public vs. private browsing"
-msgstr ""
+msgstr "公开vs私密的网络浏览"
 
 #: concepts/public-private.md:block 2 (paragraph)
 msgid ""
