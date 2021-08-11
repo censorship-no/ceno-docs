@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2021-08-03 08:32+0000\n"
-"Last-Translator: Tun Tun AUNG <tuntunaung@codingclassroom.org>\n"
+"PO-Revision-Date: 2021-08-11 17:33+0000\n"
+"Last-Translator: Erin McConnell <erinm@riseup.net>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "client-front-end/my/>\n"
 "Language: my\n"
@@ -44,9 +44,8 @@ msgstr ""
 "](http://127.0.0.1:8078/) ဖြစ်သည်။ ဖွင့်လိုက်လျှင် ဤသို့တွေ့ရမည်။"
 
 #: client/front-end.md:block 4 (paragraph)
-#, fuzzy
 msgid "![Figure: The client front-end](images/front-end.png)"
-msgstr "ပုံ- ![Figure: The client front-end](images/front-end.png)"
+msgstr "![Figure: The client front-end](images/front-end.png)"
 
 #: client/front-end.md:block 5 (paragraph)
 msgid "The items shown in the page include:"
@@ -85,7 +84,6 @@ msgstr ""
 "လမ်းညွှန်ချက်များအတိုင်း အဆင်သင့် ပြောင်းလဲထားပြီးဖြစ်သည်။"
 
 #: client/front-end.md:block 6 (unordered list)
-#, fuzzy
 msgid ""
 "Buttons to enable or disable the different mechanisms used by the client to "
 "access content. They are equivalent to the check boxes in the [*CENO "
@@ -93,8 +91,8 @@ msgid ""
 msgstr ""
 "ပါဝင်သည့် အကြောင်းအရာများကို အသုံးပြုရာတွင် လိုအပ်သည့် "
 "ထိန်းချုပ်မှုများလုပ်ဆောင်နိုင်ရန် အဖွင့် အပိတ် လုပ်နိုင်သည့် ခလုတ်များ။ ယင်း"
-" ခလုတ်များ *CENO စက်တင် စာမျက်နှာ* မှ အမှန်ခြစ်နိုင်သည့် သေတ္တာလေးများနှင့် "
-"လုပ်ဆောင်ချက်ချင်းတူပါသည်။ (../browser/settings.md)."
+" ခလုတ်များ [*CENO စက်တင်*](../browser/settings.md) စာမျက်နှာ မှ "
+"အမှန်ခြစ်နိုင်သည့် သေတ္တာလေးများနှင့် လုပ်ဆောင်ချက်ချင်းတူပါသည်။"
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
