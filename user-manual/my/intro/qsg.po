@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-08-10 09:37+0000\n"
-"Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
+"PO-Revision-Date: 2021-08-11 17:33+0000\n"
+"Last-Translator: Erin McConnell <erinm@riseup.net>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "qsg/my/>\n"
 "Language: my\n"
@@ -57,7 +57,6 @@ msgstr ""
 "START BROWSING* ကိုနှိပ်ပါ။"
 
 #: intro/qsg.md:block 5 (ordered list)
-#, fuzzy
 msgid ""
 "Browse pages normally to help other users access them; if concerned about "
 "privacy for some page or if it is not loading as expected, use a private tab "
@@ -68,7 +67,7 @@ msgstr ""
 "တချို့သောအင်တာနက်စာမျက်နှာများအတွက် လုံခြုံရေးပိုင်းကို သံသယရှိတယ် "
 "(သို့မဟုတ်) သင်ထင်ထားသလို ပုံမှန်အတိုင်းအလုပ်မလုပ်ဘူးဆိုပါက "
 "သီးသန့်ရှာဖွေမှုကို အသုံးပြုပါ။ ([အများသုံး သို့မဟုတ် သီးသန့်ရှာဖွေမှု "
-"အသုံးပြုခြင်း]ကိုကြည့်ပါ(../concepts/public-private.md))"
+"အသုံးပြုခြင်း](../concepts/public-private.md)ကိုကြည့်ပါ)"
 
 #: intro/qsg.md:block 5 (ordered list)
 msgid "Tap on the CENO notification to stop it completely."
@@ -87,15 +86,14 @@ msgid "Configuration"
 msgstr "ဖွဲ့စည်းပုံစနစ်"
 
 #: intro/qsg.md:block 8 (paragraph)
-#, fuzzy
 msgid ""
 "The CENO Browser is in [BETA][BETA] but it should work out-of-the-box. You "
 "can find some [diagnostics and settings](../browser/settings.md) under the "
 "*CENO* menu entry."
 msgstr ""
-"CENO ဘရောက်ဇာသည် [beta][BETA] အဆင့်တွင်ရှိသေးသော်လည်း လုပ်ဆောင်ချက်များကို "
+"CENO ဘရောက်ဇာသည် [Beta][BETA] အဆင့်တွင်ရှိသေးသော်လည်း လုပ်ဆောင်ချက်များကို "
 "ချက်ချင်းဆောင်ရွက်ပေးနိုင်ပါသည်။ ၄င်းတို့ကို *CENO* မီနူးထဲက "
-"ရေးသွင်းချက်တစ်ခုဖြစ်သည့် ပြဿနာအဖြေရှာခြင်းနှင့်ဆက်တင်များ(../browser/"
+"ရေးသွင်းချက်တစ်ခုဖြစ်သည့် [ပြဿနာအဖြေရှာခြင်းနှင့်ဆက်တင်များ](../browser/"
 "settings.md)တွင် သင် ရှာတွေ့နိုင်ပါသည်။"
 
 #: intro/qsg.md:block 9 (paragraph)
@@ -112,13 +110,13 @@ msgid "More questions?"
 msgstr "မေးခွန်းမေးစရာရှိပါသလား?"
 
 #: intro/qsg.md:block 11 (unordered list)
-#, fuzzy
 msgid "Please see the [FAQ](faq.md)."
-msgstr "အမေးအများဆုံးမေးခွန်းများ(faq.md) ကို ကြည့်ပါ"
+msgstr "[အမေးအများဆုံးမေးခွန်းများ](faq.md) ကို ကြည့်ပါ"
 
 #: intro/qsg.md:block 11 (unordered list)
 msgid "Refer to the [troubleshooting guide](../browser/troubleshooting.md)."
-msgstr "ပြဿနာဖြေရှင်းခြင်းလမ်းညွှန်ကိုလေ့လာပါ"
+msgstr ""
+"[ပြဿနာဖြေရှင်းခြင်းလမ်းညွှန်](../browser/troubleshooting.md) ကိုလေ့လာပါ။"
 
 #: intro/qsg.md:block 11 (unordered list)
 msgid ""

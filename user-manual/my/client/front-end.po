@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2021-08-03 08:32+0000\n"
+"PO-Revision-Date: 2021-08-12 15:02+0000\n"
 "Last-Translator: Tun Tun AUNG <tuntunaung@codingclassroom.org>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "client-front-end/my/>\n"
@@ -20,16 +20,15 @@ msgid "Annex: The Ouinet client front-end"
 msgstr "နောက်ဆက်တွဲ- Ouinet သုံးစွဲသူအတွက် စာမျက်နှာ"
 
 #: client/front-end.md:block 2 (paragraph)
-#, fuzzy
 msgid ""
 "The Ouinet client (as run by e.g. the CENO Browser) offers a front-end page "
 "with some information and actions which may be useful for debugging the "
 "client. Some of those may not be available from the CENO Extension."
 msgstr ""
-"The Ouinet client (ဥပမာ- CENO ဘရောက်ဇာ ကိုသုံးထားသော အက်ပလီကေးရှင်း) တွင် "
-"အက်ပလီကေးရှင်းရှိ အမှားများကို ဖယ်ထုတ်ရာတွင် အသုံးပြုနိုင်သည့် "
+"Ouinet သုံးစွဲသူ (ဥပမာ- CENO ဘရောက်ဇာ ကိုသုံးထားသော အပ်ပလီကေးရှင်း) တွင် "
+"အပ်ပလီကေးရှင်းရှိ အမှားများကို ဖယ်ထုတ်ရာတွင် အသုံးပြုနိုင်သည့် "
 "အချက်အလက်များနှင့် နည်းလမ်းများကို ဖော်ပြထားသည့် ရှေ့စာမျက်နှာကို "
-"ထည့်သွင်းထားသည်။ ၎င်းတို့အနက်အချို့ကို CENO အဆက်တွင် ရယူအသုံးပြုနိုင်မည် "
+"ထည့်သွင်းထားသည်။ ၎င်းတို့အနက် အချို့ကို CENO အဆက်တွင် ရယူအသုံးပြုနိုင်မည် "
 "မဟုတ်ပါ။"
 
 #: client/front-end.md:block 3 (paragraph)
@@ -44,9 +43,8 @@ msgstr ""
 "](http://127.0.0.1:8078/) ဖြစ်သည်။ ဖွင့်လိုက်လျှင် ဤသို့တွေ့ရမည်။"
 
 #: client/front-end.md:block 4 (paragraph)
-#, fuzzy
 msgid "![Figure: The client front-end](images/front-end.png)"
-msgstr "ပုံ- ![Figure: The client front-end](images/front-end.png)"
+msgstr "![ပုံ - အသုံးပြုသူ၏ ရှေ့စာမျက်နှာ](images/front-end.png)"
 
 #: client/front-end.md:block 5 (paragraph)
 msgid "The items shown in the page include:"
@@ -61,7 +59,6 @@ msgstr ""
 "ခွင့်ပြုချက်လက်မှတ် (CA) ရယူရန် လင့်ခ်"
 
 #: client/front-end.md:block 6 (unordered list)
-#, fuzzy
 msgid ""
 "You only need this to use a plain browser for testing the Ouinet client, in "
 "which case you will also have to configure its HTTP/HTTPS proxies to "
@@ -71,9 +68,9 @@ msgid ""
 msgstr ""
 "ရိုးရိုးဘရောက်ဇာတွင် Ouinet client ကို စမ်းသပ်ရန်အတွက်သာ ဤလင့်ခ်ကို "
 "လိုအပ်ပါသည်။ ဤလင့်ခ်ကို အသုံးပြုရန်  HTTP/HTTPS ပရောက်စီများကို `127.0.0."
-"1:8077`ဟု ပြောင်းရန်နှင့် အထူးပရောက်စီ ဆာဗာများ အလုပ်လုပ်စေရန် CENO "
-"အဆက်များကို ဖွင့်ရန် လိုအပ်သည်။ CENO အဆက်များဖွင့်ရာတွင် *သီးခြား ဘရောက်ဇာ "
-"ပရိုဖိုင်ကို* အသုံးပြုရန် အကြံပြုပါသည်။"
+"1:8077` ဟု ပြောင်းရန်နှင့် အထူးပရောက်စီ ဆာဗာများ အလုပ်လုပ်စေရန် [CENO အဆက်]["
+"CENO အဆက်]ကို ဖွင့်ရန် လိုအပ်ပြီး ဖွင့်ရာတွင် *သီးခြား ဘရောက်ဇာ ပရိုဖိုင်ကို*"
+" အသုံးပြုရန် အကြံပြုပါသည်။"
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
@@ -85,7 +82,6 @@ msgstr ""
 "လမ်းညွှန်ချက်များအတိုင်း အဆင်သင့် ပြောင်းလဲထားပြီးဖြစ်သည်။"
 
 #: client/front-end.md:block 6 (unordered list)
-#, fuzzy
 msgid ""
 "Buttons to enable or disable the different mechanisms used by the client to "
 "access content. They are equivalent to the check boxes in the [*CENO "
@@ -93,8 +89,8 @@ msgid ""
 msgstr ""
 "ပါဝင်သည့် အကြောင်းအရာများကို အသုံးပြုရာတွင် လိုအပ်သည့် "
 "ထိန်းချုပ်မှုများလုပ်ဆောင်နိုင်ရန် အဖွင့် အပိတ် လုပ်နိုင်သည့် ခလုတ်များ။ ယင်း"
-" ခလုတ်များ *CENO စက်တင် စာမျက်နှာ* မှ အမှန်ခြစ်နိုင်သည့် သေတ္တာလေးများနှင့် "
-"လုပ်ဆောင်ချက်ချင်းတူပါသည်။ (../browser/settings.md)."
+" ခလုတ်များ [*CENO ဆက်တင်* စာမျက်နှာ](../browser/settings.md) "
+"အမှန်ခြစ်နိုင်သည့် သေတ္တာလေးများနှင့် လုပ်ဆောင်ချက်ချင်း တူပါသည်။"
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
@@ -113,6 +109,10 @@ msgid ""
 "way to reach them. The default `bep5` method looks up Internet addresses in "
 "a BitTorrent injector swarm, as explained [here](../concepts/how.md)."
 msgstr ""
+"အများသုံးသော့ကို ထိုးသွင်းစက်မှ လက်မှတ်များကို စစ်ဆေးရန်အတွက်အသုံးပြုပြီး "
+"၎င်းတို့ကို ရယူရန်အတွက် သီးသန့်စီစဉ်ထားသောနည်းလမ်းဖြစ်သည်။ `bep5` "
+"ပုံသေနည်းလမ်းသည် BitTorrent ထိုးသွင်းစက်စာရင်းတွင် အင်တာနက်လိပ်စာများကို "
+"ရှာဖွေပါသည်။ ရှင်းပြချက်များကို [ဒီနေရာ](../concepts/how.md)တွင် ကြည့်ပါ။"
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
@@ -120,7 +120,12 @@ msgid ""
 "content, the approximate size of the cache, and a button to purge it "
 "completely."
 msgstr ""
+"သင့်စက်တွင် ယာယီသိမ်းဆည်းထားသောမှတ်ဉာဏ် အချက်အလက်များသည် "
+"ယာယီသိမ်းဆည်းထားသောအကြောင်းအရာရဲ့ အကြာဆုံးသိမ်းနိုင်သောသက်တမ်း၊ "
+"ယာယီသိမ်းဆည်းထားသောမှတ်ဉာဏ်ရဲ့ ခန့်မှန်းခြေအရွယ်အစားနှင့် "
+"ထိုမှတ်ဉာဏ်အချက်အလက်များအားလုံးကို လုံးဝပိတ်ပစ်နိုင်သော "
+"ခလုတ်တစ်ခုတို့ပါဝင်သည်။"
 
 #: client/front-end.md:block 6 (unordered list)
 msgid "[CENO Extension]: https://github.com/censorship-no/ceno-ext-settings/"
-msgstr "[CENO Extension]: https://github.com/censorship-no/ceno-ext-settings/"
+msgstr "[CENO အဆက်]: https://github.com/censorship-no/ceno-ext-settings/"
