@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-03 02:50+0200\n"
-"PO-Revision-Date: 2021-07-21 23:33+0000\n"
-"Last-Translator: Tun Tun AUNG <tuntunaung@codingclassroom.org>\n"
+"PO-Revision-Date: 2021-08-13 07:46+0000\n"
+"Last-Translator: Mya Myintzu Hlaing <myamyintzu10@gmail.com>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "faq/my/>\n"
 "Language: my\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.7.2-dev\n"
+"X-Generator: Weblate 4.8-dev\n"
 
 #
 #: intro/faq.md:block 1 (header)
@@ -90,6 +90,15 @@ msgid ""
 "down all private data (like passwords and cookies) from Web traffic to "
 "ensure that it does not leak to other untrusted CENO or Ouinet users."
 msgstr ""
+"CENO သည် အသုံးပြုသူများကို ပုံမှန် ဝဘ်ဆိုက်အသုံးပြုခြင်းနှင့် "
+"အတတ်နိုင်ဆုံးတူညီသော အတွေ့အကြုံရအောင် ကြိုးပမ်းပေးထားသော်လည်း "
+"ကွန်ရက်နှောင့်ယှက်မှုကို ရှောင်ရှားရန် အသုံးပြုထားသောတချို့နည်းပညာများသည် "
+"အပြောင်းအလဲရှိသော ဝဘ်ဆိုက်တချို့တွင် ကောင်းစွာအလုပ်မလုပ်နိုင်ပါ။ ၎င်းသည် "
+"CENO ၏ ပုံမှန်အလုပ်လုပ်မှုပုံစံ(ဆိုလိုသည်မှာ - အများသုံးရှာဖွေခြင်း)၊ "
+"အခြားယုံကြည်စိတ်ချမှုမရှိသော CENO သို့မဟုတ် Ouinet အသုံးပြုသူများသို့ "
+"ကိုယ်ရေးကိုယ်တာအချက်အလက်များအားလုံး ဝက်ဘ်အသွားအလာမှ "
+"ယိုစိမ့်မှုမရှိကြောင်းသေချာစေရန် (စကားဝှက်များနှင့် ကွတ်ကီများကဲ့သို့) "
+"အချက်အလက်များအားလုံးကို ဖယ်ရှားခဲ့သောကြောင့်ဖြစ်သည်။"
 
 #: intro/faq.md:block 11 (paragraph)
 msgid ""
@@ -99,30 +108,43 @@ msgid ""
 "else. However, this requires that network traffic from your device can reach "
 "those websites in some way."
 msgstr ""
+"ထိုအဖြစ်များကို ရှောင်ရှားပြီး CENOတွင် အပြောင်းအလဲရှိသော "
+"ဝဘ်ဆိုက်များကိုရှာဖွေလိုပါက၊ သီးသန့်တဘ်များ (ဆိုလိုသည်မှာ - "
+"သီးသန့်ရှာဖွေခြင်း) ကို အသုံးပြုပါ။ သီးသန့်တဘ်များသည် "
+"ကိုယ်ရေးကိုယ်တာအချက်အလက်များကို မထိခိုက်စေဘဲ ဝှက်စာဖြင့်ဖော်ပြသော "
+"ဝဘ်ဆိုက်များနှင့်ဆက်သွယ်မှုကို ထိန်းသိမ်းပေးပြီး အခြားလူများမှ ကာကွယ်ပေးသည်။ "
+"သို့သော် သင့်စက်မှကွန်ယက်အသွားအလာသည် ထိုဝဘ်ဆိုက်များသို့ "
+"တစ်နည်းနည်းဖြင့်ရောက်ရှိရန်လိုအပ်သည်။"
 
 #: intro/faq.md:block 12 (paragraph)
 msgid ""
 "For further details, please refer to the section on the differences between "
 "[public and private browsing](../concepts/public-private.md)."
 msgstr ""
+"အသေးစိတ်အချက်အလက်များသိလိုပါက၊ [အများသုံးနှင့် သီးသန့် ရှာဖွေမှု](../"
+"concepts/public-private.md) အပိုင်းတွင် ကွာခြားချက်များကို ကြည့်နိုင်ပါတယ်။"
 
 #: intro/faq.md:block 13 (header)
 msgid "Privacy and security"
-msgstr ""
+msgstr "ကိုယ်ရေးအချက်အလက်များနှင့် လုံခြုံရေး"
 
 #: intro/faq.md:block 14 (header)
 msgid "Will my device store content that I did not request?"
 msgstr ""
+"ကျွန်ုပ်၏စက်ပစ္စည်းသည် "
+"ကျွန်ုပ်မတောင်းဆိုခဲ့သည့်အကြောင်းအရာများကိုသိမ်းဆည်းမည်လား။"
 
 #: intro/faq.md:block 15 (paragraph)
 msgid "Short answer: no."
-msgstr ""
+msgstr "အဖြေတို - မသိမ်းပါ။"
 
 #: intro/faq.md:block 16 (paragraph)
 msgid ""
 "CENO only shares content that you requested (using [public browsing](../"
 "concepts/public-private.md))."
 msgstr ""
+"CENO သည် သင်တောင်းဆိုထားသော အကြောင်းအရာများကိုသာ မျှဝေပေးပါသည်။ ([အများသုံး "
+"ရှာဖွေခြင်း](../concepts/public-private.md)ကိုအသုံးပြုခြင်း)"
 
 #: intro/faq.md:block 17 (paragraph)
 msgid ""
@@ -132,17 +154,30 @@ msgid ""
 "already does a pretty good job at detecting and blocking such attempts, you "
 "should still avoid visiting suspicious sites."
 msgstr ""
+"သတိပြုရန်မှာ အငြိုးထားသော ဝဘ်ဆိုက်တစ်ခုမှ သင့်ဘရောက်ဇာကို တခြားဝဘ်ဆိုက်ထံမှ "
+"အကြောင်းအရာများကို သင်မသိလိုက်ဘဲ လှည့်စားဖော်ပြနိုင်ပြီး သင့်စက်ကို "
+"အကြောင်းအရာများ အတင်းအကျပ်သိုလှောင်စေကာ တခြားအသုံးပြုသူများကိုလည်း "
+"အတင်းအကျပ်မျှဝေခြင်းများပြုလုပ်နိုင်ပါသည်။ Firefox သင်္ကေတများသည် "
+"ထိုကဲ့သို့သော ဝဘ်ဆိုက်များမှ ကြိုးစားအားထုတ်မှုများကို "
+"ရှာဖွေဆန်းစစ်ခြင်းနှင့် ပိတ်ပင်ခြင်းအလုပ်များတွင် တော်နေစေကာမူ သင်သည် "
+"သံသယဖြစ်စရာကောင်းသော ဝဘ်ဆိုက်များကို ဝင်ရောက်ကြည့်ရှုခြင်းအား "
+"ရှောင်ရှားသင့်သည်။"
 
 #: intro/faq.md:block 18 (paragraph)
 msgid ""
 "Read more about how your CENO Browser retrieves and shares Web content with "
 "others [here](../concepts/how.md)."
 msgstr ""
+"CENO ဘရောက်ဇာမှ ဝဘ်ဆိုက်အကြောင်းအရာများကို ရယူပုံနှင့် တခြားသူများအား "
+"မျှဝေပုံ အကြောင်းတို့ကို [ဒီနေရာ](../concepts/how.md) တွင် "
+"ပိုမိုဖတ်ရှုနိုင်ပါသည်။"
 
 #: intro/faq.md:block 19 (header)
 msgid ""
 "Can anyone see if I am using the CENO Browser to access censored Web sites?"
 msgstr ""
+"ကျွန်ုပ်သည် CENO ဘရောက်ဇာကို အသုံးပြုပြီး ပိတ်ဆို့ထားသော ဝဘ်ဆိုက်များကို "
+"ဝင်ကြည့်ပါက ဘယ်သူတွေသိနိုင်မလဲ။"
 
 #: intro/faq.md:block 20 (paragraph)
 msgid "Short answer: yes, with some technical knowledge and resources."
