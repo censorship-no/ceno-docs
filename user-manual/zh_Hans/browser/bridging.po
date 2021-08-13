@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2021-08-10 03:34+0000\n"
+"PO-Revision-Date: 2021-08-13 07:46+0000\n"
 "Last-Translator: Jane Kong <myonjane@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "censorship-no/browser-bridging/zh_Hans/>\n"
@@ -31,6 +31,9 @@ msgid ""
 "through an encrypted tunnel), nor will any of this traffic remain on your "
 "device."
 msgstr ""
+"一个点对点的网络是由连接到它的每个节点（也包括你！）建立的。节点越多，网络就越强大，功能也越多。如果你在一个没有互联网审查的国家（或者不像某些国家那样严重"
+"）运行CENO浏览器，可以考虑通过成为一个**桥梁**节点来帮助其他CENO用户。然后你将开始，在生活在严重审查的国家的客户和CENO注入器之间，进行流量"
+"的路由。你将无法看到他们的流量（它将通过加密的隧道发送），也不会有任何这种流量留在你的设备上。"
 
 #: browser/bridging.md:block 3 (quote)
 msgid ""
@@ -40,6 +43,8 @@ msgid ""
 "(but keep in mind the [risks](../concepts/risks.md) of serving such content "
 "to others)."
 msgstr ""
+"**注意**本节所描述的配置，也可以帮助你的设备有效地将内容播种给分布式缓存上的其他人，因此，您在有进行审查的国家使用CENO时，也请考虑应用它（但请记住"
+"向他人提供此类内容的[风险](.../concepts/risks.md)）。"
 
 #: browser/bridging.md:block 4 (header)
 msgid "How to become a CENO bridge"
@@ -96,6 +101,9 @@ msgid ""
 "select *While charging* or *Either*. A very dimmed down clock will appear on "
 "a black background while the device is not active."
 msgstr ""
+"实现此事的一个方便的方法——在不用消耗过多电量，也不用让人厌烦的永久亮屏的前提下——是使用安卓的屏幕保护程序：在*设置/显示/屏幕保护程序*（在某些版本是"
+"*Daydream*）下启用它，选择*时钟*小部件，在菜单中选择*何时启动屏幕保护程序*，并选择*充电时*或*任一*。这样当设备未被激活时，一个非常暗淡的"
+"时钟将出现在黑色背景上。"
 
 #: browser/bridging.md:block 9 (ordered list)
 msgid ""
@@ -114,6 +122,8 @@ msgid ""
 "CENO network. The [CENO Settings](settings.md) page will indicate the UPnP "
 "status on your local network."
 msgstr ""
+"[UPnP][UPnP]是使您的CENO浏览器可以接触到CENO网络的最简单方法。在[CENO设置](settings."
+"md)页面上会显示您本地网络的UPnP状态。"
 
 #: browser/bridging.md:block 12 (quote)
 msgid ""
@@ -121,6 +131,8 @@ msgid ""
 "network to external interference. Please make yourself [aware of the risks]"
 "[upnp-risks] and also consider using alternative methods as explained below."
 msgstr ""
+"**注意：**在Wi-Fi路由器上启用UPnP，可能会使您网络上的设备受到外部干扰。请[了解其风险][upnp-"
+"risks]，同时考虑使用下面解释的其他方法。"
 
 #: browser/bridging.md:block 13 (paragraph)
 msgid "![Figure: UPnP not enabled](images/upnp-no.png)"
@@ -140,7 +152,7 @@ msgstr ""
 msgid ""
 "The status above indicates that UPnP is likely working and CENO is currently "
 "verifying connectivity."
-msgstr ""
+msgstr "上面的状态表明，UPnP很有可能正在工作，CENO目前正在验证连通性。"
 
 #: browser/bridging.md:block 17 (paragraph)
 msgid "![Figure: UPnP enabled](images/upnp-yes.png)"
@@ -150,14 +162,14 @@ msgstr ""
 msgid ""
 "The status above indicates that UPnP is working and you can bridge "
 "connections for other CENO users."
-msgstr ""
+msgstr "上面的状态表明，UPnP正在工作，你可以为其他CENO用户进行桥接连接。"
 
 #: browser/bridging.md:block 19 (paragraph)
 msgid ""
 "There are many Wi-Fi routers on the market and each has their own particular "
 "features. Herein a list of some manufacturers' instructions for enabling "
 "UPnP:"
-msgstr ""
+msgstr "市场上有许多Wi-Fi路由器，每个都有自己的特定功能。这里列出了一些制造商关于启用UPnP的说明："
 
 #: browser/bridging.md:block 20 (unordered list)
 msgid "[Linksys](https://www.linksys.com/us/support-article?articleNum=138290)"
@@ -185,7 +197,7 @@ msgstr ""
 
 #: browser/bridging.md:block 21 (header)
 msgid "Using port forwarding as an alternative to UPnP"
-msgstr ""
+msgstr "使用端口转发作为UPnP的替代方案"
 
 #: browser/bridging.md:block 22 (paragraph)
 msgid ""
@@ -196,6 +208,8 @@ msgid ""
 "forward the connections to and the relevant port, open the *CENO Settings* "
 "page and look under the *Local UDP endpoint(s)*."
 msgstr ""
+"若不在您的路由器上启用UPnP，取而代之的是，您也可以创建一个端口转发规则，以确保来自CENO网络的连接被转发给您的设备。您将需要登录到路由器的管理界面，"
+"并找到*端口转发*选项。要查看您需要将连接转发到哪个IP地址以及相关的端口，请打开*CENO设置*页面，在*本地UDP端点*下查找。"
 
 #: browser/bridging.md:block 23 (paragraph)
 msgid "![Figure: Local UDP endpoints](images/udp-port.png)"
@@ -209,13 +223,15 @@ msgid ""
 "periodically review the *CENO Settings* page to see that your device is "
 "reachable to the CENO network."
 msgstr ""
+"端口转发必须是针对UDP协议的（而非TCP）。CENO在第一次运行时选择一个随机的端口，并在以后的运行中保持这个端口，但你的设备的本地网络IP地址可能会不"
+"时地发生变化。因此，你应该定期查看*CENO设置*页面，以了解你的设备是否可到达CENO网络。"
 
 #: browser/bridging.md:block 25 (quote)
 msgid ""
 "**Technical note:** Alternatively, you can make sure that the router always "
 "assigns the same IP address to your device (e.g. via a static DHCP lease for "
 "the device's MAC address)."
-msgstr ""
+msgstr "**技术说明：**或者，你也可以确保路由器始终为你的设备分配相同的IP地址（例如，通过静态DHCP租赁设备的MAC地址）。"
 
 #: browser/bridging.md:block 25 (quote)
 msgid ""
