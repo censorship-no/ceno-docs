@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-03 02:50+0200\n"
-"PO-Revision-Date: 2021-08-13 07:46+0000\n"
+"PO-Revision-Date: 2021-08-15 11:05+0000\n"
 "Last-Translator: Mya Myintzu Hlaing <myamyintzu10@gmail.com>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "faq/my/>\n"
@@ -182,6 +182,8 @@ msgstr ""
 #: intro/faq.md:block 20 (paragraph)
 msgid "Short answer: yes, with some technical knowledge and resources."
 msgstr ""
+"အဖြေတို - သိနိုင်ပါတယ်၊ တချို့သော နည်းပညာဆိုင်ရာ ဗဟုသုတများ နှင့် "
+"အရင်းအမြစ်များ တို့ရှိပါက သိနိုင်ပါတယ်။"
 
 #: intro/faq.md:block 21 (paragraph)
 msgid ""
@@ -191,6 +193,12 @@ msgid ""
 "particular website, although they cannot list all the content that you are "
 "sharing."
 msgstr ""
+"CENO သည် အမည်များကို လျှို့ဝှက်ထားသော ကိရိယာတစ်ခု မဟုတ်ပါ။ တိုက်ခိုက်သူတစ်ဦး"
+"က မည်သည့်စက်မှ အကြောင်းအရာများကို တောင်းဆိုနေသလဲ သို့မဟုတ် သင့်စက်မှ "
+"တခြားသူများအားပေးပို့နေသလဲ ဆိုတာကို သင့်ကွန်ရက်လမ်းကြောင်းကနေ "
+"ခိုးယူကြည့်ရှုနေနိုင်ပါတယ်။ တိုက်ခိုက်သူသည် သင်မျှဝေနေသော "
+"အကြာင်းအရာများအားလုံးကို စာရင်းမပြုလုပ်နိုင်သော်လည်း သီးခြားဝဘ်ဆိုက်တစ်ခုကို "
+"သင်မျှဝေနေသလားဆိုတာကို ရနိုင်ပါတယ်။"
 
 #: intro/faq.md:block 22 (paragraph)
 msgid ""
@@ -199,18 +207,24 @@ msgid ""
 "encrypted connections. See [how content retrieval works](../concepts/how.md) "
 "and the associated [risks](../concepts/risks.md) for more information."
 msgstr ""
+"မည်သို့ပင်ဆိုစေကာမူ အကြောင်းအရာကို ကွန်ရက်သို့ ပထမဆုံးအကြိမ်အဖြစ် ရယူခြင်း "
+"သို့မဟုတ် [သီးသန့်ရှာဖွေမှု](../concepts/public-private.md) ကို "
+"အသုံးပြုခြင်းတို့သည် ကုဒ်ဖြင့်ပြောင်းလဲထားသော ချိတ်ဆက်ခြင်းများမှတစ်ဆင့် "
+"သွားလာခြင်းဖြစ်သည်။ နောက်ထပ်အချက်အလက်များအတွက် [အကြောင်းအရာ ပြန်ရယူမှု "
+"အလုပ်လုပ်ပုံ](../concepts/how.md) နှင့် ၎င်းနှင့်ဆက်စပ်နေသော [အန္တရာယ်](../"
+"concepts/risks.md) တို့ကို ကြည့်ပါ။"
 
 #: intro/faq.md:block 23 (header)
 msgid "Resource usage"
-msgstr ""
+msgstr "ရင်းမြစ် သုံးစွဲမှု"
 
 #: intro/faq.md:block 24 (header)
 msgid "Does the CENO Browser use a lot of data?"
-msgstr ""
+msgstr "CENO ဘရောက်ဇာသည် ဒေတာကို အများအပြား အသုံးပြုပါသလား။"
 
 #: intro/faq.md:block 25 (paragraph)
 msgid "Short answer: more than your usual browser."
-msgstr ""
+msgstr "အဖြေတို - သင် အသုံးပြုနေကျ ဘရောက်ဇာများထက် ပိုသုံးပါတယ်။"
 
 #: intro/faq.md:block 26 (paragraph)
 msgid ""
