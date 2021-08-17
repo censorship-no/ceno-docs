@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-02 02:42+0200\n"
-"PO-Revision-Date: 2021-08-10 03:34+0000\n"
+"PO-Revision-Date: 2021-08-13 07:46+0000\n"
 "Last-Translator: Jane Kong <myonjane@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "censorship-no/ceno/zh_Hans/>\n"
@@ -102,6 +102,9 @@ msgid ""
 "mobile data limits (should you have them), but also to increase the chances "
 "of being able to deliver Web content to other users."
 msgstr ""
+"然而，CENO将会比你的普通网络浏览器产生更多的互联网流量——因为它需要让其他用户知道它正在向网络分享哪些网络内容，并可能将这些内容传递给那些请求它的人。"
+"因此，CENO依靠的是适度良好的国内连接。我们建议在连接到Wi-"
+"Fi时使用CENO，这不仅是为了避免耗尽移动数据限制（如果你的移动数据有限制），也是为了增加能够向其他用户提供网络内容的机会。"
 
 #: intro/ceno.md:block 11 (quote)
 msgid ""
@@ -118,7 +121,7 @@ msgstr ""
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[P2P]: https://en.wikipedia.org/wiki/Peer-to-peer"
-msgstr ""
+msgstr "[P2P]: https://en.wikipedia.org/wiki/Peer-to-peer"
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[national intranets]: https://en.wikipedia.org/wiki/National_intranet"
@@ -130,7 +133,7 @@ msgstr ""
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[eQualitie]: https://equalit.ie/"
-msgstr ""
+msgstr "[eQualitie]: https://equalit.ie/"
 
 #: intro/ceno.md:block 11 (quote)
 msgid ""
