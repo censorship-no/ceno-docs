@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2021-08-01 14:45+0000\n"
-"Last-Translator: Adam K <uz@zu.uz>\n"
+"PO-Revision-Date: 2021-08-17 10:24+0000\n"
+"Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-bridging/ru/>\n"
 "Language: ru\n"
@@ -100,8 +100,8 @@ msgstr ""
 "сожалению, отключение оптимизации батареи для CENO, похоже, не исключает "
 "Ouinet из этого режима. Ваше конкретное устройство также может включать свои "
 "собственные функции энергосбережения, которые могут мешать работе CENO; "
-"пожалуйста, проверьте [Dont't kill my app!][Dont't kill my app!] на предмет "
-"марки вашего устройства."
+"пожалуйста, проверьте [Не убивайте мое приложение!][Не убивайте мое "
+"приложение!] на предмет марки вашего устройства."
 
 #: browser/bridging.md:block 8 (paragraph)
 msgid ""
@@ -173,7 +173,7 @@ msgstr ""
 
 #: browser/bridging.md:block 13 (paragraph)
 msgid "![Figure: UPnP not enabled](images/upnp-no.png)"
-msgstr "![Рисунок: UPnP не включен] (images/upnp-no.png)"
+msgstr "![Рисунок: UPnP не включен](images/upnp-no.png)"
 
 #: browser/bridging.md:block 14 (paragraph)
 msgid ""
@@ -185,7 +185,7 @@ msgstr ""
 
 #: browser/bridging.md:block 15 (paragraph)
 msgid "![Figure: UPnP likely enabled](images/upnp-maybe.png)"
-msgstr "![Рисунок: UPnP вероятно включен] (images/upnp-maybe.png)"
+msgstr "![Рисунок: UPnP вероятно включен](images/upnp-maybe.png)"
 
 #: browser/bridging.md:block 16 (paragraph)
 msgid ""
@@ -197,7 +197,7 @@ msgstr ""
 
 #: browser/bridging.md:block 17 (paragraph)
 msgid "![Figure: UPnP enabled](images/upnp-yes.png)"
-msgstr "![Рисунок: UPnP включен] (images/upnp-yes.png)"
+msgstr "![Рисунок: UPnP включен](images/upnp-yes.png)"
 
 #: browser/bridging.md:block 18 (paragraph)
 msgid ""
@@ -267,7 +267,7 @@ msgstr ""
 
 #: browser/bridging.md:block 23 (paragraph)
 msgid "![Figure: Local UDP endpoints](images/udp-port.png)"
-msgstr "![Рисунок: Локальные конечные точки UDP] (images/udp-port.png)"
+msgstr "![Рисунок: Локальные конечные точки UDP](images/udp-port.png)"
 
 #: browser/bridging.md:block 24 (paragraph)
 msgid ""
