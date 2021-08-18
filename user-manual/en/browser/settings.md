@@ -18,7 +18,7 @@ The four checkboxes on the top of the page selectively enable or disable the dif
 
   If getting most Web content is not particularly slow or expensive, this mechanism may be more than enough for most use cases.  However, such direct connections may be tracked by your ISP or government. To some extent, disabling this option may avoid such connections and trivial tracking (but not completely, see [risks](../concepts/risks.md)).
 
-  Also, when accessing a Web site over insecure HTTP (instead of the more secure HTTPS), a censor may intercept the connection and supply the user with a bogus site, a tampering which CENO cannot detect by itself.  In such cases, it may help to disable this option and thus always resort to other, safer CENO mechanisms.
+  Also, when accessing a Web site over insecure HTTP (instead of the more secure HTTPS), a censor may intercept the connection and supply the user with a bogus site, a tampering which CENO cannot detect by itself.  In such cases, it may help to disable this option and thus always resort to other, safer CENO mechanisms.  Please check the section on [troubleshooting](troubleshooting.md) to learn more about this issue.
 
 - *Via the CENO network (private)* (or **proxy access**) allows CENO to use injectors as normal HTTP proxy servers to reach origin servers.
 
