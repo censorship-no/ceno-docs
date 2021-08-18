@@ -28,6 +28,12 @@ This usually means that the site is blocked by your access provider or country. 
 
 Thus, one way to get to the legitimate site is to try to access it over HTTPS by tapping the address bar and replacing `http://` with `https://` at the beginning of its URL.  Of course, this will only work if the site supports HTTPS.  If it does not, and you get "Failed to retrieve the resource" from CENO, you will need to go to the [Settings page](settings.md), disable Origin access, and try again.
 
+Since such setting is not remembered, and modifying the URL every time can get tiresome, you may instead configure CENO to always use HTTPS for all sites via the embedded [HTTPS Everywhere][] extension: choose *HTTPS Everywhere* in the app's main menu, then enable *Encrypt All Sites Eligible* (EASE) as shown below.  This setting is remembered by CENO.
+
+[HTTPS Everywhere]: https://www.eff.org/https-everywhere/
+
+![Figure: HTTPS Everywhere settings with EASE on](images/httpsew-ease-on.png)
+
 ## Accessing some content shows "Failed to retrieve the resource"
 
 This means that CENO tried all available mechanisms to access the content, but none of them succeeded.
