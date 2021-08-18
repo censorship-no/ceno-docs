@@ -20,6 +20,14 @@ If you get an error like "The proxy server is refusing connections" when visitin
 
 > **Technical note:** This may happen if another application is already listening on TCP ports `127.0.0.1:8077` or `127.0.0.1:8078`.
 
+## A page shows unexpected content (like a block message)
+
+CENO was able to contact a web server directly and retrieve content from it.  Unfortunately, someone interfered with the connection and directed it to an illegitimate server.
+
+This usually means that the site is blocked by your access provider or country.  However, this particular error can only happen when you are accessing the site via plain HTTP instead of the more secure, encrypted HTTPS protocol.
+
+Thus, one way to get to the legitimate site is to try to access it over HTTPS by tapping the address bar and replacing `http://` with `https://` at the beginning of its URL.  Of course, this will only work if the site supports HTTPS.  If it does not, and you get "Failed to retrieve the resource" from CENO, you will need to go to the [Settings page](settings.md), disable Origin access, and try again.
+
 ## Accessing some content shows "Failed to retrieve the resource"
 
 This means that CENO tried all available mechanisms to access the content, but none of them succeeded.
