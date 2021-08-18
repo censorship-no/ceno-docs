@@ -17,6 +17,8 @@ In the first device perform the following steps:
 3. Go back to CENO's home page.  Either select one of the recommended Web sites, or enter the URL of some other site at the address bar at the top of the window.  If you know about a site which is usually blocked for you, go ahead and enter it!
 4. The chosen site should eventually show up.
 
+**Note:** If you get a fake page instead of a legitimate one, use the address bar to enter the site's URL with `https://` at the beginning (instead of `http://`) and repeat the test.
+
 If the site does load, you can be happy that your device can reach the injector!  Since you are able to query swarms and contact other clients, you are also likely to be able to retrieve content from the distributed cache.
 
 By the way, if you push the CENO icon in the address bar, it will open a popup like the one below, showing how many elements from the site were retrieved form the different sources.  Only *Via CENO network (public)* should have a non-zero value since the other sources were disabled.
