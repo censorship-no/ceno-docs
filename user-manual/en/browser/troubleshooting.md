@@ -34,6 +34,8 @@ Since such setting is not remembered, and modifying the URL every time can get t
 
 ![Figure: HTTPS Everywhere settings with EASE on](images/httpsew-ease-on.png)
 
+If you still need to access some particular site via plain HTTP when EASE is on, you can visit the site (even if access fails), then from that tab open HTTPS Everywhere settings and tap on the *Disable on this site* button shown above to set an exception for the site.
+
 ## Accessing some content shows "Failed to retrieve the resource"
 
 This means that CENO tried all available mechanisms to access the content, but none of them succeeded.
