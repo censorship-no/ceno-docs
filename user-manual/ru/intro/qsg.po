@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-03 02:50+0200\n"
-"PO-Revision-Date: 2021-08-18 21:47+0000\n"
+"PO-Revision-Date: 2021-08-21 08:33+0000\n"
 "Last-Translator: Ed Medvedev <edward.medvedev@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/censorship-no/"
 "qsg/ru/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 #
 #: intro/qsg.md:block 1 (header)
 msgid "Quick start guide"
-msgstr "Краткое руководство пользователя"
+msgstr "Краткое руководство"
 
 #: intro/qsg.md:block 2 (paragraph)
 msgid ""
@@ -54,8 +54,8 @@ msgid ""
 "Run it and press *NEXT* on the introductory screens, then press *START "
 "BROWSING*."
 msgstr ""
-"Запустите его и нажмите *СЛЕДУЮЩИЙ* на начальных экранах, затем нажмите *"
-"НАЧАТЬ ПРОСМОТР*."
+"Запустите его и нажмите *ДАЛЕЕ* на начальных экранах, затем нажмите *НАЧАТЬ "
+"ПРОСМОТР*."
 
 #: intro/qsg.md:block 5 (ordered list)
 msgid ""
