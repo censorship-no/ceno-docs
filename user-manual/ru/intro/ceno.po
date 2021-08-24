@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-02 02:42+0200\n"
-"PO-Revision-Date: 2021-08-18 21:47+0000\n"
-"Last-Translator: Adam K <uz@zu.uz>\n"
+"PO-Revision-Date: 2021-08-21 08:33+0000\n"
+"Last-Translator: Ed Medvedev <edward.medvedev@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/censorship-no/"
 "ceno/ru/>\n"
 "Language: ru\n"
@@ -62,10 +62,10 @@ msgid ""
 "sections)."
 msgstr ""
 "Браузер CENO основан на адаптированной версии [Firefox для Android][Firefox "
-"для Android], популярного, современного, многофункционального и безопасного "
+"для Android] — популярного, современного, многофункционального и безопасного "
 "браузера с открытым исходным кодом. CENO расширяет Firefox с помощью "
-"**Ouinet**, базовой технологии, позволяющей обмениваться контентом между "
-"устройствами (описано в следующих разделах)."
+"технологии **Ouinet**, позволяющей обмениваться контентом между устройствами "
+"(описано в следующих разделах)."
 
 #: intro/ceno.md:block 5 (header)
 msgid "Who develops CENO?"
@@ -112,6 +112,7 @@ msgstr ""
 "друг другу."
 
 #: intro/ceno.md:block 9 (paragraph)
+#, fuzzy
 msgid ""
 "You do not need to be an advanced computer user or even understand how peer-"
 "to-peer networks operate to use CENO. The user experience is akin to "
@@ -121,7 +122,7 @@ msgstr ""
 "Вам не нужно быть опытным пользователем компьютера или даже понимать, как "
 "работают пиринговые сети, чтобы использовать CENO. С точки зрения "
 "пользователя всё работает практически как обычный веб-браузер (специфическая "
-"для CENO функциональность в значительной степени скрыта под капотом)."
+"для CENO функциональность в значительной степени скрыта «под капотом»)."
 
 #: intro/ceno.md:block 10 (paragraph)
 #, fuzzy

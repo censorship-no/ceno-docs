@@ -3,20 +3,21 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:51+0200\n"
-"PO-Revision-Date: 2021-03-05 19:51+0000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2021-08-22 22:33+0000\n"
+"Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
+"Language-Team: Turkish <https://hosted.weblate.org/projects/censorship-no/"
+"homepage-readme/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.5.1-dev\n"
+"X-Generator: Weblate 4.8.1-dev\n"
 
 #
 #: README.md:block 1 (header)
 msgid "Censorship.no! User Manual"
-msgstr ""
+msgstr "Censorship.no! Kullanıcı Kılavuzu"
 
 #: README.md:block 2 (paragraph)
 msgid ""
@@ -24,6 +25,9 @@ msgid ""
 "technologies, as created for the [Censorship.no!][Censorship.no!] project by "
 "[eQualitie][eQualitie]."
 msgstr ""
+"Bu kılavuz, [eQualitie][eQualitie] tarafından [Censorship.no!][Censorship."
+"no!] projesi için oluşturulan **CENO Tarayıcısı** ve ilgili teknolojilerin "
+"kullanıcılarına yöneliktir."
 
 #: README.md:block 3 (paragraph)
 msgid ""
@@ -32,22 +36,29 @@ msgid ""
 "find pointers for further reading and details on implementation, as well as "
 "the [protocol specifications][protocol specifications]."
 msgstr ""
+"Teknik belgelendirme arıyorsanız, lütfen [CENO belgelendirme deposu][CENO "
+"belgelendirme deposu]'na bakın, burada daha fazla okuma için bilgiler ve "
+"uygulamaya ilişkin ayrıntılar ile [protokol tanımlamaları][protokol "
+"tanımlamaları] bulacaksınız."
 
 #: README.md:block 3 (paragraph)
 msgid "[Censorship.no!]: https://censorship.no/"
-msgstr ""
+msgstr "[Censorship.no!]: https://censorship.no/"
 
 #: README.md:block 3 (paragraph)
 msgid "[eQualitie]: https://equalit.ie/"
-msgstr ""
+msgstr "[eQualitie]: https://equalit.ie/"
 
 #: README.md:block 3 (paragraph)
 msgid ""
 "[CENO documentation repository]: https://github.com/censorship-no/ceno-docs/"
 msgstr ""
+"[CENO belgelendirme deposu]: https://github.com/censorship-no/ceno-docs/"
 
 #: README.md:block 3 (paragraph)
 msgid ""
 "[protocol specifications]: https://github.com/equalitie/ouinet/blob/master/"
 "doc/ouinet-network-whitepaper.md"
 msgstr ""
+"[protokol tanımlamaları]: https://github.com/equalitie/ouinet/blob/master/"
+"doc/ouinet-network-whitepaper.md"
