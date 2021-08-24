@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
 "PO-Revision-Date: 2021-08-24 14:27+0000\n"
-"Last-Translator: Tun Tun AUNG <tuntunaung@codingclassroom.org>\n"
+"Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "browser-readme/my/>\n"
 "Language: my\n"
@@ -20,6 +20,7 @@ msgid "Using the CENO Browser"
 msgstr "CENO ဘရောက်ဇာ အသုံးပြုခြင်း"
 
 #: browser/README.md:block 2 (paragraph)
+#, fuzzy
 msgid ""
 "This chapter gives you some hints on the usage of CENO Browser as far as its "
 "Ouinet-related capabilities are concerned. Please always keep in mind that "
@@ -59,6 +60,7 @@ msgstr ""
 "တိုင်ကြားရန် ဝန်မလေးပါနှင့်။"
 
 #: browser/README.md:block 4 (paragraph)
+#, fuzzy
 msgid "[Firefox for Android]: https://www.mozilla.org/firefox/android/"
 msgstr "[Android အတွက် Firefox]: https://www.mozilla.org/firefox/android/"
 
