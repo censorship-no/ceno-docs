@@ -3,14 +3,16 @@ msgstr ""
 "Project-Id-Version: appstorelisting\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-12 12:47-0400\n"
-"PO-Revision-Date: 2021-08-12 13:07-0400\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2021-08-29 08:34+0000\n"
+"Last-Translator: Kian <kian@tahgheegh.com>\n"
+"Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
+"appstoretext/fa/>\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.0\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.8.1-dev\n"
 
 #: playstoretext.txt:2
 msgid ""
@@ -19,12 +21,19 @@ msgid ""
 "cooperating peers. CENO can be used to bypass Internet censorship and help "
 "others retrieve blocked pages. "
 msgstr ""
+"پروژه CENO (نه به سانسور!) یک مرورگر وب برای تلفن‌های همراه است. از فناوری "
+"همتا به همتا (Peer to Peer) برای ارائه محتوای اینترنت استفاده می‌کند و "
+"محتوای مورد علاقه‌تان را از طریق این دستگاه‌های همتا که با شما همکاری "
+"می‌کنند، ذخیره می‌کند. از CENO می‌توان برای دور زدن سانسور اینترنت و کمک به "
+"دیگران در بازیابی صفحات مسدود شده استفاده کرد. "
 
 #: playstoretext.txt:4
 msgid ""
 "Say NO to censorship! Install CENO Browser today and be prepared for the "
 "next time you get 🔌 unplugged. "
 msgstr ""
+"به سانسور نه بگویید! مرورگر CENO را همین حالا نصب کنید و برای دفعه بعد که "
+"قطع اینترنت اتفاق افتاد، آماده باشید. "
 
 #: playstoretext.txt:7
 msgid ""
@@ -33,6 +42,10 @@ msgid ""
 "shared by a global network of peers, and stored in a distributed cache for "
 "availability when traditional networks are blocked or go down."
 msgstr ""
+"اول - به‌طور آفلاین\n"
+"مرورگر CENO با در نظر گرفتن سناریوهای مختلف در مورد قطع اینترنت طراحی شده "
+"است. وب‌سایت‌ها توسط یک شبکه جهانی از همتایان به اشتراک گذاشته می‌شوند و در "
+"صورتی که شبکه‌های سنتی مسدود شوند یا از بین بروند، در دسترس قرار می‌گیرند."
 
 #: playstoretext.txt:10
 msgid ""
@@ -40,6 +53,9 @@ msgid ""
 "Access any website. Frequently requested content is cached on the network "
 "and cannot be forcibly removed. "
 msgstr ""
+"🔓👀 قفل فضای وب را باز کنید!\n"
+"به هر وب‌سایتی دسترسی داشته باشید.  محتوایی که به‌طور مکرر درخواست شده باشد "
+"در شبکه ذخیره می‌شود و نمی توان آن را به زور حذف کرد. "
 
 #: playstoretext.txt:13
 msgid ""
@@ -47,6 +63,10 @@ msgid ""
 "By routing user traffic through peer-to-peer networks, CENO Browser incurs "
 "less data costs while still providing users with circumvention capability."
 msgstr ""
+"💲🌐 کاهش هزینه‌های انتقال اطلاعات در اینترنت\n"
+"با هدایت ترافیک اینترنتی کاربر از طریق شبکه‌های همتا به همتا، مرورگر CENO "
+"هزینه‌های داده را برای شما کاهش می‌دهد، آن هم در حالی که هنوز قابلیت دور زدن "
+"(سانسور) را در اختیار کاربران قرار می‌دهد."
 
 #: playstoretext.txt:16
 msgid ""
@@ -55,6 +75,10 @@ msgid ""
 "party developers to incorporate the CENO network into their apps for peer-to-"
 "peer connectivity."
 msgstr ""
+"آزاد و متن‌باز.\n"
+"مرورگر CENO از Ouinet پشتیبانی می‌کند، یک کتابخانه منبع که به‌طور متن‌باز "
+"طراحی شده و توسعه‌دهندگان ثالث را قادر می‌سازد تا شبکه CENO را برای اتصال "
+"همتا به همتا به اپلیکیشن‌های خود اضافه کنند."
 
 #: playstoretext.txt:18
 msgid ""
@@ -62,6 +86,9 @@ msgid ""
 "best intention that it is useful to you, but due to its highly innovative "
 "nature and stage of development, you may expect some issues while using it. "
 msgstr ""
+"لطفا توجه کنید: مرورگر CENO نرم افزاری آزمایشی است. ما آن را با قصد مفید "
+"بودن به شما ارائه می‌کنیم، اما به دلیل ماهیت بسیار نوآورانه و این‌که در "
+"مرحله توسعه است، شاید هنگام استفاده از آن برخی مشکلات در انتظار شما باشد. "
 
 #: playstoretext.txt:20
 msgid ""
@@ -71,6 +98,11 @@ msgid ""
 "application may stay in storage in clear text for some time. Other security "
 "or privacy-affecting issues might exist."
 msgstr ""
+"مرورگر CENO یک ابزار ناشناس ماندن در اینترنت نیست: اطلاعات مربوط به مرورگری "
+"شما ممکن است در دسترس سایر کاربران CENO قرار گیرد، همچنین این حقیقت که "
+"اپلیکیشن شما محتوای وب خاصی را در اختیار دیگران قرار می‌دهد. محتوایی که از "
+"طریق اپلیکیشن دسترسی به آن امکان پذیر است برای مدتی در متن ذخیره می‌شود. این "
+"احتمال وجود دارد که  سایر مسائل امنیتی یا حریم خصوصی وجود داشته باشد."
 
 #: playstoretext.txt:22
 msgid ""
@@ -78,6 +110,9 @@ msgid ""
 "assume reasonable risks. eQualitie and its associates decline any legal "
 "responsibility derived from the use of this software."
 msgstr ""
+"توصیه ما استفاده از این ابزار در محیط‌های کنترل شده است و البته در نظر گرفتن "
+"خطراتی که به‌طور منطقی ممکن است وجود داشته باشد. eQualitie و همکارانش "
+"هرگونهاین ابزار  مسئولیت قانونی ناشی از استفاده از این ابزار را رد می‌کنند."
 
 #: playstoretext.txt:25
 msgid ""
@@ -87,12 +122,19 @@ msgid ""
 "accessible technology and improve the skill-set needed for defending human "
 "rights and freedoms in the digital age."
 msgstr ""
+"درباره eQualit.ie\n"
+"eQualit.ie سیستم‌های باز و قابل استفاده مجدد را با تمرکز بر حریم خصوصی، "
+"امنیت آنلاین و مدیریت اطلاعات توسعه می دهد. هدف ما ایجاد فناوری‌های قابل "
+"دسترس است و بهبود سطح مهارت‌های مورد نیاز برای دفاع از حقوق بشر و آزادی در "
+"عصر دیجیتال است."
 
 #: playstoretext.txt:27
 msgid ""
 "To learn more about CENO browser and its distributed library, Ouinet, please "
 "visit https://censorship.no"
 msgstr ""
+"برای آشنایی بیشتر با مرورگر CENO و کتابخانه توزیع شده‌ی Ouinet از وب‌سایت "
+"https://censorship.no بازدید کنید."
 
 #: playstoretext.txt:30
 msgid ""
@@ -100,7 +142,13 @@ msgid ""
 "Read more in the CENO User Manual, or contact us at cenoers@equalit.ie. We "
 "love receiving feedback and are continuously improving CENO for its users!"
 msgstr ""
+"پرسش‌ها/پشتیبانی.\n"
+"اطلاعات تکمیلی را در دفترچه راهنمای CENO بخوانید یا از طریق ایمیل cenoers@"
+"equalit.ie با ما تماس بگیرید. ما از دریافت بازخوردها از سمت شما استقبال می‌"
+"کنیم و به‌طور مداوم در حال کار در جهت بهبود عملکرد CENO برای کاربران آن "
+"هستیم."
 
 #: playstoretext.txt:31
 msgid "Stay connected, and help keep the web open and accessible to all!"
 msgstr ""
+"متصل بمانید و کمک کنید تا محتوای وب به‌طور آزاد و باز در دسترس همگان باشد."
