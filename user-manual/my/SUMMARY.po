@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-02 02:42+0200\n"
-"PO-Revision-Date: 2021-07-03 06:32+0000\n"
+"PO-Revision-Date: 2021-07-21 23:33+0000\n"
 "Last-Translator: Tun Tun AUNG <tuntunaung@codingclassroom.org>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "user-manual/my/>\n"
@@ -12,68 +12,88 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.8-dev\n"
+"X-Generator: Weblate 4.7.2-dev\n"
 
 #
+#: SUMMARY.md:block 1 (header)
 msgid "Summary"
 msgstr "အကျဉ်းချုပ်"
 
+#: SUMMARY.md:block 2 (paragraph)
 msgid "[Censorship.no!](README.md)"
 msgstr "[Censorship.no!](README.md)"
 
+#: SUMMARY.md:block 3 (unordered list)
 msgid "[Introduction](intro/README.md)"
 msgstr "[မိတ်ဆက်](intro/README.md)"
 
+#: SUMMARY.md:block 3 (unordered list)
 msgid "[What is the CENO Browser?](intro/ceno.md)"
 msgstr "[CENO ဘရောက်ဇာဆိုတာ ဘာလဲ။](intro/ceno.md)"
 
+#: SUMMARY.md:block 3 (unordered list)
 msgid "[What is Ouinet?](intro/ouinet.md)"
 msgstr "[Ouinet ဆိုတာ ဘာလဲ။](intro/ouinet.md)"
 
+#: SUMMARY.md:block 3 (unordered list)
 msgid "[Quick start guide](intro/qsg.md)"
 msgstr "[အမြန် စတင်မှု လမ်းညွှန်](intro/qsg.md)"
 
+#: SUMMARY.md:block 3 (unordered list)
 msgid "[Frequently Asked Questions](intro/faq.md)"
 msgstr "[မေးလေ့ရှိသော မေးခွန်းများ](intro/faq.md)"
 
+#: SUMMARY.md:block 3 (unordered list)
 msgid "[Main concepts](concepts/README.md)"
 msgstr "[အဓိက အယူအဆများ](concepts/README.md)"
 
+#: SUMMARY.md:block 3 (unordered list)
 msgid "[How does it work?](concepts/how.md)"
 msgstr "[ဘယ်လို အလုပ်လုပ်သလဲ။](concepts/how.md)"
 
+#: SUMMARY.md:block 3 (unordered list)
 msgid "[Public vs. private browsing](concepts/public-private.md)"
 msgstr "[အများသုံးနှင့် သီးသန့် ရှာဖွေမှု](concepts/public-private.md)"
 
+#: SUMMARY.md:block 3 (unordered list)
 msgid "[Advantages of using CENO/Ouinet](concepts/advantages.md)"
 msgstr "[CENO/Ouinet အသုံးပြုခြင်း၏ အားသာချက်များ](concepts/advantages.md)"
 
+#: SUMMARY.md:block 3 (unordered list)
 msgid "[Risks in using CENO/Ouinet](concepts/risks.md)"
 msgstr "[CENO/Ouinet အသုံးပြုခြင်း၏ အန္တရာယ်များ](concepts/risks.md)"
 
+#: SUMMARY.md:block 3 (unordered list)
 msgid "[Using the CENO Browser](browser/README.md)"
 msgstr "[CENO ဘရောက်ဇာ အသုံးပြုခြင်း](browser/README.md)"
 
+#: SUMMARY.md:block 3 (unordered list)
 msgid "[Installing CENO](browser/install.md)"
 msgstr "[CENO ထည့်သွင်းခြင်း](browser/install.md)"
 
+#: SUMMARY.md:block 3 (unordered list)
 msgid "[Using public or private browsing](browser/public-private.md)"
 msgstr ""
 "[အများသုံး သို့မဟုတ် သီးသန့် ရှာဖွေမှုကို အသုံးပြုခြင်း](browser/public-"
 "private.md)"
 
+#: SUMMARY.md:block 3 (unordered list)
 msgid "[CENO settings](browser/settings.md)"
 msgstr "[CENO ဆက်တင်များ](browser/settings.md)"
 
+#: SUMMARY.md:block 3 (unordered list)
 msgid "[Testing the Browser](browser/testing.md)"
 msgstr "[ဘရောက်ဇာ စမ်းသပ်ခြင်း](browser/testing.md)"
 
+#: SUMMARY.md:block 3 (unordered list)
 msgid "[Helping others](browser/bridging.md)"
 msgstr "[အခြားသူများအား ကူညီခြင်း](browser/bridging.md)"
 
+#: SUMMARY.md:block 3 (unordered list)
 msgid "[Troubleshooting](browser/troubleshooting.md)"
 msgstr "[ပြဿနာ ဖြေရှင်းခြင်း](browser/troubleshooting.md)"
 
+#: SUMMARY.md:block 3 (unordered list)
 msgid "[Annex: The Ouinet client front-end](client/front-end.md)"
 msgstr ""
 "[နောက်ဆက်တွဲ- Ouinet လက်ခံစက် သုံးစွဲသူ ကြားခံစနစ်](client/front-end.md)"

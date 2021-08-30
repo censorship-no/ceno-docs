@@ -1,0 +1,12 @@
+[book]
+authors = ["Ivan Vilata-i-Balaguer", "Dmitri Vitaliev", "Jenny Ryan"]
+language = "ru"
+multilingual = false
+src = "ru.src"
+title = "Руководство пользователя Censorship.no!"
+
+[output.html]
+git-repository-url = "https://github.com/censorship-no/ceno-docs"
+
+[build]
+build-dir = "ru.book"

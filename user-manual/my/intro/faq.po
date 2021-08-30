@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-03 02:50+0200\n"
-"PO-Revision-Date: 2021-06-08 08:33+0000\n"
+"PO-Revision-Date: 2021-08-28 06:33+0000\n"
 "Last-Translator: Cho Lwin Phu <CHRISTINEIVY19@gmail.com>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "faq/my/>\n"
@@ -12,24 +12,29 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.7-dev\n"
+"X-Generator: Weblate 4.8.1-dev\n"
 
 #
+#: intro/faq.md:block 1 (header)
 msgid "Frequently Asked Questions"
 msgstr "မေးလေ့ရှိသော မေးခွန်းများ"
 
+#: intro/faq.md:block 2 (header)
 msgid "Usage"
 msgstr "သုံးစွဲပုံ"
 
+#: intro/faq.md:block 3 (header)
 msgid ""
 "Can the CENO Browser replace my current browser (Chrome/Firefox/Safari)?"
 msgstr ""
 "CENO ဘရောက်ဇာသည် ကျွန်ုပ်၏ လက်ရှိ ဘရောက်ဇာ (Chrome/Firefox/Safari) ကို "
 "အစားထိုးနိုင်သလား။"
 
+#: intro/faq.md:block 4 (paragraph)
 msgid "Short answer: yes, at least for some non-critical browsing."
 msgstr "အဖြေတို- အနည်းဆုံး အရေးမကြီးသော ရှာဖွေမှုအချို့အတွက် အစားထိုးနိုင်သည်။"
 
+#: intro/faq.md:block 5 (paragraph)
 msgid ""
 "Since CENO is based on Mozilla Firefox for Android, it provides all the "
 "features that are expected from a modern browser. However, its reliance on "
@@ -42,10 +47,11 @@ msgstr ""
 "၎င်း၏ လုပ်ဆောင်ချက်အပေါ် မသိမသာ အကျိုးသက်ရောက်မှု ရှိနိုင်သည် (၎င်းတို့ထဲမှ "
 "အချို့တွင် သင့်ကိုယ်ရေးလုံခြုံမှု ပါဝင်ပတ်သက်နိုင်သည်)။"
 
+#: intro/faq.md:block 6 (paragraph)
 msgid ""
 "Also, since CENO and Ouinet are still under development, you may experience "
-"some instability. That may also mean that backwards-incompatible changes are"
-" introduced which require you to uninstall the application or remove stored "
+"some instability. That may also mean that backwards-incompatible changes are "
+"introduced which require you to uninstall the application or remove stored "
 "data (including bookmarks and site settings) before upgrading."
 msgstr ""
 "ထို့ပြင် CENO နှင့် Ouinet ကို တီထွင်ဖန်တီးဆဲ ဖြစ်သည့်အတွက် သင်သည် "
@@ -54,9 +60,10 @@ msgstr ""
 " သိုလှောင်ထားသော ဒေတာကို ဖယ်ရှားရန် လိုအပ်သည့် နောက်ပြန် ကိုက်ညီမှုမရှိသော "
 "အပြောင်းအလဲများကို မိတ်ဆက်ခြင်းလည်း ဖြစ်နိုင်သည်။"
 
+#: intro/faq.md:block 7 (paragraph)
 msgid ""
-"For important work on Web sites not subject to censorship, we recommend that"
-" you use your habitual Web browser instead of CENO. Please read the section "
+"For important work on Web sites not subject to censorship, we recommend that "
+"you use your habitual Web browser instead of CENO. Please read the section "
 "on [risks](../concepts/risks.md) for more information."
 msgstr ""
 "ဆင်ဆာလုပ်ခြင်းနှင့် မသက်ဆိုင်သော ဝဘ်ဆိုက်များတွင် အရေးကြီးသော အလုပ်အတွက် "
@@ -64,70 +71,118 @@ msgstr ""
 "က သင့်အား အကြံပြုပါသည်။ ကျေးဇူးပြု၍ နောက်ထပ် အချက်အလက်များအတွက် "
 "[စွန့်စားမှုများ](../concepts/risks.md) အပိုင်းကို ဖတ်ပါ။"
 
+#: intro/faq.md:block 8 (header)
 msgid "Can I use the CENO Browser to access Twitter, Facebook and Gmail?"
 msgstr ""
 "Twitter၊ Facebook နှင့် Gmail ကို ဝင်ရောက်သုံးစွဲရန် CENO ဘရောက်ဇာကို "
 "အသုံးပြုနိုင်သလား။"
 
+#: intro/faq.md:block 9 (paragraph)
 msgid "Short answer: yes, by using private tabs."
 msgstr "အဖြေတို- သီးသန့် တက်ဘ်များ သုံး၍ အသုံးပြုနိုင်သည်။"
 
+#: intro/faq.md:block 10 (paragraph)
 msgid ""
 "Although CENO strives to provide a user experience as similar to normal Web "
 "browsing as possible, some of the techniques used to avoid network "
-"interference do not play well with such dynamic sites. This is the case with"
-" CENO's default mode of operation (i.e. public browsing), since it strips "
+"interference do not play well with such dynamic sites. This is the case with "
+"CENO's default mode of operation (i.e. public browsing), since it strips "
 "down all private data (like passwords and cookies) from Web traffic to "
 "ensure that it does not leak to other untrusted CENO or Ouinet users."
 msgstr ""
+"CENO သည် အသုံးပြုသူများကို ပုံမှန် ဝဘ်ဆိုက်အသုံးပြုခြင်းနှင့် "
+"အတတ်နိုင်ဆုံးတူညီသော အတွေ့အကြုံရအောင် ကြိုးပမ်းပေးထားသော်လည်း "
+"ကွန်ရက်နှောင့်ယှက်မှုကို ရှောင်ရှားရန် အသုံးပြုထားသော တချို့နည်းပညာများသည် "
+"အပြောင်းအလဲရှိသော ဝဘ်ဆိုက်တချို့တွင် ကောင်းစွာအလုပ်မလုပ်နိုင်ပါ။ ဤပြဿနာကို "
+"CENO ၏ ပုံသေအလုပ်လုပ်မှုပုံစံ (ဆိုလိုသည်မှာ - အများသုံးရှာဖွေခြင်း) တွင် "
+"ကြုံရတတ်သည်။ အကြောင်းရင်းမှာ ယုံကြည်စိတ်ချရမှုမရှိသော အခြား CENO (သို့) "
+"Ouinet အသုံးပြုသူများထံသို့ ကိုယ်ရေးကိုယ်တာအချက်အလက်များ "
+"ပေါက်ကြားမှုမရှိစေရန် (စကားဝှက်များနှင့် ကွတ်ကီးများကဲ့သို့) "
+"ကိုယ်ရေးဒေတာအားလုံးကို ဝက်ဘ်အသွားအလာမှ ဖယ်ရှားခဲ့သောကြောင့်ဖြစ်သည်။"
 
+#: intro/faq.md:block 11 (paragraph)
 msgid ""
 "To avoid this and enable the use of such dynamic sites in CENO, you can use "
 "private tabs (i.e. private browsing), which leave private data intact and "
 "keep connections to the sites encrypted and thus protected from everyone "
-"else. However, this requires that network traffic from your device can reach"
-" those websites in some way."
+"else. However, this requires that network traffic from your device can reach "
+"those websites in some way."
 msgstr ""
+"ဤအဖြစ်ကို ရှောင်ရှားပြီး အပြောင်းအလဲရှိသော ဝဘ်ဆိုက်များကို CENO တွင် "
+"အသုံးပြုလိုပါက သီးသန့်တဘ်များ (ဆိုလိုသည်မှာ - သီးသန့်ရှာဖွေခြင်း) ကို "
+"အသုံးပြုပါ။ သီးသန့်တဘ်များသည် ကိုယ်ရေးကိုယ်တာအချက်အလက်များကို မထိခိုက်စေဘဲ "
+"ဝဘ်ဆိုက်များနှင့်ဆက်သွယ်မှုကို ကုဒ်ဖြင့်ပြောင်းလဲ၍ အခြားလူများမှ "
+"ကာကွယ်ပေးသည်။ သို့သော် သင့်စက်မှ ကွန်ရက်အသွားအလာသည် ထိုဝဘ်ဆိုက်များသို့ "
+"တစ်နည်းနည်းဖြင့်ရောက်ရှိရန်လိုအပ်သည်။"
 
+#: intro/faq.md:block 12 (paragraph)
 msgid ""
 "For further details, please refer to the section on the differences between "
 "[public and private browsing](../concepts/public-private.md)."
 msgstr ""
+"အသေးစိတ်အချက်အလက်များ သိလိုပါက [အများသုံးနှင့် သီးသန့် ရှာဖွေမှု](../"
+"concepts/public-private.md) အပိုင်းတွင် ကွာခြားချက်များကို ကြည့်နိုင်ပါသည်။"
 
+#: intro/faq.md:block 13 (header)
 msgid "Privacy and security"
-msgstr ""
+msgstr "ကိုယ်ရေးလုံခြုံမှုနှင့် လုံခြုံရေး"
 
+#: intro/faq.md:block 14 (header)
 msgid "Will my device store content that I did not request?"
 msgstr ""
+"ကျွန်ုပ်၏စက်ပစ္စည်းသည် ကျွန်ုပ်မတောင်းဆိုခဲ့သည့်အကြောင်းအရာများကို "
+"သိမ်းဆည်းမည်လား။"
 
+#: intro/faq.md:block 15 (paragraph)
 msgid "Short answer: no."
-msgstr ""
+msgstr "အဖြေတို - မသိမ်းပါ။"
 
+#: intro/faq.md:block 16 (paragraph)
 msgid ""
-"CENO only shares content that you requested (using [public "
-"browsing](../concepts/public-private.md))."
+"CENO only shares content that you requested (using [public browsing](../"
+"concepts/public-private.md))."
 msgstr ""
+"CENO သည် ([အများသုံး ရှာဖွေခြင်း](../concepts/public-private.md) "
+"ကိုအသုံးပြု၍) သင်တောင်းဆိုထားသော အကြောင်းအရာများကိုသာ မျှဝေပေးပါသည်။"
 
+#: intro/faq.md:block 17 (paragraph)
 msgid ""
 "Please note that a malicious website may still try to trick your browser "
 "into retrieving content from other sites without your knowledge so as to "
-"force your device to store and share it with other users. While Firefox code"
-" already does a pretty good job at detecting and blocking such attempts, you"
-" should still avoid visiting suspicious sites."
+"force your device to store and share it with other users. While Firefox code "
+"already does a pretty good job at detecting and blocking such attempts, you "
+"should still avoid visiting suspicious sites."
 msgstr ""
+"သတိပြုရန်မှာ အန္တရာယ်ရှိသော ဝဘ်ဆိုက်တစ်ခုခုသည် သင်မသိလိုက်ဘဲ "
+"သင့်ဘရောက်ဇာဖြင့် တခြားဝဘ်ဆိုက်များမှ အကြောင်းအရာများကို ပြန်လည်ရယူနိုင်ပြီး "
+"ထိုအကြောင်းအရာကို သင့်စက်တွင်သိုလှောင်၍ တခြားအသုံးပြုသူများနှင့် မျှဝေရန် "
+"အတင်းအကျပ် ပြုလုပ်နိုင်ပါသည်။ Firefox သင်္ကေတများသည် ထိုကဲ့သို့သော "
+"ဝဘ်ဆိုက်များမှ ကြိုးစားအားထုတ်မှုများကို ရှာဖွေဆန်းစစ်၍ ပိတ်ပင်ရာတွင် "
+"ကျွမ်းကျင်သော်လည်း သင်သည် သံသယဖြစ်စရာကောင်းသော ဝဘ်ဆိုက်များကို "
+"ဝင်ရောက်ကြည့်ရှုခြင်းအား ရှောင်ရှားသင့်သည်။"
 
+#: intro/faq.md:block 18 (paragraph)
 msgid ""
 "Read more about how your CENO Browser retrieves and shares Web content with "
 "others [here](../concepts/how.md)."
 msgstr ""
+"CENO ဘရောက်ဇာမှ ဝဘ်ဆိုက်အကြောင်းအရာများကို ရယူပုံနှင့် တခြားသူများအား "
+"မျှဝေပုံကို [ဒီနေရာမှာ](../concepts/how.md) ဖတ်ရှုနိုင်ပါသည်။"
 
+#: intro/faq.md:block 19 (header)
 msgid ""
 "Can anyone see if I am using the CENO Browser to access censored Web sites?"
 msgstr ""
+"ကျွန်ုပ်က CENO ဘရောက်ဇာကို အသုံးပြုပြီး ပိတ်ဆို့ထားသော ဝဘ်ဆိုက်များကို "
+"ဝင်ကြည့်သည်ကို အခြားသူများ သိနိုင်ပါသလား။"
 
+#: intro/faq.md:block 20 (paragraph)
 msgid "Short answer: yes, with some technical knowledge and resources."
 msgstr ""
+"အဖြေတို - သိနိုင်ပါသည်၊ တချို့သော နည်းပညာဆိုင်ရာ ဗဟုသုတနှင့် "
+"အရင်းအမြစ်တို့ရှိပါက သိနိုင်ပါသည်။"
 
+#: intro/faq.md:block 21 (paragraph)
 msgid ""
 "CENO is not an anonymity tool. An attacker able to spy on your network "
 "traffic can see content being requested from or served to another user from "
@@ -135,74 +190,132 @@ msgid ""
 "particular website, although they cannot list all the content that you are "
 "sharing."
 msgstr ""
+"CENO သည် အမည်ဝှက် ကိရိယာတစ်ခု မဟုတ်ပါ။ တိုက်ခိုက်သူတစ်ဦးက သင့်စက်မှ "
+"တောင်းဆိုသော (သို့) အခြားသုံးစွဲသူထံ ပေးပို့သော အကြောင်းအရာများကို "
+"သင့်ကွန်ရက်လမ်းကြောင်းကနေ ခိုးယူကြည့်ရှုနိုင်ပါသည်။ တိုက်ခိုက်သူသည် "
+"သင်မျှဝေနေသော အကြာင်းအရာအားလုံးကို စာရင်းမပြုလုပ်နိုင်သော်လည်း "
+"သီးခြားဝဘ်ဆိုက်တစ်ခုကို သင်မျှဝေနေသလားဆိုတာကို သိနိုင်ပါသည်။"
 
+#: intro/faq.md:block 22 (paragraph)
 msgid ""
 "However, content being retrieved into the network for the first time or "
 "using [private browsing](../concepts/public-private.md) will travel over "
-"encrypted connections. See [how content retrieval works](../concepts/how.md)"
-" and the associated [risks](../concepts/risks.md) for more information."
+"encrypted connections. See [how content retrieval works](../concepts/how.md) "
+"and the associated [risks](../concepts/risks.md) for more information."
 msgstr ""
+"သို့သော် ပထမဆုံးအကြိမ် ရယူပြီး သို့မဟုတ် [သီးသန့်ရှာဖွေမှု](../concepts/"
+"public-private.md) ကို အသုံးပြုပြီး ကွန်ရက်ထဲထည့်သော အကြောင်းအရာကို "
+"ကုဒ်ဖြင့်ပြောင်းလဲထားသော ချိတ်ဆက်မှုများမှတစ်ဆင့် ပေးပို့ပါမည်။ "
+"နောက်ထပ်အချက်အလက်များ သိလိုပါက [အကြောင်းအရာ ပြန်ရယူပုံ](../concepts/how.md) "
+"နှင့် ၎င်းနှင့်ဆက်စပ်နေသော [စွန့်စားမှုများ](../concepts/risks.md) ကို "
+"ကြည့်ပါ။"
 
+#: intro/faq.md:block 23 (header)
 msgid "Resource usage"
-msgstr ""
+msgstr "ရင်းမြစ် သုံးစွဲမှု"
 
+#: intro/faq.md:block 24 (header)
 msgid "Does the CENO Browser use a lot of data?"
-msgstr ""
+msgstr "CENO ဘရောက်ဇာသည် ဒေတာကို အများအပြား အသုံးပြုပါသလား။"
 
+#: intro/faq.md:block 25 (paragraph)
 msgid "Short answer: more than your usual browser."
-msgstr ""
+msgstr "အဖြေတို - သင် အသုံးပြုနေကျ ဘရောက်ဇာထက် ပိုသုံးပါသည်။"
 
+#: intro/faq.md:block 26 (paragraph)
 msgid ""
 "Whenever your CENO Browser serves content to another user or forwards their "
-"traffic, it is consuming extra data depending on factors like how popular or"
-" large the content is, and how well-connected your device is. Sharing more "
+"traffic, it is consuming extra data depending on factors like how popular or "
+"large the content is, and how well-connected your device is. Sharing more "
 "content also implies more overhead."
 msgstr ""
+"သင်၏ CENO ဘရောက်ဇာသည် အခြားသောအသုံးပြုသူများထံ အကြောင်းအရာများကို "
+"ပေးပို့သောအခါ သို့မဟုတ် အသွားအလာများကို ထပ်ဆင့်ပို့သောအခါ CENO သည် "
+"အကြောင်းအရာ၏ ကျော်ကြားပုံ သို့မဟုတ် ကြီးမားပုံ နှင့် သင့်စက်၏ "
+"ကွန်ရက်ချိတ်ဆက်မှုအားကောင်းခြင်း အစရှိသော အချက်များပေါ်တွင် မူတည်ပြီး "
+"ဒေတာပိုမိုကုန်စေပါသည်။ အကြောင်းအရာများ ပိုမိုမျှဝေပါက ပိုမိုကုန်ကျနိုင်ပါသည်။"
 
+#: intro/faq.md:block 27 (paragraph)
 msgid ""
 "Although CENO is much lighter in resources than other data-sharing "
 "applications, it can still result in increased data usage and fees. We "
 "recommend keeping an eye on the app's data usage (under Android settings) "
 "and running CENO while connected to Wi-Fi instead of using mobile data."
 msgstr ""
+"CENO သည် အခြားသော ဒေတာမျှဝေသည့် အက်ပလီကေးရှင်းများထက် ရင်းမြစ်တွင် "
+"ပိုမိုပေါ့ပါးသော်လည်း ဒေတာသုံးစွဲမှုနှင့် အခကြေးငွေတို့ "
+"ပိုမိုကုန်ကျစေနိုင်ပါသည်။ (Android ဆက်တင်တွင်) အက်ပလီကေးရှင်း၏ "
+"ဒေတာသုံးစွဲမှုကို စောင့်ကြည့်ရန် ကျွန်ုပ်တို့ အကြံပေးလိုပါသည်။ ထို့ပြင် "
+"မိုဘိုင်းဒေတာကို အသုံးပြုမည့်အစား ဝိုင်ဖိုင်ကို အသုံးပြုပြီး CENO ကို "
+"အသုံးပြုပါ။"
 
+#: intro/faq.md:block 28 (header)
 msgid "Does the CENO Browser use a lot of battery on my device?"
-msgstr ""
+msgstr "CENO ဘရောက်ဇာသည် ကျွန်ုပ်၏စက်တွင် ဘက်ထရီများများ အသုံးပြုပါသလား။"
 
+#: intro/faq.md:block 30 (paragraph)
 msgid ""
 "CENO and Ouinet use various techniques for different users to cooperate in "
-"avoiding network interference and outages. Serving content to and forwarding"
-" traffic for other users consumes extra power. Also, even when your device "
-"is not actively helping other users, it still needs to stay reachable over "
-"the network, which prevents the use of some energy-saving features."
+"avoiding network interference and outages. Serving content to and forwarding "
+"traffic for other users consumes extra power. Also, even when your device is "
+"not actively helping other users, it still needs to stay reachable over the "
+"network, which prevents the use of some energy-saving features."
 msgstr ""
+"CENO နှင့် Ouinet သည် အသုံးပြုသူအမျိုးမျိုးအတွက် "
+"ကွန်ရက်နှောင့်ယှက်မှုများနှင့် ပြတ်တောက်မှုများကို ရှောင်ရှားရန် "
+"နည်းပညာအများအပြားကို အသုံးပြုထားသည်။ အခြားသောအသုံးပြုသူများထံ "
+"အကြောင်းအရာများကို ပေးပို့ခြင်းနှင့် အသွားအလာများကို ထပ်ဆင့်ပို့ခြင်းတို့သည် "
+"အား ပိုကုန်စေပါသည်။ သင့်စက်သည် အခြားအသုံးပြုသူများကို တက်တက်ကြွကြွ "
+"မကူညီချိန်တွင်ပင် ကွန်ရက်ပေါ်၌ အခြားသူတို့က သင့်စက်ကို ချိတ်ဆက်နိုင်ရန် "
+"လိုအပ်ပါသည်။ ထို့ကြောင့် စွမ်းအင်ချွေတာသော လုပ်ဆောင်ချက်အချို့ကို "
+"အသုံးမပြုနိုင်ပါ။"
 
+#: intro/faq.md:block 31 (paragraph)
 msgid ""
 "The net result is that CENO may keep on draining your battery even when not "
-"in use. Our tests have not shown power consumption hiking too much, but your"
-" mileage may vary. When in need of battery, we recommend stopping CENO "
-"completely (it offers a convenient shortcut for this, see "
-"[here](../browser/install.md))."
+"in use. Our tests have not shown power consumption hiking too much, but your "
+"mileage may vary. When in need of battery, we recommend stopping CENO "
+"completely (it offers a convenient shortcut for this, see [here](../browser/"
+"install.md))."
 msgstr ""
+"ရလဒ်အနေနှင့် CENO ကို အသုံးမပြုချိန်တွင်ပင် ၎င်းကြောင့် "
+"ဘက်ထရီအားလျော့နိုင်ပါသည်။ ကျွန်ုပ်တို့ စမ်းသပ်ချက်များတွင် စွမ်းအင် "
+"အသုံးပြုမှု အလွန်မများသော်လည်း သင်အသုံးပြုရာတွင် ကွဲပြားနိုင်ပါသည်။ ဘက်ထရီအား"
+" လိုအပ်ချိန်တွင် CENO ကို လုံးဝရပ်ပစ်လိုက်ဖို့ ကျွန်ုပ်တို့ အကြံပြုလိုပါသည် "
+"(ထိုသို့ရပ်ပစ်ရန် အဆင်ပြေစေမည့် ဖြတ်လမ်းကို [ဒီနေရာ](../browser/install.md) "
+"တွင် ကြည့်ပါ)။"
 
+#: intro/faq.md:block 32 (header)
 msgid "Do I need to be connected to Wi-Fi to use the CENO Browser?"
-msgstr ""
+msgstr "CENO ဘရောက်ဇာကို အသုံးပြုရန်အတွက် ဝိုင်ဖိုင်နှင့်ချိတ်ရန် လိုအပ်ပါသလား။"
 
+#: intro/faq.md:block 33 (paragraph)
 msgid "Short answer: no, but we strongly recommend it."
-msgstr ""
+msgstr "အဖြေတို - မလိုအပ်ပါ၊ သို့သော် ဖွင့်ထားဖို့ တိုက်တွန်းပါသည်။"
 
+#: intro/faq.md:block 34 (paragraph)
 msgid ""
-"Although CENO should work fine on a mobile connection, there are two reasons"
-" why we recommend using a Wi-Fi connection instead:"
+"Although CENO should work fine on a mobile connection, there are two reasons "
+"why we recommend using a Wi-Fi connection instead:"
 msgstr ""
+"CENO သည် မိုဘိုင်းချိတ်ဆက်မှုဖြင့် ကောင်းစွာ အလုပ်လုပ်နိုင်သော်လည်း "
+"ဝိုင်ဖိုင်ချိတ်ဆက်မှုကို အစားထိုး အသုံးပြုရန် ကျွန်ုပ်တို့ အကြံပြုရသည့် "
+"အကြောင်းရင်းနှစ်ခု ရှိပါသည်။"
 
+#: intro/faq.md:block 35 (ordered list)
 msgid ""
 "CENO consumes an extra amount of data which may result in a higher phone "
 "bill (see above)."
 msgstr ""
+"CENO သည် ဒေတာပမာဏ ပိုမိုအသုံးပြုခြင်းကြောင့် ဖုန်းဘေလ် ပိုမိုကုန်ကျနိုင်ပါသည်"
+" (အပေါ်တွင်ကြည့်ပါ)။"
 
+#: intro/faq.md:block 35 (ordered list)
 msgid ""
 "Mobile connections often make reaching your device more difficult from the "
-"outside than Wi-Fi ones, thus decreasing the chances that you can help other"
-" users get content."
+"outside than Wi-Fi ones, thus decreasing the chances that you can help other "
+"users get content."
 msgstr ""
+"ဝိုင်ဖိုင်ချိတ်ဆက်မှုထက် မိုဘိုင်းချိတ်ဆက်မှုတွင် ပြင်ပမှ သင့်စက်သို့ "
+"ရောက်ရှိနိုင်ရန် ပိုမိုခက်ခဲတတ်သောကြောင့် အခြားအသုံးပြုသူများကို "
+"အကြောင်းအရာများရရှိအောင် ကူညီနိုင်သော အခွင့်အလမ်းများ ကျဆင်းစေပါသည်။"

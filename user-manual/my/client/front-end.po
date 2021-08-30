@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2021-06-16 11:32+0000\n"
+"PO-Revision-Date: 2021-08-27 05:34+0000\n"
 "Last-Translator: Cho Lwin Phu <CHRISTINEIVY19@gmail.com>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "client-front-end/my/>\n"
@@ -12,70 +12,120 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.7-dev\n"
+"X-Generator: Weblate 4.8.1-dev\n"
 
 #
+#: client/front-end.md:block 1 (header)
 msgid "Annex: The Ouinet client front-end"
-msgstr ""
+msgstr "နောက်ဆက်တွဲ- Ouinet သုံးစွဲသူအတွက် စာမျက်နှာ"
 
+#: client/front-end.md:block 2 (paragraph)
 msgid ""
 "The Ouinet client (as run by e.g. the CENO Browser) offers a front-end page "
 "with some information and actions which may be useful for debugging the "
 "client. Some of those may not be available from the CENO Extension."
 msgstr ""
+"Ouinet သုံးစွဲသူ (ဥပမာ- CENO ဘရောက်ဇာ ကိုသုံးထားသော အပ်ပလီကေးရှင်း) တွင် "
+"အပ်ပလီကေးရှင်းရှိ အမှားများကို ဖယ်ထုတ်ရာတွင် အသုံးပြုနိုင်သည့် "
+"အချက်အလက်များနှင့် နည်းလမ်းများကို ဖော်ပြထားသည့် ရှေ့စာမျက်နှာကို "
+"ထည့်သွင်းထားသည်။ ၎င်းတို့အနက် အချို့ကို CENO အဆက်တွင် ရယူအသုံးပြုနိုင်မည် "
+"မဟုတ်ပါ။"
 
+#: client/front-end.md:block 3 (paragraph)
 msgid ""
 "The front-end is accessible using any plain Web browser running on the same "
 "device (you can use CENO too). Its default address is "
 "[http://127.0.0.1:8078/](http://127.0.0.1:8078/). If you open it, you will "
 "see something like the figure below."
 msgstr ""
+"ထိုရှေ့စာမျက်နှာကို သင့်စက်ရှိ မည်သည့် ဘရောက်ဇာနှင့်မဆို ဖွင့်ကြည့်နိုင်သည် ("
+"CENO ဘရောက်ဇာကိုလည်း သုံးနိုင်သည်)။ လိပ်စာမှာ [http://127.0.0.1:8078/"
+"](http://127.0.0.1:8078/) ဖြစ်သည်။ ဖွင့်လိုက်လျှင် ဤသို့တွေ့ရမည်။"
 
+#: client/front-end.md:block 4 (paragraph)
 msgid "![Figure: The client front-end](images/front-end.png)"
-msgstr ""
+msgstr "![ပုံ - အသုံးပြုသူ၏ ရှေ့စာမျက်နှာ](images/front-end.png)"
 
+#: client/front-end.md:block 5 (paragraph)
 msgid "The items shown in the page include:"
 msgstr "စာမျက်နှာတွင် ပြသထားသော အကြောင်းအရာများတွင် အောက်ပါတို့ ပါဝင်သည်-"
 
+#: client/front-end.md:block 6 (unordered list)
 msgid ""
-"A link to enable the client as a certificate authority (CA) at your browser,"
-" since the client needs to intercept HTTPS traffic."
+"A link to enable the client as a certificate authority (CA) at your browser, "
+"since the client needs to intercept HTTPS traffic."
 msgstr ""
+"သင့်ဘရောက်ဇာတွင် အက်အပလီကေးရှင်းကို HTTPS ဖြင့် ချိတ်ဆက်နိုင်ရန် လိုအပ်သည့် "
+"ခွင့်ပြုချက်လက်မှတ် (CA) ရယူရန် လင့်ခ်"
 
+#: client/front-end.md:block 6 (unordered list)
 msgid ""
 "You only need this to use a plain browser for testing the Ouinet client, in "
 "which case you will also have to configure its HTTP/HTTPS proxies to "
-"`127.0.0.1:8077`, and manually enable the [CENO "
-"Extension](https://github.com/censorship-no/ceno-ext-settings/) for "
-"injection to work. We very strongly recommend using a *separate, specific "
-"browser profile* for this purpose."
+"`127.0.0.1:8077`, and manually enable the [CENO Extension][CENO Extension] "
+"for injection to work. We very strongly recommend using a *separate, "
+"specific browser profile* for this purpose."
 msgstr ""
+"ရိုးရိုးဘရောက်ဇာတွင် Ouinet client ကို စမ်းသပ်ရန်အတွက်သာ ဤလင့်ခ်ကို "
+"လိုအပ်ပါသည်။ ဤလင့်ခ်ကို အသုံးပြုရန်  HTTP/HTTPS ပရောက်စီများကို `127.0.0."
+"1:8077` ဟု ပြောင်းရန်နှင့် အထူးပရောက်စီ ဆာဗာများ အလုပ်လုပ်စေရန် [CENO အဆက်]["
+"CENO အဆက်]ကို ဖွင့်ရန် လိုအပ်ပြီး ဖွင့်ရာတွင် *သီးခြား ဘရောက်ဇာ ပရိုဖိုင်ကို*"
+" အသုံးပြုရန် အကြံပြုပါသည်။"
 
+#: client/front-end.md:block 6 (unordered list)
 msgid ""
 "Please note that none of this needs to be done for the CENO Browser, since "
 "it is already configured like that."
 msgstr ""
+"အထူးသတိပြုရမည်မှာ CENO ဘရောက်ဇာကို အသုံးပြုထားလျှင် ရှေ့တွင် ဖော်ပြထားသည့် "
+"လမ်းညွှန်ချက်များကို လုပ်ဆောင်ရန် မလိုပါ။ CENO ဘရောက်ဇာများတွင် "
+"လမ်းညွှန်ချက်များအတိုင်း အဆင်သင့် ပြောင်းလဲထားပြီးဖြစ်သည်။"
 
+#: client/front-end.md:block 6 (unordered list)
 msgid ""
 "Buttons to enable or disable the different mechanisms used by the client to "
 "access content. They are equivalent to the check boxes in the [*CENO "
 "Settings* page](../browser/settings.md)."
 msgstr ""
+"ပါဝင်သည့် အကြောင်းအရာများကို အသုံးပြုရာတွင် လိုအပ်သည့် "
+"ထိန်းချုပ်မှုများလုပ်ဆောင်နိုင်ရန် အဖွင့် အပိတ် လုပ်နိုင်သည့် ခလုတ်များ။ ယင်း"
+" ခလုတ်များ [*CENO ဆက်တင်* စာမျက်နှာ](../browser/settings.md) "
+"အမှန်ခြစ်နိုင်သည့် သေတ္တာလေးများနှင့် လုပ်ဆောင်ချက်ချင်း တူပါသည်။"
 
+#: client/front-end.md:block 6 (unordered list)
 msgid ""
 "Selectors to choose different log levels, like the default `INFO` "
 "(informational messages, warnings and errors) or `DEBUG` (verbose output "
 "useful for reporting errors)."
 msgstr ""
+"လုပ်ဆောင်ချက်များကို အဆင့်အလိုက် ရွေးချယ်နိုင်သည့် သေတ္တာများ။ ဥပမာ- စနစ်က "
+"အလိုအလျောက် ရွေးချယ်ထား သော `INFO` (သတင်းအချက်အလက် မက်ဆေ့ချ်များ၊ "
+"သတိပြုစရာများနှင့် အမှားများ) သို့မဟုတ် `DEBUG` (အမှားများကို သတင်းပို့ရာတွင်"
+" အသုံးဝင်သည့် လုပ်ဆောင်ချက်) စသည်ဖြင့် ရွေးချယ်နိုင်သည်။"
 
+#: client/front-end.md:block 6 (unordered list)
 msgid ""
 "The public key used to verify signatures from injectors, and the configured "
 "way to reach them. The default `bep5` method looks up Internet addresses in "
 "a BitTorrent injector swarm, as explained [here](../concepts/how.md)."
 msgstr ""
+"အများသုံးသော့ကို ထိုးသွင်းစက်မှ လက်မှတ်များကို စစ်ဆေးရန်အတွက် အသုံးပြုပြီး "
+"၎င်းတို့ကို ရယူရန်အတွက် သီးသန့်စီစဉ်ထားသောနည်းလမ်းဖြစ်သည်။ `bep5` "
+"ပုံသေနည်းလမ်းသည် BitTorrent ထိုးသွင်းစက် စာရင်းတွင် အင်တာနက်လိပ်စာများကို "
+"ရှာဖွေပါသည်။ ရှင်းပြချက်များကို [ဒီနေရာ](../concepts/how.md)တွင် ကြည့်ပါ။"
 
+#: client/front-end.md:block 6 (unordered list)
 msgid ""
 "Information on your local cache like the maximum accepted age of cached "
 "content, the approximate size of the cache, and a button to purge it "
 "completely."
 msgstr ""
+"သင့်စက်တွင် ယာယီသိမ်းဆည်းထားသောမှတ်ဉာဏ် အချက်အလက်များတွင် "
+"ယာယီသိမ်းဆည်းထားသောအကြောင်းအရာ၏ အကြာဆုံးသိမ်းနိုင်သောသက်တမ်း၊ "
+"ယာယီသိမ်းဆည်းထားသောမှတ်ဉာဏ်၏ ခန့်မှန်းခြေအရွယ်အစားနှင့် "
+"ထိုမှတ်ဉာဏ်အချက်အလက်များအားလုံးကို လုံးဝပိတ်ပစ်နိုင်သော "
+"ခလုတ်တစ်ခုတို့ပါဝင်သည်။"
+
+#: client/front-end.md:block 6 (unordered list)
+msgid "[CENO Extension]: https://github.com/censorship-no/ceno-ext-settings/"
+msgstr "[CENO အဆက်]: https://github.com/censorship-no/ceno-ext-settings/"
