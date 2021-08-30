@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-08-11 17:33+0000\n"
-"Last-Translator: Erin McConnell <erinm@riseup.net>\n"
+"PO-Revision-Date: 2021-08-27 05:34+0000\n"
+"Last-Translator: Cho Lwin Phu <CHRISTINEIVY19@gmail.com>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "qsg/my/>\n"
 "Language: my\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.8-dev\n"
+"X-Generator: Weblate 4.8.1-dev\n"
 
 #: intro/qsg.md:block 1 (header)
 msgid "Quick start guide"
@@ -22,14 +22,12 @@ msgid ""
 "route your requests, as well as to store and share retrieved content with "
 "others. [Read more about CENO](ceno.md)."
 msgstr ""
-"CENO ဘရောက်ဇာသည် အင်တာနက်ပေါ်တွင် တင်ထားသော မည်သည့် အင်တာနက်စာမျက်နှာကိုမဆို "
-"ဝင်ရောက်နိုင်ပါသည်။ သင့်နိုင်ငံတွင် ပိတ်ဆို့ခံထားရသော "
-"အင်တာနက်စာမျက်နှာများကိုပင် ဝင်ရောက်ကြည့်ရှုနိုင်ပါတယ်။ CENOဘရောက်ဇာသည် "
-"အသုံးပြုသူမှ တောင်းဆိုသောအလုပ်ကို အသုံးပြုသူထံပြန်လည်ပေးပို့သော နည်းစနစ်ကို "
-"အသုံးပြုထားပါသည်။ ၄င်းအပြင် အကြောင်းအရာများကို သိမ်းဆည်းနိုင်ပြီး "
-"မိမိသိမ်းဆည်းထားသော၊ ကြည့်ရှုထားပြီးသော၊ ပြန်လည်ရယူထားသောအကြောင်းအရာများကို "
-"အခြားသောသုံးစွဲသူများနှင့် မျှဝေနိုင်ပါသည်။ [CENO "
-"ဘရောက်ဇာအကြောင်းဖတ်ရှုရန်](ceno.md)"
+"CENO ဘရောက်ဇာ သုံးခြင်းဖြင့် သင့်နိုင်ငံတွင် ပိတ်ဆို့ထားသော "
+"ဝဘ်ဆိုက်များအပါအဝင် အင်တာနက်ပေါ်ရှိ မည်သည့်ဝဘ်ဆိုက်ကိုမဆို "
+"ဝင်ရောက်နိုင်ပါသည်။ CENO သည် သင့်တောင်းဆိုချက်များကို ပေးပို့ရန် အသုံးပြုသူမှ"
+" အသုံးပြုသူ အချင်းချင်းကြား လုပ်ဆောင်သည့်စနစ်ကို အသုံးပြုပါသည်။ ထို့ပြင် "
+"မိမိပြန်လည်ရယူထားသော အကြောင်းအရာများကို သိမ်းဆည်းပြီး အခြားသုံးစွဲသူများနှင့်"
+" မျှဝေနိုင်ပါသည်။ [CENO အကြောင်းဖတ်ရှုရန်](ceno.md)"
 
 #: intro/qsg.md:block 3 (header)
 msgid "How to get started"
@@ -37,24 +35,24 @@ msgstr "ဘယ်လို စတင် အသုံးပြုရမလဲ"
 
 #: intro/qsg.md:block 4 (paragraph)
 msgid "You will need an Android device:"
-msgstr ""
-"Android စနစ် အသုံးပြုသော စမတ်ဖုန်း (သို့မဟုတ်) tablet တစ်ခု လိုအပ်ပါတယ်။"
+msgstr "Android စနစ် အသုံးပြုသော စက်ကိရိယာတစ်ခု လိုအပ်ပါသည်-"
 
 #: intro/qsg.md:block 5 (ordered list)
 msgid ""
 "Install the CENO Browser from [Google Play][ceno-gplay], [GitHub][ceno-gh] "
 "or [Paskoocheh][ceno-pask]. *No special permissions are needed*."
 msgstr ""
-"CENO ဘရောက်ဇာကို [Google Play][ceno-gplay], [GitHub][ceno-gh] or [Paskoocheh"
-"][ceno-pask] တို့ကနေ ထည့်သွင်းပါ။ *အထူးခွင့်ပြုချက်များ မလိုအပ်ပါ*။"
+"CENO ဘရောက်ဇာကို [Google Play][ceno-gplay]၊ [GitHub][ceno-gh] သို့မဟုတ် "
+"[Paskoocheh][ceno-pask] မှ ဒေါင်းလုတ်ဆွဲပြီး ထည့်သွင်းပါ။ "
+"*အထူးခွင့်ပြုချက်များ မလိုအပ်ပါ*။"
 
 #: intro/qsg.md:block 5 (ordered list)
 msgid ""
 "Run it and press *NEXT* on the introductory screens, then press *START "
 "BROWSING*."
 msgstr ""
-"၎င်းကို run ပြီးမိတ်ဆက်မျက်နှာပြင်များပေါ်တွင် *NEXT* ကိုနှိပ်ပါ၊ ထို့နောက် *"
-"START BROWSING* ကိုနှိပ်ပါ။"
+"၎င်းကို စက်ပေါ်တွင် ဖွင့်၍လုပ်ဆောင်ပြီး မိတ်ဆက်မျက်နှာပြင်များပေါ်တွင် *NEXT*"
+" ကိုနှိပ်ပါ၊ ထို့နောက် *START BROWSING* ကိုနှိပ်ပါ။"
 
 #: intro/qsg.md:block 5 (ordered list)
 msgid ""
@@ -62,23 +60,20 @@ msgid ""
 "privacy for some page or if it is not loading as expected, use a private tab "
 "(see [public vs. private browsing](../concepts/public-private.md))."
 msgstr ""
-"အခြားအသုံးပြုသူများကို ကို ဿင်ေရာက်ကြည့်ရှုနိုင်ရန် ကူညီနိုင်ရန် "
-"အင်တာနက်စာမျက်နှာများကို ပုံမှန်အတိုင်းရှာဖွေပါ။ "
-"တချို့သောအင်တာနက်စာမျက်နှာများအတွက် လုံခြုံရေးပိုင်းကို သံသယရှိတယ် "
-"(သို့မဟုတ်) သင်ထင်ထားသလို ပုံမှန်အတိုင်းအလုပ်မလုပ်ဘူးဆိုပါက "
-"သီးသန့်ရှာဖွေမှုကို အသုံးပြုပါ။ ([အများသုံး သို့မဟုတ် သီးသန့်ရှာဖွေမှု "
-"အသုံးပြုခြင်း](../concepts/public-private.md)ကိုကြည့်ပါ)"
+"အခြားအသုံးပြုသူများ ဝင်‌ရောက်ကြည့်ရှုနိုင်ရန် အင်တာနက်စာမျက်နှာများကို "
+"ပုံမှန်အတိုင်းရှာဖွေပါ။ အင်တာနက်စာမျက်နှာတစ်ခုခုနှင့်ပတ်သက်၍ "
+"လုံခြုံရေးပိုင်းကို သံသယရှိပါက (သို့) သင်ထင်ထားသလို တက်မလာပါက သီးသန့်တက်ဘ်ကို"
+" အသုံးပြုပါ ([အများသုံးနှင့် သီးသန့် ရှာဖွေခြင်း](../concepts/public-private."
+"md) ကိုကြည့်ပါ)။"
 
 #: intro/qsg.md:block 5 (ordered list)
 msgid "Tap on the CENO notification to stop it completely."
-msgstr ""
-"အသိပေးချက်များတွင် ပေါ်နေသော CENO အသိပေးချက်ကိုနှိပ်ပြီး လုပ်ဆောင်မှုများကို "
-"လုံးဝ ရပ်လိုက်လို့ရပါတယ်။"
+msgstr "CENO အသိပေးချက်ကိုနှိပ်ပြီး လုပ်ဆောင်မှုများကို လုံးဝ ရပ်လိုက်ပါ။"
 
 #: intro/qsg.md:block 6 (paragraph)
 msgid "Detailed installation instructions are [here](../browser/install.md)."
 msgstr ""
-"install လုပ်တဲ့ လမ်းညွှန်ချက် အသေးစိတ်ကို [ဒီမှာ](../browser/install.md) "
+"ထည့်သွင်းရန် လမ်းညွှန်ချက် အသေးစိတ်ကို [ဒီမှာ](../browser/install.md) "
 "ကြည့်ပါ။"
 
 #: intro/qsg.md:block 7 (header)
@@ -91,38 +86,38 @@ msgid ""
 "can find some [diagnostics and settings](../browser/settings.md) under the "
 "*CENO* menu entry."
 msgstr ""
-"CENO ဘရောက်ဇာသည် [Beta][BETA] အဆင့်တွင်ရှိသေးသော်လည်း လုပ်ဆောင်ချက်များကို "
-"ချက်ချင်းဆောင်ရွက်ပေးနိုင်ပါသည်။ ၄င်းတို့ကို *CENO* မီနူးထဲက "
-"ရေးသွင်းချက်တစ်ခုဖြစ်သည့် [ပြဿနာအဖြေရှာခြင်းနှင့်ဆက်တင်များ](../browser/"
-"settings.md)တွင် သင် ရှာတွေ့နိုင်ပါသည်။"
+"CENO ဘရောက်ဇာသည် [စမ်းသပ်ဆဲ][BETA] အဆင့်တွင် ရှိသေးသော်လည်း "
+"လုပ်ဆောင်ချက်များကို ချက်ချင်းဆောင်ရွက်ပေးနိုင်ပါသည်။*CENO* မီနူးထဲတွင် "
+"[ပြဿနာအဖြေရှာခြင်းနှင့် ဆက်တင်များ](../browser/settings.md) ကို "
+"တွေ့နိုင်ပါသည်။"
 
 #: intro/qsg.md:block 9 (paragraph)
 msgid ""
 "If you want to make sure that your app is also helping others access blocked "
 "content, please [read this section](../browser/bridging.md)."
 msgstr ""
-"သင့်ရဲ့ application သည် အခြားသောသူတွေရဲ့ ပိတ်ဆို့ထားတဲ့ အကြောင်းအရာတွေကို "
-"ဝင်ရောက်ကြည့်ရှုနိုင်အောင် ကူညီပေးနေတယ်ဆိုတာ သေချာစေချင်တယ်ဆိုရင် "
-"ကျေးဇူးပြုပြီး [ဒီအပိုင်းကိုဖတ်ပါ။](../browser/bridging.md)"
+"ပိတ်ဆို့ထားသော အကြောင်းအရာများကို အခြားသူများ ဝင်ရောက်ကြည့်ရှုနိုင်အောင် "
+"သင့်အက်ပလီကေးရှင်းက ကူညီပေးနေကြောင်း သေချာချင်ပါက ကျေးဇူးပြုပြီး "
+"[ဒီအပိုင်းကိုဖတ်ပါ](../browser/bridging.md)။"
 
 #: intro/qsg.md:block 10 (header)
 msgid "More questions?"
-msgstr "မေးခွန်းမေးစရာရှိပါသလား?"
+msgstr "နောက်ထပ်မေးစရာများ ရှိပါသလား။"
 
 #: intro/qsg.md:block 11 (unordered list)
 msgid "Please see the [FAQ](faq.md)."
-msgstr "[အမေးအများဆုံးမေးခွန်းများ](faq.md) ကို ကြည့်ပါ"
+msgstr "ကျေးဇူးပြုပြီး [မေးလေ့ရှိသောမေးခွန်းများ](faq.md) ကို ကြည့်ပါ။"
 
 #: intro/qsg.md:block 11 (unordered list)
 msgid "Refer to the [troubleshooting guide](../browser/troubleshooting.md)."
 msgstr ""
-"[ပြဿနာဖြေရှင်းခြင်းလမ်းညွှန်](../browser/troubleshooting.md) ကိုလေ့လာပါ။"
+"[ပြဿနာဖြေရှင်းခြင်းလမ်းညွှန်](../browser/troubleshooting.md) ကို လေ့လာပါ။"
 
 #: intro/qsg.md:block 11 (unordered list)
 msgid ""
 "Contact us by writing to [cenoers@equalit.ie](mailto:cenoers@equalit.ie)."
 msgstr ""
-"[cenoers@equalit.ie](mailto:cenoers@equalit.ie) သို့ email ပို့ပြီး "
+"[cenoers@equalit.ie](mailto:cenoers@equalit.ie) သို့ အီးမေးလ်ပို့ပြီး "
 "ကျွန်ုပ်တို့ကို ဆက်သွယ်ပါ။"
 
 #: intro/qsg.md:block 11 (unordered list)
