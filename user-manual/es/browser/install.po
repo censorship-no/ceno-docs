@@ -62,29 +62,14 @@ msgstr ""
 "la naturaleza de la aplicación, sus usuarios potenciales podrían tornarse en "
 "el blanco de toda clase de versiones falsas o manipuladas, usadas para "
 "violar la privacidad del usuario o atacar a otros usuarios de CENO y Ouinet. "
-"Ante la duda, por favor contacta a [cenoers@equalit."
-"ie](mailto:cenoers@equalit.ie) antes de instalar una aplicación sospechosa."
+"Ante la duda, por favor contacta a [cenoers@equalit.ie](mailto:"
+"cenoers@equalit.ie) antes de instalar una aplicación sospechosa."
 
-#: browser/install.md:block 6 (paragraph)
-msgid ""
-"When you run CENO for the first time, you will be presented with a series of "
-"screens introducing some features generic to Firefox browsers. Just scroll "
-"through them by pressing *NEXT* until you see a *Sign in to Sync* button and "
-"a *START BROWSING* link. Firefox Sync has not been tested to work with CENO, "
-"so just push *START BROWSING*."
-msgstr ""
-"Cuando ejecutas CENO por primera vez, te será presentada una serie de "
-"pantallas introduciendo algunas características genéricas de los navegadores "
-"Firefox. Solo pásalas presionando *SIGUIENTE* hasta que veas un botón *"
-"Registrarse en Sync* y un vínculo *INICIAR NAVEGACIÓN*. Firefox Sync no ha "
-"sido probado para funcionar con CENO, por lo que solo presiona *INICIAR "
-"NAVEGACIÓN*."
-
-#: browser/install.md:block 7 (header)
+#: browser/install.md:block 6 (header)
 msgid "Stopping CENO completely"
 msgstr "Deteniendo CENO completamente"
 
-#: browser/install.md:block 8 (paragraph)
+#: browser/install.md:block 7 (paragraph)
 msgid ""
 "Every time you start the app, a CENO icon will appear on your device's "
 "notification bar. This icon represents the *CENO Browser service*, which is "
@@ -98,7 +83,7 @@ msgstr ""
 "cuando no estés navegando), y les permite a otros clientes usar a tu "
 "dispositivo como puente y descargar contenido desde él en cualquier momento."
 
-#: browser/install.md:block 9 (paragraph)
+#: browser/install.md:block 8 (paragraph)
 msgid ""
 "Since running such service uses network and processor resources, you may "
 "want to stop it whenever you are on the move (i.e. not connected to Wi-Fi or "
@@ -111,7 +96,7 @@ msgstr ""
 "icono detendrá tanto a CENO como a su servicio al mismo tiempo (hasta que "
 "abras CENO de nuevo)."
 
-#: browser/install.md:block 10 (paragraph)
+#: browser/install.md:block 9 (paragraph)
 msgid ""
 "![Figure: Tap on the notification to stop the CENO service](images/tap-stop."
 "png)"
@@ -119,11 +104,11 @@ msgstr ""
 "![Figura: Pulsar sobre la notificación para detener el servicio CENO](images/"
 "tap-stop.png)"
 
-#: browser/install.md:block 11 (header)
+#: browser/install.md:block 10 (header)
 msgid "Purging all CENO data (the \"panic button\")"
 msgstr "Purgando todos los datos en CENO (el \"botón de pánico\")"
 
-#: browser/install.md:block 12 (paragraph)
+#: browser/install.md:block 11 (paragraph)
 msgid ""
 "The *CENO Browser service* notification shown above includes a few "
 "accompanying actions which can be triggered by tapping on them. The *Home* "
@@ -136,7 +121,7 @@ msgstr ""
 "navegación pública mostrando su página de inicio. La acción *Borrar* demanda "
 "más explicación."
 
-#: browser/install.md:block 13 (quote)
+#: browser/install.md:block 12 (quote)
 msgid ""
 "**Note:** If the actions below the notification are not visible, drag the "
 "notification from its center towards the bottom to unfold it."
@@ -144,7 +129,7 @@ msgstr ""
 "**Nota:** Si las acciones debajo de la notificación no son visibles, "
 "arrastra la notificación desde su centro hacia el fondo para desplegarla."
 
-#: browser/install.md:block 14 (paragraph)
+#: browser/install.md:block 13 (paragraph)
 msgid ""
 "Shall you ever need to quickly stop CENO and clear absolutely all data "
 "related to it (not only cached content, but also settings like favorites, "
@@ -159,7 +144,7 @@ msgstr ""
 "accidentalmente, esto aún no eliminará nada, solo te mostrará una acción "
 "adicional por un breve momento, como se ilustra abajo:"
 
-#: browser/install.md:block 15 (paragraph)
+#: browser/install.md:block 14 (paragraph)
 msgid ""
 "![Figure: The last action stops CENO and clears all its data](images/tap-"
 "purge.png)"
@@ -167,7 +152,7 @@ msgstr ""
 "![Figura: La última acción detiene CENO y limpia todos sus datos](images/tap-"
 "purge.png)"
 
-#: browser/install.md:block 16 (paragraph)
+#: browser/install.md:block 15 (paragraph)
 msgid ""
 "If you tap on the *Yes* action, CENO will be stopped and all its data "
 "removed *without further questions*, effectively leaving your device as if "
@@ -177,11 +162,11 @@ msgstr ""
 "removidos *sin preguntas ulteriores*, dejando efectivamente tu dispositivo "
 "como si CENO nunca hubiese sido usado."
 
-#: browser/install.md:block 17 (paragraph)
+#: browser/install.md:block 16 (paragraph)
 msgid "If you do not tap on the action, it will go away in a few seconds."
 msgstr "Si no pulsas sobre la acción, desaparecerá en unos pocos segundos."
 
-#: browser/install.md:block 18 (quote)
+#: browser/install.md:block 17 (quote)
 msgid ""
 "**Note:** The method described above requires that CENO be running on your "
 "device. To accomplish the same effect when CENO is stopped, you can use "
@@ -193,13 +178,13 @@ msgstr ""
 "puedes usar la página general de *Ajustes* de Android y, bajo la entrada "
 "*Aplicaciones*, elegir CENO y luego *Limpiar datos*."
 
-#: browser/install.md:block 18 (quote)
+#: browser/install.md:block 17 (quote)
 msgid "As a harsher alternative, you may completely uninstall the app."
 msgstr ""
 "Como alternativa más drástica, podrías desinstalar la aplicación "
 "completamente."
 
-#: browser/install.md:block 19 (quote)
+#: browser/install.md:block 18 (quote)
 msgid ""
 "**Warning:** Android may still keep other traces of having used an app "
 "besides its data, for instance in its system log."
@@ -207,16 +192,30 @@ msgstr ""
 "**Advertencia:** Android aún podría mantener otros rastros de haber usado "
 "una aplicación además de sus datos, por ejemplo, en su registro del sistema."
 
-#: browser/install.md:block 19 (quote)
+#: browser/install.md:block 18 (quote)
 msgid ""
 "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
 msgstr ""
 "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
 
-#: browser/install.md:block 19 (quote)
+#: browser/install.md:block 18 (quote)
 msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
 msgstr "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
 
-#: browser/install.md:block 19 (quote)
+#: browser/install.md:block 18 (quote)
 msgid "[ceno-pask]: https://paskoocheh.com/tools/124/android.html"
 msgstr "[ceno-pask]: https://paskoocheh.com/tools/124/android.html"
+
+#~ msgid ""
+#~ "When you run CENO for the first time, you will be presented with a series "
+#~ "of screens introducing some features generic to Firefox browsers. Just "
+#~ "scroll through them by pressing *NEXT* until you see a *Sign in to Sync* "
+#~ "button and a *START BROWSING* link. Firefox Sync has not been tested to "
+#~ "work with CENO, so just push *START BROWSING*."
+#~ msgstr ""
+#~ "Cuando ejecutas CENO por primera vez, te será presentada una serie de "
+#~ "pantallas introduciendo algunas características genéricas de los "
+#~ "navegadores Firefox. Solo pásalas presionando *SIGUIENTE* hasta que veas "
+#~ "un botón *Registrarse en Sync* y un vínculo *INICIAR NAVEGACIÓN*. Firefox "
+#~ "Sync no ha sido probado para funcionar con CENO, por lo que solo presiona "
+#~ "*INICIAR NAVEGACIÓN*."

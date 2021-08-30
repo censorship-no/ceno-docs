@@ -36,11 +36,17 @@ msgstr ""
 "for Android Support]."
 
 #: browser/README.md:block 3 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "When relevant, screen captures will be included to illustrate the text. "
+#| "Please note that these may slightly differ from what you see on your "
+#| "device, especially as CENO development progresses. This documentation is "
+#| "up to date for CENO version 0.0.29."
 msgid ""
 "When relevant, screen captures will be included to illustrate the text. "
 "Please note that these may slightly differ from what you see on your device, "
 "especially as CENO development progresses. This documentation is up to date "
-"for CENO version 0.0.29."
+"for CENO version 1.0.2."
 msgstr ""
 "Когда это уместно, для иллюстрации текста приводятся снимки экрана. Обратите "
 "внимание, что они могут немного отличаться от того, что вы видите на своем "

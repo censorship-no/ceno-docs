@@ -59,7 +59,9 @@ msgstr ""
 "выглядеть следующим образом:"
 
 #: browser/settings.md:block 5 (paragraph)
-msgid "**![ page](images/settings.png)"
+#, fuzzy
+#| msgid "**![ page](images/settings.png)"
+msgid "![Figure: The CENO Settings page](images/settings.png)"
 msgstr "**![ страница](images/settings.png)"
 
 #: browser/settings.md:block 6 (header)
@@ -113,12 +115,20 @@ msgstr ""
 "[риски](../concepts/risks.md))."
 
 #: browser/settings.md:block 8 (unordered list)
+#, fuzzy
+#| msgid ""
+#| "Also, when accessing a Web site over insecure HTTP (instead of the more "
+#| "secure HTTPS), a censor may intercept the connection and supply the user "
+#| "with a bogus site, a tampering which CENO cannot detect by itself. In "
+#| "such cases, it may help to disable this option and thus always resort to "
+#| "other, safer CENO mechanisms."
 msgid ""
 "Also, when accessing a Web site over insecure HTTP (instead of the more "
 "secure HTTPS), a censor may intercept the connection and supply the user "
 "with a bogus site, a tampering which CENO cannot detect by itself. In such "
 "cases, it may help to disable this option and thus always resort to other, "
-"safer CENO mechanisms."
+"safer CENO mechanisms. Please check the section on [troubleshooting]"
+"(troubleshooting.md) to learn more about this issue."
 msgstr ""
 "Кроме того, при доступе к веб-сайту по незащищенному протоколу HTTP (вместо "
 "более безопасного HTTPS) цензор может перехватить соединение и предоставить "
@@ -259,10 +269,15 @@ msgstr ""
 "общения с другими клиентами Ouinet и инъекторами. Также включайте в отчетах."
 
 #: browser/settings.md:block 14 (unordered list)
+#, fuzzy
+#| msgid ""
+#| "*Local UDP endpoint(s)* are the Internet addresses used by CENO to seed "
+#| "signed content to other clients. These are shown to help test and debug "
+#| "the app, and should not be generally disclosed."
 msgid ""
-"*Local UDP endpoint(s)* are the Internet addresses used by CENO to seed "
-"signed content to other clients. These are shown to help test and debug the "
-"app, and should not be generally disclosed."
+"*Local UDP endpoints* are the Internet addresses used by CENO to seed signed "
+"content to other clients. These are shown to help test and debug the app, "
+"and should not be generally disclosed."
 msgstr ""
 "*Локальные конечные точки UDP* - это интернет-адреса, используемые CENO для "
 "передачи подписанного контента другим клиентам. Они показаны для "
@@ -292,6 +307,12 @@ msgid ""
 msgstr ""
 "*Размер локального кэша* показывает приблизительный объем памяти, занимаемый "
 "содержимым, загружаемым из локального кэша вашего устройства."
+
+#: browser/settings.md:block 14 (unordered list)
+msgid ""
+"*Content shared by you* allows you to check the content being announced by "
+"your device."
+msgstr ""
 
 #: browser/settings.md:block 15 (header)
 msgid "Purging the local cache"

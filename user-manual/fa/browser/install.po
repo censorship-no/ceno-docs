@@ -69,26 +69,11 @@ msgstr ""
 "اگر در این‌باره تردیدی دارید، لطفاً پیش از نصب یک نرم‌افزار مشکوک با نشانی "
 "[cenoers@equalit.ie](mailto:cenoers@equalit.ie) تماس بگیرید."
 
-#: browser/install.md:block 6 (paragraph)
-msgid ""
-"When you run CENO for the first time, you will be presented with a series of "
-"screens introducing some features generic to Firefox browsers. Just scroll "
-"through them by pressing *NEXT* until you see a *Sign in to Sync* button and "
-"a *START BROWSING* link. Firefox Sync has not been tested to work with CENO, "
-"so just push *START BROWSING*."
-msgstr ""
-"وقتی شما سنو را برای نخستین بار اجرا می‌کنید، با دنباله‌ای از صفحه‌ها روبه‌"
-"رو خواهید شد که برخی ویژگی‌های عام مرورگرهای فایرفاکس را معرفی می‌کنند. فقط "
-"با فشردن دکمه‌ی *بعدی* [*NEXT*] از میان آن‌ها عبور کنید تا یک دکمه‌ی *ثبت‌"
-"نام برای هماهنگ‌سازی* [*Sign in to Sync*] را و یک لینک *شروع مرور* [*START "
-"BROWSING*] را ببینید. هماهنگ‌سازیِ فایرفاکس برای کار با سنو آزموده نشده است، "
-"بنابراین فقط دکمه‌ی *شروع مرور* را بفشارید."
-
-#: browser/install.md:block 7 (header)
+#: browser/install.md:block 6 (header)
 msgid "Stopping CENO completely"
 msgstr "متوقف‌کردن کامل سنو"
 
-#: browser/install.md:block 8 (paragraph)
+#: browser/install.md:block 7 (paragraph)
 #, fuzzy
 #| msgid ""
 #| "Every time that you start the app a CENO icon will appear on your "
@@ -109,7 +94,7 @@ msgstr ""
 "سایر سرویس‌گیرندگان اجازه می‌دهد تا از دستگاه‌تان به‌عنوان یک پل استفاده کنند و "
 "محتوا را هرزمان از آن بازیابی کنند."
 
-#: browser/install.md:block 9 (paragraph)
+#: browser/install.md:block 8 (paragraph)
 msgid ""
 "Since running such service uses network and processor resources, you may "
 "want to stop it whenever you are on the move (i.e. not connected to Wi-Fi or "
@@ -122,7 +107,7 @@ msgstr ""
 "اطلاع‌رسان پیوسته به این نشان هم سنو و هم خدمات‌اش را در آن واحد متوقف خواهد "
 "کرد (تا زمانی که سنو را از نو باز کنید)."
 
-#: browser/install.md:block 10 (paragraph)
+#: browser/install.md:block 9 (paragraph)
 msgid ""
 "![Figure: Tap on the notification to stop the CENO service](images/tap-stop."
 "png)"
@@ -130,11 +115,11 @@ msgstr ""
 "![شکل: روی اطلاع‌رسانی انگشت بفشارید تا خدمات سنو را متوقف کنید](images/tap-"
 "stop.png)"
 
-#: browser/install.md:block 11 (header)
+#: browser/install.md:block 10 (header)
 msgid "Purging all CENO data (the \"panic button\")"
 msgstr "پالایش تمام داده‌های سنو («دکمه‌ی هراس»)"
 
-#: browser/install.md:block 12 (paragraph)
+#: browser/install.md:block 11 (paragraph)
 msgid ""
 "The *CENO Browser service* notification shown above includes a few "
 "accompanying actions which can be triggered by tapping on them. The *Home* "
@@ -146,7 +131,7 @@ msgstr ""
 "سنو را با یک زبانه‌ی جدید مرور عمومی خواهد گشود که صفحه‌ی خانگی‌اش را نشان "
 "می‌دهد. گزینه‌ی *پاک‌کردن* نیازمند توضیح بیشتری است."
 
-#: browser/install.md:block 13 (quote)
+#: browser/install.md:block 12 (quote)
 msgid ""
 "**Note:** If the actions below the notification are not visible, drag the "
 "notification from its center towards the bottom to unfold it."
@@ -154,7 +139,7 @@ msgstr ""
 "**نکته:** اگر گزینه‌های زیر بخش اطلاع‌رسانی به چشم نمی‌آیند، مستطیل اطلاع‌رسانی "
 "را از وسط بگیرید و به طرف پایین بکشید تا آن را نمایان کنید."
 
-#: browser/install.md:block 14 (paragraph)
+#: browser/install.md:block 13 (paragraph)
 #, fuzzy
 #| msgid ""
 #| "Shall you ever need to quickly stop CENO and clear absolutely all the "
@@ -177,7 +162,7 @@ msgstr ""
 "حذف نخواهد کرد، بلکه فقط یک گزینه‌ی افزوده را برای لحظه‌ای کوتاه نشان می‌دهد، "
 "همان‌طور که در پایین به تصویر کشیده شده است."
 
-#: browser/install.md:block 15 (paragraph)
+#: browser/install.md:block 14 (paragraph)
 msgid ""
 "![Figure: The last action stops CENO and clears all its data](images/tap-"
 "purge.png)"
@@ -185,7 +170,7 @@ msgstr ""
 "![شکل: آخرین گزینه سنو را متوقف می‌کند و تمام داده‌های آن را پاک می‌کند](images/"
 "tap-purge.png)"
 
-#: browser/install.md:block 16 (paragraph)
+#: browser/install.md:block 15 (paragraph)
 msgid ""
 "If you tap on the *Yes* action, CENO will be stopped and all its data "
 "removed *without further questions*, effectively leaving your device as if "
@@ -195,11 +180,11 @@ msgstr ""
 "دیگری* حذف خواهد شد، یعنی انگار عملاً دستگاه‌تان را کنار گذاشته‌اید طوری که "
 "توگویی هرگز از سنو استفاده نکرده بوده‌اید."
 
-#: browser/install.md:block 17 (paragraph)
+#: browser/install.md:block 16 (paragraph)
 msgid "If you do not tap on the action, it will go away in a few seconds."
 msgstr "اگر روی این گزینه انگشت نفشارید در عرض چند ثانیه از بین خواهد رفت."
 
-#: browser/install.md:block 18 (quote)
+#: browser/install.md:block 17 (quote)
 #, fuzzy
 #| msgid ""
 #| "**Note:** The method described above requires that CENO is running on "
@@ -217,12 +202,12 @@ msgstr ""
 "عمومی اندروید استفاده کنید و، تحت مدخل *نرم‌افزارها*، سنو را انتخاب کنید و "
 "سپس *داده‌ها را پاک کنید*."
 
-#: browser/install.md:block 18 (quote)
+#: browser/install.md:block 17 (quote)
 msgid "As a harsher alternative, you may completely uninstall the app."
 msgstr ""
 "به‌عنوان یک گزینه‌ی شدیدتر، می‌توانید این نرم‌افزار را به‌طور کامل حذف کنید."
 
-#: browser/install.md:block 19 (quote)
+#: browser/install.md:block 18 (quote)
 msgid ""
 "**Warning:** Android may still keep other traces of having used an app "
 "besides its data, for instance in its system log."
@@ -230,16 +215,30 @@ msgstr ""
 "**هشدار:** اندروید شاید همچنان ردپاهای دیگری از کاربرد یک نرم‌افزار نسبت به "
 "داده‌های آن را، برای نمونه در گزارش سیستم‌اش، نگه دارد."
 
-#: browser/install.md:block 19 (quote)
+#: browser/install.md:block 18 (quote)
 msgid ""
 "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
 msgstr ""
 "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
 
-#: browser/install.md:block 19 (quote)
+#: browser/install.md:block 18 (quote)
 msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
 msgstr "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
 
-#: browser/install.md:block 19 (quote)
+#: browser/install.md:block 18 (quote)
 msgid "[ceno-pask]: https://paskoocheh.com/tools/124/android.html"
 msgstr "[ceno-pask]: https://paskoocheh.com/tools/124/android.html"
+
+#~ msgid ""
+#~ "When you run CENO for the first time, you will be presented with a series "
+#~ "of screens introducing some features generic to Firefox browsers. Just "
+#~ "scroll through them by pressing *NEXT* until you see a *Sign in to Sync* "
+#~ "button and a *START BROWSING* link. Firefox Sync has not been tested to "
+#~ "work with CENO, so just push *START BROWSING*."
+#~ msgstr ""
+#~ "وقتی شما سنو را برای نخستین بار اجرا می‌کنید، با دنباله‌ای از صفحه‌ها روبه‌رو "
+#~ "خواهید شد که برخی ویژگی‌های عام مرورگرهای فایرفاکس را معرفی می‌کنند. فقط با "
+#~ "فشردن دکمه‌ی *بعدی* [*NEXT*] از میان آن‌ها عبور کنید تا یک دکمه‌ی *ثبت‌نام "
+#~ "برای هماهنگ‌سازی* [*Sign in to Sync*] را و یک لینک *شروع مرور* [*START "
+#~ "BROWSING*] را ببینید. هماهنگ‌سازیِ فایرفاکس برای کار با سنو آزموده نشده "
+#~ "است، بنابراین فقط دکمه‌ی *شروع مرور* را بفشارید."

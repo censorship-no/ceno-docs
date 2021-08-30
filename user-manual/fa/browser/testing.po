@@ -46,12 +46,12 @@ msgid ""
 "browser gets stuck for more than a couple of minutes while loading a page, "
 "you may hit stop and reload it (although this may alter results slightly)."
 msgstr ""
-"تمام تست‌ها با استفاده از [مرور عمومی](public-private.md) اجرا خواهند شد. "
-"اگر چیزی طبق انتظار کار نکرد، لطفاً بردبار باشید و بخش مربوط به [شناسایی و "
-"رفع اشکالات](troubleshooting.md) را چک کنید. به‌طور مشخص، اگر مرورگر در حین "
-"بارگذاری یک صفحه بیشتر از چند دقیقه گیر کرد، می‌توانید دکمه‌ی توقف را "
-"بفشارید و آن را از نو بارگذاری کنید (گرچه این کار ممکن است باعث تغییر اندکی "
-"در نتایج شود)."
+"تمام تست‌ها با استفاده از [مرور عمومی](public-private.md) اجرا خواهند شد. اگر "
+"چیزی طبق انتظار کار نکرد، لطفاً بردبار باشید و بخش مربوط به [شناسایی و رفع "
+"اشکالات](troubleshooting.md) را چک کنید. به‌طور مشخص، اگر مرورگر در حین "
+"بارگذاری یک صفحه بیشتر از چند دقیقه گیر کرد، می‌توانید دکمه‌ی توقف را بفشارید "
+"و آن را از نو بارگذاری کنید (گرچه این کار ممکن است باعث تغییر اندکی در نتایج "
+"شود)."
 
 #: browser/testing.md:block 5 (header)
 msgid "Accessing an injector"
@@ -82,31 +82,25 @@ msgstr ""
 "تلاش برای تماس با تزریق‌کننده از طریق یک سرویس‌گیرنده‌ی وینت."
 
 #: browser/testing.md:block 7 (paragraph)
-msgid "On the first device perform the following steps:"
+#, fuzzy
+#| msgid "On the first device perform the following steps:"
+msgid "In the first device perform the following steps:"
 msgstr "در نخستین دستگاه این مرحله‌ها را اجرا کنید:"
+
+#: browser/testing.md:block 8 (ordered list)
+msgid "First of all, install CENO and start it. Its home page will appear."
+msgstr ""
 
 #: browser/testing.md:block 8 (ordered list)
 #, fuzzy
 #| msgid ""
-#| "First of all, install CENO if needed and start it. On the first run a "
-#| "series of introductory screens will appear: just click on *NEXT* until "
-#| "*START BROWSING* appears, then click it. In the end, CENO's home page "
-#| "will appear."
-msgid ""
-"First of all, install CENO and start it. On the first run, a series of "
-"introductory screens will appear: just click on *NEXT* until *START "
-"BROWSING* appears, then click it. In the end, CENO's home page will appear."
-msgstr ""
-"پیش از هرچیز، اگر لازم است سنو را نصب کنید و آن را آغاز کنید. در نخستین اجرا "
-"دنباله‌ای از صفحات مقدماتی ظاهر خواهند شد: فقط روی *بعدی* کلیک کنید تا *شروع "
-"مرور* پدیدار شود، سپس روی آن کلیک کنید. در پایان، صفحه‌ی خانگی سنو ظاهر خواهد "
-"شد."
-
-#: browser/testing.md:block 8 (ordered list)
+#| "Open the app's main menu and choose *CENO* to open the *CENO Settings* "
+#| "page. Since we only want to test injector access, uncheck all the boxes "
+#| "for access mechanisms except *Via the CENO network (public)*."
 msgid ""
 "Open the app's main menu and choose *CENO* to open the *CENO Settings* page. "
-"Since we only want to test injector access, uncheck all the boxes for access "
-"mechanisms except *Via the CENO network (public)*."
+"Since we only want to test injector access, uncheck all the boxes for "
+"content sources except *Via the CENO network (public)*."
 msgstr ""
 "منوی اصلی نرم‌افزار را باز کنید و *سنو* را انتخاب کنید تا صفحه‌ی *تنظیمات سنو* "
 "باز شود. چون ما فقط می‌خواهیم دسترسی به تزریق‌کننده را تست کنیم، تمام جعبه‌های "
@@ -130,6 +124,13 @@ msgstr "سایت انتخاب‌شده باید سرانجام دیده شود."
 
 #: browser/testing.md:block 9 (paragraph)
 msgid ""
+"**Note:** If you get a fake page instead of a legitimate one, use the "
+"address bar to enter the site's URL with `https://` at the beginning "
+"(instead of `http://`) and repeat the test."
+msgstr ""
+
+#: browser/testing.md:block 10 (paragraph)
+msgid ""
 "If the site does load, you can be happy that your device can reach the "
 "injector! Since you are able to query swarms and contact other clients, you "
 "are also likely to be able to retrieve content from the distributed cache."
@@ -139,26 +140,36 @@ msgstr ""
 "و با سرویس‌گیرنده‌های دیگر تماس بگیرید، شما همچنین احتمالاً می‌توانید محتوای "
 "برگرفته از انبار توزیع‌شده را بازیابی کنید."
 
-#: browser/testing.md:block 10 (paragraph)
+#: browser/testing.md:block 11 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "By the way, if you push the CENO icon in the address bar, it will open a "
+#| "popup like the one below, showing how many elements from the site were "
+#| "retrieved using each of the different access mechanisms. Only *Via CENO "
+#| "network (public)* should have a non-zero value since the other mechanisms "
+#| "were disabled."
 msgid ""
 "By the way, if you push the CENO icon in the address bar, it will open a "
 "popup like the one below, showing how many elements from the site were "
-"retrieved using each of the different access mechanisms. Only *Via CENO "
-"network (public)* should have a non-zero value since the other mechanisms "
-"were disabled."
+"retrieved form the different sources. Only *Via CENO network (public)* "
+"should have a non-zero value since the other sources were disabled."
 msgstr ""
 "در ضمن، اگر علامت سنو در نوار نشانی را بفشارید، یک پنجره‌ی جدید مانند پنجره‌ی "
 "پایینی گشوده خواهد شد، که نشان می‌دهد چند عنصر از سایت با استفاده از هریک از "
 "سازوکارهای متفاوت دسترسی بازیابی شده است. فقط *از طریق شبکه‌ی (عمومی) سنو* "
 "باید یک ارزش غیر-صفر داشته باشد چرا که سایر سازوکارها غیرفعال شده‌اند."
 
-#: browser/testing.md:block 11 (paragraph)
+#: browser/testing.md:block 12 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "![Figure: Mechanisms used when testing injection](images/sources-inject."
+#| "png)"
 msgid ""
-"![Figure: Mechanisms used when testing injection](images/sources-inject.png)"
+"![Figure: Sources used when testing injection](images/sources-inject.png)"
 msgstr ""
 "![شکل: سازوکارهای به‌کاررفته هنگام تست تزریق](images/sources-inject.png)"
 
-#: browser/testing.md:block 12 (paragraph)
+#: browser/testing.md:block 13 (paragraph)
 msgid ""
 "In contrast, if you had used private browsing with default settings, you may "
 "have seen a popup like the one below, with non-zero counts in *Direct from "
@@ -168,16 +179,18 @@ msgstr ""
 "بازشونده مانند پنجره‌ی پایینی دیده باشید، با شمارش‌های غیر-صفری در بخش *مستقیم "
 "از وب‌سایت* یا *از طریق شبکه‌ی (عمومی) سنو*."
 
-#: browser/testing.md:block 13 (paragraph)
-msgid ""
-"![Figure: Mechanisms used with private browsing](images/sources-proxy.png)"
+#: browser/testing.md:block 14 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "![Figure: Mechanisms used with private browsing](images/sources-proxy.png)"
+msgid "![Figure: Sources used with private browsing](images/sources-proxy.png)"
 msgstr "![شکل: سازوکارهای به‌کاررفته با مرور خصوصی](images/sources-proxy.png)"
 
-#: browser/testing.md:block 14 (header)
+#: browser/testing.md:block 15 (header)
 msgid "Getting content from close users"
 msgstr "دریافت محتوا از کاربران نزدیک"
 
-#: browser/testing.md:block 15 (paragraph)
+#: browser/testing.md:block 16 (paragraph)
 msgid ""
 "Since your first device was able to get some content from an injector, let "
 "us test if it is able to share it with another device over the distributed "
@@ -190,7 +203,7 @@ msgstr ""
 "سنو برای چک‌کردن این است که آیا دریافت و راستی‌آزمایی محتوای امضاشده درست کار "
 "می‌کند یا نه."
 
-#: browser/testing.md:block 16 (paragraph)
+#: browser/testing.md:block 17 (paragraph)
 #, fuzzy
 #| msgid ""
 #| "After completing the test above on the first device, leave CENO running "
@@ -199,10 +212,11 @@ msgstr ""
 #| "connect it to the same Wi-Fi network. Then follow the steps below on that "
 #| "device:"
 msgid ""
-"After completing the test above on the first device, leave CENO running on "
-"it (the CENO icon should appear in its notification bar). Then add a second "
-"device (you can invite a friend over to help test) and connect it to the "
-"same Wi-Fi network. Next, follow the steps below on that device:"
+"After successfully completing the test above on the first device, leave CENO "
+"running on it (the CENO icon should appear in its notification bar). Then "
+"get hold of a second device (you can invite a friend over to help test) and "
+"connect it to the same Wi-Fi network. Next, follow the steps below on the "
+"second device:"
 msgstr ""
 "پس از تکمیل تست بالا روی دستگاه نخست، سنو را روی آن در حال اجرا بگذارید "
 "(علامت سنو باید در نوار اطلاع‌رسانی آن ظاهر شود). سپس دستگاه دیگری را در "
@@ -210,24 +224,31 @@ msgstr ""
 "دهید) و آن را به همان شبکه‌ی وای‌فای وصل کنید. سپس مراحل زیر را روی آن دستگاه "
 "انجام دهید:"
 
-#: browser/testing.md:block 17 (ordered list)
-msgid ""
-"Install CENO if needed, start it and proceed to CENO's home page as above."
+#: browser/testing.md:block 18 (ordered list)
+#, fuzzy
+#| msgid ""
+#| "Install CENO if needed, start it and proceed to CENO's home page as above."
+msgid "Install CENO if needed and start it as above."
 msgstr ""
 "در صورت نیاز سنو را نصب کنید، آن را آغاز کنید و مانند بالا به صفحه‌ی خانگی "
 "سنو بروید."
 
-#: browser/testing.md:block 17 (ordered list)
+#: browser/testing.md:block 18 (ordered list)
+#, fuzzy
+#| msgid ""
+#| "Open the *CENO Settings* page as above. Since we only want to test "
+#| "distributed cache access, uncheck all the boxes for access mechanisms "
+#| "except *Shared by other CENO users*."
 msgid ""
 "Open the *CENO Settings* page as above. Since we only want to test "
-"distributed cache access, uncheck all the boxes for access mechanisms except "
+"distributed cache access, uncheck all the boxes for content sources except "
 "*Shared by other CENO users*."
 msgstr ""
 "مانند قبل صفحه‌ی *تنظیمات سنو* را باز کنید. از آن‌جا که ما فقط می‌خواهیم دسترسی "
 "به انبار توزیع‌شده را تست کنیم، تمام جعبه‌های مربوط به دسترسی به سازوکارها به "
 "جز *به‌اشتراک‌گذاشته‌شده از سوی سایر کاربران سنو* را غیرفعال کنید."
 
-#: browser/testing.md:block 17 (ordered list)
+#: browser/testing.md:block 18 (ordered list)
 msgid ""
 "Go back to CENO's home page and visit the same site in the same manner as "
 "you did above (i.e. by selecting one of the recommended web sites or "
@@ -237,7 +258,14 @@ msgstr ""
 "کنید (یعنی با انتخاب یکی از وب‌سایت‌های توصیه‌شده یا واردکردن نشانی اینترنتی آن "
 "در نوار نشانی)."
 
-#: browser/testing.md:block 18 (paragraph)
+#: browser/testing.md:block 19 (paragraph)
+msgid ""
+"If it does not work, your Wi-Fi network may be blocking direct communication "
+"between its devices. This \"client isolation\" may happen in public networks "
+"like those of parks, bars or hotels. Please try again on a different network."
+msgstr ""
+
+#: browser/testing.md:block 20 (paragraph)
 msgid ""
 "If it works, it means that both devices are able to deliver that content to "
 "other clients. Pushing the CENO address bar icon should show a popup like "
@@ -248,18 +276,29 @@ msgstr ""
 "بازشونده‌ای را مانند پنجره‌ی پایینی نشان دهد، که در آن فقط *به‌اشتراک‌گذاشته‌شده "
 "از سوی سایر کاربران سنو* یک ارزش غیر-صفر دارد."
 
-#: browser/testing.md:block 19 (paragraph)
+#: browser/testing.md:block 21 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "![Figure: Mechanisms used when testing distributed cache retrieval]"
+#| "(images/sources-dcache.png)"
 msgid ""
-"![Figure: Mechanisms used when testing distributed cache retrieval](images/"
+"![Figure: Sources used when testing distributed cache retrieval](images/"
 "sources-dcache.png)"
 msgstr ""
 "![شکل: سازوکارهای به‌کاررفته هنگام تست بازیابی انبار توزیع‌شده](images/sources-"
 "dcache.png)"
 
-#: browser/testing.md:block 20 (paragraph)
+#: browser/testing.md:block 22 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "Finally, you may have also noticed that there is a counter for *Shared by "
+#| "you*. This is not a different mechanism *per se*: elements counted here "
+#| "are indeed part of the distributed cache, but they happen to already be "
+#| "stored in your device, so CENO does not need to retrieve them over the "
+#| "network."
 msgid ""
 "Finally, you may have also noticed that there is a counter for *Shared by "
-"you*. This is not a different mechanism *per se*: elements counted here are "
+"you*. This is not a different source *per se*: elements counted here are "
 "indeed part of the distributed cache, but they happen to already be stored "
 "in your device, so CENO does not need to retrieve them over the network."
 msgstr ""
@@ -269,11 +308,11 @@ msgstr ""
 "آن‌ها پیشاپیش در دستگاه شما ذخیره شده‌اند، بنابراین سنو نیازی به بازیابی آن‌ها "
 "روی شبکه ندارد."
 
-#: browser/testing.md:block 21 (header)
+#: browser/testing.md:block 23 (header)
 msgid "Getting content from remote users"
 msgstr "دریافت محتوا از کاربران دور"
 
-#: browser/testing.md:block 22 (paragraph)
+#: browser/testing.md:block 24 (paragraph)
 msgid ""
 "We have done a small-scale test of the distributed cache. Let us now test "
 "how it works over the Internet."
@@ -281,14 +320,26 @@ msgstr ""
 "ما یک تست مقیاس کوچک از انبار توزیع‌شده انجام داده‌ایم. بیایید حالا تست کنیم "
 "که چگونه روی اینترنت کار می‌کند."
 
-#: browser/testing.md:block 23 (paragraph)
+#: browser/testing.md:block 25 (paragraph)
 msgid ""
-"Please leave CENO running on the first device as with the previous test, and "
-"stop CENO on the second device (by showing its notifications and pushing "
-"\"Tap to stop\"). This time you will need a third device, but it must be "
-"connected to a different Wi-Fi network (maybe another friend can help from "
-"home). The steps to follow for that device are exactly the same as those in "
-"the previous test."
+"After successfully completing the test above, leave CENO running on the "
+"first device as with the previous test, and stop CENO on the second device "
+"(by showing its notifications and pushing \"Tap to stop\")."
+msgstr ""
+
+#: browser/testing.md:block 26 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "Please leave CENO running on the first device as with the previous test, "
+#| "and stop CENO on the second device (by showing its notifications and "
+#| "pushing \"Tap to stop\"). This time you will need a third device, but it "
+#| "must be connected to a different Wi-Fi network (maybe another friend can "
+#| "help from home). The steps to follow for that device are exactly the same "
+#| "as those in the previous test."
+msgid ""
+"This time you will need a third device, but it must be connected to a "
+"different Wi-Fi network (maybe another friend can help from home). The steps "
+"to follow for that device are exactly the same as those in the previous test."
 msgstr ""
 "لطفاً مانند تست قبلی سنو را در حال اجرا روی نخستین دستگاه رها کنید، و سنو را "
 "روی دستگاه دوم متوقف کنید (با نشان‌دادن اطلاع‌رسانی‌هایش و فشردن «انگشت‌نهادن "
@@ -297,7 +348,7 @@ msgstr ""
 "کند). مراحل لازم برای آن دستگاه درست مانند همان مراحل اجراشده در تست قبلی "
 "هستند."
 
-#: browser/testing.md:block 24 (paragraph)
+#: browser/testing.md:block 27 (paragraph)
 msgid ""
 "If the third device can load the site used for the test, you are all set. "
 "The first device is able to seed content to others, and it can most probably "
@@ -307,6 +358,23 @@ msgstr ""
 "آماده‌اید. نخستین دستگاه قادر به بذرپاشی محتوا به دیگران است، و می‌تواند به "
 "احتمال قوی به‌عنوان یک پل نیز عمل کند. تبریک می‌گوییم!"
 
-#: browser/testing.md:block 25 (paragraph)
+#: browser/testing.md:block 28 (paragraph)
 msgid "Congratulations!"
 msgstr ""
+
+#, fuzzy
+#~| msgid ""
+#~| "First of all, install CENO if needed and start it. On the first run a "
+#~| "series of introductory screens will appear: just click on *NEXT* until "
+#~| "*START BROWSING* appears, then click it. In the end, CENO's home page "
+#~| "will appear."
+#~ msgid ""
+#~ "First of all, install CENO and start it. On the first run, a series of "
+#~ "introductory screens will appear: just click on *NEXT* until *START "
+#~ "BROWSING* appears, then click it. In the end, CENO's home page will "
+#~ "appear."
+#~ msgstr ""
+#~ "پیش از هرچیز، اگر لازم است سنو را نصب کنید و آن را آغاز کنید. در نخستین "
+#~ "اجرا دنباله‌ای از صفحات مقدماتی ظاهر خواهند شد: فقط روی *بعدی* کلیک کنید "
+#~ "تا *شروع مرور* پدیدار شود، سپس روی آن کلیک کنید. در پایان، صفحه‌ی خانگی "
+#~ "سنو ظاهر خواهد شد."

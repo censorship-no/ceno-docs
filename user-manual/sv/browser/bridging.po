@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Language: sv\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: browser/bridging.md:block 1 (header)
@@ -58,7 +58,7 @@ msgid ""
 "operation of the native Ouinet library. Unfortunately, disabling battery "
 "optimization for CENO does not seem to exclude Ouinet from it. Your "
 "particular device may also include its own power-saving features which may "
-"interfere with CENO; please check [Dont't kill my app!][Dont't kill my app!] "
+"interfere with CENO; please check [Don't kill my app!][Don't kill my app!] "
 "for your device's brand."
 msgstr ""
 
@@ -93,104 +93,148 @@ msgid ""
 "itself with the screen on."
 msgstr ""
 
-#: browser/bridging.md:block 10 (header)
+#: browser/bridging.md:block 10 (paragraph)
+msgid ""
+"If that setup is not an option for you, do not desist yet! If you have a "
+"computer with good connectivity that stays on most of the time, please "
+"continue reading."
+msgstr ""
+
+#: browser/bridging.md:block 11 (header)
+msgid "Running a bridge on a computer"
+msgstr ""
+
+#: browser/bridging.md:block 12 (paragraph)
+msgid ""
+"If your computer supports [Docker containers][docker], you can run a pre-"
+"configured CENO client on it to act as a bridge. If Docker is not yet "
+"installed, please follow the instructions to [install the Docker Engine]"
+"[docker-install] in your platform. For Debian derivatives like Ubuntu or "
+"Linux Mint, you can just run: `sudo apt install docker.io`"
+msgstr ""
+
+#: browser/bridging.md:block 13 (paragraph)
+msgid ""
+"To deploy a CENO client container you only need to run the following command "
+"on a terminal (it looks scary but you can just copy and paste it as is on "
+"the command line):"
+msgstr ""
+
+#: browser/bridging.md:block 15 (paragraph)
+msgid ""
+"If your computer is not based on GNU/Linux, the command needs to be slightly "
+"different:"
+msgstr ""
+
+#: browser/bridging.md:block 17 (paragraph)
+msgid ""
+"The command will start a container named `ceno-client` that will run on "
+"every boot unless you explicitly tell it to stop. Please check the [CENO "
+"Docker client documentation][ceno-client-doc] for more information on how to "
+"manipulate the container."
+msgstr ""
+
+#: browser/bridging.md:block 18 (quote)
+msgid ""
+"**Note:** This client has no *CENO Settings*: when instructed below to "
+"access that page, open instead the [client front-end](../client/front-end."
+"md), which contains mostly equivalent information."
+msgstr ""
+
+#: browser/bridging.md:block 19 (header)
 msgid "Enabling UPnP on your Wi-Fi router"
 msgstr ""
 
-#: browser/bridging.md:block 11 (paragraph)
+#: browser/bridging.md:block 20 (paragraph)
 msgid ""
-"[UPnP][UPnP] is the easiest way of making your CENO Browser reachable to the "
-"CENO network. The [CENO Settings](settings.md) page will indicate the UPnP "
-"status on your local network."
+"[UPnP][UPnP] is the easiest way of making your CENO Browser (or computer "
+"client) reachable to the CENO network. The [CENO Settings](settings.md) page "
+"will indicate the UPnP status on your local network."
 msgstr ""
 
-#: browser/bridging.md:block 12 (quote)
+#: browser/bridging.md:block 21 (quote)
 msgid ""
 "**Note:** Enabling UPnP on the Wi-Fi router may expose devices on your "
 "network to external interference. Please make yourself [aware of the risks]"
 "[upnp-risks] and also consider using alternative methods as explained below."
 msgstr ""
 
-#: browser/bridging.md:block 13 (paragraph)
-msgid "![Figure: UPnP not enabled](images/upnp-no.png)"
-msgstr ""
-
-#: browser/bridging.md:block 14 (paragraph)
+#: browser/bridging.md:block 22 (paragraph)
 msgid ""
-"A status like the one shown in the previous figure indicates that UPnP is "
-"not enabled on your WiFi router."
+"A status like the one below indicates that UPnP is not enabled on your WiFi "
+"router:"
 msgstr ""
 
-#: browser/bridging.md:block 15 (paragraph)
-msgid "![Figure: UPnP likely enabled](images/upnp-maybe.png)"
+#: browser/bridging.md:block 23 (quote)
+msgid "**UPnP status**"
 msgstr ""
 
-#: browser/bridging.md:block 16 (paragraph)
+#: browser/bridging.md:block 23 (quote)
+msgid "**Reachability status**"
+msgstr ""
+
+#: browser/bridging.md:block 24 (paragraph)
 msgid ""
-"The status above indicates that UPnP is likely working and CENO is currently "
-"verifying connectivity."
+"The status below indicates that UPnP is likely working and CENO is currently "
+"verifying connectivity:"
 msgstr ""
 
-#: browser/bridging.md:block 17 (paragraph)
-msgid "![Figure: UPnP enabled](images/upnp-yes.png)"
-msgstr ""
-
-#: browser/bridging.md:block 18 (paragraph)
+#: browser/bridging.md:block 26 (paragraph)
 msgid ""
-"The status above indicates that UPnP is working and you can bridge "
-"connections for other CENO users."
+"The status below indicates that UPnP is working and you can bridge "
+"connections for other CENO users:"
 msgstr ""
 
-#: browser/bridging.md:block 19 (paragraph)
+#: browser/bridging.md:block 28 (paragraph)
 msgid ""
 "There are many Wi-Fi routers on the market and each has their own particular "
 "features. Herein a list of some manufacturers' instructions for enabling "
 "UPnP:"
 msgstr ""
 
-#: browser/bridging.md:block 20 (unordered list)
+#: browser/bridging.md:block 29 (unordered list)
 msgid "[Linksys](https://www.linksys.com/us/support-article?articleNum=138290)"
 msgstr ""
 
-#: browser/bridging.md:block 20 (unordered list)
+#: browser/bridging.md:block 29 (unordered list)
 msgid ""
 "[D-Link](https://eu.dlink.com/uk/en/support/faq/routers/wired-routers/di-"
 "series/how-do-i-enable-upnp-on-my-router)"
 msgstr ""
 
-#: browser/bridging.md:block 20 (unordered list)
+#: browser/bridging.md:block 29 (unordered list)
 msgid "[Huawei](https://consumer.huawei.com/ph/support/content/en-us00275342/)"
 msgstr ""
 
-#: browser/bridging.md:block 20 (unordered list)
+#: browser/bridging.md:block 29 (unordered list)
 msgid ""
 "[Xfinity](https://www.xfinity.com/support/articles/configure-device-"
 "discovery-for-wifi)"
 msgstr ""
 
-#: browser/bridging.md:block 20 (unordered list)
+#: browser/bridging.md:block 29 (unordered list)
 msgid "[TP-Link](https://community.tp-link.com/us/home/kb/detail/348)"
 msgstr ""
 
-#: browser/bridging.md:block 21 (header)
+#: browser/bridging.md:block 30 (header)
 msgid "Using port forwarding as an alternative to UPnP"
 msgstr ""
 
-#: browser/bridging.md:block 22 (paragraph)
+#: browser/bridging.md:block 31 (paragraph)
 msgid ""
 "Instead of enabling UPnP on your router, you can create a port forwarding "
 "rule to make sure that connections from the CENO network are forwarded to "
 "your device. You will need to login to the router's administrative interface "
 "and locate the *port forwarding* option. To see which IP address you need to "
 "forward the connections to and the relevant port, open the *CENO Settings* "
-"page and look under the *Local UDP endpoint(s)*."
+"page and look under the *Local UDP endpoints*."
 msgstr ""
 
-#: browser/bridging.md:block 23 (paragraph)
-msgid "![Figure: Local UDP endpoints](images/udp-port.png)"
+#: browser/bridging.md:block 32 (quote)
+msgid "**Local UDP endpoints**"
 msgstr ""
 
-#: browser/bridging.md:block 24 (paragraph)
+#: browser/bridging.md:block 33 (paragraph)
 msgid ""
 "The port forwarding must be for the UDP protocol (not TCP). CENO chooses a "
 "random port on first run and keeps it for subsequent runs, but your device's "
@@ -199,28 +243,42 @@ msgid ""
 "reachable to the CENO network."
 msgstr ""
 
-#: browser/bridging.md:block 25 (quote)
+#: browser/bridging.md:block 34 (quote)
 msgid ""
 "**Technical note:** Alternatively, you can make sure that the router always "
 "assigns the same IP address to your device (e.g. via a static DHCP lease for "
 "the device's MAC address)."
 msgstr ""
 
-#: browser/bridging.md:block 25 (quote)
+#: browser/bridging.md:block 34 (quote)
 msgid ""
 "[Doze mode]: https://developer.android.com/training/monitoring-device-state/"
 "doze-standby"
 msgstr ""
 
-#: browser/bridging.md:block 25 (quote)
-msgid "[Dont't kill my app!]: https://dontkillmyapp.com/"
+#: browser/bridging.md:block 34 (quote)
+msgid "[Don't kill my app!]: https://dontkillmyapp.com/"
 msgstr ""
 
-#: browser/bridging.md:block 25 (quote)
+#: browser/bridging.md:block 34 (quote)
+msgid "[docker]: https://en.wikipedia.org/wiki/Docker_(software)"
+msgstr ""
+
+#: browser/bridging.md:block 34 (quote)
+msgid "[docker-install]: https://docs.docker.com/engine/install/"
+msgstr ""
+
+#: browser/bridging.md:block 34 (quote)
+msgid ""
+"[ceno-client-doc]: https://github.com/censorship-no/ceno-docker-"
+"client#running-the-client"
+msgstr ""
+
+#: browser/bridging.md:block 34 (quote)
 msgid "[UPnP]: https://en.wikipedia.org/wiki/Universal_Plug_and_Play"
 msgstr ""
 
-#: browser/bridging.md:block 25 (quote)
+#: browser/bridging.md:block 34 (quote)
 msgid ""
 "[upnp-risks]: https://www.howtogeek.com/122487/htg-explains-is-upnp-a-"
 "security-risk"

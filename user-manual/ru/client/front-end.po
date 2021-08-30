@@ -21,10 +21,17 @@ msgid "Annex: The Ouinet client front-end"
 msgstr "Приложение: Внешний интерфейс клиента Ouinet"
 
 #: client/front-end.md:block 2 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "The Ouinet client (as run by e.g. the CENO Browser) offers a front-end "
+#| "page with some information and actions which may be useful for debugging "
+#| "the client. Some of those may not be available from the CENO Extension."
 msgid ""
 "The Ouinet client (as run by e.g. the CENO Browser) offers a front-end page "
 "with some information and actions which may be useful for debugging the "
-"client. Some of those may not be available from the CENO Extension."
+"client. Many of them are also offered by the CENO Extension via the [*CENO "
+"Settings* page](../browser/settings.md), though others are only available "
+"here."
 msgstr ""
 "Клиент Ouinet (запускаемый, например как Браузер CENO) предлагает внешнюю "
 "страницу с некоторой информацией и действиями, которые могут быть полезны "
@@ -70,8 +77,8 @@ msgstr ""
 "Это нужно только для использования обычного браузера для тестирования "
 "клиента Ouinet, в этом случае вам также придется настроить его HTTP/HTTPS "
 "прокси на `127.0.0.1:8077`, и вручную включить [Расширение CENO][Расширение "
-"CENO], чтобы инъекция работала. Мы настоятельно рекомендуем использовать *"
-"отдельный, специфический профиль браузера* для этой цели."
+"CENO], чтобы инъекция работала. Мы настоятельно рекомендуем использовать "
+"*отдельный, специфический профиль браузера* для этой цели."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
@@ -82,30 +89,58 @@ msgstr ""
 "поскольку он уже настроен подобным образом."
 
 #: client/front-end.md:block 6 (unordered list)
+#, fuzzy
+#| msgid ""
+#| "Buttons to enable or disable the different mechanisms used by the client "
+#| "to access content. They are equivalent to the check boxes in the [*CENO "
+#| "Settings* page](../browser/settings.md)."
 msgid ""
 "Buttons to enable or disable the different mechanisms used by the client to "
-"access content. They are equivalent to the check boxes in the [*CENO "
-"Settings* page](../browser/settings.md)."
+"access content."
 msgstr ""
 "Кнопки для включения или отключения различных механизмов, используемых "
-"клиентом для доступа к содержимому. Они идентичны флажкам на странице [*"
-"Настройки CENO*](../browser/settings.md)."
+"клиентом для доступа к содержимому. Они идентичны флажкам на странице "
+"[*Настройки CENO*](../browser/settings.md)."
 
 #: client/front-end.md:block 6 (unordered list)
+#, fuzzy
+#| msgid ""
+#| "Selectors to choose different log levels, like the default `INFO` "
+#| "(informational messages, warnings and errors) or `DEBUG` (verbose output "
+#| "useful for reporting errors)."
 msgid ""
 "Selectors to choose different log levels, like the default `INFO` "
 "(informational messages, warnings and errors) or `DEBUG` (verbose output "
-"useful for reporting errors)."
+"useful for reporting errors). The log file can also be enabled and retrieved "
+"from here."
 msgstr ""
-"Селекторы для выбора различных уровней журнала, например, по умолчанию `INFO`"
-" (информационные сообщения, предупреждения и ошибки) или `DEBUG` (подробный "
-"вывод, полезный для сообщения об ошибках)."
+"Селекторы для выбора различных уровней журнала, например, по умолчанию "
+"`INFO` (информационные сообщения, предупреждения и ошибки) или `DEBUG` "
+"(подробный вывод, полезный для сообщения об ошибках)."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
-"The public key used to verify signatures from injectors, and the configured "
-"way to reach them. The default `bep5` method looks up Internet addresses in "
-"a BitTorrent injector swarm, as explained [here](../concepts/how.md)."
+"When enabling the log file, the log level is automatically set to `DEBUG` "
+"(though you may change it again from here). When disabling the log file, the "
+"original log level is restored."
+msgstr ""
+
+#: client/front-end.md:block 6 (unordered list)
+msgid ""
+"Global client state and version information. Useful when reporting errors."
+msgstr ""
+
+#: client/front-end.md:block 6 (unordered list)
+#, fuzzy
+#| msgid ""
+#| "The public key used to verify signatures from injectors, and the "
+#| "configured way to reach them. The default `bep5` method looks up Internet "
+#| "addresses in a BitTorrent injector swarm, as explained [here](../concepts/"
+#| "how.md)."
+msgid ""
+"Information about client connectivity and injector addressing. The default "
+"`bep5` method looks up Internet addresses in a BitTorrent injector swarm, as "
+"explained [here](../concepts/how.md)."
 msgstr ""
 "Открытый ключ, используемый для проверки подписей от инжекторов, и "
 "настроенный способ обращения к ним. Метод по умолчанию `bep5` ищет интернет-"
@@ -113,13 +148,30 @@ msgstr ""
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
-"Information on your local cache like the maximum accepted age of cached "
-"content, the approximate size of the cache, and a button to purge it "
-"completely."
+"The public key used to verify signatures from injectors in the distributed "
+"cache."
+msgstr ""
+
+#: client/front-end.md:block 6 (unordered list)
+#, fuzzy
+#| msgid ""
+#| "Information on your local cache like the maximum accepted age of cached "
+#| "content, the approximate size of the cache, and a button to purge it "
+#| "completely."
+msgid ""
+"Information on your local cache like the maximum content age, approximate "
+"size of the cache, a button to purge it completely, and a link to the list "
+"of announced cache entries."
 msgstr ""
 "Информация о локальном кэше, например, максимально допустимый период "
 "хранения кэшированного содержимого, приблизительный размер кэша и кнопка для "
 "его полной очистки."
+
+#: client/front-end.md:block 6 (unordered list)
+msgid ""
+"The directory of the external, static cache if enabled (CENO does not "
+"currently use this)."
+msgstr ""
 
 #: client/front-end.md:block 6 (unordered list)
 msgid "[CENO Extension]: https://github.com/censorship-no/ceno-ext-settings/"

@@ -17,10 +17,17 @@ msgid "Annex: The Ouinet client front-end"
 msgstr "پیوست: فرانت‌اند سرویس‌گیرنده‌ی وینت"
 
 #: client/front-end.md:block 2 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "The Ouinet client (as run by e.g. the CENO Browser) offers a front-end "
+#| "page with some information and actions which may be useful for debugging "
+#| "the client. Some of those may not be available from the CENO Extension."
 msgid ""
 "The Ouinet client (as run by e.g. the CENO Browser) offers a front-end page "
 "with some information and actions which may be useful for debugging the "
-"client. Some of those may not be available from the CENO Extension."
+"client. Many of them are also offered by the CENO Extension via the [*CENO "
+"Settings* page](../browser/settings.md), though others are only available "
+"here."
 msgstr ""
 "سرویس‌گیرنده‌ی وینت (که برای مثال به‌وسیله‌ی مرورگر سنو اداره و اجرا می‌شود) یک "
 "صفحه‌ی فرانت‌اند با برخی اطلاعات و کنش‌هایی را پیشنهاد می‌دهد که می‌توانند برای "
@@ -63,11 +70,10 @@ msgid ""
 "for injection to work. We very strongly recommend using a *separate, "
 "specific browser profile* for this purpose."
 msgstr ""
-"شما فقط به این نیاز دارید تا برای آزمودن سرویس‌گیرنده‌ی وینت از یک مرورگر "
-"ساده استفاده کنید، که در آن صورت بایستی پروکسی‌های HTTP/HTTPS آن را هم روی "
-"`127.0.0.1:8077` تنظیم کنید، و [افزونه‌ی سنو](https://github.com/"
-"censorship-no/ceno-ext-settings) را هم به صورت دستی فعال کنید تا انژکشن به "
-"کار بیفتد."
+"شما فقط به این نیاز دارید تا برای آزمودن سرویس‌گیرنده‌ی وینت از یک مرورگر ساده "
+"استفاده کنید، که در آن صورت بایستی پروکسی‌های HTTP/HTTPS آن را هم روی "
+"`127.0.0.1:8077` تنظیم کنید، و [افزونه‌ی سنو](https://github.com/censorship-"
+"no/ceno-ext-settings) را هم به صورت دستی فعال کنید تا انژکشن به کار بیفتد."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
@@ -78,20 +84,30 @@ msgstr ""
 "این مرورگر پیشاپیش به همین صورت تنظیم شده است."
 
 #: client/front-end.md:block 6 (unordered list)
+#, fuzzy
+#| msgid ""
+#| "Buttons to enable or disable the different mechanisms used by the client "
+#| "to access content. They are equivalent to the check boxes in the [*CENO "
+#| "Settings* page](../browser/settings.md)."
 msgid ""
 "Buttons to enable or disable the different mechanisms used by the client to "
-"access content. They are equivalent to the check boxes in the [*CENO "
-"Settings* page](../browser/settings.md)."
+"access content."
 msgstr ""
 "دکمه‌ها برای فعال‌کردن یا غیرفعال‌کردن سازوکارهای متفاوت به‌کاررفته توسط "
 "سرویس‌گیرنده برای دسترسی به محتوا. این دکمه‌ها معادل چک‌باکس‌های موجود در [صفحه‌ی "
 "*تنظیمات سنو*](../browser/settings.md) هستند."
 
 #: client/front-end.md:block 6 (unordered list)
+#, fuzzy
+#| msgid ""
+#| "Selectors to choose different log levels, like the default `INFO` "
+#| "(informational messages, warnings and errors) or `DEBUG` (verbose output "
+#| "useful for reporting errors)."
 msgid ""
 "Selectors to choose different log levels, like the default `INFO` "
 "(informational messages, warnings and errors) or `DEBUG` (verbose output "
-"useful for reporting errors)."
+"useful for reporting errors). The log file can also be enabled and retrieved "
+"from here."
 msgstr ""
 "گزینشگرهایی برای انتخاب سطح‌های متفاوت ثبت گزارش، مانند «اطلاعات» (INFO) "
 "معمول (پیغام‌های آموزنده، هشدارها و ایرادها) یا «عیب‌یابی» (DEBUG) (خروجی مفصل "
@@ -99,9 +115,27 @@ msgstr ""
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
-"The public key used to verify signatures from injectors, and the configured "
-"way to reach them. The default `bep5` method looks up Internet addresses in "
-"a BitTorrent injector swarm, as explained [here](../concepts/how.md)."
+"When enabling the log file, the log level is automatically set to `DEBUG` "
+"(though you may change it again from here). When disabling the log file, the "
+"original log level is restored."
+msgstr ""
+
+#: client/front-end.md:block 6 (unordered list)
+msgid ""
+"Global client state and version information. Useful when reporting errors."
+msgstr ""
+
+#: client/front-end.md:block 6 (unordered list)
+#, fuzzy
+#| msgid ""
+#| "The public key used to verify signatures from injectors, and the "
+#| "configured way to reach them. The default `bep5` method looks up Internet "
+#| "addresses in a BitTorrent injector swarm, as explained [here](../concepts/"
+#| "how.md)."
+msgid ""
+"Information about client connectivity and injector addressing. The default "
+"`bep5` method looks up Internet addresses in a BitTorrent injector swarm, as "
+"explained [here](../concepts/how.md)."
 msgstr ""
 "کلید عمومی به‌کاررفته برای راستی‌آزمایی امضاها از انژکتورها، و روش تنظیم‌شده "
 "برای دست‌یابی به آن‌ها. روش معمول `bep5` نشانی‌های اینترنتی را در انبوهه‌ای از "
@@ -110,12 +144,29 @@ msgstr ""
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
-"Information on your local cache like the maximum accepted age of cached "
-"content, the approximate size of the cache, and a button to purge it "
-"completely."
+"The public key used to verify signatures from injectors in the distributed "
+"cache."
+msgstr ""
+
+#: client/front-end.md:block 6 (unordered list)
+#, fuzzy
+#| msgid ""
+#| "Information on your local cache like the maximum accepted age of cached "
+#| "content, the approximate size of the cache, and a button to purge it "
+#| "completely."
+msgid ""
+"Information on your local cache like the maximum content age, approximate "
+"size of the cache, a button to purge it completely, and a link to the list "
+"of announced cache entries."
 msgstr ""
 "اطلاعاتی درباره‌ی انبار محلی شما مانند حداکثر عمر پذیرفته‌ی محتوای انبارشده، "
 "سایز تقریبی انبار، و دکمه‌ای برای پالایش کامل آن."
+
+#: client/front-end.md:block 6 (unordered list)
+msgid ""
+"The directory of the external, static cache if enabled (CENO does not "
+"currently use this)."
+msgstr ""
 
 #: client/front-end.md:block 6 (unordered list)
 msgid "[CENO Extension]: https://github.com/censorship-no/ceno-ext-settings/"

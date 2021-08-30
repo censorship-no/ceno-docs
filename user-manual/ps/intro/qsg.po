@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Language: ps\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: intro/qsg.md:block 1 (header)
@@ -32,9 +32,7 @@ msgid ""
 msgstr ""
 
 #: intro/qsg.md:block 5 (ordered list)
-msgid ""
-"Run it and press *NEXT* on the introductory screens, then press *START "
-"BROWSING*."
+msgid "Run it."
 msgstr ""
 
 #: intro/qsg.md:block 5 (ordered list)
@@ -58,9 +56,8 @@ msgstr ""
 
 #: intro/qsg.md:block 8 (paragraph)
 msgid ""
-"The CENO Browser is in [BETA][BETA] but it should work out-of-the-box. You "
-"can find some [diagnostics and settings](../browser/settings.md) under the "
-"*CENO* menu entry."
+"The CENO Browser should work out-of-the-box. You can find some [diagnostics "
+"and settings](../browser/settings.md) under the *CENO* menu entry."
 msgstr ""
 
 #: intro/qsg.md:block 9 (paragraph)
@@ -97,8 +94,4 @@ msgstr ""
 
 #: intro/qsg.md:block 11 (unordered list)
 msgid "[ceno-pask]: https://paskoocheh.com/tools/124/android.html"
-msgstr ""
-
-#: intro/qsg.md:block 11 (unordered list)
-msgid "[BETA]: https://en.wikipedia.org/wiki/Software_release_life_cycle#Beta"
 msgstr ""
