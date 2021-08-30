@@ -6,7 +6,7 @@ CENO Browser allows you to change some Ouinet-specific settings and get informat
 
 These features are available on a page that can be accessed by choosing *CENO* in the app's main menu.  Please note that the menu entry may take a few seconds to pop up on app start.  The page should look like this:
 
-![Figure: The *CENO Settings* page](images/settings.png)
+![Figure: The CENO Settings page](images/settings.png)
 
 ## Choosing access mechanisms
 
@@ -18,7 +18,7 @@ The four checkboxes on the top of the page selectively enable or disable the dif
 
   If getting most Web content is not particularly slow or expensive, this mechanism may be more than enough for most use cases.  However, such direct connections may be tracked by your ISP or government. To some extent, disabling this option may avoid such connections and trivial tracking (but not completely, see [risks](../concepts/risks.md)).
 
-  Also, when accessing a Web site over insecure HTTP (instead of the more secure HTTPS), a censor may intercept the connection and supply the user with a bogus site, a tampering which CENO cannot detect by itself.  In such cases, it may help to disable this option and thus always resort to other, safer CENO mechanisms.
+  Also, when accessing a Web site over insecure HTTP (instead of the more secure HTTPS), a censor may intercept the connection and supply the user with a bogus site, a tampering which CENO cannot detect by itself.  In such cases, it may help to disable this option and thus always resort to other, safer CENO mechanisms.  Please check the section on [troubleshooting](troubleshooting.md) to learn more about this issue.
 
 - *Via the CENO network (private)* (or **proxy access**) allows CENO to use injectors as normal HTTP proxy servers to reach origin servers.
 
@@ -50,10 +50,11 @@ This page also provides you with some information about your CENO Browser app an
 - *CENO Extension* shows the version of the extension that integrates Firefox with CENO.  Also include in reports.
 - *Ouinet* shows the version of Ouinet backing CENO.  Also include in reports.
 - *Ouinet protocol* is the version number of the protocol that CENO uses to talk to other Ouinet clients and injectors.  Also include in reports.
-- *Local UDP endpoint(s)* are the Internet addresses used by CENO to seed signed content to other clients.  These are shown to help test and debug the app, and should not be generally disclosed.
+- *Local UDP endpoints* are the Internet addresses used by CENO to seed signed content to other clients.  These are shown to help test and debug the app, and should not be generally disclosed.
 - *UPnP status* indicates whether CENO was able to tell your router or access point to allow incoming connections towards it.  Also include in reports.
 - *Reachability status* indicates how likely it is for your device to be able to effectively seed content to other clients.  Also include in reports.
 - *Local cache size* shows an approximation of how much storage is taken by the content being seeded from your device's local cache.
+- *Content shared by you* allows you to check the content being announced by your device.
 
 ## Purging the local cache
 

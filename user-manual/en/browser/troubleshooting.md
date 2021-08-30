@@ -20,6 +20,22 @@ If you get an error like "The proxy server is refusing connections" when visitin
 
 > **Technical note:** This may happen if another application is already listening on TCP ports `127.0.0.1:8077` or `127.0.0.1:8078`.
 
+## A page shows bogus content (like a block message)
+
+CENO was able to contact a web server directly and retrieve content from it.  Unfortunately, someone intercepted the connection and directed it to an illegitimate server.
+
+This usually means that the site is blocked by your access provider or country.  However, this particular error can only happen when you are accessing the site over insecure HTTP (instead of the more secure HTTPS protocol), as CENO cannot detect the tampering by itself.
+
+Thus, one way to get to the legitimate site is to try to access it over HTTPS by tapping the address bar and replacing `http://` with `https://` at the beginning of its URL.  Of course, this will only work if the site supports HTTPS.  If it does not, and you get "Failed to retrieve the resource" from CENO, you will need to go to the [Settings page](settings.md), disable Origin access, and try again.
+
+Since such setting is not remembered, and modifying the URL every time can get tiresome, you may instead configure CENO to always use HTTPS for all sites via the embedded [HTTPS Everywhere][] extension: choose *HTTPS Everywhere* in the app's main menu, then enable *Encrypt All Sites Eligible* (EASE) as shown below.  This setting is remembered by CENO.
+
+[HTTPS Everywhere]: https://www.eff.org/https-everywhere/
+
+![Figure: HTTPS Everywhere settings with EASE on](images/httpsew-ease-on.png)
+
+If you still need to access some particular site over plain HTTP when EASE is on, you can visit the site (even if access fails), then from that tab open HTTPS Everywhere settings and tap on the *Disable on this site* button shown above to set an exception for the site.
+
 ## Accessing some content shows "Failed to retrieve the resource"
 
 This means that CENO tried all available mechanisms to access the content, but none of them succeeded.

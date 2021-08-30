@@ -8,7 +8,7 @@ Short answer: yes, at least for some non-critical browsing.
 
 Since CENO is based on Mozilla Firefox for Android, it provides all the features that are expected from a modern browser.  However, its reliance on Ouinet technology for retrieving web content may affect its operation in subtle ways (some of them potentially involving your privacy).
 
-Also, since CENO and Ouinet are still under development, you may experience some instability.  That may also mean that backwards-incompatible changes are introduced which require you to uninstall the application or remove stored data (including bookmarks and site settings) before upgrading.
+Also, since CENO and Ouinet are under continuous development, you may experience some instability.  That may also mean that backwards-incompatible changes are introduced which require you to uninstall the application or remove stored data (including bookmarks and site settings) before upgrading.
 
 For important work on Web sites not subject to censorship, we recommend that you use your habitual Web browser instead of CENO.  Please read the section on [risks](../concepts/risks.md) for more information.
 
