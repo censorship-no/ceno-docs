@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2021-08-17 10:27+0000\n"
-"Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
+"PO-Revision-Date: 2021-09-02 00:46+0000\n"
+"Last-Translator: Adam K <uz@zu.uz>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/censorship-no/"
 "client-front-end/ru/>\n"
 "Language: ru\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.8-dev\n"
+"X-Generator: Weblate 4.8.1-dev\n"
 
 #
 #: client/front-end.md:block 1 (header)
@@ -21,11 +21,6 @@ msgid "Annex: The Ouinet client front-end"
 msgstr "Приложение: Внешний интерфейс клиента Ouinet"
 
 #: client/front-end.md:block 2 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "The Ouinet client (as run by e.g. the CENO Browser) offers a front-end "
-#| "page with some information and actions which may be useful for debugging "
-#| "the client. Some of those may not be available from the CENO Extension."
 msgid ""
 "The Ouinet client (as run by e.g. the CENO Browser) offers a front-end page "
 "with some information and actions which may be useful for debugging the "
@@ -35,8 +30,9 @@ msgid ""
 msgstr ""
 "Клиент Ouinet (запускаемый, например как Браузер CENO) предлагает внешнюю "
 "страницу с некоторой информацией и действиями, которые могут быть полезны "
-"для отладки клиента. Некоторые из них могут быть недоступны в расширении "
-"CENO."
+"для отладки клиента. Многие из них также предлагаются расширением CENO через "
+"страницу [*Настройки CENO*](../browser/settings.md), однако другие доступны "
+"только здесь."
 
 #: client/front-end.md:block 3 (paragraph)
 msgid ""
@@ -89,34 +85,24 @@ msgstr ""
 "поскольку он уже настроен подобным образом."
 
 #: client/front-end.md:block 6 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "Buttons to enable or disable the different mechanisms used by the client "
-#| "to access content. They are equivalent to the check boxes in the [*CENO "
-#| "Settings* page](../browser/settings.md)."
 msgid ""
 "Buttons to enable or disable the different mechanisms used by the client to "
 "access content."
 msgstr ""
 "Кнопки для включения или отключения различных механизмов, используемых "
-"клиентом для доступа к содержимому. Они идентичны флажкам на странице "
-"[*Настройки CENO*](../browser/settings.md)."
+"клиентом для доступа к содержимому."
 
 #: client/front-end.md:block 6 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "Selectors to choose different log levels, like the default `INFO` "
-#| "(informational messages, warnings and errors) or `DEBUG` (verbose output "
-#| "useful for reporting errors)."
 msgid ""
 "Selectors to choose different log levels, like the default `INFO` "
 "(informational messages, warnings and errors) or `DEBUG` (verbose output "
 "useful for reporting errors). The log file can also be enabled and retrieved "
 "from here."
 msgstr ""
-"Селекторы для выбора различных уровней журнала, например, по умолчанию "
-"`INFO` (информационные сообщения, предупреждения и ошибки) или `DEBUG` "
-"(подробный вывод, полезный для сообщения об ошибках)."
+"Селекторы для выбора различных уровней журнала, например, по умолчанию `INFO`"
+" (информационные сообщения, предупреждения и ошибки) или `DEBUG` (подробный "
+"вывод, полезный для сообщения об ошибках). Файл журнала также можно включить "
+"и получить с этой страницы."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
@@ -124,54 +110,52 @@ msgid ""
 "(though you may change it again from here). When disabling the log file, the "
 "original log level is restored."
 msgstr ""
+"При включении файла журнала уровень журнала автоматически устанавливается на "
+"значение `DEBUG` (хотя вы можете изменить его отсюда). При отключении файла "
+"журнала, будет восстановлен исходный уровень журнала."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
 "Global client state and version information. Useful when reporting errors."
 msgstr ""
+"Глобальная информация о состоянии и версии клиента. Полезно при составлении "
+"отчетов об ошибках."
 
 #: client/front-end.md:block 6 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "The public key used to verify signatures from injectors, and the "
-#| "configured way to reach them. The default `bep5` method looks up Internet "
-#| "addresses in a BitTorrent injector swarm, as explained [here](../concepts/"
-#| "how.md)."
 msgid ""
 "Information about client connectivity and injector addressing. The default "
 "`bep5` method looks up Internet addresses in a BitTorrent injector swarm, as "
 "explained [here](../concepts/how.md)."
 msgstr ""
-"Открытый ключ, используемый для проверки подписей от инжекторов, и "
-"настроенный способ обращения к ним. Метод по умолчанию `bep5` ищет интернет-"
-"адреса в рое инъекторов BitTorrent, как описано [здесь](../concepts/how.md)."
+"Информация о подключении клиентов и адресации инъекторов. Метод по умолчанию "
+"`bep5` ищет интернет-адреса в узле инъекторов BitTorrent, как описано в ["
+"этом разделе](../concepts/how.md)."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
 "The public key used to verify signatures from injectors in the distributed "
 "cache."
 msgstr ""
+"Открытый ключ, используемый для проверки подписей от инъекторов в "
+"распределенном кэше."
 
 #: client/front-end.md:block 6 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "Information on your local cache like the maximum accepted age of cached "
-#| "content, the approximate size of the cache, and a button to purge it "
-#| "completely."
 msgid ""
 "Information on your local cache like the maximum content age, approximate "
 "size of the cache, a button to purge it completely, and a link to the list "
 "of announced cache entries."
 msgstr ""
-"Информация о локальном кэше, например, максимально допустимый период "
-"хранения кэшированного содержимого, приблизительный размер кэша и кнопка для "
-"его полной очистки."
+"Информация о локальном кэше, например, максимальный возраст содержимого, "
+"приблизительный размер кэша, кнопка для его полной очистки и ссылка на "
+"список объявленных записей кэша."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
 "The directory of the external, static cache if enabled (CENO does not "
 "currently use this)."
 msgstr ""
+"Каталог внешнего статического кэша, если он включен (в настоящее время CENO "
+"его не использует)."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid "[CENO Extension]: https://github.com/censorship-no/ceno-ext-settings/"
