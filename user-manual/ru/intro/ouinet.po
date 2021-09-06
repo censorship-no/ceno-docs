@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-03 02:50+0200\n"
-"PO-Revision-Date: 2021-08-21 08:33+0000\n"
-"Last-Translator: Ed Medvedev <edward.medvedev@gmail.com>\n"
+"PO-Revision-Date: 2021-09-07 21:33+0000\n"
+"Last-Translator: Adam K <uz@zu.uz>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/censorship-no/"
 "ouinet/ru/>\n"
 "Language: ru\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.8-dev\n"
+"X-Generator: Weblate 4.8.1-dev\n"
 
 #
 #: intro/ouinet.md:block 1 (header)
@@ -21,7 +21,6 @@ msgid "What is Ouinet?"
 msgstr "Что такое Ouinet?"
 
 #: intro/ouinet.md:block 2 (paragraph)
-#, fuzzy
 msgid ""
 "[Ouinet][Ouinet] is a core technology that allows the CENO browser to share "
 "Web content with other devices. Ouinet comes in the form of reusable "
@@ -99,13 +98,6 @@ msgstr ""
 "блокируют доступ к этим серверам."
 
 #: intro/ouinet.md:block 8 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Please note that Ouinet is still an experimental project: some features "
-#| "may not work reliably enough in certain scenarios, bugs may exist and "
-#| "crashes may occur. We encourage you to reach out to us at "
-#| "[cenoers@equalit.ie](mailto:cenoers@equalit.ie), test it and report back "
-#| "- your feedback is very welcome!"
 msgid ""
 "Please note that Ouinet is an evolving experimental project: some features "
 "may not work reliably enough in certain scenarios, bugs may exist and "
@@ -113,11 +105,11 @@ msgid ""
 "ie](mailto:cenoers@equalit.ie), test it and report back - your feedback is "
 "very welcome!"
 msgstr ""
-"Пожалуйста, обратите внимание, что Ouinet все еще является экспериментальным "
-"проектом: некоторые функции могут работать недостаточно надежно в "
-"определенных случаях; также могут встречаться ошибки и происходить сбои. Мы "
-"просим вас связаться с нами по адресу [cenoers@equalit.ie](mailto:"
-"cenoers@equalit.ie) и сообщить о вашем опыте — будем рады вашим отзывам!"
+"Обратите внимание, что Ouinet - это развивающийся экспериментальный проект: "
+"некоторые функции могут работать недостаточно надежно в определенных случаях;"
+" также могут встречаться ошибки и происходить сбои. Мы просим вас связаться "
+"с нами по адресу [cenoers@equalit.ie](mailto:cenoers@equalit.ie) и сообщить "
+"о вашем опыте — будем рады вашим отзывам!"
 
 #: intro/ouinet.md:block 9 (quote)
 msgid ""
