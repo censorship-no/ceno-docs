@@ -4,9 +4,9 @@ This section will explain CENO and Ouinet operation by going over a series of sc
 
 ## Accessing content directly
 
-The CENO Browser is an example of an application that uses Ouinet technology to retrieve and share Web content.  We call such an application a Ouinet **client**.  When you use your client (i.e. CENO) to try to access some content *X*, hosted on a Web server (which we will call *X*'s **origin** server), your client tries to contact the origin server over the Internet either directly or via some other machine configured to contact Web servers on behalf of others (a so-called **proxy** server) and then requests the desired content.  This is no different from the way in which any normal Web browser works.
+CENO Browser is an example of an application that uses Ouinet technology to retrieve and share Web content.  We call such an application a Ouinet **client**.  When you use your client (i.e. CENO) to try to access some content *X*, hosted on a Web server (which we will call *X*'s **origin** server), your client tries to contact the origin server over the Internet either directly or via some other machine configured to contact Web servers on behalf of others (a so-called **proxy** server) and then requests the desired content.  This is no different from the way in which any normal Web browser works.
 
-> **Technical note:** There is in fact one small gotcha.  Since the client acts as an HTTP proxy running on your device, for the client to be able to decrypt and act upon HTTPS content requests, the application using the client (i.e. the Web browser part – like Firefox in CENO) needs to accept a special certificate issued by the client itself (and only used on your device).  The CENO Browser already takes care of setting this certificate up for its private use so that you do not need to worry.
+> **Technical note:** There is in fact one small gotcha.  Since the client acts as an HTTP proxy running on your device, for the client to be able to decrypt and act upon HTTPS content requests, the application using the client (i.e. the Web browser part – like Firefox in CENO) needs to accept a special certificate issued by the client itself (and only used on your device).  CENO Browser already takes care of setting this certificate up for its private use so that you do not need to worry.
 
 However, these direct paths may not be available.  For instance, your Internet service provider (ISP) may be blocking access to *X*'s origin server or the proxy because of a state order (even if other traffic is still allowed).  As the user of the top left client depicted below, both attempts to reach content *X* (the little document close to its origin server) would fail for you.  You may also note the "injector" node on the diagram.  We will explain that in a moment.
 
@@ -26,7 +26,7 @@ Ouinet looks for the content in a different way.  It uses an index not unlike th
 
 > **Technical note:** One way the index is implemented is using [BitTorrent][]'s [Distributed Hash Table][] (DHT) to get the addresses (IP and port) of the clients with the content.  The DHT uses a [Cryptographic hash function][] to compute the table key from the content's URL and some other parameters as the injector key (see below), so that several indexes can coexist.
 >
-> Also, the CENO Browser does not announce the URL of every single resource it holds: with any modern page having tens or hundreds of components (images, style sheets, scripts…), that would create a lot of traffic.  Instead, resources are grouped under the URL of the page pulling them, and only that URL is announced.  This is done with the help of an *ad hoc* browser extension (described later on).
+> Also, CENO Browser does not announce the URL of every single resource it holds: with any modern page having tens or hundreds of components (images, style sheets, scripts…), that would create a lot of traffic.  Instead, resources are grouped under the URL of the page pulling them, and only that URL is announced.  This is done with the help of an *ad hoc* browser extension (described later on).
 
 [Cryptographic hash function]: https://en.wikipedia.org/wiki/Cryptographic_hash_function
 [BitTorrent]: https://en.wikipedia.org/wiki/BitTorrent
@@ -46,7 +46,7 @@ In Ouinet, there are special kinds of proxy servers called **injectors** which s
 
 - First of all, connections between clients and injectors are encrypted (using standard SSL/TLS like in HTTPS) to avoid attackers from identifying injectors by eavesdropping on web traffic.
 
-  By the way, injector certificates are shipped in the CENO Browser, allowing it to detect attackers trying to impersonate injectors.
+  By the way, injector certificates are shipped in CENO Browser, allowing it to detect attackers trying to impersonate injectors.
 - If encryption was not sufficient, connections to injectors can use special obfuscation techniques (like I2P and Tor's Pluggable Transports) to make identification even more difficult.
 - Even if an injector was identified and access to it was blocked by your ISP, there are several of them and it does not matter which one your client contacts over the Internet.
 - Some or all injectors may be blocked, but then the set of injectors can vary over time (with new ones being added).
@@ -58,7 +58,7 @@ In Ouinet, there are special kinds of proxy servers called **injectors** which s
 
   Please note that since client-to-injector connections are encrypted, bridges are not able to see the information flowing between them.
 
-An injector can behave like a normal (though extra available) proxy server, and this is indeed what Ouinet clients (including the CENO Browser) do currently when trying to access content over a proxy.  In this case, the injector will neither see the actual information flowing between your client and the origin server (unless it is a plain, unencrypted HTTP connection itself).
+An injector can behave like a normal (though extra available) proxy server, and this is indeed what Ouinet clients (including CENO Browser) do currently when trying to access content over a proxy.  In this case, the injector will neither see the actual information flowing between your client and the origin server (unless it is a plain, unencrypted HTTP connection itself).
 
 But there exist other tools allowing you to reach proxies in stringent network interference conditions so, what is so special about Ouinet injectors?
 
@@ -72,7 +72,7 @@ We want CENO and Ouinet usage to scale and provide as much content to as many pe
 
 > **Technical note:** In fact, the injector signs individual blocks of data as they come, so even if the connection is cut in the middle while retrieving a big file, the downloaded data can still be shared by the client that received it.
 
-Different injectors may have different keys, so you can choose which injectors to trust.  Picture it like this: you may trust a document signed by a *notary public* from your country, no matter who gave it to you (national or foreigner), while you would not be required to accept a document signed by a notary from another country.  The CENO Browser is already configured to trust a set of injectors run by eQualitie.
+Different injectors may have different keys, so you can choose which injectors to trust.  Picture it like this: you may trust a document signed by a *notary public* from your country, no matter who gave it to you (national or foreigner), while you would not be required to accept a document signed by a notary from another country.  CENO Browser is already configured to trust a set of injectors run by eQualitie.
 
 > **Technical note:** Injectors use a public/private key pair to create Ed25519 signatures; public keys are small enough to allow them to be sent along signatures, and encoded as 64 hexadecimal characters or 52 Base32 characters. They may even be exchanged on the phone or written down on a piece of paper.
 
@@ -100,12 +100,12 @@ Please note that the mechanism described above still requires that *some path ex
 
 Let us imagine that after you retrieved content *X* from the injector, a disaster leaves your region isolated from the world.  It turns out that content *X* becomes especially relevant since it describes some ways in which you can help your community in such a situation.
 
-At that moment a second person using the CENO Browser also tries to get that content.  Access to the origin server or to anything beyond your region is impossible, so CENO checks the distributed cache index for that content and it finds that your device is seeding it.  CENO gets your Internet address from the index, connects to it and requests the content as shown below.
+At that moment a second person using CENO Browser also tries to get that content.  Access to the origin server or to anything beyond your region is impossible, so CENO checks the distributed cache index for that content and it finds that your device is seeding it.  CENO gets your Internet address from the index, connects to it and requests the content as shown below.
 
 ![Figure: Client receives signed content from client](images/user-flow-4.svg)
 
-Now that second device also holds a copy of content *X*, so it announces this in the distributed cache index, thus becoming a seeder.  If a third person interested in that content uses the CENO Browser to retrieve it, CENO will now see *two* addresses in the index for the content: your device's and that of the second user.  If the content is heavy (e.g. a video), this third device may try to get half of it from each of the other devices (as shown below), thus speeding up the download and reducing the traffic they use.
+Now that second device also holds a copy of content *X*, so it announces this in the distributed cache index, thus becoming a seeder.  If a third person interested in that content uses CENO Browser to retrieve it, CENO will now see *two* addresses in the index for the content: your device's and that of the second user.  If the content is heavy (e.g. a video), this third device may try to get half of it from each of the other devices (as shown below), thus speeding up the download and reducing the traffic they use.
 
 ![Figure: Client receives signed content from multiple clients](images/user-flow-5.svg)
 
-Finally, the situation may get even worse, and all commercial and state network infrastructure may be shut down.  In this case, Ouinet and the CENO Browser also have some support for *device-to-device* sharing of content between two clients sitting on the same local network (e.g. connected to the same Wi-Fi access point), even if the network has no access to others.
+Finally, the situation may get even worse, and all commercial and state network infrastructure may be shut down.  In this case, Ouinet and CENO Browser also have some support for *device-to-device* sharing of content between two clients sitting on the same local network (e.g. connected to the same Wi-Fi access point), even if the network has no access to others.

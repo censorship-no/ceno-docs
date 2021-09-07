@@ -1,4 +1,4 @@
-# What is the CENO Browser?
+# What is CENO Browser?
 
 CENO (short for [Censorship.no!][]) is a Web browser for mobile Android devices (such as smartphones and tablets) that uses a novel approach to circumvent Internet censorship and share retrieved content among all users in a [peer-to-peer][P2P] (P2P) fashion.  This reduces overall reliance on international network exchanges, and allows frequently requested Web content to persist in the network even during heavy filtering and throttling events.
 
@@ -9,7 +9,7 @@ What sets CENO apart from most other circumvention initiatives is that users can
 
 [national intranets]: https://en.wikipedia.org/wiki/National_intranet
 
-The CENO Browser is built on an adapted version of [Firefox for Android][], a popular, modern, feature-rich and secure Free/Libre/Open Source browser.  CENO extends Firefox with **Ouinet**, the underlying technology allowing it to share content between devices (described in later sections).
+CENO Browser is built on an adapted version of [Firefox for Android][], a popular, modern, feature-rich and secure Free/Libre/Open Source browser.  CENO extends Firefox with **Ouinet**, the underlying technology allowing it to share content between devices (described in later sections).
 
 [Firefox for Android]: https://www.mozilla.org/firefox/android/
 

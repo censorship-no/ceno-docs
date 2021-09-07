@@ -1,12 +1,12 @@
 # Helping other CENO users browse the Web
 
-A peer-to-peer network is built from every node connected to it (yes, that means you as well!).  The more nodes, the stronger and more versatile the network becomes.  If you are running the CENO Browser from a country that does not censor the Internet (or not as heavily as some), consider helping other CENO users by becoming a **bridge** node.  You will then begin to route traffic between clients living in heavily censored countries and CENO injectors.  You will not be able to see their traffic (it will be sent through an encrypted tunnel), nor will any of this traffic remain on your device.
+A peer-to-peer network is built from every node connected to it (yes, that means you as well!).  The more nodes, the stronger and more versatile the network becomes.  If you are running CENO Browser from a country that does not censor the Internet (or not as heavily as some), consider helping other CENO users by becoming a **bridge** node.  You will then begin to route traffic between clients living in heavily censored countries and CENO injectors.  You will not be able to see their traffic (it will be sent through an encrypted tunnel), nor will any of this traffic remain on your device.
 
 > **Note:** The configuration described in this section may also help your device to effectively seed content to others on the distributed cache, so please consider applying it as well when using CENO in a censoring country (but keep in mind the [risks](../concepts/risks.md) of serving such content to others).
 
 ## How to become a CENO bridge
 
-This functionality is already built into the CENO Browser.  Your device will need to be connected to a Wi-Fi network that has either UPnP enabled or explicit port forwarding configured for CENO.  See the next sections for further details.
+This functionality is already built into CENO Browser.  Your device will need to be connected to a Wi-Fi network that has either UPnP enabled or explicit port forwarding configured for CENO.  See the next sections for further details.
 
 However, please note that Android will only allow a mobile device to act as a proper bridge while you are actively using it, as power-saving features will throttle the operation of CENO otherwise.
 

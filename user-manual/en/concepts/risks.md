@@ -1,6 +1,6 @@
 # Risks in using CENO/Ouinet
 
-As with any sufficiently complex computing system, and especially such an innovative one, using the CENO Browser (and any Ouinet client in general) is not free from some risks.  In this section we will compile and describe them to help you understand their implications according to the different roles you may play when using CENO:
+As with any sufficiently complex computing system, and especially such an innovative one, using CENO Browser (and any Ouinet client in general) is not free from some risks.  In this section we will compile and describe them to help you understand their implications according to the different roles you may play when using CENO:
 
 - as a *user* browsing Web sites
 - as a *seeder* sharing content over the distributed cache that you previously visited
@@ -26,7 +26,7 @@ Yes.  However, injectors cannot distinguish whether a request came from a CENO u
 
 ### Can my private data leak to the distributed cache?
 
-Hopefully not.  As mentioned above, the CENO Browser tries hard to remove any private data (passwords, cookies…) from any request for injection.  In addition, the injector does not itself do any seeding; in fact, its sole purpose is to sign content so that Ouinet clients can seed it.  This means that when the content comes back to the client, it is further analyzed, and if the origin server indicated that it is of a private nature, CENO will not seed it either.
+Hopefully not.  As mentioned above, CENO Browser tries hard to remove any private data (passwords, cookies…) from any request for injection.  In addition, the injector does not itself do any seeding; in fact, its sole purpose is to sign content so that Ouinet clients can seed it.  This means that when the content comes back to the client, it is further analyzed, and if the origin server indicated that it is of a private nature, CENO will not seed it either.
 
 Still, there could be cases of badly designed or malicious pages which may collect some information from you (like an email address in a form or some browser fingerprints using JavaScript) and stuff it in another link URL as normal path components (e.g. `http://example.com/subscribe/you@example.org`).  If you suspect that a page may be doing that, better be on the safe side and use private browsing for it.
 

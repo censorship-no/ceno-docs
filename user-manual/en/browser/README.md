@@ -1,4 +1,4 @@
-# Using the CENO Browser
+# Using CENO Browser
 
 This chapter gives you some hints on the usage of CENO Browser as far as its Ouinet-related capabilities are concerned.  Please always keep in mind that CENO is based on [Firefox for Android][], so for all questions on generic browsing topics you should refer to Mozilla's [Firefox for Android Support][] pages.
 

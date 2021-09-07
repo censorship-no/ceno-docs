@@ -6,7 +6,7 @@
 
 - [Introduction](intro/README.md)
 
-  - [What is the CENO Browser?](intro/ceno.md)
+  - [What is CENO Browser?](intro/ceno.md)
   - [What is Ouinet?](intro/ouinet.md)
   - [Quick start guide](intro/qsg.md)
   - [Frequently Asked Questions](intro/faq.md)
@@ -18,7 +18,7 @@
   - [Advantages of using CENO/Ouinet](concepts/advantages.md)
   - [Risks in using CENO/Ouinet](concepts/risks.md)
 
-- [Using the CENO Browser](browser/README.md)
+- [Using CENO Browser](browser/README.md)
 
   - [Installing CENO](browser/install.md)
   - [Using public or private browsing](browser/public-private.md)

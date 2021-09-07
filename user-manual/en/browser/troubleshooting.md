@@ -42,7 +42,7 @@ This means that CENO tried all available mechanisms to access the content, but n
 
 You should make sure that the following requirements are fulfilled for CENO to work:
 
-- You are running a recent version of the CENO Browser.  Obsolete versions may not be able to communicate with newer injectors or other clients.  Check the [installation instructions](install.md) to know where to get new versions.
+- You are running a recent version of CENO Browser.  Obsolete versions may not be able to communicate with newer injectors or other clients.  Check the [installation instructions](install.md) to know where to get new versions.
 - All access mechanisms in the [Settings page](settings.md) are enabled.  Otherwise CENO will not be able to circumvent some connectivity issues when accessing content.
 - Your device has a working connection to the network, i.e. your normal Web browser is able to open some Web sites.  CENO and Ouinet cannot work when all network connectivity is shut down (although users may still find a common Wi-Fi access point to do device-to-device sharing).
 

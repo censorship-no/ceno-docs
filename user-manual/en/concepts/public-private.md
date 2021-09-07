@@ -1,6 +1,6 @@
 # Public vs. private browsing
 
-Because of the many techniques used to overcome connectivity issues, CENO may become a convenient way for you to get all kinds of Web content.  And, as you may have already read in previous sections, whenever you retrieve and seed a page using the CENO Browser, it becomes available to others.  There may be some content, however, that you do not wish to share (or you do not want to let others know that you are trying to or did retrieve), and fortunately CENO can help you in this instance as well.
+Because of the many techniques used to overcome connectivity issues, CENO may become a convenient way for you to get all kinds of Web content.  And, as you may have already read in previous sections, whenever you retrieve and seed a page using CENO Browser, it becomes available to others.  There may be some content, however, that you do not wish to share (or you do not want to let others know that you are trying to or did retrieve), and fortunately CENO can help you in this instance as well.
 
 The default mode when you launch the application is **public browsing**.  In it, CENO accesses Web content as described previously:
 
