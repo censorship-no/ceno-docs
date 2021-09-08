@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2021-07-26 15:11+0000\n"
-"Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
+"PO-Revision-Date: 2021-09-08 16:20+0000\n"
+"Last-Translator: Zuhualime Akoochimoya <zakooch@protonmail.ch>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/censorship-no/"
 "browser-readme/es/>\n"
 "Language: es\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.7.2-dev\n"
+"X-Generator: Weblate 4.8.1-dev\n"
 
 #
 #: browser/README.md:block 1 (header)
@@ -35,12 +35,6 @@ msgstr ""
 "[Soporte de Firefox para Android]."
 
 #: browser/README.md:block 3 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "When relevant, screen captures will be included to illustrate the text. "
-#| "Please note that these may slightly differ from what you see on your "
-#| "device, especially as CENO development progresses. This documentation is "
-#| "up to date for CENO version 0.0.29."
 msgid ""
 "When relevant, screen captures will be included to illustrate the text. "
 "Please note that these may slightly differ from what you see on your device, "
@@ -50,7 +44,7 @@ msgstr ""
 "Cuando sea relevante, serán incluidas capturas de pantalla para ilustrar el "
 "texto. Por favor ten en cuenta que estas podrían diferir ligeramente de lo "
 "que ves en tu dispositivo, especialmente a medida que progresa el desarrollo "
-"de CENO. Esta documentación está actualizada para CENO versión 0.0.29."
+"de CENO. Esta documentación está actualizada para CENO versión 1.0.2."
 
 #: browser/README.md:block 4 (paragraph)
 msgid ""
