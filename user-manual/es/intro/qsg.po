@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-03 02:50+0200\n"
-"PO-Revision-Date: 2021-07-30 09:27+0000\n"
-"Last-Translator: Anatoli <djanatoli@gmail.com>\n"
+"PO-Revision-Date: 2021-09-08 16:20+0000\n"
+"Last-Translator: Zuhualime Akoochimoya <zakooch@protonmail.ch>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/censorship-no/"
 "qsg/es/>\n"
 "Language: es\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.7.2-dev\n"
+"X-Generator: Weblate 4.8.1-dev\n"
 
 #
 #: intro/qsg.md:block 1 (header)
@@ -49,7 +49,7 @@ msgstr ""
 
 #: intro/qsg.md:block 5 (ordered list)
 msgid "Run it."
-msgstr ""
+msgstr "Ejecútalo."
 
 #: intro/qsg.md:block 5 (ordered list)
 msgid ""
@@ -77,18 +77,13 @@ msgid "Configuration"
 msgstr "Configuración"
 
 #: intro/qsg.md:block 8 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "The CENO Browser is in [BETA][BETA] but it should work out-of-the-box. "
-#| "You can find some [diagnostics and settings](../browser/settings.md) "
-#| "under the *CENO* menu entry."
 msgid ""
 "The CENO Browser should work out-of-the-box. You can find some [diagnostics "
 "and settings](../browser/settings.md) under the *CENO* menu entry."
 msgstr ""
-"El Navegador CENO está en estado [BETA][BETA], pero debería funcionar como "
-"viene. Puedes encontrar algunos [diagnósticos y ajustes](../browser/settings."
-"md) bajo la entrada de menú *CENO*."
+"El Navegador CENO debería funcionar como viene. Puedes encontrar algunos ["
+"diagnósticos y ajustes](../browser/settings.md) bajo la entrada de menú "
+"*CENO*."
 
 #: intro/qsg.md:block 9 (paragraph)
 msgid ""
