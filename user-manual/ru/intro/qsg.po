@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-03 02:50+0200\n"
-"PO-Revision-Date: 2021-08-29 08:35+0000\n"
-"Last-Translator: Ed Medvedev <edward.medvedev@gmail.com>\n"
+"PO-Revision-Date: 2021-09-07 21:33+0000\n"
+"Last-Translator: Adam K <uz@zu.uz>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/censorship-no/"
 "qsg/ru/>\n"
 "Language: ru\n"
@@ -51,7 +51,7 @@ msgstr ""
 
 #: intro/qsg.md:block 5 (ordered list)
 msgid "Run it."
-msgstr ""
+msgstr "Запустите его."
 
 #: intro/qsg.md:block 5 (ordered list)
 msgid ""
@@ -79,18 +79,12 @@ msgid "Configuration"
 msgstr "Настройка"
 
 #: intro/qsg.md:block 8 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "The CENO Browser is in [BETA][BETA] but it should work out-of-the-box. "
-#| "You can find some [diagnostics and settings](../browser/settings.md) "
-#| "under the *CENO* menu entry."
 msgid ""
 "The CENO Browser should work out-of-the-box. You can find some [diagnostics "
 "and settings](../browser/settings.md) under the *CENO* menu entry."
 msgstr ""
-"Браузер CENO находится в стадии [BETA][BETA], но должен заработать сразу. Вы "
-"можете найти некоторые [диагностики и настройки](../browser/settings.md) под "
-"пунктом меню *CENO*."
+"Браузер CENO должен работать \"из коробки\". Вы можете найти некоторые ["
+"диагностики и настройки](../browser/settings.md) под пунктом меню *CENO*."
 
 #: intro/qsg.md:block 9 (paragraph)
 msgid ""
