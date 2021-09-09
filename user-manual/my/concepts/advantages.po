@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-01 21:57+0200\n"
-"PO-Revision-Date: 2021-07-21 23:33+0000\n"
+"PO-Revision-Date: 2021-09-09 09:52+0000\n"
 "Last-Translator: Tun Tun AUNG <tuntunaung@codingclassroom.org>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "advantages/my/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.7.2-dev\n"
+"X-Generator: Weblate 4.8.1-dev\n"
 
 #
 #: concepts/advantages.md:block 1 (header)
@@ -111,7 +111,7 @@ msgstr ""
 "သင့်လက်ခံစက်သည် ၎င်းကို သင့်ဒေသရှိ အခြားလက်ခံစက်တစ်ခုခုမှ "
 "ရယူကောင်းရယူနိုင်သည်။ နိုင်ငံတကာ အသွားအလာသည် ဒေသတွင်း အသွားအလာထက် "
 "ပိုမိုဈေးကြီးသော နိုင်ငံအချို့တွင် (ဥပမာ- [နိုင်ငံတွင်းသုံး "
-"အင်ထွာနက်][နိုင်ငံတွင်းသုံး အင်ထွာနက်] ရှိလျှင်) ယင်းကြောင့် သင် အမှန်တကယ် "
+"အင်ထရာနက်][နိုင်ငံတွင်းသုံး အင်ထရာနက်] ရှိလျှင်) ယင်းကြောင့် သင် အမှန်တကယ် "
 "ငွေချွေတာနိုင်သည်။"
 
 #: concepts/advantages.md:block 3 (unordered list)
@@ -123,4 +123,4 @@ msgstr ""
 #: concepts/advantages.md:block 3 (unordered list)
 msgid "[National intranet]: https://en.wikipedia.org/wiki/National_intranet"
 msgstr ""
-"[နိုင်ငံတွင်းသုံး အင်ထွာနက်]: https://en.wikipedia.org/wiki/National_intranet"
+"[နိုင်ငံတွင်းသုံး အင်ထရာနက်]: https://en.wikipedia.org/wiki/National_intranet"
