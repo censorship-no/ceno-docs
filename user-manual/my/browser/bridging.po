@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
 "PO-Revision-Date: 2021-09-09 09:52+0000\n"
-"Last-Translator: Tun Tun AUNG <tuntunaung@codingclassroom.org>\n"
+"Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "browser-bridging/my/>\n"
 "Language: my\n"
@@ -367,8 +367,6 @@ msgstr ""
 "doze-standby"
 
 #: browser/bridging.md:block 34 (quote)
-#, fuzzy
-#| msgid "[Dont't kill my app!]: https://dontkillmyapp.com/"
 msgid "[Don't kill my app!]: https://dontkillmyapp.com/"
 msgstr "[Don't kill my app!]: https://dontkillmyapp.com/"
 
