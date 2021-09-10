@@ -104,6 +104,8 @@ There are many Wi-Fi routers on the market and each has their own particular fea
 - [Huawei](https://consumer.huawei.com/ph/support/content/en-us00275342/)
 - [Xfinity](https://www.xfinity.com/support/articles/configure-device-discovery-for-wifi)
 - [TP-Link](https://community.tp-link.com/us/home/kb/detail/348)
+- [Netgear](https://kb.netgear.com/24306/How-do-I-enable-Universal-Plug-and-Play-on-my-Nighthawk-router)
+- [Ubiquiti](https://www.geekzone.co.nz/forums.asp?forumid=66&topicid=205740&page_no=5#1725168)
 
 ## Using port forwarding as an alternative to UPnP
 
