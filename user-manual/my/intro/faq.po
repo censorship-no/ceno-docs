@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-03 02:50+0200\n"
-"PO-Revision-Date: 2021-09-11 10:34+0000\n"
+"PO-Revision-Date: 2021-09-12 07:33+0000\n"
 "Last-Translator: Tun Tun AUNG <tuntunaung@codingclassroom.org>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "faq/my/>\n"
@@ -31,7 +31,7 @@ msgstr ""
 
 #: intro/faq.md:block 4 (paragraph)
 msgid "Short answer: yes, at least for some non-critical browsing."
-msgstr "အဖြေတို- အနည်းဆုံး အရေးမကြီးသော ရှာဖွေမှုအချို့အတွက် အစားထိုးနိုင်သည်။"
+msgstr "အဖြေတို - အနည်းဆုံး အရေးမကြီးသော ရှာဖွေမှုအချို့အတွက် အစားထိုးနိုင်သည်။"
 
 #: intro/faq.md:block 5 (paragraph)
 msgid ""
