@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-02 02:42+0200\n"
-"PO-Revision-Date: 2021-09-10 09:34+0000\n"
+"PO-Revision-Date: 2021-09-14 07:36+0000\n"
 "Last-Translator: Tun Tun AUNG <tuntunaung@codingclassroom.org>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "ceno/my/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.8.1-dev\n"
+"X-Generator: Weblate 4.9-dev\n"
 
 #
 #: intro/ceno.md:block 1 (header)
@@ -146,7 +146,7 @@ msgstr ""
 "ပိတ်ဆို့မှုကို ပိုမိုဖြစ်စေတတ်ပါသည်။ ထို့ကြောင့် အင်တာနက် ချိတ်ဆက်မှု အနေအထား"
 " အတော်အသင့် ကောင်းရန် လိုအပ်သည်။ မိုဘိုင်း ဒေတာဖြင့် သုံးခြင်းထက် "
 "ဝိုင်ဖိုင်ချိတ်၍ သုံးရန် အကြံပြုပါသည်။ သို့မှသာ အင်တာနက် ဒေတာ အကုန်သက်သာပြီး "
-"မိမိ ချိတ်ဆက်ထားသော ဝက်ဘ် အကြောင်းအရာ များကို အခြားသူများကို မျှဝေနိုင်မည် "
+"မိမိ ချိတ်ဆက်ထားသော ဝက်ဘ် အကြောင်းအရာများကို အခြားသူများကို မျှဝေနိုင်မည် "
 "ဖြစ်သည်။"
 
 #: intro/ceno.md:block 11 (quote)
@@ -191,7 +191,7 @@ msgid ""
 "[Universal Declaration of Human Rights]: https://www.un.org/en/universal-"
 "declaration-human-rights/"
 msgstr ""
-"[အပြည်ပြည်ဆိုင်ရာ လူ့အခွင့်အရေး ကြေညာစာတမ်း]: https://www.un.org/en/"
+"[အပြည်ပြည်ဆိုင်ရာ လူ့အခွင့်အရေး ကြေညာစာတမ်း] - https://www.un.org/en/"
 "universal-declaration-human-rights/"
 
 #: intro/ceno.md:block 11 (quote)
