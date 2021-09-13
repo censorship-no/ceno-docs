@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2021-09-10 09:34+0000\n"
+"PO-Revision-Date: 2021-09-14 07:36+0000\n"
 "Last-Translator: Ed Medvedev <edward.medvedev@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-public-private/ru/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.8.1-dev\n"
+"X-Generator: Weblate 4.9-dev\n"
 
 #
 #: browser/public-private.md:block 1 (header)
@@ -61,8 +61,7 @@ msgstr "![Рисунок: Вкладка публичного просмотра
 
 #: browser/public-private.md:block 6 (paragraph)
 msgid "In contrast, private tabs have a darker tool bar:"
-msgstr ""
-"В отличие от этого, частные вкладки имеют более темную панель инструментов:"
+msgstr "Частные вкладки имеют более темную панель инструментов:"
 
 #: browser/public-private.md:block 7 (paragraph)
 msgid "![Figure: A private browsing tab](images/private-tab.png)"
@@ -74,6 +73,6 @@ msgid ""
 "bar will help you know how it actually retrieved the different elements of "
 "the content. We will cover this icon later on."
 msgstr ""
-"После загрузки страницы на вкладке цветной значок CENO в адресной строке "
-"поможет вам узнать, как на самом деле были получены различные элементы "
-"содержимого. Мы рассмотрим этот значок позже."
+"После того, как страница во вкладке загрузится, цветной значок CENO в "
+"адресной строке поможет вам узнать, как именно были получены различные "
+"элементы содержимого. Мы рассмотрим этот значок позже."
