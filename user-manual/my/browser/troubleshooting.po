@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-10 11:02+0200\n"
-"PO-Revision-Date: 2021-09-07 21:33+0000\n"
+"PO-Revision-Date: 2021-09-14 07:36+0000\n"
 "Last-Translator: Tun Tun AUNG <tuntunaung@codingclassroom.org>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "browser-troubleshooting/my/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.8.1-dev\n"
+"X-Generator: Weblate 4.9-dev\n"
 
 #
 #: browser/troubleshooting.md:block 1 (header)
@@ -52,7 +52,7 @@ msgstr "CENO အဆက်သည် တင်နေဆဲ ဖြစ်နို�
 
 #: browser/troubleshooting.md:block 6 (header)
 msgid "All widgets are grayed-out in the *CENO Settings* page"
-msgstr "*CENO ဆက်တင်များ* စာမျက်နှာတွင် ဝစ်ဂျစ်အားလုံးသည် အရောင်မှိန်နေသည်"
+msgstr "*CENO ဆက်တင်များ* စာမျက်နှာတွင် ဝစ်ဂျက်အားလုံးသည် အရောင်မှိန်နေသည်"
 
 #: browser/troubleshooting.md:block 7 (paragraph)
 msgid ""
@@ -100,8 +100,9 @@ msgid ""
 "**Technical note:** This may happen if another application is already "
 "listening on TCP ports `127.0.0.1:8077` or `127.0.0.1:8078`."
 msgstr ""
-"**နည်းပညာဆိုင်ရာ မှတ်ချက်-** အခြားအက်ပလီကေးရှင်းက TCP ပေါ့တ်များ `127.0.0.1:8077` သို့မဟုတ် "
-"`127.0.0.1:8078` တွင် နားထောင်နေပြီး ဖြစ်ပါက ဤသို့ ဖြစ်ပွားနိုင်သည်။"
+"**နည်းပညာဆိုင်ရာ မှတ်ချက် -** အခြားအက်ပလီကေးရှင်းက TCP ပေါ့တ်များ `127.0.0."
+"1:8077` သို့မဟုတ် `127.0.0.1:8078` တွင် နားထောင်နေပြီး ဖြစ်ပါက ဤသို့ "
+"ဖြစ်ပွားနိုင်သည်။"
 
 #: browser/troubleshooting.md:block 12 (header)
 msgid "A page shows bogus content (like a block message)"
@@ -142,9 +143,11 @@ msgid ""
 msgstr ""
 
 #: browser/troubleshooting.md:block 17 (paragraph)
+#, fuzzy
 msgid ""
 "![Figure: HTTPS Everywhere settings with EASE on](images/httpsew-ease-on.png)"
 msgstr ""
+"![Figure: HTTPS Everywhere settings with EASE on](images/httpsew-ease-on.png)"
 
 #: browser/troubleshooting.md:block 18 (paragraph)
 msgid ""
