@@ -3,20 +3,21 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-16 04:02+0200\n"
-"PO-Revision-Date: 2021-04-20 22:29+0000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2021-09-09 19:04+0000\n"
+"Last-Translator: Thomas VI <plopvilare@yopmail.fr>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/censorship-no/how/"
+"fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.7-dev\n"
+"X-Generator: Weblate 4.8.1-dev\n"
 
 #
 #: concepts/how.md:block 1 (header)
 msgid "How does it work?"
-msgstr ""
+msgstr "Comment ça marche ?"
 
 #: concepts/how.md:block 2 (paragraph)
 msgid ""
@@ -25,10 +26,14 @@ msgid ""
 "introduced (highlighted **in bold letters**) and used afterwards for "
 "efficiency and to avoid confusion."
 msgstr ""
+"Cette section expliquera le fonctionnement de CENO et Ouinet en passant en "
+"revue une série de scénarios. La terminologie et les concepts importants "
+"pour Ouinet seront introduits (surlignés **en caractères gras**) et utilisés "
+"par la suite pour plus d'efficacité et pour éviter toute confusion."
 
 #: concepts/how.md:block 3 (header)
 msgid "Accessing content directly"
-msgstr ""
+msgstr "Accéder directement au contenu"
 
 #: concepts/how.md:block 4 (paragraph)
 msgid ""
@@ -42,6 +47,15 @@ msgid ""
 "desired content. This is no different from the way in which any normal Web "
 "browser works."
 msgstr ""
+"Le navigateur CENO est un exemple d'application qui utilise la technologie "
+"Ouinet pour récupérer et partager du contenu Web. Nous appelons une telle "
+"application un **client** Ouinet. Lorsque vous utilisez votre client (cf "
+"CENO) pour essayer d'accéder à du contenu *X*, hébergé sur un serveur Web ("
+"que nous appellerons le serveur **origine** de *X*), votre client essaie de "
+"contacter le serveur d'origine sur Internet soit directement, soit via une "
+"autre machine configurée pour contacter des serveurs Web au nom d'autrui (un "
+"serveur dit **proxy**), puis demande le contenu souhaité. Ce n'est pas "
+"différent de la façon dont fonctionne n'importe quel navigateur Web normal."
 
 #: concepts/how.md:block 5 (quote)
 msgid ""

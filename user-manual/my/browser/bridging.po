@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2021-09-09 09:52+0000\n"
+"PO-Revision-Date: 2021-09-27 12:09+0000\n"
 "Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "browser-bridging/my/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.8.1-dev\n"
+"X-Generator: Weblate 4.9-dev\n"
 
 #
 #: browser/bridging.md:block 1 (header)
@@ -48,11 +48,12 @@ msgid ""
 "(but keep in mind the [risks](../concepts/risks.md) of serving such content "
 "to others)."
 msgstr ""
-"**မှတ်ချက်-** ဤအပိုင်းတွင် ဖော်ပြထားသော စီစဉ်သတ်မှတ်မှုသည် ဖြန့်ဝေထားသည့် ယာယီ သိမ်းဆည်းထားသော "
-"မှတ်ဉာဏ်တွင် သင့်စက်က အခြားစက်များထံ အကြောင်းအရာကို ထိရောက်စွာ တင်ပို့နိုင်ရန်လည်း ကူညီနိုင်သောကြောင့် "
-"ဆင်ဆာလုပ်သော နိုင်ငံတွင် CENO ကို အသုံးပြုချိန်တွင်လည်း ၎င်းကို အသုံးချရန် ကျေးဇူးပြု၍ စဉ်းစားပါ (သို့သော် "
-"ထိုအကြောင်းအရာကို အခြားစက်များအား ပေးခြင်း၏ [စွန့်စားမှုများ](../concepts/risks.md) ကို "
-"သတိထားပါ)။"
+"**မှတ်ချက် -** ဤအပိုင်းတွင် ဖော်ပြထားသော စီစဉ်သတ်မှတ်မှုသည် ဖြန့်ဝေထားသည့် "
+"ယာယီ သိမ်းဆည်းထားသော မှတ်ဉာဏ်တွင် သင့်စက်က အခြားစက်များထံ အကြောင်းအရာကို "
+"ထိရောက်စွာ တင်ပို့နိုင်ရန်လည်း ကူညီနိုင်သောကြောင့် ဆင်ဆာလုပ်သော နိုင်ငံတွင် "
+"CENO ကို အသုံးပြုချိန်တွင်လည်း ၎င်းကို အသုံးချရန် ကျေးဇူးပြု၍ စဉ်းစားပါ "
+"(သို့သော် ထိုအကြောင်းအရာကို အခြားစက်များအား ပေးခြင်း၏ [စွန့်စားမှုများ](../"
+"concepts/risks.md) ကို သတိထားပါ)။"
 
 #: browser/bridging.md:block 4 (header)
 msgid "How to become a CENO bridge"
@@ -90,7 +91,7 @@ msgid ""
 "interfere with CENO; please check [Don't kill my app!][Don't kill my app!] "
 "for your device's brand."
 msgstr ""
-"**နည်းပညာဆိုင်ရာ မှတ်ချက်-** ယင်းသည် အဓိကအားဖြင့် Android ၏ "
+"**နည်းပညာဆိုင်ရာ မှတ်ချက် -** ယင်းသည် အဓိကအားဖြင့် Android ၏ "
 "[ခဏအိပ်မုဒ်](https://developer.android.com/training/monitoring-device-state/"
 "doze-standby \"Android ဆော့ဖ်ဝဲရေးသူများ - ခဏအိပ်နှင့် အက်ပ် "
 "အသင့်အနေအထားအတွက် အကောင်းဆုံးချိန်ညှိပါ\") က မူလ Ouinet စာကြည့်တိုက်၏ "
@@ -106,8 +107,9 @@ msgid ""
 "Thus if you intend to have CENO acting as a permanent, always-reachable "
 "bridge, besides a properly configured Wi-Fi network you will need to:"
 msgstr ""
-"ထို့ကြောင့် သင်သည် CENO ကို အဆုံးတိုင် အမြဲရောက်ရှိနိုင်သော ပေါင်းကူးအဖြစ် လုပ်ဆောင်ရန် ရည်ရွယ်ပါက မှန်ကန်စွာ "
-"စီစဉ်သတ်မှတ်ထားသော Wi-Fi ကွန်ရက်အပြင် သင်သည် အောက်ပါတို့ကို လိုအပ်ပါမည်-"
+"ထို့ကြောင့် သင်သည် CENO ကို အဆုံးတိုင် အမြဲရောက်ရှိနိုင်သော ပေါင်းကူးအဖြစ် "
+"လုပ်ဆောင်ရန် ရည်ရွယ်ပါက မှန်ကန်စွာ စီစဉ်သတ်မှတ်ထားသော Wi-Fi ကွန်ရက်အပြင် "
+"သင်သည် အောက်ပါတို့ကို လိုအပ်ပါမည် -"
 
 #: browser/bridging.md:block 9 (ordered list)
 msgid "Have your device plugged in to power at all times."
@@ -126,12 +128,15 @@ msgid ""
 "select *While charging* or *Either*. A very dimmed down clock will appear on "
 "a black background while the device is not active."
 msgstr ""
-"ဤသို့ပြုလုပ်ရာတွင် ပါဝါသုံးစွဲမှုများခြင်းနှင့် မလိုလားအပ်သော အမြဲတမ်း မီးလင်းနေခြင်း မရှိမည့် အဆင်ပြေသည့် "
-"နည်းလမ်းတစ်ခုမှာ Android ၏ မျက်နှာပြင် ရုပ်ပုံပြောင်းလဲပြသမှုကို အသုံးပြုခြင်း ဖြစ်သည်- ၎င်းကို "
-"*ဆက်တင်များ / ပြသမှု / မျက်နှာပြင် ရုပ်ပုံပြောင်းလဲပြသမှု* (သို့မဟုတ် အချို့ဗားရှင်းများတွင် *စိတ်ကူးယဉ်မှု*) "
-"အောက်တွင် ဖွင့်ပါ၊ *နာရီ* ဝစ်ဂျစ်ကို ရွေးချယ်ပါ၊ မီနူးရှိ *မျက်နှာပြင် ရုပ်ပုံပြောင်းလဲပြသမှု စတင်ချိန်* ကို "
-"ရွေးချယ်ပြီး *အားသွင်းစဉ်* သို့မဟုတ် *နှစ်ခုမှတစ်ခု* ကို ရွေးချယ်ပါ။ စက်ကို အသုံးပြုမနေသည့်အချိန်တွင် အနက်ရောင် "
-"နောက်ခံ၌ အလွန်အရောင်မှိန်သော နာရီ ပေါ်လာပါမည်။"
+"ဤသို့ပြုလုပ်ရာတွင် ပါဝါသုံးစွဲမှုများခြင်းနှင့် မလိုလားအပ်သော အမြဲတမ်း "
+"မီးလင်းနေခြင်း မရှိမည့် အဆင်ပြေသည့် နည်းလမ်းတစ်ခုမှာ Android ၏ မျက်နှာပြင် "
+"ရုပ်ပုံပြောင်းလဲပြသမှုကို အသုံးပြုခြင်း ဖြစ်သည် - ၎င်းကို *ဆက်တင်များ / "
+"ပြသမှု / မျက်နှာပြင် ရုပ်ပုံပြောင်းလဲပြသမှု* (သို့မဟုတ် "
+"အချို့ဗားရှင်းများတွင် *စိတ်ကူးယဉ်မှု*) အောက်တွင် ဖွင့်ပါ၊ *နာရီ* ဝစ်ဂျက်ကို "
+"ရွေးချယ်ပါ၊ မီနူးရှိ *မျက်နှာပြင် ရုပ်ပုံပြောင်းလဲပြသမှု စတင်ချိန်* ကို "
+"ရွေးချယ်ပြီး *အားသွင်းစဉ်* သို့မဟုတ် *နှစ်ခုမှတစ်ခု* ကို ရွေးချယ်ပါ။ စက်ကို "
+"အသုံးပြုမနေသည့်အချိန်တွင် အနက်ရောင် နောက်ခံ၌ အလွန်အရောင်မှိန်သော နာရီ "
+"ပေါ်လာပါမည်။"
 
 #: browser/bridging.md:block 9 (ordered list)
 msgid ""
@@ -165,6 +170,13 @@ msgid ""
 "[docker-install] in your platform. For Debian derivatives like Ubuntu or "
 "Linux Mint, you can just run: `sudo apt install docker.io`"
 msgstr ""
+"အကယ်၍ သင့်ကွန်ပျူတာသည် [Docker ကွန်တိန်နာ][docker] ကို ထောက်ပံ့ပေးနိုင်ပါက "
+"သင်သည် ကြိုတင်ပြင်ဆင်ထားသော CENO client ကို ပေါင်းကူးအနေဖြင့် သုံးနိုင်ပါတယ်။"
+" Docker ကို မထည့်ရသေးပါက [Docker Engine ကို ထည့်သွင်းရန်][docker-install] "
+"တွင် ပါဝင်သော ညွှန်ကြားချက်များကို လိုက်နာပြီး သင့်စက်တွင် "
+"ထည့်သွင်းနိုင်ပါတယ်။ Ubuntu သို့မဟုတ် Linux Mint ကဲ့သို့ Debian "
+"အမျိုးအစားများအတွက် `sudo apt install docker.io` ညွှန်ကြားချက်ကို "
+"ရိုက်ထည့်လိုက်ရုံဖြင့် ထည့်သွင်းနိုင်ပါတယ်။"
 
 #: browser/bridging.md:block 13 (paragraph)
 msgid ""
@@ -172,12 +184,18 @@ msgid ""
 "on a terminal (it looks scary but you can just copy and paste it as is on "
 "the command line):"
 msgstr ""
+"CENO client ကွန်တိန်နာကို ထိထိရောက်ရောက်အသုံးချနိုင်ဖို့အတွက် သင့်အနေဖြင့် "
+"terminal တွင် ညွှန်ကြားချက်တစ်ခုကို ရိုက်ထည့်လိုက်ဖို့ပဲ လိုအပ်ပါတယ်။ (ထိုအရာ"
+"က အနည်းငယ် ထိတ်လန့်စရာကောင်းတယ်လို့ ထင်ရသော်လည်း ညွှန်ကြားချက်စာကို ကူးယူပြီး"
+" command line တွင် ရိုက်ထည့်ဖို့ပဲလိုအပ်ပါတယ်။) -"
 
 #: browser/bridging.md:block 15 (paragraph)
 msgid ""
 "If your computer is not based on GNU/Linux, the command needs to be slightly "
 "different:"
 msgstr ""
+"အကယ်၍ သင့်ကွန်ပျူတာသည် GNU/Linux တွင် အခြေခံထားခြင်းမဟုတ်ပါက ညွှန်ကြားချက်သည်"
+" အနည်းငယ်ပြောင်းလဲရန် လိုအပ်ပါသည်။"
 
 #: browser/bridging.md:block 17 (paragraph)
 msgid ""
@@ -186,6 +204,11 @@ msgid ""
 "Docker client documentation][ceno-client-doc] for more information on how to "
 "manipulate the container."
 msgstr ""
+"ညွှန်ကြားချက်သည် `ceno-client` နာမည်ဖြင့် ကွန်တိန်နာတစ်ခုကို စတင်ပြီးနောက် "
+"သင့်အနေဖြင့် ရပ်မည့်အကြောင်းအတိအလင်းမပြောမချင်း အချိန်တိုင်းမှာ "
+"အလုပ်လုပ်နေပါလိမ့်မည်။ ကွန်တိန်နာကို ကိုင်တွယ်ထိန်းချုပ်ရန်အတွက် "
+"အချက်အလက်များကိုထပ်မံသိလိုပါက [CENO Docker အသုံးပြုသူ စာရွက်စာတမ်း][ceno-"
+"client-doc] တွင် ကျေးဇူးပြုပြီး ဝင်ရောက်လေ့လာပါ။"
 
 #: browser/bridging.md:block 18 (quote)
 msgid ""
@@ -193,25 +216,25 @@ msgid ""
 "access that page, open instead the [client front-end](../client/front-end."
 "md), which contains mostly equivalent information."
 msgstr ""
+"**မှတ်ချက်** ယခုအသုံးပြုသူတွင် *CENO ဆက်တင်များ* မရှိပါ - စာမျက်နှာကို "
+"ဝင်ရောက်ရန် အောက်တွင် ညွှန်ကြားထားသောအခါ ထိုစာမျက်နှာအစား "
+"တူညီတဲ့အချက်အလက်တွေပဲ များသောအားဖြင့် ပါဝင်တဲ့ [အသုံးပြုသူ စာမျက်နှာ](../"
+"client/front-end.md)ကို ဖွင့်ပါ။"
 
 #: browser/bridging.md:block 19 (header)
 msgid "Enabling UPnP on your Wi-Fi router"
 msgstr "သင့် Wi-Fi ‌ရောက်တာတွင် UPnP ကို ဖွင့်ခြင်း"
 
 #: browser/bridging.md:block 20 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "[UPnP][UPnP] is the easiest way of making your CENO Browser reachable to "
-#| "the CENO network. The [CENO Settings](settings.md) page will indicate the "
-#| "UPnP status on your local network."
 msgid ""
 "[UPnP][UPnP] is the easiest way of making your CENO Browser (or computer "
 "client) reachable to the CENO network. The [CENO Settings](settings.md) page "
 "will indicate the UPnP status on your local network."
 msgstr ""
-"[UPnP][UPnP] သည် သင့် CENO ဘရောက်ဇာကို CENO ကွန်ရက်သို့ ရောက်ရှိစေရန်အတွက် အလွယ်ဆုံး နည်းလမ်းဖြစ်သည်။ "
-"[CENO ဆက်တင်များ](settings.md) စာမျက်နှာသည် သင့်ဒေသတွင်း ကွန်ရက်တွင် UPnP အခြေအနေကို "
-"ဖော်ပြပါမည်။"
+"[UPnP][UPnP] သည် သင့် CENO ဘရောက်ဇာ (သို့မဟုတ် ကွန်ပျူတာအသုံးပြုသူ) ကို CENO "
+"ကွန်ရက်သို့ ရောက်ရှိစေရန်အတွက် အလွယ်ဆုံး နည်းလမ်းဖြစ်သည်။ [CENO "
+"ဆက်တင်များ](settings.md) စာမျက်နှာသည် သင့်ဒေသတွင်း ကွန်ရက်တွင် UPnP "
+"အခြေအနေကို ဖော်ပြပါမည်။"
 
 #: browser/bridging.md:block 21 (quote)
 msgid ""
@@ -224,46 +247,36 @@ msgstr ""
 "ရှင်းပြထားသော အခြားနည်းလမ်းများကို အသုံးပြုရန်လည်း စဉ်းစားပါ။"
 
 #: browser/bridging.md:block 22 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "A status like the one shown in the previous figure indicates that UPnP is "
-#| "not enabled on your WiFi router."
 msgid ""
 "A status like the one below indicates that UPnP is not enabled on your WiFi "
 "router:"
-msgstr "ယခင်ပုံတွင် ပြထားသကဲ့သို့ အခြေအနေသည် သင့် WiFi ရောက်တာတွင် UPnP ကို ဖွင့်မထားကြောင်း ညွှန်ပြသည်။"
+msgstr ""
+"ယခင်ပုံတွင် ပြထားသကဲ့သို့ အခြေအနေသည် သင့် WiFi ရောက်တာတွင် UPnP ကို "
+"ဖွင့်မထားကြောင်း ညွှန်ပြသည်။"
 
 #: browser/bridging.md:block 23 (quote)
 msgid "**UPnP status**"
-msgstr ""
+msgstr "**UPnP အခြေအနေ**"
 
 #: browser/bridging.md:block 23 (quote)
 msgid "**Reachability status**"
-msgstr ""
+msgstr "**ရောက်ရှိနိုင်မှု အခြေအနေ**"
 
 #: browser/bridging.md:block 24 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "The status above indicates that UPnP is likely working and CENO is "
-#| "currently verifying connectivity."
 msgid ""
 "The status below indicates that UPnP is likely working and CENO is currently "
 "verifying connectivity:"
 msgstr ""
-"အထက်ပါ အခြေအနေသည် UPnP အလုပ်လုပ်နိုင်ခြေရှိပြီး CENO က လက်ရှိတွင် ချိတ်ဆက်နိုင်မှုကို မှန်ကန်ကြောင်း "
-"စစ်ဆေးနေသည်ဟု ညွှန်ပြသည်။"
+"အထက်ပါ အခြေအနေသည် UPnP အလုပ်လုပ်နိုင်ခြေရှိပြီး CENO က လက်ရှိတွင် "
+"ချိတ်ဆက်နိုင်မှုကို မှန်ကန်ကြောင်း စစ်ဆေးနေသည်ဟု ညွှန်ပြသည် -"
 
 #: browser/bridging.md:block 26 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "The status above indicates that UPnP is working and you can bridge "
-#| "connections for other CENO users."
 msgid ""
 "The status below indicates that UPnP is working and you can bridge "
 "connections for other CENO users:"
 msgstr ""
-"အထက်ပါ အခြေအနေသည် UPnP အလုပ်လုပ်နေပြီး သင်သည် အခြား CENO သုံးစွဲသူများအတွက် ချိတ်ဆက်မှုများကို "
-"ပေါင်းကူးနိုင်ကြောင်း ညွှန်ပြသည်။"
+"အထက်ပါ အခြေအနေသည် UPnP အလုပ်လုပ်နေပြီး သင်သည် အခြား CENO သုံးစွဲသူများအတွက် "
+"ချိတ်ဆက်မှုများကို ပေါင်းကူးနိုင်ကြောင်း ညွှန်ပြသည် -"
 
 #: browser/bridging.md:block 28 (paragraph)
 msgid ""
@@ -309,14 +322,6 @@ msgid "Using port forwarding as an alternative to UPnP"
 msgstr "UPnP အစား ပေါ့တ် တစ်ဆင့်ပို့ခြင်းကို အသုံးပြုခြင်း"
 
 #: browser/bridging.md:block 31 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Instead of enabling UPnP on your router, you can create a port forwarding "
-#| "rule to make sure that connections from the CENO network are forwarded to "
-#| "your device. You will need to login to the router's administrative "
-#| "interface and locate the *port forwarding* option. To see which IP "
-#| "address you need to forward the connections to and the relevant port, "
-#| "open the *CENO Settings* page and look under the *Local UDP endpoint(s)*."
 msgid ""
 "Instead of enabling UPnP on your router, you can create a port forwarding "
 "rule to make sure that connections from the CENO network are forwarded to "
@@ -325,15 +330,17 @@ msgid ""
 "forward the connections to and the relevant port, open the *CENO Settings* "
 "page and look under the *Local UDP endpoints*."
 msgstr ""
-"သင့်ရောက်တာတွင် UPnP ကို ဖွင့်မည့်အစား သင်သည် CENO ကွန်ရက်မှ ချိတ်ဆက်မှုများကို သင့်စက်သို့ တစ်ဆင့်ပို့ကြောင်း "
-"သေချာစေရန် ပေါ့တ်တစ်ဆင့်ပို့ခြင်း စည်းကမ်းတစ်ခုကို သတ်မှတ်နိုင်သည်။ သင်သည် ရောက်တာ၏ စီမံခန့်ခွဲမှု ကြားခံစနစ်သို့ "
-"ဝင်ရောက်ပြီး *ပေါ့တ်တစ်ဆင့်ပို့ခြင်း* ရွေးချယ်စရာကို ရှာဖွေရန် လိုအပ်ပါမည်။ သင် ချိတ်ဆက်မှုများ တစ်ဆင့်ပို့ရန် "
-"လိုအပ်သည့် IP လိပ်စာကို ကြည့်ရန် *CENO ဆက်တင်များ* စာမျက်နှာကို ဖွင့်ပြီး *ဒေသတွင်း UDP အဆုံးမှတ်(များ)* "
-"အောက်တွင် ကြည့်ပါ။"
+"သင့်ရောက်တာတွင် UPnP ကို ဖွင့်မည့်အစား သင်သည် CENO ကွန်ရက်မှ "
+"ချိတ်ဆက်မှုများကို သင့်စက်သို့ တစ်ဆင့်ပို့ကြောင်း သေချာစေရန် "
+"ပေါ့တ်တစ်ဆင့်ပို့ခြင်း စည်းကမ်းတစ်ခုကို သတ်မှတ်နိုင်သည်။ သင်သည် ရောက်တာ၏ "
+"စီမံခန့်ခွဲမှု ကြားခံစနစ်သို့ ဝင်ရောက်ပြီး *ပေါ့တ်တစ်ဆင့်ပို့ခြင်း* "
+"ရွေးချယ်စရာကို ရှာဖွေရန် လိုအပ်ပါမည်။ သင် ချိတ်ဆက်မှုများ တစ်ဆင့်ပို့ရန် "
+"လိုအပ်သည့် IP လိပ်စာကို ကြည့်ရန် *CENO ဆက်တင်များ* စာမျက်နှာကို ဖွင့်ပြီး "
+"*ဒေသတွင်း UDP အဆုံးမှတ်(များ)* အောက်တွင် ကြည့်ပါ။"
 
 #: browser/bridging.md:block 32 (quote)
 msgid "**Local UDP endpoints**"
-msgstr ""
+msgstr "**စက်တွင်း UDP အဆုံးမှတ်များ**"
 
 #: browser/bridging.md:block 33 (paragraph)
 msgid ""
@@ -371,20 +378,20 @@ msgid "[Don't kill my app!]: https://dontkillmyapp.com/"
 msgstr "[Don't kill my app!]: https://dontkillmyapp.com/"
 
 #: browser/bridging.md:block 34 (quote)
-#, fuzzy
-#| msgid "[UPnP]: https://en.wikipedia.org/wiki/Universal_Plug_and_Play"
 msgid "[docker]: https://en.wikipedia.org/wiki/Docker_(software)"
-msgstr "[UPnP]: https://en.wikipedia.org/wiki/Universal_Plug_and_Play"
+msgstr "[docker]: https://en.wikipedia.org/wiki/Docker_(software)"
 
 #: browser/bridging.md:block 34 (quote)
 msgid "[docker-install]: https://docs.docker.com/engine/install/"
-msgstr ""
+msgstr "[docker-install]: https://docs.docker.com/engine/install/"
 
 #: browser/bridging.md:block 34 (quote)
 msgid ""
 "[ceno-client-doc]: https://github.com/censorship-no/ceno-docker-"
 "client#running-the-client"
 msgstr ""
+"[ceno-client-doc]: https://github.com/censorship-no/ceno-docker-client"
+"#running-the-client"
 
 #: browser/bridging.md:block 34 (quote)
 msgid "[UPnP]: https://en.wikipedia.org/wiki/Universal_Plug_and_Play"

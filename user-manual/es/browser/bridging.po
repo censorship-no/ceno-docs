@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2021-09-09 09:52+0000\n"
-"Last-Translator: Zuhualime Akoochimoya <zakooch@protonmail.ch>\n"
+"PO-Revision-Date: 2021-09-21 18:36+0000\n"
+"Last-Translator: Anatoli <djanatoli@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/censorship-no/"
 "browser-bridging/es/>\n"
 "Language: es\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.8.1-dev\n"
+"X-Generator: Weblate 4.9-dev\n"
 
 #
 #: browser/bridging.md:block 1 (header)
@@ -161,7 +161,7 @@ msgstr ""
 
 #: browser/bridging.md:block 11 (header)
 msgid "Running a bridge on a computer"
-msgstr "Ejecutando un puente sobre una computadora"
+msgstr "Ejecutando un puente en una computadora"
 
 #: browser/bridging.md:block 12 (paragraph)
 msgid ""
@@ -183,7 +183,7 @@ msgid ""
 "on a terminal (it looks scary but you can just copy and paste it as is on "
 "the command line):"
 msgstr ""
-"Para desplegar un contenedor con un cliente CENO, solamente necesitas "
+"Para implementar un contenedor con un cliente CENO, solamente necesitas "
 "ejecutar el siguiente comando en una terminal (da un poco de miedo, pero "
 "puedes copiar y pegarlo como está en la línea de comando):"
 
@@ -249,7 +249,7 @@ msgid ""
 "A status like the one below indicates that UPnP is not enabled on your WiFi "
 "router:"
 msgstr ""
-"Un estado como el de abajo indica que UPnP no está habilitado en tu "
+"Un estado como el siguiente indica que UPnP no está habilitado en tu "
 "enrutador Wi-Fi:"
 
 #: browser/bridging.md:block 23 (quote)
@@ -265,16 +265,16 @@ msgid ""
 "The status below indicates that UPnP is likely working and CENO is currently "
 "verifying connectivity:"
 msgstr ""
-"El estado de abajo indica que UPnP probablemente está funcionando, y en este "
-"momento CENO está verificando la conectividad:"
+"El estado de siguiente indica que UPnP probablemente está funcionando, y en "
+"este momento CENO está verificando la conectividad:"
 
 #: browser/bridging.md:block 26 (paragraph)
 msgid ""
 "The status below indicates that UPnP is working and you can bridge "
 "connections for other CENO users:"
 msgstr ""
-"El estado de abajo indica que UPnP está funcionando, y puedes actuar como "
-"puente para las conexiones de otros usuarios de CENO:"
+"El estado a continuación indica que UPnP está funcionando, y puedes actuar "
+"como puente para las conexiones de otros usuarios de CENO:"
 
 #: browser/bridging.md:block 28 (paragraph)
 msgid ""
