@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-07-21 23:33+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
+"PO-Revision-Date: 2021-09-27 12:35+0000\n"
+"Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-settings/fa/>\n"
 "Language: fa\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.7.2-dev\n"
+"X-Generator: Weblate 4.9-dev\n"
 
 #
 #: browser/settings.md:block 1 (header)
@@ -77,7 +77,7 @@ msgstr ""
 #, fuzzy
 #| msgid "**![ page](images/settings.png)"
 msgid "![Figure: The CENO Settings page](images/settings.png)"
-msgstr "**![ صفحه](images/settings.png)"
+msgstr "![ صفحه](images/settings.png)"
 
 #: browser/settings.md:block 6 (header)
 msgid "Choosing access mechanisms"
