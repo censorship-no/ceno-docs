@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-09-21 18:36+0000\n"
-"Last-Translator: Tun Tun AUNG <tuntunaung@codingclassroom.org>\n"
+"PO-Revision-Date: 2021-09-30 05:49+0000\n"
+"Last-Translator: Mya Myintzu Hlaing <myamyintzu10@gmail.com>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "qsg/my/>\n"
 "Language: my\n"
@@ -77,18 +77,13 @@ msgid "Configuration"
 msgstr "ဖွဲ့စည်းပုံစနစ်"
 
 #: intro/qsg.md:block 8 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "The CENO Browser is in [BETA][BETA] but it should work out-of-the-box. "
-#| "You can find some [diagnostics and settings](../browser/settings.md) "
-#| "under the *CENO* menu entry."
 msgid ""
 "The CENO Browser should work out-of-the-box. You can find some [diagnostics "
 "and settings](../browser/settings.md) under the *CENO* menu entry."
 msgstr ""
-"CENO ဘရောက်ဇာသည် [စမ်းသပ်ဆဲ][BETA] အဆင့်တွင် ရှိသေးသော်လည်း လုပ်ဆောင်ချက်များကို "
-"ချက်ချင်းဆောင်ရွက်ပေးနိုင်ပါသည်။*CENO* မီနူးထဲတွင် [ပြဿနာအဖြေရှာခြင်းနှင့် ဆက်တင်များ](../browser/"
-"settings.md) ကို တွေ့နိုင်ပါသည်။"
+"CENO ဘရောက်ဇာသည် လုပ်ဆောင်ချက်များကို ချက်ချင်းဆောင်ရွက်ပေးနိုင်ပါသည်။*CENO* "
+"မီနူးထဲတွင် [ပြဿနာအဖြေရှာခြင်းနှင့် ဆက်တင်များ](../browser/settings.md) ကို "
+"တွေ့နိုင်ပါသည်။"
 
 #: intro/qsg.md:block 9 (paragraph)
 msgid ""
