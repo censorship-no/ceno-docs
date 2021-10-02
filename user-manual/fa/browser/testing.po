@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-09-23 14:36+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
+"PO-Revision-Date: 2021-10-03 07:30+0000\n"
+"Last-Translator: Mojtaba Golmohammadi <MojtabaGol@gmail.com>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-testing/fa/>\n"
 "Language: fa\n"
@@ -87,7 +87,7 @@ msgstr "در نخستین دستگاه این مرحله‌ها را اجرا ک
 
 #: browser/testing.md:block 8 (ordered list)
 msgid "First of all, install CENO and start it. Its home page will appear."
-msgstr ""
+msgstr "پیش از هرچیز، CENO را نصب و اجرا کنید. صفحه‌ی خانگی آن ظاهر خواهد شد."
 
 #: browser/testing.md:block 8 (ordered list)
 #, fuzzy
@@ -126,6 +126,9 @@ msgid ""
 "address bar to enter the site's URL with `https://` at the beginning "
 "(instead of `http://`) and repeat the test."
 msgstr ""
+"**نکته:** اگر به جای صفحه‌ی واقعی یک صفحه‌ی جعلی را دریافت می‌کنید، در "
+"ابتدای نشانی اینترنتی سایت در نوار آدرس (به جای `http://`) `https://` را "
+"وارد کنید و تست را تکرار کنید."
 
 #: browser/testing.md:block 10 (paragraph)
 msgid ""
@@ -262,6 +265,10 @@ msgid ""
 "between its devices. This \"client isolation\" may happen in public networks "
 "like those of parks, bars or hotels. Please try again on a different network."
 msgstr ""
+"اگر این کار نتیجه نمی‌دهد، شبکه‌ی بی‌سیم شما احتمالاً ارتباط مستقیم بین "
+"دستگاه‌هایش را مسدود می‌کند. این «انزوای سرویس‌گیرنده» می‌تواند در شبکه‌های "
+"همگانی مانند شبکه‌های موجود در پارک‌ها، بارها یا هتل‌ها پیش آید. لطفاً روی "
+"یک شبکه‌ی دیگر دوباره امتحان کنید."
 
 #: browser/testing.md:block 20 (paragraph)
 msgid ""
@@ -324,6 +331,9 @@ msgid ""
 "first device as with the previous test, and stop CENO on the second device "
 "(by showing its notifications and pushing \"Tap to stop\")."
 msgstr ""
+"پس از اتمام موفقیت‌آمیز تست بالا، مانند تست قبلی CENO را در حال اجرا روی "
+"دستگاه اول رها کنید، و روی دستگاه دوم CENO را متوقف کنید (با نمایش "
+"اطلاع‌رسانی‌های آن و فشردن گزینه‌ی «برای توقف اینجا را بفشارید»)."
 
 #: browser/testing.md:block 26 (paragraph)
 #, fuzzy
@@ -358,7 +368,7 @@ msgstr ""
 
 #: browser/testing.md:block 28 (paragraph)
 msgid "Congratulations!"
-msgstr ""
+msgstr "تبریک می‌گوییم!"
 
 #, fuzzy
 #~| msgid ""
