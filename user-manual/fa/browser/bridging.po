@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-07-29 10:33+0000\n"
-"Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
+"PO-Revision-Date: 2021-10-03 07:30+0000\n"
+"Last-Translator: Mojtaba Golmohammadi <MojtabaGol@gmail.com>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-bridging/fa/>\n"
 "Language: fa\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.7.2-dev\n"
+"X-Generator: Weblate 4.9-dev\n"
 
 #
 #: browser/bridging.md:block 1 (header)
@@ -159,10 +159,12 @@ msgid ""
 "computer with good connectivity that stays on most of the time, please "
 "continue reading."
 msgstr ""
+"اگر این امکان را در اختیار ندارید، تسلیم نشوید! اگر یک کامپیوتر با اتصال "
+"خوبی به اینترنت دارید که بیشتر اوقات روشن است، لطفاً به خواندن ادامه دهید."
 
 #: browser/bridging.md:block 11 (header)
 msgid "Running a bridge on a computer"
-msgstr ""
+msgstr "اجرای یک پل روی یک کامپیوتر"
 
 #: browser/bridging.md:block 12 (paragraph)
 msgid ""
@@ -172,6 +174,11 @@ msgid ""
 "[docker-install] in your platform. For Debian derivatives like Ubuntu or "
 "Linux Mint, you can just run: `sudo apt install docker.io`"
 msgstr ""
+"اگر کامپیوترتان [Docker containers][docker] را پشتیبانی می‌کند، می‌توانید یک "
+"سرویس‌گیرنده‌ی از پیش تنظیم‌شده‌ی CENO را روی آن اجرا کنید تا نقش یک پل را "
+"ایفا کند. اگر Docker هنوز نصب نشده است، لطفاً راهنمای [نصب Docker Engine"
+"][docker-install] در پلتفرم‌تان را دنبال کنید. برای مشتقات Debian مثل Ubuntu "
+"یا Linux Mint می‌توانید فقط همین را اجرا کنید: `sudo apt install docker.io`"
 
 #: browser/bridging.md:block 13 (paragraph)
 msgid ""
@@ -179,12 +186,16 @@ msgid ""
 "on a terminal (it looks scary but you can just copy and paste it as is on "
 "the command line):"
 msgstr ""
+"برای به کار بستن یک نگهدارنده‌ی سرویس‌گیرنده‌ی CENO فقط لازم است این فرمان "
+"را روی یک پایانه اجرا کنید (به نظر ترسناک می‌آید اما می‌توانید به‌سادگی آن "
+"را روی نوار فرمان کپی کنید):"
 
 #: browser/bridging.md:block 15 (paragraph)
 msgid ""
 "If your computer is not based on GNU/Linux, the command needs to be slightly "
 "different:"
 msgstr ""
+"اگر کامپیوترتان روی GNU/Linux سوار نیست، این فرمان را باید کمی تغییر دهید:"
 
 #: browser/bridging.md:block 17 (paragraph)
 msgid ""
@@ -193,6 +204,10 @@ msgid ""
 "Docker client documentation][ceno-client-doc] for more information on how to "
 "manipulate the container."
 msgstr ""
+"این فرمان جایگاهی به نام `ceno-client`را آغاز خواهد کرد که روی هر بوت اجرا "
+"خواهد شد مگر آن که صراحتاً به آن بگویید متوقف شود. برای اطلاعات بیشتر در "
+"مورد چگونگی دستکاری جایگاه نگهدارنده لطفاً [سند سرویس‌گیرنده‌ی Docker برای "
+"CENO][ceno-client-doc] را چک کنید."
 
 #: browser/bridging.md:block 18 (quote)
 msgid ""
@@ -200,6 +215,9 @@ msgid ""
 "access that page, open instead the [client front-end](../client/front-end."
 "md), which contains mostly equivalent information."
 msgstr ""
+"**نکته:** این سرویس‌گیرنده هیچ *تنظیمات خاصی برای CENO* ندارد: وقتی در پایین "
+"از شما خواسته شد تا به آن صفحه دسترسی پیدا کنید، در عوض [client front-"
+"end](../client/front-end.md) را باز کنید، که حاوی اطلاعاتی کم‌وبیش همسان است."
 
 #: browser/bridging.md:block 19 (header)
 msgid "Enabling UPnP on your Wi-Fi router"
@@ -243,7 +261,7 @@ msgstr ""
 
 #: browser/bridging.md:block 23 (quote)
 msgid "**UPnP status**"
-msgstr ""
+msgstr "**وضعیت UPnP**"
 
 #: browser/bridging.md:block 23 (quote)
 msgid "**Reachability status**"
