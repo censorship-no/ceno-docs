@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-07-21 23:33+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
+"PO-Revision-Date: 2021-10-03 07:30+0000\n"
+"Last-Translator: Mojtaba Golmohammadi <MojtabaGol@gmail.com>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "client-front-end/fa/>\n"
 "Language: fa\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.7.2-dev\n"
+"X-Generator: Weblate 4.9-dev\n"
 
 #
 #: client/front-end.md:block 1 (header)
@@ -119,11 +119,16 @@ msgid ""
 "(though you may change it again from here). When disabling the log file, the "
 "original log level is restored."
 msgstr ""
+"در هنگام فعالسازی فایل گزارش، سطح گزارش به طور خودکار روی «عیب‌یابی» قرار می‌"
+"گیرد (گرچه شما می‌توانید آن را دوباره از اینجا تغییر دهید). در هنگام غیرفعال‌"
+"کردن فایل گزارش، سطح گزارش اولیه بازگردانده می‌شود."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
 "Global client state and version information. Useful when reporting errors."
 msgstr ""
+"اطلاعات مربوط به وضعیت و نسخه‌ی سرویس‌گیرنده‌ی جهانی. این اطلاعات در زمان "
+"گزارش ایرادها به کار می‌آیند."
 
 #: client/front-end.md:block 6 (unordered list)
 #, fuzzy
@@ -147,6 +152,8 @@ msgid ""
 "The public key used to verify signatures from injectors in the distributed "
 "cache."
 msgstr ""
+"کلید عمومی به کار رفته برای راستی‌آزمایی امضاها از انژکتورها در انبار "
+"توزیع‌شده."
 
 #: client/front-end.md:block 6 (unordered list)
 #, fuzzy
@@ -167,6 +174,8 @@ msgid ""
 "The directory of the external, static cache if enabled (CENO does not "
 "currently use this)."
 msgstr ""
+"دفتر راهنمای انبار ایستای بیرونی در صورت فعال‌بودن (CENO در حال حاضر از این "
+"استفاده نمی‌کند)."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid "[CENO Extension]: https://github.com/censorship-no/ceno-ext-settings/"
