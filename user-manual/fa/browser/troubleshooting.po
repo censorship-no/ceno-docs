@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-07-21 23:33+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
+"PO-Revision-Date: 2021-10-03 07:30+0000\n"
+"Last-Translator: Mojtaba Golmohammadi <MojtabaGol@gmail.com>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-troubleshooting/fa/>\n"
 "Language: fa\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.7.2-dev\n"
+"X-Generator: Weblate 4.9-dev\n"
 
 #
 #: browser/troubleshooting.md:block 1 (header)
@@ -104,7 +104,7 @@ msgstr ""
 
 #: browser/troubleshooting.md:block 12 (header)
 msgid "A page shows bogus content (like a block message)"
-msgstr ""
+msgstr "صفحه محتوایی جعلی (مانند یک پیغام نامربوط) را نشان می‌دهد"
 
 #: browser/troubleshooting.md:block 13 (paragraph)
 msgid ""
@@ -112,6 +112,9 @@ msgid ""
 "Unfortunately, someone intercepted the connection and directed it to an "
 "illegitimate server."
 msgstr ""
+"CENO توانسته به یک سرور وب مستقیماً متصل شود و محتوا را از آن بازیابی کند. "
+"اما، متأسفانه، کسی مانع این اتصال شده است و آن را به یک سرور جعلی دیگر هدایت "
+"کرده است."
 
 #: browser/troubleshooting.md:block 14 (paragraph)
 msgid ""
@@ -120,6 +123,10 @@ msgid ""
 "accessing the site over insecure HTTP (instead of the more secure HTTPS "
 "protocol), as CENO cannot detect the tampering by itself."
 msgstr ""
+"این معمولاً به این معناست که شرکت تأمین اینترنت یا دولت کشورتان دسترسی شما "
+"به این سایت را مسدود کرده است. اما، این ایراد خاص فقط وقتی رخ می‌دهد که شما "
+"به سایتی روی HTTP ناامن دسترسی پیدا کنید (به جای دسترسی به پروتکل امن تر "
+"HTTPS)، و CENO نمی‌تواند خودش این دستکاری را تشخیص دهد."
 
 #: browser/troubleshooting.md:block 15 (paragraph)
 msgid ""
@@ -130,6 +137,12 @@ msgid ""
 "\" from CENO, you will need to go to the [Settings page](settings.md), "
 "disable Origin access, and try again."
 msgstr ""
+"بنابراین، یک راه برای رسیدن به سایت واقعی تلاش برای دسترسی به آن روی HTTPS "
+"از طریق کلیک روی نوار آدرس و تبدیل `http://` به `https://` در ابتدای نشانی "
+"اینترنتی است. البته، این کار فقط وقتی نتیجه خواهد داد که سایت مورد نظرتان "
+"HTTPS را پشتیبانی کند. در غیر این صورت، که پیغام \"بازیابی منبع ناموفق بود\" "
+"را دریافت خواهید کرد، باید به [صفحه تنظیمات](settings.md) بروید، دسترسی به "
+"اصل را غیرفعال کنید، و دوباره امتحان کنید."
 
 #: browser/troubleshooting.md:block 16 (paragraph)
 msgid ""
@@ -139,11 +152,19 @@ msgid ""
 "choose *HTTPS Everywhere* in the app's main menu, then enable *Encrypt All "
 "Sites Eligible* (EASE) as shown below. This setting is remembered by CENO."
 msgstr ""
+"از آنجا که این جور تنظیمات به خاطر نمی‌مانند، و تغییر نشانی اینترنتی هربار "
+"خسته کننده می‌شود، می‌توانید در عوض CENO را طوری تنظیم کنید که همیشه برای "
+"همه سایتها از طریق افزونه [HTTPS Everywhere][HTTPS Everywhere] از HTTPS "
+"استفاده کند: در منو اصلی برنامه گزینه *HTTPS Everywhere* را انتخاب کنید، سپس "
+"گزینه *Encrypt All Sites Eligible* (EASE) نشان داده شده در زیر را فعال کنید. "
+"CENO این تنظیمات را به خاطر می سپارد."
 
 #: browser/troubleshooting.md:block 17 (paragraph)
 msgid ""
 "![Figure: HTTPS Everywhere settings with EASE on](images/httpsew-ease-on.png)"
 msgstr ""
+"![شکل: تنظیمات استفاده از HTTPS در همه جا با فعال کردن EASE](images/httpsew-"
+"ease-on.png)"
 
 #: browser/troubleshooting.md:block 18 (paragraph)
 msgid ""
@@ -152,6 +173,11 @@ msgid ""
 "open HTTPS Everywhere settings and tap on the *Disable on this site* button "
 "shown above to set an exception for the site."
 msgstr ""
+"اگر وقتی EASE فعال است هنوز نیاز به دسترسی به سایت خاصی روی همان HTTP معمولی "
+"دارید، می توانید از آن سایت بازدید کنید (حتی اگر دسترسی ناموفق بود)، سپس از "
+"آن زبانه تنظیمات HTTPS Everywhere را باز کنید و روی دکمه \"روی این سایت "
+"غیرفعال شود\" نشان داده شده در بالا کلیک کنید تا آن سایت مورد استثنا قرار "
+"گیرد."
 
 #: browser/troubleshooting.md:block 19 (header)
 msgid "Accessing some content shows \"Failed to retrieve the resource\""
@@ -488,4 +514,4 @@ msgstr ""
 
 #: browser/troubleshooting.md:block 41 (quote)
 msgid "[HTTPS Everywhere]: https://www.eff.org/https-everywhere/"
-msgstr ""
+msgstr "[استفاده از HTTPS در همه جا]: https://www.eff.org/https-everywhere/"
