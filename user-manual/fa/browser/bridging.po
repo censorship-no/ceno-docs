@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-03 07:30+0000\n"
+"PO-Revision-Date: 2021-10-04 12:35+0000\n"
 "Last-Translator: Mojtaba Golmohammadi <MojtabaGol@gmail.com>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-bridging/fa/>\n"
@@ -81,16 +81,6 @@ msgstr ""
 "می‌کند."
 
 #: browser/bridging.md:block 7 (quote)
-#, fuzzy
-#| msgid ""
-#| "**Technical note:** This is mainly due to Android's [Doze mode](https://"
-#| "developer.android.com/training/monitoring-device-state/doze-standby "
-#| "\"Android Developers – Optimize for Doze and App Standby\") slowing down "
-#| "the operation of the native Ouinet library. Unfortunately, disabling "
-#| "battery optimization for CENO does not seem to exclude Ouinet from it. "
-#| "Your particular device may also include its own power-saving features "
-#| "which may interfere with CENO; please check [Dont't kill my app!][Dont't "
-#| "kill my app!] for your device's brand."
 msgid ""
 "**Technical note:** This is mainly due to Android's [Doze mode](https://"
 "developer.android.com/training/monitoring-device-state/doze-standby "
@@ -104,11 +94,11 @@ msgstr ""
 "**نکته‌ی فنی:** این موضوع بیشتر به ویژگی‌های اندروید اختصاص دارد : در حالت "
 "[Doze](https://developer.android.com/training/monitoring-device-state/doze-"
 "standby) یا استندبای اندروید عملکرد اصلی مجموعه Ouinet را کند می‌کند. "
-"متاسفانه غیر فعال کردن گزینه بهینه‌‌سازی باتری برای CENO کتابخانه Ouinet را از "
-"این وضعیت مستثنی نمی‌کند. ممکن است دستگاه خاص شما تنظیمات ذخیره انرژی ویژه "
-"خود را داشته باشد که این هم در عملکرد سنو اختلال ایجاد می‌کند. در این مورد به "
-"این وب سایت بروید و گزینه [Dont't kill my app!][Dont't kill my app!] را برای "
-"مدل دستگاه خود چک کنید."
+"متاسفانه غیر فعال کردن گزینه بهینه‌‌سازی باتری برای CENO کتابخانه Ouinet را "
+"از این وضعیت مستثنی نمی‌کند. ممکن است دستگاه خاص شما تنظیمات ذخیره انرژی "
+"ویژه خود را داشته باشد که این هم در عملکرد سنو اختلال ایجاد می‌کند. در این "
+"مورد به این وب سایت بروید و گزینه [Don't kill my app!][Don't kill my app!] "
+"را برای مدل دستگاه خود چک کنید."
 
 #: browser/bridging.md:block 8 (paragraph)
 msgid ""
@@ -224,18 +214,14 @@ msgid "Enabling UPnP on your Wi-Fi router"
 msgstr "فعال کردن UPnP روی مودم وای‌فای"
 
 #: browser/bridging.md:block 20 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "[UPnP][UPnP] is the easiest way of making your CENO Browser reachable to "
-#| "the CENO network. The [CENO Settings](settings.md) page will indicate the "
-#| "UPnP status on your local network."
 msgid ""
 "[UPnP][UPnP] is the easiest way of making your CENO Browser (or computer "
 "client) reachable to the CENO network. The [CENO Settings](settings.md) page "
 "will indicate the UPnP status on your local network."
 msgstr ""
-"[UPnP][UPnP] راحت ترین راه برای این است که مرورگر CENO خود را به شبکه CENO "
-"متصل کنید. تنظیمات CENO خود به ‌خود UPnP را روی شبکه محلی شما مشخص می‌کند."
+"[UPnP][UPnP] راحت ترین راه برای این است که مرورگر CENO (یا کامپیوتر "
+"سرویس‌گیرنده) خود را به شبکه CENO متصل کنید. صفحه‌ی [تنظیمات CENO](settings."
+"md) وضعیت UPnP را روی شبکه محلی شما نشان می‌دهد."
 
 #: browser/bridging.md:block 21 (quote)
 msgid ""
@@ -248,16 +234,11 @@ msgstr ""
 "باشید و همچنین استفاده از گزینه‌های جایگزین را نیز در نظر داشته باشید."
 
 #: browser/bridging.md:block 22 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "A status like the one shown in the previous figure indicates that UPnP is "
-#| "not enabled on your WiFi router."
 msgid ""
 "A status like the one below indicates that UPnP is not enabled on your WiFi "
 "router:"
 msgstr ""
-"وضعیتی که در شکل قبلی نمایش شده‌ است، نشان می‌دهد که UPnP روی مودم وای‌فای شما "
-"فعال نیست."
+"وضعیتی مانند مورد زیر نشان می‌دهد که UPnP روی روتر وای‌فای شما فعال نیست:"
 
 #: browser/bridging.md:block 23 (quote)
 msgid "**UPnP status**"
@@ -265,31 +246,23 @@ msgstr "**وضعیت UPnP**"
 
 #: browser/bridging.md:block 23 (quote)
 msgid "**Reachability status**"
-msgstr ""
+msgstr "**وضعیت دسترس‌پذیری**"
 
 #: browser/bridging.md:block 24 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "The status above indicates that UPnP is likely working and CENO is "
-#| "currently verifying connectivity."
 msgid ""
 "The status below indicates that UPnP is likely working and CENO is currently "
 "verifying connectivity:"
 msgstr ""
-"وضعیتی که در شکل قبلی نمایش شده‌ است، نشان می‌دهد که UPnP به احتمال زیاد در "
-"حال کار است و CENO نیز در حال تایید اتصال است."
+"وضعیت زیر نشان می‌دهد که UPnP به احتمال زیاد در حال کار است و CENO نیز در "
+"حال تایید اتصال است:"
 
 #: browser/bridging.md:block 26 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "The status above indicates that UPnP is working and you can bridge "
-#| "connections for other CENO users."
 msgid ""
 "The status below indicates that UPnP is working and you can bridge "
 "connections for other CENO users:"
 msgstr ""
-"وضعیتی که در شکل قبلی نمایش شده‌ است، نشان می‌دهد که UPnP در حال کار است و شما "
-"نیز می‌توانید برای دیگر کاربران CENO پل اتصال بزنید."
+"وضعیت زیر نشان می‌دهد که UPnP در حال کار است و شما نیز می‌توانید برای دیگر "
+"کاربران CENO پل اتصال بزنید:"
 
 #: browser/bridging.md:block 28 (paragraph)
 msgid ""
@@ -336,14 +309,6 @@ msgid "Using port forwarding as an alternative to UPnP"
 msgstr "استفاده از port forwarding به عنوان جایگزین UPnP"
 
 #: browser/bridging.md:block 31 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Instead of enabling UPnP on your router, you can create a port forwarding "
-#| "rule to make sure that connections from the CENO network are forwarded to "
-#| "your device. You will need to login to the router's administrative "
-#| "interface and locate the *port forwarding* option. To see which IP "
-#| "address you need to forward the connections to and the relevant port, "
-#| "open the *CENO Settings* page and look under the *Local UDP endpoint(s)*."
 msgid ""
 "Instead of enabling UPnP on your router, you can create a port forwarding "
 "rule to make sure that connections from the CENO network are forwarded to "
@@ -352,15 +317,16 @@ msgid ""
 "forward the connections to and the relevant port, open the *CENO Settings* "
 "page and look under the *Local UDP endpoints*."
 msgstr ""
-"به‌ جای فعال کردن UPnP روی مودم، شما می‌توانید یک دستور port forwarding ایجاد "
-"کنید تا از ارسال اتصالات از شبکه CENO به سمت دستگاه شما مطمئن شوید. برای این "
-"کار شما باید به حساب ادمین مودم وارد شوید و گزینه port forwarding را فعال "
-"کنید. برای اینکه ببینید اتصال کدام آدرس آی‌پی را فوروارد کنید و همچنین پورت‌ "
-"مربوطه، تنظیمات CENO را باز کنید و زیر گزینه Local UDP endpoint را نگاه کنید."
+"به‌ جای فعال کردن UPnP روی مودم، شما می‌توانید یک دستور port forwarding "
+"ایجاد کنید تا از ارسال اتصالات از شبکه CENO به سمت دستگاه شما مطمئن شوید. "
+"برای این کار شما باید به حساب ادمین مودم وارد شوید و گزینه *port forwarding* "
+"را فعال کنید. برای اینکه ببینید اتصال کدام آدرس آی‌پی را فوروارد کنید و "
+"همچنین پورت‌ مربوطه، تنظیمات CENO را باز کنید و زیر گزینه *Local UDP "
+"endpoints* را نگاه کنید."
 
 #: browser/bridging.md:block 32 (quote)
 msgid "**Local UDP endpoints**"
-msgstr ""
+msgstr "**Local UDP endpoints**"
 
 #: browser/bridging.md:block 33 (paragraph)
 msgid ""
@@ -394,26 +360,24 @@ msgstr ""
 "doze-standby"
 
 #: browser/bridging.md:block 34 (quote)
-#, fuzzy
-#| msgid "[Dont't kill my app!]: https://dontkillmyapp.com/"
 msgid "[Don't kill my app!]: https://dontkillmyapp.com/"
-msgstr "[Dont't kill my app!]: https://dontkillmyapp.com/"
+msgstr "[Don't kill my app!]: https://dontkillmyapp.com/"
 
 #: browser/bridging.md:block 34 (quote)
-#, fuzzy
-#| msgid "[UPnP]: https://en.wikipedia.org/wiki/Universal_Plug_and_Play"
 msgid "[docker]: https://en.wikipedia.org/wiki/Docker_(software)"
-msgstr "[UPnP]: https://en.wikipedia.org/wiki/Universal_Plug_and_Play"
+msgstr "[docker]: https://en.wikipedia.org/wiki/Docker_(software)"
 
 #: browser/bridging.md:block 34 (quote)
 msgid "[docker-install]: https://docs.docker.com/engine/install/"
-msgstr ""
+msgstr "[docker-install]: https://docs.docker.com/engine/install/"
 
 #: browser/bridging.md:block 34 (quote)
 msgid ""
 "[ceno-client-doc]: https://github.com/censorship-no/ceno-docker-"
 "client#running-the-client"
 msgstr ""
+"[ceno-client-doc]: https://github.com/censorship-no/ceno-docker-client"
+"#running-the-client"
 
 #: browser/bridging.md:block 34 (quote)
 msgid "[UPnP]: https://en.wikipedia.org/wiki/Universal_Plug_and_Play"
