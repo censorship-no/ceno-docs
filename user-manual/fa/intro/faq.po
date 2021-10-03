@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-07-19 10:16+0000\n"
-"Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
+"PO-Revision-Date: 2021-10-04 12:35+0000\n"
+"Last-Translator: Mojtaba Golmohammadi <MojtabaGol@gmail.com>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "faq/fa/>\n"
 "Language: fa\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.7.2-dev\n"
+"X-Generator: Weblate 4.9-dev\n"
 
 #
 #: intro/faq.md:block 1 (header)
@@ -44,24 +44,17 @@ msgstr ""
 "پیدا کند)."
 
 #: intro/faq.md:block 6 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Also, since CENO and Ouinet are still under development, you may "
-#| "experience some instability. That may also mean that backwards-"
-#| "incompatible changes are introduced which require you to uninstall the "
-#| "application or remove stored data (including bookmarks and site settings) "
-#| "before upgrading."
 msgid ""
 "Also, since CENO and Ouinet are under continuous development, you may "
 "experience some instability. That may also mean that backwards-incompatible "
 "changes are introduced which require you to uninstall the application or "
 "remove stored data (including bookmarks and site settings) before upgrading."
 msgstr ""
-"همچنین، از آن‌جا که سنو و وینت هنوز در حال توسعه و تکمیل‌اند، شاید نوعی "
-"بی‌ثباتی را در کار با آن‌ها تجربه کنید. این می‌تواند به معنای آن هم باشد که "
-"تغییراتی ناسازگار با نسخه‌ی پیشین ایجاد شوند که به خاطر آن‌ها لازم باشد "
-"نرم‌افزار یا داده‌های ذخیره‌شده (از جمله نشانه‌گذاری‌ها و تنظیمات سایت‌ها) را پیش "
-"از به‌روزرسانی حذف کنید."
+"همچنین، از آن‌جا که CENO و Ouinet در حال توسعه و تکمیل‌ مداوم‌اند، شاید نوعی "
+"عدم ثبات را هنگام کار با آن‌ها تجربه کنید. این می‌تواند به معنای آن هم باشد "
+"که تغییراتی ناسازگار با نسخه‌ی پیشین ایجاد شوند که به خاطر آن‌ها لازم باشد "
+"نرم‌افزار یا داده‌های ذخیره‌شده (از جمله نشانه‌گذاری‌ها و تنظیمات سایت‌ها) "
+"را پیش از به‌روزرسانی حذف کنید."
 
 #: intro/faq.md:block 7 (paragraph)
 msgid ""
