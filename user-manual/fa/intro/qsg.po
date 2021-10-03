@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-07-28 08:43+0000\n"
-"Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
+"PO-Revision-Date: 2021-10-04 12:35+0000\n"
+"Last-Translator: Mojtaba Golmohammadi <MojtabaGol@gmail.com>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "qsg/fa/>\n"
 "Language: fa\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.7.2-dev\n"
+"X-Generator: Weblate 4.9-dev\n"
 
 #
 #: intro/qsg.md:block 1 (header)
@@ -46,7 +46,7 @@ msgstr ""
 
 #: intro/qsg.md:block 5 (ordered list)
 msgid "Run it."
-msgstr ""
+msgstr "آن را اجرا کنید."
 
 #: intro/qsg.md:block 5 (ordered list)
 msgid ""
@@ -72,19 +72,12 @@ msgid "Configuration"
 msgstr "تنظیم"
 
 #: intro/qsg.md:block 8 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "The CENO Browser is in [BETA][BETA] but it should work out-of-the-box. "
-#| "You can find some [diagnostics and settings](../browser/settings.md) "
-#| "under the *CENO* menu entry."
 msgid ""
 "The CENO Browser should work out-of-the-box. You can find some [diagnostics "
 "and settings](../browser/settings.md) under the *CENO* menu entry."
 msgstr ""
-"مرورگر سنو در حال حاضر در نسخه‌ی [‌بتا](https://en.wikipedia.org/wiki/"
-"Software_release_life_cycle#Beta) ارائه می‌شود، اما باید به محض نصب به‌خوبی "
-"کار کند. شما می‌توانید بعضی [تنظیمات و عیب‌یابی‌ها](browser/settings.md/..) را "
-"ذیل عنوان *سنو* در منو بیابید."
+"مرورگر CENO باید به محض نصب به‌خوبی کار کند. شما می‌توانید بعضی [تنظیمات و "
+"عیب‌یابی‌ها](browser/settings.md/..) را ذیل عنوان *CENO* در منو بیابید."
 
 #: intro/qsg.md:block 9 (paragraph)
 msgid ""
