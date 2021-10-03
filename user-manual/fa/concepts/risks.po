@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-07-21 23:33+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
+"PO-Revision-Date: 2021-10-04 12:35+0000\n"
+"Last-Translator: Mojtaba Golmohammadi <MojtabaGol@gmail.com>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "risks/fa/>\n"
 "Language: fa\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.7.2-dev\n"
+"X-Generator: Weblate 4.9-dev\n"
 
 #
 #: concepts/risks.md:block 1 (header)
@@ -217,13 +217,6 @@ msgstr ""
 "باشند، این می‌تواند برای علامت‌گذاریِ شما به‌عنوان یک کاربر سنو به کار رود."
 
 #: concepts/risks.md:block 21 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "In general, if a particular website (such as a governmental site) expects "
-#| "you to connect to it as an identifiable individual, from a specific "
-#| "region (or from a [national intranet](https://en.wikipedia.org/wiki/"
-#| "National_intranet)), we recommend that you use a normal Web browser "
-#| "instead of CENO."
 msgid ""
 "In general, if a particular website (such as a governmental site) expects "
 "you to connect to it as an identifiable individual, from a specific region "
@@ -232,8 +225,8 @@ msgid ""
 msgstr ""
 "در کل، اگر یک وب‌سایت خاص (همچون یک سایت حکومتی) از شما انتظار دارد که در "
 "مقام فردی قابل‌شناسایی به آن وصل شوید، از منطقه‌ای مشخص (یا از یک [اینترانت "
-"ملی](https://en.wikipedia.org/wiki/National_intranet))، به شما توصیه می‌کنیم "
-"که به جای سنو از یک مرورگر وب معمولی استفاده کنید."
+"ملی][National intranet])، به شما توصیه می‌کنیم که به جای CENO از یک مرورگر "
+"وب معمولی استفاده کنید."
 
 #: concepts/risks.md:block 22 (header)
 msgid "As a seeder"
