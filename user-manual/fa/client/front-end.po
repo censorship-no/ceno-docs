@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-03 07:30+0000\n"
+"PO-Revision-Date: 2021-10-04 12:35+0000\n"
 "Last-Translator: Mojtaba Golmohammadi <MojtabaGol@gmail.com>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "client-front-end/fa/>\n"
@@ -17,11 +17,6 @@ msgid "Annex: The Ouinet client front-end"
 msgstr "پیوست: فرانت‌اند سرویس‌گیرنده‌ی وینت"
 
 #: client/front-end.md:block 2 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "The Ouinet client (as run by e.g. the CENO Browser) offers a front-end "
-#| "page with some information and actions which may be useful for debugging "
-#| "the client. Some of those may not be available from the CENO Extension."
 msgid ""
 "The Ouinet client (as run by e.g. the CENO Browser) offers a front-end page "
 "with some information and actions which may be useful for debugging the "
@@ -29,10 +24,11 @@ msgid ""
 "Settings* page](../browser/settings.md), though others are only available "
 "here."
 msgstr ""
-"سرویس‌گیرنده‌ی وینت (که برای مثال به‌وسیله‌ی مرورگر سنو اداره و اجرا می‌شود) یک "
-"صفحه‌ی فرانت‌اند با برخی اطلاعات و کنش‌هایی را پیشنهاد می‌دهد که می‌توانند برای "
-"عیب‌یابی سرویس‌گیرنده سودمند باشند. البته بعضی از آن‌ها ممکن است از افزونه‌ی سنو "
-"در دسترس نباشند."
+"سرویس‌گیرنده‌ی Ouinet (که برای مثال به‌وسیله‌ی مرورگر CENO اداره و اجرا "
+"می‌شود) یک صفحه‌ی فرانت‌اند با برخی اطلاعات و کنش‌هایی را پیشنهاد می‌دهد که "
+"می‌توانند برای عیب‌یابی سرویس‌گیرنده سودمند باشند. خیلی از آن‌ها در افزونه‌ی "
+"CENO در [صفحه‌ی *تنظیمات CENO*](../browser/settings.md) ارائه شده‌اند، اما "
+"برخی دیگر از آن‌ها فقط در اینجا در دسترس‌اند."
 
 #: client/front-end.md:block 3 (paragraph)
 msgid ""
@@ -84,25 +80,14 @@ msgstr ""
 "این مرورگر پیشاپیش به همین صورت تنظیم شده است."
 
 #: client/front-end.md:block 6 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "Buttons to enable or disable the different mechanisms used by the client "
-#| "to access content. They are equivalent to the check boxes in the [*CENO "
-#| "Settings* page](../browser/settings.md)."
 msgid ""
 "Buttons to enable or disable the different mechanisms used by the client to "
 "access content."
 msgstr ""
-"دکمه‌ها برای فعال‌کردن یا غیرفعال‌کردن سازوکارهای متفاوت به‌کاررفته توسط "
-"سرویس‌گیرنده برای دسترسی به محتوا. این دکمه‌ها معادل چک‌باکس‌های موجود در [صفحه‌ی "
-"*تنظیمات سنو*](../browser/settings.md) هستند."
+"این دکمه‌ها برای فعال‌کردن یا غیرفعال‌کردن سازوکارهای متفاوت به‌کاررفته توسط "
+"سرویس‌گیرنده برای دسترسی به محتوا به کار می‌روند."
 
 #: client/front-end.md:block 6 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "Selectors to choose different log levels, like the default `INFO` "
-#| "(informational messages, warnings and errors) or `DEBUG` (verbose output "
-#| "useful for reporting errors)."
 msgid ""
 "Selectors to choose different log levels, like the default `INFO` "
 "(informational messages, warnings and errors) or `DEBUG` (verbose output "
@@ -110,8 +95,9 @@ msgid ""
 "from here."
 msgstr ""
 "گزینشگرهایی برای انتخاب سطح‌های متفاوت ثبت گزارش، مانند «اطلاعات» (INFO) "
-"معمول (پیغام‌های آموزنده، هشدارها و ایرادها) یا «عیب‌یابی» (DEBUG) (خروجی مفصل "
-"کارآمد برای گزارشگریِ عیب‌ها و ایرادها)."
+"معمول (پیغام‌های آموزنده، هشدارها و ایرادها) یا «عیب‌یابی» (DEBUG) (خروجی "
+"مفصل کارآمد برای گزارشگریِ عیب‌ها و ایرادها). فایل لاگ نیز می‌تواند از اینجا "
+"فعال و بازیابی شود."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
@@ -131,21 +117,14 @@ msgstr ""
 "گزارش ایرادها به کار می‌آیند."
 
 #: client/front-end.md:block 6 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "The public key used to verify signatures from injectors, and the "
-#| "configured way to reach them. The default `bep5` method looks up Internet "
-#| "addresses in a BitTorrent injector swarm, as explained [here](../concepts/"
-#| "how.md)."
 msgid ""
 "Information about client connectivity and injector addressing. The default "
 "`bep5` method looks up Internet addresses in a BitTorrent injector swarm, as "
 "explained [here](../concepts/how.md)."
 msgstr ""
-"کلید عمومی به‌کاررفته برای راستی‌آزمایی امضاها از انژکتورها، و روش تنظیم‌شده "
-"برای دست‌یابی به آن‌ها. روش معمول `bep5` نشانی‌های اینترنتی را در انبوهه‌ای از "
-"انژکتورهای بیت‌تورنت می‌جوید، همان‌طور که در [این‌جا](../concepts/how.md) توضیح "
-"داده شد."
+"اطلاعاتی درباره‌ی اتصال سرویس‌گیرنده و نشانی‌یابی تزریق‌کننده. روش معمول "
+"`bep5` نشانی‌های اینترنتی را در انبوهه‌ای از انژکتورهای بیت‌تورنت می‌جوید، "
+"همان‌طور که در [این‌جا](../concepts/how.md) توضیح داده شد."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
@@ -156,18 +135,13 @@ msgstr ""
 "توزیع‌شده."
 
 #: client/front-end.md:block 6 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "Information on your local cache like the maximum accepted age of cached "
-#| "content, the approximate size of the cache, and a button to purge it "
-#| "completely."
 msgid ""
 "Information on your local cache like the maximum content age, approximate "
 "size of the cache, a button to purge it completely, and a link to the list "
 "of announced cache entries."
 msgstr ""
-"اطلاعاتی درباره‌ی انبار محلی شما مانند حداکثر عمر پذیرفته‌ی محتوای انبارشده، "
-"سایز تقریبی انبار، و دکمه‌ای برای پالایش کامل آن."
+"اطلاعاتی درباره‌ی انبار محلی شما مانند حداکثر عمر محتوا، سایز تقریبی انبار، "
+"دکمه‌ای برای پالایش کامل آن، و لینکی به لیست ورودی‌های اعلام‌شده‌ی انبار."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
