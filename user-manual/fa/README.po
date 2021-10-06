@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-04 12:35+0000\n"
-"Last-Translator: Mojtaba Golmohammadi <MojtabaGol@gmail.com>\n"
+"PO-Revision-Date: 2021-10-07 10:05+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "homepage-readme/fa/>\n"
 "Language: fa\n"
@@ -51,7 +51,7 @@ msgstr "[eQualitie]: https://equalit.ie"
 msgid ""
 "[CENO documentation repository]: https://github.com/censorship-no/ceno-docs/"
 msgstr ""
-"[CENO documentation repository]: https://github.com/censorship-no/ceno-docs/"
+"[CENO documentation repository]: https://github.com/censorship-no/ceno-docs"
 
 #: README.md:block 3 (paragraph)
 msgid ""
