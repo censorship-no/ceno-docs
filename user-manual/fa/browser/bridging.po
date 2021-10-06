@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-04 12:35+0000\n"
-"Last-Translator: Mojtaba Golmohammadi <MojtabaGol@gmail.com>\n"
+"PO-Revision-Date: 2021-10-07 10:05+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-bridging/fa/>\n"
 "Language: fa\n"
@@ -361,7 +361,7 @@ msgstr ""
 
 #: browser/bridging.md:block 34 (quote)
 msgid "[Don't kill my app!]: https://dontkillmyapp.com/"
-msgstr "[Don't kill my app!]: https://dontkillmyapp.com/"
+msgstr "[Don't kill my app!]: https://dontkillmyapp.com"
 
 #: browser/bridging.md:block 34 (quote)
 msgid "[docker]: https://en.wikipedia.org/wiki/Docker_(software)"
@@ -369,7 +369,7 @@ msgstr "[docker]: https://en.wikipedia.org/wiki/Docker_(software)"
 
 #: browser/bridging.md:block 34 (quote)
 msgid "[docker-install]: https://docs.docker.com/engine/install/"
-msgstr "[docker-install]: https://docs.docker.com/engine/install/"
+msgstr "[docker-install]: https://docs.docker.com/engine/install"
 
 #: browser/bridging.md:block 34 (quote)
 msgid ""
