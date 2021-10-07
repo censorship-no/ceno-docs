@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-07 10:05+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
+"PO-Revision-Date: 2021-10-07 10:26+0000\n"
+"Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-bridging/fa/>\n"
 "Language: fa\n"
@@ -326,7 +326,7 @@ msgstr ""
 
 #: browser/bridging.md:block 32 (quote)
 msgid "**Local UDP endpoints**"
-msgstr "**Local UDP endpoints**"
+msgstr "**نقطه‌های انتهایی «یو‌دی‌پی UDP» محلی**"
 
 #: browser/bridging.md:block 33 (paragraph)
 msgid ""
