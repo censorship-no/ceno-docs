@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-04 12:35+0000\n"
-"Last-Translator: Mojtaba Golmohammadi <MojtabaGol@gmail.com>\n"
+"PO-Revision-Date: 2021-10-08 11:04+0000\n"
+"Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-troubleshooting/fa/>\n"
 "Language: fa\n"
@@ -160,6 +160,7 @@ msgstr ""
 "CENO این تنظیمات را به خاطر می سپارد."
 
 #: browser/troubleshooting.md:block 17 (paragraph)
+#, fuzzy
 msgid ""
 "![Figure: HTTPS Everywhere settings with EASE on](images/httpsew-ease-on.png)"
 msgstr ""
@@ -491,4 +492,4 @@ msgstr ""
 
 #: browser/troubleshooting.md:block 41 (quote)
 msgid "[HTTPS Everywhere]: https://www.eff.org/https-everywhere/"
-msgstr "[استفاده از HTTPS در همه جا]: https://www.eff.org/https-everywhere/"
+msgstr "[HTTPS Everywhere]: https://www.eff.org/https-everywhere/"
