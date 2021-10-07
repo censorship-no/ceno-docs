@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-07 10:05+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
+"PO-Revision-Date: 2021-10-08 11:04+0000\n"
+"Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "ceno/fa/>\n"
 "Language: fa\n"
@@ -164,7 +164,7 @@ msgstr "[national intranets]: https://en.wikipedia.org/wiki/National_intranet"
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[Firefox for Android]: https://www.mozilla.org/firefox/android/"
-msgstr "[فایرفاکس برای اندروید]: https://www.mozilla.org/firefox/android"
+msgstr "[Firefox for Android]: https://www.mozilla.org/firefox/android/"
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[eQualitie]: https://equalit.ie/"
