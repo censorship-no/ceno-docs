@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-04 12:35+0000\n"
-"Last-Translator: Mojtaba Golmohammadi <MojtabaGol@gmail.com>\n"
+"PO-Revision-Date: 2021-10-12 08:20+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "ouinet/fa/>\n"
 "Language: fa\n"
@@ -118,7 +118,7 @@ msgstr ""
 
 #: intro/ouinet.md:block 9 (quote)
 msgid "[Ouinet]: https://github.com/equalitie/ouinet/"
-msgstr "[Ouinet]: https://github.com/equalitie/ouinet/"
+msgstr "[Ouinet]: https://github.com/equalitie/ouinet"
 
 #: intro/ouinet.md:block 9 (quote)
 msgid "[P2P]: https://en.wikipedia.org/wiki/Peer-to-peer"
