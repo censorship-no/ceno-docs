@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-07-21 23:33+0000\n"
+"PO-Revision-Date: 2021-10-12 08:20+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-troubleshooting/fa/>\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.7.2-dev\n"
+"X-Generator: Weblate 4.9-dev\n"
 
 #
 #: browser/troubleshooting.md:block 1 (header)
@@ -104,7 +104,7 @@ msgstr ""
 
 #: browser/troubleshooting.md:block 12 (header)
 msgid "A page shows bogus content (like a block message)"
-msgstr ""
+msgstr "صفحه محتوایی جعلی (مانند یک پیغام نامربوط) را نشان می‌دهد"
 
 #: browser/troubleshooting.md:block 13 (paragraph)
 msgid ""
@@ -112,6 +112,9 @@ msgid ""
 "Unfortunately, someone intercepted the connection and directed it to an "
 "illegitimate server."
 msgstr ""
+"CENO توانسته به یک سرور وب مستقیماً متصل شود و محتوا را از آن بازیابی کند. "
+"اما، متأسفانه، کسی مانع این اتصال شده است و آن را به یک سرور جعلی دیگر هدایت "
+"کرده است."
 
 #: browser/troubleshooting.md:block 14 (paragraph)
 msgid ""
@@ -120,6 +123,10 @@ msgid ""
 "accessing the site over insecure HTTP (instead of the more secure HTTPS "
 "protocol), as CENO cannot detect the tampering by itself."
 msgstr ""
+"این معمولاً به این معناست که شرکت تأمین اینترنت یا دولت کشورتان دسترسی شما "
+"به این سایت را مسدود کرده است. اما، این ایراد خاص فقط وقتی رخ می‌دهد که شما "
+"به سایتی روی HTTP ناامن دسترسی پیدا کنید (به جای دسترسی به پروتکل امن تر "
+"HTTPS)، و CENO نمی‌تواند خودش این دستکاری را تشخیص دهد."
 
 #: browser/troubleshooting.md:block 15 (paragraph)
 msgid ""
@@ -130,6 +137,12 @@ msgid ""
 "\" from CENO, you will need to go to the [Settings page](settings.md), "
 "disable Origin access, and try again."
 msgstr ""
+"بنابراین، یک راه برای رسیدن به سایت واقعی تلاش برای دسترسی به آن روی HTTPS "
+"از طریق کلیک روی نوار آدرس و تبدیل `http://` به `https://` در ابتدای نشانی "
+"اینترنتی است. البته، این کار فقط وقتی نتیجه خواهد داد که سایت مورد نظرتان "
+"HTTPS را پشتیبانی کند. در غیر این صورت، که پیغام \"بازیابی منبع ناموفق بود\" "
+"را دریافت خواهید کرد، باید به [صفحه تنظیمات](settings.md) بروید، دسترسی به "
+"اصل را غیرفعال کنید، و دوباره امتحان کنید."
 
 #: browser/troubleshooting.md:block 16 (paragraph)
 msgid ""
@@ -139,11 +152,19 @@ msgid ""
 "choose *HTTPS Everywhere* in the app's main menu, then enable *Encrypt All "
 "Sites Eligible* (EASE) as shown below. This setting is remembered by CENO."
 msgstr ""
+"از آنجا که این جور تنظیمات به خاطر نمی‌مانند، و تغییر نشانی اینترنتی هربار "
+"خسته کننده می‌شود، می‌توانید در عوض CENO را طوری تنظیم کنید که همیشه برای "
+"همه سایتها از طریق افزونه [HTTPS Everywhere][HTTPS Everywhere] از HTTPS "
+"استفاده کند: در منو اصلی برنامه گزینه *HTTPS Everywhere* را انتخاب کنید، سپس "
+"گزینه *Encrypt All Sites Eligible* (EASE) نشان داده شده در زیر را فعال کنید. "
+"CENO این تنظیمات را به خاطر می سپارد."
 
 #: browser/troubleshooting.md:block 17 (paragraph)
 msgid ""
 "![Figure: HTTPS Everywhere settings with EASE on](images/httpsew-ease-on.png)"
 msgstr ""
+"![شکل: تنظیمات استفاده از HTTPS Everywhere با فعال کردن EASE](images/httpsew-"
+"ease-on.png)"
 
 #: browser/troubleshooting.md:block 18 (paragraph)
 msgid ""
@@ -152,6 +173,11 @@ msgid ""
 "open HTTPS Everywhere settings and tap on the *Disable on this site* button "
 "shown above to set an exception for the site."
 msgstr ""
+"اگر وقتی EASE فعال است هنوز نیاز به دسترسی به سایت خاصی روی همان HTTP معمولی "
+"دارید، می توانید از آن سایت بازدید کنید (حتی اگر دسترسی ناموفق بود)، سپس از "
+"آن زبانه تنظیمات HTTPS Everywhere را باز کنید و روی دکمه \"روی این سایت "
+"غیرفعال شود\" نشان داده شده در بالا کلیک کنید تا آن سایت مورد استثنا قرار "
+"گیرد."
 
 #: browser/troubleshooting.md:block 19 (header)
 msgid "Accessing some content shows \"Failed to retrieve the resource\""
@@ -240,51 +266,35 @@ msgid "Proxy/Injector access"
 msgstr "دسترسی به پروکسی/انژکتور"
 
 #: browser/troubleshooting.md:block 28 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Someone is interfering with your connection to Internet addresses in the "
-#| "injector swarm. Since this is expected to happen eventually as CENO (and "
-#| "Ouinet) gain traction, CENO resorts to reach injectors via other clients "
-#| "acting as bridges."
 msgid ""
 "Someone is interfering with your connection to Internet addresses in the "
 "injector swarm. Since this is expected to happen eventually as CENO (and "
 "Ouinet) gain traction, CENO resorts to reaching injectors via other clients "
 "acting as bridges."
 msgstr ""
-"کسی در حال ایجاد اخلال با اتصال شما به نشانی‌های اینترنتی در انبوهه‌ی "
-"تزریق‌کننده است. از آن‌جا که از این پیشامد سرانجام به‌عنوان سنو (و وینت) توقع "
-"جذابیت و کشش می‌رود، سنو به دستیابی به تزریق‌کننده‌ها از طریق سرویس‌گیرندگان "
-"دیگری پناه می‌برد که همچون پل‌هایی عمل می‌کنند."
+"کسی در حال ایجاد اخلال با اتصال شما به نشانی‌های اینترنتی در انبوهه‌ی تزریق‌"
+"کننده است. از آن‌جا که با گسترش کاربرد و کشش CENO (و Ouinet) انتظار رخ‌دادن "
+"چنین پیشامدهایی می‌رود، CENO به دستیابی به تزریق‌کننده‌ها از طریق سرویس‌"
+"گیرندگان دیگری پناه می‌برد که همچون پل عمل می‌کنند."
 
 #: browser/troubleshooting.md:block 29 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "There are different reasons for CENO not to be able to reach such clients:"
 msgid ""
 "There are different reasons for CENO being unable to reach such clients:"
 msgstr ""
-"دلایل متفاوتی برای ناتوانی سنو در دستیابی به چنین سرویس‌گیرندگانی وجود دارند:"
+"دلایل متفاوتی برای ناتوانی CENOدر دستیابی به چنین سرویس‌گیرندگانی وجود دارند:"
 
 #: browser/troubleshooting.md:block 30 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "No other client is reachable by you. If only a few Ouinet clients are "
-#| "online, it is entirely possible that none of them is in a network which "
-#| "allows it to be reached from the outside. This should become less likely "
-#| "as CENO and Ouinet get popular and more clients with diverse connectivity "
-#| "get online."
 msgid ""
 "No other client is reachable by you. If only a few Ouinet clients are "
 "online, it is entirely possible that none of them are in a network that can "
 "be reached from the outside. This should become less likely as CENO and "
 "Ouinet get popular and more clients with diverse connectivity come online."
 msgstr ""
-"هیچ سرویس‌گیرنده‌ی دیگری توسط شما دسترس‌پذیر نیست. اگر تنها چند سرویس‌گیرنده‌ی "
-"وینت آنلاین باشند، این به‌تمامی ممکن است که هیچ‌یک از آن‌ها در شبکه‌ای نباشند که "
-"به آن اجازه دهد تا از بیرون دست‌یافتنی باشد. با محبوب‌شدن و پرطرفدارشدن سنو و "
-"وینت و آنلاین‌شدن سرویس‌گیرندگان بیشتری با انواع گوناگون اتصال باید از احتمال "
-"این پیشامد کاسته شود."
+"هیچ سرویس‌گیرنده‌ی دیگری توسط شما دسترس‌پذیر نیست. اگر تنها چند سرویس‌گیرنده‌"
+"ی Ouinet آنلاین باشند، به‌تمامی ممکن است که هیچ‌یک از آن‌ها در شبکه‌ای "
+"نباشند که بتواند از بیرون دست‌یافتنی باشد. با محبوب‌شدن و پرطرفدارشدن سنو و "
+"وینت و آنلاین‌شدن سرویس‌گیرندگان بیشتری با انواع گوناگون اتصال باید از "
+"احتمال این پیشامد کاسته شود."
 
 #: browser/troubleshooting.md:block 30 (unordered list)
 msgid ""
@@ -372,13 +382,6 @@ msgstr ""
 "در معرض [خطرات](../concepts/risks.md) قرار دهد)."
 
 #: browser/troubleshooting.md:block 34 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Please note that some content which is not considered safe for sharing "
-#| "will never be injected, no matter how many people retrieve it using "
-#| "public browsing. This includes content marked as private by the origin "
-#| "server, content which requires authentication, and some traffic exchanged "
-#| "by certain dynamic Web applications."
 msgid ""
 "Please note that some content which is not considered safe for sharing will "
 "never be injected, no matter how many people retrieve it using public "
@@ -386,11 +389,11 @@ msgid ""
 "content that requires authentication, and some traffic exchanged by certain "
 "dynamic Web applications."
 msgstr ""
-"لطفاً توجه کنید که محتوایی که برای اشتراک‌گذاری امن قلمداد نمی‌شود هرگز تزریق "
-"نخواهد شد، صرف‌نظر از این‌که چند نفر با استفاده از مرور عمومی آن را بازیابی "
-"کنند. این شامل محتوای علامت‌گذاری‌شده به‌عنوان محتوای خصوصی از سوی سرور اصلی "
-"است، محتوایی که نیازمند تصدیق است، و ترافیکی که به‌وسیله‌ی برخی نرم‌افزارهای "
-"پویای وب مبادله می‌شود."
+"لطفاً توجه کنید که محتوایی که برای اشتراک‌گذاری امن قلمداد نمی‌شود هرگز "
+"تزریق نخواهد شد، صرف‌نظر از این‌که چند نفر با استفاده از مرور عمومی آن را "
+"بازیابی کنند. این شامل محتوای علامت‌گذاری‌شده به‌عنوان محتوای خصوصی از سوی "
+"سرور اصلی است، محتوایی که نیازمند تصدیق است، و ترافیکی که به‌وسیله‌ی برخی "
+"نرم‌افزارهای پویای وب مبادله می‌شود."
 
 #: browser/troubleshooting.md:block 35 (paragraph)
 msgid ""
@@ -488,4 +491,4 @@ msgstr ""
 
 #: browser/troubleshooting.md:block 41 (quote)
 msgid "[HTTPS Everywhere]: https://www.eff.org/https-everywhere/"
-msgstr ""
+msgstr "[HTTPS Everywhere]: https://www.eff.org/https-everywhere/"

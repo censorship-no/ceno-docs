@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-07-21 23:33+0000\n"
+"PO-Revision-Date: 2021-10-07 10:05+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "readme/fa/>\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.7.2-dev\n"
+"X-Generator: Weblate 4.9-dev\n"
 
 #
 #: intro/README.md:block 1 (header)
@@ -104,11 +104,11 @@ msgstr ""
 
 #: intro/README.md:block 6 (paragraph)
 msgid "[ooni-reports]: https://ooni.org/reports/"
-msgstr "[ooni-reports]: https://ooni.org/reports/"
+msgstr "[ooni-reports]: https://ooni.org/reports"
 
 #: intro/README.md:block 6 (paragraph)
 msgid "[magma-reports]: https://magma.lavafeld.org/publications/"
-msgstr ""
+msgstr "[magma-reports]: https://magma.lavafeld.org/publications"
 
 #: intro/README.md:block 6 (paragraph)
 msgid "[cplan-reports]: https://censoredplanet.org/reports"
