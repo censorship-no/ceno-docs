@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-13 11:58+0000\n"
-"Last-Translator: Kian <kian@tahgheegh.com>\n"
+"PO-Revision-Date: 2021-10-14 10:45+0000\n"
+"Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-bridging/fa/>\n"
 "Language: fa\n"
@@ -97,8 +97,8 @@ msgstr ""
 "متاسفانه غیر فعال کردن گزینه بهینه‌‌سازی باتری برای CENO کتابخانه Ouinet را "
 "از این وضعیت مستثنی نمی‌کند. ممکن است دستگاه خاص شما تنظیمات ذخیره انرژی "
 "ویژه خود را داشته باشد که این هم در عملکرد سنو اختلال ایجاد می‌کند. در این "
-"مورد به این وب سایت بروید و گزینه [Don't kill my app!] را برای مدل دستگاه "
-"خود چک کنید."
+"مورد به این وب سایت بروید و گزینه [Don't kill my app!][Don't kill my app!] "
+"را برای مدل دستگاه خود چک کنید."
 
 #: browser/bridging.md:block 8 (paragraph)
 msgid ""
@@ -363,7 +363,7 @@ msgstr ""
 
 #: browser/bridging.md:block 34 (quote)
 msgid "[Don't kill my app!]: https://dontkillmyapp.com/"
-msgstr "[Don't kill my app!]: https://dontkillmyapp.com"
+msgstr "[Don't kill my app!]: https://dontkillmyapp.com/"
 
 #: browser/bridging.md:block 34 (quote)
 msgid "[docker]: https://en.wikipedia.org/wiki/Docker_(software)"
