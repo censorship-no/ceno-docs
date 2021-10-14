@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-07 10:05+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
+"PO-Revision-Date: 2021-10-13 11:58+0000\n"
+"Last-Translator: Kian <kian@tahgheegh.com>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-install/fa/>\n"
 "Language: fa\n"
@@ -14,11 +14,11 @@ msgstr ""
 #
 #: browser/install.md:block 1 (header)
 msgid "Installing CENO"
-msgstr "نصب سنو"
+msgstr "نصب CENO"
 
 #: browser/install.md:block 2 (paragraph)
 msgid "The CENO Browser can be installed via the following means:"
-msgstr "مرورگر سنو را می‌توان از طریق این روش‌ها نصب کرد:"
+msgstr "مرورگر CENO را می‌توان از طریق این روش‌ها نصب کرد:"
 
 #: browser/install.md:block 3 (unordered list)
 msgid ""
@@ -30,7 +30,7 @@ msgstr ""
 
 #: browser/install.md:block 3 (unordered list)
 msgid "[GitHub][ceno-gh]: for Android devices without Google Play."
-msgstr "[گیت‌هاب][ceno-gh]: برای دستگاه اندروید بدون گوگل‌پلی."
+msgstr "[گیت‌هاب][ceno-gh]: برای دستگاه اندرویدی بدون گوگل‌پلی."
 
 #: browser/install.md:block 3 (unordered list)
 msgid ""
@@ -42,7 +42,7 @@ msgstr ""
 
 #: browser/install.md:block 4 (paragraph)
 msgid "CENO requires *no special permissions* to run."
-msgstr "سنو نیازمند اجرای *هیچ جواز خاصی* نیست."
+msgstr "CENO برای اجرا نیازی به اجازه‌ای خاص ندارد."
 
 #: browser/install.md:block 5 (quote)
 msgid ""
@@ -54,15 +54,16 @@ msgid ""
 "(mailto:cenoers@equalit.ie) before installing a suspicious app."
 msgstr ""
 "**هشدار:** لطفاً درباره‌ی نصب مرورگر CENO از منابعی غیر از موارد فهرست‌شده "
-"در بالا *به‌شدت مشکوک* باشید. به خاطر سرشت این نرم‌افزار، کاربران بالقوه‌ی "
-"آن می‌توانند هدف همه‌ی انواع و اقسام نسخه‌های جعلی یا دستکاری‌شده‌ای قرار "
-"گیرند که برای نقض حریم خصوصی کاربر یا حمله به سایر کاربران CENO و Ouinet به "
-"کار می‌روند. اگر در این‌باره تردیدی دارید، لطفاً پیش از نصب یک نرم‌افزار "
-"مشکوک با نشانی [cenoers@equalit.ie](mailto:cenoers@equalit.ie) تماس بگیرید."
+"در بالا *به‌شدت مراقب و مشکوک* باشید. به خاطر ماهیت این نرم‌افزار، کاربران "
+"بالقوه‌ی آن می‌توانند هدف  انواع و اقسام نسخه‌های جعلی یا دستکاری‌شده‌ای "
+"قرار گیرند که برای نقض حریم خصوصی کاربر یا حمله به سایر کاربران CENO و "
+"Ouinet به کار می‌روند. اگر در این‌باره تردیدی دارید، لطفاً پیش از نصب یک نرم‌"
+"افزار مشکوک با نشانی [cenoers@equalit.ie](mailto:cenoers@equalit.ie) تماس "
+"بگیرید."
 
 #: browser/install.md:block 6 (header)
 msgid "Stopping CENO completely"
-msgstr "متوقف‌کردن کامل سنو"
+msgstr "متوقف‌کردن کامل CENO"
 
 #: browser/install.md:block 7 (paragraph)
 msgid ""
@@ -73,7 +74,7 @@ msgid ""
 "from it at any time."
 msgstr ""
 "هربار که نرم‌افزار را آغاز می‌کنید، یک نشان CENO روی نوار اطلاع‌رسانی دستگاه‌"
-"تان ظاهر خواهد شد. این نشان *خدمات مرورگر CENO* را بازمی‌نمایاند، که بخشی از "
+"تان ظاهر خواهد شد. این نشان *خدمات مرورگر CENO* را بازمی‌کند، که بخشی از "
 "CENO است که به‌طور دائمی و همیشگی اجرا می‌شود (حتی وقتی شما مرور نمی‌کنید) و "
 "به سایر سرویس‌گیرندگان اجازه می‌دهد تا از دستگاه‌تان به‌عنوان یک پل استفاده "
 "کنند و محتوا را هرزمان از آن بازیابی کنند."
@@ -87,21 +88,21 @@ msgid ""
 msgstr ""
 "از آن‌جا که اجرای خدماتی ازاین‌دست از شبکه و منابع پردازشگر استفاده می‌کند، "
 "شاید بخواهید در حال حرکت و در بیرون از خانه آن را متوقف کنید (یعنی هرگاه به "
-"اینترنت بی‌سیم یا وای‌فای وصل نیستید یا شارژری در دسترس ندارید). انگشت‌فشردن بر "
-"اطلاع‌رسان پیوسته به این نشان هم سنو و هم خدمات‌اش را در آن واحد متوقف خواهد "
-"کرد (تا زمانی که سنو را از نو باز کنید)."
+"اینترنت بی‌سیم یا وای‌فای وصل نیستید یا شارژری در دسترس ندارید). انگشت‌فشردن "
+"بر اطلاع‌رسان پیوسته به این نشان هم CENO و هم خدمات‌اش را در آن واحد متوقف "
+"خواهد کرد (تا زمانی که سنو را از نو باز کنید)."
 
 #: browser/install.md:block 9 (paragraph)
 msgid ""
 "![Figure: Tap on the notification to stop the CENO service](images/tap-stop."
 "png)"
 msgstr ""
-"![شکل: روی اطلاع‌رسانی انگشت بفشارید تا خدمات سنو را متوقف کنید](images/tap-"
-"stop.png)"
+"![شکل: روی گزینه اطلاع‌رسانی ضربه بزنید تا خدمات سنو را متوقف کنید](images/"
+"tap-stop.png)"
 
 #: browser/install.md:block 10 (header)
 msgid "Purging all CENO data (the \"panic button\")"
-msgstr "پالایش تمام داده‌های سنو («دکمه‌ی هراس»)"
+msgstr "پالایش تمام داده‌های سنو («دکمه‌ هراس»)"
 
 #: browser/install.md:block 11 (paragraph)
 msgid ""
@@ -110,10 +111,10 @@ msgid ""
 "action will just open CENO with a new public browsing tab showing its home "
 "page. The *Erase* action demands more explanation."
 msgstr ""
-"اطلاع‌رسان *خدمات مرورگر سنو* که در بالا نشان داده شد چند گزینه را همراه با "
-"هم دربردارد که می‌توانند با فشردن انگشت رویشان فعال شوند. گزینه‌ی *خانه* فقط "
-"سنو را با یک زبانه‌ی جدید مرور عمومی خواهد گشود که صفحه‌ی خانگی‌اش را نشان "
-"می‌دهد. گزینه‌ی *پاک‌کردن* نیازمند توضیح بیشتری است."
+"اطلاع‌رسان *خدمات مرورگر CENO* که در بالا نشان داده شد چند گزینه را همراه با "
+"هم دربردارد که می‌توانند با فشردن انگشت روی آن‌ها فعال شوند. گزینه‌ی *خانه* "
+"فقط CENO را با یک زبانه‌ جدید مرور عمومی خواهد گشود که صفحه‌ی خانگی‌اش را "
+"نشان می‌دهد. گزینه‌ی *پاک‌کردن* نیازمند توضیح بیشتری است."
 
 #: browser/install.md:block 12 (quote)
 msgid ""
@@ -134,9 +135,9 @@ msgstr ""
 "اگر زمانی نیاز داشتید که CENO را به‌سرعت متوقف کنید و تمام داده‌های مرتبط با "
 "آن را به کلی پاک کنید (نه فقط محتوای انبارشده، بلکه همچنین تنظیماتی مانند "
 "صفحه‌های محبوب، رمزهای عبور و تمام سوابق مرور)، می‌توانید روی گزینه‌ی "
-"*پاک‌کردن* انگشت بفشارید. برای پرهیز از پاک‌شدن تصادفی داده‌هایتان، این "
-"گزینه هنوز هیچ‌چیز را حذف نخواهد کرد، بلکه فقط یک گزینه‌ی افزوده را برای "
-"لحظه‌ای کوتاه نشان می‌دهد، همان‌طور که در پایین به تصویر کشیده شده است:"
+"*پاک‌کردن* ضربه بزنید. برای پرهیز از پاک‌شدن تصادفی داده‌هایتان، این گزینه "
+"هنوز هیچ‌چیز را حذف نخواهد کرد، بلکه فقط یک گزینه‌ی افزوده را برای لحظه‌ای "
+"کوتاه نشان می‌دهد، همان‌طور که در پایین به تصویر کشیده شده است:"
 
 #: browser/install.md:block 14 (paragraph)
 msgid ""
@@ -152,13 +153,13 @@ msgid ""
 "removed *without further questions*, effectively leaving your device as if "
 "CENO had never been used."
 msgstr ""
-"اگر روی «بله» انگشت بفشارید، سنو متوقف خواهد شد و تمام داده‌هایش *بی هیچ پرسش "
-"دیگری* حذف خواهد شد، یعنی انگار عملاً دستگاه‌تان را کنار گذاشته‌اید طوری که "
-"توگویی هرگز از سنو استفاده نکرده بوده‌اید."
+"اگر روی «بله» ضربه بزنید، CENO متوقف خواهد شد و تمام داده‌هایش *بی هیچ پرسش "
+"دیگری* حذف خواهد شد، یعنی انگار عملاً دستگاه‌تان را کنار گذاشته‌اید به‌طوری "
+"که گویا هرگز از CENO استفاده نکرده بوده‌اید."
 
 #: browser/install.md:block 16 (paragraph)
 msgid "If you do not tap on the action, it will go away in a few seconds."
-msgstr "اگر روی این گزینه انگشت نفشارید در عرض چند ثانیه از بین خواهد رفت."
+msgstr "اگر روی این گزینه انگشت ضربه نزنید، در عرض چند ثانیه از بین خواهد رفت."
 
 #: browser/install.md:block 17 (quote)
 msgid ""
@@ -175,7 +176,7 @@ msgstr ""
 #: browser/install.md:block 17 (quote)
 msgid "As a harsher alternative, you may completely uninstall the app."
 msgstr ""
-"به‌عنوان یک گزینه‌ی شدیدتر، می‌توانید این نرم‌افزار را به‌طور کامل حذف کنید."
+"به‌عنوان یک گزینه‌ محکم‌تر، می‌توانید این نرم‌افزار را به‌طور کامل حذف کنید."
 
 #: browser/install.md:block 18 (quote)
 msgid ""
