@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-15 04:49+0200\n"
-"PO-Revision-Date: 2021-10-19 10:44+0000\n"
+"PO-Revision-Date: 2021-10-19 11:38+0000\n"
 "Last-Translator: Kian <kian@tahgheegh.com>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "public-private/fa/>\n"
@@ -52,14 +52,14 @@ msgstr "تلاش برای دسترسی مستقیم صورت گرفته است."
 
 #: concepts/public-private.md:block 4 (ordered list)
 msgid "Failing that, the distributed cache is searched."
-msgstr "در صورت ناکامی در آن، انبار توزیع‌شده جست‌وجو می‌شود."
+msgstr "در صورت ناکامی در آن، کش توزیع‌شده جست‌وجو می‌شود."
 
 #: concepts/public-private.md:block 4 (ordered list)
 msgid ""
 "Failing that, the content is requested via an injector (maybe via another "
 "client)."
 msgstr ""
-"در صورت ناکامی در آن، محتوا از طریق یک تزریق‌کننده (شاید از طریق یک "
+"در صورت ناکامی در آن، محتوا از طریق یک injector (شاید از طریق یک "
 "سرویس‌گیرنده‌ی دیگر) درخواست می‌شود."
 
 #: concepts/public-private.md:block 5 (paragraph)
@@ -67,8 +67,8 @@ msgid ""
 "CENO also has a **private browsing** mode. In it, the distributed cache is "
 "never searched, and injection is never attempted:"
 msgstr ""
-"سنو یک حالت **مرور خصوصی** نیز دارد. در این حالت، انبار توزیع‌شده هرگز جست‌وجو "
-"نمی‌شود، و تلاش برای تزریق هرگز صورت نمی‌پذیرد:"
+"مرورگر CENO یک حالت **مرور خصوصی** نیز دارد. در این حالت، کش توزیع‌شده هرگز "
+"جست‌وجو نمی‌شود، و تلاش برای Injection هرگز صورت نمی‌پذیرد:"
 
 #: concepts/public-private.md:block 6 (ordered list)
 msgid ""
@@ -76,9 +76,9 @@ msgid ""
 "*as a normal proxy server*. Note that in this case, neither the injector nor "
 "your client updates the distributed cache with your page."
 msgstr ""
-"در صورت ناکامی در آن، با یک تزریق‌کننده تماس گرفته می‌شود (شاید از طریق یک "
+"در صورت ناکامی در آن، با یک injector تماس گرفته می‌شود (شاید از طریق یک "
 "سرویس‌گیرنده‌ی دیگر) و **به‌عنوان یک سرور پروکسی معمولی** به کار می‌رود. دقت "
-"کنید که در این مورد، نه تزریق‌کننده و نه سرویس‌گیرنده‌ی شما انبار توزیع‌شده‌ی شما "
+"کنید که در این مورد، نه injector و نه سرویس‌گیرنده‌ی شما کش توزیع‌شده‌ی شما "
 "را با صفحه‌ی شما به‌روز نمی‌کنند."
 
 #: concepts/public-private.md:block 7 (paragraph)
@@ -115,19 +115,19 @@ msgstr ""
 msgid ""
 "Some browsing activity may be leaked to other users (see [risks](risks.md))."
 msgstr ""
-"بعضی از فعالیت‌های مرورگری ممکن است به کاربران دیگر درز کنند (نک. [خطرات]"
-"(risks.md))."
+"بعضی از فعالیت‌های مرورگری ممکن است به کاربران دیگر درز کنند ( [خطرات](risks."
+"md))."
 
 #: concepts/public-private.md:block 8 (ordered list)
 msgid ""
 "Some browsing activity may be leaked to injectors (see [risks](risks.md))."
 msgstr ""
-"بعضی از فعالیت‌های مرورگری ممکن است به تزریق‌کننده‌ها درز کنند (نک. [خطرات]"
-"(risks.md))."
+"بعضی از فعالیت‌های مرورگری ممکن است بهinjectorها درز کنند ([خطرات](risks."
+"md))."
 
 #: concepts/public-private.md:block 8 (ordered list)
 msgid "You need to trust injectors to retrieve and sign Web content."
-msgstr "شما برای بازیابی و امضای محتوای وب بایستی به تزریق‌کننده‌ها اعتماد کنید."
+msgstr "شما برای بازیابی و امضای محتوای وب بایستی به injectorها اعتماد کنید."
 
 #: concepts/public-private.md:block 9 (paragraph)
 msgid "While in private mode:"
@@ -141,7 +141,7 @@ msgid ""
 msgstr ""
 "اگر اتصال بین‌المللی خیلی ضعیف باشد ممکن است قادر به دسترسی به محتوای وب "
 "مسدودشده نباشید؛ حتی اگر شما بتوانید به آن دسترسی پیدا کنید، سایر کاربران "
-"سنو آن محتوا را از شما دریافت نخواهند کرد."
+"CENO آن محتوا را از شما دریافت نخواهند کرد."
 
 #: concepts/public-private.md:block 10 (ordered list)
 msgid "Pages with dynamic content will probably work."
@@ -153,7 +153,7 @@ msgid ""
 "by HTTPS, the injector does not see your passwords)."
 msgstr ""
 "صفحه‌های نیازمند به هویت‌سنجی شاید کار کنند (وقتی اتصال شما تحت حفاظت HTTPS "
-"باشد، تزریق‌کننده رمزهای عبورتان را نمی‌بیند)."
+"باشد، injector رمزهای عبورتان را نمی‌بیند)."
 
 #: concepts/public-private.md:block 10 (ordered list)
 msgid "Browsing activity is not leaked to other users."
@@ -164,7 +164,7 @@ msgid ""
 "Limited browsing activity is leaked to injectors (with HTTPS, only the "
 "origin server name or address)."
 msgstr ""
-"فعالیت مرورگری تا اندازه‌ی محدودی به تزریق‌کننده‌ها درز می‌کند (با HTTPS، فقط "
+"فعالیت مرورگری تا اندازه‌ی محدودی به injectorها درز می‌کند (با HTTPS، فقط "
 "نام یا نشانی سرور اصلی)."
 
 #: concepts/public-private.md:block 10 (ordered list)
@@ -172,8 +172,8 @@ msgid ""
 "You need not trust injectors (with HTTPS, usual certificate-based security "
 "still works)."
 msgstr ""
-"نیازی نیست به تزریق‌کننده‌ها اعتماد کنید (با HTTPS، امنیت گواهی‌محور معمول "
-"همچنان کار می‌کند)."
+"نیازی نیست بهinjectorها اعتماد کنید (با HTTPS، امنیت گواهی‌محور معمول همچنان "
+"کار می‌کند)."
 
 #: concepts/public-private.md:block 11 (paragraph)
 msgid ""
@@ -184,10 +184,10 @@ msgid ""
 "mode."
 msgstr ""
 "در نتیجه: اگر برای خواندن اخبار، تماشای ویدئوها، مرور ویکی‌پدیا و سایر مراجع "
-"ایستایی از سنو استفاده می‌کنید که در غیر این صورت در شبکه‌ی شما سانسور شده‌اند، "
-"استفاده از حالت پیش‌فرض **مرور عمومی** را لحاظ کنید. و اگر می‌خواهید وارد حساب "
-"کاربری توییترتان شوید یا وب‌سایت وردپرس خودتان را ویرایش کنید، از حالت **مرور "
-"خصوصی** استفاده کنید."
+"ایستایی از CENO استفاده می‌کنید که در غیر این صورت در شبکه‌ی شما سانسور "
+"شده‌اند، استفاده از حالت پیش‌فرض **مرور عمومی** را لحاظ کنید. و اگر می‌"
+"خواهید وارد حساب کاربری توییترتان شوید یا وب‌سایت وردپرس خودتان را ویرایش "
+"کنید، از حالت **مرور خصوصی** استفاده کنید."
 
 #: concepts/public-private.md:block 12 (paragraph)
 msgid ""
