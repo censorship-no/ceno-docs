@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2021-10-19 22:49+0000\n"
-"Last-Translator: Kian <kian@tahgheegh.com>\n"
+"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "qsg/fa/>\n"
 "Language: fa\n"
@@ -31,7 +31,7 @@ msgstr ""
 
 #: intro/qsg.md:block 3 (header)
 msgid "How to get started"
-msgstr "چگونه آغاز کنید؟"
+msgstr "چگونه آغاز کنید"
 
 #: intro/qsg.md:block 4 (paragraph)
 msgid "You will need an Android device:"
