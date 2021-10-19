@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-19 11:38+0000\n"
-"Last-Translator: Kian <kian@tahgheegh.com>\n"
+"PO-Revision-Date: 2021-10-19 22:49+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "ceno/fa/>\n"
 "Language: fa\n"
@@ -88,7 +88,7 @@ msgstr ""
 
 #: intro/ceno.md:block 7 (header)
 msgid "Who is it for?"
-msgstr "Ouinet  برای چه کسانی است؟"
+msgstr "Ouinet برای چه کسانی است؟"
 
 #: intro/ceno.md:block 8 (paragraph)
 msgid ""
