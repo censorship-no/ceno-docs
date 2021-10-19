@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-13 11:58+0000\n"
-"Last-Translator: Kian <kian@tahgheegh.com>\n"
+"PO-Revision-Date: 2021-10-19 22:49+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-install/fa/>\n"
 "Language: fa\n"
@@ -55,11 +55,10 @@ msgid ""
 msgstr ""
 "**هشدار:** لطفاً درباره‌ی نصب مرورگر CENO از منابعی غیر از موارد فهرست‌شده "
 "در بالا *به‌شدت مراقب و مشکوک* باشید. به خاطر ماهیت این نرم‌افزار، کاربران "
-"بالقوه‌ی آن می‌توانند هدف  انواع و اقسام نسخه‌های جعلی یا دستکاری‌شده‌ای "
-"قرار گیرند که برای نقض حریم خصوصی کاربر یا حمله به سایر کاربران CENO و "
-"Ouinet به کار می‌روند. اگر در این‌باره تردیدی دارید، لطفاً پیش از نصب یک نرم‌"
-"افزار مشکوک با نشانی [cenoers@equalit.ie](mailto:cenoers@equalit.ie) تماس "
-"بگیرید."
+"بالقوه‌ی آن می‌توانند هدف انواع و اقسام نسخه‌های جعلی یا دستکاری‌شده‌ای قرار "
+"گیرند که برای نقض حریم خصوصی کاربر یا حمله به سایر کاربران CENO و Ouinet به "
+"کار می‌روند. اگر در این‌باره تردیدی دارید، لطفاً پیش از نصب یک نرم‌افزار "
+"مشکوک با نشانی [cenoers@equalit.ie](mailto:cenoers@equalit.ie) تماس بگیرید."
 
 #: browser/install.md:block 6 (header)
 msgid "Stopping CENO completely"
@@ -121,7 +120,7 @@ msgid ""
 "**Note:** If the actions below the notification are not visible, drag the "
 "notification from its center towards the bottom to unfold it."
 msgstr ""
-"**نکته:** اگر گزینه‌های زیر بخش اطلاع‌رسانی به چشم نمی‌آیند، مستطیل اطلاع‌رسانی "
+"**نکته:** اگر گزینه‌های زیر بخش اطلاع‌رسانی را نمی‌بینید، مستطیل اطلاع‌رسانی "
 "را از وسط بگیرید و به طرف پایین بکشید تا آن را نمایان کنید."
 
 #: browser/install.md:block 13 (paragraph)
@@ -153,13 +152,12 @@ msgid ""
 "removed *without further questions*, effectively leaving your device as if "
 "CENO had never been used."
 msgstr ""
-"اگر روی «بله» ضربه بزنید، CENO متوقف خواهد شد و تمام داده‌هایش *بی هیچ پرسش "
-"دیگری* حذف خواهد شد، یعنی انگار عملاً دستگاه‌تان را کنار گذاشته‌اید به‌طوری "
-"که گویا هرگز از CENO استفاده نکرده بوده‌اید."
+"اگر روی *بله* انگشت بفشارید، سنو متوقف خواهد شد و تمام داده‌هایش *بی‌هیچ "
+"پرسش دیگری* حذف خواهد شد، طوری که انگار هیچ‌گاه از سنو استفاده نکرده بودید."
 
 #: browser/install.md:block 16 (paragraph)
 msgid "If you do not tap on the action, it will go away in a few seconds."
-msgstr "اگر روی این گزینه انگشت ضربه نزنید، در عرض چند ثانیه از بین خواهد رفت."
+msgstr "اگر روی این گزینه تقه نزنید در عرض چند ثانیه از بین خواهد رفت."
 
 #: browser/install.md:block 17 (quote)
 msgid ""
@@ -176,15 +174,15 @@ msgstr ""
 #: browser/install.md:block 17 (quote)
 msgid "As a harsher alternative, you may completely uninstall the app."
 msgstr ""
-"به‌عنوان یک گزینه‌ محکم‌تر، می‌توانید این نرم‌افزار را به‌طور کامل حذف کنید."
+"به‌عنوان یک جایگزین شدیدتر، می‌توانید این نرم‌افزار را به‌طور کامل حذف کنید."
 
 #: browser/install.md:block 18 (quote)
 msgid ""
 "**Warning:** Android may still keep other traces of having used an app "
 "besides its data, for instance in its system log."
 msgstr ""
-"**هشدار:** اندروید شاید همچنان ردپاهای دیگری از کاربرد یک نرم‌افزار نسبت به "
-"داده‌های آن را، برای نمونه در گزارش سیستم‌اش، نگه دارد."
+"**هشدار:** اندروید ممکن است همچنان ردپاهای دیگری از کاربرد یک نرم‌افزار را "
+"به غیر از داده‌هایش نگه دارد؛ برای نمونه در گزارش سیستم‌."
 
 #: browser/install.md:block 18 (quote)
 msgid ""
