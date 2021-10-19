@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-19 11:38+0000\n"
+"PO-Revision-Date: 2021-10-19 22:49+0000\n"
 "Last-Translator: Kian <kian@tahgheegh.com>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "qsg/fa/>\n"
@@ -42,8 +42,8 @@ msgid ""
 "Install the CENO Browser from [Google Play][ceno-gplay], [GitHub][ceno-gh] "
 "or [Paskoocheh][ceno-pask]. *No special permissions are needed*."
 msgstr ""
-"مرورگر سنو را از [گوگل پلی][ceno-gplay]، [گیت‌هاب][ceno-gh] یا [پس‌کوچه][ceno-"
-"pask] دریافت و نصب کنید. *به هیچ جواز خاصی نیازی نیست*."
+"مرورگر CENO را از [گوگل پلی][ceno-gplay]، [گیت‌هاب][ceno-gh] یا [پس‌کوچه"
+"][ceno-pask] دریافت و نصب کنید. *به هیچ جواز خاصی نیازی نیست*."
 
 #: intro/qsg.md:block 5 (ordered list)
 msgid "Run it."
@@ -62,7 +62,7 @@ msgstr ""
 
 #: intro/qsg.md:block 5 (ordered list)
 msgid "Tap on the CENO notification to stop it completely."
-msgstr "روی اطلاع‌رسان سنو بزنید تا آن را به‌طور کامل متوقف کنید."
+msgstr "روی اطلاع‌رسان CENO بزنید تا آن را به‌طور کامل متوقف کنید."
 
 #: intro/qsg.md:block 6 (paragraph)
 msgid "Detailed installation instructions are [here](../browser/install.md)."
