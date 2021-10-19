@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-13 15:59+0000\n"
-"Last-Translator: Kian <kian@tahgheegh.com>\n"
+"PO-Revision-Date: 2021-10-19 22:49+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-public-private/fa/>\n"
 "Language: fa\n"
@@ -48,7 +48,7 @@ msgid ""
 "You can tell public tabs from private ones because public tabs have a "
 "lighter (or white) tool bar:"
 msgstr ""
-"شما می‌توانید زبانه‌های عمومی را از زبانه‌های خصوصی جدا کنید، چون زبانه‌های "
+"شما می‌توانید زبانه‌های عمومی را از زبانه‌های خصوصی تشخیص دهید چون زبانه‌های "
 "عمومی یک نوار ابزار روشن‌تر (یا سفید) دارند:"
 
 #: browser/public-private.md:block 5 (paragraph)
