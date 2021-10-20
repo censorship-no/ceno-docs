@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-19 22:49+0000\n"
+"PO-Revision-Date: 2021-10-21 19:40+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-bridging/fa/>\n"
@@ -40,7 +40,6 @@ msgstr ""
 "دستگاه شما ذخیره نخواهد شد."
 
 #: browser/bridging.md:block 3 (quote)
-#, fuzzy
 msgid ""
 "**Note:** The configuration described in this section may also help your "
 "device to effectively seed content to others on the distributed cache, so "
@@ -50,9 +49,9 @@ msgid ""
 msgstr ""
 "**توجه:** همچنین پیکربندی مورد اشاره در این بخش می‌تواند به دستگاه شما در "
 "قرار دادن محتوا در حافظه پنهان (کش) دستگاه دیگر کاربران کمک کند. بنابراین "
-"خواهشمندیم که هنگام استفاده از CENO در یک کشوری که اینترنت را سانسور می‌کند، "
-"این گزینه را نیز در نظر بگیرید. البته به یاد داشته باشید که این کار خطرات "
-"مخصوص خود را نیز دارد."
+"خواهشمندیم که هنگام استفاده از CENO در کشوری که اینترنت را سانسور می‌کند، "
+"این گزینه را نیز در نظر بگیرید. (البته به یاد داشته باشید که این کار "
+"[خطرات](../concepts/risks.md) مخصوص خود را نیز دارد)."
 
 #: browser/bridging.md:block 4 (header)
 msgid "How to become a CENO bridge"
