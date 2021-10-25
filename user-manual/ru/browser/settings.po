@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2021-08-29 08:35+0000\n"
+"PO-Revision-Date: 2021-09-25 10:38+0000\n"
 "Last-Translator: Ed Medvedev <edward.medvedev@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-settings/ru/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.8.1-dev\n"
+"X-Generator: Weblate 4.9-dev\n"
 
 #
 #: browser/settings.md:block 1 (header)
@@ -59,8 +59,8 @@ msgstr ""
 "выглядеть следующим образом:"
 
 #: browser/settings.md:block 5 (paragraph)
-msgid "**![ page](images/settings.png)"
-msgstr "**![ страница](images/settings.png)"
+msgid "![Figure: The CENO Settings page](images/settings.png)"
+msgstr "![Рисунок: Страница настроек CENO](images/settings.png)"
 
 #: browser/settings.md:block 6 (header)
 msgid "Choosing access mechanisms"
@@ -97,7 +97,6 @@ msgstr ""
 "пользователям."
 
 #: browser/settings.md:block 8 (unordered list)
-#, fuzzy
 msgid ""
 "If getting most Web content is not particularly slow or expensive, this "
 "mechanism may be more than enough for most use cases. However, such direct "
@@ -118,13 +117,16 @@ msgid ""
 "secure HTTPS), a censor may intercept the connection and supply the user "
 "with a bogus site, a tampering which CENO cannot detect by itself. In such "
 "cases, it may help to disable this option and thus always resort to other, "
-"safer CENO mechanisms."
+"safer CENO mechanisms. Please check the section on [troubleshooting]"
+"(troubleshooting.md) to learn more about this issue."
 msgstr ""
 "Кроме того, при доступе к веб-сайту по незащищенному протоколу HTTP (вместо "
 "более безопасного HTTPS) цензор может перехватить соединение и предоставить "
 "пользователю фиктивный сайт, что не может быть обнаружено CENO "
 "самостоятельно. В таких случаях полезно отключить эту опцию и всегда "
-"прибегать к другим, более безопасным способам использования CENO."
+"прибегать к другим, более безопасным способам использования CENO. "
+"Пожалуйста, ознакомьтесь с разделом [устранение неполадок](troubleshooting."
+"md), чтобы узнать больше об этой проблеме."
 
 #: browser/settings.md:block 8 (unordered list)
 msgid ""
@@ -260,9 +262,9 @@ msgstr ""
 
 #: browser/settings.md:block 14 (unordered list)
 msgid ""
-"*Local UDP endpoint(s)* are the Internet addresses used by CENO to seed "
-"signed content to other clients. These are shown to help test and debug the "
-"app, and should not be generally disclosed."
+"*Local UDP endpoints* are the Internet addresses used by CENO to seed signed "
+"content to other clients. These are shown to help test and debug the app, "
+"and should not be generally disclosed."
 msgstr ""
 "*Локальные конечные точки UDP* - это интернет-адреса, используемые CENO для "
 "передачи подписанного контента другим клиентам. Они показаны для "
@@ -292,6 +294,14 @@ msgid ""
 msgstr ""
 "*Размер локального кэша* показывает приблизительный объем памяти, занимаемый "
 "содержимым, загружаемым из локального кэша вашего устройства."
+
+#: browser/settings.md:block 14 (unordered list)
+msgid ""
+"*Content shared by you* allows you to check the content being announced by "
+"your device."
+msgstr ""
+"*Контент, предоставленный вами* позволяет проверить содержимое, которое "
+"раздает ваше устройство."
 
 #: browser/settings.md:block 15 (header)
 msgid "Purging the local cache"

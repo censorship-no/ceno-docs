@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2021-08-03 08:32+0000\n"
+"PO-Revision-Date: 2021-09-14 07:36+0000\n"
 "Last-Translator: Tun Tun AUNG <tuntunaung@codingclassroom.org>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "browser-install/my/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.8-dev\n"
+"X-Generator: Weblate 4.9-dev\n"
 
 #
 #: browser/install.md:block 1 (header)
@@ -21,26 +21,26 @@ msgstr "CENO ထည့်သွင်းခြင်း"
 
 #: browser/install.md:block 2 (paragraph)
 msgid "The CENO Browser can be installed via the following means:"
-msgstr "CENO ဘရောက်ဇာကို အောက်ပါနည်းလမ်းများဖြင့် ထည့်သွင်းနိုင်သည်-"
+msgstr "CENO ဘရောက်ဇာကို အောက်ပါနည်းလမ်းများဖြင့် ထည့်သွင်းနိုင်သည် -"
 
 #: browser/install.md:block 3 (unordered list)
 msgid ""
 "[Google Play][ceno-gplay] (*CENO Browser* from *eQualitie*): the recommended "
 "source for most Android users."
 msgstr ""
-"[Google Play][ceno-gplay] (*eQualitie* မှ*CENO Browser*)- Android "
+"[Google Play][ceno-gplay] (*eQualitie* မှ *CENO Browser*) - Android "
 "သုံးစွဲသူအများစုအတွက် အကြံပြုထားသော ရင်းမြစ်ဖြစ်သည်။"
 
 #: browser/install.md:block 3 (unordered list)
 msgid "[GitHub][ceno-gh]: for Android devices without Google Play."
-msgstr "[GitHub][ceno-gh]- Google Play မပါသော Android စက်များအတွက် ဖြစ်သည်။"
+msgstr "[GitHub][ceno-gh] - Google Play မပါသော Android စက်များအတွက် ဖြစ်သည်။"
 
 #: browser/install.md:block 3 (unordered list)
 msgid ""
 "[Paskoocheh][ceno-pask]: for users in countries blocking access to the "
 "previous channels."
 msgstr ""
-"[Paskoocheh][ceno-pask]- ယခင်လိုင်းများကို ဝင်ရောက်သုံးစွဲခွင့် "
+"[Paskoocheh][ceno-pask] - ယခင်လိုင်းများကို ဝင်ရောက်သုံးစွဲခွင့် "
 "ပိတ်ဆို့ထားသော နိုင်ငံများရှိ သုံးစွဲသူများအတွက် ဖြစ်သည်။"
 
 #: browser/install.md:block 4 (paragraph)
@@ -56,7 +56,7 @@ msgid ""
 "other CENO and Ouinet users. If in doubt, please contact [cenoers@equalit.ie]"
 "(mailto:cenoers@equalit.ie) before installing a suspicious app."
 msgstr ""
-"**သတိပေးချက်-** အထက်ပါ ရင်းမြစ်များမှလွဲ၍ အခြားရင်းမြစ်များမှ CENO "
+"**သတိပေးချက် -** အထက်ပါ ရင်းမြစ်များမှလွဲ၍ အခြားရင်းမြစ်များမှ CENO "
 "ဘရောက်ဇာကို ထည့်သွင်းခြင်းနှင့် ပတ်သက်၍ *အလွန် သံသယထားပါ*။ အက်ပလီကေးရှင်း၏ "
 "သဘောသဘာဝကြောင့် ၎င်းတို့၏ ဖြစ်နိုင်ခြေရှိသော သုံးစွဲသူများသည် သုံးစွဲသူ၏ "
 "ကိုယ်ရေးလုံခြုံမှုကို ချိုးဖောက်ရန် သို့မဟုတ် အခြား CENO နှင့် Ouinet "
@@ -65,26 +65,11 @@ msgstr ""
 "က ကျေးဇူးပြု၍ သံသယဖြစ်ဖွယ် အက်ပ်တစ်ခုကို မထည့်သွင်းမီ [cenoers@equalit."
 "ie](mailto:cenoers@equalit.ie) ကို ဆက်သွယ်ပါ။"
 
-#: browser/install.md:block 6 (paragraph)
-msgid ""
-"When you run CENO for the first time, you will be presented with a series of "
-"screens introducing some features generic to Firefox browsers. Just scroll "
-"through them by pressing *NEXT* until you see a *Sign in to Sync* button and "
-"a *START BROWSING* link. Firefox Sync has not been tested to work with CENO, "
-"so just push *START BROWSING*."
-msgstr ""
-"သင်သည် CENO ကို ပထမဆုံးအကြိမ် အသုံးပြုသောအခါ Firefox ဘရောက်ဇာများနှင့် "
-"ယေဘုယျအားဖြင့် ဆင်တူသော လုပ်ဆောင်ချက်အချို့ကို မိတ်ဆက်သည့် မျက်နှာပြင်များကို"
-" တင်ဆက်ပါမည်။ *ချိန်ကိုက်ရန် ဝင်ရောက်ပါ* ခလုတ်တစ်ခုနှင့် *စတင်ရှာဖွေမည်* "
-"လင့်တစ်ခုကို သင်မြင်ချိန်အထိ *ရှေ့သို့* ကို နှိပ်ပြီး ၎င်းတို့ကို ရွှေ့ပါ။ "
-"Firefox ချိန်ကိုက်ခြင်းကို CENO နှင့် တွဲဖက်အလုပ်လုပ်ရန် "
-"မစမ်းသပ်ထားသောကြောင့် *စတင်ရှာဖွေမည်* ကိုသာ နှိပ်ပါ။"
-
-#: browser/install.md:block 7 (header)
+#: browser/install.md:block 6 (header)
 msgid "Stopping CENO completely"
 msgstr "CENO ကို လုံးဝ ရပ်တန့်ခြင်း"
 
-#: browser/install.md:block 8 (paragraph)
+#: browser/install.md:block 7 (paragraph)
 msgid ""
 "Every time you start the app, a CENO icon will appear on your device's "
 "notification bar. This icon represents the *CENO Browser service*, which is "
@@ -92,57 +77,57 @@ msgid ""
 "allows other clients to use your device as a bridge and retrieve content "
 "from it at any time."
 msgstr ""
-"သင် အက်ပ်ကို စတင်သည့် အချိန်တိုင်းတွင် CENO အိုင်ကွန်သည် သင့်စက်၏ "
-"အသိပေးချက်ဘားတွင် ပေါ်လာပါမည်။ ဤအိုင်ကွန်သည် *CENO ဝက်ဘ် ဘရောက်ဇာ "
-"ဝန်ဆောင်မှု* ကို ကိုယ်စားပြုပြီး ၎င်းသည် (သင်ရှာဖွေမနေသည့် အချိန်တွင်ပင်) "
-"အမြဲတမ်း လုပ်ဆောင်သည့် CENO ၏ တစ်စိတ်တစ်ပိုင်းဖြစ်ပြီး အခြားလက်ခံစက်များအား "
-"သင့်စက်ကို ပေါင်းကူးအဖြစ် အသုံးပြု၍ ၎င်းထံမှ အချက်အလက်ကို အချိန်မရွေး "
-"ပြန်ထုတ်ရန် ခွင့်ပြုသည်။"
+"သင် အက်ပ်ကို စတင်သည့် အချိန်တိုင်းတွင် CENO အိုင်ကွန်သည် သင့်စက်၏ အသိပေးချက်ဘားတွင် ပေါ်လာပါမည်။ ဤအိုင်ကွန်သည် "
+"*CENO ဝက်ဘ် ဘရောက်ဇာ ဝန်ဆောင်မှု* ကို ကိုယ်စားပြုပြီး ၎င်းသည် (သင်ရှာဖွေမနေသည့် အချိန်တွင်ပင်) အမြဲတမ်း "
+"လုပ်ဆောင်သည့် CENO ၏ တစ်စိတ်တစ်ပိုင်းဖြစ်ပြီး အခြားလက်ခံစက်များအား သင့်စက်ကို ပေါင်းကူးအဖြစ် အသုံးပြု၍ "
+"၎င်းထံမှ အချက်အလက်ကို အချိန်မရွေး ပြန်ထုတ်ရန် ခွင့်ပြုသည်။"
 
-#: browser/install.md:block 9 (paragraph)
+#: browser/install.md:block 8 (paragraph)
 msgid ""
 "Since running such service uses network and processor resources, you may "
 "want to stop it whenever you are on the move (i.e. not connected to Wi-Fi or "
 "far from a charger). Tapping on the notification attached to the icon will "
 "stop both CENO and its service at once (until you open CENO again)."
 msgstr ""
-"ထိုဝန်ဆောင်မှုကို လုပ်ဆောင်ခြင်းသည် ကွန်ရက်နှင့် ပရိုဆက်ဆာ ရင်းမြစ်များကို "
-"အသုံးပြုသည့်အတွက် သင်သည် လှုပ်ရှားသွားလာနေချိန်တွင် (ဆိုလိုသည်မှာ Wi-Fi နှင့်"
-" ချိတ်ဆက်မထားချိန် သို့မဟုတ် အားသွင်းကိရိယာနှင့် ဝေးနေချိန်တွင်) ၎င်းကို "
-"ရပ်တန့်လိုစိတ် ရှိနိုင်သည်။ အိုင်ကွန်တွင် တွဲချိတ်ထားသော အသိပေးချက်ကို "
-"နှိပ်ခြင်းဖြင့် CENO နှင့် ၎င်း၏ ဝန်ဆောင်မှုကို (သင် CENO ကို ထပ်မံဖွင့်သည့် "
-"အချိန်အထိ) ချက်ချင်း ရပ်တန့်ပါမည်။"
+"ထိုဝန်ဆောင်မှုကို လုပ်ဆောင်ခြင်းသည် ကွန်ရက်နှင့် ပရိုဆက်ဆာ ရင်းမြစ်များကို အသုံးပြုသည့်အတွက် သင်သည် "
+"လှုပ်ရှားသွားလာနေချိန်တွင် (ဆိုလိုသည်မှာ Wi-Fi နှင့် ချိတ်ဆက်မထားချိန် သို့မဟုတ် အားသွင်းကိရိယာနှင့် "
+"ဝေးနေချိန်တွင်) ၎င်းကို ရပ်တန့်လိုစိတ် ရှိနိုင်သည်။ အိုင်ကွန်တွင် တွဲချိတ်ထားသော အသိပေးချက်ကို နှိပ်ခြင်းဖြင့် CENO "
+"နှင့် ၎င်း၏ ဝန်ဆောင်မှုကို (သင် CENO ကို ထပ်မံဖွင့်သည့် အချိန်အထိ) ချက်ချင်း ရပ်တန့်ပါမည်။"
 
-#: browser/install.md:block 10 (paragraph)
+#: browser/install.md:block 9 (paragraph)
 msgid ""
 "![Figure: Tap on the notification to stop the CENO service](images/tap-stop."
 "png)"
-msgstr "![ပုံ- CENO ဝန်ဆောင်မှုကို ရပ်တန့်ရန် အသိပေးချက်ကို နှိပ်ပါ](images/tap-stop.png)"
+msgstr ""
+"![ပုံ - CENO ဝန်ဆောင်မှုကို ရပ်တန့်ရန် အသိပေးချက်ကို နှိပ်ပါ](images/tap-stop"
+".png)"
 
-#: browser/install.md:block 11 (header)
+#: browser/install.md:block 10 (header)
 msgid "Purging all CENO data (the \"panic button\")"
 msgstr "CENO ဒေတာအားလုံးကို ထုတ်ပယ်ခြင်း (\"စိုးရိမ်မှု ခလုတ်\")"
 
-#: browser/install.md:block 12 (paragraph)
+#: browser/install.md:block 11 (paragraph)
 msgid ""
 "The *CENO Browser service* notification shown above includes a few "
 "accompanying actions which can be triggered by tapping on them. The *Home* "
 "action will just open CENO with a new public browsing tab showing its home "
 "page. The *Erase* action demands more explanation."
 msgstr ""
-"အထက်ပါ *CENO ဘရောက်ဇာ ဝန်ဆောင်မှု* အသိပေးချက်တွင် ၎င်းတို့ကို နှိပ်ခြင်းဖြင့် လှုံ့ဆော်နိုင်သော "
-"တွဲဖက်လုပ်ဆောင်ချက် အနည်းငယ် ပါဝင်သည်။ *ပင်မ* လုပ်ဆောင်ချက်သည် ၎င်း၏ ပင်မ စာမျက်နှာကို ပြသသည့် "
-"အများသုံး ရှာဖွေမှု တက်ဘ်အသစ်ဖြင့် CENO ကို ဖွင့်ပါမည်။ *ဖျက်ရန်* လုပ်ဆောင်ချက်ကို ပိုမိုရှင်းပြရန် လိုအပ်သည်။"
+"အထက်ပါ *CENO ဘရောက်ဇာ ဝန်ဆောင်မှု* အသိပေးချက်တွင် ၎င်းတို့ကို နှိပ်ခြင်းဖြင့်"
+" လှုံ့ဆော်နိုင်သော တွဲဖက်လုပ်ဆောင်ချက် အနည်းငယ် ပါဝင်သည်။ *ပင်မ* "
+"လုပ်ဆောင်ချက်သည် ၎င်း၏ ပင်မ စာမျက်နှာကို ပြသသည့် အများသုံး ရှာဖွေမှု "
+"တပ်ဗ်အသစ်ဖြင့် CENO ကို ဖွင့်ပါမည်။ *ဖျက်ရန်* လုပ်ဆောင်ချက်ကို "
+"ပိုမိုရှင်းပြရန် လိုအပ်သည်။"
 
-#: browser/install.md:block 13 (quote)
+#: browser/install.md:block 12 (quote)
 msgid ""
 "**Note:** If the actions below the notification are not visible, drag the "
 "notification from its center towards the bottom to unfold it."
 msgstr ""
-"**မှတ်ချက်-** အသိပေးချက်အောက်ရှိ လုပ်ဆောင်ချက်များကို မမြင်နိုင်ပါက အသိပေးချက်ကို ဖြန့်ရန် ၎င်း၏ ဗဟိုမှ "
-"အောက်ခြေဘက်သို့ ဆွဲပါ။"
+"**မှတ်ချက် -** အသိပေးချက်အောက်ရှိ လုပ်ဆောင်ချက်များကို မမြင်နိုင်ပါက "
+"အသိပေးချက်ကို ဖြန့်ရန် ၎င်း၏ ဗဟိုမှ အောက်ခြေဘက်သို့ ဆွဲပါ။"
 
-#: browser/install.md:block 14 (paragraph)
+#: browser/install.md:block 13 (paragraph)
 msgid ""
 "Shall you ever need to quickly stop CENO and clear absolutely all data "
 "related to it (not only cached content, but also settings like favorites, "
@@ -150,22 +135,20 @@ msgid ""
 "your data accidentally, this will not remove anything yet, but just show an "
 "additional action for a brief moment, as pictured below:"
 msgstr ""
-"သင်သည် CENO ကို လျင်မြန်စွာ ရပ်တန့်ပြီး ၎င်းနှင့်သက်ဆိုင်သော (ယာယီ "
-"သိမ်းဆည်းထားသော အကြောင်းအရာသာမက အနှစ်သက်ဆုံးများ၊ စကားဝှက်များနှင့် ရှာဖွေမှု"
-" မှတ်တမ်း အားလုံးကိုပါ) ဒေတာအားလုံးကို လုံးဝ ရှင်းလင်းရန် လိုအပ်ပါက သင်သည် "
-"*ဖျက်ရန်* ကို နှိပ်နိုင်သည်။ သင့်ဒေတာ မတော်တဆ ဆုံးရှုံးခြင်းကို "
-"ရှောင်ရှားရန်အတွက် ယင်းသည် မည်သည့်အရာကိုမျှ မဖယ်ရှားသေးဘဲ အောက်ပါပုံတွင် "
-"ပြထားသည့်အတိုင်း ထပ်ဆောင်း လုပ်ဆောင်ချက်တစ်ခုကို ခဏ ပြသပါမည်-"
+"သင်သည် CENO ကို လျင်မြန်စွာ ရပ်တန့်ပြီး ၎င်းနှင့်သက်ဆိုင်သော (ယာယီ သိမ်းဆည်းထားသော အကြောင်းအရာသာမက "
+"အနှစ်သက်ဆုံးများ၊ စကားဝှက်များနှင့် ရှာဖွေမှု မှတ်တမ်း အားလုံးကိုပါ) ဒေတာအားလုံးကို လုံးဝ ရှင်းလင်းရန် "
+"လိုအပ်ပါက သင်သည် *ဖျက်ရန်* ကို နှိပ်နိုင်သည်။ သင့်ဒေတာ မတော်တဆ ဆုံးရှုံးခြင်းကို ရှောင်ရှားရန်အတွက် ယင်းသည် "
+"မည်သည့်အရာကိုမျှ မဖယ်ရှားသေးဘဲ အောက်ပါပုံတွင် ပြထားသည့်အတိုင်း ထပ်ဆောင်း လုပ်ဆောင်ချက်တစ်ခုကို ခဏ ပြသပါမည်-"
 
-#: browser/install.md:block 15 (paragraph)
+#: browser/install.md:block 14 (paragraph)
 msgid ""
 "![Figure: The last action stops CENO and clears all its data](images/tap-"
 "purge.png)"
 msgstr ""
-"![ပုံ- နောက်ဆုံး လုပ်ဆောင်ချက်သည် CENO ကို ရပ်တန့်ပြီး ၎င်း၏ ဒေတာအားလုံးကို ရှင်းလင်းသည်](images/tap-"
-"purge.png)"
+"![ပုံ - နောက်ဆုံး လုပ်ဆောင်ချက်သည် CENO ကို ရပ်တန့်ပြီး ၎င်း၏ ဒေတာအားလုံးကို "
+"ရှင်းလင်းသည်](images/tap-purge.png)"
 
-#: browser/install.md:block 16 (paragraph)
+#: browser/install.md:block 15 (paragraph)
 msgid ""
 "If you tap on the *Yes* action, CENO will be stopped and all its data "
 "removed *without further questions*, effectively leaving your device as if "
@@ -174,45 +157,58 @@ msgstr ""
 "သင်သည် *လုပ်မည်* လုပ်ဆောင်ချက်ကို နှိပ်လျှင် CENO ကို ရပ်တန့်ပြီး ၎င်း၏ ဒေတာအားလုံးကို *နောက်ထပ် မေးခွန်း "
 "မမေးဘဲ* ဖယ်ရှားမည်ဖြစ်ပြီး သင့်စက်တွင် CENO ကို လုံးဝ အသုံးမပြုဖူးသကဲ့သို့ ထိရောက်စွာ ချန်ခဲ့ပါမည်။"
 
-#: browser/install.md:block 17 (paragraph)
+#: browser/install.md:block 16 (paragraph)
 msgid "If you do not tap on the action, it will go away in a few seconds."
 msgstr "သင်သည် လုပ်ဆောင်ချက်ကို မနှိပ်ပါက ၎င်းသည် စက္ကန့်အနည်းငယ်အကြာတွင် ပျောက်သွားပါမည်။"
 
-#: browser/install.md:block 18 (quote)
+#: browser/install.md:block 17 (quote)
 msgid ""
 "**Note:** The method described above requires that CENO be running on your "
 "device. To accomplish the same effect when CENO is stopped, you can use "
 "Android's general *Settings* page and, under the *Apps* entry, choose CENO "
 "and then *Clear data*."
 msgstr ""
-"**မှတ်ချက်-** အထက်ပါနည်းလမ်းအတွက် သင့်စက်တွင် CENO ကို လုပ်ဆောင်ထားရန် "
+"**မှတ်ချက် -** အထက်ပါနည်းလမ်းအတွက် သင့်စက်တွင် CENO ကို လုပ်ဆောင်ထားရန် "
 "လိုအပ်သည်။ CENO ကို ရပ်ထားချိန်တွင် တူညီသော အကျိုးသက်ရောက်မှု ရရှိရန် သင်သည် "
 "Android ၏ ယေဘုယျ *ဆက်တင်များ* စာမျက်နှာကို အသုံးပြုနိုင်ပြီး *အက်ပ်များ* "
 "အကြောင်းအရာအောက်တွင် CENO ကို ရွေးချယ်ပြီးနောက် *ဒေတာရှင်းမည်* ကို "
 "ရွေးချယ်ပါ။"
 
-#: browser/install.md:block 18 (quote)
+#: browser/install.md:block 17 (quote)
 msgid "As a harsher alternative, you may completely uninstall the app."
 msgstr "ပိုမိုခက်ခဲသော ရွေးချယ်စရာအနေနှင့် သင်သည် အက်ပ်ကို လုံးဝ ဖျက်နိုင်သည်။"
 
-#: browser/install.md:block 19 (quote)
+#: browser/install.md:block 18 (quote)
 msgid ""
 "**Warning:** Android may still keep other traces of having used an app "
 "besides its data, for instance in its system log."
 msgstr ""
-"**သတိပေးချက်-** Android သည် ၎င်း၏ ဒေတာအပြင် အက်ပ်တစ်ခုကို အသုံးပြုထားကြောင်း အခြားသဲလွန်စများကို "
-"ဥပမာအားဖြင့် ၎င်း၏ စနစ်မှတ်တမ်းတွင် ဆက်လက်သိမ်းဆည်းထားနိုင်သည်။"
+"**သတိပေးချက် -** Android သည် ၎င်း၏ ဒေတာအပြင် အက်ပ်တစ်ခုကို အသုံးပြုထားကြောင်း"
+" အခြားသဲလွန်စများကို ဥပမာအားဖြင့် ၎င်း၏ စနစ်မှတ်တမ်းတွင် "
+"ဆက်လက်သိမ်းဆည်းထားနိုင်သည်။"
 
-#: browser/install.md:block 19 (quote)
+#: browser/install.md:block 18 (quote)
 msgid ""
 "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
 msgstr ""
 "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
 
-#: browser/install.md:block 19 (quote)
+#: browser/install.md:block 18 (quote)
 msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
 msgstr "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
 
-#: browser/install.md:block 19 (quote)
+#: browser/install.md:block 18 (quote)
 msgid "[ceno-pask]: https://paskoocheh.com/tools/124/android.html"
 msgstr "[ceno-pask]: https://paskoocheh.com/tools/124/android.html"
+
+#~ msgid ""
+#~ "When you run CENO for the first time, you will be presented with a series "
+#~ "of screens introducing some features generic to Firefox browsers. Just "
+#~ "scroll through them by pressing *NEXT* until you see a *Sign in to Sync* "
+#~ "button and a *START BROWSING* link. Firefox Sync has not been tested to "
+#~ "work with CENO, so just push *START BROWSING*."
+#~ msgstr ""
+#~ "သင်သည် CENO ကို ပထမဆုံးအကြိမ် အသုံးပြုသောအခါ Firefox ဘရောက်ဇာများနှင့် ယေဘုယျအားဖြင့် "
+#~ "ဆင်တူသော လုပ်ဆောင်ချက်အချို့ကို မိတ်ဆက်သည့် မျက်နှာပြင်များကို တင်ဆက်ပါမည်။ *ချိန်ကိုက်ရန် ဝင်ရောက်ပါ* "
+#~ "ခလုတ်တစ်ခုနှင့် *စတင်ရှာဖွေမည်* လင့်တစ်ခုကို သင်မြင်ချိန်အထိ *ရှေ့သို့* ကို နှိပ်ပြီး ၎င်းတို့ကို ရွှေ့ပါ။ Firefox "
+#~ "ချိန်ကိုက်ခြင်းကို CENO နှင့် တွဲဖက်အလုပ်လုပ်ရန် မစမ်းသပ်ထားသောကြောင့် *စတင်ရှာဖွေမည်* ကိုသာ နှိပ်ပါ။"

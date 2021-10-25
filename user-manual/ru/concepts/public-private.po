@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-16 04:02+0200\n"
-"PO-Revision-Date: 2021-08-17 10:24+0000\n"
-"Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
+"PO-Revision-Date: 2021-09-23 14:36+0000\n"
+"Last-Translator: Ed Medvedev <edward.medvedev@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/censorship-no/"
 "public-private/ru/>\n"
 "Language: ru\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.8-dev\n"
+"X-Generator: Weblate 4.9-dev\n"
 
 #
 #: concepts/public-private.md:block 1 (header)
@@ -34,10 +34,10 @@ msgstr ""
 "подключением, CENO может стать для вас удобным способом получения "
 "всевозможного веб-контента. И, как вы, возможно, уже читали в предыдущих "
 "разделах, каждый раз, когда вы получаете и передаете страницу с помощью "
-"Браузера CENO, она становится доступной для других. Однако может быть такое "
-"содержимое, которым вы не хотели бы делиться (или не хотели бы, чтобы другие "
-"знали, что вы пытаетесь или уже получили), и, к счастью, CENO может помочь "
-"вам и в этом случае."
+"Браузера CENO, она становится доступной для других. В то же время, есть "
+"контент, которым вы не хотели бы делиться (или не хотели бы, чтобы другие "
+"знали, что вы пытаетесь получить к нему доступ), и, к счастью, CENO может "
+"помочь вам и в этом случае."
 
 #: concepts/public-private.md:block 3 (paragraph)
 msgid ""
@@ -45,23 +45,23 @@ msgid ""
 "it, CENO accesses Web content as described previously:"
 msgstr ""
 "По умолчанию при запуске приложения используется режим **публичный просмотр**"
-". В нем CENO получает доступ к веб-содержимому, как описано ранее:"
+". В нем CENO получает доступ к веб-контенту, как описано ранее:"
 
 #: concepts/public-private.md:block 4 (ordered list)
 msgid "Direct access is attempted."
-msgstr "Попытка прямого доступа."
+msgstr "Пытается получить доступ напрямую."
 
 #: concepts/public-private.md:block 4 (ordered list)
 msgid "Failing that, the distributed cache is searched."
-msgstr "В этом случае выполняется поиск в распределенном кэше."
+msgstr "Если не вышло, выполняется поиск в распределенном кэше."
 
 #: concepts/public-private.md:block 4 (ordered list)
 msgid ""
 "Failing that, the content is requested via an injector (maybe via another "
 "client)."
 msgstr ""
-"В этом случае содержимое запрашивается через инжектор (возможно, через "
-"другого клиента)."
+"Если не вышло, содержимое запрашивается через инжектор (возможно, через "
+"другого пользователя)."
 
 #: concepts/public-private.md:block 5 (paragraph)
 msgid ""
@@ -69,7 +69,7 @@ msgid ""
 "never searched, and injection is never attempted:"
 msgstr ""
 "CENO также имеет режим **приватного просмотра**. В нем распределенный кэш "
-"никогда не просматривается, и попытки инъекции не предпринимаются:"
+"никогда не просматривается и попытки инъекции не предпринимаются:"
 
 #: concepts/public-private.md:block 6 (ordered list)
 msgid ""
@@ -77,18 +77,17 @@ msgid ""
 "*as a normal proxy server*. Note that in this case, neither the injector nor "
 "your client updates the distributed cache with your page."
 msgstr ""
-"В этом случае с инъектором связываются (возможно, через другого клиента) и "
-"используют его *как обычный прокси-сервер*. Обратите внимание, что в этом "
-"случае ни инъектор, ни ваш клиент не обновляют распределенный кэш с вашей "
-"страницей."
+"Если не вышло, инъектор (возможно, через другого пользователя) используется *"
+"как обычный прокси-сервер*. Обратите внимание, что в этом случае ни "
+"инъектор, ни ваш клиент не загружают вашу страницу в распределенный кэш."
 
 #: concepts/public-private.md:block 7 (paragraph)
 msgid ""
 "The different behavior results in different characteristics. Thus, in public "
 "mode:"
 msgstr ""
-"Различное поведение приводит к различным характеристикам. Так, в публичном "
-"режиме:"
+"Разное поведение в этих режимах приводит к разным результатам. Так, в "
+"публичном режиме:"
 
 #: concepts/public-private.md:block 8 (ordered list)
 msgid ""
@@ -118,19 +117,19 @@ msgstr ""
 msgid ""
 "Some browsing activity may be leaked to other users (see [risks](risks.md))."
 msgstr ""
-"Некоторые действия в браузере могут быть переданы другим пользователям (см. "
-"[риски](risks.md))."
+"Некоторые ваши действия в браузере могут стать известны другим пользователям "
+"(см. [риски](risks.md))."
 
 #: concepts/public-private.md:block 8 (ordered list)
 msgid ""
 "Some browsing activity may be leaked to injectors (see [risks](risks.md))."
 msgstr ""
-"Некоторые действия в браузере могут быть переданы инъекторам (см. "
+"Некоторые ваши действия в браузере могут стать известны инъекторам (см. "
 "[риски](risks.md))."
 
 #: concepts/public-private.md:block 8 (ordered list)
 msgid "You need to trust injectors to retrieve and sign Web content."
-msgstr "Вы должны доверять инъекторам получать и подписывать веб-контент."
+msgstr "Вам придется доверять инъекторам получение и подписывание веб-контента."
 
 #: concepts/public-private.md:block 9 (paragraph)
 msgid "While in private mode:"
@@ -156,11 +155,11 @@ msgid ""
 "by HTTPS, the injector does not see your passwords)."
 msgstr ""
 "Страницы, требующие аутентификации, могут работать (когда ваше соединение "
-"защищено HTTPS, инъектор)."
+"защищено HTTPS, инъектор не видит ваши пароли)."
 
 #: concepts/public-private.md:block 10 (ordered list)
 msgid "Browsing activity is not leaked to other users."
-msgstr "Информация о просмотре не передается другим пользователям."
+msgstr "Ваши действия в браузере не видны другим пользователям."
 
 #: concepts/public-private.md:block 10 (ordered list)
 msgid ""
@@ -168,15 +167,15 @@ msgid ""
 "origin server name or address)."
 msgstr ""
 "Инъекторам передается ограниченная информация о просмотре веб-страниц (при "
-"использовании HTTPS - только имя или адрес исходного сервера)."
+"использовании HTTPS — только имя или адрес исходного сервера)."
 
 #: concepts/public-private.md:block 10 (ordered list)
 msgid ""
 "You need not trust injectors (with HTTPS, usual certificate-based security "
 "still works)."
 msgstr ""
-"Вам не нужно доверять инъекторам (при использовании HTTPS действует, обычная "
-"безопасность на основе сертификатов)."
+"Вам не нужно доверять инъекторам (при использовании HTTPS действует "
+"стандартная защита на основе сертификатов)."
 
 #: concepts/public-private.md:block 11 (paragraph)
 msgid ""
@@ -202,6 +201,6 @@ msgid ""
 msgstr ""
 "Более подробную информацию можно найти в разделе [риски](risks.md). Также "
 "обратите внимание, что ваш клиент может продолжать работать в качестве моста "
-"и раздатчика независимо от публичного или приватного просмотра. Мы объясняем "
-"это более подробно в разделе руководства [Помощь другим](../browser/bridging."
-"md)."
+"и раздатчика вне зависимости от публичного или приватного просмотра. Мы "
+"объясняем это более подробно в разделе руководства [Помощь другим](../"
+"browser/bridging.md)."

@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-02 02:42+0200\n"
-"PO-Revision-Date: 2021-08-21 08:33+0000\n"
+"PO-Revision-Date: 2021-09-25 10:38+0000\n"
 "Last-Translator: Ed Medvedev <edward.medvedev@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/censorship-no/"
 "ceno/ru/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.8-dev\n"
+"X-Generator: Weblate 4.9-dev\n"
 
 #
 #: intro/ceno.md:block 1 (header)
@@ -112,7 +112,6 @@ msgstr ""
 "друг другу."
 
 #: intro/ceno.md:block 9 (paragraph)
-#, fuzzy
 msgid ""
 "You do not need to be an advanced computer user or even understand how peer-"
 "to-peer networks operate to use CENO. The user experience is akin to "
@@ -125,7 +124,6 @@ msgstr ""
 "для CENO функциональность в значительной степени скрыта «под капотом»)."
 
 #: intro/ceno.md:block 10 (paragraph)
-#, fuzzy
 msgid ""
 "CENO can, however, generate more Internet traffic than your usual Web "
 "browser – since it needs to let other users know what Web content it is "
@@ -138,10 +136,11 @@ msgstr ""
 "В то же время, CENO может потреблять больше интернет-трафика, чем обычный "
 "веб-браузер, поскольку он должен сообщать другим пользователям, какой веб-"
 "контент распространяет, и, возможно, доставлять этот контент тем, кто его "
-"запрашивает. Таким образом, CENO полагается на умеренно хорошее соединение "
-"внутри страны. Мы рекомендуем использовать CENO через Wi-Fi не только для "
-"того, чтобы избежать растраты мобильного трафика (если ваш трафик ограничен)"
-", но и для увеличения шансов доставить веб-контент другим пользователям."
+"запрашивает. Таким образом, CENO полагается на умеренно стабильное "
+"соединение внутри страны. Мы рекомендуем использовать CENO через Wi-Fi не "
+"только для того, чтобы избежать растраты мобильного трафика (если ваш трафик "
+"ограничен), но и для увеличения шансов доставить веб-контент другим "
+"пользователям."
 
 #: intro/ceno.md:block 11 (quote)
 msgid ""

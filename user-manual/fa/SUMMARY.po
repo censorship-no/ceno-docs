@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-05-07 21:09+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
+"PO-Revision-Date: 2021-10-19 22:50+0000\n"
+"Last-Translator: Kian <kian@tahgheegh.com>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "user-manual/fa/>\n"
 "Language: fa\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.7-dev\n"
+"X-Generator: Weblate 4.9-dev\n"
 
 #
 #: SUMMARY.md:block 1 (header)
@@ -30,7 +30,7 @@ msgstr "[مرورگر سنو چیست؟](intro/ceno.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[What is Ouinet?](intro/ouinet.md)"
-msgstr "[وینت چیست؟](intro/ouinet.md)"
+msgstr "[Ouinet چیست؟](intro/ouinet.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Quick start guide](intro/qsg.md)"
@@ -54,19 +54,19 @@ msgstr "[مقایسه‌ی مرور عمومی و خصوصی](concepts/public-pr
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Advantages of using CENO/Ouinet](concepts/advantages.md)"
-msgstr "[امتیازهای استفاده از سنو/وینت](concepts/advantages.md)"
+msgstr "[امتیازهای استفاده از CENO/Ouinet](concepts/advantages.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Risks in using CENO/Ouinet](concepts/risks.md)"
-msgstr "[خطرات استفاده از سنو/وینت](concepts/risks.md)"
+msgstr "[خطرات استفاده از CENO/Ouinet](concepts/risks.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Using the CENO Browser](browser/README.md)"
-msgstr "[استفاده از مرورگر سنو](browser/README.md)"
+msgstr "[استفاده از مرورگرCENO](browser/README.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Installing CENO](browser/install.md)"
-msgstr "[نصب سنو](browser/install.md)"
+msgstr "[نصب CENO](browser/install.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Using public or private browsing](browser/public-private.md)"
@@ -74,7 +74,7 @@ msgstr "[استفاده از مرور عمومی یا خصوصی](browser/public
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[CENO settings](browser/settings.md)"
-msgstr "[تنظیمات سنو](browser/settings.md)"
+msgstr "[تنظیمات CENO](browser/settings.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Testing the Browser](browser/testing.md)"
@@ -90,4 +90,4 @@ msgstr "[شناسایی و رفع اشکال](browser/troubleshooting.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Annex: The Ouinet client front-end](client/front-end.md)"
-msgstr "[پیوست: فرانت‌اند سرویس‌گیرنده‌ی وینت](client/front-end.md)"
+msgstr "[پیوست: فرانت‌اند سرویس‌گیرنده‌ی Ouinet](client/front-end.md)"

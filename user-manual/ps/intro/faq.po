@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Language: ps\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: intro/faq.md:block 1 (header)
@@ -32,10 +32,10 @@ msgstr ""
 
 #: intro/faq.md:block 6 (paragraph)
 msgid ""
-"Also, since CENO and Ouinet are still under development, you may experience "
-"some instability. That may also mean that backwards-incompatible changes are "
-"introduced which require you to uninstall the application or remove stored "
-"data (including bookmarks and site settings) before upgrading."
+"Also, since CENO and Ouinet are under continuous development, you may "
+"experience some instability. That may also mean that backwards-incompatible "
+"changes are introduced which require you to uninstall the application or "
+"remove stored data (including bookmarks and site settings) before upgrading."
 msgstr ""
 
 #: intro/faq.md:block 7 (paragraph)

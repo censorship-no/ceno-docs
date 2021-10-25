@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2021-08-04 15:34+0000\n"
+"PO-Revision-Date: 2021-09-27 12:35+0000\n"
 "Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/censorship-no/"
 "browser-settings/es/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.8-dev\n"
+"X-Generator: Weblate 4.9-dev\n"
 
 #
 #: browser/settings.md:block 1 (header)
@@ -60,8 +60,8 @@ msgstr ""
 "al iniciarse la aplicación. La página debería parecerse a esto:"
 
 #: browser/settings.md:block 5 (paragraph)
-msgid "**![ page](images/settings.png)"
-msgstr "**![ página](images/settings.png)"
+msgid "![Figure: The CENO Settings page](images/settings.png)"
+msgstr "![Figura: La página de Configuración de CENO](images/settings.png)"
 
 #: browser/settings.md:block 6 (header)
 msgid "Choosing access mechanisms"
@@ -118,13 +118,16 @@ msgid ""
 "secure HTTPS), a censor may intercept the connection and supply the user "
 "with a bogus site, a tampering which CENO cannot detect by itself. In such "
 "cases, it may help to disable this option and thus always resort to other, "
-"safer CENO mechanisms."
+"safer CENO mechanisms. Please check the section on [troubleshooting]"
+"(troubleshooting.md) to learn more about this issue."
 msgstr ""
-"También, al acceder a un sitio Web sobre HTTP inseguro (en vez del más "
+"También, al acceder a un sitio Web a través de HTTP inseguro (en vez del más "
 "seguro HTTPS), un censor podría interceptar las conexiones y suministrar al "
-"usuario con un sitio falso, una manipulación a la cual CENO no puede "
-"detectar por sí mismo. En tal caso, podría ayudar deshabilitar esta opción "
-"y, de esa manera, recurrir siempre a otros mecanismos de CENO más seguros."
+"usuario con un sitio falso, una manipulación la cual CENO no puede detectar "
+"por sí mismo. En tal caso, podría ayudar deshabilitar esta opción y, de esa "
+"manera, recurrir siempre a otros mecanismos de CENO más seguros. Por favor "
+"comprueba la sección sobre [resolución de problemas](troubleshooting.md) "
+"para aprender más acerca de esta cuestión."
 
 #: browser/settings.md:block 8 (unordered list)
 msgid ""
@@ -261,9 +264,9 @@ msgstr ""
 
 #: browser/settings.md:block 14 (unordered list)
 msgid ""
-"*Local UDP endpoint(s)* are the Internet addresses used by CENO to seed "
-"signed content to other clients. These are shown to help test and debug the "
-"app, and should not be generally disclosed."
+"*Local UDP endpoints* are the Internet addresses used by CENO to seed signed "
+"content to other clients. These are shown to help test and debug the app, "
+"and should not be generally disclosed."
 msgstr ""
 "*Puntos finales UDP locales* son las direcciones de Internet usadas por CENO "
 "para sembrar contenido firmado a otros clientes. Estos se muestran para "
@@ -296,6 +299,14 @@ msgstr ""
 "*Tamaño de la caché local* muestra una aproximación de cuánto almacenamiento "
 "es ocupado por el contenido que está siendo sembrado desde la caché local de "
 "tu dispositivo."
+
+#: browser/settings.md:block 14 (unordered list)
+msgid ""
+"*Content shared by you* allows you to check the content being announced by "
+"your device."
+msgstr ""
+"*Contenido compartido por tí* te permite comprobar el contenido que está "
+"siendo anunciado por tu dispositivo."
 
 #: browser/settings.md:block 15 (header)
 msgid "Purging the local cache"

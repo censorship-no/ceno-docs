@@ -57,21 +57,18 @@ msgid ""
 msgstr ""
 
 #: browser/testing.md:block 7 (paragraph)
-msgid "On the first device perform the following steps:"
+msgid "In the first device perform the following steps:"
 msgstr ""
 
 #: browser/testing.md:block 8 (ordered list)
-msgid ""
-"First of all, install CENO and start it. On the first run, a series of "
-"introductory screens will appear: just click on *NEXT* until *START "
-"BROWSING* appears, then click it. In the end, CENO's home page will appear."
+msgid "First of all, install CENO and start it. Its home page will appear."
 msgstr ""
 
 #: browser/testing.md:block 8 (ordered list)
 msgid ""
 "Open the app's main menu and choose *CENO* to open the *CENO Settings* page. "
-"Since we only want to test injector access, uncheck all the boxes for access "
-"mechanisms except *Via the CENO network (public)*."
+"Since we only want to test injector access, uncheck all the boxes for "
+"content sources except *Via the CENO network (public)*."
 msgstr ""
 
 #: browser/testing.md:block 8 (ordered list)
@@ -88,42 +85,47 @@ msgstr ""
 
 #: browser/testing.md:block 9 (paragraph)
 msgid ""
+"**Note:** If you get a fake page instead of a legitimate one, use the "
+"address bar to enter the site's URL with `https://` at the beginning "
+"(instead of `http://`) and repeat the test."
+msgstr ""
+
+#: browser/testing.md:block 10 (paragraph)
+msgid ""
 "If the site does load, you can be happy that your device can reach the "
 "injector! Since you are able to query swarms and contact other clients, you "
 "are also likely to be able to retrieve content from the distributed cache."
 msgstr ""
 
-#: browser/testing.md:block 10 (paragraph)
+#: browser/testing.md:block 11 (paragraph)
 msgid ""
 "By the way, if you push the CENO icon in the address bar, it will open a "
 "popup like the one below, showing how many elements from the site were "
-"retrieved using each of the different access mechanisms. Only *Via CENO "
-"network (public)* should have a non-zero value since the other mechanisms "
-"were disabled."
-msgstr ""
-
-#: browser/testing.md:block 11 (paragraph)
-msgid ""
-"![Figure: Mechanisms used when testing injection](images/sources-inject.png)"
+"retrieved form the different sources. Only *Via CENO network (public)* "
+"should have a non-zero value since the other sources were disabled."
 msgstr ""
 
 #: browser/testing.md:block 12 (paragraph)
+msgid ""
+"![Figure: Sources used when testing injection](images/sources-inject.png)"
+msgstr ""
+
+#: browser/testing.md:block 13 (paragraph)
 msgid ""
 "In contrast, if you had used private browsing with default settings, you may "
 "have seen a popup like the one below, with non-zero counts in *Direct from "
 "website* or *Via CENO network (private)*."
 msgstr ""
 
-#: browser/testing.md:block 13 (paragraph)
-msgid ""
-"![Figure: Mechanisms used with private browsing](images/sources-proxy.png)"
+#: browser/testing.md:block 14 (paragraph)
+msgid "![Figure: Sources used with private browsing](images/sources-proxy.png)"
 msgstr ""
 
-#: browser/testing.md:block 14 (header)
+#: browser/testing.md:block 15 (header)
 msgid "Getting content from close users"
 msgstr ""
 
-#: browser/testing.md:block 15 (paragraph)
+#: browser/testing.md:block 16 (paragraph)
 msgid ""
 "Since your first device was able to get some content from an injector, let "
 "us test if it is able to share it with another device over the distributed "
@@ -131,81 +133,92 @@ msgid ""
 "whether getting and verifying signed content works."
 msgstr ""
 
-#: browser/testing.md:block 16 (paragraph)
+#: browser/testing.md:block 17 (paragraph)
 msgid ""
-"After completing the test above on the first device, leave CENO running on "
-"it (the CENO icon should appear in its notification bar). Then add a second "
-"device (you can invite a friend over to help test) and connect it to the "
-"same Wi-Fi network. Next, follow the steps below on that device:"
+"After successfully completing the test above on the first device, leave CENO "
+"running on it (the CENO icon should appear in its notification bar). Then "
+"get hold of a second device (you can invite a friend over to help test) and "
+"connect it to the same Wi-Fi network. Next, follow the steps below on the "
+"second device:"
 msgstr ""
 
-#: browser/testing.md:block 17 (ordered list)
-msgid ""
-"Install CENO if needed, start it and proceed to CENO's home page as above."
+#: browser/testing.md:block 18 (ordered list)
+msgid "Install CENO if needed and start it as above."
 msgstr ""
 
-#: browser/testing.md:block 17 (ordered list)
+#: browser/testing.md:block 18 (ordered list)
 msgid ""
 "Open the *CENO Settings* page as above. Since we only want to test "
-"distributed cache access, uncheck all the boxes for access mechanisms except "
+"distributed cache access, uncheck all the boxes for content sources except "
 "*Shared by other CENO users*."
 msgstr ""
 
-#: browser/testing.md:block 17 (ordered list)
+#: browser/testing.md:block 18 (ordered list)
 msgid ""
 "Go back to CENO's home page and visit the same site in the same manner as "
 "you did above (i.e. by selecting one of the recommended web sites or "
 "entering its URL in the address bar)."
 msgstr ""
 
-#: browser/testing.md:block 18 (paragraph)
+#: browser/testing.md:block 19 (paragraph)
+msgid ""
+"If it does not work, your Wi-Fi network may be blocking direct communication "
+"between its devices. This \"client isolation\" may happen in public networks "
+"like those of parks, bars or hotels. Please try again on a different network."
+msgstr ""
+
+#: browser/testing.md:block 20 (paragraph)
 msgid ""
 "If it works, it means that both devices are able to deliver that content to "
 "other clients. Pushing the CENO address bar icon should show a popup like "
 "the one below, where only *Shared by other CENO users* has a non-zero value."
 msgstr ""
 
-#: browser/testing.md:block 19 (paragraph)
+#: browser/testing.md:block 21 (paragraph)
 msgid ""
-"![Figure: Mechanisms used when testing distributed cache retrieval](images/"
+"![Figure: Sources used when testing distributed cache retrieval](images/"
 "sources-dcache.png)"
 msgstr ""
 
-#: browser/testing.md:block 20 (paragraph)
+#: browser/testing.md:block 22 (paragraph)
 msgid ""
 "Finally, you may have also noticed that there is a counter for *Shared by "
-"you*. This is not a different mechanism *per se*: elements counted here are "
+"you*. This is not a different source *per se*: elements counted here are "
 "indeed part of the distributed cache, but they happen to already be stored "
 "in your device, so CENO does not need to retrieve them over the network."
 msgstr ""
 
-#: browser/testing.md:block 21 (header)
+#: browser/testing.md:block 23 (header)
 msgid "Getting content from remote users"
 msgstr ""
 
-#: browser/testing.md:block 22 (paragraph)
+#: browser/testing.md:block 24 (paragraph)
 msgid ""
 "We have done a small-scale test of the distributed cache. Let us now test "
 "how it works over the Internet."
 msgstr ""
 
-#: browser/testing.md:block 23 (paragraph)
+#: browser/testing.md:block 25 (paragraph)
 msgid ""
-"Please leave CENO running on the first device as with the previous test, and "
-"stop CENO on the second device (by showing its notifications and pushing "
-"\"Tap to stop\"). This time you will need a third device, but it must be "
-"connected to a different Wi-Fi network (maybe another friend can help from "
-"home). The steps to follow for that device are exactly the same as those in "
-"the previous test."
+"After successfully completing the test above, leave CENO running on the "
+"first device as with the previous test, and stop CENO on the second device "
+"(by showing its notifications and pushing \"Tap to stop\")."
 msgstr ""
 
-#: browser/testing.md:block 24 (paragraph)
+#: browser/testing.md:block 26 (paragraph)
+msgid ""
+"This time you will need a third device, but it must be connected to a "
+"different Wi-Fi network (maybe another friend can help from home). The steps "
+"to follow for that device are exactly the same as those in the previous test."
+msgstr ""
+
+#: browser/testing.md:block 27 (paragraph)
 msgid ""
 "If the third device can load the site used for the test, you are all set. "
 "The first device is able to seed content to others, and it can most probably "
 "also act as a bridge."
 msgstr ""
 
-#: browser/testing.md:block 25 (paragraph)
+#: browser/testing.md:block 28 (paragraph)
 msgid "Congratulations!"
 msgstr ""

@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Language: hu\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: browser/settings.md:block 1 (header)
@@ -35,7 +35,7 @@ msgid ""
 msgstr ""
 
 #: browser/settings.md:block 5 (paragraph)
-msgid "**![ page](images/settings.png)"
+msgid "![Figure: The CENO Settings page](images/settings.png)"
 msgstr ""
 
 #: browser/settings.md:block 6 (header)
@@ -77,7 +77,8 @@ msgid ""
 "secure HTTPS), a censor may intercept the connection and supply the user "
 "with a bogus site, a tampering which CENO cannot detect by itself. In such "
 "cases, it may help to disable this option and thus always resort to other, "
-"safer CENO mechanisms."
+"safer CENO mechanisms. Please check the section on [troubleshooting]"
+"(troubleshooting.md) to learn more about this issue."
 msgstr ""
 
 #: browser/settings.md:block 8 (unordered list)
@@ -179,9 +180,9 @@ msgstr ""
 
 #: browser/settings.md:block 14 (unordered list)
 msgid ""
-"*Local UDP endpoint(s)* are the Internet addresses used by CENO to seed "
-"signed content to other clients. These are shown to help test and debug the "
-"app, and should not be generally disclosed."
+"*Local UDP endpoints* are the Internet addresses used by CENO to seed signed "
+"content to other clients. These are shown to help test and debug the app, "
+"and should not be generally disclosed."
 msgstr ""
 
 #: browser/settings.md:block 14 (unordered list)
@@ -200,6 +201,12 @@ msgstr ""
 msgid ""
 "*Local cache size* shows an approximation of how much storage is taken by "
 "the content being seeded from your device's local cache."
+msgstr ""
+
+#: browser/settings.md:block 14 (unordered list)
+msgid ""
+"*Content shared by you* allows you to check the content being announced by "
+"your device."
 msgstr ""
 
 #: browser/settings.md:block 15 (header)

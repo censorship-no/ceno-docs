@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-08-27 05:34+0000\n"
-"Last-Translator: Cho Lwin Phu <CHRISTINEIVY19@gmail.com>\n"
+"PO-Revision-Date: 2021-10-18 11:47+0000\n"
+"Last-Translator: Tun Tun AUNG <tuntunaung@codingclassroom.org>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "qsg/my/>\n"
 "Language: my\n"
@@ -9,11 +9,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.8.1-dev\n"
+"X-Generator: Weblate 4.9-dev\n"
 
 #: intro/qsg.md:block 1 (header)
 msgid "Quick start guide"
-msgstr "အသုံးပြုပုံလမ်းညွှန်(အကျဉ်းချုပ်)"
+msgstr "အသုံးပြုပုံလမ်းညွှန် (အကျဉ်းချုပ်)"
 
 #: intro/qsg.md:block 2 (paragraph)
 msgid ""
@@ -35,7 +35,7 @@ msgstr "ဘယ်လို စတင် အသုံးပြုရမလဲ"
 
 #: intro/qsg.md:block 4 (paragraph)
 msgid "You will need an Android device:"
-msgstr "Android စနစ် အသုံးပြုသော စက်ကိရိယာတစ်ခု လိုအပ်ပါသည်-"
+msgstr "Android စနစ် အသုံးပြုသော စက်ကိရိယာတစ်ခု လိုအပ်ပါသည် -"
 
 #: intro/qsg.md:block 5 (ordered list)
 msgid ""
@@ -47,12 +47,8 @@ msgstr ""
 "*အထူးခွင့်ပြုချက်များ မလိုအပ်ပါ*။"
 
 #: intro/qsg.md:block 5 (ordered list)
-msgid ""
-"Run it and press *NEXT* on the introductory screens, then press *START "
-"BROWSING*."
-msgstr ""
-"၎င်းကို စက်ပေါ်တွင် ဖွင့်၍လုပ်ဆောင်ပြီး မိတ်ဆက်မျက်နှာပြင်များပေါ်တွင် *NEXT*"
-" ကိုနှိပ်ပါ၊ ထို့နောက် *START BROWSING* ကိုနှိပ်ပါ။"
+msgid "Run it."
+msgstr "စတင်လည်ပတ်ပါ။"
 
 #: intro/qsg.md:block 5 (ordered list)
 msgid ""
@@ -61,8 +57,8 @@ msgid ""
 "(see [public vs. private browsing](../concepts/public-private.md))."
 msgstr ""
 "အခြားအသုံးပြုသူများ ဝင်‌ရောက်ကြည့်ရှုနိုင်ရန် အင်တာနက်စာမျက်နှာများကို "
-"ပုံမှန်အတိုင်းရှာဖွေပါ။ အင်တာနက်စာမျက်နှာတစ်ခုခုနှင့်ပတ်သက်၍ "
-"လုံခြုံရေးပိုင်းကို သံသယရှိပါက (သို့) သင်ထင်ထားသလို တက်မလာပါက သီးသန့်တက်ဘ်ကို"
+"ပုံမှန်အတိုင်းရှာဖွေပါ။ အင်တာနက်စာမျက်နှာတစ်ခုခုနှင့် ပတ်သက်၍ "
+"လုံခြုံရေးပိုင်းကို သံသယရှိပါက (သို့) သင်ထင်ထားသလို တက်မလာပါက သီးသန့်တပ်ဗ်ကို"
 " အသုံးပြုပါ ([အများသုံးနှင့် သီးသန့် ရှာဖွေခြင်း](../concepts/public-private."
 "md) ကိုကြည့်ပါ)။"
 
@@ -82,13 +78,11 @@ msgstr "ဖွဲ့စည်းပုံစနစ်"
 
 #: intro/qsg.md:block 8 (paragraph)
 msgid ""
-"The CENO Browser is in [BETA][BETA] but it should work out-of-the-box. You "
-"can find some [diagnostics and settings](../browser/settings.md) under the "
-"*CENO* menu entry."
+"The CENO Browser should work out-of-the-box. You can find some [diagnostics "
+"and settings](../browser/settings.md) under the *CENO* menu entry."
 msgstr ""
-"CENO ဘရောက်ဇာသည် [စမ်းသပ်ဆဲ][BETA] အဆင့်တွင် ရှိသေးသော်လည်း "
-"လုပ်ဆောင်ချက်များကို ချက်ချင်းဆောင်ရွက်ပေးနိုင်ပါသည်။*CENO* မီနူးထဲတွင် "
-"[ပြဿနာအဖြေရှာခြင်းနှင့် ဆက်တင်များ](../browser/settings.md) ကို "
+"CENO ဘရောက်ဇာသည် လုပ်ဆောင်ချက်များကို ချက်ချင်းဆောင်ရွက်ပေးနိုင်ပါသည်။*CENO* "
+"မီနူးထဲတွင် [ပြဿနာအဖြေရှာခြင်းနှင့် ဆက်တင်များ](../browser/settings.md) ကို "
 "တွေ့နိုင်ပါသည်။"
 
 #: intro/qsg.md:block 9 (paragraph)
@@ -102,16 +96,16 @@ msgstr ""
 
 #: intro/qsg.md:block 10 (header)
 msgid "More questions?"
-msgstr "နောက်ထပ်မေးစရာများ ရှိပါသလား။"
+msgstr "နောက်ထပ် မေးစရာများ ရှိပါသလား။"
 
 #: intro/qsg.md:block 11 (unordered list)
 msgid "Please see the [FAQ](faq.md)."
-msgstr "ကျေးဇူးပြုပြီး [မေးလေ့ရှိသောမေးခွန်းများ](faq.md) ကို ကြည့်ပါ။"
+msgstr "ကျေးဇူးပြုပြီး [မေးလေ့ရှိသော မေးခွန်းများ](faq.md) ကို ကြည့်ပါ။"
 
 #: intro/qsg.md:block 11 (unordered list)
 msgid "Refer to the [troubleshooting guide](../browser/troubleshooting.md)."
 msgstr ""
-"[ပြဿနာဖြေရှင်းခြင်းလမ်းညွှန်](../browser/troubleshooting.md) ကို လေ့လာပါ။"
+"[ပြဿနာဖြေရှင်းခြင်း လမ်းညွှန်](../browser/troubleshooting.md) ကို လေ့လာပါ။"
 
 #: intro/qsg.md:block 11 (unordered list)
 msgid ""
@@ -134,6 +128,14 @@ msgstr "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
 msgid "[ceno-pask]: https://paskoocheh.com/tools/124/android.html"
 msgstr "[ceno-pask]: https://paskoocheh.com/tools/124/android.html"
 
-#: intro/qsg.md:block 11 (unordered list)
-msgid "[BETA]: https://en.wikipedia.org/wiki/Software_release_life_cycle#Beta"
-msgstr "[BETA]: https://en.wikipedia.org/wiki/Software_release_life_cycle#Beta"
+#~ msgid ""
+#~ "Run it and press *NEXT* on the introductory screens, then press *START "
+#~ "BROWSING*."
+#~ msgstr ""
+#~ "၎င်းကို စက်ပေါ်တွင် ဖွင့်၍လုပ်ဆောင်ပြီး မိတ်ဆက်မျက်နှာပြင်များပေါ်တွင် *NEXT* ကိုနှိပ်ပါ၊ ထို့နောက် "
+#~ "*START BROWSING* ကိုနှိပ်ပါ။"
+
+#~ msgid ""
+#~ "[BETA]: https://en.wikipedia.org/wiki/Software_release_life_cycle#Beta"
+#~ msgstr ""
+#~ "[BETA]: https://en.wikipedia.org/wiki/Software_release_life_cycle#Beta"

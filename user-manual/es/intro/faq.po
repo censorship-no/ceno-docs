@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-03 02:50+0200\n"
-"PO-Revision-Date: 2021-07-30 09:27+0000\n"
+"PO-Revision-Date: 2021-09-21 18:36+0000\n"
 "Last-Translator: Anatoli <djanatoli@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/censorship-no/"
 "faq/es/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.7.2-dev\n"
+"X-Generator: Weblate 4.9-dev\n"
 
 #
 #: intro/faq.md:block 1 (header)
@@ -50,16 +50,16 @@ msgstr ""
 
 #: intro/faq.md:block 6 (paragraph)
 msgid ""
-"Also, since CENO and Ouinet are still under development, you may experience "
-"some instability. That may also mean that backwards-incompatible changes are "
-"introduced which require you to uninstall the application or remove stored "
-"data (including bookmarks and site settings) before upgrading."
+"Also, since CENO and Ouinet are under continuous development, you may "
+"experience some instability. That may also mean that backwards-incompatible "
+"changes are introduced which require you to uninstall the application or "
+"remove stored data (including bookmarks and site settings) before upgrading."
 msgstr ""
-"Y también, ya que CENO y Ouinet aún están bajo desarrollo, podrías "
+"Y también, ya que CENO y Ouinet están bajo desarrollo contínuo, podrías "
 "experimentar alguna inestabilidad. Eso podría significar también que sean "
 "introducidos cambios incompatibles con versiones anteriores, los cuales "
 "requerirían que desinstales la aplicación o remuevas los datos almacenados ("
-"incluyendo señaladores y configuraciones de sitios) antes de actualizar."
+"incluyendo marcadores y configuraciones de sitios) antes de actualizar."
 
 #: intro/faq.md:block 7 (paragraph)
 msgid ""
@@ -73,7 +73,8 @@ msgstr ""
 
 #: intro/faq.md:block 8 (header)
 msgid "Can I use the CENO Browser to access Twitter, Facebook and Gmail?"
-msgstr "¿Puedo usar al Navegador CENO para acceder a Twitter, Facebook y Gmail?"
+msgstr ""
+"¿Puedo usar al Navegador CENO para acceder a Twitter, Facebook y Gmail?"
 
 #: intro/faq.md:block 9 (paragraph)
 msgid "Short answer: yes, by using private tabs."
@@ -91,8 +92,8 @@ msgstr ""
 "A pesar de que CENO se esfuerce en proveer una experiencia de usuario tan "
 "similar a la navegación Web normal como sea posible, algunas de las técnicas "
 "usadas para evitar interferencia de red no van bien con sitios de tal "
-"dinamismo. Este es el caso con el modo de operación por defecto de CENO ("
-"esto es, navegación pública), ya que remueve todos los datos privados (como "
+"dinamismo. Este es el caso con el modo de operación por defecto de CENO "
+"(esto es, navegación pública), ya que remueve todos los datos privados (como "
 "contraseñas y cookies) del tráfico Web para asegurar que no se filtre a "
 "otros usuarios de CENO o Ouinet en quienes no se confía."
 

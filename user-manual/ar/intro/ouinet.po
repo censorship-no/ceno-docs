@@ -70,11 +70,11 @@ msgstr ""
 
 #: intro/ouinet.md:block 8 (paragraph)
 msgid ""
-"Please note that Ouinet is still an experimental project: some features may "
-"not work reliably enough in certain scenarios, bugs may exist and crashes "
-"may occur. We encourage you to reach out to us at [cenoers@equalit.ie]"
-"(mailto:cenoers@equalit.ie), test it and report back - your feedback is very "
-"welcome!"
+"Please note that Ouinet is an evolving experimental project: some features "
+"may not work reliably enough in certain scenarios, bugs may exist and "
+"crashes may occur. We encourage you to reach out to us at [cenoers@equalit."
+"ie](mailto:cenoers@equalit.ie), test it and report back - your feedback is "
+"very welcome!"
 msgstr ""
 
 #: intro/ouinet.md:block 9 (quote)
