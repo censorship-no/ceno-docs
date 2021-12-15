@@ -20,6 +20,14 @@ If you get an error like "The proxy server is refusing connections" when visitin
 
 > **Technical note:** This may happen if another application is already listening on TCP ports `127.0.0.1:8077` or `127.0.0.1:8078`.
 
+## The *Ouinet client state* under *CENO Settings* is not `started`
+
+The Ouinet client run by CENO is finding problems starting on your device.
+
+When you launch CENO, the state may read `starting` for a few seconds; this is normal.  However, if the state remains `starting` for too long, it may be a signal of serious connectivity issues that preclude the application from reaching the BitTorrent network.  Please check your network connection and try restarting CENO.  If you have a working connection but the state remains `starting`, please contact us.
+
+If you see some other state, there may be some internal error in the Ouinet client.  Please report the issue to us.
+
 ## A page shows bogus content (like a block message)
 
 CENO was able to contact a web server directly and retrieve content from it.  Unfortunately, someone intercepted the connection and directed it to an illegitimate server.
