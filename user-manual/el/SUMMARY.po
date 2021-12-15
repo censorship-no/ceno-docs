@@ -3,93 +3,94 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-02 02:42+0200\n"
-"PO-Revision-Date: 2021-03-02 01:42+0000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2021-12-16 11:53+0000\n"
+"Last-Translator: george kitsoukakis <norhorn@gmail.com>\n"
+"Language-Team: Greek <https://hosted.weblate.org/projects/censorship-no/"
+"user-manual/el/>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.5\n"
+"X-Generator: Weblate 4.10-dev\n"
 
 #
 #: SUMMARY.md:block 1 (header)
 msgid "Summary"
-msgstr ""
+msgstr "Περίληψη"
 
 #: SUMMARY.md:block 2 (paragraph)
 msgid "[Censorship.no!](README.md)"
-msgstr ""
+msgstr "[Censorship.no!](README.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Introduction](intro/README.md)"
-msgstr ""
+msgstr "[Εισαγωγή](intro/README.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[What is the CENO Browser?](intro/ceno.md)"
-msgstr ""
+msgstr "[Τι είναι το πρόγραμμα περιήγησης CENO;](intro/ceno.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[What is Ouinet?](intro/ouinet.md)"
-msgstr ""
+msgstr "[Τι είναι το Ouinet;](intro/ouinet.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Quick start guide](intro/qsg.md)"
-msgstr ""
+msgstr "[Οδηγός γρήγορης εκκίνησης](intro/qsg.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Frequently Asked Questions](intro/faq.md)"
-msgstr ""
+msgstr "[Συχνές ερωτήσεις](intro/faq.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Main concepts](concepts/README.md)"
-msgstr ""
+msgstr "[Κύριες έννοιες](concepts/README.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[How does it work?](concepts/how.md)"
-msgstr ""
+msgstr "[Πώς λειτουργεί;](concepts/how.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Public vs. private browsing](concepts/public-private.md)"
-msgstr ""
+msgstr "[Δημόσια έναντι ιδιωτικής περιήγησης](concepts/public-private.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Advantages of using CENO/Ouinet](concepts/advantages.md)"
-msgstr ""
+msgstr "[Πλεονεκτήματα χρήσης του CENO/Ouinet](concepts/advantages.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Risks in using CENO/Ouinet](concepts/risks.md)"
-msgstr ""
+msgstr "[Κίνδυνοι κατά τη χρήση του CENO/Ouinet](concepts/risks.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Using the CENO Browser](browser/README.md)"
-msgstr ""
+msgstr "[Χρήση του προγράμματος περιήγησης CENO](browser/README.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Installing CENO](browser/install.md)"
-msgstr ""
+msgstr "[Εγκατάσταση του CENO](browser/install.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Using public or private browsing](browser/public-private.md)"
-msgstr ""
+msgstr "[Χρήση δημόσιας ή ιδιωτικής περιήγησης](browser/public-private.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[CENO settings](browser/settings.md)"
-msgstr ""
+msgstr "[Ρυθμίσεις CENO](browser/settings.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Testing the Browser](browser/testing.md)"
-msgstr ""
+msgstr "[Δοκιμή του προγράμματος περιήγησης](browser/testing.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Helping others](browser/bridging.md)"
-msgstr ""
+msgstr "[Βοηθώντας άλλους](browser/bridging.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Troubleshooting](browser/troubleshooting.md)"
-msgstr ""
+msgstr "[Αντιμετώπιση προβλημάτων](browser/troubleshooting.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Annex: The Ouinet client front-end](client/front-end.md)"
-msgstr ""
+msgstr "[Παράρτημα: Η διεπαφή του πελάτη Ouinet](client/front-end.md)"
