@@ -66,11 +66,11 @@ The command will start a container named `ceno-client` that will run on every bo
 [UPnP]: https://en.wikipedia.org/wiki/Universal_Plug_and_Play
 [upnp-risks]: https://www.howtogeek.com/122487/htg-explains-is-upnp-a-security-risk
 
-A status like the one below indicates that UPnP is not enabled on your WiFi router:
+A status like the one below indicates that UPnP is not available or not working on your WiFi router:
 
 > **UPnP status**
 >
->     inactive
+>     disabled / inactive
 >
 > **Reachability status**
 >
