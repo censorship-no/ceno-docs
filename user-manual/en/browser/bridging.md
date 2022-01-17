@@ -68,34 +68,34 @@ The command will start a container named `ceno-client` that will run on every bo
 
 A status like the one below indicates that UPnP is not available or not working on your WiFi router:
 
+> **Reachability status**
+>
+>     undecided
+>
 > **UPnP status**
 >
 >     disabled / inactive
->
-> **Reachability status**
->
->     undecided
 
 The status below indicates that UPnP is likely working and CENO is currently verifying connectivity:
 
-> **UPnP status**
->
->     enabled
->
 > **Reachability status**
 >
 >     undecided
+>
+> **UPnP status**
+>
+>     enabled
 
 
 The status below indicates that UPnP is working and you can bridge connections for other CENO users:
 
-> **UPnP status**
->
->     enabled
->
 > **Reachability status**
 >
 >     likely reachable / reachable
+>
+> **UPnP status**
+>
+>     enabled
 
 There are many Wi-Fi routers on the market and each has their own particular features.  Herein a list of some manufacturers' instructions for enabling UPnP:
 
