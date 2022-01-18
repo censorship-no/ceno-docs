@@ -86,7 +86,6 @@ The status below indicates that UPnP is likely working and CENO is currently ver
 >
 >     enabled
 
-
 The status below indicates that UPnP is working and you can bridge connections for other CENO users:
 
 > **Reachability status**
@@ -96,6 +95,10 @@ The status below indicates that UPnP is working and you can bridge connections f
 > **UPnP status**
 >
 >     enabled
+
+> **Note:** Even if UPnP is working, your router may still not be reachable from the outside.  This can be the case when *CENO Settings* reports *External UDP endpoints* which look like [CGNAT][] addresses `100.X.Y.Z:N` with X between 64 and 127 (increasingly common among home ISPs), or like private addresses `10.X.Y.Z:N`, `172.X.Y.Z:N` with X between 16 and 31, and `192.168.X.Y:N`.  If so, please contact your ISP or network administrator to get a public address on your router or to establish port forwardings to the external endpoint.
+
+[CGNAT]: https://en.wikipedia.org/wiki/Carrier-grade_NAT
 
 There are many Wi-Fi routers on the market and each has their own particular features.  Herein a list of some manufacturers' instructions for enabling UPnP:
 
