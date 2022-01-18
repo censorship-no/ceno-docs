@@ -54,6 +54,8 @@ This page also provides you with some information about your CENO Browser app an
 - *Reachability status* indicates how likely it is for your device to be able to effectively seed content to other clients.  Also include in reports.
 - *UPnP status* indicates whether CENO was able to tell your router or access point to allow incoming connections towards it.  Also include in reports.
 - *Local UDP endpoints* are the Internet addresses in your device used by CENO to seed signed content to other clients.  These are shown to help test and debug the app, and should not be generally disclosed.
+- *External UDP endpoints* are the Internet addresses in your router given to your CENO traffic.  Only available with UPnP-enabled routers, they are also is useful for diagnostics and not to be generally disclosed.
+- *Public UDP endpoints* are the Internet addresses that Ouinet clients outside of your network see when communicating with your device.  Also for diagnostics and not to be disclosed.
 - *Local cache size* shows an approximation of how much storage is taken by the content being seeded from your device's local cache.
 - *Content shared by you* allows you to check the content being announced by your device.
 
