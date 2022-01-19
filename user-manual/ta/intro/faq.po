@@ -1,38 +1,26 @@
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-03 02:50+0200\n"
-"PO-Revision-Date: 2022-01-14 15:53+0000\n"
-"Last-Translator: george kitsoukakis <norhorn@gmail.com>\n"
-"Language-Team: Greek <https://hosted.weblate.org/projects/censorship-no/faq/"
-"el/>\n"
-"Language: el\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ta\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.10.1\n"
 
-#
 #: intro/faq.md:block 1 (header)
 msgid "Frequently Asked Questions"
-msgstr "Συχνές ερωτήσεις"
+msgstr ""
 
 #: intro/faq.md:block 2 (header)
 msgid "Usage"
-msgstr "Χρήση"
+msgstr ""
 
 #: intro/faq.md:block 3 (header)
 msgid ""
 "Can the CENO Browser replace my current browser (Chrome/Firefox/Safari)?"
 msgstr ""
-"Μπορεί ο φυλλομετρητής CENO να αντικαταστήσει το πρόγραμμα περιήγησής μου ("
-"Chrome/Firefox/Safari);"
 
 #: intro/faq.md:block 4 (paragraph)
 msgid "Short answer: yes, at least for some non-critical browsing."
-msgstr "Σύντομη απάντηση: ναι, τουλάχιστον για κάποια μη κρίσιμη περιήγηση."
+msgstr ""
 
 #: intro/faq.md:block 5 (paragraph)
 msgid ""
@@ -41,11 +29,6 @@ msgid ""
 "Ouinet technology for retrieving web content may affect its operation in "
 "subtle ways (some of them potentially involving your privacy)."
 msgstr ""
-"Δεδομένου ότι το CENO βασίζεται στο Mozilla Firefox για Android, παρέχει "
-"όλες τις δυνατότητες ενός σύγχρονου προγράμματος περιήγησης. Ωστόσο, η "
-"εξάρτησή του από την τεχνολογία Ouinet για την ανάκτηση διαδικτυακού "
-"περιεχομένου, ενδέχεται να επηρεάσει τη λειτουργία του με ανεπαίσθητους "
-"τρόπους (ορισμένοι ενδέχεται να αφορούν το απόρρητό σας)."
 
 #: intro/faq.md:block 6 (paragraph)
 msgid ""
@@ -54,12 +37,6 @@ msgid ""
 "changes are introduced which require you to uninstall the application or "
 "remove stored data (including bookmarks and site settings) before upgrading."
 msgstr ""
-"Επίσης, δεδομένου ότι το CENO και το Ouinet βρίσκονται υπό συνεχή ανάπτυξη, "
-"ενδέχεται να αντιμετωπίσετε δυσλειτουργίες. Αυτό μπορεί επίσης να σημαίνει "
-"ότι εισάγονται αλλαγές που δεν είναι συμβατές και απαιτούν να "
-"απεγκαταστήσετε την εφαρμογή ή να αφαιρέσετε τα αποθηκευμένα δεδομένα ("
-"συμπεριλαμβανομένων των σελιδοδεικτών και των ρυθμίσεων ιστότοπου) πριν από "
-"την αναβάθμιση."
 
 #: intro/faq.md:block 7 (paragraph)
 msgid ""
@@ -67,20 +44,14 @@ msgid ""
 "you use your habitual Web browser instead of CENO. Please read the section "
 "on [risks](../concepts/risks.md) for more information."
 msgstr ""
-"Για σημαντικές εργασίες σε ιστότοπους που δεν υπόκεινται σε λογοκρισία, σας "
-"συνιστούμε να χρησιμοποιείτε το συνηθισμένο σας πρόγραμμα περιήγησης στο "
-"διαδίκτυο αντί του CENO. Παρακαλούμε για περισσότερες πληροφορίες, διαβάστε "
-"την ενότητα [κίνδυνοι](../concepts/risks.md)."
 
 #: intro/faq.md:block 8 (header)
 msgid "Can I use the CENO Browser to access Twitter, Facebook and Gmail?"
 msgstr ""
-"Μπορώ να χρησιμοποιήσω τον φυλλομετρητή CENO για πρόσβαση στο Twitter, το "
-"Facebook και το Gmail;"
 
 #: intro/faq.md:block 9 (paragraph)
 msgid "Short answer: yes, by using private tabs."
-msgstr "Σύντομη απάντηση: ναι, χρησιμοποιώντας τις ιδιωτικές καρτέλες."
+msgstr ""
 
 #: intro/faq.md:block 10 (paragraph)
 msgid ""
@@ -106,29 +77,24 @@ msgid ""
 "For further details, please refer to the section on the differences between "
 "[public and private browsing](../concepts/public-private.md)."
 msgstr ""
-"Για περισσότερες λεπτομέρειες, ανατρέξτε στην ενότητα [δημόσιας και "
-"ιδιωτικής περιήγησης](../concepts/public-private.md) σχετικά με τις διαφορές "
-"μεταξύ τους."
 
 #: intro/faq.md:block 13 (header)
 msgid "Privacy and security"
-msgstr "Ιδιωτικότητα και ασφάλεια"
+msgstr ""
 
 #: intro/faq.md:block 14 (header)
 msgid "Will my device store content that I did not request?"
-msgstr "Θα αποθηκεύσει η συσκευή μου περιεχόμενο που δεν έχω αιτηθεί;"
+msgstr ""
 
 #: intro/faq.md:block 15 (paragraph)
 msgid "Short answer: no."
-msgstr "Σύντομη απάντηση: όχι."
+msgstr ""
 
 #: intro/faq.md:block 16 (paragraph)
 msgid ""
 "CENO only shares content that you requested (using [public browsing](../"
 "concepts/public-private.md))."
 msgstr ""
-"Η CENO διαμοιράζεται μόνο το περιεχόμενο που ζητήσατε (χρησιμοποιώντας ["
-"public browsing](../concepts/public-private.md))."
 
 #: intro/faq.md:block 17 (paragraph)
 msgid ""
@@ -144,19 +110,15 @@ msgid ""
 "Read more about how your CENO Browser retrieves and shares Web content with "
 "others [here](../concepts/how.md)."
 msgstr ""
-"Διαβάστε περισσότερα σχετικά με τον τρόπο διαμοιρασμού του CENO στο "
-"διαδίκτυο με άλλους [εδώ](../concepts/how.md)."
 
 #: intro/faq.md:block 19 (header)
 msgid ""
 "Can anyone see if I am using the CENO Browser to access censored Web sites?"
 msgstr ""
-"Μπορεί κάποιος να δει αν χρησιμοποιώ το πρόγραμμα περιήγησης CENO για "
-"πρόσβαση σε λογοκριμένους ιστότοπους;"
 
 #: intro/faq.md:block 20 (paragraph)
 msgid "Short answer: yes, with some technical knowledge and resources."
-msgstr "Σύντομη απάντηση: ναι, με κάποιες τεχνικές γνώσεις και πόρους."
+msgstr ""
 
 #: intro/faq.md:block 21 (paragraph)
 msgid ""

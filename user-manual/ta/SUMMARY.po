@@ -1,35 +1,29 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-28 05:33+0000\n"
-"Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
-"Language-Team: Swedish <https://hosted.weblate.org/projects/censorship-no/"
-"user-manual/sv/>\n"
-"Language: sv\n"
+"Language: ta\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9-dev\n"
 
 #: SUMMARY.md:block 1 (header)
 msgid "Summary"
-msgstr "Sammanfattning"
+msgstr ""
 
 #: SUMMARY.md:block 2 (paragraph)
 msgid "[Censorship.no!](README.md)"
-msgstr "[Censorship.no!](README.md)"
+msgstr ""
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Introduction](intro/README.md)"
-msgstr "[Introduktion](intro/README.md)"
+msgstr ""
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[What is the CENO Browser?](intro/ceno.md)"
-msgstr "[Vad är CENO-navigatorn?](intro/ceno.md)"
+msgstr ""
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[What is Ouinet?](intro/ouinet.md)"
-msgstr "[Vad är Ouinet?](intro/ouinet.md)"
+msgstr ""
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Quick start guide](intro/qsg.md)"
@@ -37,27 +31,27 @@ msgstr ""
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Frequently Asked Questions](intro/faq.md)"
-msgstr "[Frekvent Ställda Frågor](intro/faq.md)"
+msgstr ""
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Main concepts](concepts/README.md)"
-msgstr "[Huvudkoncept](concepts/README.md)"
+msgstr ""
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[How does it work?](concepts/how.md)"
-msgstr "[Hur fungerar det?](concepts/how.md)"
+msgstr ""
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Public vs. private browsing](concepts/public-private.md)"
-msgstr "[Publik mot privat surfning](concepts/public-private.md)"
+msgstr ""
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Advantages of using CENO/Ouinet](concepts/advantages.md)"
-msgstr "[Fördelar med att använda CENO/Ouinet](concepts/advantages.md)"
+msgstr ""
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Risks in using CENO/Ouinet](concepts/risks.md)"
-msgstr "[Risker med att använda CENO/Ouinet](concepts/risks.md)"
+msgstr ""
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Using the CENO Browser](browser/README.md)"
@@ -65,28 +59,28 @@ msgstr ""
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Installing CENO](browser/install.md)"
-msgstr "[Installera CENO](browser/install.md)"
+msgstr ""
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Using public or private browsing](browser/public-private.md)"
-msgstr "[Att använda publik eller privat surfning](browser/public-private.md)"
+msgstr ""
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[CENO settings](browser/settings.md)"
-msgstr "[CENO-inställningar](browser/settings.md)"
+msgstr ""
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Testing the Browser](browser/testing.md)"
-msgstr "[Att testa navigatorn](browser/testing.md)"
+msgstr ""
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Helping others](browser/bridging.md)"
-msgstr "[Hjälp andra](browser/bridging.md)"
+msgstr ""
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Troubleshooting](browser/troubleshooting.md)"
-msgstr "[Felsökning](browser/troubleshooting.md)"
+msgstr ""
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Annex: The Ouinet client front-end](client/front-end.md)"
-msgstr "[Annex: Framänden för Oiunet-klienten](client/front-end.md)"
+msgstr ""

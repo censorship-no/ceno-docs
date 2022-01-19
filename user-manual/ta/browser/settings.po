@@ -1,23 +1,13 @@
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2021-12-24 10:52+0000\n"
-"Last-Translator: george kitsoukakis <norhorn@gmail.com>\n"
-"Language-Team: Greek <https://hosted.weblate.org/projects/censorship-no/"
-"browser-settings/el/>\n"
-"Language: el\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ta\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.10.1\n"
 
-#
 #: browser/settings.md:block 1 (header)
 msgid "CENO settings"
-msgstr "Ρυθμίσεις CENO"
+msgstr ""
 
 #: browser/settings.md:block 2 (paragraph)
 msgid ""
@@ -27,11 +17,6 @@ msgid ""
 "strategies against network interference, as well as reporting issues with "
 "the app."
 msgstr ""
-"Ο φυλλομετρητής CENO σας επιτρέπει να αλλάξετε ορισμένες ρυθμίσεις που "
-"αφορούν το Ouinet και να λάβετε πληροφορίες σχετικά με την εφαρμογή πελάτη "
-"σας με απλό τρόπο. Δεν είναι απαραίτητο στην κανονική λειτουργία, αλλά "
-"χρήσιμο για τη δοκιμή διαφορετικών στρατηγικών κατά των παρεμβολών του "
-"δικτύου και για την αναφορά προβλημάτων με την εφαρμογή."
 
 #: browser/settings.md:block 3 (quote)
 msgid ""
@@ -55,7 +40,7 @@ msgstr ""
 
 #: browser/settings.md:block 6 (header)
 msgid "Choosing access mechanisms"
-msgstr "Επιλογή μηχανισμών πρόσβασης"
+msgstr ""
 
 #: browser/settings.md:block 7 (paragraph)
 msgid ""
@@ -64,29 +49,18 @@ msgid ""
 "retrieve content while using either [public or private browsing](public-"
 "private.md) tabs. All boxes are enabled by default."
 msgstr ""
-"Οι τέσσερις επιλογές στο επάνω μέρος της σελίδας ενεργοποιούν ή "
-"απενεργοποιούν τους διάφορους μηχανισμούς ή *πηγές* που χρησιμοποιεί το CENO "
-"ως εφαρμογή πελάτης του Ouinet για την ανάκτηση περιεχομένου κατά τη χρήση "
-"των καρτελών [δημόσια ή ιδιωτική περιήγηση](public-private.md). Όλες οι "
-"επιλογές είναι ενεργοποιημένες από προεπιλογή."
 
 #: browser/settings.md:block 8 (unordered list)
 msgid ""
 "*Direct from website* (or **origin access**) allows CENO to try to reach the "
 "origin server directly before attempting other mechanisms enabled below."
 msgstr ""
-"*Απευθείας από τον ιστότοπο* (ή **πρόσβαση προέλευσης**) επιτρέπει στο CENO "
-"να προσπαθήσει τη λήψη απευθείας από τον αρχικό διακομιστή πριν επιχειρήσει "
-"να χρησιμοποιήσει άλλους μηχανισμούς που ενεργοποιούνται παρακάτω."
 
 #: browser/settings.md:block 8 (unordered list)
 msgid ""
 "Although this mechanism works in both private and public browsing modes, "
 "content thus retrieved cannot be shared with others."
 msgstr ""
-"Αυτό ο μηχανισμός λειτουργεί τόσο σε ιδιωτική όσο και σε δημόσια περιήγηση, "
-"ωστόσο το περιεχόμενο που ανακτάται με αυτόν τον τρόπο δεν μπορεί να "
-"κοινοποιηθεί."
 
 #: browser/settings.md:block 8 (unordered list)
 msgid ""
@@ -96,13 +70,6 @@ msgid ""
 "disabling this option may avoid such connections and trivial tracking (but "
 "not completely, see [risks](../concepts/risks.md))."
 msgstr ""
-"Εάν η λήψη του περισσότερου περιεχομένου Διαδικτύου δεν είναι ιδιαίτερα αργή "
-"ή δαπανηρή, ο μηχανισμός μπορεί να είναι υπεραρκετός για τις περισσότερες "
-"περιπτώσεις. Ωστόσο, οι απευθείας συνδέσεις μπορεί να παρακολουθούνται από "
-"τον πάροχο υπηρεσιών διαδικτύου ή την κυβέρνησή σας. Σε κάποιο βαθμό, η "
-"απενεργοποίηση αυτής της επιλογής μπορεί να αποφύγει τέτοιες συνδέσεις και "
-"ασήμαντη παρακολούθηση (αλλά όχι εντελώς, δείτε [risks](../concepts/risks."
-"md))."
 
 #: browser/settings.md:block 8 (unordered list)
 msgid ""
@@ -113,27 +80,16 @@ msgid ""
 "safer CENO mechanisms. Please check the section on [troubleshooting]"
 "(troubleshooting.md) to learn more about this issue."
 msgstr ""
-"Επίσης, κατά την πρόσβαση σε έναν ιστότοπο μέσω μη ασφαλούς HTTP (αντί του "
-"πιο ασφαλούς HTTPS), μια υπηρεσία λογοκρισίας μπορεί να υποκλέψει τη σύνδεση "
-"και να παράσχει στον χρήστη έναν ψεύτικο ιστότοπο, μια παραποίηση που το "
-"CENO δεν μπορεί να ανιχνεύσει από μόνο του. Σε τέτοιες περιπτώσεις, μπορεί "
-"να βοηθήσει η απενεργοποίηση αυτής της επιλογής και έτσι να καταφεύγετε "
-"πάντα σε άλλους, ασφαλέστερους μηχανισμούς του CENO. Παρακαλούμε ελέγξτε την "
-"ενότητα [αντιμετώπιση προβλημάτων](troubleshooting.md) για να μάθετε "
-"περισσότερα."
 
 #: browser/settings.md:block 8 (unordered list)
 msgid ""
 "*Via the CENO network (private)* (or **proxy access**) allows CENO to use "
 "injectors as normal HTTP proxy servers to reach origin servers."
 msgstr ""
-"*Μέσω του δικτύου CENO (ιδιωτικό)* (ή **μέσω μεσολαβητή**) επιτρέπει στο "
-"CENO να χρησιμοποιεί τις συνδέσεις ως κανονικούς διακομιστές μεσολάβησης "
-"HTTP για να συνδεθεί με τους διακομιστές προέλευσης."
 
 #: browser/settings.md:block 8 (unordered list)
 msgid "This mechanism only works in private browsing mode."
-msgstr "Αυτός ο μηχανισμός λειτουργεί μόνο στη λειτουργία ιδιωτικής περιήγησης."
+msgstr ""
 
 #: browser/settings.md:block 8 (unordered list)
 msgid ""
@@ -191,7 +147,7 @@ msgstr ""
 
 #: browser/settings.md:block 12 (header)
 msgid "About your app"
-msgstr "Σχετικά με την εφαρμογή σας"
+msgstr ""
 
 #: browser/settings.md:block 13 (paragraph)
 msgid ""

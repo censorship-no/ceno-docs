@@ -1,51 +1,37 @@
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2021-12-16 11:53+0000\n"
-"Last-Translator: george kitsoukakis <norhorn@gmail.com>\n"
-"Language-Team: Greek <https://hosted.weblate.org/projects/censorship-no/"
-"browser-install/el/>\n"
-"Language: el\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Language: ta\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.10-dev\n"
 
-#
 #: browser/install.md:block 1 (header)
 msgid "Installing CENO"
-msgstr "Εγκατάσταση CENO"
+msgstr ""
 
 #: browser/install.md:block 2 (paragraph)
 msgid "The CENO Browser can be installed via the following means:"
-msgstr "Ο περιηγητής CENO μπορεί να εγκατασταθεί με τους ακόλουθους τρόπους:"
+msgstr ""
 
 #: browser/install.md:block 3 (unordered list)
 msgid ""
 "[Google Play][ceno-gplay] (*CENO Browser* from *eQualitie*): the recommended "
 "source for most Android users."
 msgstr ""
-"[Google Play][ceno-gplay] (*CENO Browser* από *eQualitie*): προτεινόμενη "
-"πηγή για τους περισσότερους χρήστες Android."
 
 #: browser/install.md:block 3 (unordered list)
 msgid "[GitHub][ceno-gh]: for Android devices without Google Play."
-msgstr "[GitHub][ceno-gh]: για συσκευές Android χωρίς Google Play."
+msgstr ""
 
 #: browser/install.md:block 3 (unordered list)
 msgid ""
 "[Paskoocheh][ceno-pask]: for users in countries blocking access to the "
 "previous channels."
 msgstr ""
-"[Paskoocheh][ceno-pask]: για χρήστες σε χώρες που εμποδίζουν την πρόσβαση "
-"στις προηγούμενες πηγές."
 
 #: browser/install.md:block 4 (paragraph)
 msgid "CENO requires *no special permissions* to run."
-msgstr "Το CENO δε απαιτεί *ειδική εξουσιοδότηση* για να λειτουργήσει."
+msgstr ""
 
 #: browser/install.md:block 5 (quote)
 msgid ""
@@ -59,7 +45,7 @@ msgstr ""
 
 #: browser/install.md:block 6 (header)
 msgid "Stopping CENO completely"
-msgstr "Πλήρης τερματισμός του CENO"
+msgstr ""
 
 #: browser/install.md:block 7 (paragraph)
 msgid ""
@@ -86,7 +72,7 @@ msgstr ""
 
 #: browser/install.md:block 10 (header)
 msgid "Purging all CENO data (the \"panic button\")"
-msgstr "Εκκαθάριση όλων των δεδομένων CENO (κουμπί πανικού)"
+msgstr ""
 
 #: browser/install.md:block 11 (paragraph)
 msgid ""
