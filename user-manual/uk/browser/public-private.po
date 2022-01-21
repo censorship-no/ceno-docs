@@ -1,0 +1,52 @@
+#
+msgid ""
+msgstr ""
+"Language: uk\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: browser/public-private.md:block 1 (header)
+msgid "Using public or private browsing"
+msgstr ""
+
+#: browser/public-private.md:block 2 (paragraph)
+msgid ""
+"As described [in a previous section](../concepts/public-private.md), CENO "
+"has two different modes of operation depending on whether you want to share "
+"the content that you browse with others (public browsing) or not (private "
+"browsing)."
+msgstr ""
+
+#: browser/public-private.md:block 3 (paragraph)
+msgid ""
+"This setting applies *to each tab* that you open in the browser, i.e. you "
+"can have public browsing tabs and private browsing tabs. CENO's default "
+"whenever you start it or open a new tab (using *New tab* in the app's main "
+"menu) is to use public browsing. To open a new tab in private browsing mode, "
+"just choose *New private tab* in the main menu."
+msgstr ""
+
+#: browser/public-private.md:block 4 (paragraph)
+msgid ""
+"You can tell public tabs from private ones because public tabs have a "
+"lighter (or white) tool bar:"
+msgstr ""
+
+#: browser/public-private.md:block 5 (paragraph)
+msgid "![Figure: A public browsing tab](images/public-tab.png)"
+msgstr ""
+
+#: browser/public-private.md:block 6 (paragraph)
+msgid "In contrast, private tabs have a darker tool bar:"
+msgstr ""
+
+#: browser/public-private.md:block 7 (paragraph)
+msgid "![Figure: A private browsing tab](images/private-tab.png)"
+msgstr ""
+
+#: browser/public-private.md:block 8 (paragraph)
+msgid ""
+"Once you have loaded a page in a tab, the colored CENO icon in the address "
+"bar will help you know how it actually retrieved the different elements of "
+"the content. We will cover this icon later on."
+msgstr ""
