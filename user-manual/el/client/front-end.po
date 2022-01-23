@@ -3,20 +3,21 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2021-03-05 19:50+0000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-01-23 17:04+0000\n"
+"Last-Translator: george kitsoukakis <norhorn@gmail.com>\n"
+"Language-Team: Greek <https://hosted.weblate.org/projects/censorship-no/"
+"client-front-end/el/>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.5.1-dev\n"
+"X-Generator: Weblate 4.11-dev\n"
 
 #
 #: client/front-end.md:block 1 (header)
 msgid "Annex: The Ouinet client front-end"
-msgstr ""
+msgstr "Παράρτημα: Η εφαρμογή πελάτη Ouinet"
 
 #: client/front-end.md:block 2 (paragraph)
 msgid ""
@@ -26,6 +27,11 @@ msgid ""
 "Settings* page](../browser/settings.md), though others are only available "
 "here."
 msgstr ""
+"Η εφαρμογή πελάτη Ouinet (όπως εκτελείται π.χ. από το CENO) προσφέρει έναν "
+"ιστότοπο με πληροφορίες και ενέργειες που μπορεί να είναι χρήσιμες για τον "
+"εντοπισμό σφαλμάτων του. Πολλές από αυτές προσφέρονται επίσης από το "
+"πρόσθετο του CENO μέσω της [σελίδας *Ρυθμίσεις CENO*](../browser/settings."
+"md)."
 
 #: client/front-end.md:block 3 (paragraph)
 msgid ""
@@ -34,20 +40,27 @@ msgid ""
 "[http://127.0.0.1:8078/](http://127.0.0.1:8078/). If you open it, you will "
 "see something like the figure below."
 msgstr ""
+"Ο ιστότοπος είναι προσβάσιμος χρησιμοποιώντας οποιονδήποτε φυλλομετρητή ("
+"μπορείτε να χρησιμοποιήσετε και το CENO). Η προεπιλεγμένη διεύθυνση είναι "
+"[http://127.0.0.1:8078/](http://127.0.0.1:8078/). Αν την ανοίξετε, θα δείτε "
+"κάτι όπως παρακάτω."
 
 #: client/front-end.md:block 4 (paragraph)
 msgid "![Figure: The client front-end](images/front-end.png)"
-msgstr ""
+msgstr "![Εικόνα: Ιστότοπος εφαρμογής πελάτη](images/front-end.png)"
 
 #: client/front-end.md:block 5 (paragraph)
 msgid "The items shown in the page include:"
-msgstr ""
+msgstr "Τα στοιχεία που εμφανίζονται στη σελίδα περιλαμβάνουν:"
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
 "A link to enable the client as a certificate authority (CA) at your browser, "
 "since the client needs to intercept HTTPS traffic."
 msgstr ""
+"Σύνδεσμο για να ενεργοποιήσετε την εφαρμογή πελάτη ως αρχή έκδοσης "
+"πιστοποιητικών (CA) στο φυλλομετρητή σας, λόγω του ότι πρέπει να καταγράφει "
+"τη δραστηριότητα HTTPS."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
@@ -57,18 +70,27 @@ msgid ""
 "for injection to work. We very strongly recommend using a *separate, "
 "specific browser profile* for this purpose."
 msgstr ""
+"Το χρειάζεστε μόνο για να χρησιμοποιήσετε ένα φυλλομετρητή για τη δοκιμή του "
+"πελάτη Ouinet, οπότε θα πρέπει να ρυθμίσετε τους ενδιάμεσους HTTP/HTTPS σε "
+"`127.0.0.1:8077` και να ενεργοποιήσετε χειροκίνητα το [Πρόσθετο CENO][CENO "
+"Extension] για να λειτουργήσει η συλλογή στοιχείων. Συνιστούμε τη χρήση ενός "
+"*ξεχωριστού, ειδικού προφίλ του φυλλομετρητή* για τον σκοπό αυτό."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
 "Please note that none of this needs to be done for the CENO Browser, since "
 "it is already configured like that."
 msgstr ""
+"Λάβετε υπόψη, ότι τίποτα από αυτά δε χρειάζεται να γίνει για το CENO "
+"Browser, καθώς είναι ήδη έτσι ρυθμισμένο."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
 "Buttons to enable or disable the different mechanisms used by the client to "
 "access content."
 msgstr ""
+"Τα κουμπιά για την (απ)ενεργοποίηση των διαφορετικών μηχανισμών πρόσβασης "
+"που χρησιμοποιούνται."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
@@ -77,6 +99,10 @@ msgid ""
 "useful for reporting errors). The log file can also be enabled and retrieved "
 "from here."
 msgstr ""
+"Επιλογές διαφορετικών επιπέδων αρχείων καταγραφής, όπως το προεπιλεγμένο "
+"`ΠΛΗΡΟΦΟΡΙΕΣ` (μηνύματα πληροφοριών, προειδοποιήσεις και σφάλματα) ή "
+"`ΑΠΟΣΦΑΛΜΑΤΩΣΗ` (λεπτομερής καταγραφή για την αναφορά σφαλμάτων). Το αρχείο "
+"καταγραφής μπορεί επίσης να ενεργοποιηθεί και να ανακτηθεί από εδώ."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
@@ -84,11 +110,16 @@ msgid ""
 "(though you may change it again from here). When disabling the log file, the "
 "original log level is restored."
 msgstr ""
+"Όταν ενεργοποιείτε το αρχείο καταγραφής, το επίπεδο ορίζεται αυτόματα σε "
+"`ΑΠΟΣΦΑΛΜΑΤΩΣΗ` (αν και μπορείτε να το αλλάξετε ξανά από εδώ). Όταν το "
+"απενεργοποιείτε, επανέρχεται το αρχικό επίπεδο καταγραφής."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
 "Global client state and version information. Useful when reporting errors."
 msgstr ""
+"Γενικές πληροφορίες για κατάστασης και έκδοσης πελάτη. Χρήσιμη για την "
+"αναφορά σφαλμάτων."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
@@ -96,12 +127,18 @@ msgid ""
 "`bep5` method looks up Internet addresses in a BitTorrent injector swarm, as "
 "explained [here](../concepts/how.md)."
 msgstr ""
+"Πληροφορίες σχετικά με τη συνδεσιμότητα της εφαρμογής πελάτη και τη "
+"διευθυνσιοδότηση του καταγραφέα. Η προεπιλεγμένη μέθοδος `bep5` αναζητά "
+"διευθύνσεις Διαδικτύου σε ένα σύνολο καταγραφέων BitTorrent, όπως "
+"περιγράφεται [εδώ](../concepts/how.md)."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
 "The public key used to verify signatures from injectors in the distributed "
 "cache."
 msgstr ""
+"Το δημόσιο κλειδί που χρησιμοποιείται για την επαλήθευση υπογραφών από "
+"καταγραφείς στην κατανεμημένη κρυφή μνήμη."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
@@ -109,13 +146,19 @@ msgid ""
 "size of the cache, a button to purge it completely, and a link to the list "
 "of announced cache entries."
 msgstr ""
+"Πληροφορίες σχετικά με την τοπική σας προσωρινή μνήμη, όπως η μέγιστη ηλικία "
+"περιεχομένου, το κατά προσέγγιση μέγεθος της προσωρινής μνήμης, ένα κουμπί "
+"πλήρης εκκαθάρισής της και ένας σύνδεσμος προς τη λίστα των ανακοινωμένων "
+"καταχωρήσεων."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
 "The directory of the external, static cache if enabled (CENO does not "
 "currently use this)."
 msgstr ""
+"Ο κατάλογος της εξωτερικής, στατικής κρυφής μνήμης αν είναι ενεργοποιημένη ("
+"το CENO δε χρησιμοποιεί επί του παρόντος)."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid "[CENO Extension]: https://github.com/censorship-no/ceno-ext-settings/"
-msgstr ""
+msgstr "[Πρόσθετο CENO]: https://github.com/censorship-no/ceno-ext-settings/"
