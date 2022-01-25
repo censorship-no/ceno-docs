@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-01-25 19:54+0000\n"
+"PO-Revision-Date: 2022-01-26 20:54+0000\n"
 "Last-Translator: belousov <yam.robot0h@icloud.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-readme/uk/>\n"
@@ -24,6 +24,12 @@ msgid ""
 "questions on generic browsing topics you should refer to Mozilla's [Firefox "
 "for Android Support][Firefox for Android Support] pages."
 msgstr ""
+"У цьому розділі наведено деякі рекомендації щодо використання браузера CENO "
+"щодо його можливостей, пов'язаних з Ouinet. Будь ласка, завжди пам'ятайте, "
+"що CENO засновано на [Firefox для Android][Firefox для Android], тому з усіх "
+"питань, що стосуються загальних тем перегляду веб-сторінок, слід керуватися "
+"сторінками Mozilla [Firefox для Android Підтримка][Firefox для Android "
+"Підтримка] ."
 
 #: browser/README.md:block 3 (paragraph)
 msgid ""
@@ -32,6 +38,10 @@ msgid ""
 "especially as CENO development progresses. This documentation is up to date "
 "for CENO version 1.0.2."
 msgstr ""
+"Періодично для ілюстрації наводяться зображення екрана. Зверніть увагу, що "
+"вони можуть трохи відрізнятись від того, що ви бачите на своєму пристрої, "
+"особливо в міру розвитку CENO. Ця документація є актуальною для версії CENO 1"
+".0.2."
 
 #: browser/README.md:block 4 (paragraph)
 msgid ""
@@ -39,13 +49,18 @@ msgid ""
 "described here, do not hesitate to contact us at [cenoers@equalit.ie](mailto:"
 "cenoers@equalit.ie) and report the issue."
 msgstr ""
+"Якщо ваша програма демонструє поведінку, яка суттєво відрізняється від "
+"описаного тут, не соромтеся зв'язатися з нами за адресою [cenoers@equalit."
+"ie](mailto:cenoers@equalit.ie) та повідомити про проблему."
 
 #: browser/README.md:block 4 (paragraph)
 msgid "[Firefox for Android]: https://www.mozilla.org/firefox/android/"
-msgstr ""
+msgstr "[Firefox для Android]: https://www.mozilla.org/firefox/android/"
 
 #: browser/README.md:block 4 (paragraph)
 msgid ""
 "[Firefox for Android Support]: https://support.mozilla.org/en-US/products/"
 "mobile"
 msgstr ""
+"[Firefox для Android Підтримка]: https://support.mozilla.org/uk/products/"
+"mobile"
