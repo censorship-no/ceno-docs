@@ -1,13 +1,20 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2022-01-25 19:54+0000\n"
+"Last-Translator: belousov <yam.robot0h@icloud.com>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
+"browser-public-private/uk/>\n"
 "Language: uk\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.11-dev\n"
 
 #: browser/public-private.md:block 1 (header)
 msgid "Using public or private browsing"
-msgstr ""
+msgstr "Використання публічного або приватного перегляду"
 
 #: browser/public-private.md:block 2 (paragraph)
 msgid ""
@@ -16,6 +23,9 @@ msgid ""
 "the content that you browse with others (public browsing) or not (private "
 "browsing)."
 msgstr ""
+"Як описано [у попередньому розділі](../concepts/public-private.md), CENO має "
+"два різні режими роботи залежно від того, чи хочете ви з іншими ділитися "
+"контентом, який переглядаєте (публічний перегляд) чи ні (приватний перегляд)."
 
 #: browser/public-private.md:block 3 (paragraph)
 msgid ""
@@ -25,24 +35,32 @@ msgid ""
 "menu) is to use public browsing. To open a new tab in private browsing mode, "
 "just choose *New private tab* in the main menu."
 msgstr ""
+"Це налаштування застосовується до конкретної вкладки, тобто у вас одночасно "
+"можуть бути вкладки і публічного, і приватного перегляду. За замовчуванням "
+"при запуску CENO або відкритті нової вкладки (за допомогою пункту *Нова "
+"вкладка* у головному меню програми) використовується режим публічного "
+"перегляду. Щоб відкрити нову вкладку в режимі приватного перегляду, оберіть *"
+"Нова приватна вкладка* у головному меню."
 
 #: browser/public-private.md:block 4 (paragraph)
 msgid ""
 "You can tell public tabs from private ones because public tabs have a "
 "lighter (or white) tool bar:"
 msgstr ""
+"Ви можете легко відрізнити публічні вкладки від приватних: публічні вкладки "
+"мають більш світлу (або білу) панель інструментів:"
 
 #: browser/public-private.md:block 5 (paragraph)
 msgid "![Figure: A public browsing tab](images/public-tab.png)"
-msgstr ""
+msgstr "![Малюнок: Вкладка публічного перегляду](images/public-tab.png)"
 
 #: browser/public-private.md:block 6 (paragraph)
 msgid "In contrast, private tabs have a darker tool bar:"
-msgstr ""
+msgstr "Приватні вкладки навпаки, мають темнішу панель інструментів:"
 
 #: browser/public-private.md:block 7 (paragraph)
 msgid "![Figure: A private browsing tab](images/private-tab.png)"
-msgstr ""
+msgstr "![Малюнок: Вкладка приватного перегляду](images/private-tab.png)"
 
 #: browser/public-private.md:block 8 (paragraph)
 msgid ""
@@ -50,3 +68,6 @@ msgid ""
 "bar will help you know how it actually retrieved the different elements of "
 "the content. We will cover this icon later on."
 msgstr ""
+"Після того, як сторінка у вкладці завантажиться, кольоровий значок CENO в "
+"адресному рядку допоможе вам дізнатися, як були отримані різні елементи "
+"вмісту. Ми розглянемо цей значок пізніше."
