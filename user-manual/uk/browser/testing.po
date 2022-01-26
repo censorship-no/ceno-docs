@@ -1,13 +1,20 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2022-01-26 20:54+0000\n"
+"Last-Translator: belousov <yam.robot0h@icloud.com>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
+"browser-testing/uk/>\n"
 "Language: uk\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.11-dev\n"
 
 #: browser/testing.md:block 1 (header)
 msgid "Testing the Browser"
-msgstr ""
+msgstr "Перевірка браузера"
 
 #: browser/testing.md:block 2 (paragraph)
 msgid ""
@@ -17,12 +24,20 @@ msgid ""
 "different access mechanisms. Keep in mind however that in day-to-day usage "
 "of CENO, you will seldom need to change the default settings at all."
 msgstr ""
+"Тепер, коли ви знаєте, як [встановити](install.md) та [налаштувати](settings."
+"md) CENO, давайте виконаємо кілька кроків, щоб перевірити, чи працюють різні "
+"функції, специфічні для Ouinet. Перевірка включає покрокове включення і "
+"відключення різних механізмів доступу. Пам'ятайте, що при повсякденному "
+"використанні CENO вам рідко доведеться змінювати стандартні налаштування."
 
 #: browser/testing.md:block 3 (paragraph)
 msgid ""
 "To complete all the tests below you will need at least two devices connected "
 "to the same Wi-Fi network, and a third one on a completely different network."
 msgstr ""
+"Для виконання всіх наведених нижче тестів вам знадобиться як мінімум два "
+"пристрої, підключені до однієї мережі Wi-Fi, і один, підключений до іншої "
+"мережі."
 
 #: browser/testing.md:block 4 (paragraph)
 msgid ""
@@ -32,10 +47,16 @@ msgid ""
 "browser gets stuck for more than a couple of minutes while loading a page, "
 "you may hit stop and reload it (although this may alter results slightly)."
 msgstr ""
+"Усі тести будуть проводитись з використанням [публічного перегляду](public-"
+"private.md). Якщо щось працює не так, як очікувалося, будь ласка, наберіться "
+"терпіння та ознайомтеся з розділом [усунення несправностей](troubleshooting."
+"md). Зокрема, якщо браузер зависає при завантаженні сторінки більш ніж на "
+"пару хвилин, ви можете зупинити та перезавантажити її (хоча це може дещо "
+"змінити результати)."
 
 #: browser/testing.md:block 5 (header)
 msgid "Accessing an injector"
-msgstr ""
+msgstr "Доступ до ін'єктора"
 
 #: browser/testing.md:block 6 (paragraph)
 msgid ""
