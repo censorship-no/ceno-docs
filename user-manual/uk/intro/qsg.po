@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-01-25 19:54+0000\n"
+"PO-Revision-Date: 2022-01-31 19:53+0000\n"
 "Last-Translator: belousov <yam.robot0h@icloud.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "qsg/uk/>\n"
@@ -14,7 +14,7 @@ msgstr ""
 
 #: intro/qsg.md:block 1 (header)
 msgid "Quick start guide"
-msgstr ""
+msgstr "Короткий посібник"
 
 #: intro/qsg.md:block 2 (paragraph)
 msgid ""
@@ -23,24 +23,31 @@ msgid ""
 "route your requests, as well as to store and share retrieved content with "
 "others. [Read more about CENO](ceno.md)."
 msgstr ""
+"Браузер CENO дозволяє отримати доступ до будь-якого сайту в інтернеті, "
+"навіть якщо він піддається цензурі у вашій країні. CENO використовує "
+"пірінгову інфраструктуру для маршрутизації ваших запитів, а також зберігання "
+"та обміну отриманим контентом з іншими користувачами. [Докладніше про "
+"CENO](ceno.md)."
 
 #: intro/qsg.md:block 3 (header)
 msgid "How to get started"
-msgstr ""
+msgstr "Як почати"
 
 #: intro/qsg.md:block 4 (paragraph)
 msgid "You will need an Android device:"
-msgstr ""
+msgstr "Вам знадобиться пристрій Android:"
 
 #: intro/qsg.md:block 5 (ordered list)
 msgid ""
 "Install the CENO Browser from [Google Play][ceno-gplay], [GitHub][ceno-gh] "
 "or [Paskoocheh][ceno-pask]. *No special permissions are needed*."
 msgstr ""
+"Встановіть браузер CENO з [Google Play][ceno-gplay], [GitHub][ceno-gh] або "
+"[Paskoocheh][ceno-pask]. *Жодних спеціальних дозволів не потрібно*."
 
 #: intro/qsg.md:block 5 (ordered list)
 msgid "Run it."
-msgstr ""
+msgstr "Запустіть його."
 
 #: intro/qsg.md:block 5 (ordered list)
 msgid ""
@@ -48,47 +55,62 @@ msgid ""
 "privacy for some page or if it is not loading as expected, use a private tab "
 "(see [public vs. private browsing](../concepts/public-private.md))."
 msgstr ""
+"Переглядайте сторінки як завжди, щоб допомогти іншим користувачам отримати "
+"доступ до них; якщо вас турбує конфіденційність якоїсь сторінки або якщо "
+"вона завантажується не так, як очікувалося — використовуйте приватну вкладку "
+"(дивіться [публічний чи приватний. перегляд сторінок](../concepts/public-"
+"private.md))."
 
 #: intro/qsg.md:block 5 (ordered list)
 msgid "Tap on the CENO notification to stop it completely."
-msgstr ""
+msgstr "Натисніть на сповіщення CENO, щоб повністю зупинити його."
 
 #: intro/qsg.md:block 6 (paragraph)
 msgid "Detailed installation instructions are [here](../browser/install.md)."
 msgstr ""
+"Детальні інструкції з встановлення знаходяться [тут](../browser/install.md)."
 
 #: intro/qsg.md:block 7 (header)
 msgid "Configuration"
-msgstr ""
+msgstr "Налаштування"
 
 #: intro/qsg.md:block 8 (paragraph)
 msgid ""
 "The CENO Browser should work out-of-the-box. You can find some [diagnostics "
 "and settings](../browser/settings.md) under the *CENO* menu entry."
 msgstr ""
+"Браузер CENO повинен працювати «з коробки». Ви можете знайти деякі ["
+"діагностика та налаштування](../browser/settings.md) під пунктом меню *CENO*."
 
 #: intro/qsg.md:block 9 (paragraph)
 msgid ""
 "If you want to make sure that your app is also helping others access blocked "
 "content, please [read this section](../browser/bridging.md)."
 msgstr ""
+"Якщо ви хочете переконатися, що ваша програма також допомагає іншим отримати "
+"доступ до заблокованого контенту, будь ласка [прочитайте цей розділ](../"
+"browser/bridging.md)."
 
 #: intro/qsg.md:block 10 (header)
 msgid "More questions?"
-msgstr ""
+msgstr "Залишилися питання?"
 
 #: intro/qsg.md:block 11 (unordered list)
 msgid "Please see the [FAQ](faq.md)."
-msgstr ""
+msgstr "Будь ласка, ознайомтесь з [Часті питання](faq.md)."
 
 #: intro/qsg.md:block 11 (unordered list)
 msgid "Refer to the [troubleshooting guide](../browser/troubleshooting.md)."
 msgstr ""
+"Зверніться до [посібника з усунення несправностей](../browser/troubleshooting"
+".md)."
 
 #: intro/qsg.md:block 11 (unordered list)
 msgid ""
 "Contact us by writing to [cenoers@equalit.ie](mailto:cenoers@equalit.ie)."
 msgstr ""
+"Зв'яжіться з нами, написавши на адресу [cenoers@equalit."
+"ie](mailto:cenoers@equalit.ie)."
 
 #: intro/qsg.md:block 11 (unordered list)
 msgid ""
