@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2021-12-24 10:52+0000\n"
+"PO-Revision-Date: 2022-01-31 19:53+0000\n"
 "Last-Translator: george kitsoukakis <norhorn@gmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/censorship-no/"
 "browser-settings/el/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.10.1\n"
+"X-Generator: Weblate 4.11-dev\n"
 
 #
 #: browser/settings.md:block 1 (header)
@@ -51,7 +51,7 @@ msgstr ""
 
 #: browser/settings.md:block 5 (paragraph)
 msgid "![Figure: The CENO Settings page](images/settings.png)"
-msgstr ""
+msgstr "![Εικόνα: Σελίδα ρυθμίσεων του CENO](images/settings.png)"
 
 #: browser/settings.md:block 6 (header)
 msgid "Choosing access mechanisms"
@@ -156,10 +156,12 @@ msgstr ""
 msgid ""
 "Other participants (such as bridges) will not see the unencrypted traffic."
 msgstr ""
+"Οι συμμετέχοντες (όπως οι γέφυρες) δε θα βλέπουν την κρυπτογραφημένη "
+"δραστηριότητα."
 
 #: browser/settings.md:block 8 (unordered list)
 msgid "This mechanism only works in public browsing mode."
-msgstr ""
+msgstr "Αυτός ο μηχανισμός λειτουργεί μόνο σε λειτουργία ιδιωτικής περιήγησης."
 
 #: browser/settings.md:block 8 (unordered list)
 msgid ""
@@ -179,6 +181,8 @@ msgid ""
 "![Figure: Invalid settings for private browsing](images/settings-no-private."
 "png)"
 msgstr ""
+"![Εικόνα: Μη έγκυρες ρυθμίσεις ιδιωτικής περιήγησης](images/settings-no-"
+"private.png)"
 
 #: browser/settings.md:block 11 (quote)
 msgid ""
