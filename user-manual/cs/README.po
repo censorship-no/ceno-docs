@@ -1,0 +1,44 @@
+#
+msgid ""
+msgstr ""
+"Language: cs\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: README.md:block 1 (header)
+msgid "Censorship.no! User Manual"
+msgstr ""
+
+#: README.md:block 2 (paragraph)
+msgid ""
+"This manual is aimed at users of the **CENO Browser** and related "
+"technologies, as created for the [Censorship.no!][Censorship.no!] project by "
+"[eQualitie][eQualitie]."
+msgstr ""
+
+#: README.md:block 3 (paragraph)
+msgid ""
+"If you are looking for technical documentation, please refer to the [CENO "
+"documentation repository][CENO documentation repository], where you will "
+"find pointers for further reading and details on implementation, as well as "
+"the [protocol specifications][protocol specifications]."
+msgstr ""
+
+#: README.md:block 3 (paragraph)
+msgid "[Censorship.no!]: https://censorship.no/"
+msgstr ""
+
+#: README.md:block 3 (paragraph)
+msgid "[eQualitie]: https://equalit.ie/"
+msgstr ""
+
+#: README.md:block 3 (paragraph)
+msgid ""
+"[CENO documentation repository]: https://github.com/censorship-no/ceno-docs/"
+msgstr ""
+
+#: README.md:block 3 (paragraph)
+msgid ""
+"[protocol specifications]: https://github.com/equalitie/ouinet/blob/master/"
+"doc/ouinet-network-whitepaper.md"
+msgstr ""
