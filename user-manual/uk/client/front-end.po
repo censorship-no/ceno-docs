@@ -1,13 +1,20 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2022-01-31 19:53+0000\n"
+"Last-Translator: belousov <yam.robot0h@icloud.com>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
+"client-front-end/uk/>\n"
 "Language: uk\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.11-dev\n"
 
 #: client/front-end.md:block 1 (header)
 msgid "Annex: The Ouinet client front-end"
-msgstr ""
+msgstr "Додаток: Зовнішній інтерфейс клієнта Ouinet"
 
 #: client/front-end.md:block 2 (paragraph)
 msgid ""
@@ -17,6 +24,11 @@ msgid ""
 "Settings* page](../browser/settings.md), though others are only available "
 "here."
 msgstr ""
+"У клієнта Ouinet (який запускається, наприклад, браузером CENO) є службовий "
+"інтерфейс з довідковою інформацією та діями, які можуть бути корисні для "
+"налагодження клієнта. Багато хто з них також пропонує розширення CENO через "
+"сторінку [*Налаштування CENO*(../browser/settings.md), проте деякі доступні "
+"лише тут."
 
 #: client/front-end.md:block 3 (paragraph)
 msgid ""
@@ -25,20 +37,26 @@ msgid ""
 "[http://127.0.0.1:8078/](http://127.0.0.1:8078/). If you open it, you will "
 "see something like the figure below."
 msgstr ""
+"Інтерфейс доступний за допомогою будь-якого веб-браузера, запущеного на тому "
+"ж пристрої (можна використовувати CENO). За замовчуванням, його адреса — "
+"[http://127.0.0.1:8078/](http://127.0.0.1:8078/). Якщо ви його відкриєте, то "
+"побачите щось схоже на малюнок нижче."
 
 #: client/front-end.md:block 4 (paragraph)
 msgid "![Figure: The client front-end](images/front-end.png)"
-msgstr ""
+msgstr "![Малюнок: Зовнішній інтерфейс клієнта](images/front-end.png)"
 
 #: client/front-end.md:block 5 (paragraph)
 msgid "The items shown in the page include:"
-msgstr ""
+msgstr "На сторінці відображаються такі елементи:"
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
 "A link to enable the client as a certificate authority (CA) at your browser, "
 "since the client needs to intercept HTTPS traffic."
 msgstr ""
+"Посилання для налаштування Ouinet в якості центру сертифікації (ЦС) у вашому "
+"браузері, оскільки клієнт повинен перехоплювати HTTPS-трафік."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
@@ -48,18 +66,27 @@ msgid ""
 "for injection to work. We very strongly recommend using a *separate, "
 "specific browser profile* for this purpose."
 msgstr ""
+"Вам це потрібно лише для використання звичайного браузера для тестування "
+"клієнта Ouinet, у цьому випадку вам також доведеться налаштувати його HTTP/"
+"HTTPS проксі на `127.0.0.1:8077` та вручну включити [Розширення CENO]["
+"Розширення CENO], щоб ін'єкція працювала. Ми рекомендуємо використовувати *"
+"окремий профіль браузера* для цієї мети."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
 "Please note that none of this needs to be done for the CENO Browser, since "
 "it is already configured like that."
 msgstr ""
+"Зверніть увагу, що нічого з цього не потрібно робити для браузера CENO, "
+"оскільки він вже налаштований як треба."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
 "Buttons to enable or disable the different mechanisms used by the client to "
 "access content."
 msgstr ""
+"Кнопки для увімкнення або вимкнення різних механізмів, які клієнт "
+"використовує для доступу до контенту."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
@@ -68,6 +95,10 @@ msgid ""
 "useful for reporting errors). The log file can also be enabled and retrieved "
 "from here."
 msgstr ""
+"Селектори для вибору різних рівнів журналу (логів), наприклад, за "
+"замовчуванням `INFO` (інформаційні повідомлення, попередження та помилки) "
+"або `DEBUG` (докладний висновок корисний для повідомлення про помилки). "
+"Звідси також можна увімкнути та отримати файл журналу ."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
@@ -75,11 +106,16 @@ msgid ""
 "(though you may change it again from here). When disabling the log file, the "
 "original log level is restored."
 msgstr ""
+"При включенні файлу журналу, рівень журналу автоматично встановлюється на "
+"значення `DEBUG` (хоча ви можете змінити його). У разі вимкнення файлу "
+"журналу, буде відновлено вихідний рівень."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
 "Global client state and version information. Useful when reporting errors."
 msgstr ""
+"Загальна інформація про стан та версію клієнта. Корисно при створенні звітів "
+"про помилки."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
@@ -87,12 +123,17 @@ msgid ""
 "`bep5` method looks up Internet addresses in a BitTorrent injector swarm, as "
 "explained [here](../concepts/how.md)."
 msgstr ""
+"Інформація про підключення клієнтів та адресацію ін'єкторів. За "
+"замовчуванням, метод`bep5` шукає інтернет-адреси серед «рою» ін'єкторів "
+"BitTorrent, як описано в [цьому розділі](../concepts/how.md)."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
 "The public key used to verify signatures from injectors in the distributed "
 "cache."
 msgstr ""
+"Відкритий ключ, який використовується для перевірки підписів від ін'єкторів "
+"у розподіленому кеші."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
@@ -100,13 +141,18 @@ msgid ""
 "size of the cache, a button to purge it completely, and a link to the list "
 "of announced cache entries."
 msgstr ""
+"Інформація про локальний кеш, наприклад, максимальний вік вмісту, приблизний "
+"розмір кешу та посилання на список анонсованих записів, а також кнопка для "
+"його повного очищення."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
 "The directory of the external, static cache if enabled (CENO does not "
 "currently use this)."
 msgstr ""
+"Каталог зовнішнього статичного кешу, якщо він увімкнений (нині CENO його не "
+"використовує)."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid "[CENO Extension]: https://github.com/censorship-no/ceno-ext-settings/"
-msgstr ""
+msgstr "[Розширення CENO]: https://github.com/censorship-no/ceno-ext-settings/"
