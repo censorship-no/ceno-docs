@@ -1,13 +1,20 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2022-01-31 19:53+0000\n"
+"Last-Translator: belousov <yam.robot0h@icloud.com>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
+"how/uk/>\n"
 "Language: uk\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.11-dev\n"
 
 #: concepts/how.md:block 1 (header)
 msgid "How does it work?"
-msgstr ""
+msgstr "Як це працює?"
 
 #: concepts/how.md:block 2 (paragraph)
 msgid ""
@@ -16,10 +23,14 @@ msgid ""
 "introduced (highlighted **in bold letters**) and used afterwards for "
 "efficiency and to avoid confusion."
 msgstr ""
+"У цьому розділі ми пояснимо роботу CENO та Ouinet, розглянувши ряд "
+"сценаріїв. Термінологія та поняття, важливі для Ouinet, будуть введені ("
+"виділені **жирними літерами**) та використані надалі для ефективності та "
+"уникнення плутанини."
 
 #: concepts/how.md:block 3 (header)
 msgid "Accessing content directly"
-msgstr ""
+msgstr "Прямий доступ до контенту"
 
 #: concepts/how.md:block 4 (paragraph)
 msgid ""
@@ -33,6 +44,15 @@ msgid ""
 "desired content. This is no different from the way in which any normal Web "
 "browser works."
 msgstr ""
+"Браузер CENO є прикладом програми, що використовує технологію Ouinet для "
+"отримання та обміну веб-контентом. Ми називаємо таку програму **клієнтом "
+"Ouinet**. Коли ви використовуєте свій клієнт (тобто CENO) для доступу до "
+"деякого контенту *X*, розміщеного на веб-сервері (який ми називатимемо "
+"**вихідним** сервером *X*), ваш клієнт намагається зв'язатися з вихідним "
+"сервером через інтернет або безпосередньо, або через інший комп'ютер, "
+"налаштований для зв'язку з веб-серверами від імені інших (так званий "
+"**проксі** сервер), а потім запитує потрібний контент. Це нічим не "
+"відрізняється від того, як працює будь-який звичайний веб-браузер."
 
 #: concepts/how.md:block 5 (quote)
 msgid ""
@@ -44,6 +64,13 @@ msgid ""
 "device). The CENO Browser already takes care of setting this certificate up "
 "for its private use so that you do not need to worry."
 msgstr ""
+"**Технічна примітка:** Насправді є одна невелика загвоздка. Оскільки клієнт "
+"діє як HTTP-проксі, запущений на вашому пристрої, для того, щоб клієнт міг "
+"розшифровувати та виконувати запити HTTPS-контенту, додаток, що використовує "
+"клієнт (тобто веб-браузер, наприклад, Firefox в CENO), має прийняти "
+"спеціальний сертифікат, випущений самим клієнтом (який використовується лише "
+"на пристрої). Браузер CENO вже подбав про встановлення цього сертифіката, "
+"тому вам не потрібно турбуватися."
 
 #: concepts/how.md:block 6 (paragraph)
 msgid ""
@@ -55,10 +82,19 @@ msgid ""
 "fail for you. You may also note the \"injector\" node on the diagram. We "
 "will explain that in a moment."
 msgstr ""
+"Однак ці прямі шляхи можуть бути недоступними. Наприклад, ваш інтернет-"
+"провайдер (ISP) може блокувати доступ до вихідного сервера *X* або проксі "
+"через державне розпорядження (навіть якщо інший трафік все ще дозволено). Як "
+"користувач лівого верхнього клієнта, зображеного нижче, обидві спроби "
+"отримати доступ до вмісту *X* (маленький документ біля вихідного сервера) "
+"для вас будуть невдалими. Ви також можете помітити на діаграмі вузол "
+"«ін'єктор». Ми пояснимо це трохи згодом."
 
 #: concepts/how.md:block 7 (paragraph)
 msgid "![Figure: Client cannot reach content directly](images/user-flow-0.svg)"
 msgstr ""
+"![Малюнок: Клієнт не може отримати доступ до контенту безпосередньо](images/"
+"user-flow-0.svg)"
 
 #: concepts/how.md:block 8 (paragraph)
 msgid ""
@@ -66,10 +102,13 @@ msgid ""
 "ask other clients for their copies of content *X*, should they already have "
 "a copy. Let us see how Ouinet performs this request."
 msgstr ""
+"При використанні звичайного браузера вам не пощастило. Однак, за допомогою "
+"Ouinet ви можете запросити у інших клієнтів їхні копії контенту *X*, якщо ця "
+"копія вже є. Погляньмо, як Ouinet виконує цей запит."
 
 #: concepts/how.md:block 9 (header)
 msgid "Searching for shared content"
-msgstr ""
+msgstr "Пошук загального контенту"
 
 #: concepts/how.md:block 10 (paragraph)
 msgid ""
@@ -77,6 +116,10 @@ msgid ""
 "cache**, i.e. a store which sits in no single place. But how can your client "
 "find which other clients forming the cache have the desired content?"
 msgstr ""
+"Сукупність всього контенту, який зберігається клієнтами Ouinet, називається "
+"**розподіленим кешем**, тобто сховищем, яке знаходиться в одному місці. Але "
+"як ваш клієнт може знайти які інші клієнти, що утворюють кеш, мають "
+"необхідний контент?"
 
 #: concepts/how.md:block 11 (paragraph)
 msgid ""
@@ -88,6 +131,14 @@ msgid ""
 "resources) over SSL/TLS (a security layer over TCP, the Internet's rules for "
 "programs to talk to each other) and request the resource `/foo/x`."
 msgstr ""
+"У будь-якому веб-браузері для доступу до контенту *X* необхідно знати його ["
+"Уніфікований локатор ресурсу][Уніфікований локатор ресурсу] (URL), тобто "
+"адреса в адресному рядку браузера, наприклад `https://example.com/foo/ x`. З "
+"цього URL звичайний браузер зробить висновок, що він повинен зв'язатися з "
+"веб-сервером під назвою `example.com`, використовуючи протокол HTTP (мова, "
+"яка використовується для обміну веб-ресурсами) через SSL/TLS (рівень безпеки "
+"в TCP, правилах інтернету спілкування програм один з одним) і запросити "
+"ресурс `/foo/x`."
 
 #: concepts/how.md:block 12 (paragraph)
 msgid ""
@@ -100,6 +151,14 @@ msgid ""
 "content you have, but someone looking for a particular content can follow "
 "the hints towards your client."
 msgstr ""
+"Ouinet шукає вміст по-іншому. Він використовує індекс, трохи схожий на "
+"книжковий: у **розподіленому індексі кеша** Ouinet ви шукаєте URL-адресу "
+"контенту повністю та отримуєте список клієнтів, у яких є його копія. Сам "
+"індекс є розподіленим, причому клієнти самі повідомляють іншим у тому, який "
+"контент вони мають. Насправді, оголошується тільки *підказка* про кожну URL-"
+"адресу, так що хтось, що стежить за трафіком вашого пристрою, не може "
+"визначити, який контент у вас є, але той, хто шукає конкретний контент, може "
+"слідувати підказці і знайти ваш клієнт ."
 
 #: concepts/how.md:block 13 (quote)
 msgid ""
@@ -110,6 +169,13 @@ msgid ""
 "table key from the content's URL and some other parameters as the injector "
 "key (see below), so that several indexes can coexist."
 msgstr ""
+"**Технічна примітка:** Один із способів реалізації індексу — використання ["
+"розподіленої хеш-таблиці][розподіленої хеш-таблиці] [протоколу BitTorrent]["
+"протоколу BitTorrent] (DHT) для отримання адрес (IP та порту) клієнтів з "
+"контентом. DHT використовує [криптографічну хеш-функцію][криптографічну "
+"хеш-функцію] для обчислення ключа таблиці з URL контенту та деяких інших "
+"параметрів як ключ ін'єктора (дивіться нижче), так що кілька індексів можуть "
+"співіснувати."
 
 #: concepts/how.md:block 13 (quote)
 msgid ""
@@ -120,6 +186,12 @@ msgid ""
 "URL is announced. This is done with the help of an *ad hoc* browser "
 "extension (described later on)."
 msgstr ""
+"Крім того, браузер CENO не анонсує URL кожного ресурсу, який він роздає: з "
+"огляду на наявність на будь-якій сучасній сторінці десятків або сотень "
+"компонентів (зображень, таблиць стилів, скриптів...) це створило б великий "
+"трафік. Натомість ресурси групуються в URL-адресу сторінки, на якій вони "
+"знаходяться, і оголошується лише URL-адреса. Це робиться за допомогою "
+"розширення браузера *ad hoc* (наведено нижче)."
 
 #: concepts/how.md:block 14 (paragraph)
 msgid ""
@@ -130,11 +202,18 @@ msgid ""
 "the other one content *Z*, so your client would find no entries for content "
 "*X* in the distributed cache index, as depicted below:"
 msgstr ""
+"Клієнти, що пропонують певний контент через розподілений кеш, називаються "
+"**роздавальними** контент або *сідами* (ці терміни прийшли зі світу "
+"P2P-файлообміну). Повертаючись до нашого прикладу, можна сказати, що є два "
+"клієнти, які роздають певний контент. На жаль, один із них викладає контент "
+"*Y*, а інший — контент *Z*, тому ваш клієнт не знайде записів для контенту "
+"*X* в індексі розподіленого кешу, як показано нижче:"
 
 #: concepts/how.md:block 15 (paragraph)
 msgid ""
 "![Figure: Content not found in the distributed cache](images/user-flow-1.svg)"
 msgstr ""
+"![Малюнок: Контент не знайдений у розподіленому кеші](images/user-flow-1.svg)"
 
 #: concepts/how.md:block 16 (paragraph)
 msgid ""
@@ -142,14 +221,17 @@ msgid ""
 "make it available to other clients in the distributed cache. Please read on "
 "to learn how."
 msgstr ""
+"На щастя, Ouinet пропонує спосіб отримати такий контент і, більш того, "
+"зробити його доступним для інших клієнтів у розподіленому кеші. Будь ласка, "
+"ознайомтесь із інструкцією."
 
 #: concepts/how.md:block 17 (header)
 msgid "Sharing new content"
-msgstr ""
+msgstr "Обмін новим контентом"
 
 #: concepts/how.md:block 18 (header)
 msgid "Proxies on steroids"
-msgstr ""
+msgstr "Проксі на стероїдах"
 
 #: concepts/how.md:block 19 (paragraph)
 msgid ""
@@ -157,6 +239,10 @@ msgid ""
 "which sit in the (hopefully) free side of the Internet and try very hard to "
 "stay reachable despite blocking measures:"
 msgstr ""
+"В Ouinet існують спеціальні види проксі-серверів, які називаються "
+"**ін'єкторами**, які знаходяться (будемо сподіватися) у вільної частини "
+"інтернету і намагаються залишатися доступними, незважаючи на заходи "
+"блокування:"
 
 #: concepts/how.md:block 20 (unordered list)
 msgid ""
@@ -164,12 +250,17 @@ msgid ""
 "standard SSL/TLS like in HTTPS) to avoid attackers from identifying "
 "injectors by eavesdropping on web traffic."
 msgstr ""
+"По-перше, з'єднання між клієнтами та ін'єкторами шифруються (з використанням "
+"стандартного SSL/TLS, як у HTTPS), щоб зловмисники не змогли ідентифікувати "
+"ін'єктори шляхом прослуховування веб-трафіку."
 
 #: concepts/how.md:block 20 (unordered list)
 msgid ""
 "By the way, injector certificates are shipped in the CENO Browser, allowing "
 "it to detect attackers trying to impersonate injectors."
 msgstr ""
+"До речі, сертифікати ін'єкторів поставляються у браузері CENO, що дозволяє "
+"йому виявляти зловмисників, які намагаються видати себе за ін'єкторів."
 
 #: concepts/how.md:block 20 (unordered list)
 msgid ""
@@ -177,6 +268,9 @@ msgid ""
 "obfuscation techniques (like I2P and Tor's Pluggable Transports) to make "
 "identification even more difficult."
 msgstr ""
+"Якщо шифрування недостатньо, з'єднання з ін'єкторами можуть використовувати "
+"спеціальні методи обфускації (наприклад, I2P і транспорти Tor, що "
+"підключаються), щоб ще більше ускладнити ідентифікацію."
 
 #: concepts/how.md:block 20 (unordered list)
 msgid ""
@@ -184,12 +278,17 @@ msgid ""
 "there are several of them and it does not matter which one your client "
 "contacts over the Internet."
 msgstr ""
+"Навіть якщо ін'єктор був ідентифікований і доступ до нього був заблокований "
+"вашим провайдером, їх існує кілька, і не має значення, з яким ваш клієнт "
+"зв'язується через інтернет."
 
 #: concepts/how.md:block 20 (unordered list)
 msgid ""
 "Some or all injectors may be blocked, but then the set of injectors can vary "
 "over time (with new ones being added)."
 msgstr ""
+"Деякі, або навіть усі ін'єктори можуть бути заблоковані, але тоді група "
+"ін'єкторів може змінюватися з часом (з додаванням нових)."
 
 #: concepts/how.md:block 20 (unordered list)
 msgid ""
@@ -198,6 +297,10 @@ msgid ""
 "sharing), a single-entry distributed index similar to the distributed cache "
 "index which yields the addresses of currently available injectors."
 msgstr ""
+"Вашому клієнту не потрібно заздалегідь знати їхню інтернет-адресу; натомість "
+"він виконує пошук у **рої ін'єкторів** (ще один термін з P2P-файлообміну), "
+"розподіленому індексі, схожому на індекс розподіленого кешу, який видає "
+"адреси ін'єкторів, що доступні в даний момент."
 
 #: concepts/how.md:block 20 (unordered list)
 msgid ""
@@ -207,6 +310,10 @@ msgid ""
 "adds its own Internet address to the **bridge swarm**, another single-entry "
 "distributed index."
 msgstr ""
+"Нарешті, навіть якщо ваш клієнт не може зв'язатися з ін'єктором, деякі інші "
+"клієнти можуть зробити це. Якщо клієнт може зв'язатися з ін'єктором і вважає "
+"себе доступним для інших клієнтів, він стає **мостом** і додає свою власну "
+"інтернет-адресу в **рой мостів**, ще один розподілений індекс."
 
 #: concepts/how.md:block 20 (unordered list)
 msgid ""
@@ -215,12 +322,18 @@ msgid ""
 "creating a **tunnel** between your client and the injector. Then a "
 "connection can be established between them inside of the tunnel."
 msgstr ""
+"Таким чином, ваш клієнт може знайти таку адресу, підключитися до мосту і "
+"сказати йому встановити з'єднання з ін'єктором від його імені, створивши "
+"тунель між вашим клієнтом і його ін'єктором. Потім між ними може бути "
+"встановлене з'єднання усередині тунелю."
 
 #: concepts/how.md:block 20 (unordered list)
 msgid ""
 "Please note that since client-to-injector connections are encrypted, bridges "
 "are not able to see the information flowing between them."
 msgstr ""
+"Будь ласка, зверніть увагу, що оскільки з'єднання між клієнтом та ін'єктором "
+"шифруються, мости не можуть бачити інформацію, що проходить між ними."
 
 #: concepts/how.md:block 21 (paragraph)
 msgid ""
@@ -231,6 +344,12 @@ msgid ""
 "and the origin server (unless it is a plain, unencrypted HTTP connection "
 "itself)."
 msgstr ""
+"Ін'єктор може вести себе як звичайний проксі-сервер (але з підвищеною "
+"доступністю), і це саме те, що клієнти Ouinet (включно з браузером CENO) "
+"роблять в даний час при спробі отримати доступ до контенту через проксі. У "
+"цьому випадку ін'єктор не буде бачити фактичну інформацію, що проходить між "
+"вашим клієнтом і вихідним сервером (якщо це не звичайне, незашифроване "
+"HTTP-з'єднання)."
 
 #: concepts/how.md:block 22 (paragraph)
 msgid ""
@@ -238,10 +357,13 @@ msgid ""
 "network interference conditions so, what is so special about Ouinet "
 "injectors?"
 msgstr ""
+"Але існують інші інструменти, що дозволяють досягати проксі-серверів в "
+"умовах жорсткого мережевого втручання, так що ж особливого в ін'єкторах "
+"Ouinet?"
 
 #: concepts/how.md:block 23 (header)
 msgid "Trusting shared content"
-msgstr ""
+msgstr "Довіра до спільного контенту"
 
 #: concepts/how.md:block 24 (paragraph)
 msgid ""
@@ -250,6 +372,9 @@ msgid ""
 "later time, even when there is no longer access to the injector or most of "
 "the Internet*."
 msgstr ""
+"Справа в тому, що ін'єктор не просто отримує контент від імені вашого "
+"клієнта, він також дозволяє вам ділитися цим контентом з іншими надалі, "
+"навіть коли доступу до ін'єктора або більшої частини інтернету більше немає."
 
 #: concepts/how.md:block 25 (paragraph)
 msgid ""
@@ -260,6 +385,11 @@ msgid ""
 "retrieved at a certain date or that the information in it was not "
 "manipulated?"
 msgstr ""
+"Звичайно, ви можете завантажити сторінку зі свого браузера та скопіювати "
+"отримані файли іншим людям, що цілком нормально, якщо ви знайомі. Але що "
+"якщо ви отримали такі файли від невідомої людини? Як ви можете бути впевнені "
+"в тому, що контент дійсно прийшов із заявленого сайту, що він був отриманий "
+"у певну дату або що інформація в ньому не піддалася маніпуляціям?"
 
 #: concepts/how.md:block 26 (paragraph)
 msgid ""
@@ -272,6 +402,14 @@ msgid ""
 "the origin server, uses the key to sign it, and returns the signed content "
 "to the client."
 msgstr ""
+"Ми хочемо, щоб використання CENO та Ouinet масштабувалося і надавало якомога "
+"більше контенту якомога більшій кількості людей, тому ми хочемо, щоб ви "
+"могли отримувати контент від незнайомих вам людей. Щоб ви могли приймати "
+"такий контент, Ouinet використовує **підписування контенту**: ваш клієнт "
+"налаштований на довіру до контенту, підписаного за допомогою спеціального "
+"ключа, що належить ін'єкторам. Щоразу, коли клієнт каже ін'єктору отримати "
+"веб-контент, ін'єктор отримує його з вихідного сервера, використовує ключ "
+"для підпису та повертає підписаний контент клієнту."
 
 #: concepts/how.md:block 27 (quote)
 msgid ""
@@ -280,6 +418,10 @@ msgid ""
 "big file, the downloaded data can still be shared by the client that "
 "received it."
 msgstr ""
+"**Технічна примітка:** Фактично, ін'єктор підписує окремі блоки даних по "
+"мірі їх надходження, тому навіть якщо з'єднання обривається на середині при "
+"отриманні великого файлу, завантажені дані все одно можуть бути доступні "
+"клієнту, який їх отримав."
 
 #: concepts/how.md:block 28 (paragraph)
 msgid ""
@@ -290,6 +432,12 @@ msgid ""
 "by a notary from another country. The CENO Browser is already configured to "
 "trust a set of injectors run by eQualitie."
 msgstr ""
+"У різних ін'єкторів можуть бути різні ключі, тому ви можете обирати яким "
+"ін'єкторам довіряти. Уявіть це так: ви можете довіряти документу, "
+"підписаному нотаріусом з вашої країни, незалежно від того, хто вам його "
+"видав (громадянин або іноземець), але ви не зобов'язані приймати документ, "
+"підписаний нотаріусом з іншої країни. Браузер CENO вже налаштований на "
+"довіру до набору ін'єкторів під керуванням eQualitie."
 
 #: concepts/how.md:block 29 (quote)
 msgid ""
@@ -299,10 +447,15 @@ msgid ""
 "characters. They may even be exchanged on the phone or written down on a "
 "piece of paper."
 msgstr ""
+"**Технічна примітка:** Ін'ектори використовують пару з відкритого та "
+"закритого ключів для створення підписів Ed25519; відкриті ключі досить малі, "
+"щоб їх можна було пересилати разом із підписами, та кодуються у вигляді 64 "
+"шістнадцяткових символів або 52 символів Base32. Ними можна навіть "
+"обмінятися телефоном або записати на аркуші паперу."
 
 #: concepts/how.md:block 30 (header)
 msgid "Content injection"
-msgstr ""
+msgstr "Ін'єкція контенту"
 
 #: concepts/how.md:block 31 (paragraph)
 msgid ""
@@ -312,6 +465,11 @@ msgid ""
 "trusted injector to get a signed copy of the content that it can share with "
 "other clients."
 msgstr ""
+"Пам'ятайте, що в нашому прикладі клієнт вже намагався отримати контент *X* "
+"безпосередньо з вихідного сервера та інших клієнтів, але безуспішно. Клієнт "
+"розігрує свою останню картку Ouinet і намагається зв'язатися з довіреним "
+"ін'єктором, щоб отримати підписану копію контенту, якою він може поділитися "
+"з іншими клієнтами."
 
 #: concepts/how.md:block 32 (paragraph)
 msgid ""
@@ -324,10 +482,18 @@ msgid ""
 "the injector gets the request for content *X* from your client, and asks its "
 "origin server for it."
 msgstr ""
+"На малюнку нижче показаний можливий результат цієї операції: клієнт спочатку "
+"намагається зв'язатися з ін'єктором безпосередньо (наприклад, використовуючи "
+"інтернет-адресу, яку він отримав від «рою ін'єкторів»), але, на жаль, він "
+"вже заблокований вашим провайдером; на щастя, рій мостів показує інтернет-"
+"адреси двох інших клієнтів, які ще можуть зв'язатися з ін'єктором. Ваш "
+"клієнт відкриває тунель до ін'єктора через одного з цих клієнтів, тому "
+"ін'єктор отримує запит на контент *X* від вашого клієнта та запитує його у "
+"вихідного сервера."
 
 #: concepts/how.md:block 33 (paragraph)
 msgid "![Figure: Client reaches for injector](images/user-flow-2.svg)"
-msgstr ""
+msgstr "![Малюнок: Клієнт звертається до ін'єктора](images/user-flow-2.svg)"
 
 #: concepts/how.md:block 34 (paragraph)
 msgid ""
@@ -336,12 +502,17 @@ msgid ""
 "it arrived from (say, through the client sitting beyond the blocking). Once "
 "the content reaches your client, it does three things:"
 msgstr ""
+"Коли ін'єктор отримує контент *X*, він підписує його своїм ключем, додає "
+"підпис до контенту і відправляє його назад вашому клієнту через тунель, яким "
+"він прийшов (скажімо, через клієнта, що сидить за межами блокування). Як "
+"тільки вміст досягає вашого клієнта, він робить три речі:"
 
 #: concepts/how.md:block 35 (ordered list)
 msgid ""
 "It delivers it to you (in the case of CENO, it shows the content on the "
 "browser)."
 msgstr ""
+"Він передає його вам (у випадку із CENO він показує контент у браузері)."
 
 #: concepts/how.md:block 35 (ordered list)
 msgid ""
@@ -349,28 +520,37 @@ msgid ""
 "will stay there for a configurable amount of time, or until you decide to "
 "clear all stored content."
 msgstr ""
+"Він зберігає контент на вашому пристрої для подальшої передачі іншим "
+"клієнтам. Він буде зберігатися там протягом періоду часу (це можна "
+"налаштувати) або доти, доки ви не вирішите очистити весь збережений контент."
 
 #: concepts/how.md:block 35 (ordered list)
 msgid ""
 "It announces in the distributed cache index that it is in possession of a "
 "copy of that content, so that other clients can find it."
 msgstr ""
+"Він оголошує в індексі розподіленого кеша, що має копію цього контенту, щоб "
+"інші клієнти могли його знайти."
 
 #: concepts/how.md:block 36 (paragraph)
 msgid ""
 "The whole combined operation of retrieval, signing, storage and announcement "
 "is what we call **content injection**, as shown in the figure below."
 msgstr ""
+"Вся сукупність операцій з вилучення, підписання, зберігання та оголошення є "
+"тим, що ми називаємо ін'єкцією контенту, як показано на малюнку нижче."
 
 #: concepts/how.md:block 37 (paragraph)
 msgid ""
 "![Figure: Client receives signed content from injector](images/user-flow-3."
 "svg)"
 msgstr ""
+"![Малюнок: Клієнт отримує підписаний контент від ін'єктора](images/user-"
+"flow-3.svg)"
 
 #: concepts/how.md:block 38 (header)
 msgid "Browsing under complete blocking"
-msgstr ""
+msgstr "Перегляд сторінок при повному блокуванні"
 
 #: concepts/how.md:block 39 (paragraph)
 msgid ""
@@ -381,6 +561,12 @@ msgid ""
 "existing paths (due to everybody trying to go across them). This is where "
 "the real power of the distributed cache comes into play."
 msgstr ""
+"Будь ласка, зверніть увагу, що описана вище схема, як і раніше, вимагає, щоб "
+"*існував шлях* через блокування і до решти інтернету. Але іноді цей шлях "
+"може бути відсутнім: подумайте про повне міжнародне відключення, стихійні "
+"лиха або просто надмірне навантаження небагатьох існуючих шляхів (через те, "
+"що всі намагаються пройти через них). Саме тут і проявляється реальна сила "
+"розподіленого кешу."
 
 #: concepts/how.md:block 40 (paragraph)
 msgid ""
@@ -389,6 +575,10 @@ msgid ""
 "content *X* becomes especially relevant since it describes some ways in "
 "which you can help your community in such a situation."
 msgstr ""
+"Уявимо, що після того, як ви витягли контент *X* з ін'єктора, внаслідок "
+"стихійного лиха ваш регіон виявляється ізольованим від усього світу. "
+"Виявляється, що контент *X* стає особливо актуальним, оскільки він описує "
+"деякі способи, якими ви можете допомогти вашій спільноті в такій ситуації."
 
 #: concepts/how.md:block 41 (paragraph)
 msgid ""
@@ -398,11 +588,19 @@ msgid ""
 "it finds that your device is seeding it. CENO gets your Internet address "
 "from the index, connects to it and requests the content as shown below."
 msgstr ""
+"У цей момент інша людина, яка використовує браузер CENO, намагається "
+"отримати цей контент. Доступ до вихідного сервера або чогось за межами "
+"вашого регіону неможливий, тому CENO перевіряє індекс розподіленого кеша для "
+"цього контенту і виявляє, що ваш пристрій передає його. CENO отримує вашу "
+"інтернет-адресу з індексу, підключається до нього і запитує контент, як "
+"показано нижче."
 
 #: concepts/how.md:block 42 (paragraph)
 msgid ""
 "![Figure: Client receives signed content from client](images/user-flow-4.svg)"
 msgstr ""
+"![Малюнок: Клієнт отримує підписаний контент від клієнта](images/user-flow-4."
+"svg)"
 
 #: concepts/how.md:block 43 (paragraph)
 msgid ""
@@ -414,12 +612,22 @@ msgid ""
 "device may try to get half of it from each of the other devices (as shown "
 "below), thus speeding up the download and reducing the traffic they use."
 msgstr ""
+"Тепер другий пристрій також має копію контенту *X*, тому він оголошує про це "
+"в індексі розподіленого кешу, стаючи таким, що роздає. Якщо третя особа, "
+"зацікавлена в цьому контенті, використовує браузер CENO для його отримання, "
+"CENO тепер буде бачити *дві* адреси в індексі для контенту: адресу вашого "
+"пристрою та адресу другого користувача. Якщо контент важкий (наприклад, "
+"відео), цей третій пристрій може спробувати отримати його половину з кожного "
+"з інших пристроїв (як показано нижче), тим самим прискорюючи завантаження і "
+"зменшуючи трафік, що використовується."
 
 #: concepts/how.md:block 44 (paragraph)
 msgid ""
 "![Figure: Client receives signed content from multiple clients](images/user-"
 "flow-5.svg)"
 msgstr ""
+"![Малюнок: Клієнт отримує підписаний контент від кількох клієнтів](images/"
+"user-flow-5.svg)"
 
 #: concepts/how.md:block 45 (paragraph)
 msgid ""
@@ -429,25 +637,37 @@ msgid ""
 "between two clients sitting on the same local network (e.g. connected to the "
 "same Wi-Fi access point), even if the network has no access to others."
 msgstr ""
+"В кінці кінців, ситуація може стати ще гіршою, і вся комерційна та державна "
+"мережева інфраструктура може бути відключена. У цьому випадку Ouinet та "
+"браузер CENO також підтримують обмін контентом між двома клієнтами, що "
+"знаходяться в одній локальній мережі (наприклад, підключені до однієї точки "
+"доступу Wi-Fi), навіть якщо ця мережа не має доступу до інших."
 
 #: concepts/how.md:block 45 (paragraph)
 msgid ""
 "[Uniform Resource Locator]: https://en.wikipedia.org/wiki/"
 "Uniform_Resource_Locator"
 msgstr ""
+"[Уніфікований локатор ресурсу]: https://uk.wikipedia.org/wiki/"
+"Уніфікований_локатор_ресурсів"
 
 #: concepts/how.md:block 45 (paragraph)
 msgid ""
 "[Cryptographic hash function]: https://en.wikipedia.org/wiki/"
 "Cryptographic_hash_function"
 msgstr ""
+"[Криптографічну хеш-функцію]: https://uk.wikipedia.org/wiki/"
+"Криптографічна_геш-функція"
 
 #: concepts/how.md:block 45 (paragraph)
 msgid "[BitTorrent]: https://en.wikipedia.org/wiki/BitTorrent"
 msgstr ""
+"[протоколу BitTorrent]: https://uk.wikipedia.org/wiki/BitTorrent_(протокол)"
 
 #: concepts/how.md:block 45 (paragraph)
 msgid ""
 "[Distributed Hash Table]: https://en.wikipedia.org/wiki/"
 "Distributed_hash_table"
 msgstr ""
+"[розподіленої хеш-таблиці]: https://uk.wikipedia.org/wiki/"
+"Розподілена_геш-таблиця"
