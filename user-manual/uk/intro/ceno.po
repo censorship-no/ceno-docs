@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2022-01-31 19:53+0000\n"
-"Last-Translator: belousov <yam.robot0h@icloud.com>\n"
+"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "ceno/uk/>\n"
 "Language: uk\n"
