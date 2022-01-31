@@ -1,13 +1,20 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2022-01-31 19:53+0000\n"
+"Last-Translator: belousov <yam.robot0h@icloud.com>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
+"readme/uk/>\n"
 "Language: uk\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.11-dev\n"
 
 #: intro/README.md:block 1 (header)
 msgid "Introduction"
-msgstr ""
+msgstr "Вступ"
 
 #: intro/README.md:block 2 (paragraph)
 msgid ""
@@ -21,6 +28,15 @@ msgid ""
 "(https://censoredplanet.org/reports \"Censored Planet – Reports\")), both "
 "from private and state actors."
 msgstr ""
+"Інтернет та Всесвітня павутина стають все більш важливими для людей у всьому "
+"світі як джерело різноманітної інформації та як спосіб здійснення "
+"фундаментальних прав людини. У той саме час, останніми роками "
+"спостерігається зростання всіх видів мережевої цензури та інших видів "
+"мережного втручання (дивіться звіти [OONI] (https://ooni.org/reports/ \"Open "
+"Observatory of Network Interference — Research reports\"), [ "
+"Magma](https://magma.lavafeld.org/publications/ \"Magma publications\"), ["
+"Censored Planet](https://censoredplanet.org/reports \"Censored Planet — "
+"Reports\")), з обох боків — приватних та державних структур."
 
 #: intro/README.md:block 3 (paragraph)
 msgid ""
@@ -32,6 +48,14 @@ msgid ""
 "you need is connected to the network and has enough available resources to "
 "talk to your device at that moment."
 msgstr ""
+"Перегляд веб-ресурсів побудований на тому, що ваші пристрої можуть "
+"зв'язуватися зі спеціальними комп'ютерами, які називаються веб-серверами ("
+"вони керуються творцями контенту, видавцями або постачальниками "
+"інтернет-послуг), які зберігають контент, який ви хочете отримати. Цей "
+"зв'язок синхронний — більше схоже на спілкування по телефону, ніж на обмін "
+"листами. На жаль, для цього необхідно, щоб потрібний вам веб-сервер був "
+"підключений до мережі та мав достатньо ресурсів для спілкування з вашим "
+"пристроєм у цей час."
 
 #: intro/README.md:block 4 (paragraph)
 msgid ""
@@ -44,6 +68,14 @@ msgid ""
 "that run them) need to be trusted by both the origin server and your "
 "devices, and they also need to be reachable at all times."
 msgstr ""
+"Поява *мереж доставки вмісту* (або CDN; наприклад, комерційні Akamai та "
+"Cloudflare або орієнтована на громадянське суспільство Deflect) зняло "
+"частину навантаження з цих веб-серверів, розподіливши копії вмісту по "
+"центрах обробки даних по всьому світу, щоб вони були ближче до ваших "
+"пристроїв і, отже, швидше доступні, тоді як вихідні сервери стають захищені "
+"від прямого доступу. Проте, в даний час CDN-сервери (і, відповідно, "
+"організації, які ними керують) повинні користуватися довірою як вихідного "
+"сервера, так і ваших пристроїв, а також мають бути доступні будь-коли."
 
 #: intro/README.md:block 5 (paragraph)
 msgid ""
@@ -56,21 +88,32 @@ msgid ""
 "that content - even if I was somehow able to access it a few hours ago and "
 "we're living some streets apart."
 msgstr ""
+"На жаль, існують ситуації, в яких загальне підключення до інтернету є "
+"ускладненим (країни, що розвиваються або недостатньо обслуговуються, бідні "
+"або сільські регіони), дорогим (деякі країни стягують велику плату за "
+"міжнародний трафік) або активно блокується державними органами (відкрито або "
+"в результаті загального відключення ). У цих випадках доступ до вихідних веб-"
+"серверів або навіть до серверів CDN ускладнений або неможливий, і ваш "
+"пристрій не зможе отримати цей контент, навіть якщо я якимось чином зміг "
+"отримати доступ до нього кілька годин тому, а ми живемо на відстані "
+"декількох вулиць один від одного."
 
 #: intro/README.md:block 6 (paragraph)
 msgid ""
 "This is where the CENO Browser and Ouinet come into play. This chapter will "
 "introduce you to them."
 msgstr ""
+"Саме тут в гру вступають браузер CENO та Ouinet. У цьому розділі ми "
+"познайомимо вас із ними."
 
 #: intro/README.md:block 6 (paragraph)
 msgid "[ooni-reports]: https://ooni.org/reports/"
-msgstr ""
+msgstr "[ooni-reports]: https://ooni.org/reports/"
 
 #: intro/README.md:block 6 (paragraph)
 msgid "[magma-reports]: https://magma.lavafeld.org/publications/"
-msgstr ""
+msgstr "[magma-reports]: https://magma.lavafeld.org/publications/"
 
 #: intro/README.md:block 6 (paragraph)
 msgid "[cplan-reports]: https://censoredplanet.org/reports"
-msgstr ""
+msgstr "[cplan-reports]: https://censoredplanet.org/reports"
