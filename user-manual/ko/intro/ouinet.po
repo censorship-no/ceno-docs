@@ -1,13 +1,19 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2022-01-31 19:53+0000\n"
+"Last-Translator: Yonjae Lee <yjyj93@gmail.com>\n"
+"Language-Team: Korean <https://hosted.weblate.org/projects/censorship-no/"
+"ouinet/ko/>\n"
 "Language: ko\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.11-dev\n"
 
 #: intro/ouinet.md:block 1 (header)
 msgid "What is Ouinet?"
-msgstr ""
+msgstr "Ouinet이란?"
 
 #: intro/ouinet.md:block 2 (paragraph)
 msgid ""
@@ -44,10 +50,12 @@ msgid ""
 "Same as the CENO Browser, Ouinet is developed by [eQualitie][eQualitie] as "
 "Free/Libre/Open-Source software."
 msgstr ""
+"CENO Browser와 마찬가지로 Ouinet은 [eQualitie][eQualitie]에 의해 자유/리브레/오픈소스 소프트웨어로 "
+"개발되고 있습니다."
 
 #: intro/ouinet.md:block 6 (header)
 msgid "Who is it for?"
-msgstr ""
+msgstr "누구를 위한 건가요?"
 
 #: intro/ouinet.md:block 7 (paragraph)
 msgid ""
@@ -72,15 +80,20 @@ msgid ""
 "**Warning:** *Ouinet is not an anonymity tool*. If you are unsure about its "
 "adequacy for a certain task, do not hesitate to contact us."
 msgstr ""
+"**주의:** *Ouinet은 익명성 도구가 아닙니다*. 만약 어떤 작업에 Ouinet이 적합한지 모르겠다면 망설이지 마시고 저희에게 "
+"연락하십시오."
 
 #: intro/ouinet.md:block 9 (quote)
+#, fuzzy
 msgid "[Ouinet]: https://github.com/equalitie/ouinet/"
-msgstr ""
+msgstr "[Ouinet]: https://github.com/equalitie/ouinet/"
 
 #: intro/ouinet.md:block 9 (quote)
+#, fuzzy
 msgid "[P2P]: https://en.wikipedia.org/wiki/Peer-to-peer"
-msgstr ""
+msgstr "[P2P]: https://en.wikipedia.org/wiki/Peer-to-peer"
 
 #: intro/ouinet.md:block 9 (quote)
+#, fuzzy
 msgid "[eQualitie]: https://equalit.ie/"
-msgstr ""
+msgstr "[eQualitie]: https://equalit.ie/"
