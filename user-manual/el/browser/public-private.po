@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2022-01-14 15:53+0000\n"
+"PO-Revision-Date: 2022-02-02 14:54+0000\n"
 "Last-Translator: george kitsoukakis <norhorn@gmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/censorship-no/"
 "browser-public-private/el/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.10.1\n"
+"X-Generator: Weblate 4.11-dev\n"
 
 #
 #: browser/public-private.md:block 1 (header)
@@ -26,6 +26,10 @@ msgid ""
 "the content that you browse with others (public browsing) or not (private "
 "browsing)."
 msgstr ""
+"Όπως περιγράφεται [σε προηγούμενη ενότητα](../concepts/public-private.md), "
+"το CENO διαθέτει δύο διαφορετικούς τρόπους λειτουργίας, ανάλογα με το αν "
+"θέλετε να μοιραστείτε το περιεχόμενο της περιήγησης σας με άλλους (δημόσια "
+"περιήγηση) ή όχι (ιδιωτική περιήγηση)."
 
 #: browser/public-private.md:block 3 (paragraph)
 msgid ""
