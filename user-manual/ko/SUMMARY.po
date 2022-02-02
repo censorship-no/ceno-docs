@@ -1,17 +1,24 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2022-02-02 14:54+0000\n"
+"Last-Translator: Yonjae Lee <yjyj93@gmail.com>\n"
+"Language-Team: Korean <https://hosted.weblate.org/projects/censorship-no/"
+"user-manual/ko/>\n"
 "Language: ko\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.11-dev\n"
 
 #: SUMMARY.md:block 1 (header)
 msgid "Summary"
 msgstr ""
 
 #: SUMMARY.md:block 2 (paragraph)
+#, fuzzy
 msgid "[Censorship.no!](README.md)"
-msgstr ""
+msgstr "[Censorship.no!](README.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Introduction](intro/README.md)"
