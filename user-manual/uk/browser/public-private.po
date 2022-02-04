@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-01-25 19:54+0000\n"
-"Last-Translator: belousov <yam.robot0h@icloud.com>\n"
+"PO-Revision-Date: 2022-02-05 10:51+0000\n"
+"Last-Translator: Vitalii Moroz <vitaliy.moroz@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-public-private/uk/>\n"
 "Language: uk\n"
@@ -24,8 +24,8 @@ msgid ""
 "browsing)."
 msgstr ""
 "Як описано [у попередньому розділі](../concepts/public-private.md), CENO має "
-"два різні режими роботи залежно від того, чи хочете ви з іншими ділитися "
-"контентом, який переглядаєте (публічний перегляд) чи ні (приватний перегляд)."
+"два різні режими роботи залежно від того, чи хочете ви ділитися контентом, "
+"який переглядаєте (публічний перегляд) з іншими, чи ні (приватний перегляд)."
 
 #: browser/public-private.md:block 3 (paragraph)
 msgid ""
@@ -56,18 +56,19 @@ msgstr "![Малюнок: Вкладка публічного перегляду
 
 #: browser/public-private.md:block 6 (paragraph)
 msgid "In contrast, private tabs have a darker tool bar:"
-msgstr "Приватні вкладки навпаки, мають темнішу панель інструментів:"
+msgstr "Приватні вкладки, навпаки, мають темнішу панель інструментів:"
 
 #: browser/public-private.md:block 7 (paragraph)
 msgid "![Figure: A private browsing tab](images/private-tab.png)"
 msgstr "![Малюнок: Вкладка приватного перегляду](images/private-tab.png)"
 
 #: browser/public-private.md:block 8 (paragraph)
+#, fuzzy
 msgid ""
 "Once you have loaded a page in a tab, the colored CENO icon in the address "
 "bar will help you know how it actually retrieved the different elements of "
 "the content. We will cover this icon later on."
 msgstr ""
-"Після того, як сторінка у вкладці завантажиться, кольоровий значок CENO в "
+"Після того, як сторінка у вкладці завантажилась, кольоровий значок CENO в "
 "адресному рядку допоможе вам дізнатися, як були отримані різні елементи "
 "вмісту. Ми розглянемо цей значок пізніше."
