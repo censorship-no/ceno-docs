@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-02-06 15:56+0000\n"
-"Last-Translator: Vitalii Moroz <vitaliy.moroz@gmail.com>\n"
+"PO-Revision-Date: 2022-02-07 23:31+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-troubleshooting/uk/>\n"
 "Language: uk\n"
@@ -17,7 +17,6 @@ msgid "Troubleshooting"
 msgstr "Усунення несправностей"
 
 #: browser/troubleshooting.md:block 2 (paragraph)
-#, fuzzy
 msgid ""
 "This section will give you some hints about what to do when different, known "
 "problems arise with CENO and Ouinet. Please bear in mind that these are "
@@ -34,7 +33,6 @@ msgstr ""
 "користувачі та характеристики їхніх з'єднань."
 
 #: browser/troubleshooting.md:block 3 (paragraph)
-#, fuzzy
 msgid ""
 "If problems still persist, please report them to [cenoers@equalit.ie](mailto:"
 "cenoers@equalit.ie). We will try to help you with them."
@@ -134,7 +132,6 @@ msgstr ""
 "виявити втручання самостійно."
 
 #: browser/troubleshooting.md:block 15 (paragraph)
-#, fuzzy
 msgid ""
 "Thus, one way to get to the legitimate site is to try to access it over "
 "HTTPS by tapping the address bar and replacing `http://` with `https://` at "
@@ -200,14 +197,12 @@ msgstr ""
 "контенту, але жоден з них не спрацював."
 
 #: browser/troubleshooting.md:block 21 (paragraph)
-#, fuzzy
 msgid ""
 "You should make sure that the following requirements are fulfilled for CENO "
 "to work:"
 msgstr "Ви повинні переконатися, що для роботи CENO виконуються такі вимоги:"
 
 #: browser/troubleshooting.md:block 22 (unordered list)
-#, fuzzy
 msgid ""
 "You are running a recent version of the CENO Browser. Obsolete versions may "
 "not be able to communicate with newer injectors or other clients. Check the "
@@ -239,7 +234,6 @@ msgstr ""
 "доступу Wi-Fi для поширення контенту від пристрою до пристрою безпосередньо)."
 
 #: browser/troubleshooting.md:block 23 (paragraph)
-#, fuzzy
 msgid ""
 "If that is the case, it is worth explaining what may be happening for all "
 "access mechanisms to fail, to give you an idea of your chances for getting "
@@ -276,7 +270,6 @@ msgid "Proxy/Injector access"
 msgstr "Доступ до проксі/ін'єктора"
 
 #: browser/troubleshooting.md:block 28 (paragraph)
-#, fuzzy
 msgid ""
 "Someone is interfering with your connection to Internet addresses in the "
 "injector swarm. Since this is expected to happen eventually as CENO (and "
@@ -343,7 +336,6 @@ msgstr ""
 "контент з розподіленого кешу, навіть якщо він застарів."
 
 #: browser/troubleshooting.md:block 30 (unordered list)
-#, fuzzy
 msgid ""
 "Again, as CENO and Ouinet become more popular, the chances increase that "
 "there are at least a few clients that do have some kind of access to "
@@ -487,7 +479,6 @@ msgstr ""
 "цієї мережі неможлива."
 
 #: browser/troubleshooting.md:block 41 (quote)
-#, fuzzy
 msgid ""
 "**Technical note:** If your device reports *undecided* reachability and you "
 "can change the configuration of the access point, you may create a permanent "
