@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-02-06 15:56+0000\n"
-"Last-Translator: Vitalii Moroz <vitaliy.moroz@gmail.com>\n"
+"PO-Revision-Date: 2022-02-07 23:32+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-testing/uk/>\n"
 "Language: uk\n"
@@ -84,7 +84,6 @@ msgstr ""
 "Насамперед, встановіть CENO і запустіть його. З'явиться головна сторінка."
 
 #: browser/testing.md:block 8 (ordered list)
-#, fuzzy
 msgid ""
 "Open the app's main menu and choose *CENO* to open the *CENO Settings* page. "
 "Since we only want to test injector access, uncheck all the boxes for "
@@ -95,7 +94,6 @@ msgstr ""
 "зніміть прапорці з джерел контенту, окрім *У публічній мережі CENO*."
 
 #: browser/testing.md:block 8 (ordered list)
-#, fuzzy
 msgid ""
 "Go back to CENO's home page. Either select one of the recommended Web sites, "
 "or enter the URL of some other site at the address bar at the top of the "
@@ -134,7 +132,6 @@ msgstr ""
 "розподіленого кеша."
 
 #: browser/testing.md:block 11 (paragraph)
-#, fuzzy
 msgid ""
 "By the way, if you push the CENO icon in the address bar, it will open a "
 "popup like the one below, showing how many elements from the site were "
@@ -175,7 +172,6 @@ msgid "Getting content from close users"
 msgstr "Отримання контенту від локальних користувачів"
 
 #: browser/testing.md:block 16 (paragraph)
-#, fuzzy
 msgid ""
 "Since your first device was able to get some content from an injector, let "
 "us test if it is able to share it with another device over the distributed "
@@ -256,7 +252,6 @@ msgstr ""
 "кешу](images/sources-dcache.png)"
 
 #: browser/testing.md:block 22 (paragraph)
-#, fuzzy
 msgid ""
 "Finally, you may have also noticed that there is a counter for *Shared by "
 "you*. This is not a different source *per se*: elements counted here are "
@@ -273,7 +268,6 @@ msgid "Getting content from remote users"
 msgstr "Отримання контенту від користувачів з іншої мережі"
 
 #: browser/testing.md:block 24 (paragraph)
-#, fuzzy
 msgid ""
 "We have done a small-scale test of the distributed cache. Let us now test "
 "how it works over the Internet."
@@ -282,7 +276,6 @@ msgstr ""
 "працює через інтернет."
 
 #: browser/testing.md:block 25 (paragraph)
-#, fuzzy
 msgid ""
 "After successfully completing the test above, leave CENO running on the "
 "first device as with the previous test, and stop CENO on the second device "
@@ -304,7 +297,6 @@ msgstr ""
 "тесті."
 
 #: browser/testing.md:block 27 (paragraph)
-#, fuzzy
 msgid ""
 "If the third device can load the site used for the test, you are all set. "
 "The first device is able to seed content to others, and it can most probably "
