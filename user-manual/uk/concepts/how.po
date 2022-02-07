@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-02-07 19:09+0000\n"
-"Last-Translator: Vitalii Moroz <vitaliy.moroz@gmail.com>\n"
+"PO-Revision-Date: 2022-02-07 23:32+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "how/uk/>\n"
 "Language: uk\n"
@@ -55,7 +55,6 @@ msgstr ""
 "відрізняється від того, як працює будь-який звичайний веб-браузер."
 
 #: concepts/how.md:block 5 (quote)
-#, fuzzy
 msgid ""
 "**Technical note:** There is in fact one small gotcha. Since the client acts "
 "as an HTTP proxy running on your device, for the client to be able to "
