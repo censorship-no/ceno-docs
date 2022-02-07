@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-02-05 10:51+0000\n"
-"Last-Translator: Vitalii Moroz <vitaliy.moroz@gmail.com>\n"
+"PO-Revision-Date: 2022-02-07 23:31+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-public-private/uk/>\n"
 "Language: uk\n"
@@ -63,7 +63,6 @@ msgid "![Figure: A private browsing tab](images/private-tab.png)"
 msgstr "![Малюнок: Вкладка приватного перегляду](images/private-tab.png)"
 
 #: browser/public-private.md:block 8 (paragraph)
-#, fuzzy
 msgid ""
 "Once you have loaded a page in a tab, the colored CENO icon in the address "
 "bar will help you know how it actually retrieved the different elements of "
