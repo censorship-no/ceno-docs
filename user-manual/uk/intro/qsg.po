@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-01-31 19:53+0000\n"
-"Last-Translator: belousov <yam.robot0h@icloud.com>\n"
+"PO-Revision-Date: 2022-02-07 23:31+0000\n"
+"Last-Translator: Vitalii Moroz <vitaliy.moroz@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "qsg/uk/>\n"
 "Language: uk\n"
@@ -24,10 +24,10 @@ msgid ""
 "others. [Read more about CENO](ceno.md)."
 msgstr ""
 "Браузер CENO дозволяє отримати доступ до будь-якого сайту в інтернеті, "
-"навіть якщо він піддається цензурі у вашій країні. CENO використовує "
-"пірінгову інфраструктуру для маршрутизації ваших запитів, а також зберігання "
-"та обміну отриманим контентом з іншими користувачами. [Докладніше про "
-"CENO](ceno.md)."
+"навіть якщо він підпадає під цензуру у вашій країні. CENO використовує "
+"пірінгову інфраструктуру для маршрутизації ваших запитів, а також для "
+"зберігання та обміну отриманим контентом з іншими користувачами. [Докладніше "
+"про CENO](ceno.md)."
 
 #: intro/qsg.md:block 3 (header)
 msgid "How to get started"
@@ -56,7 +56,7 @@ msgid ""
 "(see [public vs. private browsing](../concepts/public-private.md))."
 msgstr ""
 "Переглядайте сторінки як завжди, щоб допомогти іншим користувачам отримати "
-"доступ до них; якщо вас турбує конфіденційність якоїсь сторінки або якщо "
+"доступ до них; якщо вас непокоїть конфіденційність якоїсь сторінки або якщо "
 "вона завантажується не так, як очікувалося — використовуйте приватну вкладку "
 "(дивіться [публічний чи приватний. перегляд сторінок](../concepts/public-"
 "private.md))."
@@ -68,7 +68,7 @@ msgstr "Натисніть на сповіщення CENO, щоб повніст
 #: intro/qsg.md:block 6 (paragraph)
 msgid "Detailed installation instructions are [here](../browser/install.md)."
 msgstr ""
-"Детальні інструкції з встановлення знаходяться [тут](../browser/install.md)."
+"Детальні інструкції з встановлення розташовані [тут](../browser/install.md)."
 
 #: intro/qsg.md:block 7 (header)
 msgid "Configuration"
