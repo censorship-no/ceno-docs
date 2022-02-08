@@ -1,13 +1,19 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2022-02-08 08:37+0000\n"
+"Last-Translator: Yonjae Lee <yjyj93@gmail.com>\n"
+"Language-Team: Korean <https://hosted.weblate.org/projects/censorship-no/"
+"browser-troubleshooting/ko/>\n"
 "Language: ko\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.11-dev\n"
 
 #: browser/troubleshooting.md:block 1 (header)
 msgid "Troubleshooting"
-msgstr ""
+msgstr "문제 해결"
 
 #: browser/troubleshooting.md:block 2 (paragraph)
 msgid ""
