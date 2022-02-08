@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-02-07 23:31+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
+"PO-Revision-Date: 2022-02-09 10:55+0000\n"
+"Last-Translator: Vitalii Moroz <vitaliy.moroz@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "qsg/uk/>\n"
 "Language: uk\n"
@@ -68,7 +68,7 @@ msgstr "Натисніть на сповіщення CENO, щоб повніст
 #: intro/qsg.md:block 6 (paragraph)
 msgid "Detailed installation instructions are [here](../browser/install.md)."
 msgstr ""
-"Детальні інструкції з встановлення розташовані [тут](../browser/install.md)."
+"Детальні інструкції зі встановлення розташовані [тут](../browser/install.md)."
 
 #: intro/qsg.md:block 7 (header)
 msgid "Configuration"
@@ -79,7 +79,7 @@ msgid ""
 "The CENO Browser should work out-of-the-box. You can find some [diagnostics "
 "and settings](../browser/settings.md) under the *CENO* menu entry."
 msgstr ""
-"Браузер CENO повинен працювати «з коробки». Ви можете знайти деякі ["
+"Браузер CENO повинен працювати «з коробки» – відразу. Ви можете знайти ["
 "діагностика та налаштування](../browser/settings.md) під пунктом меню *CENO*."
 
 #: intro/qsg.md:block 9 (paragraph)
