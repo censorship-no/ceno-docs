@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-02-07 23:32+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
+"PO-Revision-Date: 2022-02-09 10:55+0000\n"
+"Last-Translator: Vitalii Moroz <vitaliy.moroz@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "how/uk/>\n"
 "Language: uk\n"
@@ -567,8 +567,8 @@ msgstr ""
 "*існував шлях* крізь блокування і до решти інтернету. Але іноді цього шляху "
 "може не бути: візьміть до уваги повне міжнародне відключення, стихійні лиха "
 "або просто надмірне навантаження небагатьох наявних шляхів (з огляду на те, "
-"що всі намагаються скористатися ними). Саме тут і проявляється дійсна сила "
-"розподіленого кешу."
+"що всі намагаються скористатися ними). Саме тут і проявляється справжня "
+"потужність розподіленого кешу."
 
 #: concepts/how.md:block 40 (paragraph)
 msgid ""
