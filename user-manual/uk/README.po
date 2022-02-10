@@ -1,0 +1,61 @@
+#
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-02-09 10:55+0000\n"
+"Last-Translator: Vitalii Moroz <vitaliy.moroz@gmail.com>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
+"homepage-readme/uk/>\n"
+"Language: uk\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.11-dev\n"
+
+#: README.md:block 1 (header)
+msgid "Censorship.no! User Manual"
+msgstr "Посібник користувача Censorship.no!"
+
+#: README.md:block 2 (paragraph)
+msgid ""
+"This manual is aimed at users of the **CENO Browser** and related "
+"technologies, as created for the [Censorship.no!][Censorship.no!] project by "
+"[eQualitie][eQualitie]."
+msgstr ""
+"Цей посібник призначений для користувачів **браузера CENO** та пов'язаних з "
+"ним технологій, створених для проєкту [Censorship.no!][Censorship.no!] "
+"компанією [eQualitie][eQualitie]."
+
+#: README.md:block 3 (paragraph)
+msgid ""
+"If you are looking for technical documentation, please refer to the [CENO "
+"documentation repository][CENO documentation repository], where you will "
+"find pointers for further reading and details on implementation, as well as "
+"the [protocol specifications][protocol specifications]."
+msgstr ""
+"Якщо ви шукаєте технічну документацію, ознайомтеся з [репозиторієм "
+"документації CENO][Репозиторій документації CENO] та [специфікацією "
+"протоколу][Специфікація протоколу], де ви зможете отримати більш детальну "
+"інформацію та дізнатися про інтеграцію."
+
+#: README.md:block 3 (paragraph)
+msgid "[Censorship.no!]: https://censorship.no/"
+msgstr "[Censorship.no!]: https://censorship.no/"
+
+#: README.md:block 3 (paragraph)
+msgid "[eQualitie]: https://equalit.ie/"
+msgstr "[eQualitie]: https://equalit.ie/"
+
+#: README.md:block 3 (paragraph)
+msgid ""
+"[CENO documentation repository]: https://github.com/censorship-no/ceno-docs/"
+msgstr ""
+"[Репозиторій документації CENO]: https://github.com/censorship-no/ceno-docs/"
+
+#: README.md:block 3 (paragraph)
+msgid ""
+"[protocol specifications]: https://github.com/equalitie/ouinet/blob/master/"
+"doc/ouinet-network-whitepaper.md"
+msgstr ""
+"[Специфікація протоколу]: https://github.com/equalitie/ouinet/blob/master/"
+"doc/ouinet-network-whitepaper.md"

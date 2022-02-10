@@ -3,20 +3,21 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-16 04:02+0200\n"
-"PO-Revision-Date: 2021-04-20 22:29+0000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-01-31 19:53+0000\n"
+"Last-Translator: george kitsoukakis <norhorn@gmail.com>\n"
+"Language-Team: Greek <https://hosted.weblate.org/projects/censorship-no/how/"
+"el/>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.7-dev\n"
+"X-Generator: Weblate 4.11-dev\n"
 
 #
 #: concepts/how.md:block 1 (header)
 msgid "How does it work?"
-msgstr ""
+msgstr "Πώς λειτουργεί;"
 
 #: concepts/how.md:block 2 (paragraph)
 msgid ""
@@ -28,7 +29,7 @@ msgstr ""
 
 #: concepts/how.md:block 3 (header)
 msgid "Accessing content directly"
-msgstr ""
+msgstr "Απευθείας πρόσβαση σε περιεχόμενο"
 
 #: concepts/how.md:block 4 (paragraph)
 msgid ""
@@ -78,7 +79,7 @@ msgstr ""
 
 #: concepts/how.md:block 9 (header)
 msgid "Searching for shared content"
-msgstr ""
+msgstr "Αναζήτηση κοινόχρηστου περιεχομένου"
 
 #: concepts/how.md:block 10 (paragraph)
 msgid ""
@@ -154,7 +155,7 @@ msgstr ""
 
 #: concepts/how.md:block 17 (header)
 msgid "Sharing new content"
-msgstr ""
+msgstr "Κοινή χρήση νέου περιεχομένου"
 
 #: concepts/how.md:block 18 (header)
 msgid "Proxies on steroids"

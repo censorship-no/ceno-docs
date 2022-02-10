@@ -1,0 +1,99 @@
+#
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-01-31 19:53+0000\n"
+"Last-Translator: Yonjae Lee <yjyj93@gmail.com>\n"
+"Language-Team: Korean <https://hosted.weblate.org/projects/censorship-no/"
+"ouinet/ko/>\n"
+"Language: ko\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.11-dev\n"
+
+#: intro/ouinet.md:block 1 (header)
+msgid "What is Ouinet?"
+msgstr "Ouinet이란?"
+
+#: intro/ouinet.md:block 2 (paragraph)
+msgid ""
+"[Ouinet][Ouinet] is a core technology that allows the CENO browser to share "
+"Web content with other devices. Ouinet comes in the form of reusable "
+"computer code (a library) that an application like CENO can use to become a "
+"participant in a network of cooperating nodes that communicate directly "
+"([peer-to-peer][P2P] or P2P) to help access and store new Web content, and "
+"to request and deliver previously accessed content to others."
+msgstr ""
+
+#: intro/ouinet.md:block 3 (paragraph)
+msgid ""
+"Ouinet is based on a clever combination and use of existing technologies to "
+"accomplish each of its functionalities: locating other participants is done "
+"with techniques coming from the world of file-sharing (BitTorrent's "
+"distributed hash table), communicating with them uses common Web and file-"
+"sharing protocols (HTTP proxy requests and BitTorrent's µTP), and modern "
+"industry standards ensure the security of communications and the "
+"authenticity of exchanged content (TLS encryption and Ed25519 signatures). "
+"Ouinet allows replacing particular technologies with others if needed (for "
+"instance, some uses of µTP can be replaced by Tor's Pluggable Transports)."
+msgstr ""
+
+#: intro/ouinet.md:block 4 (paragraph)
+msgid ""
+"On mobile devices, Ouinet can be embedded into end-user applications (as an "
+"Android library). In computers, it can be used by normal Web clients like "
+"browsers (as a local HTTP proxy)."
+msgstr ""
+
+#: intro/ouinet.md:block 5 (paragraph)
+msgid ""
+"Same as the CENO Browser, Ouinet is developed by [eQualitie][eQualitie] as "
+"Free/Libre/Open-Source software."
+msgstr ""
+"CENO Browser와 마찬가지로 Ouinet은 [eQualitie][eQualitie]에 의해 자유/리브레/오픈소스 소프트웨어로 "
+"개발되고 있습니다."
+
+#: intro/ouinet.md:block 6 (header)
+msgid "Who is it for?"
+msgstr "누구를 위한 건가요?"
+
+#: intro/ouinet.md:block 7 (paragraph)
+msgid ""
+"Ouinet is mostly useful for software developers, content creators and "
+"publishers who want to enable users of their applications to share retrieved "
+"content with other users. This reduces the overall demand on the application "
+"server and improves content accessibility for users living in countries that "
+"block access to that server."
+msgstr ""
+
+#: intro/ouinet.md:block 8 (paragraph)
+msgid ""
+"Please note that Ouinet is an evolving experimental project: some features "
+"may not work reliably enough in certain scenarios, bugs may exist and "
+"crashes may occur. We encourage you to reach out to us at [cenoers@equalit."
+"ie](mailto:cenoers@equalit.ie), test it and report back - your feedback is "
+"very welcome!"
+msgstr ""
+
+#: intro/ouinet.md:block 9 (quote)
+msgid ""
+"**Warning:** *Ouinet is not an anonymity tool*. If you are unsure about its "
+"adequacy for a certain task, do not hesitate to contact us."
+msgstr ""
+"**주의:** *Ouinet은 익명성 도구가 아닙니다*. 만약 어떤 작업에 Ouinet이 적합한지 모르겠다면 망설이지 마시고 저희에게 "
+"연락하십시오."
+
+#: intro/ouinet.md:block 9 (quote)
+#, fuzzy
+msgid "[Ouinet]: https://github.com/equalitie/ouinet/"
+msgstr "[Ouinet]: https://github.com/equalitie/ouinet/"
+
+#: intro/ouinet.md:block 9 (quote)
+#, fuzzy
+msgid "[P2P]: https://en.wikipedia.org/wiki/Peer-to-peer"
+msgstr "[P2P]: https://en.wikipedia.org/wiki/Peer-to-peer"
+
+#: intro/ouinet.md:block 9 (quote)
+#, fuzzy
+msgid "[eQualitie]: https://equalit.ie/"
+msgstr "[eQualitie]: https://equalit.ie/"

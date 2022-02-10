@@ -1,0 +1,158 @@
+#
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-02-09 10:55+0000\n"
+"Last-Translator: Vitalii Moroz <vitaliy.moroz@gmail.com>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
+"client-front-end/uk/>\n"
+"Language: uk\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.11-dev\n"
+
+#: client/front-end.md:block 1 (header)
+msgid "Annex: The Ouinet client front-end"
+msgstr "Додаток: Зовнішній інтерфейс клієнта Ouinet"
+
+#: client/front-end.md:block 2 (paragraph)
+msgid ""
+"The Ouinet client (as run by e.g. the CENO Browser) offers a front-end page "
+"with some information and actions which may be useful for debugging the "
+"client. Many of them are also offered by the CENO Extension via the [*CENO "
+"Settings* page](../browser/settings.md), though others are only available "
+"here."
+msgstr ""
+"У клієнта Ouinet (який запускається, наприклад, браузером CENO) є службовий "
+"інтерфейс з довідковою інформацією та командами, що можуть бути корисними "
+"для налагодження клієнта. Багато з цих команд також пропонує розширення CENO "
+"через сторінку [*Налаштування CENO*(../browser/settings.md), проте деякі "
+"команди доступні лише тут."
+
+#: client/front-end.md:block 3 (paragraph)
+msgid ""
+"The front-end is accessible using any plain Web browser running on the same "
+"device (you can use CENO too). Its default address is "
+"[http://127.0.0.1:8078/](http://127.0.0.1:8078/). If you open it, you will "
+"see something like the figure below."
+msgstr ""
+"Інтерфейс доступний через будь-який веб-браузер, запущеного на тому ж "
+"пристрої (ви можете використовувати CENO також). За замовчуванням, адреса "
+"інтерфейсу — [http://127.0.0.1:8078/](http://127.0.0.1:8078/). При його "
+"відкритті ви побачите щось схоже на малюнок нижче."
+
+#: client/front-end.md:block 4 (paragraph)
+msgid "![Figure: The client front-end](images/front-end.png)"
+msgstr "![Малюнок: Зовнішній інтерфейс клієнта](images/front-end.png)"
+
+#: client/front-end.md:block 5 (paragraph)
+msgid "The items shown in the page include:"
+msgstr "На сторінці відображаються такі елементи:"
+
+#: client/front-end.md:block 6 (unordered list)
+msgid ""
+"A link to enable the client as a certificate authority (CA) at your browser, "
+"since the client needs to intercept HTTPS traffic."
+msgstr ""
+"Посилання для налаштування Ouinet як центру сертифікації (ЦС) у вашому "
+"браузері, оскільки клієнту необхідно перехоплювати HTTPS-трафік."
+
+#: client/front-end.md:block 6 (unordered list)
+msgid ""
+"You only need this to use a plain browser for testing the Ouinet client, in "
+"which case you will also have to configure its HTTP/HTTPS proxies to "
+"`127.0.0.1:8077`, and manually enable the [CENO Extension][CENO Extension] "
+"for injection to work. We very strongly recommend using a *separate, "
+"specific browser profile* for this purpose."
+msgstr ""
+"Вам це потрібно лише скориставшись звичайним браузером для тестування "
+"клієнта Ouinet, у цьому випадку вам також доведеться налаштувати його HTTP/"
+"HTTPS проксі на `127.0.0.1:8077` та вручну запустити [Розширення CENO]["
+"Розширення CENO], щоб ін'єкція працювала. Ми рекомендуємо використовувати *"
+"окремий профіль браузера* для цієї мети."
+
+#: client/front-end.md:block 6 (unordered list)
+msgid ""
+"Please note that none of this needs to be done for the CENO Browser, since "
+"it is already configured like that."
+msgstr ""
+"Зверніть увагу, жодна з цих дій не стосується браузера CENO, оскільки він "
+"вже налаштований відповідно."
+
+#: client/front-end.md:block 6 (unordered list)
+msgid ""
+"Buttons to enable or disable the different mechanisms used by the client to "
+"access content."
+msgstr ""
+"Кнопки для увімкнення або вимкнення різних механізмів, які клієнт "
+"використовує для доступу до контенту."
+
+#: client/front-end.md:block 6 (unordered list)
+msgid ""
+"Selectors to choose different log levels, like the default `INFO` "
+"(informational messages, warnings and errors) or `DEBUG` (verbose output "
+"useful for reporting errors). The log file can also be enabled and retrieved "
+"from here."
+msgstr ""
+"Селектори для вибору різних рівнів журналу (логів), наприклад, за "
+"замовчуванням `INFO` (інформаційні повідомлення, попередження та помилки) "
+"або `DEBUG` (докладний звіт з повідомленням про помилки). Звідси також можна "
+"увімкнути та отримати файл журналу ."
+
+#: client/front-end.md:block 6 (unordered list)
+msgid ""
+"When enabling the log file, the log level is automatically set to `DEBUG` "
+"(though you may change it again from here). When disabling the log file, the "
+"original log level is restored."
+msgstr ""
+"При активації файлу журналу, рівень журналу автоматично встановлюється на "
+"значенні `DEBUG` (хоча ви можете змінити його). У разі вимкнення файлу "
+"журналу, буде відновлено вихідний рівень."
+
+#: client/front-end.md:block 6 (unordered list)
+msgid ""
+"Global client state and version information. Useful when reporting errors."
+msgstr ""
+"Загальна інформація про стан та версію клієнта. Корисно під час створення "
+"звітів про помилки."
+
+#: client/front-end.md:block 6 (unordered list)
+msgid ""
+"Information about client connectivity and injector addressing. The default "
+"`bep5` method looks up Internet addresses in a BitTorrent injector swarm, as "
+"explained [here](../concepts/how.md)."
+msgstr ""
+"Інформація про підключення клієнтів та адресацію ін'єкторів. За "
+"замовчуванням, метод`bep5` шукає інтернет-адреси серед «рою» ін'єкторів "
+"BitTorrent, як описано в [цьому розділі](../concepts/how.md)."
+
+#: client/front-end.md:block 6 (unordered list)
+msgid ""
+"The public key used to verify signatures from injectors in the distributed "
+"cache."
+msgstr ""
+"Відкритий ключ, що використовується для перевірки підписів від ін'єкторів у "
+"розподіленому кеші."
+
+#: client/front-end.md:block 6 (unordered list)
+msgid ""
+"Information on your local cache like the maximum content age, approximate "
+"size of the cache, a button to purge it completely, and a link to the list "
+"of announced cache entries."
+msgstr ""
+"Інформація про ваш локальний кеш, як-то: максимальний вік вмісту, приблизний "
+"розмір кешу, посилання на список анонсованих записів кешу, а також кнопка "
+"для повного очищення кешу."
+
+#: client/front-end.md:block 6 (unordered list)
+msgid ""
+"The directory of the external, static cache if enabled (CENO does not "
+"currently use this)."
+msgstr ""
+"Каталог зовнішнього статичного кешу, якщо він увімкнений (нині CENO його не "
+"використовує)."
+
+#: client/front-end.md:block 6 (unordered list)
+msgid "[CENO Extension]: https://github.com/censorship-no/ceno-ext-settings/"
+msgstr "[Розширення CENO]: https://github.com/censorship-no/ceno-ext-settings/"

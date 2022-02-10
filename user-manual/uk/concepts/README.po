@@ -1,0 +1,43 @@
+#
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-02-09 10:55+0000\n"
+"Last-Translator: Vitalii Moroz <vitaliy.moroz@gmail.com>\n"
+"Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
+"concepts-readme/uk/>\n"
+"Language: uk\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.11-dev\n"
+
+#: concepts/README.md:block 1 (header)
+msgid "Main concepts"
+msgstr "Основні поняття"
+
+#: concepts/README.md:block 2 (paragraph)
+msgid ""
+"To fulfill its objective of circumventing several kinds of network "
+"interference and shortages, CENO makes use of assorted techniques from the "
+"fields of the World Wide Web, file-sharing systems and advanced "
+"cryptography. These techniques are cleverly combined by Ouinet so as to make "
+"the experience of using CENO as close as possible to normal Web browsing."
+msgstr ""
+"Аби досягти цілі обійти мережеві перешкоди та цензуру, CENO використовує "
+"різні методи на рівні веб-стандартів, файлообмінних систем та передової "
+"криптографії. Ці технології вміло комбінуються Ouinet таким чином, щоб "
+"зробити досвід використання CENO максимально наближеним до звичайного "
+"перегляду веб-сторінок."
+
+#: concepts/README.md:block 3 (paragraph)
+msgid ""
+"Nonetheless, to get the most out of CENO it is helpful to understand how "
+"Ouinet operates, the different ways it can be used depending on the kind of "
+"content we are trying to access, and the advantages and risks that they "
+"entail. This chapter will cover these topics."
+msgstr ""
+"Тим не менш, щоб максимально скористатися можливостями CENO, корисно "
+"зрозуміти, як працює Ouinet, як ця технологія може застосовуватися залежно "
+"від типу контенту, до якого ви намагаєтеся отримати доступ, а також переваги "
+"використання та можливі ризики. У цьому розділі ми розглянемо ці теми."
