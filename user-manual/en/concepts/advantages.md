@@ -2,7 +2,7 @@
 
 The main advantages of using CENO and Ouinet over other circumvention technologies stem from the cooperation of clients and injectors to forward traffic for one another, sign content for later verification, and store signed content for seeding to others.  Some advantages worth mentioning are:
 
-- **Familiar usage:** Accessing Web content using the CENO Browser feels quite like surfing the Web on your habitual browser, even during complete blocking.  There is no need for new custom links to popular content, or special actions from the user (like transferring files between applications).
+- **Familiar usage:** Accessing Web content using CENO Browser feels quite like surfing the Web on your habitual browser, even during complete blocking.  There is no need for new custom links to popular content, or special actions from the user (like transferring files between applications).
 
 - **Increased availability of content:** Ouinet is able to provide content in an efficient and trusted manner in situations of extreme network interference.  The more popular some particular content gets, the more copies of it get seeded by CENO/Ouinet clients, and the more available it becomes.
 

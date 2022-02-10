@@ -1,12 +1,12 @@
 # Helping other CENO users browse the Web
 
-A peer-to-peer network is built from every node connected to it (yes, that means you as well!).  The more nodes, the stronger and more versatile the network becomes.  If you are running the CENO Browser from a country that does not censor the Internet (or not as heavily as some), consider helping other CENO users by becoming a **bridge** node.  You will then begin to route traffic between clients living in heavily censored countries and CENO injectors.  You will not be able to see their traffic (it will be sent through an encrypted tunnel), nor will any of this traffic remain on your device.
+A peer-to-peer network is built from every node connected to it (yes, that means you as well!).  The more nodes, the stronger and more versatile the network becomes.  If you are running CENO Browser from a country that does not censor the Internet (or not as heavily as some), consider helping other CENO users by becoming a **bridge** node.  You will then begin to route traffic between clients living in heavily censored countries and CENO injectors.  You will not be able to see their traffic (it will be sent through an encrypted tunnel), nor will any of this traffic remain on your device.
 
 > **Note:** The configuration described in this section may also help your device to effectively seed content to others on the distributed cache, so please consider applying it as well when using CENO in a censoring country (but keep in mind the [risks](../concepts/risks.md) of serving such content to others).
 
 ## How to become a CENO bridge
 
-This functionality is already built into the CENO Browser.  Your device will need to be connected to a Wi-Fi network that has either UPnP enabled or explicit port forwarding configured for CENO.  See the next sections for further details.
+This functionality is already built into CENO Browser.  Your device will need to be connected to a Wi-Fi network that has either UPnP enabled or explicit port forwarding configured for CENO.  See the next sections for further details.
 
 However, please note that Android will only allow a mobile device to act as a proper bridge while you are actively using it, as power-saving features will throttle the operation of CENO otherwise.
 
@@ -66,36 +66,39 @@ The command will start a container named `ceno-client` that will run on every bo
 [UPnP]: https://en.wikipedia.org/wiki/Universal_Plug_and_Play
 [upnp-risks]: https://www.howtogeek.com/122487/htg-explains-is-upnp-a-security-risk
 
-A status like the one below indicates that UPnP is not enabled on your WiFi router:
+A status like the one below indicates that UPnP is not available or not working on your WiFi router:
 
-> **UPnP status**
->
->     inactive
->
 > **Reachability status**
 >
 >     undecided
+>
+> **UPnP status**
+>
+>     disabled / inactive
 
 The status below indicates that UPnP is likely working and CENO is currently verifying connectivity:
 
-> **UPnP status**
->
->     enabled
->
 > **Reachability status**
 >
 >     undecided
-
-
-The status below indicates that UPnP is working and you can bridge connections for other CENO users:
-
+>
 > **UPnP status**
 >
 >     enabled
->
+
+The status below indicates that UPnP is working and you can bridge connections for other CENO users:
+
 > **Reachability status**
 >
 >     likely reachable / reachable
+>
+> **UPnP status**
+>
+>     enabled
+
+> **Note:** Even if UPnP is working, your router may still not be reachable from the outside.  This can be the case when *CENO Settings* reports *External UDP endpoints* which look like [CGNAT][] addresses `100.X.Y.Z:N` with X between 64 and 127 (increasingly common among home ISPs), or like private addresses `10.X.Y.Z:N`, `172.X.Y.Z:N` with X between 16 and 31, and `192.168.X.Y:N`.  If so, please contact your ISP or network administrator to get a public address on your router or to establish port forwardings to the external endpoint.
+
+[CGNAT]: https://en.wikipedia.org/wiki/Carrier-grade_NAT
 
 There are many Wi-Fi routers on the market and each has their own particular features.  Herein a list of some manufacturers' instructions for enabling UPnP:
 
@@ -104,6 +107,8 @@ There are many Wi-Fi routers on the market and each has their own particular fea
 - [Huawei](https://consumer.huawei.com/ph/support/content/en-us00275342/)
 - [Xfinity](https://www.xfinity.com/support/articles/configure-device-discovery-for-wifi)
 - [TP-Link](https://community.tp-link.com/us/home/kb/detail/348)
+- [Netgear](https://kb.netgear.com/24306/How-do-I-enable-Universal-Plug-and-Play-on-my-Nighthawk-router)
+- [Ubiquiti](https://www.geekzone.co.nz/forums.asp?forumid=66&topicid=205740&page_no=5#1725168)
 
 ## Using port forwarding as an alternative to UPnP
 

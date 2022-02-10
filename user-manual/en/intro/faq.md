@@ -2,7 +2,7 @@
 
 ## Usage
 
-### Can the CENO Browser replace my current browser (Chrome/Firefox/Safari)?
+### Can CENO Browser replace my current browser (Chrome/Firefox/Safari)?
 
 Short answer: yes, at least for some non-critical browsing.
 
@@ -12,7 +12,7 @@ Also, since CENO and Ouinet are under continuous development, you may experience
 
 For important work on Web sites not subject to censorship, we recommend that you use your habitual Web browser instead of CENO.  Please read the section on [risks](../concepts/risks.md) for more information.
 
-## Can I use the CENO Browser to access Twitter, Facebook and Gmail?
+## Can I use CENO Browser to access Twitter, Facebook and Gmail?
 
 Short answer: yes, by using private tabs.
 
@@ -34,7 +34,7 @@ Please note that a malicious website may still try to trick your browser into re
 
 Read more about how your CENO Browser retrieves and shares Web content with others [here](../concepts/how.md).
 
-### Can anyone see if I am using the CENO Browser to access censored Web sites?
+### Can anyone see if I am using CENO Browser to access censored Web sites?
 
 Short answer: yes, with some technical knowledge and resources.
 
@@ -44,7 +44,7 @@ However, content being retrieved into the network for the first time or using [p
 
 ## Resource usage
 
-### Does the CENO Browser use a lot of data?
+### Does CENO Browser use a lot of data?
 
 Short answer: more than your usual browser.
 
@@ -52,7 +52,7 @@ Whenever your CENO Browser serves content to another user or forwards their traf
 
 Although CENO is much lighter in resources than other data-sharing applications, it can still result in increased data usage and fees.  We recommend keeping an eye on the app's data usage (under Android settings) and running CENO while connected to Wi-Fi instead of using mobile data.
 
-### Does the CENO Browser use a lot of battery on my device?
+### Does CENO Browser use a lot of battery on my device?
 
 Short answer: more than your usual browser.
 
@@ -60,7 +60,7 @@ CENO and Ouinet use various techniques for different users to cooperate in avoid
 
 The net result is that CENO may keep on draining your battery even when not in use.  Our tests have not shown power consumption hiking too much, but your mileage may vary.  When in need of battery, we recommend stopping CENO completely (it offers a convenient shortcut for this, see [here](../browser/install.md)).
 
-### Do I need to be connected to Wi-Fi to use the CENO Browser?
+### Do I need to be connected to Wi-Fi to use CENO Browser?
 
 Short answer: no, but we strongly recommend it.
 

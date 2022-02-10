@@ -1,6 +1,6 @@
 # Annex: The Ouinet client front-end
 
-The Ouinet client (as run by e.g. the CENO Browser) offers a front-end page with some information and actions which may be useful for debugging the client.  Many of them are also offered by the CENO Extension via the [*CENO Settings* page](../browser/settings.md), though others are only available here.
+The Ouinet client (as run by e.g. CENO Browser) offers a front-end page with some information and actions which may be useful for debugging the client.  Many of them are also offered by the CENO Extension via the [*CENO Settings* page](../browser/settings.md), though others are only available here.
 
 The front-end is accessible using any plain Web browser running on the same device (you can use CENO too).  Its default address is <http://127.0.0.1:8078/>.  If you open it, you will see something like the figure below.
 
@@ -12,7 +12,7 @@ The items shown in the page include:
 
   You only need this to use a plain browser for testing the Ouinet client, in which case you will also have to configure its HTTP/HTTPS proxies to `127.0.0.1:8077`, and manually enable the [CENO Extension][] for injection to work.  We very strongly recommend using a *separate, specific browser profile* for this purpose.
 
-  Please note that none of this needs to be done for the CENO Browser, since it is already configured like that.
+  Please note that none of this needs to be done for CENO Browser, since it is already configured like that.
 
 - Buttons to enable or disable the different mechanisms used by the client to access content.
 
