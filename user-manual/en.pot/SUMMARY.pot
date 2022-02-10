@@ -15,7 +15,7 @@ msgid "[Introduction](intro/README.md)"
 msgstr ""
 
 #: SUMMARY.md:block 3 (unordered list)
-msgid "[What is the CENO Browser?](intro/ceno.md)"
+msgid "[What is CENO Browser?](intro/ceno.md)"
 msgstr ""
 
 #: SUMMARY.md:block 3 (unordered list)
@@ -51,7 +51,7 @@ msgid "[Risks in using CENO/Ouinet](concepts/risks.md)"
 msgstr ""
 
 #: SUMMARY.md:block 3 (unordered list)
-msgid "[Using the CENO Browser](browser/README.md)"
+msgid "[Using CENO Browser](browser/README.md)"
 msgstr ""
 
 #: SUMMARY.md:block 3 (unordered list)

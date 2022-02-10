@@ -3,7 +3,7 @@ msgid ""
 msgstr "Content-Type: text/plain; charset=utf-8\n"
 
 #: intro/ceno.md:block 1 (header)
-msgid "What is the CENO Browser?"
+msgid "What is CENO Browser?"
 msgstr ""
 
 #: intro/ceno.md:block 2 (paragraph)
@@ -28,9 +28,9 @@ msgstr ""
 
 #: intro/ceno.md:block 4 (paragraph)
 msgid ""
-"The CENO Browser is built on an adapted version of [Firefox for Android]"
-"[Firefox for Android], a popular, modern, feature-rich and secure Free/Libre/"
-"Open Source browser. CENO extends Firefox with **Ouinet**, the underlying "
+"CENO Browser is built on an adapted version of [Firefox for Android][Firefox "
+"for Android], a popular, modern, feature-rich and secure Free/Libre/Open "
+"Source browser. CENO extends Firefox with **Ouinet**, the underlying "
 "technology allowing it to share content between devices (described in later "
 "sections)."
 msgstr ""
