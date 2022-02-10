@@ -21,9 +21,9 @@ msgstr "Τι είναι το Ouinet;"
 
 #: intro/ouinet.md:block 2 (paragraph)
 msgid ""
-"[Ouinet][Ouinet] is a core technology that allows the CENO browser to share "
-"Web content with other devices. Ouinet comes in the form of reusable "
-"computer code (a library) that an application like CENO can use to become a "
+"[Ouinet][Ouinet] is a core technology that allows CENO Browser to share Web "
+"content with other devices. Ouinet comes in the form of reusable computer "
+"code (a library) that an application like CENO can use to become a "
 "participant in a network of cooperating nodes that communicate directly "
 "([peer-to-peer][P2P] or P2P) to help access and store new Web content, and "
 "to request and deliver previously accessed content to others."
@@ -51,8 +51,8 @@ msgstr ""
 
 #: intro/ouinet.md:block 5 (paragraph)
 msgid ""
-"Same as the CENO Browser, Ouinet is developed by [eQualitie][eQualitie] as "
-"Free/Libre/Open-Source software."
+"Same as CENO Browser, Ouinet is developed by [eQualitie][eQualitie] as Free/"
+"Libre/Open-Source software."
 msgstr ""
 
 #: intro/ouinet.md:block 6 (header)

@@ -20,14 +20,19 @@ msgid "Censorship.no! User Manual"
 msgstr "Censorship.no! Manual del Usuario"
 
 #: README.md:block 2 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "This manual is aimed at users of the **CENO Browser** and related "
+#| "technologies, as created for the [Censorship.no!][Censorship.no!] project "
+#| "by [eQualitie][eQualitie]."
 msgid ""
-"This manual is aimed at users of the **CENO Browser** and related "
+"This manual is aimed at users of [CENO Browser][CENO Browser] and related "
 "technologies, as created for the [Censorship.no!][Censorship.no!] project by "
 "[eQualitie][eQualitie]."
 msgstr ""
 "Este manual está dirigido a usuarios del **Navegador CENO** y tecnologías "
-"relacionadas, como fueran creadas para el proyecto [Censorship."
-"no!][Censorship.no!] por [eQualitie][eQualitie]."
+"relacionadas, como fueran creadas para el proyecto [Censorship.no!]"
+"[Censorship.no!] por [eQualitie][eQualitie]."
 
 #: README.md:block 3 (paragraph)
 msgid ""
@@ -42,6 +47,16 @@ msgstr ""
 "las [especificaciones del protocolo][especificaciones del protocolo]."
 
 #: README.md:block 3 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "[CENO documentation repository]: https://github.com/censorship-no/ceno-"
+#| "docs/"
+msgid "[CENO Browser]: https://github.com/censorship-no/ceno-browser"
+msgstr ""
+"[repositorio de documentación CENO]: https://github.com/censorship-no/ceno-"
+"docs/"
+
+#: README.md:block 3 (paragraph)
 msgid "[Censorship.no!]: https://censorship.no/"
 msgstr "[Censorship.no!]: https://censorship.no/"
 
@@ -53,8 +68,8 @@ msgstr "[eQualitie]: https://equalit.ie/"
 msgid ""
 "[CENO documentation repository]: https://github.com/censorship-no/ceno-docs/"
 msgstr ""
-"[repositorio de documentación CENO]: https://github.com/censorship-no/"
-"ceno-docs/"
+"[repositorio de documentación CENO]: https://github.com/censorship-no/ceno-"
+"docs/"
 
 #: README.md:block 3 (paragraph)
 msgid ""

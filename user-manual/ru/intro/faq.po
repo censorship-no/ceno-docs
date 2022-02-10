@@ -25,8 +25,10 @@ msgid "Usage"
 msgstr "Использование"
 
 #: intro/faq.md:block 3 (header)
-msgid ""
-"Can the CENO Browser replace my current browser (Chrome/Firefox/Safari)?"
+#, fuzzy
+#| msgid ""
+#| "Can the CENO Browser replace my current browser (Chrome/Firefox/Safari)?"
+msgid "Can CENO Browser replace my current browser (Chrome/Firefox/Safari)?"
 msgstr ""
 "Может ли Браузер CENO заменить мой текущий браузер (Chrome/Firefox/Safari)?"
 
@@ -72,7 +74,9 @@ msgstr ""
 "concepts/risks.md)."
 
 #: intro/faq.md:block 8 (header)
-msgid "Can I use the CENO Browser to access Twitter, Facebook and Gmail?"
+#, fuzzy
+#| msgid "Can I use the CENO Browser to access Twitter, Facebook and Gmail?"
+msgid "Can I use CENO Browser to access Twitter, Facebook and Gmail?"
 msgstr ""
 "Могу ли я использовать Браузер CENO для доступа к Twitter, Facebook и Gmail?"
 
@@ -164,8 +168,11 @@ msgstr ""
 "его другим пользователям, прочтите [здесь](../concepts/how.md)."
 
 #: intro/faq.md:block 19 (header)
-msgid ""
-"Can anyone see if I am using the CENO Browser to access censored Web sites?"
+#, fuzzy
+#| msgid ""
+#| "Can anyone see if I am using the CENO Browser to access censored Web "
+#| "sites?"
+msgid "Can anyone see if I am using CENO Browser to access censored Web sites?"
 msgstr ""
 "Может ли кто-нибудь определить, использую ли я Браузер CENO для доступа к "
 "сайтам, подвергающимся цензуре?"
@@ -207,7 +214,9 @@ msgid "Resource usage"
 msgstr "Использование ресурсов"
 
 #: intro/faq.md:block 24 (header)
-msgid "Does the CENO Browser use a lot of data?"
+#, fuzzy
+#| msgid "Does the CENO Browser use a lot of data?"
+msgid "Does CENO Browser use a lot of data?"
 msgstr "Много ли трафика потребляет Браузер CENO?"
 
 #: intro/faq.md:block 25 (paragraph)
@@ -241,7 +250,9 @@ msgstr ""
 "через Wi-Fi вместо мобильного интернета."
 
 #: intro/faq.md:block 28 (header)
-msgid "Does the CENO Browser use a lot of battery on my device?"
+#, fuzzy
+#| msgid "Does the CENO Browser use a lot of battery on my device?"
+msgid "Does CENO Browser use a lot of battery on my device?"
 msgstr "Сильно ли Браузер CENO сажает батарею?"
 
 #: intro/faq.md:block 30 (paragraph)
@@ -274,7 +285,9 @@ msgstr ""
 "[здесь](../browser/install.md))."
 
 #: intro/faq.md:block 32 (header)
-msgid "Do I need to be connected to Wi-Fi to use the CENO Browser?"
+#, fuzzy
+#| msgid "Do I need to be connected to Wi-Fi to use the CENO Browser?"
+msgid "Do I need to be connected to Wi-Fi to use CENO Browser?"
 msgstr "Нужно ли мне подключаться к Wi-Fi для использования Браузера CENO?"
 
 #: intro/faq.md:block 33 (paragraph)

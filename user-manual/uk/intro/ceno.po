@@ -6,14 +6,16 @@ msgstr ""
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "ceno/uk/>\n"
 "Language: uk\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.11-dev\n"
 
 #: intro/ceno.md:block 1 (header)
-msgid "What is the CENO Browser?"
+#, fuzzy
+#| msgid "What is the CENO Browser?"
+msgid "What is CENO Browser?"
 msgstr "Що таке браузер CENO?"
 
 #: intro/ceno.md:block 2 (paragraph)
@@ -50,18 +52,25 @@ msgstr ""
 "що захищають зовнішній інтернет."
 
 #: intro/ceno.md:block 4 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "The CENO Browser is built on an adapted version of [Firefox for Android]"
+#| "[Firefox for Android], a popular, modern, feature-rich and secure Free/"
+#| "Libre/Open Source browser. CENO extends Firefox with **Ouinet**, the "
+#| "underlying technology allowing it to share content between devices "
+#| "(described in later sections)."
 msgid ""
-"The CENO Browser is built on an adapted version of [Firefox for Android]"
-"[Firefox for Android], a popular, modern, feature-rich and secure Free/Libre/"
-"Open Source browser. CENO extends Firefox with **Ouinet**, the underlying "
+"CENO Browser is built on an adapted version of [Firefox for Android][Firefox "
+"for Android], a popular, modern, feature-rich and secure Free/Libre/Open "
+"Source browser. CENO extends Firefox with **Ouinet**, the underlying "
 "technology allowing it to share content between devices (described in later "
 "sections)."
 msgstr ""
 "Браузер CENO заснований на адаптованій версії [Firefox для Android][Firefox "
 "для Android] — популярного сучасного, багатофункціонального та безпечного "
 "браузера з відкритим вихідним кодом. CENO розширює Firefox за допомогою "
-"технології **Ouinet**, що дозволяє обмінюватись контентом між пристроями ("
-"описано в наступних розділах)."
+"технології **Ouinet**, що дозволяє обмінюватись контентом між пристроями "
+"(описано в наступних розділах)."
 
 #: intro/ceno.md:block 5 (header)
 msgid "Who develops CENO?"
@@ -83,8 +92,8 @@ msgstr ""
 "як безкоштовне програмне забезпечення з відкритим вихідним кодом ([вихідний "
 "код проекту](https://github.com/censorship-no/ \"CENO source code "
 "repositories\")), що дозволяє будь-кому використовувати, вивчати, поширювати "
-"та покращувати цей код. Зв'яжіться з нами за адресою [cenoers@equalit."
-"ie](mailto: cenoers@equalit.ie), якщо у вас є сумніви чи потрібна додаткова "
+"та покращувати цей код. Зв'яжіться з нами за адресою [cenoers@equalit.ie]"
+"(mailto: cenoers@equalit.ie), якщо у вас є сумніви чи потрібна додаткова "
 "інформація."
 
 #: intro/ceno.md:block 7 (header)

@@ -24,11 +24,13 @@ msgid "Usage"
 msgstr "Χρήση"
 
 #: intro/faq.md:block 3 (header)
-msgid ""
-"Can the CENO Browser replace my current browser (Chrome/Firefox/Safari)?"
+#, fuzzy
+#| msgid ""
+#| "Can the CENO Browser replace my current browser (Chrome/Firefox/Safari)?"
+msgid "Can CENO Browser replace my current browser (Chrome/Firefox/Safari)?"
 msgstr ""
-"Μπορεί ο φυλλομετρητής CENO να αντικαταστήσει το πρόγραμμα περιήγησής μου ("
-"Chrome/Firefox/Safari);"
+"Μπορεί ο φυλλομετρητής CENO να αντικαταστήσει το πρόγραμμα περιήγησής μου "
+"(Chrome/Firefox/Safari);"
 
 #: intro/faq.md:block 4 (paragraph)
 msgid "Short answer: yes, at least for some non-critical browsing."
@@ -57,8 +59,8 @@ msgstr ""
 "Επίσης, δεδομένου ότι το CENO και το Ouinet βρίσκονται υπό συνεχή ανάπτυξη, "
 "ενδέχεται να αντιμετωπίσετε δυσλειτουργίες. Αυτό μπορεί επίσης να σημαίνει "
 "ότι εισάγονται αλλαγές που δεν είναι συμβατές και απαιτούν να "
-"απεγκαταστήσετε την εφαρμογή ή να αφαιρέσετε τα αποθηκευμένα δεδομένα ("
-"συμπεριλαμβανομένων των σελιδοδεικτών και των ρυθμίσεων ιστότοπου) πριν από "
+"απεγκαταστήσετε την εφαρμογή ή να αφαιρέσετε τα αποθηκευμένα δεδομένα "
+"(συμπεριλαμβανομένων των σελιδοδεικτών και των ρυθμίσεων ιστότοπου) πριν από "
 "την αναβάθμιση."
 
 #: intro/faq.md:block 7 (paragraph)
@@ -73,7 +75,9 @@ msgstr ""
 "την ενότητα [κίνδυνοι](../concepts/risks.md)."
 
 #: intro/faq.md:block 8 (header)
-msgid "Can I use the CENO Browser to access Twitter, Facebook and Gmail?"
+#, fuzzy
+#| msgid "Can I use the CENO Browser to access Twitter, Facebook and Gmail?"
+msgid "Can I use CENO Browser to access Twitter, Facebook and Gmail?"
 msgstr ""
 "Μπορώ να χρησιμοποιήσω τον φυλλομετρητή CENO για πρόσβαση στο Twitter, το "
 "Facebook και το Gmail;"
@@ -127,8 +131,8 @@ msgid ""
 "CENO only shares content that you requested (using [public browsing](../"
 "concepts/public-private.md))."
 msgstr ""
-"Η CENO διαμοιράζεται μόνο το περιεχόμενο που ζητήσατε (χρησιμοποιώντας ["
-"public browsing](../concepts/public-private.md))."
+"Η CENO διαμοιράζεται μόνο το περιεχόμενο που ζητήσατε (χρησιμοποιώντας "
+"[public browsing](../concepts/public-private.md))."
 
 #: intro/faq.md:block 17 (paragraph)
 msgid ""
@@ -148,8 +152,11 @@ msgstr ""
 "διαδίκτυο με άλλους [εδώ](../concepts/how.md)."
 
 #: intro/faq.md:block 19 (header)
-msgid ""
-"Can anyone see if I am using the CENO Browser to access censored Web sites?"
+#, fuzzy
+#| msgid ""
+#| "Can anyone see if I am using the CENO Browser to access censored Web "
+#| "sites?"
+msgid "Can anyone see if I am using CENO Browser to access censored Web sites?"
 msgstr ""
 "Μπορεί κάποιος να δει αν χρησιμοποιώ το πρόγραμμα περιήγησης CENO για "
 "πρόσβαση σε λογοκριμένους ιστότοπους;"
@@ -180,7 +187,7 @@ msgid "Resource usage"
 msgstr ""
 
 #: intro/faq.md:block 24 (header)
-msgid "Does the CENO Browser use a lot of data?"
+msgid "Does CENO Browser use a lot of data?"
 msgstr ""
 
 #: intro/faq.md:block 25 (paragraph)
@@ -204,7 +211,7 @@ msgid ""
 msgstr ""
 
 #: intro/faq.md:block 28 (header)
-msgid "Does the CENO Browser use a lot of battery on my device?"
+msgid "Does CENO Browser use a lot of battery on my device?"
 msgstr ""
 
 #: intro/faq.md:block 30 (paragraph)
@@ -226,7 +233,7 @@ msgid ""
 msgstr ""
 
 #: intro/faq.md:block 32 (header)
-msgid "Do I need to be connected to Wi-Fi to use the CENO Browser?"
+msgid "Do I need to be connected to Wi-Fi to use CENO Browser?"
 msgstr ""
 
 #: intro/faq.md:block 33 (paragraph)

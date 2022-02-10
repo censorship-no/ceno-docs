@@ -20,7 +20,9 @@ msgid "Installing CENO"
 msgstr "Εγκατάσταση CENO"
 
 #: browser/install.md:block 2 (paragraph)
-msgid "The CENO Browser can be installed via the following means:"
+#, fuzzy
+#| msgid "The CENO Browser can be installed via the following means:"
+msgid "CENO Browser can be installed via the following means:"
 msgstr "Ο περιηγητής CENO μπορεί να εγκατασταθεί με τους ακόλουθους τρόπους:"
 
 #: browser/install.md:block 3 (unordered list)
@@ -44,25 +46,37 @@ msgstr ""
 "στις προηγούμενες πηγές."
 
 #: browser/install.md:block 4 (paragraph)
-msgid "CENO requires *no special permissions* to run."
-msgstr "Το CENO δε απαιτεί *ειδική εξουσιοδότηση* για να λειτουργήσει."
+msgid ""
+"CENO requires an ARM64 or Neon-capable ARM32 device running at least Android "
+"4.1 Jelly Bean, thus most mobile devices released from late 2012 onward "
+"should work. CENO needs *no special permissions* to run."
+msgstr ""
 
 #: browser/install.md:block 5 (quote)
+#, fuzzy
+#| msgid ""
+#| "**Warning:** Please be *extremely skeptical* about installing the CENO "
+#| "Browser from sources other than the ones listed above. Because of the "
+#| "application's nature, their potential users may become a target for all "
+#| "kinds of fake or manipulated versions used to violate user privacy or "
+#| "attack other CENO and Ouinet users. If in doubt, please contact "
+#| "[cenoers@equalit.ie](mailto:cenoers@equalit.ie) before installing a "
+#| "suspicious app."
 msgid ""
-"**Warning:** Please be *extremely skeptical* about installing the CENO "
-"Browser from sources other than the ones listed above. Because of the "
-"application's nature, their potential users may become a target for all "
-"kinds of fake or manipulated versions used to violate user privacy or attack "
-"other CENO and Ouinet users. If in doubt, please contact [cenoers@equalit.ie]"
-"(mailto:cenoers@equalit.ie) before installing a suspicious app."
+"**Warning:** Please be *extremely skeptical* about installing CENO Browser "
+"from sources other than the ones listed above. Because of the application's "
+"nature, their potential users may become a target for all kinds of fake or "
+"manipulated versions used to violate user privacy or attack other CENO and "
+"Ouinet users. If in doubt, please contact [cenoers@equalit.ie](mailto:"
+"cenoers@equalit.ie) before installing a suspicious app."
 msgstr ""
 "**Προσοχή:** Παρακαλούμε να είστε *εξαιρετικά προσεκτικοί* με την "
 "εγκατάσταση του CENO Browser από άλλες πηγές εκτός από αυτές που αναφέρονται "
 "παραπάνω. Εξαιτίας της φύσης της εφαρμογής, οι χρήστες του μπορεί να γίνουν "
 "στόχος για κάθε είδους ψεύτικες ή κακόβουλες εκδόσεις με σκοπό την παραβίαση "
 "της ιδιωτικότητας των χρηστών ή να επιτεθούν σε άλλους χρήστες του CENO και "
-"Ouinet. Εάν έχετε αμφιβολίες, επικοινωνήστε με το [cenoers@equalit."
-"ie](mailto:cenoers@equalit.ie) πριν εγκαταστήσετε μια ύποπτη εφαρμογή."
+"Ouinet. Εάν έχετε αμφιβολίες, επικοινωνήστε με το [cenoers@equalit.ie]"
+"(mailto:cenoers@equalit.ie) πριν εγκαταστήσετε μια ύποπτη εφαρμογή."
 
 #: browser/install.md:block 6 (header)
 msgid "Stopping CENO completely"
@@ -77,8 +91,8 @@ msgid ""
 "from it at any time."
 msgstr ""
 "Σε κάθε έναρξη της εφαρμογής, ένα εικονίδιο CENO θα εμφανίζεται στη γραμμή "
-"ειδοποιήσεων της συσκευής σας. Αυτό το εικονίδιο αντιπροσωπεύει την *"
-"υπηρεσία CENO Browser*, η οποία είναι το τμήμα που εκτελείται μόνιμα (ακόμη "
+"ειδοποιήσεων της συσκευής σας. Αυτό το εικονίδιο αντιπροσωπεύει την "
+"*υπηρεσία CENO Browser*, η οποία είναι το τμήμα που εκτελείται μόνιμα (ακόμη "
 "και όταν δεν περιηγείστε) και επιτρέπει σε άλλους πελάτες να χρησιμοποιούν "
 "τη συσκευή σας ως γέφυρα και να ανακτούν περιεχόμενο από αυτήν."
 
@@ -203,3 +217,6 @@ msgstr "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
 #: browser/install.md:block 18 (quote)
 msgid "[ceno-pask]: https://paskoocheh.com/tools/124/android.html"
 msgstr "[ceno-pask]: https://paskoocheh.com/tools/124/android.html"
+
+#~ msgid "CENO requires *no special permissions* to run."
+#~ msgstr "Το CENO δε απαιτεί *ειδική εξουσιοδότηση* για να λειτουργήσει."

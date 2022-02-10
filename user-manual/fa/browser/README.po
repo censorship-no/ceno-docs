@@ -13,7 +13,9 @@ msgstr ""
 
 #
 #: browser/README.md:block 1 (header)
-msgid "Using the CENO Browser"
+#, fuzzy
+#| msgid "Using the CENO Browser"
+msgid "Using CENO Browser"
 msgstr "استفاده از مرورگر CENO"
 
 #: browser/README.md:block 2 (paragraph)
@@ -25,22 +27,28 @@ msgid ""
 "for Android Support][Firefox for Android Support] pages."
 msgstr ""
 "این فصل درباره‌ی استفاده از مرورگر CENO و در مورد توانایی‌های آن در رابطه با "
-"Ouinet سرنخ‌هایی به شما می‌دهد. لطفاً همیشه به یاد داشته باشید که CENO بر "
-"اساس [فایرفاکس برای اندروید][Firefox for Android] ساخته شده است، بنابراین "
-"برای هر پرسشی درباره‌ی بحث عمومی مرورگری باید به صفحات [پشتیبانی فایرفاکس "
-"برای اندروید][Firefox for Android Support] موزیلا مراجعه کنید."
+"Ouinet سرنخ‌هایی به شما می‌دهد. لطفاً همیشه به یاد داشته باشید که CENO بر اساس "
+"[فایرفاکس برای اندروید][Firefox for Android] ساخته شده است، بنابراین برای هر "
+"پرسشی درباره‌ی بحث عمومی مرورگری باید به صفحات [پشتیبانی فایرفاکس برای "
+"اندروید][Firefox for Android Support] موزیلا مراجعه کنید."
 
 #: browser/README.md:block 3 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "When relevant, screen captures will be included to illustrate the text. "
+#| "Please note that these may slightly differ from what you see on your "
+#| "device, especially as CENO development progresses. This documentation is "
+#| "up to date for CENO version 1.0.2."
 msgid ""
 "When relevant, screen captures will be included to illustrate the text. "
 "Please note that these may slightly differ from what you see on your device, "
 "especially as CENO development progresses. This documentation is up to date "
-"for CENO version 1.0.2."
+"for CENO version 1.2.1."
 msgstr ""
-"در صورت لزوم، زیرنویس‌های صفحه برای روشن‌کردن متن گنجانده خواهند شد. لطفاً "
-"توجه کنید که این‌ها ممکن است تفاوت‌های اندکی با آنچه شما روی دستگاه‌تان می‌"
-"بینید داشته باشند، به‌ویژه در جریان توسعه و پیشرفت CENO. این سند برای CENO "
-"نسخه‌ی 1.0.2 به‌روز است."
+"در صورت لزوم، زیرنویس‌های صفحه برای روشن‌کردن متن گنجانده خواهند شد. لطفاً توجه "
+"کنید که این‌ها ممکن است تفاوت‌های اندکی با آنچه شما روی دستگاه‌تان می‌بینید "
+"داشته باشند، به‌ویژه در جریان توسعه و پیشرفت CENO. این سند برای CENO نسخه‌ی "
+"1.0.2 به‌روز است."
 
 #: browser/README.md:block 4 (paragraph)
 msgid ""
@@ -48,9 +56,9 @@ msgid ""
 "described here, do not hesitate to contact us at [cenoers@equalit.ie](mailto:"
 "cenoers@equalit.ie) and report the issue."
 msgstr ""
-"اگر نرم‌افزار شما در ظاهر یا عملکرد تفاوت عمده‌ای را با آن‌چه در این‌جا "
-"توصیف شد نشان می‌دهد، در تماس با ما با نشانی [cenoers@equalit."
-"ie](mailto:cenoers@equalit.ie) مکث نکنید و مشکل را گزارش کنید."
+"اگر نرم‌افزار شما در ظاهر یا عملکرد تفاوت عمده‌ای را با آن‌چه در این‌جا توصیف شد "
+"نشان می‌دهد، در تماس با ما با نشانی [cenoers@equalit.ie](mailto:"
+"cenoers@equalit.ie) مکث نکنید و مشکل را گزارش کنید."
 
 #: browser/README.md:block 4 (paragraph)
 msgid "[Firefox for Android]: https://www.mozilla.org/firefox/android/"

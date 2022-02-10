@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Language: ta\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: client/front-end.md:block 1 (header)
@@ -11,11 +11,10 @@ msgstr ""
 
 #: client/front-end.md:block 2 (paragraph)
 msgid ""
-"The Ouinet client (as run by e.g. the CENO Browser) offers a front-end page "
-"with some information and actions which may be useful for debugging the "
-"client. Many of them are also offered by the CENO Extension via the [*CENO "
-"Settings* page](../browser/settings.md), though others are only available "
-"here."
+"The Ouinet client (as run by e.g. CENO Browser) offers a front-end page with "
+"some information and actions which may be useful for debugging the client. "
+"Many of them are also offered by the CENO Extension via the [*CENO Settings* "
+"page](../browser/settings.md), though others are only available here."
 msgstr ""
 
 #: client/front-end.md:block 3 (paragraph)
@@ -51,8 +50,8 @@ msgstr ""
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
-"Please note that none of this needs to be done for the CENO Browser, since "
-"it is already configured like that."
+"Please note that none of this needs to be done for CENO Browser, since it is "
+"already configured like that."
 msgstr ""
 
 #: client/front-end.md:block 6 (unordered list)

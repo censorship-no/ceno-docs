@@ -21,7 +21,9 @@ msgid "Installing CENO"
 msgstr "Установка CENO"
 
 #: browser/install.md:block 2 (paragraph)
-msgid "The CENO Browser can be installed via the following means:"
+#, fuzzy
+#| msgid "The CENO Browser can be installed via the following means:"
+msgid "CENO Browser can be installed via the following means:"
 msgstr "Браузер CENO можно установить следующими способами:"
 
 #: browser/install.md:block 3 (unordered list)
@@ -45,25 +47,37 @@ msgstr ""
 "предыдущим каналам."
 
 #: browser/install.md:block 4 (paragraph)
-msgid "CENO requires *no special permissions* to run."
-msgstr "Для запуска CENO не требуется *никаких дополнительных разрешений*."
+msgid ""
+"CENO requires an ARM64 or Neon-capable ARM32 device running at least Android "
+"4.1 Jelly Bean, thus most mobile devices released from late 2012 onward "
+"should work. CENO needs *no special permissions* to run."
+msgstr ""
 
 #: browser/install.md:block 5 (quote)
+#, fuzzy
+#| msgid ""
+#| "**Warning:** Please be *extremely skeptical* about installing the CENO "
+#| "Browser from sources other than the ones listed above. Because of the "
+#| "application's nature, their potential users may become a target for all "
+#| "kinds of fake or manipulated versions used to violate user privacy or "
+#| "attack other CENO and Ouinet users. If in doubt, please contact "
+#| "[cenoers@equalit.ie](mailto:cenoers@equalit.ie) before installing a "
+#| "suspicious app."
 msgid ""
-"**Warning:** Please be *extremely skeptical* about installing the CENO "
-"Browser from sources other than the ones listed above. Because of the "
-"application's nature, their potential users may become a target for all "
-"kinds of fake or manipulated versions used to violate user privacy or attack "
-"other CENO and Ouinet users. If in doubt, please contact [cenoers@equalit.ie]"
-"(mailto:cenoers@equalit.ie) before installing a suspicious app."
+"**Warning:** Please be *extremely skeptical* about installing CENO Browser "
+"from sources other than the ones listed above. Because of the application's "
+"nature, their potential users may become a target for all kinds of fake or "
+"manipulated versions used to violate user privacy or attack other CENO and "
+"Ouinet users. If in doubt, please contact [cenoers@equalit.ie](mailto:"
+"cenoers@equalit.ie) before installing a suspicious app."
 msgstr ""
 "**Внимание:** Пожалуйста, будьте *крайне осторожны* при установке Браузера "
 "CENO из любых источников, кроме перечисленных выше. Из-за характера "
 "приложения, потенциальные пользователи могут стать мишенью для всевозможных "
 "поддельных или манипулируемых версий, используемых для нарушения "
 "конфиденциальности пользователя или атаки на других пользователей CENO и "
-"Ouinet. Если вы сомневаетесь, пожалуйста, свяжитесь с [cenoers@equalit."
-"ie](mailto:cenoers@equalit.ie) перед установкой подозрительного приложения."
+"Ouinet. Если вы сомневаетесь, пожалуйста, свяжитесь с [cenoers@equalit.ie]"
+"(mailto:cenoers@equalit.ie) перед установкой подозрительного приложения."
 
 #: browser/install.md:block 6 (header)
 msgid "Stopping CENO completely"
@@ -149,8 +163,8 @@ msgid ""
 "![Figure: The last action stops CENO and clears all its data](images/tap-"
 "purge.png)"
 msgstr ""
-"![Рисунок: Последнее действие останавливает CENO и очищает все его данные]("
-"images/tap-purge.png)"
+"![Рисунок: Последнее действие останавливает CENO и очищает все его данные]"
+"(images/tap-purge.png)"
 
 #: browser/install.md:block 15 (paragraph)
 msgid ""
@@ -164,7 +178,8 @@ msgstr ""
 
 #: browser/install.md:block 16 (paragraph)
 msgid "If you do not tap on the action, it will go away in a few seconds."
-msgstr "Если не нажать на кнопку действия, оно исчезнет через несколько секунд."
+msgstr ""
+"Если не нажать на кнопку действия, оно исчезнет через несколько секунд."
 
 #: browser/install.md:block 17 (quote)
 msgid ""
@@ -204,6 +219,9 @@ msgstr "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
 #: browser/install.md:block 18 (quote)
 msgid "[ceno-pask]: https://paskoocheh.com/tools/124/android.html"
 msgstr "[ceno-pask]: https://paskoocheh.com/tools/124/android.html"
+
+#~ msgid "CENO requires *no special permissions* to run."
+#~ msgstr "Для запуска CENO не требуется *никаких дополнительных разрешений*."
 
 #~ msgid ""
 #~ "When you run CENO for the first time, you will be presented with a series "

@@ -16,7 +16,9 @@ msgstr ""
 
 #
 #: intro/ceno.md:block 1 (header)
-msgid "What is the CENO Browser?"
+#, fuzzy
+#| msgid "What is the CENO Browser?"
+msgid "What is CENO Browser?"
 msgstr "¿Qués es el Navegador CENO?"
 
 #: intro/ceno.md:block 2 (paragraph)
@@ -32,8 +34,8 @@ msgstr ""
 "CENO (abreviatura de [Censorship.no!][Censorship.no!]) es un navegador Web "
 "para dispositivos Android móviles (tales como teléfonos inteligentes y "
 "tablets) que usa un enfoque novedoso para eludir la censura en Internet y "
-"compartir contenido descargado entre todos los usuarios de manera [par a "
-"par][P2P] (P2P). Esto reduce la dependencia general en intercambios de red "
+"compartir contenido descargado entre todos los usuarios de manera [par a par]"
+"[P2P] (P2P). Esto reduce la dependencia general en intercambios de red "
 "internacionales, y permite que el contenido Web frecuentemente solicitado "
 "persista en la red aún durante eventos de filtrado masivo y reducción "
 "forzada de ancho de banda."
@@ -50,14 +52,21 @@ msgstr ""
 "es que los usuarios pueden continuar compartiendo contenido Web aún cuando "
 "no exista conectividad (o esté extremadamente limitada) a través de las "
 "fronteras nacionales. Por lo tanto, CENO está construido en anticipación al "
-"filtrado agresivo de Internet y el establecimiento de [intranets nacionales]["
-"intranets nacionales] para excluir a naciones de la Web."
+"filtrado agresivo de Internet y el establecimiento de [intranets nacionales]"
+"[intranets nacionales] para excluir a naciones de la Web."
 
 #: intro/ceno.md:block 4 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "The CENO Browser is built on an adapted version of [Firefox for Android]"
+#| "[Firefox for Android], a popular, modern, feature-rich and secure Free/"
+#| "Libre/Open Source browser. CENO extends Firefox with **Ouinet**, the "
+#| "underlying technology allowing it to share content between devices "
+#| "(described in later sections)."
 msgid ""
-"The CENO Browser is built on an adapted version of [Firefox for Android]"
-"[Firefox for Android], a popular, modern, feature-rich and secure Free/Libre/"
-"Open Source browser. CENO extends Firefox with **Ouinet**, the underlying "
+"CENO Browser is built on an adapted version of [Firefox for Android][Firefox "
+"for Android], a popular, modern, feature-rich and secure Free/Libre/Open "
+"Source browser. CENO extends Firefox with **Ouinet**, the underlying "
 "technology allowing it to share content between devices (described in later "
 "sections)."
 msgstr ""
@@ -138,8 +147,8 @@ msgstr ""
 "está compartiendo con la red, y posiblemente entregar este contenido a "
 "aquellos que lo soliciten. Por lo tanto CENO confía en una conectividad "
 "dentro del país moderadamente buena. Recomendamos usar CENO cuando estés "
-"conectado a Wi-Fi, no solo para evitar agotar los límites de datos móviles ("
-"si los tuvieras), sino también para aumentar las posibilidades de ser capaz "
+"conectado a Wi-Fi, no solo para evitar agotar los límites de datos móviles "
+"(si los tuvieras), sino también para aumentar las posibilidades de ser capaz "
 "de entregar contenido Web a otros usuarios."
 
 #: intro/ceno.md:block 11 (quote)
@@ -154,8 +163,8 @@ msgstr ""
 "CENO podría permitirle a otros conocer si has accedido o estás compartiendo "
 "cierto contenido Web. Por favor toma una cuidadosa consideración de los "
 "riesgos que puedes asumir al usar esta herramienta. Mira las secciones sobre "
-"[navegación pública vs. privada](../concepts/public-private.md) y "
-"[riesgos](../concepts/risks.md) para mayor información."
+"[navegación pública vs. privada](../concepts/public-private.md) y [riesgos]"
+"(../concepts/risks.md) para mayor información."
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[Censorship.no!]: https://censorship.no/"
@@ -167,7 +176,8 @@ msgstr "[P2P]: https://es.wikipedia.org/wiki/Peer-to-peer"
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[national intranets]: https://en.wikipedia.org/wiki/National_intranet"
-msgstr "[intranets nacionales]: https://es.wikipedia.org/wiki/Intranet_nacional"
+msgstr ""
+"[intranets nacionales]: https://es.wikipedia.org/wiki/Intranet_nacional"
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[Firefox for Android]: https://www.mozilla.org/firefox/android/"

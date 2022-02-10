@@ -38,9 +38,9 @@ msgstr ""
 "рост всех видов сетевой цензуры и других видов сетевого вмешательства (см. "
 "отчеты [OONI](https://ooni.org/reports/ \"Open Observatory of Network "
 "Interference - Research reports\"), [Magma](https://magma.lavafeld.org/"
-"publications/ \"Magma publications\"), [Censored "
-"Planet](https://censoredplanet.org/reports \"Censored Planet – Reports\")), "
-"как со стороны частных, так и государственных структур."
+"publications/ \"Magma publications\"), [Censored Planet](https://"
+"censoredplanet.org/reports \"Censored Planet – Reports\")), как со стороны "
+"частных, так и государственных структур."
 
 #: intro/README.md:block 3 (paragraph)
 msgid ""
@@ -103,8 +103,12 @@ msgstr ""
 "расстоянии нескольких улиц друг от друга."
 
 #: intro/README.md:block 6 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "This is where the CENO Browser and Ouinet come into play. This chapter "
+#| "will introduce you to them."
 msgid ""
-"This is where the CENO Browser and Ouinet come into play. This chapter will "
+"This is where CENO Browser and Ouinet come into play. This chapter will "
 "introduce you to them."
 msgstr ""
 "Именно здесь в игру вступают Браузер CENO и Ouinet. В этой главе мы "

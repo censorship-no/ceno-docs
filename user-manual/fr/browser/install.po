@@ -17,7 +17,9 @@ msgid "Installing CENO"
 msgstr "Installation de CENO"
 
 #: browser/install.md:block 2 (paragraph)
-msgid "The CENO Browser can be installed via the following means:"
+#, fuzzy
+#| msgid "The CENO Browser can be installed via the following means:"
+msgid "CENO Browser can be installed via the following means:"
 msgstr "Le navigateur CENO peut être installé via lee méthodes suivantes :"
 
 #: browser/install.md:block 3 (unordered list)
@@ -57,8 +59,11 @@ msgstr ""
 "utilisateurs des pays qui bloquent l’accès aux chaînes précédentes."
 
 #: browser/install.md:block 4 (paragraph)
-msgid "CENO requires *no special permissions* to run."
-msgstr "CENO ne nécessite *aucune autorisation spéciale* pour fonctionner."
+msgid ""
+"CENO requires an ARM64 or Neon-capable ARM32 device running at least Android "
+"4.1 Jelly Bean, thus most mobile devices released from late 2012 onward "
+"should work. CENO needs *no special permissions* to run."
+msgstr ""
 
 #: browser/install.md:block 5 (quote)
 #, fuzzy
@@ -71,12 +76,12 @@ msgstr "CENO ne nécessite *aucune autorisation spéciale* pour fonctionner."
 #| "[cenoers@equalit.ie](mailto:cenoers@equalit.ie) before installing a "
 #| "suspicious app."
 msgid ""
-"**Warning:** Please be *extremely skeptical* about installing the CENO "
-"Browser from sources other than the ones listed above. Because of the "
-"application's nature, their potential users may become a target for all "
-"kinds of fake or manipulated versions used to violate user privacy or attack "
-"other CENO and Ouinet users. If in doubt, please contact [cenoers@equalit.ie]"
-"(mailto:cenoers@equalit.ie) before installing a suspicious app."
+"**Warning:** Please be *extremely skeptical* about installing CENO Browser "
+"from sources other than the ones listed above. Because of the application's "
+"nature, their potential users may become a target for all kinds of fake or "
+"manipulated versions used to violate user privacy or attack other CENO and "
+"Ouinet users. If in doubt, please contact [cenoers@equalit.ie](mailto:"
+"cenoers@equalit.ie) before installing a suspicious app."
 msgstr ""
 "**Avertissement :** Veuillez être *extrêmement prudent·e* quant à "
 "l'installation du navigateur CENO à partir de sources autres que celles "
@@ -237,6 +242,9 @@ msgstr "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
 #: browser/install.md:block 18 (quote)
 msgid "[ceno-pask]: https://paskoocheh.com/tools/124/android.html"
 msgstr ""
+
+#~ msgid "CENO requires *no special permissions* to run."
+#~ msgstr "CENO ne nécessite *aucune autorisation spéciale* pour fonctionner."
 
 #~ msgid ""
 #~ "When you run CENO for the first time, you will be presented with a series "

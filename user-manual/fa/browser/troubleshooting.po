@@ -25,12 +25,11 @@ msgid ""
 "network infrastructure, as well as which content other users have retrieved "
 "and the characteristics of their connections."
 msgstr ""
-"این بخش سرنخ‌هایی را به شما در این‌باره ارائه خواهد داد که وقتی مشکلات مختلف "
-"و معین با CENO و Ouinet سربرمی‌آورند، چه باید کرد. لطفاً به یاد داشته باشید "
-"که این‌ها پروژه‌هایی آزمایشی‌اند، و این‌که عملکردشان تابع کثرتی از عوامل "
-"فراسوی کنترل ماست، مثل تنظیمات خاص و جایگاه زیرساخت شبکه، و نیز این‌که چه "
-"محتوایی را کاربران دیگر بازیابی کرده‌اند و ویژگی‌های سرشت‌نمای ارتباطات و "
-"اتصالات آن‌ها."
+"این بخش سرنخ‌هایی را به شما در این‌باره ارائه خواهد داد که وقتی مشکلات مختلف و "
+"معین با CENO و Ouinet سربرمی‌آورند، چه باید کرد. لطفاً به یاد داشته باشید که "
+"این‌ها پروژه‌هایی آزمایشی‌اند، و این‌که عملکردشان تابع کثرتی از عوامل فراسوی "
+"کنترل ماست، مثل تنظیمات خاص و جایگاه زیرساخت شبکه، و نیز این‌که چه محتوایی را "
+"کاربران دیگر بازیابی کرده‌اند و ویژگی‌های سرشت‌نمای ارتباطات و اتصالات آن‌ها."
 
 #: browser/troubleshooting.md:block 3 (paragraph)
 msgid ""
@@ -68,8 +67,8 @@ msgid ""
 "If the Settings page stays like that after more than two minutes, Ouinet may "
 "have encountered some issue while starting."
 msgstr ""
-"اگر صفحه‌ی تنظیمات بعد از بیش از دو دقیقه همین‌طور باقی می‌ماند، احتمال دارد "
-"که Ouinet هنگام آغاز به کار دچار مشکلی شده باشد."
+"اگر صفحه‌ی تنظیمات بعد از بیش از دو دقیقه همین‌طور باقی می‌ماند، احتمال دارد که "
+"Ouinet هنگام آغاز به کار دچار مشکلی شده باشد."
 
 #: browser/troubleshooting.md:block 9 (paragraph)
 msgid ""
@@ -79,11 +78,11 @@ msgid ""
 "connectivity (like being unable to join the BitTorrent network). If you are "
 "on a mobile connection, try again with Wi-Fi."
 msgstr ""
-"سعی کنید از صفحه‌ای بازدید کنید، در صورت امکان صفحه‌ای که معمولاً در دسترس "
-"است. اگر پیغام خطایی مثل «بازیابیِ منبع ناموفق بود (پس از تلاش برای انجام "
-"همه‌ی سازوکارهای تنظیم‌شده)» دریافت کردید، CENO شاید در رابطه با اتصال عمومی "
-"دچار مشکلاتی شود (مثل ناتوانی در پیوستن به شبکه‌ی بیت‌تورنت). اگر از اتصال "
-"به اینترنت همراه استفاده می‌کنید، این بار با وای‌فای از نو تلاش کنید."
+"سعی کنید از صفحه‌ای بازدید کنید، در صورت امکان صفحه‌ای که معمولاً در دسترس است. "
+"اگر پیغام خطایی مثل «بازیابیِ منبع ناموفق بود (پس از تلاش برای انجام همه‌ی "
+"سازوکارهای تنظیم‌شده)» دریافت کردید، CENO شاید در رابطه با اتصال عمومی دچار "
+"مشکلاتی شود (مثل ناتوانی در پیوستن به شبکه‌ی بیت‌تورنت). اگر از اتصال به "
+"اینترنت همراه استفاده می‌کنید، این بار با وای‌فای از نو تلاش کنید."
 
 #: browser/troubleshooting.md:block 10 (paragraph)
 msgid ""
@@ -104,10 +103,35 @@ msgstr ""
 "`127.0.0.1:8077` یا `127.0.0.1:8078` باشد ممکن است این اتفاق بیفتد."
 
 #: browser/troubleshooting.md:block 12 (header)
+msgid "The *Ouinet client state* under *CENO Settings* is not `started`"
+msgstr ""
+
+#: browser/troubleshooting.md:block 13 (paragraph)
+msgid ""
+"The Ouinet client run by CENO is finding problems starting on your device."
+msgstr ""
+
+#: browser/troubleshooting.md:block 14 (paragraph)
+msgid ""
+"When you launch CENO, the state may read `starting` for a few seconds; this "
+"is normal. However, if the state remains `starting` for too long, it may be "
+"a signal of serious connectivity issues that preclude the application from "
+"reaching the BitTorrent network. Please check your network connection and "
+"try restarting CENO. If you have a working connection but the state remains "
+"`starting`, please contact us."
+msgstr ""
+
+#: browser/troubleshooting.md:block 15 (paragraph)
+msgid ""
+"If you see some other state, there may be some internal error in the Ouinet "
+"client. Please report the issue to us."
+msgstr ""
+
+#: browser/troubleshooting.md:block 16 (header)
 msgid "A page shows bogus content (like a block message)"
 msgstr "صفحه محتوایی جعلی (مانند یک پیغام نامربوط) را نشان می‌دهد"
 
-#: browser/troubleshooting.md:block 13 (paragraph)
+#: browser/troubleshooting.md:block 17 (paragraph)
 msgid ""
 "CENO was able to contact a web server directly and retrieve content from it. "
 "Unfortunately, someone intercepted the connection and directed it to an "
@@ -117,19 +141,19 @@ msgstr ""
 "اما، متأسفانه، کسی مانع این اتصال شده است و آن را به یک سرور جعلی دیگر هدایت "
 "کرده است."
 
-#: browser/troubleshooting.md:block 14 (paragraph)
+#: browser/troubleshooting.md:block 18 (paragraph)
 msgid ""
 "This usually means that the site is blocked by your access provider or "
 "country. However, this particular error can only happen when you are "
 "accessing the site over insecure HTTP (instead of the more secure HTTPS "
 "protocol), as CENO cannot detect the tampering by itself."
 msgstr ""
-"این معمولاً به این معناست که شرکت تأمین اینترنت یا دولت کشورتان دسترسی شما "
-"به این سایت را مسدود کرده است. اما، این ایراد خاص فقط وقتی رخ می‌دهد که شما "
-"به سایتی روی HTTP ناامن دسترسی پیدا کنید (به جای دسترسی به پروتکل امن تر "
+"این معمولاً به این معناست که شرکت تأمین اینترنت یا دولت کشورتان دسترسی شما به "
+"این سایت را مسدود کرده است. اما، این ایراد خاص فقط وقتی رخ می‌دهد که شما به "
+"سایتی روی HTTP ناامن دسترسی پیدا کنید (به جای دسترسی به پروتکل امن تر "
 "HTTPS)، و CENO نمی‌تواند خودش این دستکاری را تشخیص دهد."
 
-#: browser/troubleshooting.md:block 15 (paragraph)
+#: browser/troubleshooting.md:block 19 (paragraph)
 msgid ""
 "Thus, one way to get to the legitimate site is to try to access it over "
 "HTTPS by tapping the address bar and replacing `http://` with `https://` at "
@@ -145,7 +169,7 @@ msgstr ""
 "را دریافت خواهید کرد، باید به [صفحه تنظیمات](settings.md) بروید، دسترسی به "
 "اصل را غیرفعال کنید، و دوباره امتحان کنید."
 
-#: browser/troubleshooting.md:block 16 (paragraph)
+#: browser/troubleshooting.md:block 20 (paragraph)
 msgid ""
 "Since such setting is not remembered, and modifying the URL every time can "
 "get tiresome, you may instead configure CENO to always use HTTPS for all "
@@ -154,20 +178,20 @@ msgid ""
 "Sites Eligible* (EASE) as shown below. This setting is remembered by CENO."
 msgstr ""
 "از آنجا که این جور تنظیمات به خاطر نمی‌مانند، و تغییر نشانی اینترنتی هربار "
-"خسته کننده می‌شود، می‌توانید در عوض CENO را طوری تنظیم کنید که همیشه برای "
-"همه سایتها از طریق افزونه [HTTPS Everywhere][HTTPS Everywhere] از HTTPS "
-"استفاده کند: در منو اصلی برنامه گزینه *HTTPS Everywhere* را انتخاب کنید، سپس "
-"گزینه *Encrypt All Sites Eligible* (EASE) نشان داده شده در زیر را فعال کنید. "
-"CENO این تنظیمات را به خاطر می سپارد."
+"خسته کننده می‌شود، می‌توانید در عوض CENO را طوری تنظیم کنید که همیشه برای همه "
+"سایتها از طریق افزونه [HTTPS Everywhere][HTTPS Everywhere] از HTTPS استفاده "
+"کند: در منو اصلی برنامه گزینه *HTTPS Everywhere* را انتخاب کنید، سپس گزینه "
+"*Encrypt All Sites Eligible* (EASE) نشان داده شده در زیر را فعال کنید. CENO "
+"این تنظیمات را به خاطر می سپارد."
 
-#: browser/troubleshooting.md:block 17 (paragraph)
+#: browser/troubleshooting.md:block 21 (paragraph)
 msgid ""
 "![Figure: HTTPS Everywhere settings with EASE on](images/httpsew-ease-on.png)"
 msgstr ""
 "![شکل: تنظیمات استفاده از HTTPS Everywhere با فعال کردن EASE](images/httpsew-"
 "ease-on.png)"
 
-#: browser/troubleshooting.md:block 18 (paragraph)
+#: browser/troubleshooting.md:block 22 (paragraph)
 msgid ""
 "If you still need to access some particular site over plain HTTP when EASE "
 "is on, you can visit the site (even if access fails), then from that tab "
@@ -180,11 +204,11 @@ msgstr ""
 "غیرفعال شود\" نشان داده شده در بالا کلیک کنید تا آن سایت مورد استثنا قرار "
 "گیرد."
 
-#: browser/troubleshooting.md:block 19 (header)
+#: browser/troubleshooting.md:block 23 (header)
 msgid "Accessing some content shows \"Failed to retrieve the resource\""
 msgstr "دسترسی به محتوایی خاص پیغام «بازیابی منبع ناموفق بود» را نشان می‌دهد"
 
-#: browser/troubleshooting.md:block 20 (paragraph)
+#: browser/troubleshooting.md:block 24 (paragraph)
 msgid ""
 "This means that CENO tried all available mechanisms to access the content, "
 "but none of them succeeded."
@@ -192,25 +216,30 @@ msgstr ""
 "این یعنی CENO تمام سازوکارهای موجود برای دسترسی به آن محتوا را امتحان کرده "
 "است، اما هیچ‌یک از آن‌ها موفق نبوده‌اند."
 
-#: browser/troubleshooting.md:block 21 (paragraph)
+#: browser/troubleshooting.md:block 25 (paragraph)
 msgid ""
 "You should make sure that the following requirements are fulfilled for CENO "
 "to work:"
 msgstr ""
-"برای آن‌که CENO درست کار کند باید مطمئن شوید که این پیش‌نیازها برآورده "
-"شده‌اند:"
+"برای آن‌که CENO درست کار کند باید مطمئن شوید که این پیش‌نیازها برآورده شده‌اند:"
 
-#: browser/troubleshooting.md:block 22 (unordered list)
+#: browser/troubleshooting.md:block 26 (unordered list)
+#, fuzzy
+#| msgid ""
+#| "You are running a recent version of the CENO Browser. Obsolete versions "
+#| "may not be able to communicate with newer injectors or other clients. "
+#| "Check the [installation instructions](install.md) to know where to get "
+#| "new versions."
 msgid ""
-"You are running a recent version of the CENO Browser. Obsolete versions may "
-"not be able to communicate with newer injectors or other clients. Check the "
+"You are running a recent version of CENO Browser. Obsolete versions may not "
+"be able to communicate with newer injectors or other clients. Check the "
 "[installation instructions](install.md) to know where to get new versions."
 msgstr ""
 "شما نسخه‌ای جدید از مرورگر CENO را اجرا می‌کنید. نسخه‌های منسوخ قدیمی چه‌بسا "
 "نتوانند با injector جدیدتر یا سایر سرویس‌گیرندگان ارتباط برقرار کنند. برای "
 "اطلاع از چگونگی دریافت نسخه‌های جدید به [راهنمای نصب](install.md) نگاه کنید."
 
-#: browser/troubleshooting.md:block 22 (unordered list)
+#: browser/troubleshooting.md:block 26 (unordered list)
 msgid ""
 "All access mechanisms in the [Settings page](settings.md) are enabled. "
 "Otherwise CENO will not be able to circumvent some connectivity issues when "
@@ -220,7 +249,7 @@ msgstr ""
 "افتاده‌اند. در غیر این صورت CENO نخواهد توانست برخی مشکلات مربوط به اتصال را "
 "در هنگام دسترسی به محتوا دور بزند."
 
-#: browser/troubleshooting.md:block 22 (unordered list)
+#: browser/troubleshooting.md:block 26 (unordered list)
 msgid ""
 "Your device has a working connection to the network, i.e. your normal Web "
 "browser is able to open some Web sites. CENO and Ouinet cannot work when all "
@@ -232,7 +261,7 @@ msgstr ""
 "اتصال شبکه به‌تمامی قطع شده باشد (هرچند کاربران باز شاید بتوانند یک نقطه‌ی "
 "دسترسی مشترک وای‌فای برای اشتراک‌گذاری دستگاه‌-به‌-دستگاه بیابند)."
 
-#: browser/troubleshooting.md:block 23 (paragraph)
+#: browser/troubleshooting.md:block 27 (paragraph)
 msgid ""
 "If that is the case, it is worth explaining what may be happening for all "
 "access mechanisms to fail, to give you an idea of your chances for getting "
@@ -242,11 +271,11 @@ msgstr ""
 "شود تمام سازوکارهای دسترسی ناکام بمانند، تا شما بتوانید تصوری از فرصت‌هایی "
 "پیدا کنید که برای دریافت محتوا با استفاده از CENO دارید."
 
-#: browser/troubleshooting.md:block 24 (header)
+#: browser/troubleshooting.md:block 28 (header)
 msgid "Origin access"
 msgstr "دسترسی به اصل"
 
-#: browser/troubleshooting.md:block 25 (paragraph)
+#: browser/troubleshooting.md:block 29 (paragraph)
 msgid ""
 "Your CENO Browser cannot directly reach the content's origin server. Either "
 "the server is having some difficulties itself (e.g. it is down or under some "
@@ -256,84 +285,84 @@ msgstr ""
 "سرور دچار مشکلاتی شود (مثلاً سرور پایین آمده یا مورد هجوم قرار گرفته باشد)، "
 "خواه کسی در اتصال شما به آن اخلال ایجاد کند."
 
-#: browser/troubleshooting.md:block 26 (paragraph)
+#: browser/troubleshooting.md:block 30 (paragraph)
 msgid ""
 "This is the main use case for CENO and the other mechanisms should "
 "compensate for it."
 msgstr ""
 "این مورد کاربرد اصلی برای CENO است و سازوکارهای دیگر باید آن را جبران کنند."
 
-#: browser/troubleshooting.md:block 27 (header)
+#: browser/troubleshooting.md:block 31 (header)
 msgid "Proxy/Injector access"
 msgstr "دسترسی به پروکسی/انژکتور"
 
-#: browser/troubleshooting.md:block 28 (paragraph)
+#: browser/troubleshooting.md:block 32 (paragraph)
 msgid ""
 "Someone is interfering with your connection to Internet addresses in the "
 "injector swarm. Since this is expected to happen eventually as CENO (and "
 "Ouinet) gain traction, CENO resorts to reaching injectors via other clients "
 "acting as bridges."
 msgstr ""
-"کسی در حال ایجاد اخلال با اتصال شما به نشانی‌های اینترنتی در انبوهه‌ی "
-"injector است. از آن‌جا که با گسترش کاربرد و کشش CENO (و Ouinet) انتظار رخ‌"
-"دادن چنین پیشامدهایی می‌رود، CENO به دستیابی به injector از طریق سرویس‌"
-"گیرندگان دیگری پناه می‌برد که همچون پل عمل می‌کنند."
+"کسی در حال ایجاد اخلال با اتصال شما به نشانی‌های اینترنتی در انبوهه‌ی injector "
+"است. از آن‌جا که با گسترش کاربرد و کشش CENO (و Ouinet) انتظار رخ‌دادن چنین "
+"پیشامدهایی می‌رود، CENO به دستیابی به injector از طریق سرویس‌گیرندگان دیگری "
+"پناه می‌برد که همچون پل عمل می‌کنند."
 
-#: browser/troubleshooting.md:block 29 (paragraph)
+#: browser/troubleshooting.md:block 33 (paragraph)
 msgid ""
 "There are different reasons for CENO being unable to reach such clients:"
 msgstr ""
 "دلایل متفاوتی برای ناتوانی CENOدر دستیابی به چنین سرویس‌گیرندگانی وجود دارند:"
 
-#: browser/troubleshooting.md:block 30 (unordered list)
+#: browser/troubleshooting.md:block 34 (unordered list)
 msgid ""
 "No other client is reachable by you. If only a few Ouinet clients are "
 "online, it is entirely possible that none of them are in a network that can "
 "be reached from the outside. This should become less likely as CENO and "
 "Ouinet get popular and more clients with diverse connectivity come online."
 msgstr ""
-"هیچ سرویس‌گیرنده‌ی دیگری توسط شما دسترس‌پذیر نیست. اگر تنها چند سرویس‌گیرنده‌"
-"ی Ouinet آنلاین باشند، ممکن است که هیچ‌یک از آن‌ها در شبکه‌ای نباشند که "
-"بتواند از بیرون دست‌یافتنی باشد. با محبوب‌شدن و پرطرفدارشدن CENO و Ouinet و "
-"آنلاین‌شدن سرویس‌گیرندگان بیشتری با انواع گوناگون اتصال باید از احتمال این "
-"پیشامد کاسته شود."
+"هیچ سرویس‌گیرنده‌ی دیگری توسط شما دسترس‌پذیر نیست. اگر تنها چند سرویس‌گیرنده‌ی "
+"Ouinet آنلاین باشند، ممکن است که هیچ‌یک از آن‌ها در شبکه‌ای نباشند که بتواند از "
+"بیرون دست‌یافتنی باشد. با محبوب‌شدن و پرطرفدارشدن CENO و Ouinet و آنلاین‌شدن "
+"سرویس‌گیرندگان بیشتری با انواع گوناگون اتصال باید از احتمال این پیشامد کاسته "
+"شود."
 
-#: browser/troubleshooting.md:block 30 (unordered list)
+#: browser/troubleshooting.md:block 34 (unordered list)
 msgid ""
 "The extreme case here is that connections between Ouinet clients are "
 "detected as such by a censor and blocked. This is quite unlikely (since it "
 "may entail blocking all BitTorrent traffic) and currently beyond what Ouinet "
 "supports, but we plan to make it more resistant against these attacks."
 msgstr ""
-"مورد افراطی در این‌جا حالتی است که اتصالات بین سرویس‌گیرندگان Ouinet "
-"به‌وسیله‌ی یک سنسور تشخیص داده شوند و مسدود گردند. این کاملاً نامحتمل است ("
-"چون این می‌تواند انسداد کل ترافیک بیت‌تورنت را در پی آورد) و در حال حاضر "
-"فراسوی آن حدی است که Ouinet پشتیبانی‌اش می‌کند، اما ما بنا داریم آن را در "
-"برابر این حمله‌ها مقاوم‌تر سازیم."
+"مورد افراطی در این‌جا حالتی است که اتصالات بین سرویس‌گیرندگان Ouinet به‌وسیله‌ی "
+"یک سنسور تشخیص داده شوند و مسدود گردند. این کاملاً نامحتمل است (چون این "
+"می‌تواند انسداد کل ترافیک بیت‌تورنت را در پی آورد) و در حال حاضر فراسوی آن حدی "
+"است که Ouinet پشتیبانی‌اش می‌کند، اما ما بنا داریم آن را در برابر این حمله‌ها "
+"مقاوم‌تر سازیم."
 
-#: browser/troubleshooting.md:block 30 (unordered list)
+#: browser/troubleshooting.md:block 34 (unordered list)
 msgid ""
 "No other client can reach an injector. Since it is unlikely that all "
 "injectors are simultaneously down, that may mean that you can only reach "
 "Ouinet clients which are themselves affected by similar network interference "
 "as yours."
 msgstr ""
-"هیچ سرویس‌گیرنده‌ی دیگری نمی‌تواند به یک انژکتور دسترسی پیدا کند. از آن‌جا "
-"که بعید است که تمام انژکتورها همزمان از کار بیفتند، که شاید به این معنا باشد "
-"که شما فقط می‌توانید به گروهی از سرویس‌گیرندگان Ouinet دسترسی پیدا کنید که "
-"خودشان تحت تأثیر اختلالی در شبکه مشابه اختلال شما باشند."
+"هیچ سرویس‌گیرنده‌ی دیگری نمی‌تواند به یک انژکتور دسترسی پیدا کند. از آن‌جا که "
+"بعید است که تمام انژکتورها همزمان از کار بیفتند، که شاید به این معنا باشد که "
+"شما فقط می‌توانید به گروهی از سرویس‌گیرندگان Ouinet دسترسی پیدا کنید که خودشان "
+"تحت تأثیر اختلالی در شبکه مشابه اختلال شما باشند."
 
-#: browser/troubleshooting.md:block 30 (unordered list)
+#: browser/troubleshooting.md:block 34 (unordered list)
 msgid ""
 "This can happen when all traffic leaving or entering the country you are in "
 "is interrupted. CENO would resort in this case to getting and using the "
 "content from the distributed cache, even if it is stale."
 msgstr ""
-"این می‌تواند هنگامی پیش آید که تمام ترافیک در حال خروج از کشور یا در حال "
-"ورود به کشور محل سکونت‌تان قطع گردد. CENO در این مورد به گرفتن و به‌کاربردن "
-"محتوا از انبار توزیع‌شده پناه می‌جوید، حتی اگر این انبار کهنه باشد."
+"این می‌تواند هنگامی پیش آید که تمام ترافیک در حال خروج از کشور یا در حال ورود "
+"به کشور محل سکونت‌تان قطع گردد. CENO در این مورد به گرفتن و به‌کاربردن محتوا "
+"از انبار توزیع‌شده پناه می‌جوید، حتی اگر این انبار کهنه باشد."
 
-#: browser/troubleshooting.md:block 30 (unordered list)
+#: browser/troubleshooting.md:block 34 (unordered list)
 msgid ""
 "Again, as CENO and Ouinet become more popular, the chances increase that "
 "there are at least a few clients that do have some kind of access to "
@@ -343,13 +372,13 @@ msgid ""
 "outside world."
 msgstr ""
 "یک بار دیگر، همان‌طور که CENO و Ouinet محبوب‌تر می‌شوند، این شانس‌ها افزایش "
-"می‌یابند که دست‌کم چند سرویس‌گیرنده در میان باشند که از نوعی دسترسی به سایت‌"
-"های بین‌المللی برخوردار باشند. حتی اگر دسترسی مشروط باشد، یک سرویس‌گیرنده‌ی "
-"واحد Ouinet که قادر به inject محتوایی به‌درون کشور است برای تواناساختن آن به "
-"گسترش (روی انبار توزیع‌شده) بدون هیچ نیاز دیگر به دسترسی به جهان بیرونی "
-"کفایت خواهد کرد."
+"می‌یابند که دست‌کم چند سرویس‌گیرنده در میان باشند که از نوعی دسترسی به سایت‌های "
+"بین‌المللی برخوردار باشند. حتی اگر دسترسی مشروط باشد، یک سرویس‌گیرنده‌ی واحد "
+"Ouinet که قادر به inject محتوایی به‌درون کشور است برای تواناساختن آن به گسترش "
+"(روی انبار توزیع‌شده) بدون هیچ نیاز دیگر به دسترسی به جهان بیرونی کفایت خواهد "
+"کرد."
 
-#: browser/troubleshooting.md:block 31 (paragraph)
+#: browser/troubleshooting.md:block 35 (paragraph)
 msgid ""
 "Finally, we do run some Ouinet clients with good connectivity in (hopefully) "
 "censorship-free countries to try to avoid those two situations, but please "
@@ -361,11 +390,11 @@ msgstr ""
 "کنید که سرویس‌گیرندگان با چنین نشانی‌های اینترنتی باثباتی بتوانند مسدود هم "
 "شوند."
 
-#: browser/troubleshooting.md:block 32 (header)
+#: browser/troubleshooting.md:block 36 (header)
 msgid "Distributed cache"
 msgstr "کش توزیع‌شده"
 
-#: browser/troubleshooting.md:block 33 (paragraph)
+#: browser/troubleshooting.md:block 37 (paragraph)
 msgid ""
 "Keep in mind that an absolute requirement to be able to retrieve any content "
 "from the distributed cache is that it has already been injected by some "
@@ -378,12 +407,12 @@ msgstr ""
 "به خاطر داشته باشید که یک پیش‌نیاز مطلق برای تواناشدن به بازیابی هر محتوا از "
 "کش توزیع‌شده این است که این پیشاپیش به‌وسیله‌ی یک کاربر دیگر CENO یا Ouinet "
 "تزریق شده است. این به معنای آن است که محتوای پرطرفدار به احتمال قوی سرانجام "
-"به سیاقی طبیعی تزریق می‌شود و بازساخته می‌شود، در حالی که محتوای مبهم‌تر کم‌"
-"تر چنین است، مگر آن‌که کسی مراقب استفاده از CENO یا سرویس‌گیرنده‌ی دیگری از "
-"Ouinet باشد تا آن را inject کند و به بذرپاشی‌اش ادامه دهد (که شاید آن‌ها را "
-"هرچه بیشتر در معرض [خطرات](../concepts/risks.md) قرار دهد)."
+"به سیاقی طبیعی تزریق می‌شود و بازساخته می‌شود، در حالی که محتوای مبهم‌تر کم‌تر "
+"چنین است، مگر آن‌که کسی مراقب استفاده از CENO یا سرویس‌گیرنده‌ی دیگری از Ouinet "
+"باشد تا آن را inject کند و به بذرپاشی‌اش ادامه دهد (که شاید آن‌ها را هرچه "
+"بیشتر در معرض [خطرات](../concepts/risks.md) قرار دهد)."
 
-#: browser/troubleshooting.md:block 34 (paragraph)
+#: browser/troubleshooting.md:block 38 (paragraph)
 msgid ""
 "Please note that some content which is not considered safe for sharing will "
 "never be injected, no matter how many people retrieve it using public "
@@ -391,13 +420,13 @@ msgid ""
 "content that requires authentication, and some traffic exchanged by certain "
 "dynamic Web applications."
 msgstr ""
-"لطفاً توجه کنید که محتوایی که برای اشتراک‌گذاری امن قلمداد نمی‌شود هرگز "
-"تزریق نخواهد شد، صرف‌نظر از این‌که چند نفر با استفاده از مرور عمومی آن را "
-"بازیابی کنند. این شامل محتوای علامت‌گذاری‌شده به‌عنوان محتوای خصوصی از سوی "
-"سرور اصلی است، محتوایی که نیازمند تصدیق است، و ترافیکی که به‌وسیله‌ی برخی "
-"نرم‌افزارهای پویای وب مبادله می‌شود."
+"لطفاً توجه کنید که محتوایی که برای اشتراک‌گذاری امن قلمداد نمی‌شود هرگز تزریق "
+"نخواهد شد، صرف‌نظر از این‌که چند نفر با استفاده از مرور عمومی آن را بازیابی "
+"کنند. این شامل محتوای علامت‌گذاری‌شده به‌عنوان محتوای خصوصی از سوی سرور اصلی "
+"است، محتوایی که نیازمند تصدیق است، و ترافیکی که به‌وسیله‌ی برخی نرم‌افزارهای "
+"پویای وب مبادله می‌شود."
 
-#: browser/troubleshooting.md:block 35 (paragraph)
+#: browser/troubleshooting.md:block 39 (paragraph)
 msgid ""
 "Also note that the clients holding copies of injected content need to be "
 "reachable by you. The same observations described in the previous point for "
@@ -407,11 +436,11 @@ msgstr ""
 "است در دسترس شما باقی بمانند. همین ملاحظات توصیف‌شده در نکته‌ی پیشین برای "
 "دستیابی به سرویس‌گیرندگان پل در این‌جا نیز مصداق دارند."
 
-#: browser/troubleshooting.md:block 36 (header)
+#: browser/troubleshooting.md:block 40 (header)
 msgid "Others cannot retrieve content seeded by my device"
 msgstr "دیگران نمی‌توانند محتوای بذرپاشی‌شده توسط دستگاه مرا بازیابی کنند"
 
-#: browser/troubleshooting.md:block 37 (paragraph)
+#: browser/troubleshooting.md:block 41 (paragraph)
 msgid ""
 "First, make sure that your device is still seeding the content by going to "
 "the [*CENO Settings* page](settings.md), only leaving the *Shared by other "
@@ -419,15 +448,15 @@ msgid ""
 "load (at least partially), and pushing the CENO address bar icon should only "
 "show non-zero values under *Shared by other CENO users* or *Shared by you*."
 msgstr ""
-"نخست، با رفتن به [صفحه‌ی *تنظیمات سنو*](settings.md) مطمئن شوید که دستگاه‌"
-"تان هنوز محتوا را بذرپاشی می‌کند، فقط چک‌باکس منبع *به‌اشتراک‌گذاشته‌شده "
-"توسط سایر کاربران سنو* را چک‌خورده رها کنید، سپس دوباره به آن محتوا دسترسی "
-"پیدا کنید: این محتوا بایستی بارگذاری شود (دست‌کم بخش‌هایی از آن باید "
-"بارگذاری شوند)، و علامت مستطیل نشانی سنو را فقط در صورتی اجبار کند که ارزش‌"
-"های غیر-صفر ذیل *به‌اشتراک‌گذاشته‌شده توسط سایر کاربران سنو* یا "
-"*به‌اشتراک‌گذاشته‌شده توسط شما* نمایش داده شوند."
+"نخست، با رفتن به [صفحه‌ی *تنظیمات سنو*](settings.md) مطمئن شوید که دستگاه‌تان "
+"هنوز محتوا را بذرپاشی می‌کند، فقط چک‌باکس منبع *به‌اشتراک‌گذاشته‌شده توسط سایر "
+"کاربران سنو* را چک‌خورده رها کنید، سپس دوباره به آن محتوا دسترسی پیدا کنید: "
+"این محتوا بایستی بارگذاری شود (دست‌کم بخش‌هایی از آن باید بارگذاری شوند)، و "
+"علامت مستطیل نشانی سنو را فقط در صورتی اجبار کند که ارزش‌های غیر-صفر ذیل "
+"*به‌اشتراک‌گذاشته‌شده توسط سایر کاربران سنو* یا *به‌اشتراک‌گذاشته‌شده توسط شما* "
+"نمایش داده شوند."
 
-#: browser/troubleshooting.md:block 38 (paragraph)
+#: browser/troubleshooting.md:block 42 (paragraph)
 msgid ""
 "If the content does not load, it could be that CENO has already removed it, "
 "since it automatically cleans up stale content (older than a week by "
@@ -439,16 +468,16 @@ msgid ""
 "may be that the particular content is not deemed safe for sharing by Ouinet."
 msgstr ""
 "اگر محتوا بارگذاری نشود، می‌تواند به این علت باشد که CENO پیشاپیش آن را حذف "
-"کرده است، چون CENO به‌طور خودکار محتوای کهنه (به‌طور پیش‌فرض هر محتوای قدیمی‌"
-"تر از یک هفته) را از روی کش محلی شما پاک می‌کند. منبع *از طریق شبکه‌ی (عمومی)"
-" CENO* را در صفحه‌ی تنظیمات فعال کنید و دوباره به همان محتوا دسترسی پیدا "
-"کنید. لطفاً اجازه بدهید چند دقیقه بگذرد تا دستگاه وجود محتوا را در نمایه‌ی "
-"کش توزیع‌شده اعلام نماید. جعبه‌ی *به‌اشتراک‌گذاشته‌شده توسط سایر کاربران "
-"CENO* را تنها جعبه‌ی علامت‌خورده کنید و یک بار دیگر به محتوا دسترسی پیدا "
-"کنید؛ اگر باز هم بارگذاری نشد، شاید این به این دلیل باشد که آن محتوای خاص "
-"برای اشتراک‌گذاری از سوی Ouinet امن انگاشته نمی‌شود."
+"کرده است، چون CENO به‌طور خودکار محتوای کهنه (به‌طور پیش‌فرض هر محتوای قدیمی‌تر "
+"از یک هفته) را از روی کش محلی شما پاک می‌کند. منبع *از طریق شبکه‌ی (عمومی) "
+"CENO* را در صفحه‌ی تنظیمات فعال کنید و دوباره به همان محتوا دسترسی پیدا کنید. "
+"لطفاً اجازه بدهید چند دقیقه بگذرد تا دستگاه وجود محتوا را در نمایه‌ی کش "
+"توزیع‌شده اعلام نماید. جعبه‌ی *به‌اشتراک‌گذاشته‌شده توسط سایر کاربران CENO* را "
+"تنها جعبه‌ی علامت‌خورده کنید و یک بار دیگر به محتوا دسترسی پیدا کنید؛ اگر باز "
+"هم بارگذاری نشد، شاید این به این دلیل باشد که آن محتوای خاص برای اشتراک‌گذاری "
+"از سوی Ouinet امن انگاشته نمی‌شود."
 
-#: browser/troubleshooting.md:block 39 (paragraph)
+#: browser/troubleshooting.md:block 43 (paragraph)
 msgid ""
 "If the previous step works, but another device with only the *Shared by "
 "other CENO users* source enabled still shows \"Failed to retrieve the "
@@ -460,12 +489,12 @@ msgstr ""
 "اگر مراحل قبلی جواب داد، اما دستگاه دیگری با تنها منبع *به‌اشتراک‌گذاشته‌شده "
 "توسط سایر کاربران CENO* فعال شده اما پیغام «بازیابی منبع ناموفق بود...» را "
 "نشان می‌دهد، دو سناریوی ممکن وجود دارند. اگر هردو دستگاه در یک شبکه باشند "
-"(مثلاً یک نقطه‌ی دسترسی وای‌فای مشترک)، این می‌تواند به این دلیل باشد که "
-"شبکه اجازه‌ی ارتباط مستقیم بین دستگاه‌های متصل به آن را مجاز نمی‌دهد. این "
-"اتفاق در برخی از شبکه‌های وای‌فای عمومی می‌افتد، بنابراین سعی کنید از مرور "
-"حالت خصوصی استفاده کنید."
+"(مثلاً یک نقطه‌ی دسترسی وای‌فای مشترک)، این می‌تواند به این دلیل باشد که شبکه "
+"اجازه‌ی ارتباط مستقیم بین دستگاه‌های متصل به آن را مجاز نمی‌دهد. این اتفاق در "
+"برخی از شبکه‌های وای‌فای عمومی می‌افتد، بنابراین سعی کنید از مرور حالت خصوصی "
+"استفاده کنید."
 
-#: browser/troubleshooting.md:block 40 (paragraph)
+#: browser/troubleshooting.md:block 44 (paragraph)
 msgid ""
 "If the devices are in different networks, it could be due to a variety of "
 "reasons. One of them is that the network of the first device does not allow "
@@ -475,11 +504,11 @@ msgid ""
 msgstr ""
 "اگر دستگاه‌ها در شبکه‌های مختلف بودند، این می‌تواند به دلیل طیفی گوناگون از "
 "علت‌ها باشد. یکی از این علت‌ها این است که شبکه‌ی نخستین دستگاه اجازه‌ی ورود "
-"اتصال‌های ورودی را نمی‌دهد: اگر صفحه‌ی *تنظیمات CENO* را باز کنید، ذیل *"
-"وضعیت دسترس‌پذیری* باید بگوید *دسترس‌پذیر* یا *احتمالاً دسترس‌پذیر*. در غیر "
-"این صورت بذرپاشی چه‌بسا از آن شبکه چنان‌که هست ممکن نباشد."
+"اتصال‌های ورودی را نمی‌دهد: اگر صفحه‌ی *تنظیمات CENO* را باز کنید، ذیل *وضعیت "
+"دسترس‌پذیری* باید بگوید *دسترس‌پذیر* یا *احتمالاً دسترس‌پذیر*. در غیر این صورت "
+"بذرپاشی چه‌بسا از آن شبکه چنان‌که هست ممکن نباشد."
 
-#: browser/troubleshooting.md:block 41 (quote)
+#: browser/troubleshooting.md:block 45 (quote)
 msgid ""
 "**Technical note:** If your device reports *undecided* reachability and you "
 "can change the configuration of the access point, you may create a permanent "
@@ -491,6 +520,6 @@ msgstr ""
 "درگاه دائم به‌روی قواعد پیش‌برنده به‌سوی سرویس‌گیرنده‌تان بسازید. برای "
 "راهنمایی‌های بیشتر [این‌جا](bridging.md) را ببینید."
 
-#: browser/troubleshooting.md:block 41 (quote)
+#: browser/troubleshooting.md:block 45 (quote)
 msgid "[HTTPS Everywhere]: https://www.eff.org/https-everywhere/"
 msgstr "[HTTPS Everywhere]: https://www.eff.org/https-everywhere/"

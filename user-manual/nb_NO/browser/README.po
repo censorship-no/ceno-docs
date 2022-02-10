@@ -13,9 +13,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.5.1-dev\n"
 
-#
 #: browser/README.md:block 1 (header)
-msgid "Using the CENO Browser"
+msgid "Using CENO Browser"
 msgstr ""
 
 #: browser/README.md:block 2 (paragraph)
@@ -32,7 +31,7 @@ msgid ""
 "When relevant, screen captures will be included to illustrate the text. "
 "Please note that these may slightly differ from what you see on your device, "
 "especially as CENO development progresses. This documentation is up to date "
-"for CENO version 1.0.2."
+"for CENO version 1.2.1."
 msgstr ""
 
 #: browser/README.md:block 4 (paragraph)

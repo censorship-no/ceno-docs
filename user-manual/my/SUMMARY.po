@@ -28,7 +28,9 @@ msgid "[Introduction](intro/README.md)"
 msgstr "[မိတ်ဆက်](intro/README.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-msgid "[What is the CENO Browser?](intro/ceno.md)"
+#, fuzzy
+#| msgid "[What is the CENO Browser?](intro/ceno.md)"
+msgid "[What is CENO Browser?](intro/ceno.md)"
 msgstr "[CENO ဘရောက်ဇာဆိုတာ ဘာလဲ။](intro/ceno.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
@@ -64,7 +66,9 @@ msgid "[Risks in using CENO/Ouinet](concepts/risks.md)"
 msgstr "[CENO/Ouinet အသုံးပြုခြင်း၏ အန္တရာယ်များ](concepts/risks.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-msgid "[Using the CENO Browser](browser/README.md)"
+#, fuzzy
+#| msgid "[Using the CENO Browser](browser/README.md)"
+msgid "[Using CENO Browser](browser/README.md)"
 msgstr "[CENO ဘရောက်ဇာ အသုံးပြုခြင်း](browser/README.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
@@ -73,9 +77,7 @@ msgstr "[CENO ထည့်သွင်းခြင်း](browser/install.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Using public or private browsing](browser/public-private.md)"
-msgstr ""
-"[အများသုံး သို့မဟုတ် သီးသန့် ရှာဖွေမှုကို အသုံးပြုခြင်း](browser/public-"
-"private.md)"
+msgstr "[အများသုံး သို့မဟုတ် သီးသန့် ရှာဖွေမှုကို အသုံးပြုခြင်း](browser/public-private.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[CENO settings](browser/settings.md)"
@@ -95,5 +97,4 @@ msgstr "[ပြဿနာ ဖြေရှင်းခြင်း](browser/troubl
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Annex: The Ouinet client front-end](client/front-end.md)"
-msgstr ""
-"[နောက်ဆက်တွဲ- Ouinet လက်ခံစက် သုံးစွဲသူ ကြားခံစနစ်](client/front-end.md)"
+msgstr "[နောက်ဆက်တွဲ- Ouinet လက်ခံစက် သုံးစွဲသူ ကြားခံစနစ်](client/front-end.md)"

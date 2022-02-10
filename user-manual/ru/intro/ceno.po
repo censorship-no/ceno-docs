@@ -17,7 +17,9 @@ msgstr ""
 
 #
 #: intro/ceno.md:block 1 (header)
-msgid "What is the CENO Browser?"
+#, fuzzy
+#| msgid "What is the CENO Browser?"
+msgid "What is CENO Browser?"
 msgstr "Что такое Браузер CENO?"
 
 #: intro/ceno.md:block 2 (paragraph)
@@ -54,10 +56,17 @@ msgstr ""
 "внешний интернет."
 
 #: intro/ceno.md:block 4 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "The CENO Browser is built on an adapted version of [Firefox for Android]"
+#| "[Firefox for Android], a popular, modern, feature-rich and secure Free/"
+#| "Libre/Open Source browser. CENO extends Firefox with **Ouinet**, the "
+#| "underlying technology allowing it to share content between devices "
+#| "(described in later sections)."
 msgid ""
-"The CENO Browser is built on an adapted version of [Firefox for Android]"
-"[Firefox for Android], a popular, modern, feature-rich and secure Free/Libre/"
-"Open Source browser. CENO extends Firefox with **Ouinet**, the underlying "
+"CENO Browser is built on an adapted version of [Firefox for Android][Firefox "
+"for Android], a popular, modern, feature-rich and secure Free/Libre/Open "
+"Source browser. CENO extends Firefox with **Ouinet**, the underlying "
 "technology allowing it to share content between devices (described in later "
 "sections)."
 msgstr ""
@@ -165,8 +174,8 @@ msgstr "[Censorship.no!]: https://censorship.no/"
 #: intro/ceno.md:block 11 (quote)
 msgid "[P2P]: https://en.wikipedia.org/wiki/Peer-to-peer"
 msgstr ""
-"[P2P]: https://ru.wikipedia.org/wiki/%D0%9E%D0%B4%D0%BD%D0%BE%D1%80%D0%B0%D0%"
-"BD%D0%B3%D0%BE%D0%B2%D0%B0%D1%8F_%D1%81%D0%B5%D1%82%D1%8C"
+"[P2P]: https://ru.wikipedia.org/wiki/%D0%9E%D0%B4%D0%BD%D0%BE"
+"%D1%80%D0%B0%D0%BD%D0%B3%D0%BE%D0%B2%D0%B0%D1%8F_%D1%81%D0%B5%D1%82%D1%8C"
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[national intranets]: https://en.wikipedia.org/wiki/National_intranet"

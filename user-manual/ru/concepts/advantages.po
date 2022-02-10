@@ -34,8 +34,15 @@ msgstr ""
 "отметить следующие преимущества:"
 
 #: concepts/advantages.md:block 3 (unordered list)
+#, fuzzy
+#| msgid ""
+#| "**Familiar usage:** Accessing Web content using the CENO Browser feels "
+#| "quite like surfing the Web on your habitual browser, even during complete "
+#| "blocking. There is no need for new custom links to popular content, or "
+#| "special actions from the user (like transferring files between "
+#| "applications)."
 msgid ""
-"**Familiar usage:** Accessing Web content using the CENO Browser feels quite "
+"**Familiar usage:** Accessing Web content using CENO Browser feels quite "
 "like surfing the Web on your habitual browser, even during complete "
 "blocking. There is no need for new custom links to popular content, or "
 "special actions from the user (like transferring files between applications)."
@@ -86,8 +93,8 @@ msgstr ""
 "больших ресурсов, таких как видео). Это полезно не только при ограничении "
 "доступа к интернету в других странах, но и для издателей, чтобы избежать "
 "скачков использования ресурсов на исходных серверах, когда некоторые из их "
-"материалов становятся очень популярными (так называемый "
-"[Слешдот-эффект][Слешдот-эффект])."
+"материалов становятся очень популярными (так называемый [Слешдот-эффект]"
+"[Слешдот-эффект])."
 
 #: concepts/advantages.md:block 3 (unordered list)
 msgid ""
@@ -110,8 +117,8 @@ msgstr ""
 #: concepts/advantages.md:block 3 (unordered list)
 msgid "[Slashdot effect]: https://en.wikipedia.org/wiki/Slashdot_effect"
 msgstr ""
-"[Слешдот-эффект]: https://ru.wikipedia.org/wiki/%D0%A1%D0%BB%D0%B5%D1%88%D0%B"
-"4%D0%BE%D1%82-%D1%8D%D1%84%D1%84%D0%B5%D0%BA%D1%82"
+"[Слешдот-эффект]: https://ru.wikipedia.org/wiki/%D0%A1%D0%BB"
+"%D0%B5%D1%88%D0%B4%D0%BE%D1%82-%D1%8D%D1%84%D1%84%D0%B5%D0%BA%D1%82"
 
 #: concepts/advantages.md:block 3 (unordered list)
 msgid "[National intranet]: https://en.wikipedia.org/wiki/National_intranet"

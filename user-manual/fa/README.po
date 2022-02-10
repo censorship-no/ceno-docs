@@ -17,14 +17,19 @@ msgid "Censorship.no! User Manual"
 msgstr "دفترچه‌ی راهنمای کاربر Censorship.no! (سنو)"
 
 #: README.md:block 2 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "This manual is aimed at users of the **CENO Browser** and related "
+#| "technologies, as created for the [Censorship.no!][Censorship.no!] project "
+#| "by [eQualitie][eQualitie]."
 msgid ""
-"This manual is aimed at users of the **CENO Browser** and related "
+"This manual is aimed at users of [CENO Browser][CENO Browser] and related "
 "technologies, as created for the [Censorship.no!][Censorship.no!] project by "
 "[eQualitie][eQualitie]."
 msgstr ""
 "این دفترچه‌ی راهنما برای کاربران **مرورگر CENO** و فناوری‌های مرتبط، و در "
-"چارچوب پروژه‌ی [Censorship.no!](https://censorship.no/) از "
-"[eQualitie](https://equalit.ie/) تهیه شده است."
+"چارچوب پروژه‌ی [Censorship.no!](https://censorship.no/) از [eQualitie]"
+"(https://equalit.ie/) تهیه شده است."
 
 #: README.md:block 3 (paragraph)
 msgid ""
@@ -34,10 +39,19 @@ msgid ""
 "the [protocol specifications][protocol specifications]."
 msgstr ""
 "اگر به دنبال اطلاعات فنی می‌گردید، لطفاً به [انبار اسناد سنو](https://github."
-"com/censorship-no/ceno-docs) رجوع کنید، در آن‌جا ارجاع‌هایی برای مطالعه‌ی "
-"بیشتر و جزئیاتی درباره‌ی پیاده‌سازی و همچنین [جزئیات پروتکل](https://github."
-"com/equalitie/ouinet/blob/master/doc/ouinet-network-whitepaper.md) را خواهید "
+"com/censorship-no/ceno-docs) رجوع کنید، در آن‌جا ارجاع‌هایی برای مطالعه‌ی بیشتر "
+"و جزئیاتی درباره‌ی پیاده‌سازی و همچنین [جزئیات پروتکل](https://github.com/"
+"equalitie/ouinet/blob/master/doc/ouinet-network-whitepaper.md) را خواهید "
 "یافت."
+
+#: README.md:block 3 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "[CENO documentation repository]: https://github.com/censorship-no/ceno-"
+#| "docs/"
+msgid "[CENO Browser]: https://github.com/censorship-no/ceno-browser"
+msgstr ""
+"[CENO documentation repository]: https://github.com/censorship-no/ceno-docs/"
 
 #: README.md:block 3 (paragraph)
 msgid "[Censorship.no!]: https://censorship.no/"

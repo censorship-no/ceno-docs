@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Language: cs\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: concepts/advantages.md:block 1 (header)
@@ -19,7 +19,7 @@ msgstr ""
 
 #: concepts/advantages.md:block 3 (unordered list)
 msgid ""
-"**Familiar usage:** Accessing Web content using the CENO Browser feels quite "
+"**Familiar usage:** Accessing Web content using CENO Browser feels quite "
 "like surfing the Web on your habitual browser, even during complete "
 "blocking. There is no need for new custom links to popular content, or "
 "special actions from the user (like transferring files between applications)."
