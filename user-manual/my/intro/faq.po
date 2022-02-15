@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-03 02:50+0200\n"
-"PO-Revision-Date: 2021-09-14 07:36+0000\n"
-"Last-Translator: Tun Tun AUNG <tuntunaung@codingclassroom.org>\n"
+"PO-Revision-Date: 2022-02-16 23:54+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "faq/my/>\n"
 "Language: my\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.9-dev\n"
+"X-Generator: Weblate 4.11-dev\n"
 
 #
 #: intro/faq.md:block 1 (header)
@@ -24,12 +24,10 @@ msgid "Usage"
 msgstr "သုံးစွဲပုံ"
 
 #: intro/faq.md:block 3 (header)
-#, fuzzy
-#| msgid ""
-#| "Can the CENO Browser replace my current browser (Chrome/Firefox/Safari)?"
 msgid "Can CENO Browser replace my current browser (Chrome/Firefox/Safari)?"
 msgstr ""
-"CENO ဘရောက်ဇာသည် ကျွန်ုပ်၏ လက်ရှိ ဘရောက်ဇာ (Chrome/Firefox/Safari) ကို အစားထိုးနိုင်သလား။"
+"CENO ဘရောက်ဇာသည် ကျွန်ုပ်၏ လက်ရှိ ဘရောက်ဇာ (Chrome/Firefox/Safari) ကို "
+"အစားထိုးနိုင်သလား။"
 
 #: intro/faq.md:block 4 (paragraph)
 msgid "Short answer: yes, at least for some non-critical browsing."
@@ -70,10 +68,10 @@ msgstr ""
 "အချက်အလက်များအတွက် [စွန့်စားမှုများ](../concepts/risks.md) အပိုင်းကို ဖတ်ပါ။"
 
 #: intro/faq.md:block 8 (header)
-#, fuzzy
-#| msgid "Can I use the CENO Browser to access Twitter, Facebook and Gmail?"
 msgid "Can I use CENO Browser to access Twitter, Facebook and Gmail?"
-msgstr "Twitter၊ Facebook နှင့် Gmail ကို ဝင်ရောက်သုံးစွဲရန် CENO ဘရောက်ဇာကို အသုံးပြုနိုင်သလား။"
+msgstr ""
+"Twitter၊ Facebook နှင့် Gmail ကို ဝင်ရောက်သုံးစွဲရန် CENO ဘရောက်ဇာကို "
+"အသုံးပြုနိုင်သလား။"
 
 #: intro/faq.md:block 9 (paragraph)
 msgid "Short answer: yes, by using private tabs."
@@ -159,14 +157,10 @@ msgstr ""
 "concepts/how.md) ဖတ်ရှုနိုင်ပါသည်။"
 
 #: intro/faq.md:block 19 (header)
-#, fuzzy
-#| msgid ""
-#| "Can anyone see if I am using the CENO Browser to access censored Web "
-#| "sites?"
 msgid "Can anyone see if I am using CENO Browser to access censored Web sites?"
 msgstr ""
-"ကျွန်ုပ်က CENO ဘရောက်ဇာကို အသုံးပြုပြီး ပိတ်ဆို့ထားသော ဝဘ်ဆိုက်များကို ဝင်ကြည့်သည်ကို အခြားသူများ "
-"သိနိုင်ပါသလား။"
+"ကျွန်ုပ်က CENO ဘရောက်ဇာကို အသုံးပြုပြီး ပိတ်ဆို့ထားသော ဝဘ်ဆိုက်များကို "
+"ဝင်ကြည့်သည်ကို အခြားသူများ သိနိုင်ပါသလား။"
 
 #: intro/faq.md:block 20 (paragraph)
 msgid "Short answer: yes, with some technical knowledge and resources."
@@ -202,8 +196,6 @@ msgid "Resource usage"
 msgstr "ရင်းမြစ် သုံးစွဲမှု"
 
 #: intro/faq.md:block 24 (header)
-#, fuzzy
-#| msgid "Does the CENO Browser use a lot of data?"
 msgid "Does CENO Browser use a lot of data?"
 msgstr "CENO ဘရောက်ဇာသည် ဒေတာကို အများအပြား အသုံးပြုပါသလား။"
 
@@ -236,8 +228,6 @@ msgstr ""
 "ကို အသုံးပြုပါ။"
 
 #: intro/faq.md:block 28 (header)
-#, fuzzy
-#| msgid "Does the CENO Browser use a lot of battery on my device?"
 msgid "Does CENO Browser use a lot of battery on my device?"
 msgstr "CENO ဘရောက်ဇာသည် ကျွန်ုပ်၏စက်တွင် ဘက်ထရီများများ အသုံးပြုပါသလား။"
 
@@ -269,8 +259,6 @@ msgstr ""
 "[ဒီနေရာ](../browser/install.md) တွင် ကြည့်ပါ)။"
 
 #: intro/faq.md:block 32 (header)
-#, fuzzy
-#| msgid "Do I need to be connected to Wi-Fi to use the CENO Browser?"
 msgid "Do I need to be connected to Wi-Fi to use CENO Browser?"
 msgstr "CENO ဘရောက်ဇာကို အသုံးပြုရန်အတွက် ဝိုင်ဖိုင်နှင့်ချိတ်ရန် လိုအပ်ပါသလား။"
 
