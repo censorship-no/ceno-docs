@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-02-09 10:55+0000\n"
-"Last-Translator: Vitalii Moroz <vitaliy.moroz@gmail.com>\n"
+"PO-Revision-Date: 2022-02-15 22:55+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-readme/uk/>\n"
 "Language: uk\n"
@@ -13,8 +13,6 @@ msgstr ""
 "X-Generator: Weblate 4.11-dev\n"
 
 #: browser/README.md:block 1 (header)
-#, fuzzy
-#| msgid "Using the CENO Browser"
 msgid "Using CENO Browser"
 msgstr "Використання браузера CENO"
 
@@ -34,12 +32,6 @@ msgstr ""
 "Підтримка] ."
 
 #: browser/README.md:block 3 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "When relevant, screen captures will be included to illustrate the text. "
-#| "Please note that these may slightly differ from what you see on your "
-#| "device, especially as CENO development progresses. This documentation is "
-#| "up to date for CENO version 1.0.2."
 msgid ""
 "When relevant, screen captures will be included to illustrate the text. "
 "Please note that these may slightly differ from what you see on your device, "
@@ -49,7 +41,7 @@ msgstr ""
 "Щоб проілюструвати текст час від часу вам будуть запропоновані зображення "
 "екрана. Зверніть увагу, що вони можуть трохи відрізнятись від того, що ви "
 "бачите на своєму пристрої, особливо з подальшим удосконаленням CENO. Ця "
-"документація є актуальною для версії CENO 1.0.2."
+"документація є актуальною для версії CENO 1.2.1."
 
 #: browser/README.md:block 4 (paragraph)
 msgid ""
