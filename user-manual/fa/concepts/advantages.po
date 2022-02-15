@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-04 20:18+0200\n"
-"PO-Revision-Date: 2021-10-19 10:44+0000\n"
-"Last-Translator: Kian <kian@tahgheegh.com>\n"
+"PO-Revision-Date: 2022-02-16 23:54+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "advantages/fa/>\n"
 "Language: fa\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.9-dev\n"
+"X-Generator: Weblate 4.11-dev\n"
 
 #
 #: concepts/advantages.md:block 1 (header)
@@ -32,13 +32,6 @@ msgstr ""
 "دیگران نشأت می‌گیرند. برخی از امتیازهای ویژه‌ی شایان ذکر عبارت‌اند از:"
 
 #: concepts/advantages.md:block 3 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "**Familiar usage:** Accessing Web content using the CENO Browser feels "
-#| "quite like surfing the Web on your habitual browser, even during complete "
-#| "blocking. There is no need for new custom links to popular content, or "
-#| "special actions from the user (like transferring files between "
-#| "applications)."
 msgid ""
 "**Familiar usage:** Accessing Web content using CENO Browser feels quite "
 "like surfing the Web on your habitual browser, even during complete "
