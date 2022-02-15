@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-02-09 10:55+0000\n"
-"Last-Translator: Vitalii Moroz <vitaliy.moroz@gmail.com>\n"
+"PO-Revision-Date: 2022-02-16 23:55+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "ceno/uk/>\n"
 "Language: uk\n"
@@ -13,8 +13,6 @@ msgstr ""
 "X-Generator: Weblate 4.11-dev\n"
 
 #: intro/ceno.md:block 1 (header)
-#, fuzzy
-#| msgid "What is the CENO Browser?"
 msgid "What is CENO Browser?"
 msgstr "Що таке браузер CENO?"
 
@@ -52,13 +50,6 @@ msgstr ""
 "що захищають зовнішній інтернет."
 
 #: intro/ceno.md:block 4 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "The CENO Browser is built on an adapted version of [Firefox for Android]"
-#| "[Firefox for Android], a popular, modern, feature-rich and secure Free/"
-#| "Libre/Open Source browser. CENO extends Firefox with **Ouinet**, the "
-#| "underlying technology allowing it to share content between devices "
-#| "(described in later sections)."
 msgid ""
 "CENO Browser is built on an adapted version of [Firefox for Android][Firefox "
 "for Android], a popular, modern, feature-rich and secure Free/Libre/Open "
@@ -69,8 +60,8 @@ msgstr ""
 "Браузер CENO заснований на адаптованій версії [Firefox для Android][Firefox "
 "для Android] — популярного сучасного, багатофункціонального та безпечного "
 "браузера з відкритим вихідним кодом. CENO розширює Firefox за допомогою "
-"технології **Ouinet**, що дозволяє обмінюватись контентом між пристроями "
-"(описано в наступних розділах)."
+"технології **Ouinet**, що дозволяє обмінюватись контентом між пристроями ("
+"описано в наступних розділах)."
 
 #: intro/ceno.md:block 5 (header)
 msgid "Who develops CENO?"
