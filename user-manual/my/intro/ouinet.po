@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-03 02:50+0200\n"
-"PO-Revision-Date: 2021-10-12 08:36+0000\n"
-"Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
+"PO-Revision-Date: 2022-02-16 23:54+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "ouinet/my/>\n"
 "Language: my\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.9-dev\n"
+"X-Generator: Weblate 4.11-dev\n"
 
 #
 #: intro/ouinet.md:block 1 (header)
@@ -76,16 +76,12 @@ msgstr ""
 "ပရောက်စီ) အဖြစ် အသုံးပြုနိုင်သည်။"
 
 #: intro/ouinet.md:block 5 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Same as the CENO Browser, Ouinet is developed by [eQualitie][eQualitie] "
-#| "as Free/Libre/Open-Source software."
 msgid ""
 "Same as CENO Browser, Ouinet is developed by [eQualitie][eQualitie] as Free/"
 "Libre/Open-Source software."
 msgstr ""
-"CENO ဘရောက်ဇာကဲ့သို့ပင် Ouinet ကို [eQualitie][eQualitie] က အခမဲ့/လွတ်လပ်သော/ကန့်သတ်မထားသော "
-"ရင်းမြစ် ဆော့ဖ်ဝဲအဖြစ် တီထွင်ဖန်တီးသည်။"
+"CENO ဘရောက်ဇာကဲ့သို့ပင် Ouinet ကို [eQualitie][eQualitie] က "
+"အခမဲ့/လွတ်လပ်သော/ကန့်သတ်မထားသော ရင်းမြစ် ဆော့ဖ်ဝဲအဖြစ် တီထွင်ဖန်တီးသည်။"
 
 #: intro/ouinet.md:block 6 (header)
 msgid "Who is it for?"
