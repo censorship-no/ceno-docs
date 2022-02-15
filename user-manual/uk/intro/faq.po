@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-02-09 10:55+0000\n"
-"Last-Translator: Vitalii Moroz <vitaliy.moroz@gmail.com>\n"
+"PO-Revision-Date: 2022-02-15 22:57+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "faq/uk/>\n"
 "Language: uk\n"
@@ -21,9 +21,6 @@ msgid "Usage"
 msgstr "Використання"
 
 #: intro/faq.md:block 3 (header)
-#, fuzzy
-#| msgid ""
-#| "Can the CENO Browser replace my current browser (Chrome/Firefox/Safari)?"
 msgid "Can CENO Browser replace my current browser (Chrome/Firefox/Safari)?"
 msgstr "Чи може CENO замінити мій поточний браузер (Chrome/Firefox/Safari)?"
 
@@ -69,8 +66,6 @@ msgstr ""
 "risks.md)."
 
 #: intro/faq.md:block 8 (header)
-#, fuzzy
-#| msgid "Can I use the CENO Browser to access Twitter, Facebook and Gmail?"
 msgid "Can I use CENO Browser to access Twitter, Facebook and Gmail?"
 msgstr ""
 "Чи можу я використовувати браузер CENO для доступу до Twitter, Facebook та "
@@ -163,10 +158,6 @@ msgstr ""
 "іншими користувачами, прочитайте [тут](../concepts/how.md)."
 
 #: intro/faq.md:block 19 (header)
-#, fuzzy
-#| msgid ""
-#| "Can anyone see if I am using the CENO Browser to access censored Web "
-#| "sites?"
 msgid "Can anyone see if I am using CENO Browser to access censored Web sites?"
 msgstr ""
 "Чи може хто-небудь визначити, чи я використовую браузер CENO для доступу до "
@@ -209,8 +200,6 @@ msgid "Resource usage"
 msgstr "Використання ресурсів"
 
 #: intro/faq.md:block 24 (header)
-#, fuzzy
-#| msgid "Does the CENO Browser use a lot of data?"
 msgid "Does CENO Browser use a lot of data?"
 msgstr "Чи багато трафіку споживає браузер CENO?"
 
@@ -245,8 +234,6 @@ msgstr ""
 "замість мобільного інтернету."
 
 #: intro/faq.md:block 28 (header)
-#, fuzzy
-#| msgid "Does the CENO Browser use a lot of battery on my device?"
 msgid "Does CENO Browser use a lot of battery on my device?"
 msgstr "Чи сильно браузер CENO розряджає батарею на смартфоні?"
 
@@ -280,8 +267,6 @@ msgstr ""
 "(../browser/install.md))."
 
 #: intro/faq.md:block 32 (header)
-#, fuzzy
-#| msgid "Do I need to be connected to Wi-Fi to use the CENO Browser?"
 msgid "Do I need to be connected to Wi-Fi to use CENO Browser?"
 msgstr "Чи потрібно підключатися до Wi-Fi для використання браузера CENO?"
 
