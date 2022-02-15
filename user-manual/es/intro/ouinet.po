@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-03 02:50+0200\n"
-"PO-Revision-Date: 2021-09-21 18:36+0000\n"
-"Last-Translator: Anatoli <djanatoli@gmail.com>\n"
+"PO-Revision-Date: 2022-02-16 23:55+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/censorship-no/"
 "ouinet/es/>\n"
 "Language: es\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9-dev\n"
+"X-Generator: Weblate 4.11-dev\n"
 
 #
 #: intro/ouinet.md:block 1 (header)
@@ -20,15 +20,6 @@ msgid "What is Ouinet?"
 msgstr "¿Qué es Ouinet?"
 
 #: intro/ouinet.md:block 2 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "[Ouinet][Ouinet] is a core technology that allows the CENO browser to "
-#| "share Web content with other devices. Ouinet comes in the form of "
-#| "reusable computer code (a library) that an application like CENO can use "
-#| "to become a participant in a network of cooperating nodes that "
-#| "communicate directly ([peer-to-peer][P2P] or P2P) to help access and "
-#| "store new Web content, and to request and deliver previously accessed "
-#| "content to others."
 msgid ""
 "[Ouinet][Ouinet] is a core technology that allows CENO Browser to share Web "
 "content with other devices. Ouinet comes in the form of reusable computer "
@@ -80,16 +71,12 @@ msgstr ""
 "usada por clientes Web normales, como navegadores (como proxy HTTP local)."
 
 #: intro/ouinet.md:block 5 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Same as the CENO Browser, Ouinet is developed by [eQualitie][eQualitie] "
-#| "as Free/Libre/Open-Source software."
 msgid ""
 "Same as CENO Browser, Ouinet is developed by [eQualitie][eQualitie] as Free/"
 "Libre/Open-Source software."
 msgstr ""
-"Al igual que el Navegador CENO, Ouinet está desarrollada por [eQualitie]"
-"[eQualitie] como software Gratis/Libre/de Código Abierto."
+"Al igual que el Navegador CENO, Ouinet está desarrollada por "
+"[eQualitie][eQualitie] como software Gratis/Libre/de Código Abierto."
 
 #: intro/ouinet.md:block 6 (header)
 msgid "Who is it for?"
