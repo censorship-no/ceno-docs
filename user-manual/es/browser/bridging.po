@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
 "PO-Revision-Date: 2022-02-16 23:54+0000\n"
-"Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
+"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/censorship-no/"
 "browser-bridging/es/>\n"
 "Language: es\n"
@@ -20,17 +20,6 @@ msgid "Helping other CENO users browse the Web"
 msgstr "Ayudando a otros usuarios de CENO a navegar la Web"
 
 #: browser/bridging.md:block 2 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "A peer-to-peer network is built from every node connected to it (yes, "
-#| "that means you as well!). The more nodes, the stronger and more versatile "
-#| "the network becomes. If you are running the CENO Browser from a country "
-#| "that does not censor the Internet (or not as heavily as some), consider "
-#| "helping other CENO users by becoming a **bridge** node. You will then "
-#| "begin to route traffic between clients living in heavily censored "
-#| "countries and CENO injectors. You will not be able to see their traffic "
-#| "(it will be sent through an encrypted tunnel), nor will any of this "
-#| "traffic remain on your device."
 msgid ""
 "A peer-to-peer network is built from every node connected to it (yes, that "
 "means you as well!). The more nodes, the stronger and more versatile the "
@@ -71,12 +60,6 @@ msgid "How to become a CENO bridge"
 msgstr "Cómo volverse un puente CENO"
 
 #: browser/bridging.md:block 5 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "This functionality is already built into the CENO Browser. Your device "
-#| "will need to be connected to a Wi-Fi network that has either UPnP enabled "
-#| "or explicit port forwarding configured for CENO. See the next sections "
-#| "for further details."
 msgid ""
 "This functionality is already built into CENO Browser. Your device will need "
 "to be connected to a Wi-Fi network that has either UPnP enabled or explicit "
@@ -358,12 +341,16 @@ msgid ""
 "[Netgear](https://kb.netgear.com/24306/How-do-I-enable-Universal-Plug-and-"
 "Play-on-my-Nighthawk-router)"
 msgstr ""
+"[Netgear](https://kb.netgear.com/24306/How-do-I-enable-Universal-Plug-and-"
+"Play-on-my-Nighthawk-router)"
 
 #: browser/bridging.md:block 30 (unordered list)
 msgid ""
 "[Ubiquiti](https://www.geekzone.co.nz/forums.asp?"
 "forumid=66&topicid=205740&page_no=5#1725168)"
 msgstr ""
+"[Ubiquiti](https://www.geekzone.co.nz/forums."
+"asp?forumid=66&topicid=205740&page_no=5#1725168)"
 
 #: browser/bridging.md:block 31 (header)
 msgid "Using port forwarding as an alternative to UPnP"
@@ -456,10 +443,8 @@ msgstr ""
 "security-risk"
 
 #: browser/bridging.md:block 35 (quote)
-#, fuzzy
-#| msgid "[UPnP]: https://en.wikipedia.org/wiki/Universal_Plug_and_Play"
 msgid "[CGNAT]: https://en.wikipedia.org/wiki/Carrier-grade_NAT"
-msgstr "[UPnP]: https://es.wikipedia.org/wiki/Universal_Plug_and_Play"
+msgstr "[CGNAT]: https://en.wikipedia.org/wiki/Carrier-grade_NAT"
 
 #~ msgid "![Figure: UPnP not enabled](images/upnp-no.png)"
 #~ msgstr "![Figura: UPnP no habilitado](images/upnp-no.png)"
