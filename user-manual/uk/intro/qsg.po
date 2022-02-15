@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-02-09 10:55+0000\n"
-"Last-Translator: Vitalii Moroz <vitaliy.moroz@gmail.com>\n"
+"PO-Revision-Date: 2022-02-16 23:55+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "qsg/uk/>\n"
 "Language: uk\n"
@@ -17,12 +17,6 @@ msgid "Quick start guide"
 msgstr "Короткий посібник"
 
 #: intro/qsg.md:block 2 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "The CENO Browser allows you to access any website on the Internet, even "
-#| "if it is censored in your country. CENO uses a peer-to-peer "
-#| "infrastructure to route your requests, as well as to store and share "
-#| "retrieved content with others. [Read more about CENO](ceno.md)."
 msgid ""
 "CENO Browser allows you to access any website on the Internet, even if it is "
 "censored in your country. CENO uses a peer-to-peer infrastructure to route "
@@ -44,10 +38,6 @@ msgid "You will need an Android device:"
 msgstr "Вам знадобиться пристрій Android:"
 
 #: intro/qsg.md:block 5 (ordered list)
-#, fuzzy
-#| msgid ""
-#| "Install the CENO Browser from [Google Play][ceno-gplay], [GitHub][ceno-"
-#| "gh] or [Paskoocheh][ceno-pask]. *No special permissions are needed*."
 msgid ""
 "Install CENO Browser from [Google Play][ceno-gplay], [GitHub][ceno-gh] or "
 "[Paskoocheh][ceno-pask]. *No special permissions are needed*."
@@ -85,18 +75,12 @@ msgid "Configuration"
 msgstr "Налаштування"
 
 #: intro/qsg.md:block 8 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "The CENO Browser should work out-of-the-box. You can find some "
-#| "[diagnostics and settings](../browser/settings.md) under the *CENO* menu "
-#| "entry."
 msgid ""
 "CENO Browser should work out-of-the-box. You can find some [diagnostics and "
 "settings](../browser/settings.md) under the *CENO* menu entry."
 msgstr ""
-"Браузер CENO повинен працювати «з коробки» – відразу. Ви можете знайти "
-"[діагностика та налаштування](../browser/settings.md) під пунктом меню "
-"*CENO*."
+"Браузер CENO повинен працювати «з коробки» – відразу. Ви можете знайти ["
+"діагностика та налаштування](../browser/settings.md) під пунктом меню *CENO*."
 
 #: intro/qsg.md:block 9 (paragraph)
 msgid ""
