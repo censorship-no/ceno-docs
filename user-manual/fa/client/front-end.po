@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-16 13:43+0000\n"
-"Last-Translator: Kian <kian@tahgheegh.com>\n"
+"PO-Revision-Date: 2022-02-16 23:54+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "client-front-end/fa/>\n"
 "Language: fa\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.9-dev\n"
+"X-Generator: Weblate 4.11-dev\n"
 
 #
 #: client/front-end.md:block 1 (header)
@@ -17,24 +17,17 @@ msgid "Annex: The Ouinet client front-end"
 msgstr "پیوست: فرانت‌اند سرویس‌گیرنده‌ی Ouinet"
 
 #: client/front-end.md:block 2 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "The Ouinet client (as run by e.g. the CENO Browser) offers a front-end "
-#| "page with some information and actions which may be useful for debugging "
-#| "the client. Many of them are also offered by the CENO Extension via the "
-#| "[*CENO Settings* page](../browser/settings.md), though others are only "
-#| "available here."
 msgid ""
 "The Ouinet client (as run by e.g. CENO Browser) offers a front-end page with "
 "some information and actions which may be useful for debugging the client. "
 "Many of them are also offered by the CENO Extension via the [*CENO Settings* "
 "page](../browser/settings.md), though others are only available here."
 msgstr ""
-"سرویس‌گیرنده‌ی Ouinet (که برای مثال به‌وسیله‌ی مرورگر CENO اداره و اجرا می‌شود) "
-"یک صفحه‌ی فرانت‌اند با برخی اطلاعات و کنش‌هایی را پیشنهاد می‌دهد که می‌توانند "
-"برای عیب‌یابی سرویس‌گیرنده سودمند باشند. خیلی از آن‌ها در افزونه‌ی CENO در "
-"[صفحه‌ی *تنظیمات CENO*](../browser/settings.md) ارائه شده‌اند، اما برخی دیگر "
-"از آن‌ها فقط در اینجا در دسترس‌اند."
+"سرویس‌گیرنده‌ی Ouinet (که برای مثال به‌وسیله‌ی مرورگر CENO اداره و اجرا "
+"می‌شود) یک صفحه‌ی فرانت‌اند با برخی اطلاعات و کنش‌هایی را پیشنهاد می‌دهد که "
+"می‌توانند برای عیب‌یابی سرویس‌گیرنده سودمند باشند. خیلی از آن‌ها در افزونه‌ی "
+"CENO در [صفحه‌ی *تنظیمات CENO*](../browser/settings.md) ارائه شده‌اند، اما "
+"برخی دیگر از آن‌ها فقط در اینجا در دسترس‌اند."
 
 #: client/front-end.md:block 3 (paragraph)
 msgid ""
@@ -80,16 +73,12 @@ msgstr ""
 "هدف انتخاب کنید."
 
 #: client/front-end.md:block 6 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "Please note that none of this needs to be done for the CENO Browser, "
-#| "since it is already configured like that."
 msgid ""
 "Please note that none of this needs to be done for CENO Browser, since it is "
 "already configured like that."
 msgstr ""
-"لطفاً توجه کنید که انجام هیچ‌کدام از این کارها برای مرورگر CENO لازم نیست، چون "
-"این مرورگر پیشاپیش به همین صورت تنظیم شده است."
+"لطفاً توجه کنید که انجام هیچ‌کدام از این کارها برای مرورگر CENO لازم نیست، "
+"چون این مرورگر پیشاپیش به همین صورت تنظیم شده است."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
