@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2021-09-26 11:39+0000\n"
-"Last-Translator: Ed Medvedev <edward.medvedev@gmail.com>\n"
+"PO-Revision-Date: 2022-02-16 23:54+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-install/ru/>\n"
 "Language: ru\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.9-dev\n"
+"X-Generator: Weblate 4.11-dev\n"
 
 #
 #: browser/install.md:block 1 (header)
@@ -21,8 +21,6 @@ msgid "Installing CENO"
 msgstr "Установка CENO"
 
 #: browser/install.md:block 2 (paragraph)
-#, fuzzy
-#| msgid "The CENO Browser can be installed via the following means:"
 msgid "CENO Browser can be installed via the following means:"
 msgstr "Браузер CENO можно установить следующими способами:"
 
@@ -54,15 +52,6 @@ msgid ""
 msgstr ""
 
 #: browser/install.md:block 5 (quote)
-#, fuzzy
-#| msgid ""
-#| "**Warning:** Please be *extremely skeptical* about installing the CENO "
-#| "Browser from sources other than the ones listed above. Because of the "
-#| "application's nature, their potential users may become a target for all "
-#| "kinds of fake or manipulated versions used to violate user privacy or "
-#| "attack other CENO and Ouinet users. If in doubt, please contact "
-#| "[cenoers@equalit.ie](mailto:cenoers@equalit.ie) before installing a "
-#| "suspicious app."
 msgid ""
 "**Warning:** Please be *extremely skeptical* about installing CENO Browser "
 "from sources other than the ones listed above. Because of the application's "
@@ -76,8 +65,8 @@ msgstr ""
 "приложения, потенциальные пользователи могут стать мишенью для всевозможных "
 "поддельных или манипулируемых версий, используемых для нарушения "
 "конфиденциальности пользователя или атаки на других пользователей CENO и "
-"Ouinet. Если вы сомневаетесь, пожалуйста, свяжитесь с [cenoers@equalit.ie]"
-"(mailto:cenoers@equalit.ie) перед установкой подозрительного приложения."
+"Ouinet. Если вы сомневаетесь, пожалуйста, свяжитесь с [cenoers@equalit."
+"ie](mailto:cenoers@equalit.ie) перед установкой подозрительного приложения."
 
 #: browser/install.md:block 6 (header)
 msgid "Stopping CENO completely"
