@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-02-15 22:55+0000\n"
+"PO-Revision-Date: 2022-02-15 22:57+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-bridging/uk/>\n"
@@ -336,6 +336,8 @@ msgid ""
 "[Ubiquiti](https://www.geekzone.co.nz/forums.asp?"
 "forumid=66&topicid=205740&page_no=5#1725168)"
 msgstr ""
+"[Ubiquiti](https://www.geekzone.co.nz/forums."
+"asp?forumid=66&topicid=205740&page_no=5#1725168)"
 
 #: browser/bridging.md:block 31 (header)
 msgid "Using port forwarding as an alternative to UPnP"
@@ -426,7 +428,5 @@ msgstr ""
 "security-risk"
 
 #: browser/bridging.md:block 35 (quote)
-#, fuzzy
-#| msgid "[UPnP]: https://en.wikipedia.org/wiki/Universal_Plug_and_Play"
 msgid "[CGNAT]: https://en.wikipedia.org/wiki/Carrier-grade_NAT"
-msgstr "[UPnP]: https://uk.wikipedia.org/wiki/UPnP"
+msgstr "[CGNAT]: https://en.wikipedia.org/wiki/Carrier-grade_NAT"
