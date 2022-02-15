@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-02-09 10:55+0000\n"
-"Last-Translator: Vitalii Moroz <vitaliy.moroz@gmail.com>\n"
+"PO-Revision-Date: 2022-02-16 23:55+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "client-front-end/uk/>\n"
 "Language: uk\n"
@@ -17,13 +17,6 @@ msgid "Annex: The Ouinet client front-end"
 msgstr "Додаток: Зовнішній інтерфейс клієнта Ouinet"
 
 #: client/front-end.md:block 2 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "The Ouinet client (as run by e.g. the CENO Browser) offers a front-end "
-#| "page with some information and actions which may be useful for debugging "
-#| "the client. Many of them are also offered by the CENO Extension via the "
-#| "[*CENO Settings* page](../browser/settings.md), though others are only "
-#| "available here."
 msgid ""
 "The Ouinet client (as run by e.g. CENO Browser) offers a front-end page with "
 "some information and actions which may be useful for debugging the client. "
@@ -79,10 +72,6 @@ msgstr ""
 "*окремий профіль браузера* для цієї мети."
 
 #: client/front-end.md:block 6 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "Please note that none of this needs to be done for the CENO Browser, "
-#| "since it is already configured like that."
 msgid ""
 "Please note that none of this needs to be done for CENO Browser, since it is "
 "already configured like that."
