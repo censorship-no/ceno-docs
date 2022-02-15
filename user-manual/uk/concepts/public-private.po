@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-02-09 10:55+0000\n"
-"Last-Translator: Vitalii Moroz <vitaliy.moroz@gmail.com>\n"
+"PO-Revision-Date: 2022-02-16 23:55+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "public-private/uk/>\n"
 "Language: uk\n"
@@ -17,15 +17,6 @@ msgid "Public vs. private browsing"
 msgstr "Публічний чи приватний перегляд"
 
 #: concepts/public-private.md:block 2 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Because of the many techniques used to overcome connectivity issues, CENO "
-#| "may become a convenient way for you to get all kinds of Web content. And, "
-#| "as you may have already read in previous sections, whenever you retrieve "
-#| "and seed a page using the CENO Browser, it becomes available to others. "
-#| "There may be some content, however, that you do not wish to share (or you "
-#| "do not want to let others know that you are trying to or did retrieve), "
-#| "and fortunately CENO can help you in this instance as well."
 msgid ""
 "Because of the many techniques used to overcome connectivity issues, CENO "
 "may become a convenient way for you to get all kinds of Web content. And, as "
