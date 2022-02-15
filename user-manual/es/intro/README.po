@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-03 02:50+0200\n"
-"PO-Revision-Date: 2021-07-21 23:33+0000\n"
-"Last-Translator: Anatoli <djanatoli@gmail.com>\n"
+"PO-Revision-Date: 2022-02-16 23:55+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/censorship-no/"
 "readme/es/>\n"
 "Language: es\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.7.2-dev\n"
+"X-Generator: Weblate 4.11-dev\n"
 
 #
 #: intro/README.md:block 1 (header)
@@ -105,10 +105,6 @@ msgstr ""
 "atrás y estamos viviendo separados por algunas calles."
 
 #: intro/README.md:block 6 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "This is where the CENO Browser and Ouinet come into play. This chapter "
-#| "will introduce you to them."
 msgid ""
 "This is where CENO Browser and Ouinet come into play. This chapter will "
 "introduce you to them."
