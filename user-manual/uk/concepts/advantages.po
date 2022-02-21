@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-02-09 10:55+0000\n"
-"Last-Translator: Vitalii Moroz <vitaliy.moroz@gmail.com>\n"
+"PO-Revision-Date: 2022-02-16 23:55+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "advantages/uk/>\n"
 "Language: uk\n"
@@ -30,13 +30,6 @@ msgstr ""
 "відзначити такі переваги:"
 
 #: concepts/advantages.md:block 3 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "**Familiar usage:** Accessing Web content using the CENO Browser feels "
-#| "quite like surfing the Web on your habitual browser, even during complete "
-#| "blocking. There is no need for new custom links to popular content, or "
-#| "special actions from the user (like transferring files between "
-#| "applications)."
 msgid ""
 "**Familiar usage:** Accessing Web content using CENO Browser feels quite "
 "like surfing the Web on your habitual browser, even during complete "

@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-02-09 10:55+0000\n"
-"Last-Translator: Vitalii Moroz <vitaliy.moroz@gmail.com>\n"
+"PO-Revision-Date: 2022-02-16 23:55+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "homepage-readme/uk/>\n"
 "Language: uk\n"
@@ -44,10 +44,6 @@ msgstr ""
 "інформацію та дізнатися про інтеграцію."
 
 #: README.md:block 3 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "[CENO documentation repository]: https://github.com/censorship-no/ceno-"
-#| "docs/"
 msgid "[CENO Browser]: https://github.com/censorship-no/ceno-browser"
 msgstr ""
 "[Репозиторій документації CENO]: https://github.com/censorship-no/ceno-docs/"

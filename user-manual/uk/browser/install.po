@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-02-09 10:55+0000\n"
-"Last-Translator: Vitalii Moroz <vitaliy.moroz@gmail.com>\n"
+"PO-Revision-Date: 2022-02-16 23:55+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-install/uk/>\n"
 "Language: uk\n"
@@ -17,8 +17,6 @@ msgid "Installing CENO"
 msgstr "Встановлення CENO"
 
 #: browser/install.md:block 2 (paragraph)
-#, fuzzy
-#| msgid "The CENO Browser can be installed via the following means:"
 msgid "CENO Browser can be installed via the following means:"
 msgstr "Браузер CENO можна встановити так:"
 
@@ -50,15 +48,6 @@ msgid ""
 msgstr ""
 
 #: browser/install.md:block 5 (quote)
-#, fuzzy
-#| msgid ""
-#| "**Warning:** Please be *extremely skeptical* about installing the CENO "
-#| "Browser from sources other than the ones listed above. Because of the "
-#| "application's nature, their potential users may become a target for all "
-#| "kinds of fake or manipulated versions used to violate user privacy or "
-#| "attack other CENO and Ouinet users. If in doubt, please contact "
-#| "[cenoers@equalit.ie](mailto:cenoers@equalit.ie) before installing a "
-#| "suspicious app."
 msgid ""
 "**Warning:** Please be *extremely skeptical* about installing CENO Browser "
 "from sources other than the ones listed above. Because of the application's "

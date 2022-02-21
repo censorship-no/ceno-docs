@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-02-09 10:55+0000\n"
-"Last-Translator: Vitalii Moroz <vitaliy.moroz@gmail.com>\n"
+"PO-Revision-Date: 2022-02-16 23:55+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-troubleshooting/uk/>\n"
 "Language: uk\n"
@@ -228,12 +228,6 @@ msgid ""
 msgstr "Ви повинні переконатися, що для роботи CENO виконуються такі вимоги:"
 
 #: browser/troubleshooting.md:block 26 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "You are running a recent version of the CENO Browser. Obsolete versions "
-#| "may not be able to communicate with newer injectors or other clients. "
-#| "Check the [installation instructions](install.md) to know where to get "
-#| "new versions."
 msgid ""
 "You are running a recent version of CENO Browser. Obsolete versions may not "
 "be able to communicate with newer injectors or other clients. Check the "

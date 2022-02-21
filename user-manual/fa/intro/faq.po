@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-19 11:38+0000\n"
-"Last-Translator: Kian <kian@tahgheegh.com>\n"
+"PO-Revision-Date: 2022-02-16 23:54+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "faq/fa/>\n"
 "Language: fa\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.9-dev\n"
+"X-Generator: Weblate 4.11-dev\n"
 
 #
 #: intro/faq.md:block 1 (header)
@@ -21,9 +21,6 @@ msgid "Usage"
 msgstr "کاربرد"
 
 #: intro/faq.md:block 3 (header)
-#, fuzzy
-#| msgid ""
-#| "Can the CENO Browser replace my current browser (Chrome/Firefox/Safari)?"
 msgid "Can CENO Browser replace my current browser (Chrome/Firefox/Safari)?"
 msgstr ""
 "آیا مرورگر CENO می‌تواند جایگزین مرورگر کنونی‌ام (کروم/فایرفاکس/سافاری) شود؟"
@@ -69,11 +66,10 @@ msgstr ""
 "بخش درباره‌ی [خطرات](../concepts/risks.md) را بخوانید."
 
 #: intro/faq.md:block 8 (header)
-#, fuzzy
-#| msgid "Can I use the CENO Browser to access Twitter, Facebook and Gmail?"
 msgid "Can I use CENO Browser to access Twitter, Facebook and Gmail?"
 msgstr ""
-"آیا می‌توانم برای دسترسی به توییتر، فیسبوک و جی‌میل از مرورگر CENO استفاده کنم؟"
+"آیا می‌توانم برای دسترسی به توییتر، فیسبوک و جی‌میل از مرورگر CENO استفاده "
+"کنم؟"
 
 #: intro/faq.md:block 9 (paragraph)
 msgid "Short answer: yes, by using private tabs."
@@ -162,10 +158,6 @@ msgstr ""
 "بیشتر بخوانید [اینجا](../concepts/how.md)."
 
 #: intro/faq.md:block 19 (header)
-#, fuzzy
-#| msgid ""
-#| "Can anyone see if I am using the CENO Browser to access censored Web "
-#| "sites?"
 msgid "Can anyone see if I am using CENO Browser to access censored Web sites?"
 msgstr ""
 "آیا کسی می‌فهمد که من از مرورگر CENO برای دسترسی به وب‌سایت‌های سانسورشده "
@@ -206,8 +198,6 @@ msgid "Resource usage"
 msgstr "استفاده از منابع"
 
 #: intro/faq.md:block 24 (header)
-#, fuzzy
-#| msgid "Does the CENO Browser use a lot of data?"
 msgid "Does CENO Browser use a lot of data?"
 msgstr "آیا مرورگر CENO از حجم انبوهی از داده‌ها استفاده می‌کند؟"
 
@@ -241,8 +231,6 @@ msgstr ""
 "استفاده از اینترنت موبایل."
 
 #: intro/faq.md:block 28 (header)
-#, fuzzy
-#| msgid "Does the CENO Browser use a lot of battery on my device?"
 msgid "Does CENO Browser use a lot of battery on my device?"
 msgstr "آیا مرورگر CENO باتری دستگاه‌ام را خیلی مصرف می‌کند؟"
 
@@ -275,8 +263,6 @@ msgstr ""
 "این کار دارد، [این‌جا](../browser/install.md) را ببینید)."
 
 #: intro/faq.md:block 32 (header)
-#, fuzzy
-#| msgid "Do I need to be connected to Wi-Fi to use the CENO Browser?"
 msgid "Do I need to be connected to Wi-Fi to use CENO Browser?"
 msgstr "آیا برای استفاده از مرورگر CENO لازم است به اینترنت وای‌فای وصل باشم؟"
 

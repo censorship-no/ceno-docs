@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-19 22:49+0000\n"
+"PO-Revision-Date: 2022-02-16 23:54+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "ouinet/fa/>\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.9-dev\n"
+"X-Generator: Weblate 4.11-dev\n"
 
 #
 #: intro/ouinet.md:block 1 (header)
@@ -17,15 +17,6 @@ msgid "What is Ouinet?"
 msgstr "Ouinet چیست؟"
 
 #: intro/ouinet.md:block 2 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "[Ouinet][Ouinet] is a core technology that allows the CENO browser to "
-#| "share Web content with other devices. Ouinet comes in the form of "
-#| "reusable computer code (a library) that an application like CENO can use "
-#| "to become a participant in a network of cooperating nodes that "
-#| "communicate directly ([peer-to-peer][P2P] or P2P) to help access and "
-#| "store new Web content, and to request and deliver previously accessed "
-#| "content to others."
 msgid ""
 "[Ouinet][Ouinet] is a core technology that allows CENO Browser to share Web "
 "content with other devices. Ouinet comes in the form of reusable computer "
@@ -36,12 +27,12 @@ msgid ""
 msgstr ""
 "[Ouinet](https://github.com/equalitie/ouinet) یک فناوری محوری است که به "
 "مرورگر CENO امکان می‌دهد تا محتوای وب را با دستگاه‌های دیگر به اشتراک گذارد. "
-"Ouinet قالب یک کد رایانه‌ای با قابلیت استفاده‌ی مجدد (یک کتابخانه) را دارد که "
-"نرم‌افزاری مانند CENO می‌تواند از آن استفاده کند تا در شبکه‌ای از گره‌های همکار "
-"مشارکت کند که مستقیماً با یکدیگر ارتباط برقرار می‌کنند ([P2P](https://en."
-"wikipedia.org/wiki/Peer-to-peer) یا همتا-به‌-همتا) تا به دسترسی و نگهداری از "
-"محتوای جدید روی وب کمک کند، و تا محتوای قبلاً در دسترس را درخواست کند و در "
-"اختیار دیگران قرار دهد."
+"Ouinet قالب یک کد رایانه‌ای با قابلیت استفاده‌ی مجدد (یک کتابخانه) را دارد "
+"که نرم‌افزاری مانند CENO می‌تواند از آن استفاده کند تا در شبکه‌ای از گره‌های "
+"همکار مشارکت کند که مستقیماً با یکدیگر ارتباط برقرار می‌کنند "
+"([P2P](https://en.wikipedia.org/wiki/Peer-to-peer) یا همتا-به‌-همتا) تا به "
+"دسترسی و نگهداری از محتوای جدید روی وب کمک کند، و تا محتوای قبلاً در دسترس "
+"را درخواست کند و در اختیار دیگران قرار دهد."
 
 #: intro/ouinet.md:block 3 (paragraph)
 msgid ""
@@ -77,16 +68,12 @@ msgstr ""
 "کرد."
 
 #: intro/ouinet.md:block 5 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Same as the CENO Browser, Ouinet is developed by [eQualitie][eQualitie] "
-#| "as Free/Libre/Open-Source software."
 msgid ""
 "Same as CENO Browser, Ouinet is developed by [eQualitie][eQualitie] as Free/"
 "Libre/Open-Source software."
 msgstr ""
-"درست همانند مرورگر CENO، وینت نیز توسط [eQualitie](https://equalit.ie) و "
-"به‌عنوان یک نرم‌افزار رایگان/آزاد/متن‌باز توسعه یافته است."
+"درست همانند مرورگر CENO، وینت نیز توسط [eQualitie](https://equalit.ie) و به‌"
+"عنوان یک نرم‌افزار رایگان/آزاد/متن‌باز توسعه یافته است."
 
 #: intro/ouinet.md:block 6 (header)
 msgid "Who is it for?"

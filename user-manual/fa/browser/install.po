@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-19 22:49+0000\n"
+"PO-Revision-Date: 2022-02-16 23:54+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-install/fa/>\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.9-dev\n"
+"X-Generator: Weblate 4.11-dev\n"
 
 #
 #: browser/install.md:block 1 (header)
@@ -17,8 +17,6 @@ msgid "Installing CENO"
 msgstr "نصب CENO"
 
 #: browser/install.md:block 2 (paragraph)
-#, fuzzy
-#| msgid "The CENO Browser can be installed via the following means:"
 msgid "CENO Browser can be installed via the following means:"
 msgstr "مرورگر CENO را می‌توان از طریق این روش‌ها نصب کرد:"
 
@@ -50,15 +48,6 @@ msgid ""
 msgstr ""
 
 #: browser/install.md:block 5 (quote)
-#, fuzzy
-#| msgid ""
-#| "**Warning:** Please be *extremely skeptical* about installing the CENO "
-#| "Browser from sources other than the ones listed above. Because of the "
-#| "application's nature, their potential users may become a target for all "
-#| "kinds of fake or manipulated versions used to violate user privacy or "
-#| "attack other CENO and Ouinet users. If in doubt, please contact "
-#| "[cenoers@equalit.ie](mailto:cenoers@equalit.ie) before installing a "
-#| "suspicious app."
 msgid ""
 "**Warning:** Please be *extremely skeptical* about installing CENO Browser "
 "from sources other than the ones listed above. Because of the application's "
@@ -67,12 +56,12 @@ msgid ""
 "Ouinet users. If in doubt, please contact [cenoers@equalit.ie](mailto:"
 "cenoers@equalit.ie) before installing a suspicious app."
 msgstr ""
-"**هشدار:** لطفاً درباره‌ی نصب مرورگر CENO از منابعی غیر از موارد فهرست‌شده در "
-"بالا *به‌شدت مراقب و مشکوک* باشید. به خاطر ماهیت این نرم‌افزار، کاربران "
+"**هشدار:** لطفاً درباره‌ی نصب مرورگر CENO از منابعی غیر از موارد فهرست‌شده "
+"در بالا *به‌شدت مراقب و مشکوک* باشید. به خاطر ماهیت این نرم‌افزار، کاربران "
 "بالقوه‌ی آن می‌توانند هدف انواع و اقسام نسخه‌های جعلی یا دستکاری‌شده‌ای قرار "
 "گیرند که برای نقض حریم خصوصی کاربر یا حمله به سایر کاربران CENO و Ouinet به "
-"کار می‌روند. اگر در این‌باره تردیدی دارید، لطفاً پیش از نصب یک نرم‌افزار مشکوک "
-"با نشانی [cenoers@equalit.ie](mailto:cenoers@equalit.ie) تماس بگیرید."
+"کار می‌روند. اگر در این‌باره تردیدی دارید، لطفاً پیش از نصب یک نرم‌افزار "
+"مشکوک با نشانی [cenoers@equalit.ie](mailto:cenoers@equalit.ie) تماس بگیرید."
 
 #: browser/install.md:block 6 (header)
 msgid "Stopping CENO completely"

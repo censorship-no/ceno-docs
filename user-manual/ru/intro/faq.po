@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-03 02:50+0200\n"
-"PO-Revision-Date: 2021-09-23 14:36+0000\n"
-"Last-Translator: Ed Medvedev <edward.medvedev@gmail.com>\n"
+"PO-Revision-Date: 2022-02-16 23:54+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/censorship-no/"
 "faq/ru/>\n"
 "Language: ru\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.9-dev\n"
+"X-Generator: Weblate 4.11-dev\n"
 
 #
 #: intro/faq.md:block 1 (header)
@@ -25,9 +25,6 @@ msgid "Usage"
 msgstr "Использование"
 
 #: intro/faq.md:block 3 (header)
-#, fuzzy
-#| msgid ""
-#| "Can the CENO Browser replace my current browser (Chrome/Firefox/Safari)?"
 msgid "Can CENO Browser replace my current browser (Chrome/Firefox/Safari)?"
 msgstr ""
 "Может ли Браузер CENO заменить мой текущий браузер (Chrome/Firefox/Safari)?"
@@ -74,8 +71,6 @@ msgstr ""
 "concepts/risks.md)."
 
 #: intro/faq.md:block 8 (header)
-#, fuzzy
-#| msgid "Can I use the CENO Browser to access Twitter, Facebook and Gmail?"
 msgid "Can I use CENO Browser to access Twitter, Facebook and Gmail?"
 msgstr ""
 "Могу ли я использовать Браузер CENO для доступа к Twitter, Facebook и Gmail?"
@@ -168,10 +163,6 @@ msgstr ""
 "его другим пользователям, прочтите [здесь](../concepts/how.md)."
 
 #: intro/faq.md:block 19 (header)
-#, fuzzy
-#| msgid ""
-#| "Can anyone see if I am using the CENO Browser to access censored Web "
-#| "sites?"
 msgid "Can anyone see if I am using CENO Browser to access censored Web sites?"
 msgstr ""
 "Может ли кто-нибудь определить, использую ли я Браузер CENO для доступа к "
@@ -214,8 +205,6 @@ msgid "Resource usage"
 msgstr "Использование ресурсов"
 
 #: intro/faq.md:block 24 (header)
-#, fuzzy
-#| msgid "Does the CENO Browser use a lot of data?"
 msgid "Does CENO Browser use a lot of data?"
 msgstr "Много ли трафика потребляет Браузер CENO?"
 
@@ -250,8 +239,6 @@ msgstr ""
 "через Wi-Fi вместо мобильного интернета."
 
 #: intro/faq.md:block 28 (header)
-#, fuzzy
-#| msgid "Does the CENO Browser use a lot of battery on my device?"
 msgid "Does CENO Browser use a lot of battery on my device?"
 msgstr "Сильно ли Браузер CENO сажает батарею?"
 
@@ -285,8 +272,6 @@ msgstr ""
 "[здесь](../browser/install.md))."
 
 #: intro/faq.md:block 32 (header)
-#, fuzzy
-#| msgid "Do I need to be connected to Wi-Fi to use the CENO Browser?"
 msgid "Do I need to be connected to Wi-Fi to use CENO Browser?"
 msgstr "Нужно ли мне подключаться к Wi-Fi для использования Браузера CENO?"
 

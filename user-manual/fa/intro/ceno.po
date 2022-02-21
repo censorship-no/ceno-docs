@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-19 22:49+0000\n"
+"PO-Revision-Date: 2022-02-16 23:54+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "ceno/fa/>\n"
@@ -9,12 +9,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.9-dev\n"
+"X-Generator: Weblate 4.11-dev\n"
 
 #
 #: intro/ceno.md:block 1 (header)
-#, fuzzy
-#| msgid "What is the CENO Browser?"
 msgid "What is CENO Browser?"
 msgstr "مرورگر سنو چیست؟"
 
@@ -52,13 +50,6 @@ msgstr ""
 "intranets] به‌منظور محدودکردن دسترسی ملت‌ها به وب ساخته شده است."
 
 #: intro/ceno.md:block 4 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "The CENO Browser is built on an adapted version of [Firefox for Android]"
-#| "[Firefox for Android], a popular, modern, feature-rich and secure Free/"
-#| "Libre/Open Source browser. CENO extends Firefox with **Ouinet**, the "
-#| "underlying technology allowing it to share content between devices "
-#| "(described in later sections)."
 msgid ""
 "CENO Browser is built on an adapted version of [Firefox for Android][Firefox "
 "for Android], a popular, modern, feature-rich and secure Free/Libre/Open "
@@ -69,8 +60,8 @@ msgstr ""
 "مرورگر CENO بر اساس نسخه‌ای برگرفته از [فایرفاکس برای اندروید](https://www."
 "mozilla.org/firefox/android) ساخته شده است، که یک مرورگر رایگان/آزاد/متن‌باز "
 "پرطرفدار، مدرن، سرشار از امکانات و امن است. سنو فایرفاکس را با **Ouinet** "
-"گسترش می‌دهد، فناوری زیربنایی که به آن اجازه می‌دهد تا بین دستگاه‌ها محتوا به "
-"اشتراک بگذارد (در بخش‌های بعدی این فرایند را توضیح می‌دهیم)."
+"گسترش می‌دهد، فناوری زیربنایی که به آن اجازه می‌دهد تا بین دستگاه‌ها محتوا "
+"به اشتراک بگذارد (در بخش‌های بعدی این فرایند را توضیح می‌دهیم)."
 
 #: intro/ceno.md:block 5 (header)
 msgid "Who develops CENO?"

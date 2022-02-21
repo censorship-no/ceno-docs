@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2021-09-21 18:36+0000\n"
-"Last-Translator: Anatoli <djanatoli@gmail.com>\n"
+"PO-Revision-Date: 2022-02-16 23:54+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/censorship-no/"
 "browser-bridging/es/>\n"
 "Language: es\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9-dev\n"
+"X-Generator: Weblate 4.11-dev\n"
 
 #
 #: browser/bridging.md:block 1 (header)
@@ -20,17 +20,6 @@ msgid "Helping other CENO users browse the Web"
 msgstr "Ayudando a otros usuarios de CENO a navegar la Web"
 
 #: browser/bridging.md:block 2 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "A peer-to-peer network is built from every node connected to it (yes, "
-#| "that means you as well!). The more nodes, the stronger and more versatile "
-#| "the network becomes. If you are running the CENO Browser from a country "
-#| "that does not censor the Internet (or not as heavily as some), consider "
-#| "helping other CENO users by becoming a **bridge** node. You will then "
-#| "begin to route traffic between clients living in heavily censored "
-#| "countries and CENO injectors. You will not be able to see their traffic "
-#| "(it will be sent through an encrypted tunnel), nor will any of this "
-#| "traffic remain on your device."
 msgid ""
 "A peer-to-peer network is built from every node connected to it (yes, that "
 "means you as well!). The more nodes, the stronger and more versatile the "
@@ -71,12 +60,6 @@ msgid "How to become a CENO bridge"
 msgstr "Cómo volverse un puente CENO"
 
 #: browser/bridging.md:block 5 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "This functionality is already built into the CENO Browser. Your device "
-#| "will need to be connected to a Wi-Fi network that has either UPnP enabled "
-#| "or explicit port forwarding configured for CENO. See the next sections "
-#| "for further details."
 msgid ""
 "This functionality is already built into CENO Browser. Your device will need "
 "to be connected to a Wi-Fi network that has either UPnP enabled or explicit "
@@ -257,21 +240,17 @@ msgid ""
 "[upnp-risks] and also consider using alternative methods as explained below."
 msgstr ""
 "**Nota:** Habilitar UPnP en el enrutador Wi-Fi podría exponer a los "
-"dispositivos en tu red a interferencia externa. Por favor sé [ conciente de "
+"dispositivos en tu red a interferencia externa. Por favor sé [consciente de "
 "los riesgos][upnp-risks] y también considera usar métodos alternativos como "
-"se explicó a continuación."
+"se explica a continuación."
 
 #: browser/bridging.md:block 22 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "A status like the one below indicates that UPnP is not enabled on your "
-#| "WiFi router:"
 msgid ""
 "A status like the one below indicates that UPnP is not available or not "
 "working on your WiFi router:"
 msgstr ""
-"Un estado como el siguiente indica que UPnP no está habilitado en tu "
-"enrutador Wi-Fi:"
+"Un estado como el siguiente indica que UPnP no está disponible o no funciona "
+"en tu enrutador Wi-Fi:"
 
 #: browser/bridging.md:block 23 (quote)
 msgid "**Reachability status**"
@@ -308,6 +287,14 @@ msgid ""
 "get a public address on your router or to establish port forwardings to the "
 "external endpoint."
 msgstr ""
+"**Nota:** Incluso si UPnP funciona, tu enrutador podría no ser alcanzable "
+"desde el exterior. Esto puede ocurrir cuando la *Configuración de CENO* "
+"indique *Puntos finales UDP externos* que correspondan a direcciones "
+"[CGNAT][CGNAT] `100.X.Y.Z:N` con X entre 64 y 127 (cada vez más comunes "
+"entre ISP domésticos), o a direcciones privadas `10.X.Y.Z:N`, `172.X.Y.Z:N` "
+"con X entre 16 y 31, y `192.168.X.Y:N`. En tal caso, contacta con tu ISP o "
+"administrador de red para obtener una dirección pública en tu enrutador o "
+"para establecer redireccionamientos de puertos hacia el punto final externo."
 
 #: browser/bridging.md:block 29 (paragraph)
 msgid ""
@@ -354,12 +341,16 @@ msgid ""
 "[Netgear](https://kb.netgear.com/24306/How-do-I-enable-Universal-Plug-and-"
 "Play-on-my-Nighthawk-router)"
 msgstr ""
+"[Netgear](https://kb.netgear.com/24306/How-do-I-enable-Universal-Plug-and-"
+"Play-on-my-Nighthawk-router)"
 
 #: browser/bridging.md:block 30 (unordered list)
 msgid ""
 "[Ubiquiti](https://www.geekzone.co.nz/forums.asp?"
 "forumid=66&topicid=205740&page_no=5#1725168)"
 msgstr ""
+"[Ubiquiti](https://www.geekzone.co.nz/forums."
+"asp?forumid=66&topicid=205740&page_no=5#1725168)"
 
 #: browser/bridging.md:block 31 (header)
 msgid "Using port forwarding as an alternative to UPnP"
@@ -421,7 +412,7 @@ msgstr ""
 
 #: browser/bridging.md:block 35 (quote)
 msgid "[Don't kill my app!]: https://dontkillmyapp.com/"
-msgstr "[¡No mates a mi aplicación!]: https://dontkillmyapp.com/"
+msgstr "[Don't kill my app!]: https://dontkillmyapp.com/"
 
 #: browser/bridging.md:block 35 (quote)
 msgid "[docker]: https://en.wikipedia.org/wiki/Docker_(software)"
@@ -452,10 +443,8 @@ msgstr ""
 "security-risk"
 
 #: browser/bridging.md:block 35 (quote)
-#, fuzzy
-#| msgid "[UPnP]: https://en.wikipedia.org/wiki/Universal_Plug_and_Play"
 msgid "[CGNAT]: https://en.wikipedia.org/wiki/Carrier-grade_NAT"
-msgstr "[UPnP]: https://es.wikipedia.org/wiki/Universal_Plug_and_Play"
+msgstr "[CGNAT]: https://en.wikipedia.org/wiki/Carrier-grade_NAT"
 
 #~ msgid "![Figure: UPnP not enabled](images/upnp-no.png)"
 #~ msgstr "![Figura: UPnP no habilitado](images/upnp-no.png)"
