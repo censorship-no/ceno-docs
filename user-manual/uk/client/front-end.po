@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-02-16 23:55+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
+"PO-Revision-Date: 2022-02-24 16:11+0000\n"
+"Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "client-front-end/uk/>\n"
 "Language: uk\n"
@@ -30,12 +30,6 @@ msgstr ""
 "команди доступні лише тут."
 
 #: client/front-end.md:block 3 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "The front-end is accessible using any plain Web browser running on the "
-#| "same device (you can use CENO too). Its default address is "
-#| "[http://127.0.0.1:8078/](http://127.0.0.1:8078/). If you open it, you "
-#| "will see something like the figure below."
 msgid ""
 "The front-end is accessible using any plain Web browser running on the same "
 "device (you can use CENO too). Its default address is <http://127.0.0.1:8078/"
@@ -43,8 +37,8 @@ msgid ""
 msgstr ""
 "Інтерфейс доступний через будь-який веб-браузер, запущеного на тому ж "
 "пристрої (ви можете використовувати CENO також). За замовчуванням, адреса "
-"інтерфейсу — [http://127.0.0.1:8078/](http://127.0.0.1:8078/). При його "
-"відкритті ви побачите щось схоже на малюнок нижче."
+"інтерфейсу — <http://127.0.0.1:8078/>. При його відкритті ви побачите щось "
+"схоже на малюнок нижче."
 
 #: client/front-end.md:block 4 (paragraph)
 msgid "![Figure: The client front-end](images/front-end.png)"
