@@ -14,7 +14,8 @@ mdbook build
 #find "$outd" -name '*.html' | xargs sed -i '/<link href="[^"]*\bfonts\.googleapis\.com\b/d'
 
 # Fix output for RTL languages (needs <https://github.com/rust-lang/mdBook/pull/1489>).
-if grep -qE '^_direction\s*=\s*"?rtl?"' "$conf"; then
-    book="$(sed -nE 's/^build-dir\s*=\s"([^"]+)".*/\1/p' "$conf")"
-    find "$book" -name '*.html' -exec sed -i 's/<body /<body dir="rtl" /' '{}' ';'
-fi
+# No longer needed with <https://github.com/rust-lang/mdBook/pull/1641>.
+#if grep -qE '^_direction\s*=\s*"?rtl?"' "$conf"; then
+#    book="$(sed -nE 's/^build-dir\s*=\s"([^"]+)".*/\1/p' "$conf")"
+#    find "$book" -name '*.html' -exec sed -i 's/<body /<body dir="rtl" /' '{}' ';'
+#fi
