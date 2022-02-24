@@ -30,9 +30,8 @@ msgstr ""
 #: client/front-end.md:block 3 (paragraph)
 msgid ""
 "The front-end is accessible using any plain Web browser running on the same "
-"device (you can use CENO too). Its default address is "
-"[http://127.0.0.1:8078/](http://127.0.0.1:8078/). If you open it, you will "
-"see something like the figure below."
+"device (you can use CENO too). Its default address is <http://127.0.0.1:8078/"
+">. If you open it, you will see something like the figure below."
 msgstr ""
 
 #: client/front-end.md:block 4 (paragraph)
