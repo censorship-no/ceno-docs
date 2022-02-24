@@ -1,6 +1,7 @@
 #!/bin/sh
 # Usage: ./pot-extract.sh
 # Extract PO templates from English sources and place them under `en.pot`.
+# Requires mdpo >= 0.3.68.
 
 set -e
 
