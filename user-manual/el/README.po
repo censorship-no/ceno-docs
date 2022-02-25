@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:51+0200\n"
-"PO-Revision-Date: 2021-12-16 11:53+0000\n"
+"PO-Revision-Date: 2022-02-26 17:54+0000\n"
 "Last-Translator: george kitsoukakis <norhorn@gmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/censorship-no/"
 "homepage-readme/el/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.10-dev\n"
+"X-Generator: Weblate 4.11.1-dev\n"
 
 #
 #: README.md:block 1 (header)
@@ -20,19 +20,14 @@ msgid "Censorship.no! User Manual"
 msgstr "Censorship.no! Εγχειρίδιο χρήσης"
 
 #: README.md:block 2 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "This manual is aimed at users of the **CENO Browser** and related "
-#| "technologies, as created for the [Censorship.no!][Censorship.no!] project "
-#| "by [eQualitie][eQualitie]."
 msgid ""
 "This manual is aimed at users of [CENO Browser][CENO Browser] and related "
 "technologies, as created for the [Censorship.no!][Censorship.no!] project by "
 "[eQualitie][eQualitie]."
 msgstr ""
-"Το παρόν εγχειρίδιο απευθύνεται στους χρήστες του **CENO Browser** και "
-"σχετικών τεχνολογιών, όπως δημιουργήθηκε για το έργο [Censorship.no!]"
-"[Censorship.no!] από την [eQualitie][eQualitie]."
+"Το παρόν εγχειρίδιο απευθύνεται στους χρήστες του [CENO Browser][CENO "
+"Browser] και σχετικών τεχνολογιών, όπως δημιουργήθηκε για το έργο [Censorship"
+".no!][Censorship.no!] από την [eQualitie][eQualitie]."
 
 #: README.md:block 3 (paragraph)
 msgid ""
@@ -47,13 +42,8 @@ msgstr ""
 "[προδιαγραφές πρωτοκόλλου][προδιαγραφές πρωτοκόλλου]."
 
 #: README.md:block 3 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "[CENO documentation repository]: https://github.com/censorship-no/ceno-"
-#| "docs/"
 msgid "[CENO Browser]: https://github.com/censorship-no/ceno-browser"
-msgstr ""
-"[Αποθετήριο τεκμηρίωσης CENO]: https://github.com/censorship-no/ceno-docs/"
+msgstr "[Φυλλομετρητής CENO]: https://github.com/censorship-no/ceno-browser"
 
 #: README.md:block 3 (paragraph)
 msgid "[Censorship.no!]: https://censorship.no/"
