@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-03 02:50+0200\n"
-"PO-Revision-Date: 2022-01-23 17:04+0000\n"
+"PO-Revision-Date: 2022-02-26 17:54+0000\n"
 "Last-Translator: george kitsoukakis <norhorn@gmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/censorship-no/qsg/"
 "el/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.11-dev\n"
+"X-Generator: Weblate 4.11.1-dev\n"
 
 #
 #: intro/qsg.md:block 1 (header)
@@ -20,12 +20,6 @@ msgid "Quick start guide"
 msgstr "Οδηγός γρήγορης εκκίνησης"
 
 #: intro/qsg.md:block 2 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "The CENO Browser allows you to access any website on the Internet, even "
-#| "if it is censored in your country. CENO uses a peer-to-peer "
-#| "infrastructure to route your requests, as well as to store and share "
-#| "retrieved content with others. [Read more about CENO](ceno.md)."
 msgid ""
 "CENO Browser allows you to access any website on the Internet, even if it is "
 "censored in your country. CENO uses a peer-to-peer infrastructure to route "
@@ -35,8 +29,8 @@ msgstr ""
 "Το CENO Browser σας επιτρέπει να έχετε πρόσβαση σε οποιονδήποτε ιστότοπο, "
 "ακόμη και αν λογοκρίνεται στη χώρα σας. Το CENO χρησιμοποιεί μια υποδομή από "
 "χρήστη σε χρήστη για τη δρομολόγηση των αιτημάτων σας, καθώς και για την "
-"αποθήκευση και την κοινή χρήση του ανακτηθέντος περιεχομένου με άλλους. "
-"[Δείτε περισσότερα για το CENO](ceno.md)."
+"αποθήκευση και την κοινή χρήση του ανακτηθέντος περιεχομένου με άλλους. ["
+"Δείτε περισσότερα για το CENO](ceno.md)."
 
 #: intro/qsg.md:block 3 (header)
 msgid "How to get started"
@@ -47,10 +41,6 @@ msgid "You will need an Android device:"
 msgstr "Θα χρειαστείτε μια συσκευή Android:"
 
 #: intro/qsg.md:block 5 (ordered list)
-#, fuzzy
-#| msgid ""
-#| "Install the CENO Browser from [Google Play][ceno-gplay], [GitHub][ceno-"
-#| "gh] or [Paskoocheh][ceno-pask]. *No special permissions are needed*."
 msgid ""
 "Install CENO Browser from [Google Play][ceno-gplay], [GitHub][ceno-gh] or "
 "[Paskoocheh][ceno-pask]. *No special permissions are needed*."
@@ -87,11 +77,6 @@ msgid "Configuration"
 msgstr "Ρυθμίσεις"
 
 #: intro/qsg.md:block 8 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "The CENO Browser should work out-of-the-box. You can find some "
-#| "[diagnostics and settings](../browser/settings.md) under the *CENO* menu "
-#| "entry."
 msgid ""
 "CENO Browser should work out-of-the-box. You can find some [diagnostics and "
 "settings](../browser/settings.md) under the *CENO* menu entry."
