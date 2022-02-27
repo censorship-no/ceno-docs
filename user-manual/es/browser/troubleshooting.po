@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-10 11:02+0200\n"
-"PO-Revision-Date: 2022-02-16 23:55+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
+"PO-Revision-Date: 2022-02-28 11:56+0000\n"
+"Last-Translator: Zuhualime Akoochimoya <zakooch@protonmail.ch>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/censorship-no/"
 "browser-troubleshooting/es/>\n"
 "Language: es\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.11-dev\n"
+"X-Generator: Weblate 4.11.1-dev\n"
 
 #
 #: browser/troubleshooting.md:block 1 (header)
@@ -110,11 +110,15 @@ msgstr ""
 #: browser/troubleshooting.md:block 12 (header)
 msgid "The *Ouinet client state* under *CENO Settings* is not `started`"
 msgstr ""
+"El *Estado del cliente Ouinet* bajo *Configuraciones de CENO* no está "
+"`iniciado`"
 
 #: browser/troubleshooting.md:block 13 (paragraph)
 msgid ""
 "The Ouinet client run by CENO is finding problems starting on your device."
 msgstr ""
+"El cliente Ouinet ejecutado por CENO está encontrando problemas en tu "
+"dispositivo."
 
 #: browser/troubleshooting.md:block 14 (paragraph)
 msgid ""
@@ -125,12 +129,21 @@ msgid ""
 "try restarting CENO. If you have a working connection but the state remains "
 "`starting`, please contact us."
 msgstr ""
+"Cuando ejecutas CENO, el estado podría indicar `iniciando` por unos "
+"segundos, esto es normal. Sin embargo, si el estado permanece en `iniciando` "
+"por demasiado tiempo, podría ser una señal de dificultades serias de "
+"conectividad que evitan que la aplicación alcance a la red BitTorrent. Por "
+"favor, comprueba tu conexión de red e intenta reiniciar CENO. Si tienes una "
+"conexión funcional, pero el estado permenece en `iniciando`, por favor "
+"contáctanos."
 
 #: browser/troubleshooting.md:block 15 (paragraph)
 msgid ""
 "If you see some other state, there may be some internal error in the Ouinet "
 "client. Please report the issue to us."
 msgstr ""
+"Si ves algún otro estado, podría haber algún error interno en el cliente "
+"Ouinet. Por favor infórmanos sobre esta dificultad."
 
 #: browser/troubleshooting.md:block 16 (header)
 msgid "A page shows bogus content (like a block message)"
