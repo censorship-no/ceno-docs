@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-02-16 23:55+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
+"PO-Revision-Date: 2022-03-04 08:00+0000\n"
+"Last-Translator: Андрій Бандура <andriykopanytsia@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-troubleshooting/uk/>\n"
 "Language: uk\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.11-dev\n"
+"X-Generator: Weblate 4.11.1-dev\n"
 
 #: browser/troubleshooting.md:block 1 (header)
 msgid "Troubleshooting"
@@ -105,12 +105,14 @@ msgstr ""
 
 #: browser/troubleshooting.md:block 12 (header)
 msgid "The *Ouinet client state* under *CENO Settings* is not `started`"
-msgstr ""
+msgstr "*Статус клієнта Ouinet* у *налаштуваннях CENO* — не `запущений`"
 
 #: browser/troubleshooting.md:block 13 (paragraph)
 msgid ""
 "The Ouinet client run by CENO is finding problems starting on your device."
 msgstr ""
+"Клієнт Ouinet, який працює через CENO, виявляє проблеми при запуску на "
+"вашому пристрої."
 
 #: browser/troubleshooting.md:block 14 (paragraph)
 msgid ""
@@ -121,12 +123,20 @@ msgid ""
 "try restarting CENO. If you have a working connection but the state remains "
 "`starting`, please contact us."
 msgstr ""
+"Коли ви запускаєте CENO, стан може читатися як «запускається» протягом "
+"кількох секунд; це нормально. Однак, якщо стан «запускається» залишається "
+"занадто довго, це може бути сигналом про серйозні проблеми зі з'єднанням, "
+"які заважають програмі досягти мережі BitTorrent. Перевірте з'єднання з "
+"мережею та спробуйте перезапустити CENO. Якщо ваше з’єднання робоче, але "
+"стан далі залишається «запускається», то зв’яжіться з нами."
 
 #: browser/troubleshooting.md:block 15 (paragraph)
 msgid ""
 "If you see some other state, there may be some internal error in the Ouinet "
 "client. Please report the issue to us."
 msgstr ""
+"Якщо ви бачите інший стан, то, можливо, в клієнті Ouinet виникла внутрішня "
+"помилка. Будь ласка, повідомте нас про цю проблему."
 
 #: browser/troubleshooting.md:block 16 (header)
 msgid "A page shows bogus content (like a block message)"
