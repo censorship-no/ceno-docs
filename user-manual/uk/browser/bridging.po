@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-02-15 22:57+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
+"PO-Revision-Date: 2022-03-04 08:00+0000\n"
+"Last-Translator: Андрій Бандура <andriykopanytsia@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-bridging/uk/>\n"
 "Language: uk\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.11-dev\n"
+"X-Generator: Weblate 4.11.1-dev\n"
 
 #: browser/bridging.md:block 1 (header)
 msgid "Helping other CENO users browse the Web"
@@ -236,16 +236,12 @@ msgstr ""
 "як це описано нижче."
 
 #: browser/bridging.md:block 22 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "A status like the one below indicates that UPnP is not enabled on your "
-#| "WiFi router:"
 msgid ""
 "A status like the one below indicates that UPnP is not available or not "
 "working on your WiFi router:"
 msgstr ""
 "Стан, подібний до того, як це показано на попередньому малюнку, означає, що "
-"UPnP не включений на вашому Wi-Fi-роутері:"
+"UPnP не доступний або не працює на вашому Wi-Fi-роутері:"
 
 #: browser/bridging.md:block 23 (quote)
 msgid "**Reachability status**"
@@ -282,6 +278,15 @@ msgid ""
 "get a public address on your router or to establish port forwardings to the "
 "external endpoint."
 msgstr ""
+"**Примітка:** навіть якщо UPnP працює, ваш маршрутизатор все одно може бути "
+"недоступним ззовні. Це трапляється у випадку, коли *налаштування CENO* "
+"повідомляють про *зовнішні кінцеві точки UDP*, які виглядають як адреси "
+"[CGNAT][CGNAT] на кшталт `100.XYZ:N`, де X від 64 до 127 (частіше поширені "
+"серед домашніх провайдерів), або як приватні адреси `10.XYZ:N`, `172.XYZ:N`, "
+"де X між 16 та 31, та `192.168.XY:N`. Якщо це трапилося, то зверніться до "
+"свого провайдера або адміністратора мережі, щоб отримати публічну адресу на "
+"вашому маршрутизаторі або встановити переадресацію портів до зовнішньої "
+"кінцевої точки."
 
 #: browser/bridging.md:block 29 (paragraph)
 msgid ""
