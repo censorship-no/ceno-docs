@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-02-09 10:55+0000\n"
-"Last-Translator: Vitalii Moroz <vitaliy.moroz@gmail.com>\n"
+"PO-Revision-Date: 2022-03-04 08:00+0000\n"
+"Last-Translator: Андрій Бандура <andriykopanytsia@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-settings/uk/>\n"
 "Language: uk\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.11-dev\n"
+"X-Generator: Weblate 4.11.1-dev\n"
 
 #: browser/settings.md:block 1 (header)
 msgid "CENO settings"
@@ -261,6 +261,9 @@ msgid ""
 "to run successfully. Otherwise, there may be connectivity issues or some "
 "internal error. Also include in reports."
 msgstr ""
+"*Стан клієнта Ouinet* \"запущений\" означає, що ваш клієнт Ouinet зміг "
+"успішно запуститися. Інакше можуть виникнути проблеми зі з'єднанням або "
+"якась внутрішня помилка. Також включається у звіти."
 
 #: browser/settings.md:block 14 (unordered list)
 msgid ""
@@ -279,34 +282,25 @@ msgstr ""
 "доступу дозвіл на вхідні підключення до нього. Також додавайте до звітів."
 
 #: browser/settings.md:block 14 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "*Local UDP endpoints* are the Internet addresses used by CENO to seed "
-#| "signed content to other clients. These are shown to help test and debug "
-#| "the app, and should not be generally disclosed."
 msgid ""
 "*Local UDP endpoints* are the Internet addresses in your device used by CENO "
 "to seed signed content to other clients. These are shown to help test and "
 "debug the app, and should not be generally disclosed."
 msgstr ""
-"*Локальні кінцеві точки UDP* — це інтернет-адреси, які використовуються CENO "
-"для передачі підписаного контенту іншим клієнтам. Вони показані для "
-"тестування та налагодження програми. Розкривати ці дані не потрібно."
+"*Локальні кінцеві точки UDP* — це інтернет-адреси у вашому пристрої, які "
+"використовуються CENO для передачі підписаного контенту іншим клієнтам. Вони "
+"показані для тестування та налагодження програми. Розкривати ці дані не "
+"потрібно."
 
 #: browser/settings.md:block 14 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "*Local UDP endpoints* are the Internet addresses used by CENO to seed "
-#| "signed content to other clients. These are shown to help test and debug "
-#| "the app, and should not be generally disclosed."
 msgid ""
 "*External UDP endpoints* are the Internet addresses in your router given to "
 "your CENO traffic. Only available with UPnP-enabled routers, they are also "
 "is useful for diagnostics and not to be generally disclosed."
 msgstr ""
-"*Локальні кінцеві точки UDP* — це інтернет-адреси, які використовуються CENO "
-"для передачі підписаного контенту іншим клієнтам. Вони показані для "
-"тестування та налагодження програми. Розкривати ці дані не потрібно."
+"*Зовнішні кінцеві точки UDP* — це інтернет-адреси у вашому маршрутизаторі, "
+"надані для вашого трафіку CENO. Доступні лише для маршрутизаторів з "
+"увімкненим UPnP. Вони корисні для діагностики та не підлягають розкриттю."
 
 #: browser/settings.md:block 14 (unordered list)
 msgid ""
@@ -314,6 +308,9 @@ msgid ""
 "outside of your network see when communicating with your device. Also for "
 "diagnostics and not to be disclosed."
 msgstr ""
+"*Публічні кінцеві точки UDP* – це Інтернет-адреси, які клієнти Ouinet за "
+"межами вашої мережі бачать під час спілкування з вашим пристроєм. Також суто "
+"для діагностики та не розголошуються."
 
 #: browser/settings.md:block 14 (unordered list)
 msgid ""
