@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-02-16 23:55+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
+"PO-Revision-Date: 2022-03-05 15:56+0000\n"
+"Last-Translator: Andrij Mizyk <andmizyk@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "advantages/uk/>\n"
 "Language: uk\n"
@@ -10,13 +10,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.11-dev\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #: concepts/advantages.md:block 1 (header)
 msgid "Advantages of using CENO/Ouinet"
 msgstr "Переваги використання CENO/Ouinet"
 
 #: concepts/advantages.md:block 2 (paragraph)
+#, fuzzy
 msgid ""
 "The main advantages of using CENO and Ouinet over other circumvention "
 "technologies stem from the cooperation of clients and injectors to forward "
@@ -30,6 +31,7 @@ msgstr ""
 "відзначити такі переваги:"
 
 #: concepts/advantages.md:block 3 (unordered list)
+#, fuzzy
 msgid ""
 "**Familiar usage:** Accessing Web content using CENO Browser feels quite "
 "like surfing the Web on your habitual browser, even during complete "
@@ -43,6 +45,7 @@ msgstr ""
 "передавати файли між застосунками)."
 
 #: concepts/advantages.md:block 3 (unordered list)
+#, fuzzy
 msgid ""
 "**Increased availability of content:** Ouinet is able to provide content in "
 "an efficient and trusted manner in situations of extreme network "
@@ -55,17 +58,19 @@ msgstr ""
 "клієнтами CENO/Ouinet і тим доступнішим цей контент стає для користувачів."
 
 #: concepts/advantages.md:block 3 (unordered list)
+#, fuzzy
 msgid ""
 "Signed content may be brought into particular clients in a disconnected area "
 "over offline means (e.g. a USB drive) and thus made available to other "
 "clients."
 msgstr ""
 "Підписаний контент може бути доставлений користувачам на повністю "
-"відключеній від інтернету території за допомогою автономних засобів "
-"(наприклад, USB-накопичувача), й таким чином стати доступним для інших "
+"відключеній від інтернету території за допомогою автономних засобів ("
+"наприклад, USB-накопичувача), й таким чином стати доступним для інших "
 "клієнтів."
 
 #: concepts/advantages.md:block 3 (unordered list)
+#, fuzzy
 msgid ""
 "**Faster browsing:** Since your client can retrieve different parts of the "
 "same content from various clients at the same time, the load of delivering "
@@ -83,10 +88,11 @@ msgstr ""
 "доставці великого за обсягом контенту, як-то відео). Це корисно не тільки за "
 "умови обмеження доступу до інтернету в інших країнах, але й для виробників "
 "контенту для уникнення стрибків використання ресурсів на вихідних серверах, "
-"коли певний контент стає дуже популярними (так званий [Слешдот-ефект]"
-"[Слешдот-ефект])."
+"коли певний контент стає дуже популярними (так званий "
+"[Слешдот-ефект][Слешдот-ефект])."
 
 #: concepts/advantages.md:block 3 (unordered list)
+#, fuzzy
 msgid ""
 "**Cheaper browsing:** Content popular in a particular region tends to get "
 "copied in CENO/Ouinet clients in that region, even if the origin server is "
@@ -105,6 +111,7 @@ msgstr ""
 "може заощадити ваші гроші."
 
 #: concepts/advantages.md:block 3 (unordered list)
+#, fuzzy
 msgid "[Slashdot effect]: https://en.wikipedia.org/wiki/Slashdot_effect"
 msgstr "[Слешдот-ефект]: https://en.wikipedia.org/wiki/Slashdot_effect"
 
