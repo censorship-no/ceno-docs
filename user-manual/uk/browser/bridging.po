@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-03-04 08:00+0000\n"
-"Last-Translator: Андрій Бандура <andriykopanytsia@gmail.com>\n"
+"PO-Revision-Date: 2022-03-05 15:56+0000\n"
+"Last-Translator: Andrij Mizyk <andmizyk@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-bridging/uk/>\n"
 "Language: uk\n"
@@ -10,13 +10,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.11.1-dev\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #: browser/bridging.md:block 1 (header)
 msgid "Helping other CENO users browse the Web"
 msgstr "Допомога іншим користувачам CENO у перегляді веб-сторінок"
 
 #: browser/bridging.md:block 2 (paragraph)
+#, fuzzy
 msgid ""
 "A peer-to-peer network is built from every node connected to it (yes, that "
 "means you as well!). The more nodes, the stronger and more versatile the "
@@ -39,6 +40,7 @@ msgstr ""
 "залишаться."
 
 #: browser/bridging.md:block 3 (quote)
+#, fuzzy
 msgid ""
 "**Note:** The configuration described in this section may also help your "
 "device to effectively seed content to others on the distributed cache, so "
@@ -57,6 +59,7 @@ msgid "How to become a CENO bridge"
 msgstr "Як стати мостом CENO"
 
 #: browser/bridging.md:block 5 (paragraph)
+#, fuzzy
 msgid ""
 "This functionality is already built into CENO Browser. Your device will need "
 "to be connected to a Wi-Fi network that has either UPnP enabled or explicit "
@@ -68,6 +71,7 @@ msgstr ""
 "портів для CENO. Докладнішу інформацію дивіться у наступних розділах."
 
 #: browser/bridging.md:block 6 (paragraph)
+#, fuzzy
 msgid ""
 "However, please note that Android will only allow a mobile device to act as "
 "a proper bridge while you are actively using it, as power-saving features "
@@ -78,6 +82,7 @@ msgstr ""
 "будуть обмежувати роботу CENO."
 
 #: browser/bridging.md:block 7 (quote)
+#, fuzzy
 msgid ""
 "**Technical note:** This is mainly due to Android's [Doze mode](https://"
 "developer.android.com/training/monitoring-device-state/doze-standby "
@@ -88,16 +93,17 @@ msgid ""
 "interfere with CENO; please check [Don't kill my app!][Don't kill my app!] "
 "for your device's brand."
 msgstr ""
-"**Технічне примітка:** В основному це пов'язано з тим, що [режим Doze]"
-"(https://developer.android.com/training/monitoring-device-state/doze-standby "
-"\"Android Developers — Optimize for Doze and App Standby\") від Android "
-"уповільнює роботу своєї бібліотеки Ouinet. На жаль, навіть відключення "
-"оптимізації батареї для CENO, схоже, не виводить Ouinet із цього режиму. Ваш "
-"конкретний пристрій також може мати власні функції енергозбереження, що "
-"здатні заважати роботі CENO; будь ласка, перевірте [Не вбивайте мою "
-"програму!][Не вбивайте мою програму!] для вашої моделі пристрою."
+"**Технічне примітка:** В основному це пов'язано з тим, що [режим "
+"Doze](https://developer.android.com/training/monitoring-device-state/doze-"
+"standby \"Android Developers — Optimize for Doze and App Standby\") від "
+"Android уповільнює роботу своєї бібліотеки Ouinet. На жаль, навіть "
+"відключення оптимізації батареї для CENO, схоже, не виводить Ouinet із цього "
+"режиму. Ваш конкретний пристрій також може мати власні функції "
+"енергозбереження, що здатні заважати роботі CENO; будь ласка, перевірте [Не "
+"вбивайте мою програму!][Не вбивайте мою програму!] для вашої моделі пристрою."
 
 #: browser/bridging.md:block 8 (paragraph)
+#, fuzzy
 msgid ""
 "Thus if you intend to have CENO acting as a permanent, always-reachable "
 "bridge, besides a properly configured Wi-Fi network you will need to:"
@@ -106,6 +112,7 @@ msgstr ""
 "доступний міст, окрім правильно налагодженої мережі Wi-Fi, вам необхідно:"
 
 #: browser/bridging.md:block 9 (ordered list)
+#, fuzzy
 msgid "Have your device plugged in to power at all times."
 msgstr "Завжди тримати пристрій під'єднаним до мережі живлення."
 
@@ -141,6 +148,7 @@ msgstr ""
 "поки пристрій заблокується з увімкненим екраном."
 
 #: browser/bridging.md:block 10 (paragraph)
+#, fuzzy
 msgid ""
 "If that setup is not an option for you, do not desist yet! If you have a "
 "computer with good connectivity that stays on most of the time, please "
@@ -151,10 +159,12 @@ msgstr ""
 "продовжуйте читати."
 
 #: browser/bridging.md:block 11 (header)
+#, fuzzy
 msgid "Running a bridge on a computer"
 msgstr "Запуск моста на комп'ютері"
 
 #: browser/bridging.md:block 12 (paragraph)
+#, fuzzy
 msgid ""
 "If your computer supports [Docker containers][docker], you can run a pre-"
 "configured CENO client on it to act as a bridge. If Docker is not yet "
@@ -170,6 +180,7 @@ msgstr ""
 "install docker.io`"
 
 #: browser/bridging.md:block 13 (paragraph)
+#, fuzzy
 msgid ""
 "To deploy a CENO client container you only need to run the following command "
 "on a terminal (it looks scary but you can just copy and paste it as is on "
@@ -180,6 +191,7 @@ msgstr ""
 "вставити її в командний рядок):"
 
 #: browser/bridging.md:block 15 (paragraph)
+#, fuzzy
 msgid ""
 "If your computer is not based on GNU/Linux, the command needs to be slightly "
 "different:"
@@ -188,6 +200,7 @@ msgstr ""
 "трохи іншою:"
 
 #: browser/bridging.md:block 17 (paragraph)
+#, fuzzy
 msgid ""
 "The command will start a container named `ceno-client` that will run on "
 "every boot unless you explicitly tell it to stop. Please check the [CENO "
@@ -211,20 +224,23 @@ msgstr ""
 "саму інформацію."
 
 #: browser/bridging.md:block 19 (header)
+#, fuzzy
 msgid "Enabling UPnP on your Wi-Fi router"
 msgstr "Увімкнення UPnP на Wi-Fi-роутері"
 
 #: browser/bridging.md:block 20 (paragraph)
+#, fuzzy
 msgid ""
 "[UPnP][UPnP] is the easiest way of making your CENO Browser (or computer "
 "client) reachable to the CENO network. The [CENO Settings](settings.md) page "
 "will indicate the UPnP status on your local network."
 msgstr ""
 "[UPnP][UPnP] — це найпростіший спосіб зробити ваш браузер CENO (або клієнт "
-"для комп'ютера) доступним для мережі CENO. На сторінці [налаштування CENO]"
-"(settings.md) буде зазначено статус UPnP у вашій локальній мережі."
+"для комп'ютера) доступним для мережі CENO. На сторінці [налаштування "
+"CENO](settings.md) буде зазначено статус UPnP у вашій локальній мережі."
 
 #: browser/bridging.md:block 21 (quote)
+#, fuzzy
 msgid ""
 "**Note:** Enabling UPnP on the Wi-Fi router may expose devices on your "
 "network to external interference. Please make yourself [aware of the risks]"
@@ -236,6 +252,7 @@ msgstr ""
 "як це описано нижче."
 
 #: browser/bridging.md:block 22 (paragraph)
+#, fuzzy
 msgid ""
 "A status like the one below indicates that UPnP is not available or not "
 "working on your WiFi router:"
@@ -260,6 +277,7 @@ msgstr ""
 "можливість підключення:"
 
 #: browser/bridging.md:block 26 (paragraph)
+#, fuzzy
 msgid ""
 "The status below indicates that UPnP is working and you can bridge "
 "connections for other CENO users:"
@@ -268,6 +286,7 @@ msgstr ""
 "для інших користувачів CENO:"
 
 #: browser/bridging.md:block 28 (quote)
+#, fuzzy
 msgid ""
 "**Note:** Even if UPnP is working, your router may still not be reachable "
 "from the outside. This can be the case when *CENO Settings* reports "
@@ -289,6 +308,7 @@ msgstr ""
 "кінцевої точки."
 
 #: browser/bridging.md:block 29 (paragraph)
+#, fuzzy
 msgid ""
 "There are many Wi-Fi routers on the market and each has their own particular "
 "features. Herein a list of some manufacturers' instructions for enabling "
@@ -349,6 +369,7 @@ msgid "Using port forwarding as an alternative to UPnP"
 msgstr "Використання переадресації портів як альтернативи UPnP"
 
 #: browser/bridging.md:block 32 (paragraph)
+#, fuzzy
 msgid ""
 "Instead of enabling UPnP on your router, you can create a port forwarding "
 "rule to make sure that connections from the CENO network are forwarded to "
@@ -369,6 +390,7 @@ msgid "**Local UDP endpoints**"
 msgstr "**Локальні кінцеві точки UDP**"
 
 #: browser/bridging.md:block 34 (paragraph)
+#, fuzzy
 msgid ""
 "The port forwarding must be for the UDP protocol (not TCP). CENO chooses a "
 "random port on first run and keeps it for subsequent runs, but your device's "
@@ -383,6 +405,7 @@ msgstr ""
 "переконатися, що ваш пристрій має доступ до мережі CENO."
 
 #: browser/bridging.md:block 35 (quote)
+#, fuzzy
 msgid ""
 "**Technical note:** Alternatively, you can make sure that the router always "
 "assigns the same IP address to your device (e.g. via a static DHCP lease for "
