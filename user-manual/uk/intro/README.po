@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-03-04 08:00+0000\n"
-"Last-Translator: Андрій Бандура <andriykopanytsia@gmail.com>\n"
+"PO-Revision-Date: 2022-03-05 15:56+0000\n"
+"Last-Translator: Andrij Mizyk <andmizyk@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "readme/uk/>\n"
 "Language: uk\n"
@@ -10,13 +10,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.11.1-dev\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #: intro/README.md:block 1 (header)
 msgid "Introduction"
-msgstr "Вступ"
+msgstr "Ознайомлення"
 
 #: intro/README.md:block 2 (paragraph)
+#, fuzzy
 msgid ""
 "The Internet and the World Wide Web have become more and more important for "
 "people around the world as a source of all kinds of information, and a way "
@@ -33,12 +34,13 @@ msgstr ""
 "фундаментальних прав людини. У той саме час, останніми роками "
 "спостерігається зростання різновидів мережевої цензури та інших видів "
 "мережного втручання (дивіться звіти [OONI] (https://ooni.org/reports/ \"Open "
-"Observatory of Network Interference — Research reports\"), [ Magma](https://"
-"magma.lavafeld.org/publications/ \"Magma publications\"), [Censored Planet]"
-"(https://censoredplanet.org/reports \"Censored Planet — Reports\")) з боку "
-"як приватних, так і державних інституцій."
+"Observatory of Network Interference — Research reports\"), [ "
+"Magma](https://magma.lavafeld.org/publications/ \"Magma publications\"), ["
+"Censored Planet](https://censoredplanet.org/reports \"Censored Planet — "
+"Reports\")) з боку як приватних, так і державних інституцій."
 
 #: intro/README.md:block 3 (paragraph)
+#, fuzzy
 msgid ""
 "The Web relies on your devices being able to reach special computers called "
 "*web servers* (run by content creators, publishers or Internet services "
@@ -78,6 +80,7 @@ msgstr ""
 "сервера, так і ваших пристроїв, а також повинні бути доступними будь-коли."
 
 #: intro/README.md:block 5 (paragraph)
+#, fuzzy
 msgid ""
 "Unfortunately again, there are situations in which general connectivity is "
 "scarce (developing countries or underserved, impoverished or rural regions), "
@@ -103,8 +106,8 @@ msgid ""
 "This is where CENO Browser and Ouinet come into play. This chapter will "
 "introduce you to them."
 msgstr ""
-"Саме тут в гру вступають браузер CENO та Ouinet. У цьому розділі ми "
-"познайомимо вас із ними."
+"Саме тут в гру вступають оглядач CENO та Ouinet. У цьому розділі ми Вас "
+"познайомимо з ними."
 
 #: intro/README.md:block 6 (paragraph)
 msgid "[ooni-reports]: https://ooni.org/reports/"
