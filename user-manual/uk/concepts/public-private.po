@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-02-16 23:55+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
+"PO-Revision-Date: 2022-03-05 15:56+0000\n"
+"Last-Translator: Andrij Mizyk <andmizyk@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "public-private/uk/>\n"
 "Language: uk\n"
@@ -10,13 +10,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.11-dev\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #: concepts/public-private.md:block 1 (header)
 msgid "Public vs. private browsing"
 msgstr "Публічний чи приватний перегляд"
 
 #: concepts/public-private.md:block 2 (paragraph)
+#, fuzzy
 msgid ""
 "Because of the many techniques used to overcome connectivity issues, CENO "
 "may become a convenient way for you to get all kinds of Web content. And, as "
@@ -35,6 +36,7 @@ msgstr ""
 "до нього доступ), й CENO може допомогти вам в цьому випадку."
 
 #: concepts/public-private.md:block 3 (paragraph)
+#, fuzzy
 msgid ""
 "The default mode when you launch the application is **public browsing**. In "
 "it, CENO accesses Web content as described previously:"
@@ -45,13 +47,14 @@ msgstr ""
 
 #: concepts/public-private.md:block 4 (ordered list)
 msgid "Direct access is attempted."
-msgstr "Намагається отримати доступ безпосередньо."
+msgstr "Намагається отримати прямий доступ."
 
 #: concepts/public-private.md:block 4 (ordered list)
 msgid "Failing that, the distributed cache is searched."
 msgstr "Якщо не вдалося, виконується пошук у розподіленому кеші."
 
 #: concepts/public-private.md:block 4 (ordered list)
+#, fuzzy
 msgid ""
 "Failing that, the content is requested via an injector (maybe via another "
 "client)."
@@ -60,6 +63,7 @@ msgstr ""
 "користувача)."
 
 #: concepts/public-private.md:block 5 (paragraph)
+#, fuzzy
 msgid ""
 "CENO also has a **private browsing** mode. In it, the distributed cache is "
 "never searched, and injection is never attempted:"
@@ -68,6 +72,7 @@ msgstr ""
 "кеш ніколи не проглядається і спроби ін'єкції не робляться:"
 
 #: concepts/public-private.md:block 6 (ordered list)
+#, fuzzy
 msgid ""
 "Failing that, an injector is contacted (maybe via another client) and used "
 "*as a normal proxy server*. Note that in this case, neither the injector nor "
@@ -86,6 +91,7 @@ msgstr ""
 "у публічному режимі:"
 
 #: concepts/public-private.md:block 8 (ordered list)
+#, fuzzy
 msgid ""
 "You have better chances to get Web content, and help others get that content "
 "(from you)."
@@ -94,6 +100,7 @@ msgstr ""
 "контент (від вас)."
 
 #: concepts/public-private.md:block 8 (ordered list)
+#, fuzzy
 msgid ""
 "Pages with dynamic content (e.g. updated in real time) may break in obvious "
 "or subtle ways."
@@ -102,6 +109,7 @@ msgstr ""
 "часу) можуть «ламатися» й це буде помітно або малопомітно."
 
 #: concepts/public-private.md:block 8 (ordered list)
+#, fuzzy
 msgid ""
 "Pages requiring authentication do not work (as passwords and cookies are "
 "removed by the client)."
@@ -110,6 +118,7 @@ msgstr ""
 "cookies видаляються клієнтом)."
 
 #: concepts/public-private.md:block 8 (ordered list)
+#, fuzzy
 msgid ""
 "Some browsing activity may be leaked to other users (see [risks](risks.md))."
 msgstr ""
@@ -117,13 +126,15 @@ msgstr ""
 "[ризики](risks.md))."
 
 #: concepts/public-private.md:block 8 (ordered list)
+#, fuzzy
 msgid ""
 "Some browsing activity may be leaked to injectors (see [risks](risks.md))."
 msgstr ""
-"Деякі ваші дії в браузері можуть стати відомими ін'єкторам (дивіться [ризики]"
-"(risks.md))."
+"Деякі ваші дії в браузері можуть стати відомими ін'єкторам (дивіться "
+"[ризики](risks.md))."
 
 #: concepts/public-private.md:block 8 (ordered list)
+#, fuzzy
 msgid "You need to trust injectors to retrieve and sign Web content."
 msgstr ""
 "Вам доведеться довіряти ін'єкторам аби отримувати та підписувати веб-контент."
@@ -133,6 +144,7 @@ msgid "While in private mode:"
 msgstr "У режимі приватного перегляду:"
 
 #: concepts/public-private.md:block 10 (ordered list)
+#, fuzzy
 msgid ""
 "You may not be able to access blocked Web content if international "
 "connectivity is too scarce; even if you could, other CENO users would not "
@@ -143,10 +155,12 @@ msgstr ""
 "отримати доступ, інші користувачі CENO не зможуть отримати цей вміст від вас."
 
 #: concepts/public-private.md:block 10 (ordered list)
+#, fuzzy
 msgid "Pages with dynamic content will probably work."
 msgstr "Сторінки з динамічним контентом, ймовірно, працюватимуть."
 
 #: concepts/public-private.md:block 10 (ordered list)
+#, fuzzy
 msgid ""
 "Pages requiring authentication may work (when your connection is protected "
 "by HTTPS, the injector does not see your passwords)."
@@ -155,10 +169,12 @@ msgstr ""
 "з'єднання захищене HTTPS, ін'єктор не бачить ваші паролі)."
 
 #: concepts/public-private.md:block 10 (ordered list)
+#, fuzzy
 msgid "Browsing activity is not leaked to other users."
 msgstr "Ваші дії у браузері не доступні іншим користувачам."
 
 #: concepts/public-private.md:block 10 (ordered list)
+#, fuzzy
 msgid ""
 "Limited browsing activity is leaked to injectors (with HTTPS, only the "
 "origin server name or address)."
@@ -167,6 +183,7 @@ msgstr ""
 "використанні HTTPS — лише ім'я або адреса вихідного сервера)."
 
 #: concepts/public-private.md:block 10 (ordered list)
+#, fuzzy
 msgid ""
 "You need not trust injectors (with HTTPS, usual certificate-based security "
 "still works)."
@@ -175,6 +192,7 @@ msgstr ""
 "захист на основі сертифікатів)."
 
 #: concepts/public-private.md:block 11 (paragraph)
+#, fuzzy
 msgid ""
 "In conclusion: if you are using CENO to read the news, watch videos, browse "
 "Wikipedia and other static resources that are otherwise censored in your "
@@ -189,6 +207,7 @@ msgstr ""
 "на WordPress — використовуйте режим *приватний перегляд*."
 
 #: concepts/public-private.md:block 12 (paragraph)
+#, fuzzy
 msgid ""
 "Please read the section on [risks](risks.md) for a more detailed "
 "explanation. Also note that your client can continue to operate as a bridge "
