@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-02-16 23:55+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
+"PO-Revision-Date: 2022-03-05 15:59+0000\n"
+"Last-Translator: Andrij Mizyk <andmizyk@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "user-manual/uk/>\n"
 "Language: uk\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.11-dev\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #: SUMMARY.md:block 1 (header)
 msgid "Summary"
@@ -25,6 +25,7 @@ msgid "[Introduction](intro/README.md)"
 msgstr "[Вступ](intro/README.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
+#, fuzzy
 msgid "[What is CENO Browser?](intro/ceno.md)"
 msgstr "[Що таке браузер CENO?](intro/ceno.md)"
 
@@ -50,7 +51,7 @@ msgstr "[Як це працює?](concepts/how.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Public vs. private browsing](concepts/public-private.md)"
-msgstr "[Публічний чи приватний перегляд сторінок](concepts/public-private.md)"
+msgstr "[Публічний чи приватний перегляд](concepts/public-private.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Advantages of using CENO/Ouinet](concepts/advantages.md)"
@@ -61,10 +62,12 @@ msgid "[Risks in using CENO/Ouinet](concepts/risks.md)"
 msgstr "[Ризики під час використання CENO/Ouinet](concepts/risks.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
+#, fuzzy
 msgid "[Using CENO Browser](browser/README.md)"
 msgstr "[Використання браузера CENO](browser/README.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
+#, fuzzy
 msgid "[Installing CENO](browser/install.md)"
 msgstr "[Встановлювання CENO](browser/install.md)"
 
@@ -78,6 +81,7 @@ msgid "[CENO settings](browser/settings.md)"
 msgstr "[Налаштування CENO](browser/settings.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
+#, fuzzy
 msgid "[Testing the Browser](browser/testing.md)"
 msgstr "[Тестування браузера](browser/testing.md)"
 
