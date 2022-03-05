@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-02-24 16:11+0000\n"
-"Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
+"PO-Revision-Date: 2022-03-05 15:56+0000\n"
+"Last-Translator: Andrij Mizyk <andmizyk@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "client-front-end/uk/>\n"
 "Language: uk\n"
@@ -10,13 +10,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.11-dev\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #: client/front-end.md:block 1 (header)
 msgid "Annex: The Ouinet client front-end"
 msgstr "Додаток: Зовнішній інтерфейс клієнта Ouinet"
 
 #: client/front-end.md:block 2 (paragraph)
+#, fuzzy
 msgid ""
 "The Ouinet client (as run by e.g. CENO Browser) offers a front-end page with "
 "some information and actions which may be useful for debugging the client. "
@@ -30,6 +31,7 @@ msgstr ""
 "команди доступні лише тут."
 
 #: client/front-end.md:block 3 (paragraph)
+#, fuzzy
 msgid ""
 "The front-end is accessible using any plain Web browser running on the same "
 "device (you can use CENO too). Its default address is <http://127.0.0.1:8078/"
@@ -49,6 +51,7 @@ msgid "The items shown in the page include:"
 msgstr "На сторінці відображаються такі елементи:"
 
 #: client/front-end.md:block 6 (unordered list)
+#, fuzzy
 msgid ""
 "A link to enable the client as a certificate authority (CA) at your browser, "
 "since the client needs to intercept HTTPS traffic."
@@ -57,6 +60,7 @@ msgstr ""
 "браузері, оскільки клієнту необхідно перехоплювати HTTPS-трафік."
 
 #: client/front-end.md:block 6 (unordered list)
+#, fuzzy
 msgid ""
 "You only need this to use a plain browser for testing the Ouinet client, in "
 "which case you will also have to configure its HTTP/HTTPS proxies to "
@@ -66,11 +70,12 @@ msgid ""
 msgstr ""
 "Вам це потрібно лише скориставшись звичайним браузером для тестування "
 "клієнта Ouinet, у цьому випадку вам також доведеться налаштувати його HTTP/"
-"HTTPS проксі на `127.0.0.1:8077` та вручну запустити [Розширення CENO]"
-"[Розширення CENO], щоб ін'єкція працювала. Ми рекомендуємо використовувати "
-"*окремий профіль браузера* для цієї мети."
+"HTTPS проксі на `127.0.0.1:8077` та вручну запустити [Розширення CENO]["
+"Розширення CENO], щоб ін'єкція працювала. Ми рекомендуємо використовувати *"
+"окремий профіль браузера* для цієї мети."
 
 #: client/front-end.md:block 6 (unordered list)
+#, fuzzy
 msgid ""
 "Please note that none of this needs to be done for CENO Browser, since it is "
 "already configured like that."
@@ -79,6 +84,7 @@ msgstr ""
 "вже налаштований відповідно."
 
 #: client/front-end.md:block 6 (unordered list)
+#, fuzzy
 msgid ""
 "Buttons to enable or disable the different mechanisms used by the client to "
 "access content."
@@ -87,6 +93,7 @@ msgstr ""
 "використовує для доступу до контенту."
 
 #: client/front-end.md:block 6 (unordered list)
+#, fuzzy
 msgid ""
 "Selectors to choose different log levels, like the default `INFO` "
 "(informational messages, warnings and errors) or `DEBUG` (verbose output "
@@ -99,6 +106,7 @@ msgstr ""
 "увімкнути та отримати файл журналу ."
 
 #: client/front-end.md:block 6 (unordered list)
+#, fuzzy
 msgid ""
 "When enabling the log file, the log level is automatically set to `DEBUG` "
 "(though you may change it again from here). When disabling the log file, the "
@@ -116,6 +124,7 @@ msgstr ""
 "звітів про помилки."
 
 #: client/front-end.md:block 6 (unordered list)
+#, fuzzy
 msgid ""
 "Information about client connectivity and injector addressing. The default "
 "`bep5` method looks up Internet addresses in a BitTorrent injector swarm, as "
@@ -126,6 +135,7 @@ msgstr ""
 "BitTorrent, як описано в [цьому розділі](../concepts/how.md)."
 
 #: client/front-end.md:block 6 (unordered list)
+#, fuzzy
 msgid ""
 "The public key used to verify signatures from injectors in the distributed "
 "cache."
@@ -134,6 +144,7 @@ msgstr ""
 "розподіленому кеші."
 
 #: client/front-end.md:block 6 (unordered list)
+#, fuzzy
 msgid ""
 "Information on your local cache like the maximum content age, approximate "
 "size of the cache, a button to purge it completely, and a link to the list "
