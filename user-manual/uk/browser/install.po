@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-03-04 08:00+0000\n"
-"Last-Translator: Андрій Бандура <andriykopanytsia@gmail.com>\n"
+"PO-Revision-Date: 2022-03-05 15:57+0000\n"
+"Last-Translator: Andrij Mizyk <andmizyk@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-install/uk/>\n"
 "Language: uk\n"
@@ -10,17 +10,19 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.11.1-dev\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #: browser/install.md:block 1 (header)
 msgid "Installing CENO"
 msgstr "Встановлення CENO"
 
 #: browser/install.md:block 2 (paragraph)
+#, fuzzy
 msgid "CENO Browser can be installed via the following means:"
 msgstr "Браузер CENO можна встановити так:"
 
 #: browser/install.md:block 3 (unordered list)
+#, fuzzy
 msgid ""
 "[Google Play][ceno-gplay] (*CENO Browser* from *eQualitie*): the recommended "
 "source for most Android users."
@@ -52,6 +54,7 @@ msgstr ""
 "роботи."
 
 #: browser/install.md:block 5 (quote)
+#, fuzzy
 msgid ""
 "**Warning:** Please be *extremely skeptical* about installing CENO Browser "
 "from sources other than the ones listed above. Because of the application's "
@@ -73,6 +76,7 @@ msgid "Stopping CENO completely"
 msgstr "Повна зупинка CENO"
 
 #: browser/install.md:block 7 (paragraph)
+#, fuzzy
 msgid ""
 "Every time you start the app, a CENO icon will appear on your device's "
 "notification bar. This icon represents the *CENO Browser service*, which is "
@@ -87,6 +91,7 @@ msgstr ""
 "його допомогою контент будь-коли."
 
 #: browser/install.md:block 8 (paragraph)
+#, fuzzy
 msgid ""
 "Since running such service uses network and processor resources, you may "
 "want to stop it whenever you are on the move (i.e. not connected to Wi-Fi or "
@@ -100,18 +105,20 @@ msgstr ""
 "роботу (аж поки ви знову не відкриєте CENO)."
 
 #: browser/install.md:block 9 (paragraph)
+#, fuzzy
 msgid ""
 "![Figure: Tap on the notification to stop the CENO service](images/tap-stop."
 "png)"
 msgstr ""
-"![Малюнок: Натисніть на повідомлення для зупинки роботи CENO](images/tap-"
-"stop.png)"
+"![Малюнок: Натисніть на повідомлення для зупинки роботи CENO](images/tap-stop"
+".png)"
 
 #: browser/install.md:block 10 (header)
 msgid "Purging all CENO data (the \"panic button\")"
 msgstr "Очищення всіх даних CENO («тривожна кнопка»)"
 
 #: browser/install.md:block 11 (paragraph)
+#, fuzzy
 msgid ""
 "The *CENO Browser service* notification shown above includes a few "
 "accompanying actions which can be triggered by tapping on them. The *Home* "
@@ -124,6 +131,7 @@ msgstr ""
 "головну сторінку. Команда *Стерти* — вимагає більш детального пояснення."
 
 #: browser/install.md:block 12 (quote)
+#, fuzzy
 msgid ""
 "**Note:** If the actions below the notification are not visible, drag the "
 "notification from its center towards the bottom to unfold it."
@@ -132,6 +140,7 @@ msgstr ""
 "від центру донизу, щоб розгорнути його."
 
 #: browser/install.md:block 13 (paragraph)
+#, fuzzy
 msgid ""
 "Shall you ever need to quickly stop CENO and clear absolutely all data "
 "related to it (not only cached content, but also settings like favorites, "
@@ -155,6 +164,7 @@ msgstr ""
 "purge.png)"
 
 #: browser/install.md:block 15 (paragraph)
+#, fuzzy
 msgid ""
 "If you tap on the *Yes* action, CENO will be stopped and all its data "
 "removed *without further questions*, effectively leaving your device as if "
@@ -169,6 +179,7 @@ msgid "If you do not tap on the action, it will go away in a few seconds."
 msgstr "Якщо НЕ натиснути на кнопку дії, вона зникне через кілька секунд."
 
 #: browser/install.md:block 17 (quote)
+#, fuzzy
 msgid ""
 "**Note:** The method described above requires that CENO be running on your "
 "device. To accomplish the same effect when CENO is stopped, you can use "
@@ -181,6 +192,7 @@ msgstr ""
 "вибрати CENO, а тоді *Очистити дані*."
 
 #: browser/install.md:block 17 (quote)
+#, fuzzy
 msgid "As a harsher alternative, you may completely uninstall the app."
 msgstr ""
 "Найбільш прямолінійна альтернатива — ви можете повністю видалити програму."
