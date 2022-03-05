@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-02-16 23:55+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
+"PO-Revision-Date: 2022-03-05 15:57+0000\n"
+"Last-Translator: Andrij Mizyk <andmizyk@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "how/uk/>\n"
 "Language: uk\n"
@@ -10,13 +10,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.11-dev\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #: concepts/how.md:block 1 (header)
 msgid "How does it work?"
 msgstr "Як це працює?"
 
 #: concepts/how.md:block 2 (paragraph)
+#, fuzzy
 msgid ""
 "This section will explain CENO and Ouinet operation by going over a series "
 "of scenarios. Terminology and concepts important to Ouinet will be "
@@ -24,15 +25,17 @@ msgid ""
 "efficiency and to avoid confusion."
 msgstr ""
 "У цьому розділі ми пояснимо роботу CENO та Ouinet, розглянувши кілька "
-"сценаріїв. Термінологія та поняття, важливі для Ouinet, будуть наведені "
-"(позначені **жирними літерами**) та використані надалі для ефективності та "
+"сценаріїв. Термінологія та поняття, важливі для Ouinet, будуть наведені ("
+"позначені **жирними літерами**) та використані надалі для ефективності та "
 "уникнення плутанини."
 
 #: concepts/how.md:block 3 (header)
+#, fuzzy
 msgid "Accessing content directly"
 msgstr "Прямий доступ до контенту"
 
 #: concepts/how.md:block 4 (paragraph)
+#, fuzzy
 msgid ""
 "CENO Browser is an example of an application that uses Ouinet technology to "
 "retrieve and share Web content. We call such an application a Ouinet "
@@ -55,6 +58,7 @@ msgstr ""
 "відрізняється від того, як працює будь-який звичайний веб-браузер."
 
 #: concepts/how.md:block 5 (quote)
+#, fuzzy
 msgid ""
 "**Technical note:** There is in fact one small gotcha. Since the client acts "
 "as an HTTP proxy running on your device, for the client to be able to "
@@ -73,6 +77,7 @@ msgstr ""
 "тому вам не потрібно хвилюватися."
 
 #: concepts/how.md:block 6 (paragraph)
+#, fuzzy
 msgid ""
 "However, these direct paths may not be available. For instance, your "
 "Internet service provider (ISP) may be blocking access to *X*'s origin "
@@ -91,37 +96,42 @@ msgstr ""
 "«ін'єктор». Ми пояснимо це трохи згодом."
 
 #: concepts/how.md:block 7 (paragraph)
+#, fuzzy
 msgid "![Figure: Client cannot reach content directly](images/user-flow-0.svg)"
 msgstr ""
 "![Малюнок: Клієнт не може отримати доступ до контенту напряму](images/user-"
 "flow-0.svg)"
 
 #: concepts/how.md:block 8 (paragraph)
+#, fuzzy
 msgid ""
 "With a normal browser you would be out of luck. However, with Ouinet you can "
 "ask other clients for their copies of content *X*, should they already have "
 "a copy. Let us see how Ouinet performs this request."
 msgstr ""
 "При використанні звичайного браузера вам би не пощастило. Однак, за "
-"допомогою Ouinet ви можете запросити у інших клієнтів їхні копії контенту "
-"*X*, якщо ця копія вже є. Погляньмо, як Ouinet виконує цей запит."
+"допомогою Ouinet ви можете запросити у інших клієнтів їхні копії контенту *X*"
+", якщо ця копія вже є. Погляньмо, як Ouinet виконує цей запит."
 
 #: concepts/how.md:block 9 (header)
+#, fuzzy
 msgid "Searching for shared content"
 msgstr "Пошук спільного контенту"
 
 #: concepts/how.md:block 10 (paragraph)
+#, fuzzy
 msgid ""
 "The set of all content stored by Ouinet clients is called the **distributed "
 "cache**, i.e. a store which sits in no single place. But how can your client "
 "find which other clients forming the cache have the desired content?"
 msgstr ""
-"Сукупність всього контенту, що зберігається клієнтами Ouinet, називається "
-"**розподіленим кешем**, тобто сховищем, яке НЕ розташоване в одному місці. "
-"Але як ваш клієнт розуміє, які інші клієнти, що створюють кеш, мають "
+"Сукупність всього контенту, що зберігається клієнтами Ouinet, називається **"
+"розподіленим кешем**, тобто сховищем, яке НЕ розташоване в одному місці. Але "
+"як ваш клієнт розуміє, які інші клієнти, що створюють кеш, мають "
 "витребуваний контент?"
 
 #: concepts/how.md:block 11 (paragraph)
+#, fuzzy
 msgid ""
 "In any Web browser, to access content *X* it needs to know its [Uniform "
 "Resource Locator][Uniform Resource Locator] (URL), that is the address in "
@@ -131,8 +141,8 @@ msgid ""
 "resources) over SSL/TLS (a security layer over TCP, the Internet's rules for "
 "programs to talk to each other) and request the resource `/foo/x`."
 msgstr ""
-"У будь-якому веб-браузері для доступу до контенту *X* необхідно знати його "
-"[Уніфікований локатор ресурсу][Уніфікований локатор ресурсу] (URL), тобто "
+"У будь-якому веб-браузері для доступу до контенту *X* необхідно знати його ["
+"Уніфікований локатор ресурсу][Уніфікований локатор ресурсу] (URL), тобто "
 "адресу в адресному рядку браузера, наприклад `https://example.com/foo/ x`. З "
 "цього URL звичайний браузер зробить висновок, що він повинен зв'язатися з "
 "веб-сервером під назвою `example.com`, використовуючи протокол HTTP (мова, "
@@ -141,6 +151,7 @@ msgstr ""
 "ресурс `/foo/x`."
 
 #: concepts/how.md:block 12 (paragraph)
+#, fuzzy
 msgid ""
 "Ouinet looks for the content in a different way. It uses an index not unlike "
 "that of a book: in Ouinet's **distributed cache index** you look up the "
@@ -151,16 +162,17 @@ msgid ""
 "content you have, but someone looking for a particular content can follow "
 "the hints towards your client."
 msgstr ""
-"Ouinet шукає вміст інакше. Він використовує індекс, схожий на книжковий: у "
-"**розподіленому індексі кеша** Ouinet ви шукаєте повну URL-адресу контенту "
-"та отримуєте список клієнтів, у яких є його копія. Сам індекс є "
-"розподіленим, при чому клієнти самі повідомляють іншим, який саме контент "
-"вони мають. Насправді, пропонується тільки *підказка* про кожну URL-адресу, "
-"тому той, хто стежить за трафіком вашого пристрою, не може визначити, який "
-"контент у вас є. Однак той, хто шукає конкретний контент, може орієнтуватися "
-"на підказку і знайти ваш клієнт ."
+"Ouinet шукає вміст інакше. Він використовує індекс, схожий на книжковий: у **"
+"розподіленому індексі кеша** Ouinet ви шукаєте повну URL-адресу контенту та "
+"отримуєте список клієнтів, у яких є його копія. Сам індекс є розподіленим, "
+"при чому клієнти самі повідомляють іншим, який саме контент вони мають. "
+"Насправді, пропонується тільки *підказка* про кожну URL-адресу, тому той, "
+"хто стежить за трафіком вашого пристрою, не може визначити, який контент у "
+"вас є. Однак той, хто шукає конкретний контент, може орієнтуватися на "
+"підказку і знайти ваш клієнт ."
 
 #: concepts/how.md:block 13 (quote)
+#, fuzzy
 msgid ""
 "**Technical note:** One way the index is implemented is using [BitTorrent]"
 "[BitTorrent]'s [Distributed Hash Table][Distributed Hash Table] (DHT) to get "
@@ -169,15 +181,16 @@ msgid ""
 "table key from the content's URL and some other parameters as the injector "
 "key (see below), so that several indexes can coexist."
 msgstr ""
-"**Технічна примітка:** Один із способів реалізації індексу — використання "
-"[розподіленої хеш-таблиці][розподіленої хеш-таблиці] [протоколу BitTorrent]"
-"[протоколу BitTorrent] (DHT) для отримання адрес (IP та порту) клієнтів з "
-"контентом. DHT використовує [криптографічну хеш-функцію][криптографічну хеш-"
-"функцію] для обчислення ключа таблиці з URL контенту та деяких інших "
+"**Технічна примітка:** Один із способів реалізації індексу — використання ["
+"розподіленої хеш-таблиці][розподіленої хеш-таблиці] [протоколу BitTorrent]["
+"протоколу BitTorrent] (DHT) для отримання адрес (IP та порту) клієнтів з "
+"контентом. DHT використовує [криптографічну хеш-функцію][криптографічну "
+"хеш-функцію] для обчислення ключа таблиці з URL контенту та деяких інших "
 "параметрів як ключ ін'єктора (дивіться нижче), так що кілька індексів можуть "
 "співіснувати."
 
 #: concepts/how.md:block 13 (quote)
+#, fuzzy
 msgid ""
 "Also, CENO Browser does not announce the URL of every single resource it "
 "holds: with any modern page having tens or hundreds of components (images, "
@@ -194,6 +207,7 @@ msgstr ""
 "розширення браузера *ad hoc* (наведено нижче)."
 
 #: concepts/how.md:block 14 (paragraph)
+#, fuzzy
 msgid ""
 "Clients offering some particular content over the distributed cache are said "
 "to be **seeding** it or to be their *seeders* (these terms come from the P2P "
@@ -203,19 +217,21 @@ msgid ""
 "*X* in the distributed cache index, as depicted below:"
 msgstr ""
 "Клієнти, що пропонують певний контент через розподілений кеш, називаються "
-"**роздавальними** контент або *сідами* (ці терміни прийшли зі світу P2P-"
-"файлообміну). Повертаючись до нашого прикладу, можна сказати, що є два "
+"**роздавальними** контент або *сідами* (ці терміни прийшли зі світу "
+"P2P-файлообміну). Повертаючись до нашого прикладу, можна сказати, що є два "
 "клієнти, які роздають певний контент. На жаль, один із них викладає контент "
 "*Y*, а інший — контент *Z*, тому ваш клієнт не знайде записів для контенту "
 "*X* в індексі розподіленого кешу, як показано нижче:"
 
 #: concepts/how.md:block 15 (paragraph)
+#, fuzzy
 msgid ""
 "![Figure: Content not found in the distributed cache](images/user-flow-1.svg)"
 msgstr ""
 "![Малюнок: Контент не знайдений у розподіленому кеші](images/user-flow-1.svg)"
 
 #: concepts/how.md:block 16 (paragraph)
+#, fuzzy
 msgid ""
 "Fortunately, Ouinet offers a way to retrieve such content and furthermore "
 "make it available to other clients in the distributed cache. Please read on "
@@ -226,6 +242,7 @@ msgstr ""
 "ознайомтесь із інструкцією."
 
 #: concepts/how.md:block 17 (header)
+#, fuzzy
 msgid "Sharing new content"
 msgstr "Обмін новим контентом"
 
@@ -234,6 +251,7 @@ msgid "Proxies on steroids"
 msgstr "Проксі на стероїдах"
 
 #: concepts/how.md:block 19 (paragraph)
+#, fuzzy
 msgid ""
 "In Ouinet, there are special kinds of proxy servers called **injectors** "
 "which sit in the (hopefully) free side of the Internet and try very hard to "
@@ -244,6 +262,7 @@ msgstr ""
 "інтернету і намагаються залишатися доступними, незважаючи на блокування:"
 
 #: concepts/how.md:block 20 (unordered list)
+#, fuzzy
 msgid ""
 "First of all, connections between clients and injectors are encrypted (using "
 "standard SSL/TLS like in HTTPS) to avoid attackers from identifying "
@@ -254,6 +273,7 @@ msgstr ""
 "ін'єктори шляхом прослуховування веб-трафіку."
 
 #: concepts/how.md:block 20 (unordered list)
+#, fuzzy
 msgid ""
 "By the way, injector certificates are shipped in CENO Browser, allowing it "
 "to detect attackers trying to impersonate injectors."
@@ -262,6 +282,7 @@ msgstr ""
 "йому виявляти зловмисників, які намагаються видати себе за ін'єкторів."
 
 #: concepts/how.md:block 20 (unordered list)
+#, fuzzy
 msgid ""
 "If encryption was not sufficient, connections to injectors can use special "
 "obfuscation techniques (like I2P and Tor's Pluggable Transports) to make "
@@ -272,6 +293,7 @@ msgstr ""
 "для ускладнення ідентифікації."
 
 #: concepts/how.md:block 20 (unordered list)
+#, fuzzy
 msgid ""
 "Even if an injector was identified and access to it was blocked by your ISP, "
 "there are several of them and it does not matter which one your client "
@@ -282,6 +304,7 @@ msgstr ""
 "клієнт зв'язується через інтернет."
 
 #: concepts/how.md:block 20 (unordered list)
+#, fuzzy
 msgid ""
 "Some or all injectors may be blocked, but then the set of injectors can vary "
 "over time (with new ones being added)."
@@ -290,6 +313,7 @@ msgstr ""
 "ін'єкторів може змінюватися з часом (з додаванням нових)."
 
 #: concepts/how.md:block 20 (unordered list)
+#, fuzzy
 msgid ""
 "Your client need not know their Internet addresses in advance; instead, it "
 "performs a lookup in the **injector swarm** (another term from P2P file "
@@ -297,11 +321,12 @@ msgid ""
 "index which yields the addresses of currently available injectors."
 msgstr ""
 "Вашому клієнту не потрібно заздалегідь знати їхню інтернет-адресу; натомість "
-"клієнт виконує пошук у **рої ін'єкторів** (ще один термін з P2P-"
-"файлообміну), розподіленому індексі, схожому на індекс розподіленого кешу, "
-"що видає адреси доступних ін'єкторів."
+"клієнт виконує пошук у **рої ін'єкторів** (ще один термін з P2P-файлообміну)"
+", розподіленому індексі, схожому на індекс розподіленого кешу, що видає "
+"адреси доступних ін'єкторів."
 
 #: concepts/how.md:block 20 (unordered list)
+#, fuzzy
 msgid ""
 "Finally, even if your client may not be able to reach any injector, some "
 "other clients may. When a client is able to reach an injector and believes "
@@ -316,6 +341,7 @@ msgstr ""
 "індекс."
 
 #: concepts/how.md:block 20 (unordered list)
+#, fuzzy
 msgid ""
 "So your client can look for such an address, connect to the bridge behind it "
 "and tell it to establish another connection to an injector on its behalf, "
@@ -328,6 +354,7 @@ msgstr ""
 "бути встановлене з'єднання усередині тунелю."
 
 #: concepts/how.md:block 20 (unordered list)
+#, fuzzy
 msgid ""
 "Please note that since client-to-injector connections are encrypted, bridges "
 "are not able to see the information flowing between them."
@@ -336,6 +363,7 @@ msgstr ""
 "шифруються, мости не можуть бачити інформацію, що проходить між ними."
 
 #: concepts/how.md:block 21 (paragraph)
+#, fuzzy
 msgid ""
 "An injector can behave like a normal (though extra available) proxy server, "
 "and this is indeed what Ouinet clients (including CENO Browser) do currently "
@@ -351,6 +379,7 @@ msgstr ""
 "незашифроване HTTP-з'єднання)."
 
 #: concepts/how.md:block 22 (paragraph)
+#, fuzzy
 msgid ""
 "But there exist other tools allowing you to reach proxies in stringent "
 "network interference conditions so, what is so special about Ouinet "
@@ -361,10 +390,12 @@ msgstr ""
 "ін'єкторах Ouinet?"
 
 #: concepts/how.md:block 23 (header)
+#, fuzzy
 msgid "Trusting shared content"
 msgstr "Довіра до спільного контенту"
 
 #: concepts/how.md:block 24 (paragraph)
+#, fuzzy
 msgid ""
 "Well, the point is that an injector does not just retrieve content on behalf "
 "of your client, it also allows you to *share that content with others at a "
@@ -376,6 +407,7 @@ msgstr ""
 "коли доступ до ін'єктора або більшої частини інтернету вже закритий."
 
 #: concepts/how.md:block 25 (paragraph)
+#, fuzzy
 msgid ""
 "You could of course download a page from your browser and copy the resulting "
 "files to other people, which should be fine if you know each other. But what "
@@ -392,6 +424,7 @@ msgstr ""
 "була підроблена?"
 
 #: concepts/how.md:block 26 (paragraph)
+#, fuzzy
 msgid ""
 "We want CENO and Ouinet usage to scale and provide as much content to as "
 "many people as possible, so we do want you to be able to receive content "
@@ -412,6 +445,7 @@ msgstr ""
 "для підпису та повертає підписаний контент клієнту."
 
 #: concepts/how.md:block 27 (quote)
+#, fuzzy
 msgid ""
 "**Technical note:** In fact, the injector signs individual blocks of data as "
 "they come, so even if the connection is cut in the middle while retrieving a "
@@ -424,6 +458,7 @@ msgstr ""
 "який отримав ці дані."
 
 #: concepts/how.md:block 28 (paragraph)
+#, fuzzy
 msgid ""
 "Different injectors may have different keys, so you can choose which "
 "injectors to trust. Picture it like this: you may trust a document signed by "
@@ -440,6 +475,7 @@ msgstr ""
 "довіру до набору ін'єкторів під керуванням eQualitie."
 
 #: concepts/how.md:block 29 (quote)
+#, fuzzy
 msgid ""
 "**Technical note:** Injectors use a public/private key pair to create "
 "Ed25519 signatures; public keys are small enough to allow them to be sent "
@@ -454,10 +490,12 @@ msgstr ""
 "обмінятися телефоном або записати на аркуші паперу."
 
 #: concepts/how.md:block 30 (header)
+#, fuzzy
 msgid "Content injection"
 msgstr "Ін'єкція контенту"
 
 #: concepts/how.md:block 31 (paragraph)
+#, fuzzy
 msgid ""
 "Remember that in our example scenario your client had already tried to "
 "retrieve content *X* directly from the origin server and from other clients "
@@ -472,6 +510,7 @@ msgstr ""
 "з іншими клієнтами."
 
 #: concepts/how.md:block 32 (paragraph)
+#, fuzzy
 msgid ""
 "In the figure below you can see a possible outcome of that operation: the "
 "client first tries to contact the injector directly (e.g. using an Internet "
@@ -492,10 +531,12 @@ msgstr ""
 "сервера."
 
 #: concepts/how.md:block 33 (paragraph)
+#, fuzzy
 msgid "![Figure: Client reaches for injector](images/user-flow-2.svg)"
 msgstr "![Малюнок: Клієнт звертається до ін'єктора](images/user-flow-2.svg)"
 
 #: concepts/how.md:block 34 (paragraph)
+#, fuzzy
 msgid ""
 "As content *X* is received by the injector, it signs it with its key, adds "
 "the signature to the content and sends it back to your client via the tunnel "
@@ -508,6 +549,7 @@ msgstr ""
 "блокування). Як тільки вміст досягає вашого клієнта, він робить три речі:"
 
 #: concepts/how.md:block 35 (ordered list)
+#, fuzzy
 msgid ""
 "It delivers it to you (in the case of CENO, it shows the content on the "
 "browser)."
@@ -515,6 +557,7 @@ msgstr ""
 "Він передає його вам (у випадку із CENO він показує контент у браузері)."
 
 #: concepts/how.md:block 35 (ordered list)
+#, fuzzy
 msgid ""
 "It saves the content on your device for further seeding to other clients. It "
 "will stay there for a configurable amount of time, or until you decide to "
@@ -526,6 +569,7 @@ msgstr ""
 "контент."
 
 #: concepts/how.md:block 35 (ordered list)
+#, fuzzy
 msgid ""
 "It announces in the distributed cache index that it is in possession of a "
 "copy of that content, so that other clients can find it."
@@ -534,6 +578,7 @@ msgstr ""
 "інші клієнти могли його знайти."
 
 #: concepts/how.md:block 36 (paragraph)
+#, fuzzy
 msgid ""
 "The whole combined operation of retrieval, signing, storage and announcement "
 "is what we call **content injection**, as shown in the figure below."
@@ -542,6 +587,7 @@ msgstr ""
 "тим, що ми називаємо **ін'єкцією контенту**, як це показано на малюнку нижче."
 
 #: concepts/how.md:block 37 (paragraph)
+#, fuzzy
 msgid ""
 "![Figure: Client receives signed content from injector](images/user-flow-3."
 "svg)"
@@ -551,7 +597,7 @@ msgstr ""
 
 #: concepts/how.md:block 38 (header)
 msgid "Browsing under complete blocking"
-msgstr "Перегляд сторінок при повному блокуванні"
+msgstr "Перегляд під час повного блокування"
 
 #: concepts/how.md:block 39 (paragraph)
 msgid ""
@@ -563,13 +609,14 @@ msgid ""
 "the real power of the distributed cache comes into play."
 msgstr ""
 "Будь ласка, зверніть увагу, що описана вище схема, як і раніше, вимагає, щоб "
-"*існував шлях* крізь блокування і до решти інтернету. Але іноді цього шляху "
+"*існував шлях* крізь блокування і до решти Інтернету. Але іноді цього шляху "
 "може не бути: візьміть до уваги повне міжнародне відключення, стихійні лиха "
 "або просто надмірне навантаження небагатьох наявних шляхів (з огляду на те, "
 "що всі намагаються скористатися ними). Саме тут і проявляється справжня "
 "потужність розподіленого кешу."
 
 #: concepts/how.md:block 40 (paragraph)
+#, fuzzy
 msgid ""
 "Let us imagine that after you retrieved content *X* from the injector, a "
 "disaster leaves your region isolated from the world. It turns out that "
@@ -582,6 +629,7 @@ msgstr ""
 "деякі способи, якими ви можете допомогти вашій спільноті в такій ситуації."
 
 #: concepts/how.md:block 41 (paragraph)
+#, fuzzy
 msgid ""
 "At that moment a second person using CENO Browser also tries to get that "
 "content. Access to the origin server or to anything beyond your region is "
@@ -597,6 +645,7 @@ msgstr ""
 "показано нижче."
 
 #: concepts/how.md:block 42 (paragraph)
+#, fuzzy
 msgid ""
 "![Figure: Client receives signed content from client](images/user-flow-4.svg)"
 msgstr ""
@@ -604,6 +653,7 @@ msgstr ""
 "svg)"
 
 #: concepts/how.md:block 43 (paragraph)
+#, fuzzy
 msgid ""
 "Now that second device also holds a copy of content *X*, so it announces "
 "this in the distributed cache index, thus becoming a seeder. If a third "
@@ -623,6 +673,7 @@ msgstr ""
 "зменшуючи трафік, що використовується."
 
 #: concepts/how.md:block 44 (paragraph)
+#, fuzzy
 msgid ""
 "![Figure: Client receives signed content from multiple clients](images/user-"
 "flow-5.svg)"
@@ -631,6 +682,7 @@ msgstr ""
 "user-flow-5.svg)"
 
 #: concepts/how.md:block 45 (paragraph)
+#, fuzzy
 msgid ""
 "Finally, the situation may get even worse, and all commercial and state "
 "network infrastructure may be shut down. In this case, Ouinet and CENO "
@@ -670,5 +722,5 @@ msgid ""
 "[Distributed Hash Table]: https://en.wikipedia.org/wiki/"
 "Distributed_hash_table"
 msgstr ""
-"[розподіленої хеш-таблиці]: https://uk.wikipedia.org/wiki/Розподілена_геш-"
-"таблиця"
+"[розподіленої хеш-таблиці]: https://uk.wikipedia.org/wiki/"
+"Розподілена_геш-таблиця"
