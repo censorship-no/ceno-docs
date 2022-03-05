@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-02-16 23:55+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
+"PO-Revision-Date: 2022-03-05 15:56+0000\n"
+"Last-Translator: Andrij Mizyk <andmizyk@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "qsg/uk/>\n"
 "Language: uk\n"
@@ -10,13 +10,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.11-dev\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #: intro/qsg.md:block 1 (header)
 msgid "Quick start guide"
 msgstr "Короткий посібник"
 
 #: intro/qsg.md:block 2 (paragraph)
+#, fuzzy
 msgid ""
 "CENO Browser allows you to access any website on the Internet, even if it is "
 "censored in your country. CENO uses a peer-to-peer infrastructure to route "
@@ -31,13 +32,14 @@ msgstr ""
 
 #: intro/qsg.md:block 3 (header)
 msgid "How to get started"
-msgstr "Як почати"
+msgstr "З чого почати"
 
 #: intro/qsg.md:block 4 (paragraph)
 msgid "You will need an Android device:"
 msgstr "Вам знадобиться пристрій Android:"
 
 #: intro/qsg.md:block 5 (ordered list)
+#, fuzzy
 msgid ""
 "Install CENO Browser from [Google Play][ceno-gplay], [GitHub][ceno-gh] or "
 "[Paskoocheh][ceno-pask]. *No special permissions are needed*."
@@ -55,11 +57,10 @@ msgid ""
 "privacy for some page or if it is not loading as expected, use a private tab "
 "(see [public vs. private browsing](../concepts/public-private.md))."
 msgstr ""
-"Переглядайте сторінки як завжди, щоб допомогти іншим користувачам отримати "
-"доступ до них; якщо вас непокоїть конфіденційність якоїсь сторінки або якщо "
+"Переглядайте сторінки як зазвичай, щоб допомогти іншим користувачам отримати "
+"до них доступ; якщо Вас непокоїть конфіденційність якоїсь сторінки або якщо "
 "вона завантажується не так, як очікувалося — використовуйте приватну вкладку "
-"(дивіться [публічний чи приватний. перегляд сторінок](../concepts/public-"
-"private.md))."
+"(дивіться [публічний чи приватний перегляд](../concepts/public-private.md))."
 
 #: intro/qsg.md:block 5 (ordered list)
 msgid "Tap on the CENO notification to stop it completely."
@@ -79,10 +80,11 @@ msgid ""
 "CENO Browser should work out-of-the-box. You can find some [diagnostics and "
 "settings](../browser/settings.md) under the *CENO* menu entry."
 msgstr ""
-"Браузер CENO повинен працювати «з коробки» – відразу. Ви можете знайти ["
-"діагностика та налаштування](../browser/settings.md) під пунктом меню *CENO*."
+"Оглядач CENO повинен працювати «з коробки». Ви можете знайти [діагностику та "
+"налаштування](../browser/settings.md) під пунктом меню *CENO*."
 
 #: intro/qsg.md:block 9 (paragraph)
+#, fuzzy
 msgid ""
 "If you want to make sure that your app is also helping others access blocked "
 "content, please [read this section](../browser/bridging.md)."
@@ -97,7 +99,7 @@ msgstr "Залишилися питання?"
 
 #: intro/qsg.md:block 11 (unordered list)
 msgid "Please see the [FAQ](faq.md)."
-msgstr "Будь ласка, ознайомтесь з [Часті питання](faq.md)."
+msgstr "Будь ласка, перегляньте [Часті питання](faq.md)."
 
 #: intro/qsg.md:block 11 (unordered list)
 msgid "Refer to the [troubleshooting guide](../browser/troubleshooting.md)."
@@ -109,8 +111,8 @@ msgstr ""
 msgid ""
 "Contact us by writing to [cenoers@equalit.ie](mailto:cenoers@equalit.ie)."
 msgstr ""
-"Зв'яжіться з нами, написавши на адресу [cenoers@equalit.ie](mailto:"
-"cenoers@equalit.ie)."
+"Звʼяжіться з нами, написавши на адресу [cenoers@equalit."
+"ie](mailto:cenoers@equalit.ie)."
 
 #: intro/qsg.md:block 11 (unordered list)
 msgid ""
