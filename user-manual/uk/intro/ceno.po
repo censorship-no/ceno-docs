@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-02-16 23:55+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
+"PO-Revision-Date: 2022-03-05 15:56+0000\n"
+"Last-Translator: Andrij Mizyk <andmizyk@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "ceno/uk/>\n"
 "Language: uk\n"
@@ -10,13 +10,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.11-dev\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #: intro/ceno.md:block 1 (header)
+#, fuzzy
 msgid "What is CENO Browser?"
 msgstr "Що таке браузер CENO?"
 
 #: intro/ceno.md:block 2 (paragraph)
+#, fuzzy
 msgid ""
 "CENO (short for [Censorship.no!][Censorship.no!]) is a Web browser for "
 "mobile Android devices (such as smartphones and tablets) that uses a novel "
@@ -35,6 +37,7 @@ msgstr ""
 "час жорсткої фільтрації та регулювання."
 
 #: intro/ceno.md:block 3 (paragraph)
+#, fuzzy
 msgid ""
 "What sets CENO apart from most other circumvention initiatives is that users "
 "can continue to share Web content even when no (or extremely limited) "
@@ -50,6 +53,7 @@ msgstr ""
 "що захищають зовнішній інтернет."
 
 #: intro/ceno.md:block 4 (paragraph)
+#, fuzzy
 msgid ""
 "CENO Browser is built on an adapted version of [Firefox for Android][Firefox "
 "for Android], a popular, modern, feature-rich and secure Free/Libre/Open "
@@ -92,6 +96,7 @@ msgid "Who is it for?"
 msgstr "Для кого це?"
 
 #: intro/ceno.md:block 8 (paragraph)
+#, fuzzy
 msgid ""
 "CENO is meant for everyone but is particularly convenient for people "
 "interested in Web content that is censored on their network, and those those "
@@ -107,6 +112,7 @@ msgstr ""
 "собою, створюючи децентралізовану мережу вузлів, що допомагають один одному."
 
 #: intro/ceno.md:block 9 (paragraph)
+#, fuzzy
 msgid ""
 "You do not need to be an advanced computer user or even understand how peer-"
 "to-peer networks operate to use CENO. The user experience is akin to "
@@ -119,6 +125,7 @@ msgstr ""
 "для CENO функціональність значною мірою прихована «під капотом»)."
 
 #: intro/ceno.md:block 10 (paragraph)
+#, fuzzy
 msgid ""
 "CENO can, however, generate more Internet traffic than your usual Web "
 "browser – since it needs to let other users know what Web content it is "
@@ -137,6 +144,7 @@ msgstr ""
 "для збільшення шансів доставити веб-контент іншим користувачам."
 
 #: intro/ceno.md:block 11 (quote)
+#, fuzzy
 msgid ""
 "**Warning:** *CENO is not an anonymity tool.* In fact, using CENO may allow "
 "others to know whether you have accessed or are sharing certain Web content. "
