@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-03-06 18:20+0000\n"
+"PO-Revision-Date: 2022-03-07 18:56+0000\n"
 "Last-Translator: Andrij Mizyk <andmizyk@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-troubleshooting/uk/>\n"
@@ -68,7 +68,7 @@ msgid ""
 "have encountered some issue while starting."
 msgstr ""
 "Якщо сторінка налаштувань залишається в такому стані більше, ніж дві "
-"хвилини, можливо, Ouinet зіткнувся з проблемою при запуску."
+"хвилини, можливо, Ouinet зіткнувся з проблемою під час запуску."
 
 #: browser/troubleshooting.md:block 9 (paragraph)
 msgid ""
@@ -92,7 +92,7 @@ msgid ""
 "service to the device, then restart CENO."
 msgstr ""
 "Якщо при відвідуванні сторінки Ви отримуєте помилку типу «Проксі-сервер "
-"відмовляє у підключенні», спробуйте зупинити інші програми, що працюють на "
+"відмовляє в підключенні», спробуйте зупинити інші програми, що працюють на "
 "пристрої, а потім перезапустіть CENO."
 
 #: browser/troubleshooting.md:block 11 (quote)
@@ -105,7 +105,7 @@ msgstr ""
 
 #: browser/troubleshooting.md:block 12 (header)
 msgid "The *Ouinet client state* under *CENO Settings* is not `started`"
-msgstr "*Статус клієнта Ouinet* в *налаштуваннях CENO* – не `запущений`"
+msgstr "*Стан клієнта Ouinet* в *налаштуваннях CENO* – не `запущений`"
 
 #: browser/troubleshooting.md:block 13 (paragraph)
 msgid ""
@@ -141,8 +141,8 @@ msgstr ""
 #: browser/troubleshooting.md:block 16 (header)
 msgid "A page shows bogus content (like a block message)"
 msgstr ""
-"На сторінці не відображається даний вміст (наприклад, відображається "
-"повідомлення про блокування)"
+"На сторінці відображається фальшивий вміст (як-от повідомлення про "
+"блокування)"
 
 #: browser/troubleshooting.md:block 17 (paragraph)
 msgid ""
@@ -150,8 +150,8 @@ msgid ""
 "Unfortunately, someone intercepted the connection and directed it to an "
 "illegitimate server."
 msgstr ""
-"CENO зміг звʼязатися з вебсервером та отримати з нього вміст. На жаль, "
-"зʼєднання було перехоплено та перенаправлено на чужий сервер."
+"CENO зміг звʼязатися з вебсервером та отримати від нього вміст. На жаль, "
+"зʼєднання було перехоплене та перенаправлене на чужий сервер."
 
 #: browser/troubleshooting.md:block 18 (paragraph)
 msgid ""
