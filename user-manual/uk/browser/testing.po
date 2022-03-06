@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-03-05 15:57+0000\n"
+"PO-Revision-Date: 2022-03-06 18:20+0000\n"
 "Last-Translator: Andrij Mizyk <andmizyk@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-testing/uk/>\n"
@@ -13,12 +13,10 @@ msgstr ""
 "X-Generator: Weblate 4.12-dev\n"
 
 #: browser/testing.md:block 1 (header)
-#, fuzzy
 msgid "Testing the Browser"
-msgstr "Перевірка браузера"
+msgstr "Перевірка оглядача"
 
 #: browser/testing.md:block 2 (paragraph)
-#, fuzzy
 msgid ""
 "Now that you know how to [install](install.md) and [configure](settings.md) "
 "CENO, let us follow some steps to test whether different Ouinet-specific "
@@ -26,24 +24,22 @@ msgid ""
 "different access mechanisms. Keep in mind however that in day-to-day usage "
 "of CENO, you will seldom need to change the default settings at all."
 msgstr ""
-"Тепер, коли ви знаєте, як [встановити](install.md) та [налаштувати](settings."
+"Тепер, коли Ви знаєте, як [встановити](install.md) та [налаштувати](settings."
 "md) CENO, давайте виконаємо кілька кроків, щоб перевірити, чи працюють "
 "різноманітні функції Ouinet. Перевірка включає покрокове включення і "
-"відключення різних механізмів доступу. Пам'ятайте, що при повсякденному "
-"використанні CENO вам рідко доведеться змінювати стандартні налаштування."
+"відключення різних механізмів доступу. Памʼятайте, що при повсякденному "
+"використанні CENO Вам рідко доведеться змінювати стандартні налаштування."
 
 #: browser/testing.md:block 3 (paragraph)
-#, fuzzy
 msgid ""
 "To complete all the tests below you will need at least two devices connected "
 "to the same Wi-Fi network, and a third one on a completely different network."
 msgstr ""
-"Для виконання всіх наведених нижче тестів вам знадобиться як мінімум два "
+"Для виконання всіх наведених нижче тестів Вам знадобиться як мінімум два "
 "пристрої, підключені до однієї мережі Wi-Fi, і ще один додатковий, "
 "підключений до іншої мережі."
 
 #: browser/testing.md:block 4 (paragraph)
-#, fuzzy
 msgid ""
 "All of the tests will be performed using [public browsing](public-private."
 "md). If something does not work as expected, please be patient and check the "
@@ -51,20 +47,18 @@ msgid ""
 "browser gets stuck for more than a couple of minutes while loading a page, "
 "you may hit stop and reload it (although this may alter results slightly)."
 msgstr ""
-"Усі тести будуть проводитись з використанням [публічного перегляду](public-"
+"Усі тести будуть проводитися з використанням [публічного перегляду](public-"
 "private.md). Якщо щось працює не так, як очікувалося, будь ласка, наберіться "
 "терпіння та ознайомтеся з розділом [усунення несправностей](troubleshooting."
-"md). Зокрема, якщо браузер зависає при завантаженні сторінки більш ніж на "
-"кілька хвилин, ви можете зупинити та перезавантажити цю сторінку (хоча це "
+"md). Зокрема, якщо оглядач зависає при завантаженні сторінки більш ніж на "
+"кілька хвилин, Ви можете зупинити та перезавантажити цю сторінку (хоча це "
 "може дещо змінити результати)."
 
 #: browser/testing.md:block 5 (header)
-#, fuzzy
 msgid "Accessing an injector"
-msgstr "Доступ до ін'єктора"
+msgstr "Доступ до інʼєктора"
 
 #: browser/testing.md:block 6 (paragraph)
-#, fuzzy
 msgid ""
 "Let us first check whether your CENO Browser can reach an injector. This may "
 "look trivial, but your client will already be exercising several Ouinet "
@@ -73,11 +67,11 @@ msgid ""
 "provider or country, looking up the bridge swarm and trying to contact the "
 "injector via some other Ouinet client."
 msgstr ""
-"Давайте спершу перевіримо, чи ваш браузер CENO може зв'язатися з ін'єктором. "
+"Давайте спершу перевіримо, чи Ваш оглядач CENO може звʼязатися з інʼєктором. "
 "Цей етап може здатися тривіальним, але він здійснює відразу кілька функцій "
-"Ouinet: шукає адресу ін'єктора в «рої» ін'єкторів, намагається зв'язатися з "
-"ним безпосередньо і якщо ін'єктор заблокований вашим провайдером або "
-"країною, шукає мости і намагається зв'язатися з ін'єктором через будь-який "
+"Ouinet: шукає адресу інʼєктора в «рої» інʼєкторів, намагається звʼязатися з "
+"ним безпосередньо і якщо інʼєктор заблокований Вашим провайдером або "
+"країною, шукає мости і намагається звʼязатися з інʼєктором через будь-який "
 "інший клієнт Ouinet."
 
 #: browser/testing.md:block 7 (paragraph)
@@ -85,65 +79,59 @@ msgid "In the first device perform the following steps:"
 msgstr "На першому пристрої виконайте такі дії:"
 
 #: browser/testing.md:block 8 (ordered list)
-#, fuzzy
 msgid "First of all, install CENO and start it. Its home page will appear."
 msgstr ""
-"Насамперед, встановіть CENO і запустіть його. З'явиться головна сторінка."
+"Насамперед, встановіть CENO і запустіть його. Зʼявиться головна сторінка."
 
 #: browser/testing.md:block 8 (ordered list)
-#, fuzzy
 msgid ""
 "Open the app's main menu and choose *CENO* to open the *CENO Settings* page. "
 "Since we only want to test injector access, uncheck all the boxes for "
 "content sources except *Via the CENO network (public)*."
 msgstr ""
 "Відкрийте головне меню програми та виберіть *CENO*, щоб відкрити сторінку *"
-"Налаштування CENO*. Оскільки ми хочемо перевірити лише доступ до ін'єктора, "
-"зніміть прапорці з джерел контенту, окрім *У публічній мережі CENO*."
+"Налаштування CENO*. Оскільки ми хочемо перевірити лише доступ до інʼєктора, "
+"зніміть прапорці з джерел вмісту, окрім *У публічній мережі CENO*."
 
 #: browser/testing.md:block 8 (ordered list)
-#, fuzzy
 msgid ""
 "Go back to CENO's home page. Either select one of the recommended Web sites, "
 "or enter the URL of some other site at the address bar at the top of the "
 "window. If you know about a site which is usually blocked for you, go ahead "
 "and enter it!"
 msgstr ""
-"Поверніться до домашньої сторінки CENO. Оберіть один із рекомендованих веб-"
-"сайтів або ж введіть URL-адресу іншого сайту в адресному рядку у верхній "
-"частині вікна. Якщо ви знаєте, що сайт для вас зазвичай заблокований — "
+"Поверніться до домашньої сторінки CENO. Оберіть один із рекомендованих "
+"вебсайтів або ж введіть URL-адресу іншого сайту в адресному рядку у верхній "
+"частині вікна. Якщо Ви знаєте, що сайт для Вас зазвичай заблокований – "
 "введіть його!"
 
 #: browser/testing.md:block 8 (ordered list)
 msgid "The chosen site should eventually show up."
-msgstr "У результаті має відобразитись потрібний сайт."
+msgstr "У результаті має відобразитися потрібний сайт."
 
 #: browser/testing.md:block 9 (paragraph)
-#, fuzzy
 msgid ""
 "**Note:** If you get a fake page instead of a legitimate one, use the "
 "address bar to enter the site's URL with `https://` at the beginning "
 "(instead of `http://`) and repeat the test."
 msgstr ""
-"**Примітка:** Якщо замість потрібної сторінки ви отримали фальшиву ("
+"**Примітка:** Якщо замість потрібної сторінки Ви отримали фальшиву ("
 "наприклад, заблоковану сторінку), на початку використовуйте `https://` ("
 "замість `http://`) під час введення URL сайту в адресному рядку та повторіть "
 "тест."
 
 #: browser/testing.md:block 10 (paragraph)
-#, fuzzy
 msgid ""
 "If the site does load, you can be happy that your device can reach the "
 "injector! Since you are able to query swarms and contact other clients, you "
 "are also likely to be able to retrieve content from the distributed cache."
 msgstr ""
-"Якщо сайт завантажується, будьте задоволені, що ваш пристрій здатний "
-"зв'язатися з ін'єктором! Оскільки ви отримали можливість запитувати вузли та "
-"зв'язуватися з іншими клієнтами, ви, швидше за все, зможете отримати вміст з "
-"розподіленого кеша."
+"Якщо сайт завантажується, будьте задоволені, що Ваш пристрій здатний "
+"звʼязатися з інʼєктором! Оскільки Ви отримали можливість запитувати вузли та "
+"звʼязуватися з іншими клієнтами, Ви, швидше за все, зможете отримати вміст з "
+"розподіленого кешу."
 
 #: browser/testing.md:block 11 (paragraph)
-#, fuzzy
 msgid ""
 "By the way, if you push the CENO icon in the address bar, it will open a "
 "popup like the one below, showing how many elements from the site were "
@@ -153,56 +141,50 @@ msgstr ""
 "До речі, якщо натиснути на значок CENO в адресному рядку, відкриється "
 "спливаюче вікно (як показано нижче), що демонструє, скільки елементів сайту "
 "було отримано з різних джерел. Тільки джерело *Через публічну мережу CENO* "
-"повинен мати ненульове значення, оскільки інші джерела було вимкнено."
+"має мати ненульове значення, оскільки інші джерела було вимкнено."
 
 #: browser/testing.md:block 12 (paragraph)
-#, fuzzy
 msgid ""
 "![Figure: Sources used when testing injection](images/sources-inject.png)"
 msgstr ""
-"![Малюнок: Джерела, що використовуються при тестуванні ін'єкцій](images/"
+"![Малюнок: Джерела, що використовуються під час тестування інʼєкцій](images/"
 "sources-inject.png)"
 
 #: browser/testing.md:block 13 (paragraph)
-#, fuzzy
 msgid ""
 "In contrast, if you had used private browsing with default settings, you may "
 "have seen a popup like the one below, with non-zero counts in *Direct from "
 "website* or *Via CENO network (private)*."
 msgstr ""
-"І навпаки, якщо ви використовували приватний перегляд з налаштуваннями за "
-"замовчуванням, ви могли побачити спливаюче вікно, подібне до наведеного "
-"нижче, з ненульовими показниками в *Напряму з веб-сайту* або *У приватній "
+"І навпаки, якщо Ви використовували приватний перегляд із налаштуваннями за "
+"замовчуванням, Ви могли побачити спливаюче вікно, подібне до наведеного "
+"нижче, з ненульовими показниками в *Напряму з вебсайту* або *У приватній "
 "мережі CENO*."
 
 #: browser/testing.md:block 14 (paragraph)
-#, fuzzy
 msgid "![Figure: Sources used with private browsing](images/sources-proxy.png)"
 msgstr ""
-"![Малюнок: Джерела, що використовуються при приватному перегляді](images/"
+"![Малюнок: Джерела, що використовуються під час приватного перегляду](images/"
 "sources-proxy.png)"
 
 #: browser/testing.md:block 15 (header)
-#, fuzzy
 msgid "Getting content from close users"
-msgstr "Отримання контенту від локальних користувачів"
+msgstr "Отримання вмісту від локальних користувачів"
 
 #: browser/testing.md:block 16 (paragraph)
-#, fuzzy
 msgid ""
 "Since your first device was able to get some content from an injector, let "
 "us test if it is able to share it with another device over the distributed "
 "cache. The simplest way is to use CENO's device-to-device support to check "
 "whether getting and verifying signed content works."
 msgstr ""
-"Оскільки ваш перший пристрій зміг отримати контент від ін'єктора, "
-"перевіримо, чи може він поділитися цим контентом з іншим пристроєм через "
-"розподілений кеш. Найпростіший спосіб — використовувати підтримку прямого "
-"зв'язку між пристроями в CENO, щоб перевірити, чи працює отримання та "
-"перевірка підписаного контенту."
+"Оскільки Ваш перший пристрій зміг отримати вміст від інʼєктора, перевіримо, "
+"чи може він поділитися цим вмістом з іншим пристроєм через розподілений кеш. "
+"Найпростіший спосіб – використовувати підтримку прямого звʼязку між "
+"пристроями в CENO, щоб перевірити, чи працює отримання та перевірка "
+"підписаного вмісту."
 
 #: browser/testing.md:block 17 (paragraph)
-#, fuzzy
 msgid ""
 "After successfully completing the test above on the first device, leave CENO "
 "running on it (the CENO icon should appear in its notification bar). Then "
@@ -211,8 +193,8 @@ msgid ""
 "second device:"
 msgstr ""
 "Після успішного завершення вищезазначеного тесту на пристрої №1, залиште "
-"CENO запущеним на ньому (значок CENO має з'явитися на панелі повідомлень). "
-"Потім візьміть пристрій №2 (ви можете запросити друга, щоб допомогти з "
+"CENO запущеним на ньому (значок CENO має зʼявитися на панелі повідомлень). "
+"Потім візьміть пристрій №2 (Ви можете запросити друга, щоб допомогти з "
 "тестуванням) і підключіть його до тієї ж мережі Wi-Fi. Виконайте наведені "
 "нижче дії на пристрої №2:"
 
@@ -221,7 +203,6 @@ msgid "Install CENO if needed and start it as above."
 msgstr "Встановіть CENO та запустіть його, як зазначено вище."
 
 #: browser/testing.md:block 18 (ordered list)
-#, fuzzy
 msgid ""
 "Open the *CENO Settings* page as above. Since we only want to test "
 "distributed cache access, uncheck all the boxes for content sources except "
@@ -229,7 +210,7 @@ msgid ""
 msgstr ""
 "Відкрийте сторінку *Налаштування CENO*, як зазначено вище. Оскільки ми "
 "хочемо протестувати лише розподілений доступ до кешу, зніміть прапорці з "
-"джерел контенту, крім *Надано іншими користувачами CENO*."
+"джерел вмісту, крім *Надано іншими користувачами CENO*."
 
 #: browser/testing.md:block 18 (ordered list)
 msgid ""
@@ -242,25 +223,23 @@ msgstr ""
 "його URL-адресу в адресному рядку)."
 
 #: browser/testing.md:block 19 (paragraph)
-#, fuzzy
 msgid ""
 "If it does not work, your Wi-Fi network may be blocking direct communication "
 "between its devices. This \"client isolation\" may happen in public networks "
 "like those of parks, bars or hotels. Please try again on a different network."
 msgstr ""
-"Якщо сайт не працює, можливо, мережа Wi-Fi блокує прямий зв'язок між "
+"Якщо сайт не працює, можливо, мережа Wi-Fi блокує прямий звʼязок між "
 "пристроями. Така «ізоляція клієнта» може відбуватися у громадських мережах, "
 "наприклад, у парках, барах чи готелях. Повторіть спробу в іншій мережі."
 
 #: browser/testing.md:block 20 (paragraph)
-#, fuzzy
 msgid ""
 "If it works, it means that both devices are able to deliver that content to "
 "other clients. Pushing the CENO address bar icon should show a popup like "
 "the one below, where only *Shared by other CENO users* has a non-zero value."
 msgstr ""
-"Якщо все працює, це означає, що обидва пристрої можуть розприділяти контент "
-"для інших клієнтів. При натисканні на значок адресного рядка CENO з'явиться "
+"Якщо все працює, це означає, що обидва пристрої можуть розприділяти вміст "
+"для інших клієнтів. При натисканні на значок адресного рядка CENO зʼявиться "
 "спливаюче вікно, як показано нижче, де тільки *Надано іншими користувачами "
 "CENO* має ненульове значення."
 
@@ -273,31 +252,28 @@ msgstr ""
 "кешу](images/sources-dcache.png)"
 
 #: browser/testing.md:block 22 (paragraph)
-#, fuzzy
 msgid ""
 "Finally, you may have also noticed that there is a counter for *Shared by "
 "you*. This is not a different source *per se*: elements counted here are "
 "indeed part of the distributed cache, but they happen to already be stored "
 "in your device, so CENO does not need to retrieve them over the network."
 msgstr ""
-"Й останнє, ви, ймовірно, помітили наявність лічильника *Надано вами*. Це не "
+"Й останнє, Ви, ймовірно, помітили наявність лічильника *Надано Вами*. Це не "
 "інше джерело *як таке*: елементи, що враховуються тут, є частиною "
-"розподіленого кеша, але вони вже зберігаються на вашому пристрої, тому CENO "
+"розподіленого кешу, але вони вже зберігаються на Вашому пристрої, тому CENO "
 "не потрібно отримувати їх через мережу."
 
 #: browser/testing.md:block 23 (header)
-#, fuzzy
 msgid "Getting content from remote users"
-msgstr "Отримання контенту від користувачів з іншої мережі"
+msgstr "Отримання вмісту від користувачів з іншої мережі"
 
 #: browser/testing.md:block 24 (paragraph)
-#, fuzzy
 msgid ""
 "We have done a small-scale test of the distributed cache. Let us now test "
 "how it works over the Internet."
 msgstr ""
 "Ми провели невелике тестування розподіленого кешу. Тепер перевіримо, як це "
-"працює через інтернет."
+"працює через Інтернет."
 
 #: browser/testing.md:block 25 (paragraph)
 msgid ""
@@ -310,27 +286,24 @@ msgstr ""
 "відкривши його повідомлення та натиснувши кнопку «Натисніть, щоб зупинити»)."
 
 #: browser/testing.md:block 26 (paragraph)
-#, fuzzy
 msgid ""
 "This time you will need a third device, but it must be connected to a "
 "different Wi-Fi network (maybe another friend can help from home). The steps "
 "to follow for that device are exactly the same as those in the previous test."
 msgstr ""
-"Цього разу вам знадобиться пристрій №3, але він має бути підключений до "
-"іншої мережі Wi-Fi (можливо, хтось із ваших знайомих зможе перевірити це з "
-"дому). Для цього пристрою необхідно виконати ті ж дії, що й у попередньому "
-"тесті."
+"Цього разу Вам знадобиться пристрій №3, але він має підключатися до іншої "
+"мережі Wi-Fi (можливо, хтось із Ваших знайомих зможе перевірити це з дому). "
+"Для цього пристрою необхідно виконати ті ж дії, що й у попередньому тесті."
 
 #: browser/testing.md:block 27 (paragraph)
-#, fuzzy
 msgid ""
 "If the third device can load the site used for the test, you are all set. "
 "The first device is able to seed content to others, and it can most probably "
 "also act as a bridge."
 msgstr ""
 "Якщо пристрій №3 може завантажити сайт, що тестувався, все готово. Пристрій №"
-"1 може передавати контент іншим, і, швидше за все, він може функціонувати в "
-"режимі \"міст\"."
+"1 може передавати вміст іншим, і, швидше за все, він може функціонувати в "
+"режимі «міст»."
 
 #: browser/testing.md:block 28 (paragraph)
 msgid "Congratulations!"
