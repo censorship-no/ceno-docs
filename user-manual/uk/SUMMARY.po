@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-03-05 15:59+0000\n"
+"PO-Revision-Date: 2022-03-06 18:20+0000\n"
 "Last-Translator: Andrij Mizyk <andmizyk@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "user-manual/uk/>\n"
@@ -22,12 +22,11 @@ msgstr "[Censorship.no!](README.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Introduction](intro/README.md)"
-msgstr "[Вступ](intro/README.md)"
+msgstr "[Ознайомлення](intro/README.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-#, fuzzy
 msgid "[What is CENO Browser?](intro/ceno.md)"
-msgstr "[Що таке браузер CENO?](intro/ceno.md)"
+msgstr "[Що таке оглядач CENO?](intro/ceno.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[What is Ouinet?](intro/ouinet.md)"
@@ -51,7 +50,7 @@ msgstr "[Як це працює?](concepts/how.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Public vs. private browsing](concepts/public-private.md)"
-msgstr "[Публічний чи приватний перегляд](concepts/public-private.md)"
+msgstr "[Публічний або приватний перегляд](concepts/public-private.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Advantages of using CENO/Ouinet](concepts/advantages.md)"
@@ -62,14 +61,12 @@ msgid "[Risks in using CENO/Ouinet](concepts/risks.md)"
 msgstr "[Ризики під час використання CENO/Ouinet](concepts/risks.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-#, fuzzy
 msgid "[Using CENO Browser](browser/README.md)"
-msgstr "[Використання браузера CENO](browser/README.md)"
+msgstr "[Використання оглядача CENO](browser/README.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-#, fuzzy
 msgid "[Installing CENO](browser/install.md)"
-msgstr "[Встановлювання CENO](browser/install.md)"
+msgstr "[Встановлення CENO](browser/install.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Using public or private browsing](browser/public-private.md)"
@@ -81,9 +78,8 @@ msgid "[CENO settings](browser/settings.md)"
 msgstr "[Налаштування CENO](browser/settings.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-#, fuzzy
 msgid "[Testing the Browser](browser/testing.md)"
-msgstr "[Тестування браузера](browser/testing.md)"
+msgstr "[Тестування оглядача](browser/testing.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Helping others](browser/bridging.md)"
