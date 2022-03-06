@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-03-05 15:56+0000\n"
+"PO-Revision-Date: 2022-03-06 18:20+0000\n"
 "Last-Translator: Andrij Mizyk <andmizyk@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "client-front-end/uk/>\n"
@@ -17,30 +17,28 @@ msgid "Annex: The Ouinet client front-end"
 msgstr "Додаток: Зовнішній інтерфейс клієнта Ouinet"
 
 #: client/front-end.md:block 2 (paragraph)
-#, fuzzy
 msgid ""
 "The Ouinet client (as run by e.g. CENO Browser) offers a front-end page with "
 "some information and actions which may be useful for debugging the client. "
 "Many of them are also offered by the CENO Extension via the [*CENO Settings* "
 "page](../browser/settings.md), though others are only available here."
 msgstr ""
-"У клієнта Ouinet (який запускається, наприклад, браузером CENO) є службовий "
-"інтерфейс з довідковою інформацією та командами, що можуть бути корисними "
+"У клієнта Ouinet (який запускається, наприклад, оглядачем CENO) є службовий "
+"інтерфейс із довідковою інформацією та командами, що можуть бути корисними "
 "для налагодження клієнта. Багато з цих команд також пропонує розширення CENO "
 "через сторінку [*Налаштування CENO*(../browser/settings.md), проте деякі "
 "команди доступні лише тут."
 
 #: client/front-end.md:block 3 (paragraph)
-#, fuzzy
 msgid ""
 "The front-end is accessible using any plain Web browser running on the same "
 "device (you can use CENO too). Its default address is <http://127.0.0.1:8078/"
 ">. If you open it, you will see something like the figure below."
 msgstr ""
-"Інтерфейс доступний через будь-який веб-браузер, запущеного на тому ж "
-"пристрої (ви можете використовувати CENO також). За замовчуванням, адреса "
-"інтерфейсу — <http://127.0.0.1:8078/>. При його відкритті ви побачите щось "
-"схоже на малюнок нижче."
+"Інтерфейс доступний через будь-який веб-оглядач, запущений на тому ж "
+"пристрої (Ви можете використовувати CENO також). Типова адреса інтерфейсу – "
+"<http://127.0.0.1:8078/>. Під час його відкривання Ви побачите щось схоже на "
+"малюнок нижче."
 
 #: client/front-end.md:block 4 (paragraph)
 msgid "![Figure: The client front-end](images/front-end.png)"
@@ -51,16 +49,14 @@ msgid "The items shown in the page include:"
 msgstr "На сторінці відображаються такі елементи:"
 
 #: client/front-end.md:block 6 (unordered list)
-#, fuzzy
 msgid ""
 "A link to enable the client as a certificate authority (CA) at your browser, "
 "since the client needs to intercept HTTPS traffic."
 msgstr ""
-"Посилання для налаштування Ouinet як центру сертифікації (ЦС) у вашому "
-"браузері, оскільки клієнту необхідно перехоплювати HTTPS-трафік."
+"Посилання для налаштування Ouinet як центру сертифікації (ЦС) у Вашому "
+"оглядачі, оскільки клієнту необхідно перехоплювати HTTPS-трафік."
 
 #: client/front-end.md:block 6 (unordered list)
-#, fuzzy
 msgid ""
 "You only need this to use a plain browser for testing the Ouinet client, in "
 "which case you will also have to configure its HTTP/HTTPS proxies to "
@@ -68,52 +64,48 @@ msgid ""
 "for injection to work. We very strongly recommend using a *separate, "
 "specific browser profile* for this purpose."
 msgstr ""
-"Вам це потрібно лише скориставшись звичайним браузером для тестування "
-"клієнта Ouinet, у цьому випадку вам також доведеться налаштувати його HTTP/"
-"HTTPS проксі на `127.0.0.1:8077` та вручну запустити [Розширення CENO]["
-"Розширення CENO], щоб ін'єкція працювала. Ми рекомендуємо використовувати *"
-"окремий профіль браузера* для цієї мети."
+"Вам це потрібно лише скориставшись звичайним оглядачем для тестування "
+"клієнта Ouinet, у цьому випадку Вам також доведеться налаштувати його HTTP/"
+"HTTPS-проксі на `127.0.0.1:8077` та вручну запустити [Розширення CENO]["
+"Розширення CENO], щоб інʼєкція працювала. Ми радимо використовувати *окремий "
+"профіль оглядача* для цієї мети."
 
 #: client/front-end.md:block 6 (unordered list)
-#, fuzzy
 msgid ""
 "Please note that none of this needs to be done for CENO Browser, since it is "
 "already configured like that."
 msgstr ""
-"Зверніть увагу, жодна з цих дій не стосується браузера CENO, оскільки він "
+"Зверніть увагу, жодна з цих дій не стосується оглядача CENO, оскільки він "
 "вже налаштований відповідно."
 
 #: client/front-end.md:block 6 (unordered list)
-#, fuzzy
 msgid ""
 "Buttons to enable or disable the different mechanisms used by the client to "
 "access content."
 msgstr ""
-"Кнопки для увімкнення або вимкнення різних механізмів, які клієнт "
-"використовує для доступу до контенту."
+"Кнопки для ввімкнення або вимкнення різних механізмів, які клієнт "
+"використовує для доступу до вмісту."
 
 #: client/front-end.md:block 6 (unordered list)
-#, fuzzy
 msgid ""
 "Selectors to choose different log levels, like the default `INFO` "
 "(informational messages, warnings and errors) or `DEBUG` (verbose output "
 "useful for reporting errors). The log file can also be enabled and retrieved "
 "from here."
 msgstr ""
-"Селектори для вибору різних рівнів журналу (логів), наприклад, за "
-"замовчуванням `INFO` (інформаційні повідомлення, попередження та помилки) "
-"або `DEBUG` (докладний звіт з повідомленням про помилки). Звідси також можна "
-"увімкнути та отримати файл журналу ."
+"Селектори для вибору різних рівнів журналу, наприклад, за замовчуванням "
+"`INFO` (інформаційні повідомлення, попередження та помилки) або `DEBUG` ("
+"докладний звіт з повідомленням про помилки). Звідси також можна ввімкнути та "
+"отримати файл журналу ."
 
 #: client/front-end.md:block 6 (unordered list)
-#, fuzzy
 msgid ""
 "When enabling the log file, the log level is automatically set to `DEBUG` "
 "(though you may change it again from here). When disabling the log file, the "
 "original log level is restored."
 msgstr ""
-"При активації файлу журналу, рівень журналу автоматично встановлюється на "
-"значенні `DEBUG` (хоча ви можете змінити його). У разі вимкнення файлу "
+"При активуванні файлу журналу, рівень журналу автоматично встановлюється на "
+"значенні `DEBUG` (хоча Ви можете змінити його). У разі вимкнення файлу "
 "журналу, буде відновлено вихідний рівень."
 
 #: client/front-end.md:block 6 (unordered list)
@@ -124,33 +116,30 @@ msgstr ""
 "звітів про помилки."
 
 #: client/front-end.md:block 6 (unordered list)
-#, fuzzy
 msgid ""
 "Information about client connectivity and injector addressing. The default "
 "`bep5` method looks up Internet addresses in a BitTorrent injector swarm, as "
 "explained [here](../concepts/how.md)."
 msgstr ""
-"Інформація про підключення клієнтів та адресацію ін'єкторів. За "
-"замовчуванням, метод`bep5` шукає інтернет-адреси серед «рою» ін'єкторів "
+"Інформація про підключення клієнтів та адресацію інʼєкторів. За "
+"замовчуванням, метод`bep5` шукає Інтернет-адреси серед «рою» інʼєкторів "
 "BitTorrent, як описано в [цьому розділі](../concepts/how.md)."
 
 #: client/front-end.md:block 6 (unordered list)
-#, fuzzy
 msgid ""
 "The public key used to verify signatures from injectors in the distributed "
 "cache."
 msgstr ""
-"Відкритий ключ, що використовується для перевірки підписів від ін'єкторів у "
+"Відкритий ключ, що використовується для перевірки підписів від інʼєкторів у "
 "розподіленому кеші."
 
 #: client/front-end.md:block 6 (unordered list)
-#, fuzzy
 msgid ""
 "Information on your local cache like the maximum content age, approximate "
 "size of the cache, a button to purge it completely, and a link to the list "
 "of announced cache entries."
 msgstr ""
-"Інформація про ваш локальний кеш, як-то: максимальний вік вмісту, приблизний "
+"Інформація про Ваш локальний кеш, як-от: максимальний вік вмісту, приблизний "
 "розмір кешу, посилання на список анонсованих записів кешу, а також кнопка "
 "для повного очищення кешу."
 
