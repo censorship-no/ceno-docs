@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-03-05 15:56+0000\n"
+"PO-Revision-Date: 2022-03-06 18:20+0000\n"
 "Last-Translator: Andrij Mizyk <andmizyk@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "risks/uk/>\n"
@@ -17,7 +17,6 @@ msgid "Risks in using CENO/Ouinet"
 msgstr "Ризики під час використання CENO/Ouinet"
 
 #: concepts/risks.md:block 2 (paragraph)
-#, fuzzy
 msgid ""
 "As with any sufficiently complex computing system, and especially such an "
 "innovative one, using CENO Browser (and any Ouinet client in general) is not "
@@ -26,28 +25,26 @@ msgid ""
 "may play when using CENO:"
 msgstr ""
 "Як і з будь-якою досить складною системою, а особливо такою новаторською, "
-"використання браузера CENO (і взагалі будь-якого клієнта Ouinet) не "
+"використання оглядача CENO (і взагалі будь-якого клієнта Ouinet) не "
 "обійдеться без певних ризиків. У цьому розділі ми зберемо та опишемо ці "
-"ризики, щоб допомогти вам зрозуміти їхні наслідки залежно від різних ролей, "
-"які ви можете на себе приміряти під час використання CENO:"
+"ризики, щоб допомогти Вам зрозуміти їхні наслідки залежно від різних ролей, "
+"які Ви можете на себе приміряти під час використання CENO:"
 
 #: concepts/risks.md:block 3 (unordered list)
 msgid "as a *user* browsing Web sites"
 msgstr "як *користувач*, що переглядає вебсайти"
 
 #: concepts/risks.md:block 3 (unordered list)
-#, fuzzy
 msgid ""
 "as a *seeder* sharing content over the distributed cache that you previously "
 "visited"
 msgstr ""
-"як *поширювач*, що розповсюджує сторінки через розподілений кеш, які ви "
+"як *поширювач*, що розповсюджує сторінки через розподілений кеш, які Ви "
 "раніше відвідували"
 
 #: concepts/risks.md:block 3 (unordered list)
-#, fuzzy
 msgid "as a *bridge* allowing other users to reach an injector"
-msgstr "як *міст*, що дозволяє іншим користувачам отримати доступ до ін'єктора"
+msgstr "як *міст*, що дозволяє іншим користувачам отримати доступ до інʼєктора"
 
 #: concepts/risks.md:block 4 (header)
 msgid "As a user"
@@ -60,38 +57,34 @@ msgstr ""
 "нього)?"
 
 #: concepts/risks.md:block 6 (paragraph)
-#, fuzzy
 msgid ""
 "No. The only role of a bridge is to forward raw traffic between a client and "
 "an injector. This communication is always encrypted and bridges do not have "
 "the private keys required to access the content of the communication."
 msgstr ""
-"Ні. Єдина роль мосту полягає у передачі необробленого трафіку між клієнтом "
-"та інєктором. Цей зв'язок завжди шифрується і мости не мають закритих "
-"ключів, необхідних для доступу до вмісту зв'язку."
+"Ні. Єдина роль моста полягає в передаванні необробленого трафіку між "
+"клієнтом та інʼєктором. Цей звʼязок завжди шифрується і мости не мають "
+"закритих ключів, необхідних для доступу до вмісту звʼязку."
 
 #: concepts/risks.md:block 7 (header)
-#, fuzzy
 msgid "Can injectors see my communication with the origin server?"
 msgstr ""
-"Чи можуть ін'єктори бачити дані, отримані з вихідного сервера (або передані "
+"Чи можуть інʼєктори бачити дані, отримані з вихідного сервера (або передані "
 "до нього)?"
 
 #: concepts/risks.md:block 8 (paragraph)
-#, fuzzy
 msgid ""
 "Yes and no. When the user requests content [in public browsing mode](public-"
 "private.md), all private data (like passwords and cookies) is first removed "
 "from the request by the client, and only then is the request encrypted for "
 "and forwarded to the injector, which proceeds to decrypt it."
 msgstr ""
-"І так і ні. Коли користувач запитує контент [в режимі публічного перегляду"
+"І так і ні. Коли користувач запитує вміст [в режимі публічного перегляду"
 "](public-private.md), всі особисті дані (такі як паролі та cookies) спочатку "
-"видаляються із запиту клієнтом, та лише потім запит шифрується і передається "
-"ін'єктору, що починає його розшифровку."
+"видаляються зі запиту клієнтом, та лише потім запит шифрується і передається "
+"інʼєктору, що починає його розшифрування."
 
 #: concepts/risks.md:block 9 (paragraph)
-#, fuzzy
 msgid ""
 "On the other hand, when the request uses private browsing mode, it is not "
 "modified by the client, but the whole communication is encrypted for the "
@@ -99,42 +92,38 @@ msgid ""
 "decrypt the content."
 msgstr ""
 "З іншого боку, коли запит використовує режим приватного перегляду, запит не "
-"змінюється клієнтом, але зв'язок шифрується для вихідного сервера. Це "
-"означає, що в цьому випадку ін'єктор не може розшифрувати вміст."
+"змінюється клієнтом, але звʼязок шифрується для вихідного сервера. Це "
+"означає, що в цьому випадку інʼєктор не може розшифрувати вміст."
 
 #: concepts/risks.md:block 10 (quote)
-#, fuzzy
 msgid ""
 "**Technical note:** Only `GET` HTTP requests are candidates for injection, "
 "with query parameters removed, along with all but a limited set of "
 "fundamental and privacy-preserving HTTP header fields."
 msgstr ""
-"**Технічна примітка:** Тільки HTTP-запити `GET` передаються ін'єкторам, при "
+"**Технічна примітка:** Тільки HTTP-запити `GET` передаються інʼєкторам, при "
 "цьому видаляються параметри запиту, а також усі поля заголовків HTTP, крім "
 "обмеженого набору основних та зберігають конфіденційність заголовків."
 
 #: concepts/risks.md:block 11 (header)
-#, fuzzy
 msgid "Can injectors see my IP address?"
-msgstr "Чи можуть ін'єктори бачити мою IP-адресу?"
+msgstr "Чи можуть інʼєктори бачити мою IP-адресу?"
 
 #: concepts/risks.md:block 12 (paragraph)
-#, fuzzy
 msgid ""
 "Yes. However, injectors cannot distinguish whether a request came from a "
 "CENO user or a bridge. Thus requests going to the injector cannot be "
 "reliably assigned an originating IP addresses."
 msgstr ""
-"Так. Проте, ін'єктори не можуть відрізнити, чи запит надійшов від "
-"користувача CENO чи від мосту. Отож, запити, що надходять до ін'єктора, не "
-"можуть бути надійно прив'язані до IP-адрес."
+"Так. Проте, інʼєктори не можуть відрізнити, чи запит надійшов від "
+"користувача CENO чи від моста. Отож, запити, що надходять до інʼєктора, не "
+"можуть бути надійно привʼязані до IP-адрес."
 
 #: concepts/risks.md:block 13 (header)
 msgid "Can my private data leak to the distributed cache?"
 msgstr "Чи можуть мої особисті дані потрапити в розподілений кеш?"
 
 #: concepts/risks.md:block 14 (paragraph)
-#, fuzzy
 msgid ""
 "Hopefully not. As mentioned above, CENO Browser tries hard to remove any "
 "private data (passwords, cookies…) from any request for injection. In "
@@ -144,16 +133,14 @@ msgid ""
 "if the origin server indicated that it is of a private nature, CENO will not "
 "seed it either."
 msgstr ""
-"Сподіваємось, що ні. Як згадувалося вище, браузер CENO щосили намагається "
+"Сподіваємось, що ні. Як згадувалося вище, оглядач CENO щосили намагається "
 "видалити будь-які особисті дані (паролі, cookies...) з будь-якого запиту на "
-"ін'єкцію. Крім того, ін'єктор не роздає дані сам; фактично, його єдина мета —"
+"інʼєкцію. Крім того, інʼєктор не роздає дані сам; фактично, його єдина мета –"
 " підписати вміст, щоб клієнти Ouinet могли його роздавати. Це означає, що "
-"коли контент повертається до клієнта, цей контет аналізується, і якщо "
-"вихідний сервер вказав, що контент має приватний характер, CENO не "
-"роздаватиме його."
+"коли вміст повертається до клієнта, цей вміст аналізується, і якщо вихідний "
+"сервер вказав, що вміст має приватний характер, CENO не роздаватиме його."
 
 #: concepts/risks.md:block 15 (paragraph)
-#, fuzzy
 msgid ""
 "Still, there could be cases of badly designed or malicious pages which may "
 "collect some information from you (like an email address in a form or some "
@@ -163,10 +150,10 @@ msgid ""
 "side and use private browsing for it."
 msgstr ""
 "Тим не менш, можуть бути випадки погано зроблених або шкідливих сторінок, "
-"які здатні збирати деяку інформацію про вас (наприклад, адресу електронної "
-"пошти у формі або цифровий відбиток браузера за допомогою JavaScript) і "
+"які здатні збирати деяку інформацію про Вас (наприклад, адресу електронної "
+"пошти у формі або цифровий відбиток оглядача за допомогою JavaScript) і "
 "розміщувати її в URL іншого посилання як звичайні компоненти адреси ("
-"наприклад, `http://example.com/subscribe/you@example.org`). Якщо ви "
+"наприклад, `http://example.com/subscribe/you@example.org`). Якщо Ви "
 "підозрюєте, що сторінка може це робити, краще убезпечитися й застосувати для "
 "неї режим приватного перегляду."
 
@@ -175,39 +162,35 @@ msgid "Can the origin server know whether I am using CENO?"
 msgstr "Чи може вихідний сервер дізнатися, чи я використовую CENO?"
 
 #: concepts/risks.md:block 17 (paragraph)
-#, fuzzy
 msgid ""
 "Most probably not. Whenever CENO contacts an origin server directly, it "
 "behaves as normal Firefox for Android does, so your particular device "
 "appears as a normal Firefox app of the same version."
 msgstr ""
-"Скоріше за все ні. Щоразу, коли CENO безпосередньо зв'язується з вихідним "
-"сервером, він веде себе як звичайний Firefox для Android, тому на вашому "
+"Скоріше за все ні. Щоразу, коли CENO безпосередньо звʼязується з вихідним "
+"сервером, він веде себе як звичайний Firefox для Android, тому на Вашому "
 "конкретному пристрої відображається як звичайна програма Firefox тієї ж "
 "версії."
 
 #: concepts/risks.md:block 18 (paragraph)
-#, fuzzy
 msgid ""
 "However, when it uses an injector to get some content from its origin "
 "server, there are (at least) two ways for the latter to know that CENO or "
 "Ouinet is involved:"
 msgstr ""
-"Однак, коли він використовує ін'єктор для отримання деякого вмісту зі свого "
+"Однак, коли він використовує інʼєктор для отримання деякого вмісту зі свого "
 "вихідного сервера, у останнього є (принаймні) два способи дізнатися, що в "
 "цьому бере участь CENO або Ouinet:"
 
 #: concepts/risks.md:block 19 (ordered list)
-#, fuzzy
 msgid ""
 "The source address of the connection reaching the origin server is found in "
 "the injector swarm (since the connection comes indeed from the injector);"
 msgstr ""
-"Адреса джерела з'єднання з вихідним сервером є адресою одного з ін'єкторів ("
-"оскільки з'єднання дійсно походить від ін'єктора);"
+"Адреса джерела зʼєднання з вихідним сервером є адресою одного з інʼєкторів ("
+"оскільки зʼєднання дійсно походить від інʼєктора);"
 
 #: concepts/risks.md:block 19 (ordered list)
-#, fuzzy
 msgid ""
 "The presence or absence of certain information in the request for content is "
 "characteristic of Ouinet. This happens when the injector is requesting the "
@@ -215,14 +198,13 @@ msgid ""
 "the injector removes information unique to your particular device from the "
 "request."
 msgstr ""
-"Наявність або відсутність певної інформації в запиті на отримання контенту "
+"Наявність або відсутність певної інформації в запиті на отримання вмісту "
 "може характеризувати запит, що прийшов від Ouinet. Це відбувається, коли "
-"ін'єктор запитує вміст, тому що ваш клієнт попросив його отримати і "
-"підписати цей контент, оскільки ін'єктор видаляє з запиту унікальну "
-"інформацію вашого конкретного пристрою."
+"інʼєктор запитує вміст, тому що ваш клієнт попросив його отримати і "
+"підписати цей вміст, оскільки інʼєктор видаляє зі запиту унікальну "
+"інформацію Вашого конкретного пристрою."
 
 #: concepts/risks.md:block 20 (paragraph)
-#, fuzzy
 msgid ""
 "Please note that these only mark the request as coming from Ouinet, but they "
 "do not link it to you or your particular device. However, if the request did "
@@ -231,42 +213,40 @@ msgid ""
 "CENO user."
 msgstr ""
 "Будь ласка, зверніть увагу, що вони лише позначають запит як вихідний від "
-"Ouinet, але не пов'язують його з вами чи вашим конкретним пристроєм. Однак, "
+"Ouinet, але не повʼязують його з Вами чи Вашим конкретним пристроєм. Однак, "
 "якщо запит з якихось причин, згаданих у попередньому питанні, все ж таки "
 "містить якусь особисту інформацію, вона може бути використана, щоб позначити "
-"вас як користувача CENO."
+"Вас як користувача CENO."
 
 #: concepts/risks.md:block 21 (paragraph)
-#, fuzzy
 msgid ""
 "In general, if a particular website (such as a governmental site) expects "
 "you to connect to it as an identifiable individual, from a specific region "
 "(or from a [national intranet][National intranet]), we recommend that you "
 "use a normal Web browser instead of CENO."
 msgstr ""
-"В цілому, якщо конкретний сайт (наприклад, урядовий сайт) очікує, що ви "
+"В цілому, якщо конкретний сайт (наприклад, урядовий сайт) очікує, що Ви "
 "підключитесь до нього як ідентифікована особа з певного регіону (або з ["
-"національних внутрішніх мереж][Національних внутрішніх мереж]), ми "
-"рекомендуємо вам використовувати звичайний веб-браузер замість CENO."
+"національних внутрішніх мереж][Національна intranet]), ми радимо Вам "
+"використовувати звичайний веб-оглядач замість CENO."
 
 #: concepts/risks.md:block 22 (header)
 msgid "As a seeder"
-msgstr "Роздавання вмісту"
+msgstr "Як роздавач"
 
 #: concepts/risks.md:block 23 (header)
 msgid "What data is seeded from my device?"
 msgstr "Які дані роздаються з мого пристрою?"
 
 #: concepts/risks.md:block 24 (paragraph)
-#, fuzzy
 msgid ""
 "Currently, the only content that is seeded by CENO is any non-private Web "
 "content which was requested in public browsing mode. This also means that "
 "users do not seed anything they have not accessed themselves in the recent "
 "past."
 msgstr ""
-"Нині єдиний контент, що роздає CENO — це будь-який неприватний веб-контент, "
-"що був запитаний в режимі публічного перегляду. Це також означає, що "
+"Нині єдиний вміст, що роздає CENO – це будь-який неприватний веб-вміст, що "
+"був запитаний в режимі публічного перегляду. Це також означає, що "
 "користувачі не роздають нічого, до чого вони не мали доступу останнім часом."
 
 #: concepts/risks.md:block 25 (header)
@@ -295,36 +275,31 @@ msgid "Can others find my IP address?"
 msgstr "Чи можуть інші дізнатися мою IP-адресу?"
 
 #: concepts/risks.md:block 29 (paragraph)
-#, fuzzy
 msgid ""
 "Yes, every CENO Browser able to communicate with injectors will register its "
 "IP address in the bridge swarm where other Ouinet clients can find them."
 msgstr ""
-"Так, кожен браузер CENO, здатний спілкуватися з ін'єкторами, реєструє свою "
+"Так, кожен оглядач CENO, здатний спілкуватися з інʼєкторами, реєструє свою "
 "IP-адресу в «рої» мостів, де інші клієнти Ouinet можуть їх знайти."
 
 #: concepts/risks.md:block 30 (header)
-#, fuzzy
 msgid ""
 "Is it possible that I am helping someone to access content which is illegal "
 "in my country?"
 msgstr ""
-"Чи можливо, що я допомагаю комусь отримати доступ до контенту, що є "
+"Чи можливо, що я допомагаю комусь отримати доступ до вмісту, що є "
 "нелегальним у моїй країні?"
 
 #: concepts/risks.md:block 31 (paragraph)
-#, fuzzy
 msgid ""
 "Yes. However, bridges only relay encrypted communication between a Ouinet "
 "client and an injector. This means that a bridge shall never make direct "
 "requests for content to any other server on someone else's behalf."
 msgstr ""
-"Так. Проте мости передають лише зашифрований зв'язок між клієнтом Ouinet та "
-"ін'єктором. Це означає, що міст ніколи не робитиме прямих запитів щодо "
-"контенту до іншого сервера від чужого імені."
+"Так. Проте мости передають лише зашифрований звʼязок між клієнтом Ouinet та "
+"інʼєктором. Це означає, що міст ніколи не робитиме прямих запитів щодо "
+"вмісту до іншого сервера від чужого імені."
 
 #: concepts/risks.md:block 31 (paragraph)
 msgid "[National intranet]: https://en.wikipedia.org/wiki/National_intranet"
-msgstr ""
-"[Національна внутрішня мережа]: https://en.wikipedia.org/wiki/"
-"National_intranet"
+msgstr "[Національна intranet]: https://en.wikipedia.org/wiki/National_intranet"
