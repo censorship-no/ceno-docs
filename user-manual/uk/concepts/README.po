@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-03-05 15:56+0000\n"
+"PO-Revision-Date: 2022-03-06 18:20+0000\n"
 "Last-Translator: Andrij Mizyk <andmizyk@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "concepts-readme/uk/>\n"
@@ -31,7 +31,6 @@ msgstr ""
 "перегляду веб-сторінок."
 
 #: concepts/README.md:block 3 (paragraph)
-#, fuzzy
 msgid ""
 "Nonetheless, to get the most out of CENO it is helpful to understand how "
 "Ouinet operates, the different ways it can be used depending on the kind of "
@@ -40,5 +39,5 @@ msgid ""
 msgstr ""
 "Тим не менш, щоб максимально скористатися можливостями CENO, корисно "
 "зрозуміти, як працює Ouinet, як ця технологія може застосовуватися залежно "
-"від типу контенту, до якого ви намагаєтеся отримати доступ, а також переваги "
+"від типу вмісту, до якого Ви намагаєтеся отримати доступ, а також переваги "
 "використання та можливі ризики. У цьому розділі ми розглянемо ці теми."
