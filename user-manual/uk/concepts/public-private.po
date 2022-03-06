@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-03-05 15:56+0000\n"
+"PO-Revision-Date: 2022-03-06 18:20+0000\n"
 "Last-Translator: Andrij Mizyk <andmizyk@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "public-private/uk/>\n"
@@ -17,7 +17,6 @@ msgid "Public vs. private browsing"
 msgstr "Публічний чи приватний перегляд"
 
 #: concepts/public-private.md:block 2 (paragraph)
-#, fuzzy
 msgid ""
 "Because of the many techniques used to overcome connectivity issues, CENO "
 "may become a convenient way for you to get all kinds of Web content. And, as "
@@ -27,22 +26,21 @@ msgid ""
 "let others know that you are trying to or did retrieve), and fortunately "
 "CENO can help you in this instance as well."
 msgstr ""
-"Завдяки багатьом підходам у подоланні проблем із доступом до інтернету, CENO "
-"може стати для вас зручним способом отримання різноманітного веб-контенту. "
-"Як ви вже могли ознайомитися у попередніх розділах, щоразу, коли ви "
-"отримуєте і передаєте сторінку за допомогою браузера CENO, ця сторінка стає "
-"доступною для інших. Разом з тим, завше є контент, яким ви б не хотіли "
-"ділитися з іншими (або не хотіли, аби хтось знав, що ви намагаєтеся отримати "
-"до нього доступ), й CENO може допомогти вам в цьому випадку."
+"Завдяки багатьом підходам у подоланні проблем із доступом до Інтернету, CENO "
+"може стати для Вас зручним способом отримання різноманітного мережевого "
+"вмісту. Як Ви вже могли ознайомитися у попередніх розділах, щоразу, коли Ви "
+"отримуєте і передаєте сторінку за допомогою оглядача CENO, ця сторінка стає "
+"доступною для інших. Разом із тим, завжди є вміст, яким Ви б не хотіли "
+"ділитися з іншими (або не хотіли, аби хтось знав, що Ви намагаєтеся отримати "
+"до нього доступ), і CENO може допомогти Вам в цьому випадку."
 
 #: concepts/public-private.md:block 3 (paragraph)
-#, fuzzy
 msgid ""
 "The default mode when you launch the application is **public browsing**. In "
 "it, CENO accesses Web content as described previously:"
 msgstr ""
 "За замовчуванням під час запуску програми використовується режим **публічний "
-"перегляд**. У цьому режимі CENO отримує доступ до веб-контенту, як це "
+"перегляд**. У цьому режимі CENO отримує доступ до мережевого вмісту, як це "
 "описано вище:"
 
 #: concepts/public-private.md:block 4 (ordered list)
@@ -54,33 +52,30 @@ msgid "Failing that, the distributed cache is searched."
 msgstr "Якщо не вдалося, виконується пошук у розподіленому кеші."
 
 #: concepts/public-private.md:block 4 (ordered list)
-#, fuzzy
 msgid ""
 "Failing that, the content is requested via an injector (maybe via another "
 "client)."
 msgstr ""
-"Якщо не вдалося, вміст запитується через ін'єктор (можливо через іншого "
+"Якщо не вдалося, вміст запитується через інʼєктор (можливо через іншого "
 "користувача)."
 
 #: concepts/public-private.md:block 5 (paragraph)
-#, fuzzy
 msgid ""
 "CENO also has a **private browsing** mode. In it, the distributed cache is "
 "never searched, and injection is never attempted:"
 msgstr ""
 "CENO також має режим **приватного перегляду**. У цьому режимі розподілений "
-"кеш ніколи не проглядається і спроби ін'єкції не робляться:"
+"кеш ніколи не проглядається і спроби інʼєкції не робляться:"
 
 #: concepts/public-private.md:block 6 (ordered list)
-#, fuzzy
 msgid ""
 "Failing that, an injector is contacted (maybe via another client) and used "
 "*as a normal proxy server*. Note that in this case, neither the injector nor "
 "your client updates the distributed cache with your page."
 msgstr ""
-"Якщо не вдалося, ін'єктор (можливо, через іншого користувача) переходить в "
+"Якщо не вдалося, інʼєктор (можливо, через іншого користувача) переходить в "
 "режим *звичайний проксі-сервер*. Зверніть увагу, що в цьому випадку ані "
-"ін'єктор, ані ваш клієнт не завантажують вашу сторінку до розподіленого кешу."
+"інʼєктор, ані Ваш клієнт не завантажують Вашу сторінку до розподіленого кешу."
 
 #: concepts/public-private.md:block 7 (paragraph)
 msgid ""
@@ -91,108 +86,96 @@ msgstr ""
 "у публічному режимі:"
 
 #: concepts/public-private.md:block 8 (ordered list)
-#, fuzzy
 msgid ""
 "You have better chances to get Web content, and help others get that content "
 "(from you)."
 msgstr ""
-"У вас більше шансів отримати веб-контент і допомогти іншим отримати цей "
-"контент (від вас)."
+"У Вас більше шансів отримати мережевий вміст і допомогти іншим отримати цей "
+"вміст (від Вас)."
 
 #: concepts/public-private.md:block 8 (ordered list)
-#, fuzzy
 msgid ""
 "Pages with dynamic content (e.g. updated in real time) may break in obvious "
 "or subtle ways."
 msgstr ""
-"Сторінки з динамічним контентом (такі, що оновлюються у режимі реального "
-"часу) можуть «ламатися» й це буде помітно або малопомітно."
+"Сторінки з динамічним вмістом (такі, що оновлюються в режимі реального часу) "
+"можуть «ламатися» і це буде помітно або малопомітно."
 
 #: concepts/public-private.md:block 8 (ordered list)
-#, fuzzy
 msgid ""
 "Pages requiring authentication do not work (as passwords and cookies are "
 "removed by the client)."
 msgstr ""
-"Сторінки, що вимагають аутентифікації, не працюють (оскільки паролі та "
+"Сторінки, що вимагають автентифікації, не працюють (оскільки паролі та "
 "cookies видаляються клієнтом)."
 
 #: concepts/public-private.md:block 8 (ordered list)
-#, fuzzy
 msgid ""
 "Some browsing activity may be leaked to other users (see [risks](risks.md))."
 msgstr ""
-"Деякі ваші дії в браузері можуть стати відомими іншим користувачам (дивіться "
+"Деякі Ваші дії в оглядачі можуть стати відомими іншим користувачам (дивіться "
 "[ризики](risks.md))."
 
 #: concepts/public-private.md:block 8 (ordered list)
-#, fuzzy
 msgid ""
 "Some browsing activity may be leaked to injectors (see [risks](risks.md))."
 msgstr ""
-"Деякі ваші дії в браузері можуть стати відомими ін'єкторам (дивіться "
+"Деякі Ваші дії в оглядачі можуть стати відомими інʼєкторам (дивіться "
 "[ризики](risks.md))."
 
 #: concepts/public-private.md:block 8 (ordered list)
-#, fuzzy
 msgid "You need to trust injectors to retrieve and sign Web content."
 msgstr ""
-"Вам доведеться довіряти ін'єкторам аби отримувати та підписувати веб-контент."
+"Вам доведеться довіряти інʼєкторам аби отримувати та підписувати мережевий "
+"вміст."
 
 #: concepts/public-private.md:block 9 (paragraph)
 msgid "While in private mode:"
 msgstr "У режимі приватного перегляду:"
 
 #: concepts/public-private.md:block 10 (ordered list)
-#, fuzzy
 msgid ""
 "You may not be able to access blocked Web content if international "
 "connectivity is too scarce; even if you could, other CENO users would not "
 "get that content from you."
 msgstr ""
-"У вас можуть виникнути труднощі з доступом до заблокованого контенту за "
-"умови, якщо міжнародне підключення занадто обмежене; навіть якщо ви зможете "
-"отримати доступ, інші користувачі CENO не зможуть отримати цей вміст від вас."
+"У Вас можуть виникнути труднощі з доступом до заблокованого вмісту за умови, "
+"якщо міжнародне підключення занадто обмежене; навіть якщо Ви зможете "
+"отримати доступ, інші користувачі CENO не зможуть отримати цей вміст від Вас."
 
 #: concepts/public-private.md:block 10 (ordered list)
-#, fuzzy
 msgid "Pages with dynamic content will probably work."
-msgstr "Сторінки з динамічним контентом, ймовірно, працюватимуть."
+msgstr "Сторінки з динамічним вмістом, імовірно, працюватимуть."
 
 #: concepts/public-private.md:block 10 (ordered list)
-#, fuzzy
 msgid ""
 "Pages requiring authentication may work (when your connection is protected "
 "by HTTPS, the injector does not see your passwords)."
 msgstr ""
-"Сторінки, які потребують аутентифікації, можуть працювати (якщо ваше "
-"з'єднання захищене HTTPS, ін'єктор не бачить ваші паролі)."
+"Сторінки, які потребують автентифікації, можуть працювати (якщо Ваше "
+"зʼєднання захищене HTTPS, інʼєктор не бачить Ваші паролі)."
 
 #: concepts/public-private.md:block 10 (ordered list)
-#, fuzzy
 msgid "Browsing activity is not leaked to other users."
-msgstr "Ваші дії у браузері не доступні іншим користувачам."
+msgstr "Ваші дії в оглядачі не доступні іншим користувачам."
 
 #: concepts/public-private.md:block 10 (ordered list)
-#, fuzzy
 msgid ""
 "Limited browsing activity is leaked to injectors (with HTTPS, only the "
 "origin server name or address)."
 msgstr ""
-"Ін'єкторам надається обмежена інформація про перегляд веб-сторінок (при "
-"використанні HTTPS — лише ім'я або адреса вихідного сервера)."
+"Інʼєкторам надається обмежена інформація про перегляд вебсторінок (під час "
+"використання HTTPS – лише імʼя або адреса вихідного сервера)."
 
 #: concepts/public-private.md:block 10 (ordered list)
-#, fuzzy
 msgid ""
 "You need not trust injectors (with HTTPS, usual certificate-based security "
 "still works)."
 msgstr ""
-"Вам не потрібно довіряти ін'єкторам (при використанні HTTPS діє стандартний "
-"захист на основі сертифікатів)."
+"Вам не потрібно довіряти інʼєкторам (під час використання HTTPS діє "
+"стандартний захист на основі сертифікатів)."
 
 #: concepts/public-private.md:block 11 (paragraph)
-#, fuzzy
 msgid ""
 "In conclusion: if you are using CENO to read the news, watch videos, browse "
 "Wikipedia and other static resources that are otherwise censored in your "
@@ -200,14 +183,13 @@ msgid ""
 "to login to Twitter or edit your WordPress website, use *private browsing* "
 "mode."
 msgstr ""
-"Підсумовуючи: якщо ви використовуєте CENO для читання новин, перегляду "
+"Підсумовуючи: якщо Ви використовуєте CENO для читання новин, перегляду "
 "відео, перегляду Вікіпедії та інших статичних ресурсів, що підпадають під "
-"цензуру у вашій мережі — використовуйте режим *публічний перегляду* за "
-"замовчуванням. А якщо ви хочете увійти в Twitter або відредагувати свій сайт "
-"на WordPress — використовуйте режим *приватний перегляд*."
+"цензуру у Вашій мережі – використовуйте режим *публічний перегляду* за "
+"замовчуванням. А якщо Ви хочете ввійти в Twitter або відредагувати свій сайт "
+"на WordPress – використовуйте режим *приватний перегляд*."
 
 #: concepts/public-private.md:block 12 (paragraph)
-#, fuzzy
 msgid ""
 "Please read the section on [risks](risks.md) for a more detailed "
 "explanation. Also note that your client can continue to operate as a bridge "
@@ -215,7 +197,7 @@ msgid ""
 "greater detail in the [Helping others](../browser/bridging.md) section of "
 "the manual."
 msgstr ""
-"Докладнішу інформацію можна знайти у розділі [ризики](risks.md). Зверніть "
-"увагу, що ваш клієнт може продовжувати працювати як міст і розповсюджувач "
+"Докладнішу інформацію можна знайти в розділі [ризики](risks.md). Зверніть "
+"увагу, що Ваш клієнт може продовжувати працювати як міст і розповсюджувач "
 "незалежно від публічного або приватного перегляду. Ми пояснюємо це "
-"докладніше у розділі посібника [Допомога іншим](../browser/bridging.md)."
+"докладніше в розділі посібника [Допомога іншим](../browser/bridging.md)."
