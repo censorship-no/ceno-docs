@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-03-05 15:56+0000\n"
+"PO-Revision-Date: 2022-03-06 18:20+0000\n"
 "Last-Translator: Andrij Mizyk <andmizyk@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-readme/uk/>\n"
@@ -13,12 +13,10 @@ msgstr ""
 "X-Generator: Weblate 4.12-dev\n"
 
 #: browser/README.md:block 1 (header)
-#, fuzzy
 msgid "Using CENO Browser"
-msgstr "Використання браузера CENO"
+msgstr "Використання оглядача CENO"
 
 #: browser/README.md:block 2 (paragraph)
-#, fuzzy
 msgid ""
 "This chapter gives you some hints on the usage of CENO Browser as far as its "
 "Ouinet-related capabilities are concerned. Please always keep in mind that "
@@ -26,35 +24,33 @@ msgid ""
 "questions on generic browsing topics you should refer to Mozilla's [Firefox "
 "for Android Support][Firefox for Android Support] pages."
 msgstr ""
-"У цьому розділі наведено деякі рекомендації щодо використання браузера CENO "
-"щодо його можливостей, пов'язаних з Ouinet. Будь ласка, завжди пам'ятайте, "
-"що CENO створений на [Firefox для Android][Firefox для Android], тому з усіх "
+"У цьому розділі наведено деякі поради щодо використання оглядача CENO щодо "
+"його можливостей, повʼязаних з Ouinet. Будь ласка, завжди памʼятайте, що "
+"CENO створений на [Firefox для Android][Firefox для Android], тому з усіх "
 "питань, що стосуються загальних тем перегляду веб-сторінок, слід керуватися "
 "сторінками Mozilla [Firefox для Android Підтримка][Firefox для Android "
 "Підтримка] ."
 
 #: browser/README.md:block 3 (paragraph)
-#, fuzzy
 msgid ""
 "When relevant, screen captures will be included to illustrate the text. "
 "Please note that these may slightly differ from what you see on your device, "
 "especially as CENO development progresses. This documentation is up to date "
 "for CENO version 1.2.1."
 msgstr ""
-"Щоб проілюструвати текст час від часу вам будуть запропоновані зображення "
-"екрана. Зверніть увагу, що вони можуть трохи відрізнятись від того, що ви "
+"Щоб проілюструвати текст час від часу Вам будуть запропоновані зображення "
+"екрана. Зверніть увагу, що вони можуть трохи відрізнятись від того, що Ви "
 "бачите на своєму пристрої, особливо з подальшим удосконаленням CENO. Ця "
 "документація є актуальною для версії CENO 1.2.1."
 
 #: browser/README.md:block 4 (paragraph)
-#, fuzzy
 msgid ""
 "If your application exhibits behaviors substantially different from those "
 "described here, do not hesitate to contact us at [cenoers@equalit.ie](mailto:"
 "cenoers@equalit.ie) and report the issue."
 msgstr ""
-"Якщо ваша програма фукнціонує суттєво інакше, як описано тут, не вагайтесь "
-"зв'язатися з нами за адресою [cenoers@equalit.ie](mailto:cenoers@equalit.ie) "
+"Якщо Ваша програма функціонує суттєво інакше, як описано тут, не вагайтеся "
+"звʼязатися з нами за адресою [cenoers@equalit.ie](mailto:cenoers@equalit.ie) "
 "та повідомити про проблему."
 
 #: browser/README.md:block 4 (paragraph)
