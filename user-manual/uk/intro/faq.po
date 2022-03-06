@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-03-05 15:56+0000\n"
+"PO-Revision-Date: 2022-03-06 18:20+0000\n"
 "Last-Translator: Andrij Mizyk <andmizyk@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "faq/uk/>\n"
@@ -22,14 +22,13 @@ msgstr "Використання"
 
 #: intro/faq.md:block 3 (header)
 msgid "Can CENO Browser replace my current browser (Chrome/Firefox/Safari)?"
-msgstr "Чи може CENO замінити мій поточний браузер (Chrome/Firefox/Safari)?"
+msgstr "Чи може CENO замінити мій поточний оглядач (Chrome/Firefox/Safari)?"
 
 #: intro/faq.md:block 4 (paragraph)
 msgid "Short answer: yes, at least for some non-critical browsing."
 msgstr "Коротка відповідь: так, принаймні для звичайного перегляду сторінок."
 
 #: intro/faq.md:block 5 (paragraph)
-#, fuzzy
 msgid ""
 "Since CENO is based on Mozilla Firefox for Android, it provides all the "
 "features that are expected from a modern browser. However, its reliance on "
@@ -37,42 +36,39 @@ msgid ""
 "subtle ways (some of them potentially involving your privacy)."
 msgstr ""
 "Оскільки CENO заснований на базі Mozilla Firefox для Android, він надає всі "
-"функції, які ви очікуєте від сучасного браузера. Однак, його залежність від "
-"технології Ouinet для отримання веб-контенту може вплинути на його роботу "
-"незначним чином (деякі з них потенційно можуть вплинути на вашу "
+"функції, які Ви очікуєте від сучасного оглядача. Однак, його залежність від "
+"технології Ouinet для отримання мережевого вмісту може вплинути на його "
+"роботу незначним чином (деякі з них потенційно можуть вплинути на Вашу "
 "конфіденційність)."
 
 #: intro/faq.md:block 6 (paragraph)
-#, fuzzy
 msgid ""
 "Also, since CENO and Ouinet are under continuous development, you may "
 "experience some instability. That may also mean that backwards-incompatible "
 "changes are introduced which require you to uninstall the application or "
 "remove stored data (including bookmarks and site settings) before upgrading."
 msgstr ""
-"Крім того, оскільки CENO та Ouinet постійно розвиваються, ви можете "
+"Крім того, оскільки CENO та Ouinet постійно розвиваються, Ви можете "
 "зіткнутися з деякою нестабільністю. Це також може означати внесення "
-"несумісних змін, що вимагають від вас видалити програми або видалити "
-"збереженіі дані (включно з закладками та налаштуваннями сайту) перед "
+"несумісних змін, що вимагають від Вас видалити програми або видалити "
+"збережені дані (включно з закладками та налаштуваннями сайту) перед "
 "оновленням."
 
 #: intro/faq.md:block 7 (paragraph)
-#, fuzzy
 msgid ""
 "For important work on Web sites not subject to censorship, we recommend that "
 "you use your habitual Web browser instead of CENO. Please read the section "
 "on [risks](../concepts/risks.md) for more information."
 msgstr ""
 "Для виконання важливої роботи на сайтах, що не піддаються цензурі, ми "
-"рекомендуємо вам використовувати звичайний веб-браузер замість CENO. Для "
+"рекомендуємо Вам використовувати звичайний веб-оглядач замість CENO. Для "
 "отримання додаткової інформації перегляньте розділ [ризики](../concepts/risks"
 ".md)."
 
 #: intro/faq.md:block 8 (header)
-#, fuzzy
 msgid "Can I use CENO Browser to access Twitter, Facebook and Gmail?"
 msgstr ""
-"Чи можу я використовувати браузер CENO для доступу до Twitter, Facebook та "
+"Чи можу я використовувати оглядач CENO для доступу до Twitter, Facebook та "
 "Gmail?"
 
 #: intro/faq.md:block 9 (paragraph)
@@ -80,7 +76,6 @@ msgid "Short answer: yes, by using private tabs."
 msgstr "Коротка відповідь: так, використовуючи приватні вкладки."
 
 #: intro/faq.md:block 10 (paragraph)
-#, fuzzy
 msgid ""
 "Although CENO strives to provide a user experience as similar to normal Web "
 "browsing as possible, some of the techniques used to avoid network "
@@ -90,15 +85,14 @@ msgid ""
 "ensure that it does not leak to other untrusted CENO or Ouinet users."
 msgstr ""
 "Хоча CENO і намагається надати користувачеві досвід, максимально схожий на "
-"звичайний перегляд веб-сторінок, деякі методи, що використовуються для "
-"подолання цензури та втручання в інтернет-з'єднання, не зовсім коректно "
+"звичайний перегляд вебсторінок, деякі методи, що використовуються для "
+"подолання цензури та втручання в Інтернет-зʼєднання, не зовсім коректно "
 "працюють з подібними динамічними сайтами. Це стосується режиму роботи CENO "
 "за замовчуванням (тобто публічного перегляду), оскільки він видаляє всі "
-"приватні дані (такі як паролі та cookies) з інтернет-трафіку, щоб виключити "
+"приватні дані (такі як паролі та cookies) з Інтернет-трафіку, щоб виключити "
 "їхній витік іншим користувачам CENO або Ouinet."
 
 #: intro/faq.md:block 11 (paragraph)
-#, fuzzy
 msgid ""
 "To avoid this and enable the use of such dynamic sites in CENO, you can use "
 "private tabs (i.e. private browsing), which leave private data intact and "
@@ -106,11 +100,11 @@ msgid ""
 "else. However, this requires that network traffic from your device can reach "
 "those websites in some way."
 msgstr ""
-"Щоб уникнути цього та переглядати подібні динамічні сайти в CENO, ви можете "
+"Щоб уникнути цього та переглядати подібні динамічні сайти в CENO, Ви можете "
 "використовувати приватні вкладки (тобто приватний перегляд), які залишають "
-"особисті дані недоторканими та підтримують шифрування з'єднання з сайтами, "
+"особисті дані недоторканими та підтримують шифрування зʼєднання з сайтами, "
 "забезпечуючи таким чином захист від витоку даних. У той самий час, для цього "
-"необхідно, щоб мережевий трафік з вашого пристрою міг якимсь чином досягати "
+"необхідно, щоб мережевий трафік з Вашого пристрою міг якимсь чином досягати "
 "цих сайтів."
 
 #: intro/faq.md:block 12 (paragraph)
@@ -127,23 +121,21 @@ msgstr "Конфіденційність та безпека"
 
 #: intro/faq.md:block 14 (header)
 msgid "Will my device store content that I did not request?"
-msgstr "Чи зберігатиме мій пристрій вміст, який я не запитував?"
+msgstr "Чи зберігатиме мій пристрій вміст, який я не запитую?"
 
 #: intro/faq.md:block 15 (paragraph)
 msgid "Short answer: no."
 msgstr "Коротка відповідь: ні."
 
 #: intro/faq.md:block 16 (paragraph)
-#, fuzzy
 msgid ""
 "CENO only shares content that you requested (using [public browsing](../"
 "concepts/public-private.md))."
 msgstr ""
-"CENO розповсюджує лише контент, який ви запросили (використовуючи [публічний "
+"CENO розповсюджує лише вміст, який Ви запросили (використовуючи [публічний "
 "перегляд сторінок](../concepts/public-private.md))."
 
 #: intro/faq.md:block 17 (paragraph)
-#, fuzzy
 msgid ""
 "Please note that a malicious website may still try to trick your browser "
 "into retrieving content from other sites without your knowledge so as to "
@@ -151,26 +143,24 @@ msgid ""
 "already does a pretty good job at detecting and blocking such attempts, you "
 "should still avoid visiting suspicious sites."
 msgstr ""
-"Будь ласка, зверніть увагу, що шкідливий веб-сайт може спробувати обдурити "
-"ваш браузер і отримати контент з інших сайтів без вашого відома, щоб змусити "
-"ваш пристрій зберігати і поширювати його іншим користувачам. Хоча код "
+"Будь ласка, зверніть увагу, що шкідливий вебсайт може спробувати обдурити "
+"Ваш оглядач і отримати вміст з інших сайтів без Вашого відома, щоб змусити "
+"Ваш пристрій зберігати і поширювати його іншим користувачам. Хоча код "
 "Firefox досить добре справляється з виявленням та блокуванням таких спроб, "
-"вам все одно слід уникати відвідування підозрілих сайтів."
+"Вам все одно слід уникати відвідування підозрілих сайтів."
 
 #: intro/faq.md:block 18 (paragraph)
-#, fuzzy
 msgid ""
 "Read more about how your CENO Browser retrieves and shares Web content with "
 "others [here](../concepts/how.md)."
 msgstr ""
-"Докладніше про те, як ваш браузер CENO отримує веб-контент і ділиться з "
+"Докладніше про те, як Ваш оглядач CENO отримує мережевий вміст і ділиться з "
 "іншими користувачами, прочитайте [тут](../concepts/how.md)."
 
 #: intro/faq.md:block 19 (header)
-#, fuzzy
 msgid "Can anyone see if I am using CENO Browser to access censored Web sites?"
 msgstr ""
-"Чи може хто-небудь визначити, чи я використовую браузер CENO для доступу до "
+"Чи може хто-небудь визначити, чи я використовую оглядач CENO для доступу до "
 "сайтів, що підпадають під цензуру?"
 
 #: intro/faq.md:block 20 (paragraph)
@@ -179,7 +169,6 @@ msgstr ""
 "Коротка відповідь: так, за наявності певних технічних знань та ресурсів."
 
 #: intro/faq.md:block 21 (paragraph)
-#, fuzzy
 msgid ""
 "CENO is not an anonymity tool. An attacker able to spy on your network "
 "traffic can see content being requested from or served to another user from "
@@ -187,25 +176,24 @@ msgid ""
 "particular website, although they cannot list all the content that you are "
 "sharing."
 msgstr ""
-"CENO НЕ є засобом забезпечення анонімності. Зловмисник, здатний шпигувати за "
-"вашим мережним трафіком, може побачити контент, що запитується в іншого "
-"користувача або розповсюджується з вашого пристрою. Зловмисник також може "
-"визначити, чи ви користуєтесь певним веб-сайтом, хоча він не може отримати "
-"повний список контенту, яким ви ділитеся."
+"CENO не є засобом забезпечення анонімності. Зловмисник, здатний шпигувати за "
+"Вашим мережним трафіком, може побачити вміст, що запитується в іншого "
+"користувача або розповсюджується з Вашого пристрою. Зловмисник також може "
+"визначити, чи Ви користуєтесь певним вебсайтом, хоча він не може отримати "
+"повний список вмісту, яким Ви ділитеся."
 
 #: intro/faq.md:block 22 (paragraph)
-#, fuzzy
 msgid ""
 "However, content being retrieved into the network for the first time or "
 "using [private browsing](../concepts/public-private.md) will travel over "
 "encrypted connections. See [how content retrieval works](../concepts/how.md) "
 "and the associated [risks](../concepts/risks.md) for more information."
 msgstr ""
-"Однак, контент, що додається в мережу вперше або отримується при "
-"використанні [приватного перегляду](../concepts/public-private.md), буде "
-"передаватися шифрованим з'єднанням. Додаткову інформацію дивіться у розділі ["
-"як працює отримання контенту](../concepts/how.md) та пов'язані з цим "
-"[ризики](../concepts/risks.md)."
+"Однак, вміст, що додається в мережу вперше або отримується при використанні ["
+"приватного перегляду](../concepts/public-private.md), буде передаватися "
+"шифрованим зʼєднанням. Додаткову інформацію дивіться в розділі [як працює "
+"отримання вмісту](../concepts/how.md) та повʼязані з цим [ризики](../"
+"concepts/risks.md)."
 
 #: intro/faq.md:block 23 (header)
 msgid "Resource usage"
@@ -220,18 +208,17 @@ msgid "Short answer: more than your usual browser."
 msgstr "Коротка відповідь: більше, ніж звичайний оглядач."
 
 #: intro/faq.md:block 26 (paragraph)
-#, fuzzy
 msgid ""
 "Whenever your CENO Browser serves content to another user or forwards their "
 "traffic, it is consuming extra data depending on factors like how popular or "
 "large the content is, and how well-connected your device is. Sharing more "
 "content also implies more overhead."
 msgstr ""
-"Щоразу, коли ваш браузер CENO роздає контент іншим користувачам або передає "
-"їхній контент, він споживає додатковий трафік, що залежить від таких "
-"факторів, як популярність або обсяг контенту, а також від того, наскільки "
-"надійно підключений ваш пристрій до інтернету. Чим більше контенту ви "
-"роздаєте, тим вищі додаткові витрати."
+"Щоразу, коли Ваш оглядач CENO роздає вміст іншим користувачам або передає "
+"їхній вміст, він споживає додатковий трафік, що залежить від таких факторів, "
+"як популярність або обсяг вмісту, а також від того, наскільки надійно "
+"підключений Ваш пристрій до Інтернету. Чим більше вмісту Ви роздаєте, тим "
+"вищі додаткові витрати."
 
 #: intro/faq.md:block 27 (paragraph)
 msgid ""
@@ -251,7 +238,6 @@ msgid "Does CENO Browser use a lot of battery on my device?"
 msgstr "Чи сильно оглядач CENO розряджає батарею на моєму пристрої?"
 
 #: intro/faq.md:block 30 (paragraph)
-#, fuzzy
 msgid ""
 "CENO and Ouinet use various techniques for different users to cooperate in "
 "avoiding network interference and outages. Serving content to and forwarding "
@@ -261,13 +247,12 @@ msgid ""
 msgstr ""
 "CENO та Ouinet використовують різні техніки для взаємодії між різними "
 "користувачами у випадку перешкод та збоїв у роботі мережі. Обслуговування "
-"контенту та пересилання трафіку для інших користувачів споживає додаткову "
-"енергію. Крім того, навіть якщо ваш пристрій не надає активної допомоги "
-"іншим користувачам, він все одно повинен залишатися доступним в мережі, що "
+"вмісту та пересилання трафіку для інших користувачів споживає додаткову "
+"енергію. Крім того, навіть якщо Ваш пристрій не надає активної допомоги "
+"іншим користувачам, він все одно повинен залишатися доступним у мережі, що "
 "не дозволяє використовувати деякі енергозберігаючі функції."
 
 #: intro/faq.md:block 31 (paragraph)
-#, fuzzy
 msgid ""
 "The net result is that CENO may keep on draining your battery even when not "
 "in use. Our tests have not shown power consumption hiking too much, but your "
@@ -276,10 +261,10 @@ msgid ""
 "install.md))."
 msgstr ""
 "Як наслідок, CENO може продовжувати розряджати акумулятор, навіть коли "
-"браузер не використовується. Наші випробування не показали значних стрибків "
-"енергоспоживання, але у вас може бути інакше. За потреби економії батареї ми "
-"рекомендуємо повністю зупинити CENO (для цього є зручний ярлик, дивіться тут "
-"(../browser/install.md))."
+"оглядач не використовується. Наші випробування не показали значних стрибків "
+"енергоспоживання, але у Вас може бути інакше. За потреби економії батареї ми "
+"радимо повністю зупинити CENO (для цього є зручний ярлик, дивіться тут (../"
+"browser/install.md))."
 
 #: intro/faq.md:block 32 (header)
 msgid "Do I need to be connected to Wi-Fi to use CENO Browser?"
@@ -295,7 +280,7 @@ msgid ""
 "why we recommend using a Wi-Fi connection instead:"
 msgstr ""
 "CENO повинен нормально працювати через мобільний інтернет, однак є дві "
-"причини, через які ми рекомендуємо використовувати Wi-Fi-підключення:"
+"причини, через які ми радимо використовувати Wi-Fi-підключення:"
 
 #: intro/faq.md:block 35 (ordered list)
 msgid ""
@@ -306,12 +291,11 @@ msgstr ""
 "мобільний звʼязок (дивіться вище)."
 
 #: intro/faq.md:block 35 (ordered list)
-#, fuzzy
 msgid ""
 "Mobile connections often make reaching your device more difficult from the "
 "outside than Wi-Fi ones, thus decreasing the chances that you can help other "
 "users get content."
 msgstr ""
-"При мобільному підключенні з'єднатися з вашим пристроєм ззовні буде набагато "
-"складніше, ніж при підключенні до Wi-Fi, що знижує можливість того, що ви "
-"зможете допомогти іншим користувачам отримати контент."
+"При мобільному підключенні зʼєднатися з Вашим пристроєм ззовні буде набагато "
+"складніше, ніж при підключенні до Wi-Fi, що знижує можливість того, що Ви "
+"зможете допомогти іншим користувачам отримати вміст."
