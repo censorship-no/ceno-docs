@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2022-01-23 09:54+0000\n"
+"PO-Revision-Date: 2022-02-26 17:54+0000\n"
 "Last-Translator: george kitsoukakis <norhorn@gmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/censorship-no/"
 "browser-bridging/el/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.11-dev\n"
+"X-Generator: Weblate 4.11.1-dev\n"
 
 #
 #: browser/bridging.md:block 1 (header)
@@ -20,17 +20,6 @@ msgid "Helping other CENO users browse the Web"
 msgstr "Βοηθώντας άλλους χρήστες του CENO να περιηγηθούν στο Διαδίκτυο"
 
 #: browser/bridging.md:block 2 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "A peer-to-peer network is built from every node connected to it (yes, "
-#| "that means you as well!). The more nodes, the stronger and more versatile "
-#| "the network becomes. If you are running the CENO Browser from a country "
-#| "that does not censor the Internet (or not as heavily as some), consider "
-#| "helping other CENO users by becoming a **bridge** node. You will then "
-#| "begin to route traffic between clients living in heavily censored "
-#| "countries and CENO injectors. You will not be able to see their traffic "
-#| "(it will be sent through an encrypted tunnel), nor will any of this "
-#| "traffic remain on your device."
 msgid ""
 "A peer-to-peer network is built from every node connected to it (yes, that "
 "means you as well!). The more nodes, the stronger and more versatile the "
@@ -73,12 +62,6 @@ msgid "How to become a CENO bridge"
 msgstr "Πώς να δημιουργήσετε μια γέφυρα CENO"
 
 #: browser/bridging.md:block 5 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "This functionality is already built into the CENO Browser. Your device "
-#| "will need to be connected to a Wi-Fi network that has either UPnP enabled "
-#| "or explicit port forwarding configured for CENO. See the next sections "
-#| "for further details."
 msgid ""
 "This functionality is already built into CENO Browser. Your device will need "
 "to be connected to a Wi-Fi network that has either UPnP enabled or explicit "
@@ -258,16 +241,12 @@ msgstr ""
 "χρήσης εναλλακτικών μεθόδων όπως εξηγείται παρακάτω."
 
 #: browser/bridging.md:block 22 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "A status like the one below indicates that UPnP is not enabled on your "
-#| "WiFi router:"
 msgid ""
 "A status like the one below indicates that UPnP is not available or not "
 "working on your WiFi router:"
 msgstr ""
-"Μια κατάσταση όπως η παρακάτω υποδεικνύει ότι το UPnP δεν είναι "
-"ενεργοποιημένο στο δρομολογητή WiFi:"
+"Μια κατάσταση όπως η παρακάτω υποδεικνύει ότι το UPnP δεν είναι διαθέσιμο "
+"στο δρομολογητή σας WiFi:"
 
 #: browser/bridging.md:block 23 (quote)
 msgid "**Reachability status**"
@@ -350,12 +329,16 @@ msgid ""
 "[Netgear](https://kb.netgear.com/24306/How-do-I-enable-Universal-Plug-and-"
 "Play-on-my-Nighthawk-router)"
 msgstr ""
+"[Netgear](https://kb.netgear.com/24306/How-do-I-enable-Universal-Plug-and-"
+"Play-on-my-Nighthawk-router)"
 
 #: browser/bridging.md:block 30 (unordered list)
 msgid ""
 "[Ubiquiti](https://www.geekzone.co.nz/forums.asp?"
 "forumid=66&topicid=205740&page_no=5#1725168)"
 msgstr ""
+"[Ubiquiti](https://www.geekzone.co.nz/forums."
+"asp?forumid=66&topicid=205740&page_no=5#1725168)"
 
 #: browser/bridging.md:block 31 (header)
 msgid "Using port forwarding as an alternative to UPnP"
@@ -447,7 +430,5 @@ msgstr ""
 "security-risk"
 
 #: browser/bridging.md:block 35 (quote)
-#, fuzzy
-#| msgid "[UPnP]: https://en.wikipedia.org/wiki/Universal_Plug_and_Play"
 msgid "[CGNAT]: https://en.wikipedia.org/wiki/Carrier-grade_NAT"
-msgstr "[UPnP]: https://en.wikipedia.org/wiki/Universal_Plug_and_Play"
+msgstr "[CGNAT]: https://en.wikipedia.org/wiki/Carrier-grade_NAT"

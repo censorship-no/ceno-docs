@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-02-16 23:55+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
+"PO-Revision-Date: 2022-03-06 18:20+0000\n"
+"Last-Translator: Andrij Mizyk <andmizyk@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "user-manual/uk/>\n"
 "Language: uk\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.11-dev\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #: SUMMARY.md:block 1 (header)
 msgid "Summary"
@@ -22,11 +22,11 @@ msgstr "[Censorship.no!](README.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Introduction](intro/README.md)"
-msgstr "[Вступ](intro/README.md)"
+msgstr "[Ознайомлення](intro/README.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[What is CENO Browser?](intro/ceno.md)"
-msgstr "[Що таке браузер CENO?](intro/ceno.md)"
+msgstr "[Що таке оглядач CENO?](intro/ceno.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[What is Ouinet?](intro/ouinet.md)"
@@ -50,7 +50,7 @@ msgstr "[Як це працює?](concepts/how.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Public vs. private browsing](concepts/public-private.md)"
-msgstr "[Публічний чи приватний перегляд сторінок](concepts/public-private.md)"
+msgstr "[Публічний або приватний перегляд](concepts/public-private.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Advantages of using CENO/Ouinet](concepts/advantages.md)"
@@ -62,11 +62,11 @@ msgstr "[Ризики під час використання CENO/Ouinet](concep
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Using CENO Browser](browser/README.md)"
-msgstr "[Використання браузера CENO](browser/README.md)"
+msgstr "[Використання оглядача CENO](browser/README.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Installing CENO](browser/install.md)"
-msgstr "[Встановлювання CENO](browser/install.md)"
+msgstr "[Встановлення CENO](browser/install.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Using public or private browsing](browser/public-private.md)"
@@ -79,7 +79,7 @@ msgstr "[Налаштування CENO](browser/settings.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Testing the Browser](browser/testing.md)"
-msgstr "[Тестування браузера](browser/testing.md)"
+msgstr "[Тестування оглядача](browser/testing.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Helping others](browser/bridging.md)"
