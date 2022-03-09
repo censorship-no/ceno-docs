@@ -96,7 +96,7 @@ CENO automatically switches to the more secure HTTPS protocol to access sites wh
 
 The automatic switching to HTTPS is done to prevent someone from intercepting an HTTP connection and directing it to an illegitimate server, resulting in bogus content (like a block message).  This kind of hijacking is trivial to detect with HTTPS, so CENO can work around it instead of being tricked into loading the bogus content.
 
-Although very unusual, some sites do not support HTTPS, and they would fail to load with all access mechanisms.  If you are completely sure that this is the case for a site which just failed to load in CENO, you can edit its URL in the location bar, change `https://` with `http://`, and try again.
+Although very unusual, some sites do not support HTTPS, and no access mechanism will work for them.  If you are completely sure that this is the case for a site which just failed to load in CENO, you can edit its URL in the location bar, change `https://` with `http://`, and try again.
 
 If you want to always access a particular site over HTTP, you can add a permanent exception like this:
 
