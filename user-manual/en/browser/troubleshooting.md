@@ -102,7 +102,7 @@ If you want to always access a particular site over HTTP, you can add a permanen
 
 1. In the app's main menu, choose *Tools / Add-ons*.
 2. Tap on *HTTPS by default*.
-3. Enter the name of the site in the text box as shown below.  You may enter several sites by separating them with spaces or newlines.  Please note that entering `example.com` will include all sites under that domain, like `www.example.com` or `x.y.example.com`.
+3. Enter the name of the site in the text box, as shown below.  See how you may enter several sites by separating them with spaces or newlines.  Please note that entering `example.com` will include all sites under that domain, like `www.example.com` or `x.y.example.com`.
 4. When done, go back or close the tab.
 
 ![Figure: Adding exceptions for HTTP-only sites](images/httpsbd-exceptions.png)
