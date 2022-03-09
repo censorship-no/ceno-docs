@@ -88,6 +88,21 @@ Please note that some content which is not considered safe for sharing will neve
 
 Also note that the clients holding copies of injected content need to be reachable by you.  The same observations described in the previous point for reaching bridge clients do apply here.
 
+### A note on HTTP-only sites
+
+CENO automatically switches to the more secure HTTPS protocol to access sites which would otherwise be accessed using plain, insecure HTTP.  This happens when you enter a bare name like `example.com` or an HTTP URL like `http://example.com/…` in the location bar, or when you follow a link with such a URL in a page.
+
+The automatic switching to HTTPS is done to prevent someone from intercepting an HTTP connection and directing it to an illegitimate server, resulting in bogus content (like a block message).  This kind of hijacking is trivial to detect with HTTPS, so CENO can work around it instead of being tricked into loading the bogus content.
+
+Although very unusual, some sites do not support HTTPS, and they would fail to load with all access mechanisms.  If you are completely sure that this is the case for a site which just failed to load in CENO, you can edit its URL in the location bar, change `https://` with `http://`, and try again.
+
+If you want to always access a particular site over HTTP, you can add a permanent exception like this:
+
+1. In the app's main menu, choose *Tools / Add-ons*.
+2. Tap on *HTTPS by default*.
+3. Enter the name of the site in the text box.  You may enter several sites by separating them with spaces or newlines.  Please note that entering `example.com` will include all sites under that domain, like `www.example.com` or `x.y.example.com`.
+4. When done, go back or close the tab.
+
 ## Others cannot retrieve content seeded by my device
 
 First, make sure that your device is still seeding the content by going to the [*CENO Settings* page](settings.md), only leaving the *Shared by other CENO users* source box checked, then accessing that content again: it should load (at least partially), and pushing the CENO address bar icon should only show non-zero values under *Shared by other CENO users* or *Shared by you*.
