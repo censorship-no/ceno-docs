@@ -103,6 +103,8 @@ If you want to always access a particular site over HTTP, you can add a permanen
 3. Enter the name of the site in the text box.  You may enter several sites by separating them with spaces or newlines.  Please note that entering `example.com` will include all sites under that domain, like `www.example.com` or `x.y.example.com`.
 4. When done, go back or close the tab.
 
+**Note:** In the unfortunate case that a site is only accessible via HTTP, and it is also being hijacked by a censor, you will need to go to the [Settings page](settings.md), disable Origin access, and try again.  Please note that this setting affects all sites, and it is not remembered by CENO for subsequent runs.  We encourage you to contact the site administrators and tell them to enable HTTPS support.
+
 ## Others cannot retrieve content seeded by my device
 
 First, make sure that your device is still seeding the content by going to the [*CENO Settings* page](settings.md), only leaving the *Shared by other CENO users* source box checked, then accessing that content again: it should load (at least partially), and pushing the CENO address bar icon should only show non-zero values under *Shared by other CENO users* or *Shared by you*.
