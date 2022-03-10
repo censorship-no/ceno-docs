@@ -80,13 +80,13 @@ CENO automatically switches to the more secure HTTPS protocol to access sites wh
 
 The automatic switching to HTTPS is done to prevent someone from intercepting an HTTP connection and directing it to an illegitimate server, resulting in bogus content (like a block message).  This kind of hijacking is trivial to detect with HTTPS, so CENO can work around it instead of being tricked into loading the bogus content.
 
-Although very unusual, some sites do not support HTTPS, and no access mechanism will work for them.  If you are completely sure that this is the case for a site which just failed to load in CENO, you can edit its URL in the location bar, change `https://` with `http://`, and try again.
+Although very unusual, some sites do not support HTTPS, and no access mechanism will work for them.  If you are completely sure that this is the case for a site which just failed to load in CENO, you can edit its URL in the location bar, change `https://` to `http://`, and try again.
 
-If you want to always access a particular site over HTTP, you can add a permanent exception like this:
+If you want to always access a particular site over plain HTTP, you can add a permanent exception like this:
 
 1. In the app's main menu, choose *Tools / Add-ons*.
-2. Tap on *HTTPS by default*.
-3. Enter the domain name of the site in the text box, as shown below.  See how you may enter several sites by separating them with spaces or newlines.  Please note that entering `example.com` will include all sites under that domain, like `www.example.com` or `x.y.example.com`.
+2. Tap on *HTTPS by default*.  You will see that extension's settings page.
+3. Enter the domain name of the site in the text box, as shown below.  See there how you may enter several sites by separating them with spaces or newlines.  Please note that entering `example.com` will also include all sites under that domain, like `www.example.com` or `x.y.example.com`.
 4. When done, go back or close the tab.
 
 ![Figure: Adding exceptions for HTTP-only sites](images/httpsbd-exceptions.png)
