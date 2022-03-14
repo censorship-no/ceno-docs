@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-03-06 18:20+0000\n"
-"Last-Translator: Andrij Mizyk <andmizyk@gmail.com>\n"
+"PO-Revision-Date: 2022-03-14 12:32+0000\n"
+"Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "client-front-end/uk/>\n"
 "Language: uk\n"
@@ -26,7 +26,7 @@ msgstr ""
 "У клієнта Ouinet (який запускається, наприклад, оглядачем CENO) є службовий "
 "інтерфейс із довідковою інформацією та командами, що можуть бути корисними "
 "для налагодження клієнта. Багато з цих команд також пропонує розширення CENO "
-"через сторінку [*Налаштування CENO*(../browser/settings.md), проте деякі "
+"через сторінку [*Налаштування CENO*](../browser/settings.md), проте деякі "
 "команди доступні лише тут."
 
 #: client/front-end.md:block 3 (paragraph)
