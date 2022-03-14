@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-03-07 18:56+0000\n"
-"Last-Translator: Andrij Mizyk <andmizyk@gmail.com>\n"
+"PO-Revision-Date: 2022-03-14 12:32+0000\n"
+"Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-troubleshooting/uk/>\n"
 "Language: uk\n"
@@ -416,7 +416,7 @@ msgstr ""
 "або Ouinet. Це означає, що популярний вміст буде завантажений в мережу з "
 "більшою ймовірністю, а спеціалізований – з меншою, якщо хтось не буде "
 "цілеспрямовано поширювати його через CENO або інший клієнт Ouinet (що може "
-"додатково наразити його на деякі [ризики](../ concepts/risks.md))."
+"додатково наразити його на деякі [ризики](../concepts/risks.md))."
 
 #: browser/troubleshooting.md:block 38 (paragraph)
 msgid ""

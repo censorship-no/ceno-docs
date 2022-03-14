@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-03-06 18:20+0000\n"
-"Last-Translator: Andrij Mizyk <andmizyk@gmail.com>\n"
+"PO-Revision-Date: 2022-03-14 12:32+0000\n"
+"Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "faq/uk/>\n"
 "Language: uk\n"
@@ -263,7 +263,7 @@ msgstr ""
 "Як наслідок, CENO може продовжувати розряджати акумулятор, навіть коли "
 "оглядач не використовується. Наші випробування не показали значних стрибків "
 "енергоспоживання, але у Вас може бути інакше. За потреби економії батареї ми "
-"радимо повністю зупинити CENO (для цього є зручний ярлик, дивіться тут (../"
+"радимо повністю зупинити CENO (для цього є зручний ярлик, дивіться [тут](../"
 "browser/install.md))."
 
 #: intro/faq.md:block 32 (header)

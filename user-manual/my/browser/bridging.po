@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2022-02-16 23:54+0000\n"
+"PO-Revision-Date: 2022-03-12 20:56+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "browser-bridging/my/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.11-dev\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #
 #: browser/bridging.md:block 1 (header)
@@ -327,12 +327,16 @@ msgid ""
 "[Netgear](https://kb.netgear.com/24306/How-do-I-enable-Universal-Plug-and-"
 "Play-on-my-Nighthawk-router)"
 msgstr ""
+"[Netgear](https://kb.netgear.com/24306/How-do-I-enable-Universal-Plug-and-"
+"Play-on-my-Nighthawk-router)"
 
 #: browser/bridging.md:block 30 (unordered list)
 msgid ""
 "[Ubiquiti](https://www.geekzone.co.nz/forums.asp?"
 "forumid=66&topicid=205740&page_no=5#1725168)"
 msgstr ""
+"[Ubiquiti](https://www.geekzone.co.nz/forums."
+"asp?forumid=66&topicid=205740&page_no=5#1725168)"
 
 #: browser/bridging.md:block 31 (header)
 msgid "Using port forwarding as an alternative to UPnP"

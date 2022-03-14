@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:51+0200\n"
-"PO-Revision-Date: 2021-09-27 11:52+0000\n"
+"PO-Revision-Date: 2022-03-14 12:03+0000\n"
 "Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "homepage-readme/my/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.9-dev\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #
 #: README.md:block 1 (header)
@@ -20,19 +20,14 @@ msgid "Censorship.no! User Manual"
 msgstr "Censorship.no! သုံးစွဲသူ လက်စွဲ"
 
 #: README.md:block 2 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "This manual is aimed at users of the **CENO Browser** and related "
-#| "technologies, as created for the [Censorship.no!][Censorship.no!] project "
-#| "by [eQualitie][eQualitie]."
 msgid ""
 "This manual is aimed at users of [CENO Browser][CENO Browser] and related "
 "technologies, as created for the [Censorship.no!][Censorship.no!] project by "
 "[eQualitie][eQualitie]."
 msgstr ""
-"ဤလက်စွဲကို [eQualitie][eQualitie] ၏ ပရောဂျက်ဖြစ်သော [Censorship.no!][Censorship."
-"no!] အတွက် ဖန်တီးထားသော **CENO ဘရောက်ဇာ** နှင့် သက်ဆိုင်ရာ နည်းပညာများကို သုံးစွဲသူများအတွက် "
-"ရည်ရွယ်သည်။"
+"ဤလက်စွဲကို [eQualitie][eQualitie] ၏ ပရောဂျက်ဖြစ်သော [Censorship."
+"no!][Censorship.no!] အတွက် ဖန်တီးထားသော [CENO ဘရောက်ဇာ][CENO Browser] နှင့် "
+"သက်ဆိုင်ရာ နည်းပညာများကို သုံးစွဲသူများအတွက် ရည်ရွယ်သည်။"
 
 #: README.md:block 3 (paragraph)
 msgid ""
@@ -47,13 +42,8 @@ msgstr ""
 "ဗဟိုသိုလှောင်ခန်း]ကို ရည်ညွှန်းပါ။"
 
 #: README.md:block 3 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "[CENO documentation repository]: https://github.com/censorship-no/ceno-"
-#| "docs/"
 msgid "[CENO Browser]: https://github.com/censorship-no/ceno-browser"
-msgstr ""
-"[CENO စာရွက်စာတမ်း ဗဟိုသိုလှောင်ခန်း]: https://github.com/censorship-no/ceno-docs/"
+msgstr "[CENO Browser]: https://github.com/censorship-no/ceno-browser"
 
 #: README.md:block 3 (paragraph)
 msgid "[Censorship.no!]: https://censorship.no/"

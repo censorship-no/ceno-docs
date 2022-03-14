@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-03-06 18:20+0000\n"
-"Last-Translator: Andrij Mizyk <andmizyk@gmail.com>\n"
+"PO-Revision-Date: 2022-03-14 12:32+0000\n"
+"Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "ceno/uk/>\n"
 "Language: uk\n"
@@ -84,7 +84,7 @@ msgstr ""
 "код проєкту](https://github.com/censorship-no/ \"CENO source code "
 "repositories\")), що дозволяє будь-кому використовувати, вивчати, поширювати "
 "та покращувати цей код. Звʼяжіться з нами за адресою [cenoers@equalit."
-"ie](mailto: cenoers@equalit.ie), якщо у Вас є сумніви чи потрібна додаткова "
+"ie](mailto:cenoers@equalit.ie), якщо у Вас є сумніви чи потрібна додаткова "
 "інформація."
 
 #: intro/ceno.md:block 7 (header)
@@ -161,8 +161,7 @@ msgstr "[P2P]: https://uk.wikipedia.org/wiki/Peer-to-peer"
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[national intranets]: https://en.wikipedia.org/wiki/National_intranet"
-msgstr ""
-"[національні intranets]: https://en.wikipedia.org/wiki/National_intranet"
+msgstr "[national intranets]: https://en.wikipedia.org/wiki/National_intranet"
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[Firefox for Android]: https://www.mozilla.org/firefox/android/"
@@ -177,8 +176,8 @@ msgid ""
 "[Universal Declaration of Human Rights]: https://www.un.org/en/universal-"
 "declaration-human-rights/"
 msgstr ""
-"[Загальна декларація прав людини]: https://www.un.org/en/about-us/universal-"
-"declaration-of-human-rights"
+"[Universal Declaration of Human Rights]: https://www.un.org/en/"
+"universal-declaration-human-rights/"
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[ceno-repos]: https://github.com/censorship-no/"
