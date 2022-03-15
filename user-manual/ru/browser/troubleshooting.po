@@ -133,90 +133,11 @@ msgid ""
 msgstr ""
 
 #: browser/troubleshooting.md:block 16 (header)
-msgid "A page shows bogus content (like a block message)"
-msgstr ""
-"На странице отображается не её настоящее содержимое (например, отображается "
-"сообщение о блокировке)"
-
-#: browser/troubleshooting.md:block 17 (paragraph)
-msgid ""
-"CENO was able to contact a web server directly and retrieve content from it. "
-"Unfortunately, someone intercepted the connection and directed it to an "
-"illegitimate server."
-msgstr ""
-"CENO смог связаться с веб-сервером и получить с него содержимое. К "
-"сожалению, соединение было перехвачено и перенаправлено на другую страницу."
-
-#: browser/troubleshooting.md:block 18 (paragraph)
-msgid ""
-"This usually means that the site is blocked by your access provider or "
-"country. However, this particular error can only happen when you are "
-"accessing the site over insecure HTTP (instead of the more secure HTTPS "
-"protocol), as CENO cannot detect the tampering by itself."
-msgstr ""
-"Обычно это означает, что сайт заблокирован вашим интернет-провайдером или "
-"страной. Однако эта конкретная ошибка может возникнуть только в том случае, "
-"если вы заходите на сайт по незащищенному протоколу HTTP (вместо более "
-"безопасного протокола HTTPS), поскольку тогда CENO не сможет обнаружить "
-"фальсификацию."
-
-#: browser/troubleshooting.md:block 19 (paragraph)
-msgid ""
-"Thus, one way to get to the legitimate site is to try to access it over "
-"HTTPS by tapping the address bar and replacing `http://` with `https://` at "
-"the beginning of its URL. Of course, this will only work if the site "
-"supports HTTPS. If it does not, and you get \"Failed to retrieve the resource"
-"\" from CENO, you will need to go to the [Settings page](settings.md), "
-"disable Origin access, and try again."
-msgstr ""
-"Таким образом, один из способов попасть на настоящий сайт — попытаться зайти "
-"на него по протоколу HTTPS, заменив в адресной строке `http://` на `https://"
-"` в начале URL. Конечно, это сработает только в том случае, если сайт "
-"поддерживает HTTPS. В противном случае — если вы получаете от CENO сообщение "
-"\"Не удалось получить ресурс\" — необходимо перейти на страницу [Настройки]"
-"(settings.md), отключить Исходный доступ и повторить попытку."
-
-#: browser/troubleshooting.md:block 20 (paragraph)
-msgid ""
-"Since such setting is not remembered, and modifying the URL every time can "
-"get tiresome, you may instead configure CENO to always use HTTPS for all "
-"sites via the embedded [HTTPS Everywhere][HTTPS Everywhere] extension: "
-"choose *HTTPS Everywhere* in the app's main menu, then enable *Encrypt All "
-"Sites Eligible* (EASE) as shown below. This setting is remembered by CENO."
-msgstr ""
-"Поскольку эта настройка не запоминается, а изменение URL каждый раз может "
-"надоесть, вы можете настроить CENO на постоянное использование HTTPS для "
-"всех сайтов с помощью встроенного расширения [HTTPS Everywhere][HTTPS "
-"Everywhere]: выберите *HTTPS Everywhere* в главном меню приложения, затем "
-"включите *Шифрование всех допустимых сайтов* (EASE), как показано ниже. Эта "
-"настройка запоминается CENO."
-
-#: browser/troubleshooting.md:block 21 (paragraph)
-msgid ""
-"![Figure: HTTPS Everywhere settings with EASE on](images/httpsew-ease-on.png)"
-msgstr ""
-"![Рисунок: Настройки HTTPS Everywhere с включенным EASE](images/httpsew-ease-"
-"on.png)"
-
-#: browser/troubleshooting.md:block 22 (paragraph)
-msgid ""
-"If you still need to access some particular site over plain HTTP when EASE "
-"is on, you can visit the site (even if access fails), then from that tab "
-"open HTTPS Everywhere settings and tap on the *Disable on this site* button "
-"shown above to set an exception for the site."
-msgstr ""
-"Если вам все еще нужен доступ к какому-то сайту по обычному HTTP при "
-"включенном EASE, вы можете открыть сайт (даже если доступ получить не "
-"удается), затем на этой вкладке открыть настройки HTTPS Everywhere и нажать "
-"на кнопку *Отключить на этом сайте*, показанную выше, чтобы добавить для "
-"сайта исключение."
-
-#: browser/troubleshooting.md:block 23 (header)
 msgid "Accessing some content shows \"Failed to retrieve the resource\""
 msgstr ""
 "При доступе к контенту появляется сообщение \"Не удалось загрузить ресурс\""
 
-#: browser/troubleshooting.md:block 24 (paragraph)
+#: browser/troubleshooting.md:block 17 (paragraph)
 msgid ""
 "This means that CENO tried all available mechanisms to access the content, "
 "but none of them succeeded."
@@ -224,14 +145,14 @@ msgstr ""
 "Это означает, что CENO испробовал все доступные схемы для получения доступа "
 "к контенту, но ни одна из них не увенчалась успехом."
 
-#: browser/troubleshooting.md:block 25 (paragraph)
+#: browser/troubleshooting.md:block 18 (paragraph)
 msgid ""
 "You should make sure that the following requirements are fulfilled for CENO "
 "to work:"
 msgstr ""
 "Вы должны убедиться, что для работы CENO выполняются следующие требования:"
 
-#: browser/troubleshooting.md:block 26 (unordered list)
+#: browser/troubleshooting.md:block 19 (unordered list)
 msgid ""
 "You are running a recent version of CENO Browser. Obsolete versions may not "
 "be able to communicate with newer injectors or other clients. Check the "
@@ -241,7 +162,7 @@ msgstr ""
 "работать с новыми инъекторами или другими клиентами. Проверьте [руководство "
 "по установке](install.md), чтобы узнать, где получить новые версии."
 
-#: browser/troubleshooting.md:block 26 (unordered list)
+#: browser/troubleshooting.md:block 19 (unordered list)
 msgid ""
 "All access mechanisms in the [Settings page](settings.md) are enabled. "
 "Otherwise CENO will not be able to circumvent some connectivity issues when "
@@ -250,7 +171,7 @@ msgstr ""
 "Все схемы доступа на странице [Настройки](settings.md) включены. В противном "
 "случае CENO не сможет обойти некоторые проблемы с доступом к контенту."
 
-#: browser/troubleshooting.md:block 26 (unordered list)
+#: browser/troubleshooting.md:block 19 (unordered list)
 msgid ""
 "Your device has a working connection to the network, i.e. your normal Web "
 "browser is able to open some Web sites. CENO and Ouinet cannot work when all "
@@ -263,7 +184,7 @@ msgstr ""
 "доступа Wi-Fi для распространения контента от устройства к устройству "
 "напрямую)."
 
-#: browser/troubleshooting.md:block 27 (paragraph)
+#: browser/troubleshooting.md:block 20 (paragraph)
 msgid ""
 "If that is the case, it is worth explaining what may be happening for all "
 "access mechanisms to fail, to give you an idea of your chances for getting "
@@ -273,11 +194,11 @@ msgstr ""
 "доступа не сработали, чтобы дать вам представление о ваших шансах на "
 "получение контента с помощью CENO."
 
-#: browser/troubleshooting.md:block 28 (header)
+#: browser/troubleshooting.md:block 21 (header)
 msgid "Origin access"
 msgstr "Исходный доступ"
 
-#: browser/troubleshooting.md:block 29 (paragraph)
+#: browser/troubleshooting.md:block 22 (paragraph)
 msgid ""
 "Your CENO Browser cannot directly reach the content's origin server. Either "
 "the server is having some difficulties itself (e.g. it is down or under some "
@@ -287,7 +208,7 @@ msgstr ""
 "Либо сервер сам испытывает какие-то трудности (например, не работает или "
 "подвергается атаке), либо кто-то мешает вашему подключению к нему."
 
-#: browser/troubleshooting.md:block 30 (paragraph)
+#: browser/troubleshooting.md:block 23 (paragraph)
 msgid ""
 "This is the main use case for CENO and the other mechanisms should "
 "compensate for it."
@@ -295,11 +216,11 @@ msgstr ""
 "CENO создан для решения именно таких проблем, поэтому другие способы доступа "
 "должны помочь с этим."
 
-#: browser/troubleshooting.md:block 31 (header)
+#: browser/troubleshooting.md:block 24 (header)
 msgid "Proxy/Injector access"
 msgstr "Доступ к прокси/инъектору"
 
-#: browser/troubleshooting.md:block 32 (paragraph)
+#: browser/troubleshooting.md:block 25 (paragraph)
 msgid ""
 "Someone is interfering with your connection to Internet addresses in the "
 "injector swarm. Since this is expected to happen eventually as CENO (and "
@@ -311,14 +232,14 @@ msgstr ""
 "CENO и Ouinet набирают обороты, и поэтому CENO прибегает к доступу к "
 "инъекторам через других клиентов, выступающих в роли мостов."
 
-#: browser/troubleshooting.md:block 33 (paragraph)
+#: browser/troubleshooting.md:block 26 (paragraph)
 msgid ""
 "There are different reasons for CENO being unable to reach such clients:"
 msgstr ""
 "Существуют различные причины, по которым CENO не может связаться с такими "
 "клиентами:"
 
-#: browser/troubleshooting.md:block 34 (unordered list)
+#: browser/troubleshooting.md:block 27 (unordered list)
 msgid ""
 "No other client is reachable by you. If only a few Ouinet clients are "
 "online, it is entirely possible that none of them are in a network that can "
@@ -331,7 +252,7 @@ msgstr ""
 "роста популярности CENO и Ouinet и появления большего числа клиентов с "
 "различными возможностями подключения."
 
-#: browser/troubleshooting.md:block 34 (unordered list)
+#: browser/troubleshooting.md:block 27 (unordered list)
 msgid ""
 "The extreme case here is that connections between Ouinet clients are "
 "detected as such by a censor and blocked. This is quite unlikely (since it "
@@ -344,7 +265,7 @@ msgstr ""
 "рамки возможностей Ouinet, но мы планируем сделать сеть более устойчивой к "
 "таким атакам."
 
-#: browser/troubleshooting.md:block 34 (unordered list)
+#: browser/troubleshooting.md:block 27 (unordered list)
 msgid ""
 "No other client can reach an injector. Since it is unlikely that all "
 "injectors are simultaneously down, that may mean that you can only reach "
@@ -356,7 +277,7 @@ msgstr ""
 "означать, что вы можете связаться только с теми клиентами Ouinet, которые "
 "сами подвержены тому же вмешательству в их работу, что и вы."
 
-#: browser/troubleshooting.md:block 34 (unordered list)
+#: browser/troubleshooting.md:block 27 (unordered list)
 msgid ""
 "This can happen when all traffic leaving or entering the country you are in "
 "is interrupted. CENO would resort in this case to getting and using the "
@@ -366,7 +287,7 @@ msgstr ""
 "которой вы находитесь, прерван. В этом случае CENO прибегает к получению и "
 "использованию контента из распределенного кэша, даже если он устарел."
 
-#: browser/troubleshooting.md:block 34 (unordered list)
+#: browser/troubleshooting.md:block 27 (unordered list)
 msgid ""
 "Again, as CENO and Ouinet become more popular, the chances increase that "
 "there are at least a few clients that do have some kind of access to "
@@ -382,7 +303,7 @@ msgstr ""
 "распространялся (через распределенный кэш) без необходимости дальнейшего "
 "доступа к внешнему миру."
 
-#: browser/troubleshooting.md:block 35 (paragraph)
+#: browser/troubleshooting.md:block 28 (paragraph)
 msgid ""
 "Finally, we do run some Ouinet clients with good connectivity in (hopefully) "
 "censorship-free countries to try to avoid those two situations, but please "
@@ -394,11 +315,11 @@ msgstr ""
 "избежать этих двух ситуаций, но, пожалуйста, обратите внимание, что клиенты "
 "с такими стабильными интернет-адресами также могут быть заблокированы."
 
-#: browser/troubleshooting.md:block 36 (header)
+#: browser/troubleshooting.md:block 29 (header)
 msgid "Distributed cache"
 msgstr "Распределенный кэш"
 
-#: browser/troubleshooting.md:block 37 (paragraph)
+#: browser/troubleshooting.md:block 30 (paragraph)
 msgid ""
 "Keep in mind that an absolute requirement to be able to retrieve any content "
 "from the distributed cache is that it has already been injected by some "
@@ -416,7 +337,7 @@ msgstr ""
 "или другой клиент Ouinet (что может дополнительно подвергнуть его некоторым "
 "[рискам](../concepts/risks.md))."
 
-#: browser/troubleshooting.md:block 38 (paragraph)
+#: browser/troubleshooting.md:block 31 (paragraph)
 msgid ""
 "Please note that some content which is not considered safe for sharing will "
 "never be injected, no matter how many people retrieve it using public "
@@ -431,7 +352,7 @@ msgstr ""
 "требующий аутентификации, и некоторый трафик, которым обмениваются "
 "определенные динамические веб-приложения."
 
-#: browser/troubleshooting.md:block 39 (paragraph)
+#: browser/troubleshooting.md:block 32 (paragraph)
 msgid ""
 "Also note that the clients holding copies of injected content need to be "
 "reachable by you. The same observations described in the previous point for "
@@ -441,11 +362,111 @@ msgstr ""
 "содержимого, должны быть доступны для вас в сети. Здесь также применимы все "
 "наблюдения, описанные в предыдущем пункте о доступе к клиентам моста."
 
-#: browser/troubleshooting.md:block 40 (header)
+#: browser/troubleshooting.md:block 33 (header)
+msgid "A note on HTTP-only sites"
+msgstr ""
+
+#: browser/troubleshooting.md:block 34 (paragraph)
+msgid ""
+"CENO automatically switches to the more secure HTTPS protocol to access "
+"sites which would otherwise be accessed using plain, insecure HTTP. This is "
+"done by the embedded [HTTPS by default][HTTPS by default] extension when you "
+"enter a bare domain name like `example.com` or an HTTP URL like `http://"
+"example.com/…` in the location bar, or when you follow a link with such a "
+"URL in a page."
+msgstr ""
+
+#: browser/troubleshooting.md:block 35 (paragraph)
+msgid ""
+"The automatic switching to HTTPS is done to prevent someone from "
+"intercepting an HTTP connection and directing it to an illegitimate server, "
+"resulting in bogus content (like a block message). This kind of hijacking is "
+"trivial to detect with HTTPS, so CENO can work around it instead of being "
+"tricked into loading the bogus content."
+msgstr ""
+
+#: browser/troubleshooting.md:block 36 (paragraph)
+msgid ""
+"Although very unusual, some sites do not support HTTPS, and no access "
+"mechanism will work for them. If you are completely sure that this is the "
+"case for a site which just failed to load in CENO, you can edit its URL in "
+"the location bar, change `https://` to `http://`, and try again."
+msgstr ""
+
+#: browser/troubleshooting.md:block 37 (paragraph)
+msgid ""
+"If you want to always access a particular site over plain HTTP, you can add "
+"a permanent exception like this:"
+msgstr ""
+
+#: browser/troubleshooting.md:block 38 (ordered list)
+msgid "In the app's main menu, choose *Tools / Add-ons*."
+msgstr ""
+
+#: browser/troubleshooting.md:block 38 (ordered list)
+msgid "Tap on *HTTPS by default*. You will see that extension's settings page."
+msgstr ""
+
+#: browser/troubleshooting.md:block 38 (ordered list)
+msgid ""
+"Enter the domain name of the site in the text box, as shown below. See there "
+"how you may enter several sites by separating them with spaces or newlines. "
+"Please note that entering `example.com` will also include all sites under "
+"that domain, like `www.example.com` or `x.y.example.com`."
+msgstr ""
+
+#: browser/troubleshooting.md:block 38 (ordered list)
+msgid "When done, go back or close the tab."
+msgstr ""
+
+#: browser/troubleshooting.md:block 39 (paragraph)
+msgid ""
+"![Figure: Adding exceptions for HTTP-only sites](images/httpsbd-exceptions."
+"png)"
+msgstr ""
+
+#: browser/troubleshooting.md:block 40 (paragraph)
+msgid ""
+"**Note:** In the unfortunate case that a site is only accessible via HTTP, "
+"and it is also being hijacked by a censor, you will need to go to the "
+"[Settings page](settings.md), disable Origin access, and try again. Please "
+"note that this setting affects all sites, and it is not remembered by CENO "
+"for subsequent runs. We encourage you to contact the site administrators and "
+"tell them to enable HTTPS support."
+msgstr ""
+
+#: browser/troubleshooting.md:block 41 (header)
+msgid "A page shows bogus content (like a block message)"
+msgstr ""
+"На странице отображается не её настоящее содержимое (например, отображается "
+"сообщение о блокировке)"
+
+#: browser/troubleshooting.md:block 42 (paragraph)
+msgid ""
+"This may happen when you used an old version of CENO to visit a blocked site "
+"in the past, and someone intercepted the connection and directed it to an "
+"illegitimate server. CENO then remembered that redirection, and now it "
+"automatically opens the later site when trying to visit the former."
+msgstr ""
+
+#: browser/troubleshooting.md:block 43 (paragraph)
+msgid ""
+"One way to fix this issue is to clear CENO's normal browsing cache by "
+"choosing *Settings* in the app's main menu, then *Clear private data*, and "
+"disabling all boxes but *Cache* before tapping on *Clear data*."
+msgstr ""
+
+#: browser/troubleshooting.md:block 44 (paragraph)
+msgid ""
+"Please note that CENO version 1.3.0 and newer avoid that hijacking of newly "
+"visited sites by always using HTTPS, as explained in the previous section."
+msgstr ""
+
+#: browser/troubleshooting.md:block 45 (header)
 msgid "Others cannot retrieve content seeded by my device"
 msgstr "Пользователи не могут получить контент, раздаваемый моим устройством"
 
-#: browser/troubleshooting.md:block 41 (paragraph)
+#: browser/troubleshooting.md:block 46 (paragraph)
 msgid ""
 "First, make sure that your device is still seeding the content by going to "
 "the [*CENO Settings* page](settings.md), only leaving the *Shared by other "
@@ -461,7 +482,7 @@ msgstr ""
 "ненулевые значения только в разделах *Предоставлено другими пользователями "
 "CENO* или *Предоставлено вами*."
 
-#: browser/troubleshooting.md:block 42 (paragraph)
+#: browser/troubleshooting.md:block 47 (paragraph)
 msgid ""
 "If the content does not load, it could be that CENO has already removed it, "
 "since it automatically cleans up stale content (older than a week by "
@@ -481,7 +502,7 @@ msgstr ""
 "попытайтесь загрузить контент; если он по-прежнему не загружается, возможно, "
 "Ouinet не считает данный контент безопасным для общего доступа."
 
-#: browser/troubleshooting.md:block 43 (paragraph)
+#: browser/troubleshooting.md:block 48 (paragraph)
 msgid ""
 "If the previous step works, but another device with only the *Shared by "
 "other CENO users* source enabled still shows \"Failed to retrieve the "
@@ -498,7 +519,7 @@ msgstr ""
 "данными между подключенными к ней устройствами. Это происходит в некоторых "
 "публичных сетях Wi-Fi, поэтому попробуйте использовать частную сеть."
 
-#: browser/troubleshooting.md:block 44 (paragraph)
+#: browser/troubleshooting.md:block 49 (paragraph)
 msgid ""
 "If the devices are in different networks, it could be due to a variety of "
 "reasons. One of them is that the network of the first device does not allow "
@@ -512,7 +533,7 @@ msgstr ""
 "должно быть написано *доступно* или *вероятно доступно*. В противном случае "
 "передача данных из этой сети невозможна."
 
-#: browser/troubleshooting.md:block 45 (quote)
+#: browser/troubleshooting.md:block 50 (quote)
 msgid ""
 "**Technical note:** If your device reports *undecided* reachability and you "
 "can change the configuration of the access point, you may create a permanent "
@@ -524,6 +545,79 @@ msgstr ""
 "создать постоянное правило переадресации портов для вашего клиента. Более "
 "подробные инструкции см. [здесь](bridging.md)."
 
-#: browser/troubleshooting.md:block 45 (quote)
-msgid "[HTTPS Everywhere]: https://www.eff.org/https-everywhere/"
-msgstr "[HTTPS Everywhere]: https://www.eff.org/https-everywhere/"
+#: browser/troubleshooting.md:block 50 (quote)
+msgid "[HTTPS by default]: https://github.com/Rob--W/https-by-default"
+msgstr ""
+
+#~ msgid ""
+#~ "CENO was able to contact a web server directly and retrieve content from "
+#~ "it. Unfortunately, someone intercepted the connection and directed it to "
+#~ "an illegitimate server."
+#~ msgstr ""
+#~ "CENO смог связаться с веб-сервером и получить с него содержимое. К "
+#~ "сожалению, соединение было перехвачено и перенаправлено на другую "
+#~ "страницу."
+
+#~ msgid ""
+#~ "This usually means that the site is blocked by your access provider or "
+#~ "country. However, this particular error can only happen when you are "
+#~ "accessing the site over insecure HTTP (instead of the more secure HTTPS "
+#~ "protocol), as CENO cannot detect the tampering by itself."
+#~ msgstr ""
+#~ "Обычно это означает, что сайт заблокирован вашим интернет-провайдером или "
+#~ "страной. Однако эта конкретная ошибка может возникнуть только в том "
+#~ "случае, если вы заходите на сайт по незащищенному протоколу HTTP (вместо "
+#~ "более безопасного протокола HTTPS), поскольку тогда CENO не сможет "
+#~ "обнаружить фальсификацию."
+
+#~ msgid ""
+#~ "Thus, one way to get to the legitimate site is to try to access it over "
+#~ "HTTPS by tapping the address bar and replacing `http://` with `https://` "
+#~ "at the beginning of its URL. Of course, this will only work if the site "
+#~ "supports HTTPS. If it does not, and you get \"Failed to retrieve the "
+#~ "resource\" from CENO, you will need to go to the [Settings page](settings."
+#~ "md), disable Origin access, and try again."
+#~ msgstr ""
+#~ "Таким образом, один из способов попасть на настоящий сайт — попытаться "
+#~ "зайти на него по протоколу HTTPS, заменив в адресной строке `http://` на "
+#~ "`https://` в начале URL. Конечно, это сработает только в том случае, если "
+#~ "сайт поддерживает HTTPS. В противном случае — если вы получаете от CENO "
+#~ "сообщение \"Не удалось получить ресурс\" — необходимо перейти на страницу "
+#~ "[Настройки](settings.md), отключить Исходный доступ и повторить попытку."
+
+#~ msgid ""
+#~ "Since such setting is not remembered, and modifying the URL every time "
+#~ "can get tiresome, you may instead configure CENO to always use HTTPS for "
+#~ "all sites via the embedded [HTTPS Everywhere][HTTPS Everywhere] "
+#~ "extension: choose *HTTPS Everywhere* in the app's main menu, then enable "
+#~ "*Encrypt All Sites Eligible* (EASE) as shown below. This setting is "
+#~ "remembered by CENO."
+#~ msgstr ""
+#~ "Поскольку эта настройка не запоминается, а изменение URL каждый раз может "
+#~ "надоесть, вы можете настроить CENO на постоянное использование HTTPS для "
+#~ "всех сайтов с помощью встроенного расширения [HTTPS Everywhere][HTTPS "
+#~ "Everywhere]: выберите *HTTPS Everywhere* в главном меню приложения, затем "
+#~ "включите *Шифрование всех допустимых сайтов* (EASE), как показано ниже. "
+#~ "Эта настройка запоминается CENO."
+
+#~ msgid ""
+#~ "![Figure: HTTPS Everywhere settings with EASE on](images/httpsew-ease-on."
+#~ "png)"
+#~ msgstr ""
+#~ "![Рисунок: Настройки HTTPS Everywhere с включенным EASE](images/httpsew-"
+#~ "ease-on.png)"
+
+#~ msgid ""
+#~ "If you still need to access some particular site over plain HTTP when "
+#~ "EASE is on, you can visit the site (even if access fails), then from that "
+#~ "tab open HTTPS Everywhere settings and tap on the *Disable on this site* "
+#~ "button shown above to set an exception for the site."
+#~ msgstr ""
+#~ "Если вам все еще нужен доступ к какому-то сайту по обычному HTTP при "
+#~ "включенном EASE, вы можете открыть сайт (даже если доступ получить не "
+#~ "удается), затем на этой вкладке открыть настройки HTTPS Everywhere и "
+#~ "нажать на кнопку *Отключить на этом сайте*, показанную выше, чтобы "
+#~ "добавить для сайта исключение."
+
+#~ msgid "[HTTPS Everywhere]: https://www.eff.org/https-everywhere/"
+#~ msgstr "[HTTPS Everywhere]: https://www.eff.org/https-everywhere/"
