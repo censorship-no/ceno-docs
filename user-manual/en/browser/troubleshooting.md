@@ -93,6 +93,14 @@ If you want to always access a particular site over plain HTTP, you can add a pe
 
 **Note:** In the unfortunate case that a site is only accessible via HTTP, and it is also being hijacked by a censor, you will need to go to the [Settings page](settings.md), disable Origin access, and try again.  Please note that this setting affects all sites, and it is not remembered by CENO for subsequent runs.  We encourage you to contact the site administrators and tell them to enable HTTPS support.
 
+## A page shows bogus content (like a block message)
+
+This may happen when you used an old version of CENO to visit a blocked site in the past, and someone intercepted the connection and directed it to an illegitimate server.  CENO then remembered that redirection, and now it automatically opens the later site when trying to visit the former.
+
+One way to fix this issue is to clear CENO's normal browsing cache by choosing *Settings* in the app's main menu, then *Clear private data*, and disabling all boxes but *Cache* before tapping on *Clear data*.
+
+Please note that CENO version 1.3.0 and newer avoid that hijacking of newly visited sites by always using HTTPS, as explained in the previous section.
+
 ## Others cannot retrieve content seeded by my device
 
 First, make sure that your device is still seeding the content by going to the [*CENO Settings* page](settings.md), only leaving the *Shared by other CENO users* source box checked, then accessing that content again: it should load (at least partially), and pushing the CENO address bar icon should only show non-zero values under *Shared by other CENO users* or *Shared by you*.
