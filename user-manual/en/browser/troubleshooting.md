@@ -28,22 +28,6 @@ When you launch CENO, the state may read `starting` for a few seconds; this is n
 
 If you see some other state, there may be some internal error in the Ouinet client.  Please report the issue to us.
 
-## A page shows bogus content (like a block message)
-
-CENO was able to contact a web server directly and retrieve content from it.  Unfortunately, someone intercepted the connection and directed it to an illegitimate server.
-
-This usually means that the site is blocked by your access provider or country.  However, this particular error can only happen when you are accessing the site over insecure HTTP (instead of the more secure HTTPS protocol), as CENO cannot detect the tampering by itself.
-
-Thus, one way to get to the legitimate site is to try to access it over HTTPS by tapping the address bar and replacing `http://` with `https://` at the beginning of its URL.  Of course, this will only work if the site supports HTTPS.  If it does not, and you get "Failed to retrieve the resource" from CENO, you will need to go to the [Settings page](settings.md), disable Origin access, and try again.
-
-Since such setting is not remembered, and modifying the URL every time can get tiresome, you may instead configure CENO to always use HTTPS for all sites via the embedded [HTTPS Everywhere][] extension: choose *HTTPS Everywhere* in the app's main menu, then enable *Encrypt All Sites Eligible* (EASE) as shown below.  This setting is remembered by CENO.
-
-[HTTPS Everywhere]: https://www.eff.org/https-everywhere/
-
-![Figure: HTTPS Everywhere settings with EASE on](images/httpsew-ease-on.png)
-
-If you still need to access some particular site over plain HTTP when EASE is on, you can visit the site (even if access fails), then from that tab open HTTPS Everywhere settings and tap on the *Disable on this site* button shown above to set an exception for the site.
-
 ## Accessing some content shows "Failed to retrieve the resource"
 
 This means that CENO tried all available mechanisms to access the content, but none of them succeeded.
@@ -87,6 +71,35 @@ Keep in mind that an absolute requirement to be able to retrieve any content fro
 Please note that some content which is not considered safe for sharing will never be injected, no matter how many people retrieve it using public browsing.  This includes content marked as private by the origin server, content that requires authentication, and some traffic exchanged by certain dynamic Web applications.
 
 Also note that the clients holding copies of injected content need to be reachable by you.  The same observations described in the previous point for reaching bridge clients do apply here.
+
+### A note on HTTP-only sites
+
+CENO automatically switches to the more secure HTTPS protocol to access sites which would otherwise be accessed using plain, insecure HTTP.  This is done by the embedded [HTTPS by default][] extension when you enter a bare domain name like `example.com` or an HTTP URL like `http://example.com/…` in the location bar, or when you follow a link with such a URL in a page.
+
+[HTTPS by default]: https://github.com/Rob--W/https-by-default
+
+The automatic switching to HTTPS is done to prevent someone from intercepting an HTTP connection and directing it to an illegitimate server, resulting in bogus content (like a block message).  This kind of hijacking is trivial to detect with HTTPS, so CENO can work around it instead of being tricked into loading the bogus content.
+
+Although very unusual, some sites do not support HTTPS, and no access mechanism will work for them.  If you are completely sure that this is the case for a site which just failed to load in CENO, you can edit its URL in the location bar, change `https://` to `http://`, and try again.
+
+If you want to always access a particular site over plain HTTP, you can add a permanent exception like this:
+
+1. In the app's main menu, choose *Tools / Add-ons*.
+2. Tap on *HTTPS by default*.  You will see that extension's settings page.
+3. Enter the domain name of the site in the text box, as shown below.  See there how you may enter several sites by separating them with spaces or newlines.  Please note that entering `example.com` will also include all sites under that domain, like `www.example.com` or `x.y.example.com`.
+4. When done, go back or close the tab.
+
+![Figure: Adding exceptions for HTTP-only sites](images/httpsbd-exceptions.png)
+
+**Note:** In the unfortunate case that a site is only accessible via HTTP, and it is also being hijacked by a censor, you will need to go to the [Settings page](settings.md), disable Origin access, and try again.  Please note that this setting affects all sites, and it is not remembered by CENO for subsequent runs.  We encourage you to contact the site administrators and tell them to enable HTTPS support.
+
+## A page shows bogus content (like a block message)
+
+This may happen when you used an old version of CENO to visit a blocked site in the past, and someone intercepted the connection and directed it to an illegitimate server.  CENO then remembered that redirection, and now it automatically opens the later site when trying to visit the former.
+
+One way to fix this issue is to clear CENO's normal browsing cache by choosing *Settings* in the app's main menu, then *Clear private data*, and disabling all boxes but *Cache* before tapping on *Clear data*.
+
+Please note that CENO version 1.3.0 and newer avoid that hijacking of newly visited sites by always using HTTPS, as explained in the previous section.
 
 ## Others cannot retrieve content seeded by my device
 
