@@ -20,8 +20,13 @@ msgid "Censorship.no! User Manual"
 msgstr "Censorship.no! Kullanıcı Kılavuzu"
 
 #: README.md:block 2 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "This manual is aimed at users of the **CENO Browser** and related "
+#| "technologies, as created for the [Censorship.no!][Censorship.no!] project "
+#| "by [eQualitie][eQualitie]."
 msgid ""
-"This manual is aimed at users of the **CENO Browser** and related "
+"This manual is aimed at users of [CENO Browser][CENO Browser] and related "
 "technologies, as created for the [Censorship.no!][Censorship.no!] project by "
 "[eQualitie][eQualitie]."
 msgstr ""
@@ -40,6 +45,15 @@ msgstr ""
 "belgelendirme deposu]'na bakın, burada daha fazla okuma için bilgiler ve "
 "uygulamaya ilişkin ayrıntılar ile [protokol tanımlamaları][protokol "
 "tanımlamaları] bulacaksınız."
+
+#: README.md:block 3 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "[CENO documentation repository]: https://github.com/censorship-no/ceno-"
+#| "docs/"
+msgid "[CENO Browser]: https://github.com/censorship-no/ceno-browser"
+msgstr ""
+"[CENO belgelendirme deposu]: https://github.com/censorship-no/ceno-docs/"
 
 #: README.md:block 3 (paragraph)
 msgid "[Censorship.no!]: https://censorship.no/"

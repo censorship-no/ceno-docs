@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-18 11:47+0000\n"
-"Last-Translator: Tun Tun AUNG <tuntunaung@codingclassroom.org>\n"
+"PO-Revision-Date: 2022-02-16 23:54+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "qsg/my/>\n"
 "Language: my\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.9-dev\n"
+"X-Generator: Weblate 4.11-dev\n"
 
 #: intro/qsg.md:block 1 (header)
 msgid "Quick start guide"
@@ -17,10 +17,10 @@ msgstr "အသုံးပြုပုံလမ်းညွှန် (အကျ�
 
 #: intro/qsg.md:block 2 (paragraph)
 msgid ""
-"The CENO Browser allows you to access any website on the Internet, even if "
-"it is censored in your country. CENO uses a peer-to-peer infrastructure to "
-"route your requests, as well as to store and share retrieved content with "
-"others. [Read more about CENO](ceno.md)."
+"CENO Browser allows you to access any website on the Internet, even if it is "
+"censored in your country. CENO uses a peer-to-peer infrastructure to route "
+"your requests, as well as to store and share retrieved content with others. "
+"[Read more about CENO](ceno.md)."
 msgstr ""
 "CENO ဘရောက်ဇာ သုံးခြင်းဖြင့် သင့်နိုင်ငံတွင် ပိတ်ဆို့ထားသော "
 "ဝဘ်ဆိုက်များအပါအဝင် အင်တာနက်ပေါ်ရှိ မည်သည့်ဝဘ်ဆိုက်ကိုမဆို "
@@ -39,8 +39,8 @@ msgstr "Android စနစ် အသုံးပြုသော စက်ကိ�
 
 #: intro/qsg.md:block 5 (ordered list)
 msgid ""
-"Install the CENO Browser from [Google Play][ceno-gplay], [GitHub][ceno-gh] "
-"or [Paskoocheh][ceno-pask]. *No special permissions are needed*."
+"Install CENO Browser from [Google Play][ceno-gplay], [GitHub][ceno-gh] or "
+"[Paskoocheh][ceno-pask]. *No special permissions are needed*."
 msgstr ""
 "CENO ဘရောက်ဇာကို [Google Play][ceno-gplay]၊ [GitHub][ceno-gh] သို့မဟုတ် "
 "[Paskoocheh][ceno-pask] မှ ဒေါင်းလုတ်ဆွဲပြီး ထည့်သွင်းပါ။ "
@@ -56,11 +56,9 @@ msgid ""
 "privacy for some page or if it is not loading as expected, use a private tab "
 "(see [public vs. private browsing](../concepts/public-private.md))."
 msgstr ""
-"အခြားအသုံးပြုသူများ ဝင်‌ရောက်ကြည့်ရှုနိုင်ရန် အင်တာနက်စာမျက်နှာများကို "
-"ပုံမှန်အတိုင်းရှာဖွေပါ။ အင်တာနက်စာမျက်နှာတစ်ခုခုနှင့် ပတ်သက်၍ "
-"လုံခြုံရေးပိုင်းကို သံသယရှိပါက (သို့) သင်ထင်ထားသလို တက်မလာပါက သီးသန့်တပ်ဗ်ကို"
-" အသုံးပြုပါ ([အများသုံးနှင့် သီးသန့် ရှာဖွေခြင်း](../concepts/public-private."
-"md) ကိုကြည့်ပါ)။"
+"အခြားအသုံးပြုသူများ ဝင်‌ရောက်ကြည့်ရှုနိုင်ရန် အင်တာနက်စာမျက်နှာများကို ပုံမှန်အတိုင်းရှာဖွေပါ။ "
+"အင်တာနက်စာမျက်နှာတစ်ခုခုနှင့် ပတ်သက်၍ လုံခြုံရေးပိုင်းကို သံသယရှိပါက (သို့) သင်ထင်ထားသလို တက်မလာပါက သီးသန့်တပ်ဗ်ကို "
+"အသုံးပြုပါ ([အများသုံးနှင့် သီးသန့် ရှာဖွေခြင်း](../concepts/public-private.md) ကိုကြည့်ပါ)။"
 
 #: intro/qsg.md:block 5 (ordered list)
 msgid "Tap on the CENO notification to stop it completely."
@@ -68,9 +66,7 @@ msgstr "CENO အသိပေးချက်ကိုနှိပ်ပြီး 
 
 #: intro/qsg.md:block 6 (paragraph)
 msgid "Detailed installation instructions are [here](../browser/install.md)."
-msgstr ""
-"ထည့်သွင်းရန် လမ်းညွှန်ချက် အသေးစိတ်ကို [ဒီမှာ](../browser/install.md) "
-"ကြည့်ပါ။"
+msgstr "ထည့်သွင်းရန် လမ်းညွှန်ချက် အသေးစိတ်ကို [ဒီမှာ](../browser/install.md) ကြည့်ပါ။"
 
 #: intro/qsg.md:block 7 (header)
 msgid "Configuration"
@@ -78,8 +74,8 @@ msgstr "ဖွဲ့စည်းပုံစနစ်"
 
 #: intro/qsg.md:block 8 (paragraph)
 msgid ""
-"The CENO Browser should work out-of-the-box. You can find some [diagnostics "
-"and settings](../browser/settings.md) under the *CENO* menu entry."
+"CENO Browser should work out-of-the-box. You can find some [diagnostics and "
+"settings](../browser/settings.md) under the *CENO* menu entry."
 msgstr ""
 "CENO ဘရောက်ဇာသည် လုပ်ဆောင်ချက်များကို ချက်ချင်းဆောင်ရွက်ပေးနိုင်ပါသည်။*CENO* "
 "မီနူးထဲတွင် [ပြဿနာအဖြေရှာခြင်းနှင့် ဆက်တင်များ](../browser/settings.md) ကို "
@@ -90,9 +86,8 @@ msgid ""
 "If you want to make sure that your app is also helping others access blocked "
 "content, please [read this section](../browser/bridging.md)."
 msgstr ""
-"ပိတ်ဆို့ထားသော အကြောင်းအရာများကို အခြားသူများ ဝင်ရောက်ကြည့်ရှုနိုင်အောင် "
-"သင့်အက်ပလီကေးရှင်းက ကူညီပေးနေကြောင်း သေချာချင်ပါက ကျေးဇူးပြုပြီး "
-"[ဒီအပိုင်းကိုဖတ်ပါ](../browser/bridging.md)။"
+"ပိတ်ဆို့ထားသော အကြောင်းအရာများကို အခြားသူများ ဝင်ရောက်ကြည့်ရှုနိုင်အောင် သင့်အက်ပလီကေးရှင်းက "
+"ကူညီပေးနေကြောင်း သေချာချင်ပါက ကျေးဇူးပြုပြီး [ဒီအပိုင်းကိုဖတ်ပါ](../browser/bridging.md)။"
 
 #: intro/qsg.md:block 10 (header)
 msgid "More questions?"
@@ -104,15 +99,13 @@ msgstr "ကျေးဇူးပြုပြီး [မေးလေ့ရှိ�
 
 #: intro/qsg.md:block 11 (unordered list)
 msgid "Refer to the [troubleshooting guide](../browser/troubleshooting.md)."
-msgstr ""
-"[ပြဿနာဖြေရှင်းခြင်း လမ်းညွှန်](../browser/troubleshooting.md) ကို လေ့လာပါ။"
+msgstr "[ပြဿနာဖြေရှင်းခြင်း လမ်းညွှန်](../browser/troubleshooting.md) ကို လေ့လာပါ။"
 
 #: intro/qsg.md:block 11 (unordered list)
 msgid ""
 "Contact us by writing to [cenoers@equalit.ie](mailto:cenoers@equalit.ie)."
 msgstr ""
-"[cenoers@equalit.ie](mailto:cenoers@equalit.ie) သို့ အီးမေးလ်ပို့ပြီး "
-"ကျွန်ုပ်တို့ကို ဆက်သွယ်ပါ။"
+"[cenoers@equalit.ie](mailto:cenoers@equalit.ie) သို့ အီးမေးလ်ပို့ပြီး ကျွန်ုပ်တို့ကို ဆက်သွယ်ပါ။"
 
 #: intro/qsg.md:block 11 (unordered list)
 msgid ""

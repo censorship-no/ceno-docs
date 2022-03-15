@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Language: ps\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: concepts/risks.md:block 1 (header)
@@ -12,10 +12,10 @@ msgstr ""
 #: concepts/risks.md:block 2 (paragraph)
 msgid ""
 "As with any sufficiently complex computing system, and especially such an "
-"innovative one, using the CENO Browser (and any Ouinet client in general) is "
-"not free from some risks. In this section we will compile and describe them "
-"to help you understand their implications according to the different roles "
-"you may play when using CENO:"
+"innovative one, using CENO Browser (and any Ouinet client in general) is not "
+"free from some risks. In this section we will compile and describe them to "
+"help you understand their implications according to the different roles you "
+"may play when using CENO:"
 msgstr ""
 
 #: concepts/risks.md:block 3 (unordered list)
@@ -91,7 +91,7 @@ msgstr ""
 
 #: concepts/risks.md:block 14 (paragraph)
 msgid ""
-"Hopefully not. As mentioned above, the CENO Browser tries hard to remove any "
+"Hopefully not. As mentioned above, CENO Browser tries hard to remove any "
 "private data (passwords, cookies…) from any request for injection. In "
 "addition, the injector does not itself do any seeding; in fact, its sole "
 "purpose is to sign content so that Ouinet clients can seed it. This means "

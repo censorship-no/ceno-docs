@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Language: cs\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: browser/settings.md:block 1 (header)
@@ -180,9 +180,15 @@ msgstr ""
 
 #: browser/settings.md:block 14 (unordered list)
 msgid ""
-"*Local UDP endpoints* are the Internet addresses used by CENO to seed signed "
-"content to other clients. These are shown to help test and debug the app, "
-"and should not be generally disclosed."
+"*Ouinet client state*, if `started`, means that your Ouinet client was able "
+"to run successfully. Otherwise, there may be connectivity issues or some "
+"internal error. Also include in reports."
+msgstr ""
+
+#: browser/settings.md:block 14 (unordered list)
+msgid ""
+"*Reachability status* indicates how likely it is for your device to be able "
+"to effectively seed content to other clients. Also include in reports."
 msgstr ""
 
 #: browser/settings.md:block 14 (unordered list)
@@ -193,8 +199,23 @@ msgstr ""
 
 #: browser/settings.md:block 14 (unordered list)
 msgid ""
-"*Reachability status* indicates how likely it is for your device to be able "
-"to effectively seed content to other clients. Also include in reports."
+"*Local UDP endpoints* are the Internet addresses in your device used by CENO "
+"to seed signed content to other clients. These are shown to help test and "
+"debug the app, and should not be generally disclosed."
+msgstr ""
+
+#: browser/settings.md:block 14 (unordered list)
+msgid ""
+"*External UDP endpoints* are the Internet addresses in your router given to "
+"your CENO traffic. Only available with UPnP-enabled routers, they are also "
+"is useful for diagnostics and not to be generally disclosed."
+msgstr ""
+
+#: browser/settings.md:block 14 (unordered list)
+msgid ""
+"*Public UDP endpoints* are the Internet addresses that Ouinet clients "
+"outside of your network see when communicating with your device. Also for "
+"diagnostics and not to be disclosed."
 msgstr ""
 
 #: browser/settings.md:block 14 (unordered list)

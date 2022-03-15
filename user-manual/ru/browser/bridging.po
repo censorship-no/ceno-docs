@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2021-09-26 11:39+0000\n"
-"Last-Translator: Ed Medvedev <edward.medvedev@gmail.com>\n"
+"PO-Revision-Date: 2022-02-15 22:55+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-bridging/ru/>\n"
 "Language: ru\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.9-dev\n"
+"X-Generator: Weblate 4.11-dev\n"
 
 #
 #: browser/bridging.md:block 1 (header)
@@ -24,9 +24,9 @@ msgstr "Помощь другим пользователям CENO в просм�
 msgid ""
 "A peer-to-peer network is built from every node connected to it (yes, that "
 "means you as well!). The more nodes, the stronger and more versatile the "
-"network becomes. If you are running the CENO Browser from a country that "
-"does not censor the Internet (or not as heavily as some), consider helping "
-"other CENO users by becoming a **bridge** node. You will then begin to route "
+"network becomes. If you are running CENO Browser from a country that does "
+"not censor the Internet (or not as heavily as some), consider helping other "
+"CENO users by becoming a **bridge** node. You will then begin to route "
 "traffic between clients living in heavily censored countries and CENO "
 "injectors. You will not be able to see their traffic (it will be sent "
 "through an encrypted tunnel), nor will any of this traffic remain on your "
@@ -62,10 +62,10 @@ msgstr "Как стать мостом CENO"
 
 #: browser/bridging.md:block 5 (paragraph)
 msgid ""
-"This functionality is already built into the CENO Browser. Your device will "
-"need to be connected to a Wi-Fi network that has either UPnP enabled or "
-"explicit port forwarding configured for CENO. See the next sections for "
-"further details."
+"This functionality is already built into CENO Browser. Your device will need "
+"to be connected to a Wi-Fi network that has either UPnP enabled or explicit "
+"port forwarding configured for CENO. See the next sections for further "
+"details."
 msgstr ""
 "Эта функция уже встроена в Браузер CENO. Ваше устройство должно быть "
 "подключено к сети Wi-Fi, в которой либо включен UPnP, либо настроена явная "
@@ -93,15 +93,15 @@ msgid ""
 "interfere with CENO; please check [Don't kill my app!][Don't kill my app!] "
 "for your device's brand."
 msgstr ""
-"**Техническое примечание:** В основном это связано с тем, что [режим "
-"Doze](https://developer.android.com/training/monitoring-device-state/doze-"
-"standby \"Android Developers - Optimize for Doze and App Standby\") в "
-"Android замедляет работу родной библиотеки Ouinet. К сожалению, даже "
-"отключение оптимизации батареи для CENO, похоже, не выводит Ouinet из этого "
-"режима. Ваше конкретное устройство также может включать свои собственные "
-"функции энергосбережения, которые могут мешать работе CENO; пожалуйста, "
-"проверьте [Не убивайте мое приложение!][Не убивайте мое приложение!] на "
-"предмет марки вашего устройства."
+"**Техническое примечание:** В основном это связано с тем, что [режим Doze]"
+"(https://developer.android.com/training/monitoring-device-state/doze-standby "
+"\"Android Developers - Optimize for Doze and App Standby\") в Android "
+"замедляет работу родной библиотеки Ouinet. К сожалению, даже отключение "
+"оптимизации батареи для CENO, похоже, не выводит Ouinet из этого режима. "
+"Ваше конкретное устройство также может включать свои собственные функции "
+"энергосбережения, которые могут мешать работе CENO; пожалуйста, проверьте "
+"[Не убивайте мое приложение!][Не убивайте мое приложение!] на предмет марки "
+"вашего устройства."
 
 #: browser/bridging.md:block 8 (paragraph)
 msgid ""
@@ -131,10 +131,10 @@ msgstr ""
 "Один из удобных способов сделать это без большого потребления энергии и "
 "назойливой постоянной подсветки — использовать экранную заставку Android: "
 "включите ее в разделе *Настройки / Дисплей / Экранная заставка* (или "
-"*Daydream* в некоторых версиях), выберите виджет *Часы*, в меню выберите *"
-"Когда запускать экранную заставку* и выберите *Во время зарядки* или *И то и "
-"другое*. Пока устройство неактивно, на черном фоне будут отображаться очень "
-"тусклые часы."
+"*Daydream* в некоторых версиях), выберите виджет *Часы*, в меню выберите "
+"*Когда запускать экранную заставку* и выберите *Во время зарядки* или *И то "
+"и другое*. Пока устройство неактивно, на черном фоне будут отображаться "
+"очень тусклые часы."
 
 #: browser/bridging.md:block 9 (ordered list)
 msgid ""
@@ -170,8 +170,8 @@ msgid ""
 msgstr ""
 "Если ваш компьютер поддерживает [контейнеры Docker][docker], вы можете "
 "запустить на нем предварительно настроенный клиент CENO для работы в "
-"качестве моста. Если Docker еще не установлен, следуйте инструкциям по ["
-"установке Docker Engine][docker-install] на вашей платформе. В производных "
+"качестве моста. Если Docker еще не установлен, следуйте инструкциям по "
+"[установке Docker Engine][docker-install] на вашей платформе. В производных "
 "дистрибутивах Debian, таких как Ubuntu или Linux Mint, вы можете просто "
 "запустить: `sudo apt install docker.io`"
 
@@ -199,8 +199,8 @@ msgid ""
 "manipulate the container."
 msgstr ""
 "Команда запустит контейнер с именем `ceno-client`, который будет запускаться "
-"при каждой загрузке, пока вы не остановите его. Пожалуйста, ознакомьтесь с ["
-"документацией клиента Docker CENO][ceno-client-doc] для получения "
+"при каждой загрузке, пока вы не остановите его. Пожалуйста, ознакомьтесь с "
+"[документацией клиента Docker CENO][ceno-client-doc] для получения "
 "дополнительной информации о том, как управлять контейнером."
 
 #: browser/bridging.md:block 18 (quote)
@@ -225,8 +225,8 @@ msgid ""
 "will indicate the UPnP status on your local network."
 msgstr ""
 "[UPnP][UPnP] - это самый простой способ сделать ваш Браузер CENO (или клиент "
-"для компьютера) доступным для сети CENO. На странице [CENO Settings](settings"
-".md) будет указан статус UPnP в вашей локальной сети."
+"для компьютера) доступным для сети CENO. На странице [CENO Settings]"
+"(settings.md) будет указан статус UPnP в вашей локальной сети."
 
 #: browser/bridging.md:block 21 (quote)
 msgid ""
@@ -240,20 +240,24 @@ msgstr ""
 "методов, как описано ниже."
 
 #: browser/bridging.md:block 22 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "A status like the one below indicates that UPnP is not enabled on your "
+#| "WiFi router:"
 msgid ""
-"A status like the one below indicates that UPnP is not enabled on your WiFi "
-"router:"
+"A status like the one below indicates that UPnP is not available or not "
+"working on your WiFi router:"
 msgstr ""
 "Состояние, подобное показанному на предыдущем рисунке, означает, что UPnP не "
 "включен на вашем роутере WiFi:"
 
 #: browser/bridging.md:block 23 (quote)
-msgid "**UPnP status**"
-msgstr "**Состояние UPnP**"
-
-#: browser/bridging.md:block 23 (quote)
 msgid "**Reachability status**"
 msgstr "**Состояние доступности**"
+
+#: browser/bridging.md:block 23 (quote)
+msgid "**UPnP status**"
+msgstr "**Состояние UPnP**"
 
 #: browser/bridging.md:block 24 (paragraph)
 msgid ""
@@ -271,7 +275,19 @@ msgstr ""
 "Состояние ниже означает, что UPnP работает, и вы можете создавать мостовые "
 "соединения для других пользователей CENO:"
 
-#: browser/bridging.md:block 28 (paragraph)
+#: browser/bridging.md:block 28 (quote)
+msgid ""
+"**Note:** Even if UPnP is working, your router may still not be reachable "
+"from the outside. This can be the case when *CENO Settings* reports "
+"*External UDP endpoints* which look like [CGNAT][CGNAT] addresses `100.X.Y.Z:"
+"N` with X between 64 and 127 (increasingly common among home ISPs), or like "
+"private addresses `10.X.Y.Z:N`, `172.X.Y.Z:N` with X between 16 and 31, and "
+"`192.168.X.Y:N`. If so, please contact your ISP or network administrator to "
+"get a public address on your router or to establish port forwardings to the "
+"external endpoint."
+msgstr ""
+
+#: browser/bridging.md:block 29 (paragraph)
 msgid ""
 "There are many Wi-Fi routers on the market and each has their own particular "
 "features. Herein a list of some manufacturers' instructions for enabling "
@@ -281,23 +297,25 @@ msgstr ""
 "особенности. Ниже приведен список инструкций некоторых производителей по "
 "включению UPnP:"
 
-#: browser/bridging.md:block 29 (unordered list)
+#: browser/bridging.md:block 30 (unordered list)
 msgid "[Linksys](https://www.linksys.com/us/support-article?articleNum=138290)"
-msgstr "[Linksys](https://www.linksys.com/us/support-article?articleNum=138290)"
+msgstr ""
+"[Linksys](https://www.linksys.com/us/support-article?articleNum=138290)"
 
-#: browser/bridging.md:block 29 (unordered list)
+#: browser/bridging.md:block 30 (unordered list)
 msgid ""
 "[D-Link](https://eu.dlink.com/uk/en/support/faq/routers/wired-routers/di-"
 "series/how-do-i-enable-upnp-on-my-router)"
 msgstr ""
-"[D-Link](https://eu.dlink.com/uk/en/support/faq/routers/wired-routers/"
-"di-series/how-do-i-enable-upnp-on-my-router)"
+"[D-Link](https://eu.dlink.com/uk/en/support/faq/routers/wired-routers/di-"
+"series/how-do-i-enable-upnp-on-my-router)"
 
-#: browser/bridging.md:block 29 (unordered list)
+#: browser/bridging.md:block 30 (unordered list)
 msgid "[Huawei](https://consumer.huawei.com/ph/support/content/en-us00275342/)"
-msgstr "[Huawei](https://consumer.huawei.com/ph/support/content/en-us00275342/)"
+msgstr ""
+"[Huawei](https://consumer.huawei.com/ph/support/content/en-us00275342/)"
 
-#: browser/bridging.md:block 29 (unordered list)
+#: browser/bridging.md:block 30 (unordered list)
 msgid ""
 "[Xfinity](https://www.xfinity.com/support/articles/configure-device-"
 "discovery-for-wifi)"
@@ -305,15 +323,31 @@ msgstr ""
 "[Xfinity](https://www.xfinity.com/support/articles/configure-device-"
 "discovery-for-wifi)"
 
-#: browser/bridging.md:block 29 (unordered list)
+#: browser/bridging.md:block 30 (unordered list)
 msgid "[TP-Link](https://community.tp-link.com/us/home/kb/detail/348)"
 msgstr "[TP-Link](https://community.tp-link.com/us/home/kb/detail/348)"
 
-#: browser/bridging.md:block 30 (header)
+#: browser/bridging.md:block 30 (unordered list)
+msgid ""
+"[Netgear](https://kb.netgear.com/24306/How-do-I-enable-Universal-Plug-and-"
+"Play-on-my-Nighthawk-router)"
+msgstr ""
+"[Netgear](https://kb.netgear.com/24306/How-do-I-enable-Universal-Plug-and-"
+"Play-on-my-Nighthawk-router)"
+
+#: browser/bridging.md:block 30 (unordered list)
+msgid ""
+"[Ubiquiti](https://www.geekzone.co.nz/forums.asp?"
+"forumid=66&topicid=205740&page_no=5#1725168)"
+msgstr ""
+"[Ubiquiti](https://www.geekzone.co.nz/forums."
+"asp?forumid=66&topicid=205740&page_no=5#1725168)"
+
+#: browser/bridging.md:block 31 (header)
 msgid "Using port forwarding as an alternative to UPnP"
 msgstr "Использование переадресации портов в качестве альтернативы UPnP"
 
-#: browser/bridging.md:block 31 (paragraph)
+#: browser/bridging.md:block 32 (paragraph)
 msgid ""
 "Instead of enabling UPnP on your router, you can create a port forwarding "
 "rule to make sure that connections from the CENO network are forwarded to "
@@ -329,11 +363,11 @@ msgstr ""
 "соединения, откройте страницу *Настройки CENO* и найдите раздел *Локальная "
 "конечные точки UDP*."
 
-#: browser/bridging.md:block 32 (quote)
+#: browser/bridging.md:block 33 (quote)
 msgid "**Local UDP endpoints**"
 msgstr "**Локальные конечные точки UDP**"
 
-#: browser/bridging.md:block 33 (paragraph)
+#: browser/bridging.md:block 34 (paragraph)
 msgid ""
 "The port forwarding must be for the UDP protocol (not TCP). CENO chooses a "
 "random port on first run and keeps it for subsequent runs, but your device's "
@@ -344,11 +378,11 @@ msgstr ""
 "Перенаправление портов должно осуществляться для протокола UDP (не TCP). При "
 "первом запуске CENO выбирает случайный порт и сохраняет его для последующих "
 "запусков, но IP-адрес локальной сети вашего устройства может время от "
-"времени меняться. Поэтому вам следует периодически просматривать страницу *"
-"Настройки CENO*, чтобы убедиться, что ваше устройство имеет доступ к сети "
+"времени меняться. Поэтому вам следует периодически просматривать страницу "
+"*Настройки CENO*, чтобы убедиться, что ваше устройство имеет доступ к сети "
 "CENO."
 
-#: browser/bridging.md:block 34 (quote)
+#: browser/bridging.md:block 35 (quote)
 msgid ""
 "**Technical note:** Alternatively, you can make sure that the router always "
 "assigns the same IP address to your device (e.g. via a static DHCP lease for "
@@ -358,7 +392,7 @@ msgstr ""
 "роутер всегда назначает один и тот же IP-адрес вашему устройству (например, "
 "с помощью статической аренды DHCP для MAC-адреса устройства)."
 
-#: browser/bridging.md:block 34 (quote)
+#: browser/bridging.md:block 35 (quote)
 msgid ""
 "[Doze mode]: https://developer.android.com/training/monitoring-device-state/"
 "doze-standby"
@@ -366,37 +400,41 @@ msgstr ""
 "[режим Doze]: https://developer.android.com/training/monitoring-device-state/"
 "doze-standby"
 
-#: browser/bridging.md:block 34 (quote)
+#: browser/bridging.md:block 35 (quote)
 msgid "[Don't kill my app!]: https://dontkillmyapp.com/"
 msgstr "[Не убивайте мое приложение!]: https://dontkillmyapp.com/"
 
-#: browser/bridging.md:block 34 (quote)
+#: browser/bridging.md:block 35 (quote)
 msgid "[docker]: https://en.wikipedia.org/wiki/Docker_(software)"
 msgstr "[docker]: https://ru.wikipedia.org/wiki/Docker"
 
-#: browser/bridging.md:block 34 (quote)
+#: browser/bridging.md:block 35 (quote)
 msgid "[docker-install]: https://docs.docker.com/engine/install/"
 msgstr "[docker-install]: https://docs.docker.com/engine/install/"
 
-#: browser/bridging.md:block 34 (quote)
+#: browser/bridging.md:block 35 (quote)
 msgid ""
 "[ceno-client-doc]: https://github.com/censorship-no/ceno-docker-"
 "client#running-the-client"
 msgstr ""
-"[ceno-client-doc]: https://github.com/censorship-no/ceno-docker-client"
-"#running-the-client"
+"[ceno-client-doc]: https://github.com/censorship-no/ceno-docker-"
+"client#running-the-client"
 
-#: browser/bridging.md:block 34 (quote)
+#: browser/bridging.md:block 35 (quote)
 msgid "[UPnP]: https://en.wikipedia.org/wiki/Universal_Plug_and_Play"
 msgstr "[UPnP]: https://ru.wikipedia.org/wiki/UPnP"
 
-#: browser/bridging.md:block 34 (quote)
+#: browser/bridging.md:block 35 (quote)
 msgid ""
 "[upnp-risks]: https://www.howtogeek.com/122487/htg-explains-is-upnp-a-"
 "security-risk"
 msgstr ""
-"[upnp-risks]: https://www.howtogeek.com/122487/htg-explains-is-upnp-a"
-"-security-risk"
+"[upnp-risks]: https://www.howtogeek.com/122487/htg-explains-is-upnp-a-"
+"security-risk"
+
+#: browser/bridging.md:block 35 (quote)
+msgid "[CGNAT]: https://en.wikipedia.org/wiki/Carrier-grade_NAT"
+msgstr "[CGNAT]: https://en.wikipedia.org/wiki/Carrier-grade_NAT"
 
 #~ msgid "![Figure: UPnP not enabled](images/upnp-no.png)"
 #~ msgstr "![Рисунок: UPnP не включен](images/upnp-no.png)"

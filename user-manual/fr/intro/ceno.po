@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-03-04 17:40+0000\n"
-"Last-Translator: J. Lavoie <j.lavoie@net-c.ca>\n"
+"PO-Revision-Date: 2022-03-12 20:56+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/censorship-no/"
 "ceno/fr/>\n"
 "Language: fr\n"
@@ -9,11 +9,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.5.1-dev\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #
 #: intro/ceno.md:block 1 (header)
-msgid "What is the CENO Browser?"
+#, fuzzy
+#| msgid "What is the CENO Browser?"
+msgid "What is CENO Browser?"
 msgstr "Qu’est-ce que le navigateur CENO ?"
 
 #: intro/ceno.md:block 2 (paragraph)
@@ -38,9 +40,9 @@ msgstr ""
 
 #: intro/ceno.md:block 4 (paragraph)
 msgid ""
-"The CENO Browser is built on an adapted version of [Firefox for Android]"
-"[Firefox for Android], a popular, modern, feature-rich and secure Free/Libre/"
-"Open Source browser. CENO extends Firefox with **Ouinet**, the underlying "
+"CENO Browser is built on an adapted version of [Firefox for Android][Firefox "
+"for Android], a popular, modern, feature-rich and secure Free/Libre/Open "
+"Source browser. CENO extends Firefox with **Ouinet**, the underlying "
 "technology allowing it to share content between devices (described in later "
 "sections)."
 msgstr ""
@@ -62,7 +64,7 @@ msgstr ""
 
 #: intro/ceno.md:block 7 (header)
 msgid "Who is it for?"
-msgstr "Pour qui est-ce fait ?"
+msgstr "Pour qui est-ce fait?"
 
 #: intro/ceno.md:block 8 (paragraph)
 msgid ""

@@ -17,10 +17,10 @@ msgstr ""
 
 #: intro/qsg.md:block 2 (paragraph)
 msgid ""
-"The CENO Browser allows you to access any website on the Internet, even if "
-"it is censored in your country. CENO uses a peer-to-peer infrastructure to "
-"route your requests, as well as to store and share retrieved content with "
-"others. [Read more about CENO](ceno.md)."
+"CENO Browser allows you to access any website on the Internet, even if it is "
+"censored in your country. CENO uses a peer-to-peer infrastructure to route "
+"your requests, as well as to store and share retrieved content with others. "
+"[Read more about CENO](ceno.md)."
 msgstr ""
 
 #: intro/qsg.md:block 3 (header)
@@ -33,8 +33,8 @@ msgstr ""
 
 #: intro/qsg.md:block 5 (ordered list)
 msgid ""
-"Install the CENO Browser from [Google Play][ceno-gplay], [GitHub][ceno-gh] "
-"or [Paskoocheh][ceno-pask]. *No special permissions are needed*."
+"Install CENO Browser from [Google Play][ceno-gplay], [GitHub][ceno-gh] or "
+"[Paskoocheh][ceno-pask]. *No special permissions are needed*."
 msgstr ""
 
 #: intro/qsg.md:block 5 (ordered list)
@@ -62,8 +62,8 @@ msgstr ""
 
 #: intro/qsg.md:block 8 (paragraph)
 msgid ""
-"The CENO Browser should work out-of-the-box. You can find some [diagnostics "
-"and settings](../browser/settings.md) under the *CENO* menu entry."
+"CENO Browser should work out-of-the-box. You can find some [diagnostics and "
+"settings](../browser/settings.md) under the *CENO* menu entry."
 msgstr ""
 
 #: intro/qsg.md:block 9 (paragraph)

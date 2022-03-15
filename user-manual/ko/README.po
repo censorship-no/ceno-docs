@@ -6,7 +6,7 @@ msgstr ""
 "Language-Team: Korean <https://hosted.weblate.org/projects/censorship-no/"
 "homepage-readme/ko/>\n"
 "Language: ko\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.11-dev\n"
@@ -17,7 +17,7 @@ msgstr "Censorship.no! 사용자 설명서"
 
 #: README.md:block 2 (paragraph)
 msgid ""
-"This manual is aimed at users of the **CENO Browser** and related "
+"This manual is aimed at users of [CENO Browser][CENO Browser] and related "
 "technologies, as created for the [Censorship.no!][Censorship.no!] project by "
 "[eQualitie][eQualitie]."
 msgstr ""
@@ -28,6 +28,10 @@ msgid ""
 "documentation repository][CENO documentation repository], where you will "
 "find pointers for further reading and details on implementation, as well as "
 "the [protocol specifications][protocol specifications]."
+msgstr ""
+
+#: README.md:block 3 (paragraph)
+msgid "[CENO Browser]: https://github.com/censorship-no/ceno-browser"
 msgstr ""
 
 #: README.md:block 3 (paragraph)

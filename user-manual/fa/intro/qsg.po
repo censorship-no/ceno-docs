@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-19 22:49+0000\n"
+"PO-Revision-Date: 2022-02-16 23:54+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "qsg/fa/>\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.9-dev\n"
+"X-Generator: Weblate 4.11-dev\n"
 
 #
 #: intro/qsg.md:block 1 (header)
@@ -18,10 +18,10 @@ msgstr "راهنمای آغاز سریع"
 
 #: intro/qsg.md:block 2 (paragraph)
 msgid ""
-"The CENO Browser allows you to access any website on the Internet, even if "
-"it is censored in your country. CENO uses a peer-to-peer infrastructure to "
-"route your requests, as well as to store and share retrieved content with "
-"others. [Read more about CENO](ceno.md)."
+"CENO Browser allows you to access any website on the Internet, even if it is "
+"censored in your country. CENO uses a peer-to-peer infrastructure to route "
+"your requests, as well as to store and share retrieved content with others. "
+"[Read more about CENO](ceno.md)."
 msgstr ""
 "مرورگر CENO به شما امکان دسترسی به هر وب‌سایتی روی اینترنت را می‌دهد، حتی "
 "اگر آن وب‌سایت در کشورتان سانسور شده باشد. CENO از یک زیرساخت همتا-به-همتا "
@@ -39,8 +39,8 @@ msgstr "شما به یک دستگاه اندروید نیاز خواهید دا�
 
 #: intro/qsg.md:block 5 (ordered list)
 msgid ""
-"Install the CENO Browser from [Google Play][ceno-gplay], [GitHub][ceno-gh] "
-"or [Paskoocheh][ceno-pask]. *No special permissions are needed*."
+"Install CENO Browser from [Google Play][ceno-gplay], [GitHub][ceno-gh] or "
+"[Paskoocheh][ceno-pask]. *No special permissions are needed*."
 msgstr ""
 "مرورگر CENO را از [گوگل پلی][ceno-gplay]، [گیت‌هاب][ceno-gh] یا [پس‌کوچه"
 "][ceno-pask] دریافت و نصب کنید. *به هیچ جواز خاصی نیازی نیست*."
@@ -74,8 +74,8 @@ msgstr "تنظیم"
 
 #: intro/qsg.md:block 8 (paragraph)
 msgid ""
-"The CENO Browser should work out-of-the-box. You can find some [diagnostics "
-"and settings](../browser/settings.md) under the *CENO* menu entry."
+"CENO Browser should work out-of-the-box. You can find some [diagnostics and "
+"settings](../browser/settings.md) under the *CENO* menu entry."
 msgstr ""
 "مرورگر CENO باید به محض نصب به‌خوبی کار کند. شما می‌توانید بعضی [تنظیمات و "
 "عیب‌یابی‌ها](browser/settings.md/..) را ذیل عنوان *CENO* در منو بیابید."

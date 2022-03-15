@@ -3,15 +3,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-03 02:50+0200\n"
-"PO-Revision-Date: 2021-03-03 01:50+0000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-03-12 20:56+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/censorship-no/"
+"ouinet/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.5\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #
 #: intro/ouinet.md:block 1 (header)
@@ -20,9 +21,9 @@ msgstr ""
 
 #: intro/ouinet.md:block 2 (paragraph)
 msgid ""
-"[Ouinet][Ouinet] is a core technology that allows the CENO browser to share "
-"Web content with other devices. Ouinet comes in the form of reusable "
-"computer code (a library) that an application like CENO can use to become a "
+"[Ouinet][Ouinet] is a core technology that allows CENO Browser to share Web "
+"content with other devices. Ouinet comes in the form of reusable computer "
+"code (a library) that an application like CENO can use to become a "
 "participant in a network of cooperating nodes that communicate directly "
 "([peer-to-peer][P2P] or P2P) to help access and store new Web content, and "
 "to request and deliver previously accessed content to others."
@@ -50,13 +51,13 @@ msgstr ""
 
 #: intro/ouinet.md:block 5 (paragraph)
 msgid ""
-"Same as the CENO Browser, Ouinet is developed by [eQualitie][eQualitie] as "
-"Free/Libre/Open-Source software."
+"Same as CENO Browser, Ouinet is developed by [eQualitie][eQualitie] as Free/"
+"Libre/Open-Source software."
 msgstr ""
 
 #: intro/ouinet.md:block 6 (header)
 msgid "Who is it for?"
-msgstr ""
+msgstr "Pour qui est-ce fait?"
 
 #: intro/ouinet.md:block 7 (paragraph)
 msgid ""

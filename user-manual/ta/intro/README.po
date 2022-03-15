@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Language: ta\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: intro/README.md:block 1 (header)
@@ -59,7 +59,7 @@ msgstr ""
 
 #: intro/README.md:block 6 (paragraph)
 msgid ""
-"This is where the CENO Browser and Ouinet come into play. This chapter will "
+"This is where CENO Browser and Ouinet come into play. This chapter will "
 "introduce you to them."
 msgstr ""
 

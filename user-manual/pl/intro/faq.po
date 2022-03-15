@@ -25,8 +25,7 @@ msgid "Usage"
 msgstr ""
 
 #: intro/faq.md:block 3 (header)
-msgid ""
-"Can the CENO Browser replace my current browser (Chrome/Firefox/Safari)?"
+msgid "Can CENO Browser replace my current browser (Chrome/Firefox/Safari)?"
 msgstr ""
 
 #: intro/faq.md:block 4 (paragraph)
@@ -57,7 +56,7 @@ msgid ""
 msgstr ""
 
 #: intro/faq.md:block 8 (header)
-msgid "Can I use the CENO Browser to access Twitter, Facebook and Gmail?"
+msgid "Can I use CENO Browser to access Twitter, Facebook and Gmail?"
 msgstr ""
 
 #: intro/faq.md:block 9 (paragraph)
@@ -123,8 +122,7 @@ msgid ""
 msgstr ""
 
 #: intro/faq.md:block 19 (header)
-msgid ""
-"Can anyone see if I am using the CENO Browser to access censored Web sites?"
+msgid "Can anyone see if I am using CENO Browser to access censored Web sites?"
 msgstr ""
 
 #: intro/faq.md:block 20 (paragraph)
@@ -153,7 +151,7 @@ msgid "Resource usage"
 msgstr ""
 
 #: intro/faq.md:block 24 (header)
-msgid "Does the CENO Browser use a lot of data?"
+msgid "Does CENO Browser use a lot of data?"
 msgstr ""
 
 #: intro/faq.md:block 25 (paragraph)
@@ -177,7 +175,7 @@ msgid ""
 msgstr ""
 
 #: intro/faq.md:block 28 (header)
-msgid "Does the CENO Browser use a lot of battery on my device?"
+msgid "Does CENO Browser use a lot of battery on my device?"
 msgstr ""
 
 #: intro/faq.md:block 30 (paragraph)
@@ -199,7 +197,7 @@ msgid ""
 msgstr ""
 
 #: intro/faq.md:block 32 (header)
-msgid "Do I need to be connected to Wi-Fi to use the CENO Browser?"
+msgid "Do I need to be connected to Wi-Fi to use CENO Browser?"
 msgstr ""
 
 #: intro/faq.md:block 33 (paragraph)

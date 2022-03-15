@@ -6,7 +6,7 @@ msgstr ""
 "Language-Team: Swedish <https://hosted.weblate.org/projects/censorship-no/"
 "user-manual/sv/>\n"
 "Language: sv\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.9-dev\n"
@@ -24,7 +24,9 @@ msgid "[Introduction](intro/README.md)"
 msgstr "[Introduktion](intro/README.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-msgid "[What is the CENO Browser?](intro/ceno.md)"
+#, fuzzy
+#| msgid "[What is the CENO Browser?](intro/ceno.md)"
+msgid "[What is CENO Browser?](intro/ceno.md)"
 msgstr "[Vad är CENO-navigatorn?](intro/ceno.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
@@ -60,8 +62,10 @@ msgid "[Risks in using CENO/Ouinet](concepts/risks.md)"
 msgstr "[Risker med att använda CENO/Ouinet](concepts/risks.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-msgid "[Using the CENO Browser](browser/README.md)"
-msgstr ""
+#, fuzzy
+#| msgid "[Testing the Browser](browser/testing.md)"
+msgid "[Using CENO Browser](browser/README.md)"
+msgstr "[Att testa navigatorn](browser/testing.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Installing CENO](browser/install.md)"

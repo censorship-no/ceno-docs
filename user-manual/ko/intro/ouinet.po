@@ -6,7 +6,7 @@ msgstr ""
 "Language-Team: Korean <https://hosted.weblate.org/projects/censorship-no/"
 "ouinet/ko/>\n"
 "Language: ko\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.11-dev\n"
@@ -17,9 +17,9 @@ msgstr "Ouinet이란?"
 
 #: intro/ouinet.md:block 2 (paragraph)
 msgid ""
-"[Ouinet][Ouinet] is a core technology that allows the CENO browser to share "
-"Web content with other devices. Ouinet comes in the form of reusable "
-"computer code (a library) that an application like CENO can use to become a "
+"[Ouinet][Ouinet] is a core technology that allows CENO Browser to share Web "
+"content with other devices. Ouinet comes in the form of reusable computer "
+"code (a library) that an application like CENO can use to become a "
 "participant in a network of cooperating nodes that communicate directly "
 "([peer-to-peer][P2P] or P2P) to help access and store new Web content, and "
 "to request and deliver previously accessed content to others."
@@ -46,12 +46,16 @@ msgid ""
 msgstr ""
 
 #: intro/ouinet.md:block 5 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "Same as the CENO Browser, Ouinet is developed by [eQualitie][eQualitie] "
+#| "as Free/Libre/Open-Source software."
 msgid ""
-"Same as the CENO Browser, Ouinet is developed by [eQualitie][eQualitie] as "
-"Free/Libre/Open-Source software."
+"Same as CENO Browser, Ouinet is developed by [eQualitie][eQualitie] as Free/"
+"Libre/Open-Source software."
 msgstr ""
-"CENO Browser와 마찬가지로 Ouinet은 [eQualitie][eQualitie]에 의해 자유/리브레/오픈소스 소프트웨어로 "
-"개발되고 있습니다."
+"CENO Browser와 마찬가지로 Ouinet은 [eQualitie][eQualitie]에 의해 자유/리브레/"
+"오픈소스 소프트웨어로 개발되고 있습니다."
 
 #: intro/ouinet.md:block 6 (header)
 msgid "Who is it for?"
@@ -80,8 +84,8 @@ msgid ""
 "**Warning:** *Ouinet is not an anonymity tool*. If you are unsure about its "
 "adequacy for a certain task, do not hesitate to contact us."
 msgstr ""
-"**주의:** *Ouinet은 익명성 도구가 아닙니다*. 만약 어떤 작업에 Ouinet이 적합한지 모르겠다면 망설이지 마시고 저희에게 "
-"연락하십시오."
+"**주의:** *Ouinet은 익명성 도구가 아닙니다*. 만약 어떤 작업에 Ouinet이 적합한"
+"지 모르겠다면 망설이지 마시고 저희에게 연락하십시오."
 
 #: intro/ouinet.md:block 9 (quote)
 #, fuzzy

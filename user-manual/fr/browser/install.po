@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-07-19 10:16+0000\n"
-"Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
+"PO-Revision-Date: 2022-03-12 20:56+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/censorship-no/"
 "browser-install/fr/>\n"
 "Language: fr\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.7.2-dev\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #
 #: browser/install.md:block 1 (header)
@@ -17,32 +17,22 @@ msgid "Installing CENO"
 msgstr "Installation de CENO"
 
 #: browser/install.md:block 2 (paragraph)
-msgid "The CENO Browser can be installed via the following means:"
+#, fuzzy
+#| msgid "The CENO Browser can be installed via the following means:"
+msgid "CENO Browser can be installed via the following means:"
 msgstr "Le navigateur CENO peut être installé via lee méthodes suivantes :"
 
 #: browser/install.md:block 3 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "[Google Play](https://play.google.com/store/apps/details?id=ie.equalit."
-#| "ceno) (*CENO Browser* from *eQualitie*): the recommended source for most "
-#| "Android users."
 msgid ""
 "[Google Play][ceno-gplay] (*CENO Browser* from *eQualitie*): the recommended "
 "source for most Android users."
 msgstr ""
-"[Google Play](https://play.google.com/store/apps/details?id=ie.equalit.ceno) "
-"(*CENO Browser* de *eQualitie*) : la source recommandée pour la plupart des "
-"utilisateurs Android."
+"[Google Play][ceno-gplay] (*CENO Browser* de *eQualitie*): la source "
+"recommandée pour la plupart des utilisateurs Android."
 
 #: browser/install.md:block 3 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "[GitHub](https://github.com/censorship-no/ceno-browser/releases): for "
-#| "Android devices without Google Play."
 msgid "[GitHub][ceno-gh]: for Android devices without Google Play."
-msgstr ""
-"[GitHub](https://github.com/censorship-no/ceno-browser/releases) : pour les "
-"appareils Android sans Google Play."
+msgstr "[GitHub][ceno-gh]: pour les appareils Android sans Google Play."
 
 #: browser/install.md:block 3 (unordered list)
 #, fuzzy
@@ -57,8 +47,11 @@ msgstr ""
 "utilisateurs des pays qui bloquent l’accès aux chaînes précédentes."
 
 #: browser/install.md:block 4 (paragraph)
-msgid "CENO requires *no special permissions* to run."
-msgstr "CENO ne nécessite *aucune autorisation spéciale* pour fonctionner."
+msgid ""
+"CENO requires an ARM64 or Neon-capable ARM32 device running at least Android "
+"4.1 Jelly Bean, thus most mobile devices released from late 2012 onward "
+"should work. CENO needs *no special permissions* to run."
+msgstr ""
 
 #: browser/install.md:block 5 (quote)
 #, fuzzy
@@ -71,12 +64,12 @@ msgstr "CENO ne nécessite *aucune autorisation spéciale* pour fonctionner."
 #| "[cenoers@equalit.ie](mailto:cenoers@equalit.ie) before installing a "
 #| "suspicious app."
 msgid ""
-"**Warning:** Please be *extremely skeptical* about installing the CENO "
-"Browser from sources other than the ones listed above. Because of the "
-"application's nature, their potential users may become a target for all "
-"kinds of fake or manipulated versions used to violate user privacy or attack "
-"other CENO and Ouinet users. If in doubt, please contact [cenoers@equalit.ie]"
-"(mailto:cenoers@equalit.ie) before installing a suspicious app."
+"**Warning:** Please be *extremely skeptical* about installing CENO Browser "
+"from sources other than the ones listed above. Because of the application's "
+"nature, their potential users may become a target for all kinds of fake or "
+"manipulated versions used to violate user privacy or attack other CENO and "
+"Ouinet users. If in doubt, please contact [cenoers@equalit.ie](mailto:"
+"cenoers@equalit.ie) before installing a suspicious app."
 msgstr ""
 "**Avertissement :** Veuillez être *extrêmement prudent·e* quant à "
 "l'installation du navigateur CENO à partir de sources autres que celles "
@@ -160,14 +153,6 @@ msgstr ""
 "glisser la notification de son centre vers le bas pour la déplier."
 
 #: browser/install.md:block 13 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Shall you ever need to quickly stop CENO and clear absolutely all the "
-#| "data related with it (not only cached content but also settings like "
-#| "favorites, passwords and all browsing history), you can tap on *Erase*. "
-#| "To avoid losing your data accidentally, this will not remove anything "
-#| "yet, but just show an additional action for a brief moment, as pictured "
-#| "below."
 msgid ""
 "Shall you ever need to quickly stop CENO and clear absolutely all data "
 "related to it (not only cached content, but also settings like favorites, "
@@ -181,7 +166,7 @@ msgstr ""
 "navigation), vous pouvez appuyer sur *Effacer*. Pour éviter de perdre "
 "accidentellement vos données, ceci supprimera rien pour l’instant, mais "
 "affichera simplement une action supplémentaire pendant un bref instant, "
-"comme illustré ci-dessous."
+"comme illustré ci-dessous:"
 
 #: browser/install.md:block 14 (paragraph)
 #, fuzzy
@@ -237,6 +222,9 @@ msgstr "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
 #: browser/install.md:block 18 (quote)
 msgid "[ceno-pask]: https://paskoocheh.com/tools/124/android.html"
 msgstr ""
+
+#~ msgid "CENO requires *no special permissions* to run."
+#~ msgstr "CENO ne nécessite *aucune autorisation spéciale* pour fonctionner."
 
 #~ msgid ""
 #~ "When you run CENO for the first time, you will be presented with a series "
