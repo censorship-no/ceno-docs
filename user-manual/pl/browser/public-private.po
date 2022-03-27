@@ -3,29 +3,36 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2021-03-05 19:50+0000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-03-27 09:09+0000\n"
+"Last-Translator: Atrate <Atrate@protonmail.com>\n"
+"Language-Team: Polish <https://hosted.weblate.org/projects/censorship-no/"
+"browser-public-private/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.5.1-dev\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #
 #: browser/public-private.md:block 1 (header)
+#, fuzzy
 msgid "Using public or private browsing"
-msgstr ""
+msgstr "Korzystanie z przeglądania publicznego lub prywatnego"
 
 #: browser/public-private.md:block 2 (paragraph)
+#, fuzzy
 msgid ""
 "As described [in a previous section](../concepts/public-private.md), CENO "
 "has two different modes of operation depending on whether you want to share "
 "the content that you browse with others (public browsing) or not (private "
 "browsing)."
 msgstr ""
+"Jak opisano [w poprzedniej części](../concepts/public-private.md), CENO ma "
+"dwa różne tryby pracy w zależności od tego, czy użytkownik chce udostępniać "
+"przeglądaną zawartość innym (przeglądanie publiczne), czy nie (przeglądanie "
+"prywatne)."
 
 #: browser/public-private.md:block 3 (paragraph)
 msgid ""
