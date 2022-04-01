@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-02-16 23:54+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
+"PO-Revision-Date: 2022-04-02 08:12+0000\n"
+"Last-Translator: Kian <kian@tahgheegh.com>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-bridging/fa/>\n"
 "Language: fa\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.11-dev\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #
 #: browser/bridging.md:block 1 (header)
@@ -235,15 +235,12 @@ msgstr ""
 "باشید."
 
 #: browser/bridging.md:block 22 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "A status like the one below indicates that UPnP is not enabled on your "
-#| "WiFi router:"
 msgid ""
 "A status like the one below indicates that UPnP is not available or not "
 "working on your WiFi router:"
 msgstr ""
-"وضعیتی مانند مورد زیر نشان می‌دهد که UPnP روی روتر وای‌فای شما فعال نیست:"
+"وضعیتی مانند مورد زیر نشان می‌دهد که UPnP روی روتر وای‌فای شما در دسترس نیست "
+"یا کار نمی‌کند:"
 
 #: browser/bridging.md:block 23 (quote)
 msgid "**Reachability status**"
@@ -280,6 +277,15 @@ msgid ""
 "get a public address on your router or to establish port forwardings to the "
 "external endpoint."
 msgstr ""
+"**توجه:** حتی اگر UPnP کار می‌کند، ممکن است روتر شما هنوز از بیرون قابل "
+"دسترسی نباشد. این موضوع ممکن است زمانی اتفاق بیفتد که *تنظیمات CENO* *نقطه‌"
+"های پایانی UDP خارجی* را اطلاع می‌دهد که شبیه آدرس‌های [CGNAT][CGNAT] «100.X."
+"YZ:N» با X بین ۶۴ تا ۱۲۷ (به طور فزاینده‌ای در بین آی‌اس‌پی‌های خانگی رایج "
+"است) یا مانند آدرس‌های خصوصی چون «10.XYZ:N»، «172.XYZ:N» با X بین ۱۶ و ۳۱  و "
+"«192.168.XY:N» باشند. \n"
+"اگر چنین است، لطفاً با شركت خدمات سرويس‌هاي اينترنت (ISP) یا مسئول شبکه خود "
+"تماس بگیرید تا یک آدرس عمومی در روتر خود دریافت کنید یا برای ایجادکردن حالت "
+"ارسال پورت به نقطه پایانی خارجی به شما کمک کنند."
 
 #: browser/bridging.md:block 29 (paragraph)
 msgid ""
