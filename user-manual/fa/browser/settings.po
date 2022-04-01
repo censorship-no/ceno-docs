@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-19 22:49+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
+"PO-Revision-Date: 2022-04-02 08:12+0000\n"
+"Last-Translator: Kian <kian@tahgheegh.com>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-settings/fa/>\n"
 "Language: fa\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.9-dev\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #
 #: browser/settings.md:block 1 (header)
@@ -259,6 +259,10 @@ msgid ""
 "to run successfully. Otherwise, there may be connectivity issues or some "
 "internal error. Also include in reports."
 msgstr ""
+"*وضعیت سرویس گیرنده Ouinet*، اگر در حالت \"شروع شده\" باشد، به این معنی است "
+"که سرویس گیرنده Ouinet شما توانسته با موفقیت برنامه را اجرا کند. در غیر این "
+"صورت، ممکن است اشکالات مرتبط با اتصال یا برخی از خطاهای داخلی وجود داشته "
+"باشد. همچنین در گزارش‌ها ثبت شود."
 
 #: browser/settings.md:block 14 (unordered list)
 msgid ""
@@ -278,34 +282,26 @@ msgstr ""
 "گزارش‌ها بگنجانید."
 
 #: browser/settings.md:block 14 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "*Local UDP endpoints* are the Internet addresses used by CENO to seed "
-#| "signed content to other clients. These are shown to help test and debug "
-#| "the app, and should not be generally disclosed."
 msgid ""
 "*Local UDP endpoints* are the Internet addresses in your device used by CENO "
 "to seed signed content to other clients. These are shown to help test and "
 "debug the app, and should not be generally disclosed."
 msgstr ""
-"**نقاط نهایی UDP محلی* نشانی‌های اینترنتی هستند که CENO از آن‌ها استفاده می‌کند "
-"تا محتوای امضاشده را به سرویس‌گیرندگان دیگر بذرپاشی کند. این‌ها برای کمک به "
-"آزمودن و خطایابی از نرم‌افزار نشان داده می‌شوند، و نباید به‌طور عمومی فاش شوند."
+"**نقاط پایانی UDP محلی* نشانی‌های اینترنتی هستند در دستگاه شما که CENO از آن‌"
+"ها استفاده می‌کند تا محتوای امضاشده را به سرویس‌گیرندگان دیگر ارسال کند. این‌"
+"ها برای کمک به آزمایش و خطایابی از نرم‌افزار نشان داده می‌شوند، و نباید به‌"
+"طور عمومی فاش شوند."
 
 #: browser/settings.md:block 14 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "*Local UDP endpoints* are the Internet addresses used by CENO to seed "
-#| "signed content to other clients. These are shown to help test and debug "
-#| "the app, and should not be generally disclosed."
 msgid ""
 "*External UDP endpoints* are the Internet addresses in your router given to "
 "your CENO traffic. Only available with UPnP-enabled routers, they are also "
 "is useful for diagnostics and not to be generally disclosed."
 msgstr ""
-"**نقاط نهایی UDP محلی* نشانی‌های اینترنتی هستند که CENO از آن‌ها استفاده می‌کند "
-"تا محتوای امضاشده را به سرویس‌گیرندگان دیگر بذرپاشی کند. این‌ها برای کمک به "
-"آزمودن و خطایابی از نرم‌افزار نشان داده می‌شوند، و نباید به‌طور عمومی فاش شوند."
+"*نقاط پایانی UDP خارجی* آدرس های اینترنتی موجود در روتر شما هستند که به "
+"ترافیک CENO شما اختصاص داده می شود. فقط با روترهای دارای UPnP موجود است، آن‌"
+"ها همچنین برای تشخیص مشکلات و عیب‌یابی  مفید هستند و به طورعمومی افشا "
+"نمی‌شوند."
 
 #: browser/settings.md:block 14 (unordered list)
 msgid ""
@@ -313,6 +309,9 @@ msgid ""
 "outside of your network see when communicating with your device. Also for "
 "diagnostics and not to be disclosed."
 msgstr ""
+"*نقاط پایانی UDP عمومی* آدرس های اینترنتی هستند که سرویس‌گیرنده Ouinet خارج "
+"از شبکه شما هنگام برقراری ارتباط با دستگاه شما می بینند. همچنین برای تشخیص "
+"مشکلات و عیب‌یابی و نباید فاش شوند."
 
 #: browser/settings.md:block 14 (unordered list)
 msgid ""
