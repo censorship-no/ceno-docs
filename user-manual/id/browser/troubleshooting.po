@@ -1,9 +1,15 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2022-04-04 00:12+0000\n"
+"Last-Translator: Reza Almanda <rezaalmanda27@gmail.com>\n"
+"Language-Team: Indonesian <https://hosted.weblate.org/projects/censorship-no/"
+"browser-troubleshooting/id/>\n"
 "Language: id\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #: browser/troubleshooting.md:block 1 (header)
 msgid "Troubleshooting"
@@ -408,4 +414,4 @@ msgstr ""
 
 #: browser/troubleshooting.md:block 50 (quote)
 msgid "[HTTPS by default]: https://github.com/Rob--W/https-by-default"
-msgstr ""
+msgstr "[HTTPS secara default]: https://github.com/Rob--W/https-by-default"
