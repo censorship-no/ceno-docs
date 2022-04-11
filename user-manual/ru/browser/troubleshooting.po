@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-10 11:02+0200\n"
-"PO-Revision-Date: 2022-04-10 11:10+0000\n"
+"PO-Revision-Date: 2022-04-12 14:10+0000\n"
 "Last-Translator: m <mitjeglavanakov@protonmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-troubleshooting/ru/>\n"
@@ -109,12 +109,14 @@ msgstr ""
 
 #: browser/troubleshooting.md:block 12 (header)
 msgid "The *Ouinet client state* under *CENO Settings* is not `started`"
-msgstr ""
+msgstr "*Состояние клиента Ouinet* в *Настройки CENO* иное, чем ` started`"
 
 #: browser/troubleshooting.md:block 13 (paragraph)
 msgid ""
 "The Ouinet client run by CENO is finding problems starting on your device."
 msgstr ""
+"Используемый CENO клиент Ouinet стокнулся с проблемами при запуске на вашем "
+"устройстве."
 
 #: browser/troubleshooting.md:block 14 (paragraph)
 msgid ""
@@ -125,6 +127,13 @@ msgid ""
 "try restarting CENO. If you have a working connection but the state remains "
 "`starting`, please contact us."
 msgstr ""
+"При запуске CENO, состояние может несколько секунд отображать `starting`, "
+"это нормально. Однако если состояние будет продолжать отображать `starting` "
+"долгое время, это может быть признаком серьёзных проблем с подключением, "
+"которые предотвращают доступ приложения к сети BitTorrent. Пожалуйста, "
+"проверьте соединение и попробуйте перезапустить CENO. Если ваше соединение в "
+"порядке, но состояние по-прежнему отображает `starting`, тогда пожалуйста "
+"свяжитесь с нами."
 
 #: browser/troubleshooting.md:block 15 (paragraph)
 msgid ""
