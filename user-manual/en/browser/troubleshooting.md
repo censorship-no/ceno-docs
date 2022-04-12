@@ -84,10 +84,9 @@ Although very unusual, some sites do not support HTTPS, and no access mechanism 
 
 If you want to always access a particular site over plain HTTP, you can add a permanent exception like this:
 
-1. In the app's main menu, choose *Tools / Add-ons*.
-2. Tap on *HTTPS by default*.  You will see that extension's settings page.
-3. Enter the domain name of the site in the text box, as shown below.  See there how you may enter several sites by separating them with spaces or newlines.  Please note that entering `example.com` will also include all sites under that domain, like `www.example.com` or `x.y.example.com`.
-4. When done, go back or close the tab.
+1. In the app's main menu, choose *HTTPS by default*.  You will see that extension's settings page.
+2. Enter the domain name of the site in the text box, as shown below.  See there how you may enter several sites by separating them with spaces or newlines.  Please note that entering `example.com` will also include all sites under that domain, like `www.example.com` or `x.y.example.com`.
+3. When done, go back or close the tab.
 
 ![Figure: Adding exceptions for HTTP-only sites](images/httpsbd-exceptions.png)
 
