@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-02 08:12+0000\n"
-"Last-Translator: Kian <kian@tahgheegh.com>\n"
+"PO-Revision-Date: 2022-04-13 22:14+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-troubleshooting/fa/>\n"
 "Language: fa\n"
@@ -104,7 +104,7 @@ msgstr ""
 
 #: browser/troubleshooting.md:block 12 (header)
 msgid "The *Ouinet client state* under *CENO Settings* is not `started`"
-msgstr "وضعیت وی‌نت (Quinet) سرویس‌گیرنده  تحت تنظیمات Ceno آغاز نشده است."
+msgstr "وضعیت وی‌نت (Quinet) سرویس‌گیرنده تحت تنظیمات Ceno آغاز نشده است"
 
 #: browser/troubleshooting.md:block 13 (paragraph)
 msgid ""
@@ -134,7 +134,7 @@ msgid ""
 "If you see some other state, there may be some internal error in the Ouinet "
 "client. Please report the issue to us."
 msgstr ""
-"اگر وضعیت دیگری را مشاهده کردید، ممکن است یک خطای داخلی در  سرویس‌گیرنده "
+"اگر وضعیت دیگری را مشاهده کردید، ممکن است یک خطای داخلی در سرویس‌گیرنده "
 "Ouinet وجود داشته باشد. لطفا مشکل را به ما گزارش دهید."
 
 #: browser/troubleshooting.md:block 16 (header)
@@ -365,7 +365,7 @@ msgstr ""
 
 #: browser/troubleshooting.md:block 33 (header)
 msgid "A note on HTTP-only sites"
-msgstr "یک یادداشت (نکته) در مورد وب‌سایت‌هایی که فقط از HTTP استفاده می‌کنند."
+msgstr "یک یادداشت (نکته) در مورد وب‌سایت‌هایی که فقط از HTTP استفاده می‌کنند"
 
 #: browser/troubleshooting.md:block 34 (paragraph)
 msgid ""
@@ -377,7 +377,7 @@ msgid ""
 "URL in a page."
 msgstr ""
 "CENO به‌طور خودکار برای دسترسی به وب‌سایت‌هایی که با استفاده از پروتکل ساده "
-"و ناامن HTTP  قابل دسترسی بودند، به پروتکل امن‌تر HTTPS، تغییر وضعیت می‌دهد. "
+"و ناامن HTTP قابل دسترسی بودند، به پروتکل امن‌تر HTTPS، تغییر وضعیت می‌دهد. "
 "هنگامی که یک نام دامنه خالی مانند «example.com» یا یک URL HTTP مانند "
 "«http://example.com/…» را در نوارابزار وارد می‌کنید، یا زمانی که پیوندی با "
 "چنین URL را در یک صفحه دنبال می کنید، این عمل توسط پسوند [HTTPS به‌طور "
@@ -449,8 +449,8 @@ msgid ""
 "![Figure: Adding exceptions for HTTP-only sites](images/httpsbd-exceptions."
 "png)"
 msgstr ""
-"[طرح: افزودن استثناها برای وب‌سایت‌هایی که فقط HTTP را پشتیبانی می‌کنند]\n"
-"(images/httpsbd-exceptions.png)"
+"![طرح: افزودن استثناها برای وب‌سایت‌هایی که فقط HTTP را پشتیبانی می‌کنند]("
+"images/httpsbd-exceptions.png)"
 
 #: browser/troubleshooting.md:block 40 (paragraph)
 msgid ""
