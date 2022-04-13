@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-02 08:12+0000\n"
-"Last-Translator: Kian <kian@tahgheegh.com>\n"
+"PO-Revision-Date: 2022-04-13 22:14+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-settings/fa/>\n"
 "Language: fa\n"
@@ -300,7 +300,7 @@ msgid ""
 msgstr ""
 "*نقاط پایانی UDP خارجی* آدرس های اینترنتی موجود در روتر شما هستند که به "
 "ترافیک CENO شما اختصاص داده می شود. فقط با روترهای دارای UPnP موجود است، آن‌"
-"ها همچنین برای تشخیص مشکلات و عیب‌یابی  مفید هستند و به طورعمومی افشا "
+"ها همچنین برای تشخیص مشکلات و عیب‌یابی مفید هستند و به طورعمومی افشا "
 "نمی‌شوند."
 
 #: browser/settings.md:block 14 (unordered list)
