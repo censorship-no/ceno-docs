@@ -3,21 +3,22 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:51+0200\n"
-"PO-Revision-Date: 2021-03-05 19:51+0000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-03-28 05:11+0000\n"
+"Last-Translator: Atrate <Atrate@protonmail.com>\n"
+"Language-Team: Polish <https://hosted.weblate.org/projects/censorship-no/"
+"homepage-readme/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.5.1-dev\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #
 #: README.md:block 1 (header)
 msgid "Censorship.no! User Manual"
-msgstr ""
+msgstr "Podręcznik użytkownika Censorship.no!"
 
 #: README.md:block 2 (paragraph)
 msgid ""
@@ -25,34 +26,49 @@ msgid ""
 "technologies, as created for the [Censorship.no!][Censorship.no!] project by "
 "[eQualitie][eQualitie]."
 msgstr ""
+"Niniejszy podręcznik jest przeznaczony dla użytkowników [CENO Browser][CENO "
+"Browser] i powiązanych technologii, stworzony dla projektu [Censorship."
+"no!][Censorship.no!] przez [eQualitie][eQualitie]."
 
 #: README.md:block 3 (paragraph)
+#, fuzzy
 msgid ""
 "If you are looking for technical documentation, please refer to the [CENO "
 "documentation repository][CENO documentation repository], where you will "
 "find pointers for further reading and details on implementation, as well as "
 "the [protocol specifications][protocol specifications]."
 msgstr ""
+"Jeśli szukasz dokumentacji technicznej, zajrzyj do [repozytorium "
+"dokumentacji CENO][CENO documentation repository], gdzie znajdziesz "
+"wskazówki do dalszego czytania i szczegóły dotyczące wdrożenia, a także do ["
+"specyfikacji protokołu][protocol specifications]."
 
 #: README.md:block 3 (paragraph)
+#, fuzzy
 msgid "[CENO Browser]: https://github.com/censorship-no/ceno-browser"
-msgstr ""
+msgstr "[Przeglądarka CENO]: https://github.com/censorship-no/ceno-browser"
 
 #: README.md:block 3 (paragraph)
+#, fuzzy
 msgid "[Censorship.no!]: https://censorship.no/"
-msgstr ""
+msgstr "[Censorship.no!]: https://censorship.no/"
 
 #: README.md:block 3 (paragraph)
 msgid "[eQualitie]: https://equalit.ie/"
-msgstr ""
+msgstr "[eQualitie]: https://equalit.ie/"
 
 #: README.md:block 3 (paragraph)
+#, fuzzy
 msgid ""
 "[CENO documentation repository]: https://github.com/censorship-no/ceno-docs/"
 msgstr ""
+"[Repozytorium dokumentacji CENO]: https://github.com/censorship-no/ceno-docs/"
 
 #: README.md:block 3 (paragraph)
+#, fuzzy
 msgid ""
 "[protocol specifications]: https://github.com/equalitie/ouinet/blob/master/"
 "doc/ouinet-network-whitepaper.md"
 msgstr ""
+"[specyfikacje protokołu]: https://github.com/equalitie/ouinet/blob/master/"
+"doc/ouinet-network-whitepaper.md"

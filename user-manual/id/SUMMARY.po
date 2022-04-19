@@ -1,0 +1,92 @@
+#
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-04-04 00:12+0000\n"
+"Last-Translator: Reza Almanda <rezaalmanda27@gmail.com>\n"
+"Language-Team: Indonesian <https://hosted.weblate.org/projects/censorship-no/"
+"user-manual/id/>\n"
+"Language: id\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.12-dev\n"
+
+#: SUMMARY.md:block 1 (header)
+msgid "Summary"
+msgstr "Ringkasan"
+
+#: SUMMARY.md:block 2 (paragraph)
+msgid "[Censorship.no!](README.md)"
+msgstr "[Censorship.no!](README.md)"
+
+#: SUMMARY.md:block 3 (unordered list)
+msgid "[Introduction](intro/README.md)"
+msgstr "[Pengantar](pengantar/README.md)"
+
+#: SUMMARY.md:block 3 (unordered list)
+msgid "[What is CENO Browser?](intro/ceno.md)"
+msgstr "[Apa itu Browser CENO?] (intro/ceno.md)"
+
+#: SUMMARY.md:block 3 (unordered list)
+msgid "[What is Ouinet?](intro/ouinet.md)"
+msgstr "[Apa itu Ouinet?] (intro/ouinet.md)"
+
+#: SUMMARY.md:block 3 (unordered list)
+msgid "[Quick start guide](intro/qsg.md)"
+msgstr "[Panduan memulai](intro/qsg.md)"
+
+#: SUMMARY.md:block 3 (unordered list)
+msgid "[Frequently Asked Questions](intro/faq.md)"
+msgstr "[Pertanyaan yang sering diajukan] (intro/faq.md)"
+
+#: SUMMARY.md:block 3 (unordered list)
+msgid "[Main concepts](concepts/README.md)"
+msgstr "[Konsep utama] (konsep/README.md)"
+
+#: SUMMARY.md:block 3 (unordered list)
+msgid "[How does it work?](concepts/how.md)"
+msgstr "[Bagaimana cara kerjanya?] (konsep/how.md)"
+
+#: SUMMARY.md:block 3 (unordered list)
+msgid "[Public vs. private browsing](concepts/public-private.md)"
+msgstr "[Browsing publik vs. pribadi] (konsep/public-private.md)"
+
+#: SUMMARY.md:block 3 (unordered list)
+msgid "[Advantages of using CENO/Ouinet](concepts/advantages.md)"
+msgstr "[Keuntungan menggunakan CENO/Ouinet](concepts/advantages.md)"
+
+#: SUMMARY.md:block 3 (unordered list)
+msgid "[Risks in using CENO/Ouinet](concepts/risks.md)"
+msgstr "[Risiko dalam menggunakan CENO/Ouinet](concepts/risks.md)"
+
+#: SUMMARY.md:block 3 (unordered list)
+msgid "[Using CENO Browser](browser/README.md)"
+msgstr "[Menggunakan Browser CENO](browser/README.md)"
+
+#: SUMMARY.md:block 3 (unordered list)
+msgid "[Installing CENO](browser/install.md)"
+msgstr "[Memasang CENO](browser/install.md)"
+
+#: SUMMARY.md:block 3 (unordered list)
+msgid "[Using public or private browsing](browser/public-private.md)"
+msgstr "[Menggunakan browsing publik atau pribadi](browser/public-private.md)"
+
+#: SUMMARY.md:block 3 (unordered list)
+msgid "[CENO settings](browser/settings.md)"
+msgstr "[Pengaturan CENO](browser/settings.md)"
+
+#: SUMMARY.md:block 3 (unordered list)
+msgid "[Testing the Browser](browser/testing.md)"
+msgstr "[Menguji Browser] (browser/testing.md)"
+
+#: SUMMARY.md:block 3 (unordered list)
+msgid "[Helping others](browser/bridging.md)"
+msgstr ""
+
+#: SUMMARY.md:block 3 (unordered list)
+msgid "[Troubleshooting](browser/troubleshooting.md)"
+msgstr ""
+
+#: SUMMARY.md:block 3 (unordered list)
+msgid "[Annex: The Ouinet client front-end](client/front-end.md)"
+msgstr ""
