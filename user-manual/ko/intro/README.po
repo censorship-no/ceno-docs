@@ -1,13 +1,19 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2022-04-19 11:27+0000\n"
+"Last-Translator: 이정희 <daemul72@gmail.com>\n"
+"Language-Team: Korean <https://hosted.weblate.org/projects/censorship-no/"
+"readme/ko/>\n"
 "Language: ko\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #: intro/README.md:block 1 (header)
 msgid "Introduction"
-msgstr ""
+msgstr "소개"
 
 #: intro/README.md:block 2 (paragraph)
 msgid ""
@@ -21,6 +27,14 @@ msgid ""
 "(https://censoredplanet.org/reports \"Censored Planet – Reports\")), both "
 "from private and state actors."
 msgstr ""
+"인터넷과 월드 와이드 웹은 모든 종류의 정보의 원천으로서, 그리고 기본적인 "
+"권리를 행사하는 방법으로서 전 세계 사람들에게 점점 더 중요해지고 있습니다. "
+"동시에, 최근 몇 년 동안 민간 및 국가 행위자 모두로부터 모든 종류의 네트워크 "
+"검열 및 기타 유형의 네트워크 간섭([OONI](https://ooni.org/reports/ \"Open "
+"Observatory of Network Interference – 리서치 보고서\"), [Magma](https://magma"
+".lavafeld.org/publications/ \"Magma publications\"), [Censored "
+"Planet](https://censoredplanet.org/reports \"Censored Planet – 보고서\")의 "
+"보고서 참조)이 증가했습니다."
 
 #: intro/README.md:block 3 (paragraph)
 msgid ""
@@ -32,6 +46,12 @@ msgid ""
 "you need is connected to the network and has enough available resources to "
 "talk to your device at that moment."
 msgstr ""
+"웹은 검색하려는 콘텐츠를 보유하고 있는 *웹 서버*(콘텐츠 작성자, 게시자 또는 "
+"인터넷 서비스 제공업체에 의해 실행)라는 특수 컴퓨터에 도달할 수 있는 장치에 "
+"의존하고 동기화된 방식으로 수행합니다. 몇 통의 편지를 교환하는 것보다 전화로 "
+"실시간 채팅을 하는 것이 좋습니다. 불행히도 이를 위해서는 필요한 웹 서버가 "
+"네트워크에 연결되어 있고 그 순간에 장치와 통신할 수 있는 충분한 리소스가 "
+"있어야 합니다."
 
 #: intro/README.md:block 4 (paragraph)
 msgid ""
@@ -44,6 +64,12 @@ msgid ""
 "that run them) need to be trusted by both the origin server and your "
 "devices, and they also need to be reachable at all times."
 msgstr ""
+"*콘텐츠 전송 네트워크*(또는 상용 Akamai 및 Cloudflare 또는 시민 사회 "
+"지향적인 Deflect와 같은 CDN)의 출현은 콘텐츠 사본을 전 세계의 데이터 센터에 "
+"배포함으로써 이러한 웹 서버의 부담을 일부 덜어주었습니다. , 따라서 원본 "
+"서버를 직접 액세스로부터 보호하면서 장치에 더 가깝고 빠르게 도달할 수 "
+"있습니다. 그러나 현재 CDN 서버(및 이를 실행하는 조직)는 원본 서버와 장치 "
+"모두에서 신뢰할 수 있어야 하며 항상 연결할 수 있어야 합니다."
 
 #: intro/README.md:block 5 (paragraph)
 msgid ""
@@ -56,21 +82,28 @@ msgid ""
 "that content - even if I was somehow able to access it a few hours ago and "
 "we're living some streets apart."
 msgstr ""
+"불행하게도, 일반적인 연결성이 부족하거나(개발도상국 또는 과소 서비스, 빈곤 "
+"또는 시골 지역), 비용이 많이 들거나(일부 국가는 국제 트래픽에 대해 더 많은 "
+"요금을 부과함) 국가 참가자에 의해 적극적으로 차단된(명시적 또는 결과적으로) "
+"상황이 있습니다. 이러한 경우 원본 웹 서버나 CDN 서버에 연결하는 것이 "
+"어렵거나 불가능하며, 몇 시간 전에 액세스할 수 있었고, 우리가 다른 거리에 "
+"살고 있더라도, 장치에서 해당 콘텐츠를 가져올 수 없습니다."
 
 #: intro/README.md:block 6 (paragraph)
 msgid ""
 "This is where CENO Browser and Ouinet come into play. This chapter will "
 "introduce you to them."
-msgstr ""
+msgstr "여기에서 CENO 브라우저와 Ouinet이 작동합니다. 이 장에서는 그것들을 소개할 "
+"것입니다."
 
 #: intro/README.md:block 6 (paragraph)
 msgid "[ooni-reports]: https://ooni.org/reports/"
-msgstr ""
+msgstr "[ooni에 통보하기]: https://ooni.org/reports/"
 
 #: intro/README.md:block 6 (paragraph)
 msgid "[magma-reports]: https://magma.lavafeld.org/publications/"
-msgstr ""
+msgstr "[magma에 통보하기]: https://magma.lavafeld.org/publications/"
 
 #: intro/README.md:block 6 (paragraph)
 msgid "[cplan-reports]: https://censoredplanet.org/reports"
-msgstr ""
+msgstr "[cplan에 통보하기]: https://censoredplanet.org/reports"
