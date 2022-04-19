@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-13 22:14+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
+"PO-Revision-Date: 2022-04-19 11:27+0000\n"
+"Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-troubleshooting/fa/>\n"
 "Language: fa\n"
@@ -104,7 +104,7 @@ msgstr ""
 
 #: browser/troubleshooting.md:block 12 (header)
 msgid "The *Ouinet client state* under *CENO Settings* is not `started`"
-msgstr "وضعیت وی‌نت (Quinet) سرویس‌گیرنده تحت تنظیمات Ceno آغاز نشده است"
+msgstr "وضعیت وی‌نت (Ouinet) سرویس‌گیرنده تحت تنظیمات CENO آغاز نشده است"
 
 #: browser/troubleshooting.md:block 13 (paragraph)
 msgid ""
@@ -462,11 +462,11 @@ msgid ""
 "tell them to enable HTTPS support."
 msgstr ""
 "**توجه:** در بدترین حالت که یک وب‌سایت فقط از طریق پروتکل HTTP قابل دسترسی "
-"است و همچنین توسط سیستم سانسور ربوده می شود، باید به [صفحه تنظیمات] (settings"
-".md) بروید، دسترسی مبدا را غیرفعال کنید، و دوباره تلاش کنید. لطفاً توجه "
-"داشته باشید که این تنظیمات بر همه وب‌سایت‌ها تأثیر می‌گذارد و CENO آن را "
-"برای اجراهای بعدی به خاطر نمی‌آورد. ما شما را دعوت می‌کنیم که با مدیران آن "
-"وب‌سایت تماس بگیرید و به آن‌ها بگویید پشتیبانی HTTPS را فعال کنند."
+"است و همچنین توسط سیستم سانسور ربوده می شود، باید به [صفحه تنظیمات](settings."
+"md) بروید، دسترسی مبدا را غیرفعال کنید، و دوباره تلاش کنید. لطفاً توجه داشته "
+"باشید که این تنظیمات بر همه وب‌سایت‌ها تأثیر می‌گذارد و CENO آن را برای "
+"اجراهای بعدی به خاطر نمی‌آورد. ما شما را دعوت می‌کنیم که با مدیران آن وب‌"
+"سایت تماس بگیرید و به آن‌ها بگویید پشتیبانی HTTPS را فعال کنند."
 
 #: browser/troubleshooting.md:block 41 (header)
 msgid "A page shows bogus content (like a block message)"
