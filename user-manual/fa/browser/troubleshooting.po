@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-02-16 23:54+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
+"PO-Revision-Date: 2022-04-19 15:53+0000\n"
+"Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-troubleshooting/fa/>\n"
 "Language: fa\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.11-dev\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #
 #: browser/troubleshooting.md:block 1 (header)
@@ -104,12 +104,14 @@ msgstr ""
 
 #: browser/troubleshooting.md:block 12 (header)
 msgid "The *Ouinet client state* under *CENO Settings* is not `started`"
-msgstr ""
+msgstr "وضعیت وی‌نت (Ouinet) سرویس‌گیرنده تحت تنظیمات CENO آغاز نشده است"
 
 #: browser/troubleshooting.md:block 13 (paragraph)
 msgid ""
 "The Ouinet client run by CENO is finding problems starting on your device."
 msgstr ""
+"مشکلاتی برای سرویس‌گیرنده Ouinet که توسط CENO اجرا می‌شود، پدید آمده که آغاز "
+"آن از دستگاه شما بوده است."
 
 #: browser/troubleshooting.md:block 14 (paragraph)
 msgid ""
@@ -120,95 +122,26 @@ msgid ""
 "try restarting CENO. If you have a working connection but the state remains "
 "`starting`, please contact us."
 msgstr ""
+"وقتی CENO را راه‌اندازی می‌کنید، ممکن است وضعیت برای چند ثانیه در حالت «شروع»"
+" باشد. این طبیعی است با این حال، اگر وضعیت برای مدت طولانی در حالت \"شروع\" "
+"باقی بماند، ممکن است سیگنالی از مشکلات جدی اتصال باشد که مانع از دسترسی "
+"برنامه به شبکه BitTorrent می شود. لطفاً اتصال شبکه خود را بررسی کنید و CENO "
+"را مجدداً راه اندازی کنید. اگر اتصال فعال دارید اما وضعیت همچنان در حالت "
+"\"شروع\" است، لطفاً با ما تماس بگیرید."
 
 #: browser/troubleshooting.md:block 15 (paragraph)
 msgid ""
 "If you see some other state, there may be some internal error in the Ouinet "
 "client. Please report the issue to us."
 msgstr ""
+"اگر وضعیت دیگری را مشاهده کردید، ممکن است یک خطای داخلی در سرویس‌گیرنده "
+"Ouinet وجود داشته باشد. لطفا مشکل را به ما گزارش دهید."
 
 #: browser/troubleshooting.md:block 16 (header)
-msgid "A page shows bogus content (like a block message)"
-msgstr "صفحه محتوایی جعلی (مانند یک پیغام نامربوط) را نشان می‌دهد"
-
-#: browser/troubleshooting.md:block 17 (paragraph)
-msgid ""
-"CENO was able to contact a web server directly and retrieve content from it. "
-"Unfortunately, someone intercepted the connection and directed it to an "
-"illegitimate server."
-msgstr ""
-"CENO توانسته به یک سرور وب مستقیماً متصل شود و محتوا را از آن بازیابی کند. "
-"اما، متأسفانه، کسی مانع این اتصال شده است و آن را به یک سرور جعلی دیگر هدایت "
-"کرده است."
-
-#: browser/troubleshooting.md:block 18 (paragraph)
-msgid ""
-"This usually means that the site is blocked by your access provider or "
-"country. However, this particular error can only happen when you are "
-"accessing the site over insecure HTTP (instead of the more secure HTTPS "
-"protocol), as CENO cannot detect the tampering by itself."
-msgstr ""
-"این معمولاً به این معناست که شرکت تأمین اینترنت یا دولت کشورتان دسترسی شما به "
-"این سایت را مسدود کرده است. اما، این ایراد خاص فقط وقتی رخ می‌دهد که شما به "
-"سایتی روی HTTP ناامن دسترسی پیدا کنید (به جای دسترسی به پروتکل امن تر "
-"HTTPS)، و CENO نمی‌تواند خودش این دستکاری را تشخیص دهد."
-
-#: browser/troubleshooting.md:block 19 (paragraph)
-msgid ""
-"Thus, one way to get to the legitimate site is to try to access it over "
-"HTTPS by tapping the address bar and replacing `http://` with `https://` at "
-"the beginning of its URL. Of course, this will only work if the site "
-"supports HTTPS. If it does not, and you get \"Failed to retrieve the resource"
-"\" from CENO, you will need to go to the [Settings page](settings.md), "
-"disable Origin access, and try again."
-msgstr ""
-"بنابراین، یک راه برای رسیدن به سایت واقعی تلاش برای دسترسی به آن روی HTTPS "
-"از طریق کلیک روی نوار آدرس و تبدیل `http://` به `https://` در ابتدای نشانی "
-"اینترنتی است. البته، این کار فقط وقتی نتیجه خواهد داد که سایت مورد نظرتان "
-"HTTPS را پشتیبانی کند. در غیر این صورت، که پیغام \"بازیابی منبع ناموفق بود\" "
-"را دریافت خواهید کرد، باید به [صفحه تنظیمات](settings.md) بروید، دسترسی به "
-"اصل را غیرفعال کنید، و دوباره امتحان کنید."
-
-#: browser/troubleshooting.md:block 20 (paragraph)
-msgid ""
-"Since such setting is not remembered, and modifying the URL every time can "
-"get tiresome, you may instead configure CENO to always use HTTPS for all "
-"sites via the embedded [HTTPS Everywhere][HTTPS Everywhere] extension: "
-"choose *HTTPS Everywhere* in the app's main menu, then enable *Encrypt All "
-"Sites Eligible* (EASE) as shown below. This setting is remembered by CENO."
-msgstr ""
-"از آنجا که این جور تنظیمات به خاطر نمی‌مانند، و تغییر نشانی اینترنتی هربار "
-"خسته کننده می‌شود، می‌توانید در عوض CENO را طوری تنظیم کنید که همیشه برای همه "
-"سایتها از طریق افزونه [HTTPS Everywhere][HTTPS Everywhere] از HTTPS استفاده "
-"کند: در منو اصلی برنامه گزینه *HTTPS Everywhere* را انتخاب کنید، سپس گزینه "
-"*Encrypt All Sites Eligible* (EASE) نشان داده شده در زیر را فعال کنید. CENO "
-"این تنظیمات را به خاطر می سپارد."
-
-#: browser/troubleshooting.md:block 21 (paragraph)
-msgid ""
-"![Figure: HTTPS Everywhere settings with EASE on](images/httpsew-ease-on.png)"
-msgstr ""
-"![شکل: تنظیمات استفاده از HTTPS Everywhere با فعال کردن EASE](images/httpsew-"
-"ease-on.png)"
-
-#: browser/troubleshooting.md:block 22 (paragraph)
-msgid ""
-"If you still need to access some particular site over plain HTTP when EASE "
-"is on, you can visit the site (even if access fails), then from that tab "
-"open HTTPS Everywhere settings and tap on the *Disable on this site* button "
-"shown above to set an exception for the site."
-msgstr ""
-"اگر وقتی EASE فعال است هنوز نیاز به دسترسی به سایت خاصی روی همان HTTP معمولی "
-"دارید، می توانید از آن سایت بازدید کنید (حتی اگر دسترسی ناموفق بود)، سپس از "
-"آن زبانه تنظیمات HTTPS Everywhere را باز کنید و روی دکمه \"روی این سایت "
-"غیرفعال شود\" نشان داده شده در بالا کلیک کنید تا آن سایت مورد استثنا قرار "
-"گیرد."
-
-#: browser/troubleshooting.md:block 23 (header)
 msgid "Accessing some content shows \"Failed to retrieve the resource\""
 msgstr "دسترسی به محتوایی خاص پیغام «بازیابی منبع ناموفق بود» را نشان می‌دهد"
 
-#: browser/troubleshooting.md:block 24 (paragraph)
+#: browser/troubleshooting.md:block 17 (paragraph)
 msgid ""
 "This means that CENO tried all available mechanisms to access the content, "
 "but none of them succeeded."
@@ -216,14 +149,14 @@ msgstr ""
 "این یعنی CENO تمام سازوکارهای موجود برای دسترسی به آن محتوا را امتحان کرده "
 "است، اما هیچ‌یک از آن‌ها موفق نبوده‌اند."
 
-#: browser/troubleshooting.md:block 25 (paragraph)
+#: browser/troubleshooting.md:block 18 (paragraph)
 msgid ""
 "You should make sure that the following requirements are fulfilled for CENO "
 "to work:"
 msgstr ""
 "برای آن‌که CENO درست کار کند باید مطمئن شوید که این پیش‌نیازها برآورده شده‌اند:"
 
-#: browser/troubleshooting.md:block 26 (unordered list)
+#: browser/troubleshooting.md:block 19 (unordered list)
 msgid ""
 "You are running a recent version of CENO Browser. Obsolete versions may not "
 "be able to communicate with newer injectors or other clients. Check the "
@@ -233,7 +166,7 @@ msgstr ""
 "نتوانند با injector جدیدتر یا سایر سرویس‌گیرندگان ارتباط برقرار کنند. برای "
 "اطلاع از چگونگی دریافت نسخه‌های جدید به [راهنمای نصب](install.md) نگاه کنید."
 
-#: browser/troubleshooting.md:block 26 (unordered list)
+#: browser/troubleshooting.md:block 19 (unordered list)
 msgid ""
 "All access mechanisms in the [Settings page](settings.md) are enabled. "
 "Otherwise CENO will not be able to circumvent some connectivity issues when "
@@ -243,7 +176,7 @@ msgstr ""
 "افتاده‌اند. در غیر این صورت CENO نخواهد توانست برخی مشکلات مربوط به اتصال را "
 "در هنگام دسترسی به محتوا دور بزند."
 
-#: browser/troubleshooting.md:block 26 (unordered list)
+#: browser/troubleshooting.md:block 19 (unordered list)
 msgid ""
 "Your device has a working connection to the network, i.e. your normal Web "
 "browser is able to open some Web sites. CENO and Ouinet cannot work when all "
@@ -255,7 +188,7 @@ msgstr ""
 "اتصال شبکه به‌تمامی قطع شده باشد (هرچند کاربران باز شاید بتوانند یک نقطه‌ی "
 "دسترسی مشترک وای‌فای برای اشتراک‌گذاری دستگاه‌-به‌-دستگاه بیابند)."
 
-#: browser/troubleshooting.md:block 27 (paragraph)
+#: browser/troubleshooting.md:block 20 (paragraph)
 msgid ""
 "If that is the case, it is worth explaining what may be happening for all "
 "access mechanisms to fail, to give you an idea of your chances for getting "
@@ -265,11 +198,11 @@ msgstr ""
 "شود تمام سازوکارهای دسترسی ناکام بمانند، تا شما بتوانید تصوری از فرصت‌هایی "
 "پیدا کنید که برای دریافت محتوا با استفاده از CENO دارید."
 
-#: browser/troubleshooting.md:block 28 (header)
+#: browser/troubleshooting.md:block 21 (header)
 msgid "Origin access"
 msgstr "دسترسی به اصل"
 
-#: browser/troubleshooting.md:block 29 (paragraph)
+#: browser/troubleshooting.md:block 22 (paragraph)
 msgid ""
 "Your CENO Browser cannot directly reach the content's origin server. Either "
 "the server is having some difficulties itself (e.g. it is down or under some "
@@ -279,18 +212,18 @@ msgstr ""
 "سرور دچار مشکلاتی شود (مثلاً سرور پایین آمده یا مورد هجوم قرار گرفته باشد)، "
 "خواه کسی در اتصال شما به آن اخلال ایجاد کند."
 
-#: browser/troubleshooting.md:block 30 (paragraph)
+#: browser/troubleshooting.md:block 23 (paragraph)
 msgid ""
 "This is the main use case for CENO and the other mechanisms should "
 "compensate for it."
 msgstr ""
 "این مورد کاربرد اصلی برای CENO است و سازوکارهای دیگر باید آن را جبران کنند."
 
-#: browser/troubleshooting.md:block 31 (header)
+#: browser/troubleshooting.md:block 24 (header)
 msgid "Proxy/Injector access"
 msgstr "دسترسی به پروکسی/انژکتور"
 
-#: browser/troubleshooting.md:block 32 (paragraph)
+#: browser/troubleshooting.md:block 25 (paragraph)
 msgid ""
 "Someone is interfering with your connection to Internet addresses in the "
 "injector swarm. Since this is expected to happen eventually as CENO (and "
@@ -302,13 +235,13 @@ msgstr ""
 "پیشامدهایی می‌رود، CENO به دستیابی به injector از طریق سرویس‌گیرندگان دیگری "
 "پناه می‌برد که همچون پل عمل می‌کنند."
 
-#: browser/troubleshooting.md:block 33 (paragraph)
+#: browser/troubleshooting.md:block 26 (paragraph)
 msgid ""
 "There are different reasons for CENO being unable to reach such clients:"
 msgstr ""
 "دلایل متفاوتی برای ناتوانی CENOدر دستیابی به چنین سرویس‌گیرندگانی وجود دارند:"
 
-#: browser/troubleshooting.md:block 34 (unordered list)
+#: browser/troubleshooting.md:block 27 (unordered list)
 msgid ""
 "No other client is reachable by you. If only a few Ouinet clients are "
 "online, it is entirely possible that none of them are in a network that can "
@@ -321,7 +254,7 @@ msgstr ""
 "سرویس‌گیرندگان بیشتری با انواع گوناگون اتصال باید از احتمال این پیشامد کاسته "
 "شود."
 
-#: browser/troubleshooting.md:block 34 (unordered list)
+#: browser/troubleshooting.md:block 27 (unordered list)
 msgid ""
 "The extreme case here is that connections between Ouinet clients are "
 "detected as such by a censor and blocked. This is quite unlikely (since it "
@@ -334,7 +267,7 @@ msgstr ""
 "است که Ouinet پشتیبانی‌اش می‌کند، اما ما بنا داریم آن را در برابر این حمله‌ها "
 "مقاوم‌تر سازیم."
 
-#: browser/troubleshooting.md:block 34 (unordered list)
+#: browser/troubleshooting.md:block 27 (unordered list)
 msgid ""
 "No other client can reach an injector. Since it is unlikely that all "
 "injectors are simultaneously down, that may mean that you can only reach "
@@ -346,7 +279,7 @@ msgstr ""
 "شما فقط می‌توانید به گروهی از سرویس‌گیرندگان Ouinet دسترسی پیدا کنید که خودشان "
 "تحت تأثیر اختلالی در شبکه مشابه اختلال شما باشند."
 
-#: browser/troubleshooting.md:block 34 (unordered list)
+#: browser/troubleshooting.md:block 27 (unordered list)
 msgid ""
 "This can happen when all traffic leaving or entering the country you are in "
 "is interrupted. CENO would resort in this case to getting and using the "
@@ -356,7 +289,7 @@ msgstr ""
 "به کشور محل سکونت‌تان قطع گردد. CENO در این مورد به گرفتن و به‌کاربردن محتوا "
 "از انبار توزیع‌شده پناه می‌جوید، حتی اگر این انبار کهنه باشد."
 
-#: browser/troubleshooting.md:block 34 (unordered list)
+#: browser/troubleshooting.md:block 27 (unordered list)
 msgid ""
 "Again, as CENO and Ouinet become more popular, the chances increase that "
 "there are at least a few clients that do have some kind of access to "
@@ -372,7 +305,7 @@ msgstr ""
 "(روی انبار توزیع‌شده) بدون هیچ نیاز دیگر به دسترسی به جهان بیرونی کفایت خواهد "
 "کرد."
 
-#: browser/troubleshooting.md:block 35 (paragraph)
+#: browser/troubleshooting.md:block 28 (paragraph)
 msgid ""
 "Finally, we do run some Ouinet clients with good connectivity in (hopefully) "
 "censorship-free countries to try to avoid those two situations, but please "
@@ -384,11 +317,11 @@ msgstr ""
 "کنید که سرویس‌گیرندگان با چنین نشانی‌های اینترنتی باثباتی بتوانند مسدود هم "
 "شوند."
 
-#: browser/troubleshooting.md:block 36 (header)
+#: browser/troubleshooting.md:block 29 (header)
 msgid "Distributed cache"
 msgstr "کش توزیع‌شده"
 
-#: browser/troubleshooting.md:block 37 (paragraph)
+#: browser/troubleshooting.md:block 30 (paragraph)
 msgid ""
 "Keep in mind that an absolute requirement to be able to retrieve any content "
 "from the distributed cache is that it has already been injected by some "
@@ -406,7 +339,7 @@ msgstr ""
 "باشد تا آن را inject کند و به بذرپاشی‌اش ادامه دهد (که شاید آن‌ها را هرچه "
 "بیشتر در معرض [خطرات](../concepts/risks.md) قرار دهد)."
 
-#: browser/troubleshooting.md:block 38 (paragraph)
+#: browser/troubleshooting.md:block 31 (paragraph)
 msgid ""
 "Please note that some content which is not considered safe for sharing will "
 "never be injected, no matter how many people retrieve it using public "
@@ -420,7 +353,7 @@ msgstr ""
 "است، محتوایی که نیازمند تصدیق است، و ترافیکی که به‌وسیله‌ی برخی نرم‌افزارهای "
 "پویای وب مبادله می‌شود."
 
-#: browser/troubleshooting.md:block 39 (paragraph)
+#: browser/troubleshooting.md:block 32 (paragraph)
 msgid ""
 "Also note that the clients holding copies of injected content need to be "
 "reachable by you. The same observations described in the previous point for "
@@ -430,11 +363,152 @@ msgstr ""
 "است در دسترس شما باقی بمانند. همین ملاحظات توصیف‌شده در نکته‌ی پیشین برای "
 "دستیابی به سرویس‌گیرندگان پل در این‌جا نیز مصداق دارند."
 
-#: browser/troubleshooting.md:block 40 (header)
+#: browser/troubleshooting.md:block 33 (header)
+msgid "A note on HTTP-only sites"
+msgstr "یک یادداشت (نکته) در مورد وب‌سایت‌هایی که فقط از HTTP استفاده می‌کنند"
+
+#: browser/troubleshooting.md:block 34 (paragraph)
+msgid ""
+"CENO automatically switches to the more secure HTTPS protocol to access "
+"sites which would otherwise be accessed using plain, insecure HTTP. This is "
+"done by the embedded [HTTPS by default][HTTPS by default] extension when you "
+"enter a bare domain name like `example.com` or an HTTP URL like `http://"
+"example.com/…` in the location bar, or when you follow a link with such a "
+"URL in a page."
+msgstr ""
+"CENO به‌طور خودکار برای دسترسی به وب‌سایت‌هایی که با استفاده از پروتکل ساده "
+"و ناامن HTTP قابل دسترسی بودند، به پروتکل امن‌تر HTTPS، تغییر وضعیت می‌دهد. "
+"هنگامی که یک نام دامنه خالی مانند `example.com` یا یک URL HTTP مانند "
+"`http://example.com/…` را در نوارابزار وارد می‌کنید، یا زمانی که پیوندی با "
+"چنین URL را در یک صفحه دنبال می کنید، این عمل توسط پسوند [HTTPS by default]["
+"HTTPS by default] تعبیه‌شده انجام می‌شود."
+
+#: browser/troubleshooting.md:block 35 (paragraph)
+msgid ""
+"The automatic switching to HTTPS is done to prevent someone from "
+"intercepting an HTTP connection and directing it to an illegitimate server, "
+"resulting in bogus content (like a block message). This kind of hijacking is "
+"trivial to detect with HTTPS, so CENO can work around it instead of being "
+"tricked into loading the bogus content."
+msgstr ""
+"تغییر خودکار به HTTPS برای جلوگیری از رهگیری اتصال HTTP و هدایت آن به یک "
+"سرور نامشروع و در نتیجه محتوای جعلی (مانند یک پیام مسدود) انجام می شود. این "
+"نوع ربایش برای شناسایی با HTTPS بی‌اهمیت است، بنابراین CENO می تواند به جای "
+"فریب خوردن برای بارگذاری محتوای جعلی، می‌تواند کار خود را انجام دهد."
+
+#: browser/troubleshooting.md:block 36 (paragraph)
+msgid ""
+"Although very unusual, some sites do not support HTTPS, and no access "
+"mechanism will work for them. If you are completely sure that this is the "
+"case for a site which just failed to load in CENO, you can edit its URL in "
+"the location bar, change `https://` to `http://`, and try again."
+msgstr ""
+"اگرچه بسیار غیرعادی است، اما برخی از وب‌سایت ها از HTTPS پشتیبانی نمی‌کنند و "
+"هیچ مکانیزم دسترسی برای آن‌ها کار نخواهد کرد. اگر کاملاً مطمئن هستید که این "
+"مورد برای وب‌سایتی است که به تازگی در CENO بارگیری نشده است، می‌توانید URL "
+"آن را در نوارابزار ویرایش کنید، `https://` را به `http://` تغییر دهید و "
+"دوباره امتحان کنید."
+
+#: browser/troubleshooting.md:block 37 (paragraph)
+msgid ""
+"If you want to always access a particular site over plain HTTP, you can add "
+"a permanent exception like this:"
+msgstr ""
+"اگر می خواهید همواره به یک وب‌سایت خاص از طریق HTTP ساده دسترسی داشته باشید، "
+"می توانید یک مورد استثنا دائمی مثل این اضافه کنید:"
+
+#: browser/troubleshooting.md:block 38 (ordered list)
+msgid "In the app's main menu, choose *Tools / Add-ons*."
+msgstr "در منوی اصلی برنامه، *ابزارها/افزونه‌ها* را انتخاب کنید."
+
+#: browser/troubleshooting.md:block 38 (ordered list)
+msgid "Tap on *HTTPS by default*. You will see that extension's settings page."
+msgstr ""
+"روی گزینه *HTTPS by default* ضربه بزنید. صفحه تنظیمات آن افزونه را خواهید "
+"دید."
+
+#: browser/troubleshooting.md:block 38 (ordered list)
+msgid ""
+"Enter the domain name of the site in the text box, as shown below. See there "
+"how you may enter several sites by separating them with spaces or newlines. "
+"Please note that entering `example.com` will also include all sites under "
+"that domain, like `www.example.com` or `x.y.example.com`."
+msgstr ""
+"نام دامنه وب‌سایت را همانگونه که در پایین می‌بینید، در کادر متنی وارد کنید. "
+"در آن‌جا ببینید که چگونه می‌توان با جداسازی آن‌ها با فاصله یا خطوط جدید وارد "
+"چندین سایت شد. لطفاً توجه داشته باشید که وارد کردن `example.com` شامل همه "
+"وب‌سایت‌های تحت آن دامنه، مانند `www.example.com` یا `x.y.example.com` نیز "
+"می‌شود."
+
+#: browser/troubleshooting.md:block 38 (ordered list)
+msgid "When done, go back or close the tab."
+msgstr "پس از پایان کار، به عقب برگردید یا برگه را ببندید."
+
+#: browser/troubleshooting.md:block 39 (paragraph)
+msgid ""
+"![Figure: Adding exceptions for HTTP-only sites](images/httpsbd-exceptions."
+"png)"
+msgstr ""
+"![طرح: افزودن استثناها برای وب‌سایت‌هایی که فقط HTTP را پشتیبانی می‌کنند]("
+"images/httpsbd-exceptions.png)"
+
+#: browser/troubleshooting.md:block 40 (paragraph)
+msgid ""
+"**Note:** In the unfortunate case that a site is only accessible via HTTP, "
+"and it is also being hijacked by a censor, you will need to go to the "
+"[Settings page](settings.md), disable Origin access, and try again. Please "
+"note that this setting affects all sites, and it is not remembered by CENO "
+"for subsequent runs. We encourage you to contact the site administrators and "
+"tell them to enable HTTPS support."
+msgstr ""
+"**توجه:** در بدترین حالت که یک وب‌سایت فقط از طریق پروتکل HTTP قابل دسترسی "
+"است و همچنین توسط سیستم سانسور ربوده می شود، باید به [صفحه تنظیمات](settings."
+"md) بروید، دسترسی مبدا را غیرفعال کنید، و دوباره تلاش کنید. لطفاً توجه داشته "
+"باشید که این تنظیمات بر همه وب‌سایت‌ها تأثیر می‌گذارد و CENO آن را برای "
+"اجراهای بعدی به خاطر نمی‌آورد. ما شما را دعوت می‌کنیم که با مدیران آن وب‌"
+"سایت تماس بگیرید و به آن‌ها بگویید پشتیبانی HTTPS را فعال کنند."
+
+#: browser/troubleshooting.md:block 41 (header)
+msgid "A page shows bogus content (like a block message)"
+msgstr "صفحه محتوایی جعلی (مانند یک پیغام نامربوط) را نشان می‌دهد"
+
+#: browser/troubleshooting.md:block 42 (paragraph)
+msgid ""
+"This may happen when you used an old version of CENO to visit a blocked site "
+"in the past, and someone intercepted the connection and directed it to an "
+"illegitimate server. CENO then remembered that redirection, and now it "
+"automatically opens the later site when trying to visit the former."
+msgstr ""
+"این ممکن است زمانی اتفاق بیفتد که از یک نسخه قدیمی CENO برای بازدید از یک وب‌"
+"سایت مسدود شده در گذشته استفاده کرده باشید، و شخصی اتصال را قطع کرده و آن را "
+"به یک سرور غیرقانونی هدایت کند. سپس CENO آن تغییر جهت را به خاطر آورد و حالا "
+"به‌طور خودکار وب‌سایت فعلی را هنگام تلاش برای بازدید از وب‌سایت قبلی باز "
+"می‌کند."
+
+#: browser/troubleshooting.md:block 43 (paragraph)
+msgid ""
+"One way to fix this issue is to clear CENO's normal browsing cache by "
+"choosing *Settings* in the app's main menu, then *Clear private data*, and "
+"disabling all boxes but *Cache* before tapping on *Clear data*."
+msgstr ""
+"یکی از راه‌های رفع این مشکل، پاک کردن کش معمولی مرورگر CENO با انتخاب گزینه "
+"تنظیمات *Settings* در منوی اصلی برنامه، سپس *Clear private data* و غیرفعال "
+"کردن همه کادرها به جز *Cache* قبل از ضربه زدن روی *Clear data* است."
+
+#: browser/troubleshooting.md:block 44 (paragraph)
+msgid ""
+"Please note that CENO version 1.3.0 and newer avoid that hijacking of newly "
+"visited sites by always using HTTPS, as explained in the previous section."
+msgstr ""
+"لطفاً توجه کنید که نسخه 1.3.0 CENO و نسخه‌های جدیدتر، از ربایش وب‌سایت‌های "
+"تازه بازدید شده با تنظیم \"استفاده همیشگی از HTTPS\"، همانطور که در بخش قبل "
+"توضیح داده شد، جلوگیری می‌کند."
+
+#: browser/troubleshooting.md:block 45 (header)
 msgid "Others cannot retrieve content seeded by my device"
 msgstr "دیگران نمی‌توانند محتوای بذرپاشی‌شده توسط دستگاه مرا بازیابی کنند"
 
-#: browser/troubleshooting.md:block 41 (paragraph)
+#: browser/troubleshooting.md:block 46 (paragraph)
 msgid ""
 "First, make sure that your device is still seeding the content by going to "
 "the [*CENO Settings* page](settings.md), only leaving the *Shared by other "
@@ -450,7 +524,7 @@ msgstr ""
 "*به‌اشتراک‌گذاشته‌شده توسط سایر کاربران سنو* یا *به‌اشتراک‌گذاشته‌شده توسط شما* "
 "نمایش داده شوند."
 
-#: browser/troubleshooting.md:block 42 (paragraph)
+#: browser/troubleshooting.md:block 47 (paragraph)
 msgid ""
 "If the content does not load, it could be that CENO has already removed it, "
 "since it automatically cleans up stale content (older than a week by "
@@ -471,7 +545,7 @@ msgstr ""
 "هم بارگذاری نشد، شاید این به این دلیل باشد که آن محتوای خاص برای اشتراک‌گذاری "
 "از سوی Ouinet امن انگاشته نمی‌شود."
 
-#: browser/troubleshooting.md:block 43 (paragraph)
+#: browser/troubleshooting.md:block 48 (paragraph)
 msgid ""
 "If the previous step works, but another device with only the *Shared by "
 "other CENO users* source enabled still shows \"Failed to retrieve the "
@@ -488,7 +562,7 @@ msgstr ""
 "برخی از شبکه‌های وای‌فای عمومی می‌افتد، بنابراین سعی کنید از مرور حالت خصوصی "
 "استفاده کنید."
 
-#: browser/troubleshooting.md:block 44 (paragraph)
+#: browser/troubleshooting.md:block 49 (paragraph)
 msgid ""
 "If the devices are in different networks, it could be due to a variety of "
 "reasons. One of them is that the network of the first device does not allow "
@@ -502,7 +576,7 @@ msgstr ""
 "دسترس‌پذیری* باید بگوید *دسترس‌پذیر* یا *احتمالاً دسترس‌پذیر*. در غیر این صورت "
 "بذرپاشی چه‌بسا از آن شبکه چنان‌که هست ممکن نباشد."
 
-#: browser/troubleshooting.md:block 45 (quote)
+#: browser/troubleshooting.md:block 50 (quote)
 msgid ""
 "**Technical note:** If your device reports *undecided* reachability and you "
 "can change the configuration of the access point, you may create a permanent "
@@ -514,6 +588,78 @@ msgstr ""
 "درگاه دائم به‌روی قواعد پیش‌برنده به‌سوی سرویس‌گیرنده‌تان بسازید. برای "
 "راهنمایی‌های بیشتر [این‌جا](bridging.md) را ببینید."
 
-#: browser/troubleshooting.md:block 45 (quote)
-msgid "[HTTPS Everywhere]: https://www.eff.org/https-everywhere/"
-msgstr "[HTTPS Everywhere]: https://www.eff.org/https-everywhere/"
+#: browser/troubleshooting.md:block 50 (quote)
+msgid "[HTTPS by default]: https://github.com/Rob--W/https-by-default"
+msgstr "[HTTPS by default]: https://github.com/Rob--W/https-by-default"
+
+#~ msgid ""
+#~ "CENO was able to contact a web server directly and retrieve content from "
+#~ "it. Unfortunately, someone intercepted the connection and directed it to "
+#~ "an illegitimate server."
+#~ msgstr ""
+#~ "CENO توانسته به یک سرور وب مستقیماً متصل شود و محتوا را از آن بازیابی کند. "
+#~ "اما، متأسفانه، کسی مانع این اتصال شده است و آن را به یک سرور جعلی دیگر "
+#~ "هدایت کرده است."
+
+#~ msgid ""
+#~ "This usually means that the site is blocked by your access provider or "
+#~ "country. However, this particular error can only happen when you are "
+#~ "accessing the site over insecure HTTP (instead of the more secure HTTPS "
+#~ "protocol), as CENO cannot detect the tampering by itself."
+#~ msgstr ""
+#~ "این معمولاً به این معناست که شرکت تأمین اینترنت یا دولت کشورتان دسترسی شما "
+#~ "به این سایت را مسدود کرده است. اما، این ایراد خاص فقط وقتی رخ می‌دهد که "
+#~ "شما به سایتی روی HTTP ناامن دسترسی پیدا کنید (به جای دسترسی به پروتکل امن "
+#~ "تر HTTPS)، و CENO نمی‌تواند خودش این دستکاری را تشخیص دهد."
+
+#~ msgid ""
+#~ "Thus, one way to get to the legitimate site is to try to access it over "
+#~ "HTTPS by tapping the address bar and replacing `http://` with `https://` "
+#~ "at the beginning of its URL. Of course, this will only work if the site "
+#~ "supports HTTPS. If it does not, and you get \"Failed to retrieve the "
+#~ "resource\" from CENO, you will need to go to the [Settings page](settings."
+#~ "md), disable Origin access, and try again."
+#~ msgstr ""
+#~ "بنابراین، یک راه برای رسیدن به سایت واقعی تلاش برای دسترسی به آن روی "
+#~ "HTTPS از طریق کلیک روی نوار آدرس و تبدیل `http://` به `https://` در "
+#~ "ابتدای نشانی اینترنتی است. البته، این کار فقط وقتی نتیجه خواهد داد که "
+#~ "سایت مورد نظرتان HTTPS را پشتیبانی کند. در غیر این صورت، که پیغام "
+#~ "\"بازیابی منبع ناموفق بود\" را دریافت خواهید کرد، باید به [صفحه تنظیمات]"
+#~ "(settings.md) بروید، دسترسی به اصل را غیرفعال کنید، و دوباره امتحان کنید."
+
+#~ msgid ""
+#~ "Since such setting is not remembered, and modifying the URL every time "
+#~ "can get tiresome, you may instead configure CENO to always use HTTPS for "
+#~ "all sites via the embedded [HTTPS Everywhere][HTTPS Everywhere] "
+#~ "extension: choose *HTTPS Everywhere* in the app's main menu, then enable "
+#~ "*Encrypt All Sites Eligible* (EASE) as shown below. This setting is "
+#~ "remembered by CENO."
+#~ msgstr ""
+#~ "از آنجا که این جور تنظیمات به خاطر نمی‌مانند، و تغییر نشانی اینترنتی هربار "
+#~ "خسته کننده می‌شود، می‌توانید در عوض CENO را طوری تنظیم کنید که همیشه برای "
+#~ "همه سایتها از طریق افزونه [HTTPS Everywhere][HTTPS Everywhere] از HTTPS "
+#~ "استفاده کند: در منو اصلی برنامه گزینه *HTTPS Everywhere* را انتخاب کنید، "
+#~ "سپس گزینه *Encrypt All Sites Eligible* (EASE) نشان داده شده در زیر را "
+#~ "فعال کنید. CENO این تنظیمات را به خاطر می سپارد."
+
+#~ msgid ""
+#~ "![Figure: HTTPS Everywhere settings with EASE on](images/httpsew-ease-on."
+#~ "png)"
+#~ msgstr ""
+#~ "![شکل: تنظیمات استفاده از HTTPS Everywhere با فعال کردن EASE](images/"
+#~ "httpsew-ease-on.png)"
+
+#~ msgid ""
+#~ "If you still need to access some particular site over plain HTTP when "
+#~ "EASE is on, you can visit the site (even if access fails), then from that "
+#~ "tab open HTTPS Everywhere settings and tap on the *Disable on this site* "
+#~ "button shown above to set an exception for the site."
+#~ msgstr ""
+#~ "اگر وقتی EASE فعال است هنوز نیاز به دسترسی به سایت خاصی روی همان HTTP "
+#~ "معمولی دارید، می توانید از آن سایت بازدید کنید (حتی اگر دسترسی ناموفق "
+#~ "بود)، سپس از آن زبانه تنظیمات HTTPS Everywhere را باز کنید و روی دکمه "
+#~ "\"روی این سایت غیرفعال شود\" نشان داده شده در بالا کلیک کنید تا آن سایت "
+#~ "مورد استثنا قرار گیرد."
+
+#~ msgid "[HTTPS Everywhere]: https://www.eff.org/https-everywhere/"
+#~ msgstr "[HTTPS Everywhere]: https://www.eff.org/https-everywhere/"

@@ -1,0 +1,167 @@
+#
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-04-09 10:07+0000\n"
+"Last-Translator: Marvin <wile.e.coyote@keemail.me>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/censorship-no/"
+"public-private/de/>\n"
+"Language: de\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.12-dev\n"
+
+#: concepts/public-private.md:block 1 (header)
+msgid "Public vs. private browsing"
+msgstr "Öffentliches- vs. Privates-Browsing"
+
+#: concepts/public-private.md:block 2 (paragraph)
+msgid ""
+"Because of the many techniques used to overcome connectivity issues, CENO "
+"may become a convenient way for you to get all kinds of Web content. And, as "
+"you may have already read in previous sections, whenever you retrieve and "
+"seed a page using CENO Browser, it becomes available to others. There may be "
+"some content, however, that you do not wish to share (or you do not want to "
+"let others know that you are trying to or did retrieve), and fortunately "
+"CENO can help you in this instance as well."
+msgstr ""
+"Es gibt verschiedene Wege um mit Verbindungsproblemen umzugehen, CENO kann "
+"hierfür eine komfortable Lösung darstellen. Wie sie vielleicht schon auf den "
+"vorherigen Seiten gelesen haben, wird jede Webseite welche sie über CENO "
+"aufrufen gespeichert und durch sie erreichbar für andere Nutzer gemacht. "
+"Möglicherweise gibt es jedoch Inhalte von denen sie es nicht wünschen sie zu "
+"Teilen (oder sie möchten nicht das andere Wissen, das sie von einer Webseite "
+"Daten erhalten haben/wollten), glücklicherweise kann ihnen CENO dabei helfen."
+
+#: concepts/public-private.md:block 3 (paragraph)
+msgid ""
+"The default mode when you launch the application is **public browsing**. In "
+"it, CENO accesses Web content as described previously:"
+msgstr ""
+"Der voreingestellte Modus, wenn die das Programm starten, ist **Öffentliches "
+"Browsing**. In diesem Modus ruft CENO Webinhalte wie zuvor genannt auf:"
+
+#: concepts/public-private.md:block 4 (ordered list)
+msgid "Direct access is attempted."
+msgstr "Direkter Zugang wird erprobt."
+
+#: concepts/public-private.md:block 4 (ordered list)
+msgid "Failing that, the distributed cache is searched."
+msgstr "Das ist fehlgeschlagen, der dezentrale Puffer wird durchsucht."
+
+#: concepts/public-private.md:block 4 (ordered list)
+msgid ""
+"Failing that, the content is requested via an injector (maybe via another "
+"client)."
+msgstr ""
+"Das ist fehlgeschlagen, der Inhalt wurde von einem Injektor angefordert ("
+"vielleicht ein weiterer Client)."
+
+#: concepts/public-private.md:block 5 (paragraph)
+msgid ""
+"CENO also has a **private browsing** mode. In it, the distributed cache is "
+"never searched, and injection is never attempted:"
+msgstr ""
+"CENO verfügt auch über einen **Private Browsing** Modus. In diesem wird der "
+"dezentrale Puffer niemals durchsucht und der Versuch einer Injektion bleibt "
+"aus:"
+
+#: concepts/public-private.md:block 6 (ordered list)
+msgid ""
+"Failing that, an injector is contacted (maybe via another client) and used "
+"*as a normal proxy server*. Note that in this case, neither the injector nor "
+"your client updates the distributed cache with your page."
+msgstr ""
+
+#: concepts/public-private.md:block 7 (paragraph)
+msgid ""
+"The different behavior results in different characteristics. Thus, in public "
+"mode:"
+msgstr ""
+
+#: concepts/public-private.md:block 8 (ordered list)
+msgid ""
+"You have better chances to get Web content, and help others get that content "
+"(from you)."
+msgstr ""
+
+#: concepts/public-private.md:block 8 (ordered list)
+msgid ""
+"Pages with dynamic content (e.g. updated in real time) may break in obvious "
+"or subtle ways."
+msgstr ""
+
+#: concepts/public-private.md:block 8 (ordered list)
+msgid ""
+"Pages requiring authentication do not work (as passwords and cookies are "
+"removed by the client)."
+msgstr ""
+
+#: concepts/public-private.md:block 8 (ordered list)
+msgid ""
+"Some browsing activity may be leaked to other users (see [risks](risks.md))."
+msgstr ""
+
+#: concepts/public-private.md:block 8 (ordered list)
+msgid ""
+"Some browsing activity may be leaked to injectors (see [risks](risks.md))."
+msgstr ""
+
+#: concepts/public-private.md:block 8 (ordered list)
+msgid "You need to trust injectors to retrieve and sign Web content."
+msgstr ""
+
+#: concepts/public-private.md:block 9 (paragraph)
+msgid "While in private mode:"
+msgstr ""
+
+#: concepts/public-private.md:block 10 (ordered list)
+msgid ""
+"You may not be able to access blocked Web content if international "
+"connectivity is too scarce; even if you could, other CENO users would not "
+"get that content from you."
+msgstr ""
+
+#: concepts/public-private.md:block 10 (ordered list)
+msgid "Pages with dynamic content will probably work."
+msgstr ""
+
+#: concepts/public-private.md:block 10 (ordered list)
+msgid ""
+"Pages requiring authentication may work (when your connection is protected "
+"by HTTPS, the injector does not see your passwords)."
+msgstr ""
+
+#: concepts/public-private.md:block 10 (ordered list)
+msgid "Browsing activity is not leaked to other users."
+msgstr ""
+
+#: concepts/public-private.md:block 10 (ordered list)
+msgid ""
+"Limited browsing activity is leaked to injectors (with HTTPS, only the "
+"origin server name or address)."
+msgstr ""
+
+#: concepts/public-private.md:block 10 (ordered list)
+msgid ""
+"You need not trust injectors (with HTTPS, usual certificate-based security "
+"still works)."
+msgstr ""
+
+#: concepts/public-private.md:block 11 (paragraph)
+msgid ""
+"In conclusion: if you are using CENO to read the news, watch videos, browse "
+"Wikipedia and other static resources that are otherwise censored in your "
+"network, consider using the default *public browsing* mode. And if you want "
+"to login to Twitter or edit your WordPress website, use *private browsing* "
+"mode."
+msgstr ""
+
+#: concepts/public-private.md:block 12 (paragraph)
+msgid ""
+"Please read the section on [risks](risks.md) for a more detailed "
+"explanation. Also note that your client can continue to operate as a bridge "
+"and a seeder regardless of public or private browsing. We explain this in "
+"greater detail in the [Helping others](../browser/bridging.md) section of "
+"the manual."
+msgstr ""
