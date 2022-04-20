@@ -84,10 +84,9 @@ Although very unusual, some sites do not support HTTPS, and no access mechanism 
 
 If you want to always access a particular site over plain HTTP, you can add a permanent exception like this:
 
-1. In the app's main menu, choose *Tools / Add-ons*.
-2. Tap on *HTTPS by default*.  You will see that extension's settings page.
-3. Enter the domain name of the site in the text box, as shown below.  See there how you may enter several sites by separating them with spaces or newlines.  Please note that entering `example.com` will also include all sites under that domain, like `www.example.com` or `x.y.example.com`.
-4. When done, go back or close the tab.
+1. In the app's main menu, choose *HTTPS by default*.  You will see that extension's settings page.
+2. Enter the domain name of the site in the text box, as shown below.  See there how you may enter several sites by separating them with spaces or newlines.  Please note that entering `example.com` will also include all sites under that domain, like `www.example.com` or `x.y.example.com`.
+3. When done, go back or close the tab.
 
 ![Figure: Adding exceptions for HTTP-only sites](images/httpsbd-exceptions.png)
 
@@ -95,7 +94,7 @@ If you want to always access a particular site over plain HTTP, you can add a pe
 
 ## A page shows bogus content (like a block message)
 
-This may happen when you used an old version of CENO to visit a blocked site in the past, and someone intercepted the connection and directed it to an illegitimate server.  CENO then remembered that redirection, and now it automatically opens the later site when trying to visit the former.
+This may happen when you used an old version of CENO to visit a blocked site in the past, and someone intercepted the connection and directed it to an illegitimate server.  CENO then remembered that redirection, and now it automatically opens the latter site when trying to visit the former.
 
 One way to fix this issue is to clear CENO's normal browsing cache by choosing *Settings* in the app's main menu, then *Clear private data*, and disabling all boxes but *Cache* before tapping on *Clear data*.
 
@@ -103,7 +102,7 @@ Please note that CENO version 1.3.0 and newer avoid that hijacking of newly visi
 
 ## Others cannot retrieve content seeded by my device
 
-First, make sure that your device is still seeding the content by going to the [*CENO Settings* page](settings.md), only leaving the *Shared by other CENO users* source box checked, then accessing that content again: it should load (at least partially), and pushing the CENO address bar icon should only show non-zero values under *Shared by other CENO users* or *Shared by you*.
+First, make sure that your device is still seeding the content by going to the [*CENO Settings* page](settings.md), only leaving the *Shared by other CENO users* source box checked, then accessing that content again: it should load (at least partially), and tapping the CENO address bar icon should only show non-zero values under *Shared by other CENO users* or *Shared by you*.
 
 If the content does not load, it could be that CENO has already removed it, since it automatically cleans up stale content (older than a week by default) from your local cache.  Enable the *Via the CENO network (public)* source in the Settings page and access the content again.  Please allow a couple of minutes to pass for the device to announce the content in the distributed cache index.  Make *Shared by other CENO users* the only checked box again and access the content once more; if it still does not load, it may be that the particular content is not deemed safe for sharing by Ouinet.
 
