@@ -31,16 +31,22 @@ msgstr ""
 "اندروید][Firefox for Android Support] موزیلا مراجعه کنید."
 
 #: browser/README.md:block 3 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "When relevant, screen captures will be included to illustrate the text. "
+#| "Please note that these may slightly differ from what you see on your "
+#| "device, especially as CENO development progresses. This documentation is "
+#| "up to date for CENO version 1.3.0."
 msgid ""
 "When relevant, screen captures will be included to illustrate the text. "
 "Please note that these may slightly differ from what you see on your device, "
 "especially as CENO development progresses. This documentation is up to date "
-"for CENO version 1.3.0."
+"for CENO version 1.4.0."
 msgstr ""
-"در صورت لزوم، تصاویری که از صفحه گرفته می‌شود، برای مفهوم‌تر کردن متن "
-"گنجانده خواهند شد. لطفاً توجه کنید که این‌ها ممکن است تفاوت‌های اندکی با آن‌"
-"چه شما روی دستگاه‌تان می‌بینید، داشته باشند، به‌ویژه در جریان توسعه و پیشرفت "
-"CENO. این سند برای نسخه‌ی 1.3.0 CENO به‌روز است."
+"در صورت لزوم، تصاویری که از صفحه گرفته می‌شود، برای مفهوم‌تر کردن متن گنجانده "
+"خواهند شد. لطفاً توجه کنید که این‌ها ممکن است تفاوت‌های اندکی با آن‌چه شما روی "
+"دستگاه‌تان می‌بینید، داشته باشند، به‌ویژه در جریان توسعه و پیشرفت CENO. این سند "
+"برای نسخه‌ی 1.3.0 CENO به‌روز است."
 
 #: browser/README.md:block 4 (paragraph)
 msgid ""

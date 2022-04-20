@@ -224,40 +224,30 @@ msgstr ""
 
 #: browser/settings.md:block 14 (unordered list)
 msgid ""
-"*CENO Browser* indicates the exact version of CENO that you are using. "
-"Please include this information in your issue reports."
+"*Local cache size* shows an approximation of how much storage is taken by "
+"the content being seeded from your device's local cache."
 msgstr ""
-"**مرورگر سنو** نسخه‌ی دقیق CENO را نشان می‌دهد که شما از آن استفاده می‌کنید. "
-"لطفاً این اطلاعات را در گزارش‌های مشکلات و مسايل بگنجانید."
+"*سایز کش محلی* تقریبی از حجم اشغال‌شده توسط محتوایی را نشان می‌دهد که از کش "
+"محلی دستگاه‌تان بذرپاشی می‌شود."
 
 #: browser/settings.md:block 14 (unordered list)
 msgid ""
-"*CENO Extension* shows the version of the extension that integrates Firefox "
-"with CENO. Also include in reports."
+"*Content shared by you* allows you to check the content being announced by "
+"your device."
 msgstr ""
-"*افزونه‌ی سنو* نسخه‌ای از افزونه را نشان می‌دهد که فایرفاکس را با سنو ادغام "
-"می‌کند. این را نیز در گزارش‌ها بگنجانید."
+"*محتوای به اشتراک گذاشته شده از سوی شما* به شما اجازه می‌دهد تا محتوای "
+"اعلام‌شده توسط دستگاه‌تان را چک کنید."
 
 #: browser/settings.md:block 14 (unordered list)
-msgid ""
-"*Ouinet* shows the version of Ouinet backing CENO. Also include in reports."
-msgstr ""
-"*Ouinet* نسخه‌ای از Ouinet را نشان می‌دهد که از CENO پشتیبانی می‌کند. این را "
-"نیز در گزارش‌ها بگنجانید."
-
-#: browser/settings.md:block 14 (unordered list)
-msgid ""
-"*Ouinet protocol* is the version number of the protocol that CENO uses to "
-"talk to other Ouinet clients and injectors. Also include in reports."
-msgstr ""
-"*پروتکل Ouinet* شماره‌ی نسخه‌ی پروتکلی است که CENO به کار می‌برد تا با سایر "
-"سرویس‌گیرندگان Ouinet و injectors حرف بزند. این را نیز در گزارش‌ها بگنجانید."
-
-#: browser/settings.md:block 14 (unordered list)
+#, fuzzy
+#| msgid ""
+#| "*Ouinet client state*, if `started`, means that your Ouinet client was "
+#| "able to run successfully. Otherwise, there may be connectivity issues or "
+#| "some internal error. Also include in reports."
 msgid ""
 "*Ouinet client state*, if `started`, means that your Ouinet client was able "
 "to run successfully. Otherwise, there may be connectivity issues or some "
-"internal error. Also include in reports."
+"internal error. Please include this information in your issue reports."
 msgstr ""
 "*وضعیت سرویس گیرنده Ouinet*، اگر در حالت \"شروع شده\" باشد، به این معنی است "
 "که سرویس گیرنده Ouinet شما توانسته با موفقیت برنامه را اجرا کند. در غیر این "
@@ -287,10 +277,10 @@ msgid ""
 "to seed signed content to other clients. These are shown to help test and "
 "debug the app, and should not be generally disclosed."
 msgstr ""
-"*نقاط پایانی UDP محلی* نشانی‌های اینترنتی هستند در دستگاه شما که CENO از آن‌"
-"ها استفاده می‌کند تا محتوای امضاشده را به سرویس‌گیرندگان دیگر ارسال کند. این‌"
-"ها برای کمک به آزمایش و خطایابی از نرم‌افزار نشان داده می‌شوند، و نباید به‌"
-"طور عمومی فاش شوند."
+"*نقاط پایانی UDP محلی* نشانی‌های اینترنتی هستند در دستگاه شما که CENO از آن‌ها "
+"استفاده می‌کند تا محتوای امضاشده را به سرویس‌گیرندگان دیگر ارسال کند. این‌ها "
+"برای کمک به آزمایش و خطایابی از نرم‌افزار نشان داده می‌شوند، و نباید به‌طور "
+"عمومی فاش شوند."
 
 #: browser/settings.md:block 14 (unordered list)
 msgid ""
@@ -299,8 +289,8 @@ msgid ""
 "is useful for diagnostics and not to be generally disclosed."
 msgstr ""
 "*نقاط پایانی UDP خارجی* آدرس های اینترنتی موجود در روتر شما هستند که به "
-"ترافیک CENO شما اختصاص داده می شود. فقط با روترهای دارای UPnP موجود است، آن‌"
-"ها همچنین برای تشخیص مشکلات و عیب‌یابی مفید هستند و به طورعمومی افشا "
+"ترافیک CENO شما اختصاص داده می شود. فقط با روترهای دارای UPnP موجود است، "
+"آن‌ها همچنین برای تشخیص مشکلات و عیب‌یابی مفید هستند و به طورعمومی افشا "
 "نمی‌شوند."
 
 #: browser/settings.md:block 14 (unordered list)
@@ -314,20 +304,39 @@ msgstr ""
 "مشکلات و عیب‌یابی و نباید فاش شوند."
 
 #: browser/settings.md:block 14 (unordered list)
+#, fuzzy
+#| msgid ""
+#| "*CENO Browser* indicates the exact version of CENO that you are using. "
+#| "Please include this information in your issue reports."
 msgid ""
-"*Local cache size* shows an approximation of how much storage is taken by "
-"the content being seeded from your device's local cache."
+"*CENO Browser* indicates the exact version of CENO that you are using. Also "
+"include in reports."
 msgstr ""
-"*سایز کش محلی* تقریبی از حجم اشغال‌شده توسط محتوایی را نشان می‌دهد که از کش "
-"محلی دستگاه‌تان بذرپاشی می‌شود."
+"**مرورگر سنو** نسخه‌ی دقیق CENO را نشان می‌دهد که شما از آن استفاده می‌کنید. "
+"لطفاً این اطلاعات را در گزارش‌های مشکلات و مسايل بگنجانید."
 
 #: browser/settings.md:block 14 (unordered list)
 msgid ""
-"*Content shared by you* allows you to check the content being announced by "
-"your device."
+"*CENO Extension* shows the version of the extension that integrates Firefox "
+"with CENO. Also include in reports."
 msgstr ""
-"*محتوای به اشتراک گذاشته شده از سوی شما* به شما اجازه می‌دهد تا محتوای "
-"اعلام‌شده توسط دستگاه‌تان را چک کنید."
+"*افزونه‌ی سنو* نسخه‌ای از افزونه را نشان می‌دهد که فایرفاکس را با سنو ادغام "
+"می‌کند. این را نیز در گزارش‌ها بگنجانید."
+
+#: browser/settings.md:block 14 (unordered list)
+msgid ""
+"*Ouinet* shows the version of Ouinet backing CENO. Also include in reports."
+msgstr ""
+"*Ouinet* نسخه‌ای از Ouinet را نشان می‌دهد که از CENO پشتیبانی می‌کند. این را "
+"نیز در گزارش‌ها بگنجانید."
+
+#: browser/settings.md:block 14 (unordered list)
+msgid ""
+"*Ouinet protocol* is the version number of the protocol that CENO uses to "
+"talk to other Ouinet clients and injectors. Also include in reports."
+msgstr ""
+"*پروتکل Ouinet* شماره‌ی نسخه‌ی پروتکلی است که CENO به کار می‌برد تا با سایر "
+"سرویس‌گیرندگان Ouinet و injectors حرف بزند. این را نیز در گزارش‌ها بگنجانید."
 
 #: browser/settings.md:block 15 (header)
 msgid "Purging the local cache"

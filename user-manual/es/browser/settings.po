@@ -232,41 +232,31 @@ msgstr ""
 
 #: browser/settings.md:block 14 (unordered list)
 msgid ""
-"*CENO Browser* indicates the exact version of CENO that you are using. "
-"Please include this information in your issue reports."
+"*Local cache size* shows an approximation of how much storage is taken by "
+"the content being seeded from your device's local cache."
 msgstr ""
-"*Navegador CENO* indica la versión exacta de CENO que estás usando. Por "
-"favor incluye esta información en tus informes de problemas."
+"*Tamaño de la caché local* muestra una aproximación de cuánto almacenamiento "
+"es ocupado por el contenido que está siendo sembrado desde la caché local de "
+"tu dispositivo."
 
 #: browser/settings.md:block 14 (unordered list)
 msgid ""
-"*CENO Extension* shows the version of the extension that integrates Firefox "
-"with CENO. Also include in reports."
+"*Content shared by you* allows you to check the content being announced by "
+"your device."
 msgstr ""
-"*Extensión CENO* muestra la versión de la extensión que integra Firefox con "
-"CENO. También inclúyela en los informes."
+"*Contenido compartido por tí* te permite comprobar el contenido que está "
+"siendo anunciado por tu dispositivo."
 
 #: browser/settings.md:block 14 (unordered list)
-msgid ""
-"*Ouinet* shows the version of Ouinet backing CENO. Also include in reports."
-msgstr ""
-"*Ouinet* muestra la versión de Ouinet detrás de CENO. También inclúyela en "
-"los informes."
-
-#: browser/settings.md:block 14 (unordered list)
-msgid ""
-"*Ouinet protocol* is the version number of the protocol that CENO uses to "
-"talk to other Ouinet clients and injectors. Also include in reports."
-msgstr ""
-"*Protocolo Ouinet* es el número de versión del protocolo que usa CENO para "
-"hablar con otros clientes Ouinet e inyectores. También inclúyela en los "
-"informes."
-
-#: browser/settings.md:block 14 (unordered list)
+#, fuzzy
+#| msgid ""
+#| "*Ouinet client state*, if `started`, means that your Ouinet client was "
+#| "able to run successfully. Otherwise, there may be connectivity issues or "
+#| "some internal error. Also include in reports."
 msgid ""
 "*Ouinet client state*, if `started`, means that your Ouinet client was able "
 "to run successfully. Otherwise, there may be connectivity issues or some "
-"internal error. Also include in reports."
+"internal error. Please include this information in your issue reports."
 msgstr ""
 "*Estado del cliente Ouinet*, si es `started`, significa que tu cliente "
 "Ouinet pudo ejecutarse exitosamente. De otra manera, puede haber "
@@ -324,21 +314,40 @@ msgstr ""
 "También para diagnósticos, y no deberían ser divulgados."
 
 #: browser/settings.md:block 14 (unordered list)
+#, fuzzy
+#| msgid ""
+#| "*CENO Browser* indicates the exact version of CENO that you are using. "
+#| "Please include this information in your issue reports."
 msgid ""
-"*Local cache size* shows an approximation of how much storage is taken by "
-"the content being seeded from your device's local cache."
+"*CENO Browser* indicates the exact version of CENO that you are using. Also "
+"include in reports."
 msgstr ""
-"*Tamaño de la caché local* muestra una aproximación de cuánto almacenamiento "
-"es ocupado por el contenido que está siendo sembrado desde la caché local de "
-"tu dispositivo."
+"*Navegador CENO* indica la versión exacta de CENO que estás usando. Por "
+"favor incluye esta información en tus informes de problemas."
 
 #: browser/settings.md:block 14 (unordered list)
 msgid ""
-"*Content shared by you* allows you to check the content being announced by "
-"your device."
+"*CENO Extension* shows the version of the extension that integrates Firefox "
+"with CENO. Also include in reports."
 msgstr ""
-"*Contenido compartido por tí* te permite comprobar el contenido que está "
-"siendo anunciado por tu dispositivo."
+"*Extensión CENO* muestra la versión de la extensión que integra Firefox con "
+"CENO. También inclúyela en los informes."
+
+#: browser/settings.md:block 14 (unordered list)
+msgid ""
+"*Ouinet* shows the version of Ouinet backing CENO. Also include in reports."
+msgstr ""
+"*Ouinet* muestra la versión de Ouinet detrás de CENO. También inclúyela en "
+"los informes."
+
+#: browser/settings.md:block 14 (unordered list)
+msgid ""
+"*Ouinet protocol* is the version number of the protocol that CENO uses to "
+"talk to other Ouinet clients and injectors. Also include in reports."
+msgstr ""
+"*Protocolo Ouinet* es el número de versión del protocolo que usa CENO para "
+"hablar con otros clientes Ouinet e inyectores. También inclúyela en los "
+"informes."
 
 #: browser/settings.md:block 15 (header)
 msgid "Purging the local cache"

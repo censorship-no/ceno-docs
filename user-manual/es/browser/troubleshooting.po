@@ -433,12 +433,12 @@ msgstr ""
 "puedes agregar una excepción permanente así:"
 
 #: browser/troubleshooting.md:block 38 (ordered list)
-msgid "In the app's main menu, choose *Tools / Add-ons*."
-msgstr ""
-"En el menú principal de la aplicación, elige *Herramientas / Complementos*."
-
-#: browser/troubleshooting.md:block 38 (ordered list)
-msgid "Tap on *HTTPS by default*. You will see that extension's settings page."
+#, fuzzy
+#| msgid ""
+#| "Tap on *HTTPS by default*. You will see that extension's settings page."
+msgid ""
+"In the app's main menu, choose *HTTPS by default*. You will see that "
+"extension's settings page."
 msgstr ""
 "Pulsa en *HTTPS by default*. Verás la página de configuraciones de la "
 "extensión."
@@ -452,9 +452,9 @@ msgid ""
 msgstr ""
 "Ingresa el nombre de dominio del sitio en la casilla de texto, como se "
 "muestra abajo. Mira allí cómo podrías ingresar varios sitios separándolos "
-"con espacios o nuevas líneas. Por favor advierte que ingresando `ejemplo.com`"
-" también incluirá todos los sitios bajo ese dominio, como `www.ejemplo.com` "
-"o `x.y.ejemplo.com`."
+"con espacios o nuevas líneas. Por favor advierte que ingresando `ejemplo."
+"com` también incluirá todos los sitios bajo ese dominio, como `www.ejemplo."
+"com` o `x.y.ejemplo.com`."
 
 #: browser/troubleshooting.md:block 38 (ordered list)
 msgid "When done, go back or close the tab."
@@ -490,11 +490,17 @@ msgid "A page shows bogus content (like a block message)"
 msgstr "Una página muestra contenido adulterado (como un mensaje bloqueado)"
 
 #: browser/troubleshooting.md:block 42 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "This may happen when you used an old version of CENO to visit a blocked "
+#| "site in the past, and someone intercepted the connection and directed it "
+#| "to an illegitimate server. CENO then remembered that redirection, and now "
+#| "it automatically opens the later site when trying to visit the former."
 msgid ""
 "This may happen when you used an old version of CENO to visit a blocked site "
 "in the past, and someone intercepted the connection and directed it to an "
 "illegitimate server. CENO then remembered that redirection, and now it "
-"automatically opens the later site when trying to visit the former."
+"automatically opens the latter site when trying to visit the former."
 msgstr ""
 "Esto puede suceder cuando usaste una versión antigua de CENO para visitar un "
 "sitio bloqueado en el pasado, y alguien interceptó la conexión y la dirigió "
@@ -526,11 +532,19 @@ msgid "Others cannot retrieve content seeded by my device"
 msgstr "Otros no pueden descargar contenido sembrado por mi dispositivo"
 
 #: browser/troubleshooting.md:block 46 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "First, make sure that your device is still seeding the content by going "
+#| "to the [*CENO Settings* page](settings.md), only leaving the *Shared by "
+#| "other CENO users* source box checked, then accessing that content again: "
+#| "it should load (at least partially), and pushing the CENO address bar "
+#| "icon should only show non-zero values under *Shared by other CENO users* "
+#| "or *Shared by you*."
 msgid ""
 "First, make sure that your device is still seeding the content by going to "
 "the [*CENO Settings* page](settings.md), only leaving the *Shared by other "
 "CENO users* source box checked, then accessing that content again: it should "
-"load (at least partially), and pushing the CENO address bar icon should only "
+"load (at least partially), and tapping the CENO address bar icon should only "
 "show non-zero values under *Shared by other CENO users* or *Shared by you*."
 msgstr ""
 "Primero, asegúrate de que tu dispositivo aún está sembrando el contenido "
@@ -609,6 +623,11 @@ msgstr ""
 #: browser/troubleshooting.md:block 50 (quote)
 msgid "[HTTPS by default]: https://github.com/Rob--W/https-by-default"
 msgstr "[HTTPS by default]: https://github.com/Rob--W/https-by-default"
+
+#~ msgid "In the app's main menu, choose *Tools / Add-ons*."
+#~ msgstr ""
+#~ "En el menú principal de la aplicación, elige *Herramientas / "
+#~ "Complementos*."
 
 #~ msgid ""
 #~ "CENO was able to contact a web server directly and retrieve content from "
