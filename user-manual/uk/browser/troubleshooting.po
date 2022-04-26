@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-03-14 12:32+0000\n"
-"Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
+"PO-Revision-Date: 2022-04-26 23:29+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-troubleshooting/uk/>\n"
 "Language: uk\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.12-dev\n"
+"X-Generator: Weblate 4.12.1-dev\n"
 
 #: browser/troubleshooting.md:block 1 (header)
 msgid "Troubleshooting"
@@ -554,7 +554,7 @@ msgstr ""
 
 #: browser/troubleshooting.md:block 50 (quote)
 msgid "[HTTPS by default]: https://github.com/Rob--W/https-by-default"
-msgstr ""
+msgstr "[HTTPS by default]: https://github.com/Rob--W/https-by-default"
 
 #~ msgid ""
 #~ "CENO was able to contact a web server directly and retrieve content from "
