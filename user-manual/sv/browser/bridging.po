@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-27 00:12+0000\n"
+"PO-Revision-Date: 2022-04-28 01:11+0000\n"
 "Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/censorship-no/"
 "browser-bridging/sv/>\n"
@@ -48,6 +48,10 @@ msgid ""
 "port forwarding configured for CENO. See the next sections for further "
 "details."
 msgstr ""
+"Den här funktionaliteten är redan inbyggd i CENO-bläddraren. Din enhet måste "
+"vara ansluten till ett Wi-Fi-nätverk som har antingen UPnP aktiverat eller "
+"tydlig vidarebefordring av port inställd för CENO. Titta på nästa sektioner "
+"för mer detaljer."
 
 #: browser/bridging.md:block 6 (paragraph)
 msgid ""
