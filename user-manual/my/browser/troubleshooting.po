@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-10 11:02+0200\n"
-"PO-Revision-Date: 2022-04-26 23:15+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
+"PO-Revision-Date: 2022-04-28 01:11+0000\n"
+"Last-Translator: Mya Myintzu Hlaing <myamyintzu10@gmail.com>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "browser-troubleshooting/my/>\n"
 "Language: my\n"
@@ -405,13 +405,12 @@ msgstr ""
 "အမြဲတမ်းအတွက်ခြွင်းချက်တစ်ခုကို ထည့်ထားနိုင်ပါသည်။"
 
 #: browser/troubleshooting.md:block 38 (ordered list)
-#, fuzzy
-#| msgid ""
-#| "Tap on *HTTPS by default*. You will see that extension's settings page."
 msgid ""
 "In the app's main menu, choose *HTTPS by default*. You will see that "
 "extension's settings page."
-msgstr "*HTTPS by default*ကို နှိပ်ပါ။ ထိုအဆက်၏ ဆက်တင်စာမျက်နှာကို မြင်ရပါမည်။"
+msgstr ""
+"အက်ပ်၏အဓိကမီနူးထဲတွင် *HTTPS by default*ကို နှိပ်ပါ။ ထိုအဆက်၏ "
+"ဆက်တင်စာမျက်နှာကို မြင်ရပါမည်။"
 
 #: browser/troubleshooting.md:block 38 (ordered list)
 msgid ""
