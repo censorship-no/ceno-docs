@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-19 15:53+0000\n"
-"Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
+"PO-Revision-Date: 2022-04-29 20:10+0000\n"
+"Last-Translator: Kian <kian@tahgheegh.com>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-settings/fa/>\n"
 "Language: fa\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.12-dev\n"
+"X-Generator: Weblate 4.12.1\n"
 
 #
 #: browser/settings.md:block 1 (header)
@@ -239,11 +239,6 @@ msgstr ""
 "اعلام‌شده توسط دستگاه‌تان را چک کنید."
 
 #: browser/settings.md:block 14 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "*Ouinet client state*, if `started`, means that your Ouinet client was "
-#| "able to run successfully. Otherwise, there may be connectivity issues or "
-#| "some internal error. Also include in reports."
 msgid ""
 "*Ouinet client state*, if `started`, means that your Ouinet client was able "
 "to run successfully. Otherwise, there may be connectivity issues or some "
@@ -252,7 +247,7 @@ msgstr ""
 "*وضعیت سرویس گیرنده Ouinet*، اگر در حالت \"شروع شده\" باشد، به این معنی است "
 "که سرویس گیرنده Ouinet شما توانسته با موفقیت برنامه را اجرا کند. در غیر این "
 "صورت، ممکن است اشکالات مرتبط با اتصال یا برخی از خطاهای داخلی وجود داشته "
-"باشد. همچنین در گزارش‌ها ثبت شود."
+"باشد.  لطفا این اطلاعات را در گزارش‌های خود بگنجانید."
 
 #: browser/settings.md:block 14 (unordered list)
 msgid ""
@@ -304,16 +299,12 @@ msgstr ""
 "مشکلات و عیب‌یابی و نباید فاش شوند."
 
 #: browser/settings.md:block 14 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "*CENO Browser* indicates the exact version of CENO that you are using. "
-#| "Please include this information in your issue reports."
 msgid ""
 "*CENO Browser* indicates the exact version of CENO that you are using. Also "
 "include in reports."
 msgstr ""
-"**مرورگر سنو** نسخه‌ی دقیق CENO را نشان می‌دهد که شما از آن استفاده می‌کنید. "
-"لطفاً این اطلاعات را در گزارش‌های مشکلات و مسايل بگنجانید."
+"**مرورگر CENO** نسخه‌ی دقیق CENO را که شما از آن استفاده می‌کنید، نشان می‌"
+"دهد. لطفاً این اطلاعات را در گزارش‌های مشکلات بگنجانید."
 
 #: browser/settings.md:block 14 (unordered list)
 msgid ""
