@@ -23,7 +23,7 @@ msgid ""
 "When relevant, screen captures will be included to illustrate the text. "
 "Please note that these may slightly differ from what you see on your device, "
 "especially as CENO development progresses. This documentation is up to date "
-"for CENO version 1.3.0."
+"for CENO version 1.4.0."
 msgstr ""
 
 #: browser/README.md:block 4 (paragraph)

@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-10 11:02+0200\n"
-"PO-Revision-Date: 2022-04-19 11:27+0000\n"
-"Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
+"PO-Revision-Date: 2022-05-02 11:12+0000\n"
+"Last-Translator: m <mitjeglavanakov@protonmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-troubleshooting/ru/>\n"
 "Language: ru\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.12-dev\n"
+"X-Generator: Weblate 4.12.1\n"
 
 #
 #: browser/troubleshooting.md:block 1 (header)
@@ -140,6 +140,8 @@ msgid ""
 "If you see some other state, there may be some internal error in the Ouinet "
 "client. Please report the issue to us."
 msgstr ""
+"Если вы видите какое-либо ещё состояние, это может означать внутреннюю "
+"ошибку клиента Ouinet. Пожалуйста, сообщите нам об этом."
 
 #: browser/troubleshooting.md:block 16 (header)
 msgid "Accessing some content shows \"Failed to retrieve the resource\""
@@ -409,11 +411,9 @@ msgid ""
 msgstr ""
 
 #: browser/troubleshooting.md:block 38 (ordered list)
-msgid "In the app's main menu, choose *Tools / Add-ons*."
-msgstr ""
-
-#: browser/troubleshooting.md:block 38 (ordered list)
-msgid "Tap on *HTTPS by default*. You will see that extension's settings page."
+msgid ""
+"In the app's main menu, choose *HTTPS by default*. You will see that "
+"extension's settings page."
 msgstr ""
 
 #: browser/troubleshooting.md:block 38 (ordered list)
@@ -455,7 +455,7 @@ msgid ""
 "This may happen when you used an old version of CENO to visit a blocked site "
 "in the past, and someone intercepted the connection and directed it to an "
 "illegitimate server. CENO then remembered that redirection, and now it "
-"automatically opens the later site when trying to visit the former."
+"automatically opens the latter site when trying to visit the former."
 msgstr ""
 
 #: browser/troubleshooting.md:block 43 (paragraph)
@@ -476,11 +476,19 @@ msgid "Others cannot retrieve content seeded by my device"
 msgstr "Пользователи не могут получить контент, раздаваемый моим устройством"
 
 #: browser/troubleshooting.md:block 46 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "First, make sure that your device is still seeding the content by going "
+#| "to the [*CENO Settings* page](settings.md), only leaving the *Shared by "
+#| "other CENO users* source box checked, then accessing that content again: "
+#| "it should load (at least partially), and pushing the CENO address bar "
+#| "icon should only show non-zero values under *Shared by other CENO users* "
+#| "or *Shared by you*."
 msgid ""
 "First, make sure that your device is still seeding the content by going to "
 "the [*CENO Settings* page](settings.md), only leaving the *Shared by other "
 "CENO users* source box checked, then accessing that content again: it should "
-"load (at least partially), and pushing the CENO address bar icon should only "
+"load (at least partially), and tapping the CENO address bar icon should only "
 "show non-zero values under *Shared by other CENO users* or *Shared by you*."
 msgstr ""
 "Во-первых, убедитесь, что ваше устройство все еще раздает контент. Перейдите "
@@ -556,7 +564,7 @@ msgstr ""
 
 #: browser/troubleshooting.md:block 50 (quote)
 msgid "[HTTPS by default]: https://github.com/Rob--W/https-by-default"
-msgstr ""
+msgstr "[HTTPS by default]: https://github.com/Rob--W/https-by-default"
 
 #~ msgid ""
 #~ "CENO was able to contact a web server directly and retrieve content from "

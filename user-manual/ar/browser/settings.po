@@ -167,32 +167,21 @@ msgstr ""
 
 #: browser/settings.md:block 14 (unordered list)
 msgid ""
-"*CENO Browser* indicates the exact version of CENO that you are using. "
-"Please include this information in your issue reports."
+"*Local cache size* shows an approximation of how much storage is taken by "
+"the content being seeded from your device's local cache."
 msgstr ""
 
 #: browser/settings.md:block 14 (unordered list)
 msgid ""
-"*CENO Extension* shows the version of the extension that integrates Firefox "
-"with CENO. Also include in reports."
-msgstr ""
-
-#: browser/settings.md:block 14 (unordered list)
-msgid ""
-"*Ouinet* shows the version of Ouinet backing CENO. Also include in reports."
-msgstr ""
-
-#: browser/settings.md:block 14 (unordered list)
-msgid ""
-"*Ouinet protocol* is the version number of the protocol that CENO uses to "
-"talk to other Ouinet clients and injectors. Also include in reports."
+"*Content shared by you* allows you to check the content being announced by "
+"your device."
 msgstr ""
 
 #: browser/settings.md:block 14 (unordered list)
 msgid ""
 "*Ouinet client state*, if `started`, means that your Ouinet client was able "
 "to run successfully. Otherwise, there may be connectivity issues or some "
-"internal error. Also include in reports."
+"internal error. Please include this information in your issue reports."
 msgstr ""
 
 #: browser/settings.md:block 14 (unordered list)
@@ -230,14 +219,25 @@ msgstr ""
 
 #: browser/settings.md:block 14 (unordered list)
 msgid ""
-"*Local cache size* shows an approximation of how much storage is taken by "
-"the content being seeded from your device's local cache."
+"*CENO Browser* indicates the exact version of CENO that you are using. Also "
+"include in reports."
 msgstr ""
 
 #: browser/settings.md:block 14 (unordered list)
 msgid ""
-"*Content shared by you* allows you to check the content being announced by "
-"your device."
+"*CENO Extension* shows the version of the extension that integrates Firefox "
+"with CENO. Also include in reports."
+msgstr ""
+
+#: browser/settings.md:block 14 (unordered list)
+msgid ""
+"*Ouinet* shows the version of Ouinet backing CENO. Also include in reports."
+msgstr ""
+
+#: browser/settings.md:block 14 (unordered list)
+msgid ""
+"*Ouinet protocol* is the version number of the protocol that CENO uses to "
+"talk to other Ouinet clients and injectors. Also include in reports."
 msgstr ""
 
 #: browser/settings.md:block 15 (header)

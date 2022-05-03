@@ -300,11 +300,9 @@ msgid ""
 msgstr ""
 
 #: browser/troubleshooting.md:block 38 (ordered list)
-msgid "In the app's main menu, choose *Tools / Add-ons*."
-msgstr ""
-
-#: browser/troubleshooting.md:block 38 (ordered list)
-msgid "Tap on *HTTPS by default*. You will see that extension's settings page."
+msgid ""
+"In the app's main menu, choose *HTTPS by default*. You will see that "
+"extension's settings page."
 msgstr ""
 
 #: browser/troubleshooting.md:block 38 (ordered list)
@@ -344,7 +342,7 @@ msgid ""
 "This may happen when you used an old version of CENO to visit a blocked site "
 "in the past, and someone intercepted the connection and directed it to an "
 "illegitimate server. CENO then remembered that redirection, and now it "
-"automatically opens the later site when trying to visit the former."
+"automatically opens the latter site when trying to visit the former."
 msgstr ""
 
 #: browser/troubleshooting.md:block 43 (paragraph)
@@ -369,7 +367,7 @@ msgid ""
 "First, make sure that your device is still seeding the content by going to "
 "the [*CENO Settings* page](settings.md), only leaving the *Shared by other "
 "CENO users* source box checked, then accessing that content again: it should "
-"load (at least partially), and pushing the CENO address bar icon should only "
+"load (at least partially), and tapping the CENO address bar icon should only "
 "show non-zero values under *Shared by other CENO users* or *Shared by you*."
 msgstr ""
 

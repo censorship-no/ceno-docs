@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-03-14 12:32+0000\n"
+"PO-Revision-Date: 2022-05-03 12:06+0000\n"
 "Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-troubleshooting/uk/>\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.12-dev\n"
+"X-Generator: Weblate 4.12.1\n"
 
 #: browser/troubleshooting.md:block 1 (header)
 msgid "Troubleshooting"
@@ -366,7 +366,7 @@ msgstr ""
 
 #: browser/troubleshooting.md:block 33 (header)
 msgid "A note on HTTP-only sites"
-msgstr ""
+msgstr "Примітка щодо сайтів, які працюють на протоколі HTTP"
 
 #: browser/troubleshooting.md:block 34 (paragraph)
 msgid ""
@@ -377,6 +377,13 @@ msgid ""
 "example.com/…` in the location bar, or when you follow a link with such a "
 "URL in a page."
 msgstr ""
+"CENO автоматично перемикається на більш безпечний протокол HTTPS для доступу "
+"до сайтів, до яких можна було б отримати доступ за допомогою звичайного, "
+"незахищеного HTTP. Це робиться за допомогою вбудованого розширення [HTTPS by "
+"default][HTTPS by default], коли ви вводите тільки доменне ім’я, наприклад, "
+"`example.com` або URL-адресу HTTP, як-от `http://example.com/…`, у "
+"відповідному полі браузера, або коли ви переходите за посиланням із такою "
+"URL-адресою на сторінці."
 
 #: browser/troubleshooting.md:block 35 (paragraph)
 msgid ""
@@ -386,6 +393,12 @@ msgid ""
 "trivial to detect with HTTPS, so CENO can work around it instead of being "
 "tricked into loading the bogus content."
 msgstr ""
+"Автоматичне перемикання на HTTPS здійснюється, щоб запобігти перехопленню "
+"HTTP-з’єднання з боку зловмисників та подальшого його перенаправлення на "
+"сервер зловмисників, що веде на фальшивий контент (наприклад, повідомлення "
+"щодо блокування). Цей вид викрадення є простим для виявлення за допомогою "
+"HTTPS, тому CENO може обійти це перехоплення замість того, аби завантажувати "
+"фальшивий контент."
 
 #: browser/troubleshooting.md:block 36 (paragraph)
 msgid ""
@@ -394,20 +407,28 @@ msgid ""
 "case for a site which just failed to load in CENO, you can edit its URL in "
 "the location bar, change `https://` to `http://`, and try again."
 msgstr ""
+"Хоча це звучить доволі дивно сьогодні, однак деякі сайти досі не підтримують "
+"HTTPS, і жоден механізм доступу для цих сайтів не працює. Якщо ви "
+"стовідсотково впевнені у сайті, який щойно не завантажився в CENO, ви можете "
+"відредагувати його URL-адресу вручну у відповідному полі браузера, змінивши "
+"\"https://\" на \"http://\" і спробувати завантажити ще раз."
 
 #: browser/troubleshooting.md:block 37 (paragraph)
 msgid ""
 "If you want to always access a particular site over plain HTTP, you can add "
 "a permanent exception like this:"
 msgstr ""
+"Якщо ви хочете завжди мати доступ до конкретного сайту, що працює на "
+"незахищенному протоколі HTTP, ви можете вручну додати сайт як постійний "
+"виняток, а саме:"
 
 #: browser/troubleshooting.md:block 38 (ordered list)
-msgid "In the app's main menu, choose *Tools / Add-ons*."
+msgid ""
+"In the app's main menu, choose *HTTPS by default*. You will see that "
+"extension's settings page."
 msgstr ""
-
-#: browser/troubleshooting.md:block 38 (ordered list)
-msgid "Tap on *HTTPS by default*. You will see that extension's settings page."
-msgstr ""
+"У головному меню додатку виберіть *HTTPS by default*. Ви побачите сторінку "
+"налаштувань цього розширення."
 
 #: browser/troubleshooting.md:block 38 (ordered list)
 msgid ""
@@ -416,16 +437,24 @@ msgid ""
 "Please note that entering `example.com` will also include all sites under "
 "that domain, like `www.example.com` or `x.y.example.com`."
 msgstr ""
+"Введіть доменне ім’я сайту в текстове поле, як показано нижче. Подивіться, "
+"як ви можете ввести відразу кілька сайтів, розділивши їх пробілами або "
+"новими рядками. Зауважте, що введення \"example.com\" також включатиме всі "
+"сайти в цьому домені, наприклад, \"www.example.com\" або \"x.y.example.com\"."
 
 #: browser/troubleshooting.md:block 38 (ordered list)
 msgid "When done, go back or close the tab."
 msgstr ""
+"Як тільки ви завершили дію, поверніться на попередню сторінку або ж закрийте "
+"вкладку."
 
 #: browser/troubleshooting.md:block 39 (paragraph)
 msgid ""
 "![Figure: Adding exceptions for HTTP-only sites](images/httpsbd-exceptions."
 "png)"
 msgstr ""
+"![Рисунок: Як додати сайти як винятки, що працюють на протоколі HTTP](images/"
+"httpsbd-exceptions.png)"
 
 #: browser/troubleshooting.md:block 40 (paragraph)
 msgid ""
@@ -436,6 +465,12 @@ msgid ""
 "for subsequent runs. We encourage you to contact the site administrators and "
 "tell them to enable HTTPS support."
 msgstr ""
+"**Примітка.** Якщо сайт доступний лише через незахищенний протокол HTTP, і "
+"його перехопив цензор, вам потрібно буде перейти на [сторінку "
+"налаштувань](settings.md), вимкнути доступ до Origin, і спробуйте ще раз. "
+"Зверніть увагу, що цей параметр впливає на всі сайти, і CENO не запам’ятовує "
+"його для наступних запусків. Ми радимо вам зв’язатися з адміністраторами "
+"сайту та порадити їм увімкнути підтримку захищенного протоколу HTTPS."
 
 #: browser/troubleshooting.md:block 41 (header)
 msgid "A page shows bogus content (like a block message)"
@@ -448,8 +483,13 @@ msgid ""
 "This may happen when you used an old version of CENO to visit a blocked site "
 "in the past, and someone intercepted the connection and directed it to an "
 "illegitimate server. CENO then remembered that redirection, and now it "
-"automatically opens the later site when trying to visit the former."
+"automatically opens the latter site when trying to visit the former."
 msgstr ""
+"Ця ситуація може статися, якщо ви використовували стару версію CENO для "
+"відвідування заблокованого сайту в минулому, і хтось перехопив з’єднання і "
+"перенаправив його на сервер зловмисників. Потім CENO запам’ятав це "
+"перенаправлення, і тепер браузер автоматично відкриває останній сайт при "
+"спробі відвідати перший."
 
 #: browser/troubleshooting.md:block 43 (paragraph)
 msgid ""
@@ -457,12 +497,19 @@ msgid ""
 "choosing *Settings* in the app's main menu, then *Clear private data*, and "
 "disabling all boxes but *Cache* before tapping on *Clear data*."
 msgstr ""
+"Один із способів вирішити цю проблему — очистити звичайний кеш перегляду "
+"CENO, вибравши *Налаштування* в головному меню програми, потім *Очистити "
+"особисті дані* і відімкнути всі поля, окрім *Кеш*, перш ніж натиснути *"
+"Очистити дані*."
 
 #: browser/troubleshooting.md:block 44 (paragraph)
 msgid ""
 "Please note that CENO version 1.3.0 and newer avoid that hijacking of newly "
 "visited sites by always using HTTPS, as explained in the previous section."
 msgstr ""
+"Зауважте, що CENO версія 1.3.0 і новіші версії уникають перехоплення "
+"нещодавно відвідуваних сайтів, адже завжди використовують HTTPS, як це було "
+"пояснено у попередньому розділі."
 
 #: browser/troubleshooting.md:block 45 (header)
 msgid "Others cannot retrieve content seeded by my device"
@@ -473,7 +520,7 @@ msgid ""
 "First, make sure that your device is still seeding the content by going to "
 "the [*CENO Settings* page](settings.md), only leaving the *Shared by other "
 "CENO users* source box checked, then accessing that content again: it should "
-"load (at least partially), and pushing the CENO address bar icon should only "
+"load (at least partially), and tapping the CENO address bar icon should only "
 "show non-zero values under *Shared by other CENO users* or *Shared by you*."
 msgstr ""
 "По-перше, переконайтеся, що Ваш пристрій все ще роздає вміст. Перейдіть на "
@@ -548,7 +595,7 @@ msgstr ""
 
 #: browser/troubleshooting.md:block 50 (quote)
 msgid "[HTTPS by default]: https://github.com/Rob--W/https-by-default"
-msgstr ""
+msgstr "[HTTPS by default]: https://github.com/Rob--W/https-by-default"
 
 #~ msgid ""
 #~ "CENO was able to contact a web server directly and retrieve content from "

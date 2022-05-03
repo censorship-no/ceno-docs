@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2022-04-19 15:53+0000\n"
-"Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
+"PO-Revision-Date: 2022-04-29 20:10+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "browser-settings/my/>\n"
 "Language: my\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.12-dev\n"
+"X-Generator: Weblate 4.12.1\n"
 
 #
 #: browser/settings.md:block 1 (header)
@@ -214,44 +214,29 @@ msgstr ""
 
 #: browser/settings.md:block 14 (unordered list)
 msgid ""
-"*CENO Browser* indicates the exact version of CENO that you are using. "
-"Please include this information in your issue reports."
+"*Local cache size* shows an approximation of how much storage is taken by "
+"the content being seeded from your device's local cache."
 msgstr ""
-"*CENO ဘရောက်ဇာ* သည် သင်အသုံးပြုနေသော CENO ဗားရှင်း အတိအကျကို ညွှန်ပြသည်။ ကျေးဇူးပြု၍ "
-"ဤအချက်အလက်ကို သင်၏ ပြဿနာ အစီရင်ခံစာများတွင် ထည့်ပါ။"
+"*စက်တွင်း ယာယီသိမ်းဆည်းထားသော မှတ်ဉာဏ် အရွယ်အစား* သည် သင့်စက်၏ စက်တွင်း ယာယီသိမ်းဆည်းထားသော မှတ်ဉာဏ်မှ "
+"တင်ပို့နေသော အကြောင်းအရာက သိုလှောင်မှုမည်မျှကို နေရာယူကြောင်း မှန်းခြေကို ပြသသည်။"
 
 #: browser/settings.md:block 14 (unordered list)
 msgid ""
-"*CENO Extension* shows the version of the extension that integrates Firefox "
-"with CENO. Also include in reports."
+"*Content shared by you* allows you to check the content being announced by "
+"your device."
 msgstr ""
-"*CENO အဆက်* သည် Firefox ကို CENO နှင့် ပေါင်းစည်းပေးသော အဆက်၏ ဗားရှင်းကို ပြသသည်။ "
-"အစီရင်ခံစာများတွင်လည်း ထည့်ပါ။"
-
-#: browser/settings.md:block 14 (unordered list)
-msgid ""
-"*Ouinet* shows the version of Ouinet backing CENO. Also include in reports."
-msgstr ""
-"*Ouinet* သည် CENO ကို ထောက်ခံသော Ouinet ၏ ဗားရှင်းကို ပြသသည်။ အစီရင်ခံစာများတွင်လည်း ထည့်ပါ။"
-
-#: browser/settings.md:block 14 (unordered list)
-msgid ""
-"*Ouinet protocol* is the version number of the protocol that CENO uses to "
-"talk to other Ouinet clients and injectors. Also include in reports."
-msgstr ""
-"*Ouinet ပရိုတိုကော* သည် CENO က အခြား Ouinet လက်ခံစက်များနှင့် ထိုးသွင်းဖိုင်များနှင့် ဆက်သွယ်ရန် "
-"အသုံးပြုသော ပရိုတိုကော၏ ဗားရှင်းနံပါတ် ဖြစ်သည်။ အစီရင်ခံစာများတွင်လည်း ထည့်ပါ။"
+"*သင်မျှဝေထားသောအကြောင်းအရာ* သည် သင့်စက်မှ ကြေငြာထားသော အကြောင်းအရာများကို စစ်ဆေးခွင့်ပြုသည်။"
 
 #: browser/settings.md:block 14 (unordered list)
 msgid ""
 "*Ouinet client state*, if `started`, means that your Ouinet client was able "
 "to run successfully. Otherwise, there may be connectivity issues or some "
-"internal error. Also include in reports."
+"internal error. Please include this information in your issue reports."
 msgstr ""
 "*Ouinet သုံးစွဲသူ အခြေအနေ* အကယ်၍ `started`ကို ပြသပါက သင့် Ouinet သည် "
 "အောင်မြင်စွာ အလုပ်လုပ်နိုင်သည် ဟု အဓိပ္ပါယ်ရပါသည်။ သို့မဟုတ်လျှင် "
 "ချိတ်ဆက်မှုပြဿနာတစ်ခုခု သို့မဟုတ် စက်တွင်းပြဿနာတစ်ခုခု ဖြစ်နေနိုင်ပါသည်။ "
-"ပြန်လည်တင်ပြမှုအနေနဲ့ ထည့်သွင်းပေးပါ။"
+"ကျေးဇူးပြုပြီး ဤအချက်အလက်အား ပြန်လည်တင်ပြမှုအနေနဲ့ ထည့်သွင်းပေးပါ။"
 
 #: browser/settings.md:block 14 (unordered list)
 msgid ""
@@ -304,19 +289,33 @@ msgstr ""
 
 #: browser/settings.md:block 14 (unordered list)
 msgid ""
-"*Local cache size* shows an approximation of how much storage is taken by "
-"the content being seeded from your device's local cache."
+"*CENO Browser* indicates the exact version of CENO that you are using. Also "
+"include in reports."
 msgstr ""
-"*စက်တွင်း ယာယီသိမ်းဆည်းထားသော မှတ်ဉာဏ် အရွယ်အစား* သည် သင့်စက်၏ စက်တွင်း ယာယီသိမ်းဆည်းထားသော မှတ်ဉာဏ်မှ "
-"တင်ပို့နေသော အကြောင်းအရာက သိုလှောင်မှုမည်မျှကို နေရာယူကြောင်း မှန်းခြေကို ပြသသည်။"
+"*CENO ဘရောက်ဇာ* သည် သင်အသုံးပြုနေသော CENO ဗားရှင်း အတိအကျကို ညွှန်ပြသည်။ "
+"ပြန်လည်တင်ပြမှုတွင်လည်း ထည့်သွင်းပေးပါ။"
 
 #: browser/settings.md:block 14 (unordered list)
 msgid ""
-"*Content shared by you* allows you to check the content being announced by "
-"your device."
+"*CENO Extension* shows the version of the extension that integrates Firefox "
+"with CENO. Also include in reports."
 msgstr ""
-"*သင်မျှဝေထားသောအကြောင်းအရာ* သည် သင့်စက်မှ ကြေငြာထားသော အကြောင်းအရာများကို "
-"စစ်ဆေးခွင့်ပြုသည်။"
+"*CENO အဆက်* သည် Firefox ကို CENO နှင့် ပေါင်းစည်းပေးသော အဆက်၏ ဗားရှင်းကို ပြသသည်။ "
+"အစီရင်ခံစာများတွင်လည်း ထည့်ပါ။"
+
+#: browser/settings.md:block 14 (unordered list)
+msgid ""
+"*Ouinet* shows the version of Ouinet backing CENO. Also include in reports."
+msgstr ""
+"*Ouinet* သည် CENO ကို ထောက်ခံသော Ouinet ၏ ဗားရှင်းကို ပြသသည်။ အစီရင်ခံစာများတွင်လည်း ထည့်ပါ။"
+
+#: browser/settings.md:block 14 (unordered list)
+msgid ""
+"*Ouinet protocol* is the version number of the protocol that CENO uses to "
+"talk to other Ouinet clients and injectors. Also include in reports."
+msgstr ""
+"*Ouinet ပရိုတိုကော* သည် CENO က အခြား Ouinet လက်ခံစက်များနှင့် ထိုးသွင်းဖိုင်များနှင့် ဆက်သွယ်ရန် "
+"အသုံးပြုသော ပရိုတိုကော၏ ဗားရှင်းနံပါတ် ဖြစ်သည်။ အစီရင်ခံစာများတွင်လည်း ထည့်ပါ။"
 
 #: browser/settings.md:block 15 (header)
 msgid "Purging the local cache"
