@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-19 15:53+0000\n"
-"Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
+"PO-Revision-Date: 2022-04-29 20:10+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-settings/uk/>\n"
 "Language: uk\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.12-dev\n"
+"X-Generator: Weblate 4.12.1\n"
 
 #: browser/settings.md:block 1 (header)
 msgid "CENO settings"
@@ -239,11 +239,6 @@ msgstr ""
 "*Наданий Вами вміст* дозволяє перевірити вміст, який роздає Ваш пристрій."
 
 #: browser/settings.md:block 14 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "*Ouinet client state*, if `started`, means that your Ouinet client was "
-#| "able to run successfully. Otherwise, there may be connectivity issues or "
-#| "some internal error. Also include in reports."
 msgid ""
 "*Ouinet client state*, if `started`, means that your Ouinet client was able "
 "to run successfully. Otherwise, there may be connectivity issues or some "
@@ -251,7 +246,8 @@ msgid ""
 msgstr ""
 "*Стан клієнта Ouinet* «запущений» означає, що Ваш клієнт Ouinet зміг успішно "
 "запуститися. Інакше можуть виникнути проблеми зі зʼєднанням або якась "
-"внутрішня помилка. Також включається у звіти."
+"внутрішня помилка. Будь ласка, включіть цю інформацію у звіт про вашу "
+"помилку."
 
 #: browser/settings.md:block 14 (unordered list)
 msgid ""
@@ -301,16 +297,12 @@ msgstr ""
 "для діагностики та не розголошуються."
 
 #: browser/settings.md:block 14 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "*CENO Browser* indicates the exact version of CENO that you are using. "
-#| "Please include this information in your issue reports."
 msgid ""
 "*CENO Browser* indicates the exact version of CENO that you are using. Also "
 "include in reports."
 msgstr ""
-"*Оглядач CENO* вказує точну версію CENO, якою Ви користуєтеся. Будь ласка, "
-"вказуйте цю інформацію у своїх звітах щодо несправностей."
+"*Оглядач CENO* вказує точну версію CENO, якою ви користуєтеся. Також "
+"включається у звіти."
 
 #: browser/settings.md:block 14 (unordered list)
 msgid ""

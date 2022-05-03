@@ -1,13 +1,19 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2022-04-28 01:11+0000\n"
+"Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/censorship-no/"
+"browser-bridging/sv/>\n"
 "Language: sv\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.12.1-dev\n"
 
 #: browser/bridging.md:block 1 (header)
 msgid "Helping other CENO users browse the Web"
-msgstr ""
+msgstr "Hjälper andra CENO-användare att surfa på nätet"
 
 #: browser/bridging.md:block 2 (paragraph)
 msgid ""
@@ -33,7 +39,7 @@ msgstr ""
 
 #: browser/bridging.md:block 4 (header)
 msgid "How to become a CENO bridge"
-msgstr ""
+msgstr "Hur man blir en CENO-brygga"
 
 #: browser/bridging.md:block 5 (paragraph)
 msgid ""
@@ -42,6 +48,10 @@ msgid ""
 "port forwarding configured for CENO. See the next sections for further "
 "details."
 msgstr ""
+"Den här funktionaliteten är redan inbyggd i CENO-bläddraren. Din enhet måste "
+"vara ansluten till ett Wi-Fi-nätverk som har antingen UPnP aktiverat eller "
+"tydlig vidarebefordring av port inställd för CENO. Titta på nästa sektioner "
+"för mer detaljer."
 
 #: browser/bridging.md:block 6 (paragraph)
 msgid ""

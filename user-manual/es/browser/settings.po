@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2022-03-09 10:22+0000\n"
+"PO-Revision-Date: 2022-04-21 09:14+0000\n"
 "Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/censorship-no/"
 "browser-settings/es/>\n"
@@ -248,11 +248,6 @@ msgstr ""
 "siendo anunciado por tu dispositivo."
 
 #: browser/settings.md:block 14 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "*Ouinet client state*, if `started`, means that your Ouinet client was "
-#| "able to run successfully. Otherwise, there may be connectivity issues or "
-#| "some internal error. Also include in reports."
 msgid ""
 "*Ouinet client state*, if `started`, means that your Ouinet client was able "
 "to run successfully. Otherwise, there may be connectivity issues or some "
@@ -260,8 +255,8 @@ msgid ""
 msgstr ""
 "*Estado del cliente Ouinet*, si es `started`, significa que tu cliente "
 "Ouinet pudo ejecutarse exitosamente. De otra manera, puede haber "
-"dificultades en la conectividad o algún error interno. También se incluye en "
-"informes."
+"dificultades en la conectividad o algún error interno. Por favor incluye "
+"esta información en tus informes de problemas."
 
 #: browser/settings.md:block 14 (unordered list)
 msgid ""
@@ -314,16 +309,12 @@ msgstr ""
 "También para diagnósticos, y no deberían ser divulgados."
 
 #: browser/settings.md:block 14 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "*CENO Browser* indicates the exact version of CENO that you are using. "
-#| "Please include this information in your issue reports."
 msgid ""
 "*CENO Browser* indicates the exact version of CENO that you are using. Also "
 "include in reports."
 msgstr ""
-"*Navegador CENO* indica la versión exacta de CENO que estás usando. Por "
-"favor incluye esta información en tus informes de problemas."
+"*Navegador CENO* indica la versión exacta de CENO que estás usando. También "
+"inclúyela en los informes."
 
 #: browser/settings.md:block 14 (unordered list)
 msgid ""
