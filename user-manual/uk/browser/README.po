@@ -32,11 +32,17 @@ msgstr ""
 "Підтримка] ."
 
 #: browser/README.md:block 3 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "When relevant, screen captures will be included to illustrate the text. "
+#| "Please note that these may slightly differ from what you see on your "
+#| "device, especially as CENO development progresses. This documentation is "
+#| "up to date for CENO version 1.4.0."
 msgid ""
 "When relevant, screen captures will be included to illustrate the text. "
 "Please note that these may slightly differ from what you see on your device, "
 "especially as CENO development progresses. This documentation is up to date "
-"for CENO version 1.4.0."
+"for CENO version 1.5.0."
 msgstr ""
 "Щоб проілюструвати текст Вам час від часу пропонуватимуться зображення "
 "екрана. Зверніть увагу, що вони можуть трохи відрізнятись від того, що Ви "
