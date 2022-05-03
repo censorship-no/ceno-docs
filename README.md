@@ -1,6 +1,5 @@
-# Censorship.no!
-
-![](./images/ceno-logo.png "CENO logo")
+<img src="images/logo_mono.png#gh-dark-mode-only" width=250px alt="CENO logo">
+<img src="images/logo_color.png#gh-light-mode-only" width=250px alt="CENO logo">
 
 CENO (short for [Censorship.no!][]) is a mobile Web browser using a novel approach to circumvent Internet censorship infrastructure, allowing users living in a censored zone to share retrieved content with each other, peer to peer. 
 
@@ -30,7 +29,7 @@ The *Censorship.no!* project is run by [eQualitie][] in support of Articles 18, 
 
 # Current Status
 
-CENO is currently in BETA release. It is being tested in countries that censor large parts of the Internet from their citizens. We offer it with the best intention that it is useful to you, but due to its highly innovative nature and stage of development, you may expect some issues while using it. We will be submitting the codebase to an independent audit in the near future and will update this entry when that work is completed.
+CENO is currently being tested in countries that censor large parts of the Internet from their citizens. We offer it with the best intention that it is useful to you, but due to its highly innovative nature and stage of development, you may expect some issues while using it. We will be submitting the codebase to an independent audit in the near future and will update this entry when that work is completed.
 
 We recommend that you use this tool in controlled environments and **only assume reasonable risks**. eQualitie and its associates decline any legal responsibility derived from the use of this software. See 'Operational Warnings' below for more information on what you need to be aware of in running the beta release.
 
@@ -38,13 +37,11 @@ We recommend that you use this tool in controlled environments and **only assume
   - Browse any website with normal speed when Internet access to the resource is not censored.
   - Browse any website (with slightly slower connection time) when it has been selectively censored (via DNS or IP).
   - Retrieve requested website content directly from the distributed cache and naturally browse web pages that other people have previously visited, even when the resource or any existing CENO injectors are not accessible. 
+  - Retrieve and naturally browse content inserted off-line (like website captures) under a complete national Internet disconnection, and share cached content with others on your local network (LAN).
   
-When users start the CENO browser, they automatically become part of the CENO network. This means that - when possible - these devices shall act as temporary proxies (bridges) for people who cannot access desired websites due to network censorship.
+When users start CENO Browser, they automatically become part of the CENO network. This means that - when possible - these devices shall act as temporary proxies (bridges) for people who cannot access desired websites due to network censorship.
 
 Provided that there are enough CENO bridges located outside of the censored zone, and that the country has not sealed off international communication completely, CENO users are able to connect to any website and then share its contents with other peers.
-
-## Future functionality 
-  - Retrieve and naturally browse content inserted off-line (like website captures) under a complete national Internet disconnection.
 
 # How to use CENO
 
@@ -54,17 +51,29 @@ Please refer to the [Censorship.no! User Manual](https://censorship.no/user-manu
 
 Using CENO is as easy as downloading the application on an Android device and using it to browse websites as one would with any other mainstream browser.
 
-One caveat at the moment: when accessing dynamic websites such as Twitter, Facebook or Gmail, one has to open an incognito tab in the CENO browser. This is because the non-incognito tab strips down all private data from HTTP requests to ensure they don't get leaked into the distributed cache.
+One caveat at the moment: when accessing dynamic websites such as Twitter, Facebook or Gmail, one has to open an incognito tab in CENO. This is because the non-incognito tab strips down all private data from HTTP requests to ensure they don't get leaked into the distributed cache.
 
 On the other hand, the incognito tab leaves private data (e.g. passwords) intact but the connection stays encrypted - thus only the destination server can see the details of the HTTP transaction (making caching impossible).
 
 ## As a bridge
 
-Bridges help route HTTP exchanges to and from censored zones. To become a bridge is again as easy as installing the CENO browser on an Android device and leaving it running for as long as possible. Make sure that your local wifi network supports UPnP. 
+Bridges help route HTTP exchanges to and from censored zones. 
+
+Because random IP addresses are usually not blocked, CENO relies on users outside of censored zones to act as bridges. Therefore, we ask that people willing to help the CENO project - and most importantly, people behind internet walls - help by becoming a bridge through the following methods:
+
+1) Install CENO on an Android device, start it up and let it run for as long as possible. Make sure that your local wifi network supports UPnP. 
+
+2) To run CENO on a laptop or VPS, simply run the Docker client with the following command:
+
+`sudo docker run --name ceno-client -dv ceno:/var/opt/ouinet --network host --restart unless-stopped equalitie/ceno-client`
 
 # Where to get it
 
-The CENO browser for Android is available [in Google Play](https://play.google.com/store/apps/details?id=ie.equalit.ceno "CENO app in Google Play") and [in Paskoocheh](https://paskoocheh.com/tools/124/android.html "CENO app in Paskoocheh").  The Android package (APK) is also available [in GitHub](https://github.com/censorship-no/ceno-browser/releases "CENO app in GitHub").
+CENO Browser is available [in Google Play](https://play.google.com/store/apps/details?id=ie.equalit.ceno "CENO app in Google Play"), [in Paskoocheh](https://paskoocheh.com/tools/124/android.html "CENO app in Paskoocheh"), and [in Zanga.tech](https://zanga.tech/tools/166/android.html "CENO app in Zanga.tech").  
+
+The Android package (APK) is also available [in GitHub](https://github.com/censorship-no/ceno-browser/releases "CENO app in GitHub") and [via the CENO website](https://censorship.no/download).
+
+# Source Code 
 
 CENO is completely Free/Libre/Open Source Software.  If you are interested in its source code please check the following Git repositories:
 
@@ -127,11 +136,7 @@ As you can see, your application will only be sharing *content that you have pre
 
 Content does not stay on your device forever.  After your application has stored more than 10 gigabytes (this is not configurable for the moment), content which has not been accessed for the longest time (either by you or other users via your application) is removed to make space for new content.
 
-If you want to remove all stored pages, you can use the standard procedures to delete the application's data in Android.  Be warned that currently *this will also remove other information* like bookmarks and browsing history, from CENO.  We may later on add a way to remove stored pages without having to delete all application data.
-
-# Help by becoming a bridge!
-
-As mentioned above, because random IP addresses are usually not blocked, CENO relies on users outside of censored zones to act as bridges. Therefore, we ask that people willing to help the CENO project - and most importantly, people behind internet walls - install CENO on an Android device, start it up and let it run for as long as possible.
+If you want to remove all stored pages, you can use the 'Purge Now' button located in the CENO Settings page, or alternatively use the Panic Vutton option via your phone's notifications menu (TODO: Add Screenshots)
 
 # Threat model
 
@@ -148,7 +153,7 @@ We call the former process "acting as a bridge" and the latter "acting as a seed
 
 # Feedback
 
-As mentioned, we're currently in a testing phase and are happy to receive positive and negative feedback as well as questions at <cenoers@equalit.ie>.
+As mentioned, we are happy to receive positive and negative feedback as well as questions at <cenoers@equalit.ie>.
 
 # Screenshots
 
@@ -156,7 +161,7 @@ Can be found in the [images/screenshots folder](images/screenshots)
 
 # About eQualitie
 
-![](./images/equalitie-logo.png "eQualitie logo")
+<img src="images/equalitie-logo.png" width="200px" alt="eQualitie logo" href="https://equalit.ie">
 
 [eQualitie][] develops open and reusable systems with a focus on privacy, online security, and information management.  Our goal is to create accessible technology and improve the skill set needed for defending human rights and freedoms in the digital age.
 
