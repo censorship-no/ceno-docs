@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-10 11:02+0200\n"
-"PO-Revision-Date: 2022-05-05 10:14+0000\n"
-"Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
+"PO-Revision-Date: 2022-05-14 22:16+0000\n"
+"Last-Translator: m <mitjeglavanakov@protonmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-troubleshooting/ru/>\n"
 "Language: ru\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.12.1\n"
+"X-Generator: Weblate 4.13-dev\n"
 
 #
 #: browser/troubleshooting.md:block 1 (header)
@@ -375,7 +375,7 @@ msgstr ""
 
 #: browser/troubleshooting.md:block 33 (header)
 msgid "A note on HTTP-only sites"
-msgstr "Примечание для поддерживающих только HTTP сайтов"
+msgstr "Примечание для сайтов, поддерживающих только HTTP"
 
 #: browser/troubleshooting.md:block 34 (paragraph)
 msgid ""
@@ -388,10 +388,10 @@ msgid ""
 msgstr ""
 "CENO автоматически переключается на более безопасный протокол HTTPS для "
 "доступа к сайтам, которые иначе были бы доступны по обычному незащищённому "
-"HTTP. Это происходит с помощью встроенного расширения [HTTPS by default]["
-"HTTPS by default], в случаях когда в адресную строку введён домен без "
-"указания протокола, например `example.com`, или HTTP URL, например "
-"`http://example.com/…`, или при переходе по ссылке с таким URL."
+"HTTP. Это происходит с помощью встроенного расширения [HTTPS by default], в "
+"случаях когда в адресную строку введён домен без указания протокола, "
+"например `example.com`, или HTTP URL, например `http://example.com/…`, или "
+"при переходе по ссылке с таким URL."
 
 #: browser/troubleshooting.md:block 35 (paragraph)
 msgid ""
@@ -509,9 +509,9 @@ msgid ""
 "Please note that CENO version 1.3.0 and newer avoid that hijacking of newly "
 "visited sites by always using HTTPS, as explained in the previous section."
 msgstr ""
-"Обратите внимание что CENO версий 1.3.0 и далее избегают подобного перехвата "
-"впервые посещаемых сайтов благодаря исключительному использованию HTTPS, как "
-"мы описали ранее."
+"Обратите внимание что начиная с версии 1.3.0 CENO избегает подобного "
+"перехвата впервые посещаемых сайтов благодаря исключительному использованию "
+"HTTPS, как мы описали ранее."
 
 #: browser/troubleshooting.md:block 45 (header)
 msgid "Others cannot retrieve content seeded by my device"
