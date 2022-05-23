@@ -40,8 +40,6 @@ Disabling all of the mechanisms available for either public or private browsing 
 
 ![Figure: Invalid settings for private browsing](images/settings-no-private.png)
 
-> **Warning:** Please note that CENO does not remember these settings upon restarting the app.  If you require some of the previous mechanisms to be off while using CENO, please remember to open the Settings page whenever you start the app and uncheck their boxes before browsing.  We apologize for the inconvenience.
-
 ## About your app
 
 This page also provides you with some information about your CENO Browser app and Ouinet client:
