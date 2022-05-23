@@ -3,21 +3,22 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-06 23:50+0200\n"
-"PO-Revision-Date: 2021-03-06 22:50+0000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-05-23 12:17+0000\n"
+"Last-Translator: AD_Ahmed DeviL <vodaaahmed@gmail.com>\n"
+"Language-Team: Arabic <https://hosted.weblate.org/projects/censorship-no/"
+"concepts-readme/ar/>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 4.5.1\n"
+"X-Generator: Weblate 4.13-dev\n"
 
 #
 #: concepts/README.md:block 1 (header)
 msgid "Main concepts"
-msgstr ""
+msgstr "المفاهيم الأساسية"
 
 #: concepts/README.md:block 2 (paragraph)
 msgid ""
@@ -27,6 +28,10 @@ msgid ""
 "cryptography. These techniques are cleverly combined by Ouinet so as to make "
 "the experience of using CENO as close as possible to normal Web browsing."
 msgstr ""
+"لتحقيق هدفها المتمثل في التحايل على عدة أنواع من تداخل الشبكة ونقصها ، "
+"تستخدم CENO تقنيات متنوعة من مجالات شبكة الويب العالمية وأنظمة مشاركة "
+"الملفات والتشفير المتقدم. يتم الجمع بين هذه التقنيات بذكاء بواسطة Ouinet "
+"لجعل تجربة استخدام CENO أقرب ما يمكن إلى تصفح الويب العادي."
 
 #: concepts/README.md:block 3 (paragraph)
 msgid ""
