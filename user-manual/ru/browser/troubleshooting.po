@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-10 11:02+0200\n"
-"PO-Revision-Date: 2022-05-02 11:12+0000\n"
-"Last-Translator: m <mitjeglavanakov@protonmail.com>\n"
+"PO-Revision-Date: 2022-05-23 12:17+0000\n"
+"Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-troubleshooting/ru/>\n"
 "Language: ru\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.12.1\n"
+"X-Generator: Weblate 4.13-dev\n"
 
 #
 #: browser/troubleshooting.md:block 1 (header)
@@ -375,7 +375,7 @@ msgstr ""
 
 #: browser/troubleshooting.md:block 33 (header)
 msgid "A note on HTTP-only sites"
-msgstr ""
+msgstr "Примечание для сайтов, поддерживающих только HTTP"
 
 #: browser/troubleshooting.md:block 34 (paragraph)
 msgid ""
@@ -386,6 +386,12 @@ msgid ""
 "example.com/…` in the location bar, or when you follow a link with such a "
 "URL in a page."
 msgstr ""
+"CENO автоматически переключается на более безопасный протокол HTTPS для "
+"доступа к сайтам, которые иначе были бы доступны по обычному незащищённому "
+"HTTP. Это происходит с помощью встроенного расширения [HTTPS by default], в "
+"случаях когда в адресную строку введён домен без указания протокола, "
+"например `example.com`, или HTTP URL, например `http://example.com/…`, или "
+"при переходе по ссылке с таким URL."
 
 #: browser/troubleshooting.md:block 35 (paragraph)
 msgid ""
@@ -395,6 +401,11 @@ msgid ""
 "trivial to detect with HTTPS, so CENO can work around it instead of being "
 "tricked into loading the bogus content."
 msgstr ""
+"Автоматическое переключение на HTTPS выполняется чтобы предотвратить "
+"перехват HTTP соединения и перенаправление его на подставной сервер, что "
+"приводит к получению заменённого контента (напрмер сообщения о блокировке). "
+"Такой перехват легко отследить используя HTTPS, так что CENO может обходить "
+"его, вместо того чтобы загружать заменённый контент."
 
 #: browser/troubleshooting.md:block 36 (paragraph)
 msgid ""
@@ -403,18 +414,26 @@ msgid ""
 "case for a site which just failed to load in CENO, you can edit its URL in "
 "the location bar, change `https://` to `http://`, and try again."
 msgstr ""
+"Хотя это крайне необычно, некоторые сайты не поддерживают HTTPS, и для них "
+"не будут работать механизмы доступа. Если вы совершенно уверены, что CENO не "
+"смог загрузить данный сайт именно по этой причине, вы можете исправить URL в "
+"адресной строке. Замените `https://` на `http://`и попробуйте снова."
 
 #: browser/troubleshooting.md:block 37 (paragraph)
 msgid ""
 "If you want to always access a particular site over plain HTTP, you can add "
 "a permanent exception like this:"
 msgstr ""
+"Если вы хотите всегда обращаться к определённому сайту по обычному HTTPS, "
+"следующим образом вы можете добавить постоянное исключение:"
 
 #: browser/troubleshooting.md:block 38 (ordered list)
 msgid ""
 "In the app's main menu, choose *HTTPS by default*. You will see that "
 "extension's settings page."
 msgstr ""
+"В главном меню приложения, выберите *HTTPS by default*. Вы увидите страницу "
+"настроек разрешения."
 
 #: browser/troubleshooting.md:block 38 (ordered list)
 msgid ""
@@ -423,16 +442,22 @@ msgid ""
 "Please note that entering `example.com` will also include all sites under "
 "that domain, like `www.example.com` or `x.y.example.com`."
 msgstr ""
+"Введите доменное имя сайта в поле ввода, как показано ниже. Вы можете ввести "
+"несколько сайтов, разделяя их пробелами или переводами на новую строку. "
+"Обратите внимание, что введя `example.com` вы также включите все сайты на "
+"этом домене, такие как`www.example.com` или `x.y.example.com`."
 
 #: browser/troubleshooting.md:block 38 (ordered list)
 msgid "When done, go back or close the tab."
-msgstr ""
+msgstr "Когда закончите, вернитесь назад или закройте вкладку."
 
 #: browser/troubleshooting.md:block 39 (paragraph)
 msgid ""
 "![Figure: Adding exceptions for HTTP-only sites](images/httpsbd-exceptions."
 "png)"
 msgstr ""
+"![Пример: Добавление исключений для использующих только HTTP сайтов](images/"
+"httpsbd-exceptions.png)"
 
 #: browser/troubleshooting.md:block 40 (paragraph)
 msgid ""
@@ -443,6 +468,12 @@ msgid ""
 "for subsequent runs. We encourage you to contact the site administrators and "
 "tell them to enable HTTPS support."
 msgstr ""
+"**Важно!:** В том печальном случае, когда сайт доступен только по HTTP и при "
+"этом перехватывается цензором, вам нужно будет перейти на [Settings "
+"page](settings.md), выключить Доступ напрямую с сайта и попробовать снова. "
+"Обратите внимание что эта настройка действует на все сайты и не сохраняется "
+"при последующих запусках CENO. Мы рекомендуем вам связаться с "
+"администраторами сайта и убедить их включить поддержку HTTPS."
 
 #: browser/troubleshooting.md:block 41 (header)
 msgid "A page shows bogus content (like a block message)"
@@ -457,6 +488,11 @@ msgid ""
 "illegitimate server. CENO then remembered that redirection, and now it "
 "automatically opens the latter site when trying to visit the former."
 msgstr ""
+"Это может происходить если ранее вы использовали более старую версию CENO "
+"для доступа к заблокированному сайту, а кто-то перехватил соединение и "
+"направил его на подставной сервер. Тогда CENO запомнил это перенаправление и "
+"теперь автоматически открывает подставной сайт при попытке посетить "
+"оригинальный."
 
 #: browser/troubleshooting.md:block 43 (paragraph)
 msgid ""
@@ -464,26 +500,24 @@ msgid ""
 "choosing *Settings* in the app's main menu, then *Clear private data*, and "
 "disabling all boxes but *Cache* before tapping on *Clear data*."
 msgstr ""
+"Это можно исправить очистив обычный кэш CENO, открыв *Параметры* в главном "
+"меню приложения, выбрав *Удалить мои данные* и сняв все галочки кроме *Кэш* "
+"перед выбором *Удалить данные*."
 
 #: browser/troubleshooting.md:block 44 (paragraph)
 msgid ""
 "Please note that CENO version 1.3.0 and newer avoid that hijacking of newly "
 "visited sites by always using HTTPS, as explained in the previous section."
 msgstr ""
+"Обратите внимание что начиная с версии 1.3.0 CENO избегает подобного "
+"перехвата впервые посещаемых сайтов благодаря исключительному использованию "
+"HTTPS, как мы описали ранее."
 
 #: browser/troubleshooting.md:block 45 (header)
 msgid "Others cannot retrieve content seeded by my device"
 msgstr "Пользователи не могут получить контент, раздаваемый моим устройством"
 
 #: browser/troubleshooting.md:block 46 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "First, make sure that your device is still seeding the content by going "
-#| "to the [*CENO Settings* page](settings.md), only leaving the *Shared by "
-#| "other CENO users* source box checked, then accessing that content again: "
-#| "it should load (at least partially), and pushing the CENO address bar "
-#| "icon should only show non-zero values under *Shared by other CENO users* "
-#| "or *Shared by you*."
 msgid ""
 "First, make sure that your device is still seeding the content by going to "
 "the [*CENO Settings* page](settings.md), only leaving the *Shared by other "
@@ -491,13 +525,13 @@ msgid ""
 "load (at least partially), and tapping the CENO address bar icon should only "
 "show non-zero values under *Shared by other CENO users* or *Shared by you*."
 msgstr ""
-"Во-первых, убедитесь, что ваше устройство все еще раздает контент. Перейдите "
-"на страницу [*Настройки CENO*](settings.md), оставьте отмеченным только "
-"флажок *Предоставлено другими пользователями CENO*, а затем снова "
-"попытайтесь загрузить контент: он должен загрузиться (по крайней мере, "
-"частично), а нажатие на значок адресной строки CENO должно показать "
-"ненулевые значения только в разделах *Предоставлено другими пользователями "
-"CENO* или *Предоставлено вами*."
+"Во-первых, убедитесь что ваше устройство все еще раздает контент. Для этого "
+"перейдите на страницу [*Настройки CENO*](settings.md), оставьте отмеченным "
+"только флажок *Предоставлено другими пользователями CENO*, а затем снова "
+"попытайтесь загрузить контент: он должен загрузиться (хотя бы частично), а "
+"нажатие на ярлык CENO рядом с адресной строкой должно показать ненулевые "
+"значения только в разделах *Предоставлено другими пользователями CENO* или *"
+"Предоставлено вами*."
 
 #: browser/troubleshooting.md:block 47 (paragraph)
 msgid ""
