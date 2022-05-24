@@ -26,7 +26,7 @@ Since running such service uses network and processor resources, you may want to
 
 The *CENO Browser service* notification shown above includes a few accompanying actions which can be triggered by tapping on them.  The *Home* action will just open CENO with a new public browsing tab showing its home page.  The *Erase* action demands more explanation.
 
-> **Note:** If the actions below the notification are not visible, drag the notification from its center towards the bottom to unfold it.
+> **Note:** If the actions below the notification are not visible, drag the notification from its center towards the bottom to unfold it.  If you can only see the *Home* action, your device may be too old to support the *Erase* action.
 
 Shall you ever need to quickly stop CENO and clear absolutely all data related to it (not only cached content, but also settings like favorites, passwords and all browsing history), you can tap on *Erase*.  To avoid losing your data accidentally, this will not remove anything yet, but just show an additional action for a brief moment, as pictured below:
 
