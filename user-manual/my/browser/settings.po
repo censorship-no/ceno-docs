@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2022-04-29 20:10+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
+"PO-Revision-Date: 2022-06-01 23:16+0000\n"
+"Last-Translator: Mya Myintzu Hlaing <myamyintzu10@gmail.com>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "browser-settings/my/>\n"
 "Language: my\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.12.1\n"
+"X-Generator: Weblate 4.13-dev\n"
 
 #
 #: browser/settings.md:block 1 (header)
@@ -33,13 +33,16 @@ msgstr ""
 "ပြဿနာများကို အစီရင်ခံရန် အသုံးဝင်နိုင်သည်။"
 
 #: browser/settings.md:block 3 (quote)
+#, fuzzy
 msgid ""
 "**Technical note:** These options are provided by the *CENO Extension*, a "
 "Firefox extension which comes installed out of the box with CENO and takes "
 "care of proper integration with Ouinet, like enabling content injection and "
 "cache retrieval under public browsing, hinting the user about the source of "
 "the content being visualized, and notifying about new versions of Ouinet."
-msgstr "**နည်းပညာဆိုင်ရာ မှတ်ချက် -** ဤရွေးချယ်စရာများကို *CENO အဆက်* က ပံ့ပိုးသည်။ ၎င်းသည်"
+msgstr ""
+"**နည်းပညာဆိုင်ရာ မှတ်ချက် -** ဤရွေးချယ်စရာများကို *CENO အဆက်* က ပံ့ပိုးသည်။ "
+"၎င်းသည်"
 
 #: browser/settings.md:block 4 (paragraph)
 msgid ""
@@ -168,9 +171,10 @@ msgid ""
 "*Shared by other CENO users* allows CENO to try to retrieve content from the "
 "**distributed cache**, i.e. from other CENO and Ouinet clients seeding it."
 msgstr ""
-"*အခြား CENO သုံးစွဲသူများက မျှဝေထားသည်* သည် CENO အား အကြောင်းအရာကို **ဖြန့်ချိထားသော ယာယီ "
-"သိမ်းဆည်းထားသည့် မှတ်ဉာဏ်** မှ ပြန်ထုတ်ရန် ကြိုးစားခွင့်ပြုသည်။ ဆိုလိုသည်မှာ ၎င်းကို တင်ပို့သော အခြား CENO နှင့် "
-"Ouinet လက်ခံစက်များထံမှ ဖြစ်သည်။"
+"*အခြား CENO သုံးစွဲသူများက မျှဝေထားသည်* သည် CENO အား အကြောင်းအရာကို "
+"**ဖြန့်ချိထားသော ယာယီ သိမ်းဆည်းထားသည့် မှတ်ဉာဏ်** မှ ပြန်ထုတ်ရန် "
+"ကြိုးစားခွင့်ပြုသည်။ ဆိုလိုသည်မှာ ၎င်းကို တင်ပို့သော အခြား CENO နှင့် Ouinet "
+"လက်ခံစက်များထံမှ ဖြစ်သည်။"
 
 #: browser/settings.md:block 9 (paragraph)
 msgid ""
