@@ -1,13 +1,19 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2022-06-01 23:16+0000\n"
+"Last-Translator: Reza Almanda <rezaalmanda27@gmail.com>\n"
+"Language-Team: Indonesian <https://hosted.weblate.org/projects/censorship-no/"
+"browser-public-private/id/>\n"
 "Language: id\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.13-dev\n"
 
 #: browser/public-private.md:block 1 (header)
 msgid "Using public or private browsing"
-msgstr ""
+msgstr "Menggunakan penjelajahan publik atau pribadi"
 
 #: browser/public-private.md:block 2 (paragraph)
 msgid ""
