@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-05-03 21:22+0000\n"
-"Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
+"PO-Revision-Date: 2022-06-02 13:17+0000\n"
+"Last-Translator: Vitalii Moroz <vitaliy.moroz@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-readme/uk/>\n"
 "Language: uk\n"
@@ -10,11 +10,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.12.1\n"
+"X-Generator: Weblate 4.13-dev\n"
 
 #: browser/README.md:block 1 (header)
 msgid "Using CENO Browser"
-msgstr "Використання оглядача CENO"
+msgstr "Використання браузера CENO"
 
 #: browser/README.md:block 2 (paragraph)
 msgid ""
@@ -24,7 +24,7 @@ msgid ""
 "questions on generic browsing topics you should refer to Mozilla's [Firefox "
 "for Android Support][Firefox for Android Support] pages."
 msgstr ""
-"У цьому розділі наведено деякі поради щодо використання оглядача CENO та "
+"У цьому розділі наведено деякі поради щодо використання браузера CENO та "
 "його можливостей, повʼязаних з Ouinet. Будь ласка, завжди памʼятайте, що "
 "CENO створений на [Firefox для Android][Firefox для Android], тому з усіх "
 "питань, що стосуються загальних тем перегляду веб-сторінок, слід керуватися "
