@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-03-06 18:20+0000\n"
-"Last-Translator: Andrij Mizyk <andmizyk@gmail.com>\n"
+"PO-Revision-Date: 2022-06-02 13:17+0000\n"
+"Last-Translator: Vitalii Moroz <vitaliy.moroz@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "public-private/uk/>\n"
 "Language: uk\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.12-dev\n"
+"X-Generator: Weblate 4.13-dev\n"
 
 #: concepts/public-private.md:block 1 (header)
 msgid "Public vs. private browsing"
@@ -29,7 +29,7 @@ msgstr ""
 "Завдяки багатьом підходам у подоланні проблем із доступом до Інтернету, CENO "
 "може стати для Вас зручним способом отримання різноманітного мережевого "
 "вмісту. Як Ви вже могли ознайомитися у попередніх розділах, щоразу, коли Ви "
-"отримуєте і передаєте сторінку за допомогою оглядача CENO, ця сторінка стає "
+"отримуєте і передаєте сторінку за допомогою браузера CENO, ця сторінка стає "
 "доступною для інших. Разом із тим, завжди є вміст, яким Ви б не хотіли "
 "ділитися з іншими (або не хотіли, аби хтось знав, що Ви намагаєтеся отримати "
 "до нього доступ), і CENO може допомогти Вам в цьому випадку."
@@ -113,14 +113,14 @@ msgstr ""
 msgid ""
 "Some browsing activity may be leaked to other users (see [risks](risks.md))."
 msgstr ""
-"Деякі Ваші дії в оглядачі можуть стати відомими іншим користувачам (дивіться "
+"Деякі Ваші дії в браузері можуть стати відомими іншим користувачам (дивіться "
 "[ризики](risks.md))."
 
 #: concepts/public-private.md:block 8 (ordered list)
 msgid ""
 "Some browsing activity may be leaked to injectors (see [risks](risks.md))."
 msgstr ""
-"Деякі Ваші дії в оглядачі можуть стати відомими інʼєкторам (дивіться "
+"Деякі Ваші дії в браузері можуть стати відомими інʼєкторам (дивіться "
 "[ризики](risks.md))."
 
 #: concepts/public-private.md:block 8 (ordered list)
@@ -157,7 +157,7 @@ msgstr ""
 
 #: concepts/public-private.md:block 10 (ordered list)
 msgid "Browsing activity is not leaked to other users."
-msgstr "Ваші дії в оглядачі не доступні іншим користувачам."
+msgstr "Ваші дії в браузері не доступні іншим користувачам."
 
 #: concepts/public-private.md:block 10 (ordered list)
 msgid ""
