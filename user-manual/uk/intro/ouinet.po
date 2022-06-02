@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-06-02 13:19+0000\n"
+"PO-Revision-Date: 2022-06-02 13:21+0000\n"
 "Last-Translator: Vitalii Moroz <vitaliy.moroz@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "ouinet/uk/>\n"
@@ -62,14 +62,14 @@ msgid ""
 msgstr ""
 "На мобільних пристроях Ouinet може бути вбудований у додатки (як бібліотека "
 "Android). На компʼютерах він може використовуватися звичайними веб-"
-"клієнтами, зокрема оглядачами (як локальний HTTP-проксі)."
+"клієнтами, зокрема браузерами (як локальний HTTP-проксі)."
 
 #: intro/ouinet.md:block 5 (paragraph)
 msgid ""
 "Same as CENO Browser, Ouinet is developed by [eQualitie][eQualitie] as Free/"
 "Libre/Open-Source software."
 msgstr ""
-"Як і оглядач CENO, Ouinet розроблений компанією [eQualitie][eQualitie] як "
+"Як і браузер CENO, Ouinet розроблений компанією [eQualitie][eQualitie] як "
 "вільне та безкоштовне програмне забезпечення з відкритим вихідним кодом."
 
 #: intro/ouinet.md:block 6 (header)
