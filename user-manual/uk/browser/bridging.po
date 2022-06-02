@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-06-01 23:16+0000\n"
+"PO-Revision-Date: 2022-06-02 13:34+0000\n"
 "Last-Translator: Vitalii Moroz <vitaliy.moroz@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-bridging/uk/>\n"
@@ -220,7 +220,7 @@ msgid ""
 "client) reachable to the CENO network. The [CENO Settings](settings.md) page "
 "will indicate the UPnP status on your local network."
 msgstr ""
-"[UPnP][UPnP] – це найпростіший спосіб зробити Ваш оглядач CENO (або клієнт "
+"[UPnP][UPnP] – це найпростіший спосіб зробити Ваш браузер CENO (або клієнт "
 "для компʼютера) доступним для мережі CENO. На сторінці [налаштування "
 "CENO](settings.md) буде зазначено стан UPnP у Вашій локальній мережі."
 
