@@ -3,20 +3,21 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2021-03-05 19:50+0000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-06-14 23:16+0000\n"
+"Last-Translator: Melanie F <zelys1@gmail.com>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/censorship-no/"
+"browser-public-private/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.5.1-dev\n"
+"X-Generator: Weblate 4.13-dev\n"
 
 #
 #: browser/public-private.md:block 1 (header)
 msgid "Using public or private browsing"
-msgstr ""
+msgstr "Utilisation de la navigation publique ou privée"
 
 #: browser/public-private.md:block 2 (paragraph)
 msgid ""
@@ -25,6 +26,10 @@ msgid ""
 "the content that you browse with others (public browsing) or not (private "
 "browsing)."
 msgstr ""
+"Comme décrit [dans une précédente section](../concepts/public-private.md), "
+"CENO a deux modes de fonctionnement différents selon que vous souhaitez "
+"partager le contenu de navigation avec d'autres personnes (navigation "
+"publique) ou non (navigation privée)."
 
 #: browser/public-private.md:block 3 (paragraph)
 msgid ""
@@ -34,24 +39,33 @@ msgid ""
 "menu) is to use public browsing. To open a new tab in private browsing mode, "
 "just choose *New private tab* in the main menu."
 msgstr ""
+"Ce paramètre s'applique *à chaque onglet* ouvert dans le navigateur, sachant "
+"que vous pouvez avoir des onglets de navigation publics ou privés. Par "
+"défaut, lorsque vous démarrez CENO ou que vous ouvrez un nouvel onglet (en "
+"utilisant *Nouvel onglet* dans le menu principal de l'application), c'est la "
+"navigation publique qui est utilisée. Pour ouvrir un nouvel onglet en mode "
+"de navigation privée, il suffit de choisir *Nouvel onglet privé* dans le "
+"menu principal."
 
 #: browser/public-private.md:block 4 (paragraph)
 msgid ""
 "You can tell public tabs from private ones because public tabs have a "
 "lighter (or white) tool bar:"
 msgstr ""
+"Vous pouvez distinguer les onglets publics des onglets privés, car les "
+"onglets publics ont une barre d'outils plus claire (ou blanche) :"
 
 #: browser/public-private.md:block 5 (paragraph)
 msgid "![Figure: A public browsing tab](images/public-tab.png)"
-msgstr ""
+msgstr "![Figure : Un onglet de navigation publique](images/public-tab.png)"
 
 #: browser/public-private.md:block 6 (paragraph)
 msgid "In contrast, private tabs have a darker tool bar:"
-msgstr ""
+msgstr "À l'inverse, les onglets privés ont une barre d'outils plus sombre :"
 
 #: browser/public-private.md:block 7 (paragraph)
 msgid "![Figure: A private browsing tab](images/private-tab.png)"
-msgstr ""
+msgstr "![Figure : Un onglet de navigation privée](images/private-tab.png)"
 
 #: browser/public-private.md:block 8 (paragraph)
 msgid ""
@@ -59,3 +73,7 @@ msgid ""
 "bar will help you know how it actually retrieved the different elements of "
 "the content. We will cover this icon later on."
 msgstr ""
+"Une fois la page chargée dans un onglet, l'icône colorée de CENO dans la "
+"barre d'adresse vous permettra de savoir comment elle a effectivement "
+"récupéré les différents éléments du contenu. Nous reviendrons sur cette "
+"icône plus tard."
