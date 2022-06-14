@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-03-12 20:56+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
+"PO-Revision-Date: 2022-06-14 23:16+0000\n"
+"Last-Translator: Melanie F <zelys1@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/censorship-no/"
 "ceno/fr/>\n"
 "Language: fr\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.12-dev\n"
+"X-Generator: Weblate 4.13-dev\n"
 
 #
 #: intro/ceno.md:block 1 (header)
@@ -106,7 +106,7 @@ msgstr ""
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[Censorship.no!]: https://censorship.no/"
-msgstr ""
+msgstr "[Censorship.no !] : https://censorship.no/"
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[P2P]: https://en.wikipedia.org/wiki/Peer-to-peer"
@@ -118,11 +118,11 @@ msgstr ""
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[Firefox for Android]: https://www.mozilla.org/firefox/android/"
-msgstr ""
+msgstr "[Firefox pour Android] : https://www.mozilla.org/firefox/android/"
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[eQualitie]: https://equalit.ie/"
-msgstr ""
+msgstr "[eQualitie] : https://equalit.ie/"
 
 #: intro/ceno.md:block 11 (quote)
 msgid ""
