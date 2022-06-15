@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-03 02:50+0200\n"
-"PO-Revision-Date: 2022-06-14 23:16+0000\n"
+"PO-Revision-Date: 2022-06-15 11:29+0000\n"
 "Last-Translator: Melanie F <zelys1@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/censorship-no/"
 "ouinet/fr/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 #
 #: intro/ouinet.md:block 1 (header)
 msgid "What is Ouinet?"
-msgstr ""
+msgstr "Qu'est-ce que Ouinet ?"
 
 #: intro/ouinet.md:block 2 (paragraph)
 msgid ""
