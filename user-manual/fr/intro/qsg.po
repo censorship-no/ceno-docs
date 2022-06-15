@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-07-19 10:16+0000\n"
-"Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
+"PO-Revision-Date: 2022-06-15 11:29+0000\n"
+"Last-Translator: Melanie F <zelys1@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/censorship-no/qsg/"
 "fr/>\n"
 "Language: fr\n"
@@ -9,11 +9,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.7.2-dev\n"
+"X-Generator: Weblate 4.13-dev\n"
 
 #: intro/qsg.md:block 1 (header)
 msgid "Quick start guide"
-msgstr ""
+msgstr "Guide de démarrage rapide"
 
 #: intro/qsg.md:block 2 (paragraph)
 msgid ""
@@ -22,24 +22,31 @@ msgid ""
 "your requests, as well as to store and share retrieved content with others. "
 "[Read more about CENO](ceno.md)."
 msgstr ""
+"Le navigateur CENO vous permet d'accéder à tous les sites Internet, même "
+"ceux censurés dans votre pays. CENO utilise le système peer-to-peer pour "
+"acheminer vos requêtes, de même que pour stocker et partager du contenu avec "
+"les autres. [En savoir plus sur CENO](ceno.md)."
 
 #: intro/qsg.md:block 3 (header)
 msgid "How to get started"
-msgstr ""
+msgstr "Comment commencer"
 
 #: intro/qsg.md:block 4 (paragraph)
 msgid "You will need an Android device:"
-msgstr ""
+msgstr "Vous aurez besoin d'un appareil Android :"
 
 #: intro/qsg.md:block 5 (ordered list)
 msgid ""
 "Install CENO Browser from [Google Play][ceno-gplay], [GitHub][ceno-gh] or "
 "[Paskoocheh][ceno-pask]. *No special permissions are needed*."
 msgstr ""
+"Installez le navigateur CENO depuis [Google Play][ceno-gplay], [GitHub][ceno-"
+"gh] ou [Paskoocheh][ceno-pask]. *Ne nécessite aucune permission "
+"particulière*."
 
 #: intro/qsg.md:block 5 (ordered list)
 msgid "Run it."
-msgstr ""
+msgstr "Démarrez-le."
 
 #: intro/qsg.md:block 5 (ordered list)
 msgid ""
@@ -47,47 +54,60 @@ msgid ""
 "privacy for some page or if it is not loading as expected, use a private tab "
 "(see [public vs. private browsing](../concepts/public-private.md))."
 msgstr ""
+"Parcourez les pages normalement pour permettre aux autres utilisateurs d'y "
+"accéder. Si vous avez des craintes au sujet de la confidentialité de "
+"certaines pages ou si elles ne se chargent pas correctement, utilisez un "
+"onglet privé (cf. [navigation publique/privée](../concepts/public-private."
+"md))."
 
 #: intro/qsg.md:block 5 (ordered list)
 msgid "Tap on the CENO notification to stop it completely."
-msgstr ""
+msgstr "Cliquez sur la notification CENO pour l'arrêter complètement."
 
 #: intro/qsg.md:block 6 (paragraph)
 msgid "Detailed installation instructions are [here](../browser/install.md)."
 msgstr ""
+"Les instructions détaillées de l'installation se trouvent [ici](../browser/"
+"install.md)."
 
 #: intro/qsg.md:block 7 (header)
 msgid "Configuration"
-msgstr ""
+msgstr "Configuration"
 
 #: intro/qsg.md:block 8 (paragraph)
 msgid ""
 "CENO Browser should work out-of-the-box. You can find some [diagnostics and "
 "settings](../browser/settings.md) under the *CENO* menu entry."
 msgstr ""
+"Le navigateur CENO devrait directement fonctionner. Vous trouverez des ["
+"paramètres et diagnostics](../browser/settings.md) dans le menu *CENO*."
 
 #: intro/qsg.md:block 9 (paragraph)
 msgid ""
 "If you want to make sure that your app is also helping others access blocked "
 "content, please [read this section](../browser/bridging.md)."
 msgstr ""
+"Si vous souhaitez vous assurer que votre application aide également d'autres "
+"utilisateurs à accéder à des contenus bloqués, veuillez [lire cette section] "
+"(../browser/bridging.md)."
 
 #: intro/qsg.md:block 10 (header)
 msgid "More questions?"
-msgstr ""
+msgstr "D'autres questions ?"
 
 #: intro/qsg.md:block 11 (unordered list)
 msgid "Please see the [FAQ](faq.md)."
-msgstr ""
+msgstr "Veuillez consulter la [Foire aux questions](faq.md)."
 
 #: intro/qsg.md:block 11 (unordered list)
 msgid "Refer to the [troubleshooting guide](../browser/troubleshooting.md)."
-msgstr ""
+msgstr "Consultez le [guide de dépannage](../browser/troubleshooting.md)."
 
 #: intro/qsg.md:block 11 (unordered list)
 msgid ""
 "Contact us by writing to [cenoers@equalit.ie](mailto:cenoers@equalit.ie)."
 msgstr ""
+"Contactez-nous en écrivant à [cenoers@equalit.ie](mailto:cenoers@equalit.ie)."
 
 #: intro/qsg.md:block 11 (unordered list)
 msgid ""
@@ -101,4 +121,4 @@ msgstr "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
 
 #: intro/qsg.md:block 11 (unordered list)
 msgid "[ceno-pask]: https://paskoocheh.com/tools/124/android.html"
-msgstr ""
+msgstr "[ceno-pask] : https://paskoocheh.com/tools/124/android.html"
