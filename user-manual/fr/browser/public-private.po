@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2022-06-14 23:16+0000\n"
+"PO-Revision-Date: 2022-06-15 11:30+0000\n"
 "Last-Translator: Melanie F <zelys1@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/censorship-no/"
 "browser-public-private/fr/>\n"
@@ -57,7 +57,7 @@ msgstr ""
 
 #: browser/public-private.md:block 5 (paragraph)
 msgid "![Figure: A public browsing tab](images/public-tab.png)"
-msgstr "![Figure : Un onglet de navigation publique](images/public-tab.png)"
+msgstr "![Visuel : Un onglet de navigation publique](images/public-tab.png)"
 
 #: browser/public-private.md:block 6 (paragraph)
 msgid "In contrast, private tabs have a darker tool bar:"
@@ -65,7 +65,7 @@ msgstr "À l'inverse, les onglets privés ont une barre d'outils plus sombre :"
 
 #: browser/public-private.md:block 7 (paragraph)
 msgid "![Figure: A private browsing tab](images/private-tab.png)"
-msgstr "![Figure : Un onglet de navigation privée](images/private-tab.png)"
+msgstr "![Visuel : Un onglet de navigation privée](images/private-tab.png)"
 
 #: browser/public-private.md:block 8 (paragraph)
 msgid ""
