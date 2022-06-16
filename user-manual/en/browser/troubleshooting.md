@@ -28,7 +28,7 @@ When you launch CENO, the state may read `starting` for a few seconds; this is n
 
 One possible reason for not being able to get into BitTorrent (more so when you run CENO for the first time), is that the default bootstrap servers used by the Ouinet client are blocked or unreachable.  In that case you may want to try providing CENO with extra BitTorrent bootstrap servers in the [Settings page](settings.md).  You can ask us if you do not know of any such server.  After setting the extra bootstraps, please restart the application.  If the problem persists, contact us.
 
-If you see some other state, there may be some internal error in the Ouinet client.  Please report the issue to us.
+If you ever see some other state, there may be some internal error in the Ouinet client.  Please report the issue to us.
 
 ## Accessing some content shows "Failed to retrieve the resource"
 
