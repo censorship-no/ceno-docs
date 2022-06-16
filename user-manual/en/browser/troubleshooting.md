@@ -24,7 +24,7 @@ If you get an error like "The proxy server is refusing connections" when visitin
 
 The Ouinet client run by CENO is finding problems starting on your device.
 
-When you launch CENO, the state may read `starting` for a few seconds; this is normal.  However, if the state remains `starting` for too long, it may be a signal of serious connectivity issues that preclude the application from reaching the BitTorrent network.  Please check your network connection and try restarting CENO.  If you have a working connection but the state remains `starting`, please contact us.
+When you launch CENO, the state may read `starting` for a few seconds; this is normal.  However, if the state remains `starting` for too long, it may be a signal of serious connectivity issues that preclude the application from reaching the BitTorrent network.  Please check your network connection and try restarting CENO.  If you have a working connection but the state remains `starting`, please contact us (especially if the state was `started` in some previous run).
 
 If you see some other state, there may be some internal error in the Ouinet client.  Please report the issue to us.
 
