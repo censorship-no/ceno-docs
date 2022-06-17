@@ -1,13 +1,19 @@
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2022-06-18 12:19+0000\n"
+"Last-Translator: Melanie F <zelys1@gmail.com>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/censorship-no/"
+"client-front-end/fr/>\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Weblate\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.13.1-dev\n"
 
 #: client/front-end.md:block 1 (header)
 msgid "Annex: The Ouinet client front-end"
-msgstr ""
+msgstr "Annexe : Le front-end du client Ouinet"
 
 #: client/front-end.md:block 2 (paragraph)
 msgid ""
@@ -16,6 +22,11 @@ msgid ""
 "Many of them are also offered by the CENO Extension via the [*CENO Settings* "
 "page](../browser/settings.md), though others are only available here."
 msgstr ""
+"Le client Ouinet (tel qu'exécuté par exemple par le navigateur CENO) propose "
+"une page front-end contenant des informations et des actions qui peuvent "
+"s'avérer utiles au débogage du client. La plupart d'entre elles sont "
+"également disponibles dans l'extension de CENO, sur la page [*Paramètres de "
+"CENO*](../browser/settings.md)."
 
 #: client/front-end.md:block 3 (paragraph)
 msgid ""
