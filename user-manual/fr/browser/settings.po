@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2022-06-16 13:18+0000\n"
+"PO-Revision-Date: 2022-06-18 12:19+0000\n"
 "Last-Translator: Melanie F <zelys1@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/censorship-no/"
 "browser-settings/fr/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.13-dev\n"
+"X-Generator: Weblate 4.13.1-dev\n"
 
 #
 #: browser/settings.md:block 1 (header)
@@ -153,7 +153,7 @@ msgstr ""
 "mesure de décrypter le trafic. En utilisant le protocole HTTP simple, "
 "l'injecteur peut également voir le trafic non crypté (mais il ne peut tout "
 "de même pas signer ou partager son contenu avec les autres). Les autres "
-"participants, comme les ponts, ne verront jamais le trafic non crypté."
+"participants, comme les passerelles, ne verront jamais le trafic non crypté."
 
 #: browser/settings.md:block 8 (unordered list)
 msgid ""
@@ -171,7 +171,7 @@ msgstr ""
 msgid ""
 "Other participants (such as bridges) will not see the unencrypted traffic."
 msgstr ""
-"Les autres participants (tels que les ponts) ne verront pas le trafic non "
+"Les autres participants (comme les passerelles) ne verront pas le trafic non "
 "crypté."
 
 #: browser/settings.md:block 8 (unordered list)
