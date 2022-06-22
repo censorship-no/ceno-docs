@@ -1,33 +1,43 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2022-06-06 01:17+0000\n"
+"Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/censorship-no/"
+"browser-install/sv/>\n"
 "Language: sv\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.13-dev\n"
 
 #: browser/install.md:block 1 (header)
 msgid "Installing CENO"
-msgstr ""
+msgstr "Installerar CENO"
 
 #: browser/install.md:block 2 (paragraph)
 msgid "CENO Browser can be installed via the following means:"
-msgstr ""
+msgstr "CENO-webbläsaren kan installeras med följande medel:"
 
 #: browser/install.md:block 3 (unordered list)
 msgid ""
 "[Google Play][ceno-gplay] (*CENO Browser* from *eQualitie*): the recommended "
 "source for most Android users."
 msgstr ""
+"[Google Play][ceno-gplay] (*CENO-webbläsaren* från *eQualitie*): den "
+"rekommenderade källan för flest Android-användare."
 
 #: browser/install.md:block 3 (unordered list)
 msgid "[GitHub][ceno-gh]: for Android devices without Google Play."
-msgstr ""
+msgstr "[GitHub][ceno-gh]: för Android-enheter utan Google Play."
 
 #: browser/install.md:block 3 (unordered list)
 msgid ""
 "[Paskoocheh][ceno-pask]: for users in countries blocking access to the "
 "previous channels."
 msgstr ""
+"[Paskoocheh][ceno-pask]: för användare i länder som blockerar tillgång till "
+"de föregående kanalerna."
 
 #: browser/install.md:block 4 (paragraph)
 msgid ""
@@ -35,6 +45,10 @@ msgid ""
 "4.1 Jelly Bean, thus most mobile devices released from late 2012 onward "
 "should work. CENO needs *no special permissions* to run."
 msgstr ""
+"CENO kräver en ARM64 eller Neon-kapabel ARM32-enhet som kör minst Android "
+"4.1 Jelly Bean, så de flesta mobila enheter som släppts från slutet av 2012 "
+"och framåt bör fungera. CENO behöver *inga speciella behörigheter* för att "
+"köras."
 
 #: browser/install.md:block 5 (quote)
 msgid ""
@@ -48,7 +62,7 @@ msgstr ""
 
 #: browser/install.md:block 6 (header)
 msgid "Stopping CENO completely"
-msgstr ""
+msgstr "Stoppar CENO helt och hållet"
 
 #: browser/install.md:block 7 (paragraph)
 msgid ""
@@ -75,7 +89,7 @@ msgstr ""
 
 #: browser/install.md:block 10 (header)
 msgid "Purging all CENO data (the \"panic button\")"
-msgstr ""
+msgstr "Rensar bort all CENO-data (\"panik-knappen\")"
 
 #: browser/install.md:block 11 (paragraph)
 msgid ""
@@ -115,7 +129,7 @@ msgstr ""
 
 #: browser/install.md:block 16 (paragraph)
 msgid "If you do not tap on the action, it will go away in a few seconds."
-msgstr ""
+msgstr "Om du inte trycker på åtgärden så försvinner den på några sekunder."
 
 #: browser/install.md:block 17 (quote)
 msgid ""
