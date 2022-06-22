@@ -40,8 +40,6 @@ Disabling all of the mechanisms available for either public or private browsing 
 
 ![Figure: Invalid settings for private browsing](images/settings-no-private.png)
 
-> **Warning:** Please note that CENO does not remember these settings upon restarting the app.  If you require some of the previous mechanisms to be off while using CENO, please remember to open the Settings page whenever you start the app and uncheck their boxes before browsing.  We apologize for the inconvenience.
-
 ## About your app
 
 This page also provides you with some information about your CENO Browser app and Ouinet client:
@@ -54,6 +52,7 @@ This page also provides you with some information about your CENO Browser app an
 - *Local UDP endpoints* are the Internet addresses in your device used by CENO to seed signed content to other clients.  These are shown to help test and debug the app, and should not be generally disclosed.
 - *External UDP endpoints* are the Internet addresses in your router given to your CENO traffic.  Only available with UPnP-enabled routers, they are also is useful for diagnostics and not to be generally disclosed.
 - *Public UDP endpoints* are the Internet addresses that Ouinet clients outside of your network see when communicating with your device.  Also for diagnostics and not to be disclosed.
+- *Extra BitTorrent bootstraps* are servers used to help your device get into the BitTorrent network, should the default ones not work.  Also include in reports.  You may edit the space-separated list of hosts (with optional ports) to set or add your own, then choose *Save*.  The changes will be applied the next time that your Ouinet client is started.
 - *CENO Browser* indicates the exact version of CENO that you are using.  Also include in reports.
 - *CENO Extension* shows the version of the extension that integrates Firefox with CENO.  Also include in reports.
 - *Ouinet* shows the version of Ouinet backing CENO.  Also include in reports.
