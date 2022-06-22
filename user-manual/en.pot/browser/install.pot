@@ -85,7 +85,9 @@ msgstr ""
 #: browser/install.md:block 12 (quote)
 msgid ""
 "**Note:** If the actions below the notification are not visible, drag the "
-"notification from its center towards the bottom to unfold it."
+"notification from its center towards the bottom to unfold it. If you can "
+"only see the *Home* action, your device may be too old to support the "
+"*Erase* action."
 msgstr ""
 
 #: browser/install.md:block 13 (paragraph)
