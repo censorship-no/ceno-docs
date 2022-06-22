@@ -69,8 +69,8 @@ msgstr ""
 "приложения, потенциальные пользователи могут стать мишенью для всевозможных "
 "поддельных или манипулируемых версий, используемых для нарушения "
 "конфиденциальности пользователя или атаки на других пользователей CENO и "
-"Ouinet. Если вы сомневаетесь, пожалуйста, свяжитесь с [cenoers@equalit."
-"ie](mailto:cenoers@equalit.ie) перед установкой подозрительного приложения."
+"Ouinet. Если вы сомневаетесь, пожалуйста, свяжитесь с [cenoers@equalit.ie]"
+"(mailto:cenoers@equalit.ie) перед установкой подозрительного приложения."
 
 #: browser/install.md:block 6 (header)
 msgid "Stopping CENO completely"
@@ -130,9 +130,15 @@ msgstr ""
 "подробного объяснения."
 
 #: browser/install.md:block 12 (quote)
+#, fuzzy
+#| msgid ""
+#| "**Note:** If the actions below the notification are not visible, drag the "
+#| "notification from its center towards the bottom to unfold it."
 msgid ""
 "**Note:** If the actions below the notification are not visible, drag the "
-"notification from its center towards the bottom to unfold it."
+"notification from its center towards the bottom to unfold it. If you can "
+"only see the *Home* action, your device may be too old to support the "
+"*Erase* action."
 msgstr ""
 "**Примечание:** Если действия под уведомлением не видны, перетащите "
 "уведомление от центра к низу, чтобы развернуть его."

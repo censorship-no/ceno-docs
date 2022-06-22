@@ -124,9 +124,15 @@ msgstr ""
 "головну сторінку. Команда *Стерти* – вимагає детальнішого пояснення."
 
 #: browser/install.md:block 12 (quote)
+#, fuzzy
+#| msgid ""
+#| "**Note:** If the actions below the notification are not visible, drag the "
+#| "notification from its center towards the bottom to unfold it."
 msgid ""
 "**Note:** If the actions below the notification are not visible, drag the "
-"notification from its center towards the bottom to unfold it."
+"notification from its center towards the bottom to unfold it. If you can "
+"only see the *Home* action, your device may be too old to support the "
+"*Erase* action."
 msgstr ""
 "**Примітка:** Якщо дії під повідомленням не видно, перетягніть повідомлення "
 "від центру донизу, щоб його розгорнути."

@@ -196,25 +196,11 @@ msgid ""
 msgstr ""
 "![شکل: تنظیمات نامعتبر برای مرور خصوصی](images/settings-no-private.png)"
 
-#: browser/settings.md:block 11 (quote)
-msgid ""
-"**Warning:** Please note that CENO does not remember these settings upon "
-"restarting the app. If you require some of the previous mechanisms to be off "
-"while using CENO, please remember to open the Settings page whenever you "
-"start the app and uncheck their boxes before browsing. We apologize for the "
-"inconvenience."
-msgstr ""
-"**هشدار:** لطفاً توجه کنید که CENO این تنظیمات را پس از شروع مجدد برنامه به "
-"خاطر نمی‌آورد. اگر نیاز دارید تا برخی سازوکارهای قدیمی در حال استفاده از CENO "
-"خاموش باشند، لطفاً به یاد داشته باشید که صفحه‌ی تنظیمات را در شروع استفاده از "
-"نرم‌افزار باز کنید و پیش از مرور علامت روی جعبه‌های آن‌ها را بردارید. از شما به "
-"خاطر این دشواری پوزش می‌خواهیم."
-
-#: browser/settings.md:block 12 (header)
+#: browser/settings.md:block 11 (header)
 msgid "About your app"
 msgstr "درباره‌ی نرم‌افزار شما"
 
-#: browser/settings.md:block 13 (paragraph)
+#: browser/settings.md:block 12 (paragraph)
 msgid ""
 "This page also provides you with some information about your CENO Browser "
 "app and Ouinet client:"
@@ -222,7 +208,7 @@ msgstr ""
 "این صفحه همچنین اطلاعاتی درباره‌ی نرم‌افزار مرورگر CENO شما و سرویس‌گیرنده‌ی "
 "Ouinet برایتان فراهم می‌آورد:"
 
-#: browser/settings.md:block 14 (unordered list)
+#: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*Local cache size* shows an approximation of how much storage is taken by "
 "the content being seeded from your device's local cache."
@@ -230,7 +216,7 @@ msgstr ""
 "*سایز کش محلی* تقریبی از حجم اشغال‌شده توسط محتوایی را نشان می‌دهد که از کش "
 "محلی دستگاه‌تان بذرپاشی می‌شود."
 
-#: browser/settings.md:block 14 (unordered list)
+#: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*Content shared by you* allows you to check the content being announced by "
 "your device."
@@ -238,7 +224,7 @@ msgstr ""
 "*محتوای به اشتراک گذاشته شده از سوی شما* به شما اجازه می‌دهد تا محتوای "
 "اعلام‌شده توسط دستگاه‌تان را چک کنید."
 
-#: browser/settings.md:block 14 (unordered list)
+#: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*Ouinet client state*, if `started`, means that your Ouinet client was able "
 "to run successfully. Otherwise, there may be connectivity issues or some "
@@ -249,7 +235,7 @@ msgstr ""
 "صورت، ممکن است اشکالات مرتبط با اتصال یا برخی از خطاهای داخلی وجود داشته "
 "باشد.  لطفا این اطلاعات را در گزارش‌های خود بگنجانید."
 
-#: browser/settings.md:block 14 (unordered list)
+#: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*Reachability status* indicates how likely it is for your device to be able "
 "to effectively seed content to other clients. Also include in reports."
@@ -257,7 +243,7 @@ msgstr ""
 "*وضعیت دسترس‌پذیری* نشان می‌دهد که دستگاه‌تان تا چه حد می‌تواند در عمل محتوا را "
 "به سرویس‌گیرندگان دیگر بذرپاشی کند. این را نیز در گزارش‌ها بگنجانید."
 
-#: browser/settings.md:block 14 (unordered list)
+#: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*UPnP status* indicates whether CENO was able to tell your router or access "
 "point to allow incoming connections towards it. Also include in reports."
@@ -266,7 +252,7 @@ msgstr ""
 "ارتباط برقرار کند تا اتصالات ورودی به سویش را امکان‌پذیر سازد. این را نیز در "
 "گزارش‌ها بگنجانید."
 
-#: browser/settings.md:block 14 (unordered list)
+#: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*Local UDP endpoints* are the Internet addresses in your device used by CENO "
 "to seed signed content to other clients. These are shown to help test and "
@@ -277,7 +263,7 @@ msgstr ""
 "برای کمک به آزمایش و خطایابی از نرم‌افزار نشان داده می‌شوند، و نباید به‌طور "
 "عمومی فاش شوند."
 
-#: browser/settings.md:block 14 (unordered list)
+#: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*External UDP endpoints* are the Internet addresses in your router given to "
 "your CENO traffic. Only available with UPnP-enabled routers, they are also "
@@ -288,7 +274,7 @@ msgstr ""
 "آن‌ها همچنین برای تشخیص مشکلات و عیب‌یابی مفید هستند و به طورعمومی افشا "
 "نمی‌شوند."
 
-#: browser/settings.md:block 14 (unordered list)
+#: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*Public UDP endpoints* are the Internet addresses that Ouinet clients "
 "outside of your network see when communicating with your device. Also for "
@@ -298,15 +284,24 @@ msgstr ""
 "از شبکه شما هنگام برقراری ارتباط با دستگاه شما می بینند. همچنین برای تشخیص "
 "مشکلات و عیب‌یابی و نباید فاش شوند."
 
-#: browser/settings.md:block 14 (unordered list)
+#: browser/settings.md:block 13 (unordered list)
+msgid ""
+"*Extra BitTorrent bootstraps* are servers used to help your device get into "
+"the BitTorrent network, should the default ones not work. Also include in "
+"reports. You may edit the space-separated list of hosts (with optional "
+"ports) to set or add your own, then choose *Save*. The changes will be "
+"applied the next time that your Ouinet client is started."
+msgstr ""
+
+#: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*CENO Browser* indicates the exact version of CENO that you are using. Also "
 "include in reports."
 msgstr ""
-"**مرورگر CENO** نسخه‌ی دقیق CENO را که شما از آن استفاده می‌کنید، نشان می‌"
-"دهد. لطفاً این اطلاعات را در گزارش‌های مشکلات بگنجانید."
+"**مرورگر CENO** نسخه‌ی دقیق CENO را که شما از آن استفاده می‌کنید، نشان می‌دهد. "
+"لطفاً این اطلاعات را در گزارش‌های مشکلات بگنجانید."
 
-#: browser/settings.md:block 14 (unordered list)
+#: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*CENO Extension* shows the version of the extension that integrates Firefox "
 "with CENO. Also include in reports."
@@ -314,14 +309,14 @@ msgstr ""
 "*افزونه‌ی سنو* نسخه‌ای از افزونه را نشان می‌دهد که فایرفاکس را با سنو ادغام "
 "می‌کند. این را نیز در گزارش‌ها بگنجانید."
 
-#: browser/settings.md:block 14 (unordered list)
+#: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*Ouinet* shows the version of Ouinet backing CENO. Also include in reports."
 msgstr ""
 "*Ouinet* نسخه‌ای از Ouinet را نشان می‌دهد که از CENO پشتیبانی می‌کند. این را "
 "نیز در گزارش‌ها بگنجانید."
 
-#: browser/settings.md:block 14 (unordered list)
+#: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*Ouinet protocol* is the version number of the protocol that CENO uses to "
 "talk to other Ouinet clients and injectors. Also include in reports."
@@ -329,11 +324,11 @@ msgstr ""
 "*پروتکل Ouinet* شماره‌ی نسخه‌ی پروتکلی است که CENO به کار می‌برد تا با سایر "
 "سرویس‌گیرندگان Ouinet و injectors حرف بزند. این را نیز در گزارش‌ها بگنجانید."
 
-#: browser/settings.md:block 15 (header)
+#: browser/settings.md:block 14 (header)
 msgid "Purging the local cache"
 msgstr "پالودنِ کش محلی"
 
-#: browser/settings.md:block 16 (paragraph)
+#: browser/settings.md:block 15 (paragraph)
 msgid ""
 "Next to the *Local cache size* value above, there is a button which allows "
 "you to stop seeding and drop all content shared by your device over Ouinet. "
@@ -345,7 +340,7 @@ msgstr ""
 "را وانهید. این به شما اجازه می‌دهد تا فضایی برای ذخیره‌ی اطلاعات در دستگاه‌تان "
 "خالی کنید و در عین حال سایر تنظیمات CENO مثل صفحات دلخواه را نگه دارید."
 
-#: browser/settings.md:block 17 (paragraph)
+#: browser/settings.md:block 16 (paragraph)
 msgid ""
 "If you want to clear CENO's normal browsing cache (the one used by the "
 "browser but not shared with others) or other items like cookies, browsing "
@@ -359,7 +354,7 @@ msgstr ""
 "گزینه‌ی *پاک‌کردن داده‌های خصوصی* را انتخاب کنید. از شما پرسیده خواهد شد که "
 "کدام موارد را می‌خواهید پاک کنید."
 
-#: browser/settings.md:block 18 (paragraph)
+#: browser/settings.md:block 17 (paragraph)
 msgid ""
 "To drop everything at the same time (especially if you are in a hurry), "
 "please learn how to use the \"panic button\" feature described in "
@@ -369,11 +364,11 @@ msgstr ""
 "چگونه از گزینه‌ی «دکمه‌ی هراس» استفاده کنید، که در راهنمای [نصب سنو](install."
 "md) توصیف شده است."
 
-#: browser/settings.md:block 19 (header)
+#: browser/settings.md:block 18 (header)
 msgid "Collecting log messages"
 msgstr "جمع‌آوری پیغام‌های لاگ"
 
-#: browser/settings.md:block 20 (paragraph)
+#: browser/settings.md:block 19 (paragraph)
 msgid ""
 "At the bottom of the page there is an *Enable log file* check box that "
 "allows you to collect all of Ouinet's internal messages and download them to "
@@ -385,11 +380,11 @@ msgstr ""
 "کنید. از این فایل می‌بایست فقط هنگام عیب‌یابی و تشخیص مشکلات در CENO استفاده "
 "کرد؛ فقط از این قدم‌ها پیروی کنید:"
 
-#: browser/settings.md:block 21 (ordered list)
+#: browser/settings.md:block 20 (ordered list)
 msgid "At the *CENO Settings* page, check *Enable log file*."
 msgstr "در صفحه‌ی *تنظیمات CENO*، گزینه‌ی *فعال‌سازیِ فایلِ لاگ* را چک کنید."
 
-#: browser/settings.md:block 21 (ordered list)
+#: browser/settings.md:block 20 (ordered list)
 msgid ""
 "Go back to browsing and do whatever actions that trigger the troublesome "
 "behavior."
@@ -397,7 +392,7 @@ msgstr ""
 "به مرور وب بازگردید و کارهایی را انجام دهید که جرقه‌ی رفتارهای دردسرساز را "
 "می‌زند."
 
-#: browser/settings.md:block 21 (ordered list)
+#: browser/settings.md:block 20 (ordered list)
 msgid ""
 "Return to the *CENO Settings* page and click on the *Download* link next to "
 "the *Enable log file* check box. Save the file for later use. Android may "
@@ -409,13 +404,13 @@ msgstr ""
 "اندروید ممکن است از شما بپرسد که آیا در این مقطع به CENO اجازه‌ی دسترسی به "
 "رسانه‌های ذخیره‌شده را می‌دهید: این جواز برای ذخیره‌کردن آن فایل لازم است."
 
-#: browser/settings.md:block 21 (ordered list)
+#: browser/settings.md:block 20 (ordered list)
 msgid "Uncheck *Enable log file* to avoid the logs from growing too large."
 msgstr ""
 "علامت چک‌باکس *فعال‌سازیِ فایل لاگ* را با کلیک روی آن از بین ببرید تا مانع رشد "
 "بیش‌ازاندازه‌ی لاگ‌ها شوید."
 
-#: browser/settings.md:block 22 (paragraph)
+#: browser/settings.md:block 21 (paragraph)
 msgid ""
 "You can now use the saved log file to document an issue report, but try to "
 "avoid making it public since it may contain sensitive information about your "
@@ -424,3 +419,16 @@ msgstr ""
 "شما می‌توانید حالا از فایل لاگ ذخیره‌شده برای مستندسازی گزارش یک مشکل استفاده "
 "کنید، اما سعی کنید از عمومی‌کردن آن پرهیز کنید چون ممکن است شامل اطلاعات "
 "حساسی درباره‌ی مرورتان باشد."
+
+#~ msgid ""
+#~ "**Warning:** Please note that CENO does not remember these settings upon "
+#~ "restarting the app. If you require some of the previous mechanisms to be "
+#~ "off while using CENO, please remember to open the Settings page whenever "
+#~ "you start the app and uncheck their boxes before browsing. We apologize "
+#~ "for the inconvenience."
+#~ msgstr ""
+#~ "**هشدار:** لطفاً توجه کنید که CENO این تنظیمات را پس از شروع مجدد برنامه "
+#~ "به خاطر نمی‌آورد. اگر نیاز دارید تا برخی سازوکارهای قدیمی در حال استفاده "
+#~ "از CENO خاموش باشند، لطفاً به یاد داشته باشید که صفحه‌ی تنظیمات را در شروع "
+#~ "استفاده از نرم‌افزار باز کنید و پیش از مرور علامت روی جعبه‌های آن‌ها را "
+#~ "بردارید. از شما به خاطر این دشواری پوزش می‌خواهیم."

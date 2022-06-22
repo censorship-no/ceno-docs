@@ -136,105 +136,105 @@ msgid ""
 "png)"
 msgstr ""
 
-#: browser/settings.md:block 11 (quote)
-msgid ""
-"**Warning:** Please note that CENO does not remember these settings upon "
-"restarting the app. If you require some of the previous mechanisms to be off "
-"while using CENO, please remember to open the Settings page whenever you "
-"start the app and uncheck their boxes before browsing. We apologize for the "
-"inconvenience."
-msgstr ""
-
-#: browser/settings.md:block 12 (header)
+#: browser/settings.md:block 11 (header)
 msgid "About your app"
 msgstr ""
 
-#: browser/settings.md:block 13 (paragraph)
+#: browser/settings.md:block 12 (paragraph)
 msgid ""
 "This page also provides you with some information about your CENO Browser "
 "app and Ouinet client:"
 msgstr ""
 
-#: browser/settings.md:block 14 (unordered list)
+#: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*Local cache size* shows an approximation of how much storage is taken by "
 "the content being seeded from your device's local cache."
 msgstr ""
 
-#: browser/settings.md:block 14 (unordered list)
+#: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*Content shared by you* allows you to check the content being announced by "
 "your device."
 msgstr ""
 
-#: browser/settings.md:block 14 (unordered list)
+#: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*Ouinet client state*, if `started`, means that your Ouinet client was able "
 "to run successfully. Otherwise, there may be connectivity issues or some "
 "internal error. Please include this information in your issue reports."
 msgstr ""
 
-#: browser/settings.md:block 14 (unordered list)
+#: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*Reachability status* indicates how likely it is for your device to be able "
 "to effectively seed content to other clients. Also include in reports."
 msgstr ""
 
-#: browser/settings.md:block 14 (unordered list)
+#: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*UPnP status* indicates whether CENO was able to tell your router or access "
 "point to allow incoming connections towards it. Also include in reports."
 msgstr ""
 
-#: browser/settings.md:block 14 (unordered list)
+#: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*Local UDP endpoints* are the Internet addresses in your device used by CENO "
 "to seed signed content to other clients. These are shown to help test and "
 "debug the app, and should not be generally disclosed."
 msgstr ""
 
-#: browser/settings.md:block 14 (unordered list)
+#: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*External UDP endpoints* are the Internet addresses in your router given to "
 "your CENO traffic. Only available with UPnP-enabled routers, they are also "
 "is useful for diagnostics and not to be generally disclosed."
 msgstr ""
 
-#: browser/settings.md:block 14 (unordered list)
+#: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*Public UDP endpoints* are the Internet addresses that Ouinet clients "
 "outside of your network see when communicating with your device. Also for "
 "diagnostics and not to be disclosed."
 msgstr ""
 
-#: browser/settings.md:block 14 (unordered list)
+#: browser/settings.md:block 13 (unordered list)
+msgid ""
+"*Extra BitTorrent bootstraps* are servers used to help your device get into "
+"the BitTorrent network, should the default ones not work. Also include in "
+"reports. You may edit the space-separated list of hosts (with optional "
+"ports) to set or add your own, then choose *Save*. The changes will be "
+"applied the next time that your Ouinet client is started."
+msgstr ""
+
+#: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*CENO Browser* indicates the exact version of CENO that you are using. Also "
 "include in reports."
 msgstr ""
 
-#: browser/settings.md:block 14 (unordered list)
+#: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*CENO Extension* shows the version of the extension that integrates Firefox "
 "with CENO. Also include in reports."
 msgstr ""
 
-#: browser/settings.md:block 14 (unordered list)
+#: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*Ouinet* shows the version of Ouinet backing CENO. Also include in reports."
 msgstr ""
 
-#: browser/settings.md:block 14 (unordered list)
+#: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*Ouinet protocol* is the version number of the protocol that CENO uses to "
 "talk to other Ouinet clients and injectors. Also include in reports."
 msgstr ""
 
-#: browser/settings.md:block 15 (header)
+#: browser/settings.md:block 14 (header)
 msgid "Purging the local cache"
 msgstr ""
 
-#: browser/settings.md:block 16 (paragraph)
+#: browser/settings.md:block 15 (paragraph)
 msgid ""
 "Next to the *Local cache size* value above, there is a button which allows "
 "you to stop seeding and drop all content shared by your device over Ouinet. "
@@ -242,7 +242,7 @@ msgid ""
 "other CENO settings like Favorites."
 msgstr ""
 
-#: browser/settings.md:block 17 (paragraph)
+#: browser/settings.md:block 16 (paragraph)
 msgid ""
 "If you want to clear CENO's normal browsing cache (the one used by the "
 "browser but not shared with others) or other items like cookies, browsing "
@@ -251,18 +251,18 @@ msgid ""
 "clear."
 msgstr ""
 
-#: browser/settings.md:block 18 (paragraph)
+#: browser/settings.md:block 17 (paragraph)
 msgid ""
 "To drop everything at the same time (especially if you are in a hurry), "
 "please learn how to use the \"panic button\" feature described in "
 "[Installing CENO](install.md)."
 msgstr ""
 
-#: browser/settings.md:block 19 (header)
+#: browser/settings.md:block 18 (header)
 msgid "Collecting log messages"
 msgstr ""
 
-#: browser/settings.md:block 20 (paragraph)
+#: browser/settings.md:block 19 (paragraph)
 msgid ""
 "At the bottom of the page there is an *Enable log file* check box that "
 "allows you to collect all of Ouinet's internal messages and download them to "
@@ -270,17 +270,17 @@ msgid ""
 "follow these steps:"
 msgstr ""
 
-#: browser/settings.md:block 21 (ordered list)
+#: browser/settings.md:block 20 (ordered list)
 msgid "At the *CENO Settings* page, check *Enable log file*."
 msgstr ""
 
-#: browser/settings.md:block 21 (ordered list)
+#: browser/settings.md:block 20 (ordered list)
 msgid ""
 "Go back to browsing and do whatever actions that trigger the troublesome "
 "behavior."
 msgstr ""
 
-#: browser/settings.md:block 21 (ordered list)
+#: browser/settings.md:block 20 (ordered list)
 msgid ""
 "Return to the *CENO Settings* page and click on the *Download* link next to "
 "the *Enable log file* check box. Save the file for later use. Android may "
@@ -288,11 +288,11 @@ msgid ""
 "needed to be able to save the file."
 msgstr ""
 
-#: browser/settings.md:block 21 (ordered list)
+#: browser/settings.md:block 20 (ordered list)
 msgid "Uncheck *Enable log file* to avoid the logs from growing too large."
 msgstr ""
 
-#: browser/settings.md:block 22 (paragraph)
+#: browser/settings.md:block 21 (paragraph)
 msgid ""
 "You can now use the saved log file to document an issue report, but try to "
 "avoid making it public since it may contain sensitive information about your "

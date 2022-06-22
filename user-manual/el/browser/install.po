@@ -21,7 +21,8 @@ msgstr "Εγκατάσταση CENO"
 
 #: browser/install.md:block 2 (paragraph)
 msgid "CENO Browser can be installed via the following means:"
-msgstr "Ο φυλλομετρητής CENO μπορεί να εγκατασταθεί με τους ακόλουθους τρόπους:"
+msgstr ""
+"Ο φυλλομετρητής CENO μπορεί να εγκατασταθεί με τους ακόλουθους τρόπους:"
 
 #: browser/install.md:block 3 (unordered list)
 msgid ""
@@ -68,8 +69,8 @@ msgstr ""
 "παραπάνω. Εξαιτίας της φύσης της εφαρμογής, οι χρήστες του μπορεί να γίνουν "
 "στόχος για κάθε είδους ψεύτικες ή κακόβουλες εκδόσεις με σκοπό την παραβίαση "
 "της ιδιωτικότητας των χρηστών ή να επιτεθούν σε άλλους χρήστες του CENO και "
-"Ouinet. Εάν έχετε αμφιβολίες, επικοινωνήστε με το [cenoers@equalit."
-"ie](mailto:cenoers@equalit.ie) πριν εγκαταστήσετε μια ύποπτη εφαρμογή."
+"Ouinet. Εάν έχετε αμφιβολίες, επικοινωνήστε με το [cenoers@equalit.ie]"
+"(mailto:cenoers@equalit.ie) πριν εγκαταστήσετε μια ύποπτη εφαρμογή."
 
 #: browser/install.md:block 6 (header)
 msgid "Stopping CENO completely"
@@ -127,9 +128,15 @@ msgstr ""
 "την αρχική σελίδα του. Η ενέργεια *Διαγραφή* απαιτεί περισσότερες εξηγήσεις."
 
 #: browser/install.md:block 12 (quote)
+#, fuzzy
+#| msgid ""
+#| "**Note:** If the actions below the notification are not visible, drag the "
+#| "notification from its center towards the bottom to unfold it."
 msgid ""
 "**Note:** If the actions below the notification are not visible, drag the "
-"notification from its center towards the bottom to unfold it."
+"notification from its center towards the bottom to unfold it. If you can "
+"only see the *Home* action, your device may be too old to support the "
+"*Erase* action."
 msgstr ""
 "**Σημείωση:** Εάν οι ενέργειες κάτω από την ειδοποίηση δεν είναι ορατές, "
 "σύρετε την ειδοποίηση προς τα κάτω για να εμφανιστεί."

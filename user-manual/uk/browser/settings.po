@@ -197,25 +197,11 @@ msgstr ""
 "![Малюнок: Неправильні налаштування для приватного перегляду](images/"
 "settings-no-private.png)"
 
-#: browser/settings.md:block 11 (quote)
-msgid ""
-"**Warning:** Please note that CENO does not remember these settings upon "
-"restarting the app. If you require some of the previous mechanisms to be off "
-"while using CENO, please remember to open the Settings page whenever you "
-"start the app and uncheck their boxes before browsing. We apologize for the "
-"inconvenience."
-msgstr ""
-"**Увага:** Зверніть увагу, що CENO не запамʼятовує ці налаштування з "
-"перезапуском програми. Якщо Вам необхідно, щоб деякі з попередніх схем були "
-"відключені під час використання CENO, будь ласка, не забувайте відкривати "
-"сторінку налаштувань під час кожного запуску програми та знімати галочки "
-"перед початком роботи. Перепрошуємо за незручності."
-
-#: browser/settings.md:block 12 (header)
+#: browser/settings.md:block 11 (header)
 msgid "About your app"
 msgstr "Про Вашу програму"
 
-#: browser/settings.md:block 13 (paragraph)
+#: browser/settings.md:block 12 (paragraph)
 msgid ""
 "This page also provides you with some information about your CENO Browser "
 "app and Ouinet client:"
@@ -223,7 +209,7 @@ msgstr ""
 "На цій сторінці також представлена інформація про застосунок браузер CENO та "
 "клієнт Ouinet:"
 
-#: browser/settings.md:block 14 (unordered list)
+#: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*Local cache size* shows an approximation of how much storage is taken by "
 "the content being seeded from your device's local cache."
@@ -231,14 +217,14 @@ msgstr ""
 "*Розмір локального кешу* показує приблизний обсяг памʼяті вмісту, що "
 "завантажується з локального кешу Вашого пристрою."
 
-#: browser/settings.md:block 14 (unordered list)
+#: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*Content shared by you* allows you to check the content being announced by "
 "your device."
 msgstr ""
 "*Наданий Вами вміст* дозволяє перевірити вміст, який роздає Ваш пристрій."
 
-#: browser/settings.md:block 14 (unordered list)
+#: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*Ouinet client state*, if `started`, means that your Ouinet client was able "
 "to run successfully. Otherwise, there may be connectivity issues or some "
@@ -249,7 +235,7 @@ msgstr ""
 "внутрішня помилка. Будь ласка, включіть цю інформацію у звіт про вашу "
 "помилку."
 
-#: browser/settings.md:block 14 (unordered list)
+#: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*Reachability status* indicates how likely it is for your device to be able "
 "to effectively seed content to other clients. Also include in reports."
@@ -257,7 +243,7 @@ msgstr ""
 "*Стан доступності* показує, наскільки можливо, що Ваш пристрій зможе "
 "ефективно передавати вміст іншим клієнтам. Також додавайте до звітів."
 
-#: browser/settings.md:block 14 (unordered list)
+#: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*UPnP status* indicates whether CENO was able to tell your router or access "
 "point to allow incoming connections towards it. Also include in reports."
@@ -265,7 +251,7 @@ msgstr ""
 "*Стан UPnP* показує, чи зміг CENO запитати з Вашого маршрутизатора чи точки "
 "доступу дозвіл на вхідні підключення до нього. Також додавайте до звітів."
 
-#: browser/settings.md:block 14 (unordered list)
+#: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*Local UDP endpoints* are the Internet addresses in your device used by CENO "
 "to seed signed content to other clients. These are shown to help test and "
@@ -276,7 +262,7 @@ msgstr ""
 "показані для тестування та налагодження програми. Розкривати ці дані не "
 "потрібно."
 
-#: browser/settings.md:block 14 (unordered list)
+#: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*External UDP endpoints* are the Internet addresses in your router given to "
 "your CENO traffic. Only available with UPnP-enabled routers, they are also "
@@ -286,7 +272,7 @@ msgstr ""
 "надані для Вашого трафіку CENO. Доступні лише для маршрутизаторів з "
 "увімкненим UPnP. Вони корисні для діагностики та не підлягають розкриттю."
 
-#: browser/settings.md:block 14 (unordered list)
+#: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*Public UDP endpoints* are the Internet addresses that Ouinet clients "
 "outside of your network see when communicating with your device. Also for "
@@ -296,7 +282,16 @@ msgstr ""
 "межами Вашої мережі бачать під час спілкування з Вашим пристроєм. Також суто "
 "для діагностики та не розголошуються."
 
-#: browser/settings.md:block 14 (unordered list)
+#: browser/settings.md:block 13 (unordered list)
+msgid ""
+"*Extra BitTorrent bootstraps* are servers used to help your device get into "
+"the BitTorrent network, should the default ones not work. Also include in "
+"reports. You may edit the space-separated list of hosts (with optional "
+"ports) to set or add your own, then choose *Save*. The changes will be "
+"applied the next time that your Ouinet client is started."
+msgstr ""
+
+#: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*CENO Browser* indicates the exact version of CENO that you are using. Also "
 "include in reports."
@@ -304,7 +299,7 @@ msgstr ""
 "*Браузер CENO* вказує точну версію CENO, якою ви користуєтеся. Також "
 "включається у звіти."
 
-#: browser/settings.md:block 14 (unordered list)
+#: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*CENO Extension* shows the version of the extension that integrates Firefox "
 "with CENO. Also include in reports."
@@ -312,14 +307,14 @@ msgstr ""
 "*Розширення CENO* показує версію розширення, яке інтегрує Firefox із CENO. "
 "Також додавайте до звітів."
 
-#: browser/settings.md:block 14 (unordered list)
+#: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*Ouinet* shows the version of Ouinet backing CENO. Also include in reports."
 msgstr ""
 "*Ouinet* показує версію Ouinet, встановлену в CENO. Також додавайте до "
 "звітів."
 
-#: browser/settings.md:block 14 (unordered list)
+#: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*Ouinet protocol* is the version number of the protocol that CENO uses to "
 "talk to other Ouinet clients and injectors. Also include in reports."
@@ -328,11 +323,11 @@ msgstr ""
 "взаємодії з іншими клієнтами Ouinet та інʼєкторами. Також додавайте до "
 "звітів."
 
-#: browser/settings.md:block 15 (header)
+#: browser/settings.md:block 14 (header)
 msgid "Purging the local cache"
 msgstr "Очищення локального кешу"
 
-#: browser/settings.md:block 16 (paragraph)
+#: browser/settings.md:block 15 (paragraph)
 msgid ""
 "Next to the *Local cache size* value above, there is a button which allows "
 "you to stop seeding and drop all content shared by your device over Ouinet. "
@@ -344,7 +339,7 @@ msgstr ""
 "Вашим пристроєм через Ouinet. Це дозволить Вам звільнити місце в памʼяті "
 "пристрою, залишивши при цьому інші налаштування CENO, зокрема Вибране."
 
-#: browser/settings.md:block 17 (paragraph)
+#: browser/settings.md:block 16 (paragraph)
 msgid ""
 "If you want to clear CENO's normal browsing cache (the one used by the "
 "browser but not shared with others) or other items like cookies, browsing "
@@ -358,7 +353,7 @@ msgstr ""
 "*Налаштування* в головному меню програми, потім *Очистити особисті дані*. "
 "Вам буде запропоновано зазначити, які саме елементи Ви хочете очистити."
 
-#: browser/settings.md:block 18 (paragraph)
+#: browser/settings.md:block 17 (paragraph)
 msgid ""
 "To drop everything at the same time (especially if you are in a hurry), "
 "please learn how to use the \"panic button\" feature described in "
@@ -368,11 +363,11 @@ msgstr ""
 "використовувати функцію «тривожної кнопки», що описано в розділі "
 "[Встановлення CENO](install.md)."
 
-#: browser/settings.md:block 19 (header)
+#: browser/settings.md:block 18 (header)
 msgid "Collecting log messages"
 msgstr "Збір повідомлень журналу"
 
-#: browser/settings.md:block 20 (paragraph)
+#: browser/settings.md:block 19 (paragraph)
 msgid ""
 "At the bottom of the page there is an *Enable log file* check box that "
 "allows you to collect all of Ouinet's internal messages and download them to "
@@ -384,11 +379,11 @@ msgstr ""
 "використовувати тільки під час діагностики будь-яких несправностей CENO; "
 "просто виконайте наступні кроки:"
 
-#: browser/settings.md:block 21 (ordered list)
+#: browser/settings.md:block 20 (ordered list)
 msgid "At the *CENO Settings* page, check *Enable log file*."
 msgstr "На сторінці *Налаштування CENO* позначте *Дозволити файл журналу*."
 
-#: browser/settings.md:block 21 (ordered list)
+#: browser/settings.md:block 20 (ordered list)
 msgid ""
 "Go back to browsing and do whatever actions that trigger the troublesome "
 "behavior."
@@ -396,7 +391,7 @@ msgstr ""
 "Поверніться до перегляду та виконайте будь-які дії, що викликають проблемну "
 "поведінку."
 
-#: browser/settings.md:block 21 (ordered list)
+#: browser/settings.md:block 20 (ordered list)
 msgid ""
 "Return to the *CENO Settings* page and click on the *Download* link next to "
 "the *Enable log file* check box. Save the file for later use. Android may "
@@ -408,13 +403,13 @@ msgstr ""
 "для подальшого використання. На цьому етапі Android може запитати, чи "
 "дозволити CENO доступ до файлової системи: це необхідно для збереження файлу."
 
-#: browser/settings.md:block 21 (ordered list)
+#: browser/settings.md:block 20 (ordered list)
 msgid "Uncheck *Enable log file* to avoid the logs from growing too large."
 msgstr ""
 "Зніміть прапорець *Дозволити файл журналу*, щоб уникнути надмірного "
 "збільшення обсягу файлу."
 
-#: browser/settings.md:block 22 (paragraph)
+#: browser/settings.md:block 21 (paragraph)
 msgid ""
 "You can now use the saved log file to document an issue report, but try to "
 "avoid making it public since it may contain sensitive information about your "
@@ -423,3 +418,16 @@ msgstr ""
 "Тепер Ви можете використовувати збережений файл журналу аби скласти звіт про "
 "несправності, але намагайтеся не робити його публічним, оскільки звіт може "
 "містити конфіденційну інформацію про перегляд вебсторінок."
+
+#~ msgid ""
+#~ "**Warning:** Please note that CENO does not remember these settings upon "
+#~ "restarting the app. If you require some of the previous mechanisms to be "
+#~ "off while using CENO, please remember to open the Settings page whenever "
+#~ "you start the app and uncheck their boxes before browsing. We apologize "
+#~ "for the inconvenience."
+#~ msgstr ""
+#~ "**Увага:** Зверніть увагу, що CENO не запамʼятовує ці налаштування з "
+#~ "перезапуском програми. Якщо Вам необхідно, щоб деякі з попередніх схем "
+#~ "були відключені під час використання CENO, будь ласка, не забувайте "
+#~ "відкривати сторінку налаштувань під час кожного запуску програми та "
+#~ "знімати галочки перед початком роботи. Перепрошуємо за незручності."

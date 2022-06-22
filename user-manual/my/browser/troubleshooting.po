@@ -105,48 +105,65 @@ msgstr ""
 
 #: browser/troubleshooting.md:block 12 (header)
 msgid "The *Ouinet client state* under *CENO Settings* is not `started`"
-msgstr ""
-"CENO ဆက်တင်တွင်ရှိသော *Ouinet သုံးစွဲသူ အခြေအနေ*မှာ `started` မဖြစ်သေးပါ။"
+msgstr "CENO ဆက်တင်တွင်ရှိသော *Ouinet သုံးစွဲသူ အခြေအနေ*မှာ `started` မဖြစ်သေးပါ။"
 
 #: browser/troubleshooting.md:block 13 (paragraph)
 msgid ""
 "The Ouinet client run by CENO is finding problems starting on your device."
-msgstr ""
-"Ouinet သုံးစွဲသူမှ CENO ကို စတင်အလုပ်လုပ်လိုက်သည်နှင့် သင့်စက်ပစ္စည်းတွင် "
-"ပြဿနာများကို စတင်ရှာဖွေပါသည်။"
+msgstr "Ouinet သုံးစွဲသူမှ CENO ကို စတင်အလုပ်လုပ်လိုက်သည်နှင့် သင့်စက်ပစ္စည်းတွင် ပြဿနာများကို စတင်ရှာဖွေပါသည်။"
 
 #: browser/troubleshooting.md:block 14 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "When you launch CENO, the state may read `starting` for a few seconds; "
+#| "this is normal. However, if the state remains `starting` for too long, it "
+#| "may be a signal of serious connectivity issues that preclude the "
+#| "application from reaching the BitTorrent network. Please check your "
+#| "network connection and try restarting CENO. If you have a working "
+#| "connection but the state remains `starting`, please contact us."
 msgid ""
 "When you launch CENO, the state may read `starting` for a few seconds; this "
 "is normal. However, if the state remains `starting` for too long, it may be "
 "a signal of serious connectivity issues that preclude the application from "
 "reaching the BitTorrent network. Please check your network connection and "
 "try restarting CENO. If you have a working connection but the state remains "
-"`starting`, please contact us."
+"`starting`, please contact us (especially if the state was `started` in some "
+"previous run)."
 msgstr ""
-"CENO ကို စတင်လိုက်သောအခါ `စတင်ခြင်း` အဆင့်တွင် စက္ကန့်အနည်းငယ်ရှိနေခြင်းက "
-"ပုံမှန်ဖြစ်ပါသည်။ အကယ်၍များ `စတင်ခြင်း` အဆင့်တွင် အတော်ကြာနေပါက "
-"ချိတ်ဆက်မှုတွင် ပြဿနာတစ်ခုခုရှိနေတာဖြစ်နိုင်ပါတယ်၊ BitTorrent ကွန်ရက်ကို "
-"ရောက်ရှိဖို့အတွက် အပ်ပလီကေးရှင်းကို တားမြစ်တဲ့ ချိတ်ဆက်မှု "
-"ပြဿနာမျိုးတွေဖြစ်နိုင်ပါသည်။ ကျေးဇူးပြုပြီး သင့် ကွန်ရက်ချိတ်ဆက်မှုကို "
-"စစ်ဆေးပါ၊ ပြီးနောက်မှ CENO ကို ပြန်လည်စတင်ကြည့်ပါ။ အကယ်၍ သင့်တွင် "
-"အလုပ်လုပ်တဲ့ ကွန်ရက်ချိတ်ဆက်မှုရှိပေမယ့် `စတင်ခြင်း` အဆင့်တွင်သာရှိနေပါက "
-"ကျေးဇူးပြုပြီး ကျွန်ုပ်တို့ကို ဆက်သွယ်ပေးပါ။"
+"CENO ကို စတင်လိုက်သောအခါ `စတင်ခြင်း` အဆင့်တွင် စက္ကန့်အနည်းငယ်ရှိနေခြင်းက ပုံမှန်ဖြစ်ပါသည်။ အကယ်၍များ "
+"`စတင်ခြင်း` အဆင့်တွင် အတော်ကြာနေပါက ချိတ်ဆက်မှုတွင် ပြဿနာတစ်ခုခုရှိနေတာဖြစ်နိုင်ပါတယ်၊ BitTorrent "
+"ကွန်ရက်ကို ရောက်ရှိဖို့အတွက် အပ်ပလီကေးရှင်းကို တားမြစ်တဲ့ ချိတ်ဆက်မှု ပြဿနာမျိုးတွေဖြစ်နိုင်ပါသည်။ ကျေးဇူးပြုပြီး "
+"သင့် ကွန်ရက်ချိတ်ဆက်မှုကို စစ်ဆေးပါ၊ ပြီးနောက်မှ CENO ကို ပြန်လည်စတင်ကြည့်ပါ။ အကယ်၍ သင့်တွင် အလုပ်လုပ်တဲ့ "
+"ကွန်ရက်ချိတ်ဆက်မှုရှိပေမယ့် `စတင်ခြင်း` အဆင့်တွင်သာရှိနေပါက ကျေးဇူးပြုပြီး ကျွန်ုပ်တို့ကို ဆက်သွယ်ပေးပါ။"
 
 #: browser/troubleshooting.md:block 15 (paragraph)
 msgid ""
-"If you see some other state, there may be some internal error in the Ouinet "
-"client. Please report the issue to us."
+"One possible reason for not being able to get into BitTorrent (more so when "
+"you run CENO for the first time), is that the default bootstrap servers used "
+"by the Ouinet client are blocked or unreachable. In that case you may want "
+"to try providing CENO with extra BitTorrent bootstrap servers in the "
+"[Settings page](settings.md). You can ask us if you do not know of any such "
+"server. After setting the extra bootstraps, please restart the application. "
+"If the problem persists, contact us."
+msgstr ""
+
+#: browser/troubleshooting.md:block 16 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "If you see some other state, there may be some internal error in the "
+#| "Ouinet client. Please report the issue to us."
+msgid ""
+"If you ever see some other state, there may be some internal error in the "
+"Ouinet client. Please report the issue to us."
 msgstr ""
 "အကယ်၍ အခြားသောအခြေအနေတွေကိုရောက်ရှိခြင်းကို မြင်သောအခါ Ouinet သုံးစွဲသူတွင် "
-"စက်တွင်းပြဿနာတစ်ခုခုရှိနေတာ ဖြစ်နိုင်ပါသည်။ ‌ကျေးဇူးပြုပြီး ကျွန်ုပ်တို့ကို "
-"ပြဿနာအကြောင်း ပြောပြပေးပါ။"
+"စက်တွင်းပြဿနာတစ်ခုခုရှိနေတာ ဖြစ်နိုင်ပါသည်။ ‌ကျေးဇူးပြုပြီး ကျွန်ုပ်တို့ကို ပြဿနာအကြောင်း ပြောပြပေးပါ။"
 
-#: browser/troubleshooting.md:block 16 (header)
+#: browser/troubleshooting.md:block 17 (header)
 msgid "Accessing some content shows \"Failed to retrieve the resource\""
 msgstr "အချို့အကြောင်းအရာကို ဝင်ရောက်သုံးစွဲရာတွင် \"ရင်းမြစ်ကို ပြန်ထုတ်၍ မရနိုင်ပါ\" ကို ပြသသည်"
 
-#: browser/troubleshooting.md:block 17 (paragraph)
+#: browser/troubleshooting.md:block 18 (paragraph)
 msgid ""
 "This means that CENO tried all available mechanisms to access the content, "
 "but none of them succeeded."
@@ -154,13 +171,13 @@ msgstr ""
 "ဆိုလိုသည်မှာ CENO သည် အကြောင်းအရာကို ဝင်ရောက်သုံးစွဲရန် ရရှိနိုင်သော စက်ကိရိယာအားလုံးကို ကြိုးစားခဲ့သော်လည်း "
 "တစ်ခုမျှ မအောင်မြင်ခဲ့ပါ။"
 
-#: browser/troubleshooting.md:block 18 (paragraph)
+#: browser/troubleshooting.md:block 19 (paragraph)
 msgid ""
 "You should make sure that the following requirements are fulfilled for CENO "
 "to work:"
 msgstr "သင်သည် CENO အလုပ်လုပ်စေရန် အောက်ပါ လိုအပ်ချက်များကို ပြည့်မီကြောင်း သေချာအောင် ပြုလုပ်ရမည်-"
 
-#: browser/troubleshooting.md:block 19 (unordered list)
+#: browser/troubleshooting.md:block 20 (unordered list)
 msgid ""
 "You are running a recent version of CENO Browser. Obsolete versions may not "
 "be able to communicate with newer injectors or other clients. Check the "
@@ -170,7 +187,7 @@ msgstr ""
 "ထိုးသွင်းဖိုင်များ သို့မဟုတ် အခြားလက်ခံစက်များနှင့် ဆက်သွယ်၍ ရနိုင်မည် မဟုတ်ပါ။ ဗားရှင်းအသစ်များကို "
 "မည်သည့်နေရာမှ ရယူနိုင်မည်ကို သိရန် [ထည့်သွင်းမှု လမ်းညွှန်ချက်များ](install.md) ကို စစ်ဆေးပါ။"
 
-#: browser/troubleshooting.md:block 19 (unordered list)
+#: browser/troubleshooting.md:block 20 (unordered list)
 msgid ""
 "All access mechanisms in the [Settings page](settings.md) are enabled. "
 "Otherwise CENO will not be able to circumvent some connectivity issues when "
@@ -179,7 +196,7 @@ msgstr ""
 "[ဆက်တင်များ စာမျက်နှာ](settings.md) ရှိ ဝင်ရောက်သုံးစွဲခွင့် စက်ကိရိယာအားလုံးကို ဖွင့်ထားသည်။ "
 "မဖွင့်ထားပါက CENO သည် အကြောင်းအရာကို ဝင်ရောက်သုံးစွဲစဉ် ချိတ်ဆက်မှု ပြဿနာအချို့ကို ရှောင်ရှားနိုင်မည် မဟုတ်ပါ။"
 
-#: browser/troubleshooting.md:block 19 (unordered list)
+#: browser/troubleshooting.md:block 20 (unordered list)
 msgid ""
 "Your device has a working connection to the network, i.e. your normal Web "
 "browser is able to open some Web sites. CENO and Ouinet cannot work when all "
@@ -190,7 +207,7 @@ msgstr ""
 "ဖွင့်နိုင်ရမည်။ (သုံးစွဲသူများသည် စက်အချင်းချင်း မျှဝေမှု ပြုလုပ်ရန် ဘုံဖြစ်သော Wi-Fi ဝင်ရောက်သုံးစွဲခွင့် ပွိုင့်ကို "
 "ရှာတွေ့နိုင်သေးသော်လည်း) CENO နှင့် Ouinet သည် ကွန်ရက် ချိတ်ဆက်မှုအားလုံးကို ပိတ်ထားချိန်တွင် အလုပ် မလုပ်နိုင်ပါ။"
 
-#: browser/troubleshooting.md:block 20 (paragraph)
+#: browser/troubleshooting.md:block 21 (paragraph)
 msgid ""
 "If that is the case, it is worth explaining what may be happening for all "
 "access mechanisms to fail, to give you an idea of your chances for getting "
@@ -199,11 +216,11 @@ msgstr ""
 "ဤကိစ္စရပ်တွင် ဝင်ရောက်ရယူခွင့် ယန္တရားများအားလုံး ဘာကြောင့် မအောင်မြင်ရခြင်းဖြစ်နိုင်ကြောင်း "
 "ရှင်းပြသင့်သည်။ သို့မှသာ သင်သည် CENO ကို အသုံးပြု၍ အကြောင်းအရာ ရယူရာတွင် အောင်မြင်နိုင်ခြေကို သိရှိမည်ဖြစ်သည်။"
 
-#: browser/troubleshooting.md:block 21 (header)
+#: browser/troubleshooting.md:block 22 (header)
 msgid "Origin access"
 msgstr "မူလ ဝင်ရောက်သုံးစွဲခွင့်"
 
-#: browser/troubleshooting.md:block 22 (paragraph)
+#: browser/troubleshooting.md:block 23 (paragraph)
 msgid ""
 "Your CENO Browser cannot directly reach the content's origin server. Either "
 "the server is having some difficulties itself (e.g. it is down or under some "
@@ -213,18 +230,18 @@ msgstr ""
 "ရှိနေသည် (ဥပမာ- ဆာဗာကျနေသည် သို့မဟုတ် တိုက်ခိုက်ခံရသည်) သို့မဟုတ် တစ်စုံတစ်ယောက်က ဆာဗာသို့ သင်၏ ချိတ်ဆက်မှုကို "
 "ကြားဝင် နှောင့်ယှက်နေသည်။"
 
-#: browser/troubleshooting.md:block 23 (paragraph)
+#: browser/troubleshooting.md:block 24 (paragraph)
 msgid ""
 "This is the main use case for CENO and the other mechanisms should "
 "compensate for it."
 msgstr ""
 "ယင်းသည် CENO အတွက် အဓိက သုံးစွဲမှု ကိစ္စရပ် ဖြစ်ပြီး အခြားစက်ကိရိယာများက ၎င်းကို ဖြည့်ဆည်းပေးသင့်သည်။"
 
-#: browser/troubleshooting.md:block 24 (header)
+#: browser/troubleshooting.md:block 25 (header)
 msgid "Proxy/Injector access"
 msgstr "ပရောက်စီ/ထိုးသွင်းဖိုင် ဝင်ရောက်သုံးစွဲခွင့်"
 
-#: browser/troubleshooting.md:block 25 (paragraph)
+#: browser/troubleshooting.md:block 26 (paragraph)
 msgid ""
 "Someone is interfering with your connection to Internet addresses in the "
 "injector swarm. Since this is expected to happen eventually as CENO (and "
@@ -236,12 +253,12 @@ msgstr ""
 "သည် ပေါင်းကူးများအဖြစ် ဆောင်ရွက်သော အခြားလက်ခံစက်များမှတစ်ဆင့် ထိုးသွင်းဖိုင်များသို့ ရောက်ရှိအောင် "
 "ကြိုးစားသည်။"
 
-#: browser/troubleshooting.md:block 26 (paragraph)
+#: browser/troubleshooting.md:block 27 (paragraph)
 msgid ""
 "There are different reasons for CENO being unable to reach such clients:"
 msgstr "CENO သည် ထိုလက်ခံစက်များသို့ မရောက်ရှိနိုင်သည့် ကွဲပြားသော အကြောင်းရင်းများ ရှိသည်-"
 
-#: browser/troubleshooting.md:block 27 (unordered list)
+#: browser/troubleshooting.md:block 28 (unordered list)
 msgid ""
 "No other client is reachable by you. If only a few Ouinet clients are "
 "online, it is entirely possible that none of them are in a network that can "
@@ -253,7 +270,7 @@ msgstr ""
 "လူကြိုက်များလာပြီး ကွဲပြားသော ချိတ်ဆက်နိုင်မှုဖြင့် ပိုများသော လက်ခံစက်များ အွန်လိုင်းတွင် ရှိလာသောအခါ "
 "၎င်းသည် ဖြစ်နိုင်ခြေ နည်းလာနိုင်သည်။"
 
-#: browser/troubleshooting.md:block 27 (unordered list)
+#: browser/troubleshooting.md:block 28 (unordered list)
 msgid ""
 "The extreme case here is that connections between Ouinet clients are "
 "detected as such by a censor and blocked. This is quite unlikely (since it "
@@ -265,7 +282,7 @@ msgstr ""
 "ဖြစ်နိုင်ခြေ မရှိသည့်အပြင် လက်ရှိတွင် Ouinet က ပံ့ပိုးနိုင်သည်ထက် ပိုနေသော်လည်း ကျွန်ုပ်တို့သည် ဤတိုက်ခိုက်မှုများကို "
 "ပိုမိုဒဏ်ခံနိုင်အောင် ပြုလုပ်ရန် အစီအစဉ် ရှိသည်။"
 
-#: browser/troubleshooting.md:block 27 (unordered list)
+#: browser/troubleshooting.md:block 28 (unordered list)
 msgid ""
 "No other client can reach an injector. Since it is unlikely that all "
 "injectors are simultaneously down, that may mean that you can only reach "
@@ -276,7 +293,7 @@ msgstr ""
 "မဖြစ်နိုင်သောကြောင့် သင့်စက်ကဲ့သို့ အလားတူ ကွန်ရက် ကြားဝင်နှောင့်ယှက်မှုကြောင့် အကျိုးသက်ရောက်မှု ခံရသည့် Ouinet "
 "လက်ခံစက်များကိုသာ သင် ရောက်ရှိနိုင်ခြင်း ဖြစ်နိုင်သည်။"
 
-#: browser/troubleshooting.md:block 27 (unordered list)
+#: browser/troubleshooting.md:block 28 (unordered list)
 msgid ""
 "This can happen when all traffic leaving or entering the country you are in "
 "is interrupted. CENO would resort in this case to getting and using the "
@@ -286,7 +303,7 @@ msgstr ""
 "ကြားဝင်နှောင့်ယှက်သည့်အချိန်တွင် ဖြစ်ပွားနိုင်သည်။ ဤကိစ္စရပ်တွင် CENO သည် ဖြန့်ချိထားသော ယာယီသိမ်းဆည်းထားသည့် "
 "မှတ်ဉာဏ်မှ အကြောင်းအရာသည် ခေတ်မမီတော့သည့်တိုင်အောင် ၎င်းကို ရယူပြီး သုံးစွဲပါလိမ့်မည်။"
 
-#: browser/troubleshooting.md:block 27 (unordered list)
+#: browser/troubleshooting.md:block 28 (unordered list)
 msgid ""
 "Again, as CENO and Ouinet become more popular, the chances increase that "
 "there are at least a few clients that do have some kind of access to "
@@ -301,7 +318,7 @@ msgstr ""
 "ထပ်မံ ဝင်ရောက်သုံးစွဲခွင့် မလိုအပ်ဘဲ (ဖြန့်ချိထားသော ယာယီသိမ်းဆည်းထားသည့် မှတ်ဉာဏ်ကို သုံး၍) ၎င်းကို ဖြန့်ဝေရန် "
 "လုံလောက်နိုင်သည်။"
 
-#: browser/troubleshooting.md:block 28 (paragraph)
+#: browser/troubleshooting.md:block 29 (paragraph)
 msgid ""
 "Finally, we do run some Ouinet clients with good connectivity in (hopefully) "
 "censorship-free countries to try to avoid those two situations, but please "
@@ -312,11 +329,11 @@ msgstr ""
 "နိုင်ငံများတွင် ချိတ်ဆက်မှုအားကောင်းသော Ouinet လက်ခံစက်အချို့ကို လုပ်‌ဆောင်သော်လည်း ထိုကဲ့သို့ တည်ငြိမ်သော "
 "အင်တာနက် လိပ်စာများ ရှိသည့် လက်ခံစက်များသည်လည်း ပိတ်ဆို့ခံရနိုင်ကြောင်း ကျေးဇူးပြု၍ သတိပြုပါ။"
 
-#: browser/troubleshooting.md:block 29 (header)
+#: browser/troubleshooting.md:block 30 (header)
 msgid "Distributed cache"
 msgstr "ဖြန့်ချိထားသော ယာယီသိမ်းဆည်းထားသည့် မှတ်ဉာဏ်"
 
-#: browser/troubleshooting.md:block 30 (paragraph)
+#: browser/troubleshooting.md:block 31 (paragraph)
 msgid ""
 "Keep in mind that an absolute requirement to be able to retrieve any content "
 "from the distributed cache is that it has already been injected by some "
@@ -334,7 +351,7 @@ msgstr ""
 "ထိုသူအား အချို့သော [စွန့်စားမှုများ](../concepts/risks.md) ကို ထပ်မံကြုံတွေ့စေနိုင်သည်) "
 "ထိုအကြောင်းအရာကို သဘာဝကျစွာ ပွားယူရန် ဖြစ်နိုင်ခြေ ပိုနည်းသည်။"
 
-#: browser/troubleshooting.md:block 31 (paragraph)
+#: browser/troubleshooting.md:block 32 (paragraph)
 msgid ""
 "Please note that some content which is not considered safe for sharing will "
 "never be injected, no matter how many people retrieve it using public "
@@ -347,7 +364,7 @@ msgstr ""
 "မှတ်သားထားသော အကြောင်းအရာ၊ စစ်မှန်ကြောင်း သက်သေပြရန် လိုအပ်သော အကြောင်းအရာနှင့် အချို့သော "
 "တက်ကြွသည့် ဝက်ဘ် အက်ပလီကေးရှင်းများက ဖလှယ်ထားသော အသွားအလာအချို့ ပါဝင်သည်။"
 
-#: browser/troubleshooting.md:block 32 (paragraph)
+#: browser/troubleshooting.md:block 33 (paragraph)
 msgid ""
 "Also note that the clients holding copies of injected content need to be "
 "reachable by you. The same observations described in the previous point for "
@@ -357,11 +374,11 @@ msgstr ""
 "လိုအပ်ကြောင်း သတိပြုပါ။ ပေါင်းကူး လက်ခံစက်များသို့ ရောက်ရှိရန် ယခင်က ဆွေးနွေးချက်တွင် ဖော်ပြခဲ့သော တူညီသည့် "
 "လေ့လာတွေ့ရှိမှုများသည် ဤကိစ္စရပ်နှင့် သက်ဆိုင်သည်။"
 
-#: browser/troubleshooting.md:block 33 (header)
+#: browser/troubleshooting.md:block 34 (header)
 msgid "A note on HTTP-only sites"
 msgstr "HTTP သီးသန့် ဆိုက်များအတွက် မှတ်ချက်"
 
-#: browser/troubleshooting.md:block 34 (paragraph)
+#: browser/troubleshooting.md:block 35 (paragraph)
 msgid ""
 "CENO automatically switches to the more secure HTTPS protocol to access "
 "sites which would otherwise be accessed using plain, insecure HTTP. This is "
@@ -370,15 +387,14 @@ msgid ""
 "example.com/…` in the location bar, or when you follow a link with such a "
 "URL in a page."
 msgstr ""
-"CENO သည် လုံခြုံမှုမရှိသော HTTP ကဲ့သလို့သော ဆိုက်အစား ပိုမို စိတ်ချလုံခြုံသော"
-" HTTPS protocol သို့ အလိုအလျောက်ပြောင်းလဲပြီး ရယူပေးပါသည်။ ဤအရာကို [HTTPS by "
-"default][HTTPS by default] မြှုပ်နှံထားသော extension မှ "
-"လုပ်ဆောင်ပေးခြင်းဖြစ်ပြီး သင်သည် တည်နေရာဘားတွင် `example.com`ကဲ့သို့သော "
-"ဒိုမိန်းတစ်ခု သို့မဟုတ် `http://example.com/…`ကဲ့သို့သော HTTP URL တစ်ခုကို "
-"ထည့်သွင်းလိုက်သောအခါ သို့မဟုတ် စာမျက်နှာတစ်ခုတွင် ပါဝင်သော URL link ကို "
-"နှိပ်လိုက်သောအခါ အလိုအလျောက် လုပ်ဆောင်ပေးခြင်းဖြစ်ပါသည်။"
+"CENO သည် လုံခြုံမှုမရှိသော HTTP ကဲ့သလို့သော ဆိုက်အစား ပိုမို စိတ်ချလုံခြုံသော HTTPS protocol သို့ "
+"အလိုအလျောက်ပြောင်းလဲပြီး ရယူပေးပါသည်။ ဤအရာကို [HTTPS by default][HTTPS by default] "
+"မြှုပ်နှံထားသော extension မှ လုပ်ဆောင်ပေးခြင်းဖြစ်ပြီး သင်သည် တည်နေရာဘားတွင် `example."
+"com`ကဲ့သို့သော ဒိုမိန်းတစ်ခု သို့မဟုတ် `http://example.com/…`ကဲ့သို့သော HTTP URL တစ်ခုကို "
+"ထည့်သွင်းလိုက်သောအခါ သို့မဟုတ် စာမျက်နှာတစ်ခုတွင် ပါဝင်သော URL link ကို နှိပ်လိုက်သောအခါ အလိုအလျောက် "
+"လုပ်ဆောင်ပေးခြင်းဖြစ်ပါသည်။"
 
-#: browser/troubleshooting.md:block 35 (paragraph)
+#: browser/troubleshooting.md:block 36 (paragraph)
 msgid ""
 "The automatic switching to HTTPS is done to prevent someone from "
 "intercepting an HTTP connection and directing it to an illegitimate server, "
@@ -386,70 +402,61 @@ msgid ""
 "trivial to detect with HTTPS, so CENO can work around it instead of being "
 "tricked into loading the bogus content."
 msgstr ""
-"HTTPS သို့ အလိုအလျောက် ပြောင်းလဲပေးခြင်းသည် HTTP ချိတ်ဆက်မှုတွင် "
-"တစ်စုံတစ်ယောက်ထံမှ ကြားဖြတ်ခံရခြင်း နှင့် တရားမဝင်သော ဆာဗာများသို့ "
-"ရောက်ရှိသွားခြင်းမှ အကြောင်းအရာအတုများ ရရှိလာခြင်း (ဥပမာ - ပိတ်ဆို့ခံရကြောင်း"
-" မက်ဆေ့ချ်)တို့ကို ကာကွယ်ပေးရန်အတွက် ပြုလုပ်ထားခြင်းဖြစ်ပါသည်။ ယခုကဲ့သို့ "
-"အပိုင်စီးခြင်းလုပ်ရပ်သည် HTTPS နှင့် စမ်းသပ်ရှာဖွေလျှင် အသေးအဖွဲမျှသာ "
-"ဖြစ်ပါသည်၊ ထို့ကြောင့် CENO သည် အကြောင်းအရာအတုများ ပေါ်လာခြင်းကဲ့သို့သော "
-"လှည့်စားခြင်းမျိုးတို့မခံရဘဲ အလုပ်လုပ်နိုင်ပါသည်။"
+"HTTPS သို့ အလိုအလျောက် ပြောင်းလဲပေးခြင်းသည် HTTP ချိတ်ဆက်မှုတွင် တစ်စုံတစ်ယောက်ထံမှ ကြားဖြတ်ခံရခြင်း နှင့် "
+"တရားမဝင်သော ဆာဗာများသို့ ရောက်ရှိသွားခြင်းမှ အကြောင်းအရာအတုများ ရရှိလာခြင်း (ဥပမာ - "
+"ပိတ်ဆို့ခံရကြောင်း မက်ဆေ့ချ်)တို့ကို ကာကွယ်ပေးရန်အတွက် ပြုလုပ်ထားခြင်းဖြစ်ပါသည်။ ယခုကဲ့သို့ အပိုင်စီးခြင်းလုပ်ရပ်သည် "
+"HTTPS နှင့် စမ်းသပ်ရှာဖွေလျှင် အသေးအဖွဲမျှသာ ဖြစ်ပါသည်၊ ထို့ကြောင့် CENO သည် အကြောင်းအရာအတုများ "
+"ပေါ်လာခြင်းကဲ့သို့သော လှည့်စားခြင်းမျိုးတို့မခံရဘဲ အလုပ်လုပ်နိုင်ပါသည်။"
 
-#: browser/troubleshooting.md:block 36 (paragraph)
+#: browser/troubleshooting.md:block 37 (paragraph)
 msgid ""
 "Although very unusual, some sites do not support HTTPS, and no access "
 "mechanism will work for them. If you are completely sure that this is the "
 "case for a site which just failed to load in CENO, you can edit its URL in "
 "the location bar, change `https://` to `http://`, and try again."
 msgstr ""
-"ဖြစ်လေ့ဖြစ်ထမရှိသော်လည်း တချို့သောဆိုက်များသည် HTTPS ကို မထောက်ပံ့ပါ၊ "
-"၎င်းတို့အတွက် ဝင်ရောက်သုံးစွဲခွင့် စက်ကိရိယာများကိုလည်း အလုပ်လုပ်ခွင့်မပေးပါ။"
-" အကယ်၍များ သင့်အနေဖြင့် CENO တွင် ဤကဲ့သို့သော ကိစ္စမျိုးဖြင့် ဆိုက်တစ်ခုကို "
-"ဝင်ရောက်ကြည့်ရှုလို့မရသောအခါ တည်နေရာဘားတွင် `https://` "
-"အစား`http://`ဟုပြောင်းလဲ ပြင်ဆင်လိုက်ပြီးမှ ပြန်လည် စမ်းကြည့်ပါ။"
+"ဖြစ်လေ့ဖြစ်ထမရှိသော်လည်း တချို့သောဆိုက်များသည် HTTPS ကို မထောက်ပံ့ပါ၊ ၎င်းတို့အတွက် ဝင်ရောက်သုံးစွဲခွင့် "
+"စက်ကိရိယာများကိုလည်း အလုပ်လုပ်ခွင့်မပေးပါ။ အကယ်၍များ သင့်အနေဖြင့် CENO တွင် ဤကဲ့သို့သော ကိစ္စမျိုးဖြင့် "
+"ဆိုက်တစ်ခုကို ဝင်ရောက်ကြည့်ရှုလို့မရသောအခါ တည်နေရာဘားတွင် `https://` အစား`http://`ဟုပြောင်းလဲ "
+"ပြင်ဆင်လိုက်ပြီးမှ ပြန်လည် စမ်းကြည့်ပါ။"
 
-#: browser/troubleshooting.md:block 37 (paragraph)
+#: browser/troubleshooting.md:block 38 (paragraph)
 msgid ""
 "If you want to always access a particular site over plain HTTP, you can add "
 "a permanent exception like this:"
 msgstr ""
-"အကယ်၍ သင်က HTTP ကိုသုံးပြီး သီးခြားဆိုက်တစ်ခုကို အမြဲတမ်း ရယူလိုပါက "
-"သင့်အနေဖြင့် ဤကဲ့သို့သော အမြဲတမ်းအတွက်ခြွင်းချက်တစ်ခုကို ထည့်ထားနိုင်ပါသည်။"
+"အကယ်၍ သင်က HTTP ကိုသုံးပြီး သီးခြားဆိုက်တစ်ခုကို အမြဲတမ်း ရယူလိုပါက သင့်အနေဖြင့် ဤကဲ့သို့သော "
+"အမြဲတမ်းအတွက်ခြွင်းချက်တစ်ခုကို ထည့်ထားနိုင်ပါသည်။"
 
-#: browser/troubleshooting.md:block 38 (ordered list)
+#: browser/troubleshooting.md:block 39 (ordered list)
 msgid ""
 "In the app's main menu, choose *HTTPS by default*. You will see that "
 "extension's settings page."
-msgstr ""
-"အက်ပ်၏အဓိကမီနူးထဲတွင် *HTTPS by default*ကို နှိပ်ပါ။ ထိုအဆက်၏ "
-"ဆက်တင်စာမျက်နှာကို မြင်ရပါမည်။"
+msgstr "အက်ပ်၏အဓိကမီနူးထဲတွင် *HTTPS by default*ကို နှိပ်ပါ။ ထိုအဆက်၏ ဆက်တင်စာမျက်နှာကို မြင်ရပါမည်။"
 
-#: browser/troubleshooting.md:block 38 (ordered list)
+#: browser/troubleshooting.md:block 39 (ordered list)
 msgid ""
 "Enter the domain name of the site in the text box, as shown below. See there "
 "how you may enter several sites by separating them with spaces or newlines. "
 "Please note that entering `example.com` will also include all sites under "
 "that domain, like `www.example.com` or `x.y.example.com`."
 msgstr ""
-"ဆိုက်၏ ဒိုမိန်းနာမည်ကို စာသားထည့်ရမည့်နေရာ၌ အောက်တွင်ပြထားသည့်အတိုင်း "
-"ရိုက်ထည့်ပါ။ သင့်အနေဖြင့် များစွာသော ဆိုက်များကို spaces သို့မဟုတ် "
-"စာကြောင်းအသစ်များဖြင့် ခွဲပြီး ထည့်နိုင်တာကို မြင်နိုင်ပါသည်။ `example."
-"com`ကို ထည့်သွင်းခြင်းက ထို ဒိုမိန်းအောက်မှာရှိနေတဲ့ `www.example.com` "
-"သို့မဟုတ် `x.y.example.com`ကဲ့သို့သော "
-"ဆိုက်များအားလုံးပါဝင်သွားမှာဖြစ်ကြောင်းကို ကျေးဇူးပြုပြီး သတိပြုပါ။"
+"ဆိုက်၏ ဒိုမိန်းနာမည်ကို စာသားထည့်ရမည့်နေရာ၌ အောက်တွင်ပြထားသည့်အတိုင်း ရိုက်ထည့်ပါ။ သင့်အနေဖြင့် များစွာသော "
+"ဆိုက်များကို spaces သို့မဟုတ် စာကြောင်းအသစ်များဖြင့် ခွဲပြီး ထည့်နိုင်တာကို မြင်နိုင်ပါသည်။ `example."
+"com`ကို ထည့်သွင်းခြင်းက ထို ဒိုမိန်းအောက်မှာရှိနေတဲ့ `www.example.com` သို့မဟုတ် `x.y.example."
+"com`ကဲ့သို့သော ဆိုက်များအားလုံးပါဝင်သွားမှာဖြစ်ကြောင်းကို ကျေးဇူးပြုပြီး သတိပြုပါ။"
 
-#: browser/troubleshooting.md:block 38 (ordered list)
+#: browser/troubleshooting.md:block 39 (ordered list)
 msgid "When done, go back or close the tab."
 msgstr "အကယ်၍ ပြီးသွားတဲ့အခါ နောက်ပြန်သွားပါ သို့မဟုတ် တက်ဘ်ကို ပိတ်ပါ။"
 
-#: browser/troubleshooting.md:block 39 (paragraph)
+#: browser/troubleshooting.md:block 40 (paragraph)
 msgid ""
 "![Figure: Adding exceptions for HTTP-only sites](images/httpsbd-exceptions."
 "png)"
-msgstr ""
-"![ပုံ - HTTP သီးသန့်အတွက် ခြွင်းချက်ထည့်သွင်းခြင်း](images/httpsbd-exceptions"
-".png)"
+msgstr "![ပုံ - HTTP သီးသန့်အတွက် ခြွင်းချက်ထည့်သွင်းခြင်း](images/httpsbd-exceptions.png)"
 
-#: browser/troubleshooting.md:block 40 (paragraph)
+#: browser/troubleshooting.md:block 41 (paragraph)
 msgid ""
 "**Note:** In the unfortunate case that a site is only accessible via HTTP, "
 "and it is also being hijacked by a censor, you will need to go to the "
@@ -458,58 +465,51 @@ msgid ""
 "for subsequent runs. We encourage you to contact the site administrators and "
 "tell them to enable HTTPS support."
 msgstr ""
-"**မှတ်ချက်** ကံမကောင်းစွာဖြင့် ဆိုက်တစ်ခုသည် HTTP ဖြင့်သာ ဝင်ရောက်နိုင်ပြီး၊ "
-"ဆင်ဆာတစ်ခုမှ ထိန်းချုပ်ခြင်းကိုလည်း ခံနေရပါက၊ [ဆက်တင်စာမျက်နှာ](settings.md) "
-"ကို သွားပါ၊ မူလဝင်ရောက်သုံးစွဲခွင့်ကို ပိတ်ပါ၊ ထို့နောက် ပြန်လည် "
-"ကြိုးစားကြည့်ပါ။ ယခုဆက်တင်သည် ဆိုက်များအားလုံးကို သက်ရောက်မှုရှိကြောင်း၊ "
-"နောက်ထပ်ရှာဖွေ အလုပ်လုပ်ခြင်းများအတွက် CENO မှ မမှတ်မိနိုင်ကြောင်းကို "
-"‌ကျေးဇူးပြုပြီး သတိထားပါ။ ဝဘ်ဆိုက် ထိန်းချုပ်သူများကို ဆက်သွယ်ပြီး HTTPS "
-"ထောက်ပံ့မှုကို ပြုလုပ်ရန်ပြောခြင်းကို ကျွန်ုပ်တို့ တိုက်တွန်းလိုက်ပါသည်။"
+"**မှတ်ချက်** ကံမကောင်းစွာဖြင့် ဆိုက်တစ်ခုသည် HTTP ဖြင့်သာ ဝင်ရောက်နိုင်ပြီး၊ ဆင်ဆာတစ်ခုမှ "
+"ထိန်းချုပ်ခြင်းကိုလည်း ခံနေရပါက၊ [ဆက်တင်စာမျက်နှာ](settings.md) ကို သွားပါ၊ မူလဝင်ရောက်သုံးစွဲခွင့်ကို "
+"ပိတ်ပါ၊ ထို့နောက် ပြန်လည် ကြိုးစားကြည့်ပါ။ ယခုဆက်တင်သည် ဆိုက်များအားလုံးကို သက်ရောက်မှုရှိကြောင်း၊ "
+"နောက်ထပ်ရှာဖွေ အလုပ်လုပ်ခြင်းများအတွက် CENO မှ မမှတ်မိနိုင်ကြောင်းကို ‌ကျေးဇူးပြုပြီး သတိထားပါ။ ဝဘ်ဆိုက် "
+"ထိန်းချုပ်သူများကို ဆက်သွယ်ပြီး HTTPS ထောက်ပံ့မှုကို ပြုလုပ်ရန်ပြောခြင်းကို ကျွန်ုပ်တို့ တိုက်တွန်းလိုက်ပါသည်။"
 
-#: browser/troubleshooting.md:block 41 (header)
+#: browser/troubleshooting.md:block 42 (header)
 msgid "A page shows bogus content (like a block message)"
 msgstr "အတုအယောင် အကြောင်းအရာများကို စာမျက်နှာမှ ဖော်ပြခြင်း (ဥပမာ - ပိတ်ဆို့ခံရကြောင်း မက်ဆေ့ချ်)"
 
-#: browser/troubleshooting.md:block 42 (paragraph)
+#: browser/troubleshooting.md:block 43 (paragraph)
 msgid ""
 "This may happen when you used an old version of CENO to visit a blocked site "
 "in the past, and someone intercepted the connection and directed it to an "
 "illegitimate server. CENO then remembered that redirection, and now it "
 "automatically opens the latter site when trying to visit the former."
 msgstr ""
-"ပိတ်ထားသော ဆိုက်တစ်ခုကို ကြည့်ရှုဖို့ CENO ဗားရှင်းအဟောင်းကို အသုံးပြုသောအခါ "
-"တစ်စုံတစ်ယောက်က ဆက်သွယ်မှုကို ကြားဖြတ်ပြီး တရားမဝင်သော ဆာဗာတစ်ခုဆီသို့ "
-"လမ်းကြောင်းလွှဲလိုက်ခြင်းများ ဖြစ်ပေါ်နိုင်ပါသည်။ နောက်ပိုင်းတွင် CENO မှ "
-"လမ်းကြောင်းလွှဲခြင်းကို မှတ်မိပြီး အရင်ဆိုက်တစ်ခုကို "
-"ကြည့်ရှုဖို့ကြိုးစားတိုင်း လမ်းကြောင်းလွှဲသော ဆိုက် ကို "
+"ပိတ်ထားသော ဆိုက်တစ်ခုကို ကြည့်ရှုဖို့ CENO ဗားရှင်းအဟောင်းကို အသုံးပြုသောအခါ တစ်စုံတစ်ယောက်က ဆက်သွယ်မှုကို "
+"ကြားဖြတ်ပြီး တရားမဝင်သော ဆာဗာတစ်ခုဆီသို့ လမ်းကြောင်းလွှဲလိုက်ခြင်းများ ဖြစ်ပေါ်နိုင်ပါသည်။ နောက်ပိုင်းတွင် "
+"CENO မှ လမ်းကြောင်းလွှဲခြင်းကို မှတ်မိပြီး အရင်ဆိုက်တစ်ခုကို ကြည့်ရှုဖို့ကြိုးစားတိုင်း လမ်းကြောင်းလွှဲသော ဆိုက် ကို "
 "အလိုအလျောက်ဖွင့်ပေးခြင်းများ ဖြစ်နိုင်ပါသည်။"
 
-#: browser/troubleshooting.md:block 43 (paragraph)
+#: browser/troubleshooting.md:block 44 (paragraph)
 msgid ""
 "One way to fix this issue is to clear CENO's normal browsing cache by "
 "choosing *Settings* in the app's main menu, then *Clear private data*, and "
 "disabling all boxes but *Cache* before tapping on *Clear data*."
 msgstr ""
-"ထိုပြဿနာကို ဖြေရှင်းရန် တစ်ခုတည်းသောနည်းလမ်းမှာ CENO၏ ပုံမှန်ရှာဖွေခြင်း "
-"ယာယီမှတ်ဥာဏ်ကို ဖျက်ပစ်ရပါမည်။ အက်ပ်၏ အဓိက မီနူးထဲမှ "
-"*အပြင်အဆင်များ*ကိုရွေးပါ၊ ပြီးနောက် *တစ်ကိုယ်ရည်သုံး အချက်အလက်များရှင်းပါ* "
-"ကိုရွေးပါ၊ ထို့နောက် *ယာယီမှတ်တမ်းမ*ဆိုသောအရာတစ်ခုတည်းကိုသာရွေးပြီး "
-"*အချက်အလက်ကို ရှင်းပါ* ကိုနှိပ်ပါ။"
+"ထိုပြဿနာကို ဖြေရှင်းရန် တစ်ခုတည်းသောနည်းလမ်းမှာ CENO၏ ပုံမှန်ရှာဖွေခြင်း ယာယီမှတ်ဥာဏ်ကို ဖျက်ပစ်ရပါမည်။ "
+"အက်ပ်၏ အဓိက မီနူးထဲမှ *အပြင်အဆင်များ*ကိုရွေးပါ၊ ပြီးနောက် *တစ်ကိုယ်ရည်သုံး အချက်အလက်များရှင်းပါ* "
+"ကိုရွေးပါ၊ ထို့နောက် *ယာယီမှတ်တမ်းမ*ဆိုသောအရာတစ်ခုတည်းကိုသာရွေးပြီး *အချက်အလက်ကို ရှင်းပါ* ကိုနှိပ်ပါ။"
 
-#: browser/troubleshooting.md:block 44 (paragraph)
+#: browser/troubleshooting.md:block 45 (paragraph)
 msgid ""
 "Please note that CENO version 1.3.0 and newer avoid that hijacking of newly "
 "visited sites by always using HTTPS, as explained in the previous section."
 msgstr ""
-"CENO ဗားရှင်း 1.3.0 နှင့်အထက်တွင် နောက်ဆုံးကြည့်ရှုခဲ့သောဆိုက်များ၏ "
-"ထိန်းချုပ်ခံရခြင်းကို HTTPS ကို အမြဲတမ်းသုံးပြီး ဖယ်ရှားလိုက်ပြီဖြစ်ကြောင်း "
-"ပြီးခဲ့သောအခန်းတွင် ရှင်းပြခဲ့ကြောင်းကို ကျေးဇူးပြုပြီး သတိရပါ။"
+"CENO ဗားရှင်း 1.3.0 နှင့်အထက်တွင် နောက်ဆုံးကြည့်ရှုခဲ့သောဆိုက်များ၏ ထိန်းချုပ်ခံရခြင်းကို HTTPS ကို "
+"အမြဲတမ်းသုံးပြီး ဖယ်ရှားလိုက်ပြီဖြစ်ကြောင်း ပြီးခဲ့သောအခန်းတွင် ရှင်းပြခဲ့ကြောင်းကို ကျေးဇူးပြုပြီး သတိရပါ။"
 
-#: browser/troubleshooting.md:block 45 (header)
+#: browser/troubleshooting.md:block 46 (header)
 msgid "Others cannot retrieve content seeded by my device"
 msgstr "အခြားစက်များသည် ကျွန်ုပ်၏ စက်က တင်ပို့ထားသော အကြောင်းအရာကို ပြန်မထုတ်နိုင်ပါ"
 
-#: browser/troubleshooting.md:block 46 (paragraph)
+#: browser/troubleshooting.md:block 47 (paragraph)
 msgid ""
 "First, make sure that your device is still seeding the content by going to "
 "the [*CENO Settings* page](settings.md), only leaving the *Shared by other "
@@ -517,15 +517,13 @@ msgid ""
 "load (at least partially), and tapping the CENO address bar icon should only "
 "show non-zero values under *Shared by other CENO users* or *Shared by you*."
 msgstr ""
-"ပထမဦးစွာ [*CENO ဆက်တင်များ* စာမျက်နှာ](settings.md) သို့ သွား၍ သင့်စက်သည် "
-"အကြောင်းအရာကို တင်ပို့နေသေးကြောင်း သေချာအောင်လုပ်ပါ။ *အခြား CENO "
-"သုံးစွဲသူများက မျှဝေထားသည်* ရင်းမြစ် အကွက်ကိုသာ အမှန်ခြစ်၍ ချန်ထားပြီးနောက် "
-"ထိုအကြောင်းအရာကို ထပ်မံ ဝင်ရောက်သုံးစွဲကြည့်ပါ။ ၎င်းသည် (အနည်းဆုံး "
-"တစ်စိတ်တစ်ပိုင်း) တက်လာသင့်သည်။ ထို့ပြင် CENO လိပ်စာဘား အိုင်ကွန်ကို "
-"နှိပ်လျှင် *အခြား CENO သုံးစွဲသူများက မျှဝေထားသည်* သို့မဟုတ် *သင် "
-"မျှဝေထားသည်* အောက်တွင် သုညမဟုတ်သော တန်ဖိုးများကိုသာ ပြသသင့်သည်။"
+"ပထမဦးစွာ [*CENO ဆက်တင်များ* စာမျက်နှာ](settings.md) သို့ သွား၍ သင့်စက်သည် အကြောင်းအရာကို "
+"တင်ပို့နေသေးကြောင်း သေချာအောင်လုပ်ပါ။ *အခြား CENO သုံးစွဲသူများက မျှဝေထားသည်* ရင်းမြစ် အကွက်ကိုသာ "
+"အမှန်ခြစ်၍ ချန်ထားပြီးနောက် ထိုအကြောင်းအရာကို ထပ်မံ ဝင်ရောက်သုံးစွဲကြည့်ပါ။ ၎င်းသည် (အနည်းဆုံး "
+"တစ်စိတ်တစ်ပိုင်း) တက်လာသင့်သည်။ ထို့ပြင် CENO လိပ်စာဘား အိုင်ကွန်ကို နှိပ်လျှင် *အခြား CENO သုံးစွဲသူများက "
+"မျှဝေထားသည်* သို့မဟုတ် *သင် မျှဝေထားသည်* အောက်တွင် သုညမဟုတ်သော တန်ဖိုးများကိုသာ ပြသသင့်သည်။"
 
-#: browser/troubleshooting.md:block 47 (paragraph)
+#: browser/troubleshooting.md:block 48 (paragraph)
 msgid ""
 "If the content does not load, it could be that CENO has already removed it, "
 "since it automatically cleans up stale content (older than a week by "
@@ -545,7 +543,7 @@ msgstr ""
 "ဝင်ရောက်သုံးစွဲပါ။ ၎င်းသည် တက်မလာသေးပါက ထိုအကြောင်းအရာကို မျှဝေရန် ဘေးမကင်းဟု Ouinet က ယူဆခြင်း "
 "ဖြစ်နိုင်သည်။"
 
-#: browser/troubleshooting.md:block 48 (paragraph)
+#: browser/troubleshooting.md:block 49 (paragraph)
 msgid ""
 "If the previous step works, but another device with only the *Shared by "
 "other CENO users* source enabled still shows \"Failed to retrieve the "
@@ -560,7 +558,7 @@ msgstr ""
 "ကွန်ရက်က ၎င်းနှင့် ချိတ်ဆက်ထားသော စက်များအကြား တိုက်ရိုက် ဆက်သွယ်ခွင့် မပြုခြင်း ဖြစ်နိုင်သည်။ ယင်းသည် "
 "အများသုံး Wi-Fi ကွန်ရက်အချို့တွင် ဖြစ်ပွားသောကြောင့် သီးသန့်ကွန်ရက်ကို အသုံးပြုကြည့်ပါ။"
 
-#: browser/troubleshooting.md:block 49 (paragraph)
+#: browser/troubleshooting.md:block 50 (paragraph)
 msgid ""
 "If the devices are in different networks, it could be due to a variety of "
 "reasons. One of them is that the network of the first device does not allow "
@@ -573,7 +571,7 @@ msgstr ""
 "ဆက်တင်များ* စာမျက်နှာကို ဖွင့်လျှင် *ရောက်ရှိနိုင်မှု အခြေအနေ* အောက်တွင် *ရောက်ရှိနိုင်သည်* သို့မဟုတ် "
 "*ရောက်ရှိနိုင်ခြေ ရှိသည်* ကို တွေ့သင့်သည်။ ထိုသို့ မဟုတ်ပါက ထိုကွန်ရက်မှ တင်ပို့ရန် မဖြစ်နိုင်ပါ။"
 
-#: browser/troubleshooting.md:block 50 (quote)
+#: browser/troubleshooting.md:block 51 (quote)
 msgid ""
 "**Technical note:** If your device reports *undecided* reachability and you "
 "can change the configuration of the access point, you may create a permanent "
@@ -584,7 +582,7 @@ msgstr ""
 "ဝင်ရောက်သုံးစွဲမှု ပွိုင့်၏ စီစဉ်သတ်မှတ်မှုကို ပြောင်းလဲနိုင်ပါက သင်သည် သင့်လက်ခံစက်ထံ အမြဲတမ်း ပေါ့တ် တစ်ဆင့်ပို့ခြင်း "
 "စည်းကမ်းကို ဖန်တီးနိုင်သည်။ နောက်ထပ် လမ်းညွှန်ချက်များအတွက် [ဤနေရာတွင်](bridging.md) ကြည့်ပါ။"
 
-#: browser/troubleshooting.md:block 50 (quote)
+#: browser/troubleshooting.md:block 51 (quote)
 msgid "[HTTPS by default]: https://github.com/Rob--W/https-by-default"
 msgstr "[HTTPS by default]: https://github.com/Rob--W/https-by-default"
 

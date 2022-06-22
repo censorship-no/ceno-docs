@@ -52,8 +52,8 @@ msgid ""
 msgstr ""
 "CENO necesita un dispositivo basado bien en ARM64, o bien en ARM32 con Neon, "
 "corriendo al menos Android 4.1 Jelly Bean, por lo que la mayoría de "
-"dispositivos móviles posteriores a finales de 2012 deberían funcionar. CENO *"
-"no requiere permisos especiales* para ejecutarse."
+"dispositivos móviles posteriores a finales de 2012 deberían funcionar. CENO "
+"*no requiere permisos especiales* para ejecutarse."
 
 #: browser/install.md:block 5 (quote)
 msgid ""
@@ -69,8 +69,8 @@ msgstr ""
 "la naturaleza de la aplicación, sus usuarios potenciales podrían tornarse en "
 "el blanco de toda clase de versiones falsas o manipuladas, usadas para "
 "violar la privacidad del usuario o atacar a otros usuarios de CENO y Ouinet. "
-"Ante la duda, por favor contacta a [cenoers@equalit."
-"ie](mailto:cenoers@equalit.ie) antes de instalar una aplicación sospechosa."
+"Ante la duda, por favor contacta a [cenoers@equalit.ie](mailto:"
+"cenoers@equalit.ie) antes de instalar una aplicación sospechosa."
 
 #: browser/install.md:block 6 (header)
 msgid "Stopping CENO completely"
@@ -129,9 +129,15 @@ msgstr ""
 "más explicación."
 
 #: browser/install.md:block 12 (quote)
+#, fuzzy
+#| msgid ""
+#| "**Note:** If the actions below the notification are not visible, drag the "
+#| "notification from its center towards the bottom to unfold it."
 msgid ""
 "**Note:** If the actions below the notification are not visible, drag the "
-"notification from its center towards the bottom to unfold it."
+"notification from its center towards the bottom to unfold it. If you can "
+"only see the *Home* action, your device may be too old to support the "
+"*Erase* action."
 msgstr ""
 "**Nota:** Si las acciones debajo de la notificación no son visibles, "
 "arrastra la notificación desde su centro hacia el fondo para desplegarla."
