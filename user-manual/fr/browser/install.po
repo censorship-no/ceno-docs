@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-06-21 13:20+0000\n"
+"PO-Revision-Date: 2022-06-23 03:05+0000\n"
 "Last-Translator: Melanie F <zelys1@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/censorship-no/"
 "browser-install/fr/>\n"
@@ -128,10 +128,6 @@ msgstr ""
 "nécessite de plus amples explications."
 
 #: browser/install.md:block 12 (quote)
-#, fuzzy
-#| msgid ""
-#| "**Note:** If the actions below the notification are not visible, drag the "
-#| "notification from its center towards the bottom to unfold it."
 msgid ""
 "**Note:** If the actions below the notification are not visible, drag the "
 "notification from its center towards the bottom to unfold it. If you can "
@@ -139,7 +135,9 @@ msgid ""
 "*Erase* action."
 msgstr ""
 "**Note :** Si les actions n'apparaissent pas sous la notification, faites-la "
-"glisser vers le bas pour la dérouler."
+"glisser vers le bas pour la dérouler. Si vous ne voyez que l'action * "
+"Accueil*, votre appareil est sans doute trop vieux pour prendre en charge "
+"l'action *Effacer*."
 
 #: browser/install.md:block 13 (paragraph)
 msgid ""
