@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2022-04-29 20:10+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
+"PO-Revision-Date: 2022-06-28 12:55+0000\n"
+"Last-Translator: Mya Myintzu Hlaing <myamyintzu10@gmail.com>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "browser-install/my/>\n"
 "Language: my\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.12.1\n"
+"X-Generator: Weblate 4.13.1-dev\n"
 
 #
 #: browser/install.md:block 1 (header)
@@ -120,18 +120,16 @@ msgstr ""
 "အများသုံး ရှာဖွေမှု တပ်ဗ်အသစ်ဖြင့် CENO ကို ဖွင့်ပါမည်။ *ဖျက်ရန်* လုပ်ဆောင်ချက်ကို ပိုမိုရှင်းပြရန် လိုအပ်သည်။"
 
 #: browser/install.md:block 12 (quote)
-#, fuzzy
-#| msgid ""
-#| "**Note:** If the actions below the notification are not visible, drag the "
-#| "notification from its center towards the bottom to unfold it."
 msgid ""
 "**Note:** If the actions below the notification are not visible, drag the "
 "notification from its center towards the bottom to unfold it. If you can "
 "only see the *Home* action, your device may be too old to support the "
 "*Erase* action."
 msgstr ""
-"**မှတ်ချက် -** အသိပေးချက်အောက်ရှိ လုပ်ဆောင်ချက်များကို မမြင်နိုင်ပါက အသိပေးချက်ကို ဖြန့်ရန် ၎င်း၏ ဗဟိုမှ "
-"အောက်ခြေဘက်သို့ ဆွဲပါ။"
+"**မှတ်ချက် -** အသိပေးချက်အောက်ရှိ လုပ်ဆောင်ချက်များကို မမြင်နိုင်ပါက "
+"အသိပေးချက်ကို ဖြန့်ရန် ၎င်း၏ ဗဟိုမှ အောက်ခြေဘက်သို့ ဆွဲပါ။ *Home* "
+"လုပ်ဆောင်ချက်ကိုသာ မြင်နိုင်ပါက၊ သင်၏စက်ပစ္စည်းသည် *Erase* လုပ်ဆောင်ချက်ကို "
+"ပံ့ပိုးရန်အတွက် အလွန်ဟောင်းနေခြင်း ဖြစ်နိုင်သည်။"
 
 #: browser/install.md:block 13 (paragraph)
 msgid ""
