@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-06-21 13:20+0000\n"
+"PO-Revision-Date: 2022-07-04 17:22+0000\n"
 "Last-Translator: Melanie F <zelys1@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/censorship-no/"
 "ceno/fr/>\n"
@@ -170,7 +170,9 @@ msgstr "[intranets nationaux] : https://en.wikipedia.org/wiki/National_intranet"
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[Firefox for Android]: https://www.mozilla.org/firefox/android/"
-msgstr "[Firefox pour Android] : https://www.mozilla.org/firefox/android/"
+msgstr ""
+"[Firefox pour Android] : https://www.mozilla.org/fr/firefox/browsers/mobile/"
+"android/"
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[eQualitie]: https://equalit.ie/"
