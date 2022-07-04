@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-07-04 17:22+0000\n"
+"PO-Revision-Date: 2022-07-04 19:22+0000\n"
 "Last-Translator: Melanie F <zelys1@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/censorship-no/"
 "ceno/fr/>\n"
@@ -48,8 +48,8 @@ msgstr ""
 "partager du contenu web même lorsqu'il n'existe aucune connectivité au-delà "
 "des frontières nationales (ou que celle-ci est très limitée). CENO a donc "
 "été conçu en prévision d'un filtrage agressif sur Internet et de la mise en "
-"place d'[intranets nationaux][intranets nationaux] pour isoler des nations "
-"du web."
+"place d'[intranets nationaux][national intranets] pour isoler des nations du "
+"web."
 
 #: intro/ceno.md:block 4 (paragraph)
 msgid ""
@@ -82,13 +82,13 @@ msgid ""
 msgstr ""
 "Le projet *Censorship.no!* a été conçu par [eQualitie][eQualitie] pour "
 "soutenir les articles 18, 19 et 20 de la [Déclaration universelle des droits "
-"de l'homme][Déclaration universelle des droits de l'homme]. CENO et ses "
-"technologies connexes sont développés sous forme de logiciel gratuit/libre/"
-"open source ([source du projet](https://github.com/censorship-no/ "
-"\"référentiels du code source de CENO\")), permettant à quiconque de "
-"l'utiliser, l'étudier, le partager et l'améliorer. Veuillez contacter "
-"[cenoers@equalit.ie](mailto:cenoers@equalit.ie) en cas de doute ou pour "
-"toute information complémentaire."
+"de l'homme][Universal Declaration of Human Rights]. CENO et ses technologies "
+"connexes sont développés sous forme de logiciel gratuit/libre/open source (["
+"source du projet](https://github.com/censorship-no/ « référentiels du code "
+"source de CENO »)), permettant à quiconque de l'utiliser, l'étudier, le "
+"partager et l'améliorer. Veuillez contacter [cenoers@equalit."
+"ie](mailto:cenoers@equalit.ie) en cas de doute ou pour toute information "
+"complémentaire."
 
 #: intro/ceno.md:block 7 (header)
 msgid "Who is it for?"
@@ -162,11 +162,11 @@ msgstr "[Censorship.no!] : https://censorship.no/"
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[P2P]: https://en.wikipedia.org/wiki/Peer-to-peer"
-msgstr "[P2P] : https://en.wikipedia.org/wiki/Peer-to-peer"
+msgstr "[P2P] : https://fr.wikipedia.org/wiki/Pair-%C3%A0-pair"
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[national intranets]: https://en.wikipedia.org/wiki/National_intranet"
-msgstr "[intranets nationaux] : https://en.wikipedia.org/wiki/National_intranet"
+msgstr "[national intranets] : https://en.wikipedia.org/wiki/National_intranet"
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[Firefox for Android]: https://www.mozilla.org/firefox/android/"
@@ -176,15 +176,15 @@ msgstr ""
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[eQualitie]: https://equalit.ie/"
-msgstr "[eQualitie] : https://equalit.ie/"
+msgstr "[eQualitie] : https://equalit.ie/fr/"
 
 #: intro/ceno.md:block 11 (quote)
 msgid ""
 "[Universal Declaration of Human Rights]: https://www.un.org/en/universal-"
 "declaration-human-rights/"
 msgstr ""
-"[Déclaration universelle des droits de l'homme] : https://www.un.org/en/"
-"universal-declaration-human-rights/"
+"[Universal Declaration of Human Rights] : https://www.un.org/fr/about-us/"
+"universal-declaration-of-human-rights"
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[ceno-repos]: https://github.com/censorship-no/"
