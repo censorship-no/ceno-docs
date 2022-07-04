@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:51+0200\n"
-"PO-Revision-Date: 2022-06-18 12:19+0000\n"
+"PO-Revision-Date: 2022-07-04 19:22+0000\n"
 "Last-Translator: Melanie F <zelys1@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/censorship-no/"
 "homepage-readme/fr/>\n"
@@ -51,7 +51,7 @@ msgstr "[Censorship.no!] : https://censorship.no/"
 
 #: README.md:block 3 (paragraph)
 msgid "[eQualitie]: https://equalit.ie/"
-msgstr "[eQualitie] : https://equalit.ie/"
+msgstr "[eQualitie] : https://equalit.ie/fr/"
 
 #: README.md:block 3 (paragraph)
 msgid ""
