@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-06-19 11:52+0000\n"
+"PO-Revision-Date: 2022-07-04 19:22+0000\n"
 "Last-Translator: Melanie F <zelys1@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/censorship-no/"
 "client-front-end/fr/>\n"
@@ -66,7 +66,7 @@ msgstr ""
 "Vous n'en aurez besoin que lors de l'utilisation d'un navigateur classique "
 "pour tester le client Ouinet, auquel cas vous devrez également configurer "
 "ses proxy HTTP/HTTPS sur `127.0.0.1:8077`, et activer manuellement l'["
-"Extension CENO][Extension CENO] pour que l'injection fonctionne. Nous vous "
+"Extension CENO][CENO Extension] pour que l'injection fonctionne. Nous vous "
 "recommandons vivement d'utiliser un *profil de navigateur spécifique, "
 "distinct* pour cela."
 
@@ -154,5 +154,4 @@ msgstr ""
 
 #: client/front-end.md:block 6 (unordered list)
 msgid "[CENO Extension]: https://github.com/censorship-no/ceno-ext-settings/"
-msgstr ""
-"[Extension de CENO] : https://github.com/censorship-no/ceno-ext-settings/"
+msgstr "[CENO Extension] : https://github.com/censorship-no/ceno-ext-settings/"
