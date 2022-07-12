@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-06-02 13:34+0000\n"
+"PO-Revision-Date: 2022-07-13 11:19+0000\n"
 "Last-Translator: Vitalii Moroz <vitaliy.moroz@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-settings/uk/>\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.13-dev\n"
+"X-Generator: Weblate 4.14-dev\n"
 
 #: browser/settings.md:block 1 (header)
 msgid "CENO settings"
@@ -290,6 +290,12 @@ msgid ""
 "ports) to set or add your own, then choose *Save*. The changes will be "
 "applied the next time that your Ouinet client is started."
 msgstr ""
+"*Додаткові завантажувальні сервери BitTorrent* — це сервери, які допомагають "
+"вашому пристрою підключитися до мережі BitTorrent, якщо стандартні не "
+"працюють. Також додаються до звітів. Ви можете відредагувати розділений "
+"пробілами список хостів (з додатковими портами), аби встановити чи додати "
+"свій власний, а потім виберіть *Зберегти*. Зміни будуть застосовані під час "
+"наступного запуску клієнта Ouinet."
 
 #: browser/settings.md:block 13 (unordered list)
 msgid ""
