@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-29 20:10+0000\n"
+"PO-Revision-Date: 2022-07-16 15:19+0000\n"
 "Last-Translator: Kian <kian@tahgheegh.com>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-troubleshooting/fa/>\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.12.1\n"
+"X-Generator: Weblate 4.14-dev\n"
 
 #
 #: browser/troubleshooting.md:block 1 (header)
@@ -114,14 +114,6 @@ msgstr ""
 "آن از دستگاه شما بوده است."
 
 #: browser/troubleshooting.md:block 14 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "When you launch CENO, the state may read `starting` for a few seconds; "
-#| "this is normal. However, if the state remains `starting` for too long, it "
-#| "may be a signal of serious connectivity issues that preclude the "
-#| "application from reaching the BitTorrent network. Please check your "
-#| "network connection and try restarting CENO. If you have a working "
-#| "connection but the state remains `starting`, please contact us."
 msgid ""
 "When you launch CENO, the state may read `starting` for a few seconds; this "
 "is normal. However, if the state remains `starting` for too long, it may be "
@@ -131,12 +123,13 @@ msgid ""
 "`starting`, please contact us (especially if the state was `started` in some "
 "previous run)."
 msgstr ""
-"وقتی CENO را راه‌اندازی می‌کنید، ممکن است وضعیت برای چند ثانیه در حالت «شروع» "
-"باشد. این طبیعی است با این حال، اگر وضعیت برای مدت طولانی در حالت \"شروع\" "
+"وقتی CENO را راه‌اندازی می‌کنید، ممکن است وضعیت برای چند ثانیه در حالت «شروع»"
+" باشد. این طبیعی است با این حال، اگر وضعیت برای مدت طولانی در حالت \"شروع\" "
 "باقی بماند، ممکن است سیگنالی از مشکلات جدی اتصال باشد که مانع از دسترسی "
 "برنامه به شبکه BitTorrent می شود. لطفاً اتصال شبکه خود را بررسی کنید و CENO "
 "را مجدداً راه اندازی کنید. اگر اتصال فعال دارید اما وضعیت همچنان در حالت "
-"\"شروع\" است، لطفاً با ما تماس بگیرید."
+"\"شروع\" است، لطفاً با ما تماس بگیرید (به‌ویژه اگر وضعیت در اجراهای قبلی در "
+"حالت «شروع‌شده» یا Started  باشد)"
 
 #: browser/troubleshooting.md:block 15 (paragraph)
 msgid ""
@@ -150,16 +143,12 @@ msgid ""
 msgstr ""
 
 #: browser/troubleshooting.md:block 16 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "If you see some other state, there may be some internal error in the "
-#| "Ouinet client. Please report the issue to us."
 msgid ""
 "If you ever see some other state, there may be some internal error in the "
 "Ouinet client. Please report the issue to us."
 msgstr ""
-"اگر وضعیت دیگری را مشاهده کردید، ممکن است یک خطای داخلی در سرویس‌گیرنده "
-"Ouinet وجود داشته باشد. لطفا مشکل را به ما گزارش دهید."
+"اگر همواره وضعیت دیگری را مشاهده کردید، ممکن است یک خطای داخلی در سرویس‌"
+"گیرنده Ouinet وجود داشته باشد. لطفا مشکل را به ما گزارش دهید."
 
 #: browser/troubleshooting.md:block 17 (header)
 msgid "Accessing some content shows \"Failed to retrieve the resource\""
