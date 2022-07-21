@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-10 11:02+0200\n"
-"PO-Revision-Date: 2022-06-28 12:55+0000\n"
+"PO-Revision-Date: 2022-07-14 16:19+0000\n"
 "Last-Translator: Mya Myintzu Hlaing <myamyintzu10@gmail.com>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "browser-troubleshooting/my/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.13.1-dev\n"
+"X-Generator: Weblate 4.14-dev\n"
 
 #
 #: browser/troubleshooting.md:block 1 (header)
@@ -158,8 +158,8 @@ msgid ""
 "Ouinet client. Please report the issue to us."
 msgstr ""
 "အကယ်၍ အခြားသောအခြေအနေများကို မြင်ရပါက Ouinet သုံးစွဲသူတွင် "
-"စက်တွင်းပြဿနာတစ်ခုခုရှိနေခြင်း ဖြစ်နိုင်သည်။ ‌ကျေးဇူးပြုပြီး ကျွန်ုပ်တို့ကို "
-"ပြဿနာအကြောင်း ပြောပြပေးပါ။"
+"စက်တွင်းပြဿနာတစ်ခုခုရှိနေခြင်း ဖြစ်နိုင်သည်။ ‌ကျေးဇူးပြုပြီး ကျွန်ုပ်တို့အား "
+"ပြဿနာအကြောင်းကို ပြောပြပေးပါ။"
 
 #: browser/troubleshooting.md:block 17 (header)
 msgid "Accessing some content shows \"Failed to retrieve the resource\""

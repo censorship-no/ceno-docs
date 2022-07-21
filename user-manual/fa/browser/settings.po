@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-29 20:10+0000\n"
+"PO-Revision-Date: 2022-07-19 11:19+0000\n"
 "Last-Translator: Kian <kian@tahgheegh.com>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-settings/fa/>\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.12.1\n"
+"X-Generator: Weblate 4.14-dev\n"
 
 #
 #: browser/settings.md:block 1 (header)
@@ -292,6 +292,12 @@ msgid ""
 "ports) to set or add your own, then choose *Save*. The changes will be "
 "applied the next time that your Ouinet client is started."
 msgstr ""
+"*بوت‌استرپ‌های اضافی بیت‌تورنت* سرورهایی هستند که برای کمک به دستگاه شما "
+"برای ورود به شبکه بیت‌تورنت استفاده می‌شوند، در صورتی که موارد پیش‌فرض "
+"عملکرد درستی نداشته باشند. همچنین در بازخوردها و گزارش‌ها گنجانده شود. می‌"
+"توانید فهرستی از لیست جداگانه هاست‌ها (با درگاه‌های اختیاری) را ویرایش کنید "
+"تا تنظیمات خودتان اعمال شود، سپس گزینه *ذخیره‌سازی* را انتخاب کنید. نوبت "
+"بعدی که سرویس گیرنده Ouinet شما راه‌ افتاد، تغییرات اعمال خواهند شد."
 
 #: browser/settings.md:block 13 (unordered list)
 msgid ""
