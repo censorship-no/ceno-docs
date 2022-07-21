@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-03-12 20:56+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
+"PO-Revision-Date: 2022-06-23 03:05+0000\n"
+"Last-Translator: Melanie F <zelys1@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/censorship-no/"
 "browser-install/fr/>\n"
 "Language: fr\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.12-dev\n"
+"X-Generator: Weblate 4.13.1-dev\n"
 
 #
 #: browser/install.md:block 1 (header)
@@ -17,10 +17,8 @@ msgid "Installing CENO"
 msgstr "Installation de CENO"
 
 #: browser/install.md:block 2 (paragraph)
-#, fuzzy
-#| msgid "The CENO Browser can be installed via the following means:"
 msgid "CENO Browser can be installed via the following means:"
-msgstr "Le navigateur CENO peut être installé via lee méthodes suivantes :"
+msgstr "Le navigateur CENO peut être installé par les moyens suivants :"
 
 #: browser/install.md:block 3 (unordered list)
 msgid ""
@@ -35,16 +33,12 @@ msgid "[GitHub][ceno-gh]: for Android devices without Google Play."
 msgstr "[GitHub][ceno-gh]: pour les appareils Android sans Google Play."
 
 #: browser/install.md:block 3 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "[Paskoocheh](https://paskoocheh.com/tools/124/android.html): for users in "
-#| "countries blocking access to the previous channels."
 msgid ""
 "[Paskoocheh][ceno-pask]: for users in countries blocking access to the "
 "previous channels."
 msgstr ""
-"[Paskoocheh](https://paskoocheh.com/tools/124/android.html) : pour les "
-"utilisateurs des pays qui bloquent l’accès aux chaînes précédentes."
+"[Paskoocheh][ceno-pask] : pour les utilisateurs des pays bloquant l’accès "
+"aux canaux précédents."
 
 #: browser/install.md:block 4 (paragraph)
 msgid ""
@@ -52,17 +46,13 @@ msgid ""
 "4.1 Jelly Bean, thus most mobile devices released from late 2012 onward "
 "should work. CENO needs *no special permissions* to run."
 msgstr ""
+"CENO nécessite un appareil ARM64 ou ARM32 compatible avec Neon, fonctionnant "
+"sous la version 4.1 Jelly Bean ou supérieure d'Android. Par conséquent, la "
+"plupart des appareils mobiles sortis à partir de fin 2012 devraient être "
+"compatibles. CENO ne nécessite aucune permission particulière pour "
+"fonctionner."
 
 #: browser/install.md:block 5 (quote)
-#, fuzzy
-#| msgid ""
-#| "**Warning:** Please be *extremely skeptical* about installing the CENO "
-#| "Browser from sources other than the ones listed above. Because of the "
-#| "application's nature, their potential users may become a target for all "
-#| "kinds of fake or manipulated versions used to violate the user's privacy "
-#| "or attack other CENO and Ouinet users. If in doubt, please contact "
-#| "[cenoers@equalit.ie](mailto:cenoers@equalit.ie) before installing a "
-#| "suspicious app."
 msgid ""
 "**Warning:** Please be *extremely skeptical* about installing CENO Browser "
 "from sources other than the ones listed above. Because of the application's "
@@ -71,13 +61,13 @@ msgid ""
 "Ouinet users. If in doubt, please contact [cenoers@equalit.ie](mailto:"
 "cenoers@equalit.ie) before installing a suspicious app."
 msgstr ""
-"**Avertissement :** Veuillez être *extrêmement prudent·e* quant à "
-"l'installation du navigateur CENO à partir de sources autres que celles "
-"énumérées ci-dessus. En raison de la nature de l'application, leurs "
-"utilisateurs potentiels peuvent devenir la cible de toutes sortes de "
-"versions falsifiées ou manipulées utilisées pour violer la vie privée de "
-"l'utilisateur ou attaquer d'autres utilisateurs de CENO et Ouinet. En cas de "
-"doute, veuillez contacter [cenoers@equalit.ie](mailto:cenoers@equalit.ie) "
+"**Avertissement :** Veillez à être *extrêmement prudent·e* concernant "
+"l'installation du navigateur CENO à partir de sources différentes de celles "
+"énumérées précédemment. En raison de la nature de l'application, les "
+"potentiels utilisateurs peuvent devenir la cible de toutes sortes de "
+"versions falsifiées ou manipulées, utilisées pour enfreindre la vie privée "
+"de l'utilisateur ou attaquer d'autres utilisateurs de CENO et Ouinet. En cas "
+"de doute, veuillez contacter [cenoers@equalit.ie](mailto:cenoers@equalit.ie) "
 "avant d'installer une application suspecte."
 
 #: browser/install.md:block 6 (header)
@@ -85,13 +75,6 @@ msgid "Stopping CENO completely"
 msgstr "Arrêter complètement CENO"
 
 #: browser/install.md:block 7 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Every time that you start the app a CENO icon will appear on your "
-#| "device's notification bar. This icon represents the *CENO Browser "
-#| "service*, which is the part of CENO that runs permanently (even when you "
-#| "are not browsing) and allows other clients to use your device as a bridge "
-#| "and retrieve content from it at any time."
 msgid ""
 "Every time you start the app, a CENO icon will appear on your device's "
 "notification bar. This icon represents the *CENO Browser service*, which is "
@@ -99,11 +82,11 @@ msgid ""
 "allows other clients to use your device as a bridge and retrieve content "
 "from it at any time."
 msgstr ""
-"Chaque fois que vous démarrez l’application, une icône CENO apparaît sur la "
-"barre de notification de votre appareil. Cette icône représente le service "
-"*Navigateur CENO*, qui est la partie de CENO qui s’exécute en permanence "
-"(même lorsque vous ne naviguez pas) et permet à d’autres clients d’utiliser "
-"votre appareil comme un pont et d’en récupérer le contenu à tout moment."
+"À chaque démarrage de l’application, une icône CENO apparaît dans la barre "
+"de notification de votre appareil. Cette icône représente les *services du "
+"navigateur CENO*, qui restent actifs même lorsque vous ne naviguez pas. Cela "
+"permet à d’autres clients d’utiliser votre appareil comme passerelle pour en "
+"récupérer le contenu à tout moment."
 
 #: browser/install.md:block 8 (paragraph)
 msgid ""
@@ -112,24 +95,24 @@ msgid ""
 "far from a charger). Tapping on the notification attached to the icon will "
 "stop both CENO and its service at once (until you open CENO again)."
 msgstr ""
-"Étant donné que l’exécution de ce service utilise les ressources du réseau "
-"et du processeur, vous voudrez peut-être l’arrêter lorsque vous êtes en "
-"déplacement (c’est-à-dire lorsque vous n’êtes pas connecté·e en Wi-Fi ou "
-"lorsque vous êtes loin d’un chargeur). En cliquant sur la notification "
-"attachée à l’icône, vous arrêterez à la fois CENO et son service (jusqu’à ce "
-"que vous ouvriez à nouveau la CENO)."
+"Étant donné que le fonctionnement de ce service utilise les ressources du "
+"réseau et du processeur, vous aurez sans doute besoin de le suspendre "
+"lorsque vous êtes en déplacement (en l'absence de connexion Wi-Fi ou sans "
+"chargeur à proximité). En cliquant sur la notification en regard de l’icône, "
+"vous arrêterez à la fois CENO et son service (jusqu’à la prochaine ouverture "
+"de CENO)."
 
 #: browser/install.md:block 9 (paragraph)
 msgid ""
 "![Figure: Tap on the notification to stop the CENO service](images/tap-stop."
 "png)"
 msgstr ""
-"![Figure : Tapez sur la notification pour arrêter le service CENO](images/"
+"![Visuel : Cliquez sur la notification pour arrêter le service CENO](images/"
 "tap-stop.png)"
 
 #: browser/install.md:block 10 (header)
 msgid "Purging all CENO data (the \"panic button\")"
-msgstr "Purger toutes les données CENO (le « Bouton de panique »)"
+msgstr "Purge de toutes les données CENO (le \" Bouton d'urgence \")"
 
 #: browser/install.md:block 11 (paragraph)
 msgid ""
@@ -138,19 +121,23 @@ msgid ""
 "action will just open CENO with a new public browsing tab showing its home "
 "page. The *Erase* action demands more explanation."
 msgstr ""
-"La notification du service *Navigateur CENO* présentée ci-dessus comprend "
-"quelques actions d’accompagnement qui peuvent être déclenchées en appuyant "
-"dessus. L’action *Accueil* ouvrira simplement CENO avec un nouvel onglet de "
-"navigation publique affichant sa page d’accueil. L’action *Effacer* demande "
-"plus d’explications."
+"La notification des *services du navigateur CENO*, présentée ci-dessus, "
+"contient des actions complémentaires à déclencher en appuyant dessus. "
+"L’action *Accueil* ouvrira simplement un nouvel onglet de navigation "
+"publique dans CENO, affichant sa page d’accueil. L’action *Effacer* "
+"nécessite de plus amples explications."
 
 #: browser/install.md:block 12 (quote)
 msgid ""
 "**Note:** If the actions below the notification are not visible, drag the "
-"notification from its center towards the bottom to unfold it."
+"notification from its center towards the bottom to unfold it. If you can "
+"only see the *Home* action, your device may be too old to support the "
+"*Erase* action."
 msgstr ""
-"**Note :** Si les actions sous la notification ne sont pas visibles, faites "
-"glisser la notification de son centre vers le bas pour la déplier."
+"**Note :** Si les actions n'apparaissent pas sous la notification, faites-la "
+"glisser vers le bas pour la dérouler. Si vous ne voyez que l'action * "
+"Accueil*, votre appareil est sans doute trop vieux pour prendre en charge "
+"l'action *Effacer*."
 
 #: browser/install.md:block 13 (paragraph)
 msgid ""
@@ -169,16 +156,12 @@ msgstr ""
 "comme illustré ci-dessous:"
 
 #: browser/install.md:block 14 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "![Figure: Tap on the notification to stop the CENO service](images/tap-"
-#| "stop.png)"
 msgid ""
 "![Figure: The last action stops CENO and clears all its data](images/tap-"
 "purge.png)"
 msgstr ""
-"![Figure : Tapez sur la notification pour arrêter le service CENO](images/"
-"tap-stop.png)"
+"![Visuel : La confirmation arrête CENO et efface toutes ses données](images/"
+"tap-purge.png)"
 
 #: browser/install.md:block 15 (paragraph)
 msgid ""
@@ -186,10 +169,15 @@ msgid ""
 "removed *without further questions*, effectively leaving your device as if "
 "CENO had never been used."
 msgstr ""
+"Si vous appuyez sur *Oui*, CENO s'arrêtera et toutes ses données seront "
+"supprimées *sans délai*, comme si CENO n'avait jamais été utilisé sur votre "
+"appareil."
 
 #: browser/install.md:block 16 (paragraph)
 msgid "If you do not tap on the action, it will go away in a few seconds."
 msgstr ""
+"Si vous ne confirmez pas cette action, elle disparaîtra au bout de quelques "
+"secondes."
 
 #: browser/install.md:block 17 (quote)
 msgid ""
@@ -198,16 +186,25 @@ msgid ""
 "Android's general *Settings* page and, under the *Apps* entry, choose CENO "
 "and then *Clear data*."
 msgstr ""
+"**Remarque :** Cette méthode sous-entend que CENO soit ouvert sur votre "
+"appareil. Pour arriver au même résultat lorsque CENO est arrêté, vous devez "
+"vous rendre dans *Paramètres* généraux d'Android, sélectionner CENO parmi "
+"les *Applications*, puis *Effacer les données*."
 
 #: browser/install.md:block 17 (quote)
 msgid "As a harsher alternative, you may completely uninstall the app."
 msgstr ""
+"La méthode la plus radicale consiste à désinstaller complètement "
+"l'application."
 
 #: browser/install.md:block 18 (quote)
 msgid ""
 "**Warning:** Android may still keep other traces of having used an app "
 "besides its data, for instance in its system log."
 msgstr ""
+"**Attention :** Android peut éventuellement conserver des traces de "
+"l'utilisation d'une application, en dehors de ses données, dans son journal "
+"système par exemple."
 
 #: browser/install.md:block 18 (quote)
 msgid ""
@@ -221,7 +218,7 @@ msgstr "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
 
 #: browser/install.md:block 18 (quote)
 msgid "[ceno-pask]: https://paskoocheh.com/tools/124/android.html"
-msgstr ""
+msgstr "[ceno-pask] : https://paskoocheh.com/tools/124/android.html"
 
 #~ msgid "CENO requires *no special permissions* to run."
 #~ msgstr "CENO ne nécessite *aucune autorisation spéciale* pour fonctionner."

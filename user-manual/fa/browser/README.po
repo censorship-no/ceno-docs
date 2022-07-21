@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-05-03 21:22+0000\n"
+"PO-Revision-Date: 2022-06-28 12:55+0000\n"
 "Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-readme/fa/>\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.12.1\n"
+"X-Generator: Weblate 4.13.1-dev\n"
 
 #
 #: browser/README.md:block 1 (header)
@@ -35,12 +35,12 @@ msgid ""
 "When relevant, screen captures will be included to illustrate the text. "
 "Please note that these may slightly differ from what you see on your device, "
 "especially as CENO development progresses. This documentation is up to date "
-"for CENO version 1.5.0."
+"for CENO version 1.6.0."
 msgstr ""
 "در صورت لزوم، تصاویری که از صفحه گرفته می‌شود، برای مفهوم‌تر کردن متن "
 "گنجانده خواهند شد. لطفاً توجه کنید که این‌ها ممکن است تفاوت‌های اندکی با آن‌"
 "چه شما روی دستگاه‌تان می‌بینید، داشته باشند، به‌ویژه در جریان توسعه و پیشرفت "
-"CENO. این سند برای نسخه‌ی 1.5.0 CENO به‌روز است."
+"CENO. این سند برای نسخه‌ی 1.6.0 CENO به‌روز است."
 
 #: browser/README.md:block 4 (paragraph)
 msgid ""

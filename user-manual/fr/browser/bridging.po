@@ -3,20 +3,21 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2021-03-05 19:50+0000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-07-04 17:22+0000\n"
+"Last-Translator: Melanie F <zelys1@gmail.com>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/censorship-no/"
+"browser-bridging/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.5.1-dev\n"
+"X-Generator: Weblate 4.13.1-dev\n"
 
 #
 #: browser/bridging.md:block 1 (header)
 msgid "Helping other CENO users browse the Web"
-msgstr ""
+msgstr "Aider les autres utilisateurs de CENO à naviguer sur le web"
 
 #: browser/bridging.md:block 2 (paragraph)
 msgid ""
@@ -30,6 +31,16 @@ msgid ""
 "through an encrypted tunnel), nor will any of this traffic remain on your "
 "device."
 msgstr ""
+"Un réseau peer-to-peer se construit à partir de chaque nœud qui y est "
+"connecté (oui, y compris vous !). Plus il y a de nœuds, plus le réseau se "
+"renforce et devient polyvalent. Si vous utilisez le navigateur CENO dans un "
+"pays qui ne pratique pas la censure sur Internet (ou dans une moindre mesure "
+"que certains), vous pouvez aider les autres utilisateurs de CENO en devenant "
+"un nœud **passerelle**. Vous commencerez alors à acheminer le trafic entre "
+"les clients vivant dans des pays fortement censurés et les injecteurs de "
+"CENO. Vous ne serez pas en mesure de voir leur trafic (qui sera transmis à "
+"travers un tunnel crypté), et aucune trace de ce trafic ne restera dans "
+"votre appareil."
 
 #: browser/bridging.md:block 3 (quote)
 msgid ""
@@ -39,10 +50,15 @@ msgid ""
 "(but keep in mind the [risks](../concepts/risks.md) of serving such content "
 "to others)."
 msgstr ""
+"**Remarque :** La configuration décrite dans cette section peut aussi aider "
+"votre appareil à transmettre efficacement du contenu aux autres sur le cache "
+"distribué. Pensez donc à l'appliquer lorsque vous utilisez CENO dans un pays "
+"qui pratique la censure (mais gardez à l'esprit les [risques](../concepts/"
+"risks.md) liés à la diffusion de ce contenu à d'autres personnes)."
 
 #: browser/bridging.md:block 4 (header)
 msgid "How to become a CENO bridge"
-msgstr ""
+msgstr "Comment devenir une passerelle CENO"
 
 #: browser/bridging.md:block 5 (paragraph)
 msgid ""
@@ -51,6 +67,10 @@ msgid ""
 "port forwarding configured for CENO. See the next sections for further "
 "details."
 msgstr ""
+"Cette fonctionnalité est déjà intégrée au navigateur CENO. Votre appareil "
+"devra être connecté à un réseau Wi-Fi dont l'UPnP est activé ou dont la "
+"redirection de port explicite est configurée pour CENO. Voir les sections "
+"suivantes pour plus de détails."
 
 #: browser/bridging.md:block 6 (paragraph)
 msgid ""
@@ -58,6 +78,9 @@ msgid ""
 "a proper bridge while you are actively using it, as power-saving features "
 "will throttle the operation of CENO otherwise."
 msgstr ""
+"Toutefois, veuillez noter qu'Android n'autorisera votre appareil mobile à "
+"faire office de passerelle que lorsque vous l'utilisez activement. À défaut, "
+"les fonctions d'économie d'énergie limiteront le fonctionnement de CENO."
 
 #: browser/bridging.md:block 7 (quote)
 msgid ""
@@ -70,20 +93,32 @@ msgid ""
 "interfere with CENO; please check [Don't kill my app!][Don't kill my app!] "
 "for your device's brand."
 msgstr ""
+"**Note technique :** Ceci est principalement lié au [mode "
+"Doze](https://developer.android.com/training/monitoring-device-state/doze-"
+"standby « Android Developers - Optimize for Doze and App Standby ») "
+"d'Android, qui ralentit le fonctionnement de la bibliothèque native Ouinet. "
+"Malheureusement, la désactivation de l'optimisation de la batterie pour CENO "
+"ne semble pas agir sur Ouinet. Votre appareil peut également inclure ses "
+"propres fonctions d'économie d'énergie qui peuvent interférer avec CENO ; "
+"veuillez consulter les informations de [Don't kill my app!][Don't kill my "
+"app!] concernant la marque de votre appareil."
 
 #: browser/bridging.md:block 8 (paragraph)
 msgid ""
 "Thus if you intend to have CENO acting as a permanent, always-reachable "
 "bridge, besides a properly configured Wi-Fi network you will need to:"
 msgstr ""
+"Ainsi, si vous souhaitez que CENO agisse comme une passerelle permanente, "
+"toujours joignable, en plus d'un réseau Wi-Fi correctement configuré, il "
+"vous sera nécessaire de :"
 
 #: browser/bridging.md:block 9 (ordered list)
 msgid "Have your device plugged in to power at all times."
-msgstr ""
+msgstr "Gardez votre appareil constamment branché sur le secteur."
 
 #: browser/bridging.md:block 9 (ordered list)
 msgid "Have the device's screen on at all times."
-msgstr ""
+msgstr "Gardez l'écran de l'appareil allumé en permanence."
 
 #: browser/bridging.md:block 9 (ordered list)
 msgid ""
@@ -94,6 +129,13 @@ msgid ""
 "select *While charging* or *Either*. A very dimmed down clock will appear on "
 "a black background while the device is not active."
 msgstr ""
+"Un moyen pratique d'y parvenir sans consommer beaucoup d'énergie et sans "
+"éclairage permanent est d'utiliser l'économiseur d'écran d'Android : activez-"
+"le dans *Paramètres / Affichage / Économiseur d'écran* (ou *Daydream* dans "
+"certaines versions), choisissez le widget *Horloge*, sélectionnez *Quand "
+"activer l'économiseur d'écran* dans le menu, puis *En charge* ou *Dans les "
+"deux cas*. Une horloge estompée apparaîtra sur fond noir pour indiquer que "
+"l'appareil est inactif."
 
 #: browser/bridging.md:block 9 (ordered list)
 msgid ""
@@ -101,6 +143,9 @@ msgid ""
 "this will turn the screen off. Instead, just wait for the device to lock "
 "itself with the screen on."
 msgstr ""
+"Veuillez noter que vous ne devez pas utiliser le bouton d'alimentation pour "
+"verrouiller l'appareil, car cela éteindrait l'écran. Attendez plutôt que "
+"l'appareil se verrouille de lui-même avec l'écran allumé."
 
 #: browser/bridging.md:block 10 (paragraph)
 msgid ""
@@ -108,10 +153,14 @@ msgid ""
 "computer with good connectivity that stays on most of the time, please "
 "continue reading."
 msgstr ""
+"Si cette configuration n'est pas envisageable dans votre cas, ne vous "
+"découragez pas pour autant ! Si vous avez un ordinateur avec une bonne "
+"connectivité, qui reste allumé la plupart du temps, veuillez continuez la "
+"lecture de cette section."
 
 #: browser/bridging.md:block 11 (header)
 msgid "Running a bridge on a computer"
-msgstr ""
+msgstr "Mettre en place une passerelle sur un ordinateur"
 
 #: browser/bridging.md:block 12 (paragraph)
 msgid ""
@@ -121,6 +170,12 @@ msgid ""
 "[docker-install] in your platform. For Debian derivatives like Ubuntu or "
 "Linux Mint, you can just run: `sudo apt install docker.io`"
 msgstr ""
+"Si votre ordinateur prend en charge les [conteneurs Docker][docker], vous "
+"pouvez faire fonctionner un client CENO préconfiguré qui fera office de "
+"passerelle. Si Docker n'est pas encore installé, veuillez suivre les "
+"instructions pour [installer le moteur Docker][docker-install] sur votre "
+"plateforme. Pour les dérivés de Debian, comme Ubuntu ou Linux Mint, vous "
+"pouvez simplement exécuter : `sudo apt install docker.io`"
 
 #: browser/bridging.md:block 13 (paragraph)
 msgid ""
@@ -128,12 +183,17 @@ msgid ""
 "on a terminal (it looks scary but you can just copy and paste it as is on "
 "the command line):"
 msgstr ""
+"Pour lancer un conteneur client CENO, il vous suffit d'exécuter la commande "
+"suivante dans un terminal (elle a l'air effrayante, mais vous pouvez "
+"simplement la copier et la coller) :"
 
 #: browser/bridging.md:block 15 (paragraph)
 msgid ""
 "If your computer is not based on GNU/Linux, the command needs to be slightly "
 "different:"
 msgstr ""
+"Si votre ordinateur n'est pas basé sur GNU/Linux, la commande sera "
+"légèrement différente :"
 
 #: browser/bridging.md:block 17 (paragraph)
 msgid ""
@@ -142,6 +202,10 @@ msgid ""
 "Docker client documentation][ceno-client-doc] for more information on how to "
 "manipulate the container."
 msgstr ""
+"La commande lancera un conteneur nommé `ceno-client` qui s'exécutera à "
+"chaque démarrage, à moins que vous lui demandiez expressément de s'arrêter. "
+"Veuillez consulter la [documentation Docker du client CENO][ceno-client-doc] "
+"pour plus d'informations sur la façon de manipuler le conteneur."
 
 #: browser/bridging.md:block 18 (quote)
 msgid ""
@@ -149,10 +213,13 @@ msgid ""
 "access that page, open instead the [client front-end](../client/front-end."
 "md), which contains mostly equivalent information."
 msgstr ""
+"**Note :** Ce client n'a pas de *Paramètres CENO* : lorsqu'il vous est "
+"demandé plus bas d'accéder à cette page, ouvrez plutôt le [front-end du "
+"client](../client/front-end.md), qui contient des informations équivalentes."
 
 #: browser/bridging.md:block 19 (header)
 msgid "Enabling UPnP on your Wi-Fi router"
-msgstr ""
+msgstr "Activer l'UPnP sur votre routeur Wi-Fi"
 
 #: browser/bridging.md:block 20 (paragraph)
 msgid ""
@@ -160,6 +227,10 @@ msgid ""
 "client) reachable to the CENO network. The [CENO Settings](settings.md) page "
 "will indicate the UPnP status on your local network."
 msgstr ""
+"[UPnP][UPnP] est le moyen le plus simple de rendre votre navigateur CENO (ou "
+"le client de votre ordinateur) accessible au réseau CENO. La page ["
+"Paramètres de CENO](settings.md) vous indiquera l'état de l'UPnP sur votre "
+"réseau local."
 
 #: browser/bridging.md:block 21 (quote)
 msgid ""
@@ -167,32 +238,42 @@ msgid ""
 "network to external interference. Please make yourself [aware of the risks]"
 "[upnp-risks] and also consider using alternative methods as explained below."
 msgstr ""
+"**Remarque :** L'activation d'UPnP sur le routeur Wi-Fi peut exposer les "
+"périphériques de votre réseau à des interférences externes. Veuillez prendre "
+"[conscience des risques][upnp-risks] et envisager l'utilisation de méthodes "
+"alternatives comme expliqué ci-dessous."
 
 #: browser/bridging.md:block 22 (paragraph)
 msgid ""
 "A status like the one below indicates that UPnP is not available or not "
 "working on your WiFi router:"
 msgstr ""
+"Un état comme celui ci-dessous indique que l'UPnP n'est pas disponible ou ne "
+"fonctionne pas sur votre routeur WiFi :"
 
 #: browser/bridging.md:block 23 (quote)
 msgid "**Reachability status**"
-msgstr ""
+msgstr "**État d'accessibilité**"
 
 #: browser/bridging.md:block 23 (quote)
 msgid "**UPnP status**"
-msgstr ""
+msgstr "**État de l'UPnP**"
 
 #: browser/bridging.md:block 24 (paragraph)
 msgid ""
 "The status below indicates that UPnP is likely working and CENO is currently "
 "verifying connectivity:"
 msgstr ""
+"L'état ci-dessous indique que l'UPnP fonctionne probablement et que CENO est "
+"en train de vérifier la connectivité :"
 
 #: browser/bridging.md:block 26 (paragraph)
 msgid ""
 "The status below indicates that UPnP is working and you can bridge "
 "connections for other CENO users:"
 msgstr ""
+"L'état ci-dessous indique que l'UPnP fonctionne et que vous pouvez établir "
+"des connexions pour d'autres utilisateurs de CENO :"
 
 #: browser/bridging.md:block 28 (quote)
 msgid ""
@@ -205,6 +286,15 @@ msgid ""
 "get a public address on your router or to establish port forwardings to the "
 "external endpoint."
 msgstr ""
+"**Remarque :** Même si l'UPnP fonctionne, votre routeur peut ne pas être "
+"joignable de l'extérieur. Cela peut être le cas lorsque les *Paramètres de "
+"CENO* signalent des *Endpoints UDP externes* similaires aux adresses "
+"[CGNAT][CGNAT] `100.X.Y.Z:N` avec X compris entre 64 et 127 (de plus en plus "
+"fréquent chez les FAI domestiques), ou aux adresses privées `10.X.Y.Z:N`, "
+"`172.X.Y.Z:N` avec X compris entre 16 et 31, et `192.168.X.Y:N`. Si c'est le "
+"cas, veuillez contacter votre FAI ou votre administrateur réseau pour "
+"obtenir une adresse publique sur votre routeur ou pour créer des "
+"redirections de port vers l'endpoint externe."
 
 #: browser/bridging.md:block 29 (paragraph)
 msgid ""
@@ -212,46 +302,57 @@ msgid ""
 "features. Herein a list of some manufacturers' instructions for enabling "
 "UPnP:"
 msgstr ""
+"Il existe de nombreux routeurs Wi-Fi sur le marché et chacun possède ses "
+"propres caractéristiques. Voici une liste des consignes de certains "
+"fabricants pour activer l'UPnP :"
 
 #: browser/bridging.md:block 30 (unordered list)
 msgid "[Linksys](https://www.linksys.com/us/support-article?articleNum=138290)"
-msgstr ""
+msgstr "[Linksys](https://www.linksys.com/fr/support-article?articleNum=138290)"
 
 #: browser/bridging.md:block 30 (unordered list)
 msgid ""
 "[D-Link](https://eu.dlink.com/uk/en/support/faq/routers/wired-routers/di-"
 "series/how-do-i-enable-upnp-on-my-router)"
 msgstr ""
+"[D-Link](https://eu.dlink.com/uk/en/support/faq/routers/wired-routers/"
+"di-series/how-do-i-enable-upnp-on-my-router)"
 
 #: browser/bridging.md:block 30 (unordered list)
 msgid "[Huawei](https://consumer.huawei.com/ph/support/content/en-us00275342/)"
-msgstr ""
+msgstr "[Huawei](https://consumer.huawei.com/fr/support/content/fr-fr15806294/)"
 
 #: browser/bridging.md:block 30 (unordered list)
 msgid ""
 "[Xfinity](https://www.xfinity.com/support/articles/configure-device-"
 "discovery-for-wifi)"
 msgstr ""
+"[Xfinity](https://www.xfinity.com/support/articles/configure-device-"
+"discovery-for-wifi)"
 
 #: browser/bridging.md:block 30 (unordered list)
 msgid "[TP-Link](https://community.tp-link.com/us/home/kb/detail/348)"
-msgstr ""
+msgstr "[TP-Link](https://www.tp-link.com/fr/support/faq/1543/)"
 
 #: browser/bridging.md:block 30 (unordered list)
 msgid ""
 "[Netgear](https://kb.netgear.com/24306/How-do-I-enable-Universal-Plug-and-"
 "Play-on-my-Nighthawk-router)"
 msgstr ""
+"[Netgear](https://kb.netgear.com/fr/24306/Comment-activer-le-Plug-and-Play-"
+"Universel-sur-mon-routeur-NETGEAR?language=fr)"
 
 #: browser/bridging.md:block 30 (unordered list)
 msgid ""
 "[Ubiquiti](https://www.geekzone.co.nz/forums.asp?"
 "forumid=66&topicid=205740&page_no=5#1725168)"
 msgstr ""
+"[Ubiquiti](https://www.geekzone.co.nz/forums."
+"asp?forumid=66&topicid=205740&page_no=5#1725168)"
 
 #: browser/bridging.md:block 31 (header)
 msgid "Using port forwarding as an alternative to UPnP"
-msgstr ""
+msgstr "Utiliser la redirection de port comme alternative à l'UPnP"
 
 #: browser/bridging.md:block 32 (paragraph)
 msgid ""
@@ -262,10 +363,17 @@ msgid ""
 "forward the connections to and the relevant port, open the *CENO Settings* "
 "page and look under the *Local UDP endpoints*."
 msgstr ""
+"Au lieu d'activer l'UPnP sur votre routeur, vous pouvez créer une règle de "
+"redirection de port pour vous assurer que les connexions du réseau CENO sont "
+"bien transférées vers votre appareil. Vous devrez vous connecter à l’"
+"interface d'administration du routeur et trouver l’option *redirection de "
+"port*. Pour voir vers quelle adresse IP vous devez rediriger les connexions "
+"et le port correspondant, ouvrez la page *Paramètres de CENO* et regardez "
+"dans les *Endpoints UDP locaux*."
 
 #: browser/bridging.md:block 33 (quote)
 msgid "**Local UDP endpoints**"
-msgstr ""
+msgstr "**Endpoints UDP locaux**"
 
 #: browser/bridging.md:block 34 (paragraph)
 msgid ""
@@ -275,6 +383,12 @@ msgid ""
 "periodically review the *CENO Settings* page to see that your device is "
 "reachable to the CENO network."
 msgstr ""
+"La redirection de port doit viser le protocole UDP (et non TCP). CENO "
+"choisit un port aléatoire lors de sa première exécution et le conserve pour "
+"les exécutions suivantes, mais l'adresse IP du réseau local de votre "
+"appareil peut changer de temps en temps. Vous devez donc consulter "
+"régulièrement la page des *Paramètres de CENO* pour vérifier que votre "
+"appareil est accessible au réseau CENO."
 
 #: browser/bridging.md:block 35 (quote)
 msgid ""
@@ -282,41 +396,50 @@ msgid ""
 "assigns the same IP address to your device (e.g. via a static DHCP lease for "
 "the device's MAC address)."
 msgstr ""
+"**Note technique :** Vous pouvez également vous assurer que le routeur "
+"attribue toujours la même adresse IP à votre appareil (par exemple via un "
+"abonnement DHCP statique pour l'adresse MAC de l'appareil)."
 
 #: browser/bridging.md:block 35 (quote)
 msgid ""
 "[Doze mode]: https://developer.android.com/training/monitoring-device-state/"
 "doze-standby"
 msgstr ""
+"[Mode Doze] : https://developer.android.com/training/monitoring-device-state/"
+"doze-standby"
 
 #: browser/bridging.md:block 35 (quote)
 msgid "[Don't kill my app!]: https://dontkillmyapp.com/"
-msgstr ""
+msgstr "[Don't kill my app!] : https://dontkillmyapp.com/"
 
 #: browser/bridging.md:block 35 (quote)
 msgid "[docker]: https://en.wikipedia.org/wiki/Docker_(software)"
-msgstr ""
+msgstr "[docker] : https://fr.wikipedia.org/wiki/Docker_(logiciel)"
 
 #: browser/bridging.md:block 35 (quote)
 msgid "[docker-install]: https://docs.docker.com/engine/install/"
-msgstr ""
+msgstr "[docker-install] : https://docs.docker.com/engine/install/"
 
 #: browser/bridging.md:block 35 (quote)
 msgid ""
 "[ceno-client-doc]: https://github.com/censorship-no/ceno-docker-"
 "client#running-the-client"
 msgstr ""
+"[ceno-client-doc] : https://github.com/censorship-no/ceno-docker-client"
+"#running-the-client"
 
 #: browser/bridging.md:block 35 (quote)
 msgid "[UPnP]: https://en.wikipedia.org/wiki/Universal_Plug_and_Play"
-msgstr ""
+msgstr "[UPnP] : https://fr.wikipedia.org/wiki/Universal_Plug_and_Play"
 
 #: browser/bridging.md:block 35 (quote)
 msgid ""
 "[upnp-risks]: https://www.howtogeek.com/122487/htg-explains-is-upnp-a-"
 "security-risk"
 msgstr ""
+"[upnp-risks] : https://www.howtogeek.com/122487/htg-explains-is-upnp-a"
+"-security-risk"
 
 #: browser/bridging.md:block 35 (quote)
 msgid "[CGNAT]: https://en.wikipedia.org/wiki/Carrier-grade_NAT"
-msgstr ""
+msgstr "[CGNAT] : https://fr.wikipedia.org/wiki/Carrier-grade_NAT"

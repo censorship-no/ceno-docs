@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2022-03-15 09:23+0000\n"
+"PO-Revision-Date: 2022-07-14 16:19+0000\n"
 "Last-Translator: george kitsoukakis <norhorn@gmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/censorship-no/"
 "browser-install/el/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.12-dev\n"
+"X-Generator: Weblate 4.14-dev\n"
 
 #
 #: browser/install.md:block 1 (header)
@@ -21,7 +21,8 @@ msgstr "Εγκατάσταση CENO"
 
 #: browser/install.md:block 2 (paragraph)
 msgid "CENO Browser can be installed via the following means:"
-msgstr "Ο φυλλομετρητής CENO μπορεί να εγκατασταθεί με τους ακόλουθους τρόπους:"
+msgstr ""
+"Ο φυλλομετρητής CENO μπορεί να εγκατασταθεί με τους ακόλουθους τρόπους:"
 
 #: browser/install.md:block 3 (unordered list)
 msgid ""
@@ -68,8 +69,8 @@ msgstr ""
 "παραπάνω. Εξαιτίας της φύσης της εφαρμογής, οι χρήστες του μπορεί να γίνουν "
 "στόχος για κάθε είδους ψεύτικες ή κακόβουλες εκδόσεις με σκοπό την παραβίαση "
 "της ιδιωτικότητας των χρηστών ή να επιτεθούν σε άλλους χρήστες του CENO και "
-"Ouinet. Εάν έχετε αμφιβολίες, επικοινωνήστε με το [cenoers@equalit."
-"ie](mailto:cenoers@equalit.ie) πριν εγκαταστήσετε μια ύποπτη εφαρμογή."
+"Ouinet. Εάν έχετε αμφιβολίες, επικοινωνήστε με το [cenoers@equalit.ie]"
+"(mailto:cenoers@equalit.ie) πριν εγκαταστήσετε μια ύποπτη εφαρμογή."
 
 #: browser/install.md:block 6 (header)
 msgid "Stopping CENO completely"
@@ -129,10 +130,14 @@ msgstr ""
 #: browser/install.md:block 12 (quote)
 msgid ""
 "**Note:** If the actions below the notification are not visible, drag the "
-"notification from its center towards the bottom to unfold it."
+"notification from its center towards the bottom to unfold it. If you can "
+"only see the *Home* action, your device may be too old to support the "
+"*Erase* action."
 msgstr ""
 "**Σημείωση:** Εάν οι ενέργειες κάτω από την ειδοποίηση δεν είναι ορατές, "
-"σύρετε την ειδοποίηση προς τα κάτω για να εμφανιστεί."
+"σύρετε την ειδοποίηση από το κέντρο προς τα κάτω για να εμφανιστεί. Εάν "
+"βλέπετε μόνο την επιλογή *Αρχική*, η συσκευή σας πιθανός δεν υποστηρίζει την "
+"ενέργεια *Διαγραφή*."
 
 #: browser/install.md:block 13 (paragraph)
 msgid ""

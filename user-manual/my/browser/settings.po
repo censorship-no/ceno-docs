@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2022-06-01 23:16+0000\n"
+"PO-Revision-Date: 2022-07-14 16:19+0000\n"
 "Last-Translator: Mya Myintzu Hlaing <myamyintzu10@gmail.com>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "browser-settings/my/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.13-dev\n"
+"X-Generator: Weblate 4.14-dev\n"
 
 #
 #: browser/settings.md:block 1 (header)
@@ -33,7 +33,6 @@ msgstr ""
 "ပြဿနာများကို အစီရင်ခံရန် အသုံးဝင်နိုင်သည်။"
 
 #: browser/settings.md:block 3 (quote)
-#, fuzzy
 msgid ""
 "**Technical note:** These options are provided by the *CENO Extension*, a "
 "Firefox extension which comes installed out of the box with CENO and takes "
@@ -42,7 +41,12 @@ msgid ""
 "the content being visualized, and notifying about new versions of Ouinet."
 msgstr ""
 "**နည်းပညာဆိုင်ရာ မှတ်ချက် -** ဤရွေးချယ်စရာများကို *CENO အဆက်* က ပံ့ပိုးသည်။ "
-"၎င်းသည်"
+"၎င်းသည် Firefox အဆက်တစ်ခုဖြစ်ပြီး CENO ၏ ကွဲလွဲသောအခြေအနေတွင် "
+"ထည့်သွင်းထားပြီး အကြောင်းအရာထိုးသွင်းခြင်းနှင့် အများသုံးရှာဖွေခြင်းတွင် "
+"အကြောင်းအရာ ပြန်လည်ရယူမှုတို့ကို ဖွင့်ခြင်း၊ မြင်သာသော အကြောင်းအရာ "
+"ရင်းမြစ်များကို အသုံးပြုသူအား အရိပ်အမြွက်ပေးခြင်းနှင့် Ouinet ၏ "
+"ဗားရှင်းအသစ်များကို အသိပေးခြင်း စသော သင့်တင့်သည့် Ouinet နှင့် "
+"ပေါင်းစပ်ခြင်းများကိုလည်း ကြပ်မတ်ပေးသည်။"
 
 #: browser/settings.md:block 4 (paragraph)
 msgid ""
@@ -171,10 +175,9 @@ msgid ""
 "*Shared by other CENO users* allows CENO to try to retrieve content from the "
 "**distributed cache**, i.e. from other CENO and Ouinet clients seeding it."
 msgstr ""
-"*အခြား CENO သုံးစွဲသူများက မျှဝေထားသည်* သည် CENO အား အကြောင်းအရာကို "
-"**ဖြန့်ချိထားသော ယာယီ သိမ်းဆည်းထားသည့် မှတ်ဉာဏ်** မှ ပြန်ထုတ်ရန် "
-"ကြိုးစားခွင့်ပြုသည်။ ဆိုလိုသည်မှာ ၎င်းကို တင်ပို့သော အခြား CENO နှင့် Ouinet "
-"လက်ခံစက်များထံမှ ဖြစ်သည်။"
+"*အခြား CENO သုံးစွဲသူများက မျှဝေထားသည်* သည် CENO အား အကြောင်းအရာကို **ဖြန့်ချိထားသော ယာယီ "
+"သိမ်းဆည်းထားသည့် မှတ်ဉာဏ်** မှ ပြန်ထုတ်ရန် ကြိုးစားခွင့်ပြုသည်။ ဆိုလိုသည်မှာ ၎င်းကို တင်ပို့သော အခြား CENO နှင့် "
+"Ouinet လက်ခံစက်များထံမှ ဖြစ်သည်။"
 
 #: browser/settings.md:block 9 (paragraph)
 msgid ""
@@ -191,24 +194,11 @@ msgid ""
 "png)"
 msgstr "![ပုံ - သီးသန့် ရှာဖွေမှုအတွက် မမှန်ကန်သော ဆက်တင်များ](images/settings-no-private.png)"
 
-#: browser/settings.md:block 11 (quote)
-msgid ""
-"**Warning:** Please note that CENO does not remember these settings upon "
-"restarting the app. If you require some of the previous mechanisms to be off "
-"while using CENO, please remember to open the Settings page whenever you "
-"start the app and uncheck their boxes before browsing. We apologize for the "
-"inconvenience."
-msgstr ""
-"**သတိပေးချက်-** အက်ပ်ကို ပြန်လည်စတင်ပြီးနောက် CENO သည် ဤဆက်တင်များကို မမှတ်မိနိုင်သေးကြောင်း "
-"ကျေးဇူးပြု၍ သတိပြုပါ။ သင်သည် CENO ကို အသုံးပြုနေစဉ် ယခင် စက်ကိရိယာအချို့ကို ပိတ်ထားရန် လိုအပ်ပါက သင် "
-"အက်ပ်ကို စတင်သည့်အချိန်တိုင်း ဆက်တင်များ စာမျက်နှာကို ဖွင့်ရန်နှင့် မရှာဖွေမီ ၎င်းတို့၏ အကွက်များကို အမှန်ခြစ်ဖြုတ်ရန် "
-"ကျေးဇူးပြု၍ သတိရပါ။ အဆင်မပြေမှုအတွက် တောင်းပန်ပါသည်။"
-
-#: browser/settings.md:block 12 (header)
+#: browser/settings.md:block 11 (header)
 msgid "About your app"
 msgstr "သင်၏ အက်ပ်အကြောင်း"
 
-#: browser/settings.md:block 13 (paragraph)
+#: browser/settings.md:block 12 (paragraph)
 msgid ""
 "This page also provides you with some information about your CENO Browser "
 "app and Ouinet client:"
@@ -216,7 +206,7 @@ msgstr ""
 "ဤစာမျက်နှာသည် သင့် CENO ဘရောက်ဇာ အက်ပ်နှင့် Ouinet လက်ခံစက်အကြောင်း အချက်အလက်အချို့ကိုလည်း သင့်အား "
 "ပေးသည် -"
 
-#: browser/settings.md:block 14 (unordered list)
+#: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*Local cache size* shows an approximation of how much storage is taken by "
 "the content being seeded from your device's local cache."
@@ -224,25 +214,24 @@ msgstr ""
 "*စက်တွင်း ယာယီသိမ်းဆည်းထားသော မှတ်ဉာဏ် အရွယ်အစား* သည် သင့်စက်၏ စက်တွင်း ယာယီသိမ်းဆည်းထားသော မှတ်ဉာဏ်မှ "
 "တင်ပို့နေသော အကြောင်းအရာက သိုလှောင်မှုမည်မျှကို နေရာယူကြောင်း မှန်းခြေကို ပြသသည်။"
 
-#: browser/settings.md:block 14 (unordered list)
+#: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*Content shared by you* allows you to check the content being announced by "
 "your device."
 msgstr ""
 "*သင်မျှဝေထားသောအကြောင်းအရာ* သည် သင့်စက်မှ ကြေငြာထားသော အကြောင်းအရာများကို စစ်ဆေးခွင့်ပြုသည်။"
 
-#: browser/settings.md:block 14 (unordered list)
+#: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*Ouinet client state*, if `started`, means that your Ouinet client was able "
 "to run successfully. Otherwise, there may be connectivity issues or some "
 "internal error. Please include this information in your issue reports."
 msgstr ""
-"*Ouinet သုံးစွဲသူ အခြေအနေ* အကယ်၍ `started`ကို ပြသပါက သင့် Ouinet သည် "
-"အောင်မြင်စွာ အလုပ်လုပ်နိုင်သည် ဟု အဓိပ္ပါယ်ရပါသည်။ သို့မဟုတ်လျှင် "
-"ချိတ်ဆက်မှုပြဿနာတစ်ခုခု သို့မဟုတ် စက်တွင်းပြဿနာတစ်ခုခု ဖြစ်နေနိုင်ပါသည်။ "
-"ကျေးဇူးပြုပြီး ဤအချက်အလက်အား ပြန်လည်တင်ပြမှုအနေနဲ့ ထည့်သွင်းပေးပါ။"
+"*Ouinet သုံးစွဲသူ အခြေအနေ* အကယ်၍ `started`ကို ပြသပါက သင့် Ouinet သည် အောင်မြင်စွာ "
+"အလုပ်လုပ်နိုင်သည် ဟု အဓိပ္ပါယ်ရပါသည်။ သို့မဟုတ်လျှင် ချိတ်ဆက်မှုပြဿနာတစ်ခုခု သို့မဟုတ် စက်တွင်းပြဿနာတစ်ခုခု "
+"ဖြစ်နေနိုင်ပါသည်။ ကျေးဇူးပြုပြီး ဤအချက်အလက်အား ပြန်လည်တင်ပြမှုအနေနဲ့ ထည့်သွင်းပေးပါ။"
 
-#: browser/settings.md:block 14 (unordered list)
+#: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*Reachability status* indicates how likely it is for your device to be able "
 "to effectively seed content to other clients. Also include in reports."
@@ -250,7 +239,7 @@ msgstr ""
 "*ရောက်ရှိနိုင်မှု အခြေအနေ* သည် သင့်စက်က အခြားလက်ခံစက်များထံ အကြောင်းအရာကို ထိရောက်စွာ တင်ပို့ရန် "
 "မည်မျှဖြစ်နိုင်ခြေရှိကြောင်း ညွှန်ပြသည်။ အစီရင်ခံစာများတွင်လည်း ထည့်ပါ။"
 
-#: browser/settings.md:block 14 (unordered list)
+#: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*UPnP status* indicates whether CENO was able to tell your router or access "
 "point to allow incoming connections towards it. Also include in reports."
@@ -258,48 +247,62 @@ msgstr ""
 "*UPnP အခြေအနေ* သည် CENO က သင့်ရောက်တာ သို့မဟုတ် ဝင်ရောက်သုံးစွဲမှု ပွိုင့်အား ၎င်းထံလာသည့် "
 "အဝင်ချိတ်ဆက်မှုများကို ခွင့်ပြုရန် ပြောနိုင်ခဲ့ခြင်း ရှိ၊ မရှိကို ညွှန်ပြသည်။ အစီရင်ခံစာများတွင်လည်း ထည့်ပါ။"
 
-#: browser/settings.md:block 14 (unordered list)
+#: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*Local UDP endpoints* are the Internet addresses in your device used by CENO "
 "to seed signed content to other clients. These are shown to help test and "
 "debug the app, and should not be generally disclosed."
 msgstr ""
-"*စက်တွင်း UDP အဆုံးမှတ်များ* သည် CENO က အခြားလက်ခံစက်များထံ လက်မှတ်ထိုးထားသော"
-" အကြောင်းအရာကို တင်ပို့ရန် အသုံးပြုသော သင့်စက်ပစ္စည်း၏အင်တာနက် လိပ်စာများ "
-"ဖြစ်သည်။ အက်ပ်ကို ကူညီစမ်းသပ်ရန်နှင့် ချို့ယွင်းချက် ပြုပြင်ရန်အတွက် "
-"၎င်းတို့ကို ပြသထားပြီး ယေဘုယျအားဖြင့် မထုတ်ဖော်သင့်ပါ။"
+"*စက်တွင်း UDP အဆုံးမှတ်များ* သည် CENO က အခြားလက်ခံစက်များထံ လက်မှတ်ထိုးထားသော အကြောင်းအရာကို "
+"တင်ပို့ရန် အသုံးပြုသော သင့်စက်ပစ္စည်း၏အင်တာနက် လိပ်စာများ ဖြစ်သည်။ အက်ပ်ကို ကူညီစမ်းသပ်ရန်နှင့် ချို့ယွင်းချက် "
+"ပြုပြင်ရန်အတွက် ၎င်းတို့ကို ပြသထားပြီး ယေဘုယျအားဖြင့် မထုတ်ဖော်သင့်ပါ။"
 
-#: browser/settings.md:block 14 (unordered list)
+#: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*External UDP endpoints* are the Internet addresses in your router given to "
 "your CENO traffic. Only available with UPnP-enabled routers, they are also "
 "is useful for diagnostics and not to be generally disclosed."
 msgstr ""
-"*ပြင်ပ UDP အဆုံးမှတ်များ* သည် သင့်router က CENO၏အသွားအလာတွင် ပြသပေးသော "
-"အင်တာနက် လိပ်စာများဖြစ်ကြသည်။ UPnP ကို ဖွင့်ထားသော router များတွင်သာ "
-"ရရှိနိုင်ပြီး အက်ပ်ကို ကူညီစမ်းသပ်ရန်နှင့် ချို့ယွင်းချက် ပြုပြင်ရန်အတွက် "
-"၎င်းတို့သည် အသုံးဝင်ပြီး ယေဘုယျအားဖြင့် မထုတ်ဖော်သင့်ပါ။"
+"*ပြင်ပ UDP အဆုံးမှတ်များ* သည် သင့်router က CENO၏အသွားအလာတွင် ပြသပေးသော အင်တာနက် "
+"လိပ်စာများဖြစ်ကြသည်။ UPnP ကို ဖွင့်ထားသော router များတွင်သာ ရရှိနိုင်ပြီး အက်ပ်ကို ကူညီစမ်းသပ်ရန်နှင့် "
+"ချို့ယွင်းချက် ပြုပြင်ရန်အတွက် ၎င်းတို့သည် အသုံးဝင်ပြီး ယေဘုယျအားဖြင့် မထုတ်ဖော်သင့်ပါ။"
 
-#: browser/settings.md:block 14 (unordered list)
+#: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*Public UDP endpoints* are the Internet addresses that Ouinet clients "
 "outside of your network see when communicating with your device. Also for "
 "diagnostics and not to be disclosed."
 msgstr ""
-"*ပြင်ပ UDP ဆုံမှတ်များ* သည် အင်တာနက် လိပ်စာများ ဖြစ်ကြသည်၊ ၎င်းတို့ကို "
-"သင့်ကွန်ရက်ပြင်ပမှ Ouinet သုံးစွဲသူများမှ သင့်စက်ပစ္စည်းနှင့် "
-"ဆက်သွယ်ချိတ်ဆက်လာသောအခါ ထို လိပ်စာကို မြင်နိုင်ပါတယ်။ ဆန်းစစ်ရှာဖွေရာတွင်လည်း"
-" သုံးပြီး ထုတ်ဖော်မပြောသင့်ပါ။"
+"*ပြင်ပ UDP ဆုံမှတ်များ* သည် အင်တာနက် လိပ်စာများ ဖြစ်ကြသည်၊ ၎င်းတို့ကို သင့်ကွန်ရက်ပြင်ပမှ Ouinet "
+"သုံးစွဲသူများမှ သင့်စက်ပစ္စည်းနှင့် ဆက်သွယ်ချိတ်ဆက်လာသောအခါ ထို လိပ်စာကို မြင်နိုင်ပါတယ်။ ဆန်းစစ်ရှာဖွေရာတွင်လည်း "
+"သုံးပြီး ထုတ်ဖော်မပြောသင့်ပါ။"
 
-#: browser/settings.md:block 14 (unordered list)
+#: browser/settings.md:block 13 (unordered list)
+msgid ""
+"*Extra BitTorrent bootstraps* are servers used to help your device get into "
+"the BitTorrent network, should the default ones not work. Also include in "
+"reports. You may edit the space-separated list of hosts (with optional "
+"ports) to set or add your own, then choose *Save*. The changes will be "
+"applied the next time that your Ouinet client is started."
+msgstr ""
+"*အပို BitTorrent bootstrap များ* သည် သင်၏စက်ကို BitTorrent ကွန်ရက်တွင်းသို့ "
+"ရောက်နိုင်အောင် ကူညီနိုင်သော ဆာဗာများဖြစ်ကြသည်။ မူလဆာဗာများသည် "
+"အလုပ်မလုပ်ခြင်းများ ဖြစ်နိုင်သည်။ အစီရင်ခံစာများတွင်လည်း "
+"ထည့်သွင်းဖော်ပြထားသည်။ သင်သည် စာလုံးခြားထားသော hosts စာရင်းများ(ရွေးချယ်စရာ "
+"ports များပါဝင်သော)ကို ပြန်လည်မွမ်းမံခြင်းများ ပြုလုပ်ရနိုင်သည် သို့မဟုတ် "
+"ကိုယ်တိုင် ထည့်သွင်းရနိုင်သည်၊ ထို့နောက် *သိမ်းမည်*ကို နှိပ်ပါ။ "
+"အပြောင်းအလဲများသည် နောက်တစ်ကြိမ်တွင် Ouinet လက်ခံစက်ကို စတင်သောအခါ "
+"မြင်တွေ့ရမည်။"
+
+#: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*CENO Browser* indicates the exact version of CENO that you are using. Also "
 "include in reports."
 msgstr ""
-"*CENO ဘရောက်ဇာ* သည် သင်အသုံးပြုနေသော CENO ဗားရှင်း အတိအကျကို ညွှန်ပြသည်။ "
-"ပြန်လည်တင်ပြမှုတွင်လည်း ထည့်သွင်းပေးပါ။"
+"*CENO ဘရောက်ဇာ* သည် သင်အသုံးပြုနေသော CENO ဗားရှင်း အတိအကျကို ညွှန်ပြသည်။ ပြန်လည်တင်ပြမှုတွင်လည်း "
+"ထည့်သွင်းပေးပါ။"
 
-#: browser/settings.md:block 14 (unordered list)
+#: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*CENO Extension* shows the version of the extension that integrates Firefox "
 "with CENO. Also include in reports."
@@ -307,13 +310,13 @@ msgstr ""
 "*CENO အဆက်* သည် Firefox ကို CENO နှင့် ပေါင်းစည်းပေးသော အဆက်၏ ဗားရှင်းကို ပြသသည်။ "
 "အစီရင်ခံစာများတွင်လည်း ထည့်ပါ။"
 
-#: browser/settings.md:block 14 (unordered list)
+#: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*Ouinet* shows the version of Ouinet backing CENO. Also include in reports."
 msgstr ""
 "*Ouinet* သည် CENO ကို ထောက်ခံသော Ouinet ၏ ဗားရှင်းကို ပြသသည်။ အစီရင်ခံစာများတွင်လည်း ထည့်ပါ။"
 
-#: browser/settings.md:block 14 (unordered list)
+#: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*Ouinet protocol* is the version number of the protocol that CENO uses to "
 "talk to other Ouinet clients and injectors. Also include in reports."
@@ -321,11 +324,11 @@ msgstr ""
 "*Ouinet ပရိုတိုကော* သည် CENO က အခြား Ouinet လက်ခံစက်များနှင့် ထိုးသွင်းဖိုင်များနှင့် ဆက်သွယ်ရန် "
 "အသုံးပြုသော ပရိုတိုကော၏ ဗားရှင်းနံပါတ် ဖြစ်သည်။ အစီရင်ခံစာများတွင်လည်း ထည့်ပါ။"
 
-#: browser/settings.md:block 15 (header)
+#: browser/settings.md:block 14 (header)
 msgid "Purging the local cache"
 msgstr "စက်တွင်း ယာယီသိမ်းဆည်းထားသော မှတ်ဉာဏ်ကို ထုတ်ပယ်ခြင်း"
 
-#: browser/settings.md:block 16 (paragraph)
+#: browser/settings.md:block 15 (paragraph)
 msgid ""
 "Next to the *Local cache size* value above, there is a button which allows "
 "you to stop seeding and drop all content shared by your device over Ouinet. "
@@ -337,7 +340,7 @@ msgstr ""
 "အနှစ်သက်ဆုံးများကဲ့သို့ အခြား CENO ဆက်တင်များကို ထိန်းသိမ်းထားစဉ် သင့်အား သင့်စက်၏ သိုလှောင်ခန်းနေရာ အချို့ကို "
 "ရှင်းလင်းခွင့်ပြုသည်။"
 
-#: browser/settings.md:block 17 (paragraph)
+#: browser/settings.md:block 16 (paragraph)
 msgid ""
 "If you want to clear CENO's normal browsing cache (the one used by the "
 "browser but not shared with others) or other items like cookies, browsing "
@@ -351,7 +354,7 @@ msgstr ""
 "*သီးသန့်ဒေတာကို ရှင်းလင်းရန်* ကို ရွေးချယ်သင့်သည်။ မည်သည့် အရာဝတ္ထုများကို သင်ရှင်းလင်းလိုကြောင်း သင့်အား "
 "မေးပါမည်။"
 
-#: browser/settings.md:block 18 (paragraph)
+#: browser/settings.md:block 17 (paragraph)
 msgid ""
 "To drop everything at the same time (especially if you are in a hurry), "
 "please learn how to use the \"panic button\" feature described in "
@@ -360,11 +363,11 @@ msgstr ""
 "(အထူးသဖြင့် သင် အလျင်လိုနေပါက) အရာအားလုံးကို တစ်ချိန်တည်းတွင် လွှတ်ချရန် ကျေးဇူးပြု၍ [CENO "
 "ထည့်သွင်းခြင်း](install.md) တွင် ဖော်ပြထားသော \"စိုးရိမ်မှုခလုတ်\" လုပ်ဆောင်ချက်ကို အသုံးပြုပုံ လေ့လာပါ။"
 
-#: browser/settings.md:block 19 (header)
+#: browser/settings.md:block 18 (header)
 msgid "Collecting log messages"
 msgstr "စာရင်း မက်ဆေ့ချ်များကို စုဆောင်းခြင်း"
 
-#: browser/settings.md:block 20 (paragraph)
+#: browser/settings.md:block 19 (paragraph)
 msgid ""
 "At the bottom of the page there is an *Enable log file* check box that "
 "allows you to collect all of Ouinet's internal messages and download them to "
@@ -375,18 +378,18 @@ msgstr ""
 "ဒေါင်းလုဒ်လုပ်ခွင့်ပြုသည့် *စာရင်းဖိုင် ဖွင့်မည်* အကွက်တစ်ခု ရှိသည်။ ယင်းကို CENO တွင် ပြဿနာတစ်ခုခုကို "
 "အမျိုးအမည်သတ်မှတ်သည့် အချိန်တွင်သာ အသုံးပြုသင့်သည်။ အောက်ပါ အဆင့်များကိုသာ လိုက်နာပါ-"
 
-#: browser/settings.md:block 21 (ordered list)
+#: browser/settings.md:block 20 (ordered list)
 msgid "At the *CENO Settings* page, check *Enable log file*."
 msgstr "*CENO ဆက်တင်များ* စာမျက်နှာတွင် *စာရင်းဖိုင် ဖွင့်မည်* ကို အမှန်ခြစ်ပါ။"
 
-#: browser/settings.md:block 21 (ordered list)
+#: browser/settings.md:block 20 (ordered list)
 msgid ""
 "Go back to browsing and do whatever actions that trigger the troublesome "
 "behavior."
 msgstr ""
 "ရှာဖွေမှုသို့ ပြန်သွားပြီး ပြဿနာဖြစ်စေသော အပြုအမူကို လှုံ့ဆော်သည့် မည်သည့် လုပ်ဆောင်ချက်များကိုမဆို ပြုလုပ်ပါ။"
 
-#: browser/settings.md:block 21 (ordered list)
+#: browser/settings.md:block 20 (ordered list)
 msgid ""
 "Return to the *CENO Settings* page and click on the *Download* link next to "
 "the *Enable log file* check box. Save the file for later use. Android may "
@@ -398,12 +401,12 @@ msgstr ""
 "မီဒီယာသို့ CENO အား ဝင်ရောက်သုံးစွဲခွင့် ပြု၊ မပြုကိုသင့်အား မေးနိုင်သည်- ဖိုင်ကို သိမ်းဆည်းနိုင်ရန် ၎င်းကို "
 "လိုအပ်ပါသည်။"
 
-#: browser/settings.md:block 21 (ordered list)
+#: browser/settings.md:block 20 (ordered list)
 msgid "Uncheck *Enable log file* to avoid the logs from growing too large."
 msgstr ""
 "စာရင်းများ အလွန်အကျွံ ကြီးမားလာခြင်းကို ရှောင်ရှားရန် *စာရင်းဖိုင်ကို ဖွင့်မည်* ကို အမှန်ခြစ်ဖြုတ်ပါ။"
 
-#: browser/settings.md:block 22 (paragraph)
+#: browser/settings.md:block 21 (paragraph)
 msgid ""
 "You can now use the saved log file to document an issue report, but try to "
 "avoid making it public since it may contain sensitive information about your "
@@ -412,3 +415,15 @@ msgstr ""
 "ယခု သင်သည် ပြဿနာ အစီရင်ခံစာတစ်ခုကို မှတ်တမ်းတင်ရန် သိမ်းဆည်းထားသော စာရင်းဖိုင်ကို အသုံးပြုနိုင်သော်လည်း "
 "၎င်းတွင် သင်၏ ရှာဖွေမှုအကြောင်း ထိလွယ်ရှလွယ်သော အချက်အလက် ပါဝင်နိုင်သောကြောင့် ၎င်းကို အများသိအောင် "
 "ပြုလုပ်ခြင်းကို ကြိုးစားရှောင်ရှားပါ။"
+
+#~ msgid ""
+#~ "**Warning:** Please note that CENO does not remember these settings upon "
+#~ "restarting the app. If you require some of the previous mechanisms to be "
+#~ "off while using CENO, please remember to open the Settings page whenever "
+#~ "you start the app and uncheck their boxes before browsing. We apologize "
+#~ "for the inconvenience."
+#~ msgstr ""
+#~ "**သတိပေးချက်-** အက်ပ်ကို ပြန်လည်စတင်ပြီးနောက် CENO သည် ဤဆက်တင်များကို မမှတ်မိနိုင်သေးကြောင်း "
+#~ "ကျေးဇူးပြု၍ သတိပြုပါ။ သင်သည် CENO ကို အသုံးပြုနေစဉ် ယခင် စက်ကိရိယာအချို့ကို ပိတ်ထားရန် လိုအပ်ပါက သင် "
+#~ "အက်ပ်ကို စတင်သည့်အချိန်တိုင်း ဆက်တင်များ စာမျက်နှာကို ဖွင့်ရန်နှင့် မရှာဖွေမီ ၎င်းတို့၏ အကွက်များကို "
+#~ "အမှန်ခြစ်ဖြုတ်ရန် ကျေးဇူးပြု၍ သတိရပါ။ အဆင်မပြေမှုအတွက် တောင်းပန်ပါသည်။"

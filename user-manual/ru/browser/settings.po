@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2022-05-23 12:17+0000\n"
+"PO-Revision-Date: 2022-07-16 15:19+0000\n"
 "Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-settings/ru/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.13-dev\n"
+"X-Generator: Weblate 4.14-dev\n"
 
 #
 #: browser/settings.md:block 1 (header)
@@ -203,25 +203,11 @@ msgstr ""
 "![Рисунок: Неверные настройки для приватного просмотра](images/settings-no-"
 "private.png)"
 
-#: browser/settings.md:block 11 (quote)
-msgid ""
-"**Warning:** Please note that CENO does not remember these settings upon "
-"restarting the app. If you require some of the previous mechanisms to be off "
-"while using CENO, please remember to open the Settings page whenever you "
-"start the app and uncheck their boxes before browsing. We apologize for the "
-"inconvenience."
-msgstr ""
-"**Внимание:** Обратите внимание, что CENO не запоминает эти настройки при "
-"перезапуске приложения. Если вам необходимо, чтобы некоторые из предыдущих "
-"схем были отключены при использовании CENO, пожалуйста, не забывайте "
-"открывать страницу настроек при каждом запуске приложения и снимать галочки "
-"перед началом работы. Мы приносим извинения за предоставленные неудобства."
-
-#: browser/settings.md:block 12 (header)
+#: browser/settings.md:block 11 (header)
 msgid "About your app"
 msgstr "О вашем приложении"
 
-#: browser/settings.md:block 13 (paragraph)
+#: browser/settings.md:block 12 (paragraph)
 msgid ""
 "This page also provides you with some information about your CENO Browser "
 "app and Ouinet client:"
@@ -229,7 +215,7 @@ msgstr ""
 "На этой странице также представлена информация о приложении CENO Browser и "
 "клиенте Ouinet:"
 
-#: browser/settings.md:block 14 (unordered list)
+#: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*Local cache size* shows an approximation of how much storage is taken by "
 "the content being seeded from your device's local cache."
@@ -237,7 +223,7 @@ msgstr ""
 "*Размер локального кэша* показывает приблизительный объем памяти, занимаемый "
 "содержимым, загружаемым из локального кэша вашего устройства."
 
-#: browser/settings.md:block 14 (unordered list)
+#: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*Content shared by you* allows you to check the content being announced by "
 "your device."
@@ -245,7 +231,7 @@ msgstr ""
 "*Контент, предоставленный вами* позволяет проверить содержимое, которое "
 "раздает ваше устройство."
 
-#: browser/settings.md:block 14 (unordered list)
+#: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*Ouinet client state*, if `started`, means that your Ouinet client was able "
 "to run successfully. Otherwise, there may be connectivity issues or some "
@@ -256,7 +242,7 @@ msgstr ""
 "соединением или ошибку в клиенте. Пожалуйста, включайте эту информацию в "
 "отчёты об ошибках."
 
-#: browser/settings.md:block 14 (unordered list)
+#: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*Reachability status* indicates how likely it is for your device to be able "
 "to effectively seed content to other clients. Also include in reports."
@@ -265,7 +251,7 @@ msgstr ""
 "сможет эффективно передавать контент другим клиентам. Также включается в "
 "отчеты."
 
-#: browser/settings.md:block 14 (unordered list)
+#: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*UPnP status* indicates whether CENO was able to tell your router or access "
 "point to allow incoming connections towards it. Also include in reports."
@@ -273,7 +259,7 @@ msgstr ""
 "*Статус UPnP* показывает, смог ли CENO запросить у вашего роутера или точки "
 "доступа разрешение на входящие подключения к нему. Также включается в отчеты."
 
-#: browser/settings.md:block 14 (unordered list)
+#: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*Local UDP endpoints* are the Internet addresses in your device used by CENO "
 "to seed signed content to other clients. These are shown to help test and "
@@ -283,7 +269,7 @@ msgstr ""
 "передачи подписанного контента другим клиентам. Они показаны для "
 "тестирования и отладки приложения и раскрывать эти данные не нужно."
 
-#: browser/settings.md:block 14 (unordered list)
+#: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*External UDP endpoints* are the Internet addresses in your router given to "
 "your CENO traffic. Only available with UPnP-enabled routers, they are also "
@@ -293,7 +279,7 @@ msgstr ""
 "приписываемые вашему CENO траффику. Они досутпны только для роутеров с "
 "включённым UPnP и полезны при диагностике. Раскрывать эти данные не нужно."
 
-#: browser/settings.md:block 14 (unordered list)
+#: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*Public UDP endpoints* are the Internet addresses that Ouinet clients "
 "outside of your network see when communicating with your device. Also for "
@@ -303,7 +289,22 @@ msgstr ""
 "вне вашей сети видят при коммуникации с вашем устройством. Они также нужны "
 "для диагностики, их также не следует раскрывать."
 
-#: browser/settings.md:block 14 (unordered list)
+#: browser/settings.md:block 13 (unordered list)
+msgid ""
+"*Extra BitTorrent bootstraps* are servers used to help your device get into "
+"the BitTorrent network, should the default ones not work. Also include in "
+"reports. You may edit the space-separated list of hosts (with optional "
+"ports) to set or add your own, then choose *Save*. The changes will be "
+"applied the next time that your Ouinet client is started."
+msgstr ""
+"*Дополнительные загрузчики BitTorrent* — это серверы, которые помогают "
+"вашему устройству подключиться к сети BitTorrent, если стандартные серверы "
+"не работают. Также включаются в отчеты. Вы можете отредактировать "
+"разделенный пробелами список хостов (с необязательными портами), чтобы "
+"установить или добавить собственный, а затем нажмите *Сохранить*. Изменения "
+"будут применены при следующем запуске вашего клиента Ouinet."
+
+#: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*CENO Browser* indicates the exact version of CENO that you are using. Also "
 "include in reports."
@@ -311,7 +312,7 @@ msgstr ""
 "*Браузер CENO* указывает точную версию CENO, которую вы используете. Её тоже "
 "следует включать в отчёты о неполадках."
 
-#: browser/settings.md:block 14 (unordered list)
+#: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*CENO Extension* shows the version of the extension that integrates Firefox "
 "with CENO. Also include in reports."
@@ -319,14 +320,14 @@ msgstr ""
 "*Расширение CENO* показывает версию расширения, которое интегрирует Firefox "
 "с CENO. Также включайте в отчетах."
 
-#: browser/settings.md:block 14 (unordered list)
+#: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*Ouinet* shows the version of Ouinet backing CENO. Also include in reports."
 msgstr ""
 "*Ouinet* показывает версию Ouinet, установленную в CENO. Также включайте в "
 "отчетах."
 
-#: browser/settings.md:block 14 (unordered list)
+#: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*Ouinet protocol* is the version number of the protocol that CENO uses to "
 "talk to other Ouinet clients and injectors. Also include in reports."
@@ -334,11 +335,11 @@ msgstr ""
 "*Протокол Ouinet* — номер версии протокола, который CENO использует для "
 "общения с другими клиентами Ouinet и инъекторами. Также включайте в отчетах."
 
-#: browser/settings.md:block 15 (header)
+#: browser/settings.md:block 14 (header)
 msgid "Purging the local cache"
 msgstr "Очистка локального кэша"
 
-#: browser/settings.md:block 16 (paragraph)
+#: browser/settings.md:block 15 (paragraph)
 msgid ""
 "Next to the *Local cache size* value above, there is a button which allows "
 "you to stop seeding and drop all content shared by your device over Ouinet. "
@@ -351,7 +352,7 @@ msgstr ""
 "место в памяти вашего устройства, сохранив при этом другие настройки CENO, "
 "такие как Избранное."
 
-#: browser/settings.md:block 17 (paragraph)
+#: browser/settings.md:block 16 (paragraph)
 msgid ""
 "If you want to clear CENO's normal browsing cache (the one used by the "
 "browser but not shared with others) or other items like cookies, browsing "
@@ -365,7 +366,7 @@ msgstr ""
 "*Настройки* в главном меню приложения, затем *Очистить личные данные*. Вам "
 "будет предложено указать, какие элементы вы хотите очистить."
 
-#: browser/settings.md:block 18 (paragraph)
+#: browser/settings.md:block 17 (paragraph)
 msgid ""
 "To drop everything at the same time (especially if you are in a hurry), "
 "please learn how to use the \"panic button\" feature described in "
@@ -375,11 +376,11 @@ msgstr ""
 "использовать функцию \"тревожной кнопки\", описанную в разделе [Установка "
 "CENO](install.md)."
 
-#: browser/settings.md:block 19 (header)
+#: browser/settings.md:block 18 (header)
 msgid "Collecting log messages"
 msgstr "Сбор сообщений журнала"
 
-#: browser/settings.md:block 20 (paragraph)
+#: browser/settings.md:block 19 (paragraph)
 msgid ""
 "At the bottom of the page there is an *Enable log file* check box that "
 "allows you to collect all of Ouinet's internal messages and download them to "
@@ -391,11 +392,11 @@ msgstr ""
 "Это следует использовать только при диагностике какой-либо неполадки в CENO; "
 "просто выполните следующие шаги:"
 
-#: browser/settings.md:block 21 (ordered list)
+#: browser/settings.md:block 20 (ordered list)
 msgid "At the *CENO Settings* page, check *Enable log file*."
 msgstr "На странице *Настройки CENO* отметьте *Включить файл журнала*."
 
-#: browser/settings.md:block 21 (ordered list)
+#: browser/settings.md:block 20 (ordered list)
 msgid ""
 "Go back to browsing and do whatever actions that trigger the troublesome "
 "behavior."
@@ -403,7 +404,7 @@ msgstr ""
 "Вернитесь к просмотру и выполните любые действия, которые вызывают "
 "проблемное поведение."
 
-#: browser/settings.md:block 21 (ordered list)
+#: browser/settings.md:block 20 (ordered list)
 msgid ""
 "Return to the *CENO Settings* page and click on the *Download* link next to "
 "the *Enable log file* check box. Save the file for later use. Android may "
@@ -415,13 +416,13 @@ msgstr ""
 "использования. На этом этапе Android может спросить вас, разрешить ли CENO "
 "доступ к файловой системе: это необходимо для сохранения файла."
 
-#: browser/settings.md:block 21 (ordered list)
+#: browser/settings.md:block 20 (ordered list)
 msgid "Uncheck *Enable log file* to avoid the logs from growing too large."
 msgstr ""
 "Снимите флажок *Включить файл журнала*, чтобы избежать чрезмерного роста "
 "объема файла."
 
-#: browser/settings.md:block 22 (paragraph)
+#: browser/settings.md:block 21 (paragraph)
 msgid ""
 "You can now use the saved log file to document an issue report, but try to "
 "avoid making it public since it may contain sensitive information about your "
@@ -430,3 +431,17 @@ msgstr ""
 "Теперь вы можете использовать сохраненный файл журнала для составления "
 "отчета о неполадках, но старайтесь не делать его публичным, поскольку он "
 "может содержать конфиденциальную информацию о вашем просмотре."
+
+#~ msgid ""
+#~ "**Warning:** Please note that CENO does not remember these settings upon "
+#~ "restarting the app. If you require some of the previous mechanisms to be "
+#~ "off while using CENO, please remember to open the Settings page whenever "
+#~ "you start the app and uncheck their boxes before browsing. We apologize "
+#~ "for the inconvenience."
+#~ msgstr ""
+#~ "**Внимание:** Обратите внимание, что CENO не запоминает эти настройки при "
+#~ "перезапуске приложения. Если вам необходимо, чтобы некоторые из "
+#~ "предыдущих схем были отключены при использовании CENO, пожалуйста, не "
+#~ "забывайте открывать страницу настроек при каждом запуске приложения и "
+#~ "снимать галочки перед началом работы. Мы приносим извинения за "
+#~ "предоставленные неудобства."
