@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-09-14 10:24+0000\n"
+"PO-Revision-Date: 2022-09-15 11:21+0000\n"
 "Last-Translator: Jean-Luc Tibaux <eugentoptic@outlook.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/censorship-no/how/"
 "de/>\n"
@@ -268,6 +268,9 @@ msgid ""
 "By the way, injector certificates are shipped in CENO Browser, allowing it "
 "to detect attackers trying to impersonate injectors."
 msgstr ""
+"Übrigens: Injektor-Zertifikate werden in CENO Browser mitgeliefert, so dass "
+"Angreifer, die versuchen, sich als Injektoren auszugeben, erkannt werden "
+"können."
 
 #: concepts/how.md:block 20 (unordered list)
 msgid ""
@@ -275,6 +278,9 @@ msgid ""
 "obfuscation techniques (like I2P and Tor's Pluggable Transports) to make "
 "identification even more difficult."
 msgstr ""
+"Wenn die Verschlüsselung nicht ausreicht, können Verbindungen zu Injektoren "
+"spezielle Verschleierungstechniken verwenden (wie I2P und Tor's Pluggable "
+"Transports), um die Identifizierung noch schwieriger zu machen."
 
 #: concepts/how.md:block 20 (unordered list)
 msgid ""
