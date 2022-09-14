@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-09-14 10:24+0000\n"
+"PO-Revision-Date: 2022-09-15 11:21+0000\n"
 "Last-Translator: Jean-Luc Tibaux <eugentoptic@outlook.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/censorship-no/"
 "risks/de/>\n"
@@ -76,6 +76,11 @@ msgid ""
 "from the request by the client, and only then is the request encrypted for "
 "and forwarded to the injector, which proceeds to decrypt it."
 msgstr ""
+"Ja und nein. Wenn der Nutzer Inhalte [im öffentlichen Browsing-Modus] "
+"(public-private.md) anfordert, werden zunächst alle privaten Daten (wie "
+"Kennwörter und Cookies) vom Client aus der Anforderung entfernt, und erst "
+"dann wird die Anforderung verschlüsselt und an den Injektor weitergeleitet, "
+"der sie dann entschlüsselt."
 
 #: concepts/risks.md:block 9 (paragraph)
 msgid ""
@@ -95,6 +100,10 @@ msgid ""
 "with query parameters removed, along with all but a limited set of "
 "fundamental and privacy-preserving HTTP header fields."
 msgstr ""
+"**Technischer Hinweis:** Nur \"GET\"-HTTP-Anfragen kommen für die Injektion "
+"in Frage, wobei Abfrageparameter sowie alle bis auf eine begrenzte Anzahl "
+"grundlegender und die Privatsphäre schützender HTTP-Header-Felder entfernt "
+"werden."
 
 #: concepts/risks.md:block 11 (header)
 msgid "Can injectors see my IP address?"
@@ -170,6 +179,9 @@ msgid ""
 "server, there are (at least) two ways for the latter to know that CENO or "
 "Ouinet is involved:"
 msgstr ""
+"Wenn er jedoch einen Injektor verwendet, um Inhalte von seinem "
+"Herkunftsserver zu erhalten, gibt es (mindestens) zwei Möglichkeiten für "
+"letzteren zu wissen, dass CENO oder Ouinet beteiligt ist:"
 
 #: concepts/risks.md:block 19 (ordered list)
 msgid ""
@@ -215,6 +227,10 @@ msgid ""
 "(or from a [national intranet][National intranet]), we recommend that you "
 "use a normal Web browser instead of CENO."
 msgstr ""
+"Wenn eine bestimmte Website (z. B. eine Regierungsseite) von Ihnen erwartet, "
+"dass Sie sich als identifizierbare Person aus einer bestimmten Region (oder "
+"aus einem [nationalen Intranet][nationalen Intranet]) mit ihr verbinden, "
+"empfehlen wir Ihnen, einen normalen Webbrowser statt CENO zu verwenden."
 
 #: concepts/risks.md:block 22 (header)
 msgid "As a seeder"
@@ -222,7 +238,7 @@ msgstr "Als Entsender"
 
 #: concepts/risks.md:block 23 (header)
 msgid "What data is seeded from my device?"
-msgstr ""
+msgstr "Welche Daten werden von meinem Gerät übertragen?"
 
 #: concepts/risks.md:block 24 (paragraph)
 msgid ""
