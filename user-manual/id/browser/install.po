@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-10-25 14:11+0000\n"
+"PO-Revision-Date: 2022-10-26 15:05+0000\n"
 "Last-Translator: AZR <metaverse@basyiri.my.id>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-install/id/>\n"
@@ -142,6 +142,12 @@ msgid ""
 "your data accidentally, this will not remove anything yet, but just show an "
 "additional action for a brief moment, as pictured below:"
 msgstr ""
+"Mungkin anda pernah membutuhkan untuk menghentikan secara cepat CENO dan "
+"menghapus semua data terkait dengan pasti (tidak hanya konten tembolok, "
+"tetapi juga pengaturan seperti favorit, kata sandi, dan semua jejak peramban)"
+", anda dapat mengetuk pada *Hapus*. Untuk menghindari kehilangan data secara "
+"tidak sengaja, ini tidak akan menghapus apapun, tetapi hanya menampilkan "
+"aksi tambahan untuk momen singkat, sebagaimana digambarkan dibawah:"
 
 #: browser/install.md:block 14 (paragraph)
 msgid ""
@@ -173,6 +179,10 @@ msgid ""
 "Android's general *Settings* page and, under the *Apps* entry, choose CENO "
 "and then *Clear data*."
 msgstr ""
+"**Catatan:** Deskripsi metode diatas itu membutuhkan CENO berjalan pada "
+"perangkat anda. Untuk melengkapi efek yang sama ketika CENO dihentikan, anda "
+"dapat menggunakan halaman *Pengaturan* Android umumnya dan, dibawah masukkan "
+"*Aplikasi*, pilih CENO dan kemudian *Hapus data*."
 
 #: browser/install.md:block 17 (quote)
 msgid "As a harsher alternative, you may completely uninstall the app."
@@ -192,6 +202,7 @@ msgstr ""
 msgid ""
 "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
 msgstr ""
+"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
 
 #: browser/install.md:block 18 (quote)
 msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
