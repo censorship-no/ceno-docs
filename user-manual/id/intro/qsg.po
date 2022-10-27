@@ -1,15 +1,15 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-06-01 23:16+0000\n"
-"Last-Translator: Reza Almanda <rezaalmanda27@gmail.com>\n"
+"PO-Revision-Date: 2022-10-26 15:05+0000\n"
+"Last-Translator: AZR <metaverse@basyiri.my.id>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/censorship-no/"
 "qsg/id/>\n"
 "Language: id\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.13-dev\n"
+"X-Generator: Weblate 4.14.2-dev\n"
 
 #: intro/qsg.md:block 1 (header)
 msgid "Quick start guide"
@@ -22,24 +22,31 @@ msgid ""
 "your requests, as well as to store and share retrieved content with others. "
 "[Read more about CENO](ceno.md)."
 msgstr ""
+"CENO Browser mengizinkan anda untuk akses situs web apapun di Internet, "
+"sekalipun jika disensor di negara anda. CENO menggunakan infrastruktur peer-"
+"to-peer untuk merutekan permintaan anda, sebagaimana untuk menyimpan dan "
+"membagikan konten yang diambil dengan lainnya. [Baca lebih lanjut tentang "
+"CENO](ceno.md)."
 
 #: intro/qsg.md:block 3 (header)
 msgid "How to get started"
-msgstr ""
+msgstr "Bagaimana untuk memulainya"
 
 #: intro/qsg.md:block 4 (paragraph)
 msgid "You will need an Android device:"
-msgstr ""
+msgstr "Anda akan membutuhkan sebuah perangkat Android:"
 
 #: intro/qsg.md:block 5 (ordered list)
 msgid ""
 "Install CENO Browser from [Google Play][ceno-gplay], [GitHub][ceno-gh] or "
 "[Paskoocheh][ceno-pask]. *No special permissions are needed*."
 msgstr ""
+"Pasang CENO Browser dari [Google Play][ceno-gplay], [GitHub][ceno-gh] atau "
+"[Paskoocheh][ceno-pask]. *Tidak ada izin khusus yang dibutuhkan*."
 
 #: intro/qsg.md:block 5 (ordered list)
 msgid "Run it."
-msgstr ""
+msgstr "Jalankan."
 
 #: intro/qsg.md:block 5 (ordered list)
 msgid ""
@@ -50,15 +57,15 @@ msgstr ""
 
 #: intro/qsg.md:block 5 (ordered list)
 msgid "Tap on the CENO notification to stop it completely."
-msgstr ""
+msgstr "Ketuk pada notifikasi CENO untuk menghentikan secara keseluruhan."
 
 #: intro/qsg.md:block 6 (paragraph)
 msgid "Detailed installation instructions are [here](../browser/install.md)."
-msgstr ""
+msgstr "Rincian instruksi pemasangan [disini](../browser/install.md)."
 
 #: intro/qsg.md:block 7 (header)
 msgid "Configuration"
-msgstr ""
+msgstr "Konfigurasi"
 
 #: intro/qsg.md:block 8 (paragraph)
 msgid ""
@@ -71,33 +78,40 @@ msgid ""
 "If you want to make sure that your app is also helping others access blocked "
 "content, please [read this section](../browser/bridging.md)."
 msgstr ""
+"Jika anda ingin untuk memastikan bahwa aplikasi anda juga berguna membantu "
+"lainnya mengakses konten yang diblokir, mohon [baca bagian ini] (../browser/"
+"bridging.md)."
 
 #: intro/qsg.md:block 10 (header)
 msgid "More questions?"
-msgstr ""
+msgstr "Pertanyaan lebih lanjut?"
 
 #: intro/qsg.md:block 11 (unordered list)
 msgid "Please see the [FAQ](faq.md)."
-msgstr ""
+msgstr "Mohon lihat [FAQ](faq.md)."
 
 #: intro/qsg.md:block 11 (unordered list)
 msgid "Refer to the [troubleshooting guide](../browser/troubleshooting.md)."
 msgstr ""
+"Merujuk kepada [panduan pemecahan masalah](../browser/troubleshooting.md)."
 
 #: intro/qsg.md:block 11 (unordered list)
 msgid ""
 "Contact us by writing to [cenoers@equalit.ie](mailto:cenoers@equalit.ie)."
 msgstr ""
+"Hubungi kami dengan menulis ke [cenoers@equalit.ie](mailto:cenoers@equalit."
+"ie)."
 
 #: intro/qsg.md:block 11 (unordered list)
 msgid ""
 "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
 msgstr ""
+"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
 
 #: intro/qsg.md:block 11 (unordered list)
 msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
-msgstr ""
+msgstr "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
 
 #: intro/qsg.md:block 11 (unordered list)
 msgid "[ceno-pask]: https://paskoocheh.com/tools/124/android.html"
-msgstr ""
+msgstr "[ceno-pask]: https://paskoocheh.com/tools/124/android.html"
