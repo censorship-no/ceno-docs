@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-02 02:42+0200\n"
-"PO-Revision-Date: 2022-02-09 10:55+0000\n"
+"PO-Revision-Date: 2022-11-06 17:08+0000\n"
 "Last-Translator: george kitsoukakis <norhorn@gmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/censorship-no/ceno/"
 "el/>\n"
@@ -12,12 +12,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.11-dev\n"
+"X-Generator: Weblate 4.14.2\n"
 
 #
 #: intro/ceno.md:block 1 (header)
-#, fuzzy
-#| msgid "What is the CENO Browser?"
 msgid "What is CENO Browser?"
 msgstr "Τι είναι ο φυλλομετρητής CENO;"
 
@@ -52,7 +50,7 @@ msgstr ""
 
 #: intro/ceno.md:block 5 (header)
 msgid "Who develops CENO?"
-msgstr ""
+msgstr "Ποιος αναπτύσσει το CENO;"
 
 #: intro/ceno.md:block 6 (paragraph)
 msgid ""
@@ -113,7 +111,7 @@ msgstr "[Censorship.no!]: https://censorship.no/"
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[P2P]: https://en.wikipedia.org/wiki/Peer-to-peer"
-msgstr ""
+msgstr "[P2P]: https://en.wikipedia.org/wiki/Peer-to-peer"
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[national intranets]: https://en.wikipedia.org/wiki/National_intranet"
@@ -135,4 +133,4 @@ msgstr ""
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[ceno-repos]: https://github.com/censorship-no/"
-msgstr ""
+msgstr "[αποθετήριο ceno]: https://github.com/censorship-no/"
