@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-16 04:02+0200\n"
-"PO-Revision-Date: 2022-01-31 19:53+0000\n"
+"PO-Revision-Date: 2022-11-06 17:08+0000\n"
 "Last-Translator: george kitsoukakis <norhorn@gmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/censorship-no/how/"
 "el/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.11-dev\n"
+"X-Generator: Weblate 4.14.2\n"
 
 #
 #: concepts/how.md:block 1 (header)
@@ -453,7 +453,7 @@ msgstr ""
 
 #: concepts/how.md:block 45 (paragraph)
 msgid "[BitTorrent]: https://en.wikipedia.org/wiki/BitTorrent"
-msgstr ""
+msgstr "[BitTorrent]: https://en.wikipedia.org/wiki/BitTorrent"
 
 #: concepts/how.md:block 45 (paragraph)
 msgid ""
