@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-09-15 11:21+0000\n"
+"PO-Revision-Date: 2022-11-09 17:48+0000\n"
 "Last-Translator: Jean-Luc Tibaux <eugentoptic@outlook.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/censorship-no/"
 "risks/de/>\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.1-dev\n"
+"X-Generator: Weblate 4.15-dev\n"
 
 #: concepts/risks.md:block 1 (header)
 msgid "Risks in using CENO/Ouinet"
@@ -39,6 +39,8 @@ msgid ""
 "as a *seeder* sharing content over the distributed cache that you previously "
 "visited"
 msgstr ""
+"als *Sender*, der Inhalte über den verteilten Cache teilt, die Sie zuvor "
+"besucht haben"
 
 #: concepts/risks.md:block 3 (unordered list)
 msgid "as a *bridge* allowing other users to reach an injector"
@@ -47,7 +49,7 @@ msgstr ""
 
 #: concepts/risks.md:block 4 (header)
 msgid "As a user"
-msgstr ""
+msgstr "Als Benutzer"
 
 #: concepts/risks.md:block 5 (header)
 msgid "Can bridges see my communication with the origin server?"
@@ -254,7 +256,7 @@ msgstr ""
 
 #: concepts/risks.md:block 25 (header)
 msgid "Can an anyone find out what I seed?"
-msgstr ""
+msgstr "Kann jemand herausfinden, was ich verteilt (seed) habe?"
 
 #: concepts/risks.md:block 26 (paragraph)
 msgid ""
@@ -264,20 +266,28 @@ msgid ""
 "specific IP address and get a list of all the content seeded by clients "
 "behind it."
 msgstr ""
+"Ja und nein. Jeder, der die Funktionsweise von Ouinet hinreichend versteht, "
+"könnte ein Tool entwickeln, um herauszufinden, von welchen IP-Adressen ein "
+"bestimmter Inhalt verbreitet wird (wie bei BitTorrent). Es ist jedoch nicht "
+"möglich, eine bestimmte IP-Adresse anzusteuern und eine Liste aller Inhalte "
+"zu erhalten, die von den dahinter stehenden Clients verbreitet werden."
 
 #: concepts/risks.md:block 27 (header)
 msgid "As a bridge"
-msgstr ""
+msgstr "Als Brücke"
 
 #: concepts/risks.md:block 28 (header)
 msgid "Can others find my IP address?"
-msgstr ""
+msgstr "Können andere meine IP-Adresse herausfinden?"
 
 #: concepts/risks.md:block 29 (paragraph)
 msgid ""
 "Yes, every CENO Browser able to communicate with injectors will register its "
 "IP address in the bridge swarm where other Ouinet clients can find them."
 msgstr ""
+"Ja, jeder CENO-Browser, der mit Injektoren kommunizieren kann, registriert "
+"seine IP-Adresse im Bridge-Schwarm, wo andere Ouinet-Clients ihn finden "
+"können."
 
 #: concepts/risks.md:block 30 (header)
 msgid ""
@@ -293,6 +303,10 @@ msgid ""
 "client and an injector. This means that a bridge shall never make direct "
 "requests for content to any other server on someone else's behalf."
 msgstr ""
+"Brücken leiten jedoch nur die verschlüsselte Kommunikation zwischen einem "
+"Ouinet-Client und einem Injektor weiter. Das bedeutet, dass eine Bridge "
+"niemals direkte Anfragen nach Inhalten an einen anderen Server im Namen "
+"einer anderen Person stellen darf."
 
 #: concepts/risks.md:block 31 (paragraph)
 msgid "[National intranet]: https://en.wikipedia.org/wiki/National_intranet"
