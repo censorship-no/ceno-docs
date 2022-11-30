@@ -1,9 +1,15 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2022-12-01 18:46+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
+"Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
+"censorship-no/browser-bridging/pt_BR/>\n"
 "Language: pt_BR\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.15-dev\n"
 
 #: browser/bridging.md:block 1 (header)
 msgid "Helping other CENO users browse the Web"
@@ -310,4 +316,4 @@ msgstr ""
 
 #: browser/bridging.md:block 35 (quote)
 msgid "[CGNAT]: https://en.wikipedia.org/wiki/Carrier-grade_NAT"
-msgstr ""
+msgstr "[CGNAT]: https://en.wikipedia.org/wiki/Carrier-grade_NAT"
