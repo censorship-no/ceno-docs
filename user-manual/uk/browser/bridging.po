@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-12-02 09:57+0000\n"
-"Last-Translator: Artem <artem@molotov.work>\n"
+"PO-Revision-Date: 2022-12-03 10:47+0000\n"
+"Last-Translator: Vitalii Moroz <vitaliy.moroz@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-bridging/uk/>\n"
 "Language: uk\n"
@@ -73,8 +73,8 @@ msgid ""
 "a proper bridge while you are actively using it, as power-saving features "
 "will throttle the operation of CENO otherwise."
 msgstr ""
-"Однак, запримітьте: Android дозволить мобільному пристрою працювати як міст "
-"тільки під час активного використання, інакше функції енергозбереження "
+"Однак, зверніть увагу: Android дозволить мобільному пристрою працювати як "
+"міст тільки під час активного використання, інакше функції енергозбереження "
 "обмежуватимуть роботу CENO."
 
 #: browser/bridging.md:block 7 (quote)
