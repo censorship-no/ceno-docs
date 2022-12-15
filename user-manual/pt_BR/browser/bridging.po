@@ -1,19 +1,19 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-11-09 17:48+0000\n"
-"Last-Translator: Jean-Luc Tibaux <eugentoptic@outlook.de>\n"
-"Language-Team: German <https://hosted.weblate.org/projects/censorship-no/"
-"browser-bridging/de/>\n"
-"Language: de\n"
+"PO-Revision-Date: 2022-12-01 18:46+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
+"Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
+"censorship-no/browser-bridging/pt_BR/>\n"
+"Language: pt_BR\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.15-dev\n"
 
 #: browser/bridging.md:block 1 (header)
 msgid "Helping other CENO users browse the Web"
-msgstr "Anderen CENO-Benutzern beim Surfen im Internet helfen"
+msgstr ""
 
 #: browser/bridging.md:block 2 (paragraph)
 msgid ""
@@ -36,16 +36,10 @@ msgid ""
 "(but keep in mind the [risks](../concepts/risks.md) of serving such content "
 "to others)."
 msgstr ""
-"**Hinweis:** Die in diesem Abschnitt beschriebene Konfiguration kann auch "
-"dazu beitragen, dass Ihr Gerät Inhalte über den verteilten Cache effektiv an "
-"andere weitergibt. Ziehen Sie daher in Erwägung, sie ebenfalls anzuwenden, "
-"wenn Sie CENO in einem zensierenden Land verwenden (bedenken Sie jedoch die "
-"[Risiken](../concepts/risks.md), die mit der Weitergabe solcher Inhalte an "
-"andere verbunden sind)."
 
 #: browser/bridging.md:block 4 (header)
 msgid "How to become a CENO bridge"
-msgstr "Wie man eine CENO-Brücke wird"
+msgstr ""
 
 #: browser/bridging.md:block 5 (paragraph)
 msgid ""
@@ -54,10 +48,6 @@ msgid ""
 "port forwarding configured for CENO. See the next sections for further "
 "details."
 msgstr ""
-"Diese Funktion ist bereits in CENO Browser integriert. Ihr Gerät muss mit "
-"einem Wi-Fi-Netzwerk verbunden sein, das entweder UPnP aktiviert oder eine "
-"explizite Portweiterleitung für CENO konfiguriert hat. In den nächsten "
-"Abschnitten finden Sie weitere Einzelheiten."
 
 #: browser/bridging.md:block 6 (paragraph)
 msgid ""
@@ -65,9 +55,6 @@ msgid ""
 "a proper bridge while you are actively using it, as power-saving features "
 "will throttle the operation of CENO otherwise."
 msgstr ""
-"Bitte beachten Sie jedoch, dass Android ein mobiles Gerät nur dann als echte "
-"Bridge zulässt, wenn Sie es aktiv nutzen, da die Energiesparfunktionen den "
-"Betrieb von CENO andernfalls drosseln."
 
 #: browser/bridging.md:block 7 (quote)
 msgid ""
@@ -104,14 +91,6 @@ msgid ""
 "select *While charging* or *Either*. A very dimmed down clock will appear on "
 "a black background while the device is not active."
 msgstr ""
-"Eine bequeme Möglichkeit, dies ohne großen Stromverbrauch und störende "
-"Dauerbeleuchtung zu erreichen, ist die Verwendung des Bildschirmschoners von "
-"Android: Aktivieren Sie ihn unter *Einstellungen / Anzeige / "
-"Bildschirmschoner* (oder *Daydream* in einigen Versionen), wählen Sie das "
-"Widget *Uhr*, wählen Sie im Menü *Wann der Bildschirmschoner gestartet "
-"werden soll* und wählen Sie *Während des Ladevorgangs* oder *Either*. "
-"Solange das Gerät nicht aktiv ist, wird eine stark reduzierte Uhr auf "
-"schwarzem Hintergrund angezeigt."
 
 #: browser/bridging.md:block 9 (ordered list)
 msgid ""
@@ -119,10 +98,6 @@ msgid ""
 "this will turn the screen off. Instead, just wait for the device to lock "
 "itself with the screen on."
 msgstr ""
-"Bitte beachten Sie, dass Sie zum Sperren des Geräts nicht die Einschalttaste "
-"verwenden sollten, da dadurch der Bildschirm ausgeschaltet wird. Warten Sie "
-"stattdessen einfach, bis sich das Gerät bei eingeschaltetem Bildschirm "
-"selbst sperrt."
 
 #: browser/bridging.md:block 10 (paragraph)
 msgid ""
@@ -130,13 +105,10 @@ msgid ""
 "computer with good connectivity that stays on most of the time, please "
 "continue reading."
 msgstr ""
-"Wenn diese Einstellung für Sie nicht in Frage kommt, sollten Sie noch nicht "
-"aufgeben! Wenn Sie einen Computer mit guten Anschlussmöglichkeiten haben, "
-"der die meiste Zeit eingeschaltet bleibt, lesen Sie bitte weiter."
 
 #: browser/bridging.md:block 11 (header)
 msgid "Running a bridge on a computer"
-msgstr "Ausführen einer Bridge auf einem Computer"
+msgstr ""
 
 #: browser/bridging.md:block 12 (paragraph)
 msgid ""
@@ -167,10 +139,6 @@ msgid ""
 "Docker client documentation][ceno-client-doc] for more information on how to "
 "manipulate the container."
 msgstr ""
-"Der Befehl startet einen Container mit dem Namen `ceno-client`, der bei "
-"jedem Start ausgeführt wird, es sei denn, Sie weisen ihn explizit an, zu "
-"stoppen. Bitte lesen Sie die [CENO Docker client documentation][ceno-client-"
-"doc] für weitere Informationen zur Handhabung des Containers."
 
 #: browser/bridging.md:block 18 (quote)
 msgid ""
@@ -178,10 +146,6 @@ msgid ""
 "access that page, open instead the [client front-end](../client/front-end."
 "md), which contains mostly equivalent information."
 msgstr ""
-"**Hinweis:** Dieser Client hat keine *CENO-Einstellungen*: Wenn Sie unten "
-"angewiesen werden, auf diese Seite zuzugreifen, öffnen Sie stattdessen das ["
-"client front-end](../client/front-end.md), das größtenteils gleichwertige "
-"Informationen enthält."
 
 #: browser/bridging.md:block 19 (header)
 msgid "Enabling UPnP on your Wi-Fi router"
@@ -200,10 +164,6 @@ msgid ""
 "network to external interference. Please make yourself [aware of the risks]"
 "[upnp-risks] and also consider using alternative methods as explained below."
 msgstr ""
-"**Hinweis:** Die Aktivierung von UPnP auf dem Wi-Fi-Router kann dazu führen, "
-"dass Geräte in Ihrem Netzwerk externen Störungen ausgesetzt sind. Bitte "
-"machen Sie sich [über die Risiken][upnp-risks] bewusst und erwägen Sie die "
-"Verwendung alternativer Methoden, wie unten beschrieben."
 
 #: browser/bridging.md:block 22 (paragraph)
 msgid ""
@@ -356,4 +316,4 @@ msgstr ""
 
 #: browser/bridging.md:block 35 (quote)
 msgid "[CGNAT]: https://en.wikipedia.org/wiki/Carrier-grade_NAT"
-msgstr ""
+msgstr "[CGNAT]: https://en.wikipedia.org/wiki/Carrier-grade_NAT"

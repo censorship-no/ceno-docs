@@ -1,19 +1,13 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-11-09 17:48+0000\n"
-"Last-Translator: Jean-Luc Tibaux <eugentoptic@outlook.de>\n"
-"Language-Team: German <https://hosted.weblate.org/projects/censorship-no/"
-"browser-public-private/de/>\n"
-"Language: de\n"
+"Language: pt_BR\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15-dev\n"
 
 #: browser/public-private.md:block 1 (header)
 msgid "Using public or private browsing"
-msgstr "Öffentliches oder privates Browsing verwenden"
+msgstr ""
 
 #: browser/public-private.md:block 2 (paragraph)
 msgid ""
@@ -22,10 +16,6 @@ msgid ""
 "the content that you browse with others (public browsing) or not (private "
 "browsing)."
 msgstr ""
-"Wie [in einem früheren Abschnitt](../concepts/public-private.md) "
-"beschrieben, verfügt CENO über zwei verschiedene Betriebsmodi, je nachdem, "
-"ob Sie die Inhalte, die Sie durchsuchen, mit anderen teilen möchten ("
-"öffentliches Browsing) oder nicht (privates Browsing)."
 
 #: browser/public-private.md:block 3 (paragraph)
 msgid ""
@@ -41,22 +31,18 @@ msgid ""
 "You can tell public tabs from private ones because public tabs have a "
 "lighter (or white) tool bar:"
 msgstr ""
-"Sie können öffentliche Registerkarten von privaten unterscheiden, weil "
-"öffentliche Registerkarten eine hellere (oder weiße) Symbolleiste haben:"
 
 #: browser/public-private.md:block 5 (paragraph)
 msgid "![Figure: A public browsing tab](images/public-tab.png)"
-msgstr "![Abbildung: Eine öffentliche Registerkarte](images/public-tab.png)"
+msgstr ""
 
 #: browser/public-private.md:block 6 (paragraph)
 msgid "In contrast, private tabs have a darker tool bar:"
 msgstr ""
-"Im Gegensatz dazu haben private Registerkarten eine dunklere Symbolleiste:"
 
 #: browser/public-private.md:block 7 (paragraph)
 msgid "![Figure: A private browsing tab](images/private-tab.png)"
 msgstr ""
-"![Abbildung: Eine Registerkarte für privates Surfen](images/private-tab.png)"
 
 #: browser/public-private.md:block 8 (paragraph)
 msgid ""
@@ -64,7 +50,3 @@ msgid ""
 "bar will help you know how it actually retrieved the different elements of "
 "the content. We will cover this icon later on."
 msgstr ""
-"Wenn Sie eine Seite in einer Registerkarte geladen haben, können Sie an dem "
-"farbigen CENO-Symbol in der Adressleiste erkennen, wie die verschiedenen "
-"Elemente des Inhalts tatsächlich abgerufen wurden. Wir werden dieses Symbol "
-"später behandeln."
