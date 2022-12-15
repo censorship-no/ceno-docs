@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-12-12 21:51+0000\n"
-"Last-Translator: michel <michel@equalit.ie>\n"
+"PO-Revision-Date: 2022-12-15 21:43+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/censorship-no/"
 "browser-install/fr/>\n"
 "Language: fr\n"
@@ -37,8 +37,8 @@ msgid ""
 "[Paskoocheh][ceno-pask]: for users in countries blocking access to the "
 "previous channels."
 msgstr ""
-"[Paskoocheh][ceno-pask] : pour les utilisateurs des pays bloquant l’accès "
-"aux canaux précédents."
+"[Paskoocheh][ceno-pask]: pour les utilisateurs des pays bloquant l’accès aux "
+"canaux précédents."
 
 #: browser/install.md:block 4 (paragraph)
 msgid ""
@@ -218,7 +218,7 @@ msgstr "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
 
 #: browser/install.md:block 18 (quote)
 msgid "[ceno-pask]: https://paskoocheh.com/tools/124/android.html"
-msgstr "[ceno-pask] : https://paskoocheh.com/tools/124/android.html"
+msgstr "[ceno-pask]: https://paskoocheh.com/tools/124/android.html"
 
 #~ msgid "CENO requires *no special permissions* to run."
 #~ msgstr "CENO ne nécessite *aucune autorisation spéciale* pour fonctionner."
