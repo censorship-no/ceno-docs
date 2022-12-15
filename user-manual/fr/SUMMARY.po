@@ -29,7 +29,7 @@ msgstr "[Introduction](intro/README.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[What is CENO Browser?](intro/ceno.md)"
-msgstr "[Qu'est-ce que le navigateur CENO ?] (intro/ceno.md)"
+msgstr "[Qu'est-ce que le navigateur CENO ?](intro/ceno.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[What is Ouinet?](intro/ouinet.md)"
@@ -73,8 +73,7 @@ msgstr "[Installation de CENO](browser/install.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Using public or private browsing](browser/public-private.md)"
-msgstr ""
-"[Utilisation de la navigation publique ou privée](browser/public-private.md)"
+msgstr "[Utilisation de la navigation publique ou privée](browser/public-private.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[CENO settings](browser/settings.md)"

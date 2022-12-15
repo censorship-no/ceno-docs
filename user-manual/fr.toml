@@ -1,0 +1,12 @@
+[book]
+authors = ["Michel Lambert", "Jenny Ryan"]
+language = "fr"
+multilingual = false
+src = "fr.src"
+title = "Censorship.no! Manuel de l'Utilisateur"
+
+[output.html]
+git-repository-url = "https://github.com/censorship-no/ceno-docs"
+
+[build]
+build-dir = "fr.book"
