@@ -274,10 +274,15 @@ msgstr ""
 "generalmente no deberían ser divulgados."
 
 #: browser/settings.md:block 13 (unordered list)
+#, fuzzy
+#| msgid ""
+#| "*External UDP endpoints* are the Internet addresses in your router given "
+#| "to your CENO traffic. Only available with UPnP-enabled routers, they are "
+#| "also is useful for diagnostics and not to be generally disclosed."
 msgid ""
 "*External UDP endpoints* are the Internet addresses in your router given to "
 "your CENO traffic. Only available with UPnP-enabled routers, they are also "
-"is useful for diagnostics and not to be generally disclosed."
+"useful for diagnostics and not to be generally disclosed."
 msgstr ""
 "*Puntos finales UDP externos* son las direcciones de Internet en tu "
 "enrutador dadas a tu tráfico de CENO. Disponibles únicamente en enrutadores "
