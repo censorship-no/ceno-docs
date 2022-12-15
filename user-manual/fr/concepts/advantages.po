@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-01 21:57+0200\n"
-"PO-Revision-Date: 2022-12-12 21:51+0000\n"
-"Last-Translator: michel <michel@equalit.ie>\n"
+"PO-Revision-Date: 2022-12-15 21:43+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/censorship-no/"
 "advantages/fr/>\n"
 "Language: fr\n"
@@ -110,8 +110,8 @@ msgstr ""
 
 #: concepts/advantages.md:block 3 (unordered list)
 msgid "[Slashdot effect]: https://en.wikipedia.org/wiki/Slashdot_effect"
-msgstr "[Slashdot effect] : https://fr.wikipedia.org/wiki/Effet_Slashdot"
+msgstr "[Slashdot effect]: https://fr.wikipedia.org/wiki/Effet_Slashdot"
 
 #: concepts/advantages.md:block 3 (unordered list)
 msgid "[National intranet]: https://en.wikipedia.org/wiki/National_intranet"
-msgstr "[National intranet] : https://en.wikipedia.org/wiki/National_intranet"
+msgstr "[National intranet]: https://en.wikipedia.org/wiki/National_intranet"
