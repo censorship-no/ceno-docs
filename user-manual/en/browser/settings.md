@@ -50,7 +50,7 @@ This page also provides you with some information about your CENO Browser app an
 - *Reachability status* indicates how likely it is for your device to be able to effectively seed content to other clients.  Also include in reports.
 - *UPnP status* indicates whether CENO was able to tell your router or access point to allow incoming connections towards it.  Also include in reports.
 - *Local UDP endpoints* are the Internet addresses in your device used by CENO to seed signed content to other clients.  These are shown to help test and debug the app, and should not be generally disclosed.
-- *External UDP endpoints* are the Internet addresses in your router given to your CENO traffic.  Only available with UPnP-enabled routers, they are also is useful for diagnostics and not to be generally disclosed.
+- *External UDP endpoints* are the Internet addresses in your router given to your CENO traffic.  Only available with UPnP-enabled routers, they are also useful for diagnostics and not to be generally disclosed.
 - *Public UDP endpoints* are the Internet addresses that Ouinet clients outside of your network see when communicating with your device.  Also for diagnostics and not to be disclosed.
 - *Extra BitTorrent bootstraps* are servers used to help your device get into the BitTorrent network, should the default ones not work.  Also include in reports.  You may edit the space-separated list of hosts (with optional ports) to set or add your own, then choose *Save*.  The changes will be applied the next time that your Ouinet client is started.
 - *CENO Browser* indicates the exact version of CENO that you are using.  Also include in reports.
