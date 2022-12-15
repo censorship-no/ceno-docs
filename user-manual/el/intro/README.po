@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-03 02:50+0200\n"
-"PO-Revision-Date: 2021-12-16 11:53+0000\n"
+"PO-Revision-Date: 2022-11-06 17:08+0000\n"
 "Last-Translator: george kitsoukakis <norhorn@gmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/censorship-no/"
 "readme/el/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.10-dev\n"
+"X-Generator: Weblate 4.14.2\n"
 
 #
 #: intro/README.md:block 1 (header)
@@ -75,12 +75,12 @@ msgstr ""
 
 #: intro/README.md:block 6 (paragraph)
 msgid "[ooni-reports]: https://ooni.org/reports/"
-msgstr ""
+msgstr "[ooni-reports]: https://ooni.org/reports/"
 
 #: intro/README.md:block 6 (paragraph)
 msgid "[magma-reports]: https://magma.lavafeld.org/publications/"
-msgstr ""
+msgstr "[magma-reports]: https://magma.lavafeld.org/publications/"
 
 #: intro/README.md:block 6 (paragraph)
 msgid "[cplan-reports]: https://censoredplanet.org/reports"
-msgstr ""
+msgstr "[cplan-reports]: https://censoredplanet.org/reports"

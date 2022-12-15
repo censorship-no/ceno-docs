@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-04 20:09+0200\n"
-"PO-Revision-Date: 2022-01-14 15:53+0000\n"
+"PO-Revision-Date: 2022-11-06 17:08+0000\n"
 "Last-Translator: george kitsoukakis <norhorn@gmail.com>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/censorship-no/"
 "risks/el/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.10.1\n"
+"X-Generator: Weblate 4.14.2\n"
 
 #
 #: concepts/risks.md:block 1 (header)
@@ -44,7 +44,7 @@ msgstr ""
 
 #: concepts/risks.md:block 4 (header)
 msgid "As a user"
-msgstr ""
+msgstr "Ως χρήστης"
 
 #: concepts/risks.md:block 5 (header)
 msgid "Can bridges see my communication with the origin server?"
@@ -201,7 +201,7 @@ msgstr ""
 
 #: concepts/risks.md:block 27 (header)
 msgid "As a bridge"
-msgstr ""
+msgstr "Ως γέφυρα"
 
 #: concepts/risks.md:block 28 (header)
 msgid "Can others find my IP address?"

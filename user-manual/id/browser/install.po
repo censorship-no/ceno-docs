@@ -1,15 +1,15 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-06-01 23:16+0000\n"
-"Last-Translator: Reza Almanda <rezaalmanda27@gmail.com>\n"
+"PO-Revision-Date: 2022-10-26 15:05+0000\n"
+"Last-Translator: AZR <metaverse@basyiri.my.id>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-install/id/>\n"
 "Language: id\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.13-dev\n"
+"X-Generator: Weblate 4.14.2-dev\n"
 
 #: browser/install.md:block 1 (header)
 msgid "Installing CENO"
@@ -17,23 +17,27 @@ msgstr "Menginstal CENO"
 
 #: browser/install.md:block 2 (paragraph)
 msgid "CENO Browser can be installed via the following means:"
-msgstr ""
+msgstr "CENO Browser dapat dipasang dengan mengikuti cara:"
 
 #: browser/install.md:block 3 (unordered list)
 msgid ""
 "[Google Play][ceno-gplay] (*CENO Browser* from *eQualitie*): the recommended "
 "source for most Android users."
 msgstr ""
+"[Google Play][ceno-gplay] (*CENO Browser* dari *eQualitie*): sumber paling "
+"direkomendasikan untuk pengguna Android."
 
 #: browser/install.md:block 3 (unordered list)
 msgid "[GitHub][ceno-gh]: for Android devices without Google Play."
-msgstr ""
+msgstr "[GitHub][ceno-gh]: untuk perangkat Android tanpa Google Play."
 
 #: browser/install.md:block 3 (unordered list)
 msgid ""
 "[Paskoocheh][ceno-pask]: for users in countries blocking access to the "
 "previous channels."
 msgstr ""
+"[Paskoocheh][ceno-pask]: untuk pengguna di negara yang aksesnya diblokir "
+"menuju kanal sebelumnya."
 
 #: browser/install.md:block 4 (paragraph)
 msgid ""
@@ -41,6 +45,10 @@ msgid ""
 "4.1 Jelly Bean, thus most mobile devices released from late 2012 onward "
 "should work. CENO needs *no special permissions* to run."
 msgstr ""
+"CENO membutuhkan sebuah perangkat ARM64 atau Neon-capable ARM32 berjalan "
+"paling sedikit Android 4.1 Jelly Bean, jadi kebanyakkan perangkat bergerak "
+"yang diluncurkan dari 2012 akhir dan seterusnya harusnya bekerja. CENO "
+"membutuhkan *tidak ada izin khusus* untuk dijalankan."
 
 #: browser/install.md:block 5 (quote)
 msgid ""
@@ -51,10 +59,17 @@ msgid ""
 "Ouinet users. If in doubt, please contact [cenoers@equalit.ie](mailto:"
 "cenoers@equalit.ie) before installing a suspicious app."
 msgstr ""
+"**Perhatian:** Mohon untuk *skeptis secara ekstrim* tentang memasang CENO "
+"Browser dari sumber lainnya dari salah satu yang disebutkan diatas. Sebab "
+"dari asalnya aplikasi, pengguna potensial mereka dapat menjadi seorang "
+"target untuk semua jenis dari versi palsu atau dimanipulasi untuk melanggar "
+"privasi pengguna atau menyerang pengguna CENO and Ouinet. Jika ragu, mohon "
+"hubungi [cenoers@equalit.ie](mailto:cenoers@equalit.ie) sebelum memasang "
+"sebuah aplikasi mencurigakan."
 
 #: browser/install.md:block 6 (header)
 msgid "Stopping CENO completely"
-msgstr ""
+msgstr "Memberhentikan CENO keseluruhan"
 
 #: browser/install.md:block 7 (paragraph)
 msgid ""
@@ -64,6 +79,11 @@ msgid ""
 "allows other clients to use your device as a bridge and retrieve content "
 "from it at any time."
 msgstr ""
+"Setiap kali anda memulai aplikasi, ikon CENO akan tampil pada bar notifikasi "
+"perangkat anda. Ikon ini merepresentasikan *layanan CENO Browser*, yang mana "
+"merupakan bagian dari CENO yang berjalan permanen (sekalipun ketika anda "
+"sedang tidak menjelajah) dan mengizinkan klien lain untuk menggunakan "
+"perangkat anda sebagai bridge dan mengambil konten dari itu kapanpun."
 
 #: browser/install.md:block 8 (paragraph)
 msgid ""
@@ -72,16 +92,23 @@ msgid ""
 "far from a charger). Tapping on the notification attached to the icon will "
 "stop both CENO and its service at once (until you open CENO again)."
 msgstr ""
+"Sejak berjalannya seperti layanan menggunakan sumber daya jaringan dan "
+"prosesor, anda mungkin ingin menghentikannya kapanpun anda bergerak (seperti "
+"tidak terkoneksi pada WiFi atau jauh dari sumber charger). Ketuk pada "
+"notifikasi yang terlampir pada icon akan menghentikan keduanya baik CENO dan "
+"layanannya dalam satu waktu (sampai anda membuka CENO lagi)."
 
 #: browser/install.md:block 9 (paragraph)
 msgid ""
 "![Figure: Tap on the notification to stop the CENO service](images/tap-stop."
 "png)"
 msgstr ""
+"![Figure: Ketuk pada notifikasi untuk menghentikan layanan CENO](images/tap-"
+"stop.png)"
 
 #: browser/install.md:block 10 (header)
 msgid "Purging all CENO data (the \"panic button\")"
-msgstr ""
+msgstr "Membersihkan semua data CENO (\"tombol panik\")"
 
 #: browser/install.md:block 11 (paragraph)
 msgid ""
@@ -90,6 +117,10 @@ msgid ""
 "action will just open CENO with a new public browsing tab showing its home "
 "page. The *Erase* action demands more explanation."
 msgstr ""
+"Notifikasi *layanan CENO Browser* ditampilkan diatas termasuk beberapa yang "
+"mengiringi aksi yang mana dapat terpicu oleh mengetuknya. Aksi *Beranda*akan "
+"hanya membuka CENO dengan sebuah tab jelajah baru menunjukkan halaman "
+"beranda. Aksi *Hapus* tergantung penjelasan lainnya."
 
 #: browser/install.md:block 12 (quote)
 msgid ""
@@ -98,6 +129,10 @@ msgid ""
 "only see the *Home* action, your device may be too old to support the "
 "*Erase* action."
 msgstr ""
+"**Catatan:** Jika aksi dibawah notifikasi tidak terlihat, tarik notifikasi "
+"dari tengah menuju bawah untuk membukanya. Jika anda hanya dapat melihat "
+"aksi *Beranda*, perangkat anda mungkin terlalu lama untuk dukungan aksi "
+"*Hapus*."
 
 #: browser/install.md:block 13 (paragraph)
 msgid ""
@@ -107,12 +142,20 @@ msgid ""
 "your data accidentally, this will not remove anything yet, but just show an "
 "additional action for a brief moment, as pictured below:"
 msgstr ""
+"Mungkin anda pernah membutuhkan untuk menghentikan secara cepat CENO dan "
+"menghapus semua data terkait dengan pasti (tidak hanya konten tembolok, "
+"tetapi juga pengaturan seperti favorit, kata sandi, dan semua jejak peramban)"
+", anda dapat mengetuk pada *Hapus*. Untuk menghindari kehilangan data secara "
+"tidak sengaja, ini tidak akan menghapus apapun, tetapi hanya menampilkan "
+"aksi tambahan untuk momen singkat, sebagaimana digambarkan dibawah:"
 
 #: browser/install.md:block 14 (paragraph)
 msgid ""
 "![Figure: The last action stops CENO and clears all its data](images/tap-"
 "purge.png)"
 msgstr ""
+"![Figure: Aksi terakhir untuk menghentikan CENO dan menghapus semua datanya]("
+"images/tap-purge.png)"
 
 #: browser/install.md:block 15 (paragraph)
 msgid ""
@@ -120,10 +163,14 @@ msgid ""
 "removed *without further questions*, effectively leaving your device as if "
 "CENO had never been used."
 msgstr ""
+"Jika anda mengetuk pada aksi *Ya*, CENO akan menghentikan dan menghapus "
+"semua datanya *tanpa pertanyaan lanjutan*, sangat efektif meninggalkan "
+"perangkat selama jika CENO telah lama tidak digunakan."
 
 #: browser/install.md:block 16 (paragraph)
 msgid "If you do not tap on the action, it will go away in a few seconds."
 msgstr ""
+"Jika anda tidak mengetuk pada aksi, itu akan menghilang dalam beberapa detik."
 
 #: browser/install.md:block 17 (quote)
 msgid ""
@@ -132,26 +179,35 @@ msgid ""
 "Android's general *Settings* page and, under the *Apps* entry, choose CENO "
 "and then *Clear data*."
 msgstr ""
+"**Catatan:** Deskripsi metode diatas itu membutuhkan CENO berjalan pada "
+"perangkat anda. Untuk melengkapi efek yang sama ketika CENO dihentikan, anda "
+"dapat menggunakan halaman *Pengaturan* Android umumnya dan, dibawah masukkan "
+"*Aplikasi*, pilih CENO dan kemudian *Hapus data*."
 
 #: browser/install.md:block 17 (quote)
 msgid "As a harsher alternative, you may completely uninstall the app."
 msgstr ""
+"Sebagai alternatif lebih kasar, anda mungkin melepas aplikasi secara "
+"keseluruhan."
 
 #: browser/install.md:block 18 (quote)
 msgid ""
 "**Warning:** Android may still keep other traces of having used an app "
 "besides its data, for instance in its system log."
 msgstr ""
+"**Peringatan:** Android mungkin masih menjaga jejak lainnya dari aplikasi "
+"yang telah digunakan juga datanya, untuk instansi dalam log sistem."
 
 #: browser/install.md:block 18 (quote)
 msgid ""
 "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
 msgstr ""
+"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
 
 #: browser/install.md:block 18 (quote)
 msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
-msgstr ""
+msgstr "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
 
 #: browser/install.md:block 18 (quote)
 msgid "[ceno-pask]: https://paskoocheh.com/tools/124/android.html"
-msgstr ""
+msgstr "[ceno-pask]: https://paskoocheh.com/tools/124/android.html"

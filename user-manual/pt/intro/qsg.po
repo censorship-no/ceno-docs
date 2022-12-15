@@ -1,0 +1,97 @@
+#
+msgid ""
+msgstr ""
+"Language: pt\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: intro/qsg.md:block 1 (header)
+msgid "Quick start guide"
+msgstr ""
+
+#: intro/qsg.md:block 2 (paragraph)
+msgid ""
+"CENO Browser allows you to access any website on the Internet, even if it is "
+"censored in your country. CENO uses a peer-to-peer infrastructure to route "
+"your requests, as well as to store and share retrieved content with others. "
+"[Read more about CENO](ceno.md)."
+msgstr ""
+
+#: intro/qsg.md:block 3 (header)
+msgid "How to get started"
+msgstr ""
+
+#: intro/qsg.md:block 4 (paragraph)
+msgid "You will need an Android device:"
+msgstr ""
+
+#: intro/qsg.md:block 5 (ordered list)
+msgid ""
+"Install CENO Browser from [Google Play][ceno-gplay], [GitHub][ceno-gh] or "
+"[Paskoocheh][ceno-pask]. *No special permissions are needed*."
+msgstr ""
+
+#: intro/qsg.md:block 5 (ordered list)
+msgid "Run it."
+msgstr ""
+
+#: intro/qsg.md:block 5 (ordered list)
+msgid ""
+"Browse pages normally to help other users access them; if concerned about "
+"privacy for some page or if it is not loading as expected, use a private tab "
+"(see [public vs. private browsing](../concepts/public-private.md))."
+msgstr ""
+
+#: intro/qsg.md:block 5 (ordered list)
+msgid "Tap on the CENO notification to stop it completely."
+msgstr ""
+
+#: intro/qsg.md:block 6 (paragraph)
+msgid "Detailed installation instructions are [here](../browser/install.md)."
+msgstr ""
+
+#: intro/qsg.md:block 7 (header)
+msgid "Configuration"
+msgstr ""
+
+#: intro/qsg.md:block 8 (paragraph)
+msgid ""
+"CENO Browser should work out-of-the-box. You can find some [diagnostics and "
+"settings](../browser/settings.md) under the *CENO* menu entry."
+msgstr ""
+
+#: intro/qsg.md:block 9 (paragraph)
+msgid ""
+"If you want to make sure that your app is also helping others access blocked "
+"content, please [read this section](../browser/bridging.md)."
+msgstr ""
+
+#: intro/qsg.md:block 10 (header)
+msgid "More questions?"
+msgstr ""
+
+#: intro/qsg.md:block 11 (unordered list)
+msgid "Please see the [FAQ](faq.md)."
+msgstr ""
+
+#: intro/qsg.md:block 11 (unordered list)
+msgid "Refer to the [troubleshooting guide](../browser/troubleshooting.md)."
+msgstr ""
+
+#: intro/qsg.md:block 11 (unordered list)
+msgid ""
+"Contact us by writing to [cenoers@equalit.ie](mailto:cenoers@equalit.ie)."
+msgstr ""
+
+#: intro/qsg.md:block 11 (unordered list)
+msgid ""
+"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
+msgstr ""
+
+#: intro/qsg.md:block 11 (unordered list)
+msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
+msgstr ""
+
+#: intro/qsg.md:block 11 (unordered list)
+msgid "[ceno-pask]: https://paskoocheh.com/tools/124/android.html"
+msgstr ""

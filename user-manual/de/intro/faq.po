@@ -1,25 +1,33 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2022-09-14 10:24+0000\n"
+"Last-Translator: Jean-Luc Tibaux <eugentoptic@outlook.de>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/censorship-no/faq/"
+"de/>\n"
 "Language: de\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1-dev\n"
 
 #: intro/faq.md:block 1 (header)
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "Häufig gestellte Fragen (FAQ)"
 
 #: intro/faq.md:block 2 (header)
 msgid "Usage"
-msgstr ""
+msgstr "Nutzung"
 
 #: intro/faq.md:block 3 (header)
 msgid "Can CENO Browser replace my current browser (Chrome/Firefox/Safari)?"
 msgstr ""
+"Kann CENO Browser meinen aktuellen Browser (Chrome/Firefox/Safari) ersetzen?"
 
 #: intro/faq.md:block 4 (paragraph)
 msgid "Short answer: yes, at least for some non-critical browsing."
 msgstr ""
+"Kurze Antwort: Ja, zumindest bei einigen unkritischen Browsing-Vorgängen."
 
 #: intro/faq.md:block 5 (paragraph)
 msgid ""
@@ -28,6 +36,11 @@ msgid ""
 "Ouinet technology for retrieving web content may affect its operation in "
 "subtle ways (some of them potentially involving your privacy)."
 msgstr ""
+"Da CENO auf Mozilla Firefox für Android basiert, bietet es alle Funktionen, "
+"die man von einem modernen Browser erwartet. Seine Abhängigkeit von der "
+"Ouinet-Technologie zum Abrufen von Webinhalten kann jedoch den Betrieb auf "
+"subtile Weise beeinträchtigen (einige davon betreffen möglicherweise Ihre "
+"Privatsphäre)."
 
 #: intro/faq.md:block 6 (paragraph)
 msgid ""
@@ -36,6 +49,11 @@ msgid ""
 "changes are introduced which require you to uninstall the application or "
 "remove stored data (including bookmarks and site settings) before upgrading."
 msgstr ""
+"Da CENO und Ouinet ständig weiterentwickelt werden, kann es außerdem zu "
+"Instabilitäten kommen. Das kann auch bedeuten, dass rückwärtskompatible "
+"Änderungen eingeführt werden, die es erforderlich machen, die Anwendung zu "
+"deinstallieren oder gespeicherte Daten (einschließlich Lesezeichen und "
+"Website-Einstellungen) vor dem Upgrade zu entfernen."
 
 #: intro/faq.md:block 7 (paragraph)
 msgid ""
@@ -43,14 +61,20 @@ msgid ""
 "you use your habitual Web browser instead of CENO. Please read the section "
 "on [risks](../concepts/risks.md) for more information."
 msgstr ""
+"Für wichtige Arbeiten auf Websites, die nicht der Zensur unterliegen, "
+"empfehlen wir Ihnen, Ihren gewohnten Webbrowser anstelle von CENO zu "
+"verwenden. Bitte lesen Sie den Abschnitt über [Risiken](../concepts/risks.md)"
+" für weitere Informationen."
 
 #: intro/faq.md:block 8 (header)
 msgid "Can I use CENO Browser to access Twitter, Facebook and Gmail?"
 msgstr ""
+"Kann ich CENO Browser für den Zugriff auf Twitter, Facebook und Gmail "
+"verwenden?"
 
 #: intro/faq.md:block 9 (paragraph)
 msgid "Short answer: yes, by using private tabs."
-msgstr ""
+msgstr "Kurze Antwort: Ja, indem Sie private Registerkarten verwenden."
 
 #: intro/faq.md:block 10 (paragraph)
 msgid ""
@@ -61,6 +85,14 @@ msgid ""
 "down all private data (like passwords and cookies) from Web traffic to "
 "ensure that it does not leak to other untrusted CENO or Ouinet users."
 msgstr ""
+"Obwohl CENO bestrebt ist, ein Benutzererlebnis zu bieten, das dem normalen "
+"Web-Browsing so ähnlich wie möglich ist, funktionieren einige der Techniken, "
+"die zur Vermeidung von Netzwerkstörungen eingesetzt werden, nicht gut mit "
+"solchen dynamischen Websites. Dies ist bei der Standardbetriebsart von CENO ("
+"d. h. öffentliches Surfen) der Fall, da alle privaten Daten (wie Kennwörter "
+"und Cookies) aus dem Webverkehr entfernt werden, um sicherzustellen, dass "
+"sie nicht an andere, nicht vertrauenswürdige CENO- oder Ouinet-Nutzer "
+"gelangen."
 
 #: intro/faq.md:block 11 (paragraph)
 msgid ""
@@ -70,30 +102,40 @@ msgid ""
 "else. However, this requires that network traffic from your device can reach "
 "those websites in some way."
 msgstr ""
+"Um dies zu vermeiden und die Nutzung solcher dynamischen Websites in CENO zu "
+"ermöglichen, können Sie private Registerkarten (d. h. privates Surfen) "
+"verwenden, bei denen private Daten intakt bleiben und die Verbindungen zu "
+"den Websites verschlüsselt und somit vor allen anderen geschützt sind. Dies "
+"setzt jedoch voraus, dass der Netzwerkverkehr von Ihrem Gerät diese Websites "
+"auf irgendeine Weise erreichen kann."
 
 #: intro/faq.md:block 12 (paragraph)
 msgid ""
 "For further details, please refer to the section on the differences between "
 "[public and private browsing](../concepts/public-private.md)."
 msgstr ""
+"Weitere Einzelheiten entnehmen Sie bitte dem Abschnitt über die Unterschiede "
+"zwischen [öffentlichem und privatem Browsing](../concepts/public-private.md)."
 
 #: intro/faq.md:block 13 (header)
 msgid "Privacy and security"
-msgstr ""
+msgstr "Datenschutz und Sicherheit"
 
 #: intro/faq.md:block 14 (header)
 msgid "Will my device store content that I did not request?"
-msgstr ""
+msgstr "Wird mein Gerät Inhalte speichern, die ich nicht angefordert habe?"
 
 #: intro/faq.md:block 15 (paragraph)
 msgid "Short answer: no."
-msgstr ""
+msgstr "Kurze Antwort: Nein."
 
 #: intro/faq.md:block 16 (paragraph)
 msgid ""
 "CENO only shares content that you requested (using [public browsing](../"
 "concepts/public-private.md))."
 msgstr ""
+"CENO gibt nur Inhalte frei, die Sie angefordert haben (mit [öffentlichem "
+"Browsen](../concepts/public-private.md))."
 
 #: intro/faq.md:block 17 (paragraph)
 msgid ""
@@ -103,20 +145,30 @@ msgid ""
 "already does a pretty good job at detecting and blocking such attempts, you "
 "should still avoid visiting suspicious sites."
 msgstr ""
+"Bitte beachten Sie, dass eine bösartige Website immer noch versuchen kann, "
+"Ihren Browser dazu zu bringen, ohne Ihr Wissen Inhalte von anderen Websites "
+"abzurufen, um Ihr Gerät zu zwingen, diese zu speichern und mit anderen "
+"Benutzern zu teilen. Obwohl der Firefox-Code solche Versuche bereits recht "
+"gut erkennt und blockiert, sollten Sie dennoch den Besuch verdächtiger "
+"Websites vermeiden."
 
 #: intro/faq.md:block 18 (paragraph)
 msgid ""
 "Read more about how your CENO Browser retrieves and shares Web content with "
 "others [here](../concepts/how.md)."
 msgstr ""
+"Lesen Sie mehr darüber, wie Ihr CENO Browser Webinhalte abruft und mit "
+"anderen teilt [hier](../concepts/how.md)."
 
 #: intro/faq.md:block 19 (header)
 msgid "Can anyone see if I am using CENO Browser to access censored Web sites?"
 msgstr ""
+"Kann jemand sehen, ob ich CENO Browser benutze, um auf zensierte Websites "
+"zuzugreifen?"
 
 #: intro/faq.md:block 20 (paragraph)
 msgid "Short answer: yes, with some technical knowledge and resources."
-msgstr ""
+msgstr "Kurze Antwort: Ja, mit einigen technischen Kenntnissen und Ressourcen."
 
 #: intro/faq.md:block 21 (paragraph)
 msgid ""
@@ -126,6 +178,11 @@ msgid ""
 "particular website, although they cannot list all the content that you are "
 "sharing."
 msgstr ""
+"CENO ist kein Anonymitätswerkzeug. Ein Angreifer, der in der Lage ist, Ihren "
+"Netzwerkverkehr auszuspionieren, kann sehen, welche Inhalte von Ihrem Gerät "
+"aus von einem anderen Benutzer angefordert oder an diesen übermittelt "
+"werden. Der Angreifer kann auch feststellen, ob Sie eine bestimmte Website "
+"teilen, obwohl er nicht alle Inhalte auflisten kann, die Sie teilen."
 
 #: intro/faq.md:block 22 (paragraph)
 msgid ""
@@ -134,18 +191,23 @@ msgid ""
 "encrypted connections. See [how content retrieval works](../concepts/how.md) "
 "and the associated [risks](../concepts/risks.md) for more information."
 msgstr ""
+"Allerdings werden Inhalte, die zum ersten Mal im Netz abgerufen werden oder "
+"das [private Browsing](../concepts/public-private.md) nutzen, über "
+"verschlüsselte Verbindungen übertragen. Weitere Informationen finden Sie "
+"unter [wie der Abruf von Inhalten funktioniert](../concepts/how.md) und den "
+"damit verbundenen [Risiken](../concepts/risks.md)."
 
 #: intro/faq.md:block 23 (header)
 msgid "Resource usage"
-msgstr ""
+msgstr "Ressourcenverbrauch"
 
 #: intro/faq.md:block 24 (header)
 msgid "Does CENO Browser use a lot of data?"
-msgstr ""
+msgstr "Verbraucht CENO Browser viele Daten?"
 
 #: intro/faq.md:block 25 (paragraph)
 msgid "Short answer: more than your usual browser."
-msgstr ""
+msgstr "Kurze Antwort: mehr als Ihr herkömmlicher Browser."
 
 #: intro/faq.md:block 26 (paragraph)
 msgid ""
@@ -154,6 +216,11 @@ msgid ""
 "large the content is, and how well-connected your device is. Sharing more "
 "content also implies more overhead."
 msgstr ""
+"Jedes Mal, wenn Ihr CENO Browser Inhalte für andere Benutzer bereitstellt "
+"oder deren Datenverkehr weiterleitet, verbraucht er zusätzliche Daten, "
+"abhängig von Faktoren wie der Beliebtheit oder dem Umfang der Inhalte und "
+"der Verbindungsqualität Ihres Geräts. Die Freigabe von mehr Inhalten "
+"bedeutet auch mehr Overhead."
 
 #: intro/faq.md:block 27 (paragraph)
 msgid ""
@@ -162,10 +229,15 @@ msgid ""
 "recommend keeping an eye on the app's data usage (under Android settings) "
 "and running CENO while connected to Wi-Fi instead of using mobile data."
 msgstr ""
+"Obwohl CENO viel weniger Ressourcen benötigt als andere Anwendungen zur "
+"gemeinsamen Datennutzung, kann es dennoch zu einer erhöhten Datennutzung und "
+"zu Gebühren kommen. Wir empfehlen, die Datennutzung der App im Auge zu "
+"behalten (in den Android-Einstellungen) und CENO mit einer Wi-Fi-Verbindung "
+"statt mit mobilen Daten zu nutzen."
 
 #: intro/faq.md:block 28 (header)
 msgid "Does CENO Browser use a lot of battery on my device?"
-msgstr ""
+msgstr "Verbraucht CENO Browser viel Akku auf meinem Gerät?"
 
 #: intro/faq.md:block 30 (paragraph)
 msgid ""
@@ -175,6 +247,12 @@ msgid ""
 "not actively helping other users, it still needs to stay reachable over the "
 "network, which prevents the use of some energy-saving features."
 msgstr ""
+"CENO und Ouinet verwenden verschiedene Techniken für die Zusammenarbeit "
+"verschiedener Nutzer, um Netzstörungen und Ausfälle zu vermeiden. Die "
+"Bereitstellung von Inhalten und die Weiterleitung von Datenverkehr für "
+"andere Nutzer verbraucht zusätzliche Energie. Auch wenn Ihr Gerät anderen "
+"Nutzern nicht aktiv hilft, muss es dennoch über das Netz erreichbar bleiben, "
+"was die Nutzung einiger Energiesparfunktionen verhindert."
 
 #: intro/faq.md:block 31 (paragraph)
 msgid ""
@@ -184,26 +262,36 @@ msgid ""
 "completely (it offers a convenient shortcut for this, see [here](../browser/"
 "install.md))."
 msgstr ""
+"Das Ergebnis ist, dass CENO Ihren Akku auch bei Nichtgebrauch weiter "
+"entlädt. Unsere Tests haben nicht gezeigt, dass der Stromverbrauch zu stark "
+"ansteigt, aber das kann bei Ihnen anders sein. Wir empfehlen, CENO komplett "
+"zu stoppen, wenn der Akku leer ist (es bietet eine praktische Verknüpfung "
+"dafür, siehe [hier](../browser/install.md))."
 
 #: intro/faq.md:block 32 (header)
 msgid "Do I need to be connected to Wi-Fi to use CENO Browser?"
-msgstr ""
+msgstr "Brauche ich eine Wi-Fi-Verbindung, um CENO Browser zu nutzen?"
 
 #: intro/faq.md:block 33 (paragraph)
 msgid "Short answer: no, but we strongly recommend it."
-msgstr ""
+msgstr "Kurze Antwort: Nein, aber wir empfehlen es dringend."
 
 #: intro/faq.md:block 34 (paragraph)
 msgid ""
 "Although CENO should work fine on a mobile connection, there are two reasons "
 "why we recommend using a Wi-Fi connection instead:"
 msgstr ""
+"Obwohl CENO über eine Mobilfunkverbindung problemlos funktionieren sollte, "
+"empfehlen wir aus zwei Gründen, stattdessen eine Wi-Fi-Verbindung zu "
+"verwenden:"
 
 #: intro/faq.md:block 35 (ordered list)
 msgid ""
 "CENO consumes an extra amount of data which may result in a higher phone "
 "bill (see above)."
 msgstr ""
+"CENO verbraucht eine zusätzliche Datenmenge, was zu einer höheren "
+"Telefonrechnung führen kann (siehe oben)."
 
 #: intro/faq.md:block 35 (ordered list)
 msgid ""
@@ -211,3 +299,6 @@ msgid ""
 "outside than Wi-Fi ones, thus decreasing the chances that you can help other "
 "users get content."
 msgstr ""
+"Bei mobilen Verbindungen ist es oft schwieriger, Ihr Gerät von außen zu "
+"erreichen als bei Wi-Fi-Verbindungen, wodurch die Chancen sinken, dass Sie "
+"anderen Nutzern helfen können, Inhalte zu erhalten."

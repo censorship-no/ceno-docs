@@ -1,9 +1,15 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2022-09-14 10:24+0000\n"
+"Last-Translator: Jean-Luc Tibaux <eugentoptic@outlook.de>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/censorship-no/"
+"advantages/de/>\n"
 "Language: de\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1-dev\n"
 
 #: concepts/advantages.md:block 1 (header)
 msgid "Advantages of using CENO/Ouinet"
@@ -70,3 +76,5 @@ msgstr ""
 #: concepts/advantages.md:block 3 (unordered list)
 msgid "[National intranet]: https://en.wikipedia.org/wiki/National_intranet"
 msgstr ""
+"[Nationales Intranet]: https://en.wikipedia.org/wiki/National_intranet *(auf "
+"Englisch)*"

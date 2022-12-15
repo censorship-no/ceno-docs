@@ -1,13 +1,19 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2022-10-05 18:23+0000\n"
+"Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/censorship-no/"
+"browser-public-private/sv/>\n"
 "Language: sv\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1\n"
 
 #: browser/public-private.md:block 1 (header)
 msgid "Using public or private browsing"
-msgstr ""
+msgstr "Använder publik eller privat surfning"
 
 #: browser/public-private.md:block 2 (paragraph)
 msgid ""
@@ -31,18 +37,20 @@ msgid ""
 "You can tell public tabs from private ones because public tabs have a "
 "lighter (or white) tool bar:"
 msgstr ""
+"Du kan särskilja publika flikar från privata eftersom att publika flikar har "
+"ett lättare (eller vitt) verktygsfält:"
 
 #: browser/public-private.md:block 5 (paragraph)
 msgid "![Figure: A public browsing tab](images/public-tab.png)"
-msgstr ""
+msgstr "![Figur: En publik flik för surfning] (images/public-tab.png)"
 
 #: browser/public-private.md:block 6 (paragraph)
 msgid "In contrast, private tabs have a darker tool bar:"
-msgstr ""
+msgstr "I kontrast så har privata flikar ett mörkare verktygsfält:"
 
 #: browser/public-private.md:block 7 (paragraph)
 msgid "![Figure: A private browsing tab](images/private-tab.png)"
-msgstr ""
+msgstr "![Figur: En flik för privat surfning](images/private-tab.png)"
 
 #: browser/public-private.md:block 8 (paragraph)
 msgid ""
