@@ -1,15 +1,15 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-11-04 16:04+0000\n"
-"Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
+"PO-Revision-Date: 2023-01-01 13:50+0000\n"
+"Last-Translator: Christoph Ackermann <weblate@ewok-factory.ch>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/censorship-no/"
 "ouinet/de/>\n"
 "Language: de\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.2-dev\n"
+"X-Generator: Weblate 4.15.1-dev\n"
 
 #: intro/ouinet.md:block 1 (header)
 msgid "What is Ouinet?"
@@ -89,4 +89,4 @@ msgstr "[P2P]: https://de.wikipedia.org/wiki/Peer-to-peer"
 
 #: intro/ouinet.md:block 9 (quote)
 msgid "[eQualitie]: https://equalit.ie/"
-msgstr ""
+msgstr "[eQualitie]: https://equalit.ie/"
