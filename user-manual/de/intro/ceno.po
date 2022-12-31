@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-09 10:07+0000\n"
+"PO-Revision-Date: 2023-01-01 13:50+0000\n"
 "Last-Translator: Marvin <wile.e.coyote@keemail.me>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/censorship-no/"
 "ceno/de/>\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.12-dev\n"
+"X-Generator: Weblate 4.15.1-dev\n"
 
 #: intro/ceno.md:block 1 (header)
 msgid "What is CENO Browser?"
@@ -169,7 +169,7 @@ msgstr "[Firefox für Android]: https://www.mozilla.org/firefox/android/"
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[eQualitie]: https://equalit.ie/"
-msgstr ""
+msgstr "[eQualitie]: https://equalit.ie/"
 
 #: intro/ceno.md:block 11 (quote)
 msgid ""
@@ -181,4 +181,4 @@ msgstr ""
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[ceno-repos]: https://github.com/censorship-no/"
-msgstr ""
+msgstr "[ceno-repos]: https://github.com/censorship-no/"
