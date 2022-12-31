@@ -1,15 +1,15 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-11-09 17:48+0000\n"
-"Last-Translator: Jean-Luc Tibaux <eugentoptic@outlook.de>\n"
+"PO-Revision-Date: 2023-01-01 13:50+0000\n"
+"Last-Translator: Christoph Ackermann <weblate@ewok-factory.ch>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/censorship-no/"
 "browser-troubleshooting/de/>\n"
 "Language: de\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15-dev\n"
+"X-Generator: Weblate 4.15.1-dev\n"
 
 #: browser/troubleshooting.md:block 1 (header)
 msgid "Troubleshooting"
@@ -236,7 +236,7 @@ msgstr ""
 
 #: browser/troubleshooting.md:block 22 (header)
 msgid "Origin access"
-msgstr ""
+msgstr "Zugang zum Ursprung"
 
 #: browser/troubleshooting.md:block 23 (paragraph)
 msgid ""
@@ -502,6 +502,14 @@ msgid ""
 "for subsequent runs. We encourage you to contact the site administrators and "
 "tell them to enable HTTPS support."
 msgstr ""
+"**Hinweis:** In dem unglücklichen Fall, dass eine Webseite nur über HTTP "
+"zugänglich ist und außerdem von einem Zensor gekapert wird, müssen Sie auf "
+"die [Einstellungsseite](settings.md) gehen, den Zugang zum Ursprung "
+"deaktivieren und es erneut versuchen. Bitte beachten Sie, dass sich diese "
+"Einstellung auf alle Webseiten auswirkt und dass sie von CENO nicht für "
+"spätere Durchläufe gespeichert wird. Wir empfehlen Ihnen, die "
+"Webseitenadministratoren zu kontaktieren und ihnen mitzuteilen, sie sollen "
+"die HTTPS-Unterstützung aktivieren."
 
 #: browser/troubleshooting.md:block 42 (header)
 msgid "A page shows bogus content (like a block message)"
