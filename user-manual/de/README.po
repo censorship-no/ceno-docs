@@ -1,19 +1,19 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-09 10:07+0000\n"
-"Last-Translator: Marvin <wile.e.coyote@keemail.me>\n"
+"PO-Revision-Date: 2023-01-01 13:50+0000\n"
+"Last-Translator: Christoph Ackermann <weblate@ewok-factory.ch>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/censorship-no/"
 "homepage-readme/de/>\n"
 "Language: de\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.12-dev\n"
+"X-Generator: Weblate 4.15.1-dev\n"
 
 #: README.md:block 1 (header)
 msgid "Censorship.no! User Manual"
-msgstr ""
+msgstr "Censorship.no! Benutzerhandbuch"
 
 #: README.md:block 2 (paragraph)
 msgid ""
@@ -21,6 +21,9 @@ msgid ""
 "technologies, as created for the [Censorship.no!][Censorship.no!] project by "
 "[eQualitie][eQualitie]."
 msgstr ""
+"Dieses Handbuch richtet sich an Benutzer von [CENO Browser][CENO Browser] "
+"und verwandte Technologien, welche für das Projekt [Censorship."
+"no!][Censorship.no!] von [eQualitie][eQualitie] erstellt wurden."
 
 #: README.md:block 3 (paragraph)
 msgid ""
@@ -29,10 +32,14 @@ msgid ""
 "find pointers for further reading and details on implementation, as well as "
 "the [protocol specifications][protocol specifications]."
 msgstr ""
+"Wenn Sie eine technische Dokumentation suchen, finden Sie diese im [CENO-"
+"Dokumentationsrepository][CENO-Dokumentationsrepository], wo Sie "
+"weiterführende Literaturhinweise und Details zur Implementierung finden, "
+"sowie die [Protokollspezifikationen][Protokollspezifikationen]."
 
 #: README.md:block 3 (paragraph)
 msgid "[CENO Browser]: https://github.com/censorship-no/ceno-browser"
-msgstr ""
+msgstr "[CENO Browser]: https://github.com/censorship-no/ceno-browser"
 
 #: README.md:block 3 (paragraph)
 msgid "[Censorship.no!]: https://censorship.no/"
@@ -40,15 +47,18 @@ msgstr "[Censorship.no!]: https://censorship.no/"
 
 #: README.md:block 3 (paragraph)
 msgid "[eQualitie]: https://equalit.ie/"
-msgstr ""
+msgstr "[eQualitie]: https://equalit.ie/"
 
 #: README.md:block 3 (paragraph)
 msgid ""
 "[CENO documentation repository]: https://github.com/censorship-no/ceno-docs/"
 msgstr ""
+"[CENO Dokumentations-Repository]: https://github.com/censorship-no/ceno-docs/"
 
 #: README.md:block 3 (paragraph)
 msgid ""
 "[protocol specifications]: https://github.com/equalitie/ouinet/blob/master/"
 "doc/ouinet-network-whitepaper.md"
 msgstr ""
+"[Protokollspezifikationen]: https://github.com/equalitie/ouinet/blob/master/"
+"doc/ouinet-network-whitepaper.md"
