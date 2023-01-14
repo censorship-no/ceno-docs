@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2022-07-14 16:19+0000\n"
-"Last-Translator: Mya Myintzu Hlaing <myamyintzu10@gmail.com>\n"
+"PO-Revision-Date: 2023-01-14 01:22+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "browser-settings/my/>\n"
 "Language: my\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14-dev\n"
+"X-Generator: Weblate 4.15.1-dev\n"
 
 #
 #: browser/settings.md:block 1 (header)
@@ -256,19 +256,15 @@ msgstr ""
 "ပြုပြင်ရန်အတွက် ၎င်းတို့ကို ပြသထားပြီး ယေဘုယျအားဖြင့် မထုတ်ဖော်သင့်ပါ။"
 
 #: browser/settings.md:block 13 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "*External UDP endpoints* are the Internet addresses in your router given "
-#| "to your CENO traffic. Only available with UPnP-enabled routers, they are "
-#| "also is useful for diagnostics and not to be generally disclosed."
 msgid ""
 "*External UDP endpoints* are the Internet addresses in your router given to "
 "your CENO traffic. Only available with UPnP-enabled routers, they are also "
 "useful for diagnostics and not to be generally disclosed."
 msgstr ""
-"*ပြင်ပ UDP အဆုံးမှတ်များ* သည် သင့်router က CENO၏အသွားအလာတွင် ပြသပေးသော အင်တာနက် "
-"လိပ်စာများဖြစ်ကြသည်။ UPnP ကို ဖွင့်ထားသော router များတွင်သာ ရရှိနိုင်ပြီး အက်ပ်ကို ကူညီစမ်းသပ်ရန်နှင့် "
-"ချို့ယွင်းချက် ပြုပြင်ရန်အတွက် ၎င်းတို့သည် အသုံးဝင်ပြီး ယေဘုယျအားဖြင့် မထုတ်ဖော်သင့်ပါ။"
+"*ပြင်ပ UDP အဆုံးမှတ်များ* သည် သင့်router က CENO၏အသွားအလာတွင် ပြသပေးသော "
+"အင်တာနက် လိပ်စာများဖြစ်ကြသည်။ UPnP ကို ဖွင့်ထားသော router များတွင်သာ "
+"ရရှိနိုင်ပြီး အက်ပ်ကို ကူညီစမ်းသပ်ရန်နှင့် ချို့ယွင်းချက် ပြုပြင်ရန်အတွက် "
+"၎င်းတို့သည် အသုံးဝင်ပြီး ယေဘုယျအားဖြင့် မထုတ်ဖော်သင့်ပါ။"
 
 #: browser/settings.md:block 13 (unordered list)
 msgid ""
