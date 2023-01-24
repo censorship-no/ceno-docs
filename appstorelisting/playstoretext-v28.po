@@ -1,0 +1,107 @@
+#. extracted from playstoretext.txt
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-20 09:21-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: v28\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
+
+#: playstoretext.txt:2
+msgid ""
+"CENO (Censorship.No!) is a decentralized mobile web browser. It uses peer-to-"
+"peer technology to deliver websites to your phone and caches popular content "
+"with cooperating peers. CENO can be used to bypass Internet censorship and "
+"help others retrieve blocked pages. "
+msgstr ""
+
+#: playstoretext.txt:4
+msgid ""
+"Say NO to censorship! Install CENO Browser today and be prepared for the "
+"next time you get 🔌 unplugged. "
+msgstr ""
+
+#: playstoretext.txt:7
+msgid ""
+"🚫🌴 Offline-first.\n"
+"CENO is designed with internet shutdown scenarios in mind. Websites are "
+"shared by a global network of peers, and stored in a distributed cache for "
+"availability when traditional networks are blocked or go down."
+msgstr ""
+
+#: playstoretext.txt:10
+msgid ""
+"🔓👀 Unlock the web.\n"
+"Access any website. Frequently requested content is cached on the network "
+"and cannot be forcibly removed. "
+msgstr ""
+
+#: playstoretext.txt:13
+msgid ""
+"💲🌐 Reduce Data Costs.\n"
+"By routing user traffic through peer-to-peer networks, CENO Browser incurs "
+"less data costs while still providing users with circumvention capability."
+msgstr ""
+
+#: playstoretext.txt:16
+msgid ""
+"📖👐 Free and open source.\n"
+"CENO Browser is powered by Ouinet, an open source library enabling third "
+"party developers to incorporate the CENO network into their apps for peer-to-"
+"peer connectivity."
+msgstr ""
+
+#: playstoretext.txt:18
+msgid ""
+"Please note: CENO browser is experimental software. We offer it with the "
+"best intention that it is useful to you, but due to its highly innovative "
+"nature and stage of development, you may expect some issues while using it. "
+msgstr ""
+
+#: playstoretext.txt:20
+msgid ""
+"CENO is not an anonymity tool: information about your browsing might be "
+"leaked to other CENO users, as well as the fact that your application is "
+"providing particular web content to others. Content accessed with the "
+"application may stay in storage in clear text for some time. Other security "
+"or privacy-affecting issues might exist."
+msgstr ""
+
+#: playstoretext.txt:22
+msgid ""
+"We recommend that you use this tool in controlled environments and only "
+"assume reasonable risks. eQualitie and its associates decline any legal "
+"responsibility derived from the use of this software."
+msgstr ""
+
+#: playstoretext.txt:25
+msgid ""
+"About eQualit.ie\n"
+"eQualit.ie develops open and reusable systems with a focus on privacy, "
+"online security, and information management. Our goal is to create "
+"accessible technology and improve the skill-set needed for defending human "
+"rights and freedoms in the digital age."
+msgstr ""
+
+#: playstoretext.txt:27
+msgid ""
+"To learn more about CENO browser and its distributed library, Ouinet, please "
+"visit https://censorship.no"
+msgstr ""
+
+#: playstoretext.txt:30
+msgid ""
+"Questions / Need support?\n"
+"Read more in the CENO User Manual, or contact us at cenoers@equalitie.org. "
+"We love receiving feedback and are continuously improving CENO for its users!"
+msgstr ""
+
+#: playstoretext.txt:31
+msgid "Stay connected, and help keep the web open and accessible to all!"
+msgstr ""
