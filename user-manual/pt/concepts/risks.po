@@ -1,9 +1,15 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2023-03-13 17:38+0000\n"
+"Last-Translator: Alexthegib <jcwkgxc@nightorb.com>\n"
+"Language-Team: Portuguese <https://hosted.weblate.org/projects/censorship-no/"
+"risks/pt/>\n"
 "Language: pt\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.16.2-dev\n"
 
 #: concepts/risks.md:block 1 (header)
 msgid "Risks in using CENO/Ouinet"
@@ -218,4 +224,4 @@ msgstr ""
 
 #: concepts/risks.md:block 31 (paragraph)
 msgid "[National intranet]: https://en.wikipedia.org/wiki/National_intranet"
-msgstr ""
+msgstr "[Intranet nacional]: https://en.wikipedia.org/wiki/National_intranet"
