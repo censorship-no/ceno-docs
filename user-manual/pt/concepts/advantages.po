@@ -1,13 +1,19 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2023-03-13 17:38+0000\n"
+"Last-Translator: Alexthegib <jcwkgxc@nightorb.com>\n"
+"Language-Team: Portuguese <https://hosted.weblate.org/projects/censorship-no/"
+"advantages/pt/>\n"
 "Language: pt\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.16.2-dev\n"
 
 #: concepts/advantages.md:block 1 (header)
 msgid "Advantages of using CENO/Ouinet"
-msgstr ""
+msgstr "Vantagens da utilização de CENO/Ouinet"
 
 #: concepts/advantages.md:block 2 (paragraph)
 msgid ""
@@ -16,6 +22,11 @@ msgid ""
 "traffic for one another, sign content for later verification, and store "
 "signed content for seeding to others. Some advantages worth mentioning are:"
 msgstr ""
+"As principais vantagens da utilização de CENO e Ouinet em relação a outras "
+"tecnologias de evasão provêm da cooperação de clientes e injetores para "
+"encaminhar tráfego uns para os outros, assinar conteúdos para posterior "
+"verificação, e armazenar conteúdos assinados para sementeira a outros. "
+"Algumas vantagens dignas de menção são:"
 
 #: concepts/advantages.md:block 3 (unordered list)
 msgid ""
@@ -24,6 +35,11 @@ msgid ""
 "blocking. There is no need for new custom links to popular content, or "
 "special actions from the user (like transferring files between applications)."
 msgstr ""
+"**Utilização familiar:** Aceder ao conteúdo da Web utilizando o CENO Browser "
+"é como navegar na Web no seu navegador habitual, mesmo durante o bloqueio "
+"completo. Não há necessidade de novos links personalizados para conteúdos "
+"populares, ou ações especiais do utilizador (como a transferência de "
+"ficheiros entre aplicações)."
 
 #: concepts/advantages.md:block 3 (unordered list)
 msgid ""
@@ -32,6 +48,11 @@ msgid ""
 "interference. The more popular some particular content gets, the more copies "
 "of it get seeded by CENO/Ouinet clients, and the more available it becomes."
 msgstr ""
+"**Disponibilidade de conteúdo sem restrições:** Ouinet é capaz de fornecer "
+"conteúdo de uma forma eficiente e fiável em situações de extrema "
+"interferência na rede. Quanto mais popular for um conteúdo em particular, "
+"mais cópias do mesmo são semeadas pelos clientes CENO/Ouinet, e mais "
+"disponível se torna."
 
 #: concepts/advantages.md:block 3 (unordered list)
 msgid ""
@@ -39,6 +60,9 @@ msgid ""
 "over offline means (e.g. a USB drive) and thus made available to other "
 "clients."
 msgstr ""
+"O conteúdo assinado pode ser trazido para determinados clientes numa área "
+"desconectada sobre meios offline (por exemplo, uma unidade USB) e assim "
+"disponibilizado a outros clientes."
 
 #: concepts/advantages.md:block 3 (unordered list)
 msgid ""
@@ -51,6 +75,15 @@ msgid ""
 "resource usage spikes at origin servers when some of their content becomes "
 "very popular (the so-called [Slashdot effect][Slashdot effect])."
 msgstr ""
+"**Navegação mais rápida:** Uma vez que o seu cliente pode recuperar "
+"diferentes partes do mesmo conteúdo de vários clientes ao mesmo tempo, a "
+"carga da entrega do conteúdo é distribuída entre diferentes redes e "
+"dispositivos, evitando assim entupir os caminhos para um único cliente ("
+"especialmente ao entregar um grande recurso como um vídeo). Isto é útil não "
+"só quando a infraestrutura de ligação a outros países é limitada, mas também "
+"para os editores evitarem picos de utilização de recursos nos servidores de "
+"origem quando alguns dos seus conteúdos se tornam muito populares (o chamado "
+"[efeito Slashdot][Efeito Slashdot])."
 
 #: concepts/advantages.md:block 3 (unordered list)
 msgid ""
@@ -62,11 +95,18 @@ msgid ""
 "of a [national intranet][National intranet]), this can actually save you "
 "money."
 msgstr ""
+"**Navegação de papel:** O conteúdo popular numa determinada região tende a "
+"ser copiado em clientes CENO/Ouinet nessa região, mesmo que o servidor de "
+"origem esteja no estrangeiro. Se estiver interessado nesse conteúdo, o seu "
+"cliente irá provavelmente obtê-lo de algum outro cliente na sua região. Em "
+"alguns países onde o tráfego internacional é mais caro do que o local (por "
+"exemplo, na presença de uma [intranet nacional][intranet nacional]), isto "
+"pode realmente poupar-lhe dinheiro."
 
 #: concepts/advantages.md:block 3 (unordered list)
 msgid "[Slashdot effect]: https://en.wikipedia.org/wiki/Slashdot_effect"
-msgstr ""
+msgstr "[Efeito Slashdot]: https://en.wikipedia.org/wiki/Slashdot_effect"
 
 #: concepts/advantages.md:block 3 (unordered list)
 msgid "[National intranet]: https://en.wikipedia.org/wiki/National_intranet"
-msgstr ""
+msgstr "[Intranet nacional]: https://en.wikipedia.org/wiki/National_intranet"
