@@ -1,13 +1,19 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2023-03-13 17:38+0000\n"
+"Last-Translator: Alexthegib <jcwkgxc@nightorb.com>\n"
+"Language-Team: Portuguese <https://hosted.weblate.org/projects/censorship-no/"
+"browser-public-private/pt/>\n"
 "Language: pt\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.16.2-dev\n"
 
 #: browser/public-private.md:block 1 (header)
 msgid "Using public or private browsing"
-msgstr ""
+msgstr "Utilização da navegação pública ou privada"
 
 #: browser/public-private.md:block 2 (paragraph)
 msgid ""
@@ -16,6 +22,10 @@ msgid ""
 "the content that you browse with others (public browsing) or not (private "
 "browsing)."
 msgstr ""
+"Como descrito [numa secção anterior](.../conceitos/público-privado.md), CENO "
+"tem dois modos de funcionamento diferentes, dependendo se pretende partilhar "
+"o conteúdo que navega com outros (navegação pública) ou não (navegação "
+"privada)."
 
 #: browser/public-private.md:block 3 (paragraph)
 msgid ""
@@ -25,24 +35,33 @@ msgid ""
 "menu) is to use public browsing. To open a new tab in private browsing mode, "
 "just choose *New private tab* in the main menu."
 msgstr ""
+"Esta configuração aplica-se * a cada separador* que abre no browser, ou "
+"seja, pode ter separadores de navegação públicos e separadores de navegação "
+"privados. O padrão do CENO sempre que o iniciar ou abrir um novo separador ("
+"utilizando *Novo separador* no menu principal da aplicação) é utilizar a "
+"navegação pública. Para abrir um novo separador no modo de navegação "
+"privada, basta escolher *Novo separador privado* no menu principal."
 
 #: browser/public-private.md:block 4 (paragraph)
 msgid ""
 "You can tell public tabs from private ones because public tabs have a "
 "lighter (or white) tool bar:"
 msgstr ""
+"Pode distinguir as abas públicas das privadas porque as abas públicas têm "
+"uma barra de ferramentas mais leve (ou branca):"
 
 #: browser/public-private.md:block 5 (paragraph)
 msgid "![Figure: A public browsing tab](images/public-tab.png)"
-msgstr ""
+msgstr "![Figura: um separador de navegação pública] (imagens/public-tab.png)"
 
 #: browser/public-private.md:block 6 (paragraph)
 msgid "In contrast, private tabs have a darker tool bar:"
 msgstr ""
+"Em contraste, as abas privadas têm uma barra de ferramentas mais escura:"
 
 #: browser/public-private.md:block 7 (paragraph)
 msgid "![Figure: A private browsing tab](images/private-tab.png)"
-msgstr ""
+msgstr "![Figura: um separador de navegação privada] (imagens/private-tab.png)"
 
 #: browser/public-private.md:block 8 (paragraph)
 msgid ""
@@ -50,3 +69,6 @@ msgid ""
 "bar will help you know how it actually retrieved the different elements of "
 "the content. We will cover this icon later on."
 msgstr ""
+"Uma vez carregada uma página num separador, o ícone colorido CENO na barra "
+"de endereço ajudá-lo-á a saber como é que realmente recuperou os diferentes "
+"elementos do conteúdo. Cobriremos este ícone mais tarde."
