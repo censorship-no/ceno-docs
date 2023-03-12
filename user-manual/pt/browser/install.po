@@ -1,9 +1,15 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2023-03-13 17:38+0000\n"
+"Last-Translator: Alexthegib <jcwkgxc@nightorb.com>\n"
+"Language-Team: Portuguese <https://hosted.weblate.org/projects/censorship-no/"
+"browser-install/pt/>\n"
 "Language: pt\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.16.2-dev\n"
 
 #: browser/install.md:block 1 (header)
 msgid "Installing CENO"
@@ -141,11 +147,12 @@ msgstr ""
 msgid ""
 "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
 msgstr ""
+"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
 
 #: browser/install.md:block 18 (quote)
 msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
-msgstr ""
+msgstr "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
 
 #: browser/install.md:block 18 (quote)
 msgid "[ceno-pask]: https://paskoocheh.com/tools/124/android.html"
-msgstr ""
+msgstr "[ceno-pask]: https://paskoocheh.com/tools/124/android.html"
