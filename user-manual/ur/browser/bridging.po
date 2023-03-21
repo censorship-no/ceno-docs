@@ -1,13 +1,19 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2023-03-21 20:42+0000\n"
+"Last-Translator: Malik Faheem <faheem@connectech.org>\n"
+"Language-Team: Urdu <https://hosted.weblate.org/projects/censorship-no/"
+"browser-bridging/ur/>\n"
 "Language: ur\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.2-dev\n"
 
 #: browser/bridging.md:block 1 (header)
 msgid "Helping other CENO users browse the Web"
-msgstr ""
+msgstr "دوسرے CENO صارفین کو ویب براؤز کرنے میں مدد کرنا"
 
 #: browser/bridging.md:block 2 (paragraph)
 msgid ""
@@ -21,6 +27,15 @@ msgid ""
 "through an encrypted tunnel), nor will any of this traffic remain on your "
 "device."
 msgstr ""
+"ایک پیئر ٹو پیئر نیٹ ورک اس سے منسلک ہر نوڈ سے بنایا گیا ہے (ہاں، اس کا مطلب "
+"ہے کہ آپ بھی!) جتنے زیادہ نوڈز ہوں گے، نیٹ ورک اتنا ہی مضبوط اور زیادہ "
+"ورسٹائل ہوتا جائے گا۔ اگر آپ کسی ایسے ملک سے CENO براؤزر چلا رہے ہیں جو "
+"انٹرنیٹ کو سنسر نہیں کرتا ہے (یا کچھ کی طرح بھاری نہیں)، تو **پل** نوڈ بن کر "
+"دوسرے CENO صارفین کی مدد کرنے پر غور کریں۔ اس کے بعد آپ بھاری سینسر والے "
+"ممالک میں رہنے والے کلائنٹس اور CENO انجیکٹرز کے درمیان ٹریفک کو روٹ کرنا "
+"شروع کر دیں گے۔ آپ ان کی ٹریفک کو نہیں دیکھ پائیں گے (اسے ایک خفیہ کردہ سرنگ "
+"کے ذریعے بھیجا جائے گا)، اور نہ ہی اس ٹریفک میں سے کوئی بھی آپ کے ڈیوائس پر "
+"باقی رہے گا۔"
 
 #: browser/bridging.md:block 3 (quote)
 msgid ""
@@ -30,10 +45,15 @@ msgid ""
 "(but keep in mind the [risks](../concepts/risks.md) of serving such content "
 "to others)."
 msgstr ""
+"**نوٹ:** اس سیکشن میں بیان کردہ کنفیگریشن آپ کے ڈیوائس کو تقسیم شدہ کیش پر "
+"مؤثر طریقے سے مواد کو دوسروں تک پہنچانے میں بھی مدد دے سکتی ہے، اس لیے براہ "
+"کرم سنسر کرنے والے ملک میں CENO استعمال کرتے وقت اسے لاگو کرنے پر بھی غور "
+"کریں (لیکن [خطرات کو ذہن میں رکھیں۔ ](../concepts/risks.md) اس طرح کے مواد "
+"کو دوسروں تک پہنچانا)۔"
 
 #: browser/bridging.md:block 4 (header)
 msgid "How to become a CENO bridge"
-msgstr ""
+msgstr "CENO پل کیسے بنیں"
 
 #: browser/bridging.md:block 5 (paragraph)
 msgid ""
@@ -42,6 +62,9 @@ msgid ""
 "port forwarding configured for CENO. See the next sections for further "
 "details."
 msgstr ""
+"یہ فعالیت پہلے سے ہی CENO براؤزر میں شامل ہے۔ آپ کے ڈیوائس کو ایک ایسے Wi-Fi "
+"نیٹ ورک سے منسلک کرنے کی ضرورت ہوگی جس میں یا تو UPnP فعال ہو یا CENO کے لیے "
+"واضح پورٹ فارورڈنگ کنفیگر کی گئی ہو۔ مزید تفصیلات کے لیے اگلے حصے دیکھیں۔"
 
 #: browser/bridging.md:block 6 (paragraph)
 msgid ""
@@ -49,6 +72,9 @@ msgid ""
 "a proper bridge while you are actively using it, as power-saving features "
 "will throttle the operation of CENO otherwise."
 msgstr ""
+"تاہم، براہ کرم نوٹ کریں کہ اینڈرائیڈ موبائل ڈیوائس کو صرف اس وقت ایک مناسب "
+"پل کے طور پر کام کرنے کی اجازت دے گا جب آپ اسے فعال طور پر استعمال کر رہے "
+"ہوں، کیونکہ پاور سیونگ فیچرز CENO کے آپریشن کو روک دیں گے۔"
 
 #: browser/bridging.md:block 7 (quote)
 msgid ""
@@ -61,20 +87,31 @@ msgid ""
 "interfere with CENO; please check [Don't kill my app!][Don't kill my app!] "
 "for your device's brand."
 msgstr ""
+"**تکنیکی نوٹ:** یہ بنیادی طور پر اینڈرائیڈ کے [ڈوز موڈ](https://developer."
+"android.com/training/monitoring-device-state/doze-standby \"Android "
+"Developers – Optimize for Doze and App اسٹینڈ بائی\" کی وجہ سے ہے۔ ) مقامی "
+"Ouinet لائبریری کے آپریشن کو سست کرنا۔ بدقسمتی سے، CENO کے لیے بیٹری کی "
+"اصلاح کو غیر فعال کرنا Ouinet کو اس سے خارج نہیں کرتا۔ آپ کے مخصوص آلے میں "
+"بجلی کی بچت کی اپنی خصوصیات بھی شامل ہو سکتی ہیں جو CENO میں مداخلت کر سکتی "
+"ہیں۔ براہ کرم اپنے آلے کے برانڈ کے لیے [Don't kill my app!][Don't kill my "
+"app!] کو چیک کریں۔"
 
 #: browser/bridging.md:block 8 (paragraph)
 msgid ""
 "Thus if you intend to have CENO acting as a permanent, always-reachable "
 "bridge, besides a properly configured Wi-Fi network you will need to:"
 msgstr ""
+"اس طرح اگر آپ کا ارادہ ہے کہ CENO ایک مستقل، ہمیشہ قابل رسائی پُل کے طور پر "
+"کام کرے، اس کے علاوہ ایک مناسب طریقے سے ترتیب شدہ Wi-Fi نیٹ ورک کے لیے آپ کو "
+"یہ کرنے کی ضرورت ہوگی:"
 
 #: browser/bridging.md:block 9 (ordered list)
 msgid "Have your device plugged in to power at all times."
-msgstr ""
+msgstr "اپنے ڈیوائس کو ہر وقت پاور میں پلگ ان رکھیں۔"
 
 #: browser/bridging.md:block 9 (ordered list)
 msgid "Have the device's screen on at all times."
-msgstr ""
+msgstr "ڈیوائس کی اسکرین کو ہر وقت آن رکھیں۔"
 
 #: browser/bridging.md:block 9 (ordered list)
 msgid ""
@@ -85,6 +122,11 @@ msgid ""
 "select *While charging* or *Either*. A very dimmed down clock will appear on "
 "a black background while the device is not active."
 msgstr ""
+"زیادہ بجلی کی کھپت اور ناگوار، مستقل لائٹنگ کے بغیر ایسا کرنے کا ایک آسان "
+"طریقہ اینڈرائیڈ کا اسکرین سیور استعمال کرنا ہے: اسے *ترتیبات / ڈسپلے / "
+"اسکرین سیور* (یا *Daydream* کچھ ورژن میں) کے تحت فعال کریں، *Clock* ویجیٹ کو "
+"منتخب کریں، مینو میں *اسکرین سیور* کب شروع کرنا ہے منتخب کریں اور *چارج کرتے "
+"وقت* یا *کوئی بھی* منتخب کریں۔"
 
 #: browser/bridging.md:block 9 (ordered list)
 msgid ""
@@ -92,6 +134,9 @@ msgid ""
 "this will turn the screen off. Instead, just wait for the device to lock "
 "itself with the screen on."
 msgstr ""
+"براہ کرم نوٹ کریں کہ آپ کو ڈیوائس کو لاک کرنے کے لیے پاور بٹن استعمال نہیں "
+"کرنا چاہیے کیونکہ اس سے اسکرین بند ہو جائے گی۔ اس کے بجائے، اسکرین آن ہونے "
+"کے ساتھ ہی ڈیوائس کے لاک ہونے کا انتظار کریں۔"
 
 #: browser/bridging.md:block 10 (paragraph)
 msgid ""
@@ -99,10 +144,13 @@ msgid ""
 "computer with good connectivity that stays on most of the time, please "
 "continue reading."
 msgstr ""
+"اگر وہ سیٹ اپ آپ کے لیے کوئی آپشن نہیں ہے، تو ابھی باز نہ آئیں! اگر آپ کے "
+"پاس اچھا کنیکٹیویٹی والا کمپیوٹر ہے جو زیادہ تر وقت چلتا رہتا ہے، تو براہ "
+"کرم پڑھنا جاری رکھیں۔"
 
 #: browser/bridging.md:block 11 (header)
 msgid "Running a bridge on a computer"
-msgstr ""
+msgstr "کمپیوٹر پر پل چلانا"
 
 #: browser/bridging.md:block 12 (paragraph)
 msgid ""
@@ -112,6 +160,12 @@ msgid ""
 "[docker-install] in your platform. For Debian derivatives like Ubuntu or "
 "Linux Mint, you can just run: `sudo apt install docker.io`"
 msgstr ""
+"اگر آپ کا کمپیوٹر [Docker containers][docker]کو سپورٹ کرتا ہے، تو آپ پل کے "
+"طور پر کام کرنے کے لیے اس پر پہلے سے تشکیل شدہ CENO کلائنٹ چلا سکتے ہیں۔ اگر "
+"ڈوکر ابھی تک انسٹال نہیں ہوا ہے، تو براہ کرم اپنے پلیٹ فارم میں [Docker انجن "
+"انسٹال کرنے ][docker-install] کے لیے ہدایات پر عمل کریں۔ Ubuntu یا Linux "
+"Mint جیسے Debian مشتقات کے لیے، آپ صرف چلا سکتے ہیں: `sudo apt install docker"
+".io`"
 
 #: browser/bridging.md:block 13 (paragraph)
 msgid ""
@@ -119,12 +173,17 @@ msgid ""
 "on a terminal (it looks scary but you can just copy and paste it as is on "
 "the command line):"
 msgstr ""
+"CENO کلائنٹ کنٹینر کو تعینات کرنے کے لیے آپ کو صرف مندرجہ ذیل کمانڈ کو "
+"ٹرمینل پر چلانے کی ضرورت ہے (یہ خوفناک لگتا ہے لیکن آپ اسے صرف کاپی اور پیسٹ "
+"کر سکتے ہیں جیسا کہ کمانڈ لائن پر ہے):"
 
 #: browser/bridging.md:block 15 (paragraph)
 msgid ""
 "If your computer is not based on GNU/Linux, the command needs to be slightly "
 "different:"
 msgstr ""
+"اگر آپ کا کمپیوٹر GNU/Linux پر مبنی نہیں ہے، تو کمانڈ کو قدرے مختلف ہونا "
+"چاہیے:"
 
 #: browser/bridging.md:block 17 (paragraph)
 msgid ""
@@ -133,6 +192,10 @@ msgid ""
 "Docker client documentation][ceno-client-doc] for more information on how to "
 "manipulate the container."
 msgstr ""
+"کمانڈ 'ceno-client' کے نام سے ایک کنٹینر شروع کرے گا جو ہر بوٹ پر چلے گا جب "
+"تک کہ آپ اسے واضح طور پر رکنے کو نہ کہیں۔ کنٹینر میں ہیرا پھیری کرنے کے "
+"طریقے کے بارے میں مزید معلومات کے لیے براہ کرم [CENO Docker کلائنٹ کی "
+"دستاویزات][ceno-client-doc] کو دیکھیں۔"
 
 #: browser/bridging.md:block 18 (quote)
 msgid ""
@@ -140,10 +203,13 @@ msgid ""
 "access that page, open instead the [client front-end](../client/front-end."
 "md), which contains mostly equivalent information."
 msgstr ""
+"**نوٹ:** اس کلائنٹ کی کوئی *CENO ترتیبات* نہیں ہے: جب نیچے اس صفحہ تک رسائی "
+"کی ہدایت کی جائے تو اس کے بجائے [کلائنٹ فرنٹ اینڈ](../client/front-end.md) "
+"کھولیں، جس میں زیادہ تر مساوی معلومات ہوتی ہیں۔"
 
 #: browser/bridging.md:block 19 (header)
 msgid "Enabling UPnP on your Wi-Fi router"
-msgstr ""
+msgstr "آپ کے Wi-Fi روٹر پر UPnP کو فعال کرنا"
 
 #: browser/bridging.md:block 20 (paragraph)
 msgid ""
@@ -151,6 +217,9 @@ msgid ""
 "client) reachable to the CENO network. The [CENO Settings](settings.md) page "
 "will indicate the UPnP status on your local network."
 msgstr ""
+"[UPnP][UPnP] آپ کے CENO براؤزر (یا کمپیوٹر کلائنٹ) کو CENO نیٹ ورک تک قابل "
+"رسائی بنانے کا سب سے آسان طریقہ ہے۔ [CENO ترتیبات](settings.md) صفحہ آپ کے "
+"مقامی نیٹ ورک پر UPnP کی حیثیت کی نشاندہی کرے گا۔"
 
 #: browser/bridging.md:block 21 (quote)
 msgid ""
@@ -158,6 +227,10 @@ msgid ""
 "network to external interference. Please make yourself [aware of the risks]"
 "[upnp-risks] and also consider using alternative methods as explained below."
 msgstr ""
+"**نوٹ:** وائی فائی راؤٹر پر UPnP کو فعال کرنے سے آپ کے نیٹ ورک پر موجود "
+"ڈیوائسز کو بیرونی مداخلت کا سامنا کرنا پڑ سکتا ہے۔ براہ کرم اپنے آپ کو ["
+"خطرات سے آگاہ کریں] [upnp-Risks] اور متبادل طریقوں کو استعمال کرنے پر بھی "
+"غور کریں جیسا کہ ذیل میں بیان کیا گیا ہے۔"
 
 #: browser/bridging.md:block 22 (paragraph)
 msgid ""
