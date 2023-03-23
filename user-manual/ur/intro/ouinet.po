@@ -1,13 +1,19 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2023-03-24 17:38+0000\n"
+"Last-Translator: Malik Faheem <faheem@connectech.org>\n"
+"Language-Team: Urdu <https://hosted.weblate.org/projects/censorship-no/"
+"ouinet/ur/>\n"
 "Language: ur\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.17-dev\n"
 
 #: intro/ouinet.md:block 1 (header)
 msgid "What is Ouinet?"
-msgstr ""
+msgstr "Ouinet کیا ہے؟"
 
 #: intro/ouinet.md:block 2 (paragraph)
 msgid ""
@@ -18,6 +24,13 @@ msgid ""
 "([peer-to-peer][P2P] or P2P) to help access and store new Web content, and "
 "to request and deliver previously accessed content to others."
 msgstr ""
+"[Ouinet][Ouinet] ایک بنیادی ٹیکنالوجی ہے جو CENO براؤزر کو دیگر آلات کے ساتھ "
+"ویب مواد کا اشتراک کرنے کی اجازت دیتی ہے۔ Ouinet دوبارہ قابل استعمال کمپیوٹر "
+"کوڈ (ایک لائبریری) کی شکل میں آتا ہے جسے CENO جیسی ایپلی کیشن کوآپریٹنگ نوڈس "
+"کے نیٹ ورک میں حصہ لینے کے لیے استعمال کر سکتی ہے جو رسائی میں مدد کے لیے "
+"براہ راست بات چیت کرتے ہیں ([[پیئر ٹو پیر][P2P]یا P2P) اور نئے ویب مواد کو "
+"ذخیرہ کرنے کے لیے، اور دوسروں تک پہلے سے رسائی شدہ مواد کی درخواست اور "
+"ڈیلیور کرنے کے لیے۔"
 
 #: intro/ouinet.md:block 3 (paragraph)
 msgid ""
@@ -31,6 +44,15 @@ msgid ""
 "Ouinet allows replacing particular technologies with others if needed (for "
 "instance, some uses of µTP can be replaced by Tor's Pluggable Transports)."
 msgstr ""
+"Ouinet ایک ہوشیار امتزاج اور موجودہ ٹیکنالوجیز کے استعمال پر مبنی ہے تاکہ اس "
+"کی ہر ایک فعالیت کو پورا کیا جاسکے: دوسرے شرکاء کا پتہ لگانا فائل شیئرنگ کی "
+"دنیا سے آنے والی تکنیکوں کے ساتھ کیا جاتا ہے (BitTorrent کی تقسیم شدہ ہیش "
+"ٹیبل)، ان کے ساتھ بات چیت کرنے کے لیے عام ویب اور فائل شیئرنگ پروٹوکول (HTTP "
+"پراکسی درخواستیں اور BitTorrent کے µTP) کا استعمال کیا جاتا ہے، اور جدید "
+"صنعتی معیارات کی حفاظت مواصلات اور تبادلہ شدہ مواد کی صداقت (TLS انکرپشن اور "
+"Ed25519 دستخط) کو یقینی بناتے ہیں۔ اگر ضرورت ہو تو Ouinet مخصوص ٹیکنالوجیز "
+"کو دوسروں کے ساتھ تبدیل کرنے کی اجازت دیتا ہے (مثال کے طور پر، µTP کے کچھ "
+"استعمال کو Tor's Pluggable Transports سے تبدیل کیا جا سکتا ہے)۔"
 
 #: intro/ouinet.md:block 4 (paragraph)
 msgid ""
@@ -38,16 +60,21 @@ msgid ""
 "Android library). In computers, it can be used by normal Web clients like "
 "browsers (as a local HTTP proxy)."
 msgstr ""
+"موبائل ڈیوائسز پر، Ouinet کو اختتامی صارف کی ایپلی کیشنز (بطور اینڈرائیڈ "
+"لائبریری) میں شامل کیا جا سکتا ہے۔ کمپیوٹرز میں، اسے عام ویب کلائنٹس جیسے "
+"براؤزرز (مقامی HTTP پراکسی کے طور پر) استعمال کر سکتے ہیں۔"
 
 #: intro/ouinet.md:block 5 (paragraph)
 msgid ""
 "Same as CENO Browser, Ouinet is developed by [eQualitie][eQualitie] as Free/"
 "Libre/Open-Source software."
 msgstr ""
+"CENO براؤزر کی طرح، Ouinet کو [eQualitie][eQualitie] نے مفت/لائبر/اوپن سورس "
+"سافٹ ویئر کے طور پر تیار کیا ہے۔"
 
 #: intro/ouinet.md:block 6 (header)
 msgid "Who is it for?"
-msgstr ""
+msgstr "یہ کس کے لیے ہے؟"
 
 #: intro/ouinet.md:block 7 (paragraph)
 msgid ""
@@ -57,6 +84,11 @@ msgid ""
 "server and improves content accessibility for users living in countries that "
 "block access to that server."
 msgstr ""
+"Ouinet زیادہ تر سافٹ ویئر ڈویلپرز، مواد کے تخلیق کاروں اور پبلشرز کے لیے "
+"مفید ہے جو اپنی ایپلی کیشنز کے صارفین کو اس قابل بنانا چاہتے ہیں کہ وہ "
+"بازیافت شدہ مواد کو دوسرے صارفین کے ساتھ شیئر کریں۔ اس سے ایپلیکیشن سرور پر "
+"مجموعی مانگ کم ہوتی ہے اور ان ممالک میں رہنے والے صارفین کے لیے مواد کی "
+"رسائی بہتر ہوتی ہے جو اس سرور تک رسائی کو روکتے ہیں۔"
 
 #: intro/ouinet.md:block 8 (paragraph)
 msgid ""
@@ -66,21 +98,29 @@ msgid ""
 "ie](mailto:cenoers@equalit.ie), test it and report back - your feedback is "
 "very welcome!"
 msgstr ""
+"براہ کرم نوٹ کریں کہ Ouinet ایک ابھرتا ہوا تجرباتی پروجیکٹ ہے: ہو سکتا ہے کہ "
+"کچھ خصوصیات کچھ خاص حالات میں قابل اعتماد طریقے سے کام نہ کریں، کیڑے موجود "
+"ہو سکتے ہیں اور کریش ہو سکتے ہیں۔ ہم آپ کو [cenoers@equalit."
+"ie](mailto:cenoers@equalit.ie) پر ہم سے رابطہ کرنے کی ترغیب دیتے ہیں، اس کی "
+"جانچ کریں اور دوبارہ رپورٹ کریں - آپ کے تاثرات کا خیر مقدم کیا جاتا ہے!"
 
 #: intro/ouinet.md:block 9 (quote)
 msgid ""
 "**Warning:** *Ouinet is not an anonymity tool*. If you are unsure about its "
 "adequacy for a certain task, do not hesitate to contact us."
 msgstr ""
+"**انتباہ:** *Ouinet ایک گمنامی ٹول نہیں ہے*۔ اگر آپ کو کسی خاص کام کے لیے اس "
+"کے مناسب ہونے کے بارے میں یقین نہیں ہے، تو ہم سے رابطہ کرنے میں ہچکچاہٹ "
+"محسوس نہ کریں۔"
 
 #: intro/ouinet.md:block 9 (quote)
 msgid "[Ouinet]: https://github.com/equalitie/ouinet/"
-msgstr ""
+msgstr "[Ouinet]: https://github.com/equalitie/ouinet/"
 
 #: intro/ouinet.md:block 9 (quote)
 msgid "[P2P]: https://en.wikipedia.org/wiki/Peer-to-peer"
-msgstr ""
+msgstr "[P2P]: https://en.wikipedia.org/wiki/Peer-to-peer"
 
 #: intro/ouinet.md:block 9 (quote)
 msgid "[eQualitie]: https://equalit.ie/"
-msgstr ""
+msgstr "[eQualitie]: https://equalit.ie/"
