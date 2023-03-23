@@ -1,13 +1,19 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2023-03-24 17:38+0000\n"
+"Last-Translator: Malik Faheem <faheem@connectech.org>\n"
+"Language-Team: Urdu <https://hosted.weblate.org/projects/censorship-no/"
+"readme/ur/>\n"
 "Language: ur\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.17-dev\n"
 
 #: intro/README.md:block 1 (header)
 msgid "Introduction"
-msgstr ""
+msgstr "تعارف"
 
 #: intro/README.md:block 2 (paragraph)
 msgid ""
@@ -21,6 +27,14 @@ msgid ""
 "(https://censoredplanet.org/reports \"Censored Planet – Reports\")), both "
 "from private and state actors."
 msgstr ""
+"انٹرنیٹ اور ورلڈ وائڈ ویب دنیا بھر کے لوگوں کے لیے ہر قسم کی معلومات کے "
+"ذریعہ، اور بنیادی حقوق کو استعمال کرنے کے طریقے کے طور پر زیادہ سے زیادہ اہم "
+"ہو گئے ہیں۔ ایک ہی وقت میں، حالیہ برسوں میں ہر قسم کی نیٹ ورک سنسرشپ اور نیٹ "
+"ورک کی مداخلت کی دیگر اقسام میں اضافہ دیکھا گیا ہے ([OONI] کی رپورٹس "
+"دیکھیں(https://ooni.org/reports/ \"نیٹ ورک مداخلت کی اوپن آبزرویٹری - تحقیقی "
+"رپورٹس\")، [Magma](https://magma.lavafeld.org/publications/ \"Magma "
+"Publications\")، [Censored Planet](https://censoredplanet.org/reports "
+"\"Censored Planet – Reports\"))) دونوں نجی اور ریاستی اداکاروں سے۔"
 
 #: intro/README.md:block 3 (paragraph)
 msgid ""
@@ -32,6 +46,13 @@ msgid ""
 "you need is connected to the network and has enough available resources to "
 "talk to your device at that moment."
 msgstr ""
+"ویب آپ کے ڈیوائسز پر انحصار کرتا ہے کہ وہ خصوصی کمپیوٹرز تک پہنچ سکے جسے *"
+"ویب سرورز* (مواد کے تخلیق کاروں، پبلشرز یا انٹرنیٹ خدمات فراہم کنندگان کے "
+"ذریعے چلایا جاتا ہے) تک رسائی حاصل ہو جو آپ کو بازیافت کرنا چاہتے ہیں اس "
+"مواد کو رکھتے ہیں، اور ایسا مطابقت پذیر طریقے سے کرنا ہے - جیسے کہ کچھ خطوط "
+"کا تبادلہ کرنے کے بجائے ٹیلی فون پر براہ راست بات چیت۔ بدقسمتی سے، اس کے لیے "
+"ضروری ہے کہ آپ کو جس ویب سرور کی ضرورت ہے وہ نیٹ ورک سے منسلک ہو اور اس وقت "
+"آپ کے ڈیوائس سے بات کرنے کے لیے کافی وسائل موجود ہوں۔"
 
 #: intro/README.md:block 4 (paragraph)
 msgid ""
@@ -44,6 +65,13 @@ msgid ""
 "that run them) need to be trusted by both the origin server and your "
 "devices, and they also need to be reachable at all times."
 msgstr ""
+"*مواد کی ترسیل کے نیٹ ورکس* (یا CDNs، جیسے کمرشل Akamai اور Cloudflare، یا "
+"سول سوسائٹی پر مبنی Deflect) کی آمد نے پوری دنیا کے ڈیٹا سینٹرز میں مواد کی "
+"کاپیاں تقسیم کرکے ان ویب سرورز کا کچھ بوجھ اتار دیا ہے۔ تاکہ اصل سرورز کو "
+"براہ راست رسائی سے محفوظ رکھتے ہوئے یہ آپ کے ڈیوائسز کے قریب اور اس طرح تیزی "
+"سے پہنچ سکے۔ تاہم، فی الحال CDN سرورز (اور اس طرح وہ تنظیمیں جو انہیں چلاتی "
+"ہیں) کو اصل سرور اور آپ کے ڈیوائسز دونوں پر بھروسہ کرنے کی ضرورت ہے، اور "
+"انہیں ہر وقت قابل رسائی ہونے کی بھی ضرورت ہے۔"
 
 #: intro/README.md:block 5 (paragraph)
 msgid ""
@@ -56,21 +84,31 @@ msgid ""
 "that content - even if I was somehow able to access it a few hours ago and "
 "we're living some streets apart."
 msgstr ""
+"بدقسمتی سے ایک بار پھر، ایسے حالات ہیں جن میں عمومی رابطے کی کمی ہے (ترقی "
+"پذیر ممالک یا کم خدمت والے، غریب یا دیہی علاقے)، مہنگے ہیں (بعض ممالک بین "
+"الاقوامی ٹریفک کے لیے زیادہ قیمت وصول کرتے ہیں) یا کسی ریاستی کھلاڑی کے "
+"ذریعے فعال طور پر بلاک کر دیا گیا ہے (واضح طور پر یا اس کے نتیجے میں) عام شٹ "
+"ڈاؤن)۔ ان صورتوں میں، اصل ویب سرورز یا یہاں تک کہ CDN سرورز تک پہنچنا مشکل "
+"یا ناممکن ہے، اور آپ کا آلہ اس مواد کو حاصل نہیں کر سکے گا - چاہے میں کچھ "
+"گھنٹے پہلے اس تک رسائی حاصل کرنے کے قابل ہو گیا ہو اور ہم کچھ گلیوں میں رہ "
+"رہے ہوں۔"
 
 #: intro/README.md:block 6 (paragraph)
 msgid ""
 "This is where CENO Browser and Ouinet come into play. This chapter will "
 "introduce you to them."
 msgstr ""
+"یہ وہ جگہ ہے جہاں CENO براؤزر اور Ouinet کام میں آتے ہیں۔ یہ باب آپ کو ان سے "
+"متعارف کرائے گا۔"
 
 #: intro/README.md:block 6 (paragraph)
 msgid "[ooni-reports]: https://ooni.org/reports/"
-msgstr ""
+msgstr "[ooni-reports]: https://ooni.org/reports/"
 
 #: intro/README.md:block 6 (paragraph)
 msgid "[magma-reports]: https://magma.lavafeld.org/publications/"
-msgstr ""
+msgstr "[magma-reports]: https://magma.lavafeld.org/publications/"
 
 #: intro/README.md:block 6 (paragraph)
 msgid "[cplan-reports]: https://censoredplanet.org/reports"
-msgstr ""
+msgstr "[cplan-reports]: https://censoredplanet.org/reports"
