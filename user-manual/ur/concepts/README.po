@@ -1,13 +1,19 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2023-03-24 17:38+0000\n"
+"Last-Translator: Malik Faheem <faheem@connectech.org>\n"
+"Language-Team: Urdu <https://hosted.weblate.org/projects/censorship-no/"
+"concepts-readme/ur/>\n"
 "Language: ur\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.17-dev\n"
 
 #: concepts/README.md:block 1 (header)
 msgid "Main concepts"
-msgstr ""
+msgstr "بنیادی تصورات"
 
 #: concepts/README.md:block 2 (paragraph)
 msgid ""
@@ -17,6 +23,11 @@ msgid ""
 "cryptography. These techniques are cleverly combined by Ouinet so as to make "
 "the experience of using CENO as close as possible to normal Web browsing."
 msgstr ""
+"کئی قسم کے نیٹ ورک کی مداخلت اور کمی کو دور کرنے کے اپنے مقصد کو پورا کرنے "
+"کے لیے، CENO ورلڈ وائڈ ویب، فائل شیئرنگ سسٹمز اور جدید کرپٹوگرافی کے شعبوں "
+"سے مختلف تکنیکوں کا استعمال کرتا ہے۔ ان تکنیکوں کو Ouinet نے چالاکی کے ساتھ "
+"جوڑ دیا ہے تاکہ CENO استعمال کرنے کے تجربے کو عام ویب براؤزنگ کے قریب تر "
+"بنایا جا سکے۔"
 
 #: concepts/README.md:block 3 (paragraph)
 msgid ""
@@ -25,3 +36,7 @@ msgid ""
 "content we are trying to access, and the advantages and risks that they "
 "entail. This chapter will cover these topics."
 msgstr ""
+"بہر حال، CENO سے زیادہ سے زیادہ فائدہ اٹھانے کے لیے یہ سمجھنا مددگار ہے کہ "
+"Ouinet کس طرح کام کرتا ہے، ہم جس قسم کے مواد تک رسائی حاصل کرنے کی کوشش کر "
+"رہے ہیں، اور ان کے فوائد اور خطرات پر منحصر ہے کہ اسے کس طرح استعمال کیا جا "
+"سکتا ہے۔ اس باب میں ان موضوعات کا احاطہ کیا جائے گا۔"
