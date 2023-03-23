@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2023-03-20 16:15+0000\n"
+"PO-Revision-Date: 2023-03-23 16:26+0000\n"
 "Last-Translator: Orhan <orya@pm.me>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/censorship-no/"
 "browser-readme/tr/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 
 #: browser/README.md:block 1 (header)
 msgid "Using CENO Browser"
-msgstr "CENO Tarayıcı kullanılıyor"
+msgstr "CENO Browser kullanımı"
 
 #: browser/README.md:block 2 (paragraph)
 msgid ""
@@ -26,6 +26,11 @@ msgid ""
 "questions on generic browsing topics you should refer to Mozilla's [Firefox "
 "for Android Support][Firefox for Android Support] pages."
 msgstr ""
+"Bu bölüm CENO Browser'ın, Ouinet ile ilgili özelliklerinin kullanımı "
+"hakkında ipuçları verir. Lütfen unutmayın CENO [Android için Firefox]["
+"Android için Firefox] tabanlıdır, bu yüzden internetteki genel gezinti "
+"hakkındaki tüm konularda Mozilla'nın [Android için Firefox Desteği][Android "
+"için Firefox Desteği] sayfalarına bakmalısınız."
 
 #: browser/README.md:block 3 (paragraph)
 msgid ""
@@ -34,6 +39,10 @@ msgid ""
 "especially as CENO development progresses. This documentation is up to date "
 "for CENO version 1.6.0."
 msgstr ""
+"Gerektikçe yazıya ek olarak ekran görüntüleri de bulunacaktır. Bu "
+"görüntülerden bazıları cihazınızda görünenden biraz farklı olabilir, bunun "
+"sebebi CENO'nun sürekli geliştirilen bir uygulama olması. Bu doküman 1.6.0 "
+"sürümü için günceldir."
 
 #: browser/README.md:block 4 (paragraph)
 msgid ""
@@ -41,13 +50,18 @@ msgid ""
 "described here, do not hesitate to contact us at [cenoers@equalit.ie](mailto:"
 "cenoers@equalit.ie) and report the issue."
 msgstr ""
+"Eğer uygulama burada açıklanandan farklı davranışlar sergiliyorsa, lütfen "
+"[cenoers@equalit.ie](mailto:cenoers@equalit.ie) adresinden bize ulaşın ve "
+"durumu bildirin."
 
 #: browser/README.md:block 4 (paragraph)
 msgid "[Firefox for Android]: https://www.mozilla.org/firefox/android/"
-msgstr ""
+msgstr "[Android için Firefox]: https://www.mozilla.org/tr/firefox/android/"
 
 #: browser/README.md:block 4 (paragraph)
 msgid ""
 "[Firefox for Android Support]: https://support.mozilla.org/en-US/products/"
 "mobile"
 msgstr ""
+"[Android için Firefox Desteği]: https://support.mozilla.org/tr/products/"
+"mobile"
