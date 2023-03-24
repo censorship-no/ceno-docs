@@ -1,13 +1,19 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2023-03-25 14:11+0000\n"
+"Last-Translator: Malik Faheem <faheem@connectech.org>\n"
+"Language-Team: Urdu <https://hosted.weblate.org/projects/censorship-no/how/"
+"ur/>\n"
 "Language: ur\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.17-dev\n"
 
 #: concepts/how.md:block 1 (header)
 msgid "How does it work?"
-msgstr ""
+msgstr "یہ کیسے کام کرتا ہے؟"
 
 #: concepts/how.md:block 2 (paragraph)
 msgid ""
@@ -16,10 +22,14 @@ msgid ""
 "introduced (highlighted **in bold letters**) and used afterwards for "
 "efficiency and to avoid confusion."
 msgstr ""
+"یہ سیکشن منظرناموں کی ایک سیریز پر جا کر CENO اور Ouinet آپریشن کی وضاحت کرے "
+"گا۔ Ouinet کے لیے اہم اصطلاحات اور تصورات کو متعارف کرایا جائے گا (** بڑے "
+"حروف میں** نمایاں کیا گیا ہے) اور بعد میں کارکردگی اور الجھن سے بچنے کے لیے "
+"استعمال کیا جائے گا۔"
 
 #: concepts/how.md:block 3 (header)
 msgid "Accessing content directly"
-msgstr ""
+msgstr "براہ راست مواد تک رسائی حاصل کرنا"
 
 #: concepts/how.md:block 4 (paragraph)
 msgid ""
@@ -33,6 +43,15 @@ msgid ""
 "desired content. This is no different from the way in which any normal Web "
 "browser works."
 msgstr ""
+"CENO براؤزر ایک ایسی ایپلی کیشن کی ایک مثال ہے جو ویب مواد کو بازیافت کرنے "
+"اور شیئر کرنے کے لیے Ouinet ٹیکنالوجی کا استعمال کرتی ہے۔ ہم ایسی ایپلیکیشن "
+"کو Ouinet **کلائنٹ** کہتے ہیں۔ جب آپ اپنے کلائنٹ (یعنی CENO) کو کسی ویب سرور "
+"پر ہوسٹ کردہ مواد *X* تک رسائی حاصل کرنے کی کوشش کرتے ہیں (جسے ہم *X* کا **"
+"اصل ** سرور کہیں گے)، تو آپ کا کلائنٹ اصل سرور سے رابطہ کرنے کی کوشش کرتا ہے۔"
+" انٹرنیٹ پر یا تو براہ راست یا کسی دوسری مشین کے ذریعے دوسروں کی جانب سے ویب "
+"سرورز سے رابطہ کرنے کے لیے ترتیب دی گئی ہے (ایک نام نہاد **پراکسی** سرور) "
+"اور پھر مطلوبہ مواد کی درخواست کرتا ہے۔ یہ کسی بھی عام ویب براؤزر کے کام "
+"کرنے کے طریقے سے مختلف نہیں ہے۔"
 
 #: concepts/how.md:block 5 (quote)
 msgid ""
@@ -44,6 +63,14 @@ msgid ""
 "device). CENO Browser already takes care of setting this certificate up for "
 "its private use so that you do not need to worry."
 msgstr ""
+"**تکنیکی نوٹ:** درحقیقت ایک چھوٹا سا فجائیہ ہے۔ چونکہ کلائنٹ آپ کے ڈیوائس پر "
+"چلنے والی HTTP پراکسی کے طور پر کام کرتا ہے، اس لیے کلائنٹ کو ڈیکرپٹ کرنے "
+"اور HTTPS مواد کی درخواستوں پر عمل کرنے کے قابل ہونے کے لیے، کلائنٹ کا "
+"استعمال کرنے والی ایپلیکیشن (یعنی ویب براؤزر کا حصہ - جیسے CENO میں Firefox) "
+"کو کلائنٹ کے ذریعہ جاری کردہ ایک خصوصی سرٹیفکیٹ قبول کرنے کی ضرورت ہے۔ (اور "
+"صرف آپ کے آلے پر استعمال کیا جاتا ہے)۔ CENO براؤزر پہلے سے ہی اس سرٹیفکیٹ کو "
+"اپنے نجی استعمال کے لیے ترتیب دینے کا خیال رکھتا ہے تاکہ آپ کو پریشان ہونے "
+"کی ضرورت نہ ہو۔"
 
 #: concepts/how.md:block 6 (paragraph)
 msgid ""
@@ -55,10 +82,18 @@ msgid ""
 "fail for you. You may also note the \"injector\" node on the diagram. We "
 "will explain that in a moment."
 msgstr ""
+"تاہم، یہ براہ راست راستے دستیاب نہیں ہوسکتے ہیں۔ مثال کے طور پر، آپ کا "
+"انٹرنیٹ سروس فراہم کنندہ (ISP) ریاستی حکم کی وجہ سے *X* کے اصل سرور یا "
+"پراکسی تک رسائی کو روک رہا ہے (چاہے دوسری ٹریفک کی اجازت ہو)۔ جیسا کہ اوپر "
+"بائیں کلائنٹ کا صارف ذیل میں دکھایا گیا ہے، مواد تک پہنچنے کی دونوں کوششیں "
+"*X* (اس کے اصل سرور کے قریب چھوٹی دستاویز) آپ کے لیے ناکام ہو جائیں گی۔ آپ "
+"ڈایاگرام پر \"انجیکٹر\" نوڈ کو بھی نوٹ کر سکتے ہیں۔ ہم ایک لمحے میں اس کی "
+"وضاحت کریں گے۔"
 
 #: concepts/how.md:block 7 (paragraph)
 msgid "![Figure: Client cannot reach content directly](images/user-flow-0.svg)"
 msgstr ""
+"![تصویر: کلائنٹ براہ راست مواد تک نہیں پہنچ سکتا](images/user-flow-0.svg)"
 
 #: concepts/how.md:block 8 (paragraph)
 msgid ""
@@ -66,10 +101,14 @@ msgid ""
 "ask other clients for their copies of content *X*, should they already have "
 "a copy. Let us see how Ouinet performs this request."
 msgstr ""
+"ایک عام براؤزر کے ساتھ آپ کی قسمت ختم ہو جائے گی۔ تاہم، Ouinet کے ساتھ آپ "
+"دوسرے کلائنٹس سے ان کے مواد کی کاپیاں *X* مانگ سکتے ہیں، کیا ان کے پاس پہلے "
+"سے ایک کاپی موجود ہے۔ آئیے دیکھتے ہیں کہ Ouinet اس درخواست کو کیسے انجام "
+"دیتا ہے۔"
 
 #: concepts/how.md:block 9 (header)
 msgid "Searching for shared content"
-msgstr ""
+msgstr "مشترکہ مواد کی تلاش"
 
 #: concepts/how.md:block 10 (paragraph)
 msgid ""
@@ -77,6 +116,9 @@ msgid ""
 "cache**, i.e. a store which sits in no single place. But how can your client "
 "find which other clients forming the cache have the desired content?"
 msgstr ""
+"Ouinet کلائنٹس کے ذریعہ ذخیرہ کردہ تمام مواد کے سیٹ کو **تقسیم شدہ کیش** کہا "
+"جاتا ہے، یعنی ایک اسٹور جو کسی ایک جگہ پر نہیں بیٹھتا ہے۔ لیکن آپ کا کلائنٹ "
+"کیسے تلاش کر سکتا ہے کہ کیش بنانے والے دوسرے کلائنٹس کے پاس مطلوبہ مواد ہے؟"
 
 #: concepts/how.md:block 11 (paragraph)
 msgid ""
@@ -88,6 +130,14 @@ msgid ""
 "resources) over SSL/TLS (a security layer over TCP, the Internet's rules for "
 "programs to talk to each other) and request the resource `/foo/x`."
 msgstr ""
+"کسی بھی ویب براؤزر میں، مواد *X* تک رسائی حاصل کرنے کے لیے اسے اس کے ["
+"یونیفارم ریسورس لوکیٹر][Uniform Resource Locator] (URL) کو جاننے کی ضرورت ہے،"
+" جو کہ براؤزر کے لوکیشن بار میں پتہ ہے، جیسے `https://example.com/foo/x`۔ اس "
+"URL سے، ایک عام براؤزر اس بات کا اندازہ لگائے گا کہ اسے SSL/TLS (TCP پر ایک "
+"حفاظتی پرت، انٹرنیٹ کے قواعد پر HTTP پروٹوکول (ویب وسائل کے تبادلے کے لیے "
+"استعمال ہونے والی زبان) کا استعمال کرتے ہوئے `example.com` نامی ویب سرور سے "
+"رابطہ کرنا ہے۔ پروگراموں کو ایک دوسرے سے بات کرنے کے لیے) اور وسیلہ `/foo/x` "
+"کی درخواست کریں۔"
 
 #: concepts/how.md:block 12 (paragraph)
 msgid ""
@@ -100,6 +150,14 @@ msgid ""
 "content you have, but someone looking for a particular content can follow "
 "the hints towards your client."
 msgstr ""
+"Ouinet مواد کو مختلف انداز میں تلاش کرتا ہے۔ یہ کتاب کے برعکس انڈیکس کا "
+"استعمال کرتا ہے: Ouinet کے **تقسیم شدہ کیش انڈیکس** میں آپ مواد کا پورا URL "
+"تلاش کرتے ہیں اور اس کی ایک کاپی رکھنے والے کلائنٹس کی فہرست حاصل کرتے ہیں۔ "
+"انڈیکس خود تقسیم کیا جاتا ہے، کلائنٹس کے ساتھ یہ اعلان کرنے کے ذمہ دار ہوتے "
+"ہیں کہ ان کے پاس کون سا مواد ہے جو دوسروں کے لیے ہے۔ درحقیقت، ہر URL پر صرف "
+"ایک *اشارہ* کا اعلان کیا جاتا ہے، تاکہ کوئی آپ کے ڈیوائس کے ٹریفک کی جاسوسی "
+"کرنے والا یہ نہ بتا سکے کہ آپ کے پاس کون سا مواد ہے، لیکن کوئی خاص مواد تلاش "
+"کرنے والا آپ کے کلائنٹ کے اشارے پر عمل کر سکتا ہے۔"
 
 #: concepts/how.md:block 13 (quote)
 msgid ""
@@ -110,6 +168,13 @@ msgid ""
 "table key from the content's URL and some other parameters as the injector "
 "key (see below), so that several indexes can coexist."
 msgstr ""
+"**تکنیکی نوٹ:** انڈیکس کو لاگو کرنے کا ایک طریقہ یہ ہے کہ "
+"[BitTorrent][BitTorrent] کی [ڈسٹری بیوٹڈ ہیش ٹیبل][Distributed Hash Table] "
+"(DHT) کا استعمال کرتے ہوئے کلائنٹس کے ایڈریس (IP اور پورٹ) مواد کے ساتھ حاصل "
+"کریں۔ DHT مواد کےURL سے ٹیبل کلید اور انجیکٹر کلید (نیچے دیکھیں) کے طور پر "
+"کچھ دوسرے پیرامیٹرز کی گنتی کرنے کے لیے ایک [کرپٹوگرافک ہیش فنکشن]["
+"Cryptographic hash function] کا استعمال کرتا ہے، تاکہ کئی اشاریہ ایک ساتھ رہ "
+"سکیں۔"
 
 #: concepts/how.md:block 13 (quote)
 msgid ""
@@ -120,6 +185,12 @@ msgid ""
 "URL is announced. This is done with the help of an *ad hoc* browser "
 "extension (described later on)."
 msgstr ""
+"اس کے علاوہ، CENO براؤزر اپنے پاس موجود ہر ایک وسائل کے URL کا اعلان نہیں "
+"کرتا: کسی بھی جدید صفحہ کے ساتھ جس میں دسیوں یا سینکڑوں اجزاء ہوتے ہیں "
+"(تصاویر، سٹائل شیٹس، سکرپٹ…)، جو بہت زیادہ ٹریفک پیدا کرے گا۔ اس کے بجائے، "
+"وسائل کو صفحہ کے URL کے تحت گروپ کیا جاتا ہے جو انہیں کھینچتا ہے، اور صرف اس "
+"URL کا اعلان کیا جاتا ہے۔ یہ ایک *ایڈہاک* براؤزر ایکسٹینشن کی مدد سے کیا "
+"جاتا ہے (بعد میں بیان کیا جائے گا)۔"
 
 #: concepts/how.md:block 14 (paragraph)
 msgid ""
@@ -130,11 +201,17 @@ msgid ""
 "the other one content *Z*, so your client would find no entries for content "
 "*X* in the distributed cache index, as depicted below:"
 msgstr ""
+"تقسیم شدہ کیش پر کچھ خاص مواد پیش کرنے والے کلائنٹس کے بارے میں کہا جاتا ہے "
+"کہ وہ **سیڈنگ** ہیں یا ان کے *سیڈرز* ہیں (یہ اصطلاحات P2P فائل شیئرنگ کی "
+"دنیا سے آتی ہیں)۔ ہمارے مثال کے منظر نامے پر واپس جائیں تو، وہاں دو کلائنٹ "
+"ہیں جو کچھ مواد سیڈ کر رہے ہیں۔ بدقسمتی سے، ایک مواد *Y* اور دوسرا مواد *Z* "
+"سیڈ کر رہا ہے، لہذا آپ کے مؤکل کو تقسیم شدہ کیش انڈیکس میں مواد *X* کے لیے "
+"کوئی اندراج نہیں ملے گا، جیسا کہ ذیل میں دکھایا گیا ہے:"
 
 #: concepts/how.md:block 15 (paragraph)
 msgid ""
 "![Figure: Content not found in the distributed cache](images/user-flow-1.svg)"
-msgstr ""
+msgstr "![تصویر: تقسیم شدہ کیش میں مواد نہیں ملا](images/user-flow-1.svg)"
 
 #: concepts/how.md:block 16 (paragraph)
 msgid ""
@@ -142,14 +219,17 @@ msgid ""
 "make it available to other clients in the distributed cache. Please read on "
 "to learn how."
 msgstr ""
+"خوش قسمتی سے، Ouinet اس طرح کے مواد کو بازیافت کرنے کا ایک طریقہ پیش کرتا ہے "
+"اور اس کے علاوہ اسے تقسیم شدہ کیش میں دوسرے کلائنٹس کے لیے بھی دستیاب کرتا "
+"ہے۔ یہ جاننے کے لیے براہ کرم پڑھیں."
 
 #: concepts/how.md:block 17 (header)
 msgid "Sharing new content"
-msgstr ""
+msgstr "نئے مواد کا اشتراک کرنا"
 
 #: concepts/how.md:block 18 (header)
 msgid "Proxies on steroids"
-msgstr ""
+msgstr "سٹیرائڈز پر پراکسی"
 
 #: concepts/how.md:block 19 (paragraph)
 msgid ""
@@ -157,6 +237,9 @@ msgid ""
 "which sit in the (hopefully) free side of the Internet and try very hard to "
 "stay reachable despite blocking measures:"
 msgstr ""
+"Ouinet میں، خاص قسم کے پراکسی سرورز ہیں جنہیں **انجیکٹر** کہا جاتا ہے جو "
+"انٹرنیٹ کے (امید ہے کہ) فری سائیڈ میں بیٹھتے ہیں اور روکنے کے اقدامات کے "
+"باوجود قابل رسائی رہنے کی بہت کوشش کرتے ہیں:"
 
 #: concepts/how.md:block 20 (unordered list)
 msgid ""
@@ -164,12 +247,17 @@ msgid ""
 "standard SSL/TLS like in HTTPS) to avoid attackers from identifying "
 "injectors by eavesdropping on web traffic."
 msgstr ""
+"سب سے پہلے، کلائنٹس اور انجیکٹرز کے درمیان روابط کو خفیہ کیا جاتا ہے (معیاری "
+"SSL/TLS کا استعمال کرتے ہوئے جیسے HTTPS میں) تاکہ حملہ آوروں کو ویب ٹریفک پر "
+"چھپ کر انجیکٹر کی شناخت کرنے سے بچایا جا سکے۔"
 
 #: concepts/how.md:block 20 (unordered list)
 msgid ""
 "By the way, injector certificates are shipped in CENO Browser, allowing it "
 "to detect attackers trying to impersonate injectors."
 msgstr ""
+"ویسے، انجیکٹر سرٹیفکیٹ CENO براؤزر میں بھیجے جاتے ہیں، جس سے یہ حملہ آوروں "
+"کا پتہ لگانے کی اجازت دیتا ہے جو انجیکٹر کی نقالی کرنے کی کوشش کر رہے ہیں۔"
 
 #: concepts/how.md:block 20 (unordered list)
 msgid ""
@@ -177,6 +265,9 @@ msgid ""
 "obfuscation techniques (like I2P and Tor's Pluggable Transports) to make "
 "identification even more difficult."
 msgstr ""
+"اگر خفیہ کاری کافی نہیں تھی تو، انجیکٹروں کے کنکشن شناخت کو مزید مشکل بنانے "
+"کے لیے خصوصی مبہم تکنیک (جیسے I2P اور Tor's Pluggable Transports) استعمال کر "
+"سکتے ہیں۔"
 
 #: concepts/how.md:block 20 (unordered list)
 msgid ""
@@ -184,12 +275,17 @@ msgid ""
 "there are several of them and it does not matter which one your client "
 "contacts over the Internet."
 msgstr ""
+"یہاں تک کہ اگر ایک انجیکٹر کی شناخت کی گئی تھی اور آپ کے ISP کے ذریعہ اس تک "
+"رسائی کو مسدود کردیا گیا تھا، ان میں سے کئی ہیں اور اس سے کوئی فرق نہیں پڑتا "
+"ہے کہ آپ کا کلائنٹ انٹرنیٹ پر کس سے رابطہ کرتا ہے۔"
 
 #: concepts/how.md:block 20 (unordered list)
 msgid ""
 "Some or all injectors may be blocked, but then the set of injectors can vary "
 "over time (with new ones being added)."
 msgstr ""
+"کچھ یا تمام انجیکٹرز کو بلاک کیا جا سکتا ہے، لیکن پھر انجیکٹرز کا سیٹ وقت کے "
+"ساتھ مختلف ہو سکتا ہے (نئے شامل کیے جانے کے ساتھ)۔"
 
 #: concepts/how.md:block 20 (unordered list)
 msgid ""
@@ -198,6 +294,10 @@ msgid ""
 "sharing), a single-entry distributed index similar to the distributed cache "
 "index which yields the addresses of currently available injectors."
 msgstr ""
+"آپ کے کلائنٹ کو پہلے سے ان کے انٹرنیٹ پتے جاننے کی ضرورت نہیں ہے۔ اس کے "
+"بجائے، یہ **انجیکٹر بھیڑ** (P2P فائل شیئرنگ کی ایک اور اصطلاح) میں ایک تلاش "
+"کرتا ہے، تقسیم شدہ کیش انڈیکس کی طرح ایک واحد اندراج تقسیم شدہ انڈیکس جو فی "
+"الحال دستیاب انجیکٹرز کے پتے حاصل کرتا ہے۔"
 
 #: concepts/how.md:block 20 (unordered list)
 msgid ""
@@ -207,6 +307,11 @@ msgid ""
 "adds its own Internet address to the **bridge swarm**, another single-entry "
 "distributed index."
 msgstr ""
+"آخر میں، یہاں تک کہ اگر آپ کا کلائنٹ کسی انجیکٹر تک نہیں پہنچ سکتا، تو کچھ "
+"دوسرے کلائنٹ ہو سکتے ہیں۔ جب ایک کلائنٹ کسی انجیکٹر تک پہنچنے کے قابل ہوتا "
+"ہے اور اپنے آپ کو دوسرے کلائنٹس کے ذریعے قابل رسائی سمجھتا ہے، تو یہ ایک "
+"**پل** کلائنٹ بن جاتا ہے اور اپنا انٹرنیٹ ایڈریس **پل بھیڑ** میں شامل کرتا "
+"ہے، ایک اور واحد اندراج تقسیم شدہ انڈیکس۔"
 
 #: concepts/how.md:block 20 (unordered list)
 msgid ""
@@ -215,12 +320,18 @@ msgid ""
 "creating a **tunnel** between your client and the injector. Then a "
 "connection can be established between them inside of the tunnel."
 msgstr ""
+"لہذا آپ کا کلائنٹ ایسا پتہ تلاش کرسکتا ہے، اس کے پیچھے والے پل سے جڑ سکتا ہے "
+"اور اسے کہہ سکتا ہے کہ وہ اپنی طرف سے انجیکٹر سے دوسرا کنکشن قائم کرے، جس سے "
+"آپ کے مؤکل اور انجیکٹر کے درمیان **سرنگ** بن جائے۔ پھر سرنگ کے اندر ان کے "
+"درمیان رابطہ قائم کیا جا سکتا ہے۔"
 
 #: concepts/how.md:block 20 (unordered list)
 msgid ""
 "Please note that since client-to-injector connections are encrypted, bridges "
 "are not able to see the information flowing between them."
 msgstr ""
+"براہ کرم نوٹ کریں کہ چونکہ کلائنٹ سے انجیکٹر کنکشنز کو خفیہ کیا گیا ہے، اس "
+"لیے پل ان کے درمیان بہنے والی معلومات کو دیکھنے کے قابل نہیں ہیں۔"
 
 #: concepts/how.md:block 21 (paragraph)
 msgid ""
@@ -230,6 +341,11 @@ msgid ""
 "neither see the actual information flowing between your client and the "
 "origin server (unless it is a plain, unencrypted HTTP connection itself)."
 msgstr ""
+"ایک انجیکٹر ایک عام (اگرچہ اضافی دستیاب ہے) پراکسی سرور کی طرح برتاؤ کر سکتا "
+"ہے، اور درحقیقت یہ وہی ہے جو Ouinet کلائنٹس (بشمول CENO براؤزر) فی الحال کسی "
+"پراکسی پر مواد تک رسائی حاصل کرنے کی کوشش کرتے ہیں۔ اس صورت میں، انجیکٹر نہ "
+"تو آپ کے کلائنٹ اور اصل سرور کے درمیان بہتی ہوئی اصل معلومات کو دیکھے گا (جب "
+"تک کہ یہ ایک سادہ، غیر خفیہ کردہ HTTP کنکشن نہ ہو)۔"
 
 #: concepts/how.md:block 22 (paragraph)
 msgid ""
@@ -237,10 +353,13 @@ msgid ""
 "network interference conditions so, what is so special about Ouinet "
 "injectors?"
 msgstr ""
+"لیکن ایسے دوسرے ٹولز موجود ہیں جو آپ کو سخت نیٹ ورک مداخلت کے حالات میں "
+"پراکسی تک پہنچنے کی اجازت دیتے ہیں تو، Ouinet انجیکٹر کے بارے میں کیا خاص "
+"بات ہے؟"
 
 #: concepts/how.md:block 23 (header)
 msgid "Trusting shared content"
-msgstr ""
+msgstr "مشترکہ مواد پر بھروسہ کرنا"
 
 #: concepts/how.md:block 24 (paragraph)
 msgid ""
@@ -249,6 +368,9 @@ msgid ""
 "later time, even when there is no longer access to the injector or most of "
 "the Internet*."
 msgstr ""
+"ٹھیک ہے، بات یہ ہے کہ انجیکٹر صرف آپ کے کلائنٹ کی جانب سے مواد کو بازیافت "
+"نہیں کرتا ہے، یہ آپ کو *اس مواد کو بعد میں دوسروں کے ساتھ بھی شیئر کرنے کی "
+"اجازت دیتا ہے، یہاں تک کہ جب انجیکٹر یا زیادہ تر انٹرنیٹ تک رسائی نہ ہو*."
 
 #: concepts/how.md:block 25 (paragraph)
 msgid ""
@@ -259,6 +381,12 @@ msgid ""
 "retrieved at a certain date or that the information in it was not "
 "manipulated?"
 msgstr ""
+"آپ یقیناً اپنے براؤزر سے ایک صفحہ ڈاؤن لوڈ کر سکتے ہیں اور نتیجے میں آنے "
+"والی فائلوں کو دوسرے لوگوں میں کاپی کر سکتے ہیں، اگر آپ ایک دوسرے کو جانتے "
+"ہیں تو یہ ٹھیک ہو گا۔ لیکن اگر آپ کو کسی نامعلوم شخص سے ایسی فائلیں موصول "
+"ہوں تو کیا ہوگا؟ آپ کیسے اس بات کا یقین کر سکتے ہیں کہ مواد دراصل اس ویب "
+"سائٹ سے آیا ہے جس کا یہ دعویٰ کرتا ہے، کہ اسے ایک خاص تاریخ پر بازیافت کیا "
+"گیا تھا یا اس میں موجود معلومات میں ہیرا پھیری نہیں کی گئی تھی؟"
 
 #: concepts/how.md:block 26 (paragraph)
 msgid ""
@@ -271,6 +399,16 @@ msgid ""
 "the origin server, uses the key to sign it, and returns the signed content "
 "to the client."
 msgstr ""
+"ہم چاہتے ہیں کہ CENO اور Ouinet کے استعمال کی پیمائش کی جائے اور زیادہ سے "
+"زیادہ لوگوں کو زیادہ سے زیادہ مواد فراہم کیا جائے، اس لیے ہم چاہتے ہیں کہ آپ "
+"ان لوگوں سے مواد وصول کرنے کے قابل ہو جائیں جنہیں آپ نہیں جانتے۔ آپ کو اس "
+"طرح کے مواد کو قبول کرنے کے قابل بنانے کے لیے، Ouinet **مواد پر دستخط** کا "
+"استعمال کرتا ہے: آپ کے کلائنٹ کو ایسے مواد پر بھروسہ کرنے کے لیے ترتیب دیا "
+"گیا ہے جس پر انجیکٹرز کی ملکیت والی خصوصی کلید کا استعمال کرتے ہوئے دستخط "
+"کیے گئے ہیں۔ جب بھی کوئی کلائنٹ کسی انجیکٹر کو شیئر کرنے کے لیے کچھ ویب مواد "
+"کو بازیافت کرنے کو کہتا ہے، انجیکٹر اسے اصل سرور سے حاصل کرتا ہے، اس پر "
+"دستخط کرنے کے لیے کلید کا استعمال کرتا ہے، اور دستخط شدہ مواد کلائنٹ کو واپس "
+"کرتا ہے۔"
 
 #: concepts/how.md:block 27 (quote)
 msgid ""
@@ -279,6 +417,10 @@ msgid ""
 "big file, the downloaded data can still be shared by the client that "
 "received it."
 msgstr ""
+"**تکنیکی نوٹ:** درحقیقت، انجیکٹر ڈیٹا کے انفرادی بلاکس کے آتے ہی دستخط کرتا "
+"ہے، اس لیے اگر ایک بڑی فائل کو بازیافت کرتے وقت کنکشن درمیان میں کٹ جاتا ہے، "
+"تب بھی ڈاؤن لوڈ کردہ ڈیٹا کو موصول ہونے والے کلائنٹ کے ذریعے شیئر کیا جا "
+"سکتا ہے۔"
 
 #: concepts/how.md:block 28 (paragraph)
 msgid ""
@@ -289,6 +431,13 @@ msgid ""
 "by a notary from another country. CENO Browser is already configured to "
 "trust a set of injectors run by eQualitie."
 msgstr ""
+"مختلف انجیکٹرز میں مختلف کلیدیں ہو سکتی ہیں، لہذا آپ انتخاب کر سکتے ہیں کہ "
+"کن انجیکٹروں پر بھروسہ کرنا ہے۔ اس کی اس طرح تصویر بنائیں: آپ اپنے ملک کے *"
+"نوٹری پبلک* کے دستخط شدہ دستاویز پر بھروسہ کرسکتے ہیں، چاہے وہ آپ کو کس نے "
+"دیا ہو (قومی یا غیر ملکی)، جب کہ آپ کو کسی دوسرے ملک سے نوٹری کے دستخط شدہ "
+"دستاویز کو قبول کرنے کی ضرورت نہیں ہوگی۔ CENO براؤزر پہلے ہی eQualitie کے "
+"ذریعے چلائے جانے والے انجیکٹروں کے سیٹ پر بھروسہ کرنے کے لیے ترتیب دیا گیا "
+"ہے۔"
 
 #: concepts/how.md:block 29 (quote)
 msgid ""
@@ -298,10 +447,15 @@ msgid ""
 "characters. They may even be exchanged on the phone or written down on a "
 "piece of paper."
 msgstr ""
+"**تکنیکی نوٹ:** انجیکٹر Ed25519 دستخط بنانے کے لیے عوامی/نجی کلید کا جوڑا "
+"استعمال کرتے ہیں۔ عوامی کلیديں اتنی چھوٹی ہیں کہ انہیں دستخطوں کے ساتھ بھیجا "
+"جا سکتا ہے، اور 64 ہیکساڈیسیمل حروف یا 52 Base32 حروف کے طور پر انکوڈ کیا "
+"جاتا ہے۔ ان کا تبادلہ فون پر بھی کیا جا سکتا ہے یا کاغذ کے ٹکڑے پر لکھا جا "
+"سکتا ہے۔"
 
 #: concepts/how.md:block 30 (header)
 msgid "Content injection"
-msgstr ""
+msgstr "مواد کا انجیکشن"
 
 #: concepts/how.md:block 31 (paragraph)
 msgid ""
@@ -311,6 +465,11 @@ msgid ""
 "trusted injector to get a signed copy of the content that it can share with "
 "other clients."
 msgstr ""
+"یاد رکھیں کہ ہمارے مثال کے منظر نامے میں آپ کے کلائنٹ نے پہلے ہی اصل سرور "
+"اور دوسرے کلائنٹس سے مواد *X* بازیافت کرنے کی کوشش کی تھی کوئی فائدہ نہیں "
+"ہوا۔ کلائنٹ اپنا آخری Ouinet کارڈ چلاتا ہے اور مواد کی دستخط شدہ کاپی حاصل "
+"کرنے کے لیے ایک قابل اعتماد انجیکٹر سے رابطہ کرنے کی کوشش کرتا ہے جسے وہ "
+"دوسرے کلائنٹس کے ساتھ شیئر کر سکتا ہے۔"
 
 #: concepts/how.md:block 32 (paragraph)
 msgid ""
@@ -323,10 +482,16 @@ msgid ""
 "the injector gets the request for content *X* from your client, and asks its "
 "origin server for it."
 msgstr ""
+"نیچے دی گئی تصویر میں آپ اس آپریشن کا ممکنہ نتیجہ دیکھ سکتے ہیں: کلائنٹ پہلے "
+"انجیکٹر سے براہ راست رابطہ کرنے کی کوشش کرتا ہے (مثال کے طور پر انٹرنیٹ "
+"ایڈریس کا استعمال کرتے ہوئے جو اسے انجیکٹر بھیڑ سے ملا ہے)، لیکن افسوس کی "
+"بات یہ ہے کہ اسے آپ کے ISP نے پہلے ہی بلاک کر دیا ہے۔ خوش قسمتی سے، پل "
+"بھیڑدو دیگر کلائنٹس کے انٹرنیٹ ایڈریس دکھاتا ہے جو اب بھی انجیکٹر تک پہنچنے "
+"کے قابل ہیں۔"
 
 #: concepts/how.md:block 33 (paragraph)
 msgid "![Figure: Client reaches for injector](images/user-flow-2.svg)"
-msgstr ""
+msgstr "![تصویر: کلائنٹ انجیکٹر تک پہنچ جاتا ہے](images/user-flow-2.svg)"
 
 #: concepts/how.md:block 34 (paragraph)
 msgid ""
@@ -335,12 +500,18 @@ msgid ""
 "it arrived from (say, through the client sitting beyond the blocking). Once "
 "the content reaches your client, it does three things:"
 msgstr ""
+"جیسا کہ مواد *X* انجیکٹر کو موصول ہوتا ہے، یہ اپنی کلید کے ساتھ اس پر دستخط "
+"کرتا ہے، مواد میں دستخط شامل کرتا ہے اور اسے آپ کے کلائنٹ کو اس سرنگ کے "
+"ذریعے واپس بھیج دیتا ہے جہاں سے یہ آیا تھا (کہیں، بلاکنگ سے باہر بیٹھے "
+"کلائنٹ کے ذریعے)۔ مواد آپ کے کلائنٹ تک پہنچنے کے بعد، یہ تین چیزیں کرتا ہے:"
 
 #: concepts/how.md:block 35 (ordered list)
 msgid ""
 "It delivers it to you (in the case of CENO, it shows the content on the "
 "browser)."
 msgstr ""
+"یہ آپ کو فراہم کرتا ہے (CENO کی صورت میں، یہ براؤزر پر موجود مواد کو دکھاتا "
+"ہے)۔"
 
 #: concepts/how.md:block 35 (ordered list)
 msgid ""
@@ -348,28 +519,37 @@ msgid ""
 "will stay there for a configurable amount of time, or until you decide to "
 "clear all stored content."
 msgstr ""
+"یہ آپ کے ڈیوائس پر موجود مواد کو دوسرے کلائنٹس کے لیے مزید سیڈنگ کے لیے "
+"محفوظ کرتا ہے۔ یہ وہاں ایک قابل ترتیب وقت تک رہے گا، یا جب تک آپ تمام ذخیرہ "
+"شدہ مواد کو صاف کرنے کا فیصلہ نہیں کرتے۔"
 
 #: concepts/how.md:block 35 (ordered list)
 msgid ""
 "It announces in the distributed cache index that it is in possession of a "
 "copy of that content, so that other clients can find it."
 msgstr ""
+"یہ تقسیم شدہ کیش انڈیکس میں اعلان کرتا ہے کہ اس مواد کی ایک کاپی اس کے پاس "
+"ہے، تاکہ دوسرے کلائنٹس اسے تلاش کر سکیں۔"
 
 #: concepts/how.md:block 36 (paragraph)
 msgid ""
 "The whole combined operation of retrieval, signing, storage and announcement "
 "is what we call **content injection**, as shown in the figure below."
 msgstr ""
+"بازیافت، دستخط کرنے، ذخیرہ کرنے اور اعلان کے پورے مشترکہ عمل کو ہم **مواد کا "
+"انجیکشن** کہتے ہیں، جیسا کہ نیچے دی گئی تصویر میں دکھایا گیا ہے۔"
 
 #: concepts/how.md:block 37 (paragraph)
 msgid ""
 "![Figure: Client receives signed content from injector](images/user-flow-3."
 "svg)"
 msgstr ""
+"![تصویر: کلائنٹ کو انجیکٹر سے دستخط شدہ مواد موصول ہوتا ہے](images/user-"
+"flow-3.svg)"
 
 #: concepts/how.md:block 38 (header)
 msgid "Browsing under complete blocking"
-msgstr ""
+msgstr "مکمل بلاکنگ کے تحت براؤزنگ"
 
 #: concepts/how.md:block 39 (paragraph)
 msgid ""
@@ -380,6 +560,12 @@ msgid ""
 "existing paths (due to everybody trying to go across them). This is where "
 "the real power of the distributed cache comes into play."
 msgstr ""
+"براہ کرم نوٹ کریں کہ اوپر بیان کردہ میکانزم اب بھی اس بات کا تقاضا کرتا ہے "
+"کہ بلاک کرنے اور باقی انٹرنیٹ کی طرف *کچھ راستہ موجود* ہو۔ لیکن بعض اوقات وہ "
+"راستہ بھی غائب ہو جائے گا: مکمل بین الاقوامی رابطہ منقطع ہونے، قدرتی آفات، "
+"یا صرف چند موجودہ راستوں کی ضرورت سے زیادہ بھیڑ کے بارے میں سوچیں (ہر کوئی "
+"ان کو عبور کرنے کی کوشش کر رہا ہے)۔ یہ وہ جگہ ہے جہاں تقسیم شدہ کیش کی اصل "
+"طاقت کام میں آتی ہے۔"
 
 #: concepts/how.md:block 40 (paragraph)
 msgid ""
@@ -388,6 +574,10 @@ msgid ""
 "content *X* becomes especially relevant since it describes some ways in "
 "which you can help your community in such a situation."
 msgstr ""
+"آئیے تصور کریں کہ آپ کے انجیکٹر سے مواد *X* بازیافت کرنے کے بعد، ایک آفت آپ "
+"کے علاقے کو دنیا سے الگ کر دیتی ہے۔ اس سے پتہ چلتا ہے کہ مواد *X* خاص طور پر "
+"متعلقہ ہو جاتا ہے کیونکہ یہ کچھ ایسے طریقوں کی وضاحت کرتا ہے جن سے آپ ایسی "
+"صورتحال میں اپنی کمیونٹی کی مدد کر سکتے ہیں۔"
 
 #: concepts/how.md:block 41 (paragraph)
 msgid ""
@@ -397,11 +587,17 @@ msgid ""
 "it finds that your device is seeding it. CENO gets your Internet address "
 "from the index, connects to it and requests the content as shown below."
 msgstr ""
+"اس وقت CENO براؤزر استعمال کرنے والا دوسرا شخص بھی اس مواد کو حاصل کرنے کی "
+"کوشش کرتا ہے۔ اصل سرور تک یا آپ کے علاقے سے باہر کسی بھی چیز تک رسائی ناممکن "
+"ہے، لہذا CENO اس مواد کے لیے تقسیم شدہ کیش انڈیکس کو چیک کرتا ہے اور اسے پتہ "
+"چلتا ہے کہ آپ کا ڈیوائس اسے سیڈ کر رہا ہے۔"
 
 #: concepts/how.md:block 42 (paragraph)
 msgid ""
 "![Figure: Client receives signed content from client](images/user-flow-4.svg)"
 msgstr ""
+"![تصویر: کلائنٹ کو کلائنٹ سے دستخط شدہ مواد موصول ہوتا ہے](images/user-flow-4"
+".svg)"
 
 #: concepts/how.md:block 43 (paragraph)
 msgid ""
@@ -413,12 +609,22 @@ msgid ""
 "device may try to get half of it from each of the other devices (as shown "
 "below), thus speeding up the download and reducing the traffic they use."
 msgstr ""
+"اب اس دوسرے ڈیوائس میں مواد *X* کی ایک کاپی بھی ہے، لہذا یہ تقسیم شدہ کیش "
+"انڈیکس میں اس کا اعلان کرتا ہے، اس طرح سیڈر بن جاتا ہے۔ اگر اس مواد میں "
+"دلچسپی رکھنے والا کوئی تیسرا فرد اسے بازیافت کرنے کے لیے CENO براؤزر کا "
+"استعمال کرتا ہے، تو CENO اب مواد کے اشاریہ میں *دو* پتے دیکھے گا: آپ کے "
+"ڈیوائس کے اور دوسرے صارف کے۔ اگر مواد بھاری ہے (مثال کے طور پر ایک ویڈیو)، "
+"تو یہ تیسرا ڈیوائس دوسرے ڈیوائسز میں سے آدھا حصہ حاصل کرنے کی کوشش کر سکتا "
+"ہے (جیسا کہ نیچے دکھایا گیا ہے)، اس طرح ڈاؤن لوڈ کو تیز کرتا ہے اور ان کے "
+"استعمال کردہ ٹریفک کو کم کرتا ہے۔"
 
 #: concepts/how.md:block 44 (paragraph)
 msgid ""
 "![Figure: Client receives signed content from multiple clients](images/user-"
 "flow-5.svg)"
 msgstr ""
+"![تصویر: کلائنٹ کو متعدد کلائنٹس سے دستخط شدہ مواد موصول ہوتا ہے](images/"
+"user-flow-5.svg)"
 
 #: concepts/how.md:block 45 (paragraph)
 msgid ""
@@ -428,25 +634,35 @@ msgid ""
 "between two clients sitting on the same local network (e.g. connected to the "
 "same Wi-Fi access point), even if the network has no access to others."
 msgstr ""
+"آخر کار، صورت حال اور بھی خراب ہو سکتی ہے، اور تمام تجارتی اور ریاستی نیٹ "
+"ورک کا بنیادی ڈھانچہ بند ہو سکتا ہے۔ اس صورت میں، Ouinet اور CENO براؤزر کو "
+"ایک ہی مقامی نیٹ ورک پر بیٹھے دو کلائنٹس کے درمیان مواد کی *ڈیوائس ٹو ڈیوائس*"
+" شیئرنگ کے لیے کچھ سپورٹ بھی حاصل ہے (مثلاً ایک ہی Wi-Fi رسائی پوائنٹ سے "
+"منسلک)، چاہے نیٹ ورک کے پاس دوسروں تک رسائی موجود نہیں ہے."
 
 #: concepts/how.md:block 45 (paragraph)
 msgid ""
 "[Uniform Resource Locator]: https://en.wikipedia.org/wiki/"
 "Uniform_Resource_Locator"
 msgstr ""
+"[یونیفارم ریسورس لوکیٹر]: https://en.wikipedia.org/wiki/"
+"Uniform_Resource_Locator"
 
 #: concepts/how.md:block 45 (paragraph)
 msgid ""
 "[Cryptographic hash function]: https://en.wikipedia.org/wiki/"
 "Cryptographic_hash_function"
 msgstr ""
+"[کرپٹوگرافک ہیش فنکشن]: https://en.wikipedia.org/wiki/"
+"Cryptographic_hash_function"
 
 #: concepts/how.md:block 45 (paragraph)
 msgid "[BitTorrent]: https://en.wikipedia.org/wiki/BitTorrent"
-msgstr ""
+msgstr "[BitTorrent]: https://en.wikipedia.org/wiki/BitTorrent"
 
 #: concepts/how.md:block 45 (paragraph)
 msgid ""
 "[Distributed Hash Table]: https://en.wikipedia.org/wiki/"
 "Distributed_hash_table"
 msgstr ""
+"[تقسیم شدہ ہیش ٹیبل]: https://en.wikipedia.org/wiki/Distributed_hash_table"
