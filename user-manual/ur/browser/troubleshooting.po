@@ -1,13 +1,19 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2023-03-24 17:38+0000\n"
+"Last-Translator: Malik Faheem <faheem@connectech.org>\n"
+"Language-Team: Urdu <https://hosted.weblate.org/projects/censorship-no/"
+"browser-troubleshooting/ur/>\n"
 "Language: ur\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.17-dev\n"
 
 #: browser/troubleshooting.md:block 1 (header)
 msgid "Troubleshooting"
-msgstr ""
+msgstr "خرابیوں کا سراغ لگانا"
 
 #: browser/troubleshooting.md:block 2 (paragraph)
 msgid ""
@@ -18,24 +24,32 @@ msgid ""
 "network infrastructure, as well as which content other users have retrieved "
 "and the characteristics of their connections."
 msgstr ""
+"یہ سیکشن آپ کو کچھ اشارے دے گا کہ جب CENO اور Ouinet کے ساتھ مختلف، معلوم "
+"مسائل پیدا ہوں تو کیا کرنا ہے۔ براہ کرم ذہن میں رکھیں کہ یہ تجرباتی منصوبے "
+"ہیں، اور یہ کہ ان کا آپریشن ہمارے کنٹرول سے باہر بہت سے عوامل سے مشروط ہے، "
+"جیسے نیٹ ورک کے بنیادی ڈھانچے کی مخصوص ترتیب اور حیثیت، نیز دوسرے صارفین نے "
+"کون سا مواد بازیافت کیا ہے اور ان کے کنکشن کی خصوصیات ."
 
 #: browser/troubleshooting.md:block 3 (paragraph)
 msgid ""
 "If problems still persist, please report them to [cenoers@equalit.ie](mailto:"
 "cenoers@equalit.ie). We will try to help you with them."
 msgstr ""
+"اگر مسائل اب بھی برقرار رہتے ہیں، تو براہ کرم ان کی اطلاع [cenoers@equalit."
+"ie](mailto:cenoers@equalit.ie) پر دیں۔ ہم آپ کی ان کے ساتھ مدد کرنے کی کوشش "
+"کریں گے۔"
 
 #: browser/troubleshooting.md:block 4 (header)
 msgid "There is no CENO entry in the app menu"
-msgstr ""
+msgstr "ایپ مینو میں کوئی CENO اندراج نہیں ہے"
 
 #: browser/troubleshooting.md:block 5 (paragraph)
 msgid "The CENO Extension may still be loading. Please be patient."
-msgstr ""
+msgstr "CENO ایکسٹینشن اب بھی لوڈ ہو رہی ہے۔ برائے مہربانی صبر کریں۔"
 
 #: browser/troubleshooting.md:block 6 (header)
 msgid "All widgets are grayed-out in the *CENO Settings* page"
-msgstr ""
+msgstr "تمام ویجٹس *CENO ترتیبات* صفحہ میں سرمئی رنگ کا ہو گا"
 
 #: browser/troubleshooting.md:block 7 (paragraph)
 msgid ""
@@ -43,12 +57,17 @@ msgid ""
 "status from Ouinet. Since it may take a moment for Ouinet to be ready, "
 "please be patient."
 msgstr ""
+"CENO ایکسٹینشن لوڈ ہو گئی ہے، لیکن یہ ابھی تک Ouinet سے اسٹیٹس بازیافت کرنے "
+"کے قابل نہیں ہے۔ چونکہ Ouinet کے تیار ہونے میں ایک لمحہ لگ سکتا ہے، براہ کرم "
+"صبر کریں۔"
 
 #: browser/troubleshooting.md:block 8 (paragraph)
 msgid ""
 "If the Settings page stays like that after more than two minutes, Ouinet may "
 "have encountered some issue while starting."
 msgstr ""
+"اگر ترتیبات کا صفحہ دو منٹ سے زیادہ کے بعد بھی ایسا ہی رہتا ہے، تو Ouinet کو "
+"شروع کرتے وقت کچھ مسئلہ درپیش ہو سکتا ہے۔"
 
 #: browser/troubleshooting.md:block 9 (paragraph)
 msgid ""
@@ -58,6 +77,11 @@ msgid ""
 "connectivity (like being unable to join the BitTorrent network). If you are "
 "on a mobile connection, try again with Wi-Fi."
 msgstr ""
+"اگر ممکن ہو تو کوئی صفحہ دیکھنے کی کوشش کریں جو عام طور پر دستیاب ہوتا ہے۔ "
+"اگر آپ کو \"وسائل کو بازیافت کرنے میں ناکام (تمام ترتیب شدہ میکانزم کو "
+"آزمانے کے بعد)\" جیسی خرابی ملتی ہے، تو CENO کو عام رابطے کے ساتھ کچھ مسائل "
+"کا سامنا ہو سکتا ہے (جیسے BitTorrent نیٹ ورک میں شامل ہونے سے قاصر ہونا)۔ "
+"اگر آپ موبائل کنکشن پر ہیں تو Wi-Fi کے ساتھ دوبارہ کوشش کریں۔"
 
 #: browser/troubleshooting.md:block 10 (paragraph)
 msgid ""
@@ -65,21 +89,28 @@ msgid ""
 "visiting the page, try to stop other applications which may be offering some "
 "service to the device, then restart CENO."
 msgstr ""
+"اگر آپ کو صفحہ پر جاتے وقت \"پراکسی سرور کنکشن سے انکار کر رہا ہے\" جیسی "
+"خرابی ملتی ہے، تو دوسری ایپلیکیشنز کو روکنے کی کوشش کریں جو ہو سکتا ہے "
+"ڈیوائس کو کچھ سروس پیش کر رہی ہوں، پھر CENO کو دوبارہ شروع کریں۔"
 
 #: browser/troubleshooting.md:block 11 (quote)
 msgid ""
 "**Technical note:** This may happen if another application is already "
 "listening on TCP ports `127.0.0.1:8077` or `127.0.0.1:8078`."
 msgstr ""
+"**تکنیکی نوٹ:** ایسا ہو سکتا ہے اگر کوئی اور ایپلیکیشن پہلے سے ہی TCP پورٹس "
+"`127.0.0.1:8077` یا `127.0.0.1:8078` پر سن رہی ہو۔"
 
 #: browser/troubleshooting.md:block 12 (header)
 msgid "The *Ouinet client state* under *CENO Settings* is not `started`"
-msgstr ""
+msgstr "*CENO ترتیبات* کے تحت *Ouinet کلائنٹ کی حالت* 'شروع' نہیں ہوئی ہے"
 
 #: browser/troubleshooting.md:block 13 (paragraph)
 msgid ""
 "The Ouinet client run by CENO is finding problems starting on your device."
 msgstr ""
+"CENO کے ذریعے چلائے جانے والے Ouinet کلائنٹ کو آپ کے ڈیوائس پر شروع ہونے "
+"والی دشواریوں کا سامنا ہے۔"
 
 #: browser/troubleshooting.md:block 14 (paragraph)
 msgid ""
@@ -91,6 +122,13 @@ msgid ""
 "`starting`, please contact us (especially if the state was `started` in some "
 "previous run)."
 msgstr ""
+"جب آپ CENO لانچ کرتے ہیں، تو حالت چند سیکنڈ کے لیے 'شروع' پڑھ سکتی ہے۔ یہ "
+"عام ہے. تاہم، اگر حالت بہت دیر تک 'شروع' رہتی ہے، تو یہ کنیکٹیویٹی کے سنگین "
+"مسائل کا اشارہ ہو سکتا ہے جو ایپلیکیشن کو BitTorrent نیٹ ورک تک پہنچنے سے "
+"روکتا ہے۔ براہ کرم اپنا نیٹ ورک کنکشن چیک کریں اور CENO کو دوبارہ شروع کرنے "
+"کی کوشش کریں۔ اگر آپ کے پاس ورکنگ کنکشن ہے لیکن حالت 'شروع' بنی ہوئی ہے، تو "
+"براہ کرم ہم سے رابطہ کریں (خاص طور پر اگر حالت کسی پچھلے رن میں 'شروع' ہوئی "
+"تھی)۔"
 
 #: browser/troubleshooting.md:block 15 (paragraph)
 msgid ""
@@ -102,28 +140,41 @@ msgid ""
 "server. After setting the extra bootstraps, please restart the application. "
 "If the problem persists, contact us."
 msgstr ""
+"BitTorrent میں جانے کے قابل نہ ہونے کی ایک ممکنہ وجہ (جب آپ پہلی بار CENO "
+"چلاتے ہیں) تو یہ ہے کہ Ouinet کلائنٹ کے ذریعے استعمال ہونے والے ڈیفالٹ "
+"بوٹسٹریپ سرورز بلاک یا ناقابل رسائی ہیں۔ اس صورت میں آپ CENO کو اضافی "
+"BitTorrent بوٹسٹریپ سرور فراہم کرنے کی کوشش کر سکتے ہیں [ترتیبات کا "
+"صفحہ](settings.md)۔ اگر آپ ایسے کسی سرور کے بارے میں نہیں جانتے تو آپ ہم سے "
+"پوچھ سکتے ہیں۔ اضافی بوٹسٹریپس سیٹ کرنے کے بعد، براہ کرم ایپلیکیشن کو دوبارہ "
+"شروع کریں۔ اگر مسئلہ برقرار رہتا ہے تو ہم سے رابطہ کریں۔"
 
 #: browser/troubleshooting.md:block 16 (paragraph)
 msgid ""
 "If you ever see some other state, there may be some internal error in the "
 "Ouinet client. Please report the issue to us."
 msgstr ""
+"اگر آپ کو کبھی کوئی دوسری حالت نظر آتی ہے تو، Ouinet کلائنٹ میں کچھ اندرونی "
+"خرابی ہو سکتی ہے۔ براہ کرم ہمیں اس مسئلے کی اطلاع دیں۔"
 
 #: browser/troubleshooting.md:block 17 (header)
 msgid "Accessing some content shows \"Failed to retrieve the resource\""
-msgstr ""
+msgstr "کچھ مواد تک رسائی سے پتہ چلتا ہے کہ \"وسائل کی بازیافت میں ناکام\""
 
 #: browser/troubleshooting.md:block 18 (paragraph)
 msgid ""
 "This means that CENO tried all available mechanisms to access the content, "
 "but none of them succeeded."
 msgstr ""
+"اس کا مطلب ہے کہ CENO نے مواد تک رسائی کے لیے تمام دستیاب میکانزم آزمائے، "
+"لیکن ان میں سے کوئی بھی کامیاب نہیں ہوا۔"
 
 #: browser/troubleshooting.md:block 19 (paragraph)
 msgid ""
 "You should make sure that the following requirements are fulfilled for CENO "
 "to work:"
 msgstr ""
+"آپ کو یہ یقینی بنانا چاہیے کہ CENO کے کام کرنے کے لیے درج ذیل تقاضے پورے کیے "
+"گئے ہیں:"
 
 #: browser/troubleshooting.md:block 20 (unordered list)
 msgid ""
@@ -131,6 +182,9 @@ msgid ""
 "be able to communicate with newer injectors or other clients. Check the "
 "[installation instructions](install.md) to know where to get new versions."
 msgstr ""
+"آپ CENO براؤزر کا حالیہ ورژن چلا رہے ہیں۔ متروک ورژن نئے انجیکٹرز یا دوسرے "
+"کلائنٹس کے ساتھ بات چیت کرنے کے قابل نہیں ہوسکتے ہیں۔ یہ جاننے کے لیے کہ نئے "
+"ورژن کہاں سے حاصل کیے جائیں [انسٹالیشن ہدایات](install.md) کو چیک کریں۔"
 
 #: browser/troubleshooting.md:block 20 (unordered list)
 msgid ""
@@ -138,6 +192,8 @@ msgid ""
 "Otherwise CENO will not be able to circumvent some connectivity issues when "
 "accessing content."
 msgstr ""
+"[ترتیبات کے صفحہ](settings.md) میں رسائی کے تمام میکانزم فعال ہیں۔ بصورت "
+"دیگر CENO مواد تک رسائی کے وقت کنیکٹوٹی کے کچھ مسائل کو دور نہیں کر سکے گا۔"
 
 #: browser/troubleshooting.md:block 20 (unordered list)
 msgid ""
@@ -146,6 +202,10 @@ msgid ""
 "network connectivity is shut down (although users may still find a common Wi-"
 "Fi access point to do device-to-device sharing)."
 msgstr ""
+"آپ کے ڈیوائس کا نیٹ ورک کے ساتھ کام کرنے والا کنکشن ہے، یعنی آپ کا عام ویب "
+"براؤزر کچھ ویب سائٹس کھولنے کے قابل ہے۔ تمام نیٹ ورک کنیکٹیویٹی بند ہونے پر "
+"CENO اور Ouinet کام نہیں کر سکتے ہیں (حالانکہ صارفین اب بھی ڈیوائس ٹو ڈیوائس "
+"شیئرنگ کرنے کے لیے ایک عام Wi-Fi رسائی پوائنٹ تلاش کر سکتے ہیں)۔"
 
 #: browser/troubleshooting.md:block 21 (paragraph)
 msgid ""
@@ -153,10 +213,13 @@ msgid ""
 "access mechanisms to fail, to give you an idea of your chances for getting "
 "content using CENO."
 msgstr ""
+"اگر ایسا ہے تو، یہ وضاحت کرنے کے قابل ہے کہ رسائی کے تمام میکانزم کے ناکام "
+"ہونے کے لیے کیا ہو رہا ہے، تاکہ آپ کو CENO کا استعمال کرتے ہوئے مواد حاصل "
+"کرنے کے امکانات کا اندازہ ہو سکے۔"
 
 #: browser/troubleshooting.md:block 22 (header)
 msgid "Origin access"
-msgstr ""
+msgstr "اصل رسائی"
 
 #: browser/troubleshooting.md:block 23 (paragraph)
 msgid ""
@@ -164,16 +227,21 @@ msgid ""
 "the server is having some difficulties itself (e.g. it is down or under some "
 "attack), or someone is interfering with your connection to it."
 msgstr ""
+"آپ کا CENO براؤزر براہ راست مواد کے اصل سرور تک نہیں پہنچ سکتا۔ یا تو سرور "
+"کو خود کچھ دشواریوں کا سامنا ہے (مثلاً یہ نیچے ہے یا کسی حملے کی زد میں ہے)، "
+"یا کوئی اس سے آپ کے کنکشن میں مداخلت کر رہا ہے۔"
 
 #: browser/troubleshooting.md:block 24 (paragraph)
 msgid ""
 "This is the main use case for CENO and the other mechanisms should "
 "compensate for it."
 msgstr ""
+"یہ CENO کے لیے استعمال کا بنیادی معاملہ ہے اور دیگر میکانزم کو اس کی تلافی "
+"کرنی چاہیے۔"
 
 #: browser/troubleshooting.md:block 25 (header)
 msgid "Proxy/Injector access"
-msgstr ""
+msgstr "پراکسی/انجیکٹر تک رسائی"
 
 #: browser/troubleshooting.md:block 26 (paragraph)
 msgid ""
@@ -418,4 +486,4 @@ msgstr ""
 
 #: browser/troubleshooting.md:block 51 (quote)
 msgid "[HTTPS by default]: https://github.com/Rob--W/https-by-default"
-msgstr ""
+msgstr "[HTTPS by default]: https://github.com/Rob--W/https-by-default"
