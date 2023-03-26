@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
 "PO-Revision-Date: 2023-03-27 05:25+0000\n"
-"Last-Translator: Kaya Zeren <kayazeren@gmail.com>\n"
+"Last-Translator: Orhan <orya@pm.me>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/censorship-no/"
 "browser-settings/tr/>\n"
 "Language: tr\n"
@@ -40,6 +40,11 @@ msgid ""
 "cache retrieval under public browsing, hinting the user about the source of "
 "the content being visualized, and notifying about new versions of Ouinet."
 msgstr ""
+"**Teknik not:** Bu seçenekler CENO ile birlikte gelen bir Firefox uzantısı "
+"olan *CENO Extension* tarafından sağlanır ve Ouinet'in düzgün entegrasyonunu "
+"sağlar. Örneğin, herkese açık gezinti sırasında içerik enjeksiyonu ve ön "
+"bellekten alımını, görüntülenen içeriğin kaynağı hakkında bilgi sağlama ve "
+"Ouinet'in yeni sürümleri hakkında bilgilendirme gibi."
 
 #: browser/settings.md:block 4 (paragraph)
 msgid ""
@@ -47,14 +52,17 @@ msgid ""
 "*CENO* in the app's main menu. Please note that the menu entry may take a "
 "few seconds to pop up on app start. The page should look like this:"
 msgstr ""
+"Bu özellikler uygulamanın ana menüsündeki *CENO* seçeneğinden erişilebilir. "
+"Uygulamanın ilk açılışında bu menü seçeneğinin gözükmesinin biraz zaman "
+"alabileceğini unutmayın. Sayfa şu şekilde gözükmelidir:"
 
 #: browser/settings.md:block 5 (paragraph)
 msgid "![Figure: The CENO Settings page](images/settings.png)"
-msgstr ""
+msgstr "![Görsel:CENO Ayarları sayfası](images/settings.png)"
 
 #: browser/settings.md:block 6 (header)
 msgid "Choosing access mechanisms"
-msgstr ""
+msgstr "Erişim yöntemlerinin seçimi"
 
 #: browser/settings.md:block 7 (paragraph)
 msgid ""
