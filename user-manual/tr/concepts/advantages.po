@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-02 15:03+0200\n"
 "PO-Revision-Date: 2023-03-27 15:01+0000\n"
-"Last-Translator: Orhan <orya@pm.me>\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/censorship-no/"
 "advantages/tr/>\n"
 "Language: tr\n"
@@ -17,7 +17,7 @@ msgstr ""
 #
 #: concepts/advantages.md:block 1 (header)
 msgid "Advantages of using CENO/Ouinet"
-msgstr "CENO/Ouinet kullanmanın avantajları"
+msgstr "CENO/Ouinet kullanmanın yararları"
 
 #: concepts/advantages.md:block 2 (paragraph)
 msgid ""
