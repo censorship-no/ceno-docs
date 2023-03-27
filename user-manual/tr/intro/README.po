@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-03 02:50+0200\n"
 "PO-Revision-Date: 2023-03-27 15:01+0000\n"
-"Last-Translator: Kaya Zeren <kayazeren@gmail.com>\n"
+"Last-Translator: Orhan <orya@pm.me>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/censorship-no/"
 "readme/tr/>\n"
 "Language: tr\n"
@@ -66,21 +66,31 @@ msgid ""
 "that content - even if I was somehow able to access it a few hours ago and "
 "we're living some streets apart."
 msgstr ""
+"Ne yazık ki yine, genel bağlantının kıt (gelişmekte olan ülkeler veya "
+"yetersiz hizmet verilen, yoksul veya kırsal bölgeler), pahalı (bazı ülkeler "
+"uluslararası trafik için daha fazla ücret almakta) veya devlet tarafından ("
+"açıkça veya genel bir kapanmanın sonucu olarak) engellendiği durumlar "
+"vardır. Bu durumlarda, birkaç saat önce erişmiş veya sunucunun yakınında "
+"yaşıyor olsanız bile kaynak sunuculara ve hatta içerik teslim ağı (CDN) "
+"sunucularına ulaşmak zor veya imkansızdır ve cihazınız bu içeriğe "
+"erişemeyecektir."
 
 #: intro/README.md:block 6 (paragraph)
 msgid ""
 "This is where CENO Browser and Ouinet come into play. This chapter will "
 "introduce you to them."
 msgstr ""
+"CENO Browser ve Ouinet'in devreye girdiği yer burası. Bu bölümde "
+"anlatılacaktır."
 
 #: intro/README.md:block 6 (paragraph)
 msgid "[ooni-reports]: https://ooni.org/reports/"
-msgstr ""
+msgstr "[ooni-reports]: https://ooni.org/reports/"
 
 #: intro/README.md:block 6 (paragraph)
 msgid "[magma-reports]: https://magma.lavafeld.org/publications/"
-msgstr ""
+msgstr "[magma-reports]: https://magma.lavafeld.org/publications/"
 
 #: intro/README.md:block 6 (paragraph)
 msgid "[cplan-reports]: https://censoredplanet.org/reports"
-msgstr ""
+msgstr "[cplan-reports]: https://censoredplanet.org/reports"
