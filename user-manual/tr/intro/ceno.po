@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-02 02:42+0200\n"
-"PO-Revision-Date: 2023-03-27 05:25+0000\n"
+"PO-Revision-Date: 2023-03-27 15:01+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/censorship-no/"
 "ceno/tr/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 
 #: intro/ceno.md:block 1 (header)
 msgid "What is CENO Browser?"
-msgstr "CENO Tarayıcı nedir?"
+msgstr "CENO Browser nedir?"
 
 #: intro/ceno.md:block 2 (paragraph)
 msgid ""
