@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-03-24 17:38+0000\n"
+"PO-Revision-Date: 2023-03-29 21:38+0000\n"
 "Last-Translator: Malik Faheem <faheem@connectech.org>\n"
 "Language-Team: Urdu <https://hosted.weblate.org/projects/censorship-no/"
 "browser-settings/ur/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 
 #: browser/settings.md:block 1 (header)
 msgid "CENO settings"
-msgstr "CENO کی ترتیبات"
+msgstr "CENO ترتیبات"
 
 #: browser/settings.md:block 2 (paragraph)
 msgid ""
@@ -69,7 +69,7 @@ msgid ""
 "retrieve content while using either [public or private browsing](public-"
 "private.md) tabs. All boxes are enabled by default."
 msgstr ""
-"صفحہ کے اوپری حصے میں موجود چار چیک باکسز منتخب طور پر مختلف میکانزم یا "
+"صفحہ کے اوپری حصے میں موجود چار چیک باکسز منتخب طور پر مختلف طریقہ کار یا "
 "*ذرائع* کو فعال یا غیر فعال کرتے ہیں جنہیں CENO بطور Ouinet کلائنٹ [عوامی یا "
 "نجی براؤزنگ] (public-private.md) ٹیبز استعمال کرتے ہوئے مواد کی بازیافت کے "
 "لیے استعمال کرتا ہے۔ تمام باکسز بطور ڈیفالٹ فعال ہیں۔"
@@ -118,7 +118,7 @@ msgstr ""
 "رسائی کرتے وقت، ایک سنسر کنکشن کو روک سکتا ہے اور صارف کو ایک بوگس سائٹ "
 "فراہم کر سکتا ہے، ایسی چھیڑ چھاڑ جس کا CENO خود پتہ نہیں لگا سکتا۔ ایسی "
 "صورتوں میں، اس آپشن کو غیر فعال کرنے میں مدد مل سکتی ہے اور اس طرح ہمیشہ "
-"دوسرے، محفوظ CENO میکانزم کا سہارا لے سکتے ہیں۔ اس مسئلے کے بارے میں مزید "
+"دوسرے، محفوظ CENO طریقہ کار کا سہارا لے سکتے ہیں۔ اس مسئلے کے بارے میں مزید "
 "جاننے کے لیے براہ کرم [ٹربل شوٹنگ](troubleshooting.md) پر سیکشن دیکھیں۔"
 
 #: browser/settings.md:block 8 (unordered list)
@@ -184,7 +184,7 @@ msgid ""
 "browsing mode will render them useless. If you establish such a "
 "configuration, a warning will be shown as depicted below:"
 msgstr ""
-"عوامی یا نجی براؤزنگ موڈ کے لیے دستیاب تمام میکانزم کو غیر فعال کرنے سے وہ "
+"عوامی یا نجی براؤزنگ موڈ کے لیے دستیاب تمام طریقہ کار کو غیر فعال کرنے سے وہ "
 "بیکار ہو جائیں گے۔ اگر آپ اس طرح کی ترتیب قائم کرتے ہیں، تو ایک انتباہ "
 "دکھایا جائے گا جیسا کہ ذیل میں دکھایا گیا ہے:"
 
@@ -279,9 +279,9 @@ msgid ""
 "outside of your network see when communicating with your device. Also for "
 "diagnostics and not to be disclosed."
 msgstr ""
-"*پبلکUDP اینڈ پوائنٹس* وہ انٹرنیٹ پتے ہیں جو آپ کے نیٹ ورک سے باہر کے Ouinet "
-"کلائنٹس آپ کے آلے کے ساتھ بات چیت کرتے وقت دیکھتے ہیں۔ تشخیص کے لیے بھی اور "
-"ظاہر نہ کرنے کے لیے بھی۔"
+"عوامی UDP اینڈ پوائنٹس* وہ انٹرنیٹ پتے ہیں جو آپ کے نیٹ ورک سے باہر کے "
+"Ouinet کلائنٹس آپ کے آلے کے ساتھ بات چیت کرتے وقت دیکھتے ہیں۔ تشخیص کے لیے "
+"بھی اور ظاہر نہ کرنے کے لیے بھی۔"
 
 #: browser/settings.md:block 13 (unordered list)
 msgid ""
