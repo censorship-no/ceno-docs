@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-03-22 21:39+0000\n"
+"PO-Revision-Date: 2023-03-28 15:43+0000\n"
 "Last-Translator: Malik Faheem <faheem@connectech.org>\n"
 "Language-Team: Urdu <https://hosted.weblate.org/projects/censorship-no/"
 "browser-bridging/ur/>\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16.2-dev\n"
+"X-Generator: Weblate 4.17-dev\n"
 
 #: browser/bridging.md:block 1 (header)
 msgid "Helping other CENO users browse the Web"
@@ -242,11 +242,11 @@ msgstr ""
 
 #: browser/bridging.md:block 23 (quote)
 msgid "**Reachability status**"
-msgstr "**رسائی کی حیثیت**"
+msgstr "**رسائی كا اسٹیٹس**"
 
 #: browser/bridging.md:block 23 (quote)
 msgid "**UPnP status**"
-msgstr "**UPnP حیثیت**"
+msgstr "**UPnP اسٹیٹس**"
 
 #: browser/bridging.md:block 24 (paragraph)
 msgid ""
