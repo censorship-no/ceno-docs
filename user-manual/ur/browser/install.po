@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-03-22 21:39+0000\n"
+"PO-Revision-Date: 2023-03-29 21:38+0000\n"
 "Last-Translator: Malik Faheem <faheem@connectech.org>\n"
 "Language-Team: Urdu <https://hosted.weblate.org/projects/censorship-no/"
 "browser-install/ur/>\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16.2-dev\n"
+"X-Generator: Weblate 4.17-dev\n"
 
 #: browser/install.md:block 1 (header)
 msgid "Installing CENO"
@@ -93,8 +93,8 @@ msgid ""
 msgstr ""
 "چونکہ اس طرح کی سروس چلانے میں نیٹ ورک اور پروسیسر کے وسائل استعمال ہوتے ہیں،"
 " اس لیے جب بھی آپ چلتے پھرتے ہوں (یعنی وائی فائی سے منسلک نہ ہوں یا چارجر سے "
-"دور ہوں) تو آپ اسے روک سکتے ہیں۔ آئیکن کے ساتھ منسلک نوٹیفکیشن پر ٹیپ کرنے "
-"سے CENO اور اس کی سروس دونوں ایک ساتھ بند ہو جائیں گی (جب تک کہ آپ CENO کو "
+"دور ہوں) تو آپ اسے روک سکتے ہیں۔ آئیکن کے ساتھ منسلک نوٹیفکیشن پر دبانے سے "
+"CENO اور اس کی سروس دونوں ایک ساتھ بند ہو جائیں گی (جب تک کہ آپ CENO کو "
 "دوبارہ نہیں کھولیں گے)۔"
 
 #: browser/install.md:block 9 (paragraph)
@@ -102,8 +102,7 @@ msgid ""
 "![Figure: Tap on the notification to stop the CENO service](images/tap-stop."
 "png)"
 msgstr ""
-"![تصویر: CENO سروس کو روکنے کے لیے نوٹیفکیشن پر ٹیپ کریں](images/tap-stop."
-"png)"
+"![تصویر: CENO سروس کو روکنے کے لیے نوٹیفکیشن پر دبائيں](images/tap-stop.png)"
 
 #: browser/install.md:block 10 (header)
 msgid "Purging all CENO data (the \"panic button\")"
