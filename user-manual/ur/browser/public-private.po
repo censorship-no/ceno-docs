@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-03-24 17:38+0000\n"
+"PO-Revision-Date: 2023-03-29 21:38+0000\n"
 "Last-Translator: Malik Faheem <faheem@connectech.org>\n"
 "Language-Team: Urdu <https://hosted.weblate.org/projects/censorship-no/"
 "browser-public-private/ur/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 
 #: browser/public-private.md:block 1 (header)
 msgid "Using public or private browsing"
-msgstr "پبلک یا پرائیویٹ براؤزنگ استعمال کرنا"
+msgstr "عوامی یا نجی براؤزنگ استعمال کرنا"
 
 #: browser/public-private.md:block 2 (paragraph)
 msgid ""
