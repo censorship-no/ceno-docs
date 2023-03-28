@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-03-24 17:38+0000\n"
+"PO-Revision-Date: 2023-03-29 21:38+0000\n"
 "Last-Translator: Malik Faheem <faheem@connectech.org>\n"
 "Language-Team: Urdu <https://hosted.weblate.org/projects/censorship-no/"
 "browser-readme/ur/>\n"
@@ -24,10 +24,10 @@ msgid ""
 "for Android Support][Firefox for Android Support] pages."
 msgstr ""
 "جہاں تک اس کی Ouinet سے متعلق صلاحیتوں کا تعلق ہے یہ باب آپ کو CENO براؤزر "
-"کے استعمال پر کچھ اشارے دیتا ہے۔ براہ کرم ہمیشہ ذہن میں رکھیں کہ CENO ["
-"Firefox for Android][Firefox for Android] پر مبنی ہے، لہذا عام براؤزنگ کے "
-"موضوعات پر تمام سوالات کے لیے آپ کو Mozilla کے [Firefox for Android Support]["
-"Firefox for Android Support] صفحات کا حوالہ دینا چاہیے۔"
+"کے استعمال پر کچھ اشارے دیتا ہے۔ براہ کرم ہمیشہ ذہن میں رکھیں کہ CENO [فائر "
+"فاکس برائے اینڈرائیڈ][Firefox for Android] پر مبنی ہے، لہذا عام براؤزنگ کے "
+"موضوعات پر تمام سوالات کے لیے آپ کو Mozilla کے [فائر فاکس برائے اینڈرائیڈ "
+"سپورٹ][Firefox for Android Support] صفحات کا حوالہ دینا چاہیے۔"
 
 #: browser/README.md:block 3 (paragraph)
 msgid ""
