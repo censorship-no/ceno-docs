@@ -1,15 +1,15 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-03-17 17:41+0000\n"
-"Last-Translator: Malik Faheem <faheem@connectech.org>\n"
+"PO-Revision-Date: 2023-04-01 03:45+0000\n"
+"Last-Translator: Connectech <info@connectech.org>\n"
 "Language-Team: Urdu <https://hosted.weblate.org/projects/censorship-no/"
 "user-manual/ur/>\n"
 "Language: ur\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16.2-dev\n"
+"X-Generator: Weblate 4.17-dev\n"
 
 #: SUMMARY.md:block 1 (header)
 msgid "Summary"
@@ -49,7 +49,7 @@ msgstr "[یہ کیسے کام کرتا ہے؟](concepts/how.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Public vs. private browsing](concepts/public-private.md)"
-msgstr "[پبلک بمقابلہ پرائیویٹ براؤزنگ](concepts/public-private.md)"
+msgstr "[عوامی بمقابلہ نجی براؤزنگ](concepts/public-private.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Advantages of using CENO/Ouinet](concepts/advantages.md)"
@@ -69,8 +69,7 @@ msgstr "[CENO انسٹال کرنا](browser/install.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Using public or private browsing](browser/public-private.md)"
-msgstr ""
-"[پبلک یا پرائیویٹ براؤزنگ کا استعمال کرتے ہوئے](browser/public-private.md)"
+msgstr "[عوامی یا نجی براؤزنگ کا استعمال کرتے ہوئے](browser/public-private.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[CENO settings](browser/settings.md)"
