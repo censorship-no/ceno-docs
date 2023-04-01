@@ -1,15 +1,15 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-03-21 20:42+0000\n"
-"Last-Translator: Malik Faheem <faheem@connectech.org>\n"
+"PO-Revision-Date: 2023-04-01 04:39+0000\n"
+"Last-Translator: Connectech <info@connectech.org>\n"
 "Language-Team: Urdu <https://hosted.weblate.org/projects/censorship-no/"
 "advantages/ur/>\n"
 "Language: ur\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16.2-dev\n"
+"X-Generator: Weblate 4.17-dev\n"
 
 #: concepts/advantages.md:block 1 (header)
 msgid "Advantages of using CENO/Ouinet"
