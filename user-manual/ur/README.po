@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-03-24 17:38+0000\n"
-"Last-Translator: Malik Faheem <faheem@connectech.org>\n"
+"PO-Revision-Date: 2023-04-01 03:45+0000\n"
+"Last-Translator: Connectech <info@connectech.org>\n"
 "Language-Team: Urdu <https://hosted.weblate.org/projects/censorship-no/"
 "homepage-readme/ur/>\n"
 "Language: ur\n"
