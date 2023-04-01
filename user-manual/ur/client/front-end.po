@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-03-24 17:38+0000\n"
-"Last-Translator: Malik Faheem <faheem@connectech.org>\n"
+"PO-Revision-Date: 2023-04-02 05:39+0000\n"
+"Last-Translator: Connectech <info@connectech.org>\n"
 "Language-Team: Urdu <https://hosted.weblate.org/projects/censorship-no/"
 "client-front-end/ur/>\n"
 "Language: ur\n"
@@ -13,7 +13,7 @@ msgstr ""
 
 #: client/front-end.md:block 1 (header)
 msgid "Annex: The Ouinet client front-end"
-msgstr "ملحقہ: Ouinet کلائنٹ کا فرنٹ اینڈ"
+msgstr "ملحقہ: Ouinet کلائنٹ فرنٹ اینڈ"
 
 #: client/front-end.md:block 2 (paragraph)
 msgid ""
@@ -40,7 +40,7 @@ msgstr ""
 
 #: client/front-end.md:block 4 (paragraph)
 msgid "![Figure: The client front-end](images/front-end.png)"
-msgstr "![تصویر: کلائنٹ کا فرنٹ اینڈ](images/front-end.png)"
+msgstr "![تصویر: کلائنٹ فرنٹ اینڈ](images/front-end.png)"
 
 #: client/front-end.md:block 5 (paragraph)
 msgid "The items shown in the page include:"
@@ -64,10 +64,9 @@ msgid ""
 msgstr ""
 "آپ کو صرف Ouinet کلائنٹ کی جانچ کے لیے ایک سادہ براؤزر استعمال کرنے کے لیے "
 "اس کی ضرورت ہے، ایسی صورت میں آپ کو اس کی HTTP/HTTPS پراکسیز کو `127.0.0."
-"1:8077` پر کنفیگر کرنا پڑے گا، اور انجکشن کو کام کرنے کے لئے [CENO "
-"ایکسٹینشن][CENO Extension] کو دستی طور پر فعال کرنا ہوگا۔ کام کرنے کے لئے "
-"انجکشن کے لۓ. ہم اس مقصد کے لیے ایک *علیحدہ، مخصوص براؤزر پروفائل* استعمال "
-"کرنے کی سختی سے سفارش کرتے ہیں۔"
+"1:8077` پر ترتیب کرنا پڑے گا، اور انجکشن کو کام کرنے کے لئے [CENO ایکسٹینشن]["
+"CENO Extension] کو دستی طور پر فعال کرنا ہوگا۔ ہم اس مقصد کے لیے ایک *علیحدہ،"
+" مخصوص براؤزر پروفائل* استعمال کرنے کی سختی سے سفارش کرتے ہیں۔"
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
@@ -82,7 +81,7 @@ msgid ""
 "Buttons to enable or disable the different mechanisms used by the client to "
 "access content."
 msgstr ""
-"مواد تک رسائی کے لیے کلائنٹ کے استعمال کردہ مختلف میکانزم کو فعال یا غیر "
+"مواد تک رسائی کے لیے کلائنٹ کے استعمال کردہ مختلف طریقہ کار کو فعال یا غیر "
 "فعال کرنے کے بٹن۔"
 
 #: client/front-end.md:block 6 (unordered list)
