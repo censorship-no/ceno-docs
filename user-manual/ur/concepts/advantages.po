@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-04-01 04:39+0000\n"
+"PO-Revision-Date: 2023-04-02 05:39+0000\n"
 "Last-Translator: Connectech <info@connectech.org>\n"
 "Language-Team: Urdu <https://hosted.weblate.org/projects/censorship-no/"
 "advantages/ur/>\n"
@@ -36,7 +36,7 @@ msgid ""
 "special actions from the user (like transferring files between applications)."
 msgstr ""
 "**مانوس استعمال:** CENO براؤزر کا استعمال کرتے ہوئے ویب مواد تک رسائی حاصل "
-"کرنا آپ کے عادت براؤزر پر ویب پر سرفنگ کرنے جیسا محسوس ہوتا ہے، یہاں تک کہ "
+"کرنا آپ کے عادی براؤزر پر ویب پر سرفنگ کرنے جیسا محسوس ہوتا ہے، یہاں تک کہ "
 "مکمل بلاکنگ کے دوران بھی۔ مقبول مواد کے لیے نئے حسب ضرورت لنکس، یا صارف کی "
 "جانب سے خصوصی اقدامات (جیسے ایپلیکیشنز کے درمیان فائلوں کی منتقلی) کی کوئی "
 "ضرورت نہیں ہے۔"
@@ -97,12 +97,12 @@ msgstr ""
 "کلائنٹس میں کاپی کیا جاتا ہے، چاہے اصل سرور بیرون ملک ہی کیوں نہ ہو۔ اگر آپ "
 "اس مواد میں دلچسپی رکھتے ہیں تو، آپ کے کلائنٹ کو یہ مواد شاید آپ کے علاقے "
 "میں کسی دوسرے کلائنٹ سے ملے گا۔ کچھ ممالک میں جہاں بین الاقوامی ٹریفک مقامی "
-"سے زیادہ مہنگی ہے (مثال کے طور پر [قومی انٹرانیٹ][نیشنل انٹرانیٹ] کی موجودگی "
-"میں)، یہ حقیقت میں آپ کے پیسے بچا سکتا ہے۔"
+"سے زیادہ مہنگی ہے(مثال کے طور پر ایک [قومی انٹرانیٹ][national intranet] کی "
+"موجود میں)، یہ حقیقت میں آپ کے پیسے بچا سکتا ہے۔"
 
 #: concepts/advantages.md:block 3 (unordered list)
 msgid "[Slashdot effect]: https://en.wikipedia.org/wiki/Slashdot_effect"
-msgstr "[Slashdot اثر]: https://en.wikipedia.org/wiki/Slashdot_effect"
+msgstr "[Slashdot effect]: https://en.wikipedia.org/wiki/Slashdot_effect"
 
 #: concepts/advantages.md:block 3 (unordered list)
 msgid "[National intranet]: https://en.wikipedia.org/wiki/National_intranet"
