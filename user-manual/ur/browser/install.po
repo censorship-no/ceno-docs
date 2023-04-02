@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-04-01 03:44+0000\n"
+"PO-Revision-Date: 2023-04-02 09:40+0000\n"
 "Last-Translator: Connectech <info@connectech.org>\n"
 "Language-Team: Urdu <https://hosted.weblate.org/projects/censorship-no/"
 "browser-install/ur/>\n"
@@ -24,8 +24,8 @@ msgid ""
 "[Google Play][ceno-gplay] (*CENO Browser* from *eQualitie*): the recommended "
 "source for most Android users."
 msgstr ""
-"[Google Play][ceno-gplay] (*CENO براؤزر* eQualitie* سے): زیادہ تر اینڈرائیڈ "
-"صارفین کے لیے تجویز کردہ ذریعہ۔"
+"[Google Play][ceno-gplay] (*CENO براؤزر* eQualitie* کی طرف سے): زیادہ تر "
+"اینڈرائیڈ صارفین کے لیے تجویز کردہ ذریعہ۔"
 
 #: browser/install.md:block 3 (unordered list)
 msgid "[GitHub][ceno-gh]: for Android devices without Google Play."
