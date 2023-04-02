@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-16 04:02+0200\n"
-"PO-Revision-Date: 2023-04-02 11:39+0000\n"
+"PO-Revision-Date: 2023-04-02 16:13+0000\n"
 "Last-Translator: Orhan <orya@pm.me>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/censorship-no/"
 "public-private/tr/>\n"
@@ -29,32 +29,44 @@ msgid ""
 "let others know that you are trying to or did retrieve), and fortunately "
 "CENO can help you in this instance as well."
 msgstr ""
+"Bağlantı sorunlarının üstesinden gelmek için kullanılan birçok yöntemden "
+"dolayı CENO, istediğiniz internet içeriğini edinmeniz için uygun bir yol "
+"olabilir. CENO Browser'ı kullanarak bir sayfayı aldığınızda veya "
+"paylaştığınızda, başkaları tarafından kullanılabilir hale gelir. Paylaşmak "
+"istemediğiniz (veya eriştiğinizi başkalarının bilmesini istemediğiniz) bazı "
+"içerikler olabilir, CENO bu durumlarda da size de yardımcı olabilir."
 
 #: concepts/public-private.md:block 3 (paragraph)
 msgid ""
 "The default mode when you launch the application is **public browsing**. In "
 "it, CENO accesses Web content as described previously:"
 msgstr ""
+"Uygulamayı açtığınızda varsayılan kip **herkese açık gezintidir**. CENO bu "
+"ağ içeriğine önceden açıklandığı gibi erişir:"
 
 #: concepts/public-private.md:block 4 (ordered list)
 msgid "Direct access is attempted."
-msgstr "Doğrudan erişim denendi."
+msgstr "Doğrudan erişim denenir."
 
 #: concepts/public-private.md:block 4 (ordered list)
 msgid "Failing that, the distributed cache is searched."
-msgstr "Dağıtılmış ön bellek arandı."
+msgstr "Başarısız olunursa, dağıtılmış ön bellek aranır."
 
 #: concepts/public-private.md:block 4 (ordered list)
 msgid ""
 "Failing that, the content is requested via an injector (maybe via another "
 "client)."
 msgstr ""
+"Başarısız olunursa, içerik bir ekleyiciden (veya başka bir istemciden) "
+"istenir."
 
 #: concepts/public-private.md:block 5 (paragraph)
 msgid ""
 "CENO also has a **private browsing** mode. In it, the distributed cache is "
 "never searched, and injection is never attempted:"
 msgstr ""
+"CENO aynı zamanda **gizli gezinti** kipine sahiptir. Bu gezinti türünde "
+"paylaşılan ön bellek asla aranmaz ve içerik ekleme girişiminde bulunulmaz:"
 
 #: concepts/public-private.md:block 6 (ordered list)
 msgid ""
@@ -62,48 +74,65 @@ msgid ""
 "*as a normal proxy server*. Note that in this case, neither the injector nor "
 "your client updates the distributed cache with your page."
 msgstr ""
+"Başarısız olunursa, içerik ekleyiciye (veya başka bir istemciye) ulaşılır ve "
+"*normal bir vekil sunucu* olarak kullanılır. Bu durumda, dağıtılmış ön "
+"belleğin içerik ekleyici veya istemciniz tarafından sayfanızla "
+"güncelleştirilmeyeceğini unutmayın."
 
 #: concepts/public-private.md:block 7 (paragraph)
 msgid ""
 "The different behavior results in different characteristics. Thus, in public "
 "mode:"
 msgstr ""
+"Farklı biçimler farklı sonuçlar çıkartır. Böylelikle herkese açık gezintide:"
 
 #: concepts/public-private.md:block 8 (ordered list)
 msgid ""
 "You have better chances to get Web content, and help others get that content "
 "(from you)."
 msgstr ""
+"İnternet içeriğini alıp, başkalarının erişmesine yardımcı olma ihtimaliniz "
+"yüksektir."
 
 #: concepts/public-private.md:block 8 (ordered list)
 msgid ""
 "Pages with dynamic content (e.g. updated in real time) may break in obvious "
 "or subtle ways."
 msgstr ""
+"Değişken içeriğe sahip (gerçek zamanlı güncellenen) sayfalar bariz veya "
+"küçük bozulmalar gösterebilir."
 
 #: concepts/public-private.md:block 8 (ordered list)
 msgid ""
 "Pages requiring authentication do not work (as passwords and cookies are "
 "removed by the client)."
 msgstr ""
+"Kimlik doğrulama gereken sayfalar çalışmaz (parolalar ve çerezler istemci "
+"tarafından silinir)."
 
 #: concepts/public-private.md:block 8 (ordered list)
 msgid ""
 "Some browsing activity may be leaked to other users (see [risks](risks.md))."
 msgstr ""
+"Bazı gezinti eylemleri diğer kullanıcılara sızabilir ([riskler "
+"sayfasına](risks.md) bakın))."
 
 #: concepts/public-private.md:block 8 (ordered list)
 msgid ""
 "Some browsing activity may be leaked to injectors (see [risks](risks.md))."
 msgstr ""
+"Bazı gezinti eylemleri diğer içerik ekleyicilere sızabilir ([riskler "
+"sayfasına](risks.md) bakın))."
 
 #: concepts/public-private.md:block 8 (ordered list)
 msgid "You need to trust injectors to retrieve and sign Web content."
 msgstr ""
+"İnternet içeriğini almak ve doğrulamak için içerik ekleyicilerine güvenmeniz "
+"gereklidir."
 
 #: concepts/public-private.md:block 9 (paragraph)
 msgid "While in private mode:"
-msgstr ""
+msgstr "Gizli gezintideyken:"
 
 #: concepts/public-private.md:block 10 (ordered list)
 msgid ""
@@ -111,32 +140,41 @@ msgid ""
 "connectivity is too scarce; even if you could, other CENO users would not "
 "get that content from you."
 msgstr ""
+"Eğer uluslar arası bağlantılar çok kısıtlıysa internet içeriğine "
+"erişemeyebilir, erişebilseniz bile diğer CENO kullanıcılarına bu içeriği "
+"sağlamazsınız."
 
 #: concepts/public-private.md:block 10 (ordered list)
 msgid "Pages with dynamic content will probably work."
-msgstr ""
+msgstr "Değişken içeriğe sahip sayfalar muhtemelen çalışır."
 
 #: concepts/public-private.md:block 10 (ordered list)
 msgid ""
 "Pages requiring authentication may work (when your connection is protected "
 "by HTTPS, the injector does not see your passwords)."
 msgstr ""
+"Kimlik doğrulama gereken sayfalar muhtemelen çalışır (bağlantınız HTTPS ile "
+"korunduğu sürece içerik ekleyici parolalarınızı göremez)."
 
 #: concepts/public-private.md:block 10 (ordered list)
 msgid "Browsing activity is not leaked to other users."
-msgstr ""
+msgstr "Gezinti eylemleri diğer kullanıcılara sızmaz."
 
 #: concepts/public-private.md:block 10 (ordered list)
 msgid ""
 "Limited browsing activity is leaked to injectors (with HTTPS, only the "
 "origin server name or address)."
 msgstr ""
+"İçerik ekleyicilerine sızan gezinti eylemleri kısıtlanır (HTTPS "
+"kullanıldığında yalnızca kaynak sunucu adı veya adresi)."
 
 #: concepts/public-private.md:block 10 (ordered list)
 msgid ""
 "You need not trust injectors (with HTTPS, usual certificate-based security "
 "still works)."
 msgstr ""
+"İçerik ekleyicilerine güvenmeniz gerekmez (HTTPS kullanıldığında sertifika "
+"tabanlı güvenlik çalışmaya devam eder)."
 
 #: concepts/public-private.md:block 11 (paragraph)
 msgid ""
@@ -146,6 +184,11 @@ msgid ""
 "to login to Twitter or edit your WordPress website, use *private browsing* "
 "mode."
 msgstr ""
+"Sonuç olarak, eğer CENO'yu haberleri okumak, video izlemek, Vikipedi'de "
+"gezinmek ve diğer ağınızda sansürlenmiş sabit kaynaklara erişmek için "
+"kullanacaksanız *herkese açık gezinti* kullanmalı; sosyal medyaya giriş "
+"yapmak veya WordPress sitenizi düzenlemek istiyorsanız *gizli gezinti* "
+"kullanmalısınız."
 
 #: concepts/public-private.md:block 12 (paragraph)
 msgid ""
@@ -155,3 +198,8 @@ msgid ""
 "greater detail in the [Helping others](../browser/bridging.md) section of "
 "the manual."
 msgstr ""
+"Lütfen ayrıntılı açıklama için [riskler sayfasına](risks.md) bakın. "
+"Unutmayın istemciniz herkese açık veya gizli gezinti kullanımınızdan "
+"bağımsız olarak köprü ve gönderici şeklinde çalışabilir. Bu durumu rehberin ["
+"Diğerlerine yardım etmek](../browser/bridging.md) sayfasında daha detaylı "
+"açıkladık."
