@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2023-04-01 01:38+0000\n"
-"Last-Translator: Kaya Zeren <kayazeren@gmail.com>\n"
+"PO-Revision-Date: 2023-04-02 11:39+0000\n"
+"Last-Translator: Orhan <orya@pm.me>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/censorship-no/"
 "client-front-end/tr/>\n"
 "Language: tr\n"
@@ -26,6 +26,11 @@ msgid ""
 "Many of them are also offered by the CENO Extension via the [*CENO Settings* "
 "page](../browser/settings.md), though others are only available here."
 msgstr ""
+"Ouinet istemcisi (örneğin CENO Browser tarafından çalıştırılan) hata "
+"ayıklama gibi durumlarda kullanışlı olan bilgi ve işlemlerin bulunduğu bir "
+"ön sayfaya sahiptir. Bu seçeneklerden çoğuna CENO eklentisinin [*CENO "
+"Ayarları* sayfasından](../browser/settings.md) erişebilirsiniz, fakat bazı "
+"seçenekler sadece buradadır."
 
 #: client/front-end.md:block 3 (paragraph)
 msgid ""
@@ -61,18 +66,27 @@ msgid ""
 "for injection to work. We very strongly recommend using a *separate, "
 "specific browser profile* for this purpose."
 msgstr ""
+"Bunu yalnızca Ouinet istemcisini farklı bir tarayıcı ile test ederken "
+"kullanmanız gerekir. İçerik ekleyicilerin çalışması için HTTP/HTTPS vekil "
+"sunucularını `127.0.0.1: 8077` olarak yapılandırmanız ve [CENO Uzantısını] ["
+"CENO Extension] el ile etkinleştirmeniz gereklidir. Bu amaç için *ayrı, özel "
+"bir tarayıcı profili* kullanmanızı tavsiye ederiz."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
 "Please note that none of this needs to be done for CENO Browser, since it is "
 "already configured like that."
 msgstr ""
+"CENO Browser kendiliğinden kurulu geldiği için bunların gerekmediğini "
+"unutmayın."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
 "Buttons to enable or disable the different mechanisms used by the client to "
 "access content."
 msgstr ""
+"İstemci tarafından içeriğe erişmek için kullanılacak yöntemlerin açıp "
+"kapatma tuşu."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
@@ -81,6 +95,9 @@ msgid ""
 "useful for reporting errors). The log file can also be enabled and retrieved "
 "from here."
 msgstr ""
+"Günlük ayrıntı seçenekleri, varsayılan `INFO` (bilgi iletileri, uyarılar ve "
+"hatalar) veya `DEBUG` (hataları bildirmek için kullanışlı detaylı çıktı) "
+"gibi. Günlük dosyası da buradan etkinleştirilip kaydedilebilir."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
@@ -88,11 +105,14 @@ msgid ""
 "(though you may change it again from here). When disabling the log file, the "
 "original log level is restored."
 msgstr ""
+"Günlük dosyası etkinleştirilirken ayrıntı seviyesi kendiliğinden `DEBUG`"
+"olarak ayarlanır, istediğiniz zaman değiştirebilirsiniz. Günlük dosyası "
+"kapatılırken varsayılan ayrıntı seviyesi tekrar ayarlanır."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
 "Global client state and version information. Useful when reporting errors."
-msgstr ""
+msgstr "İstemci durumu ve sürüm bilgisi. Hata bildirirken kullanışlıdır."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
@@ -100,12 +120,17 @@ msgid ""
 "`bep5` method looks up Internet addresses in a BitTorrent injector swarm, as "
 "explained [here](../concepts/how.md)."
 msgstr ""
+"İstemci bağlantıları ve içerik ekleyici adreslemesi hakkında bilgi. "
+"Varsayılan `bep5` yöntemi [burada açıklandığı](../concepts/how.md) gibi "
+"BitTorrent içerik ekleyici havuzundan internet adreslerini kontrol eder."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
 "The public key used to verify signatures from injectors in the distributed "
 "cache."
 msgstr ""
+"Dağıtılmış ön bellekteki içerik ekleyicilerinin imzaları doğrulanırken "
+"herkese açık anahtar kullanılır."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
@@ -113,13 +138,15 @@ msgid ""
 "size of the cache, a button to purge it completely, and a link to the list "
 "of announced cache entries."
 msgstr ""
+"Yerel ön belleğinizdeki içeriğin eskiliği, boyutu, tamamen silme tuşu ve ağ "
+"üzerinde duyurulan ön bellek girdilerinin bağlantısı gibi bilgiler."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
 "The directory of the external, static cache if enabled (CENO does not "
 "currently use this)."
-msgstr ""
+msgstr "Açıksa, harici sabit ön bellek dizini (CENO bunu henüz kullanmamakta)"
 
 #: client/front-end.md:block 6 (unordered list)
 msgid "[CENO Extension]: https://github.com/censorship-no/ceno-ext-settings/"
-msgstr ""
+msgstr "[CENO Extension]: https://github.com/censorship-no/ceno-ext-settings/"
