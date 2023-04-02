@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-16 04:02+0200\n"
-"PO-Revision-Date: 2023-03-27 15:01+0000\n"
-"Last-Translator: Kaya Zeren <kayazeren@gmail.com>\n"
+"PO-Revision-Date: 2023-04-02 11:39+0000\n"
+"Last-Translator: Orhan <orya@pm.me>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/censorship-no/"
 "public-private/tr/>\n"
 "Language: tr\n"
@@ -38,11 +38,11 @@ msgstr ""
 
 #: concepts/public-private.md:block 4 (ordered list)
 msgid "Direct access is attempted."
-msgstr ""
+msgstr "Doğrudan erişim denendi."
 
 #: concepts/public-private.md:block 4 (ordered list)
 msgid "Failing that, the distributed cache is searched."
-msgstr ""
+msgstr "Dağıtılmış ön bellek arandı."
 
 #: concepts/public-private.md:block 4 (ordered list)
 msgid ""
