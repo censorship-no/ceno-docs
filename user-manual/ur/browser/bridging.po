@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-04-02 05:39+0000\n"
+"PO-Revision-Date: 2023-04-02 09:40+0000\n"
 "Last-Translator: Connectech <info@connectech.org>\n"
 "Language-Team: Urdu <https://hosted.weblate.org/projects/censorship-no/"
 "browser-bridging/ur/>\n"
@@ -48,8 +48,8 @@ msgstr ""
 "**نوٹ:** اس سیکشن میں بیان کردہ کنفیگریشن آپ کے ڈیوائس کو تقسیم شدہ کیش پر "
 "مؤثر طریقے سے مواد کو دوسروں تک پہنچانے میں بھی مدد دے سکتی ہے، اس لیے براہ "
 "کرم سنسر کرنے والے ملک میں CENO استعمال کرتے وقت اسے لاگو کرنے پر بھی غور "
-"کریں (لیکن [خطرات کو ذہن میں رکھیں۔ ](../concepts/risks.md) اس طرح کے مواد "
-"کو دوسروں تک پہنچانا)۔"
+"کریں (لیکن ذہن میں رکھیں [خطرات](../concepts/risks.md) کو اس طرح کے مواد کو "
+"دوسروں تک پہنچانا)۔"
 
 #: browser/bridging.md:block 4 (header)
 msgid "How to become a CENO bridge"
@@ -74,7 +74,7 @@ msgid ""
 msgstr ""
 "تاہم، براہ کرم نوٹ کریں کہ اینڈرائیڈ موبائل ڈیوائس کو صرف اس وقت ایک مناسب "
 "پل کے طور پر کام کرنے کی اجازت دے گا جب آپ اسے فعال طور پر استعمال کر رہے "
-"ہوں، کیونکہ پاور سیونگ فیچرز CENO کے آپریشن کو روک دیں گے۔"
+"ہوں، کیونکہ پاور سیونگ خصوصیات CENO کے آپریشن کو روک دیں گے۔"
 
 #: browser/bridging.md:block 7 (quote)
 msgid ""
@@ -91,10 +91,10 @@ msgstr ""
 "android.com/training/monitoring-device-state/doze-standby \"Android "
 "Developers – Optimize for Doze and App اسٹینڈ بائی\" کی وجہ سے ہے۔ ) مقامی "
 "Ouinet لائبریری کے آپریشن کو سست کرنا۔ بدقسمتی سے، CENO کے لیے بیٹری کی "
-"اصلاح کو غیر فعال کرنا Ouinet کو اس سے خارج نہیں کرتا۔ آپ کے مخصوص آلے میں "
-"بجلی کی بچت کی اپنی خصوصیات بھی شامل ہو سکتی ہیں جو CENO میں مداخلت کر سکتی "
-"ہیں۔ براہ کرم اپنے آلے کے برانڈ کے لیے [Don't kill my app!][Don't kill my "
-"app!] کو چیک کریں۔"
+"اصلاح کو غیر فعال کرنا Ouinet کو اس سے خارج نہیں کرتا۔ آپ کے مخصوص ڈیوائس "
+"میں بجلی کی بچت کی اپنی خصوصیات بھی شامل ہو سکتی ہیں جو CENO میں مداخلت کر "
+"سکتی ہیں۔ براہ کرم اپنے ڈیوائس کے برانڈ کے لیے [Don't kill my app!][Don't "
+"kill my app!] کو چیک کریں۔"
 
 #: browser/bridging.md:block 8 (paragraph)
 msgid ""
