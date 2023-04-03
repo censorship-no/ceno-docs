@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-03 02:50+0200\n"
-"PO-Revision-Date: 2023-03-27 15:01+0000\n"
-"Last-Translator: Kaya Zeren <kayazeren@gmail.com>\n"
+"PO-Revision-Date: 2023-04-04 06:58+0000\n"
+"Last-Translator: Orhan <orya@pm.me>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/censorship-no/"
 "faq/tr/>\n"
 "Language: tr\n"
@@ -21,15 +21,18 @@ msgstr "Sıkça sorulan sorular"
 
 #: intro/faq.md:block 2 (header)
 msgid "Usage"
-msgstr ""
+msgstr "Kullanım"
 
 #: intro/faq.md:block 3 (header)
 msgid "Can CENO Browser replace my current browser (Chrome/Firefox/Safari)?"
 msgstr ""
+"Kullandığım tarayıcıyı (Chrome/Firefox/Safari) CENO Browser ile "
+"değiştirebilir miyim?"
 
 #: intro/faq.md:block 4 (paragraph)
 msgid "Short answer: yes, at least for some non-critical browsing."
 msgstr ""
+"Kısa yanıt: en azından aşırı önemli olmayan internet gezintilerinizde evet."
 
 #: intro/faq.md:block 5 (paragraph)
 msgid ""
@@ -38,6 +41,10 @@ msgid ""
 "Ouinet technology for retrieving web content may affect its operation in "
 "subtle ways (some of them potentially involving your privacy)."
 msgstr ""
+"CENO, Mozilla'nın Android için Firefox üzerine geliştirildiği için günümüz "
+"tarayıcılarından beklenen tüm özelliklere sahiptir. Fakat internet içeriğine "
+"Ouinet teknolojisine bağlı olarak eriştiği için çalışma şekli biraz farklı "
+"olabilir (bu farklardan birisi gizliliğinizle ilgili)."
 
 #: intro/faq.md:block 6 (paragraph)
 msgid ""
@@ -46,6 +53,10 @@ msgid ""
 "changes are introduced which require you to uninstall the application or "
 "remove stored data (including bookmarks and site settings) before upgrading."
 msgstr ""
+"Ayrıca, CENO ve Ouinet sürekli geliştirildiği için bazı dengesizliklerle "
+"karşılaşabilirsiniz. Bu durumlarda eskiye uyumlu olmayan değişiklikler "
+"yapılmış olabilir ve uygulamayı veya verilerini (yer imleri ve site ayarları)"
+" güncellemeden önce silip yeniden yüklemeniz gerekebilir."
 
 #: intro/faq.md:block 7 (paragraph)
 msgid ""
@@ -53,14 +64,17 @@ msgid ""
 "you use your habitual Web browser instead of CENO. Please read the section "
 "on [risks](../concepts/risks.md) for more information."
 msgstr ""
+"Sansür uygulanmayan sitelerdeki önemli işleriniz için CENO yerine normal "
+"tarayıcınızı kullanmanızı öneririz. Daha ayrıntılı bilgi için [riskler](../"
+"concepts/risks.md) bölümünü okuyun."
 
 #: intro/faq.md:block 8 (header)
 msgid "Can I use CENO Browser to access Twitter, Facebook and Gmail?"
-msgstr ""
+msgstr "Sosyal medyaya ve e-postalarıma CENO Browser ile bakabilir miyim?"
 
 #: intro/faq.md:block 9 (paragraph)
 msgid "Short answer: yes, by using private tabs."
-msgstr ""
+msgstr "Kısa yanıt: evet, gizli sekmeleri kullanarak."
 
 #: intro/faq.md:block 10 (paragraph)
 msgid ""
@@ -71,6 +85,12 @@ msgid ""
 "down all private data (like passwords and cookies) from Web traffic to "
 "ensure that it does not leak to other untrusted CENO or Ouinet users."
 msgstr ""
+"CENO, normal internet gezintisiyle mümkün olduğunca benzer bir kullanıcı "
+"deneyimi sağlamak için çalışmasına rağmen, ağ kısıtlamalarından kaçınmak "
+"için kullanılan bazı teknikler bu tarz değişken sitelerle iyi çalışmaz. Bu, "
+"CENO'nun varsayılan çalışma kipi (yani, herkese açık gezinti) ile ilgilidir, "
+"çünkü özel verileri (parolalar ve çerezler gibi) diğer güvenilmeyen CENO "
+"veya Ouinet kullanıcılarına sızdırmamak için internet trafiğinden çıkartır."
 
 #: intro/faq.md:block 11 (paragraph)
 msgid ""
@@ -80,30 +100,39 @@ msgid ""
 "else. However, this requires that network traffic from your device can reach "
 "those websites in some way."
 msgstr ""
+"Bunu önlemek ve CENO'da bu tür değişken sitelere girebilmek için gizli "
+"sekmeleri kullanabilirsiniz. Gizli sekmelerde kişisel verileriniz olduğu "
+"gibi kalır ve şifreli bağlantılar kullanılarak herkesten korunur. Ancak, "
+"bunun için aygıtınızın ağ trafiği, bu sitelere bir şekilde ulaşabilmesi "
+"gerekiyor."
 
 #: intro/faq.md:block 12 (paragraph)
 msgid ""
 "For further details, please refer to the section on the differences between "
 "[public and private browsing](../concepts/public-private.md)."
 msgstr ""
+"Daha fazla ayrıntı için [herkese açık ve gizli gezintinin farkları](../"
+"concepts/public-private.md) bölümüne bakın."
 
 #: intro/faq.md:block 13 (header)
 msgid "Privacy and security"
-msgstr ""
+msgstr "Gizlilik ve güvenlik"
 
 #: intro/faq.md:block 14 (header)
 msgid "Will my device store content that I did not request?"
-msgstr ""
+msgstr "Aygıtım istemediğim içerikleri depolayacak mı?"
 
 #: intro/faq.md:block 15 (paragraph)
 msgid "Short answer: no."
-msgstr ""
+msgstr "Kısa yanıt: hayır."
 
 #: intro/faq.md:block 16 (paragraph)
 msgid ""
 "CENO only shares content that you requested (using [public browsing](../"
 "concepts/public-private.md))."
 msgstr ""
+"CENO yalnızca [herkese açık gezinti](../concepts/public-private.md) "
+"kullanarak erişmeye çalıştığınız içeriği paylaşır."
 
 #: intro/faq.md:block 17 (paragraph)
 msgid ""
@@ -113,20 +142,29 @@ msgid ""
 "already does a pretty good job at detecting and blocking such attempts, you "
 "should still avoid visiting suspicious sites."
 msgstr ""
+"Unutmayın, kötü amaçlı bir web sitesi, cihazınızın diğer kullanıcılarla "
+"paylaşmak üzere içerik almasını zorlamak için sizden habersiz bir şekilde "
+"diğer sitelerden içerik almanızı sağlamaya çalışabilir. Firefox'un kodu bu "
+"tür girişimleri tespit etme ve engellemede oldukça iyi bir iş çıkarsa da, "
+"şüpheli sitelere girmekten kaçınmanız yine de önemlidir."
 
 #: intro/faq.md:block 18 (paragraph)
 msgid ""
 "Read more about how your CENO Browser retrieves and shares Web content with "
 "others [here](../concepts/how.md)."
 msgstr ""
+"Ayrıntılı bilgi için CENO Browser'ın internet içeriğini nasıl alıp "
+"paylaştığı hakkında [buraya](../concepts/how.md) bakabilirsiniz."
 
 #: intro/faq.md:block 19 (header)
 msgid "Can anyone see if I am using CENO Browser to access censored Web sites?"
 msgstr ""
+"CENO Browser kullanarak sansürlenen sitelere erişmeye çalıştığımı başkaları "
+"görebilir mi?"
 
 #: intro/faq.md:block 20 (paragraph)
 msgid "Short answer: yes, with some technical knowledge and resources."
-msgstr ""
+msgstr "Kısa yanıt: evet, teknik bilgi ve kaynağa sahip oldukları sürece."
 
 #: intro/faq.md:block 21 (paragraph)
 msgid ""
@@ -136,6 +174,11 @@ msgid ""
 "particular website, although they cannot list all the content that you are "
 "sharing."
 msgstr ""
+"CENO bir anonimlik aracı değildir. Ağ trafiğinizi izleme yeteneğine sahip "
+"bir saldırgan, cihazınızdan başka bir kullanıcının istek gönderdiği veya "
+"aldığı içeriği görebilir. Saldırgan ayrıca belirli bir web sitesini paylaşıp "
+"paylaşmadığınızı da anlayabilir, ancak paylaştığınız tüm içeriği "
+"listeleyemez."
 
 #: intro/faq.md:block 22 (paragraph)
 msgid ""
@@ -144,18 +187,22 @@ msgid ""
 "encrypted connections. See [how content retrieval works](../concepts/how.md) "
 "and the associated [risks](../concepts/risks.md) for more information."
 msgstr ""
+"Ancak, ağa ilk kez alınan içerik veya [gizli gezinme](../concepts/public-"
+"private.md) kullanılarak alınan içerik şifreli bağlantılar üzerinden "
+"gönderilir. Daha fazla bilgi için [içerik alımının nasıl çalıştığı](../"
+"concepts/how.md) ve [riskler](../concepts/risks.md) bölümlerine bakınız."
 
 #: intro/faq.md:block 23 (header)
 msgid "Resource usage"
-msgstr ""
+msgstr "Kaynak kullanımı"
 
 #: intro/faq.md:block 24 (header)
 msgid "Does CENO Browser use a lot of data?"
-msgstr ""
+msgstr "CENO Browser çok fazla veri tüketiyor mu?"
 
 #: intro/faq.md:block 25 (paragraph)
 msgid "Short answer: more than your usual browser."
-msgstr ""
+msgstr "Kısa yanıt: normal tarayıcınızdan daha fazla tüketiyor."
 
 #: intro/faq.md:block 26 (paragraph)
 msgid ""
@@ -164,6 +211,10 @@ msgid ""
 "large the content is, and how well-connected your device is. Sharing more "
 "content also implies more overhead."
 msgstr ""
+"CENO Browser başka bir kullanıcıya içerik gönderirken veya trafik aktarırken "
+"içeriğin yaygınlığına, büyüklüğüne ve aygıtınızın bağlantı kalitesine bağlı "
+"olarak daha fazla veri kullanabilir. İçerik paylaşımı arttıkça veri "
+"kullanımı da artar."
 
 #: intro/faq.md:block 27 (paragraph)
 msgid ""
@@ -172,10 +223,14 @@ msgid ""
 "recommend keeping an eye on the app's data usage (under Android settings) "
 "and running CENO while connected to Wi-Fi instead of using mobile data."
 msgstr ""
+"CENO diğer veri paylaşım uygulamalarına göre daha az kaynak kullansa bile "
+"veri kullanımı ve ücretleri daha yüksek olabilir. Bu yüzden, uygulamanın "
+"veri kullanımına (Android ayarlarından) dikkat etmeniz ve CENO'yu yalnızca "
+"kablosuz ağa bağlıyken kullanmanız önerilir."
 
 #: intro/faq.md:block 28 (header)
 msgid "Does CENO Browser use a lot of battery on my device?"
-msgstr ""
+msgstr "CENO Browser cihazımın pilini çok kullanıyor mu?"
 
 #: intro/faq.md:block 30 (paragraph)
 msgid ""
@@ -185,6 +240,11 @@ msgid ""
 "not actively helping other users, it still needs to stay reachable over the "
 "network, which prevents the use of some energy-saving features."
 msgstr ""
+"CENO ve Ouinet ağ müdahaleleri ve kesintilerden kaçınmak için çeşitli "
+"yöntemler kullanır. Diğer kullanıcılar için içerik sağlamak ve trafik "
+"aktarmak fazladan güç tüketir. Aygıtınız başkalarına etkin şekilde yardım "
+"etmediği zaman bile ağ üzerinde erişilebilir olmalıdır, bu yüzden bazı pil "
+"tasarrufu özellikleri kullanılamaz."
 
 #: intro/faq.md:block 31 (paragraph)
 msgid ""
@@ -194,26 +254,35 @@ msgid ""
 "completely (it offers a convenient shortcut for this, see [here](../browser/"
 "install.md))."
 msgstr ""
+"CENO kullanmadığınız zaman bile aygıtınızın pilini tüketebilir. "
+"Denemelerimizde güç tüketiminde aşırı artış gözükmüyor, ama kullanımınıza "
+"bağlı olarak değişebilir. Şarja ihtiyacınız olduğunda CENO'yu tamamen "
+"kapatmanız önerilir (bu işlem için kolayca erişilebilir bir kısayol mevcut, "
+"[buradan](../browser/install.md) bulabilirsiniz)"
 
 #: intro/faq.md:block 32 (header)
 msgid "Do I need to be connected to Wi-Fi to use CENO Browser?"
-msgstr ""
+msgstr "CENO Browser kullanmak için kablosuz ağa bağlı olmam gerekiyor mu?"
 
 #: intro/faq.md:block 33 (paragraph)
 msgid "Short answer: no, but we strongly recommend it."
-msgstr ""
+msgstr "Kısa yanıt: hayır, ama şiddetle önerilir."
 
 #: intro/faq.md:block 34 (paragraph)
 msgid ""
 "Although CENO should work fine on a mobile connection, there are two reasons "
 "why we recommend using a Wi-Fi connection instead:"
 msgstr ""
+"CENO mobil bağlantılarda çalışabilir fakat kablosuz ağ kullanmanızı "
+"önermemizin iki sebebi var:"
 
 #: intro/faq.md:block 35 (ordered list)
 msgid ""
 "CENO consumes an extra amount of data which may result in a higher phone "
 "bill (see above)."
 msgstr ""
+"CENO normal tarayıcılardan daha fazla veri kullanır, bu yüzden telefon "
+"faturanız daha yüksek gelebilir (yukarıdaki yazıya bakın)."
 
 #: intro/faq.md:block 35 (ordered list)
 msgid ""
@@ -221,3 +290,6 @@ msgid ""
 "outside than Wi-Fi ones, thus decreasing the chances that you can help other "
 "users get content."
 msgstr ""
+"Mobil bağlantılar kablosuz bağlantılara kıyasla cihazınızı dışarıdan daha az "
+"bağlanılabilir hale getirir ve böylelikle diğerlerinin içeriğe erişimine "
+"yardım etme şansınız azalır."
