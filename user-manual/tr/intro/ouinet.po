@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-03 02:50+0200\n"
-"PO-Revision-Date: 2023-03-27 05:25+0000\n"
+"PO-Revision-Date: 2023-04-04 20:11+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/censorship-no/"
 "ouinet/tr/>\n"
@@ -79,7 +79,7 @@ msgstr ""
 
 #: intro/ouinet.md:block 6 (header)
 msgid "Who is it for?"
-msgstr "Kimler için?"
+msgstr "Kimler içindir?"
 
 #: intro/ouinet.md:block 7 (paragraph)
 msgid ""
