@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-04-01 04:39+0000\n"
+"PO-Revision-Date: 2023-04-05 15:17+0000\n"
 "Last-Translator: Connectech <info@connectech.org>\n"
 "Language-Team: Urdu <https://hosted.weblate.org/projects/censorship-no/risks/"
 "ur/>\n"
