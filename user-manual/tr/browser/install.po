@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
 "PO-Revision-Date: 2023-04-05 15:17+0000\n"
-"Last-Translator: Kaya Zeren <kayazeren@gmail.com>\n"
+"Last-Translator: Orhan <orya@pm.me>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/censorship-no/"
 "browser-install/tr/>\n"
 "Language: tr\n"
@@ -103,10 +103,12 @@ msgid ""
 "![Figure: Tap on the notification to stop the CENO service](images/tap-stop."
 "png)"
 msgstr ""
+"![Görsel: CENO hizmetini durdurmak için bildirime dokunun](images/tap-stop."
+"png)"
 
 #: browser/install.md:block 10 (header)
 msgid "Purging all CENO data (the \"panic button\")"
-msgstr ""
+msgstr "Tüm CENO verilerini silmek (panik tuşu)"
 
 #: browser/install.md:block 11 (paragraph)
 msgid ""
@@ -115,6 +117,10 @@ msgid ""
 "action will just open CENO with a new public browsing tab showing its home "
 "page. The *Erase* action demands more explanation."
 msgstr ""
+"Yukarıda gösterilen *CENO Browser hizmeti* bildirimi dokunarak "
+"gerçekleştirilebilecek bazı eylemler içerir. *Giriş sayfası* eylemi CENO'yu "
+"yeni herkese açık sekme ile açar ve giriş sayfasını gösterir. *Sil* eylemini "
+"daha detaylı açıklamak gerekir."
 
 #: browser/install.md:block 12 (quote)
 msgid ""
@@ -123,6 +129,10 @@ msgid ""
 "only see the *Home* action, your device may be too old to support the "
 "*Erase* action."
 msgstr ""
+"**Not:** Eğer bildirimin altındaki eylemler gözükmüyorsa bildirimin "
+"ortasından aşağıya doğru çekerek bildirimi uzatmaya çalışın. Eğer yalnızca *"
+"Giriş sayfası* eylemini görüyorsanız, aygıtınız *Sil* eylemini "
+"destekleyemeyecek kadar eski olabilir."
 
 #: browser/install.md:block 13 (paragraph)
 msgid ""
@@ -132,12 +142,18 @@ msgid ""
 "your data accidentally, this will not remove anything yet, but just show an "
 "additional action for a brief moment, as pictured below:"
 msgstr ""
+"CENO'yu hızlıca durdurup ilişkili tüm verileri (ön belleklenen verilerin "
+"yanı sıra, yer imleri parolalar ve gezinti geçmişi gibi ayarlar) silmeniz "
+"gerekirse, *Sil* tuşuna basabilirsiniz. Yanlışlıkla basıp verilerinizi "
+"kaybetmemeniz için, bu tuş önce aşağıdaki gibi ek bir ileti gösterir:"
 
 #: browser/install.md:block 14 (paragraph)
 msgid ""
 "![Figure: The last action stops CENO and clears all its data](images/tap-"
 "purge.png)"
 msgstr ""
+"![Görsel: CENO'nun tüm verilerini silip durdurmanın son eylemi](images/tap-"
+"purge.png)"
 
 #: browser/install.md:block 15 (paragraph)
 msgid ""
@@ -145,10 +161,14 @@ msgid ""
 "removed *without further questions*, effectively leaving your device as if "
 "CENO had never been used."
 msgstr ""
+"*Evet (görseldeki Yes)* eylemine basarsanız CENO durdurulacak ve tüm veriler "
+"*hiçbir soru sorulmadan* silinecek ve aygıtınız CENO'yu hiç kullanmamış gibi "
+"olacak."
 
 #: browser/install.md:block 16 (paragraph)
 msgid "If you do not tap on the action, it will go away in a few seconds."
 msgstr ""
+"Eğer bu eyleme dokunmazsanız birkaç saniye içerisinde kendiliğinden gider."
 
 #: browser/install.md:block 17 (quote)
 msgid ""
@@ -157,16 +177,24 @@ msgid ""
 "Android's general *Settings* page and, under the *Apps* entry, choose CENO "
 "and then *Clear data*."
 msgstr ""
+"**Not:** Yukarıda belirtilen yöntem CENO'nun aygıtınızda çalışıyor olmasını "
+"gerektirir. CENO kapalıyken aynı işlemi yapmak için Android'in genel "
+"*Ayarlar* sayfasına gidip *Uygulamalar* kısmından CENO'yu seçip *Verileri "
+"temizle* seçeneğini kullanabilirsiniz."
 
 #: browser/install.md:block 17 (quote)
 msgid "As a harsher alternative, you may completely uninstall the app."
 msgstr ""
+"Veya daha sert bir farklı yöntem olarak, uygulamayı tamamen "
+"kaldırabilirsiniz."
 
 #: browser/install.md:block 18 (quote)
 msgid ""
 "**Warning:** Android may still keep other traces of having used an app "
 "besides its data, for instance in its system log."
 msgstr ""
+"**Dikkat:** Android uygulamanın kullanımına dair izleri uygulama verileri "
+"dışında sistem kayıtları gibi konumlarda tutabilir."
 
 #: browser/install.md:block 18 (quote)
 msgid ""
