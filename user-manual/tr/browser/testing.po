@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-16 04:04+0200\n"
-"PO-Revision-Date: 2023-03-27 05:40+0000\n"
-"Last-Translator: Kaya Zeren <kayazeren@gmail.com>\n"
+"PO-Revision-Date: 2023-04-05 15:17+0000\n"
+"Last-Translator: Orhan <orya@pm.me>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/censorship-no/"
 "browser-testing/tr/>\n"
 "Language: tr\n"
@@ -27,12 +27,20 @@ msgid ""
 "different access mechanisms. Keep in mind however that in day-to-day usage "
 "of CENO, you will seldom need to change the default settings at all."
 msgstr ""
+"Artık CENO'yu nasıl [kurup](install.md), [yapılandıracağınızı](settings.md) "
+"bildiğinize göre çeşitli Ouinet özelliklerinin çalışıp çalışmadığını "
+"deneyelim. Deneme süresince farklı erişim yöntemlerini açıp kapatacağız. "
+"CENO'yu normal kullanırken varsayılan ayarları nadiren değiştireceğinizi "
+"unutmayın."
 
 #: browser/testing.md:block 3 (paragraph)
 msgid ""
 "To complete all the tests below you will need at least two devices connected "
 "to the same Wi-Fi network, and a third one on a completely different network."
 msgstr ""
+"Aşağıdaki tüm sınamaları tamamlamak için en az iki aygıtın aynı kablosuz ağa "
+"bağlı, ve üçüncü bir aygıtın tamamen farklı bir ağda olmasına ihtiyacınız "
+"var."
 
 #: browser/testing.md:block 4 (paragraph)
 msgid ""
@@ -42,10 +50,15 @@ msgid ""
 "browser gets stuck for more than a couple of minutes while loading a page, "
 "you may hit stop and reload it (although this may alter results slightly)."
 msgstr ""
+"Tüm sınamalar [herkese açık gezinti](public-private.md) kullanılarak "
+"yapılacaktır. Eğer bir şeyler beklendiği gibi çalışmaz ise lütfen sabırlı "
+"olun ve [sorun giderme](troubleshooting.md) bölümüne bakın. Eğer tarayıcı "
+"bir sayfayı yüklerken bir kaç dakikadan daha uzun beklerse, durdurup yeniden "
+"yükleyebilirsiniz (sonuçları biraz etkileyebilir)."
 
 #: browser/testing.md:block 5 (header)
 msgid "Accessing an injector"
-msgstr ""
+msgstr "Bir içerik ekleyiciye erişmek"
 
 #: browser/testing.md:block 6 (paragraph)
 msgid ""
@@ -56,14 +69,21 @@ msgid ""
 "provider or country, looking up the bridge swarm and trying to contact the "
 "injector via some other Ouinet client."
 msgstr ""
+"Öncelikle CENO Browser'ınızın bir içerik ekleyicisine erişebilirliğini "
+"kontrol etmemiz gerekiyor. Önemsiz gelebilir fakat istemciniz bu işlem "
+"sırasında birçok Ouinet özelliklerini de sınamış olacaktır. Bu işlemler; "
+"içerik ekleyici havuzundan adres kontrolünün yapılması, doğrudan erişilmesi "
+"ve eğer internet sağlayıcınız veya ülkeniz tarafından engelliyse köprü "
+"havuzundan başka bir Ouinet istemcisi ile içerik ekleyiciye ulaşmaya "
+"çalışılması."
 
 #: browser/testing.md:block 7 (paragraph)
 msgid "In the first device perform the following steps:"
-msgstr ""
+msgstr "İlk aygıtta şu adımları uygulayın:"
 
 #: browser/testing.md:block 8 (ordered list)
 msgid "First of all, install CENO and start it. Its home page will appear."
-msgstr ""
+msgstr "Öncelikle CENO'yu kurun ve başlatın. Giriş sayfası gözükecektir."
 
 #: browser/testing.md:block 8 (ordered list)
 msgid ""
@@ -71,6 +91,10 @@ msgid ""
 "Since we only want to test injector access, uncheck all the boxes for "
 "content sources except *Via the CENO network (public)*."
 msgstr ""
+"Uygulamanın ana menüsünü açın ve *CENO Ayarlarını* açmak için *CENO* "
+"seçeneğine dokunun. Yalnızca içerik ekleyici erişim sınaması yapacağımız "
+"için, içerik kaynakları kısmında *CENO ağı ile (herkese açık)* seçeneği "
+"dışındaki tüm seçeneklerin işaretini kaldırın."
 
 #: browser/testing.md:block 8 (ordered list)
 msgid ""
@@ -79,10 +103,12 @@ msgid ""
 "window. If you know about a site which is usually blocked for you, go ahead "
 "and enter it!"
 msgstr ""
+"CENO'nun giriş sayfasına dönün ve herhangi bir siteye erişmeye çalışın. "
+"Aklınızda erişim engelli bir site varsa hemen deneyebilirsiniz!"
 
 #: browser/testing.md:block 8 (ordered list)
 msgid "The chosen site should eventually show up."
-msgstr ""
+msgstr "Seçtiğiniz site bir süre sonra açılacaktır."
 
 #: browser/testing.md:block 9 (paragraph)
 msgid ""
@@ -90,6 +116,9 @@ msgid ""
 "address bar to enter the site's URL with `https://` at the beginning "
 "(instead of `http://`) and repeat the test."
 msgstr ""
+"**Not:** Eğer sahte bir siteyle karşılaşırsanız, adres çubuğunda site "
+"URL'sinin başlangıcını `http*s*://` olarak değiştirin ve sınamayı "
+"tekrarlayın."
 
 #: browser/testing.md:block 10 (paragraph)
 msgid ""
@@ -97,6 +126,9 @@ msgid ""
 "injector! Since you are able to query swarms and contact other clients, you "
 "are also likely to be able to retrieve content from the distributed cache."
 msgstr ""
+"Eğer site yüklenirse aygıtınızın içerik ekleyiciye erişebiliyor demektir! "
+"Havuz sorguları yapıp diğer istemcilerle iletişim kurabildiğiniz için "
+"dağıtılmış ön bellekten içerik yüklemeniz de muhtemeldir."
 
 #: browser/testing.md:block 11 (paragraph)
 msgid ""
@@ -105,11 +137,18 @@ msgid ""
 "retrieved form the different sources. Only *Via CENO network (public)* "
 "should have a non-zero value since the other sources were disabled."
 msgstr ""
+"Adres çubuğundaki CENO simgesine dokunursanız aşağıdaki gibi bir pencere "
+"açılacaktır. Bu pencerede sitenin kaç parçasının farklı kaynaklardan "
+"yüklendiğini görebilirsiniz. Diğer kaynakları önceki adımda kapattığımız "
+"için yalnızca *CENO ağı ile (herkese açık)* haricindeki tüm veriler sıfır "
+"olmalı."
 
 #: browser/testing.md:block 12 (paragraph)
 msgid ""
 "![Figure: Sources used when testing injection](images/sources-inject.png)"
 msgstr ""
+"![Görsel: İçerik ekleyici sınanırken kullanılan kaynaklar](images/sources-"
+"inject.png)"
 
 #: browser/testing.md:block 13 (paragraph)
 msgid ""
@@ -117,14 +156,19 @@ msgid ""
 "have seen a popup like the one below, with non-zero counts in *Direct from "
 "website* or *Via CENO network (private)*."
 msgstr ""
+"Aksine, eğer varsayılan ayarlarla gizli bir sekme kullanmış olsaydınız bu "
+"pencerede aşağıdaki gibi *(Direct from website) Doğrudan siteden* veya *(Via "
+"CENO network (private))CENO ağı ile (gizli)* kısımlarında sayıları "
+"görebilirdiniz."
 
 #: browser/testing.md:block 14 (paragraph)
 msgid "![Figure: Sources used with private browsing](images/sources-proxy.png)"
 msgstr ""
+"![Görsel: Gizli gezinmede kullanılan kaynaklar](images/sources-proxy.png)"
 
 #: browser/testing.md:block 15 (header)
 msgid "Getting content from close users"
-msgstr ""
+msgstr "Yakındaki kullanıcılardan içerik alma"
 
 #: browser/testing.md:block 16 (paragraph)
 msgid ""
@@ -133,6 +177,11 @@ msgid ""
 "cache. The simplest way is to use CENO's device-to-device support to check "
 "whether getting and verifying signed content works."
 msgstr ""
+"İlk aygıtınız bir içerik ekleyiciden içerik yükleyebildiği için şimdi bu "
+"içeriği dağıtılmış ön bellek ile başka bir aygıta paylaşabildiğini "
+"sınayacağız. İmzalanmış içeriğin alımı ve doğrulanmasının çalıştığını "
+"kontrol etmenin en kolay yolu CENO'nun aygıttan aygıta desteğini "
+"kullanmaktır."
 
 #: browser/testing.md:block 17 (paragraph)
 msgid ""
@@ -142,10 +191,14 @@ msgid ""
 "connect it to the same Wi-Fi network. Next, follow the steps below on the "
 "second device:"
 msgstr ""
+"Yukarıdaki sınamayı ilk cihazda tamamladıktan sonra, CENO'yu çalışır halde "
+"bırakın (CENO simgesi bildirim çubuğunda gözükmeli). İkinci aygıtınızı alın ("
+"yardımcı olması için bir arkadaşınıza söyleyebilirsiniz) ve aynı kablosuz "
+"ağa bağlanın. Sonrasında aşağıdaki adımları ikinci aygıtınızda izleyin:"
 
 #: browser/testing.md:block 18 (ordered list)
 msgid "Install CENO if needed and start it as above."
-msgstr ""
+msgstr "Yüklemediyseniz, CENO'yu yükleyin ve yukarıdaki gibi başlatın."
 
 #: browser/testing.md:block 18 (ordered list)
 msgid ""
@@ -153,6 +206,10 @@ msgid ""
 "distributed cache access, uncheck all the boxes for content sources except "
 "*Shared by other CENO users*."
 msgstr ""
+"Uygulamanın ana menüsünü açın ve *CENO Ayarlarını* açmak için *CENO* "
+"seçeneğine dokunun. Yalnızca içerik ekleyici erişim sınaması yapacağımız "
+"için, içerik kaynakları kısmında *CENO ağı ile (herkese açık)* seçeneği "
+"dışındaki tüm seçeneklerin işaretini kaldırın."
 
 #: browser/testing.md:block 18 (ordered list)
 msgid ""
@@ -160,6 +217,8 @@ msgid ""
 "you did above (i.e. by selecting one of the recommended web sites or "
 "entering its URL in the address bar)."
 msgstr ""
+"CENO'nun giriş sayfasına dönün ve herhangi bir siteye erişmeye çalışın. "
+"Aklınızda erişim engelli bir site varsa hemen deneyebilirsiniz!"
 
 #: browser/testing.md:block 19 (paragraph)
 msgid ""
@@ -167,6 +226,9 @@ msgid ""
 "between its devices. This \"client isolation\" may happen in public networks "
 "like those of parks, bars or hotels. Please try again on a different network."
 msgstr ""
+"Eğer çalışmazsa, kablosuz ağınız cihazlar arası doğrudan erişimi engelliyor "
+"olabilir. Bu \"İstemci ayırma\" durumu herkese açık ağlarda (parklar, barlar "
+"veya oteller) olabilir. Lütfen farklı bir ağda tekrar deneyin."
 
 #: browser/testing.md:block 20 (paragraph)
 msgid ""
@@ -191,13 +253,15 @@ msgstr ""
 
 #: browser/testing.md:block 23 (header)
 msgid "Getting content from remote users"
-msgstr ""
+msgstr "Diğer kullanıcılardan içerik alma"
 
 #: browser/testing.md:block 24 (paragraph)
 msgid ""
 "We have done a small-scale test of the distributed cache. Let us now test "
 "how it works over the Internet."
 msgstr ""
+"Dağıtılmış ön belleğe küçük bir sınama yaptık. Şimdi internet üzerinden "
+"nasıl çalıştığını sınayalım."
 
 #: browser/testing.md:block 25 (paragraph)
 msgid ""
@@ -205,6 +269,8 @@ msgid ""
 "first device as with the previous test, and stop CENO on the second device "
 "(by showing its notifications and pushing \"Tap to stop\")."
 msgstr ""
+"Yukarıdaki sınama tamamlandıktan sonra CENO'yu ilk aygıtta gibi açık bırakın "
+"ve ikinci aygıtta CENO'yu bildirimlerden durdurun."
 
 #: browser/testing.md:block 26 (paragraph)
 msgid ""
@@ -212,6 +278,9 @@ msgid ""
 "different Wi-Fi network (maybe another friend can help from home). The steps "
 "to follow for that device are exactly the same as those in the previous test."
 msgstr ""
+"Şimdi ise farklı bir kablosuz ağa bağlanan üçüncü bir aygıta ihtiyacınız var "
+"(başka bir arkadaşınız kendi evinden yardım edebilir). Bu aygıt için takip "
+"edilmesi gereken adımlar bir önceki aygıt ile aynıdır."
 
 #: browser/testing.md:block 27 (paragraph)
 msgid ""
@@ -219,7 +288,10 @@ msgid ""
 "The first device is able to seed content to others, and it can most probably "
 "also act as a bridge."
 msgstr ""
+"Eğer üçüncü aygıt sınama için kullanılan siteyi yükleyebiliyorsa, her şey "
+"hazır demektir. İlk aygıt diğerlerine içerik gönderebiliyor ve muhtemelen "
+"köprü olarak da çalışabilir."
 
 #: browser/testing.md:block 28 (paragraph)
 msgid "Congratulations!"
-msgstr ""
+msgstr "Tebrikler!"
