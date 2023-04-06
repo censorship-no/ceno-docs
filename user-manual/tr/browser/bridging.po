@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2023-04-06 14:08+0000\n"
+"PO-Revision-Date: 2023-04-06 19:48+0000\n"
 "Last-Translator: Orhan <orya@pm.me>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/censorship-no/"
 "browser-bridging/tr/>\n"
@@ -90,20 +90,31 @@ msgid ""
 "interfere with CENO; please check [Don't kill my app!][Don't kill my app!] "
 "for your device's brand."
 msgstr ""
+"**Teknik not:** Bunun asıl sebebi Android'in [uyku kipi olan Doze "
+"mode](https://developer.android.com/training/monitoring-device-state/doze-"
+"standby \"Android Developers – Optimize for Doze and App Standby (İngilizce)"
+"\") tarafından Ouinet kitaplığının çalışmasının yavaşlatılmasıdır. Ne yazık "
+"ki CENO'yu pil iyileştirme ayarlarından çıkartmak Ouinet için geçerli "
+"olmuyor. Bunun yanı sıra aygıtınızın CENO'yu etkileyebilecek olan pil "
+"tasarrufu özellikleri olabilir. Lütfen aygıtınızın markasını [Don't kill my "
+"app!][Don't kill my app!] üzerinden kontrol edin."
 
 #: browser/bridging.md:block 8 (paragraph)
 msgid ""
 "Thus if you intend to have CENO acting as a permanent, always-reachable "
 "bridge, besides a properly configured Wi-Fi network you will need to:"
 msgstr ""
+"Eğer CENO'yu yapılandırılmış bir kablosuz ağ üzerinden kalıcı olarak çalışan "
+"her zaman erişilebilir olan bir köprü olarak kullanmak istiyorsanız, "
+"yapmanız gerekenler:"
 
 #: browser/bridging.md:block 9 (ordered list)
 msgid "Have your device plugged in to power at all times."
-msgstr ""
+msgstr "Aygıtınız sürekli fişe bağlı olmalı."
 
 #: browser/bridging.md:block 9 (ordered list)
 msgid "Have the device's screen on at all times."
-msgstr ""
+msgstr "Aygıtın ekranı sürekli açık olmalı."
 
 #: browser/bridging.md:block 9 (ordered list)
 msgid ""
@@ -114,6 +125,11 @@ msgid ""
 "select *While charging* or *Either*. A very dimmed down clock will appear on "
 "a black background while the device is not active."
 msgstr ""
+"Android'in ekran koruyucusunu kullanarak aşırı güç tüketimi olmadan da "
+"yapılabilir. *Ayarlar > Ekran > Ekran koruyucu (veya Daydream)* kısmından "
+"etkinleştirin. *Saat* seçeneğini seçin. Menüden *Ekran koruyucu çalışma "
+"zamanı* seçip, *Şarj olurken* veya *Her zaman* seçeneğini seçin. Aygıt etkin "
+"kullanılmadığında siyah arkaplanda karartılmış olarak saat gözükecektir."
 
 #: browser/bridging.md:block 9 (ordered list)
 msgid ""
@@ -121,6 +137,8 @@ msgid ""
 "this will turn the screen off. Instead, just wait for the device to lock "
 "itself with the screen on."
 msgstr ""
+"Ekran kapanacağı için güç tuşunu aygıtı kilitlemek için kullanmamalısınız, "
+"aygıt ekran açıkken bir süre sonra kendini kilitleyecektir."
 
 #: browser/bridging.md:block 10 (paragraph)
 msgid ""
@@ -128,10 +146,12 @@ msgid ""
 "computer with good connectivity that stays on most of the time, please "
 "continue reading."
 msgstr ""
+"Bu seçenek uygun değilse, daha pes etmeyin! Sürekli açık olan iyi bir "
+"internet bağlantısına sahip olan bilgisayarınız varsa okumaya devam edin."
 
 #: browser/bridging.md:block 11 (header)
 msgid "Running a bridge on a computer"
-msgstr ""
+msgstr "Bilgisayarda köprü çalıştırma"
 
 #: browser/bridging.md:block 12 (paragraph)
 msgid ""
@@ -141,6 +161,12 @@ msgid ""
 "[docker-install] in your platform. For Debian derivatives like Ubuntu or "
 "Linux Mint, you can just run: `sudo apt install docker.io`"
 msgstr ""
+"Eğer bilgisayarınız [Docker depoları][docker] destekliyorsa, köprü olarak "
+"çalışması için yapılandırılmış CENO istemcisi çalıştırabilirsiniz. Docker "
+"yüklü değilse bilgisayarınıza uygun [Docker yazılımını yüklemek][docker-"
+"install] için talimatlara bakabilirsiniz. Debian tabanlı Ubuntu veya Linux "
+"Mint gibi sistemler için, şu komutu yürütmeniz yeterlidir: `sudo apt install "
+"docker.io`"
 
 #: browser/bridging.md:block 13 (paragraph)
 msgid ""
@@ -148,12 +174,16 @@ msgid ""
 "on a terminal (it looks scary but you can just copy and paste it as is on "
 "the command line):"
 msgstr ""
+"CENO istemcisini depoda çalıştırmak için yalnızca şu komutu terminal "
+"uygulamanızda yürütmeniz yeterlidir (komut istemcisindeki gibi kopyalayıp "
+"yapıştırabilirsiniz):"
 
 #: browser/bridging.md:block 15 (paragraph)
 msgid ""
 "If your computer is not based on GNU/Linux, the command needs to be slightly "
 "different:"
 msgstr ""
+"Eğer bilgisayarınız GNU/Linux tabanlı değilse, komut biraz farklı olmalıdır:"
 
 #: browser/bridging.md:block 17 (paragraph)
 msgid ""
@@ -162,6 +192,9 @@ msgid ""
 "Docker client documentation][ceno-client-doc] for more information on how to "
 "manipulate the container."
 msgstr ""
+"Bu komut, durdurulmadığı sürece her açılışta `ceno-client` adında bir depo "
+"başlatacaktır. Deponun yönetimi hakkında ayrıntılı bilgiler için [CENO "
+"Docker istemcisi belgeleri][ceno-client-doc] bölümüne bakabilirsiniz."
 
 #: browser/bridging.md:block 18 (quote)
 msgid ""
@@ -169,10 +202,12 @@ msgid ""
 "access that page, open instead the [client front-end](../client/front-end."
 "md), which contains mostly equivalent information."
 msgstr ""
+"**Not:** Bu istemcinin *CENO Ayarları* yoktur, fakat hemen hemen aynı "
+"bilgilere sahip [istemci ön yüzünü](../client/front-end.md) açabilirsiniz."
 
 #: browser/bridging.md:block 19 (header)
 msgid "Enabling UPnP on your Wi-Fi router"
-msgstr ""
+msgstr "Kablosuz yönlendiricinizin UPnP ayarını açmak"
 
 #: browser/bridging.md:block 20 (paragraph)
 msgid ""
@@ -180,6 +215,9 @@ msgid ""
 "client) reachable to the CENO network. The [CENO Settings](settings.md) page "
 "will indicate the UPnP status on your local network."
 msgstr ""
+"[UPnP][UPnP], Ceno Browser uygulamanızın CENO ağına erişilebilir olmasını "
+"sağlamanın en kolay yoludur. [CENO Ayarları](settings.md) sayfası yerel "
+"ağınızdaki UPnP durumunu gösterir."
 
 #: browser/bridging.md:block 21 (quote)
 msgid ""
@@ -187,32 +225,41 @@ msgid ""
 "network to external interference. Please make yourself [aware of the risks]"
 "[upnp-risks] and also consider using alternative methods as explained below."
 msgstr ""
+"**Not:** Kablosuz ağınızdaki UPnP ayarını açmak aygıtlarınızı dış etkenlere "
+"açık hale getirebilir. [Tehlikelerin][upnp-risks] farkında olun ve aşağıda "
+"belirtilen farklı yöntemlere göz atın."
 
 #: browser/bridging.md:block 22 (paragraph)
 msgid ""
 "A status like the one below indicates that UPnP is not available or not "
 "working on your WiFi router:"
 msgstr ""
+"Aşağıdaki durum UPnP özelliğinin çalışmadığını veya kablosuz "
+"yönlendiricinizde mevcut olmadığını gösterir:"
 
 #: browser/bridging.md:block 23 (quote)
 msgid "**Reachability status**"
-msgstr ""
+msgstr "**Erişilebilirlik durumu**"
 
 #: browser/bridging.md:block 23 (quote)
 msgid "**UPnP status**"
-msgstr ""
+msgstr "**UPnP durumu**"
 
 #: browser/bridging.md:block 24 (paragraph)
 msgid ""
 "The status below indicates that UPnP is likely working and CENO is currently "
 "verifying connectivity:"
 msgstr ""
+"Aşağıdaki durum UPnP özelliğinin muhtemelen çalıştığı ve CENO'nun bağlantıyı "
+"kontrol ettiğini gösterir:"
 
 #: browser/bridging.md:block 26 (paragraph)
 msgid ""
 "The status below indicates that UPnP is working and you can bridge "
 "connections for other CENO users:"
 msgstr ""
+"Aşağıdaki durum UPnP özelliğinin çalıştığı ve diğer CENO kullanıcılarına "
+"bağlantıları köprüleyebileceğinizi gösterir:"
 
 #: browser/bridging.md:block 28 (quote)
 msgid ""
@@ -225,6 +272,15 @@ msgid ""
 "get a public address on your router or to establish port forwardings to the "
 "external endpoint."
 msgstr ""
+"**Not:** UPnP çalışıyor olsa bile yönlendiriciniz ağ dışından "
+"erişilemeyebilir. *CENO ayarlarındaki* *Dış UDP uç noktaları* değerleri `100."
+"A.B.C:D` şeklindeki bir IP adresinde A değeri 64 ve 127 arasında olan bir "
+"[CGNAT][CGNAT] adresiyse (kişisel kullanım sağlayan internet "
+"sağlayıcılarında sık görülür), özel `10.A.B.C:D`, `172.A.B.C:D`,`192.168.B."
+"C:D` ve A değeri 16 ve 31 arasında olan bir adres ise bu durum gözlenebilir. "
+"Bu durumda internet sağlayıcınıza veya ağ yöneticinize ulaşarak, "
+"yönlendiriciniz için herkese açık adres alın veya dış uç noktalara bağlantı "
+"noktası yönlendirmesi yapın."
 
 #: browser/bridging.md:block 29 (paragraph)
 msgid ""
@@ -232,46 +288,62 @@ msgid ""
 "features. Herein a list of some manufacturers' instructions for enabling "
 "UPnP:"
 msgstr ""
+"Piyasada bir çok kablosuz yönlendirici var ve hepsinin kendine has çeşitli "
+"özellikleri var. Bazı markaların UPnP açmak için yönergelerinin olduğu "
+"listeye bakabilirsiniz:"
 
 #: browser/bridging.md:block 30 (unordered list)
 msgid "[Linksys](https://www.linksys.com/us/support-article?articleNum=138290)"
 msgstr ""
+"[Linksys (İngilizce)](https://www.linksys.com/tr/support-"
+"article?articleNum=138290)"
 
 #: browser/bridging.md:block 30 (unordered list)
 msgid ""
 "[D-Link](https://eu.dlink.com/uk/en/support/faq/routers/wired-routers/di-"
 "series/how-do-i-enable-upnp-on-my-router)"
 msgstr ""
+"[D-Link (İngilizce)](https://eu.dlink.com/uk/en/support/faq/routers/"
+"wired-routers/di-series/how-do-i-enable-upnp-on-my-router)"
 
 #: browser/bridging.md:block 30 (unordered list)
 msgid "[Huawei](https://consumer.huawei.com/ph/support/content/en-us00275342/)"
 msgstr ""
+"[Huawei (İngilizce)](https://consumer.huawei.com/ph/support/content/"
+"en-us00275342/)"
 
 #: browser/bridging.md:block 30 (unordered list)
 msgid ""
 "[Xfinity](https://www.xfinity.com/support/articles/configure-device-"
 "discovery-for-wifi)"
 msgstr ""
+"[Xfinity (İngilizce)](https://www.xfinity.com/support/articles/configure-"
+"device-discovery-for-wifi)"
 
 #: browser/bridging.md:block 30 (unordered list)
 msgid "[TP-Link](https://community.tp-link.com/us/home/kb/detail/348)"
 msgstr ""
+"[TP-Link (İngilizce)](https://community.tp-link.com/us/home/kb/detail/348)"
 
 #: browser/bridging.md:block 30 (unordered list)
 msgid ""
 "[Netgear](https://kb.netgear.com/24306/How-do-I-enable-Universal-Plug-and-"
 "Play-on-my-Nighthawk-router)"
 msgstr ""
+"[Netgear (İngilizce)](https://kb.netgear.com/24306/How-do-I-enable-Universal-"
+"Plug-and-Play-on-my-Nighthawk-router)"
 
 #: browser/bridging.md:block 30 (unordered list)
 msgid ""
 "[Ubiquiti](https://www.geekzone.co.nz/forums.asp?"
 "forumid=66&topicid=205740&page_no=5#1725168)"
 msgstr ""
+"[Ubiquiti (İngilizce)](https://www.geekzone.co.nz/forums."
+"asp?forumid=66&topicid=205740&page_no=5#1725168)"
 
 #: browser/bridging.md:block 31 (header)
 msgid "Using port forwarding as an alternative to UPnP"
-msgstr ""
+msgstr "UPnP kullanmak yerine bağlantı noktası yönlendirme"
 
 #: browser/bridging.md:block 32 (paragraph)
 msgid ""
@@ -282,10 +354,16 @@ msgid ""
 "forward the connections to and the relevant port, open the *CENO Settings* "
 "page and look under the *Local UDP endpoints*."
 msgstr ""
+"Yönlendiricinizin UPnP seçeneğini açmak yerine CENO ağındaki bağlantıların "
+"aygıtınıza yönlendirmesi için bir bağlantı noktası yönlendirme kuralı "
+"oluşturabilirsiniz. Yönlendiricinin yönetim arayüzüne giriş yapmanız ve *"
+"bağlantı noktası (port) yönlendirme* seçeneğini bulmalısınız. Hangi IP "
+"adresi ve bağlantı noktasına yönlendirme yapmanız gerektiğini öğrenmek için, "
+"*CENO Ayarları* sayfasını açın ve *Yerel UDP uç noktaları* kısmına bakın."
 
 #: browser/bridging.md:block 33 (quote)
 msgid "**Local UDP endpoints**"
-msgstr ""
+msgstr "**Yerel UDP uç noktaları**"
 
 #: browser/bridging.md:block 34 (paragraph)
 msgid ""
@@ -295,6 +373,12 @@ msgid ""
 "periodically review the *CENO Settings* page to see that your device is "
 "reachable to the CENO network."
 msgstr ""
+"Bağlantı noktası yönlendirme UDP (TCP değil) iletişim kuralına özgü "
+"olmalıdır. CENO ilk açılışında rastgele bir bağlantı noktası seçer ve "
+"sonraki açılışlarında aynı noktayı kullanır, ama aygıtınızın yerel ağdaki IP "
+"adresi zaman zaman değişiklik gösterebilir. Aygıtınızın CENO ağına "
+"erişilebilir olduğundan emin olmak için ara sıra *CENO Ayarlarına* "
+"bakmalısınız."
 
 #: browser/bridging.md:block 35 (quote)
 msgid ""
@@ -302,41 +386,48 @@ msgid ""
 "assigns the same IP address to your device (e.g. via a static DHCP lease for "
 "the device's MAC address)."
 msgstr ""
+"**Teknik not:** Ayrıca aygıtınızın yerel IP adresini sabitlemek için "
+"modeminizin DHCP ayarlarından aygıtınızın MAC adresine atama yapabilirsiniz."
 
 #: browser/bridging.md:block 35 (quote)
 msgid ""
 "[Doze mode]: https://developer.android.com/training/monitoring-device-state/"
 "doze-standby"
 msgstr ""
+"[Doze mode]: https://developer.android.com/training/monitoring-device-state/"
+"doze-standby"
 
 #: browser/bridging.md:block 35 (quote)
 msgid "[Don't kill my app!]: https://dontkillmyapp.com/"
-msgstr ""
+msgstr "[Don't kill my app!]: https://dontkillmyapp.com/"
 
 #: browser/bridging.md:block 35 (quote)
 msgid "[docker]: https://en.wikipedia.org/wiki/Docker_(software)"
-msgstr ""
+msgstr "[docker]: https://tr.wikipedia.org/wiki/Docker"
 
 #: browser/bridging.md:block 35 (quote)
 msgid "[docker-install]: https://docs.docker.com/engine/install/"
-msgstr ""
+msgstr "[docker-install]: https://docs.docker.com/engine/install/"
 
 #: browser/bridging.md:block 35 (quote)
 msgid ""
 "[ceno-client-doc]: https://github.com/censorship-no/ceno-docker-"
 "client#running-the-client"
 msgstr ""
+"[ceno-client-doc]: https://github.com/censorship-no/ceno-docker-client"
+"#running-the-client"
 
 #: browser/bridging.md:block 35 (quote)
 msgid "[UPnP]: https://en.wikipedia.org/wiki/Universal_Plug_and_Play"
-msgstr ""
+msgstr "[UPnP]: https://tr.wikipedia.org/wiki/UPnP"
 
 #: browser/bridging.md:block 35 (quote)
 msgid ""
 "[upnp-risks]: https://www.howtogeek.com/122487/htg-explains-is-upnp-a-"
 "security-risk"
-msgstr ""
+msgstr "[upnp-risks]: https://nordvpn.com/tr/blog/upnp-servisi/"
 
 #: browser/bridging.md:block 35 (quote)
 msgid "[CGNAT]: https://en.wikipedia.org/wiki/Carrier-grade_NAT"
 msgstr ""
+"[CGNAT]: https://www.technopat.net/2021/06/13/cgnat-carrier-grade-nat-nedir/"
