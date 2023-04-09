@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-10 11:02+0200\n"
-"PO-Revision-Date: 2023-03-27 05:40+0000\n"
-"Last-Translator: Kaya Zeren <kayazeren@gmail.com>\n"
+"PO-Revision-Date: 2023-04-10 10:49+0000\n"
+"Last-Translator: Orhan <orya@pm.me>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/censorship-no/"
 "browser-troubleshooting/tr/>\n"
 "Language: tr\n"
@@ -28,24 +28,32 @@ msgid ""
 "network infrastructure, as well as which content other users have retrieved "
 "and the characteristics of their connections."
 msgstr ""
+"Bu bölümde CENO ve Ouinet ile ilgili çeşitli bilinen sıkıntılar çıktığında "
+"neler yapılacağı hakkında ipuçları mevcuttur. Bu projelerin deneysel "
+"olduğunu ve çalışmasında kontrolümüz dışında etkenler olduğunu unutmayın. "
+"Bunlar arasında ağ altyapısının durumu ve yapılandırması, diğer "
+"kullanıcıların yüklediği içerikler ve bağlantı türleri gibi bir çok etken "
+"olduğunu unutmayın."
 
 #: browser/troubleshooting.md:block 3 (paragraph)
 msgid ""
 "If problems still persist, please report them to [cenoers@equalit.ie](mailto:"
 "cenoers@equalit.ie). We will try to help you with them."
 msgstr ""
+"Eğer sıkıntı devam ederse lütfen [cenoers@equalit.ie](mailto:cenoers@equalit."
+"ie) adresine bildirin. Yardımcı olmaya çalışacağız."
 
 #: browser/troubleshooting.md:block 4 (header)
 msgid "There is no CENO entry in the app menu"
-msgstr ""
+msgstr "Uygulama menüsünde CENO seçeneği yok"
 
 #: browser/troubleshooting.md:block 5 (paragraph)
 msgid "The CENO Extension may still be loading. Please be patient."
-msgstr ""
+msgstr "CENO uzantısı halen yükleniyor olabilir. Lütfen bekleyin."
 
 #: browser/troubleshooting.md:block 6 (header)
 msgid "All widgets are grayed-out in the *CENO Settings* page"
-msgstr ""
+msgstr "*CENO ayarları* sayfasındaki tüm seçenekler grileşti, kullanılamıyor"
 
 #: browser/troubleshooting.md:block 7 (paragraph)
 msgid ""
@@ -53,12 +61,16 @@ msgid ""
 "status from Ouinet. Since it may take a moment for Ouinet to be ready, "
 "please be patient."
 msgstr ""
+"CENO uzantısı yüklendi fakat Ouinet üzerinden durum bilgilerini halen "
+"alamadı. Ouinet'in başlaması biraz zaman alabilir, lütfen bekleyin."
 
 #: browser/troubleshooting.md:block 8 (paragraph)
 msgid ""
 "If the Settings page stays like that after more than two minutes, Ouinet may "
 "have encountered some issue while starting."
 msgstr ""
+"Eğer Ayarlar sayfası iki dakikadan uzun süre bu şekilde durusa, Ouinet "
+"başlarken bir sorun çıkmış olabilir."
 
 #: browser/troubleshooting.md:block 9 (paragraph)
 msgid ""
@@ -68,6 +80,11 @@ msgid ""
 "connectivity (like being unable to join the BitTorrent network). If you are "
 "on a mobile connection, try again with Wi-Fi."
 msgstr ""
+"Mümkünse genellikle ulaşabildiğiniz bir sayfayı ziyaret etmeye açlışın. "
+"Karşılaştığınız hata \"Kaynak alınamadı (tüm yapılandırılmış yöntemler "
+"denendi)\" ise CENO bağlantı sorunları (BitTorrent ağına katılamama gibi) "
+"yaşıyor olabilir. Eğer mobil veri kullanıyorsanız kablosuz ağ ile yeniden "
+"deneyin."
 
 #: browser/troubleshooting.md:block 10 (paragraph)
 msgid ""
@@ -75,21 +92,28 @@ msgid ""
 "visiting the page, try to stop other applications which may be offering some "
 "service to the device, then restart CENO."
 msgstr ""
+"Bir sayfayı ziyaret ettiğinizde \"Vekil sunucu bağlantıları reddediyor\" "
+"hatası alıyorsanız, aygıtınızda çalışan diğer uygulamaları kapatıp CENO'yu "
+"yeniden başlatmayı deneyin."
 
 #: browser/troubleshooting.md:block 11 (quote)
 msgid ""
 "**Technical note:** This may happen if another application is already "
 "listening on TCP ports `127.0.0.1:8077` or `127.0.0.1:8078`."
 msgstr ""
+"**Teknik not:** Başka bir uygulama `127.0.0.1:8077` veya `127.0.0.1:8078` "
+"TCP bağlantı noktalarında çalışıyorsa bu durum olabilir."
 
 #: browser/troubleshooting.md:block 12 (header)
 msgid "The *Ouinet client state* under *CENO Settings* is not `started`"
 msgstr ""
+"*CENO ayarları* altındaki *Ouinet istemci durumu* `başlatıldı` olarak "
+"gözükmüyor"
 
 #: browser/troubleshooting.md:block 13 (paragraph)
 msgid ""
 "The Ouinet client run by CENO is finding problems starting on your device."
-msgstr ""
+msgstr "Ouinet istemcisi başlatılırken sorun yaşıyor."
 
 #: browser/troubleshooting.md:block 14 (paragraph)
 msgid ""
@@ -101,6 +125,12 @@ msgid ""
 "`starting`, please contact us (especially if the state was `started` in some "
 "previous run)."
 msgstr ""
+"CENO'yu başlattığınızda bir kaç saniyeliğine durum `başlatılıyor` olarak "
+"görünebilir. `başlatılıyor` olarak uzun süre kalırsa, uygulamanın BitTorrent "
+"ağına erişimini engelleyen bağlantı sorunları olabilir. İnternetiniz "
+"çalışıyorsa ve durum halen `başlatılıyor` olarak kalıyorsa, lütfen bize "
+"ulaşın (özellikle bir önceki açışınızda durum `başlatıldı` olarak "
+"gözüktüyse)."
 
 #: browser/troubleshooting.md:block 15 (paragraph)
 msgid ""
@@ -112,28 +142,39 @@ msgid ""
 "server. After setting the extra bootstraps, please restart the application. "
 "If the problem persists, contact us."
 msgstr ""
+"BitTorrent ağına giremiyorsanız (özellikle CENO'yu ilk kez çalıştırdığınızda)"
+", Ouinet istemcisinin kullandığı varsayılan ön yükleme sunucuları "
+"engellenmiş veya erişilemez olabilir. Ayarlar sayfasından CENO'ya ek "
+"BitTorrent ön yükleme sunucuları eklemeniz gerekebilir. Böyle bir sunucu "
+"bilmiyorsanız bize sorabilirsiniz. Ek ön yükleyiciler ayarlandıktan sonra, "
+"uygulamayı yeniden başlatın. Sorun hala devam ederse, bizimle iletişime "
+"geçin."
 
 #: browser/troubleshooting.md:block 16 (paragraph)
 msgid ""
 "If you ever see some other state, there may be some internal error in the "
 "Ouinet client. Please report the issue to us."
 msgstr ""
+"Eğer farklı bir durum görürseniz, Ouinet istemcinizin kendisinde bir sorun "
+"olabilir. Lütfen sorunu bize bildirin."
 
 #: browser/troubleshooting.md:block 17 (header)
 msgid "Accessing some content shows \"Failed to retrieve the resource\""
-msgstr ""
+msgstr "Bazı içeriklere erişirken \"Kaynak alınamadı\" yazıyor"
 
 #: browser/troubleshooting.md:block 18 (paragraph)
 msgid ""
 "This means that CENO tried all available mechanisms to access the content, "
 "but none of them succeeded."
 msgstr ""
+"Bu durumda, CENO içeriğe erişmek için tüm yöntemleri denemiş fakat hepsi "
+"başarısız olmuştur."
 
 #: browser/troubleshooting.md:block 19 (paragraph)
 msgid ""
 "You should make sure that the following requirements are fulfilled for CENO "
 "to work:"
-msgstr ""
+msgstr "CENO'nun çalışması için şu gereksinimlerin sağlandığından emin olun:"
 
 #: browser/troubleshooting.md:block 20 (unordered list)
 msgid ""
@@ -141,6 +182,10 @@ msgid ""
 "be able to communicate with newer injectors or other clients. Check the "
 "[installation instructions](install.md) to know where to get new versions."
 msgstr ""
+"CENO Browser'ın güncel bir sürümünü kullandığınızdan emin olun. Eski "
+"sürümler diğer istemcilerle veya yeni içerik ekleyicilerle iletişim "
+"kuramayabilir. Yeni sürümleri nasıl edinebileceğinizi [kurulum "
+"yönergeleri](install.md) bölümünden öğrenebilirsiniz."
 
 #: browser/troubleshooting.md:block 20 (unordered list)
 msgid ""
@@ -148,6 +193,9 @@ msgid ""
 "Otherwise CENO will not be able to circumvent some connectivity issues when "
 "accessing content."
 msgstr ""
+"[Ayarlar sayfasındaki](settings.md) tüm erişim yöntemlerinin açık olduğundan "
+"emin olun. Aksi takdirde CENO içeriğe erişirken bazı bağlantı sorunlarını "
+"aşamayacaktır."
 
 #: browser/troubleshooting.md:block 20 (unordered list)
 msgid ""
@@ -156,6 +204,10 @@ msgid ""
 "network connectivity is shut down (although users may still find a common Wi-"
 "Fi access point to do device-to-device sharing)."
 msgstr ""
+"İnternet bağlantınızın çalıştığından emin olun, yani normalde kullandığınız "
+"tarayıcı, sayfaları yükleyebiliyor olmalı. CENO ve Ouinet tüm ağ "
+"bağlantıları kapatıldığında çalışamaz (kullanıcılar yine de aygıttan aygıta "
+"paylaşım için ortak bir ağ bulabilirler)."
 
 #: browser/troubleshooting.md:block 21 (paragraph)
 msgid ""
