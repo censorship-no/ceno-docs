@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-16 04:02+0200\n"
-"PO-Revision-Date: 2022-02-16 23:54+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
+"PO-Revision-Date: 2023-04-10 10:49+0000\n"
+"Last-Translator: Soledad Magnone <soledad.magnone@proton.me>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/censorship-no/"
 "public-private/es/>\n"
 "Language: es\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.11-dev\n"
+"X-Generator: Weblate 4.17-dev\n"
 
 #
 #: concepts/public-private.md:block 1 (header)
@@ -32,10 +32,10 @@ msgstr ""
 "Debido a las muchas técnicas usadas para superar a las dificultades de "
 "conectividad, CENO podría tornarse para tí en una manera conveniente de "
 "obtener todas clases de contenido Web. Y, como podrías ya haber leído en "
-"secciones previas, cada vez que descargues y siembres una página usando al "
-"Navegador CENO, se hace disponible para otros. Podría haber algún contenido, "
-"sin embargo, que no deseas compartir (o no quieres dejar que otros sepan que "
-"estás intentando descargar o que ya descargaste), y, afortunadamente, CENO "
+"secciones previas, cada vez que descargues y siembres una página usando CENO "
+"Browser, se hace disponible para otra(o)s. Podría haber algún contenido, sin "
+"embargo, que no deseas compartir (o no quieres dejar que otros sepan que "
+"estás intentando descargar o que ya descargaste), y afortunadamente CENO "
 "también puede ayudarte en esta instancia."
 
 #: concepts/public-private.md:block 3 (paragraph)
@@ -48,7 +48,7 @@ msgstr ""
 
 #: concepts/public-private.md:block 4 (ordered list)
 msgid "Direct access is attempted."
-msgstr "Es intentado el acceso directo."
+msgstr "Se intenta el acceso directo."
 
 #: concepts/public-private.md:block 4 (ordered list)
 msgid "Failing that, the distributed cache is searched."
@@ -77,8 +77,8 @@ msgid ""
 "your client updates the distributed cache with your page."
 msgstr ""
 "Si eso falla, un inyector es contactado (quizás a través de otro cliente) y "
-"usado *como servidor proxy normal*. Ten en cuenta que en este caso ni el "
-"inyector ni tu cliente actualizan a la caché distribuída con tu página."
+"usado *como servidor proxy normal*. Nota que en este caso, ni el inyector ni "
+"tu cliente actualizan a la caché distribuída con tu página."
 
 #: concepts/public-private.md:block 7 (paragraph)
 msgid ""
@@ -93,7 +93,7 @@ msgid ""
 "You have better chances to get Web content, and help others get that content "
 "(from you)."
 msgstr ""
-"Tienes mejores oportunidades de obtener contenido Web, y ayudar a otros a "
+"Tienes mejores oportunidades de obtener contenido Web, y ayudar a otra(o)s a "
 "obtenerlo (de tí)."
 
 #: concepts/public-private.md:block 8 (ordered list)
@@ -101,7 +101,7 @@ msgid ""
 "Pages with dynamic content (e.g. updated in real time) may break in obvious "
 "or subtle ways."
 msgstr ""
-"Las páginas con contenido dinámico (ej.: actualizadas en tiempo real) pueden "
+"Páginas con contenido dinámico (ej.: actualizadas en tiempo real) pueden "
 "quebrarse de maneras obvias o sutiles."
 
 #: concepts/public-private.md:block 8 (ordered list)
@@ -109,14 +109,14 @@ msgid ""
 "Pages requiring authentication do not work (as passwords and cookies are "
 "removed by the client)."
 msgstr ""
-"Las páginas que requieran autenticación no funcionan (ya que contraseñas y "
+"Páginas que requieran autenticación no funcionan (ya que contraseñas y "
 "cookies son removidas por el cliente)."
 
 #: concepts/public-private.md:block 8 (ordered list)
 msgid ""
 "Some browsing activity may be leaked to other users (see [risks](risks.md))."
 msgstr ""
-"Alguna actividad de navegación podría ser filtrada a otros usuarios (ver "
+"Alguna actividad de navegación podría ser filtrada a otros usuaria(o)s (ver "
 "[riesgos](risks.md))."
 
 #: concepts/public-private.md:block 8 (ordered list)
@@ -142,24 +142,24 @@ msgid ""
 "get that content from you."
 msgstr ""
 "Podrías no ser capaz de acceder a contenido Web bloqueado si la conectividad "
-"internacional es demasiado escasa; aún si pudieras, otros usuarios de CENO "
-"no obtendrían ese contenido de tí."
+"internacional es demasiado escasa; aún si pudieras, otra(o)s usuaria(o)s de "
+"CENO no obtendrían ese contenido de tí."
 
 #: concepts/public-private.md:block 10 (ordered list)
 msgid "Pages with dynamic content will probably work."
-msgstr "Las páginas con contenido dinámico probablemente funcionarán."
+msgstr "Páginas con contenido dinámico probablemente funcionarán."
 
 #: concepts/public-private.md:block 10 (ordered list)
 msgid ""
 "Pages requiring authentication may work (when your connection is protected "
 "by HTTPS, the injector does not see your passwords)."
 msgstr ""
-"Las páginas que requieran autenticación podrían funcionar (cuando tu "
-"conexión está protegida por HTTPS, el inyector no vé tus contraseñas)."
+"Páginas requiriendo autenticación podrían funcionar (cuando tu conexión está "
+"protegida por HTTPS, el inyector no ve tus contraseñas)."
 
 #: concepts/public-private.md:block 10 (ordered list)
 msgid "Browsing activity is not leaked to other users."
-msgstr "La actividad de navegación no es filtrada a otros usuarios."
+msgstr "Actividad de navegación no es filtrada a otra(o)s usuaria(o)s."
 
 #: concepts/public-private.md:block 10 (ordered list)
 msgid ""
@@ -185,7 +185,7 @@ msgid ""
 "to login to Twitter or edit your WordPress website, use *private browsing* "
 "mode."
 msgstr ""
-"En conclusión: si estás usando CENO para leer las noticias, ver vídeos, "
+"En conclusión: si estás usando CENO para leer las noticias, ver videos, "
 "navegar Wikipedia y otros recursos estáticos que están censurados de otra "
 "manera en tu red, considera usar el modo predeterminado de *navegación "
 "pública*. Y si quieres iniciar sesión en Twitter o editar tu sitio web de "
