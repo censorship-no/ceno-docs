@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2023-04-08 19:56+0000\n"
+"PO-Revision-Date: 2023-04-11 16:56+0000\n"
 "Last-Translator: Kaya Zeren <kayazeren@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/censorship-no/"
 "browser-settings/tr/>\n"
@@ -58,7 +58,7 @@ msgstr ""
 
 #: browser/settings.md:block 5 (paragraph)
 msgid "![Figure: The CENO Settings page](images/settings.png)"
-msgstr "![Görsel:CENO ayarları sayfası](images/settings.png)"
+msgstr "![Görsel:CENO ayarları bölümü](images/settings.png)"
 
 #: browser/settings.md:block 6 (header)
 msgid "Choosing access mechanisms"
