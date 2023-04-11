@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-10 11:02+0200\n"
 "PO-Revision-Date: 2023-04-11 16:56+0000\n"
-"Last-Translator: Kaya Zeren <kayazeren@gmail.com>\n"
+"Last-Translator: Orhan <orya@pm.me>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/censorship-no/"
 "browser-troubleshooting/tr/>\n"
 "Language: tr\n"
@@ -216,10 +216,13 @@ msgid ""
 "access mechanisms to fail, to give you an idea of your chances for getting "
 "content using CENO."
 msgstr ""
+"Eğer bu durumlara rağmen tüm erişim yöntemleri başarısız oluyorsa, bu duruma "
+"sebep olabilecek şeyleri açıklamak CENO kullanarak içerik alma ihtimaliniz "
+"hakkında bir fikriniz olmasını sağlayabilir."
 
 #: browser/troubleshooting.md:block 22 (header)
 msgid "Origin access"
-msgstr ""
+msgstr "Kaynaktan erişim"
 
 #: browser/troubleshooting.md:block 23 (paragraph)
 msgid ""
@@ -227,16 +230,20 @@ msgid ""
 "the server is having some difficulties itself (e.g. it is down or under some "
 "attack), or someone is interfering with your connection to it."
 msgstr ""
+"CENO Browser uygulamanız içeriğin kaynak sunucusuna doğrudan erişemiyor. "
+"Sunucuda teknik sorunlar (örneğin: bakımda veya saldırı altında) veya birisi "
+"bağlantınıza müdahale ediyor olabilir."
 
 #: browser/troubleshooting.md:block 24 (paragraph)
 msgid ""
 "This is the main use case for CENO and the other mechanisms should "
 "compensate for it."
 msgstr ""
+"CENO'nun asıl kullanımı budur, ve diğer yöntemler ile telafi edilebilir."
 
 #: browser/troubleshooting.md:block 25 (header)
 msgid "Proxy/Injector access"
-msgstr ""
+msgstr "Vekil sunucu veya içerik ekleyici erişimi"
 
 #: browser/troubleshooting.md:block 26 (paragraph)
 msgid ""
@@ -245,11 +252,14 @@ msgid ""
 "Ouinet) gain traction, CENO resorts to reaching injectors via other clients "
 "acting as bridges."
 msgstr ""
+"Birisi içerik ekleyici havuzundaki adreslere olan bağlantınıza müdahale "
+"ediyor olabilir. CENO fazla ilgi gördükçe olması muhtemeldir, CENO içerik "
+"ekleyicilere erişmek için köprü olarak çalışan diğer istemcilere başvurur."
 
 #: browser/troubleshooting.md:block 27 (paragraph)
 msgid ""
 "There are different reasons for CENO being unable to reach such clients:"
-msgstr ""
+msgstr "CENO'nun bu istemcilere erişememesinin bazı sebepleri şunlardır:"
 
 #: browser/troubleshooting.md:block 28 (unordered list)
 msgid ""
@@ -258,6 +268,10 @@ msgid ""
 "be reached from the outside. This should become less likely as CENO and "
 "Ouinet get popular and more clients with diverse connectivity come online."
 msgstr ""
+"Erişebileceğiniz başka bir istemci olmaması. Eğer sadece birkaç Ouinet "
+"istemcisi çevrim içiyse hiçbirinin dışarıdan erişilebilen bir ağda olmaması "
+"mümkündür. CENO ve Ouinet ünlendikçe ve kapsamlı bağlantılara sahip diğer "
+"istemciler çevrim içi oldukça bu durumun olasılığı azalacaktır."
 
 #: browser/troubleshooting.md:block 28 (unordered list)
 msgid ""
@@ -266,6 +280,11 @@ msgid ""
 "may entail blocking all BitTorrent traffic) and currently beyond what Ouinet "
 "supports, but we plan to make it more resistant against these attacks."
 msgstr ""
+"Buradaki sıradışı durum Ouinet istemcilerinin arasındaki bağlantıların "
+"sansür tarafından fark edilip engellenmiş olması. Bu durumun olasılığı azdır "
+"(çünkü tüm BitTorrent trafiğinin engellenmesini gerektirebilir) ve Ouinet'in "
+"kapsamı dışındadır, fakat bu tarz saldırılara daha dayanıklı yapmayı "
+"planlıyoruz."
 
 #: browser/troubleshooting.md:block 28 (unordered list)
 msgid ""
@@ -274,6 +293,10 @@ msgid ""
 "Ouinet clients which are themselves affected by similar network interference "
 "as yours."
 msgstr ""
+"Herhangi bir içerik ekleyiciye erişebilen istemci olmaması. Tüm içerik "
+"ekleyicilerinin aynı anda kapalı olmasının olasılığı düşük olduğu için "
+"yalnızca bağlantınızdaki gibi bir ağ müdahalesine tabi olan istemcilere "
+"ulaşabiliyor olabilirsiniz."
 
 #: browser/troubleshooting.md:block 28 (unordered list)
 msgid ""
@@ -281,6 +304,9 @@ msgid ""
 "is interrupted. CENO would resort in this case to getting and using the "
 "content from the distributed cache, even if it is stale."
 msgstr ""
+"Bulunduğunuz ülkedeki tüm ağ trafiğine müdahele edildiğinde bu durum "
+"olabilir. CENO, eski olsa bile dağıtılmış ön bellekten içerik yüklemeye "
+"çalışacaktır."
 
 #: browser/troubleshooting.md:block 28 (unordered list)
 msgid ""
@@ -291,6 +317,11 @@ msgid ""
 "spread (over the distributed cache) without further need to access the "
 "outside world."
 msgstr ""
+"CENO ve Ouinet ünlendikçe, uluslararası sitelere bir tür erişimi olan en az "
+"birkaç istemci olma ihtimali artar. Erişim güvenli olmasa bile, ülkeye bir "
+"miktar içerik ekleyebilen tek bir Ouınet istemcisi, ülke dışına erişmeye "
+"gerek kalmadan (dağıtılmış önbellek üzerinden) yayılmasını sağlamak için "
+"yeterli olabilir."
 
 #: browser/troubleshooting.md:block 29 (paragraph)
 msgid ""
@@ -299,10 +330,14 @@ msgid ""
 "note that clients with such stable Internet addresses could get blocked as "
 "well."
 msgstr ""
+"Bu iki durumdan kaçınmaya çalışmak için (muhtemelen) sansürsüz ülkelerde iyi "
+"bağlantıya sahip bazı Ouinet istemcilerini çalıştırıyoruz, ancak bu tür "
+"sabit internet adreslerine sahip istemcilerin de engellenebileceğini lütfen "
+"unutmayın."
 
 #: browser/troubleshooting.md:block 30 (header)
 msgid "Distributed cache"
-msgstr ""
+msgstr "Dağıtılmış ön bellek"
 
 #: browser/troubleshooting.md:block 31 (paragraph)
 msgid ""
@@ -314,6 +349,13 @@ msgid ""
 "other Ouinet client to inject and keep seeding it (which may further expose "
 "them to some [risks](../concepts/risks.md))."
 msgstr ""
+"Dağıtılmış ön bellekten herhangi bir içeriği alabilmek için, başka bir CENO "
+"veya Ouinet kullanıcısı tarafından zaten eklenmiş olması gerektiğini "
+"unutmayın. Yaygın içeriğin doğal bir şekilde eklenme ve çoğaltılma "
+"olasılığını daha yüksek iken, az bilinen içerik birisi tarafından CENO veya "
+"başka bir Ouinet istemcisi ile ekleyip paylaşmak için ilgilenilmediği sürece "
+"(bu da onları bazı [tehlikelerle](../concepts/risks.md) karşı karşıya "
+"bırakabilir) daha azdır."
 
 #: browser/troubleshooting.md:block 32 (paragraph)
 msgid ""
@@ -323,6 +365,10 @@ msgid ""
 "content that requires authentication, and some traffic exchanged by certain "
 "dynamic Web applications."
 msgstr ""
+"Paylaşımı güvenli olmayan içeriğin ne kadar kişi herkese açık gezinme ile "
+"alsa bile asla eklenmeyeceğini unutmayın. Kaynak sunucu tarafından kişisel "
+"veya gizli olduğu belirlenen, kimlik doğrulama gerektiren veya çeşitli "
+"değişken internet uygulama trafiklerinin içeriği gibi."
 
 #: browser/troubleshooting.md:block 33 (paragraph)
 msgid ""
@@ -330,10 +376,13 @@ msgid ""
 "reachable by you. The same observations described in the previous point for "
 "reaching bridge clients do apply here."
 msgstr ""
+"Ayrıca eklenen içeriğin kopyalarını tutan istemcilerine erişebilmeniz "
+"gerektiğini unutmayın. Önceki konuda köprü istemcilerine erişmek için "
+"gerekli olan durumlar bunun için de geçerlidir."
 
 #: browser/troubleshooting.md:block 34 (header)
 msgid "A note on HTTP-only sites"
-msgstr ""
+msgstr "Yalnızca HTTP kullanan siteler"
 
 #: browser/troubleshooting.md:block 35 (paragraph)
 msgid ""
@@ -344,6 +393,11 @@ msgid ""
 "example.com/…` in the location bar, or when you follow a link with such a "
 "URL in a page."
 msgstr ""
+"Sitelere güvensiz ve düz HTTP kullanarak erişilmeden önce CENO kendiliğinden "
+"daha güvenli olan HTTPS iletişim kuralına geçer. Bu işlem adres çubuğuna düz "
+"bir adres `orneksite.com/` veya `http://orneksite.com/…`gibi güvensiz bir "
+"adres girdiğinizde veya sayfadaki bağlantılara tıkladığınızda yerleşik ["
+"HTTPS by default][HTTPS by default] uzantısı tarafından halledilir."
 
 #: browser/troubleshooting.md:block 36 (paragraph)
 msgid ""
@@ -353,6 +407,11 @@ msgid ""
 "trivial to detect with HTTPS, so CENO can work around it instead of being "
 "tricked into loading the bogus content."
 msgstr ""
+"Kendiliğinden HTTPS kuralına geçiş, birinin bir HTTP bağlantısını kesmesini "
+"ve başka bir sunucuya yönlendirip sahte içerik göstermesini (erişim "
+"engellendi iletileri gibi) önlemek için yapılır. Bu tür bir ele geçirmeyi "
+"tespit etmek HTTPS kullanıldığında önemsizdir, bu nedenle CENO kandırılarak "
+"sahte içeriği yüklemek yerine geçici bir çözüm bulabilir."
 
 #: browser/troubleshooting.md:block 37 (paragraph)
 msgid ""
@@ -361,18 +420,26 @@ msgid ""
 "case for a site which just failed to load in CENO, you can edit its URL in "
 "the location bar, change `https://` to `http://`, and try again."
 msgstr ""
+"Nadir de olsa bazı siteler HTTPS desteklemeyebilir, bu siteler için hiçbir "
+"yöntem çalışmaz. CENO'da yükleyemediğiniz sitenin desteklemediğinden "
+"eminseniz adres çubuğundan `https://` kısmını `http://` olarak değiştirin ve "
+"yeniden deneyin."
 
 #: browser/troubleshooting.md:block 38 (paragraph)
 msgid ""
 "If you want to always access a particular site over plain HTTP, you can add "
 "a permanent exception like this:"
 msgstr ""
+"Belirli bir siteye her zaman düz HTTP üzerinden erişmek istiyorsanız şu "
+"şekilde kalıcı istisna ekleyebilirsiniz:"
 
 #: browser/troubleshooting.md:block 39 (ordered list)
 msgid ""
 "In the app's main menu, choose *HTTPS by default*. You will see that "
 "extension's settings page."
 msgstr ""
+"Uygulamanın ana menüsünden *HTTPS by default* seçeneğini seçin. Uzantının "
+"ayarlar sayfasını göreceksiniz."
 
 #: browser/troubleshooting.md:block 39 (ordered list)
 msgid ""
@@ -381,16 +448,22 @@ msgid ""
 "Please note that entering `example.com` will also include all sites under "
 "that domain, like `www.example.com` or `x.y.example.com`."
 msgstr ""
+"Aşağıda gözüktüğü gibi sitenin etki alanını yazı kutusuna girin. Boşluk veya "
+"yeni satırlar ile ayırarak birden fazla site ekleyebilirsiniz. `orneksite."
+"com`adresini eklediğinizde o site altındaki tüm etki alanlarını da (`www."
+"orneksite.com` veya `a.b.orneksite.com` gibi) içereceğini unutmayın."
 
 #: browser/troubleshooting.md:block 39 (ordered list)
 msgid "When done, go back or close the tab."
-msgstr ""
+msgstr "Bittiğinde geri dönün veya sekmeyi kapatın."
 
 #: browser/troubleshooting.md:block 40 (paragraph)
 msgid ""
 "![Figure: Adding exceptions for HTTP-only sites](images/httpsbd-exceptions."
 "png)"
 msgstr ""
+"![Görsel: Yalnızca HTTP olan siteler için istisna ekleme](images/httpsbd-"
+"exceptions.png)"
 
 #: browser/troubleshooting.md:block 41 (paragraph)
 msgid ""
@@ -401,10 +474,16 @@ msgid ""
 "for subsequent runs. We encourage you to contact the site administrators and "
 "tell them to enable HTTPS support."
 msgstr ""
+"**Not:** Sitenin yalnızca HTTP ile erişilebilir ve sansür tarafından "
+"içeriğinin değiştirildiği durumlarda [ayarlar sayfasına](settings.md) gidip *"
+"Kaynaktan erişim* seçeneğini kapatıp yeniden deneyin. Bu seçeneğin tüm "
+"siteleri etkilediğini ve bir sonraki açılışta CENO tarafından "
+"hatırlanmayacağınız unutmayın. Site yöneticilerine ulaşıp HTTPS desteğini "
+"etkinleştirmelerini söylemenizi öneririz."
 
 #: browser/troubleshooting.md:block 42 (header)
 msgid "A page shows bogus content (like a block message)"
-msgstr ""
+msgstr "Site yanlış içerik gösteriyor (engelleme iletisi gibi)"
 
 #: browser/troubleshooting.md:block 43 (paragraph)
 msgid ""
@@ -413,6 +492,10 @@ msgid ""
 "illegitimate server. CENO then remembered that redirection, and now it "
 "automatically opens the latter site when trying to visit the former."
 msgstr ""
+"Siteye erişmek için önceden CENO'nun eski bir sürümünü kullanmış ve "
+"bağlantınıza birisi tarafından müdahale edilerek yanlış sunucuya "
+"yönlendirilmiş olabilir. CENO bu yönlendirmeyi hatırlamış ve artık "
+"kendiliğinden önceki siteye erişmeye çalıştığınızda şimdiki siteyi açıyor."
 
 #: browser/troubleshooting.md:block 44 (paragraph)
 msgid ""
@@ -420,16 +503,22 @@ msgid ""
 "choosing *Settings* in the app's main menu, then *Clear private data*, and "
 "disabling all boxes but *Cache* before tapping on *Clear data*."
 msgstr ""
+"Bu sorunu çözmek için uygulama ana menüsünden *Ayarlar* bölümüne gidip *"
+"Kişisel verileri temizle* üzerine dokunarak CENO'nun normal gezinme ön "
+"belleğini temizleyebilirsiniz."
 
 #: browser/troubleshooting.md:block 45 (paragraph)
 msgid ""
 "Please note that CENO version 1.3.0 and newer avoid that hijacking of newly "
 "visited sites by always using HTTPS, as explained in the previous section."
 msgstr ""
+"Önceki bölümde de anlatıldığı gibi, 1.3.0 ve üzeri CENO sürümleri yeni "
+"ziyaret edilen sitelere yapılan bağlantıların ele geçirilmesini önlemek için "
+"her zaman HTTPS kullanır."
 
 #: browser/troubleshooting.md:block 46 (header)
 msgid "Others cannot retrieve content seeded by my device"
-msgstr ""
+msgstr "Aygıtımdan gönderilen içerik diğerleri tarafından alınamıyor"
 
 #: browser/troubleshooting.md:block 47 (paragraph)
 msgid ""
@@ -439,6 +528,12 @@ msgid ""
 "load (at least partially), and tapping the CENO address bar icon should only "
 "show non-zero values under *Shared by other CENO users* or *Shared by you*."
 msgstr ""
+"Öncelikle [*CENO ayarları* bölümüne](settings.md) gidip yalnızca *Diğer CENO "
+"kullanıcıları tarafından paylaşılan* seçeneğinin açık bırakarak aygıtınızın "
+"içeriği gönderdiğinden emin olun ve içeriğe yeniden erişmeyi deneyin. "
+"Yüklendiğinde (kısmen de olsa) CENO adres çubuğu simgesine dokunduğunuzda *"
+"Diğer CENO kullanıcıları tarafından paylaşılan* veya *Paylaştıklarınız* "
+"kısmında sıfırdan yüksek sayılar görmelisiniz."
 
 #: browser/troubleshooting.md:block 48 (paragraph)
 msgid ""
@@ -451,6 +546,14 @@ msgid ""
 "box again and access the content once more; if it still does not load, it "
 "may be that the particular content is not deemed safe for sharing by Ouinet."
 msgstr ""
+"Eğer içerik yüklenmezse, CENO eski içerikleri (varsayılan ayar bir haftadan "
+"eski) yerel ön bellekten kendiliğinden temizlediği için zaten silmiş "
+"olabilir. Ayarlar sayfasından *CENO ağı üzerinden (herkese açık)* seçeneğini "
+"açın ve içeriğe yeniden erişmeye çalışın. Aygıtınızın dağıtılmış ön bellek "
+"dizinlerinde içeriği duyurması için bir kaç dakika bekleyin. Yalnızca *Diğer "
+"CENO kullanıcıları tarafından paylaşılan* seçeneğini yeniden açın ve içeriğe "
+"bir kez daha erişmeye çalışın, yine yüklenmezse içerik Ouinet tarafından "
+"paylaşılmak için güvenli görülmemiş olabilir."
 
 #: browser/troubleshooting.md:block 49 (paragraph)
 msgid ""
@@ -461,6 +564,12 @@ msgid ""
 "network does not allow direct communication between devices connected to it. "
 "This happens in some public Wi-Fi networks, so try using a private one."
 msgstr ""
+"Eğer önceki adım çalışıyor fakat kaynak olarak *Diğer CENO kullanıcılarının "
+"paylaştığı* açık olan başka bir aygıtta \"Kaynak alınamadı...\" hatası "
+"gözüküyorsa iki ihtimal vardır. İki aygıtta aynı ağda olabilir (aynı "
+"kablosuz ağa bağlanmış) veya ağ bağlanan aygıtların aralarında doğrudan "
+"iletişim kurmalarına izin vermiyor olabilir. Herkese açık kablosuz ağlarda "
+"bu durum görülebilir, kişisel bir ağ kullanmayı deneyin."
 
 #: browser/troubleshooting.md:block 50 (paragraph)
 msgid ""
@@ -470,6 +579,11 @@ msgid ""
 "*Reachability status* it should say *reachable* or *likely reachable*. "
 "Otherwise seeding may not be possible from that network as it is."
 msgstr ""
+"Eğer aygıtlar farklı ağlarda ise bir kaç sebebi olabilir. Bu sebeplerden "
+"birisi, ilk aygıtın ağı gelen bağlantıları engelliyor olabilir, *CENO "
+"ayarları* sayfasını açtığınızda *Erişilebilirlik durumu* kısmında "
+"*erişilebilir* veya *muhtemelen erişilebilir* yazmalıdır. Aksi takdirde o ağ "
+"üzerinden paylaşım yapmak mevcut haliyle mümkün değildir."
 
 #: browser/troubleshooting.md:block 51 (quote)
 msgid ""
@@ -478,7 +592,11 @@ msgid ""
 "port forwarding rule towards your client. See [here](bridging.md) for "
 "further instructions."
 msgstr ""
+"**Teknik not:** Eğer aygıtınızın erişilebilirliği *kararlaştırılmadı* olarak "
+"gözüküyorsa ve kablosuz ağın yapılandırmalarını değiştirebiliyorsanız, "
+"istemcinize kalıcı bir yönlendirme oluşturabilirsiniz. Ayrıntılı yönergeler "
+"için [bu sayfaya](bridging.md) bakın."
 
 #: browser/troubleshooting.md:block 51 (quote)
 msgid "[HTTPS by default]: https://github.com/Rob--W/https-by-default"
-msgstr ""
+msgstr "[HTTPS by default]: https://github.com/Rob--W/https-by-default"
