@@ -1,13 +1,19 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2023-04-16 20:48+0000\n"
+"Last-Translator: Rodrigo S <drivador-weblate@yahoo.com.br>\n"
+"Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
+"censorship-no/readme/pt_BR/>\n"
 "Language: pt_BR\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.17-dev\n"
 
 #: intro/README.md:block 1 (header)
 msgid "Introduction"
-msgstr ""
+msgstr "Introdução"
 
 #: intro/README.md:block 2 (paragraph)
 msgid ""
@@ -21,6 +27,17 @@ msgid ""
 "(https://censoredplanet.org/reports \"Censored Planet – Reports\")), both "
 "from private and state actors."
 msgstr ""
+"A Internet se tornou cada vez mais importante para as pessoas no mundo "
+"inteiro como fonte de todos os tipos de informação e uma forma de exercer os "
+"seus direitos fundamentais. Ao mesmo tempo, nos últimos anos houve um "
+"aumento em todos os tipos de censura e interferência na internet. Muitas "
+"vezes com origens ditatoriais vindas de órgãos Judiciários, Legislativo e "
+"até mesmo do Executivo de diversos países no mundo. Mesmo empresas e pessoas "
+"tentam interferir na liberdade de informação. Consulte os relatórios da OONI "
+"(https://ooni.org/reports/ \"Open Observatory of Network Interference – "
+"Research reports\"), Magma (https://magma.lavafeld.org/publications/ "
+"\"Publicações Magma\"), Censored Planet (https://censoredplanet.org/reports "
+"\"Censored Planet – Reports\")."
 
 #: intro/README.md:block 3 (paragraph)
 msgid ""
@@ -32,6 +49,15 @@ msgid ""
 "you need is connected to the network and has enough available resources to "
 "talk to your device at that moment."
 msgstr ""
+"A internet necessita que seus dispositivos sejam capazes de acessar a "
+"computadores especiais chamados “Servidores” (construídos por indivíduos ou "
+"empresas criadoras de conteúdo, editores ou provedores de serviços na "
+"internet etc) que contêm o conteúdo que você deseja recuperar ou acessar e "
+"fazer isso de maneira sincronizada se necessário. Funciona mais parecido com "
+"ter uma conversa de voz no telefone do que trocar textos em um aplicativo de "
+"mensagens. Isso requer que o servidor web que você precisa esteja conectado "
+"à rede e tenha recursos disponíveis suficientes para falar com seu "
+"dispositivo naquele momento."
 
 #: intro/README.md:block 4 (paragraph)
 msgid ""
@@ -65,12 +91,12 @@ msgstr ""
 
 #: intro/README.md:block 6 (paragraph)
 msgid "[ooni-reports]: https://ooni.org/reports/"
-msgstr ""
+msgstr "OONI-Reports: https://ooni.org/reports/"
 
 #: intro/README.md:block 6 (paragraph)
 msgid "[magma-reports]: https://magma.lavafeld.org/publications/"
-msgstr ""
+msgstr "Magma-Reports: https://magma.lavafeld.org/publications/"
 
 #: intro/README.md:block 6 (paragraph)
 msgid "[cplan-reports]: https://censoredplanet.org/reports"
-msgstr ""
+msgstr "CPLAN-Reports: https://censoredplanet.org/reports"
