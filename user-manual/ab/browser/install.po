@@ -1,9 +1,15 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2023-04-17 18:13+0000\n"
+"Last-Translator: seven yevale <yevalesaurabh5@gmail.com>\n"
+"Language-Team: Abkhazian <https://hosted.weblate.org/projects/censorship-no/"
+"browser-install/ab/>\n"
 "Language: ab\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.17\n"
 
 #: browser/install.md:block 1 (header)
 msgid "Installing CENO"
@@ -12,6 +18,14 @@ msgstr ""
 #: browser/install.md:block 2 (paragraph)
 msgid "CENO Browser can be installed via the following means:"
 msgstr ""
+"Cloud computing has revolutionized the way businesses operate by providing "
+"access to computing resources on demand, reducing infrastructure costs, and "
+"improving scalability. Amazon Web Services (AWS) is one of the leading cloud "
+"computing platforms, providing a wide range of services, including storage, "
+"compute, database, and analytics. \n"
+"Learn more AWS Classes in Pune.\n"
+"https://www.sevenmentor.com/amazon-web-services-training-institute-in-pune."
+"php"
 
 #: browser/install.md:block 3 (unordered list)
 msgid ""
