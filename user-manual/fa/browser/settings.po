@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-01-21 20:59+0000\n"
+"PO-Revision-Date: 2023-04-20 21:49+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-settings/fa/>\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.15.1\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #
 #: browser/settings.md:block 1 (header)
@@ -233,7 +233,7 @@ msgstr ""
 "*وضعیت سرویس گیرنده Ouinet*، اگر در حالت \"شروع شده\" باشد، به این معنی است "
 "که سرویس گیرنده Ouinet شما توانسته با موفقیت برنامه را اجرا کند. در غیر این "
 "صورت، ممکن است اشکالات مرتبط با اتصال یا برخی از خطاهای داخلی وجود داشته "
-"باشد.  لطفا این اطلاعات را در گزارش‌های خود بگنجانید."
+"باشد. لطفا این اطلاعات را در گزارش‌های خود بگنجانید."
 
 #: browser/settings.md:block 13 (unordered list)
 msgid ""
