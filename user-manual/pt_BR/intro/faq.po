@@ -1,25 +1,33 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2023-04-20 18:41+0000\n"
+"Last-Translator: leilane <leilane.a@protonmail.com>\n"
+"Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
+"censorship-no/faq/pt_BR/>\n"
 "Language: pt_BR\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #: intro/faq.md:block 1 (header)
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "Perguntas mais frequentes"
 
 #: intro/faq.md:block 2 (header)
 msgid "Usage"
-msgstr ""
+msgstr "Uso"
 
 #: intro/faq.md:block 3 (header)
 msgid "Can CENO Browser replace my current browser (Chrome/Firefox/Safari)?"
 msgstr ""
+"O Navegador CENO pode substituir meu navegador atual (Chrome/Firefox/Safari)?"
 
 #: intro/faq.md:block 4 (paragraph)
 msgid "Short answer: yes, at least for some non-critical browsing."
 msgstr ""
+"Resposta curta: sim, ao menos para alguns tipos não-sensíveis de navegação."
 
 #: intro/faq.md:block 5 (paragraph)
 msgid ""
@@ -28,6 +36,11 @@ msgid ""
 "Ouinet technology for retrieving web content may affect its operation in "
 "subtle ways (some of them potentially involving your privacy)."
 msgstr ""
+"Porque o CENO é baseado no Mozilla Firefox para Android, ele oferece todas "
+"as funcionalidades que são esperadas de um navegador moderno. No entanto, "
+"sua dependência da tecnologia Ouinet para recuperação de conteúdo web pode "
+"afetar sua operação de maneiras sutis (algumas delas envolvendo sua "
+"privacidade)."
 
 #: intro/faq.md:block 6 (paragraph)
 msgid ""
@@ -36,6 +49,11 @@ msgid ""
 "changes are introduced which require you to uninstall the application or "
 "remove stored data (including bookmarks and site settings) before upgrading."
 msgstr ""
+"Além disso, como CENO e Ouinet estão em constante desenvolvimento, você pode "
+"experienciar alguma instabilidade. Isso pode significar, também, que foram "
+"introduzidas por debaixo dos panos mudanças as quais demandam a desistalação "
+"da aplicação ou remoção dos dados armazenados (incluindo marcadores e "
+"configurações de website)."
 
 #: intro/faq.md:block 7 (paragraph)
 msgid ""
@@ -43,14 +61,17 @@ msgid ""
 "you use your habitual Web browser instead of CENO. Please read the section "
 "on [risks](../concepts/risks.md) for more information."
 msgstr ""
+"Para trabalhos importantes em websites não sujeitos a censura, recomendamos "
+"que você use seu navegador Web habitual ao invés de CENO. Por favor, leia a "
+"seção sobre [riscos](../concepts/risks.md) para mais informações."
 
 #: intro/faq.md:block 8 (header)
 msgid "Can I use CENO Browser to access Twitter, Facebook and Gmail?"
-msgstr ""
+msgstr "Posso usar o Navegador CENO para acessar Twitter, Facebook e Gmanil?"
 
 #: intro/faq.md:block 9 (paragraph)
 msgid "Short answer: yes, by using private tabs."
-msgstr ""
+msgstr "Resposta curta: sim, usando abas privativas."
 
 #: intro/faq.md:block 10 (paragraph)
 msgid ""
@@ -61,6 +82,13 @@ msgid ""
 "down all private data (like passwords and cookies) from Web traffic to "
 "ensure that it does not leak to other untrusted CENO or Ouinet users."
 msgstr ""
+"Apesar do esforço do CENO em oferecer uma experiência de usuário o mais "
+"similar possível à navegação Web normal, algumas das técnicas usadas para "
+"evitar a interferência da rede não convivem bem com websites tão dinâmicos. "
+"É esse o caso do modo de operação padrão do CENO (isto é, navegação pública)"
+", pois retira todos os dados privados (como senhas e cookies) do tráfego Web "
+"para assegurar que não sejam vazados para outros usuários não confiáveis do "
+"CENO ou da Ouinet."
 
 #: intro/faq.md:block 11 (paragraph)
 msgid ""
@@ -70,30 +98,40 @@ msgid ""
 "else. However, this requires that network traffic from your device can reach "
 "those websites in some way."
 msgstr ""
+"Para evitar este cenário e permitir ao usuário o uso desses websites "
+"dinâmicos no CENO, você pode usar as abas privativas (isto é, navegação "
+"privativa), a qual deixa os dados privados intactos emantém as conexões aos "
+"websites criptografadas e, assim, protegidas de todas as outras pessoas. "
+"Esse processo requer, contudo, que o tráfego do seu dispositivo possa "
+"alcançar esses websites de alguma maneira."
 
 #: intro/faq.md:block 12 (paragraph)
 msgid ""
 "For further details, please refer to the section on the differences between "
 "[public and private browsing](../concepts/public-private.md)."
 msgstr ""
+"Para mais detalhes, por favor consulte a seção sobre diferenças entre ["
+"navegação pública e privativa](../concepts/public-private.md)."
 
 #: intro/faq.md:block 13 (header)
 msgid "Privacy and security"
-msgstr ""
+msgstr "Privacidade e segurança"
 
 #: intro/faq.md:block 14 (header)
 msgid "Will my device store content that I did not request?"
-msgstr ""
+msgstr "Meu dispositivo irá armazenar conteúdo não solicitado por mim?"
 
 #: intro/faq.md:block 15 (paragraph)
 msgid "Short answer: no."
-msgstr ""
+msgstr "Resposta curta: não."
 
 #: intro/faq.md:block 16 (paragraph)
 msgid ""
 "CENO only shares content that you requested (using [public browsing](../"
 "concepts/public-private.md))."
 msgstr ""
+"CENO apenas compartilha conteúdo solicitado por você (usando a [navegação "
+"pública](../concepts/public-private.md))."
 
 #: intro/faq.md:block 17 (paragraph)
 msgid ""
@@ -103,20 +141,30 @@ msgid ""
 "already does a pretty good job at detecting and blocking such attempts, you "
 "should still avoid visiting suspicious sites."
 msgstr ""
+"Por favor, observe que um website malicioso pode ainda assim tentar induzir "
+"seu navegador a recuperar conteúdo de outros websites sem o seu conhecimento "
+"de modo a forçar seu dispositivo a armazenar e compartilhá-lo com outros "
+"usuários. Mesmo que o código do Firefox já faça um ótimo trabalho na "
+"detecção e bloqueio dessas tentativas, você deveria, mesmo assim, evitar "
+"fazer visitas a websites suspeiros."
 
 #: intro/faq.md:block 18 (paragraph)
 msgid ""
 "Read more about how your CENO Browser retrieves and shares Web content with "
 "others [here](../concepts/how.md)."
 msgstr ""
+"Leia mais sobre como o Navegador CENO recupera e compartilha conteúdo Web "
+"com outros [aqui](../concepts/how.md)."
 
 #: intro/faq.md:block 19 (header)
 msgid "Can anyone see if I am using CENO Browser to access censored Web sites?"
 msgstr ""
+"Alguém pode ver se eu estou usando o Navegador CENO para acessar websites "
+"censurados?"
 
 #: intro/faq.md:block 20 (paragraph)
 msgid "Short answer: yes, with some technical knowledge and resources."
-msgstr ""
+msgstr "Resposta curta: sim, com algum conhecimento técnico e recursos."
 
 #: intro/faq.md:block 21 (paragraph)
 msgid ""
@@ -126,6 +174,11 @@ msgid ""
 "particular website, although they cannot list all the content that you are "
 "sharing."
 msgstr ""
+"CENO não é uma ferramenta de anonimização. Um atacante capaz de espionar o "
+"seu tráfego de rede pode ver o conteúdo sendo requisitado de ou provido para "
+"outro usuário a partir do seu dispositivo. O atacante pode também determinar "
+"se você está ou não compartilhando um website específico, mesmo que ele não "
+"possa listar todo o conteúdo sendo compartilhado por você."
 
 #: intro/faq.md:block 22 (paragraph)
 msgid ""
@@ -134,18 +187,23 @@ msgid ""
 "encrypted connections. See [how content retrieval works](../concepts/how.md) "
 "and the associated [risks](../concepts/risks.md) for more information."
 msgstr ""
+"No entanto, o conteúdo sendo recuperado dentro da rede pela primeira vez ou "
+"pelo uso de [navegação privativa](../concepts/public-private.md) vai "
+"transitar por conexões criptografadas. Veja [como a recuperação de conteúdo "
+"funciona](../concepts/how.md) e os [riscos](../concepts/risks.md) associados "
+"para mais informações."
 
 #: intro/faq.md:block 23 (header)
 msgid "Resource usage"
-msgstr ""
+msgstr "Uso de recursos"
 
 #: intro/faq.md:block 24 (header)
 msgid "Does CENO Browser use a lot of data?"
-msgstr ""
+msgstr "O Navegador CENO usa uma grande quantidade de dados?"
 
 #: intro/faq.md:block 25 (paragraph)
 msgid "Short answer: more than your usual browser."
-msgstr ""
+msgstr "Resposta curta: mais que o seu navegador tradicional."
 
 #: intro/faq.md:block 26 (paragraph)
 msgid ""
@@ -154,6 +212,11 @@ msgid ""
 "large the content is, and how well-connected your device is. Sharing more "
 "content also implies more overhead."
 msgstr ""
+"Em qualquer ocasião em que o navegador CENO provê conteúdo para outro "
+"usuário ou encaminha seu tráfego, ele consome dados extra a depender de "
+"fatores como o quão popular ou extenso é o conteúdo e o quão bem conectado é "
+"o seu dispositivo. Compartilhar mais conteúdo também implica em maior "
+"sobrecarga."
 
 #: intro/faq.md:block 27 (paragraph)
 msgid ""
