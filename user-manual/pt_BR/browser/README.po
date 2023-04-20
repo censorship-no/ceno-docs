@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-04-20 12:56+0000\n"
-"Last-Translator: leilane <leilane.a@protonmail.com>\n"
+"PO-Revision-Date: 2023-04-20 21:49+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "censorship-no/browser-readme/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -52,7 +52,6 @@ msgstr ""
 "o problema."
 
 #: browser/README.md:block 4 (paragraph)
-#, fuzzy
 msgid "[Firefox for Android]: https://www.mozilla.org/firefox/android/"
 msgstr "[Firefox para Android]: https://www.mozilla.org/firefox/android/"
 
