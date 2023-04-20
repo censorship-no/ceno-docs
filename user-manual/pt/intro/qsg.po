@@ -1,15 +1,15 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-03-13 17:38+0000\n"
-"Last-Translator: Alexthegib <jcwkgxc@nightorb.com>\n"
+"PO-Revision-Date: 2023-04-20 21:49+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/censorship-no/"
 "qsg/pt/>\n"
 "Language: pt\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.16.2-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #: intro/qsg.md:block 1 (header)
 msgid "Quick start guide"
