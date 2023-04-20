@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-04-20 18:41+0000\n"
+"PO-Revision-Date: 2023-04-20 19:53+0000\n"
 "Last-Translator: leilane <leilane.a@protonmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "censorship-no/faq/pt_BR/>\n"
@@ -225,6 +225,11 @@ msgid ""
 "recommend keeping an eye on the app's data usage (under Android settings) "
 "and running CENO while connected to Wi-Fi instead of using mobile data."
 msgstr ""
+"Apesar de o CENO consumir muito menos recursos que outras aplicações de "
+"compartilhamento de dados, seu uso ainda pode resultar em um aumento das "
+"tarifas e da utilização de dados. Recomendamos monitorar o uso de dados do "
+"aplicativo (pelas configurações do Android) e executar o CENO enquanto "
+"estiver conectado ao WiFi ao invés de dados móveis."
 
 #: intro/faq.md:block 28 (header)
 msgid "Does CENO Browser use a lot of battery on my device?"
