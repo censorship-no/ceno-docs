@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-04 20:09+0200\n"
-"PO-Revision-Date: 2022-02-16 23:54+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
+"PO-Revision-Date: 2023-04-20 21:49+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "risks/my/>\n"
 "Language: my\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.11-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #
 #: concepts/risks.md:block 1 (header)
@@ -234,7 +234,7 @@ msgstr "တင်ပို့သူအဖြစ်"
 
 #: concepts/risks.md:block 23 (header)
 msgid "What data is seeded from my device?"
-msgstr "ကျွန်ုပ်၏ စက်မှ မည်သည့်ဒေတာကို တင်ပို့သလဲ။"
+msgstr "ကျွန်ုပ်၏စက်မှ မည်သည့်ဒေတာကို စုဆောင်းထားသနည်း။"
 
 #: concepts/risks.md:block 24 (paragraph)
 msgid ""
