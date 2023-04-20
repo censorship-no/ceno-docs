@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-04-20 19:53+0000\n"
+"PO-Revision-Date: 2023-04-20 21:49+0000\n"
 "Last-Translator: leilane <leilane.a@protonmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "censorship-no/faq/pt_BR/>\n"
@@ -233,7 +233,7 @@ msgstr ""
 
 #: intro/faq.md:block 28 (header)
 msgid "Does CENO Browser use a lot of battery on my device?"
-msgstr ""
+msgstr "O Navegador CENO consome muita bateria do meu dispositivo?"
 
 #: intro/faq.md:block 30 (paragraph)
 msgid ""
@@ -243,6 +243,12 @@ msgid ""
 "not actively helping other users, it still needs to stay reachable over the "
 "network, which prevents the use of some energy-saving features."
 msgstr ""
+"CENO e Ouinet aplicam várias técnicas para que diferentes usuários cooperem "
+"para evitar interferências e.interrupções na rede. Provendo conteúdo e "
+"encaminhando tráfego para outros usuários consome energia extra. Além disso, "
+"mesmo quando seu dispositivo não está ativamente ajudando outros usuários, "
+"ele ainda precisa estar alcançável pela rede, o que previne o uso de algumas "
+"funcionalidades de economia de energia."
 
 #: intro/faq.md:block 31 (paragraph)
 msgid ""
