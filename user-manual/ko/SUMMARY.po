@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2023-11-22 19:59+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/censorship-no/"
 "user-manual/ko/>\n"
 "Language: ko\n"
