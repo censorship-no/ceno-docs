@@ -266,11 +266,11 @@ msgstr ""
 
 #: intro/faq.md:block 32 (header)
 msgid "Do I need to be connected to Wi-Fi to use CENO Browser?"
-msgstr ""
+msgstr "Eu preciso de conexão WiFi para usar o Navegador CENO?"
 
 #: intro/faq.md:block 33 (paragraph)
 msgid "Short answer: no, but we strongly recommend it."
-msgstr ""
+msgstr "Resposta curta: não, mas recomendamos fortemente."
 
 #: intro/faq.md:block 34 (paragraph)
 msgid ""
