@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-12-17 00:51+0000\n"
-"Last-Translator: michel <michel@equalit.ie>\n"
+"PO-Revision-Date: 2023-04-20 21:49+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/censorship-no/"
 "browser-install/fr/>\n"
 "Language: fr\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.15\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #
 #: browser/install.md:block 1 (header)
@@ -25,7 +25,7 @@ msgid ""
 "[Google Play][ceno-gplay] (*CENO Browser* from *eQualitie*): the recommended "
 "source for most Android users."
 msgstr ""
-"[Google Play][ceno-gplay] (*CENO Browser* de *eQualitie*): la source "
+"[Google Play][ceno-gplay] (*CENO Browser* de *eQualitie*) : la source "
 "recommandée pour la plupart des utilisateurs Android."
 
 #: browser/install.md:block 3 (unordered list)
