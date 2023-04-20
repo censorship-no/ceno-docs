@@ -1,15 +1,15 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-01-31 19:53+0000\n"
-"Last-Translator: Yonjae Lee <yjyj93@gmail.com>\n"
+"PO-Revision-Date: 2023-04-20 21:49+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/censorship-no/"
 "ouinet/ko/>\n"
 "Language: ko\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.11-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #: intro/ouinet.md:block 1 (header)
 msgid "What is Ouinet?"
@@ -88,7 +88,6 @@ msgstr ""
 "지 모르겠다면 망설이지 마시고 저희에게 연락하십시오."
 
 #: intro/ouinet.md:block 9 (quote)
-#, fuzzy
 msgid "[Ouinet]: https://github.com/equalitie/ouinet/"
 msgstr "[Ouinet]: https://github.com/equalitie/ouinet/"
 
@@ -98,6 +97,5 @@ msgid "[P2P]: https://en.wikipedia.org/wiki/Peer-to-peer"
 msgstr "[P2P]: https://en.wikipedia.org/wiki/Peer-to-peer"
 
 #: intro/ouinet.md:block 9 (quote)
-#, fuzzy
 msgid "[eQualitie]: https://equalit.ie/"
 msgstr "[eQualitie]: https://equalit.ie/"
