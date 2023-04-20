@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-04-20 01:44+0000\n"
-"Last-Translator: leilane <leilane.a@protonmail.com>\n"
+"PO-Revision-Date: 2023-04-20 21:49+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "censorship-no/readme/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -108,16 +108,13 @@ msgstr ""
 "apresentá-los a você."
 
 #: intro/README.md:block 6 (paragraph)
-#, fuzzy
 msgid "[ooni-reports]: https://ooni.org/reports/"
 msgstr "[ooni-reports]: https://ooni.org/reports/"
 
 #: intro/README.md:block 6 (paragraph)
-#, fuzzy
 msgid "[magma-reports]: https://magma.lavafeld.org/publications/"
 msgstr "[magma-reports]: https://magma.lavafeld.org/publications/"
 
 #: intro/README.md:block 6 (paragraph)
-#, fuzzy
 msgid "[cplan-reports]: https://censoredplanet.org/reports"
 msgstr "[cplan-reports]: https://censoredplanet.org/reports"
