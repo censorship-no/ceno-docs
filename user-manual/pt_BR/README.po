@@ -1,13 +1,19 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2023-04-20 12:56+0000\n"
+"Last-Translator: leilane <leilane.a@protonmail.com>\n"
+"Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
+"censorship-no/homepage-readme/pt_BR/>\n"
 "Language: pt_BR\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #: README.md:block 1 (header)
 msgid "Censorship.no! User Manual"
-msgstr ""
+msgstr "Censorship.no! Manual do Usuário"
 
 #: README.md:block 2 (paragraph)
 msgid ""
@@ -15,6 +21,9 @@ msgid ""
 "technologies, as created for the [Censorship.no!][Censorship.no!] project by "
 "[eQualitie][eQualitie]."
 msgstr ""
+"Este manual é destinado a usuários do [Navegador CENO][CENO Browser] e "
+"tecnologias relacionadas, conforme criadas para o projeto [Censorship."
+"no!][Censorship.no!] pela [eQualitie][eQualitie]."
 
 #: README.md:block 3 (paragraph)
 msgid ""
@@ -23,26 +32,35 @@ msgid ""
 "find pointers for further reading and details on implementation, as well as "
 "the [protocol specifications][protocol specifications]."
 msgstr ""
+"Se você está procurando por documentação técnica, por favor consulte o ["
+"repositório de documentação do CENO][repositório de documentação do CENO]. "
+"Lá você encontrará indicações para leituras posteriores e detalhes de "
+"implementação, bem como as [especificações de protocolo][especificações de "
+"protocolo]."
 
 #: README.md:block 3 (paragraph)
 msgid "[CENO Browser]: https://github.com/censorship-no/ceno-browser"
-msgstr ""
+msgstr "[Navegador CENO]: https://github.com/censorship-no/ceno-browser"
 
 #: README.md:block 3 (paragraph)
 msgid "[Censorship.no!]: https://censorship.no/"
-msgstr ""
+msgstr "[Censorship.no!]: https://censorship.no/"
 
 #: README.md:block 3 (paragraph)
 msgid "[eQualitie]: https://equalit.ie/"
-msgstr ""
+msgstr "[eQualitie]: https://equalit.ie/"
 
 #: README.md:block 3 (paragraph)
 msgid ""
 "[CENO documentation repository]: https://github.com/censorship-no/ceno-docs/"
 msgstr ""
+"[Repositório de documentação do CENO]: https://github.com/censorship-no/"
+"ceno-docs/"
 
 #: README.md:block 3 (paragraph)
 msgid ""
 "[protocol specifications]: https://github.com/equalitie/ouinet/blob/master/"
 "doc/ouinet-network-whitepaper.md"
 msgstr ""
+"[especificações de protocolo]: https://github.com/equalitie/ouinet/blob/"
+"master/doc/ouinet-network-whitepaper.md"
