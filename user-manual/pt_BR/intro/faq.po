@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-04-20 21:49+0000\n"
+"PO-Revision-Date: 2023-04-20 21:51+0000\n"
 "Last-Translator: leilane <leilane.a@protonmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "censorship-no/faq/pt_BR/>\n"
@@ -258,6 +258,11 @@ msgid ""
 "completely (it offers a convenient shortcut for this, see [here](../browser/"
 "install.md))."
 msgstr ""
+"O resultado final é que o CENO pode continuar drenando sua bateria mesmo "
+"quando não estiver em uso. Nossos testes não demonstraram muitos picos de "
+"consumo de energia, mas nossa milhagem pode veriar. Quando na necessidade de "
+"bateria, recomendamos parar o CENO completamente (ele oferece um atalho "
+"conveniente para isso, veja [here](../browser/install.md))."
 
 #: intro/faq.md:block 32 (header)
 msgid "Do I need to be connected to Wi-Fi to use CENO Browser?"
