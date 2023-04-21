@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-04-20 21:51+0000\n"
+"PO-Revision-Date: 2023-04-22 11:51+0000\n"
 "Last-Translator: leilane <leilane.a@protonmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "censorship-no/faq/pt_BR/>\n"
@@ -277,12 +277,16 @@ msgid ""
 "Although CENO should work fine on a mobile connection, there are two reasons "
 "why we recommend using a Wi-Fi connection instead:"
 msgstr ""
+"Embora o CENO deva funcionar bem em uma conexão móvel, há duas razões pelas "
+"quais recomendamos usar uma conexão WiFi ao invés dela:"
 
 #: intro/faq.md:block 35 (ordered list)
 msgid ""
 "CENO consumes an extra amount of data which may result in a higher phone "
 "bill (see above)."
 msgstr ""
+"CENO consome uma quantidade extra de dados, o que pode resultar em uma conta "
+"de telefone mais alta (veja acima)."
 
 #: intro/faq.md:block 35 (ordered list)
 msgid ""
@@ -290,3 +294,6 @@ msgid ""
 "outside than Wi-Fi ones, thus decreasing the chances that you can help other "
 "users get content."
 msgstr ""
+"As conexões móveis frequentemente tornam o alcance do seu dispositivo a "
+"partir do exterior mais difícil que com as conexões WiFi. Assim, há uma "
+"diminuição das chances de você poder ajudar outros usuários a obter conteúdo."
