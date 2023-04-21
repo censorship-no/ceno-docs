@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-04-20 21:49+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
+"PO-Revision-Date: 2023-04-22 11:51+0000\n"
+"Last-Translator: leilane <leilane.a@protonmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "censorship-no/browser-readme/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -25,9 +25,9 @@ msgid ""
 msgstr ""
 "Este capítulo mostra algumas dicas no uso do Navegador CENO no limite das "
 "capacidades da Ouinet. Por favor, lembre-se sempre que o CENO é baseado em ["
-"Firefox for Android][Firefox for Android], então para todas as perguntas em "
-"tópicos sobre navegação genérica você deveria consultar as páginas [Firefox "
-"for Android Support][Firefox for Android Support] da Mozilla."
+"Firefox para Android][Firefox para Android], então para todas as perguntas "
+"em tópicos sobre navegação genérica você deveria consultar as páginas ["
+"Suporte do Firefox para Android][Suporte do Firefox para Android] da Mozilla."
 
 #: browser/README.md:block 3 (paragraph)
 msgid ""
@@ -56,10 +56,9 @@ msgid "[Firefox for Android]: https://www.mozilla.org/firefox/android/"
 msgstr "[Firefox para Android]: https://www.mozilla.org/firefox/android/"
 
 #: browser/README.md:block 4 (paragraph)
-#, fuzzy
 msgid ""
 "[Firefox for Android Support]: https://support.mozilla.org/en-US/products/"
 "mobile"
 msgstr ""
-"[Firefox for Android Support]: https://support.mozilla.org/en-US/products/"
-"mobile"
+"[Suporte do Firefox para Android]: https://support.mozilla.org/en-US/"
+"products/mobile"
