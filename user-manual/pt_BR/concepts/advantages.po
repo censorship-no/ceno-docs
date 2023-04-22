@@ -1,13 +1,19 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2023-04-22 11:51+0000\n"
+"Last-Translator: leilane <leilane.a@protonmail.com>\n"
+"Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
+"censorship-no/advantages/pt_BR/>\n"
 "Language: pt_BR\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #: concepts/advantages.md:block 1 (header)
 msgid "Advantages of using CENO/Ouinet"
-msgstr ""
+msgstr "Vantagens de usar CENO/Ouinet"
 
 #: concepts/advantages.md:block 2 (paragraph)
 msgid ""
@@ -16,6 +22,11 @@ msgid ""
 "traffic for one another, sign content for later verification, and store "
 "signed content for seeding to others. Some advantages worth mentioning are:"
 msgstr ""
+"As principais vantagens de usar CENO e Ouinet em lugar de outras tecnologias "
+"de contorno residem na cooperação dos clientes e injetores para encaminhar "
+"tráfego uns para os outros, assinar conteúdo para verificação posterior e "
+"armazenar conteúdo assinado para semear para outras pessoas. Algumas "
+"vantagens dignas de serem mencionadas:"
 
 #: concepts/advantages.md:block 3 (unordered list)
 msgid ""
