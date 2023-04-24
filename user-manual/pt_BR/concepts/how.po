@@ -1,13 +1,19 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2023-04-24 18:09+0000\n"
+"Last-Translator: leilane <leilane.a@protonmail.com>\n"
+"Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
+"censorship-no/how/pt_BR/>\n"
 "Language: pt_BR\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #: concepts/how.md:block 1 (header)
 msgid "How does it work?"
-msgstr ""
+msgstr "Como funciona?"
 
 #: concepts/how.md:block 2 (paragraph)
 msgid ""
@@ -16,10 +22,14 @@ msgid ""
 "introduced (highlighted **in bold letters**) and used afterwards for "
 "efficiency and to avoid confusion."
 msgstr ""
+"Esta seção explicará as operaçãos do CENO e da Ouinet percorrendo uma série "
+"de cenários. Terminologias e conceitos importantes para a Ouinet serão "
+"introduzidos (destacados **com letras em negrito**) e usados posteriormente "
+"para garantir eficiência e para evitar confusões."
 
 #: concepts/how.md:block 3 (header)
 msgid "Accessing content directly"
-msgstr ""
+msgstr "Acessando conteúdo diretamente"
 
 #: concepts/how.md:block 4 (paragraph)
 msgid ""
@@ -33,6 +43,15 @@ msgid ""
 "desired content. This is no different from the way in which any normal Web "
 "browser works."
 msgstr ""
+"O navegador CENO é um exemplo de uma aplicação que usa a tecnologia Ouinet "
+"para recuperar e compartilhar conteúdo Web. Chamamos tal tipo de aplicação "
+"um **cliente** da Ouinet. Quando você usa seu cliente (isto é, CENO) para "
+"tentar acessar algum conteúdo *X*, hospedado em um servidor Web (o qual "
+"chamaremos de servidor de **origem** de *X*), seu cliente tenta contactar o "
+"servidor de origem através da Internet, seja diretamente ou via alguma outra "
+"máquina configurada para contactar servidores Web em nome de outros (o "
+"chamado servidor **proxy**) e então solicita o conteúdo desejado. Isso não é "
+"diferente da forma como qualquer navegador Web comum funciona."
 
 #: concepts/how.md:block 5 (quote)
 msgid ""
@@ -44,6 +63,14 @@ msgid ""
 "device). CENO Browser already takes care of setting this certificate up for "
 "its private use so that you do not need to worry."
 msgstr ""
+"**Nota técnica:** Há, de fato, uma pequena pegadinha. Já que o cliente age "
+"como um proxy HTTP sendo executado em seu dispositivo, para o cliente ser "
+"capaz de desencriptar e atuar sobre solicitações de conteúdo HTTPS, a "
+"apicação usando o cliente (isto é, a parte do Navegador Web - como Firefox "
+"no CENO), precisa aceitar um certificado especial emitido pelo cliente, "
+"mesmo (e apenas usado no seu dispositivo). O Navegador CENO já se "
+"responsabiliza por estruturar esse certificado para uso privado de maneira "
+"que você não precisa de preocupar."
 
 #: concepts/how.md:block 6 (paragraph)
 msgid ""
