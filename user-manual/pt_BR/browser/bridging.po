@@ -1,19 +1,19 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-12-01 18:46+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
+"PO-Revision-Date: 2023-04-25 18:13+0000\n"
+"Last-Translator: leilane <leilane.a@protonmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "censorship-no/browser-bridging/pt_BR/>\n"
 "Language: pt_BR\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.15-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #: browser/bridging.md:block 1 (header)
 msgid "Helping other CENO users browse the Web"
-msgstr ""
+msgstr "Ajudando outros usuários CENO a navegar a Web"
 
 #: browser/bridging.md:block 2 (paragraph)
 msgid ""
@@ -27,6 +27,15 @@ msgid ""
 "through an encrypted tunnel), nor will any of this traffic remain on your "
 "device."
 msgstr ""
+"Uma rede P2P é construída a partir de cada nó conectado a ela (sim, isso "
+"significa você, tambpem!). Quanto mais nós, mais forte e mais versátil a "
+"rede se torna. Se estiver executando o Navegador CENO de um país que não "
+"censura a Internet (ou não o faz tão incisivamente quanto alguns), considere "
+"ajudar outros usuários do CENO se tornando um nó **ponte**. Você começará, "
+"então, a encaminhar tráfego entre clientes vivendo em países fortemente "
+"censurados e injetores do CENO. Você não conseguirá ver o tráfego deles ("
+"este será enviado através de um túnel critpografado), tampouco haverá em seu "
+"dispositivo qualquer registro remanescente desse tráfego."
 
 #: browser/bridging.md:block 3 (quote)
 msgid ""
@@ -36,10 +45,15 @@ msgid ""
 "(but keep in mind the [risks](../concepts/risks.md) of serving such content "
 "to others)."
 msgstr ""
+"**Nota:** A configuração descrita nesta seção pode também ajudar o seu "
+"dispositivo a semear com eficiência conteúdo para outros no cache "
+"distribuído. Assim, por favor, considere aplicá-la igualmente quando usar o "
+"CENO em um país censurador (mas tenha em mente os [riscos](../concepts/risks."
+"md)) de oferecer tal conteúdo para outros)."
 
 #: browser/bridging.md:block 4 (header)
 msgid "How to become a CENO bridge"
-msgstr ""
+msgstr "Como se tornar uma ponte do CENO"
 
 #: browser/bridging.md:block 5 (paragraph)
 msgid ""
@@ -48,6 +62,10 @@ msgid ""
 "port forwarding configured for CENO. See the next sections for further "
 "details."
 msgstr ""
+"Esta funcionalidade já esta embutida no Navegador CENO. Seu dispositivo "
+"precisará ser conectado a uma rede WiFi que tenha ou UPnP ativado ou "
+"encaminhamento de porta explicitamente configurado para o CENO. Veja as "
+"próximas seções para maiores detalhes."
 
 #: browser/bridging.md:block 6 (paragraph)
 msgid ""
@@ -55,6 +73,10 @@ msgid ""
 "a proper bridge while you are actively using it, as power-saving features "
 "will throttle the operation of CENO otherwise."
 msgstr ""
+"No entanto, por favor observe que o Android só permitirá ao dispositivo "
+"móvel agir como uma porta adequada enquanto você o estiver usando "
+"ativamente. Do contrário, as funcionalidades de economia de energia "
+"limitarão as operações do CENO."
 
 #: browser/bridging.md:block 7 (quote)
 msgid ""
@@ -67,20 +89,32 @@ msgid ""
 "interfere with CENO; please check [Don't kill my app!][Don't kill my app!] "
 "for your device's brand."
 msgstr ""
+"**Nota técnica:** Isso se deve principalmente ao [Modo "
+"doze](https://developer.android.com/training/monitoring-device-state/doze-"
+"standby \"Android Developers – Optimize for Doze and App Standby\") do "
+"Android, o qual retarda as operações da biblioteca nativa Ouinet. "
+"Infelizmente, desabilitar a otimização de bateria para o CENO parece não "
+"excluir a Ouinet da ação. Seu dispositivo específico pode também incluir "
+"suas próprias funcionalidades de economia de energia, o que pode interferir "
+"no funcionamento do CENO. Por favor, conculte [Não mate meu aplicativo!][Não "
+"mate meu aplicativo!] para a marca do seu dispositivo."
 
 #: browser/bridging.md:block 8 (paragraph)
 msgid ""
 "Thus if you intend to have CENO acting as a permanent, always-reachable "
 "bridge, besides a properly configured Wi-Fi network you will need to:"
 msgstr ""
+"Assim, se pretende manter o CENO agindo como uma ponte permanente, sempre "
+"alcançável, além de uma rede WiFi configurada apropriadamente, você "
+"precisará:"
 
 #: browser/bridging.md:block 9 (ordered list)
 msgid "Have your device plugged in to power at all times."
-msgstr ""
+msgstr "Ter o seu dispositivo ligado à rede elétrica a todo tempo."
 
 #: browser/bridging.md:block 9 (ordered list)
 msgid "Have the device's screen on at all times."
-msgstr ""
+msgstr "Ter a tela do dispositivo ativa a todo tempo."
 
 #: browser/bridging.md:block 9 (ordered list)
 msgid ""
@@ -91,6 +125,13 @@ msgid ""
 "select *While charging* or *Either*. A very dimmed down clock will appear on "
 "a black background while the device is not active."
 msgstr ""
+"Uma forma conveniente de fazer isso sem muito consumo de energia ou a "
+"incômoda iluminação permanente é usar o protetor de tela do Android: ative-o "
+"em *Configurações/ Tela / Protetor de Tela* (ou *Daydream* em algumas "
+"versões), abra o widget *Relógio*, escolha *Quando iniciar a proteção de "
+"tela* no menu e selecione *Enquanto estiver carregando* ou *Nenhuma das "
+"opções*. Um relógio muito atenuado aparecerá em um fundo preto enquanto o "
+"dispositivo não estiver ativo."
 
 #: browser/bridging.md:block 9 (ordered list)
 msgid ""
@@ -98,6 +139,9 @@ msgid ""
 "this will turn the screen off. Instead, just wait for the device to lock "
 "itself with the screen on."
 msgstr ""
+"Por favor, note que você não deveria usar botão de desligar para travar o "
+"dispositivo, pois essa ação desligará a tela. Ao invés disso, apenas "
+"mantenha a tela ligada e aguarde o dispositivo bloquear a si mesmo."
 
 #: browser/bridging.md:block 10 (paragraph)
 msgid ""
@@ -105,6 +149,9 @@ msgid ""
 "computer with good connectivity that stays on most of the time, please "
 "continue reading."
 msgstr ""
+"Se essa configuração não é possível para você, não desista ainda! Se possuir "
+"um computador com uma boa conectividade que fique ligado a maior parte do "
+"tempo, por favor continue lendo."
 
 #: browser/bridging.md:block 11 (header)
 msgid "Running a bridge on a computer"
