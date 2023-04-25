@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-04-25 18:13+0000\n"
+"PO-Revision-Date: 2023-04-26 05:53+0000\n"
 "Last-Translator: luana <luanafaustini@tutanota.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "censorship-no/browser-public-private/pt_BR/>\n"
@@ -57,7 +57,7 @@ msgstr "![Figura: Uma aba de navegação pública](images/public-tab.png)"
 #: browser/public-private.md:block 6 (paragraph)
 msgid "In contrast, private tabs have a darker tool bar:"
 msgstr ""
-"Em contrapartida, as abas privativas tem uma barra de ferramentas mais "
+"Em contrapartida, as abas privativas têm uma barra de ferramentas mais "
 "escura:"
 
 #: browser/public-private.md:block 7 (paragraph)
@@ -72,4 +72,4 @@ msgid ""
 msgstr ""
 "Uma vez que você carregou uma página em uma aba, o ícone colorido do CENO na "
 "barra de endereço ajudará você a saber como de fato ele recuperou os "
-"diferentes elementos do conteúdo. Nós abordaremos esse ícone mais à frente."
+"diferentes elementos do conteúdo. Nós abordaremos este ícone mais à frente."
