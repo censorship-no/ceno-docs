@@ -1,13 +1,19 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2023-04-26 05:53+0000\n"
+"Last-Translator: leilane <leilane.a@protonmail.com>\n"
+"Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
+"censorship-no/browser-troubleshooting/pt_BR/>\n"
 "Language: pt_BR\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #: browser/troubleshooting.md:block 1 (header)
 msgid "Troubleshooting"
-msgstr ""
+msgstr "Solução de problemas"
 
 #: browser/troubleshooting.md:block 2 (paragraph)
 msgid ""
@@ -18,20 +24,28 @@ msgid ""
 "network infrastructure, as well as which content other users have retrieved "
 "and the characteristics of their connections."
 msgstr ""
+"Esta seção dará algumas dicas sobre o que fazer quando problemas diferentes, "
+"desconhecidos surgem com CENO e Ouinet. Por favor, tenha em mente que estes "
+"projetos são experimentais e que suas operações estão sujeitas a uma "
+"multitude de fatores além do nosso controle, como a configuração específica "
+"e o estado da infraestrutura da rede, bem como qual conteúdo outros usuários "
+"recuperaram e as características das conexões deles."
 
 #: browser/troubleshooting.md:block 3 (paragraph)
 msgid ""
 "If problems still persist, please report them to [cenoers@equalit.ie](mailto:"
 "cenoers@equalit.ie). We will try to help you with them."
 msgstr ""
+"Se os problemas persistirem, por favor os relate para [cenoers@equalit."
+"ie](mailto:cenoers@equalit.ie). Tentaremos ajudar você a resolvê-los."
 
 #: browser/troubleshooting.md:block 4 (header)
 msgid "There is no CENO entry in the app menu"
-msgstr ""
+msgstr "Não há a entrada CENO no menu do aplicativo"
 
 #: browser/troubleshooting.md:block 5 (paragraph)
 msgid "The CENO Extension may still be loading. Please be patient."
-msgstr ""
+msgstr "A Extensão CENO pode ainda estar carregando. Por favor, seja paciente."
 
 #: browser/troubleshooting.md:block 6 (header)
 msgid "All widgets are grayed-out in the *CENO Settings* page"
