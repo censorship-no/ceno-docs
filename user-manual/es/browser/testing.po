@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-16 04:04+0200\n"
-"PO-Revision-Date: 2023-04-01 01:38+0000\n"
+"PO-Revision-Date: 2023-04-26 05:53+0000\n"
 "Last-Translator: Soledad Magnone <soledad.magnone@proton.me>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/censorship-no/"
 "browser-testing/es/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.17-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #
 #: browser/testing.md:block 1 (header)
@@ -71,7 +71,7 @@ msgid ""
 "provider or country, looking up the bridge swarm and trying to contact the "
 "injector via some other Ouinet client."
 msgstr ""
-"Comprobemos primero si tu CENO Browser puede alcanzar a un inyector. Esto "
+"Comprobemos primero si tu Navegador CENO puede alcanzar a un inyector. Esto "
 "podría parecer trivial, pero tu cliente ya estaría ejercitando varias "
 "características de Ouinet en el proceso: buscando la dirección del inyector "
 "en el enjambre de los mismos, intentando contactarlo directamente y, si está "
@@ -173,7 +173,7 @@ msgstr ""
 
 #: browser/testing.md:block 15 (header)
 msgid "Getting content from close users"
-msgstr "Obteniendo contenido desde usuaria(o)s cercanos"
+msgstr "Obteniendo contenido desde usuaria(o)s cercana(o)s"
 
 #: browser/testing.md:block 16 (paragraph)
 msgid ""
