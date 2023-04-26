@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-04-25 18:13+0000\n"
+"PO-Revision-Date: 2023-04-27 06:43+0000\n"
 "Last-Translator: luana <luanafaustini@tutanota.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "censorship-no/qsg/pt_BR/>\n"
@@ -53,10 +53,10 @@ msgid ""
 "privacy for some page or if it is not loading as expected, use a private tab "
 "(see [public vs. private browsing](../concepts/public-private.md))."
 msgstr ""
-"Navegue pelas páginas normalmente para ajudar de outros usuários a "
-"acessá-las; se houver preocupações sobre a privacidade para algumas páginas "
-"ou se não estiver carregando como deveria, use uma aba privativa (veja ["
-"navegação pública versus privativa](../concepts/public-private.md))."
+"Navegue pelas páginas normalmente para ajudar outros usuários a acessá-las; "
+"se houver preocupações sobre a privacidade para algumas páginas ou se não "
+"estiver carregando como deveria, use uma aba privativa (veja [navegação "
+"pública versus privativa](../concepts/public-private.md))."
 
 #: intro/qsg.md:block 5 (ordered list)
 msgid "Tap on the CENO notification to stop it completely."
@@ -70,23 +70,22 @@ msgstr ""
 
 #: intro/qsg.md:block 7 (header)
 msgid "Configuration"
-msgstr "Configração"
+msgstr "Configuração"
 
 #: intro/qsg.md:block 8 (paragraph)
 msgid ""
 "CENO Browser should work out-of-the-box. You can find some [diagnostics and "
 "settings](../browser/settings.md) under the *CENO* menu entry."
 msgstr ""
-"O Navegador CENO deveria funcionar imediatamente. Você pode encontrar uma "
-"gama de [diagnósticos e configurações](../browser/settings.md) sob o menu "
-"*CENO*."
+"O Navegador CENO deve funcionar imediatamente. Você pode encontrar uma gama "
+"de [diagnósticos e configurações](../browser/settings.md) sob o menu *CENO*."
 
 #: intro/qsg.md:block 9 (paragraph)
 msgid ""
 "If you want to make sure that your app is also helping others access blocked "
 "content, please [read this section](../browser/bridging.md)."
 msgstr ""
-"Se vocẽ quer ter certeza de que seu aplicativo está também ajudando outras "
+"Se você quer ter certeza de que seu aplicativo está também ajudando outras "
 "pessoas a acessar conteúdo bloqueado, por favor [leia esta seção](../browser/"
 "bridging.md)."
 
