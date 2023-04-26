@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2023-04-01 01:38+0000\n"
+"PO-Revision-Date: 2023-04-26 05:53+0000\n"
 "Last-Translator: Soledad Magnone <soledad.magnone@proton.me>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/censorship-no/"
 "browser-settings/es/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.17-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #
 #: browser/settings.md:block 1 (header)
@@ -153,8 +153,8 @@ msgstr ""
 "Al acceder contenido sobre HTTPS, solamente los servidores de origen serán "
 "capaces de descifrar el tráfico. Al usar HTTP común, el inyector también "
 "podría ver el tráfico no cifrado (pero aún así no firma o comparte su "
-"contenido con otros). Otros participantes, como los puentes, nunca verán el "
-"tráfico no cifrado."
+"contenido con otros). Otra(o)s participantes, como los puentes, nunca verán "
+"el tráfico no cifrado."
 
 #: browser/settings.md:block 8 (unordered list)
 msgid ""
@@ -171,7 +171,8 @@ msgstr ""
 #: browser/settings.md:block 8 (unordered list)
 msgid ""
 "Other participants (such as bridges) will not see the unencrypted traffic."
-msgstr "Otros participantes (como los puentes) no verán el tráfico no cifrado."
+msgstr ""
+"Otra(o)s participantes (como los puentes) no verán el tráfico no cifrado."
 
 #: browser/settings.md:block 8 (unordered list)
 msgid "This mechanism only works in public browsing mode."
@@ -206,7 +207,7 @@ msgstr ""
 
 #: browser/settings.md:block 11 (header)
 msgid "About your app"
-msgstr "Acerca de tu aplicación"
+msgstr "Acerca de tu app"
 
 #: browser/settings.md:block 12 (paragraph)
 msgid ""
