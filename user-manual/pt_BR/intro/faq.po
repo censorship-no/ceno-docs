@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-04-22 11:51+0000\n"
-"Last-Translator: leilane <leilane.a@protonmail.com>\n"
+"PO-Revision-Date: 2023-04-27 06:43+0000\n"
+"Last-Translator: luana <luanafaustini@tutanota.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "censorship-no/faq/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -13,7 +13,7 @@ msgstr ""
 
 #: intro/faq.md:block 1 (header)
 msgid "Frequently Asked Questions"
-msgstr "Perguntas mais frequentes"
+msgstr "Perguntas Mais Frequentes"
 
 #: intro/faq.md:block 2 (header)
 msgid "Usage"
@@ -39,7 +39,7 @@ msgstr ""
 "Porque o CENO é baseado no Mozilla Firefox para Android, ele oferece todas "
 "as funcionalidades que são esperadas de um navegador moderno. No entanto, "
 "sua dependência da tecnologia Ouinet para recuperação de conteúdo web pode "
-"afetar sua operação de maneiras sutis (algumas delas envolvendo sua "
+"afetar sua operação de maneiras sutis (algumas delas podendo envolver sua "
 "privacidade)."
 
 #: intro/faq.md:block 6 (paragraph)
