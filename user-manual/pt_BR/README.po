@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-04-20 12:56+0000\n"
-"Last-Translator: leilane <leilane.a@protonmail.com>\n"
+"PO-Revision-Date: 2023-04-27 06:43+0000\n"
+"Last-Translator: luana <luanafaustini@tutanota.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "censorship-no/homepage-readme/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -13,7 +13,7 @@ msgstr ""
 
 #: README.md:block 1 (header)
 msgid "Censorship.no! User Manual"
-msgstr "Censorship.no! Manual do Usuário"
+msgstr "Censorship.no! Manual de Usuário"
 
 #: README.md:block 2 (paragraph)
 msgid ""
@@ -21,7 +21,7 @@ msgid ""
 "technologies, as created for the [Censorship.no!][Censorship.no!] project by "
 "[eQualitie][eQualitie]."
 msgstr ""
-"Este manual é destinado a usuários do [Navegador CENO][CENO Browser] e "
+"Este manual é destinado a usuários do [Navegador CENO][Navegador CENO] e "
 "tecnologias relacionadas, conforme criadas para o projeto [Censorship."
 "no!][Censorship.no!] pela [eQualitie][eQualitie]."
 
@@ -54,7 +54,7 @@ msgstr "[eQualitie]: https://equalit.ie/"
 msgid ""
 "[CENO documentation repository]: https://github.com/censorship-no/ceno-docs/"
 msgstr ""
-"[Repositório de documentação do CENO]: https://github.com/censorship-no/"
+"[repositório de documentação do CENO]: https://github.com/censorship-no/"
 "ceno-docs/"
 
 #: README.md:block 3 (paragraph)
