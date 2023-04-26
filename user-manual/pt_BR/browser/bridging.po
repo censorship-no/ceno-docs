@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-04-26 05:53+0000\n"
+"PO-Revision-Date: 2023-04-27 06:43+0000\n"
 "Last-Translator: leilane <leilane.a@protonmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "censorship-no/browser-bridging/pt_BR/>\n"
@@ -224,7 +224,7 @@ msgid ""
 "will indicate the UPnP status on your local network."
 msgstr ""
 "[UPnP][UPnP] é a maneira mais fácil de tornar o seu Navegador CENO (ou "
-"cliente de computador) alcançável à rede CENO. A página de [Configurações do "
+"cliente de computador) alcançável à rede CENO. A página [Configurações do "
 "CENO](settings.md) irá indicar o estado do UPnP em sua rede local."
 
 #: browser/bridging.md:block 21 (quote)
@@ -247,7 +247,7 @@ msgstr ""
 
 #: browser/bridging.md:block 23 (quote)
 msgid "**Reachability status**"
-msgstr "**Estados de acessibilidade**"
+msgstr "**Estado de acessibilidade**"
 
 #: browser/bridging.md:block 23 (quote)
 msgid "**UPnP status**"
@@ -363,8 +363,8 @@ msgstr ""
 "são encaminhadas para o seu dispositivo. Você precisará fazer login na "
 "interface administrativa do roteador e localizar a opção *redirecionamento "
 "de porta*. Para ver para qual endereço de IP você precisa redirecionar as "
-"conexões e a porta relevante, abra a página de *Configurações do CENO* e "
-"veja a seção *Endpoints UDP locais*."
+"conexões e a porta relevante, abra a página *Configurações do CENO* e veja a "
+"seção *Endpoints UDP locais*."
 
 #: browser/bridging.md:block 33 (quote)
 #, fuzzy
@@ -383,8 +383,8 @@ msgstr ""
 "escolhe uma porta randômica na primeira execução e mantém tal escolha para "
 "as execuções subsequentes. Mas o endereço de IP rede local do seu "
 "dispositivo pode mudar de tempos em tempos. Por isso, você deveria "
-"periodicamente rever a página de *Configurações do CENO* para confirmar se "
-"seu dispositivo está alcançável pela rede CENO."
+"periodicamente rever a página *Configurações do CENO* para confirmar se seu "
+"dispositivo está alcançável pela rede CENO."
 
 #: browser/bridging.md:block 35 (quote)
 msgid ""
