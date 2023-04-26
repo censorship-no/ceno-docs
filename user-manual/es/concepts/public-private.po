@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-16 04:02+0200\n"
-"PO-Revision-Date: 2023-04-10 10:49+0000\n"
+"PO-Revision-Date: 2023-04-27 06:43+0000\n"
 "Last-Translator: Soledad Magnone <soledad.magnone@proton.me>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/censorship-no/"
 "public-private/es/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.17-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #
 #: concepts/public-private.md:block 1 (header)
@@ -32,11 +32,11 @@ msgstr ""
 "Debido a las muchas técnicas usadas para superar a las dificultades de "
 "conectividad, CENO podría tornarse para tí en una manera conveniente de "
 "obtener todas clases de contenido Web. Y, como podrías ya haber leído en "
-"secciones previas, cada vez que descargues y siembres una página usando CENO "
-"Browser, se hace disponible para otra(o)s. Podría haber algún contenido, sin "
-"embargo, que no deseas compartir (o no quieres dejar que otros sepan que "
-"estás intentando descargar o que ya descargaste), y afortunadamente CENO "
-"también puede ayudarte en esta instancia."
+"secciones previas, cada vez que descargues y siembres una página usando el "
+"Navegador CENO, se hace disponible para otra(o)s. Podría haber algún "
+"contenido, sin embargo, que no deseas compartir (o no quieres dejar que "
+"otra(o)s sepan que estás intentando descargar o que ya descargaste), y "
+"afortunadamente CENO también puede ayudarte en esta instancia."
 
 #: concepts/public-private.md:block 3 (paragraph)
 msgid ""
@@ -52,14 +52,14 @@ msgstr "Se intenta el acceso directo."
 
 #: concepts/public-private.md:block 4 (ordered list)
 msgid "Failing that, the distributed cache is searched."
-msgstr "Si eso falla, se busca en la caché distribuída."
+msgstr "Fallando eso, se busca en la caché distribuída."
 
 #: concepts/public-private.md:block 4 (ordered list)
 msgid ""
 "Failing that, the content is requested via an injector (maybe via another "
 "client)."
 msgstr ""
-"Si eso falla, el contenido es solicitado a través de un inyector (tal vez "
+"Fallando eso, el contenido es solicitado a través de un inyector (tal vez "
 "vía otro cliente)."
 
 #: concepts/public-private.md:block 5 (paragraph)
@@ -110,7 +110,7 @@ msgid ""
 "removed by the client)."
 msgstr ""
 "Páginas que requieran autenticación no funcionan (ya que contraseñas y "
-"cookies son removidas por el cliente)."
+"cookies son removidas por la/el cliente)."
 
 #: concepts/public-private.md:block 8 (ordered list)
 msgid ""
@@ -203,4 +203,4 @@ msgstr ""
 "detallada. También ten en cuenta que tu cliente puede continuar operando "
 "como puente y sembrador independientemente de la navegación pública o "
 "privada. Explicamos esto en mayor detalle en la sección del manual [Ayudando "
-"a otros](../browser/bridging.md)."
+"a otra(o)s](../browser/bridging.md)."
