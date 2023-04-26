@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-03 02:50+0200\n"
-"PO-Revision-Date: 2023-04-10 10:49+0000\n"
+"PO-Revision-Date: 2023-04-27 06:43+0000\n"
 "Last-Translator: Soledad Magnone <soledad.magnone@proton.me>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/censorship-no/"
 "faq/es/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.17-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #
 #: intro/faq.md:block 1 (header)
@@ -90,10 +90,10 @@ msgstr ""
 "A pesar de que CENO se esfuerce en proveer una experiencia de usuario tan "
 "similar a la navegación Web normal como sea posible, algunas de las técnicas "
 "usadas para evitar interferencia de red no van bien con sitios de tal "
-"dinamismo. Este es el caso con el modo de operación por defecto de CENO "
-"(esto es, navegación pública), ya que remueve todos los datos privados (como "
+"dinamismo. Este es el caso con el modo de operación por defecto de CENO ("
+"esto es, navegación pública), ya que remueve todos los datos privados (como "
 "contraseñas y cookies) del tráfico Web para asegurar que no se filtre a "
-"otros usuarios de CENO o Ouinet en quienes no se confía."
+"otra(o)s usuaria(o)s de CENO o Ouinet en quienes no se confía."
 
 #: intro/faq.md:block 11 (paragraph)
 msgid ""
@@ -270,7 +270,7 @@ msgstr ""
 
 #: intro/faq.md:block 32 (header)
 msgid "Do I need to be connected to Wi-Fi to use CENO Browser?"
-msgstr "¿Necesito estar conectado a Wi-Fi para usar al Navegador CENO?"
+msgstr "¿Necesito estar conectada(o) a Wi-Fi para usar al Navegador CENO?"
 
 #: intro/faq.md:block 33 (paragraph)
 msgid "Short answer: no, but we strongly recommend it."
