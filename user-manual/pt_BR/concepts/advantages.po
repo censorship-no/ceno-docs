@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-04-27 06:43+0000\n"
+"PO-Revision-Date: 2023-04-28 07:52+0000\n"
 "Last-Translator: luana <luanafaustini@tutanota.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "censorship-no/advantages/pt_BR/>\n"
@@ -103,8 +103,8 @@ msgstr ""
 
 #: concepts/advantages.md:block 3 (unordered list)
 msgid "[Slashdot effect]: https://en.wikipedia.org/wiki/Slashdot_effect"
-msgstr "[efeito Slashdot]: https://en.wikipedia.org/wiki/Slashdot_effect"
+msgstr "[efeito Slashdot]: https://pt.wikipedia.org/wiki/Efeito_Digg"
 
 #: concepts/advantages.md:block 3 (unordered list)
 msgid "[National intranet]: https://en.wikipedia.org/wiki/National_intranet"
-msgstr "[intranet nacional]: https://en.wikipedia.org/wiki/National_intranet"
+msgstr "[intranet nacional]: https://pt.wikipedia.org/wiki/Intranet_nacional"
