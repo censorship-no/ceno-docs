@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-04-27 06:43+0000\n"
-"Last-Translator: leilane <leilane.a@protonmail.com>\n"
+"PO-Revision-Date: 2023-04-28 07:52+0000\n"
+"Last-Translator: luana <luanafaustini@tutanota.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "censorship-no/browser-bridging/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -410,7 +410,7 @@ msgstr "[Don't kill my app!]: https://dontkillmyapp.com/"
 
 #: browser/bridging.md:block 35 (quote)
 msgid "[docker]: https://en.wikipedia.org/wiki/Docker_(software)"
-msgstr "[docker]: https://en.wikipedia.org/wiki/Docker_(software)"
+msgstr "[docker]: https://pt.wikipedia.org/wiki/Docker_(software)"
 
 #: browser/bridging.md:block 35 (quote)
 msgid "[docker-install]: https://docs.docker.com/engine/install/"
@@ -426,7 +426,7 @@ msgstr ""
 
 #: browser/bridging.md:block 35 (quote)
 msgid "[UPnP]: https://en.wikipedia.org/wiki/Universal_Plug_and_Play"
-msgstr "[UPnP]: https://en.wikipedia.org/wiki/Universal_Plug_and_Play"
+msgstr "[UPnP]: https://pt.wikipedia.org/wiki/Universal_Plug_and_Play"
 
 #: browser/bridging.md:block 35 (quote)
 msgid ""
@@ -438,4 +438,4 @@ msgstr ""
 
 #: browser/bridging.md:block 35 (quote)
 msgid "[CGNAT]: https://en.wikipedia.org/wiki/Carrier-grade_NAT"
-msgstr "[CGNAT]: https://en.wikipedia.org/wiki/Carrier-grade_NAT"
+msgstr "[CGNAT]: https://pt.wikipedia.org/wiki/Carrier_Grade_NAT"
