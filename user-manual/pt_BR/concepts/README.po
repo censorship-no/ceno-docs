@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-04-20 12:56+0000\n"
-"Last-Translator: leilane <leilane.a@protonmail.com>\n"
+"PO-Revision-Date: 2023-04-28 07:52+0000\n"
+"Last-Translator: luana <luanafaustini@tutanota.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "censorship-no/concepts-readme/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -27,7 +27,7 @@ msgstr ""
 "escassez na rede, CENO faz uso de variadas técnicas dos campos de World Wide "
 "Web, sistemas de compartilhamento de arquivo e criptografia avançada. Tais "
 "técnicas são inventivamente combinadas pela Ouinet de modo a tornar a "
-"experiência de uso do CENO o mais próxima possível da navegação Web Normal."
+"experiência de uso do CENO o mais próxima possível da navegação Web normal."
 
 #: concepts/README.md:block 3 (paragraph)
 msgid ""
