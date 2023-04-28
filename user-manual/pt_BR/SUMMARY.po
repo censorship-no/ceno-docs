@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-04-27 06:43+0000\n"
+"PO-Revision-Date: 2023-04-28 07:52+0000\n"
 "Last-Translator: luana <luanafaustini@tutanota.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "censorship-no/user-manual/pt_BR/>\n"
@@ -81,7 +81,7 @@ msgstr "[Testando o Navegador](browser/testing.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Helping others](browser/bridging.md)"
-msgstr "[Ajudando os demais](browser/bridging.md)"
+msgstr "[Ajudando outras pessoas](browser/bridging.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Troubleshooting](browser/troubleshooting.md)"
