@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-04-28 07:52+0000\n"
+"PO-Revision-Date: 2023-04-29 08:50+0000\n"
 "Last-Translator: luana <luanafaustini@tutanota.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "censorship-no/ouinet/pt_BR/>\n"
@@ -54,7 +54,7 @@ msgstr ""
 "autenticidade do conteúdo intercambiado (criptografia TLS e assinaturas "
 "Ed25519). A Ouinet permite a substituição de tecnologias específicas por "
 "outras, se necessário (por exemplo, alguns usos do µTP podem ser "
-"substituídos por Pluggable Transports do Tor)."
+"substituídos por Transportes Plugáveis do Tor)."
 
 #: intro/ouinet.md:block 4 (paragraph)
 msgid ""
