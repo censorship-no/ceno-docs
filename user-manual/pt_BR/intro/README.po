@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-04-27 06:43+0000\n"
+"PO-Revision-Date: 2023-04-28 07:52+0000\n"
 "Last-Translator: luana <luanafaustini@tutanota.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "censorship-no/readme/pt_BR/>\n"
@@ -112,8 +112,8 @@ msgstr "[relatórios-ooni]: https://ooni.org/reports/"
 
 #: intro/README.md:block 6 (paragraph)
 msgid "[magma-reports]: https://magma.lavafeld.org/publications/"
-msgstr "[magma-reports]: https://magma.lavafeld.org/publications/"
+msgstr "[relatórios-magma]: https://magma.lavafeld.org/publications/"
 
 #: intro/README.md:block 6 (paragraph)
 msgid "[cplan-reports]: https://censoredplanet.org/reports"
-msgstr "[cplan-reports]: https://censoredplanet.org/reports"
+msgstr "[relatórios-cplan]: https://censoredplanet.org/reports"
