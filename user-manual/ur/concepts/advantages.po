@@ -1,13 +1,19 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2023-04-02 05:39+0000\n"
+"Last-Translator: Connectech <info@connectech.org>\n"
+"Language-Team: Urdu <https://hosted.weblate.org/projects/censorship-no/"
+"advantages/ur/>\n"
 "Language: ur\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.17-dev\n"
 
 #: concepts/advantages.md:block 1 (header)
 msgid "Advantages of using CENO/Ouinet"
-msgstr ""
+msgstr "CENO/Ouinet استعمال کرنے کے فوائد"
 
 #: concepts/advantages.md:block 2 (paragraph)
 msgid ""
@@ -16,6 +22,11 @@ msgid ""
 "traffic for one another, sign content for later verification, and store "
 "signed content for seeding to others. Some advantages worth mentioning are:"
 msgstr ""
+"CENO اور Ouinet کا استعمال کرنے کے اہم فوائد دیگر ٹریفک ٹیکنالوجیز کے مقابلے "
+"میں کلائنٹس اور انجیکٹرز کے تعاون سے پیدا ہوتے ہیں تاکہ ایک دوسرے کے لیے "
+"ٹریفک کو آگے بڑھایا جائے، بعد میں تصدیق کے لیے مواد پر دستخط کیے جائیں، اور "
+"دستخط شدہ مواد کو دوسروں تک پہنچانے کے لیے اسٹور کیا جائے۔ کچھ فوائد قابل "
+"ذکر ہیں:"
 
 #: concepts/advantages.md:block 3 (unordered list)
 msgid ""
@@ -24,6 +35,11 @@ msgid ""
 "blocking. There is no need for new custom links to popular content, or "
 "special actions from the user (like transferring files between applications)."
 msgstr ""
+"**مانوس استعمال:** CENO براؤزر کا استعمال کرتے ہوئے ویب مواد تک رسائی حاصل "
+"کرنا آپ کے عادی براؤزر پر ویب پر سرفنگ کرنے جیسا محسوس ہوتا ہے، یہاں تک کہ "
+"مکمل بلاکنگ کے دوران بھی۔ مقبول مواد کے لیے نئے حسب ضرورت لنکس، یا صارف کی "
+"جانب سے خصوصی اقدامات (جیسے ایپلیکیشنز کے درمیان فائلوں کی منتقلی) کی کوئی "
+"ضرورت نہیں ہے۔"
 
 #: concepts/advantages.md:block 3 (unordered list)
 msgid ""
@@ -32,6 +48,10 @@ msgid ""
 "interference. The more popular some particular content gets, the more copies "
 "of it get seeded by CENO/Ouinet clients, and the more available it becomes."
 msgstr ""
+"**مواد کی بڑھتی ہوئی دستیابی:** Ouinet انتہائی نیٹ ورک مداخلت کے حالات میں "
+"موثر اور بھروسہ مند انداز میں مواد فراہم کرنے کے قابل ہے۔ کچھ خاص مواد جتنا "
+"زیادہ مقبول ہوتا ہے، اس کی اتنی ہی زیادہ کاپیاں CENO/Ouinet کلائنٹس کے ذریعے "
+"سیڈ ہوتی ہیں، اور یہ اتنا ہی زیادہ دستیاب ہوتا ہے۔"
 
 #: concepts/advantages.md:block 3 (unordered list)
 msgid ""
@@ -39,6 +59,9 @@ msgid ""
 "over offline means (e.g. a USB drive) and thus made available to other "
 "clients."
 msgstr ""
+"دستخط شدہ مواد کو آف لائن ذرائع (جیسے USB ڈرائیو) کے ذریعے منقطع علاقے میں "
+"مخصوص کلائنٹس میں لایا جا سکتا ہے اور اس طرح دوسرے کلائنٹس کو دستیاب کرایا "
+"جا سکتا ہے۔"
 
 #: concepts/advantages.md:block 3 (unordered list)
 msgid ""
@@ -51,6 +74,14 @@ msgid ""
 "resource usage spikes at origin servers when some of their content becomes "
 "very popular (the so-called [Slashdot effect][Slashdot effect])."
 msgstr ""
+"**تیز براؤزنگ:** چونکہ آپ کا کلائنٹ ایک ہی وقت میں مختلف کلائنٹس سے ایک ہی "
+"مواد کے مختلف حصوں کو بازیافت کرسکتا ہے، اس لیے مواد کی فراہمی کا بوجھ مختلف "
+"نیٹ ورکس اور ڈیوائسز میں تقسیم کیا جاتا ہے، اس طرح کسی ایک کلائنٹ کے راستے "
+"بند ہونے سے بچتے ہیں ( خاص طور پر جب ویڈیو جیسے بڑے وسائل کی فراہمی ہو)۔ یہ "
+"نہ صرف اس وقت مفید ہے جب انفراسٹرکچر دوسرے ممالک سے منسلک ہو، بلکہ پبلشرز کے "
+"لیے اصل سرورز پر وسائل کے استعمال میں اضافے سے بچنے کے لیے بھی مفید ہے جب ان "
+"کا کچھ مواد بہت مقبول ہو جائے (جيسے نام نہاد [Slashdot effect][Slashdot "
+"effect])۔"
 
 #: concepts/advantages.md:block 3 (unordered list)
 msgid ""
@@ -62,11 +93,17 @@ msgid ""
 "of a [national intranet][National intranet]), this can actually save you "
 "money."
 msgstr ""
+"**سستی براؤزنگ:** کسی خاص علاقے میں مقبول مواد اس خطے میں CENO/Ouinet "
+"کلائنٹس میں کاپی کیا جاتا ہے، چاہے اصل سرور بیرون ملک ہی کیوں نہ ہو۔ اگر آپ "
+"اس مواد میں دلچسپی رکھتے ہیں تو، آپ کے کلائنٹ کو یہ مواد شاید آپ کے علاقے "
+"میں کسی دوسرے کلائنٹ سے ملے گا۔ کچھ ممالک میں جہاں بین الاقوامی ٹریفک مقامی "
+"سے زیادہ مہنگی ہے(مثال کے طور پر ایک [قومی انٹرانیٹ][national intranet] کی "
+"موجود میں)، یہ حقیقت میں آپ کے پیسے بچا سکتا ہے۔"
 
 #: concepts/advantages.md:block 3 (unordered list)
 msgid "[Slashdot effect]: https://en.wikipedia.org/wiki/Slashdot_effect"
-msgstr ""
+msgstr "[Slashdot effect]: https://en.wikipedia.org/wiki/Slashdot_effect"
 
 #: concepts/advantages.md:block 3 (unordered list)
 msgid "[National intranet]: https://en.wikipedia.org/wiki/National_intranet"
-msgstr ""
+msgstr "[قومی انٹرانیٹ]: https://en.wikipedia.org/wiki/National_intranet"

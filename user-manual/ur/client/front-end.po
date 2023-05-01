@@ -1,13 +1,19 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2023-04-02 05:39+0000\n"
+"Last-Translator: Connectech <info@connectech.org>\n"
+"Language-Team: Urdu <https://hosted.weblate.org/projects/censorship-no/"
+"client-front-end/ur/>\n"
 "Language: ur\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.17-dev\n"
 
 #: client/front-end.md:block 1 (header)
 msgid "Annex: The Ouinet client front-end"
-msgstr ""
+msgstr "ملحقہ: Ouinet کلائنٹ فرنٹ اینڈ"
 
 #: client/front-end.md:block 2 (paragraph)
 msgid ""
@@ -16,6 +22,10 @@ msgid ""
 "Many of them are also offered by the CENO Extension via the [*CENO Settings* "
 "page](../browser/settings.md), though others are only available here."
 msgstr ""
+"Ouinet کلائنٹ (جیسا کہ CENO براؤزر چلاتا ہے) کچھ معلومات اور اعمال کے ساتھ "
+"ایک فرنٹ اینڈ صفحہ پیش کرتا ہے جو کلائنٹ کو ڈیبگ کرنے کے لیے مفید ہو سکتا ہے۔"
+" ان میں سے بہت سے CENO ایکسٹینشن کے ذریعہ [*CENO ترتیبات* صفحہ](../browser/"
+"settings.md) کے ذریعے بھی پیش کیے جاتے ہیں، حالانکہ دیگر صرف یہاں دستیاب ہیں۔"
 
 #: client/front-end.md:block 3 (paragraph)
 msgid ""
@@ -23,20 +33,26 @@ msgid ""
 "device (you can use CENO too). Its default address is <http://127.0.0.1:8078/"
 ">. If you open it, you will see something like the figure below."
 msgstr ""
+"فرنٹ اینڈ ایک ہی ڈیوائس پر چلنے والے کسی بھی سادہ ویب براؤزر کا استعمال کرتے "
+"ہوئے قابل رسائی ہے (آپ CENO بھی استعمال کر سکتے ہیں)۔ اس کا ڈیفالٹ پتہ "
+"<http://127.0.0.1:8078/> ہے۔ اگر آپ اسے کھولیں گے تو آپ کو نیچے دی گئی تصویر "
+"کی طرح کچھ نظر آئے گا۔"
 
 #: client/front-end.md:block 4 (paragraph)
 msgid "![Figure: The client front-end](images/front-end.png)"
-msgstr ""
+msgstr "![تصویر: کلائنٹ فرنٹ اینڈ](images/front-end.png)"
 
 #: client/front-end.md:block 5 (paragraph)
 msgid "The items shown in the page include:"
-msgstr ""
+msgstr "صفحہ میں دکھائے گئے آئٹمز میں شامل ہیں:"
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
 "A link to enable the client as a certificate authority (CA) at your browser, "
 "since the client needs to intercept HTTPS traffic."
 msgstr ""
+"آپ کے براؤزر پر کلائنٹ کو بطور سرٹیفکیٹ اتھارٹی (CA) فعال کرنے کا ایک لنک، "
+"کیونکہ کلائنٹ کو HTTPS ٹریفک کو روکنے کی ضرورت ہے۔"
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
@@ -46,18 +62,27 @@ msgid ""
 "for injection to work. We very strongly recommend using a *separate, "
 "specific browser profile* for this purpose."
 msgstr ""
+"آپ کو صرف Ouinet کلائنٹ کی جانچ کے لیے ایک سادہ براؤزر استعمال کرنے کے لیے "
+"اس کی ضرورت ہے، ایسی صورت میں آپ کو اس کی HTTP/HTTPS پراکسیز کو `127.0.0."
+"1:8077` پر ترتیب کرنا پڑے گا، اور انجکشن کو کام کرنے کے لئے [CENO ایکسٹینشن]["
+"CENO Extension] کو دستی طور پر فعال کرنا ہوگا۔ ہم اس مقصد کے لیے ایک *علیحدہ،"
+" مخصوص براؤزر پروفائل* استعمال کرنے کی سختی سے سفارش کرتے ہیں۔"
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
 "Please note that none of this needs to be done for CENO Browser, since it is "
 "already configured like that."
 msgstr ""
+"براہ کرم نوٹ کریں کہ CENO براؤزر کے لیے اس میں سے کسی کو بھی کرنے کی ضرورت "
+"نہیں ہے، کیونکہ یہ پہلے ہی اس طرح ترتیب دیا گیا ہے۔"
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
 "Buttons to enable or disable the different mechanisms used by the client to "
 "access content."
 msgstr ""
+"مواد تک رسائی کے لیے کلائنٹ کے استعمال کردہ مختلف طریقہ کار کو فعال یا غیر "
+"فعال کرنے کے بٹن۔"
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
@@ -66,6 +91,9 @@ msgid ""
 "useful for reporting errors). The log file can also be enabled and retrieved "
 "from here."
 msgstr ""
+"منتخب کنندگان مختلف لاگ لیولز کا انتخاب کریں، جیسے ڈیفالٹ `INFO` (معلوماتی "
+"پیغامات، انتباہات اور غلطیاں) یا `DEBUG` (غلطیوں کی اطلاع دینے کے لیے مفید "
+"وربوز آؤٹ پٹ)۔ لاگ فائل کو یہاں سے بھی فعال اور بازیافت کیا جا سکتا ہے۔"
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
@@ -73,11 +101,15 @@ msgid ""
 "(though you may change it again from here). When disabling the log file, the "
 "original log level is restored."
 msgstr ""
+"لاگ فائل کو فعال کرتے وقت، لاگ لیول خود بخود `DEBUG` پر سیٹ ہو جاتا ہے ("
+"حالانکہ آپ اسے یہاں سے دوبارہ تبدیل کر سکتے ہیں)۔ لاگ فائل کو غیر فعال کرتے "
+"وقت، لاگ کی اصل سطح بحال ہو جاتی ہے۔"
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
 "Global client state and version information. Useful when reporting errors."
 msgstr ""
+"عالمی کلائنٹ کی حالت اور ورژن کی معلومات۔ غلطیوں کی اطلاع دیتے وقت مفید ہے۔"
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
@@ -85,12 +117,17 @@ msgid ""
 "`bep5` method looks up Internet addresses in a BitTorrent injector swarm, as "
 "explained [here](../concepts/how.md)."
 msgstr ""
+"کلائنٹ کنیکٹیویٹی اور انجیکٹر ایڈریسنگ کے بارے میں معلومات۔ پہلے سے طے شدہ "
+"`bep5` طریقہ BitTorrent انجیکٹر بھیڑ میں انٹرنیٹ ایڈریس تلاش کرتا ہے، جیسا "
+"کہ [یہاں] (../concepts/how.md) کی وضاحت کی گئی ہے۔"
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
 "The public key used to verify signatures from injectors in the distributed "
 "cache."
 msgstr ""
+"عوامی کلید تقسیم شدہ کیش میں انجیکٹر سے دستخطوں کی تصدیق کے لیے استعمال ہوتی "
+"ہے۔"
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
@@ -98,13 +135,18 @@ msgid ""
 "size of the cache, a button to purge it completely, and a link to the list "
 "of announced cache entries."
 msgstr ""
+"آپ کے مقامی کیش پر معلومات جیسے مواد کی زیادہ سے زیادہ عمر، کیش کا تخمینی "
+"سائز، اسے مکمل طور پر صاف کرنے کے لیے ایک بٹن، اور اعلان کردہ کیش اندراجات "
+"کی فہرست کا لنک۔"
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
 "The directory of the external, static cache if enabled (CENO does not "
 "currently use this)."
 msgstr ""
+"بیرونی، جامد کیش کی ڈائرکٹری اگر فعال ہو (CENO فی الحال اسے استعمال نہیں "
+"کرتا ہے)۔"
 
 #: client/front-end.md:block 6 (unordered list)
 msgid "[CENO Extension]: https://github.com/censorship-no/ceno-ext-settings/"
-msgstr ""
+msgstr "[CENO ایکسٹینشن]: https://github.com/censorship-no/ceno-ext-settings/"

@@ -1,13 +1,19 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2023-03-13 17:38+0000\n"
+"Last-Translator: Alexthegib <jcwkgxc@nightorb.com>\n"
+"Language-Team: Portuguese <https://hosted.weblate.org/projects/censorship-no/"
+"client-front-end/pt/>\n"
 "Language: pt\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.16.2-dev\n"
 
 #: client/front-end.md:block 1 (header)
 msgid "Annex: The Ouinet client front-end"
-msgstr ""
+msgstr "Anexo: o front-end do cliente Ouinet"
 
 #: client/front-end.md:block 2 (paragraph)
 msgid ""
@@ -16,6 +22,11 @@ msgid ""
 "Many of them are also offered by the CENO Extension via the [*CENO Settings* "
 "page](../browser/settings.md), though others are only available here."
 msgstr ""
+"O cliente Ouinet (como gerido, por exemplo, pelo CENO Browser) oferece uma "
+"página de front-end com algumas informações e acções que podem ser úteis "
+"para a depuração do cliente. Muitas delas são também oferecidas pela "
+"Extensão CENO através da página [*CENO Settings*](.../browser/settings.md), "
+"embora outras só estejam disponíveis aqui."
 
 #: client/front-end.md:block 3 (paragraph)
 msgid ""
@@ -23,20 +34,26 @@ msgid ""
 "device (you can use CENO too). Its default address is <http://127.0.0.1:8078/"
 ">. If you open it, you will see something like the figure below."
 msgstr ""
+"O front-end é acessível utilizando qualquer navegador da Web simples que "
+"funcione no mesmo dispositivo (também se pode utilizar o CENO). O seu "
+"endereço por defeito é <http://127.0.0.1:8078/>. Se o abrir, verá algo como "
+"a figura abaixo."
 
 #: client/front-end.md:block 4 (paragraph)
 msgid "![Figure: The client front-end](images/front-end.png)"
-msgstr ""
+msgstr "![Figura: front-end do cliente] (Imagens/front-end.Forum)"
 
 #: client/front-end.md:block 5 (paragraph)
 msgid "The items shown in the page include:"
-msgstr ""
+msgstr "Os itens mostrados na página incluem:"
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
 "A link to enable the client as a certificate authority (CA) at your browser, "
 "since the client needs to intercept HTTPS traffic."
 msgstr ""
+"Uma ligação para permitir ao cliente como autoridade certificadora (CA) no "
+"seu navegador, uma vez que o cliente precisa de interceptar tráfego HTTPS."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
@@ -46,18 +63,27 @@ msgid ""
 "for injection to work. We very strongly recommend using a *separate, "
 "specific browser profile* for this purpose."
 msgstr ""
+"Só precisa disto para utilizar um browser simples para testar o cliente "
+"Ouinet, caso em que também terá de configurar os seus proxies HTTP/HTTPS "
+"para `127.0.0.1:8077`, e ativar manualmente a [Extensão CENO][Extensão CENO] "
+"para injeção a funcionar. Recomendamos vivamente a utilização de um *"
+"separar, perfil de browser específico* para este fim."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
 "Please note that none of this needs to be done for CENO Browser, since it is "
 "already configured like that."
 msgstr ""
+"Note-se que nada disto precisa de ser feito para o CENO Browser, uma vez que "
+"este já está configurado dessa forma."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
 "Buttons to enable or disable the different mechanisms used by the client to "
 "access content."
 msgstr ""
+"Botões para ativar ou desativar os diferentes mecanismos utilizados pelo "
+"cliente para aceder aos conteúdos."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
@@ -66,6 +92,10 @@ msgid ""
 "useful for reporting errors). The log file can also be enabled and retrieved "
 "from here."
 msgstr ""
+"Seletores para escolher diferentes níveis de registo, como o `INFO` ("
+"mensagens informativas, avisos e erros) ou o `DEBUG` (saída verbosa útil "
+"para reportar erros). O ficheiro de registo também pode ser ativado e "
+"recuperado a partir daqui."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
@@ -73,11 +103,16 @@ msgid ""
 "(though you may change it again from here). When disabling the log file, the "
 "original log level is restored."
 msgstr ""
+"Ao ativar o ficheiro de registo, o nível de registo é automaticamente "
+"definido para `DEBUG` (embora possa alterá-lo novamente a partir daqui). Ao "
+"desativar o ficheiro de registo, o nível de registo original é restaurado."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
 "Global client state and version information. Useful when reporting errors."
 msgstr ""
+"Informação global do estado do cliente e da versão. Útil na comunicação de "
+"erros."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
@@ -85,12 +120,17 @@ msgid ""
 "`bep5` method looks up Internet addresses in a BitTorrent injector swarm, as "
 "explained [here](../concepts/how.md)."
 msgstr ""
+"Informação sobre a conectividade do cliente e o endereçamento do injetor. O "
+"método padrão `bep5` procura endereços Internet num enxame de injetores "
+"BitTorrent, como explicado [aqui](.../conceitos/como.md)."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
 "The public key used to verify signatures from injectors in the distributed "
 "cache."
 msgstr ""
+"A chave pública utilizada para verificar as assinaturas dos injetores na "
+"cache distribuída."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
@@ -98,13 +138,18 @@ msgid ""
 "size of the cache, a button to purge it completely, and a link to the list "
 "of announced cache entries."
 msgstr ""
+"Informação sobre a sua cache local como a idade máxima do conteúdo, tamanho "
+"aproximado da cache, um botão para a purgar completamente, e um link para a "
+"lista de entradas de cache anunciadas."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
 "The directory of the external, static cache if enabled (CENO does not "
 "currently use this)."
 msgstr ""
+"O diretório da cache externa estática, se estiver ativado (CENO não o "
+"utiliza atualmente)."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid "[CENO Extension]: https://github.com/censorship-no/ceno-ext-settings/"
-msgstr ""
+msgstr "[Extensão CENO]: https://github.com/censorship-no/ceno-ext-settings/"

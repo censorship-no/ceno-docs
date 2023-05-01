@@ -3,40 +3,45 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2021-03-05 19:50+0000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-04-11 16:56+0000\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>\n"
+"Language-Team: Turkish <https://hosted.weblate.org/projects/censorship-no/"
+"browser-install/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.5.1-dev\n"
+"X-Generator: Weblate 4.17-dev\n"
 
 #
 #: browser/install.md:block 1 (header)
 msgid "Installing CENO"
-msgstr ""
+msgstr "Ceno kurmak"
 
 #: browser/install.md:block 2 (paragraph)
 msgid "CENO Browser can be installed via the following means:"
-msgstr ""
+msgstr "CENO Browser şu kaynaklardan kurulabilir:"
 
 #: browser/install.md:block 3 (unordered list)
 msgid ""
 "[Google Play][ceno-gplay] (*CENO Browser* from *eQualitie*): the recommended "
 "source for most Android users."
 msgstr ""
+"[Google Play][ceno-gplay] (*eQualitie* tarafından *CENO Browser*): çoğu "
+"Android kullanıcı için önerilen kaynak."
 
 #: browser/install.md:block 3 (unordered list)
 msgid "[GitHub][ceno-gh]: for Android devices without Google Play."
-msgstr ""
+msgstr "[GitHub][ceno-gh]: Google Play bulunmayan Android aygıtlar için."
 
 #: browser/install.md:block 3 (unordered list)
 msgid ""
 "[Paskoocheh][ceno-pask]: for users in countries blocking access to the "
 "previous channels."
 msgstr ""
+"[Paskoocheh][ceno-pask]: Diğer yöntemlere erişilmesine izin verilmeyen "
+"ülkelerdeki kullanıcılar için."
 
 #: browser/install.md:block 4 (paragraph)
 msgid ""
@@ -44,6 +49,9 @@ msgid ""
 "4.1 Jelly Bean, thus most mobile devices released from late 2012 onward "
 "should work. CENO needs *no special permissions* to run."
 msgstr ""
+"CENO için en az Android 4.1 Jelly Bean ile çalışan, ARM64 ya da Neon "
+"destekli ARM32 bir aygıt gerekir. 2012 yılının sonundan bugüne kadar çıkmış "
+"çoğu aygıt desteklenir. CENO çalışmak için *özel bir izne* gerek duymaz."
 
 #: browser/install.md:block 5 (quote)
 msgid ""
@@ -54,10 +62,16 @@ msgid ""
 "Ouinet users. If in doubt, please contact [cenoers@equalit.ie](mailto:"
 "cenoers@equalit.ie) before installing a suspicious app."
 msgstr ""
+"** Uyarı:** Lütfen yukarıda listelenenler dışında bir kaynaktan CENO Browser "
+"kurarken *son derece şüpheci* olun. Uygulamanın doğası gereği kullanıcıları, "
+"diğer CENO ve Ouinet kullanıcılarına saldırmak ve kullanıcıların özel "
+"bilgilerini ele geçirmek için kullanılan her türlü sahte veya değiştirilmiş "
+"sürümün hedefi olabilir. Şüpheniz varsa, lütfen uygulamayı kurmadan önce "
+"[cenoers@equalit.ie](mailto:cenoers@equalit.ie) adresinden bize iletin."
 
 #: browser/install.md:block 6 (header)
 msgid "Stopping CENO completely"
-msgstr ""
+msgstr "CENO uygulamasını tamamen kapatmak"
 
 #: browser/install.md:block 7 (paragraph)
 msgid ""
@@ -67,6 +81,10 @@ msgid ""
 "allows other clients to use your device as a bridge and retrieve content "
 "from it at any time."
 msgstr ""
+"Uygulama her açıldığında aygıtınızın bildirim çubuğunda bir CENO simgesi "
+"belirir. Bu simge görünürken *CENO Browser hizmeti* arka planda (uygulamayı "
+"kullanmadığınızda bile) çalışıyor ve içeriklere erişmek isteyen başkalarının "
+"aygıtınızı köprü olarak kullanmasını sağlıyor demektir."
 
 #: browser/install.md:block 8 (paragraph)
 msgid ""
@@ -75,16 +93,22 @@ msgid ""
 "far from a charger). Tapping on the notification attached to the icon will "
 "stop both CENO and its service at once (until you open CENO again)."
 msgstr ""
+"Böyle bir hizmetin sürekli çalışması ağ ve işlemci kaynaklarını "
+"kullanacağından, dışardayken (kablosuz ağa bağlı olmadığınızda ya da şarj "
+"aletiniz yanınızda olmadığında) bunu kapatmak isteyebilirsiniz. Simgedeki "
+"bildirime dokunduğunuzda, CENO hizmeti, CENO yeniden açılana kadar kapatılır."
 
 #: browser/install.md:block 9 (paragraph)
 msgid ""
 "![Figure: Tap on the notification to stop the CENO service](images/tap-stop."
 "png)"
 msgstr ""
+"![Görsel: CENO hizmetini durdurmak için bildirime dokunun](images/tap-stop."
+"png)"
 
 #: browser/install.md:block 10 (header)
 msgid "Purging all CENO data (the \"panic button\")"
-msgstr ""
+msgstr "Tüm CENO verilerini silmek (\"panik\" düğmesi)"
 
 #: browser/install.md:block 11 (paragraph)
 msgid ""
@@ -93,6 +117,10 @@ msgid ""
 "action will just open CENO with a new public browsing tab showing its home "
 "page. The *Erase* action demands more explanation."
 msgstr ""
+"Yukarıda gösterilen *CENO Browser hizmeti* bildirimine dokunarak bazı "
+"işlemler yapılabilir. *Giriş sayfası* işlemi, herkese açık yeni bir CENO "
+"sekmesi açar ve giriş sayfasını gösterir. *Sil* işlemini daha ayrıntılı "
+"açıklamak gerekir."
 
 #: browser/install.md:block 12 (quote)
 msgid ""
@@ -101,6 +129,10 @@ msgid ""
 "only see the *Home* action, your device may be too old to support the "
 "*Erase* action."
 msgstr ""
+"**Not:** Bildirimin altındaki işlemler görüntülenmiyorsa bildirimin "
+"ortasından aşağıya doğru çekerek bildirimi genişletmeye çalışın. Yalnızca *"
+"Giriş sayfası* işlemini görüyorsanız, aygıtınız *Sil* işlemini "
+"desteklemeyecek kadar eski olabilir."
 
 #: browser/install.md:block 13 (paragraph)
 msgid ""
@@ -110,12 +142,19 @@ msgid ""
 "your data accidentally, this will not remove anything yet, but just show an "
 "additional action for a brief moment, as pictured below:"
 msgstr ""
+"CENO uygulamasını hızlıca durdurup ilişkili tüm verileri (ön bellekteki "
+"verilerin yanında, yer imleri, parolalar ve gezinme geçmişi gibi ayarlar) "
+"silmeniz gerekirse, *Sil* düğmesine dokunabilirsiniz. Yanlışlıkla "
+"dokunduğunuzda verilerinizi kaybetmemeniz için, veriler hemen silinmez ve "
+"kısa bir süre için aşağıdaki gibi bir ek ileti görüntülenir:"
 
 #: browser/install.md:block 14 (paragraph)
 msgid ""
 "![Figure: The last action stops CENO and clears all its data](images/tap-"
 "purge.png)"
 msgstr ""
+"![Görsel: Tüm CENO verilerini silip uygulamayı durdurmak için son işlem]("
+"images/tap-purge.png)"
 
 #: browser/install.md:block 15 (paragraph)
 msgid ""
@@ -123,10 +162,12 @@ msgid ""
 "removed *without further questions*, effectively leaving your device as if "
 "CENO had never been used."
 msgstr ""
+"*Evet* (görseldeki Yes) işlemine dokunursanız CENO durdurulur ve tüm veriler "
+"*hiçbir soru sorulmadan* silinir. Aygıtınız hiç CENO kullanmamış gibi olur."
 
 #: browser/install.md:block 16 (paragraph)
 msgid "If you do not tap on the action, it will go away in a few seconds."
-msgstr ""
+msgstr "Bu işleme dokunmazsanız birkaç saniye sonra kendiliğinden kaybolur."
 
 #: browser/install.md:block 17 (quote)
 msgid ""
@@ -135,26 +176,33 @@ msgid ""
 "Android's general *Settings* page and, under the *Apps* entry, choose CENO "
 "and then *Clear data*."
 msgstr ""
+"**Not:** Yukarıda belirtilen yöntem için CENO aygıtınızda çalışıyor "
+"olmalıdır. CENO kapalıyken aynı işlemi yapmak için Android genel *Ayarlar* "
+"bölümüne giderek *Uygulamalar* kısmından CENO'yu seçip *Verileri temizle* "
+"seçeneğini kullanabilirsiniz."
 
 #: browser/install.md:block 17 (quote)
 msgid "As a harsher alternative, you may completely uninstall the app."
-msgstr ""
+msgstr "Ya da daha sert bir yöntem olarak, uygulamayı kaldırabilirsiniz."
 
 #: browser/install.md:block 18 (quote)
 msgid ""
 "**Warning:** Android may still keep other traces of having used an app "
 "besides its data, for instance in its system log."
 msgstr ""
+"**Dikkat:** Android CENO uygulamasının kullanılmasından kalan izleri "
+"uygulama verileri dışında sistem kayıtları gibi konumlarda tutabilir."
 
 #: browser/install.md:block 18 (quote)
 msgid ""
 "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
 msgstr ""
+"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
 
 #: browser/install.md:block 18 (quote)
 msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
-msgstr ""
+msgstr "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
 
 #: browser/install.md:block 18 (quote)
 msgid "[ceno-pask]: https://paskoocheh.com/tools/124/android.html"
-msgstr ""
+msgstr "[ceno-pask]: https://paskoocheh.com/tools/124/android.html"

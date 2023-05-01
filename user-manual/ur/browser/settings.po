@@ -1,13 +1,19 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2023-04-02 11:39+0000\n"
+"Last-Translator: Connectech <info@connectech.org>\n"
+"Language-Team: Urdu <https://hosted.weblate.org/projects/censorship-no/"
+"browser-settings/ur/>\n"
 "Language: ur\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.17-dev\n"
 
 #: browser/settings.md:block 1 (header)
 msgid "CENO settings"
-msgstr ""
+msgstr "CENO ترتیبات"
 
 #: browser/settings.md:block 2 (paragraph)
 msgid ""
@@ -17,6 +23,10 @@ msgid ""
 "strategies against network interference, as well as reporting issues with "
 "the app."
 msgstr ""
+"CENO براؤزر آپ کو کچھ Ouinet مخصوص ترتیبات کو تبدیل کرنے اور اپنے کلائنٹ کے "
+"بارے میں معلومات حاصل کرنے کی اجازت دیتا ہے۔ عام آپریشن کے لیے اس کی ضرورت "
+"نہیں ہونی چاہیے، لیکن یہ نیٹ ورک کی مداخلت کے خلاف مختلف حکمت عملیوں کی جانچ "
+"کے ساتھ ایپ کے ساتھ مسائل کی اطلاع دینے میں مددگار ثابت ہوگا۔"
 
 #: browser/settings.md:block 3 (quote)
 msgid ""
@@ -26,6 +36,12 @@ msgid ""
 "cache retrieval under public browsing, hinting the user about the source of "
 "the content being visualized, and notifying about new versions of Ouinet."
 msgstr ""
+"**تکنیکی نوٹ:** یہ آپشنز *CENO ایکسٹینشن* کے ذریعے فراہم کیے گئے ہیں، ایک "
+"فائر فاکس ایکسٹینشن جو CENO کے ساتھ باکس کے باہر انسٹال ہوتی ہے اور Ouinet "
+"کے ساتھ مناسب انضمام کا خیال رکھتی ہے، جیسے کہ عوامی براؤزنگ کے تحت مواد کے "
+"انجیکشن اور کیش کی بازیافت کو فعال کرنا، صارف کو اس مواد کے ماخذ کے بارے میں "
+"اشارہ کرنا جو تصور کیا جا رہا ہے، اور Ouinet کے نئے ورژن کے بارے میں مطلع "
+"کرنا۔"
 
 #: browser/settings.md:block 4 (paragraph)
 msgid ""
@@ -33,14 +49,18 @@ msgid ""
 "*CENO* in the app's main menu. Please note that the menu entry may take a "
 "few seconds to pop up on app start. The page should look like this:"
 msgstr ""
+"یہ خصوصیات ایک ایسے صفحہ پر دستیاب ہیں جن تک ایپ کے مین مینو میں *CENO* کو "
+"منتخب کرکے رسائی حاصل کی جاسکتی ہے۔ براہ کرم نوٹ کریں کہ ایپ شروع ہونے پر "
+"مینو کے اندراج کو پاپ اپ ہونے میں چند سیکنڈ لگ سکتے ہیں۔ صفحہ اس طرح نظر آنا "
+"چاہئے:"
 
 #: browser/settings.md:block 5 (paragraph)
 msgid "![Figure: The CENO Settings page](images/settings.png)"
-msgstr ""
+msgstr "![تصویر: CENO ترتیبات کا صفحہ](images/settings.png)"
 
 #: browser/settings.md:block 6 (header)
 msgid "Choosing access mechanisms"
-msgstr ""
+msgstr "رسائی کے طریقہ کار کا انتخاب"
 
 #: browser/settings.md:block 7 (paragraph)
 msgid ""
@@ -49,18 +69,27 @@ msgid ""
 "retrieve content while using either [public or private browsing](public-"
 "private.md) tabs. All boxes are enabled by default."
 msgstr ""
+"صفحہ کے اوپری حصے میں موجود چار چیک باکسز منتخب طور پر مختلف طریقہ کار یا "
+"*ذرائع* کو فعال یا غیر فعال کرتے ہیں جنہیں CENO بطور Ouinet کلائنٹ [عوامی یا "
+"نجی براؤزنگ] (public-private.md) ٹیبز استعمال کرتے ہوئے مواد کی بازیافت کے "
+"لیے استعمال کرتا ہے۔ تمام باکسز بطور ڈیفالٹ فعال ہیں۔"
 
 #: browser/settings.md:block 8 (unordered list)
 msgid ""
 "*Direct from website* (or **origin access**) allows CENO to try to reach the "
 "origin server directly before attempting other mechanisms enabled below."
 msgstr ""
+"*براہ راست ویب سائٹ سے* (یا **اصل تک رسائی**) CENO کو اجازت دیتا ہے کہ وہ "
+"ذیل میں فعال دیگر طریقہ کار کو آزمانے سے پہلے براہ راست اصل سرور تک پہنچنے "
+"کی کوشش کرے۔"
 
 #: browser/settings.md:block 8 (unordered list)
 msgid ""
 "Although this mechanism works in both private and public browsing modes, "
 "content thus retrieved cannot be shared with others."
 msgstr ""
+"اگرچہ یہ طریقہ کار نجی اور عوامی براؤزنگ دونوں طریقوں میں کام کرتا ہے، لیکن "
+"اس طرح بازیافت کیا گیا مواد دوسروں کے ساتھ شیئر نہیں کیا جا سکتا۔"
 
 #: browser/settings.md:block 8 (unordered list)
 msgid ""
@@ -70,6 +99,11 @@ msgid ""
 "disabling this option may avoid such connections and trivial tracking (but "
 "not completely, see [risks](../concepts/risks.md))."
 msgstr ""
+"اگر زیادہ تر ویب مواد حاصل کرنا خاص طور پر سست یا مہنگا نہیں ہے، تو یہ طریقہ "
+"کار زیادہ تر استعمال کے معاملات میں کافی زیادہ ہو سکتا ہے۔ تاہم، اس طرح کے "
+"براہ راست رابطوں کو آپ کے ISP یا حکومت کے ذریعے ٹریک کیا جا سکتا ہے۔ کسی حد "
+"تک، اس اختیار کو غیر فعال کرنے سے اس طرح کے رابطوں اور معمولی ٹریکنگ سے بچ "
+"سکتا ہے (لیکن مکمل طور پر نہیں، [خطرات](../concepts/risks.md) دیکھیں)۔"
 
 #: browser/settings.md:block 8 (unordered list)
 msgid ""
@@ -80,16 +114,26 @@ msgid ""
 "safer CENO mechanisms. Please check the section on [troubleshooting]"
 "(troubleshooting.md) to learn more about this issue."
 msgstr ""
+"اس کے علاوہ، غیر محفوظ HTTP (زیادہ محفوظ HTTPS کے بجائے) پر کسی ویب سائٹ تک "
+"رسائی کرتے وقت، ایک سنسر کنکشن کو روک سکتا ہے اور صارف کو ایک بوگس سائٹ "
+"فراہم کر سکتا ہے، ایسی چھیڑ چھاڑ جس کا CENO خود پتہ نہیں لگا سکتا۔ ایسی "
+"صورتوں میں، اس آپشن کو غیر فعال کرنے میں مدد مل سکتی ہے اور اس طرح ہمیشہ "
+"دوسرے، محفوظ CENO طریقہ کار کا سہارا لے سکتے ہیں۔ اس مسئلے کے بارے میں مزید "
+"جاننے کے لیے براہ کرم [خرابیوں کا سراغ لگانا](troubleshooting.md) پر سیکشن "
+"دیکھیں۔"
 
 #: browser/settings.md:block 8 (unordered list)
 msgid ""
 "*Via the CENO network (private)* (or **proxy access**) allows CENO to use "
 "injectors as normal HTTP proxy servers to reach origin servers."
 msgstr ""
+"*CENO نیٹ ورک کے ذریعے (نجی)* (یا **پراکسی رسائی**) اصل سرورز تک پہنچنے کے "
+"لیے CENO کو عام HTTP پراکسی سرورز کے طور پر انجیکٹر استعمال کرنے کی اجازت "
+"دیتا ہے۔"
 
 #: browser/settings.md:block 8 (unordered list)
 msgid "This mechanism only works in private browsing mode."
-msgstr ""
+msgstr "یہ طریقہ کار صرف نجی براؤزنگ موڈ میں کام کرتا ہے۔"
 
 #: browser/settings.md:block 8 (unordered list)
 msgid ""
@@ -99,6 +143,11 @@ msgid ""
 "others). Other participants, such as bridges, will never see the unencrypted "
 "traffic."
 msgstr ""
+"HTTPS پر مواد تک رسائی حاصل کرتے وقت، صرف اصل سرور ہی ٹریفک کو ڈکرپٹ کرنے کے "
+"قابل ہوں گے۔ سادہ HTTP استعمال کرتے وقت، انجیکٹر غیر خفیہ کردہ ٹریفک بھی "
+"دیکھ سکتا ہے (لیکن اسے پھر بھی اپنے مواد پر دستخط نہیں کرنا چاہیے اور نہ ہی "
+"دوسروں کے ساتھ اشتراک کرنا چاہیے)۔ دیگر شرکاء، جیسے پل، کبھی بھی غیر خفیہ "
+"کردہ ٹریفک نہیں دیکھیں گے۔"
 
 #: browser/settings.md:block 8 (unordered list)
 msgid ""
@@ -107,21 +156,28 @@ msgid ""
 "The injector gets the content from an origin server, signs it, and sends it "
 "back to CENO - which then begins seeding it."
 msgstr ""
+"*CENO نیٹ ورک (عوامی) کے ذریعے* (یا **انجیکٹر تک رسائی**) CENO کو کسی بھی "
+"نجی معلومات کو درخواستوں سے چھیننے اور انجیکٹر کو بھیجنے کے قابل بناتا ہے۔ "
+"انجیکٹر مواد کو اصل سرور سے حاصل کرتا ہے، اس پر دستخط کرتا ہے، اور اسے واپس "
+"CENO کو بھیج دیتا ہے - جو اس کے بعد اس کی سيڈنگ شروع کرتا ہے۔"
 
 #: browser/settings.md:block 8 (unordered list)
 msgid ""
 "Other participants (such as bridges) will not see the unencrypted traffic."
-msgstr ""
+msgstr "دیگر شرکاء (جیسے پل) غیر خفیہ کردہ ٹریفک نہیں دیکھیں گے۔"
 
 #: browser/settings.md:block 8 (unordered list)
 msgid "This mechanism only works in public browsing mode."
-msgstr ""
+msgstr "یہ طریقہ کار صرف عوامی براؤزنگ موڈ میں کام کرتا ہے۔"
 
 #: browser/settings.md:block 8 (unordered list)
 msgid ""
 "*Shared by other CENO users* allows CENO to try to retrieve content from the "
 "**distributed cache**, i.e. from other CENO and Ouinet clients seeding it."
 msgstr ""
+"*دیگر CENO صارفین کے ذریعے اشتراک کردہ* CENO کو **تقسیم شدہ کیش** سے مواد "
+"بازیافت کرنے کی کوشش کرنے کی اجازت دیتا ہے، یعنی دوسرے CENO اور Ouinet "
+"کلائنٹس سے جو اسے سیڈنگ کرتے ہیں۔"
 
 #: browser/settings.md:block 9 (paragraph)
 msgid ""
@@ -129,34 +185,44 @@ msgid ""
 "browsing mode will render them useless. If you establish such a "
 "configuration, a warning will be shown as depicted below:"
 msgstr ""
+"عوامی یا نجی براؤزنگ موڈ کے لیے دستیاب تمام طریقہ کار کو غیر فعال کرنے سے وہ "
+"بیکار ہو جائیں گے۔ اگر آپ اس طرح کی ترتیب قائم کرتے ہیں، تو ایک انتباہ "
+"دکھایا جائے گا جیسا کہ ذیل میں دکھایا گیا ہے:"
 
 #: browser/settings.md:block 10 (paragraph)
 msgid ""
 "![Figure: Invalid settings for private browsing](images/settings-no-private."
 "png)"
 msgstr ""
+"![تصویر: نجی براؤزنگ کے لیے غلط ترتیبات](images/settings-no-private.png)"
 
 #: browser/settings.md:block 11 (header)
 msgid "About your app"
-msgstr ""
+msgstr "آپ کی ایپ کے بارے میں"
 
 #: browser/settings.md:block 12 (paragraph)
 msgid ""
 "This page also provides you with some information about your CENO Browser "
 "app and Ouinet client:"
 msgstr ""
+"یہ صفحہ آپ کو آپ کے CENO براؤزر ایپ اور Ouinet کلائنٹ کے بارے میں کچھ "
+"معلومات بھی فراہم کرتا ہے:"
 
 #: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*Local cache size* shows an approximation of how much storage is taken by "
 "the content being seeded from your device's local cache."
 msgstr ""
+"*مقامی کیش کا سائز* اس بات کا تخمینہ ظاہر کرتا ہے کہ آپ کے ڈیوائس کے مقامی "
+"کیش سے سیڈ کیے جانے والے مواد سے کتنا ذخیرہ لیا گیا ہے۔"
 
 #: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*Content shared by you* allows you to check the content being announced by "
 "your device."
 msgstr ""
+"*آپ کے ذریعہ اشتراک کردہ مواد* آپ کو اپنے ڈیوائس کے ذریعہ اعلان کردہ مواد کو "
+"چیک کرنے کی اجازت دیتا ہے۔"
 
 #: browser/settings.md:block 13 (unordered list)
 msgid ""
@@ -164,18 +230,28 @@ msgid ""
 "to run successfully. Otherwise, there may be connectivity issues or some "
 "internal error. Please include this information in your issue reports."
 msgstr ""
+"*Ouinet کلائنٹ کی حالت*، اگر 'شروع کیا گیا'، تو اس کا مطلب ہے کہ آپ کا "
+"Ouinet کلائنٹ کامیابی سے چلانے کے قابل تھا۔ دوسری صورت میں، کنیکٹوٹی کے "
+"مسائل یا کچھ اندرونی خرابی ہوسکتی ہے. براہ کرم یہ معلومات اپنی ایشو رپورٹس "
+"میں شامل کریں۔"
 
 #: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*Reachability status* indicates how likely it is for your device to be able "
 "to effectively seed content to other clients. Also include in reports."
 msgstr ""
+"*رسائی کی حیثیت* اس بات کی نشاندہی کرتا ہے کہ آپ کے ڈیوائس کے دوسرے کلائنٹس "
+"کو مؤثر طریقے سے مواد فراہم کرنے کے قابل ہونے کا کتنا امکان ہے۔ رپورٹس میں "
+"بھی شامل کریں۔"
 
 #: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*UPnP status* indicates whether CENO was able to tell your router or access "
 "point to allow incoming connections towards it. Also include in reports."
 msgstr ""
+"*UPnP اسٹیٹس* اس بات کی نشاندہی کرتا ہے کہ آیا CENO آپ کے روٹر کو بتانے کے "
+"قابل تھا یا اس کی طرف آنے والے کنکشن کو اجازت دینے کے لیے ایکسیس پوائنٹ۔ "
+"رپورٹس میں بھی شامل کریں۔"
 
 #: browser/settings.md:block 13 (unordered list)
 msgid ""
@@ -183,6 +259,10 @@ msgid ""
 "to seed signed content to other clients. These are shown to help test and "
 "debug the app, and should not be generally disclosed."
 msgstr ""
+"*مقامی UDP اینڈ پوائنٹس* آپ کے آلے میں انٹرنیٹ ایڈریس ہیں جو CENO کے ذریعے "
+"دوسرے کلائنٹس کے لیے دستخط شدہ مواد کے لیے استعمال کیے جاتے ہیں۔ یہ ایپ کو "
+"جانچنے اور ڈیبگ کرنے میں مدد کے لیے دکھائے گئے ہیں، اور عام طور پر ظاہر نہیں "
+"کیا جانا چاہیے۔"
 
 #: browser/settings.md:block 13 (unordered list)
 msgid ""
@@ -190,6 +270,9 @@ msgid ""
 "your CENO traffic. Only available with UPnP-enabled routers, they are also "
 "useful for diagnostics and not to be generally disclosed."
 msgstr ""
+"*بیرونی UDP اینڈ پوائنٹ* آپ کے روٹر میں انٹرنیٹ ایڈریس ہیں جو آپ کے CENO "
+"ٹریفک کو دیے گئے ہیں۔ صرف UPnP فعال راؤٹرز کے ساتھ دستیاب ہے، وہ تشخیص کے "
+"لیے بھی مفید ہیں اور عام طور پر ظاہر نہ کیے جانے کے لیے۔"
 
 #: browser/settings.md:block 13 (unordered list)
 msgid ""
@@ -197,6 +280,9 @@ msgid ""
 "outside of your network see when communicating with your device. Also for "
 "diagnostics and not to be disclosed."
 msgstr ""
+"عوامی UDP اینڈ پوائنٹس* وہ انٹرنیٹ پتے ہیں جو آپ کے نیٹ ورک سے باہر کے "
+"Ouinet کلائنٹس آپ کے آلے کے ساتھ بات چیت کرتے وقت دیکھتے ہیں۔ تشخیص کے لیے "
+"بھی اور ظاہر نہ کرنے کے لیے بھی۔"
 
 #: browser/settings.md:block 13 (unordered list)
 msgid ""
@@ -206,33 +292,47 @@ msgid ""
 "ports) to set or add your own, then choose *Save*. The changes will be "
 "applied the next time that your Ouinet client is started."
 msgstr ""
+"*اضافی BitTorrent بوٹسٹریپس* وہ سرورز ہیں جو آپ کے ڈیوائس کو BitTorrent نیٹ "
+"ورک میں داخل ہونے میں مدد کرنے کے لیے استعمال ہوتے ہیں، اگر پہلے سے طے شدہ "
+"کام نہیں کرتے ہیں۔ رپورٹس میں بھی شامل کریں۔ آپ میزبانوں کی جگہ سے الگ کردہ "
+"فہرست میں ترمیم کر سکتے ہیں (اختیاری پورٹس کے ساتھ) اپنا سیٹ کرنا یا شامل "
+"کرنا، پھر *محفوظ کریں* کو منتخب کریں۔ تبدیلیاں اگلی بار آپ کے Ouinet کلائنٹ "
+"کے شروع ہونے پر لاگو ہوں گی۔"
 
 #: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*CENO Browser* indicates the exact version of CENO that you are using. Also "
 "include in reports."
 msgstr ""
+"*CENO براؤزر* CENO کے عین مطابق ورژن کی نشاندہی کرتا ہے جسے آپ استعمال کر "
+"رہے ہیں۔ رپورٹس میں بھی شامل کریں۔"
 
 #: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*CENO Extension* shows the version of the extension that integrates Firefox "
 "with CENO. Also include in reports."
 msgstr ""
+"*CENO ایکسٹینشن* یہ ایکسٹینشن کا وہ ورژن دکھاتا ہے جو فائر فاکس کو CENO کے "
+"ساتھ مربوط کرتا ہے۔ رپورٹس میں بھی شامل کریں۔"
 
 #: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*Ouinet* shows the version of Ouinet backing CENO. Also include in reports."
 msgstr ""
+"*Ouinet* یہ Ouinet کی پشت پناہی کرنے والے CENO کا ورژن دکھاتا ہے۔ رپورٹس میں "
+"بھی شامل کریں۔"
 
 #: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*Ouinet protocol* is the version number of the protocol that CENO uses to "
 "talk to other Ouinet clients and injectors. Also include in reports."
 msgstr ""
+"*Ouinet پروٹوکول* یہ پروٹوکول کا ورژن نمبر ہے جسے CENO دوسرے Ouinet کلائنٹس "
+"اور انجیکٹرز سے بات کرنے کے لیے استعمال کرتا ہے۔ رپورٹس میں بھی شامل کریں۔"
 
 #: browser/settings.md:block 14 (header)
 msgid "Purging the local cache"
-msgstr ""
+msgstr "مقامی کیش صاف کرنا"
 
 #: browser/settings.md:block 15 (paragraph)
 msgid ""
@@ -241,6 +341,10 @@ msgid ""
 "This allows you to free up some storage space in your device while keeping "
 "other CENO settings like Favorites."
 msgstr ""
+"اوپر *مقامی کیش سائز* ویلیو کے آگے، ایک بٹن ہے جو آپ کو سيڈنگ کو روکنے اور "
+"Ouinet پر آپ کے ڈیوائس کے ذریعے اشتراک کردہ تمام مواد کو چھوڑنے کی اجازت "
+"دیتا ہے۔ یہ آپ کو دیگر CENO ترتیبات جیسے پسندیدہ کو برقرار رکھتے ہوئے اپنے "
+"ڈیوائس میں ذخیرہ کی کچھ جگہ خالی کرنے کی اجازت دیتا ہے۔"
 
 #: browser/settings.md:block 16 (paragraph)
 msgid ""
@@ -250,6 +354,11 @@ msgid ""
 "then *Clear private data*. You will be asked about which items you want to "
 "clear."
 msgstr ""
+"اگر آپ CENO کے عام براؤزنگ کیش کو صاف کرنا چاہتے ہیں (جو براؤزر استعمال کرتا "
+"ہے لیکن دوسروں کے ساتھ شیئر نہیں کیا جاتا ہے) یا دیگر اشیاء جیسے کوکیز، "
+"براؤزنگ کی سرگزشت یا پسندیدہ، آپ کو ایپ کے مین مینو میں *ترتیبات* کا انتخاب "
+"کرنا چاہیے، پھر *نجی ڈیٹا کو صاف کریں۔ * آپ سے پوچھا جائے گا کہ آپ کن چیزوں "
+"کو صاف کرنا چاہتے ہیں۔"
 
 #: browser/settings.md:block 17 (paragraph)
 msgid ""
@@ -257,10 +366,13 @@ msgid ""
 "please learn how to use the \"panic button\" feature described in "
 "[Installing CENO](install.md)."
 msgstr ""
+"ہر چیز کو ایک ہی وقت میں چھوڑنے کے لیے (خاص طور پر اگر آپ جلدی میں ہیں)، "
+"براہ کرم سیکھیں کہ \"گھبراہٹ کا بٹن\" خصوصیت کیسے استعمال کیا جائے جو [CENO "
+"انسٹال کرنا](install.md) میں بیان کیا گیا ہے۔"
 
 #: browser/settings.md:block 18 (header)
 msgid "Collecting log messages"
-msgstr ""
+msgstr "لاگ پیغامات جمع کرنا"
 
 #: browser/settings.md:block 19 (paragraph)
 msgid ""
@@ -269,16 +381,21 @@ msgid ""
 "a file. This should only be used when diagnosing some problem in CENO; just "
 "follow these steps:"
 msgstr ""
+"صفحہ کے نیچے ایک *لاگ فائل کو فعال کریں* چیک باکس ہے جو آپ کو Ouinet کے تمام "
+"اندرونی پیغامات کو جمع کرنے اور انہیں فائل میں ڈاؤن لوڈ کرنے کی اجازت دیتا "
+"ہے۔ یہ صرف CENO میں کسی مسئلے کی تشخیص کرتے وقت استعمال کیا جانا چاہئے؛ صرف "
+"ان اقدامات پر عمل کریں:"
 
 #: browser/settings.md:block 20 (ordered list)
 msgid "At the *CENO Settings* page, check *Enable log file*."
-msgstr ""
+msgstr "*CENO ترتیبات* صفحہ پر، *لاگ فائل کو فعال کریں* کو چیک کریں۔"
 
 #: browser/settings.md:block 20 (ordered list)
 msgid ""
 "Go back to browsing and do whatever actions that trigger the troublesome "
 "behavior."
 msgstr ""
+"براؤزنگ پر واپس جائیں اور ہر وہ کام کریں جو پریشان کن رویے کو متحرک کریں۔"
 
 #: browser/settings.md:block 20 (ordered list)
 msgid ""
@@ -287,10 +404,16 @@ msgid ""
 "ask you at this point whether to allow CENO access to stored media: this is "
 "needed to be able to save the file."
 msgstr ""
+"*CENO ترتیبات* صفحہ پر واپس جائیں اور *لاگ فائل کو فعال کریں* چیک باکس کے "
+"آگے *ڈاؤن لوڈ* لنک پر کلک کریں۔ فائل کو بعد میں استعمال کے لیے محفوظ کریں۔ "
+"اینڈروئیڈ اس وقت آپ سے پوچھ سکتا ہے کہ آیا CENO کو ذخیرہ شدہ میڈیا تک رسائی "
+"کی اجازت دی جائے: فائل کو محفوظ کرنے کے لیے اس کی ضرورت ہے۔"
 
 #: browser/settings.md:block 20 (ordered list)
 msgid "Uncheck *Enable log file* to avoid the logs from growing too large."
 msgstr ""
+"لاگز کو بہت بڑا ہونے سے بچانے کے لیے *لاگ فائل کو فعال کریں* کو غیر نشان زد "
+"کریں۔"
 
 #: browser/settings.md:block 21 (paragraph)
 msgid ""
@@ -298,3 +421,6 @@ msgid ""
 "avoid making it public since it may contain sensitive information about your "
 "browsing."
 msgstr ""
+"اب آپ محفوظ شدہ لاگ فائل کو کسی مسئلے کی رپورٹ کو دستاویز کرنے کے لیے "
+"استعمال کر سکتے ہیں، لیکن اسے عوامی بنانے سے گریز کریں کیونکہ اس میں آپ کی "
+"براؤزنگ کے بارے میں حساس معلومات ہو سکتی ہیں۔"

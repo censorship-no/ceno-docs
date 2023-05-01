@@ -1,86 +1,92 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2023-04-01 03:45+0000\n"
+"Last-Translator: Connectech <info@connectech.org>\n"
+"Language-Team: Urdu <https://hosted.weblate.org/projects/censorship-no/"
+"user-manual/ur/>\n"
 "Language: ur\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.17-dev\n"
 
 #: SUMMARY.md:block 1 (header)
 msgid "Summary"
-msgstr ""
+msgstr "خلاصہ"
 
 #: SUMMARY.md:block 2 (paragraph)
 msgid "[Censorship.no!](README.md)"
-msgstr ""
+msgstr "[Censorship.no!](README.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Introduction](intro/README.md)"
-msgstr ""
+msgstr "[تعارف](intro/README.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[What is CENO Browser?](intro/ceno.md)"
-msgstr ""
+msgstr "[CENO براؤزر کیا ہے؟](intro/ceno.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[What is Ouinet?](intro/ouinet.md)"
-msgstr ""
+msgstr "[Ouinet کیا ہے؟](intro/ouinet.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Quick start guide](intro/qsg.md)"
-msgstr ""
+msgstr "[فوری آغاز گائیڈ](intro/qsg.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Frequently Asked Questions](intro/faq.md)"
-msgstr ""
+msgstr "[اکثر پوچھے گئے سوالات](intro/faq.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Main concepts](concepts/README.md)"
-msgstr ""
+msgstr "[مرکزی تصورات](concepts/README.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[How does it work?](concepts/how.md)"
-msgstr ""
+msgstr "[یہ کیسے کام کرتا ہے؟](concepts/how.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Public vs. private browsing](concepts/public-private.md)"
-msgstr ""
+msgstr "[عوامی بمقابلہ نجی براؤزنگ](concepts/public-private.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Advantages of using CENO/Ouinet](concepts/advantages.md)"
-msgstr ""
+msgstr "[CENO/Ouinet استعمال کرنے کے فوائد](concepts/advantages.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Risks in using CENO/Ouinet](concepts/risks.md)"
-msgstr ""
+msgstr "[CENO/Ouinet استعمال کرنے میں خطرات](concepts/risks.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Using CENO Browser](browser/README.md)"
-msgstr ""
+msgstr "[CENO براؤزر کا استعمال کرتے ہوئے](browser/README.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Installing CENO](browser/install.md)"
-msgstr ""
+msgstr "[CENO انسٹال کرنا](browser/install.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Using public or private browsing](browser/public-private.md)"
-msgstr ""
+msgstr "[عوامی یا نجی براؤزنگ کا استعمال کرتے ہوئے](browser/public-private.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[CENO settings](browser/settings.md)"
-msgstr ""
+msgstr "[CENO ترتیبات](browser/settings.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Testing the Browser](browser/testing.md)"
-msgstr ""
+msgstr "[براؤزر کی جانچ کرنا](browser/testing.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Helping others](browser/bridging.md)"
-msgstr ""
+msgstr "[دوسروں کی مدد کرنا](browser/bridge.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Troubleshooting](browser/troubleshooting.md)"
-msgstr ""
+msgstr "[خرابیوں کا سراغ لگانا](browser/troubleshooting.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Annex: The Ouinet client front-end](client/front-end.md)"
-msgstr ""
+msgstr "[ملحقہ: Ouinet کلائنٹ فرنٹ اینڈ](client/front-end.md)"

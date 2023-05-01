@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-12-12 21:51+0000\n"
-"Last-Translator: michel <michel@equalit.ie>\n"
+"PO-Revision-Date: 2022-12-15 21:43+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/censorship-no/"
 "client-front-end/fr/>\n"
 "Language: fr\n"
@@ -154,4 +154,4 @@ msgstr ""
 
 #: client/front-end.md:block 6 (unordered list)
 msgid "[CENO Extension]: https://github.com/censorship-no/ceno-ext-settings/"
-msgstr "[CENO Extension] : https://github.com/censorship-no/ceno-ext-settings/"
+msgstr "[CENO Extension]: https://github.com/censorship-no/ceno-ext-settings/"

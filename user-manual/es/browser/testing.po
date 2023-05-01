@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-16 04:04+0200\n"
-"PO-Revision-Date: 2021-09-21 18:36+0000\n"
-"Last-Translator: Anatoli <djanatoli@gmail.com>\n"
+"PO-Revision-Date: 2023-04-27 06:43+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/censorship-no/"
 "browser-testing/es/>\n"
 "Language: es\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #
 #: browser/testing.md:block 1 (header)
@@ -30,9 +30,9 @@ msgstr ""
 "Ahora que sabes cómo [instalar](install.md) y [configurar](settings.md) "
 "CENO, sigamos algunos pasos para probar si funcionan las diferentes "
 "características específicas de Ouinet. Esto involucrará habilitar y "
-"deshabilitar selectivamente diferentes mecanismos de acceso. Sin embargo, "
-"ten en mente que en el uso diario de CENO muy pocas veces necesitarás "
-"cambiar la configuración por defecto, o tal vez nunca."
+"deshabilitar selectivamente diferentes mecanismos de acceso. Sin embargo ten "
+"en mente que en el uso diario de CENO, muy pocas veces necesitarás cambiar "
+"la configuración por defecto en absoluto."
 
 #: browser/testing.md:block 3 (paragraph)
 msgid ""
@@ -96,7 +96,7 @@ msgid ""
 msgstr ""
 "Abre el menú principal de la aplicación y elige *CENO* para abrir la página *"
 "Configuración de CENO*. Ya que solo deseamos probar el acceso a los "
-"inyectores, desmarca todas las casillas para las fuentes de contenido, "
+"inyectores, desmarca todas las casillas para las fuentes de contenido "
 "excepto *Vía la red CENO (pública)*."
 
 #: browser/testing.md:block 8 (ordered list)
@@ -109,11 +109,11 @@ msgstr ""
 "Vuelve a la página inicial de CENO. Selecciona uno de los sitios Web "
 "recomendados, o bien ingresa el URL de algún otro sitio en la barra de "
 "direcciones en la parte superior de la ventana. Si sabes acerca de un sitio "
-"que usualmente está bloqueado para tí, ¡ingrésalo!"
+"que usualmente está bloqueado para tí, ¡continúa e ingrésalo!"
 
 #: browser/testing.md:block 8 (ordered list)
 msgid "The chosen site should eventually show up."
-msgstr "El sitio elegido aparecerá eventualmente."
+msgstr "El sitio elegido debería eventualmente aparecer."
 
 #: browser/testing.md:block 9 (paragraph)
 msgid ""
@@ -146,7 +146,7 @@ msgstr ""
 "De paso, si presionas el ícono CENO en la barra de direcciones, se abrirá "
 "una ventana emergente como la de abajo, mostrando cuántos elementos del "
 "sitio fueron descargados desde las diferentes fuentes. Solamente *Vía la red "
-"CENO (pública)* debería tener un valor no nulo, ya que las otras fuentes "
+"CENO (pública)* debería tener un valor no nulo ya que las otras fuentes "
 "fueron deshabilitadas."
 
 #: browser/testing.md:block 12 (paragraph)
@@ -173,7 +173,7 @@ msgstr ""
 
 #: browser/testing.md:block 15 (header)
 msgid "Getting content from close users"
-msgstr "Obteniendo contenido desde usuarios cercanos"
+msgstr "Obteniendo contenido desde usuaria(o)s cercana(o)s"
 
 #: browser/testing.md:block 16 (paragraph)
 msgid ""
@@ -183,9 +183,9 @@ msgid ""
 "whether getting and verifying signed content works."
 msgstr ""
 "Ya que tu primer dispositivo fue capaz de obtener algún contenido desde un "
-"inyector, probemos si es capaz de compartirlo con otro dispositivo a través "
-"de la caché distribuída. La manera más simple es usar el soporte dispositivo "
-"a dispositivo de CENO, para comprobar si funciona la obtención y "
+"inyector, dejanos probar si es capaz de compartirlo con otro dispositivo a "
+"través de la caché distribuída. La manera más simple es usar el soporte "
+"dispositivo a dispositivo de CENO para comprobar si funciona la obtención y "
 "verificación de contenido firmado."
 
 #: browser/testing.md:block 17 (paragraph)
@@ -199,12 +199,12 @@ msgstr ""
 "Después de completar exitosamente la prueba de arriba sobre el primer "
 "dispositivo, deja a CENO ejecutándose en él (el ícono CENO debería aparecer "
 "en su barra de notificación). Luego obtén un segundo dispositivo (puedes "
-"invitar a un amigo para ayudarte a probar) y conéctalo a la misma red Wi-Fi. "
-"Luego, sigue los pasos de abajo en el segundo dispositivo:"
+"invitar a un(a) amigo(a) para ayudarte a probar) y conectarle a la misma red "
+"Wi-Fi. Luego, sigue los pasos de abajo en el segundo dispositivo:"
 
 #: browser/testing.md:block 18 (ordered list)
 msgid "Install CENO if needed and start it as above."
-msgstr "Instala CENO si fuera necesario, e inícialo como se muestra arriba."
+msgstr "Instala CENO si fuera necesario e inícialo como está arriba."
 
 #: browser/testing.md:block 18 (ordered list)
 msgid ""
@@ -214,8 +214,8 @@ msgid ""
 msgstr ""
 "Abre la página de *Configuración de CENO* como arriba. Ya que solamente "
 "deseamos probar el acceso a la caché distribuida, desmarca todas las "
-"casillas para las fuentes de contenido, excepto *Compartido por otros "
-"usuarios de CENO*."
+"casillas para las fuentes de contenido excepto *Compartido por otra(o)s "
+"usuaria(o)s de CENO*."
 
 #: browser/testing.md:block 18 (ordered list)
 msgid ""
@@ -235,7 +235,7 @@ msgid ""
 msgstr ""
 "Si no funciona, tu red Wi-Fi podría estar bloqueando la comunicación directa "
 "entre sus dispositivos. Este \"aislamiento de cliente\" podría pasar en "
-"redes públicas, como aquellas de parques, bares u hoteles. Por favor intenta "
+"redes públicas como aquellas de parques, bares u hoteles. Por favor intenta "
 "de nuevo sobre una red diferente."
 
 #: browser/testing.md:block 20 (paragraph)
@@ -247,7 +247,8 @@ msgstr ""
 "Si funciona, significa que ambos dispositivos son capaces de entregar ese "
 "contenido a otros clientes. Pulsando el icono CENO de la barra de "
 "direcciones debería aparecer una ventana emergente como la de abajo, donde "
-"solamente *Compartido por otros usuarios de CENO* tiene un valor no nulo."
+"solamente *Compartido por otra(o)s usuaria(o)s de CENO* tiene un valor no "
+"nulo."
 
 #: browser/testing.md:block 21 (paragraph)
 msgid ""
@@ -265,14 +266,14 @@ msgid ""
 "in your device, so CENO does not need to retrieve them over the network."
 msgstr ""
 "Finalmente, también podrías haber notado que hay un contador para *"
-"Compartido por tí*. Este no es una fuente diferente *en sí mismo*: los "
+"Compartido por tí*. Esta no es una fuente diferente *en sí misma*: los "
 "elementes contados aquí son efectivamente parte de la caché distribuída, "
 "pero sucede que ya están almacenados en tu dispositivo, por lo que CENO no "
 "necesita descargarlos de la red."
 
 #: browser/testing.md:block 23 (header)
 msgid "Getting content from remote users"
-msgstr "Obteniendo contenido desde usuarios remotos"
+msgstr "Obteniendo contenido desde usuaria(o)s remota(o)s"
 
 #: browser/testing.md:block 24 (paragraph)
 msgid ""
@@ -299,9 +300,9 @@ msgid ""
 "to follow for that device are exactly the same as those in the previous test."
 msgstr ""
 "Esta vez necesitarás un tercer dispositivo, pero debe estar conectado a una "
-"red Wi-Fi diferente (tal vez otro amigo puede ayudar desde su hogar). Los "
-"pasos a seguir para ese dispositivo son exactamente los mismos que aquellos "
-"en la prueba anterior."
+"red Wi-Fi diferente (tal vez otra(o) amiga(o) puede ayudar desde su hogar). "
+"Los pasos a seguir para ese dispositivo son exactamente los mismos que "
+"aquellos en la prueba anterior."
 
 #: browser/testing.md:block 27 (paragraph)
 msgid ""
@@ -309,9 +310,9 @@ msgid ""
 "The first device is able to seed content to others, and it can most probably "
 "also act as a bridge."
 msgstr ""
-"Si el tercer dispositivo puede cargar el sitio usado para la prueba, ya "
-"estás preparado. El primer dispositivo es capaz de sembrar contenido para "
-"otros, y con toda probabilidad actuar también como puente."
+"Si el tercer dispositivo puede cargar el sitio usado para la prueba, ya está "
+"todo listo. El primer dispositivo es capaz de sembrar contenido para otra(o)"
+"s, y con toda probabilidad actuar también como puente."
 
 #: browser/testing.md:block 28 (paragraph)
 msgid "Congratulations!"

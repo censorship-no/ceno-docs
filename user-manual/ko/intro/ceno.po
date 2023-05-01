@@ -1,15 +1,15 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-19 11:27+0000\n"
-"Last-Translator: 이정희 <daemul72@gmail.com>\n"
+"PO-Revision-Date: 2023-04-20 21:49+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/censorship-no/"
 "ceno/ko/>\n"
 "Language: ko\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.12-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #: intro/ceno.md:block 1 (header)
 msgid "What is CENO Browser?"
@@ -102,7 +102,6 @@ msgid ""
 msgstr ""
 
 #: intro/ceno.md:block 11 (quote)
-#, fuzzy
 msgid "[Censorship.no!]: https://censorship.no/"
 msgstr "[Censorship.no!]: https://censorship.no/"
 
@@ -120,7 +119,6 @@ msgid "[Firefox for Android]: https://www.mozilla.org/firefox/android/"
 msgstr "[안드로이드용 파이어폭스]: https://www.mozilla.org/firefox/android/"
 
 #: intro/ceno.md:block 11 (quote)
-#, fuzzy
 msgid "[eQualitie]: https://equalit.ie/"
 msgstr "[eQualitie]: https://equalit.ie/"
 

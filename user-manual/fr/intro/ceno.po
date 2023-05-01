@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-12-12 22:49+0000\n"
-"Last-Translator: michel <michel@equalit.ie>\n"
+"PO-Revision-Date: 2022-12-15 21:43+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/censorship-no/"
 "ceno/fr/>\n"
 "Language: fr\n"
@@ -158,34 +158,34 @@ msgstr ""
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[Censorship.no!]: https://censorship.no/"
-msgstr "[Censorship.no!] : https://censorship.no/"
+msgstr "[Censorship.no!]: https://censorship.no/"
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[P2P]: https://en.wikipedia.org/wiki/Peer-to-peer"
-msgstr "[P2P] : https://fr.wikipedia.org/wiki/Pair-%C3%A0-pair"
+msgstr "[P2P]: https://fr.wikipedia.org/wiki/Pair-%C3%A0-pair"
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[national intranets]: https://en.wikipedia.org/wiki/National_intranet"
-msgstr "[national intranets] : https://en.wikipedia.org/wiki/National_intranet"
+msgstr "[national intranets]: https://en.wikipedia.org/wiki/National_intranet"
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[Firefox for Android]: https://www.mozilla.org/firefox/android/"
 msgstr ""
-"[Firefox pour Android] : https://www.mozilla.org/fr/firefox/browsers/mobile/"
+"[Firefox pour Android]: https://www.mozilla.org/fr/firefox/browsers/mobile/"
 "android/"
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[eQualitie]: https://equalit.ie/"
-msgstr "[eQualitie] : https://equalit.ie/fr/"
+msgstr "[eQualitie]: https://equalit.ie/fr/"
 
 #: intro/ceno.md:block 11 (quote)
 msgid ""
 "[Universal Declaration of Human Rights]: https://www.un.org/en/universal-"
 "declaration-human-rights/"
 msgstr ""
-"[Universal Declaration of Human Rights] : https://www.un.org/fr/about-us/"
+"[Universal Declaration of Human Rights]: https://www.un.org/fr/about-us/"
 "universal-declaration-of-human-rights"
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[ceno-repos]: https://github.com/censorship-no/"
-msgstr "[ceno-repos] : https://github.com/censorship-no/"
+msgstr "[ceno-repos]: https://github.com/censorship-no/"

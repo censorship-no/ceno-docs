@@ -1,13 +1,19 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2023-04-02 05:39+0000\n"
+"Last-Translator: Connectech <info@connectech.org>\n"
+"Language-Team: Urdu <https://hosted.weblate.org/projects/censorship-no/"
+"browser-public-private/ur/>\n"
 "Language: ur\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.17-dev\n"
 
 #: browser/public-private.md:block 1 (header)
 msgid "Using public or private browsing"
-msgstr ""
+msgstr "عوامی یا نجی براؤزنگ استعمال کرنا"
 
 #: browser/public-private.md:block 2 (paragraph)
 msgid ""
@@ -16,6 +22,10 @@ msgid ""
 "the content that you browse with others (public browsing) or not (private "
 "browsing)."
 msgstr ""
+"جیسا کہ بیان کیا گیا ہے [پچھلے حصے میں](../concepts/public-private.md)، CENO "
+"کے آپریشن کے دو مختلف طریقے ہیں اس پر منحصر ہے کہ آیا آپ اس مواد کو دوسروں "
+"کے ساتھ شیئر کرنا چاہتے ہیں جسے آپ براؤز کرتے ہیں (عوامی براؤزنگ) یا نہیں ("
+"نجی براؤزنگ)۔"
 
 #: browser/public-private.md:block 3 (paragraph)
 msgid ""
@@ -25,24 +35,32 @@ msgid ""
 "menu) is to use public browsing. To open a new tab in private browsing mode, "
 "just choose *New private tab* in the main menu."
 msgstr ""
+"یہ ترتیب *ہر ٹیب* پر لاگو ہوتی ہے جسے آپ براؤزر میں کھولتے ہیں، یعنی آپ "
+"عوامی براؤزنگ ٹیبز اور نجی براؤزنگ ٹیبز رکھ سکتے ہیں۔ جب بھی آپ اسے شروع "
+"کرتے ہیں یا کوئی نیا ٹیب کھولتے ہیں (ایپ کے مین مینو میں *نئے ٹیب* کا "
+"استعمال کرتے ہوئے) CENO کا ڈیفالٹ عوامی براؤزنگ کا استعمال کرنا ہے۔ نجی "
+"براؤزنگ موڈ میں نیا ٹیب کھولنے کے لیے، مین مینو میں صرف *نیا نجی ٹیب* منتخب "
+"کریں۔"
 
 #: browser/public-private.md:block 4 (paragraph)
 msgid ""
 "You can tell public tabs from private ones because public tabs have a "
 "lighter (or white) tool bar:"
 msgstr ""
+"آپ عوامی ٹیبز کو نجی سے بتا سکتے ہیں کیونکہ عوامی ٹیبز میں ہلکا (یا سفید) "
+"ٹول بار ہوتا ہے:"
 
 #: browser/public-private.md:block 5 (paragraph)
 msgid "![Figure: A public browsing tab](images/public-tab.png)"
-msgstr ""
+msgstr "![تصویر: عوامی براؤزنگ ٹیب](images/public-tab.png)"
 
 #: browser/public-private.md:block 6 (paragraph)
 msgid "In contrast, private tabs have a darker tool bar:"
-msgstr ""
+msgstr "اس کے برعکس، نجی ٹیبز میں تاریک ٹول بار ہوتا ہے:"
 
 #: browser/public-private.md:block 7 (paragraph)
 msgid "![Figure: A private browsing tab](images/private-tab.png)"
-msgstr ""
+msgstr "![تصویر: ایک نجی براؤزنگ ٹیب](images/private-tab.png)"
 
 #: browser/public-private.md:block 8 (paragraph)
 msgid ""
@@ -50,3 +68,6 @@ msgid ""
 "bar will help you know how it actually retrieved the different elements of "
 "the content. We will cover this icon later on."
 msgstr ""
+"ایک بار جب آپ کسی صفحہ کو کسی ٹیب میں لوڈ کر لیتے ہیں، تو ایڈریس بار میں "
+"رنگین CENO آئیکن آپ کو یہ جاننے میں مدد کرے گا کہ اس نے اصل میں مواد کے "
+"مختلف عناصر کو کیسے بازیافت کیا۔ ہم بعد میں اس آئیکن کا احاطہ کریں گے۔"

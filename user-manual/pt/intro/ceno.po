@@ -1,13 +1,19 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2023-03-13 17:38+0000\n"
+"Last-Translator: Alexthegib <jcwkgxc@nightorb.com>\n"
+"Language-Team: Portuguese <https://hosted.weblate.org/projects/censorship-no/"
+"ceno/pt/>\n"
 "Language: pt\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.16.2-dev\n"
 
 #: intro/ceno.md:block 1 (header)
 msgid "What is CENO Browser?"
-msgstr ""
+msgstr "O que é o CENO Browser?"
 
 #: intro/ceno.md:block 2 (paragraph)
 msgid ""
@@ -19,6 +25,14 @@ msgid ""
 "Web content to persist in the network even during heavy filtering and "
 "throttling events."
 msgstr ""
+"CENO (abreviatura de [Censorship.no!][Censorship.no!]) é um navegador Web "
+"para dispositivos Android móveis (tais como smartphones e tablets) que "
+"utiliza uma nova abordagem para contornar a censura da Internet e partilhar "
+"conteúdos recuperados entre todos os utilizadores de uma forma [peer-to-"
+"peer][P2P] (P2P). Isto reduz a dependência geral nas trocas de redes "
+"internacionais, e permite que o conteúdo da Web frequentemente solicitado "
+"persista na rede, mesmo durante eventos pesados de filtragem e "
+"estrangulamento."
 
 #: intro/ceno.md:block 3 (paragraph)
 msgid ""
@@ -28,6 +42,12 @@ msgid ""
 "anticipation of aggressive Internet filtering and the establishment of "
 "[national intranets][national intranets] to fence off nations from the Web."
 msgstr ""
+"O que distingue o CENO da maioria das outras iniciativas de evasão é que os "
+"utilizadores podem continuar a partilhar conteúdos Web mesmo quando não "
+"existe (ou existe uma conectividade extremamente limitada) através das "
+"fronteiras nacionais. O CENO é assim construído em antecipação à filtragem "
+"agressiva da Internet e ao estabelecimento de [intranets nacionais]["
+"intranets nacionais] para vedar as nações da Web."
 
 #: intro/ceno.md:block 4 (paragraph)
 msgid ""
@@ -37,10 +57,15 @@ msgid ""
 "technology allowing it to share content between devices (described in later "
 "sections)."
 msgstr ""
+"CENO Browser é construído sobre uma versão adaptada de [Firefox para "
+"Android][Firefox para Android], um popular, moderno, rico em funcionalidades "
+"e seguro navegador Free/Libre/Open Source. CENO alarga o Firefox com "
+"**Ouinet**, a tecnologia subjacente que lhe permite partilhar conteúdos "
+"entre dispositivos (descrita em secções posteriores)."
 
 #: intro/ceno.md:block 5 (header)
 msgid "Who develops CENO?"
-msgstr ""
+msgstr "Quem desenvolve o CENO?"
 
 #: intro/ceno.md:block 6 (paragraph)
 msgid ""
@@ -52,10 +77,18 @@ msgid ""
 "anyone to use, study, share and enhance it. Please contact [cenoers@equalit."
 "ie](mailto:cenoers@equalit.ie) in case of doubt or for further information."
 msgstr ""
+"O projecto *Censorship.no!* é gerido por [eQualitie][eQualitie] em apoio aos "
+"artigos 18, 19 e 20 da [Declaração Universal dos Direitos do Homem]["
+"Declaração Universal dos Direitos do Homem]. CENO e tecnologias relacionadas "
+"são desenvolvidas como software livre/libre/ fonte aberta ([project "
+"source](https://github.com/censorship-no/ \"CENO source repositories\")), "
+"permitindo a qualquer pessoa utilizá-lo, estudá-lo, partilhá-lo e melhorá-"
+"lo. Por favor contacte [cenoers@equalit.ie](mailto:cenoers@equalit.ie) em "
+"caso de dúvida ou para mais informações."
 
 #: intro/ceno.md:block 7 (header)
 msgid "Who is it for?"
-msgstr ""
+msgstr "A quem se destina?"
 
 #: intro/ceno.md:block 8 (paragraph)
 msgid ""
@@ -66,6 +99,12 @@ msgid ""
 "content among users, creating a decentralized network of peers helping each "
 "other."
 msgstr ""
+"CENO destina-se a todos, mas é particularmente conveniente para as pessoas "
+"interessadas em conteúdos Web que são censurados na sua rede, e para aqueles "
+"que vivem em países onde a conectividade à Internet global é manchada, não "
+"fiável ou dispendiosa. Encoraja e permite a partilha de conteúdos web entre "
+"utilizadores, criando uma rede descentralizada de pares que se ajudam uns "
+"aos outros."
 
 #: intro/ceno.md:block 9 (paragraph)
 msgid ""
@@ -74,6 +113,11 @@ msgid ""
 "operating a standard Web browser (CENO-specific functionality is largely "
 "hidden under the hood)."
 msgstr ""
+"Não é necessário ser um utilizador de computador avançado ou mesmo "
+"compreender como funcionam as redes peer-to-peer para utilizar o CENO. A "
+"experiência do utilizador é semelhante à de operar um navegador da Web "
+"padrão (a funcionalidade específica do CENO está largamente escondida "
+"debaixo da capota)."
 
 #: intro/ceno.md:block 10 (paragraph)
 msgid ""
@@ -85,6 +129,14 @@ msgid ""
 "mobile data limits (should you have them), but also to increase the chances "
 "of being able to deliver Web content to other users."
 msgstr ""
+"CENO pode, no entanto, gerar mais tráfego na Internet do que o seu navegador "
+"habitual - uma vez que precisa de informar os outros utilizadores do "
+"conteúdo da Web que está a partilhar na rede, e possivelmente entregar este "
+"conteúdo a quem o solicitar. CENO depende assim de uma conectividade "
+"moderadamente boa no país. Recomendamos a utilização de CENO quando ligado a "
+"Wi-Fi não só para evitar esgotar os limites de dados móveis (caso os tenha), "
+"mas também para aumentar as hipóteses de poder fornecer conteúdo Web a "
+"outros utilizadores."
 
 #: intro/ceno.md:block 11 (quote)
 msgid ""
@@ -94,33 +146,41 @@ msgid ""
 "this tool. See the sections on [public vs. private browsing](../concepts/"
 "public-private.md) and [risks](../concepts/risks.md) for further information."
 msgstr ""
+"**Aviso:** *CENO não é uma ferramenta de anonimato.* De facto, a utilização "
+"do CENO pode permitir que outros saibam se você acedeu ou está a partilhar "
+"certos conteúdos da Web. Por favor, tenha cuidadosamente em consideração "
+"quais os riscos que pode assumir utilizando esta ferramenta. Ver as secções "
+"sobre [navegação pública vs. privada](.../conceitos/público-privado.md) e "
+"[riscos](.../conceitos/riscos.md) para mais informações."
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[Censorship.no!]: https://censorship.no/"
-msgstr ""
+msgstr "[Censura.não!]: https://censorship.no/"
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[P2P]: https://en.wikipedia.org/wiki/Peer-to-peer"
-msgstr ""
+msgstr "[P2P]: https://en.wikipedia.org/wiki/Peer-to-peer"
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[national intranets]: https://en.wikipedia.org/wiki/National_intranet"
-msgstr ""
+msgstr "[national intranets]: https://en.wikipedia.org/wiki/National_intranet"
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[Firefox for Android]: https://www.mozilla.org/firefox/android/"
-msgstr ""
+msgstr "[Firefox para Android]: https://www.mozilla.org/firefox/android/"
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[eQualitie]: https://equalit.ie/"
-msgstr ""
+msgstr "[eQualitie]: https://equalit.ie/"
 
 #: intro/ceno.md:block 11 (quote)
 msgid ""
 "[Universal Declaration of Human Rights]: https://www.un.org/en/universal-"
 "declaration-human-rights/"
 msgstr ""
+"[Declaração Universal dos Direitos do Homem]: https://www.un.org/en/"
+"universal-declaration-human-rights/"
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[ceno-repos]: https://github.com/censorship-no/"
-msgstr ""
+msgstr "[ceno-repos]: https://github.com/censorship-no/"

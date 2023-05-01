@@ -1,13 +1,19 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2023-04-02 09:40+0000\n"
+"Last-Translator: Connectech <info@connectech.org>\n"
+"Language-Team: Urdu <https://hosted.weblate.org/projects/censorship-no/"
+"browser-readme/ur/>\n"
 "Language: ur\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.17-dev\n"
 
 #: browser/README.md:block 1 (header)
 msgid "Using CENO Browser"
-msgstr ""
+msgstr "CENO براؤزر کا استعمال"
 
 #: browser/README.md:block 2 (paragraph)
 msgid ""
@@ -17,6 +23,11 @@ msgid ""
 "questions on generic browsing topics you should refer to Mozilla's [Firefox "
 "for Android Support][Firefox for Android Support] pages."
 msgstr ""
+"جہاں تک اس کی Ouinet سے متعلق صلاحیتوں کا تعلق ہے یہ باب آپ کو CENO براؤزر "
+"کے استعمال پر کچھ اشارے دیتا ہے۔ براہ کرم ہمیشہ ذہن میں رکھیں کہ CENO [فائر "
+"فاکس برائے اینڈرائیڈ][Firefox for Android] پر مبنی ہے، لہذا عام براؤزنگ کے "
+"موضوعات پر تمام سوالات کے لیے آپ کو Mozilla کے [فائر فاکس برائے اینڈرائیڈ "
+"سپورٹ][Firefox for Android Support] صفحات کا حوالہ دینا چاہیے۔"
 
 #: browser/README.md:block 3 (paragraph)
 msgid ""
@@ -25,6 +36,10 @@ msgid ""
 "especially as CENO development progresses. This documentation is up to date "
 "for CENO version 1.6.0."
 msgstr ""
+"متعلقہ ہونے پر، متن کو واضح کرنے کے لیے اسکرین کیپچرز کو شامل کیا جائے گا۔ "
+"براہ کرم نوٹ کریں کہ یہ آپ کے ڈیوائس پر نظر آنے والی چیزوں سے قدرے مختلف ہو "
+"سکتے ہیں، خاص طور پر جب CENO کی ترقی ہوتی ہے۔ یہ دستاویز CENO ورژن 1.6.0 کے "
+"لیے تازہ ترین ہے۔"
 
 #: browser/README.md:block 4 (paragraph)
 msgid ""
@@ -32,13 +47,18 @@ msgid ""
 "described here, do not hesitate to contact us at [cenoers@equalit.ie](mailto:"
 "cenoers@equalit.ie) and report the issue."
 msgstr ""
+"اگر آپ کی درخواست یہاں بیان کردہ طرز عمل سے کافی حد تک مختلف ہوتی ہے، تو ہم "
+"سے [cenoers@equalit.ie](mailto:cenoers@equalit.ie) پر رابطہ کرنے میں ہچکچاہٹ "
+"محسوس نہ کریں اور مسئلے کی اطلاع دیں۔"
 
 #: browser/README.md:block 4 (paragraph)
 msgid "[Firefox for Android]: https://www.mozilla.org/firefox/android/"
-msgstr ""
+msgstr "[Firefox for Android]: https://www.mozilla.org/firefox/android/"
 
 #: browser/README.md:block 4 (paragraph)
 msgid ""
 "[Firefox for Android Support]: https://support.mozilla.org/en-US/products/"
 "mobile"
 msgstr ""
+"[Firefox برائے اینڈرائیڈ سپورٹ]: https://support.mozilla.org/en-US/products/"
+"mobile"

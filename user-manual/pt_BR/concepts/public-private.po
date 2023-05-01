@@ -1,13 +1,19 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2023-04-28 07:52+0000\n"
+"Last-Translator: luana <luanafaustini@tutanota.com>\n"
+"Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
+"censorship-no/public-private/pt_BR/>\n"
 "Language: pt_BR\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #: concepts/public-private.md:block 1 (header)
 msgid "Public vs. private browsing"
-msgstr ""
+msgstr "Navegação pública versus privativa"
 
 #: concepts/public-private.md:block 2 (paragraph)
 msgid ""
@@ -19,32 +25,46 @@ msgid ""
 "let others know that you are trying to or did retrieve), and fortunately "
 "CENO can help you in this instance as well."
 msgstr ""
+"Devido às muitas técnicas usadas para superar problemas de conectividade, o "
+"CENO pode se tornar uma forma conveniente de obter vários tipos de conteúdo "
+"Web. E, como você pode já ter lido em seções anteriores, a qualquer momento "
+"em que você recupera e semeia uma página usando o Navegador CENO, ela fica "
+"disponível para outras pessoas. Pode haver, contudo, algum conteúdo que você "
+"não deseja compartilhar (ou não quer deixar outras pessoas saberem que está "
+"tentando recuperar ou recuperou). Felizmente, o CENO também pode ajudar você "
+"nesse aspecto."
 
 #: concepts/public-private.md:block 3 (paragraph)
 msgid ""
 "The default mode when you launch the application is **public browsing**. In "
 "it, CENO accesses Web content as described previously:"
 msgstr ""
+"O modo padrão quando você abre a aplicação é **navegação pública**. Nele, o "
+"CENO acessa conteúdo Web da forma descrita anteriormente:"
 
 #: concepts/public-private.md:block 4 (ordered list)
 msgid "Direct access is attempted."
-msgstr ""
+msgstr "Tenta-se o acesso direto."
 
 #: concepts/public-private.md:block 4 (ordered list)
 msgid "Failing that, the distributed cache is searched."
-msgstr ""
+msgstr "Em caso de falha, procura-se o cache distribuído."
 
 #: concepts/public-private.md:block 4 (ordered list)
 msgid ""
 "Failing that, the content is requested via an injector (maybe via another "
 "client)."
 msgstr ""
+"Em caso de falha, o conteúdo é requisitado através de um injetor (talvez via "
+"outro cliente)."
 
 #: concepts/public-private.md:block 5 (paragraph)
 msgid ""
 "CENO also has a **private browsing** mode. In it, the distributed cache is "
 "never searched, and injection is never attempted:"
 msgstr ""
+"CENO também tem um modo **navegação privativa**. Nele, o cache distribuído "
+"nunca é procurado e nunca se tenta a injeção:"
 
 #: concepts/public-private.md:block 6 (ordered list)
 msgid ""
@@ -52,48 +72,64 @@ msgid ""
 "*as a normal proxy server*. Note that in this case, neither the injector nor "
 "your client updates the distributed cache with your page."
 msgstr ""
+"Em caso de falha, um injetor é contatado (talvez via outro cliente) e usado *"
+"como um servidor proxy normal*. Note que, nesse caso, nem o injetor nem o "
+"seu cliente atualizam o cache distribuído com a sua página."
 
 #: concepts/public-private.md:block 7 (paragraph)
 msgid ""
 "The different behavior results in different characteristics. Thus, in public "
 "mode:"
 msgstr ""
+"O comportamento diferente resulta em características diferentes. Assim, no "
+"modo público:"
 
 #: concepts/public-private.md:block 8 (ordered list)
 msgid ""
 "You have better chances to get Web content, and help others get that content "
 "(from you)."
 msgstr ""
+"Você tem mais chances de obter conteúdo Web e ajudar outras pessoas a obter "
+"conteúdo (de você)."
 
 #: concepts/public-private.md:block 8 (ordered list)
 msgid ""
 "Pages with dynamic content (e.g. updated in real time) may break in obvious "
 "or subtle ways."
 msgstr ""
+"Páginas com conteúdo dinâmico (exemplo, atualizadas em tempo real) podem "
+"quebrar de maneiras óbvias ou sutis."
 
 #: concepts/public-private.md:block 8 (ordered list)
 msgid ""
 "Pages requiring authentication do not work (as passwords and cookies are "
 "removed by the client)."
 msgstr ""
+"Páginas que requerem autenticação não funcionam (pois senhas e cookies são "
+"removidos pelo cliente)."
 
 #: concepts/public-private.md:block 8 (ordered list)
 msgid ""
 "Some browsing activity may be leaked to other users (see [risks](risks.md))."
 msgstr ""
+"Algumas atividades de navegação podem ser vazadas para outros usuários (veja "
+"os [riscos](risks.md))."
 
 #: concepts/public-private.md:block 8 (ordered list)
 msgid ""
 "Some browsing activity may be leaked to injectors (see [risks](risks.md))."
 msgstr ""
+"Algumas atividades de navegação podem ser vazadas para injetores (veja os "
+"[riscos](risks.md))."
 
 #: concepts/public-private.md:block 8 (ordered list)
 msgid "You need to trust injectors to retrieve and sign Web content."
 msgstr ""
+"Você precisa confiar nos injetores para recuperar e assinar conteúdo Web."
 
 #: concepts/public-private.md:block 9 (paragraph)
 msgid "While in private mode:"
-msgstr ""
+msgstr "Enquanto estiver no modo privativo:"
 
 #: concepts/public-private.md:block 10 (ordered list)
 msgid ""
@@ -101,32 +137,41 @@ msgid ""
 "connectivity is too scarce; even if you could, other CENO users would not "
 "get that content from you."
 msgstr ""
+"Você pode não ser capaz de acessar conteúdo Web bloqueado se a conectividade "
+"internacional estiver muito escassa. Mesmo que você pudesse, outros usuários "
+"do CENO não iriam obter esse conteúdo de você."
 
 #: concepts/public-private.md:block 10 (ordered list)
 msgid "Pages with dynamic content will probably work."
-msgstr ""
+msgstr "As páginas com conteúdo dinâmico provavelmente funcionarão."
 
 #: concepts/public-private.md:block 10 (ordered list)
 msgid ""
 "Pages requiring authentication may work (when your connection is protected "
 "by HTTPS, the injector does not see your passwords)."
 msgstr ""
+"Páginas que requerem autenticação podem funcionar (quando sua conexão está "
+"protegida por HTTPS, o injetor não vê suas senhas)."
 
 #: concepts/public-private.md:block 10 (ordered list)
 msgid "Browsing activity is not leaked to other users."
-msgstr ""
+msgstr "A atividade de navegação não é vazada para outros usuários."
 
 #: concepts/public-private.md:block 10 (ordered list)
 msgid ""
 "Limited browsing activity is leaked to injectors (with HTTPS, only the "
 "origin server name or address)."
 msgstr ""
+"Uma quantidade limitada de atividade de navegação é vazada para injetores ("
+"com HTTPS, apenas o nome ou endereço do servidor de origem)."
 
 #: concepts/public-private.md:block 10 (ordered list)
 msgid ""
 "You need not trust injectors (with HTTPS, usual certificate-based security "
 "still works)."
 msgstr ""
+"Você não precisa confiar nos injetores (com HTTPS, a segurança usual baseada "
+"em certificados ainda funciona)."
 
 #: concepts/public-private.md:block 11 (paragraph)
 msgid ""
@@ -136,6 +181,11 @@ msgid ""
 "to login to Twitter or edit your WordPress website, use *private browsing* "
 "mode."
 msgstr ""
+"Em conclusão: se você está usando CENO para ler notícias, assistir vídeos, "
+"navegar pela Wikipédia e por outras fontes estáticas que estão de alguma "
+"forma censuradas em sua rede, considere usar o modo padrão *navegação "
+"pública*. E se você quer fazer login no Twitter ou editar seu website "
+"WordPress, use o modo *navegação privativa*."
 
 #: concepts/public-private.md:block 12 (paragraph)
 msgid ""
@@ -145,3 +195,8 @@ msgid ""
 "greater detail in the [Helping others](../browser/bridging.md) section of "
 "the manual."
 msgstr ""
+"Por favor, leia a seção sobre [riscos](risks.md) para uma explicação mais "
+"detalhada. Note também que o seu cliente pode continuar a operar como uma "
+"ponte e um semeador independentemente da navegação pública ou privativa. "
+"Explicamos isso em detalhes na seção [Ajudando outras pessoas](../browser/"
+"bridging.md) do manual."
