@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-04-24 18:09+0000\n"
-"Last-Translator: leilane <leilane.a@protonmail.com>\n"
+"PO-Revision-Date: 2023-05-02 05:52+0000\n"
+"Last-Translator: luana <luanafaustini@tutanota.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "censorship-no/browser-testing/pt_BR/>\n"
 "Language: pt_BR\n"
