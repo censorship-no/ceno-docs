@@ -3,21 +3,22 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-04 20:09+0200\n"
-"PO-Revision-Date: 2021-03-04 19:09+0000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-05-03 06:50+0000\n"
+"Last-Translator: Hubert Naciasta <hubert.naciasta@proton.me>\n"
+"Language-Team: Polish <https://hosted.weblate.org/projects/censorship-no/"
+"risks/pl/>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.5.1-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #
 #: concepts/risks.md:block 1 (header)
 msgid "Risks in using CENO/Ouinet"
-msgstr ""
+msgstr "Ryzyko powiązane z używaniem CENO/Ouinet"
 
 #: concepts/risks.md:block 2 (paragraph)
 msgid ""
@@ -27,6 +28,12 @@ msgid ""
 "help you understand their implications according to the different roles you "
 "may play when using CENO:"
 msgstr ""
+"Podobnie jak z każdym innym zaawansowanym systemem komputerowym, w "
+"szczególności tak innowacyjnym, korzystanie z Przeglądarki CENO (oraz "
+"każdego innego klienta Ouinet) nie jest wolne od ryzyka. W tej sekcji "
+"wymienimy i opiszemy je tak żebyś był w stanie zrozumieć co może ono dla "
+"Ciebie oznaczać w zależności od tego, jaką rolę pełnisz podczas korzystania "
+"z CENO:"
 
 #: concepts/risks.md:block 3 (unordered list)
 msgid "as a *user* browsing Web sites"
@@ -44,7 +51,7 @@ msgstr ""
 
 #: concepts/risks.md:block 4 (header)
 msgid "As a user"
-msgstr ""
+msgstr "Jako użytkownik"
 
 #: concepts/risks.md:block 5 (header)
 msgid "Can bridges see my communication with the origin server?"
