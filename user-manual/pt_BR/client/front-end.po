@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-02 05:52+0000\n"
+"PO-Revision-Date: 2023-05-03 06:50+0000\n"
 "Last-Translator: luana <luanafaustini@tutanota.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "censorship-no/client-front-end/pt_BR/>\n"
@@ -25,8 +25,8 @@ msgstr ""
 "O cliente Ouinet (conforme executado pelo Navegador CENO, por exemplo) "
 "oferece uma página front-end com algumas informações e ações que podem ser "
 "úteis para a depuração do cliente. Muitas delas também são oferecidas pela "
-"Extensão CENO via [página de *Configurações do CENO*](../browser/settings.md)"
-", apesar de outras somente estarem disponíveis aqui."
+"Extensão CENO via [página *Configurações do CENO*](../browser/settings.md), "
+"apesar de outras somente estarem disponíveis aqui."
 
 #: client/front-end.md:block 3 (paragraph)
 msgid ""
