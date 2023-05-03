@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-03 06:50+0000\n"
-"Last-Translator: luana <luanafaustini@tutanota.com>\n"
+"PO-Revision-Date: 2023-05-03 23:03+0000\n"
+"Last-Translator: leilane <leilane.a@protonmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "censorship-no/browser-settings/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -290,6 +290,12 @@ msgid ""
 "ports) to set or add your own, then choose *Save*. The changes will be "
 "applied the next time that your Ouinet client is started."
 msgstr ""
+"*Bootstraps extra do BitTorrent* são servidores usados para ajudar o seu "
+"dispositivo a entrar na rede BitTorrent, caso os servidores padrão não "
+"funcionem. Também incluir nos relatórios. Você pode editar o a lista de "
+"hosts separada por espaços (com portas opcionais) para configurar ou "
+"adicionar o seu próprio host e depois escolher *Salvar*. As mudanças serão "
+"aplicadas na próxima vez em que o seu cliente Ouinet for inicializado."
 
 #: browser/settings.md:block 13 (unordered list)
 msgid ""
