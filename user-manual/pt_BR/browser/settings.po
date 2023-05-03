@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-03 23:03+0000\n"
+"PO-Revision-Date: 2023-05-04 00:08+0000\n"
 "Last-Translator: leilane <leilane.a@protonmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "censorship-no/browser-settings/pt_BR/>\n"
@@ -267,6 +267,10 @@ msgid ""
 "to seed signed content to other clients. These are shown to help test and "
 "debug the app, and should not be generally disclosed."
 msgstr ""
+"*Endpoints UDP locais* são os endereços de Internet em seu dispositivo "
+"usados pelo CENO para semear conteúdo assinado para outros clientes. Eles "
+"são mostrados para ajudar a testar e depurar o aplicativo e não devem, em "
+"geral, ser divulgados."
 
 #: browser/settings.md:block 13 (unordered list)
 msgid ""
