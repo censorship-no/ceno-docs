@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-03 13:06+0000\n"
+"PO-Revision-Date: 2023-05-05 06:47+0000\n"
 "Last-Translator: luana <luanafaustini@tutanota.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "censorship-no/browser-bridging/pt_BR/>\n"
@@ -270,7 +270,6 @@ msgstr ""
 "para conexões de outros usuários do CENO:"
 
 #: browser/bridging.md:block 28 (quote)
-#, fuzzy
 msgid ""
 "**Note:** Even if UPnP is working, your router may still not be reachable "
 "from the outside. This can be the case when *CENO Settings* reports "
@@ -281,14 +280,14 @@ msgid ""
 "get a public address on your router or to establish port forwardings to the "
 "external endpoint."
 msgstr ""
-"**Nota:** Mesmo quando UPnP está funcioanndo, seu roteador pode não ser "
+"**Nota:** Mesmo quando UPnP está funcionando, seu roteador pode não ser "
 "alcançável do exterior. Esse pode ser o caso quando as *Configurações do "
-"CENO* relatam *Endpoints UDP externos* que parece com endereços "
-"[CGNAT][CGNAT] `100.X.Y.Z:N`com X entre 64 e 127 (cada dia mais comum entre "
-"ISPs domésticos), ou como endereços privados `10.X.Y.Z:N`, `172.X.Y.Z:N`com "
-"X entre 16 e 31, e `192.168.X.Y:N`. Se for o caso, por favor contacte seu "
-"ISP ou administrador de rede para obter o endereço público em seu roteador "
-"ou para estabelecer redirecionamentos de porta para o endpoint externo."
+"CENO* relatam *Endpoints UDP externos* que parecem com endereços "
+"[CGNAT][CGNAT] `100.X.Y.Z:N` com X entre 64 e 127 (cada dia mais comum entre "
+"ISPs domésticos), ou como endereços privados `10.X.Y.Z:N`, `172.X.Y.Z:N` com "
+"X entre 16 e 31, e `192.168.X.Y:N`. Se for o caso, por favor contate seu ISP "
+"ou administrador de rede para obter o endereço público em seu roteador ou "
+"para estabelecer redirecionamentos de porta para o endpoint externo."
 
 #: browser/bridging.md:block 29 (paragraph)
 msgid ""
@@ -366,7 +365,6 @@ msgstr ""
 "seção *Endpoints UDP locais*."
 
 #: browser/bridging.md:block 33 (quote)
-#, fuzzy
 msgid "**Local UDP endpoints**"
 msgstr "**Endpoints UDP locais**"
 
