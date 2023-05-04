@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-03 06:50+0000\n"
-"Last-Translator: luana <luanafaustini@tutanota.com>\n"
+"PO-Revision-Date: 2023-05-04 06:15+0000\n"
+"Last-Translator: leilane <leilane.a@protonmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "censorship-no/client-front-end/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -120,7 +120,7 @@ msgid ""
 "explained [here](../concepts/how.md)."
 msgstr ""
 "Informações sobre conectividade do cliente e endereçamento do injetor. O "
-"método padrão `bep5` procura endereços da Internet em um swarm injetor "
+"método padrão `bep5` procura endereços da Internet em um enxame de injetores "
 "BitTorrent, como explicado [aqui](../concepts/how.md)."
 
 #: client/front-end.md:block 6 (unordered list)
