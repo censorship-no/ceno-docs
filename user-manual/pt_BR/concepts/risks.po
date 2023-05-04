@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-04-28 07:52+0000\n"
-"Last-Translator: luana <luanafaustini@tutanota.com>\n"
+"PO-Revision-Date: 2023-05-04 06:17+0000\n"
+"Last-Translator: leilane <leilane.a@protonmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "censorship-no/risks/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -188,7 +188,7 @@ msgid ""
 "the injector swarm (since the connection comes indeed from the injector);"
 msgstr ""
 "O endereço source da conexão alcançando o servidor de origem é encontrado no "
-"swarm injetor (já que a conexão vem, de fato, do injetor);"
+"enxame de injetores (já que a conexão vem, de fato, do injetor);"
 
 #: concepts/risks.md:block 19 (ordered list)
 msgid ""
@@ -283,7 +283,7 @@ msgid ""
 "IP address in the bridge swarm where other Ouinet clients can find them."
 msgstr ""
 "Sim, todo Navegador CENO capaz de se comunicar com injetores registrará seus "
-"endereços de IP no swarm ponte onde outros clientes Ouinet podem "
+"endereços de IP no enxame de pontes onde outros clientes Ouinet podem "
 "encontrá-los."
 
 #: concepts/risks.md:block 30 (header)
