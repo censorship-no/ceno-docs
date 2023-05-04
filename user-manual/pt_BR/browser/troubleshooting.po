@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-03 18:22+0000\n"
-"Last-Translator: luana <luanafaustini@tutanota.com>\n"
+"PO-Revision-Date: 2023-05-04 06:14+0000\n"
+"Last-Translator: leilane <leilane.a@protonmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "censorship-no/browser-troubleshooting/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -259,9 +259,9 @@ msgid ""
 "acting as bridges."
 msgstr ""
 "Alguém está interferindo na sua conexão com os endereços de Internet no "
-"swarm injetor. Já que se espera que esse problema aconteça eventualmente, "
-"conforme CENO (e Ouinet) se popularizem, CENO recorre ao alcance dos "
-"injetores através de outros clientes agindo como pontes."
+"enxame de injetores. Já que se espera que esse problema aconteça "
+"eventualmente, conforme CENO (e Ouinet) se popularizem, CENO recorre ao "
+"alcance dos injetores através de outros clientes agindo como pontes."
 
 #: browser/troubleshooting.md:block 27 (paragraph)
 msgid ""
