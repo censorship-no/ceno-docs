@@ -4,7 +4,7 @@
 
 set -e
 
-WEB_REPO="${WEB_REPO:-../../ceno.github.io}"
+WEB_REPO="${WEB_REPO:-../../ceno-website}"
 
 for book in *.book; do
     lang="${book%%.book}"
