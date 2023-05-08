@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2022-03-28 05:11+0000\n"
-"Last-Translator: Atrate <Atrate@protonmail.com>\n"
+"PO-Revision-Date: 2023-05-03 06:50+0000\n"
+"Last-Translator: Eryk Michalak <gnu.ewm@protonmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/censorship-no/"
 "browser-public-private/pl/>\n"
 "Language: pl\n"
@@ -13,16 +13,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.12-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #
 #: browser/public-private.md:block 1 (header)
-#, fuzzy
 msgid "Using public or private browsing"
 msgstr "Korzystanie z przeglądania publicznego lub prywatnego"
 
 #: browser/public-private.md:block 2 (paragraph)
-#, fuzzy
 msgid ""
 "As described [in a previous section](../concepts/public-private.md), CENO "
 "has two different modes of operation depending on whether you want to share "
@@ -35,7 +33,6 @@ msgstr ""
 "prywatne)."
 
 #: browser/public-private.md:block 3 (paragraph)
-#, fuzzy
 msgid ""
 "This setting applies *to each tab* that you open in the browser, i.e. you "
 "can have public browsing tabs and private browsing tabs. CENO's default "
@@ -71,7 +68,6 @@ msgid "![Figure: A private browsing tab](images/private-tab.png)"
 msgstr "![Rycina: Karta przeglądania prywatnego](images/private-tab.png)"
 
 #: browser/public-private.md:block 8 (paragraph)
-#, fuzzy
 msgid ""
 "Once you have loaded a page in a tab, the colored CENO icon in the address "
 "bar will help you know how it actually retrieved the different elements of "

@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-11-09 17:48+0000\n"
+"PO-Revision-Date: 2023-01-02 23:53+0000\n"
 "Last-Translator: Jean-Luc Tibaux <eugentoptic@outlook.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/censorship-no/"
 "browser-bridging/de/>\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.15-dev\n"
+"X-Generator: Weblate 4.15.1-dev\n"
 
 #: browser/bridging.md:block 1 (header)
 msgid "Helping other CENO users browse the Web"
@@ -27,6 +27,16 @@ msgid ""
 "through an encrypted tunnel), nor will any of this traffic remain on your "
 "device."
 msgstr ""
+"Ein Peer-to-Peer-Netz wird von jedem angeschlossenen Knoten aufgebaut (ja, "
+"das heißt auch von Ihnen!). Je mehr Knotenpunkte, desto stärker und "
+"vielseitiger wird das Netzwerk. Wenn Sie CENO Browser von einem Land aus "
+"betreiben, in dem das Internet nicht zensiert wird (oder nicht so stark wie "
+"in anderen), sollten Sie in Erwägung ziehen, anderen CENO-Benutzern zu "
+"helfen, indem Sie ein **Brückenknoten** werden. Sie leiten dann den "
+"Datenverkehr zwischen Kunden, die in stark zensierten Ländern leben, und "
+"CENO-Injektoren weiter. Sie können deren Datenverkehr nicht sehen (er wird "
+"durch einen verschlüsselten Tunnel gesendet), noch wird etwas von diesem "
+"Verkehr auf Ihrem Gerät verbleiben."
 
 #: browser/bridging.md:block 3 (quote)
 msgid ""
@@ -80,20 +90,32 @@ msgid ""
 "interfere with CENO; please check [Don't kill my app!][Don't kill my app!] "
 "for your device's brand."
 msgstr ""
+"**Technischer Hinweis:** Dies ist hauptsächlich auf den [Doze-"
+"Modus](https://developer.android.com/training/monitoring-device-state/doze-"
+"standby \"Android Developers – Optimize for Doze and App Standby (Englisch)\""
+") von Android zurückzuführen, der den Betrieb der nativen Ouinet-Bibliothek "
+"verlangsamt. Leider scheint die Deaktivierung der Batterieoptimierung für "
+"CENO Ouinet nicht davon auszuschließen. Ihr spezielles Gerät kann auch "
+"eigene Energiesparfunktionen haben, die CENO beeinträchtigen können. Bitte "
+"überprüfen Sie, ob ihr Gerät bei [Don't kill my app!][Don't kill my app!] "
+"erwähnt wird."
 
 #: browser/bridging.md:block 8 (paragraph)
 msgid ""
 "Thus if you intend to have CENO acting as a permanent, always-reachable "
 "bridge, besides a properly configured Wi-Fi network you will need to:"
 msgstr ""
+"Wenn Sie also beabsichtigen, CENO als permanente, immer erreichbare Brücke "
+"einzusetzen, benötigen Sie neben einem ordnungsgemäß konfigurierten Wi-Fi-"
+"Netzwerk noch weitere Voraussetzungen:"
 
 #: browser/bridging.md:block 9 (ordered list)
 msgid "Have your device plugged in to power at all times."
-msgstr ""
+msgstr "Lassen Sie Ihr Gerät immer am Stromnetz angeschlossen."
 
 #: browser/bridging.md:block 9 (ordered list)
 msgid "Have the device's screen on at all times."
-msgstr ""
+msgstr "Lassen Sie den Bildschirm des Geräts immer eingeschaltet."
 
 #: browser/bridging.md:block 9 (ordered list)
 msgid ""
@@ -146,6 +168,12 @@ msgid ""
 "[docker-install] in your platform. For Debian derivatives like Ubuntu or "
 "Linux Mint, you can just run: `sudo apt install docker.io`"
 msgstr ""
+"Wenn Ihr Computer [Docker-Container][docker] unterstützt, können Sie einen "
+"vorkonfigurierten CENO-Client darauf ausführen, der als Brücke fungiert. "
+"Wenn Docker noch nicht installiert ist, folgen Sie bitte den Anweisungen zur "
+"[Installation der Docker-Engine][docker-install] auf Ihrer Plattform. Für "
+"Debian-Derivate wie Ubuntu oder Linux Mint können Sie einfach Folgendes "
+"ausführen: `sudo apt install docker.io`"
 
 #: browser/bridging.md:block 13 (paragraph)
 msgid ""
@@ -153,12 +181,17 @@ msgid ""
 "on a terminal (it looks scary but you can just copy and paste it as is on "
 "the command line):"
 msgstr ""
+"Um einen CENO-Client-Container bereitzustellen, müssen Sie nur den folgenden "
+"Befehl in einem Terminal ausführen (er sieht unheimlich aus, aber Sie können "
+"ihn einfach kopieren und in die Befehlszeile einfügen):"
 
 #: browser/bridging.md:block 15 (paragraph)
 msgid ""
 "If your computer is not based on GNU/Linux, the command needs to be slightly "
 "different:"
 msgstr ""
+"Wenn Ihr Computer nicht auf GNU/Linux basiert, muss der Befehl etwas anders "
+"lauten:"
 
 #: browser/bridging.md:block 17 (paragraph)
 msgid ""
@@ -185,7 +218,7 @@ msgstr ""
 
 #: browser/bridging.md:block 19 (header)
 msgid "Enabling UPnP on your Wi-Fi router"
-msgstr ""
+msgstr "Aktivieren von UPnP auf Ihrem Wi-Fi-Router"
 
 #: browser/bridging.md:block 20 (paragraph)
 msgid ""
@@ -193,6 +226,10 @@ msgid ""
 "client) reachable to the CENO network. The [CENO Settings](settings.md) page "
 "will indicate the UPnP status on your local network."
 msgstr ""
+"[UPnP][UPnP] ist der einfachste Weg, Ihren CENO Browser (oder Computer-"
+"Client) für das CENO-Netzwerk erreichbar zu machen. Auf der Seite [CENO-"
+"Einstellungen](settings.md) wird der UPnP-Status in Ihrem lokalen Netzwerk "
+"angezeigt."
 
 #: browser/bridging.md:block 21 (quote)
 msgid ""
@@ -210,14 +247,16 @@ msgid ""
 "A status like the one below indicates that UPnP is not available or not "
 "working on your WiFi router:"
 msgstr ""
+"Ein Status wie der untenstehende zeigt an, dass UPnP auf Ihrem WiFi-Router "
+"nicht verfügbar ist oder nicht funktioniert:"
 
 #: browser/bridging.md:block 23 (quote)
 msgid "**Reachability status**"
-msgstr ""
+msgstr "**Erreichbarkeitsstatus**"
 
 #: browser/bridging.md:block 23 (quote)
 msgid "**UPnP status**"
-msgstr ""
+msgstr "**UPnP-Status**"
 
 #: browser/bridging.md:block 24 (paragraph)
 msgid ""

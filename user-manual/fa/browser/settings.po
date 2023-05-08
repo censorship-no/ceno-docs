@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-07-21 16:16+0000\n"
-"Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
+"PO-Revision-Date: 2023-04-20 21:49+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-settings/fa/>\n"
 "Language: fa\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.14-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #
 #: browser/settings.md:block 1 (header)
@@ -233,7 +233,7 @@ msgstr ""
 "*وضعیت سرویس گیرنده Ouinet*، اگر در حالت \"شروع شده\" باشد، به این معنی است "
 "که سرویس گیرنده Ouinet شما توانسته با موفقیت برنامه را اجرا کند. در غیر این "
 "صورت، ممکن است اشکالات مرتبط با اتصال یا برخی از خطاهای داخلی وجود داشته "
-"باشد.  لطفا این اطلاعات را در گزارش‌های خود بگنجانید."
+"باشد. لطفا این اطلاعات را در گزارش‌های خود بگنجانید."
 
 #: browser/settings.md:block 13 (unordered list)
 msgid ""
@@ -264,19 +264,14 @@ msgstr ""
 "عمومی فاش شوند."
 
 #: browser/settings.md:block 13 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "*External UDP endpoints* are the Internet addresses in your router given "
-#| "to your CENO traffic. Only available with UPnP-enabled routers, they are "
-#| "also is useful for diagnostics and not to be generally disclosed."
 msgid ""
 "*External UDP endpoints* are the Internet addresses in your router given to "
 "your CENO traffic. Only available with UPnP-enabled routers, they are also "
 "useful for diagnostics and not to be generally disclosed."
 msgstr ""
 "*نقاط پایانی UDP خارجی* آدرس های اینترنتی موجود در روتر شما هستند که به "
-"ترافیک CENO شما اختصاص داده می شود. فقط با روترهای دارای UPnP موجود است، "
-"آن‌ها همچنین برای تشخیص مشکلات و عیب‌یابی مفید هستند و به طورعمومی افشا "
+"ترافیک CENO شما اختصاص داده می شود. فقط با روترهای دارای UPnP موجود است، آن‌"
+"ها همچنین برای تشخیص مشکلات و عیب‌یابی مفید هستند و به طورعمومی افشا "
 "نمی‌شوند."
 
 #: browser/settings.md:block 13 (unordered list)

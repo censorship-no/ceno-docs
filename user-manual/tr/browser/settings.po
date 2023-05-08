@@ -3,20 +3,21 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2021-03-05 19:50+0000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-04-11 16:56+0000\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>\n"
+"Language-Team: Turkish <https://hosted.weblate.org/projects/censorship-no/"
+"browser-settings/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.5.1-dev\n"
+"X-Generator: Weblate 4.17-dev\n"
 
 #
 #: browser/settings.md:block 1 (header)
 msgid "CENO settings"
-msgstr ""
+msgstr "CENO ayarları"
 
 #: browser/settings.md:block 2 (paragraph)
 msgid ""
@@ -26,6 +27,10 @@ msgid ""
 "strategies against network interference, as well as reporting issues with "
 "the app."
 msgstr ""
+"CENO Browser, normal işlemler için gerekli olmasa da, ağ kısıtlama ve kesme "
+"girişimlerine karşı farklı stratejileri denemek ve uygulamayla ilgili "
+"sorunları bildirmek için bazı Ouinet özel ayarlarını değiştirmenizi ve "
+"istemciniz hakkında bilgi alınmasını sağlar."
 
 #: browser/settings.md:block 3 (quote)
 msgid ""
@@ -35,6 +40,11 @@ msgid ""
 "cache retrieval under public browsing, hinting the user about the source of "
 "the content being visualized, and notifying about new versions of Ouinet."
 msgstr ""
+"**Teknik not:** Bu seçenekler CENO ile birlikte gelen bir Firefox uzantısı "
+"olan *CENO Extension* tarafından sağlanır ve düzgün Ouinet bütünleştirmesi "
+"sağlar. Örneğin, herkese açık gezinme sırasında araya içerik eklenmesi ve ön "
+"bellekten kullanım, görüntülenen içeriğin kaynağı hakkında bilgi sağlama ve "
+"yeni Ouinet sürümleri hakkında bilgilendirme gibi özellikler sağlar."
 
 #: browser/settings.md:block 4 (paragraph)
 msgid ""
@@ -42,14 +52,17 @@ msgid ""
 "*CENO* in the app's main menu. Please note that the menu entry may take a "
 "few seconds to pop up on app start. The page should look like this:"
 msgstr ""
+"Bu özelliklere uygulama menüsündeki *CENO* seçeneğinden erişilebilir. "
+"Uygulama ilk kez açıldığında bu menü seçeneğinin gözükmesinin biraz zaman "
+"alabilir. Sayfa şu şekilde görüntülenmelidir:"
 
 #: browser/settings.md:block 5 (paragraph)
 msgid "![Figure: The CENO Settings page](images/settings.png)"
-msgstr ""
+msgstr "![Görsel:CENO ayarları bölümü](images/settings.png)"
 
 #: browser/settings.md:block 6 (header)
 msgid "Choosing access mechanisms"
-msgstr ""
+msgstr "Erişim yöntemlerinin seçimi"
 
 #: browser/settings.md:block 7 (paragraph)
 msgid ""
@@ -58,18 +71,26 @@ msgid ""
 "retrieve content while using either [public or private browsing](public-"
 "private.md) tabs. All boxes are enabled by default."
 msgstr ""
+"Sayfanın üst kısmındaki dört işaret kutusu, CENO Ouinet istemcisi olarak ["
+"herkese açık ya da gizli gezinme](public-private.md) ile kullanılırken, "
+"içerikleri alma yöntemleri ile kaynaklarını seçmenizi sağlar. Varsayılan "
+"olarak tüm kutular işaretlidir."
 
 #: browser/settings.md:block 8 (unordered list)
 msgid ""
 "*Direct from website* (or **origin access**) allows CENO to try to reach the "
 "origin server directly before attempting other mechanisms enabled below."
 msgstr ""
+"*Doğrudan siteden* (veya **kaynaktan erişim**) seçeneğinde CENO, aşağıdaki "
+"diğer yöntemleri denemeden önce kaynak sunucuya bağlanmaya çalışır."
 
 #: browser/settings.md:block 8 (unordered list)
 msgid ""
 "Although this mechanism works in both private and public browsing modes, "
 "content thus retrieved cannot be shared with others."
 msgstr ""
+"Bu yöntem herkese açık ve gizli gezinme kiplerinde çalışsa bile, alınan "
+"içerik diğer kullanıcılarla paylaşılamaz."
 
 #: browser/settings.md:block 8 (unordered list)
 msgid ""
@@ -79,6 +100,11 @@ msgid ""
 "disabling this option may avoid such connections and trivial tracking (but "
 "not completely, see [risks](../concepts/risks.md))."
 msgstr ""
+"İnternet içeriklerini yüklemek yavaş veya pahalı değilse bu yöntem çoğu "
+"kullanım senaryosu için yeterlidir. Doğrudan bağlantılar internet hizmeti "
+"sağlayıcınız ya da hükumetiniz tarafından izlenebilir. Bu seçeneği kapatmak "
+"bu tarz bağlantıların kurulmasından kaçınır ve izlenmeyi kısıtlar (tümüyle "
+"kısıtlamaz, [tehlikeler](../concepts/risks.md) bölümüne bakın)."
 
 #: browser/settings.md:block 8 (unordered list)
 msgid ""
@@ -89,16 +115,25 @@ msgid ""
 "safer CENO mechanisms. Please check the section on [troubleshooting]"
 "(troubleshooting.md) to learn more about this issue."
 msgstr ""
+"İnternet sitelerine güvenli olmayan HTTP (daha güvenli olan HTTPS yerine) "
+"ile erişirken bağlantı izlenebilir ve kullanıcıya CENO tarafından "
+"algılanamayacak sahte bir site gönderebilir. Böyle durumlarda bu seçeneği "
+"kapatarak daha güvenli CENO yöntemlerine başvurulması önerilir. Bu sorun "
+"hakkında ayrıntılı bilgi almak için [sorun giderme](troubleshooting.md) "
+"bölümüne bakabilirsiniz."
 
 #: browser/settings.md:block 8 (unordered list)
 msgid ""
 "*Via the CENO network (private)* (or **proxy access**) allows CENO to use "
 "injectors as normal HTTP proxy servers to reach origin servers."
 msgstr ""
+"*CENO ağı üzerinden (gizli)* (veya **vekil sunucu erişimi**) seçeneğinde, "
+"CENO içerik ekleyicileri HTTP vekil sunucu olarak kullanarak kaynak "
+"sunuculara erişir."
 
 #: browser/settings.md:block 8 (unordered list)
 msgid "This mechanism only works in private browsing mode."
-msgstr ""
+msgstr "Bu yöntem yalnızca gizli gezinme kipinde çalışır."
 
 #: browser/settings.md:block 8 (unordered list)
 msgid ""
@@ -108,6 +143,10 @@ msgid ""
 "others). Other participants, such as bridges, will never see the unencrypted "
 "traffic."
 msgstr ""
+"Bir içeriğe HTTPS kullanarak erişirken yalnızca kaynak sunucular trafiğin "
+"şifresini çözebilir. Düz HTTP kullanıldığında içerik ekleyici şifrelenmemiş "
+"trafiği görebilir (yine de içeriği imzalamaz ve başkalarıyla paylaşmaz). "
+"Köprüler gibi diğer katılımcılar asla şifrelenmemiş trafiği görmez."
 
 #: browser/settings.md:block 8 (unordered list)
 msgid ""
@@ -116,21 +155,28 @@ msgid ""
 "The injector gets the content from an origin server, signs it, and sends it "
 "back to CENO - which then begins seeding it."
 msgstr ""
+"*CENO ağı üzerinden (herkese açık)* (veya **içerik ekleyici erişimi**) "
+"seçeneğinde kişisel bilgiler isteklerden silinir ve bir içerik ekleyiciye "
+"gönderilir. İçerik ekleyici kaynak sunucudan içeriği alır, imzalar ve "
+"dağıtması için tekrar CENO'ya gönderir."
 
 #: browser/settings.md:block 8 (unordered list)
 msgid ""
 "Other participants (such as bridges) will not see the unencrypted traffic."
-msgstr ""
+msgstr "Diğer katılımcılar (köprüler gibi) şifrelenmemiş trafiği görmez."
 
 #: browser/settings.md:block 8 (unordered list)
 msgid "This mechanism only works in public browsing mode."
-msgstr ""
+msgstr "Bu yöntem yalnızca herkese açık gezinme kipinde çalışır."
 
 #: browser/settings.md:block 8 (unordered list)
 msgid ""
 "*Shared by other CENO users* allows CENO to try to retrieve content from the "
 "**distributed cache**, i.e. from other CENO and Ouinet clients seeding it."
 msgstr ""
+"*Diğer CENO kullanıcılarının paylaşımlarından* seçeneğinde, içerikler "
+"içeriği dağıtan diğer Ouinet istemcileri ve CENO gibi **dağıtılmış ön "
+"bellekten** alınmaya çalışılır."
 
 #: browser/settings.md:block 9 (paragraph)
 msgid ""
@@ -138,34 +184,45 @@ msgid ""
 "browsing mode will render them useless. If you establish such a "
 "configuration, a warning will be shown as depicted below:"
 msgstr ""
+"Herkese açık ya da gizli gezinme kipleri için tüm yöntemleri kapatmak "
+"bunları yararsız yapar. Böyle bir yapılandırma uygularsanız aşağıdaki gibi "
+"bir uyarı görüntülenir:"
 
 #: browser/settings.md:block 10 (paragraph)
 msgid ""
 "![Figure: Invalid settings for private browsing](images/settings-no-private."
 "png)"
 msgstr ""
+"![Görsel: Gizli gezinme için geçersiz ayarlar](images/settings-no-private."
+"png)"
 
 #: browser/settings.md:block 11 (header)
 msgid "About your app"
-msgstr ""
+msgstr "Uygulamanız hakkında"
 
 #: browser/settings.md:block 12 (paragraph)
 msgid ""
 "This page also provides you with some information about your CENO Browser "
 "app and Ouinet client:"
 msgstr ""
+"Bu sayfa CENO Browser uygulamanız ve Ouinet istemciniz hakkında da bilgiler "
+"verir:"
 
 #: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*Local cache size* shows an approximation of how much storage is taken by "
 "the content being seeded from your device's local cache."
 msgstr ""
+"*Yerel ön bellek boyutu* aygıtınızın yerel ön belleğinden içeriklerin "
+"gönderilmesi için kullanılan yaklaşık depolama alanını gösterir."
 
 #: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*Content shared by you* allows you to check the content being announced by "
 "your device."
 msgstr ""
+"*Paylaştığınız içerik* aygıtınızdan ağa dağıtılan içerikleri görmenizi "
+"sağlar."
 
 #: browser/settings.md:block 13 (unordered list)
 msgid ""
@@ -173,18 +230,26 @@ msgid ""
 "to run successfully. Otherwise, there may be connectivity issues or some "
 "internal error. Please include this information in your issue reports."
 msgstr ""
+"Ouinet istemciniz sorunsuz olarak çalışıyorsa *Ouinet istemci durumu* "
+"bölümünde `başlatıldı`görüntülenir. Diğer durumlarda bağlantı veya yazılım "
+"kaynaklı sorunlar olabilir. Lütfen sorun bildirirken bu bilgileri de ekleyin."
 
 #: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*Reachability status* indicates how likely it is for your device to be able "
 "to effectively seed content to other clients. Also include in reports."
 msgstr ""
+"*Erişebilirlik durumu* aygıtınızın diğer istemcilere içerik dağıtabilme "
+"yeteneğini gösterir. Sorun bildirirken bunu da ekleyin."
 
 #: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*UPnP status* indicates whether CENO was able to tell your router or access "
 "point to allow incoming connections towards it. Also include in reports."
 msgstr ""
+"*UPnP durumu* Gelen bağlantıların CENO tarafından alınabilmesi için "
+"yönlendiriciniz veya bağlantı noktanız ile etkileşim kurulabildiğini "
+"gösterir. Sorun bildirirken bunu da ekleyin."
 
 #: browser/settings.md:block 13 (unordered list)
 msgid ""
@@ -192,6 +257,10 @@ msgid ""
 "to seed signed content to other clients. These are shown to help test and "
 "debug the app, and should not be generally disclosed."
 msgstr ""
+"*Yerel UDP uç noktaları* İmzalı içeriklerin CENO tarafından diğer "
+"istemcilere gönderilmesi için kullanulan internet adresleridir. Uygulamanın "
+"sınanmasında ve hata ayıklamasında yararlıdır ve genellikle gizli "
+"tutulmalıdır."
 
 #: browser/settings.md:block 13 (unordered list)
 msgid ""
@@ -199,6 +268,9 @@ msgid ""
 "your CENO traffic. Only available with UPnP-enabled routers, they are also "
 "useful for diagnostics and not to be generally disclosed."
 msgstr ""
+"*Dış UDP uç noktaları* yönlendiricinizin CENO trafiğine verdiği internet "
+"adresleridir. Yalnızca UPnP özelliğinin açık olduğu yönlendiricilerde "
+"bulunur. Sorun tanılamasında yararlıdır ve genellikle gizli tutulmalıdır."
 
 #: browser/settings.md:block 13 (unordered list)
 msgid ""
@@ -206,6 +278,9 @@ msgid ""
 "outside of your network see when communicating with your device. Also for "
 "diagnostics and not to be disclosed."
 msgstr ""
+"*Herkese açık UDP uç noktaları* ağınız dışındaki Ouinet istemcilerinin "
+"aygıtınızla iletişim kurarken göreceği internet adresleridir. Sorun "
+"tanılamasında yararlıdır ve gizli tutulmalıdır."
 
 #: browser/settings.md:block 13 (unordered list)
 msgid ""
@@ -215,33 +290,47 @@ msgid ""
 "ports) to set or add your own, then choose *Save*. The changes will be "
 "applied the next time that your Ouinet client is started."
 msgstr ""
+"*Ek BitTorrent ön yükleyicileri* aygıtınız varsayılan ön yükleyiciler ile "
+"BitTorrent ağına giremediği zaman kullanılan sunuculardır. Sorun bildirirken "
+"bunu da ekleyin. Boşluk ile ayrılmış etki alanı listesini (ek bağlantı "
+"noktaları ile) düzenleyebilir ve ardından *Kaydet* ile kaydedebilirsiniz. "
+"Değişiklikler Ouinet istemcinizin bir sonraki çalıştırılmasında uygulanır."
 
 #: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*CENO Browser* indicates the exact version of CENO that you are using. Also "
 "include in reports."
 msgstr ""
+"*CENO Browser* hangi CENO sürümünü kullandığınızı gösterir. Sorun "
+"bildirirken bunu da ekleyin."
 
 #: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*CENO Extension* shows the version of the extension that integrates Firefox "
 "with CENO. Also include in reports."
 msgstr ""
+"*CENO uzantısı* Firefox ile CENO bütünleştirme uzantısının sürümünü "
+"gösterir. Sorun bildirirken bunu da ekleyin."
 
 #: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*Ouinet* shows the version of Ouinet backing CENO. Also include in reports."
 msgstr ""
+"*Ouinet* CENO tarafından kullanılan Ouinet sürümünü gösterir. Sorun "
+"bildirirken bunu da ekleyin."
 
 #: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*Ouinet protocol* is the version number of the protocol that CENO uses to "
 "talk to other Ouinet clients and injectors. Also include in reports."
 msgstr ""
+"*Ouinet iletişim kuralı* CENO'nun diğer Ouinet istemcileri ve içerik "
+"ekleyicileri ile iletişim kurarken kullandığı iletişim kuralı sürümünü "
+"gösterir. Sorun bildirirken bunu da ekleyin."
 
 #: browser/settings.md:block 14 (header)
 msgid "Purging the local cache"
-msgstr ""
+msgstr "Yerel ön belleği temizlemek"
 
 #: browser/settings.md:block 15 (paragraph)
 msgid ""
@@ -250,6 +339,10 @@ msgid ""
 "This allows you to free up some storage space in your device while keeping "
 "other CENO settings like Favorites."
 msgstr ""
+"Yukarıdaki *Yerel ön bellek boyutunun* yanında aygıtınızın Ouinet üzerinden "
+"paylaştığı tüm içeriklerin paylaşımını durdurup aygıtınızdan silinmesini "
+"sağlayan bir düğme bulubur. Yer imleri gibi CENO ayarlarını silmeden "
+"aygıtınızda boş alan açmanızı sağlar."
 
 #: browser/settings.md:block 16 (paragraph)
 msgid ""
@@ -259,6 +352,11 @@ msgid ""
 "then *Clear private data*. You will be asked about which items you want to "
 "clear."
 msgstr ""
+"CENO normal gezinme ön belleğini (tarayıcı tarafından kullanılıp diğerleri "
+"ile paylaşılmayan) ya da çerezler, gezinme geçmişi ve sık kullanılanlar gibi "
+"diğer ögeleri temizlemek istiyorsanız, uygulama ana menüsündeki *Ayarlar* "
+"bölümüne giderek *Kişisel verileri temizle* üzerine dokunun. Hangi ögeleri "
+"silmek istediğinizi soran bir pencere açılır."
 
 #: browser/settings.md:block 17 (paragraph)
 msgid ""
@@ -266,10 +364,13 @@ msgid ""
 "please learn how to use the \"panic button\" feature described in "
 "[Installing CENO](install.md)."
 msgstr ""
+"Tek seferde her şeyi silmek için (aceleniz olduğunda), [CENO kurmak](install."
+"md) bölümünde açıklanan \"panik düğmesi\" özelliğinin nasıl kullanıldığını "
+"öğrenin."
 
 #: browser/settings.md:block 18 (header)
 msgid "Collecting log messages"
-msgstr ""
+msgstr "Günlük kayıtlarını tutmak"
 
 #: browser/settings.md:block 19 (paragraph)
 msgid ""
@@ -278,16 +379,20 @@ msgid ""
 "a file. This should only be used when diagnosing some problem in CENO; just "
 "follow these steps:"
 msgstr ""
+"Sayfanın altında bulunan *Günlük tutulsun* seçeneği tüm Ouinet iç "
+"iletilerinin bir dosyaya kaydedilmesini sağlar. Yalnızca CENO sorunlarını "
+"tanılamak için kullanılmalıdır. Şu adımları izleyin:"
 
 #: browser/settings.md:block 20 (ordered list)
 msgid "At the *CENO Settings* page, check *Enable log file*."
 msgstr ""
+"*CENO ayarları* bölümüne giderek *Günlük tutulsun* seçeneğini işaretleyin."
 
 #: browser/settings.md:block 20 (ordered list)
 msgid ""
 "Go back to browsing and do whatever actions that trigger the troublesome "
 "behavior."
-msgstr ""
+msgstr "Gezinmeye dönün ve sorun çıkan işlemleri yeniden yapın."
 
 #: browser/settings.md:block 20 (ordered list)
 msgid ""
@@ -296,10 +401,16 @@ msgid ""
 "ask you at this point whether to allow CENO access to stored media: this is "
 "needed to be able to save the file."
 msgstr ""
+"Yeniden *CENO ayarları* bölümüne gidin ve *Günlük tutulsun* seçeneğinin "
+"yanındaki *İndir* üzerine dokunup dosyayı kaydedin. Android üzerinde CENO "
+"için dosya erişim izni istenebilir, bu izin dosyayı kaydetmek için "
+"gereklidir."
 
 #: browser/settings.md:block 20 (ordered list)
 msgid "Uncheck *Enable log file* to avoid the logs from growing too large."
 msgstr ""
+"Günlük kayıtlarının aşırı büyük dosyalar haline gelmemesi için *Günlük "
+"tutulsun* seçeneğinin işaretini kaldırın."
 
 #: browser/settings.md:block 21 (paragraph)
 msgid ""
@@ -307,3 +418,6 @@ msgid ""
 "avoid making it public since it may contain sensitive information about your "
 "browsing."
 msgstr ""
+"Kaydedilen günlük dosyasını bir sorun bildirmek için kullanabilirsiniz. "
+"Ancak internet gezinmenizle ilgili hassas bilgiler içerebileceğinden bu "
+"dosyayı herkese açık hale getirmekten kaçının."

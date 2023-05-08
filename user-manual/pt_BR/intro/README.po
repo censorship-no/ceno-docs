@@ -1,13 +1,19 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2023-04-28 07:52+0000\n"
+"Last-Translator: luana <luanafaustini@tutanota.com>\n"
+"Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
+"censorship-no/readme/pt_BR/>\n"
 "Language: pt_BR\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #: intro/README.md:block 1 (header)
 msgid "Introduction"
-msgstr ""
+msgstr "Introdução"
 
 #: intro/README.md:block 2 (paragraph)
 msgid ""
@@ -21,6 +27,15 @@ msgid ""
 "(https://censoredplanet.org/reports \"Censored Planet – Reports\")), both "
 "from private and state actors."
 msgstr ""
+"A Internet e a World Wide Web se tornaram cada vez mais importantes para "
+"pessoas ao redor do mundo como fonte de todos os tipos de informação e como "
+"forma de exercer direitos fundamentais. Ao mesmo tempo, nos últimos anos "
+"houve um aumento em todas as formas de censura e em outras formas de "
+"interferência na rede. (veja os relatórios de [OONI](https://ooni.org/"
+"reports/ \"Open Observatory of Network Interference – Research reports\"), "
+"[Magma](https://magma.lavafeld.org/publications/ \"Magma publications\"), ["
+"Censored Planet](https://censoredplanet.org/reports \"Censored Planet – "
+"Reports\")), ambos de atores privados e estatais."
 
 #: intro/README.md:block 3 (paragraph)
 msgid ""
@@ -32,6 +47,14 @@ msgid ""
 "you need is connected to the network and has enough available resources to "
 "talk to your device at that moment."
 msgstr ""
+"A Web depende da capacidade de seus dispositivos alcançarem computadores "
+"especiais chamados *servidores web* (administrados por criadores de "
+"conteúdo, editores e provedores de serviço) que guardam o conteúdo que você "
+"deseja recuperar para fazer isso de uma maneira sincronizada - mais parecida "
+"com ter uma conversa ao vivo no telefone que com trocar algumas cartas. "
+"Infelizmente, essa ação requer que o servidor web de que você precisa esteja "
+"conectado à rede e tenha recursos disponíveis suficientes para conversar com "
+"o seu dispositivo naquele momento."
 
 #: intro/README.md:block 4 (paragraph)
 msgid ""
@@ -44,6 +67,16 @@ msgid ""
 "that run them) need to be trusted by both the origin server and your "
 "devices, and they also need to be reachable at all times."
 msgstr ""
+"O advento das *redes de distribuição de conteúdo* (ou CDNs, como as "
+"comerciais Akamal e Cloudfare, ou a Deflect, destinada à sociedade civil) "
+"retirou parte da carga destes servidores web através da distribuição de "
+"cópias do conteúdo para data centers espalhados ao redor do mundo. Desse "
+"modo, ele pode estar mais perto dos dispositivos e, por consequência, ser "
+"alcançado mais rapidamente, ao memo tempo em que mantém os servidores de "
+"origem protegidos do acesso direto. Contudo, no momento os servidores CDN ("
+"e, portanto, as organizações que os administram) precisam ser considerados "
+"confiáveis tanto pelo servidor de origem quanto pelos seus dispositivos e "
+"precisam, também, ser alcançáveis em todos os momentos."
 
 #: intro/README.md:block 5 (paragraph)
 msgid ""
@@ -56,21 +89,31 @@ msgid ""
 "that content - even if I was somehow able to access it a few hours ago and "
 "we're living some streets apart."
 msgstr ""
+"Infelizmente, há situações nas quais a conectividade no geral é escassa (em "
+"países em desenvolvimento ou carentes, empobrecidos ou em regiões rurais), "
+"custosa (com alguns países cobrando mais por tráfego internacional) ou foi "
+"ativamente bloqueada por um agente estatal (explicitamente ou como resultado "
+"de um desligamento geral). Nestes casos, alcançar o servidor web de origem "
+"ou até os servidores CDN é difícil ou impossível e seu dispositivo não será "
+"capaz de obter aquele conteúdo - mesmo que eu tenha conseguido acessá-lo "
+"algumas horas atrás e estejamos morando apenas a algumas ruas de distância."
 
 #: intro/README.md:block 6 (paragraph)
 msgid ""
 "This is where CENO Browser and Ouinet come into play. This chapter will "
 "introduce you to them."
 msgstr ""
+"É aqui onde o Navegador CENO e a Ouinet entram em cena. Este capítulo vai "
+"apresentá-los a você."
 
 #: intro/README.md:block 6 (paragraph)
 msgid "[ooni-reports]: https://ooni.org/reports/"
-msgstr ""
+msgstr "[relatórios-ooni]: https://ooni.org/reports/"
 
 #: intro/README.md:block 6 (paragraph)
 msgid "[magma-reports]: https://magma.lavafeld.org/publications/"
-msgstr ""
+msgstr "[relatórios-magma]: https://magma.lavafeld.org/publications/"
 
 #: intro/README.md:block 6 (paragraph)
 msgid "[cplan-reports]: https://censoredplanet.org/reports"
-msgstr ""
+msgstr "[relatórios-cplan]: https://censoredplanet.org/reports"

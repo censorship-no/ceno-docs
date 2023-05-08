@@ -1,13 +1,19 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2023-03-13 17:38+0000\n"
+"Last-Translator: Alexthegib <jcwkgxc@nightorb.com>\n"
+"Language-Team: Portuguese <https://hosted.weblate.org/projects/censorship-no/"
+"browser-readme/pt/>\n"
 "Language: pt\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.16.2-dev\n"
 
 #: browser/README.md:block 1 (header)
 msgid "Using CENO Browser"
-msgstr ""
+msgstr "Usando CENO Browser"
 
 #: browser/README.md:block 2 (paragraph)
 msgid ""
@@ -17,6 +23,12 @@ msgid ""
 "questions on generic browsing topics you should refer to Mozilla's [Firefox "
 "for Android Support][Firefox for Android Support] pages."
 msgstr ""
+"Este capítulo dá-lhe algumas dicas sobre a utilização do CENO Browser no que "
+"diz respeito às suas capacidades relacionadas com o Ouinet. Tenha sempre em "
+"mente que CENO é baseado em [Firefox para Android][Firefox para Android], "
+"por isso, para todas as perguntas sobre tópicos genéricos de navegação, deve "
+"consultar as páginas [Firefox para Android Support][Firefox para Android "
+"Support] da Mozilla."
 
 #: browser/README.md:block 3 (paragraph)
 msgid ""
@@ -25,6 +37,10 @@ msgid ""
 "especially as CENO development progresses. This documentation is up to date "
 "for CENO version 1.6.0."
 msgstr ""
+"Quando relevante, serão incluídas capturas de ecrã para ilustrar o texto. "
+"Note que estas podem diferir ligeiramente do que vê no seu dispositivo, "
+"especialmente à medida que o desenvolvimento do CENO avança. Esta "
+"documentação está atualizada para a versão CENO 1.6.0."
 
 #: browser/README.md:block 4 (paragraph)
 msgid ""
@@ -32,13 +48,18 @@ msgid ""
 "described here, do not hesitate to contact us at [cenoers@equalit.ie](mailto:"
 "cenoers@equalit.ie) and report the issue."
 msgstr ""
+"Se a sua candidatura apresentar comportamentos substancialmente diferentes "
+"dos aqui descritos, não hesite em contactar-nos em [cenoers@equalit."
+"ie](mailto:cenoers@equalit.ie) e comunicar a questão."
 
 #: browser/README.md:block 4 (paragraph)
 msgid "[Firefox for Android]: https://www.mozilla.org/firefox/android/"
-msgstr ""
+msgstr "[Firefox para Android]: https://www.mozilla.org/firefox/android/"
 
 #: browser/README.md:block 4 (paragraph)
 msgid ""
 "[Firefox for Android Support]: https://support.mozilla.org/en-US/products/"
 "mobile"
 msgstr ""
+"[Firefox para suporte do Android]: https://support.mozilla.org/en-US/"
+"products/mobile"

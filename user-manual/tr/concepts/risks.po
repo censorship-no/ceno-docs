@@ -3,20 +3,21 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-04 20:09+0200\n"
-"PO-Revision-Date: 2021-03-04 19:09+0000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-04-05 15:17+0000\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>\n"
+"Language-Team: Turkish <https://hosted.weblate.org/projects/censorship-no/"
+"risks/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.5.1-dev\n"
+"X-Generator: Weblate 4.17-dev\n"
 
 #
 #: concepts/risks.md:block 1 (header)
 msgid "Risks in using CENO/Ouinet"
-msgstr ""
+msgstr "CENO/Ouinet kullanmanın riskleri"
 
 #: concepts/risks.md:block 2 (paragraph)
 msgid ""
@@ -26,28 +27,37 @@ msgid ""
 "help you understand their implications according to the different roles you "
 "may play when using CENO:"
 msgstr ""
+"CENO Browser (ve genel olarak herhangi bir Ouinet istemcisini) kullanmak, "
+"yeterince karmaşık herhangi bir bilgi işlem sisteminde olduğu gibi, bazı "
+"riskler içermektedir. Bu bölümde, CENO kullanırken üstlenebileceğiniz farklı "
+"rollerin etkilerini anlamanıza yardımcı olmak için riskleri derleyeceğiz ve "
+"açıklayacağız:"
 
 #: concepts/risks.md:block 3 (unordered list)
 msgid "as a *user* browsing Web sites"
-msgstr ""
+msgstr "sitelerde gezinen bir *kullanıcı* olarak"
 
 #: concepts/risks.md:block 3 (unordered list)
 msgid ""
 "as a *seeder* sharing content over the distributed cache that you previously "
 "visited"
 msgstr ""
+"önceden eriştiğiniz içerikleri dağıtılmış ön bellekte paylaşan bir "
+"*gönderici* olarak"
 
 #: concepts/risks.md:block 3 (unordered list)
 msgid "as a *bridge* allowing other users to reach an injector"
 msgstr ""
+"diğer kullanıcıların içerik ekleyicilerine erişmesini sağlayan bir *köprü* "
+"olarak"
 
 #: concepts/risks.md:block 4 (header)
 msgid "As a user"
-msgstr ""
+msgstr "Kullanıcı olarak"
 
 #: concepts/risks.md:block 5 (header)
 msgid "Can bridges see my communication with the origin server?"
-msgstr ""
+msgstr "Köprüler kaynak sunucu ile iletişimimi görebilir mi?"
 
 #: concepts/risks.md:block 6 (paragraph)
 msgid ""
@@ -55,10 +65,14 @@ msgid ""
 "an injector. This communication is always encrypted and bridges do not have "
 "the private keys required to access the content of the communication."
 msgstr ""
+"Hayır. Köprünün tek görevi istemci ve içerik ekleyicisi arasındaki trafiği "
+"değiştirmeden aktarmaktır. Bu iletişim her zaman şifrelenmiş olarak kurulur "
+"ve köprüler iletişimin içeriğine erişmek için gereken kişisel anahtarı "
+"bilmez."
 
 #: concepts/risks.md:block 7 (header)
 msgid "Can injectors see my communication with the origin server?"
-msgstr ""
+msgstr "İçerik ekleyiciler, kaynak sunucuy ile iletişimimi görebilir mi?"
 
 #: concepts/risks.md:block 8 (paragraph)
 msgid ""
@@ -67,6 +81,10 @@ msgid ""
 "from the request by the client, and only then is the request encrypted for "
 "and forwarded to the injector, which proceeds to decrypt it."
 msgstr ""
+"Hem evet, hem hayır. Kullanıcı [herkese açık gezinme](public-private.md) "
+"kipinde bir içeriğe erişmek istediğinde tüm kişisel veriler (parolalar ve "
+"çerezler gibi) istemci tarafından silinir ve ardından şifrelenerek içerik "
+"ekleyiciye gönderilir."
 
 #: concepts/risks.md:block 9 (paragraph)
 msgid ""
@@ -75,6 +93,9 @@ msgid ""
 "origin server. This means that in this other case the injector cannot "
 "decrypt the content."
 msgstr ""
+"Gizli gezinme kullanıldığında ise istemci tarafından hiçbir değişiklik "
+"yapılmaz fakat tüm iletişim kaynak sunucuya göre şifrelenir. Bu durumda "
+"içerik ekleyici içeriğin şifresini çözemez."
 
 #: concepts/risks.md:block 10 (quote)
 msgid ""
@@ -82,10 +103,14 @@ msgid ""
 "with query parameters removed, along with all but a limited set of "
 "fundamental and privacy-preserving HTTP header fields."
 msgstr ""
+"**Teknik not:** İçerik eklemek için, yalnızca sorgu parametreleri "
+"kaldırılmış, temel ve gizlilik koruyucu HTTP üst bigileri alanlarının "
+"sınırlı bir bölümü dışındaki tüm üst bilgi alanları çıkarılmış HTTP `GET` "
+"istekleri uygundur."
 
 #: concepts/risks.md:block 11 (header)
 msgid "Can injectors see my IP address?"
-msgstr ""
+msgstr "İçerik ekleyiciler IP adresimi görebilir mi?"
 
 #: concepts/risks.md:block 12 (paragraph)
 msgid ""
@@ -93,10 +118,13 @@ msgid ""
 "CENO user or a bridge. Thus requests going to the injector cannot be "
 "reliably assigned an originating IP addresses."
 msgstr ""
+"Evet, fakat isteğin CENO kullanıcısından mı yoksa bir köprüden mi geldiğini "
+"ayırt edemezler. Böylelikle içerik ekleyicisine giden isteklere kesin "
+"doğrulukla bir kaynak IP adresi atanamaz."
 
 #: concepts/risks.md:block 13 (header)
 msgid "Can my private data leak to the distributed cache?"
-msgstr ""
+msgstr "Kişisel verilerim dağıtılmış ön belleğe sızabilir mi?"
 
 #: concepts/risks.md:block 14 (paragraph)
 msgid ""
@@ -108,6 +136,12 @@ msgid ""
 "if the origin server indicated that it is of a private nature, CENO will not "
 "seed it either."
 msgstr ""
+"Umarız sızmaz. Yukarıda belirtildiği gibi CENO Browser içerik ekleyicilerine "
+"yapılan isteklerden tüm kişisel verileri (parolalar, çerezler...) çıkarak "
+"şekilde ayarlanmıştır. Ayrıca içerik ekleyicileri hiçbir gönderme işlemi "
+"yapmaz, yalnızca diğer Ouinet istemcilerinin içerik gönderimi yapabilmesi "
+"için içeriği imzalar. İçerik istemciye geldiğinde, yeniden incelenir ve "
+"kaynak sunucu kişisel gibi görünüyorsa, CENO gönderim yapmaz."
 
 #: concepts/risks.md:block 15 (paragraph)
 msgid ""
@@ -118,10 +152,16 @@ msgid ""
 "org`). If you suspect that a page may be doing that, better be on the safe "
 "side and use private browsing for it."
 msgstr ""
+"Yine de özellikle kötü niyetle veya zayıf güvenlikle tasarlanmış sayfalar "
+"kişisel bilgilerinizi (bir formdaki e-posta adresi ya da JavaScript ile "
+"tarayıcının parmak izi gibi) başka bir adres bağlantısı yolu üzerinden "
+"(`http://orneksite.com/aboneol/adiniz@baskaorneksite.org`) elde edebilir. "
+"Bir sitenin böyle bir şey yaptığından şüpheleniyorsanız, güvenliğiniz için "
+"bu sitede gizli gezinme kullanın."
 
 #: concepts/risks.md:block 16 (header)
 msgid "Can the origin server know whether I am using CENO?"
-msgstr ""
+msgstr "Kaynak sunucu CENO kullandığımı bilebilir mi?"
 
 #: concepts/risks.md:block 17 (paragraph)
 msgid ""
@@ -129,6 +169,9 @@ msgid ""
 "behaves as normal Firefox for Android does, so your particular device "
 "appears as a normal Firefox app of the same version."
 msgstr ""
+"Büyük olasılıkla hayır. CENO kaynak sunucuya doğrudan ulaştığında normal bir "
+"Firefox uygulaması gibi davranır. Yani aygıtınız aynı sürümdeki bir Firefox "
+"uygulaması gibi gözükür."
 
 #: concepts/risks.md:block 18 (paragraph)
 msgid ""
@@ -136,12 +179,17 @@ msgid ""
 "server, there are (at least) two ways for the latter to know that CENO or "
 "Ouinet is involved:"
 msgstr ""
+"Ancak, bir içerik ekleyici kullanarak kaynak sunucudan bazı içerikler "
+"yüklendiğinde, sunucunun CENO ya da Ouinet kullanıldığını anlamasının (en az)"
+" iki yolu vardır:"
 
 #: concepts/risks.md:block 19 (ordered list)
 msgid ""
 "The source address of the connection reaching the origin server is found in "
 "the injector swarm (since the connection comes indeed from the injector);"
 msgstr ""
+"Kaynak sunucuya ulaşan bağlantının kaynak adresinin, içerik ekleyici "
+"havuzunda bulunması (bağlantı zaten içerik ekleyiciden geldiğinden);"
 
 #: concepts/risks.md:block 19 (ordered list)
 msgid ""
@@ -151,6 +199,10 @@ msgid ""
 "the injector removes information unique to your particular device from the "
 "request."
 msgstr ""
+"İçerik isteğinde belirli bilgilerin varlığı ya da yokluğu karakteristik bir "
+"Ouinet özelliğidir ve izlenebilir. Bu durum, içerik ekleyici, istemcinizin "
+"alması ve imzalaması için içeriği istediğinde, isteğinizden aygıtınıza özgü "
+"bilgileri kaldırdığı için ortaya çıkar."
 
 #: concepts/risks.md:block 20 (paragraph)
 msgid ""
@@ -160,6 +212,10 @@ msgid ""
 "some personally identifiable information, it could be used to mark you as a "
 "CENO user."
 msgstr ""
+"Bu durumun yalnızca isteğin Ouinet üzerinden geldiğinin belirlenmesinde "
+"etkili olduğunu ve aygıtınızla herhangi bir bağ kurulamayacağını unutmayın. "
+"Fakat önceki soruda belirtilen nedenlerden dolayı istekte herhangi bir "
+"kişisel bilgi bulunuyorsa, CENO kullanıcısı olduğunuz belirlenebilir."
 
 #: concepts/risks.md:block 21 (paragraph)
 msgid ""
@@ -168,14 +224,17 @@ msgid ""
 "(or from a [national intranet][National intranet]), we recommend that you "
 "use a normal Web browser instead of CENO."
 msgstr ""
+"Genel olarak, bir sitenin (devlet sitesi gibi) kim olduğunuzu ve hangi "
+"bölgeden olduğunuzu öğrenmesi gerekiyorsa, CENO yerine normal internet "
+"taraycınızı kullanmanız önerilir."
 
 #: concepts/risks.md:block 22 (header)
 msgid "As a seeder"
-msgstr ""
+msgstr "Gönderici olarak"
 
 #: concepts/risks.md:block 23 (header)
 msgid "What data is seeded from my device?"
-msgstr ""
+msgstr "Aygıtımdaki hangi veriler gönderilir?"
 
 #: concepts/risks.md:block 24 (paragraph)
 msgid ""
@@ -184,10 +243,13 @@ msgid ""
 "users do not seed anything they have not accessed themselves in the recent "
 "past."
 msgstr ""
+"CENO şu anda yalnızca herkese açık gezinme kipinde erişilen tüm internet "
+"içeriklerini gönderir. Yani kullanıcıların yakın zamanda erişmediği hiçbir "
+"şeyi göndermez."
 
 #: concepts/risks.md:block 25 (header)
 msgid "Can an anyone find out what I seed?"
-msgstr ""
+msgstr "Ne gönderdiğimi herhangi bir kişi öğrenebilir mi?"
 
 #: concepts/risks.md:block 26 (paragraph)
 msgid ""
@@ -197,26 +259,35 @@ msgid ""
 "specific IP address and get a list of all the content seeded by clients "
 "behind it."
 msgstr ""
+"Hem evet, hem hayır. Ouinet altyapısının çalışma şeklini yeterince anlayan "
+"bir kişi belirli bir içeriğin hangi IP adreslerinden paylaşıldığını ("
+"BitTorrent ile olduğu gibi) gösteren bir araç geliştirebilir. Fakat bir IP "
+"adresini seçerek buradan gönderilen tüm içerik ve arkasındaki istemciler "
+"öğrenilemez."
 
 #: concepts/risks.md:block 27 (header)
 msgid "As a bridge"
-msgstr ""
+msgstr "Köprü olarak"
 
 #: concepts/risks.md:block 28 (header)
 msgid "Can others find my IP address?"
-msgstr ""
+msgstr "Diğer kişiler IP adresimi öğrenebilir mi?"
 
 #: concepts/risks.md:block 29 (paragraph)
 msgid ""
 "Yes, every CENO Browser able to communicate with injectors will register its "
 "IP address in the bridge swarm where other Ouinet clients can find them."
 msgstr ""
+"Evet, içerik ekleyiciler ile iletişim kurabilen her CENO Browser uygulaması "
+"IP adresini diğer Ouinet istemcilerinin bulabileceği köprü havuzuna kaydeder."
 
 #: concepts/risks.md:block 30 (header)
 msgid ""
 "Is it possible that I am helping someone to access content which is illegal "
 "in my country?"
 msgstr ""
+"Ülkemde yasal olmayan bir içeriğe başka bir kişinin erişmesine yardım ediyor "
+"olabilir miyim?"
 
 #: concepts/risks.md:block 31 (paragraph)
 msgid ""
@@ -224,7 +295,10 @@ msgid ""
 "client and an injector. This means that a bridge shall never make direct "
 "requests for content to any other server on someone else's behalf."
 msgstr ""
+"Evet. Fakat köprüler Ouinet istemcileri ve içerik ekleyicileri arasındaki "
+"iletişimi yalnızca şifrelenmiş olarak iletir. Yani bir köprü, bir içeriğe "
+"asla başka bir kişi adına doğrudan istekte bulunmaz."
 
 #: concepts/risks.md:block 31 (paragraph)
 msgid "[National intranet]: https://en.wikipedia.org/wiki/National_intranet"
-msgstr ""
+msgstr "[Ulusal intranet]: https://en.wikipedia.org/wiki/National_intranet"

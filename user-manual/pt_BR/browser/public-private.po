@@ -1,13 +1,19 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2023-04-26 05:53+0000\n"
+"Last-Translator: luana <luanafaustini@tutanota.com>\n"
+"Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
+"censorship-no/browser-public-private/pt_BR/>\n"
 "Language: pt_BR\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #: browser/public-private.md:block 1 (header)
 msgid "Using public or private browsing"
-msgstr ""
+msgstr "Usando a navegação pública ou privativa"
 
 #: browser/public-private.md:block 2 (paragraph)
 msgid ""
@@ -16,6 +22,10 @@ msgid ""
 "the content that you browse with others (public browsing) or not (private "
 "browsing)."
 msgstr ""
+"Conforme descrito [em uma seção anterior](../concepts/public-private.md), o "
+"CENO possui dois modos diferentes de operação, a depender do seu desejo em "
+"compartilhar o conteúdo navegado com outros usuários (navegação pública) ou "
+"não (navegação privativa)."
 
 #: browser/public-private.md:block 3 (paragraph)
 msgid ""
@@ -25,24 +35,34 @@ msgid ""
 "menu) is to use public browsing. To open a new tab in private browsing mode, "
 "just choose *New private tab* in the main menu."
 msgstr ""
+"Essa configuração se aplica *a cada aba* aberta por você no navegador, isto "
+"é, você pode ter abas de navegação pública e privativa. O padrão do CENO "
+"seja quando você o inicia ou abre uma nova aba (usando *Nova aba* no menu "
+"principal do aplicativo) é usar a navegação pública. Para abrir uma nova aba "
+"no modo de navegação privativa, basta escolher *Nova aba privativa* no menu "
+"principal."
 
 #: browser/public-private.md:block 4 (paragraph)
 msgid ""
 "You can tell public tabs from private ones because public tabs have a "
 "lighter (or white) tool bar:"
 msgstr ""
+"Você pode distinguir as abas públicas das privativas porque as abas públicas "
+"possuem uma barra de ferramentas mais clara (ou branca):"
 
 #: browser/public-private.md:block 5 (paragraph)
 msgid "![Figure: A public browsing tab](images/public-tab.png)"
-msgstr ""
+msgstr "![Figura: Uma aba de navegação pública](images/public-tab.png)"
 
 #: browser/public-private.md:block 6 (paragraph)
 msgid "In contrast, private tabs have a darker tool bar:"
 msgstr ""
+"Em contrapartida, as abas privativas têm uma barra de ferramentas mais "
+"escura:"
 
 #: browser/public-private.md:block 7 (paragraph)
 msgid "![Figure: A private browsing tab](images/private-tab.png)"
-msgstr ""
+msgstr "![Figura: Uma aba de navegação privativa](images/private-tab.png)"
 
 #: browser/public-private.md:block 8 (paragraph)
 msgid ""
@@ -50,3 +70,6 @@ msgid ""
 "bar will help you know how it actually retrieved the different elements of "
 "the content. We will cover this icon later on."
 msgstr ""
+"Uma vez que você carregou uma página em uma aba, o ícone colorido do CENO na "
+"barra de endereço ajudará você a saber como de fato ele recuperou os "
+"diferentes elementos do conteúdo. Nós abordaremos este ícone mais à frente."
