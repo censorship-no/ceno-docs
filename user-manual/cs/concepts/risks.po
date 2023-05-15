@@ -1,13 +1,19 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2023-05-07 20:47+0000\n"
+"Last-Translator: Polina <kosp05@vse.cz>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/censorship-no/"
+"risks/cs/>\n"
 "Language: cs\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #: concepts/risks.md:block 1 (header)
 msgid "Risks in using CENO/Ouinet"
-msgstr ""
+msgstr "Rizika při používání CENO / Ouinet"
 
 #: concepts/risks.md:block 2 (paragraph)
 msgid ""
@@ -17,6 +23,11 @@ msgid ""
 "help you understand their implications according to the different roles you "
 "may play when using CENO:"
 msgstr ""
+"Stejně jako u jakéhokoli dostatečně složitého výpočetního systému a zejména "
+"tak inovativního jako je CENO Browser (a jakéhokoli klienta Ouinet obecně), "
+"není používání CENO bez rizik. V této sekci je shrneme a popíšeme, abyste "
+"lépe porozuměli jejich důsledkům v závislosti na různých rolích, které "
+"můžete hrát při používání CENO:"
 
 #: concepts/risks.md:block 3 (unordered list)
 msgid "as a *user* browsing Web sites"

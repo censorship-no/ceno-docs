@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-03 06:50+0000\n"
+"PO-Revision-Date: 2023-05-04 06:13+0000\n"
 "Last-Translator: luana <luanafaustini@tutanota.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "censorship-no/browser-settings/pt_BR/>\n"
@@ -267,6 +267,10 @@ msgid ""
 "to seed signed content to other clients. These are shown to help test and "
 "debug the app, and should not be generally disclosed."
 msgstr ""
+"*Endpoints UDP locais* são os endereços de Internet em seu dispositivo "
+"usados pelo CENO para semear conteúdo assinado para outros clientes. Eles "
+"são mostrados para ajudar a testar e depurar o aplicativo e não devem, em "
+"geral, ser divulgados."
 
 #: browser/settings.md:block 13 (unordered list)
 msgid ""
@@ -274,6 +278,10 @@ msgid ""
 "your CENO traffic. Only available with UPnP-enabled routers, they are also "
 "useful for diagnostics and not to be generally disclosed."
 msgstr ""
+"*Endpoints UDP externos* são os endereços de Internet em seu roteador "
+"atribuídos para o seu tráfego do CENO. Somente disponíveis em roteadores com "
+"UPnP habilitado, eles também são úteis para diagnóstico e em geral não são "
+"divulgados."
 
 #: browser/settings.md:block 13 (unordered list)
 msgid ""
@@ -281,6 +289,9 @@ msgid ""
 "outside of your network see when communicating with your device. Also for "
 "diagnostics and not to be disclosed."
 msgstr ""
+"*Endpoints UDP públicos* são os endereços de Internet que clientes Ouinet "
+"fora da sua rede vêem quando se comunicam com o seu dispositivo. Também são "
+"úteis para diagnóstico e não devem ser divulgados."
 
 #: browser/settings.md:block 13 (unordered list)
 msgid ""
@@ -290,6 +301,12 @@ msgid ""
 "ports) to set or add your own, then choose *Save*. The changes will be "
 "applied the next time that your Ouinet client is started."
 msgstr ""
+"*Bootstraps extra do BitTorrent* são servidores usados para ajudar o seu "
+"dispositivo a entrar na rede BitTorrent, caso os servidores padrão não "
+"funcionem. Também incluir nos relatórios. Você pode editar a lista de hosts "
+"separada por espaços (com portas opcionais) para configurar ou adicionar o "
+"seu próprio host e depois escolher *Salvar*. As mudanças serão aplicadas na "
+"próxima vez em que o seu cliente Ouinet for inicializado."
 
 #: browser/settings.md:block 13 (unordered list)
 msgid ""
