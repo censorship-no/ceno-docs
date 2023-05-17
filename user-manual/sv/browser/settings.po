@@ -1,21 +1,21 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-03-09 23:45+0000\n"
-"Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
+"PO-Revision-Date: 2023-05-17 03:03+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/censorship-no/"
 "browser-settings/sv/>\n"
 "Language: sv\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16.2-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #: browser/settings.md:block 1 (header)
 #, fuzzy
 #| msgid "CENO settings"
 msgid "Ceno settings"
-msgstr "Inställningar för CENO"
+msgstr "Inställningar för Ceno"
 
 #: browser/settings.md:block 2 (paragraph)
 msgid ""
@@ -47,7 +47,7 @@ msgid ""
 "few seconds to pop up on app start. The page should look like this:"
 msgstr ""
 "De här funktionerna är tillgängliga på en sida som kan kommas åt genom att "
-"välja *CENO* i appen's huvudmeny. Vänligen notera att meny-alternativet kan "
+"välja *Ceno* i appen's huvudmeny. Vänligen notera att meny-alternativet kan "
 "ta några sekunder för att dyka upp när appen startas. Sidan borde se ut så "
 "här:"
 
@@ -55,7 +55,7 @@ msgstr ""
 #, fuzzy
 #| msgid "![Figure: The CENO Settings page](images/settings.png)"
 msgid "![Figure: The Ceno Settings page](images/settings.png)"
-msgstr "![Figur: Inställningssidan för CENO](images/settings.png)"
+msgstr "![Figur: Inställningssidan för Ceno](images/settings.png)"
 
 #: browser/settings.md:block 6 (header)
 msgid "Choosing access mechanisms"
