@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-02 02:42+0200\n"
-"PO-Revision-Date: 2021-08-13 07:46+0000\n"
-"Last-Translator: Jane Kong <myonjane@gmail.com>\n"
+"PO-Revision-Date: 2023-05-17 03:16+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "censorship-no/ceno/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -12,14 +12,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.8-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #
 #: intro/ceno.md:block 1 (header)
 #, fuzzy
 #| msgid "What is the CENO Browser?"
 msgid "What is Ceno Browser?"
-msgstr "CENO浏览器是什么？"
+msgstr "Ceno浏览器是什么？"
 
 #: intro/ceno.md:block 2 (paragraph)
 #, fuzzy
@@ -40,11 +40,11 @@ msgid ""
 "Web content to persist in the network even during heavy filtering and "
 "throttling events."
 msgstr ""
-"CENO（[Censorship.no!][Censorship.no!]的简称）是一个用于移动安卓设备（如智能"
-"手机和平板电脑）的网络浏览器，它使用一种新颖的方法来规避互联网审查制度，并以"
-"[点对点][P2P]（P2P）的方式在所有用户中分享获取的内容。这减少了对国际网络交换"
-"的总体依赖，并允许经常请求的网络内容在网络中持续存在，即使在严重的过滤和限流"
-"事件中也是如此。"
+"Ceno（[Censorship.no!][Censorship.no!]的简称）是一个用于移动安卓设备（如智能"
+"手机和平板电脑）的网络浏览器，它使用一种新颖的方法来规避互联网审查制度，并以["
+"点对点][P2P]（P2P）的方式在所有用户中分享获取的内容。这减少了对国际网络交换的"
+"总体依赖，并允许经常请求的网络内容在网络中持续存在，即使在严重的过滤和限流事"
+"件中也是如此。"
 
 #: intro/ceno.md:block 3 (paragraph)
 #, fuzzy
@@ -62,8 +62,8 @@ msgid ""
 "anticipation of aggressive Internet filtering and the establishment of "
 "[national intranets][national intranets] to fence off nations from the Web."
 msgstr ""
-"CENO与其他大多数规避措施的不同之处在于，即使在没有（或极其有限的）跨国界连接"
-"的情况下，用户也可以继续分享网络内容。因此，CENO的建立，是预计到了积极的互联"
+"Ceno与其他大多数规避措施的不同之处在于，即使在没有（或极其有限的）跨国界连接"
+"的情况下，用户也可以继续分享网络内容。因此，Ceno的建立，是预计到了积极的互联"
 "网过滤和建立[国家内部网][国家内部网]以将国家与互联网隔离开的情况。"
 
 #: intro/ceno.md:block 4 (paragraph)
@@ -81,16 +81,15 @@ msgid ""
 "technology allowing it to share content between devices (described in later "
 "sections)."
 msgstr ""
-"CENO浏览器是建立在[Firefox for Android][Firefox for Android]的改编版本上的，"
-"这是一个流行的、现代的、功能丰富的、安全的自由/开放源码浏览器。CENO用"
-"**Ouinet**扩展了Firefox，该底层技术使其能够在设备之间共享内容（在后面的章节中"
-"描述）。"
+"Ceno浏览器是建立在[Firefox for Android][Firefox for Android]的改编版本上的，"
+"这是一个流行的、现代的、功能丰富的、安全的自由/开放源码浏览器。Ceno用**Ouinet"
+"**扩展了Firefox，该底层技术使其能够在设备之间共享内容（在后面的章节中描述）。"
 
 #: intro/ceno.md:block 5 (header)
 #, fuzzy
 #| msgid "Who develops CENO?"
 msgid "Who develops Ceno?"
-msgstr "CENO是谁开发的？"
+msgstr "Ceno是谁开发的？"
 
 #: intro/ceno.md:block 6 (paragraph)
 msgid ""
@@ -144,11 +143,11 @@ msgid ""
 "mobile data limits (should you have them), but also to increase the chances "
 "of being able to deliver Web content to other users."
 msgstr ""
-"然而，CENO将会比你的普通网络浏览器产生更多的互联网流量——因为它需要让其他用户"
-"知道它正在向网络分享哪些网络内容，并可能将这些内容传递给那些请求它的人。因"
-"此，CENO依靠的是适度良好的国内连接。我们建议在连接到Wi-Fi时使用CENO，这不仅是"
-"为了避免耗尽移动数据限制（如果你的移动数据有限制），也是为了增加能够向其他用"
-"户提供网络内容的机会。"
+"然而，Ceno将会比你的普通网络浏览器产生更多的互联网流量——因为它需要让其他用户"
+"知道它正在向网络分享哪些网络内容，并可能将这些内容传递给那些请求它的人。因此"
+"，Ceno依靠的是适度良好的国内连接。我们建议在连接到Wi-Fi时使用Ceno，这不仅是为"
+"了避免耗尽移动数据限制（如果你的移动数据有限制），也是为了增加能够向其他用户"
+"提供网络内容的机会。"
 
 #: intro/ceno.md:block 11 (quote)
 msgid ""
