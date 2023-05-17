@@ -3,16 +3,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-02 02:42+0200\n"
-"PO-Revision-Date: 2022-02-26 17:54+0000\n"
-"Last-Translator: george kitsoukakis <norhorn@gmail.com>\n"
-"Language-Team: Greek <https://hosted.weblate.org/projects/censorship-no/user-"
-"manual/el/>\n"
+"PO-Revision-Date: 2023-05-17 02:54+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
+"Language-Team: Greek <https://hosted.weblate.org/projects/censorship-no/"
+"user-manual/el/>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.11.1-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #
 #: SUMMARY.md:block 1 (header)
@@ -31,7 +31,7 @@ msgstr "[Εισαγωγή](intro/README.md)"
 #, fuzzy
 #| msgid "[What is CENO Browser?](intro/ceno.md)"
 msgid "[What is Ceno Browser?](intro/ceno.md)"
-msgstr "[Τι είναι ο φυλλομετρητής CENO;](intro/ceno.md)"
+msgstr "[Τι είναι ο φυλλομετρητής Ceno;](intro/ceno.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[What is Ouinet?](intro/ouinet.md)"
@@ -61,25 +61,25 @@ msgstr "[Δημόσια έναντι ιδιωτικής περιήγησης](co
 #, fuzzy
 #| msgid "[Advantages of using CENO/Ouinet](concepts/advantages.md)"
 msgid "[Advantages of using Ceno/Ouinet](concepts/advantages.md)"
-msgstr "[Πλεονεκτήματα χρήσης του CENO/Ouinet](concepts/advantages.md)"
+msgstr "[Πλεονεκτήματα χρήσης του Ceno/Ouinet](concepts/advantages.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 #, fuzzy
 #| msgid "[Risks in using CENO/Ouinet](concepts/risks.md)"
 msgid "[Risks in using Ceno/Ouinet](concepts/risks.md)"
-msgstr "[Κίνδυνοι κατά τη χρήση του CENO/Ouinet](concepts/risks.md)"
+msgstr "[Κίνδυνοι κατά τη χρήση του Ceno/Ouinet](concepts/risks.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 #, fuzzy
 #| msgid "[Using CENO Browser](browser/README.md)"
 msgid "[Using Ceno Browser](browser/README.md)"
-msgstr "[Χρήση του φυλλομετρητή CENO](browser/README.md)"
+msgstr "[Χρήση του φυλλομετρητή Ceno](browser/README.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 #, fuzzy
 #| msgid "[Installing CENO](browser/install.md)"
 msgid "[Installing Ceno](browser/install.md)"
-msgstr "[Εγκατάσταση του CENO](browser/install.md)"
+msgstr "[Εγκατάσταση του Ceno](browser/install.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Using public or private browsing](browser/public-private.md)"
@@ -89,7 +89,7 @@ msgstr "[Χρήση δημόσιας ή ιδιωτικής περιήγησης]
 #, fuzzy
 #| msgid "[CENO settings](browser/settings.md)"
 msgid "[Ceno settings](browser/settings.md)"
-msgstr "[Ρυθμίσεις CENO](browser/settings.md)"
+msgstr "[Ρυθμίσεις Ceno](browser/settings.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Testing the Browser](browser/testing.md)"
