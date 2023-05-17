@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-17 03:01+0000\n"
+"PO-Revision-Date: 2023-05-17 03:09+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/censorship-no/"
 "browser-install/de/>\n"
@@ -12,14 +12,10 @@ msgstr ""
 "X-Generator: Weblate 4.18-dev\n"
 
 #: browser/install.md:block 1 (header)
-#, fuzzy
-#| msgid "Installing CENO"
 msgid "Installing Ceno"
 msgstr "Ceno installieren"
 
 #: browser/install.md:block 2 (paragraph)
-#, fuzzy
-#| msgid "CENO Browser can be installed via the following means:"
 msgid "Ceno Browser can be installed via the following means:"
 msgstr "Ceno Browser kann auf folgende Weise installiert werden:"
 
@@ -42,11 +38,6 @@ msgstr ""
 "vorherigen Kanälen blockieren."
 
 #: browser/install.md:block 4 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "CENO requires an ARM64 or Neon-capable ARM32 device running at least "
-#| "Android 4.1 Jelly Bean, thus most mobile devices released from late 2012 "
-#| "onward should work. CENO needs *no special permissions* to run."
 msgid ""
 "Ceno requires an ARM64 or Neon-capable ARM32 device running at least Android "
 "4.1 Jelly Bean, thus most mobile devices released from late 2012 onward "
