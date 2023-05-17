@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-17 03:09+0000\n"
+"PO-Revision-Date: 2023-05-17 03:11+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "advantages/uk/>\n"
@@ -13,19 +13,10 @@ msgstr ""
 "X-Generator: Weblate 4.18-dev\n"
 
 #: concepts/advantages.md:block 1 (header)
-#, fuzzy
-#| msgid "Advantages of using CENO/Ouinet"
 msgid "Advantages of using Ceno/Ouinet"
 msgstr "Переваги використання Ceno/Ouinet"
 
 #: concepts/advantages.md:block 2 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "The main advantages of using CENO and Ouinet over other circumvention "
-#| "technologies stem from the cooperation of clients and injectors to "
-#| "forward traffic for one another, sign content for later verification, and "
-#| "store signed content for seeding to others. Some advantages worth "
-#| "mentioning are:"
 msgid ""
 "The main advantages of using Ceno and Ouinet over other circumvention "
 "technologies stem from the cooperation of clients and injectors to forward "
@@ -39,13 +30,6 @@ msgstr ""
 "відзначити такі переваги:"
 
 #: concepts/advantages.md:block 3 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "**Familiar usage:** Accessing Web content using CENO Browser feels quite "
-#| "like surfing the Web on your habitual browser, even during complete "
-#| "blocking. There is no need for new custom links to popular content, or "
-#| "special actions from the user (like transferring files between "
-#| "applications)."
 msgid ""
 "**Familiar usage:** Accessing Web content using Ceno Browser feels quite "
 "like surfing the Web on your habitual browser, even during complete "
@@ -59,13 +43,6 @@ msgstr ""
 "передавати файли між застосунками)."
 
 #: concepts/advantages.md:block 3 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "**Increased availability of content:** Ouinet is able to provide content "
-#| "in an efficient and trusted manner in situations of extreme network "
-#| "interference. The more popular some particular content gets, the more "
-#| "copies of it get seeded by CENO/Ouinet clients, and the more available it "
-#| "becomes."
 msgid ""
 "**Increased availability of content:** Ouinet is able to provide content in "
 "an efficient and trusted manner in situations of extreme network "
@@ -109,15 +86,6 @@ msgstr ""
 "ефект])."
 
 #: concepts/advantages.md:block 3 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "**Cheaper browsing:** Content popular in a particular region tends to get "
-#| "copied in CENO/Ouinet clients in that region, even if the origin server "
-#| "is abroad. If you are interested in that content, your client will "
-#| "probably get it from some other client in your region. In some countries "
-#| "where international traffic is more expensive than local one (e.g. in the "
-#| "presence of a [national intranet][National intranet]), this can actually "
-#| "save you money."
 msgid ""
 "**Cheaper browsing:** Content popular in a particular region tends to get "
 "copied in Ceno/Ouinet clients in that region, even if the origin server is "
