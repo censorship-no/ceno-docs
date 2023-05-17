@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-04-20 21:49+0000\n"
+"PO-Revision-Date: 2023-05-17 03:14+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/censorship-no/"
 "ouinet/ko/>\n"
@@ -46,10 +46,6 @@ msgid ""
 msgstr ""
 
 #: intro/ouinet.md:block 5 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Same as the CENO Browser, Ouinet is developed by [eQualitie][eQualitie] "
-#| "as Free/Libre/Open-Source software."
 msgid ""
 "Same as Ceno Browser, Ouinet is developed by [eQualitie][eQualitie] as Free/"
 "Libre/Open-Source software."
@@ -92,7 +88,6 @@ msgid "[Ouinet]: https://github.com/equalitie/ouinet/"
 msgstr "[Ouinet]: https://github.com/equalitie/ouinet/"
 
 #: intro/ouinet.md:block 9 (quote)
-#, fuzzy
 msgid "[P2P]: https://en.wikipedia.org/wiki/Peer-to-peer"
 msgstr "[P2P]: https://en.wikipedia.org/wiki/Peer-to-peer"
 
