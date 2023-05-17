@@ -1,27 +1,27 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-06-06 01:17+0000\n"
-"Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
+"PO-Revision-Date: 2023-05-17 03:01+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/censorship-no/"
 "browser-install/sv/>\n"
 "Language: sv\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.13-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #: browser/install.md:block 1 (header)
 #, fuzzy
 #| msgid "Installing CENO"
 msgid "Installing Ceno"
-msgstr "Installerar CENO"
+msgstr "Installerar Ceno"
 
 #: browser/install.md:block 2 (paragraph)
 #, fuzzy
 #| msgid "CENO Browser can be installed via the following means:"
 msgid "Ceno Browser can be installed via the following means:"
-msgstr "CENO-webbläsaren kan installeras med följande medel:"
+msgstr "Ceno-webbläsaren kan installeras med följande medel:"
 
 #: browser/install.md:block 3 (unordered list)
 #, fuzzy
@@ -32,7 +32,7 @@ msgid ""
 "[Google Play][ceno-gplay] (*Ceno Browser* from *eQualitie*): the recommended "
 "source for most Android users."
 msgstr ""
-"[Google Play][ceno-gplay] (*CENO-webbläsaren* från *eQualitie*): den "
+"[Google Play][ceno-gplay] (*Ceno-webbläsaren* från *eQualitie*): den "
 "rekommenderade källan för flest Android-användare."
 
 #: browser/install.md:block 3 (unordered list)
@@ -58,9 +58,9 @@ msgid ""
 "4.1 Jelly Bean, thus most mobile devices released from late 2012 onward "
 "should work. Ceno needs *no special permissions* to run."
 msgstr ""
-"CENO kräver en ARM64 eller Neon-kapabel ARM32-enhet som kör minst Android "
+"Ceno kräver en ARM64 eller Neon-kapabel ARM32-enhet som kör minst Android "
 "4.1 Jelly Bean, så de flesta mobila enheter som släppts från slutet av 2012 "
-"och framåt bör fungera. CENO behöver *inga speciella behörigheter* för att "
+"och framåt bör fungera. Ceno behöver *inga speciella behörigheter* för att "
 "köras."
 
 #: browser/install.md:block 5 (quote)
@@ -77,7 +77,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Stopping CENO completely"
 msgid "Stopping Ceno completely"
-msgstr "Stoppar CENO helt och hållet"
+msgstr "Stoppar Ceno helt och hållet"
 
 #: browser/install.md:block 7 (paragraph)
 msgid ""
@@ -106,7 +106,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Purging all CENO data (the \"panic button\")"
 msgid "Purging all Ceno data (the \"panic button\")"
-msgstr "Rensar bort all CENO-data (\"panik-knappen\")"
+msgstr "Rensar bort all Ceno-data (\"panik-knappen\")"
 
 #: browser/install.md:block 11 (paragraph)
 msgid ""
