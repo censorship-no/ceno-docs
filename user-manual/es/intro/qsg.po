@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-03 02:50+0200\n"
-"PO-Revision-Date: 2023-04-11 16:56+0000\n"
-"Last-Translator: Soledad Magnone <soledad.magnone@proton.me>\n"
+"PO-Revision-Date: 2023-05-17 03:17+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/censorship-no/"
 "qsg/es/>\n"
 "Language: es\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.17-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #
 #: intro/qsg.md:block 1 (header)
@@ -20,12 +20,6 @@ msgid "Quick start guide"
 msgstr "Guía de inicio rápido"
 
 #: intro/qsg.md:block 2 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "CENO Browser allows you to access any website on the Internet, even if it "
-#| "is censored in your country. CENO uses a peer-to-peer infrastructure to "
-#| "route your requests, as well as to store and share retrieved content with "
-#| "others. [Read more about CENO](ceno.md)."
 msgid ""
 "Ceno Browser allows you to access any website on the Internet, even if it is "
 "censored in your country. Ceno uses a peer-to-peer infrastructure to route "
@@ -46,10 +40,6 @@ msgid "You will need an Android device:"
 msgstr "Necesitarás un dispositivo Android:"
 
 #: intro/qsg.md:block 5 (ordered list)
-#, fuzzy
-#| msgid ""
-#| "Install CENO Browser from [Google Play][ceno-gplay], [GitHub][ceno-gh] or "
-#| "[Paskoocheh][ceno-pask]. *No special permissions are needed*."
 msgid ""
 "Install Ceno Browser from [Google Play][ceno-gplay], [GitHub][ceno-gh] or "
 "[Paskoocheh][ceno-pask]. *No special permissions are needed*."
@@ -73,8 +63,6 @@ msgstr ""
 "(ver [navegación pública vs. privada](../concepts/public-private.md))."
 
 #: intro/qsg.md:block 5 (ordered list)
-#, fuzzy
-#| msgid "Tap on the CENO notification to stop it completely."
 msgid "Tap on the Ceno notification to stop it completely."
 msgstr "Pulsa en la notificación CENO para detenerlo completamente."
 
@@ -88,10 +76,6 @@ msgid "Configuration"
 msgstr "Configuración"
 
 #: intro/qsg.md:block 8 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "CENO Browser should work out-of-the-box. You can find some [diagnostics "
-#| "and settings](../browser/settings.md) under the *CENO* menu entry."
 msgid ""
 "Ceno Browser should work out-of-the-box. You can find some [diagnostics and "
 "settings](../browser/settings.md) under the *Ceno* menu entry."
