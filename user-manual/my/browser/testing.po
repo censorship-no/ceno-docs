@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-16 04:04+0200\n"
-"PO-Revision-Date: 2023-05-17 03:03+0000\n"
+"PO-Revision-Date: 2023-05-17 03:04+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "browser-testing/my/>\n"
@@ -20,14 +20,6 @@ msgid "Testing the Browser"
 msgstr "ဘရောက်ဇာ စမ်းသပ်ခြင်း"
 
 #: browser/testing.md:block 2 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Now that you know how to [install](install.md) and [configure](settings."
-#| "md) CENO, let us follow some steps to test whether different Ouinet-"
-#| "specific features work. This will involve selectively enabling and "
-#| "disabling different access mechanisms. Keep in mind however that in day-"
-#| "to-day usage of CENO, you will seldom need to change the default settings "
-#| "at all."
 msgid ""
 "Now that you know how to [install](install.md) and [configure](settings.md) "
 "Ceno, let us follow some steps to test whether different Ouinet-specific "
@@ -70,14 +62,6 @@ msgid "Accessing an injector"
 msgstr "ထိုးသွင်းဖိုင် ဝင်ရောက်သုံးစွဲခြင်း"
 
 #: browser/testing.md:block 6 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Let us first check whether your CENO Browser can reach an injector. This "
-#| "may look trivial, but your client will already be exercising several "
-#| "Ouinet features in the process: looking up the injector address in the "
-#| "injector swarm, trying to contact it directly and, if it is blocked by "
-#| "your access provider or country, looking up the bridge swarm and trying "
-#| "to contact the injector via some other Ouinet client."
 msgid ""
 "Let us first check whether your Ceno Browser can reach an injector. This may "
 "look trivial, but your client will already be exercising several Ouinet "
@@ -100,19 +84,12 @@ msgid "In the first device perform the following steps:"
 msgstr "ပထမစက်တွင် အောက်ပါ အဆင့်များကို လုပ်ဆောင်ပါ -"
 
 #: browser/testing.md:block 8 (ordered list)
-#, fuzzy
-#| msgid "First of all, install CENO and start it. Its home page will appear."
 msgid "First of all, install Ceno and start it. Its home page will appear."
 msgstr ""
 "ပထမဆုံးအနေဖြင့် Ceno ကို ထည့်သွင်းပါ၊ စတင်ပါ၊ ၎င်း၏ ပင်မစာမျက်နှာ "
 "ပေါ်လာပါလိမ့်မယ်။"
 
 #: browser/testing.md:block 8 (ordered list)
-#, fuzzy
-#| msgid ""
-#| "Open the app's main menu and choose *CENO* to open the *CENO Settings* "
-#| "page. Since we only want to test injector access, uncheck all the boxes "
-#| "for content sources except *Via the CENO network (public)*."
 msgid ""
 "Open the app's main menu and choose *Ceno* to open the *Ceno Settings* page. "
 "Since we only want to test injector access, uncheck all the boxes for "
@@ -124,12 +101,6 @@ msgstr ""
 "ကွန်ရက်မှတစ်ဆင့် (အများသုံး)* မှလွဲ၍ အကွက်အားလုံးကို အမှန်ခြစ်ဖြုတ်ပါ။"
 
 #: browser/testing.md:block 8 (ordered list)
-#, fuzzy
-#| msgid ""
-#| "Go back to CENO's home page. Either select one of the recommended Web "
-#| "sites, or enter the URL of some other site at the address bar at the top "
-#| "of the window. If you know about a site which is usually blocked for you, "
-#| "go ahead and enter it!"
 msgid ""
 "Go back to Ceno's home page. Either select one of the recommended Web sites, "
 "or enter the URL of some other site at the address bar at the top of the "
@@ -166,12 +137,6 @@ msgstr ""
 "မှတ်ဉာဏ်မှ အကြောင်းအရာကို ပြန်ထုတ်နိုင်ရန်လည်း ဖြစ်နိုင်ခြေရှိသည်။"
 
 #: browser/testing.md:block 11 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "By the way, if you push the CENO icon in the address bar, it will open a "
-#| "popup like the one below, showing how many elements from the site were "
-#| "retrieved form the different sources. Only *Via CENO network (public)* "
-#| "should have a non-zero value since the other sources were disabled."
 msgid ""
 "By the way, if you push the Ceno icon in the address bar, it will open a "
 "popup like the one below, showing how many elements from the site were "
@@ -191,11 +156,6 @@ msgid ""
 msgstr "![ပုံ - ထိုးသွင်းမှုကို စမ်းသပ်စဉ် အသုံးပြုသော စက်ကိရိယာများ](images/sources-inject.png)"
 
 #: browser/testing.md:block 13 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "In contrast, if you had used private browsing with default settings, you "
-#| "may have seen a popup like the one below, with non-zero counts in *Direct "
-#| "from website* or *Via CENO network (private)*."
 msgid ""
 "In contrast, if you had used private browsing with default settings, you may "
 "have seen a popup like the one below, with non-zero counts in *Direct from "
@@ -215,12 +175,6 @@ msgid "Getting content from close users"
 msgstr "နီးကပ်သော သုံးစွဲသူများထံမှ အကြောင်းအရာ ရယူခြင်း"
 
 #: browser/testing.md:block 16 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Since your first device was able to get some content from an injector, "
-#| "let us test if it is able to share it with another device over the "
-#| "distributed cache. The simplest way is to use CENO's device-to-device "
-#| "support to check whether getting and verifying signed content works."
 msgid ""
 "Since your first device was able to get some content from an injector, let "
 "us test if it is able to share it with another device over the distributed "
@@ -235,13 +189,6 @@ msgstr ""
 "အလုပ်လုပ်၊ မလုပ် စစ်ဆေးရန် ဖြစ်သည်။"
 
 #: browser/testing.md:block 17 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "After successfully completing the test above on the first device, leave "
-#| "CENO running on it (the CENO icon should appear in its notification bar). "
-#| "Then get hold of a second device (you can invite a friend over to help "
-#| "test) and connect it to the same Wi-Fi network. Next, follow the steps "
-#| "below on the second device:"
 msgid ""
 "After successfully completing the test above on the first device, leave Ceno "
 "running on it (the Ceno icon should appear in its notification bar). Then "
@@ -256,19 +203,12 @@ msgstr ""
 "ချိတ်ဆက်ပါ။ ထို့နောက် ထိုစက်တွင် အောက်ပါအဆင့်များကို လုပ်ဆောင်ပါ -"
 
 #: browser/testing.md:block 18 (ordered list)
-#, fuzzy
-#| msgid "Install CENO if needed and start it as above."
 msgid "Install Ceno if needed and start it as above."
 msgstr ""
 "လိုအပ်ပါက Ceno ကို ထည့်သွင်းပါ၊ ၎င်းကို စတင်ပြီး အထက်ပါအတိုင်း Ceno ၏ ပင်မ "
 "စာမျက်နှာသို့ ဆက်သွားပါ။"
 
 #: browser/testing.md:block 18 (ordered list)
-#, fuzzy
-#| msgid ""
-#| "Open the *CENO Settings* page as above. Since we only want to test "
-#| "distributed cache access, uncheck all the boxes for content sources "
-#| "except *Shared by other CENO users*."
 msgid ""
 "Open the *Ceno Settings* page as above. Since we only want to test "
 "distributed cache access, uncheck all the boxes for content sources except "
@@ -280,11 +220,6 @@ msgstr ""
 "ဝင်ရောက်သုံးစွဲခွင့် စက်ကိရိယာများအတွက် အကွက်အားလုံးကို အမှန်ခြစ်ဖြုတ်ပါ။"
 
 #: browser/testing.md:block 18 (ordered list)
-#, fuzzy
-#| msgid ""
-#| "Go back to CENO's home page and visit the same site in the same manner as "
-#| "you did above (i.e. by selecting one of the recommended web sites or "
-#| "entering its URL in the address bar)."
 msgid ""
 "Go back to Ceno's home page and visit the same site in the same manner as "
 "you did above (i.e. by selecting one of the recommended web sites or "
@@ -306,12 +241,6 @@ msgstr ""
 "ကျေးဇူးပြုပြီး မတူညီသော ကွန်ရက်တစ်ခုခုကို အသုံးပြုပြီး ထပ်မံ ကြိုးစားကြည့်ပါ။"
 
 #: browser/testing.md:block 20 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "If it works, it means that both devices are able to deliver that content "
-#| "to other clients. Pushing the CENO address bar icon should show a popup "
-#| "like the one below, where only *Shared by other CENO users* has a non-"
-#| "zero value."
 msgid ""
 "If it works, it means that both devices are able to deliver that content to "
 "other clients. Pushing the Ceno address bar icon should show a popup like "
@@ -331,13 +260,6 @@ msgstr ""
 "(images/sources-dcache.png)"
 
 #: browser/testing.md:block 22 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Finally, you may have also noticed that there is a counter for *Shared by "
-#| "you*. This is not a different source *per se*: elements counted here are "
-#| "indeed part of the distributed cache, but they happen to already be "
-#| "stored in your device, so CENO does not need to retrieve them over the "
-#| "network."
 msgid ""
 "Finally, you may have also noticed that there is a counter for *Shared by "
 "you*. This is not a different source *per se*: elements counted here are "
@@ -363,11 +285,6 @@ msgstr ""
 "အင်တာနက် သုံး၍ ၎င်းမည်သို့ အလုပ်လုပ်ကြောင်း စမ်းသပ်ကြည့်ရအောင်။"
 
 #: browser/testing.md:block 25 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "After successfully completing the test above, leave CENO running on the "
-#| "first device as with the previous test, and stop CENO on the second "
-#| "device (by showing its notifications and pushing \"Tap to stop\")."
 msgid ""
 "After successfully completing the test above, leave Ceno running on the "
 "first device as with the previous test, and stop Ceno on the second device "
