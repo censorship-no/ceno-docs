@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-17 03:10+0000\n"
+"PO-Revision-Date: 2023-05-17 03:14+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "risks/uk/>\n"
@@ -14,7 +14,7 @@ msgstr ""
 
 #: concepts/risks.md:block 1 (header)
 msgid "Risks in using Ceno/Ouinet"
-msgstr "Ризики під час використання CENO/Ouinet"
+msgstr "Ризики під час використання Ceno/Ouinet"
 
 #: concepts/risks.md:block 2 (paragraph)
 msgid ""
@@ -25,10 +25,10 @@ msgid ""
 "may play when using Ceno:"
 msgstr ""
 "Як і з будь-якою досить складною системою, а особливо такою новаторською, "
-"використання браузера CENO (і взагалі будь-якого клієнта Ouinet) не "
+"використання браузера Ceno (і взагалі будь-якого клієнта Ouinet) не "
 "обійдеться без певних ризиків. У цьому розділі ми зберемо та опишемо ці "
 "ризики, щоб допомогти Вам зрозуміти їхні наслідки залежно від різних ролей, "
-"які Ви можете на себе приміряти під час використання CENO:"
+"які Ви можете на себе приміряти під час використання Ceno:"
 
 #: concepts/risks.md:block 3 (unordered list)
 msgid "as a *user* browsing Web sites"
@@ -116,7 +116,7 @@ msgid ""
 "reliably assigned an originating IP addresses."
 msgstr ""
 "Так. Проте, інʼєктори не можуть відрізнити, чи запит надійшов від "
-"користувача CENO чи від моста. Отож, запити, що надходять до інʼєктора, не "
+"користувача Ceno чи від моста. Отож, запити, що надходять до інʼєктора, не "
 "можуть бути надійно привʼязані до IP-адрес."
 
 #: concepts/risks.md:block 13 (header)
@@ -133,12 +133,12 @@ msgid ""
 "if the origin server indicated that it is of a private nature, Ceno will not "
 "seed it either."
 msgstr ""
-"Сподіваємось, що ні. Як згадувалося вище, браузер CENO щосили намагається "
+"Сподіваємось, що ні. Як згадувалося вище, браузер Ceno щосили намагається "
 "видалити будь-які особисті дані (паролі, cookies...) з будь-якого запиту на "
 "інʼєкцію. Крім того, інʼєктор не роздає дані сам; фактично, його єдина мета –"
 " підписати вміст, щоб клієнти Ouinet могли його роздавати. Це означає, що "
 "коли вміст повертається до клієнта, цей вміст аналізується, і якщо вихідний "
-"сервер вказав, що вміст має приватний характер, CENO не роздаватиме його."
+"сервер вказав, що вміст має приватний характер, Ceno не роздаватиме його."
 
 #: concepts/risks.md:block 15 (paragraph)
 msgid ""
@@ -159,7 +159,7 @@ msgstr ""
 
 #: concepts/risks.md:block 16 (header)
 msgid "Can the origin server know whether I am using Ceno?"
-msgstr "Чи може вихідний сервер дізнатися, чи я використовую CENO?"
+msgstr "Чи може вихідний сервер дізнатися, чи я використовую Ceno?"
 
 #: concepts/risks.md:block 17 (paragraph)
 msgid ""
@@ -167,7 +167,7 @@ msgid ""
 "behaves as normal Firefox for Android does, so your particular device "
 "appears as a normal Firefox app of the same version."
 msgstr ""
-"Скоріше за все ні. Щоразу, коли CENO безпосередньо звʼязується з вихідним "
+"Скоріше за все ні. Щоразу, коли Ceno безпосередньо звʼязується з вихідним "
 "сервером, він веде себе як звичайний Firefox для Android, тому на Вашому "
 "конкретному пристрої відображається як звичайна програма Firefox тієї ж "
 "версії."
@@ -180,7 +180,7 @@ msgid ""
 msgstr ""
 "Однак, коли він використовує інʼєктор для отримання деякого вмісту зі свого "
 "вихідного сервера, у останнього є (принаймні) два способи дізнатися, що в "
-"цьому бере участь CENO або Ouinet:"
+"цьому бере участь Ceno або Ouinet:"
 
 #: concepts/risks.md:block 19 (ordered list)
 msgid ""
@@ -216,7 +216,7 @@ msgstr ""
 "Ouinet, але не повʼязують його з Вами чи Вашим конкретним пристроєм. Однак, "
 "якщо запит з якихось причин, згаданих у попередньому питанні, все ж таки "
 "містить якусь особисту інформацію, вона може бути використана, щоб позначити "
-"Вас як користувача CENO."
+"Вас як користувача Ceno."
 
 #: concepts/risks.md:block 21 (paragraph)
 msgid ""
@@ -228,7 +228,7 @@ msgstr ""
 "В цілому, якщо конкретний сайт (наприклад, урядовий сайт) очікує, що Ви "
 "підключитесь до нього як ідентифікована особа з певного регіону (або з ["
 "національних внутрішніх мереж][Національна intranet]), ми радимо Вам "
-"використовувати звичайний веб-браузер замість CENO."
+"використовувати звичайний веб-браузер замість Ceno."
 
 #: concepts/risks.md:block 22 (header)
 msgid "As a seeder"
@@ -245,7 +245,7 @@ msgid ""
 "users do not seed anything they have not accessed themselves in the recent "
 "past."
 msgstr ""
-"Нині єдиний вміст, що роздає CENO – це будь-який неприватний веб-вміст, що "
+"Нині єдиний вміст, що роздає Ceno – це будь-який неприватний веб-вміст, що "
 "був запитаний в режимі публічного перегляду. Це також означає, що "
 "користувачі не роздають нічого, до чого вони не мали доступу останнім часом."
 
@@ -279,7 +279,7 @@ msgid ""
 "Yes, every Ceno Browser able to communicate with injectors will register its "
 "IP address in the bridge swarm where other Ouinet clients can find them."
 msgstr ""
-"Так, кожен браузер CENO здатний спілкуватися з інʼєкторами, реєструє свою IP-"
+"Так, кожен браузер Ceno здатний спілкуватися з інʼєкторами, реєструє свою IP-"
 "адресу в «рої» мостів, де інші клієнти Ouinet можуть їх знайти."
 
 #: concepts/risks.md:block 30 (header)
