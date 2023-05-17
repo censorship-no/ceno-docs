@@ -12,8 +12,6 @@ msgstr ""
 "X-Generator: Weblate 4.18-dev\n"
 
 #: browser/settings.md:block 1 (header)
-#, fuzzy
-#| msgid "CENO settings"
 msgid "Ceno settings"
 msgstr "Inställningar för Ceno"
 
@@ -36,11 +34,6 @@ msgid ""
 msgstr ""
 
 #: browser/settings.md:block 4 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "These features are available on a page that can be accessed by choosing "
-#| "*CENO* in the app's main menu. Please note that the menu entry may take a "
-#| "few seconds to pop up on app start. The page should look like this:"
 msgid ""
 "These features are available on a page that can be accessed by choosing "
 "*Ceno* in the app's main menu. Please note that the menu entry may take a "
@@ -52,8 +45,6 @@ msgstr ""
 "här:"
 
 #: browser/settings.md:block 5 (paragraph)
-#, fuzzy
-#| msgid "![Figure: The CENO Settings page](images/settings.png)"
 msgid "![Figure: The Ceno Settings page](images/settings.png)"
 msgstr "![Figur: Inställningssidan för Ceno](images/settings.png)"
 
