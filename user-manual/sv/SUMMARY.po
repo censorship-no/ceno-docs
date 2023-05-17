@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-17 02:54+0000\n"
+"PO-Revision-Date: 2023-05-17 02:55+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/censorship-no/"
 "user-manual/sv/>\n"
@@ -24,8 +24,6 @@ msgid "[Introduction](intro/README.md)"
 msgstr "[Introduktion](intro/README.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-#, fuzzy
-#| msgid "[What is the CENO Browser?](intro/ceno.md)"
 msgid "[What is Ceno Browser?](intro/ceno.md)"
 msgstr "[Vad är Ceno-navigatorn?](intro/ceno.md)"
 
@@ -54,26 +52,18 @@ msgid "[Public vs. private browsing](concepts/public-private.md)"
 msgstr "[Publik mot privat surfning](concepts/public-private.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-#, fuzzy
-#| msgid "[Advantages of using CENO/Ouinet](concepts/advantages.md)"
 msgid "[Advantages of using Ceno/Ouinet](concepts/advantages.md)"
 msgstr "[Fördelar med att använda Ceno/Ouinet](concepts/advantages.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-#, fuzzy
-#| msgid "[Risks in using CENO/Ouinet](concepts/risks.md)"
 msgid "[Risks in using Ceno/Ouinet](concepts/risks.md)"
 msgstr "[Risker med att använda Ceno/Ouinet](concepts/risks.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-#, fuzzy
-#| msgid "[Testing the Browser](browser/testing.md)"
 msgid "[Using Ceno Browser](browser/README.md)"
 msgstr "[Att testa navigatorn](browser/testing.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-#, fuzzy
-#| msgid "[Installing CENO](browser/install.md)"
 msgid "[Installing Ceno](browser/install.md)"
 msgstr "[Installera Ceno](browser/install.md)"
 
@@ -82,8 +72,6 @@ msgid "[Using public or private browsing](browser/public-private.md)"
 msgstr "[Att använda publik eller privat surfning](browser/public-private.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-#, fuzzy
-#| msgid "[CENO settings](browser/settings.md)"
 msgid "[Ceno settings](browser/settings.md)"
 msgstr "[Ceno-inställningar](browser/settings.md)"
 
