@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-01 21:58+0200\n"
-"PO-Revision-Date: 2021-07-27 22:33+0000\n"
-"Last-Translator: Sztorm <marcinwicher99@gmail.com>\n"
+"PO-Revision-Date: 2023-05-17 03:09+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/censorship-no/"
 "advantages/pl/>\n"
 "Language: pl\n"
@@ -13,14 +13,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.7.2-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #
 #: concepts/advantages.md:block 1 (header)
 #, fuzzy
 #| msgid "Advantages of using CENO/Ouinet"
 msgid "Advantages of using Ceno/Ouinet"
-msgstr "Zalety używania CENO/Ouinet"
+msgstr "Zalety używania Ceno/Ouinet"
 
 #: concepts/advantages.md:block 2 (paragraph)
 msgid ""
