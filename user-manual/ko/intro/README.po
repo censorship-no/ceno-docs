@@ -1,15 +1,15 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-19 11:27+0000\n"
-"Last-Translator: 이정희 <daemul72@gmail.com>\n"
+"PO-Revision-Date: 2023-05-17 03:13+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/censorship-no/"
 "readme/ko/>\n"
 "Language: ko\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.12-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #: intro/README.md:block 1 (header)
 msgid "Introduction"
@@ -90,16 +90,11 @@ msgstr ""
 "장치에서 해당 콘텐츠를 가져올 수 없습니다."
 
 #: intro/README.md:block 6 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "This is where CENO Browser and Ouinet come into play. This chapter will "
-#| "introduce you to them."
 msgid ""
 "This is where Ceno Browser and Ouinet come into play. This chapter will "
 "introduce you to them."
-msgstr ""
-"여기에서 CENO 브라우저와 Ouinet이 작동합니다. 이 장에서는 그것들을 소개할 것"
-"입니다."
+msgstr "여기에서 CENO 브라우저와 Ouinet이 작동합니다. 이 장에서는 그것들을 소개할 "
+"것입니다."
 
 #: intro/README.md:block 6 (paragraph)
 msgid "[ooni-reports]: https://ooni.org/reports/"
