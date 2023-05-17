@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-17 03:01+0000\n"
+"PO-Revision-Date: 2023-05-17 03:02+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/censorship-no/"
 "browser-public-private/sv/>\n"
@@ -16,12 +16,6 @@ msgid "Using public or private browsing"
 msgstr "Använder publik eller privat surfning"
 
 #: browser/public-private.md:block 2 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "As described [in a previous section](../concepts/public-private.md), CENO "
-#| "has two different modes of operation depending on whether you want to "
-#| "share the content that you browse with others (public browsing) or not "
-#| "(private browsing)."
 msgid ""
 "As described [in a previous section](../concepts/public-private.md), Ceno "
 "has two different modes of operation depending on whether you want to share "
