@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-04-28 07:52+0000\n"
-"Last-Translator: luana <luanafaustini@tutanota.com>\n"
+"PO-Revision-Date: 2023-05-17 03:13+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "censorship-no/readme/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -99,10 +99,6 @@ msgstr ""
 "algumas horas atrás e estejamos morando apenas a algumas ruas de distância."
 
 #: intro/README.md:block 6 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "This is where CENO Browser and Ouinet come into play. This chapter will "
-#| "introduce you to them."
 msgid ""
 "This is where Ceno Browser and Ouinet come into play. This chapter will "
 "introduce you to them."
