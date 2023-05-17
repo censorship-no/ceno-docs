@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2023-05-17 03:01+0000\n"
+"PO-Revision-Date: 2023-05-17 03:09+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/censorship-no/"
 "browser-install/pl/>\n"
@@ -17,23 +17,15 @@ msgstr ""
 
 #
 #: browser/install.md:block 1 (header)
-#, fuzzy
-#| msgid "Installing CENO"
 msgid "Installing Ceno"
 msgstr "Instalacja Ceno"
 
 #: browser/install.md:block 2 (paragraph)
-#, fuzzy
-#| msgid "CENO Browser can be installed via the following means:"
 msgid "Ceno Browser can be installed via the following means:"
 msgstr ""
 "Przeglądarka Ceno może zostać zainstalowana korzystając z poniższych metod:"
 
 #: browser/install.md:block 3 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "[Google Play][ceno-gplay] (*CENO Browser* from *eQualitie*): the "
-#| "recommended source for most Android users."
 msgid ""
 "[Google Play][ceno-gplay] (*Ceno Browser* from *eQualitie*): the recommended "
 "source for most Android users."
@@ -57,11 +49,6 @@ msgstr ""
 "blokujących możliwość skorzystania z poprzednich metod."
 
 #: browser/install.md:block 4 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "CENO requires an ARM64 or Neon-capable ARM32 device running at least "
-#| "Android 4.1 Jelly Bean, thus most mobile devices released from late 2012 "
-#| "onward should work. CENO needs *no special permissions* to run."
 msgid ""
 "Ceno requires an ARM64 or Neon-capable ARM32 device running at least Android "
 "4.1 Jelly Bean, thus most mobile devices released from late 2012 onward "
@@ -74,7 +61,6 @@ msgstr ""
 "uprawnień*."
 
 #: browser/install.md:block 5 (quote)
-#, fuzzy
 msgid ""
 "**Warning:** Please be *extremely skeptical* about installing Ceno Browser "
 "from sources other than the ones listed above. Because of the application's "
