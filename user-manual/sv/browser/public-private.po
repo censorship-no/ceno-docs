@@ -1,15 +1,15 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-04-02 05:39+0000\n"
-"Last-Translator: tygyh <jonis9898@hotmail.com>\n"
+"PO-Revision-Date: 2023-05-17 03:01+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/censorship-no/"
 "browser-public-private/sv/>\n"
 "Language: sv\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.17-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #: browser/public-private.md:block 1 (header)
 msgid "Using public or private browsing"
@@ -29,7 +29,7 @@ msgid ""
 "browsing)."
 msgstr ""
 "Som beskrivits [i ett tidigare avsnitt](.. /concepts/public-private.md) har "
-"CENO två olika driftsätt beroende på om du vill dela innehållet som du "
+"Ceno två olika driftsätt beroende på om du vill dela innehållet som du "
 "surfar med andra (offentlig surfning) eller inte (privat surfning)."
 
 #: browser/public-private.md:block 3 (paragraph)
