@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2022-12-15 21:43+0000\n"
+"PO-Revision-Date: 2023-05-17 03:04+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/censorship-no/"
 "browser-readme/fr/>\n"
@@ -12,13 +12,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.15-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #: browser/README.md:block 1 (header)
 #, fuzzy
 #| msgid "Using CENO Browser"
 msgid "Using Ceno Browser"
-msgstr "Utilisation du navigateur CENO"
+msgstr "Utilisation du navigateur Ceno"
 
 #: browser/README.md:block 2 (paragraph)
 #, fuzzy
@@ -36,9 +36,9 @@ msgid ""
 "for Android Support][Firefox for Android Support] pages."
 msgstr ""
 "Ce chapitre est destiné à vous apporter des conseils sur l'utilisation du "
-"navigateur CENO au sujet de ses possibilités liées à Ouinet. Merci de "
-"toujours garder à l'esprit que CENO est basé sur [Firefox pour Android]"
-"[Firefox pour Android]. Ainsi, pour toute question relative à la navigation "
+"navigateur Ceno au sujet de ses possibilités liées à Ouinet. Merci de "
+"toujours garder à l'esprit que Ceno est basé sur [Firefox pour Android]["
+"Firefox pour Android]. Ainsi, pour toute question relative à la navigation "
 "générique, vous devriez vous référer aux pages de Mozilla [Assistance de "
 "Firefox pour Android][Assistance de Firefox pour Android]."
 
@@ -58,8 +58,8 @@ msgstr ""
 "Le cas échéant, des captures d'écran seront présentées pour illustrer le "
 "texte. Veuillez noter que ces visuels seront sans doute légèrement "
 "différents de ce que vous voyez sur votre appareil, compte tenu du "
-"développement en cours de CENO. Ce document est à jour pour la version 1.6.0 "
-"de CENO."
+"développement en cours de Ceno. Ce document est à jour pour la version 1.6.0 "
+"de Ceno."
 
 #: browser/README.md:block 4 (paragraph)
 msgid ""
