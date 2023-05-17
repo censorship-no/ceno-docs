@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-17 03:09+0000\n"
+"PO-Revision-Date: 2023-05-17 03:10+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/censorship-no/"
 "client-front-end/fr/>\n"
@@ -16,13 +16,6 @@ msgid "Annex: The Ouinet client front-end"
 msgstr "Annexe : L'interface du client Ouinet"
 
 #: client/front-end.md:block 2 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "The Ouinet client (as run by e.g. CENO Browser) offers a front-end page "
-#| "with some information and actions which may be useful for debugging the "
-#| "client. Many of them are also offered by the CENO Extension via the "
-#| "[*CENO Settings* page](../browser/settings.md), though others are only "
-#| "available here."
 msgid ""
 "The Ouinet client (as run by e.g. Ceno Browser) offers a front-end page with "
 "some information and actions which may be useful for debugging the client. "
@@ -36,12 +29,6 @@ msgstr ""
 "browser/settings.md)."
 
 #: client/front-end.md:block 3 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "The front-end is accessible using any plain Web browser running on the "
-#| "same device (you can use CENO too). Its default address is "
-#| "<http://127.0.0.1:8078/>. If you open it, you will see something like the "
-#| "figure below."
 msgid ""
 "The front-end is accessible using any plain Web browser running on the same "
 "device (you can use Ceno too). Its default address is <http://127.0.0.1:8078/"
@@ -69,13 +56,6 @@ msgstr ""
 "(CA) dans votre navigateur, car le client doit intercepter du trafic HTTPS."
 
 #: client/front-end.md:block 6 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "You only need this to use a plain browser for testing the Ouinet client, "
-#| "in which case you will also have to configure its HTTP/HTTPS proxies to "
-#| "`127.0.0.1:8077`, and manually enable the [CENO Extension][CENO "
-#| "Extension] for injection to work. We very strongly recommend using a "
-#| "*separate, specific browser profile* for this purpose."
 msgid ""
 "You only need this to use a plain browser for testing the Ouinet client, in "
 "which case you will also have to configure its HTTP/HTTPS proxies to "
@@ -91,10 +71,6 @@ msgstr ""
 "distinct* pour cela."
 
 #: client/front-end.md:block 6 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "Please note that none of this needs to be done for CENO Browser, since it "
-#| "is already configured like that."
 msgid ""
 "Please note that none of this needs to be done for Ceno Browser, since it is "
 "already configured like that."
@@ -169,10 +145,6 @@ msgstr ""
 "un lien vers la liste des entrées de cache annoncées."
 
 #: client/front-end.md:block 6 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "The directory of the external, static cache if enabled (CENO does not "
-#| "currently use this)."
 msgid ""
 "The directory of the external, static cache if enabled (Ceno does not "
 "currently use this)."
@@ -181,8 +153,5 @@ msgstr ""
 "l'utilise pas actuellement)."
 
 #: client/front-end.md:block 6 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "[CENO Extension]: https://github.com/censorship-no/ceno-ext-settings/"
 msgid "[Ceno Extension]: https://github.com/censorship-no/ceno-ext-settings/"
 msgstr "[Ceno Extension]: https://github.com/censorship-no/ceno-ext-settings/"
