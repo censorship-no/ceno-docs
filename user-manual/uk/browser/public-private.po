@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-17 03:01+0000\n"
+"PO-Revision-Date: 2023-05-17 03:02+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-public-private/uk/>\n"
@@ -17,12 +17,6 @@ msgid "Using public or private browsing"
 msgstr "Використання публічного або приватного перегляду"
 
 #: browser/public-private.md:block 2 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "As described [in a previous section](../concepts/public-private.md), CENO "
-#| "has two different modes of operation depending on whether you want to "
-#| "share the content that you browse with others (public browsing) or not "
-#| "(private browsing)."
 msgid ""
 "As described [in a previous section](../concepts/public-private.md), Ceno "
 "has two different modes of operation depending on whether you want to share "
@@ -34,13 +28,6 @@ msgstr ""
 "вмістом, який переглядаєте (публічний перегляд), чи ні (приватний перегляд)."
 
 #: browser/public-private.md:block 3 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "This setting applies *to each tab* that you open in the browser, i.e. you "
-#| "can have public browsing tabs and private browsing tabs. CENO's default "
-#| "whenever you start it or open a new tab (using *New tab* in the app's "
-#| "main menu) is to use public browsing. To open a new tab in private "
-#| "browsing mode, just choose *New private tab* in the main menu."
 msgid ""
 "This setting applies *to each tab* that you open in the browser, i.e. you "
 "can have public browsing tabs and private browsing tabs. Ceno's default "
@@ -76,11 +63,6 @@ msgid "![Figure: A private browsing tab](images/private-tab.png)"
 msgstr "![Малюнок: Вкладка приватного перегляду](images/private-tab.png)"
 
 #: browser/public-private.md:block 8 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Once you have loaded a page in a tab, the colored CENO icon in the "
-#| "address bar will help you know how it actually retrieved the different "
-#| "elements of the content. We will cover this icon later on."
 msgid ""
 "Once you have loaded a page in a tab, the colored Ceno icon in the address "
 "bar will help you know how it actually retrieved the different elements of "
