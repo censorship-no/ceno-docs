@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-07-13 11:19+0000\n"
-"Last-Translator: Vitalii Moroz <vitaliy.moroz@gmail.com>\n"
+"PO-Revision-Date: 2023-05-17 03:01+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-install/uk/>\n"
 "Language: uk\n"
@@ -10,19 +10,19 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.14-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #: browser/install.md:block 1 (header)
 #, fuzzy
 #| msgid "Installing CENO"
 msgid "Installing Ceno"
-msgstr "Встановлення CENO"
+msgstr "Встановлення Ceno"
 
 #: browser/install.md:block 2 (paragraph)
 #, fuzzy
 #| msgid "CENO Browser can be installed via the following means:"
 msgid "Ceno Browser can be installed via the following means:"
-msgstr "Браузер CENO можна встановити у кілька способів:"
+msgstr "Браузер Ceno можна встановити у кілька способів:"
 
 #: browser/install.md:block 3 (unordered list)
 #, fuzzy
@@ -33,7 +33,7 @@ msgid ""
 "[Google Play][ceno-gplay] (*Ceno Browser* from *eQualitie*): the recommended "
 "source for most Android users."
 msgstr ""
-"[Google Play][ceno-gplay] (*Браузер CENO* від *eQualitie*): рекомендоване "
+"[Google Play][ceno-gplay] (*Браузер Ceno* від *eQualitie*): рекомендоване "
 "джерело для більшості користувачів Android."
 
 #: browser/install.md:block 3 (unordered list)
@@ -59,9 +59,9 @@ msgid ""
 "4.1 Jelly Bean, thus most mobile devices released from late 2012 onward "
 "should work. Ceno needs *no special permissions* to run."
 msgstr ""
-"CENO вимагає ARM64 або сумісного з Neon ARM32 пристрою, що працює принаймні "
+"Ceno вимагає ARM64 або сумісного з Neon ARM32 пристрою, що працює принаймні "
 "на Android 4.1 Jelly Bean, тому більшість мобільних пристроїв випущених з "
-"кінця 2012 року мають працювати. CENO не потребує *спеціальних дозволів* для "
+"кінця 2012 року мають працювати. Ceno не потребує *спеціальних дозволів* для "
 "роботи."
 
 #: browser/install.md:block 5 (quote)
@@ -82,11 +82,11 @@ msgid ""
 "Ouinet users. If in doubt, please contact [cenoers@equalit.ie](mailto:"
 "cenoers@equalit.ie) before installing a suspicious app."
 msgstr ""
-"**Увага:** Будь ласка, будьте обережні й НЕ встановлюйте браузер CENO з будь-"
+"**Увага:** Будь ласка, будьте обережні й НЕ встановлюйте браузер Ceno з будь-"
 "яких інших платформ, окрім перерахованих вище. З огляду на особливість "
 "програми, зловмисники можуть пропонувати потенційним користувачам підроблені "
 "або скомпрометовані версії, що використовуються для порушення "
-"конфіденційності користувача або атаки на інших користувачів CENO та Ouinet. "
+"конфіденційності користувача або атаки на інших користувачів Ceno та Ouinet. "
 "Якщо Ви сумніваєтеся, чи достовірна програма, будь ласка, звʼяжіться з "
 "[cenoers@equalit.ie](mailto:cenoers@equalit.ie) перед встановленням."
 
@@ -94,7 +94,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Stopping CENO completely"
 msgid "Stopping Ceno completely"
-msgstr "Повна зупинка CENO"
+msgstr "Повна зупинка Ceno"
 
 #: browser/install.md:block 7 (paragraph)
 #, fuzzy
@@ -112,8 +112,8 @@ msgid ""
 "from it at any time."
 msgstr ""
 "Щоразу, коли Ви запускаєте програму, на панелі повідомлень Вашого пристрою "
-"зʼявлятиметься значок CENO. Цей значок є робота браузера CENO як частина "
-"CENO, що працює постійно (навіть коли Ви не переглядаєте вебсторінки) і "
+"зʼявлятиметься значок Ceno. Цей значок є робота браузера Ceno як частина "
+"Ceno, що працює постійно (навіть коли Ви не переглядаєте вебсторінки) і "
 "дозволяє іншим клієнтам використовувати Ваш пристрій як міст та отримувати з "
 "його допомогою вміст будь-коли."
 
@@ -133,8 +133,8 @@ msgstr ""
 "Оскільки робота такого браузера використовує трафік і ресурси процесора, Ви "
 "можете захотіти зупинити його на час перебування в поїздці (тобто Ви не "
 "підключені до Wi-Fi або не маєте доступу до зарядного пристрою). Натиснувши "
-"на повідомлення, що прикріплене до значка, Ви негайно зупините CENO та його "
-"роботу (аж поки знову не відкриєте CENO)."
+"на повідомлення, що прикріплене до значка, Ви негайно зупините Ceno та його "
+"роботу (аж поки знову не відкриєте Ceno)."
 
 #: browser/install.md:block 9 (paragraph)
 #, fuzzy
@@ -145,14 +145,14 @@ msgid ""
 "![Figure: Tap on the notification to stop the Ceno service](images/tap-stop."
 "png)"
 msgstr ""
-"![Малюнок: Натисніть на повідомлення, щоб зупинити роботу CENO](images/tap-"
+"![Малюнок: Натисніть на повідомлення, щоб зупинити роботу Ceno](images/tap-"
 "stop.png)"
 
 #: browser/install.md:block 10 (header)
 #, fuzzy
 #| msgid "Purging all CENO data (the \"panic button\")"
 msgid "Purging all Ceno data (the \"panic button\")"
-msgstr "Очищення всіх даних CENO («тривожна кнопка»)"
+msgstr "Очищення всіх даних Ceno («тривожна кнопка»)"
 
 #: browser/install.md:block 11 (paragraph)
 #, fuzzy
@@ -167,9 +167,9 @@ msgid ""
 "action will just open Ceno with a new public browsing tab showing its home "
 "page. The *Erase* action demands more explanation."
 msgstr ""
-"Сповіщення *робота браузера CENO*, показане вище, включає кілька паралельних "
+"Сповіщення *робота браузера Ceno*, показане вище, включає кілька паралельних "
 "команд, які можна активувати, натиснувши на них. Команда *Додому* – просто "
-"відкриє CENO в новій вкладці для публічного перегляду, демонструючи його "
+"відкриє Ceno в новій вкладці для публічного перегляду, демонструючи його "
 "головну сторінку. Команда *Стерти* – вимагає детальнішого пояснення."
 
 #: browser/install.md:block 12 (quote)
@@ -198,7 +198,7 @@ msgid ""
 "your data accidentally, this will not remove anything yet, but just show an "
 "additional action for a brief moment, as pictured below:"
 msgstr ""
-"Якщо Вам потрібно швидко призупинити CENO та очистити всі дані, повʼязані з "
+"Якщо Вам потрібно швидко призупинити Ceno та очистити всі дані, повʼязані з "
 "браузером (не тільки кешований вміст, але й налаштування, зокрема вибране, "
 "паролі та вся історія переглядів), Ви можете натиснути на *Стерти*. Щоб "
 "уникнути випадкової втрати даних, ця команда поки нічого не видалить, а лише "
@@ -214,8 +214,8 @@ msgid ""
 "![Figure: The last action stops Ceno and clears all its data](images/tap-"
 "purge.png)"
 msgstr ""
-"![Малюнок: Остання дія зупиняє CENO та очищає всі його дані](images/tap-"
-"purge.png)"
+"![Малюнок: Остання дія зупиняє Ceno та очищає всі його дані](images/tap-purge"
+".png)"
 
 #: browser/install.md:block 15 (paragraph)
 #, fuzzy
@@ -228,8 +228,8 @@ msgid ""
 "removed *without further questions*, effectively leaving your device as if "
 "Ceno had never been used."
 msgstr ""
-"Якщо Ви натиснете *Так*, CENO буде зупинено і всі його дані видаляться *без "
-"додаткових питань*, фактично залишаючи Ваш пристрій таким, якби CENO ніколи "
+"Якщо Ви натиснете *Так*, Ceno буде зупинено і всі його дані видаляться *без "
+"додаткових питань*, фактично залишаючи Ваш пристрій таким, якби Ceno ніколи "
 "не використовувався."
 
 #: browser/install.md:block 16 (paragraph)
@@ -249,10 +249,10 @@ msgid ""
 "Android's general *Settings* page and, under the *Apps* entry, choose Ceno "
 "and then *Clear data*."
 msgstr ""
-"**Примітка:** Описаний вище метод вимагає, щоб CENO працював на Вашому "
-"пристрої. Для досягнення того ефекту за умови, що CENO зупинено, Ви можете "
+"**Примітка:** Описаний вище метод вимагає, щоб Ceno працював на Вашому "
+"пристрої. Для досягнення того ефекту за умови, що Ceno зупинено, Ви можете "
 "зайти на загальну сторінку *Налаштування* в Android і в розділі *Програми* "
-"вибрати CENO, а тоді *Очистити дані*."
+"вибрати Ceno, а тоді *Очистити дані*."
 
 #: browser/install.md:block 17 (quote)
 msgid "As a harsher alternative, you may completely uninstall the app."
