@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-04-29 08:50+0000\n"
-"Last-Translator: luana <luanafaustini@tutanota.com>\n"
+"PO-Revision-Date: 2023-05-17 03:14+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "censorship-no/ouinet/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -16,14 +16,6 @@ msgid "What is Ouinet?"
 msgstr "O que é Ouinet?"
 
 #: intro/ouinet.md:block 2 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "[Ouinet][Ouinet] is a core technology that allows CENO Browser to share "
-#| "Web content with other devices. Ouinet comes in the form of reusable "
-#| "computer code (a library) that an application like CENO can use to become "
-#| "a participant in a network of cooperating nodes that communicate directly "
-#| "([peer-to-peer][P2P] or P2P) to help access and store new Web content, "
-#| "and to request and deliver previously accessed content to others."
 msgid ""
 "[Ouinet][Ouinet] is a core technology that allows Ceno Browser to share Web "
 "content with other devices. Ouinet comes in the form of reusable computer "
@@ -76,16 +68,12 @@ msgstr ""
 "local)."
 
 #: intro/ouinet.md:block 5 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Same as CENO Browser, Ouinet is developed by [eQualitie][eQualitie] as "
-#| "Free/Libre/Open-Source software."
 msgid ""
 "Same as Ceno Browser, Ouinet is developed by [eQualitie][eQualitie] as Free/"
 "Libre/Open-Source software."
 msgstr ""
-"De mesmo modo que o Navegador CENO, a Ouinet é desenvolvida pela [eQualitie]"
-"[eQualitie] como um sofware gratuito, livre e de código aberto."
+"De mesmo modo que o Navegador CENO, a Ouinet é desenvolvida pela "
+"[eQualitie][eQualitie] como um sofware gratuito, livre e de código aberto."
 
 #: intro/ouinet.md:block 6 (header)
 msgid "Who is it for?"

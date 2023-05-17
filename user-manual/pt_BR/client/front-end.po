@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-04 06:16+0000\n"
-"Last-Translator: luana <luanafaustini@tutanota.com>\n"
+"PO-Revision-Date: 2023-05-17 03:10+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "censorship-no/client-front-end/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -16,39 +16,26 @@ msgid "Annex: The Ouinet client front-end"
 msgstr "Anexo: O cliente front-end Ouinet"
 
 #: client/front-end.md:block 2 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "The Ouinet client (as run by e.g. CENO Browser) offers a front-end page "
-#| "with some information and actions which may be useful for debugging the "
-#| "client. Many of them are also offered by the CENO Extension via the "
-#| "[*CENO Settings* page](../browser/settings.md), though others are only "
-#| "available here."
 msgid ""
 "The Ouinet client (as run by e.g. Ceno Browser) offers a front-end page with "
 "some information and actions which may be useful for debugging the client. "
 "Many of them are also offered by the Ceno Extension via the [*Ceno Settings* "
 "page](../browser/settings.md), though others are only available here."
 msgstr ""
-"O cliente Ouinet (conforme executado pelo Navegador CENO, por exemplo) "
+"O cliente Ouinet (conforme executado pelo Navegador Ceno, por exemplo) "
 "oferece uma página front-end com algumas informações e ações que podem ser "
 "úteis para a depuração do cliente. Muitas delas também são oferecidas pela "
-"Extensão CENO via [página *Configurações do CENO*](../browser/settings.md), "
+"Extensão Ceno via [página *Configurações do Ceno*](../browser/settings.md), "
 "apesar de outras somente estarem disponíveis aqui."
 
 #: client/front-end.md:block 3 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "The front-end is accessible using any plain Web browser running on the "
-#| "same device (you can use CENO too). Its default address is "
-#| "<http://127.0.0.1:8078/>. If you open it, you will see something like the "
-#| "figure below."
 msgid ""
 "The front-end is accessible using any plain Web browser running on the same "
 "device (you can use Ceno too). Its default address is <http://127.0.0.1:8078/"
 ">. If you open it, you will see something like the figure below."
 msgstr ""
 "O front-end é acessível pelo uso de qualquer navegador Web comum executado "
-"no mesmo dispositivo (você pode usar o CENO também). O endereço padrão é "
+"no mesmo dispositivo (você pode usar o Ceno também). O endereço padrão é "
 "<http://127.0.0.1:8078/>. Se você abrí-lo, verá algo parecido com a figura "
 "abaixo."
 
@@ -69,13 +56,6 @@ msgstr ""
 "seu navegador, já que o cliente precisa interceptar o tráfego HTTPS."
 
 #: client/front-end.md:block 6 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "You only need this to use a plain browser for testing the Ouinet client, "
-#| "in which case you will also have to configure its HTTP/HTTPS proxies to "
-#| "`127.0.0.1:8077`, and manually enable the [CENO Extension][CENO "
-#| "Extension] for injection to work. We very strongly recommend using a "
-#| "*separate, specific browser profile* for this purpose."
 msgid ""
 "You only need this to use a plain browser for testing the Ouinet client, in "
 "which case you will also have to configure its HTTP/HTTPS proxies to "
@@ -84,22 +64,18 @@ msgid ""
 "specific browser profile* for this purpose."
 msgstr ""
 "Você precisa dele apenas para usar um navegador comum para testar o cliente "
-"Ouinet. Nesse caso, você terá de configurar seus proxies HTTP/HTPPS para "
-"`127.0.0.1:8077`, e habilitar manualmente a [Extensão CENO][Extensão CENO] "
-"para a injeção funcionar. Recomendamos fortemente usar, para este propósito, "
-"um *perfil separado, específico para o navegador*."
+"Ouinet. Nesse caso, você terá de configurar seus proxies HTTP/HTPPS para `127"
+".0.0.1:8077`, e habilitar manualmente a [Extensão Ceno][Extensão Ceno] para "
+"a injeção funcionar. Recomendamos fortemente usar, para este propósito, um *"
+"perfil separado, específico para o navegador*."
 
 #: client/front-end.md:block 6 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "Please note that none of this needs to be done for CENO Browser, since it "
-#| "is already configured like that."
 msgid ""
 "Please note that none of this needs to be done for Ceno Browser, since it is "
 "already configured like that."
 msgstr ""
 "Por favor, observe que nenhuma dessas ações precisa ser realizada para o "
-"Navegador CENO, pois ele já está configurado dessa maneira."
+"Navegador Ceno, pois ele já está configurado dessa maneira."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
@@ -166,20 +142,13 @@ msgstr ""
 "para a lista de entradas do cache anunciadas."
 
 #: client/front-end.md:block 6 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "The directory of the external, static cache if enabled (CENO does not "
-#| "currently use this)."
 msgid ""
 "The directory of the external, static cache if enabled (Ceno does not "
 "currently use this)."
 msgstr ""
-"O diretório do cache externo e estático, caso esteja habilitado (CENO não o "
+"O diretório do cache externo e estático, caso esteja habilitado (Ceno não o "
 "usa atualmente)."
 
 #: client/front-end.md:block 6 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "[CENO Extension]: https://github.com/censorship-no/ceno-ext-settings/"
 msgid "[Ceno Extension]: https://github.com/censorship-no/ceno-ext-settings/"
-msgstr "[Extensão CENO]: https://github.com/censorship-no/ceno-ext-settings/"
+msgstr "[Extensão Ceno]: https://github.com/censorship-no/ceno-ext-settings/"

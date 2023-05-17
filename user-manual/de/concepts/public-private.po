@@ -1,30 +1,21 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-09 10:07+0000\n"
-"Last-Translator: Marvin <wile.e.coyote@keemail.me>\n"
+"PO-Revision-Date: 2023-05-17 03:12+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/censorship-no/"
 "public-private/de/>\n"
 "Language: de\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.12-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #: concepts/public-private.md:block 1 (header)
 msgid "Public vs. private browsing"
 msgstr "Öffentliches- vs. Privates-Browsing"
 
 #: concepts/public-private.md:block 2 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Because of the many techniques used to overcome connectivity issues, CENO "
-#| "may become a convenient way for you to get all kinds of Web content. And, "
-#| "as you may have already read in previous sections, whenever you retrieve "
-#| "and seed a page using CENO Browser, it becomes available to others. There "
-#| "may be some content, however, that you do not wish to share (or you do "
-#| "not want to let others know that you are trying to or did retrieve), and "
-#| "fortunately CENO can help you in this instance as well."
 msgid ""
 "Because of the many techniques used to overcome connectivity issues, Ceno "
 "may become a convenient way for you to get all kinds of Web content. And, as "
@@ -34,25 +25,21 @@ msgid ""
 "let others know that you are trying to or did retrieve), and fortunately "
 "Ceno can help you in this instance as well."
 msgstr ""
-"Es gibt verschiedene Wege um mit Verbindungsproblemen umzugehen, CENO kann "
+"Es gibt verschiedene Wege um mit Verbindungsproblemen umzugehen, Ceno kann "
 "hierfür eine komfortable Lösung darstellen. Wie sie vielleicht schon auf den "
-"vorherigen Seiten gelesen haben, wird jede Webseite welche sie über CENO "
+"vorherigen Seiten gelesen haben, wird jede Webseite welche sie über Ceno "
 "aufrufen gespeichert und durch sie erreichbar für andere Nutzer gemacht. "
 "Möglicherweise gibt es jedoch Inhalte von denen sie es nicht wünschen sie zu "
 "Teilen (oder sie möchten nicht das andere Wissen, das sie von einer Webseite "
-"Daten erhalten haben/wollten), glücklicherweise kann ihnen CENO dabei helfen."
+"Daten erhalten haben/wollten), glücklicherweise kann ihnen Ceno dabei helfen."
 
 #: concepts/public-private.md:block 3 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "The default mode when you launch the application is **public browsing**. "
-#| "In it, CENO accesses Web content as described previously:"
 msgid ""
 "The default mode when you launch the application is **public browsing**. In "
 "it, Ceno accesses Web content as described previously:"
 msgstr ""
 "Der voreingestellte Modus, wenn die das Programm starten, ist **Öffentliches "
-"Browsing**. In diesem Modus ruft CENO Webinhalte wie zuvor genannt auf:"
+"Browsing**. In diesem Modus ruft Ceno Webinhalte wie zuvor genannt auf:"
 
 #: concepts/public-private.md:block 4 (ordered list)
 msgid "Direct access is attempted."
@@ -71,15 +58,11 @@ msgstr ""
 "(vielleicht ein weiterer Client)."
 
 #: concepts/public-private.md:block 5 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "CENO also has a **private browsing** mode. In it, the distributed cache "
-#| "is never searched, and injection is never attempted:"
 msgid ""
 "Ceno also has a **private browsing** mode. In it, the distributed cache is "
 "never searched, and injection is never attempted:"
 msgstr ""
-"CENO verfügt auch über einen **Private Browsing** Modus. In diesem wird der "
+"Ceno verfügt auch über einen **Private Browsing** Modus. In diesem wird der "
 "dezentrale Puffer niemals durchsucht und der Versuch einer Injektion bleibt "
 "aus:"
 

@@ -1,29 +1,21 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-03-13 17:38+0000\n"
-"Last-Translator: Alexthegib <jcwkgxc@nightorb.com>\n"
+"PO-Revision-Date: 2023-05-17 03:14+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/censorship-no/"
 "ouinet/pt/>\n"
 "Language: pt\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.16.2-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #: intro/ouinet.md:block 1 (header)
 msgid "What is Ouinet?"
 msgstr "O que é Ouinet?"
 
 #: intro/ouinet.md:block 2 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "[Ouinet][Ouinet] is a core technology that allows CENO Browser to share "
-#| "Web content with other devices. Ouinet comes in the form of reusable "
-#| "computer code (a library) that an application like CENO can use to become "
-#| "a participant in a network of cooperating nodes that communicate directly "
-#| "([peer-to-peer][P2P] or P2P) to help access and store new Web content, "
-#| "and to request and deliver previously accessed content to others."
 msgid ""
 "[Ouinet][Ouinet] is a core technology that allows Ceno Browser to share Web "
 "content with other devices. Ouinet comes in the form of reusable computer "
@@ -74,10 +66,6 @@ msgstr ""
 "utilizado por clientes Web normais como browsers (como um proxy HTTP local)."
 
 #: intro/ouinet.md:block 5 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Same as CENO Browser, Ouinet is developed by [eQualitie][eQualitie] as "
-#| "Free/Libre/Open-Source software."
 msgid ""
 "Same as Ceno Browser, Ouinet is developed by [eQualitie][eQualitie] as Free/"
 "Libre/Open-Source software."

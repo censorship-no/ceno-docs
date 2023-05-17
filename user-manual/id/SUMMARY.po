@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-05-12 20:14+0000\n"
+"PO-Revision-Date: 2023-05-17 02:55+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/censorship-no/"
 "user-manual/id/>\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.13-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #: SUMMARY.md:block 1 (header)
 msgid "Summary"
@@ -24,10 +24,8 @@ msgid "[Introduction](intro/README.md)"
 msgstr "[Pengantar](intro/README.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-#, fuzzy
-#| msgid "[What is CENO Browser?](intro/ceno.md)"
 msgid "[What is Ceno Browser?](intro/ceno.md)"
-msgstr "[Apa itu Browser CENO?](intro/ceno.md)"
+msgstr "[Apa itu Browser Ceno?](intro/ceno.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[What is Ouinet?](intro/ouinet.md)"
@@ -54,38 +52,28 @@ msgid "[Public vs. private browsing](concepts/public-private.md)"
 msgstr "[Browsing publik vs. pribadi](concepts/public-private.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-#, fuzzy
-#| msgid "[Advantages of using CENO/Ouinet](concepts/advantages.md)"
 msgid "[Advantages of using Ceno/Ouinet](concepts/advantages.md)"
-msgstr "[Keuntungan menggunakan CENO/Ouinet](concepts/advantages.md)"
+msgstr "[Keuntungan menggunakan Ceno/Ouinet](concepts/advantages.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-#, fuzzy
-#| msgid "[Risks in using CENO/Ouinet](concepts/risks.md)"
 msgid "[Risks in using Ceno/Ouinet](concepts/risks.md)"
-msgstr "[Risiko dalam menggunakan CENO/Ouinet](concepts/risks.md)"
+msgstr "[Risiko dalam menggunakan Ceno/Ouinet](concepts/risks.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-#, fuzzy
-#| msgid "[Using CENO Browser](browser/README.md)"
 msgid "[Using Ceno Browser](browser/README.md)"
-msgstr "[Menggunakan Browser CENO](browser/README.md)"
+msgstr "[Menggunakan Browser Ceno](browser/README.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-#, fuzzy
-#| msgid "[Installing CENO](browser/install.md)"
 msgid "[Installing Ceno](browser/install.md)"
-msgstr "[Memasang CENO](browser/install.md)"
+msgstr "[Memasang Ceno](browser/install.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Using public or private browsing](browser/public-private.md)"
 msgstr "[Menggunakan browsing publik atau pribadi](browser/public-private.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-#, fuzzy
-#| msgid "[CENO settings](browser/settings.md)"
 msgid "[Ceno settings](browser/settings.md)"
-msgstr "[Pengaturan CENO](browser/settings.md)"
+msgstr "[Pengaturan Ceno](browser/settings.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Testing the Browser](browser/testing.md)"

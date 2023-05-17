@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-06-02 13:21+0000\n"
-"Last-Translator: Vitalii Moroz <vitaliy.moroz@gmail.com>\n"
+"PO-Revision-Date: 2023-05-17 03:17+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "qsg/uk/>\n"
 "Language: uk\n"
@@ -10,19 +10,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.13-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #: intro/qsg.md:block 1 (header)
 msgid "Quick start guide"
 msgstr "Короткий посібник"
 
 #: intro/qsg.md:block 2 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "CENO Browser allows you to access any website on the Internet, even if it "
-#| "is censored in your country. CENO uses a peer-to-peer infrastructure to "
-#| "route your requests, as well as to store and share retrieved content with "
-#| "others. [Read more about CENO](ceno.md)."
 msgid ""
 "Ceno Browser allows you to access any website on the Internet, even if it is "
 "censored in your country. Ceno uses a peer-to-peer infrastructure to route "
@@ -32,8 +26,8 @@ msgstr ""
 "Браузер CENO дозволяє отримати доступ до будь-якого сайту в Інтернеті, "
 "навіть якщо він цензурується Вашою країною. CENO використовує однорангову "
 "(peer-to-peer) інфраструктуру для маршрутизації Ваших запитів, а також для "
-"зберігання та розповсюдження отриманого вмісту іншим користувачам мережі. "
-"[Докладніше про CENO](ceno.md)."
+"зберігання та розповсюдження отриманого вмісту іншим користувачам мережі. ["
+"Докладніше про CENO](ceno.md)."
 
 #: intro/qsg.md:block 3 (header)
 msgid "How to get started"
@@ -44,10 +38,6 @@ msgid "You will need an Android device:"
 msgstr "Вам знадобиться пристрій Android:"
 
 #: intro/qsg.md:block 5 (ordered list)
-#, fuzzy
-#| msgid ""
-#| "Install CENO Browser from [Google Play][ceno-gplay], [GitHub][ceno-gh] or "
-#| "[Paskoocheh][ceno-pask]. *No special permissions are needed*."
 msgid ""
 "Install Ceno Browser from [Google Play][ceno-gplay], [GitHub][ceno-gh] or "
 "[Paskoocheh][ceno-pask]. *No special permissions are needed*."
@@ -71,8 +61,6 @@ msgstr ""
 "(дивіться [публічний або приватний перегляд](../concepts/public-private.md))."
 
 #: intro/qsg.md:block 5 (ordered list)
-#, fuzzy
-#| msgid "Tap on the CENO notification to stop it completely."
 msgid "Tap on the Ceno notification to stop it completely."
 msgstr "Натисніть на сповіщення CENO, щоб повністю зупинити його."
 
@@ -86,10 +74,6 @@ msgid "Configuration"
 msgstr "Налаштування"
 
 #: intro/qsg.md:block 8 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "CENO Browser should work out-of-the-box. You can find some [diagnostics "
-#| "and settings](../browser/settings.md) under the *CENO* menu entry."
 msgid ""
 "Ceno Browser should work out-of-the-box. You can find some [diagnostics and "
 "settings](../browser/settings.md) under the *Ceno* menu entry."

@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-04-28 07:52+0000\n"
-"Last-Translator: luana <luanafaustini@tutanota.com>\n"
+"PO-Revision-Date: 2023-05-17 03:12+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "censorship-no/public-private/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -16,15 +16,6 @@ msgid "Public vs. private browsing"
 msgstr "Navegação pública versus privativa"
 
 #: concepts/public-private.md:block 2 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Because of the many techniques used to overcome connectivity issues, CENO "
-#| "may become a convenient way for you to get all kinds of Web content. And, "
-#| "as you may have already read in previous sections, whenever you retrieve "
-#| "and seed a page using CENO Browser, it becomes available to others. There "
-#| "may be some content, however, that you do not wish to share (or you do "
-#| "not want to let others know that you are trying to or did retrieve), and "
-#| "fortunately CENO can help you in this instance as well."
 msgid ""
 "Because of the many techniques used to overcome connectivity issues, Ceno "
 "may become a convenient way for you to get all kinds of Web content. And, as "
@@ -35,25 +26,21 @@ msgid ""
 "Ceno can help you in this instance as well."
 msgstr ""
 "Devido às muitas técnicas usadas para superar problemas de conectividade, o "
-"CENO pode se tornar uma forma conveniente de obter vários tipos de conteúdo "
+"Ceno pode se tornar uma forma conveniente de obter vários tipos de conteúdo "
 "Web. E, como você pode já ter lido em seções anteriores, a qualquer momento "
-"em que você recupera e semeia uma página usando o Navegador CENO, ela fica "
+"em que você recupera e semeia uma página usando o Navegador Ceno, ela fica "
 "disponível para outras pessoas. Pode haver, contudo, algum conteúdo que você "
 "não deseja compartilhar (ou não quer deixar outras pessoas saberem que está "
-"tentando recuperar ou recuperou). Felizmente, o CENO também pode ajudar você "
+"tentando recuperar ou recuperou). Felizmente, o Ceno também pode ajudar você "
 "nesse aspecto."
 
 #: concepts/public-private.md:block 3 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "The default mode when you launch the application is **public browsing**. "
-#| "In it, CENO accesses Web content as described previously:"
 msgid ""
 "The default mode when you launch the application is **public browsing**. In "
 "it, Ceno accesses Web content as described previously:"
 msgstr ""
 "O modo padrão quando você abre a aplicação é **navegação pública**. Nele, o "
-"CENO acessa conteúdo Web da forma descrita anteriormente:"
+"Ceno acessa conteúdo Web da forma descrita anteriormente:"
 
 #: concepts/public-private.md:block 4 (ordered list)
 msgid "Direct access is attempted."
@@ -72,15 +59,11 @@ msgstr ""
 "outro cliente)."
 
 #: concepts/public-private.md:block 5 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "CENO also has a **private browsing** mode. In it, the distributed cache "
-#| "is never searched, and injection is never attempted:"
 msgid ""
 "Ceno also has a **private browsing** mode. In it, the distributed cache is "
 "never searched, and injection is never attempted:"
 msgstr ""
-"CENO também tem um modo **navegação privativa**. Nele, o cache distribuído "
+"Ceno também tem um modo **navegação privativa**. Nele, o cache distribuído "
 "nunca é procurado e nunca se tenta a injeção:"
 
 #: concepts/public-private.md:block 6 (ordered list)
@@ -149,11 +132,6 @@ msgid "While in private mode:"
 msgstr "Enquanto estiver no modo privativo:"
 
 #: concepts/public-private.md:block 10 (ordered list)
-#, fuzzy
-#| msgid ""
-#| "You may not be able to access blocked Web content if international "
-#| "connectivity is too scarce; even if you could, other CENO users would not "
-#| "get that content from you."
 msgid ""
 "You may not be able to access blocked Web content if international "
 "connectivity is too scarce; even if you could, other Ceno users would not "
@@ -161,7 +139,7 @@ msgid ""
 msgstr ""
 "Você pode não ser capaz de acessar conteúdo Web bloqueado se a conectividade "
 "internacional estiver muito escassa. Mesmo que você pudesse, outros usuários "
-"do CENO não iriam obter esse conteúdo de você."
+"do Ceno não iriam obter esse conteúdo de você."
 
 #: concepts/public-private.md:block 10 (ordered list)
 msgid "Pages with dynamic content will probably work."
@@ -196,13 +174,6 @@ msgstr ""
 "em certificados ainda funciona)."
 
 #: concepts/public-private.md:block 11 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "In conclusion: if you are using CENO to read the news, watch videos, "
-#| "browse Wikipedia and other static resources that are otherwise censored "
-#| "in your network, consider using the default *public browsing* mode. And "
-#| "if you want to login to Twitter or edit your WordPress website, use "
-#| "*private browsing* mode."
 msgid ""
 "In conclusion: if you are using Ceno to read the news, watch videos, browse "
 "Wikipedia and other static resources that are otherwise censored in your "
@@ -210,7 +181,7 @@ msgid ""
 "to login to Twitter or edit your WordPress website, use *private browsing* "
 "mode."
 msgstr ""
-"Em conclusão: se você está usando CENO para ler notícias, assistir vídeos, "
+"Em conclusão: se você está usando Ceno para ler notícias, assistir vídeos, "
 "navegar pela Wikipédia e por outras fontes estáticas que estão de alguma "
 "forma censuradas em sua rede, considere usar o modo padrão *navegação "
 "pública*. E se você quer fazer login no Twitter ou editar seu website "

@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:51+0200\n"
-"PO-Revision-Date: 2022-03-14 12:03+0000\n"
-"Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
+"PO-Revision-Date: 2023-05-17 03:12+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "homepage-readme/my/>\n"
 "Language: my\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.12-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #
 #: README.md:block 1 (header)
@@ -20,43 +20,31 @@ msgid "Censorship.no! User Manual"
 msgstr "Censorship.no! သုံးစွဲသူ လက်စွဲ"
 
 #: README.md:block 2 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "This manual is aimed at users of [CENO Browser][CENO Browser] and related "
-#| "technologies, as created for the [Censorship.no!][Censorship.no!] project "
-#| "by [eQualitie][eQualitie]."
 msgid ""
 "This manual is aimed at users of [Ceno Browser][Ceno Browser] and related "
 "technologies, as created for the [Censorship.no!][Censorship.no!] project by "
 "[eQualitie][eQualitie]."
 msgstr ""
-"ဤလက်စွဲကို [eQualitie][eQualitie] ၏ ပရောဂျက်ဖြစ်သော [Censorship.no!][Censorship."
-"no!] အတွက် ဖန်တီးထားသော [CENO ဘရောက်ဇာ][CENO Browser] နှင့် သက်ဆိုင်ရာ နည်းပညာများကို "
-"သုံးစွဲသူများအတွက် ရည်ရွယ်သည်။"
+"ဤလက်စွဲကို [eQualitie][eQualitie] ၏ ပရောဂျက်ဖြစ်သော [Censorship."
+"no!][Censorship.no!] အတွက် ဖန်တီးထားသော [Ceno ဘရောက်ဇာ][Ceno Browser] နှင့် "
+"သက်ဆိုင်ရာ နည်းပညာများကို သုံးစွဲသူများအတွက် ရည်ရွယ်သည်။"
 
 #: README.md:block 3 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "If you are looking for technical documentation, please refer to the [CENO "
-#| "documentation repository][CENO documentation repository], where you will "
-#| "find pointers for further reading and details on implementation, as well "
-#| "as the [protocol specifications][protocol specifications]."
 msgid ""
 "If you are looking for technical documentation, please refer to the [Ceno "
 "documentation repository][Ceno documentation repository], where you will "
 "find pointers for further reading and details on implementation, as well as "
 "the [protocol specifications][protocol specifications]."
 msgstr ""
-"သင်သည် နည်းပညာဆိုင်ရာ စာရွက်စာတမ်းကို လိုက်ရှာနေလျှင် ကျေးဇူးပြု၍ နောက်ထပ် ဖတ်ရမည့်စာများအတွက် "
-"ညွှန်တံများနှင့် အကောင်အထည်ဖော်မှုဆိုင်ရာ အသေးစိတ်များအပြင် [ပရိုတိုကော အသေးစိတ်အချက်အလက်များ][ပရိုတိုကော "
-"အသေးစိတ်အချက်အလက်များ] ကို ရှာတွေ့နိုင်မည့် [CENO စာရွက်စာတမ်း ဗဟိုသိုလှောင်ခန်း][CENO စာရွက်စာတမ်း "
-"ဗဟိုသိုလှောင်ခန်း]ကို ရည်ညွှန်းပါ။"
+"သင်သည် နည်းပညာဆိုင်ရာ စာရွက်စာတမ်းကို လိုက်ရှာနေလျှင် ကျေးဇူးပြု၍ နောက်ထပ် "
+"ဖတ်ရမည့်စာများအတွက် ညွှန်တံများနှင့် အကောင်အထည်ဖော်မှုဆိုင်ရာ "
+"အသေးစိတ်များအပြင် [ပရိုတိုကော အသေးစိတ်အချက်အလက်များ][ပရိုတိုကော "
+"အသေးစိတ်အချက်အလက်များ] ကို ရှာတွေ့နိုင်မည့် [Ceno စာရွက်စာတမ်း "
+"ဗဟိုသိုလှောင်ခန်း][Ceno စာရွက်စာတမ်း ဗဟိုသိုလှောင်ခန်း]ကို ရည်ညွှန်းပါ။"
 
 #: README.md:block 3 (paragraph)
-#, fuzzy
-#| msgid "[CENO Browser]: https://github.com/censorship-no/ceno-browser"
 msgid "[Ceno Browser]: https://github.com/censorship-no/ceno-browser"
-msgstr "[CENO Browser]: https://github.com/censorship-no/ceno-browser"
+msgstr "[Ceno Browser]: https://github.com/censorship-no/ceno-browser"
 
 #: README.md:block 3 (paragraph)
 msgid "[Censorship.no!]: https://censorship.no/"
@@ -67,14 +55,11 @@ msgid "[eQualitie]: https://equalit.ie/"
 msgstr "[eQualitie]: https://equalit.ie/"
 
 #: README.md:block 3 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "[CENO documentation repository]: https://github.com/censorship-no/ceno-"
-#| "docs/"
 msgid ""
 "[Ceno documentation repository]: https://github.com/censorship-no/ceno-docs/"
 msgstr ""
-"[CENO စာရွက်စာတမ်း ဗဟိုသိုလှောင်ခန်း]: https://github.com/censorship-no/ceno-docs/"
+"[Ceno စာရွက်စာတမ်း ဗဟိုသိုလှောင်ခန်း]: https://github.com/censorship-no/"
+"ceno-docs/"
 
 #: README.md:block 3 (paragraph)
 msgid ""

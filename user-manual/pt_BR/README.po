@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-04-27 06:43+0000\n"
-"Last-Translator: luana <luanafaustini@tutanota.com>\n"
+"PO-Revision-Date: 2023-05-17 03:12+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "censorship-no/homepage-readme/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -16,44 +16,31 @@ msgid "Censorship.no! User Manual"
 msgstr "Censorship.no! Manual de Usuário"
 
 #: README.md:block 2 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "This manual is aimed at users of [CENO Browser][CENO Browser] and related "
-#| "technologies, as created for the [Censorship.no!][Censorship.no!] project "
-#| "by [eQualitie][eQualitie]."
 msgid ""
 "This manual is aimed at users of [Ceno Browser][Ceno Browser] and related "
 "technologies, as created for the [Censorship.no!][Censorship.no!] project by "
 "[eQualitie][eQualitie]."
 msgstr ""
-"Este manual é destinado a usuários do [Navegador CENO][Navegador CENO] e "
-"tecnologias relacionadas, conforme criadas para o projeto [Censorship.no!]"
-"[Censorship.no!] pela [eQualitie][eQualitie]."
+"Este manual é destinado a usuários do [Navegador Ceno][Navegador Ceno] e "
+"tecnologias relacionadas, conforme criadas para o projeto [Censorship."
+"no!][Censorship.no!] pela [eQualitie][eQualitie]."
 
 #: README.md:block 3 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "If you are looking for technical documentation, please refer to the [CENO "
-#| "documentation repository][CENO documentation repository], where you will "
-#| "find pointers for further reading and details on implementation, as well "
-#| "as the [protocol specifications][protocol specifications]."
 msgid ""
 "If you are looking for technical documentation, please refer to the [Ceno "
 "documentation repository][Ceno documentation repository], where you will "
 "find pointers for further reading and details on implementation, as well as "
 "the [protocol specifications][protocol specifications]."
 msgstr ""
-"Se você está procurando por documentação técnica, por favor consulte o "
-"[repositório de documentação do CENO][repositório de documentação do CENO]. "
+"Se você está procurando por documentação técnica, por favor consulte o ["
+"repositório de documentação do Ceno][repositório de documentação do Ceno]. "
 "Lá você encontrará indicações para leituras posteriores e detalhes de "
 "implementação, bem como as [especificações de protocolo][especificações de "
 "protocolo]."
 
 #: README.md:block 3 (paragraph)
-#, fuzzy
-#| msgid "[CENO Browser]: https://github.com/censorship-no/ceno-browser"
 msgid "[Ceno Browser]: https://github.com/censorship-no/ceno-browser"
-msgstr "[Navegador CENO]: https://github.com/censorship-no/ceno-browser"
+msgstr "[Navegador Ceno]: https://github.com/censorship-no/ceno-browser"
 
 #: README.md:block 3 (paragraph)
 msgid "[Censorship.no!]: https://censorship.no/"
@@ -64,15 +51,11 @@ msgid "[eQualitie]: https://equalit.ie/"
 msgstr "[eQualitie]: https://equalit.ie/"
 
 #: README.md:block 3 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "[CENO documentation repository]: https://github.com/censorship-no/ceno-"
-#| "docs/"
 msgid ""
 "[Ceno documentation repository]: https://github.com/censorship-no/ceno-docs/"
 msgstr ""
-"[repositório de documentação do CENO]: https://github.com/censorship-no/ceno-"
-"docs/"
+"[repositório de documentação do Ceno]: https://github.com/censorship-no/"
+"ceno-docs/"
 
 #: README.md:block 3 (paragraph)
 msgid ""

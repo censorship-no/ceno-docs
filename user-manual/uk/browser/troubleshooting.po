@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-07-13 11:19+0000\n"
-"Last-Translator: Vitalii Moroz <vitaliy.moroz@gmail.com>\n"
+"PO-Revision-Date: 2023-05-17 03:06+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-troubleshooting/uk/>\n"
 "Language: uk\n"
@@ -10,22 +10,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.14-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #: browser/troubleshooting.md:block 1 (header)
 msgid "Troubleshooting"
 msgstr "Усунення несправностей"
 
 #: browser/troubleshooting.md:block 2 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "This section will give you some hints about what to do when different, "
-#| "known problems arise with CENO and Ouinet. Please bear in mind that these "
-#| "are experimental projects, and that their operation is subject to a "
-#| "multitude of factors beyond our control, like the particular "
-#| "configuration and status of network infrastructure, as well as which "
-#| "content other users have retrieved and the characteristics of their "
-#| "connections."
 msgid ""
 "This section will give you some hints about what to do when different, known "
 "problems arise with Ceno and Ouinet. Please bear in mind that these are "
@@ -51,29 +42,18 @@ msgstr ""
 "допомогти Вам у вирішенні цих проблем."
 
 #: browser/troubleshooting.md:block 4 (header)
-#, fuzzy
-#| msgid "There is no CENO entry in the app menu"
 msgid "There is no Ceno entry in the app menu"
 msgstr "У меню програми немає пункту CENO"
 
 #: browser/troubleshooting.md:block 5 (paragraph)
-#, fuzzy
-#| msgid "The CENO Extension may still be loading. Please be patient."
 msgid "The Ceno Extension may still be loading. Please be patient."
 msgstr "Можливо, розширення CENO все ще завантажується. Зачекайте."
 
 #: browser/troubleshooting.md:block 6 (header)
-#, fuzzy
-#| msgid "All widgets are grayed-out in the *CENO Settings* page"
 msgid "All widgets are grayed-out in the *Ceno Settings* page"
 msgstr "На сторінці *Налаштування CENO* всі віджети виділені сірим кольором"
 
 #: browser/troubleshooting.md:block 7 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "The CENO Extension has loaded, but it has not yet been able to retrieve "
-#| "status from Ouinet. Since it may take a moment for Ouinet to be ready, "
-#| "please be patient."
 msgid ""
 "The Ceno Extension has loaded, but it has not yet been able to retrieve "
 "status from Ouinet. Since it may take a moment for Ouinet to be ready, "
@@ -91,13 +71,6 @@ msgstr ""
 "хвилини, можливо, Ouinet зіткнувся з проблемою під час запуску."
 
 #: browser/troubleshooting.md:block 9 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Try to visit some page, if possible one which is usually available. If "
-#| "you get an error like \"Failed to retrieve the resource (after attempting "
-#| "all configured mechanisms)\", CENO may be experiencing some issues with "
-#| "general connectivity (like being unable to join the BitTorrent network). "
-#| "If you are on a mobile connection, try again with Wi-Fi."
 msgid ""
 "Try to visit some page, if possible one which is usually available. If you "
 "get an error like \"Failed to retrieve the resource (after attempting all "
@@ -106,18 +79,13 @@ msgid ""
 "on a mobile connection, try again with Wi-Fi."
 msgstr ""
 "Спробуйте відвідати одну зі сторінок сайту, бажано ту, яка зазвичай Вам "
-"доступна. Якщо Ви отримаєте помилку типу «Не вдалося завантажити ресурс "
-"(після спроби використання всіх налаштованих схем)», можливо, CENO має деякі "
+"доступна. Якщо Ви отримаєте помилку типу «Не вдалося завантажити ресурс ("
+"після спроби використання всіх налаштованих схем)», можливо, CENO має деякі "
 "проблеми зі загальним підключенням (наприклад, не може приєднатися до мережі "
 "BitTorrent). Якщо Ви підключені через мобільний інтернет, спробуйте знову за "
 "допомогою Wi-Fi."
 
 #: browser/troubleshooting.md:block 10 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "If you get an error like \"The proxy server is refusing connections\" "
-#| "when visiting the page, try to stop other applications which may be "
-#| "offering some service to the device, then restart CENO."
 msgid ""
 "If you get an error like \"The proxy server is refusing connections\" when "
 "visiting the page, try to stop other applications which may be offering some "
@@ -136,15 +104,10 @@ msgstr ""
 "TCP порти `127.0.0.1:8077` або `127.0.0.1:8078`."
 
 #: browser/troubleshooting.md:block 12 (header)
-#, fuzzy
-#| msgid "The *Ouinet client state* under *CENO Settings* is not `started`"
 msgid "The *Ouinet client state* under *Ceno Settings* is not `started`"
 msgstr "*Стан клієнта Ouinet* в *налаштуваннях CENO* – не `запущений`"
 
 #: browser/troubleshooting.md:block 13 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "The Ouinet client run by CENO is finding problems starting on your device."
 msgid ""
 "The Ouinet client run by Ceno is finding problems starting on your device."
 msgstr ""
@@ -152,15 +115,6 @@ msgstr ""
 "Вашому пристрої."
 
 #: browser/troubleshooting.md:block 14 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "When you launch CENO, the state may read `starting` for a few seconds; "
-#| "this is normal. However, if the state remains `starting` for too long, it "
-#| "may be a signal of serious connectivity issues that preclude the "
-#| "application from reaching the BitTorrent network. Please check your "
-#| "network connection and try restarting CENO. If you have a working "
-#| "connection but the state remains `starting`, please contact us "
-#| "(especially if the state was `started` in some previous run)."
 msgid ""
 "When you launch Ceno, the state may read `starting` for a few seconds; this "
 "is normal. However, if the state remains `starting` for too long, it may be "
@@ -179,15 +133,6 @@ msgstr ""
 "якщо статус було `запущено` під час попереднього запуску)."
 
 #: browser/troubleshooting.md:block 15 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "One possible reason for not being able to get into BitTorrent (more so "
-#| "when you run CENO for the first time), is that the default bootstrap "
-#| "servers used by the Ouinet client are blocked or unreachable. In that "
-#| "case you may want to try providing CENO with extra BitTorrent bootstrap "
-#| "servers in the [Settings page](settings.md). You can ask us if you do not "
-#| "know of any such server. After setting the extra bootstraps, please "
-#| "restart the application. If the problem persists, contact us."
 msgid ""
 "One possible reason for not being able to get into BitTorrent (more so when "
 "you run Ceno for the first time), is that the default bootstrap servers used "
@@ -221,10 +166,6 @@ msgstr ""
 "ресурс»"
 
 #: browser/troubleshooting.md:block 18 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "This means that CENO tried all available mechanisms to access the "
-#| "content, but none of them succeeded."
 msgid ""
 "This means that Ceno tried all available mechanisms to access the content, "
 "but none of them succeeded."
@@ -233,22 +174,12 @@ msgstr ""
 "вмісту, але жоден із них не спрацював."
 
 #: browser/troubleshooting.md:block 19 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "You should make sure that the following requirements are fulfilled for "
-#| "CENO to work:"
 msgid ""
 "You should make sure that the following requirements are fulfilled for Ceno "
 "to work:"
 msgstr "Ви повинні переконатися, що для роботи CENO виконуються такі вимоги:"
 
 #: browser/troubleshooting.md:block 20 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "You are running a recent version of CENO Browser. Obsolete versions may "
-#| "not be able to communicate with newer injectors or other clients. Check "
-#| "the [installation instructions](install.md) to know where to get new "
-#| "versions."
 msgid ""
 "You are running a recent version of Ceno Browser. Obsolete versions may not "
 "be able to communicate with newer injectors or other clients. Check the "
@@ -259,11 +190,6 @@ msgstr ""
 "встановлення](install.md), щоб дізнатися, де отримати нові версії."
 
 #: browser/troubleshooting.md:block 20 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "All access mechanisms in the [Settings page](settings.md) are enabled. "
-#| "Otherwise CENO will not be able to circumvent some connectivity issues "
-#| "when accessing content."
 msgid ""
 "All access mechanisms in the [Settings page](settings.md) are enabled. "
 "Otherwise Ceno will not be able to circumvent some connectivity issues when "
@@ -273,12 +199,6 @@ msgstr ""
 "іншому випадку CENO не зможе оминути деякі проблеми з доступом до вмісту."
 
 #: browser/troubleshooting.md:block 20 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "Your device has a working connection to the network, i.e. your normal Web "
-#| "browser is able to open some Web sites. CENO and Ouinet cannot work when "
-#| "all network connectivity is shut down (although users may still find a "
-#| "common Wi-Fi access point to do device-to-device sharing)."
 msgid ""
 "Your device has a working connection to the network, i.e. your normal Web "
 "browser is able to open some Web sites. Ceno and Ouinet cannot work when all "
@@ -291,11 +211,6 @@ msgstr ""
 "доступу Wi-Fi для поширення вмісту від пристрою до пристрою безпосередньо)."
 
 #: browser/troubleshooting.md:block 21 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "If that is the case, it is worth explaining what may be happening for all "
-#| "access mechanisms to fail, to give you an idea of your chances for "
-#| "getting content using CENO."
 msgid ""
 "If that is the case, it is worth explaining what may be happening for all "
 "access mechanisms to fail, to give you an idea of your chances for getting "
@@ -310,11 +225,6 @@ msgid "Origin access"
 msgstr "Вихідний доступ"
 
 #: browser/troubleshooting.md:block 23 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Your CENO Browser cannot directly reach the content's origin server. "
-#| "Either the server is having some difficulties itself (e.g. it is down or "
-#| "under some attack), or someone is interfering with your connection to it."
 msgid ""
 "Your Ceno Browser cannot directly reach the content's origin server. Either "
 "the server is having some difficulties itself (e.g. it is down or under some "
@@ -325,10 +235,6 @@ msgstr ""
 "зазнає атаки), або хтось заважає Вам підключитися до нього."
 
 #: browser/troubleshooting.md:block 24 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "This is the main use case for CENO and the other mechanisms should "
-#| "compensate for it."
 msgid ""
 "This is the main use case for Ceno and the other mechanisms should "
 "compensate for it."
@@ -341,12 +247,6 @@ msgid "Proxy/Injector access"
 msgstr "Доступ до проксі/інʼєктора"
 
 #: browser/troubleshooting.md:block 26 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Someone is interfering with your connection to Internet addresses in the "
-#| "injector swarm. Since this is expected to happen eventually as CENO (and "
-#| "Ouinet) gain traction, CENO resorts to reaching injectors via other "
-#| "clients acting as bridges."
 msgid ""
 "Someone is interfering with your connection to Internet addresses in the "
 "injector swarm. Since this is expected to happen eventually as Ceno (and "
@@ -359,22 +259,12 @@ msgstr ""
 "клієнтів, що виступають у ролі мостів."
 
 #: browser/troubleshooting.md:block 27 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "There are different reasons for CENO being unable to reach such clients:"
 msgid ""
 "There are different reasons for Ceno being unable to reach such clients:"
 msgstr ""
 "Існують різні причини, через які CENO не може звʼязатися з такими клієнтами:"
 
 #: browser/troubleshooting.md:block 28 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "No other client is reachable by you. If only a few Ouinet clients are "
-#| "online, it is entirely possible that none of them are in a network that "
-#| "can be reached from the outside. This should become less likely as CENO "
-#| "and Ouinet get popular and more clients with diverse connectivity come "
-#| "online."
 msgid ""
 "No other client is reachable by you. If only a few Ouinet clients are "
 "online, it is entirely possible that none of them are in a network that can "
@@ -413,11 +303,6 @@ msgstr ""
 "проблеми з мережевими перешкодами."
 
 #: browser/troubleshooting.md:block 28 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "This can happen when all traffic leaving or entering the country you are "
-#| "in is interrupted. CENO would resort in this case to getting and using "
-#| "the content from the distributed cache, even if it is stale."
 msgid ""
 "This can happen when all traffic leaving or entering the country you are in "
 "is interrupted. Ceno would resort in this case to getting and using the "
@@ -428,14 +313,6 @@ msgstr ""
 "із розподіленого кешу, навіть якщо він застарів."
 
 #: browser/troubleshooting.md:block 28 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "Again, as CENO and Ouinet become more popular, the chances increase that "
-#| "there are at least a few clients that do have some kind of access to "
-#| "international sites. Even if access is precarious, a single Ouinet client "
-#| "able to inject some content into the country could suffice to enable it "
-#| "to spread (over the distributed cache) without further need to access the "
-#| "outside world."
 msgid ""
 "Again, as Ceno and Ouinet become more popular, the chances increase that "
 "there are at least a few clients that do have some kind of access to "
@@ -447,8 +324,8 @@ msgstr ""
 "Знову ж таки, у міру зростання популярності CENO та Ouinet, збільшується "
 "ймовірність того, що для вас є хоча б кілька клієнтів, що мають доступ до "
 "міжнародних сайтів. Навіть якщо доступ нестабільний, буде достатньо одного "
-"клієнта Ouinet, який передає вміст у країну, щоб цей вміст поширювався "
-"(через розподілений кеш) без подальшого доступу до зовнішнього світу."
+"клієнта Ouinet, який передає вміст у країну, щоб цей вміст поширювався ("
+"через розподілений кеш) без подальшого доступу до зовнішнього світу."
 
 #: browser/troubleshooting.md:block 29 (paragraph)
 msgid ""
@@ -467,15 +344,6 @@ msgid "Distributed cache"
 msgstr "Розподілений кеш"
 
 #: browser/troubleshooting.md:block 31 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Keep in mind that an absolute requirement to be able to retrieve any "
-#| "content from the distributed cache is that it has already been injected "
-#| "by some other CENO or Ouinet user. This means that popular content is "
-#| "more likely to eventually get injected and replicated in a natural "
-#| "manner, while more obscure content is less so, unless someone takes care "
-#| "of using CENO or some other Ouinet client to inject and keep seeding it "
-#| "(which may further expose them to some [risks](../concepts/risks.md))."
 msgid ""
 "Keep in mind that an absolute requirement to be able to retrieve any content "
 "from the distributed cache is that it has already been injected by some "
@@ -522,14 +390,6 @@ msgid "A note on HTTP-only sites"
 msgstr "Примітка щодо сайтів, які працюють на протоколі HTTP"
 
 #: browser/troubleshooting.md:block 35 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "CENO automatically switches to the more secure HTTPS protocol to access "
-#| "sites which would otherwise be accessed using plain, insecure HTTP. This "
-#| "is done by the embedded [HTTPS by default][HTTPS by default] extension "
-#| "when you enter a bare domain name like `example.com` or an HTTP URL like "
-#| "`http://example.com/…` in the location bar, or when you follow a link "
-#| "with such a URL in a page."
 msgid ""
 "Ceno automatically switches to the more secure HTTPS protocol to access "
 "sites which would otherwise be accessed using plain, insecure HTTP. This is "
@@ -547,13 +407,6 @@ msgstr ""
 "URL-адресою на сторінці."
 
 #: browser/troubleshooting.md:block 36 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "The automatic switching to HTTPS is done to prevent someone from "
-#| "intercepting an HTTP connection and directing it to an illegitimate "
-#| "server, resulting in bogus content (like a block message). This kind of "
-#| "hijacking is trivial to detect with HTTPS, so CENO can work around it "
-#| "instead of being tricked into loading the bogus content."
 msgid ""
 "The automatic switching to HTTPS is done to prevent someone from "
 "intercepting an HTTP connection and directing it to an illegitimate server, "
@@ -569,12 +422,6 @@ msgstr ""
 "фальшивий контент."
 
 #: browser/troubleshooting.md:block 37 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Although very unusual, some sites do not support HTTPS, and no access "
-#| "mechanism will work for them. If you are completely sure that this is the "
-#| "case for a site which just failed to load in CENO, you can edit its URL "
-#| "in the location bar, change `https://` to `http://`, and try again."
 msgid ""
 "Although very unusual, some sites do not support HTTPS, and no access "
 "mechanism will work for them. If you are completely sure that this is the "
@@ -631,14 +478,6 @@ msgstr ""
 "httpsbd-exceptions.png)"
 
 #: browser/troubleshooting.md:block 41 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "**Note:** In the unfortunate case that a site is only accessible via "
-#| "HTTP, and it is also being hijacked by a censor, you will need to go to "
-#| "the [Settings page](settings.md), disable Origin access, and try again. "
-#| "Please note that this setting affects all sites, and it is not remembered "
-#| "by CENO for subsequent runs. We encourage you to contact the site "
-#| "administrators and tell them to enable HTTPS support."
 msgid ""
 "**Note:** In the unfortunate case that a site is only accessible via HTTP, "
 "and it is also being hijacked by a censor, you will need to go to the "
@@ -648,11 +487,11 @@ msgid ""
 "tell them to enable HTTPS support."
 msgstr ""
 "**Примітка.** Якщо сайт доступний лише через незахищенний протокол HTTP, і "
-"його перехопив цензор, вам потрібно буде перейти на [сторінку налаштувань]"
-"(settings.md), вимкнути доступ до Origin, і спробуйте ще раз. Зверніть "
-"увагу, що цей параметр впливає на всі сайти, і CENO не запам’ятовує його для "
-"наступних запусків. Ми радимо вам зв’язатися з адміністраторами сайту та "
-"порадити їм увімкнути підтримку захищенного протоколу HTTPS."
+"його перехопив цензор, вам потрібно буде перейти на [сторінку "
+"налаштувань](settings.md), вимкнути доступ до Origin, і спробуйте ще раз. "
+"Зверніть увагу, що цей параметр впливає на всі сайти, і CENO не запам’ятовує "
+"його для наступних запусків. Ми радимо вам зв’язатися з адміністраторами "
+"сайту та порадити їм увімкнути підтримку захищенного протоколу HTTPS."
 
 #: browser/troubleshooting.md:block 42 (header)
 msgid "A page shows bogus content (like a block message)"
@@ -661,12 +500,6 @@ msgstr ""
 "блокування)"
 
 #: browser/troubleshooting.md:block 43 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "This may happen when you used an old version of CENO to visit a blocked "
-#| "site in the past, and someone intercepted the connection and directed it "
-#| "to an illegitimate server. CENO then remembered that redirection, and now "
-#| "it automatically opens the latter site when trying to visit the former."
 msgid ""
 "This may happen when you used an old version of Ceno to visit a blocked site "
 "in the past, and someone intercepted the connection and directed it to an "
@@ -680,11 +513,6 @@ msgstr ""
 "спробі відвідати перший."
 
 #: browser/troubleshooting.md:block 44 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "One way to fix this issue is to clear CENO's normal browsing cache by "
-#| "choosing *Settings* in the app's main menu, then *Clear private data*, "
-#| "and disabling all boxes but *Cache* before tapping on *Clear data*."
 msgid ""
 "One way to fix this issue is to clear Ceno's normal browsing cache by "
 "choosing *Settings* in the app's main menu, then *Clear private data*, and "
@@ -692,15 +520,10 @@ msgid ""
 msgstr ""
 "Один із способів вирішити цю проблему — очистити звичайний кеш перегляду "
 "CENO, вибравши *Налаштування* в головному меню програми, потім *Очистити "
-"особисті дані* і відімкнути всі поля, окрім *Кеш*, перш ніж натиснути "
-"*Очистити дані*."
+"особисті дані* і відімкнути всі поля, окрім *Кеш*, перш ніж натиснути *"
+"Очистити дані*."
 
 #: browser/troubleshooting.md:block 45 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Please note that CENO version 1.3.0 and newer avoid that hijacking of "
-#| "newly visited sites by always using HTTPS, as explained in the previous "
-#| "section."
 msgid ""
 "Please note that Ceno version 1.3.0 and newer avoid that hijacking of newly "
 "visited sites by always using HTTPS, as explained in the previous section."
@@ -714,14 +537,6 @@ msgid "Others cannot retrieve content seeded by my device"
 msgstr "Користувачі не можуть отримати вміст, що роздається моїм пристроєм"
 
 #: browser/troubleshooting.md:block 47 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "First, make sure that your device is still seeding the content by going "
-#| "to the [*CENO Settings* page](settings.md), only leaving the *Shared by "
-#| "other CENO users* source box checked, then accessing that content again: "
-#| "it should load (at least partially), and tapping the CENO address bar "
-#| "icon should only show non-zero values under *Shared by other CENO users* "
-#| "or *Shared by you*."
 msgid ""
 "First, make sure that your device is still seeding the content by going to "
 "the [*Ceno Settings* page](settings.md), only leaving the *Shared by other "
@@ -737,17 +552,6 @@ msgstr ""
 "лише в розділах *Надано іншими користувачами CENO* або *Надано Вами*."
 
 #: browser/troubleshooting.md:block 48 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "If the content does not load, it could be that CENO has already removed "
-#| "it, since it automatically cleans up stale content (older than a week by "
-#| "default) from your local cache. Enable the *Via the CENO network "
-#| "(public)* source in the Settings page and access the content again. "
-#| "Please allow a couple of minutes to pass for the device to announce the "
-#| "content in the distributed cache index. Make *Shared by other CENO users* "
-#| "the only checked box again and access the content once more; if it still "
-#| "does not load, it may be that the particular content is not deemed safe "
-#| "for sharing by Ouinet."
 msgid ""
 "If the content does not load, it could be that Ceno has already removed it, "
 "since it automatically cleans up stale content (older than a week by "
@@ -768,15 +572,6 @@ msgstr ""
 "Ouinet не вважає цей вміст безпечним для загального доступу."
 
 #: browser/troubleshooting.md:block 49 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "If the previous step works, but another device with only the *Shared by "
-#| "other CENO users* source enabled still shows \"Failed to retrieve the "
-#| "resource…\", there are two possible scenarios. If both devices are in the "
-#| "same network (e.g. on the same Wi-Fi access point), it could be that the "
-#| "network does not allow direct communication between devices connected to "
-#| "it. This happens in some public Wi-Fi networks, so try using a private "
-#| "one."
 msgid ""
 "If the previous step works, but another device with only the *Shared by "
 "other Ceno users* source enabled still shows \"Failed to retrieve the "
@@ -786,21 +581,14 @@ msgid ""
 "This happens in some public Wi-Fi networks, so try using a private one."
 msgstr ""
 "Якщо попередній крок працює, але інший пристрій, на якому ввімкнено лише "
-"режим *Надано іншими користувачами CENO*, як і раніше показує повідомлення "
-"«Не вдалося завантажити ресурс...», можливі два сценарії. Якщо обидва "
-"пристрої знаходяться в одній мережі (наприклад, на одній точці доступу Wi-"
-"Fi), може виявитися, що мережа не дозволяє безпосередній обмін даними між "
+"режим *Надано іншими користувачами CENO*, як і раніше показує повідомлення «"
+"Не вдалося завантажити ресурс...», можливі два сценарії. Якщо обидва "
+"пристрої знаходяться в одній мережі (наприклад, на одній точці доступу Wi-Fi)"
+", може виявитися, що мережа не дозволяє безпосередній обмін даними між "
 "приєднаними до неї пристроями. Це відбувається в деяких публічних мережах Wi-"
 "Fi, тому спробуйте використати приватну мережу."
 
 #: browser/troubleshooting.md:block 50 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "If the devices are in different networks, it could be due to a variety of "
-#| "reasons. One of them is that the network of the first device does not "
-#| "allow incoming connections: if you open its *CENO Settings* page, under "
-#| "*Reachability status* it should say *reachable* or *likely reachable*. "
-#| "Otherwise seeding may not be possible from that network as it is."
 msgid ""
 "If the devices are in different networks, it could be due to a variety of "
 "reasons. One of them is that the network of the first device does not allow "
