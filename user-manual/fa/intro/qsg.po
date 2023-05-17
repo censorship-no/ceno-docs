@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-02-16 23:54+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
+"PO-Revision-Date: 2023-05-17 03:17+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "qsg/fa/>\n"
 "Language: fa\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.11-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #
 #: intro/qsg.md:block 1 (header)
@@ -17,20 +17,14 @@ msgid "Quick start guide"
 msgstr "راهنمای آغاز سریع"
 
 #: intro/qsg.md:block 2 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "CENO Browser allows you to access any website on the Internet, even if it "
-#| "is censored in your country. CENO uses a peer-to-peer infrastructure to "
-#| "route your requests, as well as to store and share retrieved content with "
-#| "others. [Read more about CENO](ceno.md)."
 msgid ""
 "Ceno Browser allows you to access any website on the Internet, even if it is "
 "censored in your country. Ceno uses a peer-to-peer infrastructure to route "
 "your requests, as well as to store and share retrieved content with others. "
 "[Read more about Ceno](ceno.md)."
 msgstr ""
-"مرورگر CENO به شما امکان دسترسی به هر وب‌سایتی روی اینترنت را می‌دهد، حتی اگر "
-"آن وب‌سایت در کشورتان سانسور شده باشد. CENO از یک زیرساخت همتا-به-همتا "
+"مرورگر CENO به شما امکان دسترسی به هر وب‌سایتی روی اینترنت را می‌دهد، حتی "
+"اگر آن وب‌سایت در کشورتان سانسور شده باشد. CENO از یک زیرساخت همتا-به-همتا "
 "استفاده می‌کند تا درخواست‌های شما را رهیابی کند، و نیز محتوای بازیابی‌شده را "
 "ذخیره نماید و با دیگران به اشتراک گذارد. [درباره‌ی سنو بیشتر بخوانید](ceno."
 "md)."
@@ -44,16 +38,12 @@ msgid "You will need an Android device:"
 msgstr "شما به یک دستگاه اندروید نیاز خواهید داشت:"
 
 #: intro/qsg.md:block 5 (ordered list)
-#, fuzzy
-#| msgid ""
-#| "Install CENO Browser from [Google Play][ceno-gplay], [GitHub][ceno-gh] or "
-#| "[Paskoocheh][ceno-pask]. *No special permissions are needed*."
 msgid ""
 "Install Ceno Browser from [Google Play][ceno-gplay], [GitHub][ceno-gh] or "
 "[Paskoocheh][ceno-pask]. *No special permissions are needed*."
 msgstr ""
-"مرورگر CENO را از [گوگل پلی][ceno-gplay]، [گیت‌هاب][ceno-gh] یا [پس‌کوچه][ceno-"
-"pask] دریافت و نصب کنید. *به هیچ جواز خاصی نیازی نیست*."
+"مرورگر CENO را از [گوگل پلی][ceno-gplay]، [گیت‌هاب][ceno-gh] یا [پس‌کوچه"
+"][ceno-pask] دریافت و نصب کنید. *به هیچ جواز خاصی نیازی نیست*."
 
 #: intro/qsg.md:block 5 (ordered list)
 msgid "Run it."
@@ -71,8 +61,6 @@ msgstr ""
 "[مقایسه‌ی مرور عمومی و مرور خصوصی](concepts/public-private.md/..)."
 
 #: intro/qsg.md:block 5 (ordered list)
-#, fuzzy
-#| msgid "Tap on the CENO notification to stop it completely."
 msgid "Tap on the Ceno notification to stop it completely."
 msgstr "روی اطلاع‌رسان CENO بزنید تا آن را به‌طور کامل متوقف کنید."
 
@@ -85,10 +73,6 @@ msgid "Configuration"
 msgstr "تنظیم"
 
 #: intro/qsg.md:block 8 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "CENO Browser should work out-of-the-box. You can find some [diagnostics "
-#| "and settings](../browser/settings.md) under the *CENO* menu entry."
 msgid ""
 "Ceno Browser should work out-of-the-box. You can find some [diagnostics and "
 "settings](../browser/settings.md) under the *Ceno* menu entry."
