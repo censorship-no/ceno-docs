@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-04-20 21:49+0000\n"
+"PO-Revision-Date: 2023-05-17 03:02+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-settings/fa/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 #, fuzzy
 #| msgid "CENO settings"
 msgid "Ceno settings"
-msgstr "تنظیماتِ CENO"
+msgstr "تنظیماتِ Ceno"
 
 #: browser/settings.md:block 2 (paragraph)
 #, fuzzy
@@ -33,10 +33,10 @@ msgid ""
 "strategies against network interference, as well as reporting issues with "
 "the app."
 msgstr ""
-"مرورگر CENO به شما اجازه می‌دهد تا بعضی از تنظیمات خاص Ouinet را تغییر دهید و "
-"اطلاعاتی درباره‌ی سرویس‌گیرنده‌تان را به شیوه‌ای ساده دریافت کنید. این شاید برای "
-"عملکرد معمولی لازم نباشد، اما برای تست راهبردهای متفاوت علیه اختلال شبکه "
-"مفید خواهد بود، و نیز برای گزارش مشکلات این نرم‌افزار."
+"مرورگر Ceno به شما اجازه می‌دهد تا بعضی از تنظیمات خاص Ouinet را تغییر دهید "
+"و اطلاعاتی درباره‌ی سرویس‌گیرنده‌تان را به شیوه‌ای ساده دریافت کنید. این "
+"شاید برای عملکرد معمولی لازم نباشد، اما برای تست راهبردهای متفاوت علیه "
+"اختلال شبکه مفید خواهد بود، و نیز برای گزارش مشکلات این نرم‌افزار."
 
 #: browser/settings.md:block 3 (quote)
 #, fuzzy
@@ -54,11 +54,11 @@ msgid ""
 "cache retrieval under public browsing, hinting the user about the source of "
 "the content being visualized, and notifying about new versions of Ouinet."
 msgstr ""
-"**نکته‌ی فنی:** این گزینه‌ها از سوی *افزونه‌ی CENO* فراهم آمده‌اند، یک افزونه‌ی "
-"فایرفاکس که از جعبه‌ی CENO بیرون آمده و نصب شده است و از ادغام درست با Ouinet "
-"مانند تواناسازی تزریق محتوا و بازیابی انبار ذیل مرور عمومی مراقبت می‌کند، به "
-"کاربر درباره‌ی منبع محتوای به‌تصویرکشیده‌شده سرنخ‌هایی می‌دهد، و درباره‌ی نسخه‌های "
-"جدید Ouinet اطلاع می‌دهد."
+"**نکته‌ی فنی:** این گزینه‌ها از سوی *افزونه‌ی Ceno* فراهم آمده‌اند، یک "
+"افزونه‌ی فایرفاکس که از جعبه‌ی Ceno بیرون آمده و نصب شده است و از ادغام درست "
+"با Ouinet مانند تواناسازی تزریق محتوا و بازیابی انبار ذیل مرور عمومی مراقبت "
+"می‌کند، به کاربر درباره‌ی منبع محتوای به‌تصویرکشیده‌شده سرنخ‌هایی می‌دهد، و "
+"درباره‌ی نسخه‌های جدید Ouinet اطلاع می‌دهد."
 
 #: browser/settings.md:block 4 (paragraph)
 #, fuzzy
@@ -71,15 +71,16 @@ msgid ""
 "*Ceno* in the app's main menu. Please note that the menu entry may take a "
 "few seconds to pop up on app start. The page should look like this:"
 msgstr ""
-"این ویژگی‌ها روی صفحه‌ای قرار دارند که با انتخاب *CENO* در منوی اصلی نرم‌افزار "
-"می‌توانند دست‌یافتنی باشند. لطفاً توجه کنید که نمایان‌شدن گزینه‌های منو پس از "
-"آغاز نرم‌افزار چه‌بسا چند ثانیه طول بکشد. این صفحه باید چیزی شبیه به این باشد:"
+"این ویژگی‌ها روی صفحه‌ای قرار دارند که با انتخاب *Ceno* در منوی اصلی نرم‌"
+"افزار می‌توانند دست‌یافتنی باشند. لطفاً توجه کنید که نمایان‌شدن گزینه‌های "
+"منو پس از آغاز نرم‌افزار چه‌بسا چند ثانیه طول بکشد. این صفحه باید چیزی شبیه "
+"به این باشد:"
 
 #: browser/settings.md:block 5 (paragraph)
 #, fuzzy
 #| msgid "![Figure: The CENO Settings page](images/settings.png)"
 msgid "![Figure: The Ceno Settings page](images/settings.png)"
-msgstr "![شکل: صفحه‌ی تنظیمات CENO](images/settings.png)"
+msgstr "![شکل: صفحه‌ی تنظیمات Ceno](images/settings.png)"
 
 #: browser/settings.md:block 6 (header)
 msgid "Choosing access mechanisms"
@@ -98,11 +99,11 @@ msgid ""
 "retrieve content while using either [public or private browsing](public-"
 "private.md) tabs. All boxes are enabled by default."
 msgstr ""
-"چهار چک‌باکس بر فراز بخش بالایی صفحه بنا بر انتخاب کاربر سازوکارهای متفاوت یا "
-"*منابعی* را فعال یا غیرفعال کند که CENO به‌عنوان یک سرویس‌گیرنده‌ی Ouinet از "
-"آن‌ها استفاده می‌کند تا محتوایی را بازیابی کند در حالی که از زبانه‌های [مرور "
-"عمومی یا خصوصی](public-private.md) استفاده می‌کند. تمام جعبه‌ها به‌طور پیش‌فرض "
-"فعال شده‌اند."
+"چهار چک‌باکس بر فراز بخش بالایی صفحه بنا بر انتخاب کاربر سازوکارهای متفاوت "
+"یا *منابعی* را فعال یا غیرفعال کند که Ceno به‌عنوان یک سرویس‌گیرنده‌ی Ouinet "
+"از آن‌ها استفاده می‌کند تا محتوایی را بازیابی کند در حالی که از زبانه‌های ["
+"مرور عمومی یا خصوصی](public-private.md) استفاده می‌کند. تمام جعبه‌ها به‌طور "
+"پیش‌فرض فعال شده‌اند."
 
 #: browser/settings.md:block 8 (unordered list)
 #, fuzzy
@@ -114,9 +115,9 @@ msgid ""
 "*Direct from website* (or **origin access**) allows Ceno to try to reach the "
 "origin server directly before attempting other mechanisms enabled below."
 msgstr ""
-"*مستقیم از وب‌سایت* (یا **دسترسی اصلی**) به CENO امکان می‌دهد تا مستقیماً به "
-"سرور اصلی دسترسی پیدا کند پیش از آن‌که برای فعال‌سازی سایر سازوکارها در پایین "
-"دست به اقدام بزند."
+"*مستقیم از وب‌سایت* (یا **دسترسی اصلی**) به Ceno امکان می‌دهد تا مستقیماً به "
+"سرور اصلی دسترسی پیدا کند پیش از آن‌که برای فعال‌سازی سایر سازوکارها در "
+"پایین دست به اقدام بزند."
 
 #: browser/settings.md:block 8 (unordered list)
 msgid ""
@@ -158,11 +159,11 @@ msgid ""
 "(troubleshooting.md) to learn more about this issue."
 msgstr ""
 "همچنین، هنگام دسترسی به یک وب‌سایت روی HTTP ناامن (به جای HTTPS ایمن‌تر)، یک "
-"حسگر می‌تواند ارتباط را قطع کند و یک سایت جعلی را در اختیار کاربر می‌گذارد، یک "
-"دستکاری که CENO نمی‌تواند خودش تشخیص‌اش دهد. در چنین موردی این می‌تواند کمک کند "
-"تا این گزینه را غیرفعال کند و بدین‌سان همواره به سازوکارهای دیگر و ایمن‌تر سنو "
-"پناه برد. برای اطلاعات بیشتر درباره‌ی این مسئله بخش مربوط به [رفع اشکال]"
-"(troubleshooting.md) را چک کنید."
+"حسگر می‌تواند ارتباط را قطع کند و یک سایت جعلی را در اختیار کاربر می‌گذارد، "
+"یک دستکاری که Ceno نمی‌تواند خودش تشخیص‌اش دهد. در چنین موردی این می‌تواند "
+"کمک کند تا این گزینه را غیرفعال کند و بدین‌سان همواره به سازوکارهای دیگر و "
+"ایمن‌تر سنو پناه برد. برای اطلاعات بیشتر درباره‌ی این مسئله بخش مربوط به ["
+"رفع اشکال](troubleshooting.md) را چک کنید."
 
 #: browser/settings.md:block 8 (unordered list)
 #, fuzzy
@@ -173,7 +174,7 @@ msgid ""
 "*Via the Ceno network (private)* (or **proxy access**) allows Ceno to use "
 "injectors as normal HTTP proxy servers to reach origin servers."
 msgstr ""
-"*از طریق شبکه‌ی (خصوصی) CENO* (یا **دسترسی پروکسی**) به سنو اجازه می‌دهد تا "
+"*از طریق شبکه‌ی (خصوصی) Ceno* (یا **دسترسی پروکسی**) به سنو اجازه می‌دهد تا "
 "ازinjectors به‌عنوان سرورهای پروکسی HTTP معمولی برای دستیابی به سرورهای اصلی "
 "استفاده کند."
 
@@ -208,10 +209,10 @@ msgid ""
 "The injector gets the content from an origin server, signs it, and sends it "
 "back to Ceno - which then begins seeding it."
 msgstr ""
-"*از طریق شبکه‌ی (عمومی) CENO* (یا **دسترسی injector**) CENO را توانا می‌سازد "
+"*از طریق شبکه‌ی (عمومی) Ceno* (یا **دسترسی injector**) Ceno را توانا می‌سازد "
 "تا درخواست‌ها را از هرگونه اطلاعات خصوصی عاری سازد و آن‌ها را به یک injector "
-"بفرستند. injector محتوا را از یک سرور اصلی دریافت می‌کند، آن را امضا می‌کند و "
-"به CENO پس می‌فرستد، که سپس آغاز به بذرپاشی آن می‌کند."
+"بفرستند. injector محتوا را از یک سرور اصلی دریافت می‌کند، آن را امضا می‌کند "
+"و به Ceno پس می‌فرستد، که سپس آغاز به بذرپاشی آن می‌کند."
 
 #: browser/settings.md:block 8 (unordered list)
 msgid ""
@@ -233,9 +234,9 @@ msgid ""
 "*Shared by other Ceno users* allows Ceno to try to retrieve content from the "
 "**distributed cache**, i.e. from other Ceno and Ouinet clients seeding it."
 msgstr ""
-"*به اشتراک گذاشته‌شده از سوی سایر کاربران سنو* به CENO اجازه می‌کند تا محتوایی "
-"را از **انبار توزیع‌شده** بازیابی کند، یعنی از سایر سرویس‌گیرندگان CENO و "
-"Ouinet برای بذرپاشی آن استفاده کنند."
+"*به اشتراک گذاشته‌شده از سوی سایر کاربران سنو* به Ceno اجازه می‌کند تا "
+"محتوایی را از **انبار توزیع‌شده** بازیابی کند، یعنی از سایر سرویس‌گیرندگان "
+"Ceno و Ouinet برای بذرپاشی آن استفاده کنند."
 
 #: browser/settings.md:block 9 (paragraph)
 msgid ""
@@ -267,7 +268,7 @@ msgid ""
 "This page also provides you with some information about your Ceno Browser "
 "app and Ouinet client:"
 msgstr ""
-"این صفحه همچنین اطلاعاتی درباره‌ی نرم‌افزار مرورگر CENO شما و سرویس‌گیرنده‌ی "
+"این صفحه همچنین اطلاعاتی درباره‌ی نرم‌افزار مرورگر Ceno شما و سرویس‌گیرنده‌ی "
 "Ouinet برایتان فراهم می‌آورد:"
 
 #: browser/settings.md:block 13 (unordered list)
@@ -315,9 +316,9 @@ msgid ""
 "*UPnP status* indicates whether Ceno was able to tell your router or access "
 "point to allow incoming connections towards it. Also include in reports."
 msgstr ""
-"*وضعیت UPnP* نشان می‌دهد که آیا CENO توانسته بود با روتر یا نقطه‌ی دسترسی شما "
-"ارتباط برقرار کند تا اتصالات ورودی به سویش را امکان‌پذیر سازد. این را نیز در "
-"گزارش‌ها بگنجانید."
+"*وضعیت UPnP* نشان می‌دهد که آیا Ceno توانسته بود با روتر یا نقطه‌ی دسترسی "
+"شما ارتباط برقرار کند تا اتصالات ورودی به سویش را امکان‌پذیر سازد. این را "
+"نیز در گزارش‌ها بگنجانید."
 
 #: browser/settings.md:block 13 (unordered list)
 #, fuzzy
@@ -330,10 +331,10 @@ msgid ""
 "to seed signed content to other clients. These are shown to help test and "
 "debug the app, and should not be generally disclosed."
 msgstr ""
-"*نقاط پایانی UDP محلی* نشانی‌های اینترنتی هستند در دستگاه شما که CENO از آن‌ها "
-"استفاده می‌کند تا محتوای امضاشده را به سرویس‌گیرندگان دیگر ارسال کند. این‌ها "
-"برای کمک به آزمایش و خطایابی از نرم‌افزار نشان داده می‌شوند، و نباید به‌طور "
-"عمومی فاش شوند."
+"*نقاط پایانی UDP محلی* نشانی‌های اینترنتی هستند در دستگاه شما که Ceno از آن‌"
+"ها استفاده می‌کند تا محتوای امضاشده را به سرویس‌گیرندگان دیگر ارسال کند. این‌"
+"ها برای کمک به آزمایش و خطایابی از نرم‌افزار نشان داده می‌شوند، و نباید به‌"
+"طور عمومی فاش شوند."
 
 #: browser/settings.md:block 13 (unordered list)
 #, fuzzy
@@ -347,8 +348,8 @@ msgid ""
 "useful for diagnostics and not to be generally disclosed."
 msgstr ""
 "*نقاط پایانی UDP خارجی* آدرس های اینترنتی موجود در روتر شما هستند که به "
-"ترافیک CENO شما اختصاص داده می شود. فقط با روترهای دارای UPnP موجود است، "
-"آن‌ها همچنین برای تشخیص مشکلات و عیب‌یابی مفید هستند و به طورعمومی افشا "
+"ترافیک Ceno شما اختصاص داده می شود. فقط با روترهای دارای UPnP موجود است، آن‌"
+"ها همچنین برای تشخیص مشکلات و عیب‌یابی مفید هستند و به طورعمومی افشا "
 "نمی‌شوند."
 
 #: browser/settings.md:block 13 (unordered list)
@@ -385,8 +386,8 @@ msgid ""
 "*Ceno Browser* indicates the exact version of Ceno that you are using. Also "
 "include in reports."
 msgstr ""
-"**مرورگر CENO** نسخه‌ی دقیق CENO را که شما از آن استفاده می‌کنید، نشان می‌دهد. "
-"لطفاً این اطلاعات را در گزارش‌های مشکلات بگنجانید."
+"**مرورگر Ceno** نسخه‌ی دقیق Ceno را که شما از آن استفاده می‌کنید، نشان می‌"
+"دهد. لطفاً این اطلاعات را در گزارش‌های مشکلات بگنجانید."
 
 #: browser/settings.md:block 13 (unordered list)
 #, fuzzy
@@ -408,7 +409,7 @@ msgstr ""
 msgid ""
 "*Ouinet* shows the version of Ouinet backing Ceno. Also include in reports."
 msgstr ""
-"*Ouinet* نسخه‌ای از Ouinet را نشان می‌دهد که از CENO پشتیبانی می‌کند. این را "
+"*Ouinet* نسخه‌ای از Ouinet را نشان می‌دهد که از Ceno پشتیبانی می‌کند. این را "
 "نیز در گزارش‌ها بگنجانید."
 
 #: browser/settings.md:block 13 (unordered list)
@@ -420,7 +421,7 @@ msgid ""
 "*Ouinet protocol* is the version number of the protocol that Ceno uses to "
 "talk to other Ouinet clients and injectors. Also include in reports."
 msgstr ""
-"*پروتکل Ouinet* شماره‌ی نسخه‌ی پروتکلی است که CENO به کار می‌برد تا با سایر "
+"*پروتکل Ouinet* شماره‌ی نسخه‌ی پروتکلی است که Ceno به کار می‌برد تا با سایر "
 "سرویس‌گیرندگان Ouinet و injectors حرف بزند. این را نیز در گزارش‌ها بگنجانید."
 
 #: browser/settings.md:block 14 (header)
@@ -441,9 +442,10 @@ msgid ""
 "other Ceno settings like Favorites."
 msgstr ""
 "بعد از ارزش *سایز کش محلی* در بالا، دکمه‌ای هست که به شما اجازه می‌دهد تا "
-"بذرپاشی را متوقف کنید و هر محتوای به‌اشتراک‌گذاشته‌ توسط دستگاه‌تان روی Ouinet "
-"را وانهید. این به شما اجازه می‌دهد تا فضایی برای ذخیره‌ی اطلاعات در دستگاه‌تان "
-"خالی کنید و در عین حال سایر تنظیمات CENO مثل صفحات دلخواه را نگه دارید."
+"بذرپاشی را متوقف کنید و هر محتوای به‌اشتراک‌گذاشته‌ توسط دستگاه‌تان روی "
+"Ouinet را وانهید. این به شما اجازه می‌دهد تا فضایی برای ذخیره‌ی اطلاعات در "
+"دستگاه‌تان خالی کنید و در عین حال سایر تنظیمات Ceno مثل صفحات دلخواه را نگه "
+"دارید."
 
 #: browser/settings.md:block 16 (paragraph)
 #, fuzzy
@@ -460,11 +462,11 @@ msgid ""
 "then *Clear private data*. You will be asked about which items you want to "
 "clear."
 msgstr ""
-"اگر می‌خواهید کش مرورگری معمولی CENO را خالی کنید (همان کش که توسط مرورگر به "
-"کار می‌رود اما با دیگران به اشتراک گذاشته نمی‌شود) یا سایر اقلام مثل کوکی‌ها، "
-"سابقه‌ی مرور یا صفحات دلخواه، بایستی *تنظیمات* را در منوی اصلی نرم‌افزار و سپس "
-"گزینه‌ی *پاک‌کردن داده‌های خصوصی* را انتخاب کنید. از شما پرسیده خواهد شد که "
-"کدام موارد را می‌خواهید پاک کنید."
+"اگر می‌خواهید کش مرورگری معمولی Ceno را خالی کنید (همان کش که توسط مرورگر به "
+"کار می‌رود اما با دیگران به اشتراک گذاشته نمی‌شود) یا سایر اقلام مثل کوکی‌ها،"
+" سابقه‌ی مرور یا صفحات دلخواه، بایستی *تنظیمات* را در منوی اصلی نرم‌افزار و "
+"سپس گزینه‌ی *پاک‌کردن داده‌های خصوصی* را انتخاب کنید. از شما پرسیده خواهد شد "
+"که کدام موارد را می‌خواهید پاک کنید."
 
 #: browser/settings.md:block 17 (paragraph)
 #, fuzzy
@@ -499,15 +501,15 @@ msgid ""
 "follow these steps:"
 msgstr ""
 "در پایین صفحه یک چک‌باکس *فعال‌سازیِ فایل لاگ* هست که به شما اجازه می‌دهد تا "
-"تمام پیغام‌های داخلی Ouinet را جمع‌آوری کنید و آن‌ها را در قالب یک فایل دریافت "
-"کنید. از این فایل می‌بایست فقط هنگام عیب‌یابی و تشخیص مشکلات در CENO استفاده "
-"کرد؛ فقط از این قدم‌ها پیروی کنید:"
+"تمام پیغام‌های داخلی Ouinet را جمع‌آوری کنید و آن‌ها را در قالب یک فایل "
+"دریافت کنید. از این فایل می‌بایست فقط هنگام عیب‌یابی و تشخیص مشکلات در Ceno "
+"استفاده کرد؛ فقط از این قدم‌ها پیروی کنید:"
 
 #: browser/settings.md:block 20 (ordered list)
 #, fuzzy
 #| msgid "At the *CENO Settings* page, check *Enable log file*."
 msgid "At the *Ceno Settings* page, check *Enable log file*."
-msgstr "در صفحه‌ی *تنظیمات CENO*، گزینه‌ی *فعال‌سازیِ فایلِ لاگ* را چک کنید."
+msgstr "در صفحه‌ی *تنظیمات Ceno*، گزینه‌ی *فعال‌سازیِ فایلِ لاگ* را چک کنید."
 
 #: browser/settings.md:block 20 (ordered list)
 msgid ""
@@ -530,9 +532,9 @@ msgid ""
 "ask you at this point whether to allow Ceno access to stored media: this is "
 "needed to be able to save the file."
 msgstr ""
-"به صفحه‌ی *تنظیماتِ CENO* بازگردید و روی لینک *دانلود* در کنار چک‌باکس "
+"به صفحه‌ی *تنظیماتِ Ceno* بازگردید و روی لینک *دانلود* در کنار چک‌باکس "
 "*فعال‌سازیِ فایلِ لاگ* کلیک کنید. فایل را برای استفاده‌ی بعدی ذخیره کنید. "
-"اندروید ممکن است از شما بپرسد که آیا در این مقطع به CENO اجازه‌ی دسترسی به "
+"اندروید ممکن است از شما بپرسد که آیا در این مقطع به Ceno اجازه‌ی دسترسی به "
 "رسانه‌های ذخیره‌شده را می‌دهید: این جواز برای ذخیره‌کردن آن فایل لازم است."
 
 #: browser/settings.md:block 20 (ordered list)
