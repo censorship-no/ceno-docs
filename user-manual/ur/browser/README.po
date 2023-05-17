@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-17 03:04+0000\n"
+"PO-Revision-Date: 2023-05-17 03:06+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Urdu <https://hosted.weblate.org/projects/censorship-no/"
 "browser-readme/ur/>\n"
@@ -12,19 +12,10 @@ msgstr ""
 "X-Generator: Weblate 4.18-dev\n"
 
 #: browser/README.md:block 1 (header)
-#, fuzzy
-#| msgid "Using CENO Browser"
 msgid "Using Ceno Browser"
 msgstr "Ceno براؤزر کا استعمال"
 
 #: browser/README.md:block 2 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "This chapter gives you some hints on the usage of CENO Browser as far as "
-#| "its Ouinet-related capabilities are concerned. Please always keep in mind "
-#| "that CENO is based on [Firefox for Android][Firefox for Android], so for "
-#| "all questions on generic browsing topics you should refer to Mozilla's "
-#| "[Firefox for Android Support][Firefox for Android Support] pages."
 msgid ""
 "This chapter gives you some hints on the usage of Ceno Browser as far as its "
 "Ouinet-related capabilities are concerned. Please always keep in mind that "
@@ -39,12 +30,6 @@ msgstr ""
 "سپورٹ][Firefox for Android Support] صفحات کا حوالہ دینا چاہیے۔"
 
 #: browser/README.md:block 3 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "When relevant, screen captures will be included to illustrate the text. "
-#| "Please note that these may slightly differ from what you see on your "
-#| "device, especially as CENO development progresses. This documentation is "
-#| "up to date for CENO version 1.6.0."
 msgid ""
 "When relevant, screen captures will be included to illustrate the text. "
 "Please note that these may slightly differ from what you see on your device, "
