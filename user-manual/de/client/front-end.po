@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-17 03:09+0000\n"
+"PO-Revision-Date: 2023-05-17 03:10+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/censorship-no/"
 "client-front-end/de/>\n"
@@ -24,12 +24,6 @@ msgid ""
 msgstr ""
 
 #: client/front-end.md:block 3 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "The front-end is accessible using any plain Web browser running on the "
-#| "same device (you can use CENO too). Its default address is "
-#| "<http://127.0.0.1:8078/>. If you open it, you will see something like the "
-#| "figure below."
 msgid ""
 "The front-end is accessible using any plain Web browser running on the same "
 "device (you can use Ceno too). Its default address is <http://127.0.0.1:8078/"
@@ -57,13 +51,6 @@ msgstr ""
 "Browser, da der Client HTTPS-Verkehr abfangen muss."
 
 #: client/front-end.md:block 6 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "You only need this to use a plain browser for testing the Ouinet client, "
-#| "in which case you will also have to configure its HTTP/HTTPS proxies to "
-#| "`127.0.0.1:8077`, and manually enable the [CENO Extension][CENO "
-#| "Extension] for injection to work. We very strongly recommend using a "
-#| "*separate, specific browser profile* for this purpose."
 msgid ""
 "You only need this to use a plain browser for testing the Ouinet client, in "
 "which case you will also have to configure its HTTP/HTTPS proxies to "
@@ -145,10 +132,6 @@ msgstr ""
 "Cache und ein Link zur Liste der angekündigten Cache-Einträge."
 
 #: client/front-end.md:block 6 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "The directory of the external, static cache if enabled (CENO does not "
-#| "currently use this)."
 msgid ""
 "The directory of the external, static cache if enabled (Ceno does not "
 "currently use this)."
