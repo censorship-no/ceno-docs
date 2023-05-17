@@ -1,15 +1,15 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-10-28 05:33+0000\n"
-"Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
+"PO-Revision-Date: 2023-05-17 02:54+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/censorship-no/"
 "user-manual/sv/>\n"
 "Language: sv\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #: SUMMARY.md:block 1 (header)
 msgid "Summary"
@@ -27,7 +27,7 @@ msgstr "[Introduktion](intro/README.md)"
 #, fuzzy
 #| msgid "[What is the CENO Browser?](intro/ceno.md)"
 msgid "[What is Ceno Browser?](intro/ceno.md)"
-msgstr "[Vad är CENO-navigatorn?](intro/ceno.md)"
+msgstr "[Vad är Ceno-navigatorn?](intro/ceno.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[What is Ouinet?](intro/ouinet.md)"
@@ -57,13 +57,13 @@ msgstr "[Publik mot privat surfning](concepts/public-private.md)"
 #, fuzzy
 #| msgid "[Advantages of using CENO/Ouinet](concepts/advantages.md)"
 msgid "[Advantages of using Ceno/Ouinet](concepts/advantages.md)"
-msgstr "[Fördelar med att använda CENO/Ouinet](concepts/advantages.md)"
+msgstr "[Fördelar med att använda Ceno/Ouinet](concepts/advantages.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 #, fuzzy
 #| msgid "[Risks in using CENO/Ouinet](concepts/risks.md)"
 msgid "[Risks in using Ceno/Ouinet](concepts/risks.md)"
-msgstr "[Risker med att använda CENO/Ouinet](concepts/risks.md)"
+msgstr "[Risker med att använda Ceno/Ouinet](concepts/risks.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 #, fuzzy
@@ -75,7 +75,7 @@ msgstr "[Att testa navigatorn](browser/testing.md)"
 #, fuzzy
 #| msgid "[Installing CENO](browser/install.md)"
 msgid "[Installing Ceno](browser/install.md)"
-msgstr "[Installera CENO](browser/install.md)"
+msgstr "[Installera Ceno](browser/install.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Using public or private browsing](browser/public-private.md)"
@@ -85,7 +85,7 @@ msgstr "[Att använda publik eller privat surfning](browser/public-private.md)"
 #, fuzzy
 #| msgid "[CENO settings](browser/settings.md)"
 msgid "[Ceno settings](browser/settings.md)"
-msgstr "[CENO-inställningar](browser/settings.md)"
+msgstr "[Ceno-inställningar](browser/settings.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Testing the Browser](browser/testing.md)"
