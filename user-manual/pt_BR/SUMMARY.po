@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-04-28 07:52+0000\n"
-"Last-Translator: luana <luanafaustini@tutanota.com>\n"
+"PO-Revision-Date: 2023-05-17 02:54+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "censorship-no/user-manual/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -27,7 +27,7 @@ msgstr "[Introdução](intro/README.md)"
 #, fuzzy
 #| msgid "[What is CENO Browser?](intro/ceno.md)"
 msgid "[What is Ceno Browser?](intro/ceno.md)"
-msgstr "[O que é o Navegador CENO?](intro/ceno.md)"
+msgstr "[O que é o Navegador Ceno?](intro/ceno.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[What is Ouinet?](intro/ouinet.md)"
@@ -57,25 +57,25 @@ msgstr "[Navegação pública versus privativa](concepts/public-private.md)"
 #, fuzzy
 #| msgid "[Advantages of using CENO/Ouinet](concepts/advantages.md)"
 msgid "[Advantages of using Ceno/Ouinet](concepts/advantages.md)"
-msgstr "[Vantagens de usar CENO/Ouinet](concepts/advantages.md)"
+msgstr "[Vantagens de usar Ceno/Ouinet](concepts/advantages.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 #, fuzzy
 #| msgid "[Risks in using CENO/Ouinet](concepts/risks.md)"
 msgid "[Risks in using Ceno/Ouinet](concepts/risks.md)"
-msgstr "[Riscos de usar CENO/Ouinet](concepts/risks.md)"
+msgstr "[Riscos de usar Ceno/Ouinet](concepts/risks.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 #, fuzzy
 #| msgid "[Using CENO Browser](browser/README.md)"
 msgid "[Using Ceno Browser](browser/README.md)"
-msgstr "[Usando o Navegador CENO](browser/README.md)"
+msgstr "[Usando o Navegador Ceno](browser/README.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 #, fuzzy
 #| msgid "[Installing CENO](browser/install.md)"
 msgid "[Installing Ceno](browser/install.md)"
-msgstr "[Instalando o CENO](browser/install.md)"
+msgstr "[Instalando o Ceno](browser/install.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Using public or private browsing](browser/public-private.md)"
@@ -85,7 +85,7 @@ msgstr "[Usando navegação pública ou privativa](browser/public-private.md)"
 #, fuzzy
 #| msgid "[CENO settings](browser/settings.md)"
 msgid "[Ceno settings](browser/settings.md)"
-msgstr "[Configurações do CENO](browser/settings.md)"
+msgstr "[Configurações do Ceno](browser/settings.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Testing the Browser](browser/testing.md)"
