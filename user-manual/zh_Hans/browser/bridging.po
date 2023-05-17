@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2023-05-17 02:54+0000\n"
+"PO-Revision-Date: 2023-05-17 03:01+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "censorship-no/browser-bridging/zh_Hans/>\n"
@@ -16,23 +16,10 @@ msgstr ""
 
 #
 #: browser/bridging.md:block 1 (header)
-#, fuzzy
-#| msgid "Helping other CENO users browse the Web"
 msgid "Helping other Ceno users browse the Web"
 msgstr "帮助其他Ceno用户浏览互联网"
 
 #: browser/bridging.md:block 2 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "A peer-to-peer network is built from every node connected to it (yes, "
-#| "that means you as well!). The more nodes, the stronger and more versatile "
-#| "the network becomes. If you are running the CENO Browser from a country "
-#| "that does not censor the Internet (or not as heavily as some), consider "
-#| "helping other CENO users by becoming a **bridge** node. You will then "
-#| "begin to route traffic between clients living in heavily censored "
-#| "countries and CENO injectors. You will not be able to see their traffic "
-#| "(it will be sent through an encrypted tunnel), nor will any of this "
-#| "traffic remain on your device."
 msgid ""
 "A peer-to-peer network is built from every node connected to it (yes, that "
 "means you as well!). The more nodes, the stronger and more versatile the "
@@ -52,13 +39,6 @@ msgstr ""
 "备上。"
 
 #: browser/bridging.md:block 3 (quote)
-#, fuzzy
-#| msgid ""
-#| "**Note:** The configuration described in this section may also help your "
-#| "device to effectively seed content to others on the distributed cache, so "
-#| "please consider applying it as well when using CENO in a censoring "
-#| "country (but keep in mind the [risks](../concepts/risks.md) of serving "
-#| "such content to others)."
 msgid ""
 "**Note:** The configuration described in this section may also help your "
 "device to effectively seed content to others on the distributed cache, so "
@@ -71,18 +51,10 @@ msgstr ""
 "提供此类内容的[风险](.../concepts/risks.md)）。"
 
 #: browser/bridging.md:block 4 (header)
-#, fuzzy
-#| msgid "How to become a CENO bridge"
 msgid "How to become a Ceno bridge"
 msgstr "如何成为Ceno的网桥"
 
 #: browser/bridging.md:block 5 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "This functionality is already built into the CENO Browser. Your device "
-#| "will need to be connected to a Wi-Fi network that has either UPnP enabled "
-#| "or explicit port forwarding configured for CENO. See the next sections "
-#| "for further details."
 msgid ""
 "This functionality is already built into Ceno Browser. Your device will need "
 "to be connected to a Wi-Fi network that has either UPnP enabled or explicit "
@@ -93,11 +65,6 @@ msgstr ""
 "Fi网络，并将此网络为Ceno配置UPnP功能或显式端口转发。更多细节请看下面的章节。"
 
 #: browser/bridging.md:block 6 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "However, please note that Android will only allow a mobile device to act "
-#| "as a proper bridge while you are actively using it, as power-saving "
-#| "features will throttle the operation of CENO otherwise."
 msgid ""
 "However, please note that Android will only allow a mobile device to act as "
 "a proper bridge while you are actively using it, as power-saving features "
@@ -118,10 +85,6 @@ msgid ""
 msgstr ""
 
 #: browser/bridging.md:block 8 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Thus if you intend to have CENO acting as a permanent, always-reachable "
-#| "bridge, besides a properly configured Wi-Fi network you will need to:"
 msgid ""
 "Thus if you intend to have Ceno acting as a permanent, always-reachable "
 "bridge, besides a properly configured Wi-Fi network you will need to:"
@@ -213,11 +176,6 @@ msgid "Enabling UPnP on your Wi-Fi router"
 msgstr "在您的Wi-Fi路由器上启用UPnP"
 
 #: browser/bridging.md:block 20 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "[UPnP][UPnP] is the easiest way of making your CENO Browser reachable to "
-#| "the CENO network. The [CENO Settings](settings.md) page will indicate the "
-#| "UPnP status on your local network."
 msgid ""
 "[UPnP][UPnP] is the easiest way of making your Ceno Browser (or computer "
 "client) reachable to the Ceno network. The [Ceno Settings](settings.md) page "
@@ -236,10 +194,6 @@ msgstr ""
 "解其风险][upnp-risks]，同时考虑使用下面解释的其他方法。"
 
 #: browser/bridging.md:block 22 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "A status like the one shown in the previous figure indicates that UPnP is "
-#| "not enabled on your WiFi router."
 msgid ""
 "A status like the one below indicates that UPnP is not available or not "
 "working on your WiFi router:"
@@ -254,20 +208,12 @@ msgid "**UPnP status**"
 msgstr ""
 
 #: browser/bridging.md:block 24 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "The status above indicates that UPnP is likely working and CENO is "
-#| "currently verifying connectivity."
 msgid ""
 "The status below indicates that UPnP is likely working and Ceno is currently "
 "verifying connectivity:"
 msgstr "上面的状态表明，UPnP很有可能正在工作，Ceno目前正在验证连通性。"
 
 #: browser/bridging.md:block 26 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "The status above indicates that UPnP is working and you can bridge "
-#| "connections for other CENO users."
 msgid ""
 "The status below indicates that UPnP is working and you can bridge "
 "connections for other Ceno users:"
@@ -335,14 +281,6 @@ msgid "Using port forwarding as an alternative to UPnP"
 msgstr "使用端口转发作为UPnP的替代方案"
 
 #: browser/bridging.md:block 32 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Instead of enabling UPnP on your router, you can create a port forwarding "
-#| "rule to make sure that connections from the CENO network are forwarded to "
-#| "your device. You will need to login to the router's administrative "
-#| "interface and locate the *port forwarding* option. To see which IP "
-#| "address you need to forward the connections to and the relevant port, "
-#| "open the *CENO Settings* page and look under the *Local UDP endpoint(s)*."
 msgid ""
 "Instead of enabling UPnP on your router, you can create a port forwarding "
 "rule to make sure that connections from the Ceno network are forwarded to "
@@ -361,13 +299,6 @@ msgid "**Local UDP endpoints**"
 msgstr ""
 
 #: browser/bridging.md:block 34 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "The port forwarding must be for the UDP protocol (not TCP). CENO chooses "
-#| "a random port on first run and keeps it for subsequent runs, but your "
-#| "device's local network IP address may change from time to time. Thus you "
-#| "should periodically review the *CENO Settings* page to see that your "
-#| "device is reachable to the CENO network."
 msgid ""
 "The port forwarding must be for the UDP protocol (not TCP). Ceno chooses a "
 "random port on first run and keeps it for subsequent runs, but your device's "
