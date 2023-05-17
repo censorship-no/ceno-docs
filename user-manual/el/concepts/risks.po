@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-04 20:09+0200\n"
-"PO-Revision-Date: 2023-05-17 03:10+0000\n"
+"PO-Revision-Date: 2023-05-17 03:14+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/censorship-no/"
 "risks/el/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 #
 #: concepts/risks.md:block 1 (header)
 msgid "Risks in using Ceno/Ouinet"
-msgstr "Κίνδυνοι κατά τη χρήση του CENO/Ouinet"
+msgstr "Κίνδυνοι κατά τη χρήση του Ceno/Ouinet"
 
 #: concepts/risks.md:block 2 (paragraph)
 msgid ""
