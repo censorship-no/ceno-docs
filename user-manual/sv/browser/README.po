@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-17 03:04+0000\n"
+"PO-Revision-Date: 2023-05-17 03:06+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/censorship-no/"
 "browser-readme/sv/>\n"
@@ -12,8 +12,6 @@ msgstr ""
 "X-Generator: Weblate 4.18-dev\n"
 
 #: browser/README.md:block 1 (header)
-#, fuzzy
-#| msgid "Using CENO Browser"
 msgid "Using Ceno Browser"
 msgstr "Att använda Ceno-webbläsaren"
 
