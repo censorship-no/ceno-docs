@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-17 03:01+0000\n"
+"PO-Revision-Date: 2023-05-17 03:09+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-install/fa/>\n"
@@ -13,22 +13,14 @@ msgstr ""
 
 #
 #: browser/install.md:block 1 (header)
-#, fuzzy
-#| msgid "Installing CENO"
 msgid "Installing Ceno"
 msgstr "نصب Ceno"
 
 #: browser/install.md:block 2 (paragraph)
-#, fuzzy
-#| msgid "CENO Browser can be installed via the following means:"
 msgid "Ceno Browser can be installed via the following means:"
 msgstr "مرورگر Ceno را می‌توان از طریق این روش‌ها نصب کرد:"
 
 #: browser/install.md:block 3 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "[Google Play][ceno-gplay] (*CENO Browser* from *eQualitie*): the "
-#| "recommended source for most Android users."
 msgid ""
 "[Google Play][ceno-gplay] (*Ceno Browser* from *eQualitie*): the recommended "
 "source for most Android users."
@@ -49,11 +41,6 @@ msgstr ""
 "قبلی در آن‌ها مسدود است."
 
 #: browser/install.md:block 4 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "CENO requires an ARM64 or Neon-capable ARM32 device running at least "
-#| "Android 4.1 Jelly Bean, thus most mobile devices released from late 2012 "
-#| "onward should work. CENO needs *no special permissions* to run."
 msgid ""
 "Ceno requires an ARM64 or Neon-capable ARM32 device running at least Android "
 "4.1 Jelly Bean, thus most mobile devices released from late 2012 onward "
@@ -65,15 +52,6 @@ msgstr ""
 "باید امکان‌پذیر باشد. Ceno برای اجرا به مجوزهای خاص نیاز ندارد."
 
 #: browser/install.md:block 5 (quote)
-#, fuzzy
-#| msgid ""
-#| "**Warning:** Please be *extremely skeptical* about installing CENO "
-#| "Browser from sources other than the ones listed above. Because of the "
-#| "application's nature, their potential users may become a target for all "
-#| "kinds of fake or manipulated versions used to violate user privacy or "
-#| "attack other CENO and Ouinet users. If in doubt, please contact "
-#| "[cenoers@equalit.ie](mailto:cenoers@equalit.ie) before installing a "
-#| "suspicious app."
 msgid ""
 "**Warning:** Please be *extremely skeptical* about installing Ceno Browser "
 "from sources other than the ones listed above. Because of the application's "
@@ -90,19 +68,10 @@ msgstr ""
 "مشکوک با نشانی [cenoers@equalit.ie](mailto:cenoers@equalit.ie) تماس بگیرید."
 
 #: browser/install.md:block 6 (header)
-#, fuzzy
-#| msgid "Stopping CENO completely"
 msgid "Stopping Ceno completely"
 msgstr "متوقف‌کردن کامل Ceno"
 
 #: browser/install.md:block 7 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Every time you start the app, a CENO icon will appear on your device's "
-#| "notification bar. This icon represents the *CENO Browser service*, which "
-#| "is the part of CENO that runs permanently (even when you are not "
-#| "browsing) and allows other clients to use your device as a bridge and "
-#| "retrieve content from it at any time."
 msgid ""
 "Every time you start the app, a Ceno icon will appear on your device's "
 "notification bar. This icon represents the *Ceno Browser service*, which is "
@@ -117,12 +86,6 @@ msgstr ""
 "کنند و محتوا را هرزمان از آن بازیابی کنند."
 
 #: browser/install.md:block 8 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Since running such service uses network and processor resources, you may "
-#| "want to stop it whenever you are on the move (i.e. not connected to Wi-Fi "
-#| "or far from a charger). Tapping on the notification attached to the icon "
-#| "will stop both CENO and its service at once (until you open CENO again)."
 msgid ""
 "Since running such service uses network and processor resources, you may "
 "want to stop it whenever you are on the move (i.e. not connected to Wi-Fi or "
@@ -136,10 +99,6 @@ msgstr ""
 "خواهد کرد (تا زمانی که سنو را از نو باز کنید)."
 
 #: browser/install.md:block 9 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "![Figure: Tap on the notification to stop the CENO service](images/tap-"
-#| "stop.png)"
 msgid ""
 "![Figure: Tap on the notification to stop the Ceno service](images/tap-stop."
 "png)"
@@ -148,18 +107,10 @@ msgstr ""
 "tap-stop.png)"
 
 #: browser/install.md:block 10 (header)
-#, fuzzy
-#| msgid "Purging all CENO data (the \"panic button\")"
 msgid "Purging all Ceno data (the \"panic button\")"
 msgstr "پالایش تمام داده‌های سنو («دکمه‌ هراس»)"
 
 #: browser/install.md:block 11 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "The *CENO Browser service* notification shown above includes a few "
-#| "accompanying actions which can be triggered by tapping on them. The "
-#| "*Home* action will just open CENO with a new public browsing tab showing "
-#| "its home page. The *Erase* action demands more explanation."
 msgid ""
 "The *Ceno Browser service* notification shown above includes a few "
 "accompanying actions which can be triggered by tapping on them. The *Home* "
@@ -184,13 +135,6 @@ msgstr ""
 "و پاک‌سازی» خیلی قدیمی باشد.)"
 
 #: browser/install.md:block 13 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Shall you ever need to quickly stop CENO and clear absolutely all data "
-#| "related to it (not only cached content, but also settings like favorites, "
-#| "passwords and all browsing history), you can tap on *Erase*. To avoid "
-#| "losing your data accidentally, this will not remove anything yet, but "
-#| "just show an additional action for a brief moment, as pictured below:"
 msgid ""
 "Shall you ever need to quickly stop Ceno and clear absolutely all data "
 "related to it (not only cached content, but also settings like favorites, "
@@ -206,42 +150,27 @@ msgstr ""
 "کوتاه نشان می‌دهد، همان‌طور که در پایین به تصویر کشیده شده است:"
 
 #: browser/install.md:block 14 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "![Figure: The last action stops CENO and clears all its data](images/tap-"
-#| "purge.png)"
 msgid ""
 "![Figure: The last action stops Ceno and clears all its data](images/tap-"
 "purge.png)"
 msgstr ""
-"![شکل: آخرین گزینه سنو را متوقف می‌کند و تمام داده‌های آن را پاک می‌کند](images/"
-"tap-purge.png)"
+"![شکل: آخرین گزینه سنو را متوقف می‌کند و تمام داده‌های آن را پاک می‌کند]("
+"images/tap-purge.png)"
 
 #: browser/install.md:block 15 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "If you tap on the *Yes* action, CENO will be stopped and all its data "
-#| "removed *without further questions*, effectively leaving your device as "
-#| "if CENO had never been used."
 msgid ""
 "If you tap on the *Yes* action, Ceno will be stopped and all its data "
 "removed *without further questions*, effectively leaving your device as if "
 "Ceno had never been used."
 msgstr ""
-"اگر روی *بله* انگشت بفشارید، سنو متوقف خواهد شد و تمام داده‌هایش *بی‌هیچ پرسش "
-"دیگری* حذف خواهد شد، طوری که انگار هیچ‌گاه از سنو استفاده نکرده بودید."
+"اگر روی *بله* انگشت بفشارید، سنو متوقف خواهد شد و تمام داده‌هایش *بی‌هیچ "
+"پرسش دیگری* حذف خواهد شد، طوری که انگار هیچ‌گاه از سنو استفاده نکرده بودید."
 
 #: browser/install.md:block 16 (paragraph)
 msgid "If you do not tap on the action, it will go away in a few seconds."
 msgstr "اگر روی این گزینه تقه نزنید در عرض چند ثانیه از بین خواهد رفت."
 
 #: browser/install.md:block 17 (quote)
-#, fuzzy
-#| msgid ""
-#| "**Note:** The method described above requires that CENO be running on "
-#| "your device. To accomplish the same effect when CENO is stopped, you can "
-#| "use Android's general *Settings* page and, under the *Apps* entry, choose "
-#| "CENO and then *Clear data*."
 msgid ""
 "**Note:** The method described above requires that Ceno be running on your "
 "device. To accomplish the same effect when Ceno is stopped, you can use "
