@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2022-08-16 05:20+0000\n"
-"Last-Translator: cld4h <hao@24601.xyz>\n"
+"PO-Revision-Date: 2023-05-17 03:01+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "censorship-no/browser-install/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -12,20 +12,20 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #
 #: browser/install.md:block 1 (header)
 #, fuzzy
 #| msgid "Installing CENO"
 msgid "Installing Ceno"
-msgstr "安装 CENO"
+msgstr "安装 Ceno"
 
 #: browser/install.md:block 2 (paragraph)
 #, fuzzy
 #| msgid "CENO Browser can be installed via the following means:"
 msgid "Ceno Browser can be installed via the following means:"
-msgstr "可以通过如下方式安装CENO浏览器："
+msgstr "可以通过如下方式安装Ceno浏览器："
 
 #: browser/install.md:block 3 (unordered list)
 #, fuzzy
@@ -36,8 +36,8 @@ msgid ""
 "[Google Play][ceno-gplay] (*Ceno Browser* from *eQualitie*): the recommended "
 "source for most Android users."
 msgstr ""
-"[Google Play][ceno-gplay] (来自 *eQualitie* 的 *CENO Browser* ): 适用于大部分"
-"普通Android用户."
+"[Google Play][ceno-gplay] (来自 *eQualitie* 的 *Ceno Browser* ): "
+"适用于大部分普通Android用户."
 
 #: browser/install.md:block 3 (unordered list)
 msgid "[GitHub][ceno-gh]: for Android devices without Google Play."
@@ -60,9 +60,9 @@ msgid ""
 "4.1 Jelly Bean, thus most mobile devices released from late 2012 onward "
 "should work. Ceno needs *no special permissions* to run."
 msgstr ""
-"CENO 运行需要最低 Android 4.1 Jelly Bean 版本的 ARM64 或具有 Neon 功能的 "
+"Ceno 运行需要最低 Android 4.1 Jelly Bean 版本的 ARM64 或具有 Neon 功能的 "
 "ARM32 设备，因此在从 2012 年底开始发布的大多数移动设备上都应该可以运行。 "
-"CENO 运行时*不需要特殊权限*。"
+"Ceno 运行时*不需要特殊权限*。"
 
 #: browser/install.md:block 5 (quote)
 #, fuzzy
@@ -82,10 +82,11 @@ msgid ""
 "Ouinet users. If in doubt, please contact [cenoers@equalit.ie](mailto:"
 "cenoers@equalit.ie) before installing a suspicious app."
 msgstr ""
-"**警告：**请 *千万小心* 不要从上面列出的来源之外的地方安装 CENO 浏览器。 由于"
-"应用程序的性质，他们的潜在用户可能成为各种用于侵犯用户隐私或攻击其他 CENO 和 "
-"Ouinet 用户的虚假或操纵版本的目标。 如有疑问，请在安装可疑应用程序之前联系 "
-"[cenoers@equalit.ie](mailto:cenoers@equalit.ie)。"
+"**警告：**请 *千万小心* 不要从上面列出的来源之外的地方安装 Ceno 浏览器。 "
+"由于应用程序的性质，他们的潜在用户可能成为各种用于侵犯用户隐私或攻击其他 "
+"Ceno 和 Ouinet 用户的虚假或操纵版本的目标。 如有疑问，"
+"请在安装可疑应用程序之前联系 [cenoers@equalit.ie](mailto:cenoers@equalit."
+"ie)。"
 
 #: browser/install.md:block 6 (header)
 msgid "Stopping Ceno completely"
