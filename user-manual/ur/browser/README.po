@@ -1,21 +1,21 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-04-02 09:40+0000\n"
-"Last-Translator: Connectech <info@connectech.org>\n"
+"PO-Revision-Date: 2023-05-17 03:04+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Urdu <https://hosted.weblate.org/projects/censorship-no/"
 "browser-readme/ur/>\n"
 "Language: ur\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.17-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #: browser/README.md:block 1 (header)
 #, fuzzy
 #| msgid "Using CENO Browser"
 msgid "Using Ceno Browser"
-msgstr "CENO براؤزر کا استعمال"
+msgstr "Ceno براؤزر کا استعمال"
 
 #: browser/README.md:block 2 (paragraph)
 #, fuzzy
@@ -32,8 +32,8 @@ msgid ""
 "questions on generic browsing topics you should refer to Mozilla's [Firefox "
 "for Android Support][Firefox for Android Support] pages."
 msgstr ""
-"جہاں تک اس کی Ouinet سے متعلق صلاحیتوں کا تعلق ہے یہ باب آپ کو CENO براؤزر "
-"کے استعمال پر کچھ اشارے دیتا ہے۔ براہ کرم ہمیشہ ذہن میں رکھیں کہ CENO [فائر "
+"جہاں تک اس کی Ouinet سے متعلق صلاحیتوں کا تعلق ہے یہ باب آپ کو Ceno براؤزر "
+"کے استعمال پر کچھ اشارے دیتا ہے۔ براہ کرم ہمیشہ ذہن میں رکھیں کہ Ceno [فائر "
 "فاکس برائے اینڈرائیڈ][Firefox for Android] پر مبنی ہے، لہذا عام براؤزنگ کے "
 "موضوعات پر تمام سوالات کے لیے آپ کو Mozilla کے [فائر فاکس برائے اینڈرائیڈ "
 "سپورٹ][Firefox for Android Support] صفحات کا حوالہ دینا چاہیے۔"
@@ -53,7 +53,7 @@ msgid ""
 msgstr ""
 "متعلقہ ہونے پر، متن کو واضح کرنے کے لیے اسکرین کیپچرز کو شامل کیا جائے گا۔ "
 "براہ کرم نوٹ کریں کہ یہ آپ کے ڈیوائس پر نظر آنے والی چیزوں سے قدرے مختلف ہو "
-"سکتے ہیں، خاص طور پر جب CENO کی ترقی ہوتی ہے۔ یہ دستاویز CENO ورژن 1.6.0 کے "
+"سکتے ہیں، خاص طور پر جب Ceno کی ترقی ہوتی ہے۔ یہ دستاویز Ceno ورژن 1.6.0 کے "
 "لیے تازہ ترین ہے۔"
 
 #: browser/README.md:block 4 (paragraph)
