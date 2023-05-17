@@ -13,14 +13,23 @@ msgstr ""
 
 #
 #: browser/README.md:block 1 (header)
-msgid "Using CENO Browser"
+#, fuzzy
+#| msgid "Using CENO Browser"
+msgid "Using Ceno Browser"
 msgstr "استفاده از مرورگر CENO"
 
 #: browser/README.md:block 2 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "This chapter gives you some hints on the usage of CENO Browser as far as "
+#| "its Ouinet-related capabilities are concerned. Please always keep in mind "
+#| "that CENO is based on [Firefox for Android][Firefox for Android], so for "
+#| "all questions on generic browsing topics you should refer to Mozilla's "
+#| "[Firefox for Android Support][Firefox for Android Support] pages."
 msgid ""
-"This chapter gives you some hints on the usage of CENO Browser as far as its "
+"This chapter gives you some hints on the usage of Ceno Browser as far as its "
 "Ouinet-related capabilities are concerned. Please always keep in mind that "
-"CENO is based on [Firefox for Android][Firefox for Android], so for all "
+"Ceno is based on [Firefox for Android][Firefox for Android], so for all "
 "questions on generic browsing topics you should refer to Mozilla's [Firefox "
 "for Android Support][Firefox for Android Support] pages."
 msgstr ""
@@ -31,16 +40,22 @@ msgstr ""
 "اندروید][Firefox for Android Support] موزیلا مراجعه کنید."
 
 #: browser/README.md:block 3 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "When relevant, screen captures will be included to illustrate the text. "
+#| "Please note that these may slightly differ from what you see on your "
+#| "device, especially as CENO development progresses. This documentation is "
+#| "up to date for CENO version 1.6.0."
 msgid ""
 "When relevant, screen captures will be included to illustrate the text. "
 "Please note that these may slightly differ from what you see on your device, "
-"especially as CENO development progresses. This documentation is up to date "
-"for CENO version 1.6.0."
+"especially as Ceno development progresses. This documentation is up to date "
+"for Ceno version 1.6.0."
 msgstr ""
-"در صورت لزوم، تصاویری که از صفحه گرفته می‌شود، برای مفهوم‌تر کردن متن "
-"گنجانده خواهند شد. لطفاً توجه کنید که این‌ها ممکن است تفاوت‌های اندکی با آن‌"
-"چه شما روی دستگاه‌تان می‌بینید، داشته باشند، به‌ویژه در جریان توسعه و پیشرفت "
-"CENO. این سند برای نسخه‌ی 1.6.0 CENO به‌روز است."
+"در صورت لزوم، تصاویری که از صفحه گرفته می‌شود، برای مفهوم‌تر کردن متن گنجانده "
+"خواهند شد. لطفاً توجه کنید که این‌ها ممکن است تفاوت‌های اندکی با آن‌چه شما روی "
+"دستگاه‌تان می‌بینید، داشته باشند، به‌ویژه در جریان توسعه و پیشرفت CENO. این سند "
+"برای نسخه‌ی 1.6.0 CENO به‌روز است."
 
 #: browser/README.md:block 4 (paragraph)
 msgid ""

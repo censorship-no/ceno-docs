@@ -6,7 +6,7 @@ msgstr ""
 "Language-Team: German <https://hosted.weblate.org/projects/censorship-no/"
 "user-manual/de/>\n"
 "Language: de\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.14.1-dev\n"
@@ -24,7 +24,9 @@ msgid "[Introduction](intro/README.md)"
 msgstr "[Einleitung](intro/README.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-msgid "[What is CENO Browser?](intro/ceno.md)"
+#, fuzzy
+#| msgid "[What is CENO Browser?](intro/ceno.md)"
+msgid "[What is Ceno Browser?](intro/ceno.md)"
 msgstr "[Was ist der CENO Browser?](intro/ceno.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
@@ -52,19 +54,27 @@ msgid "[Public vs. private browsing](concepts/public-private.md)"
 msgstr "[Öffentliches vs. privates Browsing](concepts/public-private.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-msgid "[Advantages of using CENO/Ouinet](concepts/advantages.md)"
+#, fuzzy
+#| msgid "[Advantages of using CENO/Ouinet](concepts/advantages.md)"
+msgid "[Advantages of using Ceno/Ouinet](concepts/advantages.md)"
 msgstr "[Vorteile der Verwendung von CENO/Ouinet](concepts/advantages.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-msgid "[Risks in using CENO/Ouinet](concepts/risks.md)"
+#, fuzzy
+#| msgid "[Risks in using CENO/Ouinet](concepts/risks.md)"
+msgid "[Risks in using Ceno/Ouinet](concepts/risks.md)"
 msgstr "[Risiken bei der Verwendung von CENO/Ouinet](concepts/risks.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-msgid "[Using CENO Browser](browser/README.md)"
+#, fuzzy
+#| msgid "[Using CENO Browser](browser/README.md)"
+msgid "[Using Ceno Browser](browser/README.md)"
 msgstr "[CENO Browser verwenden](browser/README.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-msgid "[Installing CENO](browser/install.md)"
+#, fuzzy
+#| msgid "[Installing CENO](browser/install.md)"
+msgid "[Installing Ceno](browser/install.md)"
 msgstr "[CENO installieren](browser/install.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
@@ -74,7 +84,9 @@ msgstr ""
 "md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-msgid "[CENO settings](browser/settings.md)"
+#, fuzzy
+#| msgid "[CENO settings](browser/settings.md)"
+msgid "[Ceno settings](browser/settings.md)"
 msgstr "[CENO-Einstellungen](browser/settings.md)"
 
 #: SUMMARY.md:block 3 (unordered list)

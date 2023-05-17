@@ -16,14 +16,23 @@ msgstr ""
 
 #
 #: browser/README.md:block 1 (header)
-msgid "Using CENO Browser"
+#, fuzzy
+#| msgid "Using CENO Browser"
+msgid "Using Ceno Browser"
 msgstr "CENO ဘရောက်ဇာ အသုံးပြုခြင်း"
 
 #: browser/README.md:block 2 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "This chapter gives you some hints on the usage of CENO Browser as far as "
+#| "its Ouinet-related capabilities are concerned. Please always keep in mind "
+#| "that CENO is based on [Firefox for Android][Firefox for Android], so for "
+#| "all questions on generic browsing topics you should refer to Mozilla's "
+#| "[Firefox for Android Support][Firefox for Android Support] pages."
 msgid ""
-"This chapter gives you some hints on the usage of CENO Browser as far as its "
+"This chapter gives you some hints on the usage of Ceno Browser as far as its "
 "Ouinet-related capabilities are concerned. Please always keep in mind that "
-"CENO is based on [Firefox for Android][Firefox for Android], so for all "
+"Ceno is based on [Firefox for Android][Firefox for Android], so for all "
 "questions on generic browsing topics you should refer to Mozilla's [Firefox "
 "for Android Support][Firefox for Android Support] pages."
 msgstr ""
@@ -34,16 +43,21 @@ msgstr ""
 "အတွက် Firefox] စာမျက်နှာများကို ရည်ညွှန်းသင့်ကြောင်း ကျေးဇူးပြု၍ အမြဲမှတ်သားထားပါ။"
 
 #: browser/README.md:block 3 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "When relevant, screen captures will be included to illustrate the text. "
+#| "Please note that these may slightly differ from what you see on your "
+#| "device, especially as CENO development progresses. This documentation is "
+#| "up to date for CENO version 1.6.0."
 msgid ""
 "When relevant, screen captures will be included to illustrate the text. "
 "Please note that these may slightly differ from what you see on your device, "
-"especially as CENO development progresses. This documentation is up to date "
-"for CENO version 1.6.0."
+"especially as Ceno development progresses. This documentation is up to date "
+"for Ceno version 1.6.0."
 msgstr ""
-"သင့်လျော်သည့် အချိန်တွင် စာသားကို ပုံဖော်ရန် စခရင်ရှော့(တ်)များ ပါဝင်ပါမည်။ "
-"အထူးသဖြင့် CENO ၏ ဖန်တီးတီထွင်မှု တိုးတက်လာသည်နှင့်အမျှ ၎င်းတို့သည် "
-"သင့်စက်ပေါ်တွင် သင်မြင်သည့်အရာနှင့် အနည်းငယ် ကွာခြားနိုင်ကြောင်း ကျေးဇူးပြု၍ "
-"သတိပြုပါ။ ဤစာရွက်စာတမ်းသည် CENO ဗာရှင်း ၁.၆.၀ အတွက် ခေတ်မီပါသည်။"
+"သင့်လျော်သည့် အချိန်တွင် စာသားကို ပုံဖော်ရန် စခရင်ရှော့(တ်)များ ပါဝင်ပါမည်။ အထူးသဖြင့် CENO ၏ "
+"ဖန်တီးတီထွင်မှု တိုးတက်လာသည်နှင့်အမျှ ၎င်းတို့သည် သင့်စက်ပေါ်တွင် သင်မြင်သည့်အရာနှင့် အနည်းငယ် ကွာခြားနိုင်ကြောင်း "
+"ကျေးဇူးပြု၍ သတိပြုပါ။ ဤစာရွက်စာတမ်းသည် CENO ဗာရှင်း ၁.၆.၀ အတွက် ခေတ်မီပါသည်။"
 
 #: browser/README.md:block 4 (paragraph)
 msgid ""

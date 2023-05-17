@@ -28,7 +28,9 @@ msgid "[Introduction](intro/README.md)"
 msgstr "[မိတ်ဆက်](intro/README.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-msgid "[What is CENO Browser?](intro/ceno.md)"
+#, fuzzy
+#| msgid "[What is CENO Browser?](intro/ceno.md)"
+msgid "[What is Ceno Browser?](intro/ceno.md)"
 msgstr "[CENO ဘရောက်ဇာဆိုတာ ဘာလဲ။](intro/ceno.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
@@ -56,19 +58,27 @@ msgid "[Public vs. private browsing](concepts/public-private.md)"
 msgstr "[အများသုံးနှင့် သီးသန့် ရှာဖွေမှု](concepts/public-private.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-msgid "[Advantages of using CENO/Ouinet](concepts/advantages.md)"
+#, fuzzy
+#| msgid "[Advantages of using CENO/Ouinet](concepts/advantages.md)"
+msgid "[Advantages of using Ceno/Ouinet](concepts/advantages.md)"
 msgstr "[CENO/Ouinet အသုံးပြုခြင်း၏ အားသာချက်များ](concepts/advantages.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-msgid "[Risks in using CENO/Ouinet](concepts/risks.md)"
+#, fuzzy
+#| msgid "[Risks in using CENO/Ouinet](concepts/risks.md)"
+msgid "[Risks in using Ceno/Ouinet](concepts/risks.md)"
 msgstr "[CENO/Ouinet အသုံးပြုခြင်း၏ အန္တရာယ်များ](concepts/risks.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-msgid "[Using CENO Browser](browser/README.md)"
+#, fuzzy
+#| msgid "[Using CENO Browser](browser/README.md)"
+msgid "[Using Ceno Browser](browser/README.md)"
 msgstr "[CENO ဘရောက်ဇာ အသုံးပြုခြင်း](browser/README.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-msgid "[Installing CENO](browser/install.md)"
+#, fuzzy
+#| msgid "[Installing CENO](browser/install.md)"
+msgid "[Installing Ceno](browser/install.md)"
 msgstr "[CENO ထည့်သွင်းခြင်း](browser/install.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
@@ -76,7 +86,9 @@ msgid "[Using public or private browsing](browser/public-private.md)"
 msgstr "[အများသုံး သို့မဟုတ် သီးသန့် ရှာဖွေမှုကို အသုံးပြုခြင်း](browser/public-private.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-msgid "[CENO settings](browser/settings.md)"
+#, fuzzy
+#| msgid "[CENO settings](browser/settings.md)"
+msgid "[Ceno settings](browser/settings.md)"
 msgstr "[CENO ဆက်တင်များ](browser/settings.md)"
 
 #: SUMMARY.md:block 3 (unordered list)

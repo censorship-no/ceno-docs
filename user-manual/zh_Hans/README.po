@@ -21,21 +21,21 @@ msgstr ""
 
 #: README.md:block 2 (paragraph)
 msgid ""
-"This manual is aimed at users of [CENO Browser][CENO Browser] and related "
+"This manual is aimed at users of [Ceno Browser][Ceno Browser] and related "
 "technologies, as created for the [Censorship.no!][Censorship.no!] project by "
 "[eQualitie][eQualitie]."
 msgstr ""
 
 #: README.md:block 3 (paragraph)
 msgid ""
-"If you are looking for technical documentation, please refer to the [CENO "
-"documentation repository][CENO documentation repository], where you will "
+"If you are looking for technical documentation, please refer to the [Ceno "
+"documentation repository][Ceno documentation repository], where you will "
 "find pointers for further reading and details on implementation, as well as "
 "the [protocol specifications][protocol specifications]."
 msgstr ""
 
 #: README.md:block 3 (paragraph)
-msgid "[CENO Browser]: https://github.com/censorship-no/ceno-browser"
+msgid "[Ceno Browser]: https://github.com/censorship-no/ceno-browser"
 msgstr ""
 
 #: README.md:block 3 (paragraph)
@@ -48,7 +48,7 @@ msgstr "[eQualitie]: https://equalit.ie/"
 
 #: README.md:block 3 (paragraph)
 msgid ""
-"[CENO documentation repository]: https://github.com/censorship-no/ceno-docs/"
+"[Ceno documentation repository]: https://github.com/censorship-no/ceno-docs/"
 msgstr ""
 
 #: README.md:block 3 (paragraph)

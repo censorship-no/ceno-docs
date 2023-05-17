@@ -6,7 +6,7 @@ msgstr ""
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/censorship-no/"
 "qsg/id/>\n"
 "Language: id\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.14.2-dev\n"
@@ -16,11 +16,17 @@ msgid "Quick start guide"
 msgstr "Panduan mulai cepat"
 
 #: intro/qsg.md:block 2 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "CENO Browser allows you to access any website on the Internet, even if it "
+#| "is censored in your country. CENO uses a peer-to-peer infrastructure to "
+#| "route your requests, as well as to store and share retrieved content with "
+#| "others. [Read more about CENO](ceno.md)."
 msgid ""
-"CENO Browser allows you to access any website on the Internet, even if it is "
-"censored in your country. CENO uses a peer-to-peer infrastructure to route "
+"Ceno Browser allows you to access any website on the Internet, even if it is "
+"censored in your country. Ceno uses a peer-to-peer infrastructure to route "
 "your requests, as well as to store and share retrieved content with others. "
-"[Read more about CENO](ceno.md)."
+"[Read more about Ceno](ceno.md)."
 msgstr ""
 "CENO Browser mengizinkan anda untuk akses situs web apapun di Internet, "
 "sekalipun jika disensor di negara anda. CENO menggunakan infrastruktur peer-"
@@ -37,8 +43,12 @@ msgid "You will need an Android device:"
 msgstr "Anda akan membutuhkan sebuah perangkat Android:"
 
 #: intro/qsg.md:block 5 (ordered list)
+#, fuzzy
+#| msgid ""
+#| "Install CENO Browser from [Google Play][ceno-gplay], [GitHub][ceno-gh] or "
+#| "[Paskoocheh][ceno-pask]. *No special permissions are needed*."
 msgid ""
-"Install CENO Browser from [Google Play][ceno-gplay], [GitHub][ceno-gh] or "
+"Install Ceno Browser from [Google Play][ceno-gplay], [GitHub][ceno-gh] or "
 "[Paskoocheh][ceno-pask]. *No special permissions are needed*."
 msgstr ""
 "Pasang CENO Browser dari [Google Play][ceno-gplay], [GitHub][ceno-gh] atau "
@@ -56,7 +66,9 @@ msgid ""
 msgstr ""
 
 #: intro/qsg.md:block 5 (ordered list)
-msgid "Tap on the CENO notification to stop it completely."
+#, fuzzy
+#| msgid "Tap on the CENO notification to stop it completely."
+msgid "Tap on the Ceno notification to stop it completely."
 msgstr "Ketuk pada notifikasi CENO untuk menghentikan secara keseluruhan."
 
 #: intro/qsg.md:block 6 (paragraph)
@@ -69,8 +81,8 @@ msgstr "Konfigurasi"
 
 #: intro/qsg.md:block 8 (paragraph)
 msgid ""
-"CENO Browser should work out-of-the-box. You can find some [diagnostics and "
-"settings](../browser/settings.md) under the *CENO* menu entry."
+"Ceno Browser should work out-of-the-box. You can find some [diagnostics and "
+"settings](../browser/settings.md) under the *Ceno* menu entry."
 msgstr ""
 
 #: intro/qsg.md:block 9 (paragraph)

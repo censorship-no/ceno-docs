@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Language: ars\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: client/front-end.md:block 1 (header)
@@ -11,16 +11,16 @@ msgstr ""
 
 #: client/front-end.md:block 2 (paragraph)
 msgid ""
-"The Ouinet client (as run by e.g. CENO Browser) offers a front-end page with "
+"The Ouinet client (as run by e.g. Ceno Browser) offers a front-end page with "
 "some information and actions which may be useful for debugging the client. "
-"Many of them are also offered by the CENO Extension via the [*CENO Settings* "
+"Many of them are also offered by the Ceno Extension via the [*Ceno Settings* "
 "page](../browser/settings.md), though others are only available here."
 msgstr ""
 
 #: client/front-end.md:block 3 (paragraph)
 msgid ""
 "The front-end is accessible using any plain Web browser running on the same "
-"device (you can use CENO too). Its default address is <http://127.0.0.1:8078/"
+"device (you can use Ceno too). Its default address is <http://127.0.0.1:8078/"
 ">. If you open it, you will see something like the figure below."
 msgstr ""
 
@@ -42,14 +42,14 @@ msgstr ""
 msgid ""
 "You only need this to use a plain browser for testing the Ouinet client, in "
 "which case you will also have to configure its HTTP/HTTPS proxies to "
-"`127.0.0.1:8077`, and manually enable the [CENO Extension][CENO Extension] "
+"`127.0.0.1:8077`, and manually enable the [Ceno Extension][Ceno Extension] "
 "for injection to work. We very strongly recommend using a *separate, "
 "specific browser profile* for this purpose."
 msgstr ""
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
-"Please note that none of this needs to be done for CENO Browser, since it is "
+"Please note that none of this needs to be done for Ceno Browser, since it is "
 "already configured like that."
 msgstr ""
 
@@ -101,10 +101,10 @@ msgstr ""
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
-"The directory of the external, static cache if enabled (CENO does not "
+"The directory of the external, static cache if enabled (Ceno does not "
 "currently use this)."
 msgstr ""
 
 #: client/front-end.md:block 6 (unordered list)
-msgid "[CENO Extension]: https://github.com/censorship-no/ceno-ext-settings/"
+msgid "[Ceno Extension]: https://github.com/censorship-no/ceno-ext-settings/"
 msgstr ""

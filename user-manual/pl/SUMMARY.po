@@ -31,7 +31,7 @@ msgstr "[Wprowadzenie](intro/README.md)"
 #: SUMMARY.md:block 3 (unordered list)
 #, fuzzy
 #| msgid "[What is the CENO Browser?](intro/ceno.md)"
-msgid "[What is CENO Browser?](intro/ceno.md)"
+msgid "[What is Ceno Browser?](intro/ceno.md)"
 msgstr "[Czym jest Przeglądarka CENO?](intro/ceno.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
@@ -59,21 +59,27 @@ msgid "[Public vs. private browsing](concepts/public-private.md)"
 msgstr "[Publiczne kontra prywatne przeglądanie](concepts/public-private.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-msgid "[Advantages of using CENO/Ouinet](concepts/advantages.md)"
+#, fuzzy
+#| msgid "[Advantages of using CENO/Ouinet](concepts/advantages.md)"
+msgid "[Advantages of using Ceno/Ouinet](concepts/advantages.md)"
 msgstr "[Zalety używania CENO/Ouinet](concepts/advantages.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-msgid "[Risks in using CENO/Ouinet](concepts/risks.md)"
+#, fuzzy
+#| msgid "[Risks in using CENO/Ouinet](concepts/risks.md)"
+msgid "[Risks in using Ceno/Ouinet](concepts/risks.md)"
 msgstr "[Zagrożenia z używania CENO/Ouinet](concepts/risks.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 #, fuzzy
 #| msgid "[Using the CENO Browser](browser/README.md)"
-msgid "[Using CENO Browser](browser/README.md)"
+msgid "[Using Ceno Browser](browser/README.md)"
 msgstr "[Używanie przeglądarki CENO](browser/README.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-msgid "[Installing CENO](browser/install.md)"
+#, fuzzy
+#| msgid "[Installing CENO](browser/install.md)"
+msgid "[Installing Ceno](browser/install.md)"
 msgstr "[Instalacja CENO](browser/install.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
@@ -82,7 +88,9 @@ msgstr ""
 "[Używanie publicznego lub prywatnego przeglądania](browser/public-private.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-msgid "[CENO settings](browser/settings.md)"
+#, fuzzy
+#| msgid "[CENO settings](browser/settings.md)"
+msgid "[Ceno settings](browser/settings.md)"
 msgstr "[Ustawienia CENO](browser/settings.md)"
 
 #: SUMMARY.md:block 3 (unordered list)

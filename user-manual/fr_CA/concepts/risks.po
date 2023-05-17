@@ -2,20 +2,20 @@
 msgid ""
 msgstr ""
 "Language: fr_CA\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: concepts/risks.md:block 1 (header)
-msgid "Risks in using CENO/Ouinet"
+msgid "Risks in using Ceno/Ouinet"
 msgstr ""
 
 #: concepts/risks.md:block 2 (paragraph)
 msgid ""
 "As with any sufficiently complex computing system, and especially such an "
-"innovative one, using CENO Browser (and any Ouinet client in general) is not "
+"innovative one, using Ceno Browser (and any Ouinet client in general) is not "
 "free from some risks. In this section we will compile and describe them to "
 "help you understand their implications according to the different roles you "
-"may play when using CENO:"
+"may play when using Ceno:"
 msgstr ""
 
 #: concepts/risks.md:block 3 (unordered list)
@@ -81,7 +81,7 @@ msgstr ""
 #: concepts/risks.md:block 12 (paragraph)
 msgid ""
 "Yes. However, injectors cannot distinguish whether a request came from a "
-"CENO user or a bridge. Thus requests going to the injector cannot be "
+"Ceno user or a bridge. Thus requests going to the injector cannot be "
 "reliably assigned an originating IP addresses."
 msgstr ""
 
@@ -91,12 +91,12 @@ msgstr ""
 
 #: concepts/risks.md:block 14 (paragraph)
 msgid ""
-"Hopefully not. As mentioned above, CENO Browser tries hard to remove any "
+"Hopefully not. As mentioned above, Ceno Browser tries hard to remove any "
 "private data (passwords, cookies…) from any request for injection. In "
 "addition, the injector does not itself do any seeding; in fact, its sole "
 "purpose is to sign content so that Ouinet clients can seed it. This means "
 "that when the content comes back to the client, it is further analyzed, and "
-"if the origin server indicated that it is of a private nature, CENO will not "
+"if the origin server indicated that it is of a private nature, Ceno will not "
 "seed it either."
 msgstr ""
 
@@ -111,12 +111,12 @@ msgid ""
 msgstr ""
 
 #: concepts/risks.md:block 16 (header)
-msgid "Can the origin server know whether I am using CENO?"
+msgid "Can the origin server know whether I am using Ceno?"
 msgstr ""
 
 #: concepts/risks.md:block 17 (paragraph)
 msgid ""
-"Most probably not. Whenever CENO contacts an origin server directly, it "
+"Most probably not. Whenever Ceno contacts an origin server directly, it "
 "behaves as normal Firefox for Android does, so your particular device "
 "appears as a normal Firefox app of the same version."
 msgstr ""
@@ -124,7 +124,7 @@ msgstr ""
 #: concepts/risks.md:block 18 (paragraph)
 msgid ""
 "However, when it uses an injector to get some content from its origin "
-"server, there are (at least) two ways for the latter to know that CENO or "
+"server, there are (at least) two ways for the latter to know that Ceno or "
 "Ouinet is involved:"
 msgstr ""
 
@@ -149,7 +149,7 @@ msgid ""
 "do not link it to you or your particular device. However, if the request did "
 "for some of the reasons mentioned in the previous question still contain "
 "some personally identifiable information, it could be used to mark you as a "
-"CENO user."
+"Ceno user."
 msgstr ""
 
 #: concepts/risks.md:block 21 (paragraph)
@@ -157,7 +157,7 @@ msgid ""
 "In general, if a particular website (such as a governmental site) expects "
 "you to connect to it as an identifiable individual, from a specific region "
 "(or from a [national intranet][National intranet]), we recommend that you "
-"use a normal Web browser instead of CENO."
+"use a normal Web browser instead of Ceno."
 msgstr ""
 
 #: concepts/risks.md:block 22 (header)
@@ -170,7 +170,7 @@ msgstr ""
 
 #: concepts/risks.md:block 24 (paragraph)
 msgid ""
-"Currently, the only content that is seeded by CENO is any non-private Web "
+"Currently, the only content that is seeded by Ceno is any non-private Web "
 "content which was requested in public browsing mode. This also means that "
 "users do not seed anything they have not accessed themselves in the recent "
 "past."
@@ -199,7 +199,7 @@ msgstr ""
 
 #: concepts/risks.md:block 29 (paragraph)
 msgid ""
-"Yes, every CENO Browser able to communicate with injectors will register its "
+"Yes, every Ceno Browser able to communicate with injectors will register its "
 "IP address in the bridge swarm where other Ouinet clients can find them."
 msgstr ""
 

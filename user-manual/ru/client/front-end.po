@@ -11,8 +11,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.11-dev\n"
 
 #
@@ -21,10 +21,17 @@ msgid "Annex: The Ouinet client front-end"
 msgstr "Приложение: Внешний интерфейс клиента Ouinet"
 
 #: client/front-end.md:block 2 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "The Ouinet client (as run by e.g. CENO Browser) offers a front-end page "
+#| "with some information and actions which may be useful for debugging the "
+#| "client. Many of them are also offered by the CENO Extension via the "
+#| "[*CENO Settings* page](../browser/settings.md), though others are only "
+#| "available here."
 msgid ""
-"The Ouinet client (as run by e.g. CENO Browser) offers a front-end page with "
+"The Ouinet client (as run by e.g. Ceno Browser) offers a front-end page with "
 "some information and actions which may be useful for debugging the client. "
-"Many of them are also offered by the CENO Extension via the [*CENO Settings* "
+"Many of them are also offered by the Ceno Extension via the [*Ceno Settings* "
 "page](../browser/settings.md), though others are only available here."
 msgstr ""
 "У клиента Ouinet (запускаемого, например, Браузером CENO) есть служебный "
@@ -34,14 +41,21 @@ msgstr ""
 "доступны только здесь."
 
 #: client/front-end.md:block 3 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "The front-end is accessible using any plain Web browser running on the "
+#| "same device (you can use CENO too). Its default address is "
+#| "<http://127.0.0.1:8078/>. If you open it, you will see something like the "
+#| "figure below."
 msgid ""
 "The front-end is accessible using any plain Web browser running on the same "
-"device (you can use CENO too). Its default address is <http://127.0.0.1:8078/"
+"device (you can use Ceno too). Its default address is <http://127.0.0.1:8078/"
 ">. If you open it, you will see something like the figure below."
 msgstr ""
 "Интерфейс доступен с помощью любого веб-браузера, запущенного на том же "
-"устройстве (можно использовать и CENO). Его адрес по умолчанию — <http://127."
-"0.0.1:8078/>. Если вы откроете его, вы увидите нечто похожее на рисунок ниже."
+"устройстве (можно использовать и CENO). Его адрес по умолчанию — "
+"<http://127.0.0.1:8078/>. Если вы откроете его, вы увидите нечто похожее на "
+"рисунок ниже."
 
 #: client/front-end.md:block 4 (paragraph)
 msgid "![Figure: The client front-end](images/front-end.png)"
@@ -60,10 +74,17 @@ msgstr ""
 "браузере, поскольку клиенту необходимо перехватывать HTTPS-трафик."
 
 #: client/front-end.md:block 6 (unordered list)
+#, fuzzy
+#| msgid ""
+#| "You only need this to use a plain browser for testing the Ouinet client, "
+#| "in which case you will also have to configure its HTTP/HTTPS proxies to "
+#| "`127.0.0.1:8077`, and manually enable the [CENO Extension][CENO "
+#| "Extension] for injection to work. We very strongly recommend using a "
+#| "*separate, specific browser profile* for this purpose."
 msgid ""
 "You only need this to use a plain browser for testing the Ouinet client, in "
 "which case you will also have to configure its HTTP/HTTPS proxies to "
-"`127.0.0.1:8077`, and manually enable the [CENO Extension][CENO Extension] "
+"`127.0.0.1:8077`, and manually enable the [Ceno Extension][Ceno Extension] "
 "for injection to work. We very strongly recommend using a *separate, "
 "specific browser profile* for this purpose."
 msgstr ""
@@ -74,8 +95,12 @@ msgstr ""
 "*отдельный профиль браузера* для этой цели."
 
 #: client/front-end.md:block 6 (unordered list)
+#, fuzzy
+#| msgid ""
+#| "Please note that none of this needs to be done for CENO Browser, since it "
+#| "is already configured like that."
 msgid ""
-"Please note that none of this needs to be done for CENO Browser, since it is "
+"Please note that none of this needs to be done for Ceno Browser, since it is "
 "already configured like that."
 msgstr ""
 "Обратите внимание, что ничего из этого не нужно делать для Браузера CENO, "
@@ -147,13 +172,20 @@ msgstr ""
 "также кнопка для его полной очистки."
 
 #: client/front-end.md:block 6 (unordered list)
+#, fuzzy
+#| msgid ""
+#| "The directory of the external, static cache if enabled (CENO does not "
+#| "currently use this)."
 msgid ""
-"The directory of the external, static cache if enabled (CENO does not "
+"The directory of the external, static cache if enabled (Ceno does not "
 "currently use this)."
 msgstr ""
 "Каталог внешнего статического кэша, если он включен (в настоящее время CENO "
 "его не использует)."
 
 #: client/front-end.md:block 6 (unordered list)
-msgid "[CENO Extension]: https://github.com/censorship-no/ceno-ext-settings/"
+#, fuzzy
+#| msgid ""
+#| "[CENO Extension]: https://github.com/censorship-no/ceno-ext-settings/"
+msgid "[Ceno Extension]: https://github.com/censorship-no/ceno-ext-settings/"
 msgstr "[Расширение CENO]: https://github.com/censorship-no/ceno-ext-settings/"

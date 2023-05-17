@@ -24,7 +24,9 @@ msgid "Usage"
 msgstr "Utilisation"
 
 #: intro/faq.md:block 3 (header)
-msgid "Can CENO Browser replace my current browser (Chrome/Firefox/Safari)?"
+#, fuzzy
+#| msgid "Can CENO Browser replace my current browser (Chrome/Firefox/Safari)?"
+msgid "Can Ceno Browser replace my current browser (Chrome/Firefox/Safari)?"
 msgstr ""
 "Le navigateur CENO peut-il remplacer mon navigateur actuel (Chrome/Firefox/"
 "Safari)?"
@@ -36,8 +38,14 @@ msgstr ""
 "sensibles."
 
 #: intro/faq.md:block 5 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "Since CENO is based on Mozilla Firefox for Android, it provides all the "
+#| "features that are expected from a modern browser. However, its reliance "
+#| "on Ouinet technology for retrieving web content may affect its operation "
+#| "in subtle ways (some of them potentially involving your privacy)."
 msgid ""
-"Since CENO is based on Mozilla Firefox for Android, it provides all the "
+"Since Ceno is based on Mozilla Firefox for Android, it provides all the "
 "features that are expected from a modern browser. However, its reliance on "
 "Ouinet technology for retrieving web content may affect its operation in "
 "subtle ways (some of them potentially involving your privacy)."
@@ -49,8 +57,15 @@ msgstr ""
 "peuvent impliquer votre vie privée)."
 
 #: intro/faq.md:block 6 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "Also, since CENO and Ouinet are under continuous development, you may "
+#| "experience some instability. That may also mean that backwards-"
+#| "incompatible changes are introduced which require you to uninstall the "
+#| "application or remove stored data (including bookmarks and site settings) "
+#| "before upgrading."
 msgid ""
-"Also, since CENO and Ouinet are under continuous development, you may "
+"Also, since Ceno and Ouinet are under continuous development, you may "
 "experience some instability. That may also mean that backwards-incompatible "
 "changes are introduced which require you to uninstall the application or "
 "remove stored data (including bookmarks and site settings) before upgrading."
@@ -63,9 +78,14 @@ msgstr ""
 "mettre à jour."
 
 #: intro/faq.md:block 7 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "For important work on Web sites not subject to censorship, we recommend "
+#| "that you use your habitual Web browser instead of CENO. Please read the "
+#| "section on [risks](../concepts/risks.md) for more information."
 msgid ""
 "For important work on Web sites not subject to censorship, we recommend that "
-"you use your habitual Web browser instead of CENO. Please read the section "
+"you use your habitual Web browser instead of Ceno. Please read the section "
 "on [risks](../concepts/risks.md) for more information."
 msgstr ""
 "Pour des travaux importants sur des sites web non soumis à la censure, nous "
@@ -74,7 +94,9 @@ msgstr ""
 "plus d'informations."
 
 #: intro/faq.md:block 8 (header)
-msgid "Can I use CENO Browser to access Twitter, Facebook and Gmail?"
+#, fuzzy
+#| msgid "Can I use CENO Browser to access Twitter, Facebook and Gmail?"
+msgid "Can I use Ceno Browser to access Twitter, Facebook and Gmail?"
 msgstr ""
 "Puis-je utiliser le navigateur CENO pour accéder à Twitter, Facebook et "
 "Gmail ?"
@@ -84,25 +106,41 @@ msgid "Short answer: yes, by using private tabs."
 msgstr "Réponse courte : oui, en utilisant des onglets privés."
 
 #: intro/faq.md:block 10 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "Although CENO strives to provide a user experience as similar to normal "
+#| "Web browsing as possible, some of the techniques used to avoid network "
+#| "interference do not play well with such dynamic sites. This is the case "
+#| "with CENO's default mode of operation (i.e. public browsing), since it "
+#| "strips down all private data (like passwords and cookies) from Web "
+#| "traffic to ensure that it does not leak to other untrusted CENO or Ouinet "
+#| "users."
 msgid ""
-"Although CENO strives to provide a user experience as similar to normal Web "
+"Although Ceno strives to provide a user experience as similar to normal Web "
 "browsing as possible, some of the techniques used to avoid network "
 "interference do not play well with such dynamic sites. This is the case with "
-"CENO's default mode of operation (i.e. public browsing), since it strips "
+"Ceno's default mode of operation (i.e. public browsing), since it strips "
 "down all private data (like passwords and cookies) from Web traffic to "
-"ensure that it does not leak to other untrusted CENO or Ouinet users."
+"ensure that it does not leak to other untrusted Ceno or Ouinet users."
 msgstr ""
 "Bien que CENO s'efforce d'offrir une expérience utilisateur aussi similaire "
 "que possible à la navigation web classique, certaines techniques utilisées "
 "pour éviter les interférences du réseau ne sont pas adaptées à de tels sites "
 "dynamiques. C’est le cas notamment du mode de fonctionnement par défaut de "
 "CENO (à savoir la navigation publique), qui supprime toutes les données "
-"privées (comme les mots de passe et cookies) du trafic web pour s’assurer qu’"
-"elles ne fuitent pas vers des utilisateurs non fiables de CENO ou Ouinet."
+"privées (comme les mots de passe et cookies) du trafic web pour s’assurer "
+"qu’elles ne fuitent pas vers des utilisateurs non fiables de CENO ou Ouinet."
 
 #: intro/faq.md:block 11 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "To avoid this and enable the use of such dynamic sites in CENO, you can "
+#| "use private tabs (i.e. private browsing), which leave private data intact "
+#| "and keep connections to the sites encrypted and thus protected from "
+#| "everyone else. However, this requires that network traffic from your "
+#| "device can reach those websites in some way."
 msgid ""
-"To avoid this and enable the use of such dynamic sites in CENO, you can use "
+"To avoid this and enable the use of such dynamic sites in Ceno, you can use "
 "private tabs (i.e. private browsing), which leave private data intact and "
 "keep connections to the sites encrypted and thus protected from everyone "
 "else. However, this requires that network traffic from your device can reach "
@@ -135,12 +173,16 @@ msgid "Short answer: no."
 msgstr "Réponse courte : non."
 
 #: intro/faq.md:block 16 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "CENO only shares content that you requested (using [public browsing](../"
+#| "concepts/public-private.md))."
 msgid ""
-"CENO only shares content that you requested (using [public browsing](../"
+"Ceno only shares content that you requested (using [public browsing](../"
 "concepts/public-private.md))."
 msgstr ""
-"CENO partage uniquement le contenu que vous avez demandé (en utilisant la ["
-"navigation publique](.. /concepts/public-private.md))."
+"CENO partage uniquement le contenu que vous avez demandé (en utilisant la "
+"[navigation publique](.. /concepts/public-private.md))."
 
 #: intro/faq.md:block 17 (paragraph)
 msgid ""
@@ -158,15 +200,22 @@ msgstr ""
 "sites suspects."
 
 #: intro/faq.md:block 18 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "Read more about how your CENO Browser retrieves and shares Web content "
+#| "with others [here](../concepts/how.md)."
 msgid ""
-"Read more about how your CENO Browser retrieves and shares Web content with "
+"Read more about how your Ceno Browser retrieves and shares Web content with "
 "others [here](../concepts/how.md)."
 msgstr ""
 "Pour en savoir plus sur la façon dont votre navigateur CENO récupère et "
 "partage le contenu web avec les autres, cliquez [ici](../concepts/how.md)."
 
 #: intro/faq.md:block 19 (header)
-msgid "Can anyone see if I am using CENO Browser to access censored Web sites?"
+#, fuzzy
+#| msgid ""
+#| "Can anyone see if I am using CENO Browser to access censored Web sites?"
+msgid "Can anyone see if I am using Ceno Browser to access censored Web sites?"
 msgstr ""
 "Quelqu'un peut-il voir si j'utilise le navigateur CENO pour accéder à des "
 "sites web censurés ?"
@@ -177,8 +226,15 @@ msgstr ""
 "Réponse courte : oui, avec quelques connaissances et ressources techniques."
 
 #: intro/faq.md:block 21 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "CENO is not an anonymity tool. An attacker able to spy on your network "
+#| "traffic can see content being requested from or served to another user "
+#| "from your device. The attacker can also assess whether you are sharing a "
+#| "particular website, although they cannot list all the content that you "
+#| "are sharing."
 msgid ""
-"CENO is not an anonymity tool. An attacker able to spy on your network "
+"Ceno is not an anonymity tool. An attacker able to spy on your network "
 "traffic can see content being requested from or served to another user from "
 "your device. The attacker can also assess whether you are sharing a "
 "particular website, although they cannot list all the content that you are "
@@ -199,8 +255,8 @@ msgid ""
 msgstr ""
 "Néanmoins, le contenu récupéré pour la première fois sur le réseau ou "
 "utilisant la [navigation privée](../concepts/public-privé.md) passera par "
-"des connexions cryptées. Pour plus d'informations, veuillez consulter ["
-"comment fonctionne la récupération de contenu](../concepts/how.md) et les "
+"des connexions cryptées. Pour plus d'informations, veuillez consulter "
+"[comment fonctionne la récupération de contenu](../concepts/how.md) et les "
 "[risques](../concepts/risks.md) associés ."
 
 #: intro/faq.md:block 23 (header)
@@ -208,7 +264,9 @@ msgid "Resource usage"
 msgstr "Utilisation des ressources"
 
 #: intro/faq.md:block 24 (header)
-msgid "Does CENO Browser use a lot of data?"
+#, fuzzy
+#| msgid "Does CENO Browser use a lot of data?"
+msgid "Does Ceno Browser use a lot of data?"
 msgstr "Le navigateur CENO utilise-t-il une grande quantité de données ?"
 
 #: intro/faq.md:block 25 (paragraph)
@@ -216,8 +274,14 @@ msgid "Short answer: more than your usual browser."
 msgstr "Réponse courte : davantage que votre navigateur classique."
 
 #: intro/faq.md:block 26 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "Whenever your CENO Browser serves content to another user or forwards "
+#| "their traffic, it is consuming extra data depending on factors like how "
+#| "popular or large the content is, and how well-connected your device is. "
+#| "Sharing more content also implies more overhead."
 msgid ""
-"Whenever your CENO Browser serves content to another user or forwards their "
+"Whenever your Ceno Browser serves content to another user or forwards their "
 "traffic, it is consuming extra data depending on factors like how popular or "
 "large the content is, and how well-connected your device is. Sharing more "
 "content also implies more overhead."
@@ -229,11 +293,17 @@ msgstr ""
 "également une charge plus importante."
 
 #: intro/faq.md:block 27 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "Although CENO is much lighter in resources than other data-sharing "
+#| "applications, it can still result in increased data usage and fees. We "
+#| "recommend keeping an eye on the app's data usage (under Android settings) "
+#| "and running CENO while connected to Wi-Fi instead of using mobile data."
 msgid ""
-"Although CENO is much lighter in resources than other data-sharing "
+"Although Ceno is much lighter in resources than other data-sharing "
 "applications, it can still result in increased data usage and fees. We "
 "recommend keeping an eye on the app's data usage (under Android settings) "
-"and running CENO while connected to Wi-Fi instead of using mobile data."
+"and running Ceno while connected to Wi-Fi instead of using mobile data."
 msgstr ""
 "Bien que CENO soit beaucoup moins gourmand en ressources que d'autres "
 "applications de partage de données, il peut néanmoins occasionner une "
@@ -243,13 +313,23 @@ msgstr ""
 "Wi-Fi plutôt qu’en utilisant les données mobiles."
 
 #: intro/faq.md:block 28 (header)
-msgid "Does CENO Browser use a lot of battery on my device?"
+#, fuzzy
+#| msgid "Does CENO Browser use a lot of battery on my device?"
+msgid "Does Ceno Browser use a lot of battery on my device?"
 msgstr ""
 "Le navigateur CENO consomme-t-il beaucoup de batterie sur mon appareil ?"
 
 #: intro/faq.md:block 30 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "CENO and Ouinet use various techniques for different users to cooperate "
+#| "in avoiding network interference and outages. Serving content to and "
+#| "forwarding traffic for other users consumes extra power. Also, even when "
+#| "your device is not actively helping other users, it still needs to stay "
+#| "reachable over the network, which prevents the use of some energy-saving "
+#| "features."
 msgid ""
-"CENO and Ouinet use various techniques for different users to cooperate in "
+"Ceno and Ouinet use various techniques for different users to cooperate in "
 "avoiding network interference and outages. Serving content to and forwarding "
 "traffic for other users consumes extra power. Also, even when your device is "
 "not actively helping other users, it still needs to stay reachable over the "
@@ -263,10 +343,17 @@ msgstr ""
 "réseau, ce qui empêche l'utilisation des fonctions d'économie d'énergie."
 
 #: intro/faq.md:block 31 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "The net result is that CENO may keep on draining your battery even when "
+#| "not in use. Our tests have not shown power consumption hiking too much, "
+#| "but your mileage may vary. When in need of battery, we recommend stopping "
+#| "CENO completely (it offers a convenient shortcut for this, see [here](../"
+#| "browser/install.md))."
 msgid ""
-"The net result is that CENO may keep on draining your battery even when not "
+"The net result is that Ceno may keep on draining your battery even when not "
 "in use. Our tests have not shown power consumption hiking too much, but your "
-"mileage may vary. When in need of battery, we recommend stopping CENO "
+"mileage may vary. When in need of battery, we recommend stopping Ceno "
 "completely (it offers a convenient shortcut for this, see [here](../browser/"
 "install.md))."
 msgstr ""
@@ -278,7 +365,9 @@ msgstr ""
 "browser/install.md))."
 
 #: intro/faq.md:block 32 (header)
-msgid "Do I need to be connected to Wi-Fi to use CENO Browser?"
+#, fuzzy
+#| msgid "Do I need to be connected to Wi-Fi to use CENO Browser?"
+msgid "Do I need to be connected to Wi-Fi to use Ceno Browser?"
 msgstr ""
 "Ai-je besoin d'être connecté au Wi-Fi pour utiliser le navigateur CENO ?"
 
@@ -287,16 +376,24 @@ msgid "Short answer: no, but we strongly recommend it."
 msgstr "Réponse courte : non, mais nous le recommandons fortement."
 
 #: intro/faq.md:block 34 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "Although CENO should work fine on a mobile connection, there are two "
+#| "reasons why we recommend using a Wi-Fi connection instead:"
 msgid ""
-"Although CENO should work fine on a mobile connection, there are two reasons "
+"Although Ceno should work fine on a mobile connection, there are two reasons "
 "why we recommend using a Wi-Fi connection instead:"
 msgstr ""
 "Bien que CENO fonctionne sur une connexion mobile, nous vous recommandons "
 "d'utiliser plutôt une connexion Wi-Fi, et cela pour deux raisons :"
 
 #: intro/faq.md:block 35 (ordered list)
+#, fuzzy
+#| msgid ""
+#| "CENO consumes an extra amount of data which may result in a higher phone "
+#| "bill (see above)."
 msgid ""
-"CENO consumes an extra amount of data which may result in a higher phone "
+"Ceno consumes an extra amount of data which may result in a higher phone "
 "bill (see above)."
 msgstr ""
 "CENO utilise davantage de données, ce qui peut entraîner une augmentation de "

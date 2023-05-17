@@ -2,18 +2,18 @@
 msgid ""
 msgstr ""
 "Language: mia\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: browser/README.md:block 1 (header)
-msgid "Using CENO Browser"
+msgid "Using Ceno Browser"
 msgstr ""
 
 #: browser/README.md:block 2 (paragraph)
 msgid ""
-"This chapter gives you some hints on the usage of CENO Browser as far as its "
+"This chapter gives you some hints on the usage of Ceno Browser as far as its "
 "Ouinet-related capabilities are concerned. Please always keep in mind that "
-"CENO is based on [Firefox for Android][Firefox for Android], so for all "
+"Ceno is based on [Firefox for Android][Firefox for Android], so for all "
 "questions on generic browsing topics you should refer to Mozilla's [Firefox "
 "for Android Support][Firefox for Android Support] pages."
 msgstr ""
@@ -22,8 +22,8 @@ msgstr ""
 msgid ""
 "When relevant, screen captures will be included to illustrate the text. "
 "Please note that these may slightly differ from what you see on your device, "
-"especially as CENO development progresses. This documentation is up to date "
-"for CENO version 1.6.0."
+"especially as Ceno development progresses. This documentation is up to date "
+"for Ceno version 1.6.0."
 msgstr ""
 
 #: browser/README.md:block 4 (paragraph)

@@ -24,7 +24,7 @@ msgid "[Introduction](intro/README.md)"
 msgstr ""
 
 #: SUMMARY.md:block 3 (unordered list)
-msgid "[What is CENO Browser?](intro/ceno.md)"
+msgid "[What is Ceno Browser?](intro/ceno.md)"
 msgstr ""
 
 #: SUMMARY.md:block 3 (unordered list)
@@ -52,19 +52,19 @@ msgid "[Public vs. private browsing](concepts/public-private.md)"
 msgstr ""
 
 #: SUMMARY.md:block 3 (unordered list)
-msgid "[Advantages of using CENO/Ouinet](concepts/advantages.md)"
+msgid "[Advantages of using Ceno/Ouinet](concepts/advantages.md)"
 msgstr ""
 
 #: SUMMARY.md:block 3 (unordered list)
-msgid "[Risks in using CENO/Ouinet](concepts/risks.md)"
+msgid "[Risks in using Ceno/Ouinet](concepts/risks.md)"
 msgstr ""
 
 #: SUMMARY.md:block 3 (unordered list)
-msgid "[Using CENO Browser](browser/README.md)"
+msgid "[Using Ceno Browser](browser/README.md)"
 msgstr ""
 
 #: SUMMARY.md:block 3 (unordered list)
-msgid "[Installing CENO](browser/install.md)"
+msgid "[Installing Ceno](browser/install.md)"
 msgstr ""
 
 #: SUMMARY.md:block 3 (unordered list)
@@ -72,7 +72,7 @@ msgid "[Using public or private browsing](browser/public-private.md)"
 msgstr ""
 
 #: SUMMARY.md:block 3 (unordered list)
-msgid "[CENO settings](browser/settings.md)"
+msgid "[Ceno settings](browser/settings.md)"
 msgstr ""
 
 #: SUMMARY.md:block 3 (unordered list)

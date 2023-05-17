@@ -6,7 +6,7 @@ msgstr ""
 "Language-Team: German <https://hosted.weblate.org/projects/censorship-no/"
 "readme/de/>\n"
 "Language: de\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.12-dev\n"
@@ -65,7 +65,7 @@ msgstr ""
 
 #: intro/README.md:block 6 (paragraph)
 msgid ""
-"This is where CENO Browser and Ouinet come into play. This chapter will "
+"This is where Ceno Browser and Ouinet come into play. This chapter will "
 "introduce you to them."
 msgstr ""
 
