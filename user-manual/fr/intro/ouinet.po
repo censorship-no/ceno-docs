@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-03 02:50+0200\n"
-"PO-Revision-Date: 2022-12-15 21:43+0000\n"
+"PO-Revision-Date: 2023-05-17 03:14+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/censorship-no/"
 "ouinet/fr/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.15-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #
 #: intro/ouinet.md:block 1 (header)
@@ -20,14 +20,6 @@ msgid "What is Ouinet?"
 msgstr "Qu'est-ce que Ouinet ?"
 
 #: intro/ouinet.md:block 2 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "[Ouinet][Ouinet] is a core technology that allows CENO Browser to share "
-#| "Web content with other devices. Ouinet comes in the form of reusable "
-#| "computer code (a library) that an application like CENO can use to become "
-#| "a participant in a network of cooperating nodes that communicate directly "
-#| "([peer-to-peer][P2P] or P2P) to help access and store new Web content, "
-#| "and to request and deliver previously accessed content to others."
 msgid ""
 "[Ouinet][Ouinet] is a core technology that allows Ceno Browser to share Web "
 "content with other devices. Ouinet comes in the form of reusable computer "
@@ -80,16 +72,12 @@ msgstr ""
 "que proxy HTTP local)."
 
 #: intro/ouinet.md:block 5 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Same as CENO Browser, Ouinet is developed by [eQualitie][eQualitie] as "
-#| "Free/Libre/Open-Source software."
 msgid ""
 "Same as Ceno Browser, Ouinet is developed by [eQualitie][eQualitie] as Free/"
 "Libre/Open-Source software."
 msgstr ""
-"À l'instar du navigateur CENO, Ouinet est développé par [eQualitie]"
-"[eQualitie] en tant que logiciel gratuit/libre/open-source."
+"À l'instar du navigateur CENO, Ouinet est développé par "
+"[eQualitie][eQualitie] en tant que logiciel gratuit/libre/open-source."
 
 #: intro/ouinet.md:block 6 (header)
 msgid "Who is it for?"
