@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-17 03:05+0000\n"
+"PO-Revision-Date: 2023-05-17 03:06+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-troubleshooting/fa/>\n"
@@ -225,11 +225,6 @@ msgid "Origin access"
 msgstr "دسترسی به اصل"
 
 #: browser/troubleshooting.md:block 23 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Your CENO Browser cannot directly reach the content's origin server. "
-#| "Either the server is having some difficulties itself (e.g. it is down or "
-#| "under some attack), or someone is interfering with your connection to it."
 msgid ""
 "Your Ceno Browser cannot directly reach the content's origin server. Either "
 "the server is having some difficulties itself (e.g. it is down or under some "
