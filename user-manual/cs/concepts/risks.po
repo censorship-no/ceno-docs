@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-17 03:10+0000\n"
+"PO-Revision-Date: 2023-05-17 03:14+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/censorship-no/"
 "risks/cs/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 
 #: concepts/risks.md:block 1 (header)
 msgid "Risks in using Ceno/Ouinet"
-msgstr "Rizika při používání CENO / Ouinet"
+msgstr "Rizika při používání Ceno / Ouinet"
 
 #: concepts/risks.md:block 2 (paragraph)
 msgid ""
@@ -24,10 +24,10 @@ msgid ""
 "may play when using Ceno:"
 msgstr ""
 "Stejně jako u jakéhokoli dostatečně složitého výpočetního systému a zejména "
-"tak inovativního jako je CENO Browser (a jakéhokoli klienta Ouinet obecně), "
-"není používání CENO bez rizik. V této sekci je shrneme a popíšeme, abyste "
+"tak inovativního jako je Ceno Browser (a jakéhokoli klienta Ouinet obecně), "
+"není používání Ceno bez rizik. V této sekci je shrneme a popíšeme, abyste "
 "lépe porozuměli jejich důsledkům v závislosti na různých rolích, které "
-"můžete hrát při používání CENO:"
+"můžete hrát při používání Ceno:"
 
 #: concepts/risks.md:block 3 (unordered list)
 msgid "as a *user* browsing Web sites"
