@@ -1,30 +1,21 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-04-02 05:39+0000\n"
-"Last-Translator: Connectech <info@connectech.org>\n"
+"PO-Revision-Date: 2023-05-17 03:12+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Urdu <https://hosted.weblate.org/projects/censorship-no/"
 "public-private/ur/>\n"
 "Language: ur\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.17-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #: concepts/public-private.md:block 1 (header)
 msgid "Public vs. private browsing"
 msgstr "عوامی بمقابلہ نجی براؤزنگ"
 
 #: concepts/public-private.md:block 2 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Because of the many techniques used to overcome connectivity issues, CENO "
-#| "may become a convenient way for you to get all kinds of Web content. And, "
-#| "as you may have already read in previous sections, whenever you retrieve "
-#| "and seed a page using CENO Browser, it becomes available to others. There "
-#| "may be some content, however, that you do not wish to share (or you do "
-#| "not want to let others know that you are trying to or did retrieve), and "
-#| "fortunately CENO can help you in this instance as well."
 msgid ""
 "Because of the many techniques used to overcome connectivity issues, Ceno "
 "may become a convenient way for you to get all kinds of Web content. And, as "
@@ -35,25 +26,21 @@ msgid ""
 "Ceno can help you in this instance as well."
 msgstr ""
 "رابطے کے مسائل پر قابو پانے کے لیے استعمال کی جانے والی بہت سی تکنیکوں کی "
-"وجہ سے، CENO آپ کے لیے ہر قسم کا ویب مواد حاصل کرنے کا ایک آسان طریقہ بن "
-"سکتا ہے۔ اور، جیسا کہ آپ نے پہلے ہی پچھلے حصوں میں پڑھا ہوگا، جب بھی آپ CENO "
+"وجہ سے، Ceno آپ کے لیے ہر قسم کا ویب مواد حاصل کرنے کا ایک آسان طریقہ بن "
+"سکتا ہے۔ اور، جیسا کہ آپ نے پہلے ہی پچھلے حصوں میں پڑھا ہوگا، جب بھی آپ Ceno "
 "براؤزر کا استعمال کرتے ہوئے کسی صفحہ کو بازیافت اور سیڈ کرتے ہیں، تو یہ "
 "دوسروں کے لیے دستیاب ہوجاتا ہے۔ تاہم، کچھ مواد ہو سکتا ہے جسے آپ شیئر نہیں "
 "کرنا چاہتے (یا آپ دوسروں کو یہ نہیں بتانا چاہتے کہ آپ اسے حاصل کرنے کی کوشش "
-"کر رہے ہیں یا كى ہے )، اور خوش قسمتی سے CENO اس معاملے میں بھی آپ کی مدد کر "
+"کر رہے ہیں یا كى ہے )، اور خوش قسمتی سے Ceno اس معاملے میں بھی آپ کی مدد کر "
 "سکتا ہے۔"
 
 #: concepts/public-private.md:block 3 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "The default mode when you launch the application is **public browsing**. "
-#| "In it, CENO accesses Web content as described previously:"
 msgid ""
 "The default mode when you launch the application is **public browsing**. In "
 "it, Ceno accesses Web content as described previously:"
 msgstr ""
 "جب آپ ایپلیکیشن لانچ کرتے ہیں تو ڈیفالٹ موڈ **عوامی براؤزنگ** ہوتا ہے۔ اس "
-"میں، CENO ویب مواد تک رسائی حاصل کرتا ہے جیسا کہ پہلے بیان کیا گیا ہے:"
+"میں، Ceno ویب مواد تک رسائی حاصل کرتا ہے جیسا کہ پہلے بیان کیا گیا ہے:"
 
 #: concepts/public-private.md:block 4 (ordered list)
 msgid "Direct access is attempted."
@@ -72,15 +59,11 @@ msgstr ""
 "کسی دوسرے کلائنٹ کے ذریعے)۔"
 
 #: concepts/public-private.md:block 5 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "CENO also has a **private browsing** mode. In it, the distributed cache "
-#| "is never searched, and injection is never attempted:"
 msgid ""
 "Ceno also has a **private browsing** mode. In it, the distributed cache is "
 "never searched, and injection is never attempted:"
 msgstr ""
-"CENO کے پاس **نجی براؤزنگ** موڈ بھی ہے۔ اس میں، تقسیم شدہ کیش کو کبھی تلاش "
+"Ceno کے پاس **نجی براؤزنگ** موڈ بھی ہے۔ اس میں، تقسیم شدہ کیش کو کبھی تلاش "
 "نہیں کیا جاتا ہے، اور انجیکشن کی کوشش نہیں کی جاتی ہے:"
 
 #: concepts/public-private.md:block 6 (ordered list)
@@ -149,18 +132,13 @@ msgid "While in private mode:"
 msgstr "نجی موڈ میں رہتے ہوئے:"
 
 #: concepts/public-private.md:block 10 (ordered list)
-#, fuzzy
-#| msgid ""
-#| "You may not be able to access blocked Web content if international "
-#| "connectivity is too scarce; even if you could, other CENO users would not "
-#| "get that content from you."
 msgid ""
 "You may not be able to access blocked Web content if international "
 "connectivity is too scarce; even if you could, other Ceno users would not "
 "get that content from you."
 msgstr ""
 "اگر بین الاقوامی رابطہ بہت کم ہے تو آپ بلاک شدہ ویب مواد تک رسائی حاصل کرنے "
-"کے قابل نہیں ہوسکتے ہیں۔ یہاں تک کہ اگر آپ کر سکتے ہیں، دوسرے CENO صارفین آپ "
+"کے قابل نہیں ہوسکتے ہیں۔ یہاں تک کہ اگر آپ کر سکتے ہیں، دوسرے Ceno صارفین آپ "
 "سے وہ مواد حاصل نہیں کریں گے۔"
 
 #: concepts/public-private.md:block 10 (ordered list)
@@ -196,13 +174,6 @@ msgstr ""
 "پر مبنی سیکیورٹی اب بھی کام کرتی ہے)۔"
 
 #: concepts/public-private.md:block 11 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "In conclusion: if you are using CENO to read the news, watch videos, "
-#| "browse Wikipedia and other static resources that are otherwise censored "
-#| "in your network, consider using the default *public browsing* mode. And "
-#| "if you want to login to Twitter or edit your WordPress website, use "
-#| "*private browsing* mode."
 msgid ""
 "In conclusion: if you are using Ceno to read the news, watch videos, browse "
 "Wikipedia and other static resources that are otherwise censored in your "
