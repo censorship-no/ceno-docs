@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:51+0200\n"
-"PO-Revision-Date: 2023-04-20 21:49+0000\n"
+"PO-Revision-Date: 2023-05-17 03:09+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/censorship-no/"
 "homepage-readme/pl/>\n"
@@ -31,9 +31,9 @@ msgid ""
 "technologies, as created for the [Censorship.no!][Censorship.no!] project by "
 "[eQualitie][eQualitie]."
 msgstr ""
-"Niniejszy podręcznik jest przeznaczony dla użytkowników [CENO Browser][CENO "
-"Browser] i powiązanych technologii, stworzony dla projektu [Censorship.no!]"
-"[Censorship.no!] przez [eQualitie][eQualitie]."
+"Niniejszy podręcznik jest przeznaczony dla użytkowników [Ceno Browser][Ceno "
+"Browser] i powiązanych technologii, stworzony dla projektu [Censorship."
+"no!][Censorship.no!] przez [eQualitie][eQualitie]."
 
 #: README.md:block 3 (paragraph)
 #, fuzzy
@@ -49,15 +49,15 @@ msgid ""
 "the [protocol specifications][protocol specifications]."
 msgstr ""
 "Jeśli szukasz dokumentacji technicznej, zajrzyj do [repozytorium "
-"dokumentacji CENO][repozytorium dokumentacji CENO], gdzie znajdziesz "
-"wskazówki do dalszego czytania i szczegóły dotyczące wdrożenia, a także do "
-"[specyfikacji protokołu][protocol specifications]."
+"dokumentacji Ceno][repozytorium dokumentacji Ceno], gdzie znajdziesz "
+"wskazówki do dalszego czytania i szczegóły dotyczące wdrożenia, a także do ["
+"specyfikacji protokołu][protocol specifications]."
 
 #: README.md:block 3 (paragraph)
 #, fuzzy
 #| msgid "[CENO Browser]: https://github.com/censorship-no/ceno-browser"
 msgid "[Ceno Browser]: https://github.com/censorship-no/ceno-browser"
-msgstr "[Przeglądarka CENO]: https://github.com/censorship-no/ceno-browser"
+msgstr "[Przeglądarka Ceno]: https://github.com/censorship-no/ceno-browser"
 
 #: README.md:block 3 (paragraph)
 msgid "[Censorship.no!]: https://censorship.no/"
@@ -75,7 +75,7 @@ msgstr "[eQualitie]: https://equalit.ie/"
 msgid ""
 "[Ceno documentation repository]: https://github.com/censorship-no/ceno-docs/"
 msgstr ""
-"[Repozytorium dokumentacji CENO]: https://github.com/censorship-no/ceno-docs/"
+"[Repozytorium dokumentacji Ceno]: https://github.com/censorship-no/ceno-docs/"
 
 #: README.md:block 3 (paragraph)
 msgid ""
