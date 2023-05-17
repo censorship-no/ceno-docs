@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2021-08-13 07:46+0000\n"
-"Last-Translator: Jane Kong <myonjane@gmail.com>\n"
+"PO-Revision-Date: 2023-05-17 02:54+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "censorship-no/browser-bridging/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -12,14 +12,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.8-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #
 #: browser/bridging.md:block 1 (header)
 #, fuzzy
 #| msgid "Helping other CENO users browse the Web"
 msgid "Helping other Ceno users browse the Web"
-msgstr "帮助其他CENO用户浏览互联网"
+msgstr "帮助其他Ceno用户浏览互联网"
 
 #: browser/bridging.md:block 2 (paragraph)
 #, fuzzy
@@ -46,8 +46,8 @@ msgid ""
 msgstr ""
 "一个点对点的网络是由连接到它的每个节点（也包括你！）建立的。节点越多，网络就"
 "越强大，功能也越多。如果你在一个没有互联网审查的国家（或者不像某些国家那样严"
-"重）运行CENO浏览器，可以考虑通过成为一个**桥梁**节点来帮助其他CENO用户。然后"
-"你将开始，在生活在严重审查的国家的客户和CENO注入器之间，进行流量的路由。你将"
+"重）运行Ceno浏览器，可以考虑通过成为一个**桥梁**节点来帮助其他Ceno用户。然后"
+"你将开始，在生活在严重审查的国家的客户和Ceno注入器之间，进行流量的路由。你将"
 "无法看到他们的流量（它将通过加密的隧道发送），也不会有任何这种流量留在你的设"
 "备上。"
 
@@ -67,14 +67,14 @@ msgid ""
 "to others)."
 msgstr ""
 "**注意**本节所描述的配置，也可以帮助你的设备有效地将内容播种给分布式缓存上的"
-"其他人，因此，您在有进行审查的国家使用CENO时，也请考虑应用它（但请记住向他人"
+"其他人，因此，您在有进行审查的国家使用Ceno时，也请考虑应用它（但请记住向他人"
 "提供此类内容的[风险](.../concepts/risks.md)）。"
 
 #: browser/bridging.md:block 4 (header)
 #, fuzzy
 #| msgid "How to become a CENO bridge"
 msgid "How to become a Ceno bridge"
-msgstr "如何成为CENO的网桥"
+msgstr "如何成为Ceno的网桥"
 
 #: browser/bridging.md:block 5 (paragraph)
 #, fuzzy
@@ -89,8 +89,8 @@ msgid ""
 "port forwarding configured for Ceno. See the next sections for further "
 "details."
 msgstr ""
-"这一功能已经内置于CENO浏览器中。您的设备将需要连接到一个Wi-Fi网络，并将此网络"
-"为CENO配置UPnP功能或显式端口转发。更多细节请看下面的章节。"
+"这一功能已经内置于Ceno浏览器中。您的设备将需要连接到一个Wi-"
+"Fi网络，并将此网络为Ceno配置UPnP功能或显式端口转发。更多细节请看下面的章节。"
 
 #: browser/bridging.md:block 6 (paragraph)
 #, fuzzy
@@ -102,9 +102,8 @@ msgid ""
 "However, please note that Android will only allow a mobile device to act as "
 "a proper bridge while you are actively using it, as power-saving features "
 "will throttle the operation of Ceno otherwise."
-msgstr ""
-"然而，请注意，安卓系统只允许移动设备在您使用它时充当可用的桥梁。在不使用设备"
-"时，省电功能将扼杀CENO的运作。"
+msgstr "然而，请注意，安卓系统只允许移动设备在您使用它时充当可用的桥梁。在不使用设备"
+"时，省电功能将扼杀Ceno的运作。"
 
 #: browser/bridging.md:block 7 (quote)
 msgid ""
@@ -126,9 +125,8 @@ msgstr ""
 msgid ""
 "Thus if you intend to have Ceno acting as a permanent, always-reachable "
 "bridge, besides a properly configured Wi-Fi network you will need to:"
-msgstr ""
-"因此，如果您打算让CENO充当一个永久的、一直可以到达的网桥，除了一个正确配置的"
-"Wi-Fi网络，您还需要："
+msgstr "因此，如果您打算让Ceno充当一个永久的、一直可以到达的网桥"
+"，除了一个正确配置的Wi-Fi网络，您还需要："
 
 #: browser/bridging.md:block 9 (ordered list)
 msgid "Have your device plugged in to power at all times."
@@ -225,8 +223,8 @@ msgid ""
 "client) reachable to the Ceno network. The [Ceno Settings](settings.md) page "
 "will indicate the UPnP status on your local network."
 msgstr ""
-"[UPnP][UPnP]是使您的CENO浏览器可以接触到CENO网络的最简单方法。在[CENO设置]"
-"(settings.md)页面上会显示您本地网络的UPnP状态。"
+"[UPnP][UPnP]是使您的Ceno浏览器可以接触到Ceno网络的最简单方法。在[Ceno设置](se"
+"ttings.md)页面上会显示您本地网络的UPnP状态。"
 
 #: browser/bridging.md:block 21 (quote)
 msgid ""
@@ -263,7 +261,7 @@ msgstr ""
 msgid ""
 "The status below indicates that UPnP is likely working and Ceno is currently "
 "verifying connectivity:"
-msgstr "上面的状态表明，UPnP很有可能正在工作，CENO目前正在验证连通性。"
+msgstr "上面的状态表明，UPnP很有可能正在工作，Ceno目前正在验证连通性。"
 
 #: browser/bridging.md:block 26 (paragraph)
 #, fuzzy
@@ -273,7 +271,7 @@ msgstr "上面的状态表明，UPnP很有可能正在工作，CENO目前正在�
 msgid ""
 "The status below indicates that UPnP is working and you can bridge "
 "connections for other Ceno users:"
-msgstr "上面的状态表明，UPnP正在工作，你可以为其他CENO用户进行桥接连接。"
+msgstr "上面的状态表明，UPnP正在工作，你可以为其他Ceno用户进行桥接连接。"
 
 #: browser/bridging.md:block 28 (quote)
 msgid ""
@@ -354,8 +352,8 @@ msgid ""
 "page and look under the *Local UDP endpoints*."
 msgstr ""
 "若不在您的路由器上启用UPnP，取而代之的是，您也可以创建一个端口转发规则，以确"
-"保来自CENO网络的连接被转发给您的设备。您将需要登录到路由器的管理界面，并找到*"
-"端口转发*选项。要查看您需要将连接转发到哪个IP地址以及相关的端口，请打开*CENO"
+"保来自Ceno网络的连接被转发给您的设备。您将需要登录到路由器的管理界面，并找到*"
+"端口转发*选项。要查看您需要将连接转发到哪个IP地址以及相关的端口，请打开*Ceno"
 "设置*页面，在*本地UDP端点*下查找。"
 
 #: browser/bridging.md:block 33 (quote)
@@ -377,9 +375,9 @@ msgid ""
 "periodically review the *Ceno Settings* page to see that your device is "
 "reachable to the Ceno network."
 msgstr ""
-"端口转发必须是针对UDP协议的（而非TCP）。CENO在第一次运行时选择一个随机的端"
-"口，并在以后的运行中保持这个端口，但你的设备的本地网络IP地址可能会不时地发生"
-"变化。因此，你应该定期查看*CENO设置*页面，以了解你的设备是否可到达CENO网络。"
+"端口转发必须是针对UDP协议的（而非TCP）。Ceno在第一次运行时选择一个随机的端口"
+"，并在以后的运行中保持这个端口，但你的设备的本地网络IP地址可能会不时地发生变"
+"化。因此，你应该定期查看*Ceno设置*页面，以了解你的设备是否可到达Ceno网络。"
 
 #: browser/bridging.md:block 35 (quote)
 msgid ""
