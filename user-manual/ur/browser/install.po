@@ -1,27 +1,27 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-04-02 09:40+0000\n"
-"Last-Translator: Connectech <info@connectech.org>\n"
+"PO-Revision-Date: 2023-05-17 03:01+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Urdu <https://hosted.weblate.org/projects/censorship-no/"
 "browser-install/ur/>\n"
 "Language: ur\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.17-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #: browser/install.md:block 1 (header)
 #, fuzzy
 #| msgid "Installing CENO"
 msgid "Installing Ceno"
-msgstr "CENO انسٹال کرنا"
+msgstr "Ceno انسٹال کرنا"
 
 #: browser/install.md:block 2 (paragraph)
 #, fuzzy
 #| msgid "CENO Browser can be installed via the following means:"
 msgid "Ceno Browser can be installed via the following means:"
-msgstr "CENO براؤزر کو درج ذیل ذرائع سے انسٹال کیا جا سکتا ہے:"
+msgstr "Ceno براؤزر کو درج ذیل ذرائع سے انسٹال کیا جا سکتا ہے:"
 
 #: browser/install.md:block 3 (unordered list)
 #, fuzzy
@@ -32,7 +32,7 @@ msgid ""
 "[Google Play][ceno-gplay] (*Ceno Browser* from *eQualitie*): the recommended "
 "source for most Android users."
 msgstr ""
-"[Google Play][ceno-gplay] (*CENO براؤزر* eQualitie* کی طرف سے): زیادہ تر "
+"[Google Play][ceno-gplay] (*Ceno براؤزر* eQualitie* کی طرف سے): زیادہ تر "
 "اینڈرائیڈ صارفین کے لیے تجویز کردہ ذریعہ۔"
 
 #: browser/install.md:block 3 (unordered list)
@@ -58,9 +58,9 @@ msgid ""
 "4.1 Jelly Bean, thus most mobile devices released from late 2012 onward "
 "should work. Ceno needs *no special permissions* to run."
 msgstr ""
-"CENO کو کم از کم اینڈرائیڈ 4.1 Jelly Bean چلانے والے ARM64 یا Neon کے قابل "
+"Ceno کو کم از کم اینڈرائیڈ 4.1 Jelly Bean چلانے والے ARM64 یا Neon کے قابل "
 "ARM32 ڈیوائس کی ضرورت ہے، اس طرح 2012 کے اواخر سے جاری ہونے والے زیادہ تر "
-"موبائل ڈیوائسز کو کام کرنا چاہیے۔ CENO کو چلانے کے لیے *کسی خاص اجازت کی "
+"موبائل ڈیوائسز کو کام کرنا چاہیے۔ Ceno کو چلانے کے لیے *کسی خاص اجازت کی "
 "ضرورت نہیں* ہے۔"
 
 #: browser/install.md:block 5 (quote)
@@ -81,10 +81,10 @@ msgid ""
 "Ouinet users. If in doubt, please contact [cenoers@equalit.ie](mailto:"
 "cenoers@equalit.ie) before installing a suspicious app."
 msgstr ""
-"**انتباہ:** براہ کرم اوپر درج کردہ ذرائع کے علاوہ دیگر ذرائع سے CENO براؤزر "
+"**انتباہ:** براہ کرم اوپر درج کردہ ذرائع کے علاوہ دیگر ذرائع سے Ceno براؤزر "
 "انسٹال کرنے کے بارے میں *انتہائی محتاط* رہیں۔ ایپلیکیشن کی نوعیت کی وجہ سے، "
 "ان کے ممکنہ صارفین ہر قسم کے جعلی یا ہیرا پھیری والے ورژنز کا نشانہ بن سکتے "
-"ہیں جو صارف کی رازداری کی خلاف ورزی کرنے یا دوسرے CENO اور Ouinet صارفین پر "
+"ہیں جو صارف کی رازداری کی خلاف ورزی کرنے یا دوسرے Ceno اور Ouinet صارفین پر "
 "حملہ کرنے کے لیے استعمال ہوتے ہیں۔ اگر شک ہو تو، مشتبہ ایپ کو انسٹال کرنے سے "
 "پہلے براہ کرم [cenoers@equalit.ie](mailto:cenoers@equalit.ie) سے رابطہ کریں۔"
 
@@ -92,7 +92,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Stopping CENO completely"
 msgid "Stopping Ceno completely"
-msgstr "CENO کو مکمل طور پر روکنا"
+msgstr "Ceno کو مکمل طور پر روکنا"
 
 #: browser/install.md:block 7 (paragraph)
 #, fuzzy
@@ -109,8 +109,8 @@ msgid ""
 "allows other clients to use your device as a bridge and retrieve content "
 "from it at any time."
 msgstr ""
-"جب بھی آپ ایپ شروع کریں گے، آپ کے ڈیوائس کے نوٹیفکیشن بار پر ایک CENO آئیکن "
-"ظاہر ہوگا۔ یہ آئیکن *CENO براؤزر سروس* کی نمائندگی کرتا ہے، جو CENO کا وہ "
+"جب بھی آپ ایپ شروع کریں گے، آپ کے ڈیوائس کے نوٹیفکیشن بار پر ایک Ceno آئیکن "
+"ظاہر ہوگا۔ یہ آئیکن *Ceno براؤزر سروس* کی نمائندگی کرتا ہے، جو Ceno کا وہ "
 "حصہ ہے جو مستقل طور پر چلتا ہے (یہاں تک کہ جب آپ براؤز نہیں کر رہے ہوتے ہیں) "
 "اور دوسرے کلائنٹس کو آپ کے ڈیوائس کو ایک پل کے طور پر استعمال کرنے اور کسی "
 "بھی وقت اس سے مواد بازیافت کرنے کی اجازت دیتا ہے۔"
@@ -128,11 +128,11 @@ msgid ""
 "far from a charger). Tapping on the notification attached to the icon will "
 "stop both Ceno and its service at once (until you open Ceno again)."
 msgstr ""
-"چونکہ اس طرح کی سروس چلانے میں نیٹ ورک اور پروسیسر کے وسائل استعمال ہوتے "
-"ہیں، اس لیے جب بھی آپ چلتے پھرتے ہوں (یعنی وائی فائی سے منسلک نہ ہوں یا "
-"چارجر سے دور ہوں) تو آپ اسے روک سکتے ہیں۔ آئیکن کے ساتھ منسلک نوٹیفکیشن پر "
-"دبانے سے CENO اور اس کی سروس دونوں ایک ساتھ بند ہو جائیں گی (جب تک کہ آپ "
-"CENO کو دوبارہ نہیں کھولیں گے)۔"
+"چونکہ اس طرح کی سروس چلانے میں نیٹ ورک اور پروسیسر کے وسائل استعمال ہوتے ہیں،"
+" اس لیے جب بھی آپ چلتے پھرتے ہوں (یعنی وائی فائی سے منسلک نہ ہوں یا چارجر سے "
+"دور ہوں) تو آپ اسے روک سکتے ہیں۔ آئیکن کے ساتھ منسلک نوٹیفکیشن پر دبانے سے "
+"Ceno اور اس کی سروس دونوں ایک ساتھ بند ہو جائیں گی (جب تک کہ آپ Ceno کو "
+"دوبارہ نہیں کھولیں گے)۔"
 
 #: browser/install.md:block 9 (paragraph)
 #, fuzzy
@@ -143,13 +143,13 @@ msgid ""
 "![Figure: Tap on the notification to stop the Ceno service](images/tap-stop."
 "png)"
 msgstr ""
-"![تصویر: CENO سروس کو روکنے کے لیے نوٹیفکیشن پر دبائيں](images/tap-stop.png)"
+"![تصویر: Ceno سروس کو روکنے کے لیے نوٹیفکیشن پر دبائيں](images/tap-stop.png)"
 
 #: browser/install.md:block 10 (header)
 #, fuzzy
 #| msgid "Purging all CENO data (the \"panic button\")"
 msgid "Purging all Ceno data (the \"panic button\")"
-msgstr "تمام CENO ڈیٹا کو صاف کرنا (\"گھبراہٹ کا بٹن\")"
+msgstr "تمام Ceno ڈیٹا کو صاف کرنا (\"گھبراہٹ کا بٹن\")"
 
 #: browser/install.md:block 11 (paragraph)
 #, fuzzy
@@ -164,8 +164,8 @@ msgid ""
 "action will just open Ceno with a new public browsing tab showing its home "
 "page. The *Erase* action demands more explanation."
 msgstr ""
-"اوپر دکھائے گئے *CENO براؤزر سروس* نوٹیفکیشن میں کچھ ساتھ والی کارروائیاں "
-"شامل ہیں جن كو دبانے پر متحرک کیا جاسکتا ہے۔ *ہوم* ایکشن صرف CENO کو ایک نئے "
+"اوپر دکھائے گئے *Ceno براؤزر سروس* نوٹیفکیشن میں کچھ ساتھ والی کارروائیاں "
+"شامل ہیں جن كو دبانے پر متحرک کیا جاسکتا ہے۔ *ہوم* ایکشن صرف Ceno کو ایک نئے "
 "عوامی براؤزنگ ٹیب کے ساتھ کھولے گا جس کا ہوم صفحہ دکھایا جائے گا۔ *مٹا دیں* "
 "ایکشن مزید وضاحت کا مطالبہ کرتا ہے۔"
 
@@ -196,7 +196,7 @@ msgid ""
 "your data accidentally, this will not remove anything yet, but just show an "
 "additional action for a brief moment, as pictured below:"
 msgstr ""
-"کیا آپ کو کبھی بھی CENO کو فوری طور پر روکنے اور اس سے متعلق تمام ڈیٹا کو "
+"کیا آپ کو کبھی بھی Ceno کو فوری طور پر روکنے اور اس سے متعلق تمام ڈیٹا کو "
 "صاف کرنے کی ضرورت پڑے گی (نہ صرف کیش شدہ مواد، بلکہ ترتیبات جیسے پسندیدہ، "
 "پاس ورڈ اور تمام براؤزنگ کی سرگزشت بھی)، آپ *مٹا دیں* كو دبا سکتے ہیں۔ آپ کا "
 "ڈیٹا حادثاتی طور پر ضائع ہونے سے بچنے کے لیے، یہ ابھی تک کچھ بھی نہیں ہٹائے "
@@ -212,8 +212,8 @@ msgid ""
 "![Figure: The last action stops Ceno and clears all its data](images/tap-"
 "purge.png)"
 msgstr ""
-"![تصویر: آخری کارروائی CENO کو روکتی ہے اور اس کے تمام ڈیٹا کو صاف کرتی ہے]"
-"(images/tap-purge.png)"
+"![تصویر: آخری کارروائی Ceno کو روکتی ہے اور اس کے تمام ڈیٹا کو صاف کرتی ہے]("
+"images/tap-purge.png)"
 
 #: browser/install.md:block 15 (paragraph)
 #, fuzzy
@@ -226,9 +226,9 @@ msgid ""
 "removed *without further questions*, effectively leaving your device as if "
 "Ceno had never been used."
 msgstr ""
-"اگر آپ *جی ہاں* ایکشن پر دباتے ہیں، تو CENO روک دیا جائے گا اور اس کا تمام "
+"اگر آپ *جی ہاں* ایکشن پر دباتے ہیں، تو Ceno روک دیا جائے گا اور اس کا تمام "
 "ڈیٹا *بغیر مزید سوالات کے* ہٹا دیا جائے گا، مؤثر طریقے سے آپ کے ڈیوائس کو "
-"ایسے چھوڑ دیا جائے گا جیسے CENO کبھی استعمال نہیں کیا گیا ہو۔"
+"ایسے چھوڑ دیا جائے گا جیسے Ceno کبھی استعمال نہیں کیا گیا ہو۔"
 
 #: browser/install.md:block 16 (paragraph)
 msgid "If you do not tap on the action, it will go away in a few seconds."
@@ -247,10 +247,10 @@ msgid ""
 "Android's general *Settings* page and, under the *Apps* entry, choose Ceno "
 "and then *Clear data*."
 msgstr ""
-"**نوٹ:** اوپر بیان کردہ طریقہ کا تقاضا ہے کہ CENO آپ کے ڈیوائس پر چل رہا ہو۔ "
-"اسی اثر کو پورا کرنے کے لیے جب CENO روک دیا جاتا ہے، آپ اینڈرائیڈ کا عمومی "
-"*ترتیبات* صفحہ استعمال کرسکتے ہیں اور *ایپس* کے اندراج کے تحت، CENO اور پھر "
-"*ڈیٹا صاف کریں* کا انتخاب کرسکتے ہیں۔"
+"**نوٹ:** اوپر بیان کردہ طریقہ کا تقاضا ہے کہ Ceno آپ کے ڈیوائس پر چل رہا ہو۔ "
+"اسی اثر کو پورا کرنے کے لیے جب Ceno روک دیا جاتا ہے، آپ اینڈرائیڈ کا عمومی "
+"*ترتیبات* صفحہ استعمال کرسکتے ہیں اور *ایپس* کے اندراج کے تحت، Ceno اور پھر *"
+"ڈیٹا صاف کریں* کا انتخاب کرسکتے ہیں۔"
 
 #: browser/install.md:block 17 (quote)
 msgid "As a harsher alternative, you may completely uninstall the app."
