@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-17 03:10+0000\n"
+"PO-Revision-Date: 2023-05-17 03:14+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/censorship-no/"
 "risks/id/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 
 #: concepts/risks.md:block 1 (header)
 msgid "Risks in using Ceno/Ouinet"
-msgstr "Risiko dalam menggunakan CENO/Ouinet"
+msgstr "Risiko dalam menggunakan Ceno/Ouinet"
 
 #: concepts/risks.md:block 2 (paragraph)
 msgid ""
