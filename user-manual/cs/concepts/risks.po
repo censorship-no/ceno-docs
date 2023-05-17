@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-07 20:47+0000\n"
-"Last-Translator: Polina <kosp05@vse.cz>\n"
+"PO-Revision-Date: 2023-05-17 03:10+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/censorship-no/"
 "risks/cs/>\n"
 "Language: cs\n"
@@ -12,19 +12,10 @@ msgstr ""
 "X-Generator: Weblate 4.18-dev\n"
 
 #: concepts/risks.md:block 1 (header)
-#, fuzzy
-#| msgid "Risks in using CENO/Ouinet"
 msgid "Risks in using Ceno/Ouinet"
 msgstr "Rizika při používání CENO / Ouinet"
 
 #: concepts/risks.md:block 2 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "As with any sufficiently complex computing system, and especially such an "
-#| "innovative one, using CENO Browser (and any Ouinet client in general) is "
-#| "not free from some risks. In this section we will compile and describe "
-#| "them to help you understand their implications according to the different "
-#| "roles you may play when using CENO:"
 msgid ""
 "As with any sufficiently complex computing system, and especially such an "
 "innovative one, using Ceno Browser (and any Ouinet client in general) is not "
