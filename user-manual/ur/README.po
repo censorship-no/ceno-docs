@@ -6,7 +6,7 @@ msgstr ""
 "Language-Team: Urdu <https://hosted.weblate.org/projects/censorship-no/"
 "homepage-readme/ur/>\n"
 "Language: ur\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.17-dev\n"
@@ -16,19 +16,30 @@ msgid "Censorship.no! User Manual"
 msgstr "Censorship.no! یوزر مینوئل"
 
 #: README.md:block 2 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "This manual is aimed at users of [CENO Browser][CENO Browser] and related "
+#| "technologies, as created for the [Censorship.no!][Censorship.no!] project "
+#| "by [eQualitie][eQualitie]."
 msgid ""
-"This manual is aimed at users of [CENO Browser][CENO Browser] and related "
+"This manual is aimed at users of [Ceno Browser][Ceno Browser] and related "
 "technologies, as created for the [Censorship.no!][Censorship.no!] project by "
 "[eQualitie][eQualitie]."
 msgstr ""
 "اس ہدایت نامہ کا مقصد [CENO براؤزر][CENO Browser] اور متعلقہ ٹیکنالوجیز کے "
-"صارفین کے لیے ہے، جیسا کہ [eQualitie][eQualitie] کے [Censorship."
-"no!][Censorship.no!] پروجیکٹ کے لیے بنایا گیا ہے۔"
+"صارفین کے لیے ہے، جیسا کہ [eQualitie][eQualitie] کے [Censorship.no!]"
+"[Censorship.no!] پروجیکٹ کے لیے بنایا گیا ہے۔"
 
 #: README.md:block 3 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "If you are looking for technical documentation, please refer to the [CENO "
+#| "documentation repository][CENO documentation repository], where you will "
+#| "find pointers for further reading and details on implementation, as well "
+#| "as the [protocol specifications][protocol specifications]."
 msgid ""
-"If you are looking for technical documentation, please refer to the [CENO "
-"documentation repository][CENO documentation repository], where you will "
+"If you are looking for technical documentation, please refer to the [Ceno "
+"documentation repository][Ceno documentation repository], where you will "
 "find pointers for further reading and details on implementation, as well as "
 "the [protocol specifications][protocol specifications]."
 msgstr ""
@@ -38,7 +49,9 @@ msgstr ""
 "گے۔"
 
 #: README.md:block 3 (paragraph)
-msgid "[CENO Browser]: https://github.com/censorship-no/ceno-browser"
+#, fuzzy
+#| msgid "[CENO Browser]: https://github.com/censorship-no/ceno-browser"
+msgid "[Ceno Browser]: https://github.com/censorship-no/ceno-browser"
 msgstr "[CENO Browser]: https://github.com/censorship-no/ceno-browser"
 
 #: README.md:block 3 (paragraph)
@@ -50,8 +63,12 @@ msgid "[eQualitie]: https://equalit.ie/"
 msgstr "[eQualitie]: https://equalit.ie/"
 
 #: README.md:block 3 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "[CENO documentation repository]: https://github.com/censorship-no/ceno-"
+#| "docs/"
 msgid ""
-"[CENO documentation repository]: https://github.com/censorship-no/ceno-docs/"
+"[Ceno documentation repository]: https://github.com/censorship-no/ceno-docs/"
 msgstr "[CENO دستاویزات کا ذخیرہ]: https://github.com/censorship-no/ceno-docs/"
 
 #: README.md:block 3 (paragraph)

@@ -20,10 +20,17 @@ msgid "Annex: The Ouinet client front-end"
 msgstr "နောက်ဆက်တွဲ - Ouinet သုံးစွဲသူအတွက် စာမျက်နှာ"
 
 #: client/front-end.md:block 2 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "The Ouinet client (as run by e.g. CENO Browser) offers a front-end page "
+#| "with some information and actions which may be useful for debugging the "
+#| "client. Many of them are also offered by the CENO Extension via the "
+#| "[*CENO Settings* page](../browser/settings.md), though others are only "
+#| "available here."
 msgid ""
-"The Ouinet client (as run by e.g. CENO Browser) offers a front-end page with "
+"The Ouinet client (as run by e.g. Ceno Browser) offers a front-end page with "
 "some information and actions which may be useful for debugging the client. "
-"Many of them are also offered by the CENO Extension via the [*CENO Settings* "
+"Many of them are also offered by the Ceno Extension via the [*Ceno Settings* "
 "page](../browser/settings.md), though others are only available here."
 msgstr ""
 "Ouinet သုံးစွဲသူ (ဥပမာ - CENO ဘရောက်ဇာ ကိုသုံးထားသော အပ်ပလီကေးရှင်း) တွင် အပ်ပလီကေးရှင်းရှိ "
@@ -31,14 +38,19 @@ msgstr ""
 "ထည့်သွင်းထားသည်။ ၎င်းတို့အနက် အချို့ကို CENO အဆက်တွင် ရယူအသုံးပြုနိုင်မည် မဟုတ်ပါ။"
 
 #: client/front-end.md:block 3 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "The front-end is accessible using any plain Web browser running on the "
+#| "same device (you can use CENO too). Its default address is "
+#| "<http://127.0.0.1:8078/>. If you open it, you will see something like the "
+#| "figure below."
 msgid ""
 "The front-end is accessible using any plain Web browser running on the same "
-"device (you can use CENO too). Its default address is <http://127.0.0.1:8078/"
+"device (you can use Ceno too). Its default address is <http://127.0.0.1:8078/"
 ">. If you open it, you will see something like the figure below."
 msgstr ""
-"ထိုရှေ့စာမျက်နှာကို သင့်စက်ရှိ မည်သည့် ဘရောက်ဇာနှင့်မဆို ဖွင့်ကြည့်နိုင်သည် ("
-"CENO ဘရောက်ဇာကိုလည်း သုံးနိုင်သည်)။ လိပ်စာမှာ <http://127.0.0.1:8078/> "
-"ဖြစ်သည်။ ဖွင့်လိုက်လျှင် ဤသို့တွေ့ရမည်။"
+"ထိုရှေ့စာမျက်နှာကို သင့်စက်ရှိ မည်သည့် ဘရောက်ဇာနှင့်မဆို ဖွင့်ကြည့်နိုင်သည် (CENO ဘရောက်ဇာကိုလည်း သုံးနိုင်သည်)။ "
+"လိပ်စာမှာ <http://127.0.0.1:8078/> ဖြစ်သည်။ ဖွင့်လိုက်လျှင် ဤသို့တွေ့ရမည်။"
 
 #: client/front-end.md:block 4 (paragraph)
 msgid "![Figure: The client front-end](images/front-end.png)"
@@ -56,10 +68,17 @@ msgstr ""
 "သင့်ဘရောက်ဇာတွင် အက်အပလီကေးရှင်းကို HTTPS ဖြင့် ချိတ်ဆက်နိုင်ရန် လိုအပ်သည့် ခွင့်ပြုချက်လက်မှတ် (CA) ရယူရန် လင့်ခ်"
 
 #: client/front-end.md:block 6 (unordered list)
+#, fuzzy
+#| msgid ""
+#| "You only need this to use a plain browser for testing the Ouinet client, "
+#| "in which case you will also have to configure its HTTP/HTTPS proxies to "
+#| "`127.0.0.1:8077`, and manually enable the [CENO Extension][CENO "
+#| "Extension] for injection to work. We very strongly recommend using a "
+#| "*separate, specific browser profile* for this purpose."
 msgid ""
 "You only need this to use a plain browser for testing the Ouinet client, in "
 "which case you will also have to configure its HTTP/HTTPS proxies to "
-"`127.0.0.1:8077`, and manually enable the [CENO Extension][CENO Extension] "
+"`127.0.0.1:8077`, and manually enable the [Ceno Extension][Ceno Extension] "
 "for injection to work. We very strongly recommend using a *separate, "
 "specific browser profile* for this purpose."
 msgstr ""
@@ -69,8 +88,12 @@ msgstr ""
 "ပရိုဖိုင်ကို* အသုံးပြုရန် အကြံပြုပါသည်။"
 
 #: client/front-end.md:block 6 (unordered list)
+#, fuzzy
+#| msgid ""
+#| "Please note that none of this needs to be done for CENO Browser, since it "
+#| "is already configured like that."
 msgid ""
-"Please note that none of this needs to be done for CENO Browser, since it is "
+"Please note that none of this needs to be done for Ceno Browser, since it is "
 "already configured like that."
 msgstr ""
 "အထူးသတိပြုရမည်မှာ CENO ဘရောက်ဇာကို အသုံးပြုထားလျှင် ရှေ့တွင် ဖော်ပြထားသည့် လမ်းညွှန်ချက်များကို "
@@ -139,13 +162,20 @@ msgstr ""
 "ထိုမှတ်ဉာဏ်အချက်အလက်များအားလုံးကို လုံးဝပိတ်ပစ်နိုင်သော ခလုတ်တစ်ခုတို့ပါဝင်သည်။"
 
 #: client/front-end.md:block 6 (unordered list)
+#, fuzzy
+#| msgid ""
+#| "The directory of the external, static cache if enabled (CENO does not "
+#| "currently use this)."
 msgid ""
-"The directory of the external, static cache if enabled (CENO does not "
+"The directory of the external, static cache if enabled (Ceno does not "
 "currently use this)."
 msgstr ""
 "အကယ်၍ ဖွင့်ထားပါက ပြင်ပ၊ တည်တံ့သော ယာယီမှတ်ဥာဏ်၏ လမ်းကြောင်း (CENO သည် ဒီအရာကို လက်ရှိတွင် "
 "အသုံးမပြုပါ)။"
 
 #: client/front-end.md:block 6 (unordered list)
-msgid "[CENO Extension]: https://github.com/censorship-no/ceno-ext-settings/"
+#, fuzzy
+#| msgid ""
+#| "[CENO Extension]: https://github.com/censorship-no/ceno-ext-settings/"
+msgid "[Ceno Extension]: https://github.com/censorship-no/ceno-ext-settings/"
 msgstr "[CENO အဆက်]: https://github.com/censorship-no/ceno-ext-settings/"

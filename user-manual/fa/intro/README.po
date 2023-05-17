@@ -95,8 +95,12 @@ msgstr ""
 "به‌طریقی به آن دسترسی پیدا کنم و ما با فاصله‌ی چند خیابان از هم زندگی کنیم."
 
 #: intro/README.md:block 6 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "This is where CENO Browser and Ouinet come into play. This chapter will "
+#| "introduce you to them."
 msgid ""
-"This is where CENO Browser and Ouinet come into play. This chapter will "
+"This is where Ceno Browser and Ouinet come into play. This chapter will "
 "introduce you to them."
 msgstr ""
 "این جایی است که مرورگر CENO و Ouinet وارد بازی می‌شوند. این فصل آن‌ها را به "

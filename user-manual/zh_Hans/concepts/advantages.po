@@ -12,14 +12,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 3.3.6\n"
 
-#
 #: concepts/advantages.md:block 1 (header)
-msgid "Advantages of using CENO/Ouinet"
+msgid "Advantages of using Ceno/Ouinet"
 msgstr ""
 
 #: concepts/advantages.md:block 2 (paragraph)
 msgid ""
-"The main advantages of using CENO and Ouinet over other circumvention "
+"The main advantages of using Ceno and Ouinet over other circumvention "
 "technologies stem from the cooperation of clients and injectors to forward "
 "traffic for one another, sign content for later verification, and store "
 "signed content for seeding to others. Some advantages worth mentioning are:"
@@ -27,7 +26,7 @@ msgstr ""
 
 #: concepts/advantages.md:block 3 (unordered list)
 msgid ""
-"**Familiar usage:** Accessing Web content using CENO Browser feels quite "
+"**Familiar usage:** Accessing Web content using Ceno Browser feels quite "
 "like surfing the Web on your habitual browser, even during complete "
 "blocking. There is no need for new custom links to popular content, or "
 "special actions from the user (like transferring files between applications)."
@@ -38,7 +37,7 @@ msgid ""
 "**Increased availability of content:** Ouinet is able to provide content in "
 "an efficient and trusted manner in situations of extreme network "
 "interference. The more popular some particular content gets, the more copies "
-"of it get seeded by CENO/Ouinet clients, and the more available it becomes."
+"of it get seeded by Ceno/Ouinet clients, and the more available it becomes."
 msgstr ""
 
 #: concepts/advantages.md:block 3 (unordered list)
@@ -63,7 +62,7 @@ msgstr ""
 #: concepts/advantages.md:block 3 (unordered list)
 msgid ""
 "**Cheaper browsing:** Content popular in a particular region tends to get "
-"copied in CENO/Ouinet clients in that region, even if the origin server is "
+"copied in Ceno/Ouinet clients in that region, even if the origin server is "
 "abroad. If you are interested in that content, your client will probably get "
 "it from some other client in your region. In some countries where "
 "international traffic is more expensive than local one (e.g. in the presence "

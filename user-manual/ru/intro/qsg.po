@@ -11,8 +11,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.11-dev\n"
 
 #
@@ -21,17 +21,23 @@ msgid "Quick start guide"
 msgstr "Краткое руководство"
 
 #: intro/qsg.md:block 2 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "CENO Browser allows you to access any website on the Internet, even if it "
+#| "is censored in your country. CENO uses a peer-to-peer infrastructure to "
+#| "route your requests, as well as to store and share retrieved content with "
+#| "others. [Read more about CENO](ceno.md)."
 msgid ""
-"CENO Browser allows you to access any website on the Internet, even if it is "
-"censored in your country. CENO uses a peer-to-peer infrastructure to route "
+"Ceno Browser allows you to access any website on the Internet, even if it is "
+"censored in your country. Ceno uses a peer-to-peer infrastructure to route "
 "your requests, as well as to store and share retrieved content with others. "
-"[Read more about CENO](ceno.md)."
+"[Read more about Ceno](ceno.md)."
 msgstr ""
 "Браузер CENO позволяет вам получить доступ к любому сайту в интернете, даже "
 "если он подвергается цензуре в вашей стране. CENO использует одноранговую "
 "инфраструктуру для маршрутизации ваших запросов, а также для хранения и "
-"обмена полученным контентом с другими пользователями. [Подробнее о CENO](ceno"
-".md)."
+"обмена полученным контентом с другими пользователями. [Подробнее о CENO]"
+"(ceno.md)."
 
 #: intro/qsg.md:block 3 (header)
 msgid "How to get started"
@@ -42,8 +48,12 @@ msgid "You will need an Android device:"
 msgstr "Вам потребуется устройство Android:"
 
 #: intro/qsg.md:block 5 (ordered list)
+#, fuzzy
+#| msgid ""
+#| "Install CENO Browser from [Google Play][ceno-gplay], [GitHub][ceno-gh] or "
+#| "[Paskoocheh][ceno-pask]. *No special permissions are needed*."
 msgid ""
-"Install CENO Browser from [Google Play][ceno-gplay], [GitHub][ceno-gh] or "
+"Install Ceno Browser from [Google Play][ceno-gplay], [GitHub][ceno-gh] or "
 "[Paskoocheh][ceno-pask]. *No special permissions are needed*."
 msgstr ""
 "Установите Браузер CENO из [Google Play][ceno-gplay], [GitHub][ceno-gh] или "
@@ -66,7 +76,9 @@ msgstr ""
 "concepts/public-private.md))."
 
 #: intro/qsg.md:block 5 (ordered list)
-msgid "Tap on the CENO notification to stop it completely."
+#, fuzzy
+#| msgid "Tap on the CENO notification to stop it completely."
+msgid "Tap on the Ceno notification to stop it completely."
 msgstr "Нажмите на уведомление CENO, чтобы полностью остановить его."
 
 #: intro/qsg.md:block 6 (paragraph)
@@ -79,12 +91,16 @@ msgid "Configuration"
 msgstr "Настройка"
 
 #: intro/qsg.md:block 8 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "CENO Browser should work out-of-the-box. You can find some [diagnostics "
+#| "and settings](../browser/settings.md) under the *CENO* menu entry."
 msgid ""
-"CENO Browser should work out-of-the-box. You can find some [diagnostics and "
-"settings](../browser/settings.md) under the *CENO* menu entry."
+"Ceno Browser should work out-of-the-box. You can find some [diagnostics and "
+"settings](../browser/settings.md) under the *Ceno* menu entry."
 msgstr ""
-"Браузер CENO должен работать «из коробки». Вы можете найти некоторые ["
-"диагностики и настройки](../browser/settings.md) под пунктом меню *CENO*."
+"Браузер CENO должен работать «из коробки». Вы можете найти некоторые "
+"[диагностики и настройки](../browser/settings.md) под пунктом меню *CENO*."
 
 #: intro/qsg.md:block 9 (paragraph)
 msgid ""

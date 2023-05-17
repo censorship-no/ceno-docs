@@ -20,11 +20,17 @@ msgid "Quick start guide"
 msgstr "Hızlı başlangıç rehberi"
 
 #: intro/qsg.md:block 2 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "CENO Browser allows you to access any website on the Internet, even if it "
+#| "is censored in your country. CENO uses a peer-to-peer infrastructure to "
+#| "route your requests, as well as to store and share retrieved content with "
+#| "others. [Read more about CENO](ceno.md)."
 msgid ""
-"CENO Browser allows you to access any website on the Internet, even if it is "
-"censored in your country. CENO uses a peer-to-peer infrastructure to route "
+"Ceno Browser allows you to access any website on the Internet, even if it is "
+"censored in your country. Ceno uses a peer-to-peer infrastructure to route "
 "your requests, as well as to store and share retrieved content with others. "
-"[Read more about CENO](ceno.md)."
+"[Read more about Ceno](ceno.md)."
 msgstr ""
 "CENO Browser, ülkenizde yasaklanmış olsa bile internet üzerindeki tüm "
 "sitelere erişmenizi sağlar. CENO siteye yaptığınız erişim isteklerini "
@@ -40,8 +46,12 @@ msgid "You will need an Android device:"
 msgstr "Android bir aygıta gerek duyacaksınız:"
 
 #: intro/qsg.md:block 5 (ordered list)
+#, fuzzy
+#| msgid ""
+#| "Install CENO Browser from [Google Play][ceno-gplay], [GitHub][ceno-gh] or "
+#| "[Paskoocheh][ceno-pask]. *No special permissions are needed*."
 msgid ""
-"Install CENO Browser from [Google Play][ceno-gplay], [GitHub][ceno-gh] or "
+"Install Ceno Browser from [Google Play][ceno-gplay], [GitHub][ceno-gh] or "
 "[Paskoocheh][ceno-pask]. *No special permissions are needed*."
 msgstr ""
 "CENO Browser uygulamasını [Google Play][ceno-gplay], [GitHub][ceno-gh] ya da "
@@ -64,7 +74,9 @@ msgstr ""
 "karşılaştırması](../concepts/public-private.md) bölümüne bakabilirsiniz)."
 
 #: intro/qsg.md:block 5 (ordered list)
-msgid "Tap on the CENO notification to stop it completely."
+#, fuzzy
+#| msgid "Tap on the CENO notification to stop it completely."
+msgid "Tap on the Ceno notification to stop it completely."
 msgstr "Tamamen durdurmak için CENO bildirimine dokunun."
 
 #: intro/qsg.md:block 6 (paragraph)
@@ -78,9 +90,13 @@ msgid "Configuration"
 msgstr "Yapılandırma"
 
 #: intro/qsg.md:block 8 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "CENO Browser should work out-of-the-box. You can find some [diagnostics "
+#| "and settings](../browser/settings.md) under the *CENO* menu entry."
 msgid ""
-"CENO Browser should work out-of-the-box. You can find some [diagnostics and "
-"settings](../browser/settings.md) under the *CENO* menu entry."
+"Ceno Browser should work out-of-the-box. You can find some [diagnostics and "
+"settings](../browser/settings.md) under the *Ceno* menu entry."
 msgstr ""
 "CENO Browser açıldığı anda kullanılabilir. Menüdeki *CENO* seçeneğinde "
 "çeşitli [tanılayıcılar ve ayarlar](../browser/settings.md) bulabilirsiniz."

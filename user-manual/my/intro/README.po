@@ -95,12 +95,16 @@ msgstr ""
 "ထိုအကြောင်းအရာကို ရရှိနိုင်မည် မဟုတ်ပါ။"
 
 #: intro/README.md:block 6 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "This is where CENO Browser and Ouinet come into play. This chapter will "
+#| "introduce you to them."
 msgid ""
-"This is where CENO Browser and Ouinet come into play. This chapter will "
+"This is where Ceno Browser and Ouinet come into play. This chapter will "
 "introduce you to them."
 msgstr ""
-"ဤနေရာတွင် CENO ဘရောက်ဇာနှင့် Ouinet သည် အရေးပါလာပါပြီ။ ဤအခန်းတွင် သင့်အား "
-"၎င်းတို့နှင့် မိတ်ဆက်ပေးပါမည်။"
+"ဤနေရာတွင် CENO ဘရောက်ဇာနှင့် Ouinet သည် အရေးပါလာပါပြီ။ ဤအခန်းတွင် သင့်အား ၎င်းတို့နှင့် "
+"မိတ်ဆက်ပေးပါမည်။"
 
 #: intro/README.md:block 6 (paragraph)
 msgid "[ooni-reports]: https://ooni.org/reports/"

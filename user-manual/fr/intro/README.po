@@ -36,9 +36,9 @@ msgstr ""
 "d'exercer ses droits fondamentaux. En parallèle, on a constaté ces dernières "
 "années une nette augmentation de toutes sortes de censure et autres types "
 "d'interférences sur les réseaux (voir les rapports de l'[OONI](https://ooni."
-"org/reports/ « Open Observatory of Network Interference - Research reports »)"
-", [Magma](https://magma.lavafeld.org/publications/ « Magma publications »), ["
-"Censored Planet](https://censoredplanet.org/reports « Censored Planet - "
+"org/reports/ « Open Observatory of Network Interference - Research reports "
+"»), [Magma](https://magma.lavafeld.org/publications/ « Magma publications "
+"»), [Censored Planet](https://censoredplanet.org/reports « Censored Planet - "
 "Reports »)), aussi bien de la part d'acteurs privés que de l'État."
 
 #: intro/README.md:block 3 (paragraph)
@@ -102,8 +102,12 @@ msgstr ""
 "accès il y a quelques heures et que nous vivons à quelques rues de distance."
 
 #: intro/README.md:block 6 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "This is where CENO Browser and Ouinet come into play. This chapter will "
+#| "introduce you to them."
 msgid ""
-"This is where CENO Browser and Ouinet come into play. This chapter will "
+"This is where Ceno Browser and Ouinet come into play. This chapter will "
 "introduce you to them."
 msgstr ""
 "C'est là que le navigateur CENO et Ouinet entrent en jeu. Ce chapitre va "

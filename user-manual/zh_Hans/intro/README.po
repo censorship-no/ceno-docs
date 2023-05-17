@@ -95,7 +95,7 @@ msgstr ""
 #| "This is where the CENO Browser and Ouinet come into play. This chapter "
 #| "will introduce you to them."
 msgid ""
-"This is where CENO Browser and Ouinet come into play. This chapter will "
+"This is where Ceno Browser and Ouinet come into play. This chapter will "
 "introduce you to them."
 msgstr "这就是CENO浏览器和Ouinet发挥作用的地方。本章将向你进行介绍。"
 
