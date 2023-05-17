@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-17 03:09+0000\n"
+"PO-Revision-Date: 2023-05-17 03:12+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "censorship-no/homepage-readme/pt_BR/>\n"
@@ -16,11 +16,6 @@ msgid "Censorship.no! User Manual"
 msgstr "Censorship.no! Manual de Usuário"
 
 #: README.md:block 2 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "This manual is aimed at users of [CENO Browser][CENO Browser] and related "
-#| "technologies, as created for the [Censorship.no!][Censorship.no!] project "
-#| "by [eQualitie][eQualitie]."
 msgid ""
 "This manual is aimed at users of [Ceno Browser][Ceno Browser] and related "
 "technologies, as created for the [Censorship.no!][Censorship.no!] project by "
@@ -31,12 +26,6 @@ msgstr ""
 "no!][Censorship.no!] pela [eQualitie][eQualitie]."
 
 #: README.md:block 3 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "If you are looking for technical documentation, please refer to the [CENO "
-#| "documentation repository][CENO documentation repository], where you will "
-#| "find pointers for further reading and details on implementation, as well "
-#| "as the [protocol specifications][protocol specifications]."
 msgid ""
 "If you are looking for technical documentation, please refer to the [Ceno "
 "documentation repository][Ceno documentation repository], where you will "
@@ -50,8 +39,6 @@ msgstr ""
 "protocolo]."
 
 #: README.md:block 3 (paragraph)
-#, fuzzy
-#| msgid "[CENO Browser]: https://github.com/censorship-no/ceno-browser"
 msgid "[Ceno Browser]: https://github.com/censorship-no/ceno-browser"
 msgstr "[Navegador Ceno]: https://github.com/censorship-no/ceno-browser"
 
@@ -64,10 +51,6 @@ msgid "[eQualitie]: https://equalit.ie/"
 msgstr "[eQualitie]: https://equalit.ie/"
 
 #: README.md:block 3 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "[CENO documentation repository]: https://github.com/censorship-no/ceno-"
-#| "docs/"
 msgid ""
 "[Ceno documentation repository]: https://github.com/censorship-no/ceno-docs/"
 msgstr ""
