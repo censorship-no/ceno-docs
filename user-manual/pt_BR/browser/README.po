@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-04-29 08:50+0000\n"
-"Last-Translator: luana <luanafaustini@tutanota.com>\n"
+"PO-Revision-Date: 2023-05-17 03:06+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "censorship-no/browser-readme/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -12,19 +12,10 @@ msgstr ""
 "X-Generator: Weblate 4.18-dev\n"
 
 #: browser/README.md:block 1 (header)
-#, fuzzy
-#| msgid "Using CENO Browser"
 msgid "Using Ceno Browser"
-msgstr "Usando o Navegador CENO"
+msgstr "Usando o Navegador Ceno"
 
 #: browser/README.md:block 2 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "This chapter gives you some hints on the usage of CENO Browser as far as "
-#| "its Ouinet-related capabilities are concerned. Please always keep in mind "
-#| "that CENO is based on [Firefox for Android][Firefox for Android], so for "
-#| "all questions on generic browsing topics you should refer to Mozilla's "
-#| "[Firefox for Android Support][Firefox for Android Support] pages."
 msgid ""
 "This chapter gives you some hints on the usage of Ceno Browser as far as its "
 "Ouinet-related capabilities are concerned. Please always keep in mind that "
@@ -32,20 +23,14 @@ msgid ""
 "questions on generic browsing topics you should refer to Mozilla's [Firefox "
 "for Android Support][Firefox for Android Support] pages."
 msgstr ""
-"Este capítulo mostra algumas dicas no uso do Navegador CENO no que diz "
+"Este capítulo mostra algumas dicas no uso do Navegador Ceno no que diz "
 "respeito aos recursos relacionados à Ouinet. Por favor, lembre-se sempre que "
-"o CENO é baseado em [Firefox para Android][Firefox para Android], então para "
+"o Ceno é baseado em [Firefox para Android][Firefox para Android], então para "
 "todas as perguntas em tópicos sobre navegação genérica você deve consultar "
-"as páginas [Suporte do Firefox para Android][Suporte do Firefox para "
-"Android] da Mozilla."
+"as páginas [Suporte do Firefox para Android][Suporte do Firefox para Android]"
+" da Mozilla."
 
 #: browser/README.md:block 3 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "When relevant, screen captures will be included to illustrate the text. "
-#| "Please note that these may slightly differ from what you see on your "
-#| "device, especially as CENO development progresses. This documentation is "
-#| "up to date for CENO version 1.6.0."
 msgid ""
 "When relevant, screen captures will be included to illustrate the text. "
 "Please note that these may slightly differ from what you see on your device, "
@@ -54,7 +39,7 @@ msgid ""
 msgstr ""
 "Quando for relevante, capturas de tela serão incluídas para ilustrar o "
 "texto. Por favor, observe que elas podem divergir um pouco do que você vê em "
-"seu dispositivo, especialmente à medida que o desenvolvimento do CENO "
+"seu dispositivo, especialmente à medida que o desenvolvimento do Ceno "
 "avança. Esta documentação está atualizada para a versão 1.6.0."
 
 #: browser/README.md:block 4 (paragraph)

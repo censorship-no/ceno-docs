@@ -1,27 +1,23 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-08-19 19:20+0000\n"
-"Last-Translator: Anonynonymouse <tom.spaine60388@gmail.com>\n"
+"PO-Revision-Date: 2023-05-17 03:09+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/censorship-no/"
 "browser-install/de/>\n"
 "Language: de\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #: browser/install.md:block 1 (header)
-#, fuzzy
-#| msgid "Installing CENO"
 msgid "Installing Ceno"
-msgstr "CENO installieren"
+msgstr "Ceno installieren"
 
 #: browser/install.md:block 2 (paragraph)
-#, fuzzy
-#| msgid "CENO Browser can be installed via the following means:"
 msgid "Ceno Browser can be installed via the following means:"
-msgstr "CENO Browser kann auf folgende Weise installiert werden:"
+msgstr "Ceno Browser kann auf folgende Weise installiert werden:"
 
 #: browser/install.md:block 3 (unordered list)
 msgid ""
@@ -42,19 +38,14 @@ msgstr ""
 "vorherigen Kanälen blockieren."
 
 #: browser/install.md:block 4 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "CENO requires an ARM64 or Neon-capable ARM32 device running at least "
-#| "Android 4.1 Jelly Bean, thus most mobile devices released from late 2012 "
-#| "onward should work. CENO needs *no special permissions* to run."
 msgid ""
 "Ceno requires an ARM64 or Neon-capable ARM32 device running at least Android "
 "4.1 Jelly Bean, thus most mobile devices released from late 2012 onward "
 "should work. Ceno needs *no special permissions* to run."
 msgstr ""
-"CENO benötigt ein ARM64- oder Neon-fähiges ARM32-Gerät, auf dem mindestens "
+"Ceno benötigt ein ARM64- oder Neon-fähiges ARM32-Gerät, auf dem mindestens "
 "Android 4.1 Jelly Bean läuft. Daher sollten die meisten mobilen Geräte, die "
-"ab Ende 2012 veröffentlicht wurden, funktionieren. CENO benötigt *keine "
+"ab Ende 2012 veröffentlicht wurden, funktionieren. Ceno benötigt *keine "
 "speziellen Berechtigungen*, um zu laufen."
 
 #: browser/install.md:block 5 (quote)

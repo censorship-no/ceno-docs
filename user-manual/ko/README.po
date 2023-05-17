@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-04-20 21:49+0000\n"
+"PO-Revision-Date: 2023-05-17 03:12+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/censorship-no/"
 "homepage-readme/ko/>\n"
@@ -31,8 +31,6 @@ msgid ""
 msgstr ""
 
 #: README.md:block 3 (paragraph)
-#, fuzzy
-#| msgid "[Censorship.no!]: https://censorship.no/"
 msgid "[Ceno Browser]: https://github.com/censorship-no/ceno-browser"
 msgstr "[Censorship.no!]: https://censorship.no/"
 

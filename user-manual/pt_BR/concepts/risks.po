@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-05 06:47+0000\n"
-"Last-Translator: luana <luanafaustini@tutanota.com>\n"
+"PO-Revision-Date: 2023-05-17 03:14+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "censorship-no/risks/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -12,19 +12,10 @@ msgstr ""
 "X-Generator: Weblate 4.18-dev\n"
 
 #: concepts/risks.md:block 1 (header)
-#, fuzzy
-#| msgid "Risks in using CENO/Ouinet"
 msgid "Risks in using Ceno/Ouinet"
-msgstr "Riscos em usar CENO/Ouinet"
+msgstr "Riscos em usar Ceno/Ouinet"
 
 #: concepts/risks.md:block 2 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "As with any sufficiently complex computing system, and especially such an "
-#| "innovative one, using CENO Browser (and any Ouinet client in general) is "
-#| "not free from some risks. In this section we will compile and describe "
-#| "them to help you understand their implications according to the different "
-#| "roles you may play when using CENO:"
 msgid ""
 "As with any sufficiently complex computing system, and especially such an "
 "innovative one, using Ceno Browser (and any Ouinet client in general) is not "
@@ -33,10 +24,10 @@ msgid ""
 "may play when using Ceno:"
 msgstr ""
 "Como ocorre com todo o sistema de computação suficientemente complexo, "
-"especialmente um tão inovador, o uso do Navegador CENO (e qualquer cliente "
+"especialmente um tão inovador, o uso do Navegador Ceno (e qualquer cliente "
 "Ouinet em geral) não é isento de riscos. Nesta seção, compilaremos e "
 "descreveremos tais riscos para ajudar você a entender suas implicações de "
-"acordo com os diferentes papéis que você pode desempenhar ao usar o CENO:"
+"acordo com os diferentes papéis que você pode desempenhar ao usar o Ceno:"
 
 #: concepts/risks.md:block 3 (unordered list)
 msgid "as a *user* browsing Web sites"
@@ -118,18 +109,13 @@ msgid "Can injectors see my IP address?"
 msgstr "Injetores podem ver meu endereço de IP?"
 
 #: concepts/risks.md:block 12 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Yes. However, injectors cannot distinguish whether a request came from a "
-#| "CENO user or a bridge. Thus requests going to the injector cannot be "
-#| "reliably assigned an originating IP addresses."
 msgid ""
 "Yes. However, injectors cannot distinguish whether a request came from a "
 "Ceno user or a bridge. Thus requests going to the injector cannot be "
 "reliably assigned an originating IP addresses."
 msgstr ""
 "Sim. No entanto, injetores não podem distinguir se uma solicitação veio de "
-"um usuário do CENO ou de uma ponte. Logo, solicitações indo para o injetor "
+"um usuário do Ceno ou de uma ponte. Logo, solicitações indo para o injetor "
 "não podem confiavelmente ter um IP de origem designado a elas."
 
 #: concepts/risks.md:block 13 (header)
@@ -137,15 +123,6 @@ msgid "Can my private data leak to the distributed cache?"
 msgstr "Meus dados privados podem vazar para o cache distribuído?"
 
 #: concepts/risks.md:block 14 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Hopefully not. As mentioned above, CENO Browser tries hard to remove any "
-#| "private data (passwords, cookies…) from any request for injection. In "
-#| "addition, the injector does not itself do any seeding; in fact, its sole "
-#| "purpose is to sign content so that Ouinet clients can seed it. This means "
-#| "that when the content comes back to the client, it is further analyzed, "
-#| "and if the origin server indicated that it is of a private nature, CENO "
-#| "will not seed it either."
 msgid ""
 "Hopefully not. As mentioned above, Ceno Browser tries hard to remove any "
 "private data (passwords, cookies…) from any request for injection. In "
@@ -155,13 +132,13 @@ msgid ""
 "if the origin server indicated that it is of a private nature, Ceno will not "
 "seed it either."
 msgstr ""
-"Esperamos que não. Como mencionamos acima, o Navegador CENO se esforça para "
+"Esperamos que não. Como mencionamos acima, o Navegador Ceno se esforça para "
 "remover qualquer dado privado (senhas, cookies...) de qualquer solicitação "
 "para injetores. Além disso, o injetor em si não semeia; na verdade, o único "
 "propósito dele é assinar conteúdo de modo que clientes Ouinet possam semeá-"
 "lo. Isso significa que quando o conteúdo volta para o cliente, ele é "
 "posteriormente analizado e se o servidor de origem indicou que é de natureza "
-"privada, o CENO também não irá semeá-lo."
+"privada, o Ceno também não irá semeá-lo."
 
 #: concepts/risks.md:block 15 (paragraph)
 msgid ""
@@ -181,40 +158,28 @@ msgstr ""
 "privativa para navegá-la."
 
 #: concepts/risks.md:block 16 (header)
-#, fuzzy
-#| msgid "Can the origin server know whether I am using CENO?"
 msgid "Can the origin server know whether I am using Ceno?"
-msgstr "O servidor de origem pode saber se eu estou usando o CENO?"
+msgstr "O servidor de origem pode saber se eu estou usando o Ceno?"
 
 #: concepts/risks.md:block 17 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Most probably not. Whenever CENO contacts an origin server directly, it "
-#| "behaves as normal Firefox for Android does, so your particular device "
-#| "appears as a normal Firefox app of the same version."
 msgid ""
 "Most probably not. Whenever Ceno contacts an origin server directly, it "
 "behaves as normal Firefox for Android does, so your particular device "
 "appears as a normal Firefox app of the same version."
 msgstr ""
-"É mais provável que não. No momento em que o CENO contata um servidor de "
+"É mais provável que não. No momento em que o Ceno contata um servidor de "
 "origem diretamente, ele se comporta como um Firefox para Android comum, "
 "então seu dispositivo específico aparece como um aplicativo normal do "
 "Firefox da mesma versão."
 
 #: concepts/risks.md:block 18 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "However, when it uses an injector to get some content from its origin "
-#| "server, there are (at least) two ways for the latter to know that CENO or "
-#| "Ouinet is involved:"
 msgid ""
 "However, when it uses an injector to get some content from its origin "
 "server, there are (at least) two ways for the latter to know that Ceno or "
 "Ouinet is involved:"
 msgstr ""
 "Contudo, ao utilizar um injetor para obter conteúdo do seu servidor de "
-"origem, há (pelo menos) duas formas de o último saber que o CENO ou a Ouinet "
+"origem, há (pelo menos) duas formas de o último saber que o Ceno ou a Ouinet "
 "estão envolvidos:"
 
 #: concepts/risks.md:block 19 (ordered list)
@@ -240,13 +205,6 @@ msgstr ""
 "seu dispositivo específico."
 
 #: concepts/risks.md:block 20 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Please note that these only mark the request as coming from Ouinet, but "
-#| "they do not link it to you or your particular device. However, if the "
-#| "request did for some of the reasons mentioned in the previous question "
-#| "still contain some personally identifiable information, it could be used "
-#| "to mark you as a CENO user."
 msgid ""
 "Please note that these only mark the request as coming from Ouinet, but they "
 "do not link it to you or your particular device. However, if the request did "
@@ -259,15 +217,9 @@ msgstr ""
 "específico. No entanto, se a solicitação por alguma das razões mencionadas "
 "nas questões anteriores ainda contém algumas informações passíveis de "
 "identificação pessoal, ela poderia ser usada para marcar você como um "
-"usuário do CENO."
+"usuário do Ceno."
 
 #: concepts/risks.md:block 21 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "In general, if a particular website (such as a governmental site) expects "
-#| "you to connect to it as an identifiable individual, from a specific "
-#| "region (or from a [national intranet][National intranet]), we recommend "
-#| "that you use a normal Web browser instead of CENO."
 msgid ""
 "In general, if a particular website (such as a governmental site) expects "
 "you to connect to it as an identifiable individual, from a specific region "
@@ -277,7 +229,7 @@ msgstr ""
 "Em geral, se um website em particular (tais como websites do governo) espera "
 "que você se conecte a ele como um indivíduo identificável, de uma região "
 "específica (ou de uma [intranet nacional][intranet nacional]), recomendamos "
-"que use um navegador Web comum ao invés do CENO."
+"que use um navegador Web comum ao invés do Ceno."
 
 #: concepts/risks.md:block 22 (header)
 msgid "As a seeder"
@@ -288,19 +240,13 @@ msgid "What data is seeded from my device?"
 msgstr "Quais dados estão sendo semeados a partir do meu dispositivo?"
 
 #: concepts/risks.md:block 24 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Currently, the only content that is seeded by CENO is any non-private Web "
-#| "content which was requested in public browsing mode. This also means that "
-#| "users do not seed anything they have not accessed themselves in the "
-#| "recent past."
 msgid ""
 "Currently, the only content that is seeded by Ceno is any non-private Web "
 "content which was requested in public browsing mode. This also means that "
 "users do not seed anything they have not accessed themselves in the recent "
 "past."
 msgstr ""
-"Atualmente, o único conteúdo semeado pelo CENO é qualquer conteúdo Web não "
+"Atualmente, o único conteúdo semeado pelo Ceno é qualquer conteúdo Web não "
 "privativo que foi requisitado no modo de navegação pública. Isso significa, "
 "também, que usuários não semeiam nada que eles não tenham eles mesmos "
 "acessado em um passado recente."
@@ -332,16 +278,11 @@ msgid "Can others find my IP address?"
 msgstr "Outras pessoas podem encontrar meu endereço de IP?"
 
 #: concepts/risks.md:block 29 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Yes, every CENO Browser able to communicate with injectors will register "
-#| "its IP address in the bridge swarm where other Ouinet clients can find "
-#| "them."
 msgid ""
 "Yes, every Ceno Browser able to communicate with injectors will register its "
 "IP address in the bridge swarm where other Ouinet clients can find them."
 msgstr ""
-"Sim, todo Navegador CENO capaz de se comunicar com injetores registrará seus "
+"Sim, todo Navegador Ceno capaz de se comunicar com injetores registrará seus "
 "endereços de IP no enxame de pontes onde outros clientes Ouinet podem "
 "encontrá-los."
 

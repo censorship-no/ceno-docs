@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-12-20 21:47+0000\n"
+"PO-Revision-Date: 2023-05-17 03:03+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-settings/uk/>\n"
@@ -10,22 +10,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.15.1-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #: browser/settings.md:block 1 (header)
-#, fuzzy
-#| msgid "CENO settings"
 msgid "Ceno settings"
-msgstr "Налаштування CENO"
+msgstr "Налаштування Ceno"
 
 #: browser/settings.md:block 2 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "CENO Browser allows you to change some Ouinet-specific settings and get "
-#| "information about your client in a simple manner. This should not be "
-#| "needed for normal operation, but it would be helpful for testing "
-#| "different strategies against network interference, as well as reporting "
-#| "issues with the app."
 msgid ""
 "Ceno Browser allows you to change some Ouinet-specific settings and get "
 "information about your client in a simple manner. This should not be needed "
@@ -33,20 +24,12 @@ msgid ""
 "strategies against network interference, as well as reporting issues with "
 "the app."
 msgstr ""
-"Браузер CENO дозволяє змінити деякі налаштування Ouinet та швидко отримати "
+"Браузер Ceno дозволяє змінити деякі налаштування Ouinet та швидко отримати "
 "інформацію про клієнта. Це не є необхідним для нормальної роботи, але буде "
 "корисно для тестування різних стратегій проти втручання в роботу мережі, а "
 "також для повідомлення про несправності роботи програми."
 
 #: browser/settings.md:block 3 (quote)
-#, fuzzy
-#| msgid ""
-#| "**Technical note:** These options are provided by the *CENO Extension*, a "
-#| "Firefox extension which comes installed out of the box with CENO and "
-#| "takes care of proper integration with Ouinet, like enabling content "
-#| "injection and cache retrieval under public browsing, hinting the user "
-#| "about the source of the content being visualized, and notifying about new "
-#| "versions of Ouinet."
 msgid ""
 "**Technical note:** These options are provided by the *Ceno Extension*, a "
 "Firefox extension which comes installed out of the box with Ceno and takes "
@@ -54,45 +37,32 @@ msgid ""
 "cache retrieval under public browsing, hinting the user about the source of "
 "the content being visualized, and notifying about new versions of Ouinet."
 msgstr ""
-"**Технічна примітка:** Ці параметри надаються *розширенням CENO* – "
-"розширенням Firefox, що встановлюється разом із CENO та забезпечує "
+"**Технічна примітка:** Ці параметри надаються *розширенням Ceno* – "
+"розширенням Firefox, що встановлюється разом із Ceno та забезпечує "
 "інтеграцію з Ouinet. Наприклад, воно дозволяє ділитися вмістом і отримувати "
 "його із загального кешу під час публічного перегляду, підказує користувачеві "
 "джерело наявного вмісту, і повідомляє про нові версії Ouinet."
 
 #: browser/settings.md:block 4 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "These features are available on a page that can be accessed by choosing "
-#| "*CENO* in the app's main menu. Please note that the menu entry may take a "
-#| "few seconds to pop up on app start. The page should look like this:"
 msgid ""
 "These features are available on a page that can be accessed by choosing "
 "*Ceno* in the app's main menu. Please note that the menu entry may take a "
 "few seconds to pop up on app start. The page should look like this:"
 msgstr ""
-"Ці функції доступні на сторінці, яку можна відкрити, обравши *CENO* в "
+"Ці функції доступні на сторінці, яку можна відкрити, обравши *Ceno* в "
 "головному меню програми. Зверніть увагу, що під час запуску програми для "
 "відображення цього пункту меню може знадобитися кілька секунд. Сторінка має "
 "такий вигляд:"
 
 #: browser/settings.md:block 5 (paragraph)
-#, fuzzy
-#| msgid "![Figure: The CENO Settings page](images/settings.png)"
 msgid "![Figure: The Ceno Settings page](images/settings.png)"
-msgstr "![Малюнок: Сторінка налаштувань CENO](images/settings.png)"
+msgstr "![Малюнок: Сторінка налаштувань Ceno](images/settings.png)"
 
 #: browser/settings.md:block 6 (header)
 msgid "Choosing access mechanisms"
 msgstr "Вибір варіантів доступу"
 
 #: browser/settings.md:block 7 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "The four checkboxes on the top of the page selectively enable or disable "
-#| "the different mechanisms or *sources* that CENO as a Ouinet client uses "
-#| "to retrieve content while using either [public or private browsing]"
-#| "(public-private.md) tabs. All boxes are enabled by default."
 msgid ""
 "The four checkboxes on the top of the page selectively enable or disable the "
 "different mechanisms or *sources* that Ceno as a Ouinet client uses to "
@@ -100,21 +70,16 @@ msgid ""
 "private.md) tabs. All boxes are enabled by default."
 msgstr ""
 "Чотири прапорці у верхній частині сторінки вибірково вмикають чи вимикають "
-"різні варіанти або *джерела*, що їх CENO як клієнт Ouinet використовує для "
+"різні варіанти або *джерела*, що їх Ceno як клієнт Ouinet використовує для "
 "отримання вмісту при використанні вкладок [публічного або приватного "
 "перегляду](public-private.md). За замовчуванням усі поля ввімкнені."
 
 #: browser/settings.md:block 8 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "*Direct from website* (or **origin access**) allows CENO to try to reach "
-#| "the origin server directly before attempting other mechanisms enabled "
-#| "below."
 msgid ""
 "*Direct from website* (or **origin access**) allows Ceno to try to reach the "
 "origin server directly before attempting other mechanisms enabled below."
 msgstr ""
-"*Прямо з сайту* (або **вихідний доступ**) дозволяє CENO спробувати "
+"*Прямо з сайту* (або **вихідний доступ**) дозволяє Ceno спробувати "
 "безпосередньо звʼязатися з вихідним сервером, перш ніж намагатися "
 "використовувати інші варіанти, дозволені нижче."
 
@@ -142,14 +107,6 @@ msgstr ""
 "md))."
 
 #: browser/settings.md:block 8 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "Also, when accessing a Web site over insecure HTTP (instead of the more "
-#| "secure HTTPS), a censor may intercept the connection and supply the user "
-#| "with a bogus site, a tampering which CENO cannot detect by itself. In "
-#| "such cases, it may help to disable this option and thus always resort to "
-#| "other, safer CENO mechanisms. Please check the section on "
-#| "[troubleshooting](troubleshooting.md) to learn more about this issue."
 msgid ""
 "Also, when accessing a Web site over insecure HTTP (instead of the more "
 "secure HTTPS), a censor may intercept the connection and supply the user "
@@ -158,23 +115,19 @@ msgid ""
 "safer Ceno mechanisms. Please check the section on [troubleshooting]"
 "(troubleshooting.md) to learn more about this issue."
 msgstr ""
-"Крім того, під час доступу до вебсайту за незахищеним протоколом HTTP "
-"(замість безпечнішого HTTPS) цензор може перехопити зʼєднання та надати "
-"користувачеві фіктивний сайт, який CENO не може виявити самостійно. У таких "
+"Крім того, під час доступу до вебсайту за незахищеним протоколом HTTP ("
+"замість безпечнішого HTTPS) цензор може перехопити зʼєднання та надати "
+"користувачеві фіктивний сайт, який Ceno не може виявити самостійно. У таких "
 "випадках корисно відключити цю опцію і завжди вдаватися до інших безпечніших "
-"способів використання CENO. Будь ласка, перегляньте розділ [усунення "
+"способів використання Ceno. Будь ласка, перегляньте розділ [усунення "
 "несправностей](troubleshooting.md), щоб дізнатися більше про цю проблему."
 
 #: browser/settings.md:block 8 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "*Via the CENO network (private)* (or **proxy access**) allows CENO to use "
-#| "injectors as normal HTTP proxy servers to reach origin servers."
 msgid ""
 "*Via the Ceno network (private)* (or **proxy access**) allows Ceno to use "
 "injectors as normal HTTP proxy servers to reach origin servers."
 msgstr ""
-"*Через приватну мережу CENO* (або **проксі-доступ**) дозволяє CENO "
+"*Через приватну мережу Ceno* (або **проксі-доступ**) дозволяє Ceno "
 "використовувати інʼєктори як звичайні проксі-сервери HTTP для доступу до "
 "вихідних серверів."
 
@@ -197,22 +150,16 @@ msgstr ""
 "трафік."
 
 #: browser/settings.md:block 8 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "*Via the CENO network (public)* (or **injector access**) enables CENO to "
-#| "strip any private information from requests and send them to an injector. "
-#| "The injector gets the content from an origin server, signs it, and sends "
-#| "it back to CENO - which then begins seeding it."
 msgid ""
 "*Via the Ceno network (public)* (or **injector access**) enables Ceno to "
 "strip any private information from requests and send them to an injector. "
 "The injector gets the content from an origin server, signs it, and sends it "
 "back to Ceno - which then begins seeding it."
 msgstr ""
-"*Через публічну мережу CENO* (або **доступ через інʼєктор**) дозволяє CENO "
+"*Через публічну мережу Ceno* (або **доступ через інʼєктор**) дозволяє Ceno "
 "видаляти особисту інформацію зі запитів та надсилати їх інʼєктору. Інʼєктор "
 "отримує вміст із вихідного сервера, підписує його та відправляє назад до "
-"CENO, який згодом починає роздавати цей вміст."
+"Ceno, який згодом починає роздавати цей вміст."
 
 #: browser/settings.md:block 8 (unordered list)
 msgid ""
@@ -224,17 +171,12 @@ msgid "This mechanism only works in public browsing mode."
 msgstr "Ця схема працює лише в режимі публічного перегляду."
 
 #: browser/settings.md:block 8 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "*Shared by other CENO users* allows CENO to try to retrieve content from "
-#| "the **distributed cache**, i.e. from other CENO and Ouinet clients "
-#| "seeding it."
 msgid ""
 "*Shared by other Ceno users* allows Ceno to try to retrieve content from the "
 "**distributed cache**, i.e. from other Ceno and Ouinet clients seeding it."
 msgstr ""
-"*Надано іншими користувачами CENO* дозволяє CENO намагатися витягти вміст із "
-"**розподіленого кешу**, тобто від інших клієнтів CENO та Ouinet, що "
+"*Надано іншими користувачами Ceno* дозволяє Ceno намагатися витягти вміст із "
+"**розподіленого кешу**, тобто від інших клієнтів Ceno та Ouinet, що "
 "передають вміст."
 
 #: browser/settings.md:block 9 (paragraph)
@@ -260,15 +202,11 @@ msgid "About your app"
 msgstr "Про Вашу програму"
 
 #: browser/settings.md:block 12 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "This page also provides you with some information about your CENO Browser "
-#| "app and Ouinet client:"
 msgid ""
 "This page also provides you with some information about your Ceno Browser "
 "app and Ouinet client:"
 msgstr ""
-"На цій сторінці також представлена інформація про застосунок браузер CENO та "
+"На цій сторінці також представлена інформація про застосунок браузер Ceno та "
 "клієнт Ouinet:"
 
 #: browser/settings.md:block 13 (unordered list)
@@ -306,47 +244,32 @@ msgstr ""
 "ефективно передавати вміст іншим клієнтам. Також додавайте до звітів."
 
 #: browser/settings.md:block 13 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "*UPnP status* indicates whether CENO was able to tell your router or "
-#| "access point to allow incoming connections towards it. Also include in "
-#| "reports."
 msgid ""
 "*UPnP status* indicates whether Ceno was able to tell your router or access "
 "point to allow incoming connections towards it. Also include in reports."
 msgstr ""
-"*Стан UPnP* показує, чи зміг CENO запитати з Вашого маршрутизатора чи точки "
+"*Стан UPnP* показує, чи зміг Ceno запитати з Вашого маршрутизатора чи точки "
 "доступу дозвіл на вхідні підключення до нього. Також додавайте до звітів."
 
 #: browser/settings.md:block 13 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "*Local UDP endpoints* are the Internet addresses in your device used by "
-#| "CENO to seed signed content to other clients. These are shown to help "
-#| "test and debug the app, and should not be generally disclosed."
 msgid ""
 "*Local UDP endpoints* are the Internet addresses in your device used by Ceno "
 "to seed signed content to other clients. These are shown to help test and "
 "debug the app, and should not be generally disclosed."
 msgstr ""
 "*Локальні кінцеві точки UDP* – це Інтернет-адреси у Вашому пристрої, які "
-"використовуються CENO для передачі підписаного вмісту іншим клієнтам. Вони "
+"використовуються Ceno для передачі підписаного вмісту іншим клієнтам. Вони "
 "показані для тестування та налагодження програми. Розкривати ці дані не "
 "потрібно."
 
 #: browser/settings.md:block 13 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "*External UDP endpoints* are the Internet addresses in your router given "
-#| "to your CENO traffic. Only available with UPnP-enabled routers, they are "
-#| "also useful for diagnostics and not to be generally disclosed."
 msgid ""
 "*External UDP endpoints* are the Internet addresses in your router given to "
 "your Ceno traffic. Only available with UPnP-enabled routers, they are also "
 "useful for diagnostics and not to be generally disclosed."
 msgstr ""
 "*Зовнішні кінцеві точки UDP* – це Інтернет-адреси у Вашому маршрутизаторі, "
-"надані для Вашого трафіку CENO. Доступні лише для маршрутизаторів з "
+"надані для Вашого трафіку Ceno. Доступні лише для маршрутизаторів з "
 "увімкненим UPnP. Вони корисні для діагностики та не підлягають розкриттю."
 
 #: browser/settings.md:block 13 (unordered list)
@@ -375,50 +298,34 @@ msgstr ""
 "наступного запуску клієнта Ouinet."
 
 #: browser/settings.md:block 13 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "*CENO Browser* indicates the exact version of CENO that you are using. "
-#| "Also include in reports."
 msgid ""
 "*Ceno Browser* indicates the exact version of Ceno that you are using. Also "
 "include in reports."
 msgstr ""
-"*Браузер CENO* вказує точну версію CENO, якою ви користуєтеся. Також "
+"*Браузер Ceno* вказує точну версію Ceno, якою ви користуєтеся. Також "
 "включається у звіти."
 
 #: browser/settings.md:block 13 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "*CENO Extension* shows the version of the extension that integrates "
-#| "Firefox with CENO. Also include in reports."
 msgid ""
 "*Ceno Extension* shows the version of the extension that integrates Firefox "
 "with Ceno. Also include in reports."
 msgstr ""
-"*Розширення CENO* показує версію розширення, яке інтегрує Firefox із CENO. "
+"*Розширення Ceno* показує версію розширення, яке інтегрує Firefox із Ceno. "
 "Також додавайте до звітів."
 
 #: browser/settings.md:block 13 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "*Ouinet* shows the version of Ouinet backing CENO. Also include in "
-#| "reports."
 msgid ""
 "*Ouinet* shows the version of Ouinet backing Ceno. Also include in reports."
 msgstr ""
-"*Ouinet* показує версію Ouinet, встановлену в CENO. Також додавайте до "
+"*Ouinet* показує версію Ouinet, встановлену в Ceno. Також додавайте до "
 "звітів."
 
 #: browser/settings.md:block 13 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "*Ouinet protocol* is the version number of the protocol that CENO uses to "
-#| "talk to other Ouinet clients and injectors. Also include in reports."
 msgid ""
 "*Ouinet protocol* is the version number of the protocol that Ceno uses to "
 "talk to other Ouinet clients and injectors. Also include in reports."
 msgstr ""
-"*Протокол Ouinet* – номер версії протоколу, який використовує CENO для "
+"*Протокол Ouinet* – номер версії протоколу, який використовує Ceno для "
 "взаємодії з іншими клієнтами Ouinet та інʼєкторами. Також додавайте до "
 "звітів."
 
@@ -427,12 +334,6 @@ msgid "Purging the local cache"
 msgstr "Очищення локального кешу"
 
 #: browser/settings.md:block 15 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Next to the *Local cache size* value above, there is a button which "
-#| "allows you to stop seeding and drop all content shared by your device "
-#| "over Ouinet. This allows you to free up some storage space in your device "
-#| "while keeping other CENO settings like Favorites."
 msgid ""
 "Next to the *Local cache size* value above, there is a button which allows "
 "you to stop seeding and drop all content shared by your device over Ouinet. "
@@ -442,16 +343,9 @@ msgstr ""
 "Поруч зі значенням *Розмір локального кешу*, описаним вище, розташована "
 "кнопка, що дозволяє зупинити роздачу та скинути весь вміст, що передається "
 "Вашим пристроєм через Ouinet. Це дозволить Вам звільнити місце в памʼяті "
-"пристрою, залишивши при цьому інші налаштування CENO, зокрема Вибране."
+"пристрою, залишивши при цьому інші налаштування Ceno, зокрема Вибране."
 
 #: browser/settings.md:block 16 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "If you want to clear CENO's normal browsing cache (the one used by the "
-#| "browser but not shared with others) or other items like cookies, browsing "
-#| "history or favorites, you should choose *Settings* in the app's main "
-#| "menu, then *Clear private data*. You will be asked about which items you "
-#| "want to clear."
 msgid ""
 "If you want to clear Ceno's normal browsing cache (the one used by the "
 "browser but not shared with others) or other items like cookies, browsing "
@@ -459,38 +353,27 @@ msgid ""
 "then *Clear private data*. You will be asked about which items you want to "
 "clear."
 msgstr ""
-"Якщо Ви хочете очистити звичайний кеш браузера CENO (той, що "
+"Якщо Ви хочете очистити звичайний кеш браузера Ceno (той, що "
 "використовується браузером, але не передається іншим користувачам) або інші "
 "елементи, зокрема куки, історію переглядів або Обране, Вам слід обрати "
 "*Налаштування* в головному меню програми, потім *Очистити особисті дані*. "
 "Вам буде запропоновано зазначити, які саме елементи Ви хочете очистити."
 
 #: browser/settings.md:block 17 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "To drop everything at the same time (especially if you are in a hurry), "
-#| "please learn how to use the \"panic button\" feature described in "
-#| "[Installing CENO](install.md)."
 msgid ""
 "To drop everything at the same time (especially if you are in a hurry), "
 "please learn how to use the \"panic button\" feature described in "
 "[Installing Ceno](install.md)."
 msgstr ""
 "Щоб скинути всі дані відразу (особливо якщо Ви поспішайте), дізнайтеся, як "
-"використовувати функцію «тривожної кнопки», що описано в розділі "
-"[Встановлення CENO](install.md)."
+"використовувати функцію «тривожної кнопки», що описано в розділі ["
+"Встановлення Ceno](install.md)."
 
 #: browser/settings.md:block 18 (header)
 msgid "Collecting log messages"
 msgstr "Збір повідомлень журналу"
 
 #: browser/settings.md:block 19 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "At the bottom of the page there is an *Enable log file* check box that "
-#| "allows you to collect all of Ouinet's internal messages and download them "
-#| "to a file. This should only be used when diagnosing some problem in CENO; "
-#| "just follow these steps:"
 msgid ""
 "At the bottom of the page there is an *Enable log file* check box that "
 "allows you to collect all of Ouinet's internal messages and download them to "
@@ -499,14 +382,12 @@ msgid ""
 msgstr ""
 "У нижній частині сторінки є прапорець *Дозволити файл журналу*, що дозволяє "
 "збирати всі внутрішні повідомлення Ouinet та завантажити їх у файл. Це слід "
-"використовувати тільки під час діагностики будь-яких несправностей CENO; "
+"використовувати тільки під час діагностики будь-яких несправностей Ceno; "
 "просто виконайте наступні кроки:"
 
 #: browser/settings.md:block 20 (ordered list)
-#, fuzzy
-#| msgid "At the *CENO Settings* page, check *Enable log file*."
 msgid "At the *Ceno Settings* page, check *Enable log file*."
-msgstr "На сторінці *Налаштування CENO* позначте *Дозволити файл журналу*."
+msgstr "На сторінці *Налаштування Ceno* позначте *Дозволити файл журналу*."
 
 #: browser/settings.md:block 20 (ordered list)
 msgid ""
@@ -517,22 +398,16 @@ msgstr ""
 "поведінку."
 
 #: browser/settings.md:block 20 (ordered list)
-#, fuzzy
-#| msgid ""
-#| "Return to the *CENO Settings* page and click on the *Download* link next "
-#| "to the *Enable log file* check box. Save the file for later use. Android "
-#| "may ask you at this point whether to allow CENO access to stored media: "
-#| "this is needed to be able to save the file."
 msgid ""
 "Return to the *Ceno Settings* page and click on the *Download* link next to "
 "the *Enable log file* check box. Save the file for later use. Android may "
 "ask you at this point whether to allow Ceno access to stored media: this is "
 "needed to be able to save the file."
 msgstr ""
-"Поверніться на сторінку *Налаштування CENO* та натисніть посилання "
+"Поверніться на сторінку *Налаштування Ceno* та натисніть посилання "
 "*Завантажити* поруч із прапорцем *Дозволити файл журналу*. Збережіть файл "
 "для подальшого використання. На цьому етапі Android може запитати, чи "
-"дозволити CENO доступ до файлової системи: це необхідно для збереження файлу."
+"дозволити Ceno доступ до файлової системи: це необхідно для збереження файлу."
 
 #: browser/settings.md:block 20 (ordered list)
 msgid "Uncheck *Enable log file* to avoid the logs from growing too large."

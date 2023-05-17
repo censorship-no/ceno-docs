@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-02-16 23:54+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalit.ie>\n"
+"PO-Revision-Date: 2023-05-17 03:17+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "qsg/my/>\n"
 "Language: my\n"
@@ -9,29 +9,25 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.11-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #: intro/qsg.md:block 1 (header)
 msgid "Quick start guide"
 msgstr "အသုံးပြုပုံလမ်းညွှန် (အကျဉ်းချုပ်)"
 
 #: intro/qsg.md:block 2 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "CENO Browser allows you to access any website on the Internet, even if it "
-#| "is censored in your country. CENO uses a peer-to-peer infrastructure to "
-#| "route your requests, as well as to store and share retrieved content with "
-#| "others. [Read more about CENO](ceno.md)."
 msgid ""
 "Ceno Browser allows you to access any website on the Internet, even if it is "
 "censored in your country. Ceno uses a peer-to-peer infrastructure to route "
 "your requests, as well as to store and share retrieved content with others. "
 "[Read more about Ceno](ceno.md)."
 msgstr ""
-"CENO ဘရောက်ဇာ သုံးခြင်းဖြင့် သင့်နိုင်ငံတွင် ပိတ်ဆို့ထားသော ဝဘ်ဆိုက်များအပါအဝင် အင်တာနက်ပေါ်ရှိ "
-"မည်သည့်ဝဘ်ဆိုက်ကိုမဆို ဝင်ရောက်နိုင်ပါသည်။ CENO သည် သင့်တောင်းဆိုချက်များကို ပေးပို့ရန် အသုံးပြုသူမှ အသုံးပြုသူ "
-"အချင်းချင်းကြား လုပ်ဆောင်သည့်စနစ်ကို အသုံးပြုပါသည်။ ထို့ပြင် မိမိပြန်လည်ရယူထားသော အကြောင်းအရာများကို "
-"သိမ်းဆည်းပြီး အခြားသုံးစွဲသူများနှင့် မျှဝေနိုင်ပါသည်။ [CENO အကြောင်းဖတ်ရှုရန်](ceno.md)"
+"CENO ဘရောက်ဇာ သုံးခြင်းဖြင့် သင့်နိုင်ငံတွင် ပိတ်ဆို့ထားသော "
+"ဝဘ်ဆိုက်များအပါအဝင် အင်တာနက်ပေါ်ရှိ မည်သည့်ဝဘ်ဆိုက်ကိုမဆို "
+"ဝင်ရောက်နိုင်ပါသည်။ CENO သည် သင့်တောင်းဆိုချက်များကို ပေးပို့ရန် အသုံးပြုသူမှ"
+" အသုံးပြုသူ အချင်းချင်းကြား လုပ်ဆောင်သည့်စနစ်ကို အသုံးပြုပါသည်။ ထို့ပြင် "
+"မိမိပြန်လည်ရယူထားသော အကြောင်းအရာများကို သိမ်းဆည်းပြီး အခြားသုံးစွဲသူများနှင့်"
+" မျှဝေနိုင်ပါသည်။ [CENO အကြောင်းဖတ်ရှုရန်](ceno.md)"
 
 #: intro/qsg.md:block 3 (header)
 msgid "How to get started"
@@ -42,16 +38,13 @@ msgid "You will need an Android device:"
 msgstr "Android စနစ် အသုံးပြုသော စက်ကိရိယာတစ်ခု လိုအပ်ပါသည် -"
 
 #: intro/qsg.md:block 5 (ordered list)
-#, fuzzy
-#| msgid ""
-#| "Install CENO Browser from [Google Play][ceno-gplay], [GitHub][ceno-gh] or "
-#| "[Paskoocheh][ceno-pask]. *No special permissions are needed*."
 msgid ""
 "Install Ceno Browser from [Google Play][ceno-gplay], [GitHub][ceno-gh] or "
 "[Paskoocheh][ceno-pask]. *No special permissions are needed*."
 msgstr ""
-"CENO ဘရောက်ဇာကို [Google Play][ceno-gplay]၊ [GitHub][ceno-gh] သို့မဟုတ် [Paskoocheh]"
-"[ceno-pask] မှ ဒေါင်းလုတ်ဆွဲပြီး ထည့်သွင်းပါ။ *အထူးခွင့်ပြုချက်များ မလိုအပ်ပါ*။"
+"CENO ဘရောက်ဇာကို [Google Play][ceno-gplay]၊ [GitHub][ceno-gh] သို့မဟုတ် "
+"[Paskoocheh][ceno-pask] မှ ဒေါင်းလုတ်ဆွဲပြီး ထည့်သွင်းပါ။ "
+"*အထူးခွင့်ပြုချက်များ မလိုအပ်ပါ*။"
 
 #: intro/qsg.md:block 5 (ordered list)
 msgid "Run it."
@@ -68,8 +61,6 @@ msgstr ""
 "အသုံးပြုပါ ([အများသုံးနှင့် သီးသန့် ရှာဖွေခြင်း](../concepts/public-private.md) ကိုကြည့်ပါ)။"
 
 #: intro/qsg.md:block 5 (ordered list)
-#, fuzzy
-#| msgid "Tap on the CENO notification to stop it completely."
 msgid "Tap on the Ceno notification to stop it completely."
 msgstr "CENO အသိပေးချက်ကိုနှိပ်ပြီး လုပ်ဆောင်မှုများကို လုံးဝ ရပ်လိုက်ပါ။"
 
@@ -82,16 +73,13 @@ msgid "Configuration"
 msgstr "ဖွဲ့စည်းပုံစနစ်"
 
 #: intro/qsg.md:block 8 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "CENO Browser should work out-of-the-box. You can find some [diagnostics "
-#| "and settings](../browser/settings.md) under the *CENO* menu entry."
 msgid ""
 "Ceno Browser should work out-of-the-box. You can find some [diagnostics and "
 "settings](../browser/settings.md) under the *Ceno* menu entry."
 msgstr ""
-"CENO ဘရောက်ဇာသည် လုပ်ဆောင်ချက်များကို ချက်ချင်းဆောင်ရွက်ပေးနိုင်ပါသည်။*CENO* မီနူးထဲတွင် "
-"[ပြဿနာအဖြေရှာခြင်းနှင့် ဆက်တင်များ](../browser/settings.md) ကို တွေ့နိုင်ပါသည်။"
+"CENO ဘရောက်ဇာသည် လုပ်ဆောင်ချက်များကို ချက်ချင်းဆောင်ရွက်ပေးနိုင်ပါသည်။*CENO* "
+"မီနူးထဲတွင် [ပြဿနာအဖြေရှာခြင်းနှင့် ဆက်တင်များ](../browser/settings.md) ကို "
+"တွေ့နိုင်ပါသည်။"
 
 #: intro/qsg.md:block 9 (paragraph)
 msgid ""

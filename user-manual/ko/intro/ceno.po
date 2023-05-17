@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-04-20 21:49+0000\n"
+"PO-Revision-Date: 2023-05-17 03:17+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/censorship-no/"
 "ceno/ko/>\n"
@@ -106,7 +106,6 @@ msgid "[Censorship.no!]: https://censorship.no/"
 msgstr "[Censorship.no!]: https://censorship.no/"
 
 #: intro/ceno.md:block 11 (quote)
-#, fuzzy
 msgid "[P2P]: https://en.wikipedia.org/wiki/Peer-to-peer"
 msgstr "[P2P]: https://en.wikipedia.org/wiki/Peer-to-peer"
 

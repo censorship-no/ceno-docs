@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-06-02 13:21+0000\n"
-"Last-Translator: Vitalii Moroz <vitaliy.moroz@gmail.com>\n"
+"PO-Revision-Date: 2023-05-17 03:14+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "ouinet/uk/>\n"
 "Language: uk\n"
@@ -10,21 +10,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.13-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #: intro/ouinet.md:block 1 (header)
 msgid "What is Ouinet?"
 msgstr "Що таке Ouinet?"
 
 #: intro/ouinet.md:block 2 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "[Ouinet][Ouinet] is a core technology that allows CENO Browser to share "
-#| "Web content with other devices. Ouinet comes in the form of reusable "
-#| "computer code (a library) that an application like CENO can use to become "
-#| "a participant in a network of cooperating nodes that communicate directly "
-#| "([peer-to-peer][P2P] or P2P) to help access and store new Web content, "
-#| "and to request and deliver previously accessed content to others."
 msgid ""
 "[Ouinet][Ouinet] is a core technology that allows Ceno Browser to share Web "
 "content with other devices. Ouinet comes in the form of reusable computer "
@@ -36,10 +28,10 @@ msgstr ""
 "[Ouinet][Ouinet] – це ключова технологія, яка дозволяє браузеру CENO "
 "обмінюватися мережевим вмістом з іншими пристроями. Ouinet поставляється у "
 "вигляді бібліотеки (набору методів і функцій), яку подібні програми, як то "
-"CENO можуть використовувати, щоб стати учасником однорангової ([peer-to-peer]"
-"[P2P] або P2P) мережі, де вузли взаємодіють один з одним безпосередньо для "
-"забезпечення доступу до мережевого вмісту та його зберігання, а також для "
-"запиту та доставки раніше отриманого вмісту іншим користувачам."
+"CENO можуть використовувати, щоб стати учасником однорангової ([peer-to-"
+"peer][P2P] або P2P) мережі, де вузли взаємодіють один з одним безпосередньо "
+"для забезпечення доступу до мережевого вмісту та його зберігання, а також "
+"для запиту та доставки раніше отриманого вмісту іншим користувачам."
 
 #: intro/ouinet.md:block 3 (paragraph)
 msgid ""
@@ -73,10 +65,6 @@ msgstr ""
 "клієнтами, зокрема браузерами (як локальний HTTP-проксі)."
 
 #: intro/ouinet.md:block 5 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Same as CENO Browser, Ouinet is developed by [eQualitie][eQualitie] as "
-#| "Free/Libre/Open-Source software."
 msgid ""
 "Same as Ceno Browser, Ouinet is developed by [eQualitie][eQualitie] as Free/"
 "Libre/Open-Source software."

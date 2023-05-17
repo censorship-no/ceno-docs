@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-03-14 12:03+0000\n"
-"Last-Translator: Ivan Vilata-i-Balaguer <ivan@selidor.net>\n"
+"PO-Revision-Date: 2023-05-17 03:12+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "homepage-readme/fa/>\n"
 "Language: fa\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.12-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #
 #: README.md:block 1 (header)
@@ -17,27 +17,16 @@ msgid "Censorship.no! User Manual"
 msgstr "دفترچه‌ی راهنمای کاربر Censorship.no! (سنو)"
 
 #: README.md:block 2 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "This manual is aimed at users of [CENO Browser][CENO Browser] and related "
-#| "technologies, as created for the [Censorship.no!][Censorship.no!] project "
-#| "by [eQualitie][eQualitie]."
 msgid ""
 "This manual is aimed at users of [Ceno Browser][Ceno Browser] and related "
 "technologies, as created for the [Censorship.no!][Censorship.no!] project by "
 "[eQualitie][eQualitie]."
 msgstr ""
-"این دفترچه‌ی راهنما برای کاربران [مرورگر CENO][CENO Browser] و فناوری‌های "
+"این دفترچه‌ی راهنما برای کاربران [مرورگر Ceno][Ceno Browser] و فناوری‌های "
 "مرتبط، و در چارچوب پروژه‌ی [Censorship.no!](https://censorship.no/) از "
 "[eQualitie](https://equalit.ie/) تهیه شده است."
 
 #: README.md:block 3 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "If you are looking for technical documentation, please refer to the [CENO "
-#| "documentation repository][CENO documentation repository], where you will "
-#| "find pointers for further reading and details on implementation, as well "
-#| "as the [protocol specifications][protocol specifications]."
 msgid ""
 "If you are looking for technical documentation, please refer to the [Ceno "
 "documentation repository][Ceno documentation repository], where you will "
@@ -45,16 +34,14 @@ msgid ""
 "the [protocol specifications][protocol specifications]."
 msgstr ""
 "اگر به دنبال اطلاعات فنی می‌گردید، لطفاً به [انبار اسناد سنو](https://github."
-"com/censorship-no/ceno-docs) رجوع کنید، در آن‌جا ارجاع‌هایی برای مطالعه‌ی بیشتر "
-"و جزئیاتی درباره‌ی پیاده‌سازی و همچنین [جزئیات پروتکل](https://github.com/"
-"equalitie/ouinet/blob/master/doc/ouinet-network-whitepaper.md) را خواهید "
+"com/censorship-no/ceno-docs) رجوع کنید، در آن‌جا ارجاع‌هایی برای مطالعه‌ی "
+"بیشتر و جزئیاتی درباره‌ی پیاده‌سازی و همچنین [جزئیات پروتکل](https://github."
+"com/equalitie/ouinet/blob/master/doc/ouinet-network-whitepaper.md) را خواهید "
 "یافت."
 
 #: README.md:block 3 (paragraph)
-#, fuzzy
-#| msgid "[CENO Browser]: https://github.com/censorship-no/ceno-browser"
 msgid "[Ceno Browser]: https://github.com/censorship-no/ceno-browser"
-msgstr "[CENO Browser]: https://github.com/censorship-no/ceno-browser"
+msgstr "[Ceno Browser]: https://github.com/censorship-no/ceno-browser"
 
 #: README.md:block 3 (paragraph)
 msgid "[Censorship.no!]: https://censorship.no/"
@@ -65,14 +52,10 @@ msgid "[eQualitie]: https://equalit.ie/"
 msgstr "[eQualitie]: https://equalit.ie"
 
 #: README.md:block 3 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "[CENO documentation repository]: https://github.com/censorship-no/ceno-"
-#| "docs/"
 msgid ""
 "[Ceno documentation repository]: https://github.com/censorship-no/ceno-docs/"
 msgstr ""
-"[CENO documentation repository]: https://github.com/censorship-no/ceno-docs/"
+"[Ceno documentation repository]: https://github.com/censorship-no/ceno-docs/"
 
 #: README.md:block 3 (paragraph)
 msgid ""

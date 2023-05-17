@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2022-04-09 10:07+0000\n"
-"Last-Translator: george kitsoukakis <norhorn@gmail.com>\n"
+"PO-Revision-Date: 2023-05-17 03:10+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/censorship-no/"
 "client-front-end/el/>\n"
 "Language: el\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.12-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #
 #: client/front-end.md:block 1 (header)
@@ -20,38 +20,25 @@ msgid "Annex: The Ouinet client front-end"
 msgstr "Παράρτημα: Η εφαρμογή πελάτη Ouinet"
 
 #: client/front-end.md:block 2 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "The Ouinet client (as run by e.g. CENO Browser) offers a front-end page "
-#| "with some information and actions which may be useful for debugging the "
-#| "client. Many of them are also offered by the CENO Extension via the "
-#| "[*CENO Settings* page](../browser/settings.md), though others are only "
-#| "available here."
 msgid ""
 "The Ouinet client (as run by e.g. Ceno Browser) offers a front-end page with "
 "some information and actions which may be useful for debugging the client. "
 "Many of them are also offered by the Ceno Extension via the [*Ceno Settings* "
 "page](../browser/settings.md), though others are only available here."
 msgstr ""
-"Η εφαρμογή πελάτη Ouinet (όπως εκτελείται π.χ. από το CENO) προσφέρει έναν "
+"Η εφαρμογή πελάτη Ouinet (όπως εκτελείται π.χ. από το Ceno) προσφέρει έναν "
 "ιστότοπο με πληροφορίες και ενέργειες που μπορεί να είναι χρήσιμες στον "
 "εντοπισμό σφαλμάτων. Πολλές από αυτές προσφέρονται επίσης από το πρόσθετο "
-"του CENO μέσω της [σελίδας *Ρυθμίσεις CENO*](../browser/settings.md)."
+"του Ceno μέσω της [σελίδας *Ρυθμίσεις Ceno*](../browser/settings.md)."
 
 #: client/front-end.md:block 3 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "The front-end is accessible using any plain Web browser running on the "
-#| "same device (you can use CENO too). Its default address is "
-#| "<http://127.0.0.1:8078/>. If you open it, you will see something like the "
-#| "figure below."
 msgid ""
 "The front-end is accessible using any plain Web browser running on the same "
 "device (you can use Ceno too). Its default address is <http://127.0.0.1:8078/"
 ">. If you open it, you will see something like the figure below."
 msgstr ""
-"Ο ιστότοπος είναι προσβάσιμος χρησιμοποιώντας οποιονδήποτε φυλλομετρητή "
-"(μπορείτε να χρησιμοποιήσετε και το CENO). Η προεπιλεγμένη διεύθυνση είναι "
+"Ο ιστότοπος είναι προσβάσιμος χρησιμοποιώντας οποιονδήποτε φυλλομετρητή ("
+"μπορείτε να χρησιμοποιήσετε και το Ceno). Η προεπιλεγμένη διεύθυνση είναι "
 "<http://127.0.0.1:8078/>. Αν την ανοίξετε, θα δείτε κάτι όπως παρακάτω."
 
 #: client/front-end.md:block 4 (paragraph)
@@ -72,13 +59,6 @@ msgstr ""
 "τη δραστηριότητα HTTPS."
 
 #: client/front-end.md:block 6 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "You only need this to use a plain browser for testing the Ouinet client, "
-#| "in which case you will also have to configure its HTTP/HTTPS proxies to "
-#| "`127.0.0.1:8077`, and manually enable the [CENO Extension][CENO "
-#| "Extension] for injection to work. We very strongly recommend using a "
-#| "*separate, specific browser profile* for this purpose."
 msgid ""
 "You only need this to use a plain browser for testing the Ouinet client, in "
 "which case you will also have to configure its HTTP/HTTPS proxies to "
@@ -88,20 +68,16 @@ msgid ""
 msgstr ""
 "Το χρειάζεστε μόνο για να χρησιμοποιήσετε ένα φυλλομετρητή για τη δοκιμή του "
 "πελάτη Ouinet, οπότε θα πρέπει να ρυθμίσετε τους ενδιάμεσους HTTP/HTTPS σε "
-"`127.0.0.1:8077` και να ενεργοποιήσετε χειροκίνητα το [Πρόσθετο CENO][CENO "
+"`127.0.0.1:8077` και να ενεργοποιήσετε χειροκίνητα το [Πρόσθετο Ceno][Ceno "
 "Extension] για να λειτουργήσει η συλλογή στοιχείων. Συνιστούμε τη χρήση ενός "
 "*ξεχωριστού, ειδικού προφίλ του φυλλομετρητή* για τον σκοπό αυτό."
 
 #: client/front-end.md:block 6 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "Please note that none of this needs to be done for CENO Browser, since it "
-#| "is already configured like that."
 msgid ""
 "Please note that none of this needs to be done for Ceno Browser, since it is "
 "already configured like that."
 msgstr ""
-"Λάβετε υπόψη, ότι τίποτα από αυτά δε χρειάζεται να γίνει για το CENO "
+"Λάβετε υπόψη, ότι τίποτα από αυτά δε χρειάζεται να γίνει για το Ceno "
 "Browser, καθώς είναι ήδη έτσι ρυθμισμένο."
 
 #: client/front-end.md:block 6 (unordered list)
@@ -172,20 +148,13 @@ msgstr ""
 "καταχωρήσεων."
 
 #: client/front-end.md:block 6 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "The directory of the external, static cache if enabled (CENO does not "
-#| "currently use this)."
 msgid ""
 "The directory of the external, static cache if enabled (Ceno does not "
 "currently use this)."
 msgstr ""
-"Ο κατάλογος της εξωτερικής, στατικής κρυφής μνήμης αν είναι ενεργοποιημένη "
-"(το CENO δε χρησιμοποιεί επί του παρόντος)."
+"Ο κατάλογος της εξωτερικής, στατικής κρυφής μνήμης αν είναι ενεργοποιημένη ("
+"το Ceno δε χρησιμοποιεί επί του παρόντος)."
 
 #: client/front-end.md:block 6 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "[CENO Extension]: https://github.com/censorship-no/ceno-ext-settings/"
 msgid "[Ceno Extension]: https://github.com/censorship-no/ceno-ext-settings/"
-msgstr "[Πρόσθετο CENO]: https://github.com/censorship-no/ceno-ext-settings/"
+msgstr "[Πρόσθετο Ceno]: https://github.com/censorship-no/ceno-ext-settings/"

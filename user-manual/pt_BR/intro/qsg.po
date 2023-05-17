@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-04-27 06:43+0000\n"
-"Last-Translator: luana <luanafaustini@tutanota.com>\n"
+"PO-Revision-Date: 2023-05-17 03:17+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "censorship-no/qsg/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -16,12 +16,6 @@ msgid "Quick start guide"
 msgstr "Guia para Início Rápido"
 
 #: intro/qsg.md:block 2 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "CENO Browser allows you to access any website on the Internet, even if it "
-#| "is censored in your country. CENO uses a peer-to-peer infrastructure to "
-#| "route your requests, as well as to store and share retrieved content with "
-#| "others. [Read more about CENO](ceno.md)."
 msgid ""
 "Ceno Browser allows you to access any website on the Internet, even if it is "
 "censored in your country. Ceno uses a peer-to-peer infrastructure to route "
@@ -42,10 +36,6 @@ msgid "You will need an Android device:"
 msgstr "Você vai precisar de um dispositivo Android:"
 
 #: intro/qsg.md:block 5 (ordered list)
-#, fuzzy
-#| msgid ""
-#| "Install CENO Browser from [Google Play][ceno-gplay], [GitHub][ceno-gh] or "
-#| "[Paskoocheh][ceno-pask]. *No special permissions are needed*."
 msgid ""
 "Install Ceno Browser from [Google Play][ceno-gplay], [GitHub][ceno-gh] or "
 "[Paskoocheh][ceno-pask]. *No special permissions are needed*."
@@ -69,8 +59,6 @@ msgstr ""
 "pública versus privativa](../concepts/public-private.md))."
 
 #: intro/qsg.md:block 5 (ordered list)
-#, fuzzy
-#| msgid "Tap on the CENO notification to stop it completely."
 msgid "Tap on the Ceno notification to stop it completely."
 msgstr "Toque na notificação do CENO para interrompê-lo completamente."
 
@@ -85,10 +73,6 @@ msgid "Configuration"
 msgstr "Configuração"
 
 #: intro/qsg.md:block 8 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "CENO Browser should work out-of-the-box. You can find some [diagnostics "
-#| "and settings](../browser/settings.md) under the *CENO* menu entry."
 msgid ""
 "Ceno Browser should work out-of-the-box. You can find some [diagnostics and "
 "settings](../browser/settings.md) under the *Ceno* menu entry."

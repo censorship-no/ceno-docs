@@ -1,21 +1,19 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-01-24 22:43+0000\n"
-"Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
+"PO-Revision-Date: 2023-05-17 03:06+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/censorship-no/"
 "browser-readme/sv/>\n"
 "Language: sv\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #: browser/README.md:block 1 (header)
-#, fuzzy
-#| msgid "Using CENO Browser"
 msgid "Using Ceno Browser"
-msgstr "Att använda CENO-webbläsaren"
+msgstr "Att använda Ceno-webbläsaren"
 
 #: browser/README.md:block 2 (paragraph)
 msgid ""

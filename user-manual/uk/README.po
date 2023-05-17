@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-06-02 13:17+0000\n"
-"Last-Translator: Vitalii Moroz <vitaliy.moroz@gmail.com>\n"
+"PO-Revision-Date: 2023-05-17 03:12+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "homepage-readme/uk/>\n"
 "Language: uk\n"
@@ -10,34 +10,23 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.13-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #: README.md:block 1 (header)
 msgid "Censorship.no! User Manual"
 msgstr "Посібник користувача Censorship.no!"
 
 #: README.md:block 2 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "This manual is aimed at users of [CENO Browser][CENO Browser] and related "
-#| "technologies, as created for the [Censorship.no!][Censorship.no!] project "
-#| "by [eQualitie][eQualitie]."
 msgid ""
 "This manual is aimed at users of [Ceno Browser][Ceno Browser] and related "
 "technologies, as created for the [Censorship.no!][Censorship.no!] project by "
 "[eQualitie][eQualitie]."
 msgstr ""
-"Цей посібник призначений для користувачів [браузера CENO][Браузер CENO] та "
-"повʼязаних із ним технологій, створених для проєкту [Censorship.no!]"
-"[Censorship.no!] компанією [eQualitie][eQualitie]."
+"Цей посібник призначений для користувачів [браузера Ceno][Браузер Ceno] та "
+"повʼязаних із ним технологій, створених для проєкту [Censorship."
+"no!][Censorship.no!] компанією [eQualitie][eQualitie]."
 
 #: README.md:block 3 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "If you are looking for technical documentation, please refer to the [CENO "
-#| "documentation repository][CENO documentation repository], where you will "
-#| "find pointers for further reading and details on implementation, as well "
-#| "as the [protocol specifications][protocol specifications]."
 msgid ""
 "If you are looking for technical documentation, please refer to the [Ceno "
 "documentation repository][Ceno documentation repository], where you will "
@@ -45,15 +34,13 @@ msgid ""
 "the [protocol specifications][protocol specifications]."
 msgstr ""
 "Якщо Ви шукаєте технічну документацію, ознайомтеся з [репозиторієм "
-"документації CENO][Репозиторій документації CENO], де Ви отримаєте "
-"детальнішу інформацію щодо реалізації та [специфікації протоколу]"
-"[Специфікація протоколу]."
+"документації Ceno][Репозиторій документації Ceno], де Ви отримаєте "
+"детальнішу інформацію щодо реалізації та [специфікації протоколу]["
+"Специфікація протоколу]."
 
 #: README.md:block 3 (paragraph)
-#, fuzzy
-#| msgid "[CENO Browser]: https://github.com/censorship-no/ceno-browser"
 msgid "[Ceno Browser]: https://github.com/censorship-no/ceno-browser"
-msgstr "[Браузер CENO]: https://github.com/censorship-no/ceno-docs/"
+msgstr "[Браузер Ceno]: https://github.com/censorship-no/ceno-docs/"
 
 #: README.md:block 3 (paragraph)
 msgid "[Censorship.no!]: https://censorship.no/"
@@ -64,14 +51,10 @@ msgid "[eQualitie]: https://equalit.ie/"
 msgstr "[eQualitie]: https://equalit.ie/"
 
 #: README.md:block 3 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "[CENO documentation repository]: https://github.com/censorship-no/ceno-"
-#| "docs/"
 msgid ""
 "[Ceno documentation repository]: https://github.com/censorship-no/ceno-docs/"
 msgstr ""
-"[Репозиторій документації CENO]: https://github.com/censorship-no/ceno-docs/"
+"[Репозиторій документації Ceno]: https://github.com/censorship-no/ceno-docs/"
 
 #: README.md:block 3 (paragraph)
 msgid ""

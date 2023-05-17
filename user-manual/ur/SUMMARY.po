@@ -1,15 +1,15 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-04-01 03:45+0000\n"
-"Last-Translator: Connectech <info@connectech.org>\n"
-"Language-Team: Urdu <https://hosted.weblate.org/projects/censorship-no/user-"
-"manual/ur/>\n"
+"PO-Revision-Date: 2023-05-17 02:55+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
+"Language-Team: Urdu <https://hosted.weblate.org/projects/censorship-no/"
+"user-manual/ur/>\n"
 "Language: ur\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.17-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #: SUMMARY.md:block 1 (header)
 msgid "Summary"
@@ -24,10 +24,8 @@ msgid "[Introduction](intro/README.md)"
 msgstr "[تعارف](intro/README.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-#, fuzzy
-#| msgid "[What is CENO Browser?](intro/ceno.md)"
 msgid "[What is Ceno Browser?](intro/ceno.md)"
-msgstr "[CENO براؤزر کیا ہے؟](intro/ceno.md)"
+msgstr "[Ceno براؤزر کیا ہے؟](intro/ceno.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[What is Ouinet?](intro/ouinet.md)"
@@ -54,38 +52,28 @@ msgid "[Public vs. private browsing](concepts/public-private.md)"
 msgstr "[عوامی بمقابلہ نجی براؤزنگ](concepts/public-private.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-#, fuzzy
-#| msgid "[Advantages of using CENO/Ouinet](concepts/advantages.md)"
 msgid "[Advantages of using Ceno/Ouinet](concepts/advantages.md)"
-msgstr "[CENO/Ouinet استعمال کرنے کے فوائد](concepts/advantages.md)"
+msgstr "[Ceno/Ouinet استعمال کرنے کے فوائد](concepts/advantages.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-#, fuzzy
-#| msgid "[Risks in using CENO/Ouinet](concepts/risks.md)"
 msgid "[Risks in using Ceno/Ouinet](concepts/risks.md)"
-msgstr "[CENO/Ouinet استعمال کرنے میں خطرات](concepts/risks.md)"
+msgstr "[Ceno/Ouinet استعمال کرنے میں خطرات](concepts/risks.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-#, fuzzy
-#| msgid "[Using CENO Browser](browser/README.md)"
 msgid "[Using Ceno Browser](browser/README.md)"
-msgstr "[CENO براؤزر کا استعمال کرتے ہوئے](browser/README.md)"
+msgstr "[Ceno براؤزر کا استعمال کرتے ہوئے](browser/README.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-#, fuzzy
-#| msgid "[Installing CENO](browser/install.md)"
 msgid "[Installing Ceno](browser/install.md)"
-msgstr "[CENO انسٹال کرنا](browser/install.md)"
+msgstr "[Ceno انسٹال کرنا](browser/install.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Using public or private browsing](browser/public-private.md)"
 msgstr "[عوامی یا نجی براؤزنگ کا استعمال کرتے ہوئے](browser/public-private.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-#, fuzzy
-#| msgid "[CENO settings](browser/settings.md)"
 msgid "[Ceno settings](browser/settings.md)"
-msgstr "[CENO ترتیبات](browser/settings.md)"
+msgstr "[Ceno ترتیبات](browser/settings.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Testing the Browser](browser/testing.md)"

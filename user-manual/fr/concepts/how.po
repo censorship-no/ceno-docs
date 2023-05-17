@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-16 04:02+0200\n"
-"PO-Revision-Date: 2022-12-15 21:43+0000\n"
+"PO-Revision-Date: 2023-05-17 03:10+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/censorship-no/how/"
 "fr/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.15-dev\n"
+"X-Generator: Weblate 4.18-dev\n"
 
 #
 #: concepts/how.md:block 1 (header)
@@ -20,12 +20,6 @@ msgid "How does it work?"
 msgstr "Comment ça marche ?"
 
 #: concepts/how.md:block 2 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "This section will explain CENO and Ouinet operation by going over a "
-#| "series of scenarios. Terminology and concepts important to Ouinet will be "
-#| "introduced (highlighted **in bold letters**) and used afterwards for "
-#| "efficiency and to avoid confusion."
 msgid ""
 "This section will explain Ceno and Ouinet operation by going over a series "
 "of scenarios. Terminology and concepts important to Ouinet will be "
@@ -42,17 +36,6 @@ msgid "Accessing content directly"
 msgstr "Accéder directement au contenu"
 
 #: concepts/how.md:block 4 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "CENO Browser is an example of an application that uses Ouinet technology "
-#| "to retrieve and share Web content. We call such an application a Ouinet "
-#| "**client**. When you use your client (i.e. CENO) to try to access some "
-#| "content *X*, hosted on a Web server (which we will call *X*'s **origin** "
-#| "server), your client tries to contact the origin server over the Internet "
-#| "either directly or via some other machine configured to contact Web "
-#| "servers on behalf of others (a so-called **proxy** server) and then "
-#| "requests the desired content. This is no different from the way in which "
-#| "any normal Web browser works."
 msgid ""
 "Ceno Browser is an example of an application that uses Ouinet technology to "
 "retrieve and share Web content. We call such an application a Ouinet "
@@ -75,15 +58,6 @@ msgstr ""
 "pas différent du fonctionnement d'un navigateur web classique."
 
 #: concepts/how.md:block 5 (quote)
-#, fuzzy
-#| msgid ""
-#| "**Technical note:** There is in fact one small gotcha. Since the client "
-#| "acts as an HTTP proxy running on your device, for the client to be able "
-#| "to decrypt and act upon HTTPS content requests, the application using the "
-#| "client (i.e. the Web browser part – like Firefox in CENO) needs to accept "
-#| "a special certificate issued by the client itself (and only used on your "
-#| "device). CENO Browser already takes care of setting this certificate up "
-#| "for its private use so that you do not need to worry."
 msgid ""
 "**Technical note:** There is in fact one small gotcha. Since the client acts "
 "as an HTTP proxy running on your device, for the client to be able to "
@@ -212,14 +186,6 @@ msgstr ""
 "dessous), de sorte que plusieurs index puissent coexister."
 
 #: concepts/how.md:block 13 (quote)
-#, fuzzy
-#| msgid ""
-#| "Also, CENO Browser does not announce the URL of every single resource it "
-#| "holds: with any modern page having tens or hundreds of components "
-#| "(images, style sheets, scripts…), that would create a lot of traffic. "
-#| "Instead, resources are grouped under the URL of the page pulling them, "
-#| "and only that URL is announced. This is done with the help of an *ad hoc* "
-#| "browser extension (described later on)."
 msgid ""
 "Also, Ceno Browser does not announce the URL of every single resource it "
 "holds: with any modern page having tens or hundreds of components (images, "
@@ -233,8 +199,8 @@ msgstr ""
 "voire des centaines de composants (images, feuilles de style, scripts...), "
 "le trafic en serait trop encombré. C'est pourquoi les ressources sont "
 "regroupées sous l'URL de la page qui les contient, et seule cette URL est "
-"communiquée. Ceci est réalisé grâce à une extension *ad hoc* du navigateur "
-"(décrite plus loin)."
+"communiquée. Ceci est réalisé grâce à une extension *ad hoc* du navigateur ("
+"décrite plus loin)."
 
 #: concepts/how.md:block 14 (paragraph)
 msgid ""
@@ -299,10 +265,6 @@ msgstr ""
 "attaquants n'identifient les injecteurs en écoutant le trafic Web."
 
 #: concepts/how.md:block 20 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "By the way, injector certificates are shipped in CENO Browser, allowing "
-#| "it to detect attackers trying to impersonate injectors."
 msgid ""
 "By the way, injector certificates are shipped in Ceno Browser, allowing it "
 "to detect attackers trying to impersonate injectors."
@@ -388,14 +350,6 @@ msgstr ""
 "ne sont pas en mesure de voir les informations circulant entre eux."
 
 #: concepts/how.md:block 21 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "An injector can behave like a normal (though extra available) proxy "
-#| "server, and this is indeed what Ouinet clients (including CENO Browser) "
-#| "do currently when trying to access content over a proxy. In this case, "
-#| "the injector will neither see the actual information flowing between your "
-#| "client and the origin server (unless it is a plain, unencrypted HTTP "
-#| "connection itself)."
 msgid ""
 "An injector can behave like a normal (though extra available) proxy server, "
 "and this is indeed what Ouinet clients (including Ceno Browser) do currently "
@@ -454,16 +408,6 @@ msgstr ""
 "manipulées ?"
 
 #: concepts/how.md:block 26 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "We want CENO and Ouinet usage to scale and provide as much content to as "
-#| "many people as possible, so we do want you to be able to receive content "
-#| "from people you do not know. To enable you to accept such content, Ouinet "
-#| "uses **content signing**: your client is configured to trust content that "
-#| "is signed using a special key owned by injectors. Whenever a client tells "
-#| "an injector to retrieve some Web content for sharing, the injector gets "
-#| "it from the origin server, uses the key to sign it, and returns the "
-#| "signed content to the client."
 msgid ""
 "We want Ceno and Ouinet usage to scale and provide as much content to as "
 "many people as possible, so we do want you to be able to receive content "
@@ -497,14 +441,6 @@ msgstr ""
 "téléchargées peuvent toujours être partagées par le client qui les a reçues."
 
 #: concepts/how.md:block 28 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Different injectors may have different keys, so you can choose which "
-#| "injectors to trust. Picture it like this: you may trust a document signed "
-#| "by a *notary public* from your country, no matter who gave it to you "
-#| "(national or foreigner), while you would not be required to accept a "
-#| "document signed by a notary from another country. CENO Browser is already "
-#| "configured to trust a set of injectors run by eQualitie."
 msgid ""
 "Different injectors may have different keys, so you can choose which "
 "injectors to trust. Picture it like this: you may trust a document signed by "
@@ -592,10 +528,6 @@ msgstr ""
 "Une fois que le contenu atteint votre client, il fait trois choses :"
 
 #: concepts/how.md:block 35 (ordered list)
-#, fuzzy
-#| msgid ""
-#| "It delivers it to you (in the case of CENO, it shows the content on the "
-#| "browser)."
 msgid ""
 "It delivers it to you (in the case of Ceno, it shows the content on the "
 "browser)."
@@ -671,14 +603,6 @@ msgstr ""
 "dont vous pouvez aider votre communauté dans une telle situation."
 
 #: concepts/how.md:block 41 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "At that moment a second person using CENO Browser also tries to get that "
-#| "content. Access to the origin server or to anything beyond your region is "
-#| "impossible, so CENO checks the distributed cache index for that content "
-#| "and it finds that your device is seeding it. CENO gets your Internet "
-#| "address from the index, connects to it and requests the content as shown "
-#| "below."
 msgid ""
 "At that moment a second person using Ceno Browser also tries to get that "
 "content. Access to the origin server or to anything beyond your region is "
@@ -701,16 +625,6 @@ msgstr ""
 "svg)"
 
 #: concepts/how.md:block 43 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Now that second device also holds a copy of content *X*, so it announces "
-#| "this in the distributed cache index, thus becoming a seeder. If a third "
-#| "person interested in that content uses CENO Browser to retrieve it, CENO "
-#| "will now see *two* addresses in the index for the content: your device's "
-#| "and that of the second user. If the content is heavy (e.g. a video), this "
-#| "third device may try to get half of it from each of the other devices (as "
-#| "shown below), thus speeding up the download and reducing the traffic they "
-#| "use."
 msgid ""
 "Now that second device also holds a copy of content *X*, so it announces "
 "this in the distributed cache index, thus becoming a seeder. If a third "
@@ -726,8 +640,8 @@ msgstr ""
 "navigateur CENO pour le récupérer, CENO verra désormais *deux* adresses dans "
 "l'index du contenu : celle de votre appareil et celle du deuxième "
 "utilisateur. Si le contenu est lourd (par exemple une vidéo), ce troisième "
-"appareil peut essayer d'en obtenir la moitié de chacun des autres appareils "
-"(comme indiqué ci-dessous), accélérant ainsi le téléchargement et réduisant "
+"appareil peut essayer d'en obtenir la moitié de chacun des autres appareils ("
+"comme indiqué ci-dessous), accélérant ainsi le téléchargement et réduisant "
 "le trafic qu'ils utilisent."
 
 #: concepts/how.md:block 44 (paragraph)
@@ -739,13 +653,6 @@ msgstr ""
 "user-flow-5.svg)"
 
 #: concepts/how.md:block 45 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Finally, the situation may get even worse, and all commercial and state "
-#| "network infrastructure may be shut down. In this case, Ouinet and CENO "
-#| "Browser also have some support for *device-to-device* sharing of content "
-#| "between two clients sitting on the same local network (e.g. connected to "
-#| "the same Wi-Fi access point), even if the network has no access to others."
 msgid ""
 "Finally, the situation may get even worse, and all commercial and state "
 "network infrastructure may be shut down. In this case, Ouinet and Ceno "

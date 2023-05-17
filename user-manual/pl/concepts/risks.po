@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-04 20:09+0200\n"
-"PO-Revision-Date: 2023-05-03 06:50+0000\n"
-"Last-Translator: Hubert Naciasta <hubert.naciasta@proton.me>\n"
+"PO-Revision-Date: 2023-05-17 03:14+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/censorship-no/"
 "risks/pl/>\n"
 "Language: pl\n"
@@ -17,19 +17,10 @@ msgstr ""
 
 #
 #: concepts/risks.md:block 1 (header)
-#, fuzzy
-#| msgid "Risks in using CENO/Ouinet"
 msgid "Risks in using Ceno/Ouinet"
-msgstr "Ryzyko powiązane z używaniem CENO/Ouinet"
+msgstr "Ryzyko powiązane z używaniem Ceno/Ouinet"
 
 #: concepts/risks.md:block 2 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "As with any sufficiently complex computing system, and especially such an "
-#| "innovative one, using CENO Browser (and any Ouinet client in general) is "
-#| "not free from some risks. In this section we will compile and describe "
-#| "them to help you understand their implications according to the different "
-#| "roles you may play when using CENO:"
 msgid ""
 "As with any sufficiently complex computing system, and especially such an "
 "innovative one, using Ceno Browser (and any Ouinet client in general) is not "
@@ -38,11 +29,11 @@ msgid ""
 "may play when using Ceno:"
 msgstr ""
 "Podobnie jak z każdym innym zaawansowanym systemem komputerowym, w "
-"szczególności tak innowacyjnym, korzystanie z Przeglądarki CENO (oraz "
+"szczególności tak innowacyjnym, korzystanie z Przeglądarki Ceno (oraz "
 "każdego innego klienta Ouinet) nie jest wolne od ryzyka. W tej sekcji "
 "wymienimy i opiszemy je tak żebyś był w stanie zrozumieć co może ono dla "
 "Ciebie oznaczać w zależności od tego, jaką rolę pełnisz podczas korzystania "
-"z CENO:"
+"z Ceno:"
 
 #: concepts/risks.md:block 3 (unordered list)
 msgid "as a *user* browsing Web sites"
