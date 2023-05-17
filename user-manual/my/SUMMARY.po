@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-02 02:42+0200\n"
-"PO-Revision-Date: 2023-05-17 02:54+0000\n"
+"PO-Revision-Date: 2023-05-17 02:55+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "user-manual/my/>\n"
@@ -28,8 +28,6 @@ msgid "[Introduction](intro/README.md)"
 msgstr "[မိတ်ဆက်](intro/README.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-#, fuzzy
-#| msgid "[What is CENO Browser?](intro/ceno.md)"
 msgid "[What is Ceno Browser?](intro/ceno.md)"
 msgstr "[Ceno ဘရောက်ဇာဆိုတာ ဘာလဲ။](intro/ceno.md)"
 
@@ -58,26 +56,18 @@ msgid "[Public vs. private browsing](concepts/public-private.md)"
 msgstr "[အများသုံးနှင့် သီးသန့် ရှာဖွေမှု](concepts/public-private.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-#, fuzzy
-#| msgid "[Advantages of using CENO/Ouinet](concepts/advantages.md)"
 msgid "[Advantages of using Ceno/Ouinet](concepts/advantages.md)"
 msgstr "[Ceno/Ouinet အသုံးပြုခြင်း၏ အားသာချက်များ](concepts/advantages.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-#, fuzzy
-#| msgid "[Risks in using CENO/Ouinet](concepts/risks.md)"
 msgid "[Risks in using Ceno/Ouinet](concepts/risks.md)"
 msgstr "[Ceno/Ouinet အသုံးပြုခြင်း၏ အန္တရာယ်များ](concepts/risks.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-#, fuzzy
-#| msgid "[Using CENO Browser](browser/README.md)"
 msgid "[Using Ceno Browser](browser/README.md)"
 msgstr "[Ceno ဘရောက်ဇာ အသုံးပြုခြင်း](browser/README.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-#, fuzzy
-#| msgid "[Installing CENO](browser/install.md)"
 msgid "[Installing Ceno](browser/install.md)"
 msgstr "[Ceno ထည့်သွင်းခြင်း](browser/install.md)"
 
@@ -86,8 +76,6 @@ msgid "[Using public or private browsing](browser/public-private.md)"
 msgstr "[အများသုံး သို့မဟုတ် သီးသန့် ရှာဖွေမှုကို အသုံးပြုခြင်း](browser/public-private.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-#, fuzzy
-#| msgid "[CENO settings](browser/settings.md)"
 msgid "[Ceno settings](browser/settings.md)"
 msgstr "[Ceno ဆက်တင်များ](browser/settings.md)"
 
