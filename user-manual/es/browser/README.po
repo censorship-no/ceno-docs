@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2023-04-26 05:53+0000\n"
-"Last-Translator: Soledad Magnone <soledad.magnone@proton.me>\n"
+"PO-Revision-Date: 2023-05-17 03:04+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/censorship-no/"
 "browser-readme/es/>\n"
 "Language: es\n"
@@ -19,7 +19,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Using CENO Browser"
 msgid "Using Ceno Browser"
-msgstr "Usando Navegador CENO"
+msgstr "Usando Navegador Ceno"
 
 #: browser/README.md:block 2 (paragraph)
 #, fuzzy
@@ -36,12 +36,12 @@ msgid ""
 "questions on generic browsing topics you should refer to Mozilla's [Firefox "
 "for Android Support][Firefox for Android Support] pages."
 msgstr ""
-"Este capítulo te da algunas pistas sobre el uso del Navegador CENO respecto "
+"Este capítulo te da algunas pistas sobre el uso del Navegador Ceno respecto "
 "a sus capacidades relacionadas con Ouinet. Por favor siempre ten en mente "
-"que CENO está basado en [Firefox para Android][Firefox para Android], de "
+"que Ceno está basado en [Firefox para Android][Firefox para Android], de "
 "manera que por preguntas sobre tópicos de navegación genéricos deberías "
-"referirte a las páginas de Mozilla de [Soporte de Firefox para Android]"
-"[Soporte de Firefox para Android]."
+"referirte a las páginas de Mozilla de [Soporte de Firefox para Android]["
+"Soporte de Firefox para Android]."
 
 #: browser/README.md:block 3 (paragraph)
 #, fuzzy
@@ -59,7 +59,7 @@ msgstr ""
 "Cuando sea relevante, serán incluidas capturas de pantalla para ilustrar el "
 "texto. Por favor ten en cuenta que estas podrían diferir ligeramente de lo "
 "que ves en tu dispositivo, especialmente a medida que progresa el desarrollo "
-"de CENO. Esta documentación está actualizada para CENO versión 1.6.0."
+"de Ceno. Esta documentación está actualizada para Ceno versión 1.6.0."
 
 #: browser/README.md:block 4 (paragraph)
 msgid ""
