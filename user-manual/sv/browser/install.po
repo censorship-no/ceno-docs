@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-17 03:01+0000\n"
+"PO-Revision-Date: 2023-05-17 03:09+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/censorship-no/"
 "browser-install/sv/>\n"
@@ -12,22 +12,14 @@ msgstr ""
 "X-Generator: Weblate 4.18-dev\n"
 
 #: browser/install.md:block 1 (header)
-#, fuzzy
-#| msgid "Installing CENO"
 msgid "Installing Ceno"
 msgstr "Installerar Ceno"
 
 #: browser/install.md:block 2 (paragraph)
-#, fuzzy
-#| msgid "CENO Browser can be installed via the following means:"
 msgid "Ceno Browser can be installed via the following means:"
 msgstr "Ceno-webbläsaren kan installeras med följande medel:"
 
 #: browser/install.md:block 3 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "[Google Play][ceno-gplay] (*CENO Browser* from *eQualitie*): the "
-#| "recommended source for most Android users."
 msgid ""
 "[Google Play][ceno-gplay] (*Ceno Browser* from *eQualitie*): the recommended "
 "source for most Android users."
@@ -48,11 +40,6 @@ msgstr ""
 "de föregående kanalerna."
 
 #: browser/install.md:block 4 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "CENO requires an ARM64 or Neon-capable ARM32 device running at least "
-#| "Android 4.1 Jelly Bean, thus most mobile devices released from late 2012 "
-#| "onward should work. CENO needs *no special permissions* to run."
 msgid ""
 "Ceno requires an ARM64 or Neon-capable ARM32 device running at least Android "
 "4.1 Jelly Bean, thus most mobile devices released from late 2012 onward "
@@ -74,8 +61,6 @@ msgid ""
 msgstr ""
 
 #: browser/install.md:block 6 (header)
-#, fuzzy
-#| msgid "Stopping CENO completely"
 msgid "Stopping Ceno completely"
 msgstr "Stoppar Ceno helt och hållet"
 
@@ -103,8 +88,6 @@ msgid ""
 msgstr ""
 
 #: browser/install.md:block 10 (header)
-#, fuzzy
-#| msgid "Purging all CENO data (the \"panic button\")"
 msgid "Purging all Ceno data (the \"panic button\")"
 msgstr "Rensar bort all Ceno-data (\"panik-knappen\")"
 
