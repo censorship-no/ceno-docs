@@ -1,0 +1,34 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-18 15:01-0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 3.6.0\n"
+
+#: concepts/README.md:block 1 (header)
+msgid "Main concepts"
+msgstr ""
+
+#: concepts/README.md:block 2 (paragraph)
+msgid ""
+"To fulfill its objective of circumventing several kinds of network "
+"interference and shortages, Ceno makes use of assorted techniques from the "
+"fields of the World Wide Web, file-sharing systems and advanced "
+"cryptography. These techniques are cleverly combined by Ouinet so as to make "
+"the experience of using Ceno as close as possible to normal Web browsing."
+msgstr ""
+
+#: concepts/README.md:block 3 (paragraph)
+msgid ""
+"Nonetheless, to get the most out of Ceno it is helpful to understand how "
+"Ouinet operates, the different ways it can be used depending on the kind of "
+"content we are trying to access, and the advantages and risks that they "
+"entail. This chapter will cover these topics."
+msgstr ""
