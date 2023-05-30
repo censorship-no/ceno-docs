@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-17 03:04+0000\n"
+"PO-Revision-Date: 2023-05-30 18:33+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/censorship-no/"
 "browser-testing/de/>\n"
@@ -119,8 +119,8 @@ msgid ""
 "(instead of `http://`) and repeat the test."
 msgstr ""
 "**Hinweis:** Wenn Sie eine gefälschte statt einer echten Seite erhalten, "
-"geben Sie in der Adressleiste die URL der Website mit `https://` am Anfang "
-"(statt `http://`) ein und wiederholen Sie den Test."
+"geben Sie in der Adressleiste die URL der Website mit `https://` am Anfang ("
+"statt `http://`) ein und wiederholen Sie den Test."
 
 #: browser/testing.md:block 10 (paragraph)
 msgid ""
