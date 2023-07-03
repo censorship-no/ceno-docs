@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-06-29 13:53+0000\n"
+"PO-Revision-Date: 2023-07-03 19:46+0000\n"
 "Last-Translator: AO Localisation Lab <ao@localizationlab.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/censorship-no/"
 "ceno/fr/>\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.18.1\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #
 #: intro/ceno.md:block 1 (header)
@@ -171,7 +171,7 @@ msgstr "[national intranets]: https://en.wikipedia.org/wiki/National_intranet"
 #: intro/ceno.md:block 11 (quote)
 msgid "[Firefox for Android]: https://www.mozilla.org/firefox/android/"
 msgstr ""
-"[Firefox pour Android]: https://www.mozilla.org/fr/firefox/browsers/mobile/"
+"[Firefox pour Android] : https://www.mozilla.org/fr/firefox/browsers/mobile/"
 "android/"
 
 #: intro/ceno.md:block 11 (quote)
