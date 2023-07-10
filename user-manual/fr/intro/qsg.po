@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-07-03 13:51+0000\n"
+"PO-Revision-Date: 2023-07-10 12:52+0000\n"
 "Last-Translator: AO Localisation Lab <ao@localizationlab.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/censorship-no/qsg/"
 "fr/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 
 #: intro/qsg.md:block 1 (header)
 msgid "Quick start guide"
-msgstr "Guide de démarrage rapide"
+msgstr "Guide de démarrage"
 
 #: intro/qsg.md:block 2 (paragraph)
 msgid ""
