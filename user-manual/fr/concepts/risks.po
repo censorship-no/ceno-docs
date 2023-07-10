@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-04 20:09+0200\n"
-"PO-Revision-Date: 2023-07-08 17:21+0000\n"
+"PO-Revision-Date: 2023-07-11 14:51+0000\n"
 "Last-Translator: AO Localisation Lab <ao@localizationlab.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/censorship-no/"
 "risks/fr/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 #
 #: concepts/risks.md:block 1 (header)
 msgid "Risks in using Ceno/Ouinet"
-msgstr "Risques liés à l’utilisation de Ceno et Ouinet"
+msgstr "Risques inhérents à Ceno et Ouinet"
 
 #: concepts/risks.md:block 2 (paragraph)
 msgid ""
