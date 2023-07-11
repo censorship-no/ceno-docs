@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2023-07-06 16:50+0000\n"
+"PO-Revision-Date: 2023-07-11 14:51+0000\n"
 "Last-Translator: AO Localisation Lab <ao@localizationlab.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/censorship-no/"
 "browser-bridging/fr/>\n"
@@ -57,7 +57,7 @@ msgstr ""
 
 #: browser/bridging.md:block 4 (header)
 msgid "How to become a Ceno bridge"
-msgstr "Comment devenir un pont Ceno"
+msgstr "Devenir un pont Ceno"
 
 #: browser/bridging.md:block 5 (paragraph)
 msgid ""
