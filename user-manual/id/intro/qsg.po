@@ -1,15 +1,15 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-17 03:17+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
+"PO-Revision-Date: 2023-07-14 19:47+0000\n"
+"Last-Translator: Taufik Adi Wicaksono <taufikadi.wicaksono@tutamail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/censorship-no/"
 "qsg/id/>\n"
 "Language: id\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #: intro/qsg.md:block 1 (header)
 msgid "Quick start guide"
@@ -30,11 +30,11 @@ msgstr ""
 
 #: intro/qsg.md:block 3 (header)
 msgid "How to get started"
-msgstr "Bagaimana untuk memulainya"
+msgstr "Bagaimana cara memulainya"
 
 #: intro/qsg.md:block 4 (paragraph)
 msgid "You will need an Android device:"
-msgstr "Anda akan membutuhkan sebuah perangkat Android:"
+msgstr "Anda membutuhkan sebuah perangkat Android:"
 
 #: intro/qsg.md:block 5 (ordered list)
 msgid ""
@@ -54,6 +54,10 @@ msgid ""
 "privacy for some page or if it is not loading as expected, use a private tab "
 "(see [public vs. private browsing](../concepts/public-private.md))."
 msgstr ""
+"Jelajahi halaman secara normal untuk membantu pengguna lain untuk "
+"mengaksesnya. Jika khawatir mengenai privasi untuk beberapa halaman atau "
+"jika tidak memuat seperti yang diharapkan, gunakan tab privat (lihat ["
+"penjelajahan publik vs. privat](../concepts/public-private.md))."
 
 #: intro/qsg.md:block 5 (ordered list)
 msgid "Tap on the Ceno notification to stop it completely."
@@ -61,7 +65,7 @@ msgstr "Ketuk pada notifikasi CENO untuk menghentikan secara keseluruhan."
 
 #: intro/qsg.md:block 6 (paragraph)
 msgid "Detailed installation instructions are [here](../browser/install.md)."
-msgstr "Rincian instruksi pemasangan [disini](../browser/install.md)."
+msgstr "Rincian instruksi pemasangan [di sini](../browser/install.md)."
 
 #: intro/qsg.md:block 7 (header)
 msgid "Configuration"
@@ -72,35 +76,37 @@ msgid ""
 "Ceno Browser should work out-of-the-box. You can find some [diagnostics and "
 "settings](../browser/settings.md) under the *Ceno* menu entry."
 msgstr ""
+"Peramban Ceno harus bekerja di luar kotak. Anda dapat menemukan beberapa ["
+"diagnostik dan pengaturan](../browser/settings.md) di bawah entri menu "
+"*Ceno*."
 
 #: intro/qsg.md:block 9 (paragraph)
 msgid ""
 "If you want to make sure that your app is also helping others access blocked "
 "content, please [read this section](../browser/bridging.md)."
 msgstr ""
-"Jika anda ingin untuk memastikan bahwa aplikasi anda juga berguna membantu "
-"lainnya mengakses konten yang diblokir, mohon [baca bagian ini] (../browser/"
+"Jika Anda ingin memastikan bahwa aplikasi Anda juga membantu orang lain "
+"untuk mengakses konten yang diblokir, harap [baca bagian ini](../browser/"
 "bridging.md)."
 
 #: intro/qsg.md:block 10 (header)
 msgid "More questions?"
-msgstr "Pertanyaan lebih lanjut?"
+msgstr "Ada pertanyaan lain?"
 
 #: intro/qsg.md:block 11 (unordered list)
 msgid "Please see the [FAQ](faq.md)."
-msgstr "Mohon lihat [FAQ](faq.md)."
+msgstr "Silakan lihat [FAQ](faq.md)."
 
 #: intro/qsg.md:block 11 (unordered list)
 msgid "Refer to the [troubleshooting guide](../browser/troubleshooting.md)."
-msgstr ""
-"Merujuk kepada [panduan pemecahan masalah](../browser/troubleshooting.md)."
+msgstr "Lihat [panduan pemecahan masalah](../browser/troubleshooting.md)."
 
 #: intro/qsg.md:block 11 (unordered list)
 msgid ""
 "Contact us by writing to [cenoers@equalit.ie](mailto:cenoers@equalit.ie)."
 msgstr ""
-"Hubungi kami dengan menulis ke [cenoers@equalit.ie](mailto:cenoers@equalit."
-"ie)."
+"Hubungi kami dengan mengirimkan surel ke [cenoers@equalit."
+"ie](mailto:cenoers@equalit.ie)."
 
 #: intro/qsg.md:block 11 (unordered list)
 msgid ""
