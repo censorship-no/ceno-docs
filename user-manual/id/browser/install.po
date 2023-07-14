@@ -1,15 +1,15 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-17 03:09+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
+"PO-Revision-Date: 2023-07-14 19:47+0000\n"
+"Last-Translator: Taufik Adi Wicaksono <taufikadi.wicaksono@tutamail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-install/id/>\n"
 "Language: id\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #: browser/install.md:block 1 (header)
 msgid "Installing Ceno"
@@ -129,10 +129,10 @@ msgid ""
 "only see the *Home* action, your device may be too old to support the "
 "*Erase* action."
 msgstr ""
-"**Catatan:** Jika aksi dibawah notifikasi tidak terlihat, tarik notifikasi "
-"dari tengah menuju bawah untuk membukanya. Jika anda hanya dapat melihat "
-"aksi *Beranda*, perangkat anda mungkin terlalu lama untuk dukungan aksi "
-"*Hapus*."
+"**Catatan:** Jika tindakan di bawah notifikasi tidak terlihat, seret "
+"notifikasi dari tengah ke arah bawah untuk membukanya. Jika Anda hanya dapat "
+"melihat tindakan *Beranda*, perangkat Anda mungkin terlalu tua untuk "
+"mendukung tindakan *Hapus*."
 
 #: browser/install.md:block 13 (paragraph)
 msgid ""
@@ -170,7 +170,8 @@ msgstr ""
 #: browser/install.md:block 16 (paragraph)
 msgid "If you do not tap on the action, it will go away in a few seconds."
 msgstr ""
-"Jika anda tidak mengetuk pada aksi, itu akan menghilang dalam beberapa detik."
+"Jika Anda tidak mengetuk tindakan tersebut, itu akan hilang sendiri dalam "
+"beberapa detik."
 
 #: browser/install.md:block 17 (quote)
 msgid ""
@@ -187,16 +188,16 @@ msgstr ""
 #: browser/install.md:block 17 (quote)
 msgid "As a harsher alternative, you may completely uninstall the app."
 msgstr ""
-"Sebagai alternatif lebih kasar, anda mungkin melepas aplikasi secara "
-"keseluruhan."
+"Sebagai alternatif yang lebih keras, Anda dapat menghapus aplikasi Ceno "
+"sepenuhnya."
 
 #: browser/install.md:block 18 (quote)
 msgid ""
 "**Warning:** Android may still keep other traces of having used an app "
 "besides its data, for instance in its system log."
 msgstr ""
-"**Peringatan:** Android mungkin masih menjaga jejak lainnya dari aplikasi "
-"yang telah digunakan juga datanya, untuk instansi dalam log sistem."
+"**Peringatan:** Android mungkin masih menyimpan jejak penggunaan aplikasi "
+"selain datanya, misalnya di log sistemnya."
 
 #: browser/install.md:block 18 (quote)
 msgid ""
