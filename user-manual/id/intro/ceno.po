@@ -1,15 +1,15 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-17 03:17+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
+"PO-Revision-Date: 2023-07-14 19:47+0000\n"
+"Last-Translator: Taufik Adi Wicaksono <taufikadi.wicaksono@tutamail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/censorship-no/"
 "ceno/id/>\n"
 "Language: id\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #: intro/ceno.md:block 1 (header)
 msgid "What is Ceno Browser?"
@@ -25,6 +25,14 @@ msgid ""
 "Web content to persist in the network even during heavy filtering and "
 "throttling events."
 msgstr ""
+"Ceno (kependekan dari [Censorship.no!][Censorship.no!]) adalah peramban web "
+"untuk perangkat seluler Android (seperti ponsel cerdas dan tablet) yang "
+"menggunakan pendekatan baru untuk menghindari sensor internet dan berbagi "
+"konten yang diambil di antara semua pengguna dalam mode [peer-to-peer][P2P] "
+"(P2P). Hal ini dapat mengurangi ketergantungan keseluruhan pada pertukaran "
+"jaringan internasional dan memungkinkan konten web yang sering diminta dapat "
+"tersedia di jaringan bahkan selama adanya penyaringan dan pelambatan yang "
+"berat."
 
 #: intro/ceno.md:block 3 (paragraph)
 msgid ""
@@ -103,7 +111,7 @@ msgstr ""
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[Censorship.no!]: https://censorship.no/"
-msgstr ""
+msgstr "[Censorship.no!]: https://censorship.no/"
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[P2P]: https://en.wikipedia.org/wiki/Peer-to-peer"
@@ -115,11 +123,11 @@ msgstr ""
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[Firefox for Android]: https://www.mozilla.org/firefox/android/"
-msgstr ""
+msgstr "[Firefox untuk Android]: https://www.mozilla.org/firefox/android/"
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[eQualitie]: https://equalit.ie/"
-msgstr ""
+msgstr "[eQualitie]: https://equalit.ie/"
 
 #: intro/ceno.md:block 11 (quote)
 msgid ""
