@@ -1,15 +1,15 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-06-01 23:16+0000\n"
-"Last-Translator: Reza Almanda <rezaalmanda27@gmail.com>\n"
+"PO-Revision-Date: 2023-07-14 19:47+0000\n"
+"Last-Translator: Taufik Adi Wicaksono <taufikadi.wicaksono@tutamail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/censorship-no/"
 "homepage-readme/id/>\n"
 "Language: id\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.13-dev\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #: README.md:block 1 (header)
 msgid "Censorship.no! User Manual"
@@ -21,6 +21,9 @@ msgid ""
 "technologies, as created for the [Censorship.no!][Censorship.no!] project by "
 "[eQualitie][eQualitie]."
 msgstr ""
+"Manual ini ditujukan untuk pengguna [Peramban Ceno][Peramban Ceno] dan "
+"teknologi terkait, sebagaimana dibuat untuk proyek [Censorship."
+"no!][Censorship.no!] oleh [eQualitie][eQualitie]."
 
 #: README.md:block 3 (paragraph)
 msgid ""
@@ -29,26 +32,33 @@ msgid ""
 "find pointers for further reading and details on implementation, as well as "
 "the [protocol specifications][protocol specifications]."
 msgstr ""
+"Jika Anda mencari dokumentasi teknis, silakan merujuk ke [repositori "
+"dokumentasi Ceno][repositori dokumentasi Ceno], di mana Anda akan menemukan "
+"petunjuk untuk bacaan lebih lanjut dan perincian implementasi, serta ["
+"spesifikasi protokol][spesifikasi protokol]."
 
 #: README.md:block 3 (paragraph)
 msgid "[Ceno Browser]: https://github.com/censorship-no/ceno-browser"
-msgstr ""
+msgstr "[Peramban Ceno]: https://github.com/censorship-no/ceno-browser"
 
 #: README.md:block 3 (paragraph)
 msgid "[Censorship.no!]: https://censorship.no/"
-msgstr ""
+msgstr "[Censorship.no!]: https://censorship.no/"
 
 #: README.md:block 3 (paragraph)
 msgid "[eQualitie]: https://equalit.ie/"
-msgstr ""
+msgstr "[eQualitie]: https://equalit.ie/"
 
 #: README.md:block 3 (paragraph)
 msgid ""
 "[Ceno documentation repository]: https://github.com/censorship-no/ceno-docs/"
 msgstr ""
+"[Repositori dokumentasi Ceno]: https://github.com/censorship-no/ceno-docs/"
 
 #: README.md:block 3 (paragraph)
 msgid ""
 "[protocol specifications]: https://github.com/equalitie/ouinet/blob/master/"
 "doc/ouinet-network-whitepaper.md"
 msgstr ""
+"[spesifikasi protokol]: https://github.com/equalitie/ouinet/blob/master/doc/"
+"ouinet-network-whitepaper.md"
