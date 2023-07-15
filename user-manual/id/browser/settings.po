@@ -1,15 +1,15 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-17 03:03+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
+"PO-Revision-Date: 2023-07-15 09:51+0000\n"
+"Last-Translator: Taufik Adi Wicaksono <taufikadi.wicaksono@tutamail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-settings/id/>\n"
 "Language: id\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #: browser/settings.md:block 1 (header)
 msgid "Ceno settings"
@@ -23,6 +23,11 @@ msgid ""
 "strategies against network interference, as well as reporting issues with "
 "the app."
 msgstr ""
+"Peramban Ceno memungkinkan Anda untuk mengubah beberapa pengaturan khusus "
+"Ouinet dan mendapatkan informasi tentang klien Anda dengan cara yang "
+"sederhana. Ini seharusnya tidak diperlukan untuk operasi normal, tetapi akan "
+"berguna untuk menguji berbagai strategi terhadap gangguan jaringan, serta "
+"melaporkan masalah dengan aplikasi."
 
 #: browser/settings.md:block 3 (quote)
 msgid ""
@@ -32,6 +37,12 @@ msgid ""
 "cache retrieval under public browsing, hinting the user about the source of "
 "the content being visualized, and notifying about new versions of Ouinet."
 msgstr ""
+"**Catatan teknis:** Opsi ini disediakan oleh *Ekstensi Ceno*, ekstensi "
+"Firefox yang langsung dipasang bersama Ceno dan menangani integrasi yang "
+"tepat dengan Ouinet, seperti mengaktifkan injeksi konten dan pengambilan "
+"tembolok saat penelusuran publik, memberi petunjuk kepada pengguna tentang "
+"sumber konten yang sedang divisualisasikan, dan memberi tahu tentang versi "
+"baru Ouinet."
 
 #: browser/settings.md:block 4 (paragraph)
 msgid ""
