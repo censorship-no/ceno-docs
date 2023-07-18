@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-07-18 07:06+0000\n"
+"PO-Revision-Date: 2023-07-19 10:05+0000\n"
 "Last-Translator: Taufik Adi Wicaksono <taufikadi.wicaksono@tutamail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/censorship-no/"
 "risks/id/>\n"
@@ -169,6 +169,9 @@ msgid ""
 "behaves as normal Firefox for Android does, so your particular device "
 "appears as a normal Firefox app of the same version."
 msgstr ""
+"Kemungkinan besar tidak. Setiap kali Ceno menghubungi server asal secara "
+"langsung, ia berperilaku seperti Firefox biasa untuk Android, sehingga "
+"perangkat Anda muncul sebagai aplikasi Firefox biasa dengan versi yang sama."
 
 #: concepts/risks.md:block 18 (paragraph)
 msgid ""
@@ -176,14 +179,20 @@ msgid ""
 "server, there are (at least) two ways for the latter to know that Ceno or "
 "Ouinet is involved:"
 msgstr ""
+"Namun, ketika menggunakan injektor untuk mendapatkan beberapa konten dari "
+"server asalnya, ada (setidaknya) dua cara untuk mengetahui bahwa Ceno atau "
+"Ouinet terlibat:"
 
 #: concepts/risks.md:block 19 (ordered list)
 msgid ""
 "The source address of the connection reaching the origin server is found in "
 "the injector swarm (since the connection comes indeed from the injector);"
 msgstr ""
+"Alamat sumber koneksi yang mencapai server asal ditemukan di kumpulan "
+"injektor (karena koneksi memang berasal dari injektor);"
 
 #: concepts/risks.md:block 19 (ordered list)
+#, fuzzy
 msgid ""
 "The presence or absence of certain information in the request for content is "
 "characteristic of Ouinet. This happens when the injector is requesting the "
@@ -191,6 +200,11 @@ msgid ""
 "the injector removes information unique to your particular device from the "
 "request."
 msgstr ""
+"Ada atau tidaknya informasi tertentu dalam permintaan konten merupakan ciri "
+"khas Ouinet. Ini terjadi saat injektor meminta konten karena diminta oleh "
+"klien Anda untuk mengambil dan menandatangani konten tersebut, karena "
+"injektor menghapus informasi unik untuk perangkat Anda dari permintaan "
+"tersebut."
 
 #: concepts/risks.md:block 20 (paragraph)
 msgid ""
@@ -200,6 +214,11 @@ msgid ""
 "some personally identifiable information, it could be used to mark you as a "
 "Ceno user."
 msgstr ""
+"Harap perhatikan bahwa ini hanya menandai permintaan sebagai berasal dari "
+"Ouinet, tetapi tidak menautkannya ke Anda atau perangkat Anda. Namun, jika "
+"permintaan muncul karena beberapa alasan yang telah disebutkan dalam "
+"pertanyaan sebelumnya masih berisi beberapa informasi identitas pribadi, itu "
+"dapat digunakan untuk menandai Anda sebagai pengguna Ceno."
 
 #: concepts/risks.md:block 21 (paragraph)
 msgid ""
@@ -208,14 +227,18 @@ msgid ""
 "(or from a [national intranet][National intranet]), we recommend that you "
 "use a normal Web browser instead of Ceno."
 msgstr ""
+"Secara umum, jika situs web tertentu (seperti situs pemerintah) mengharapkan "
+"Anda terhubung ke situs tersebut sebagai individu yang dapat diidentifikasi, "
+"dari wilayah tertentu (atau dari [intranet nasional][Intranet nasional]), "
+"sebaiknya gunakan peramban web biasa, bukan Ceno."
 
 #: concepts/risks.md:block 22 (header)
 msgid "As a seeder"
-msgstr ""
+msgstr "Sebagai penyebar"
 
 #: concepts/risks.md:block 23 (header)
 msgid "What data is seeded from my device?"
-msgstr ""
+msgstr "Data apa yang disebarkan dari perangkatku?"
 
 #: concepts/risks.md:block 24 (paragraph)
 msgid ""
@@ -224,10 +247,14 @@ msgid ""
 "users do not seed anything they have not accessed themselves in the recent "
 "past."
 msgstr ""
+"Saat ini, satu-satunya konten yang disebar oleh Ceno yaitu konten web "
+"nonprivat yang diminta dalam mode penjelajahan publik. Ini berarti juga "
+"bahwa pengguna tidak menyebarkan apa pun yang belum mereka akses sendiri di "
+"masa lalu."
 
 #: concepts/risks.md:block 25 (header)
 msgid "Can an anyone find out what I seed?"
-msgstr ""
+msgstr "Bisakah seseorang mengetahui apa yang saya sebarkan?"
 
 #: concepts/risks.md:block 26 (paragraph)
 msgid ""
@@ -237,26 +264,36 @@ msgid ""
 "specific IP address and get a list of all the content seeded by clients "
 "behind it."
 msgstr ""
+"Ya dan tidak. Siapa pun yang punya pemahaman yang cukup mengenai cara kerja "
+"Ouinet dapat membuat alat untuk mencari tahu alamat IP dari suatu konten "
+"yang sedang dibagikan di (misalnya BitTorrent). Namun, tidak mungkin untuk "
+"menargetkan alamat IP yang spesifik dan mendapatkan daftar seluruh konten "
+"yang disebarkan oleh pengguna dibaliknya."
 
 #: concepts/risks.md:block 27 (header)
 msgid "As a bridge"
-msgstr ""
+msgstr "Sebagai jembatan"
 
 #: concepts/risks.md:block 28 (header)
 msgid "Can others find my IP address?"
-msgstr ""
+msgstr "Bisakah orang lain menemukan alamat IP saya?"
 
 #: concepts/risks.md:block 29 (paragraph)
 msgid ""
 "Yes, every Ceno Browser able to communicate with injectors will register its "
 "IP address in the bridge swarm where other Ouinet clients can find them."
 msgstr ""
+"Ya, setiap Peramban Ceno yang dapat berkomunikasi dengan injektor akan "
+"mendaftarkan alamat IP-nya di kumpulan jembatan di mana klien pengguna "
+"Ouinet lain dapat menemukannya."
 
 #: concepts/risks.md:block 30 (header)
 msgid ""
 "Is it possible that I am helping someone to access content which is illegal "
 "in my country?"
 msgstr ""
+"Mungkinkah saya membantu seseorang untuk mengakses konten yang termasuk "
+"ilegal di negara saya?"
 
 #: concepts/risks.md:block 31 (paragraph)
 msgid ""
@@ -264,7 +301,10 @@ msgid ""
 "client and an injector. This means that a bridge shall never make direct "
 "requests for content to any other server on someone else's behalf."
 msgstr ""
+"Ya. Namun, jembatan hanya menyampaikan komunikasi terenkripsi antara klien "
+"Ouinet dan injektor. Ini berarti bahwa jembatan tidak akan pernah membuat "
+"permintaan konten secara langsung ke server mana pun atas nama orang lain."
 
 #: concepts/risks.md:block 31 (paragraph)
 msgid "[National intranet]: https://en.wikipedia.org/wiki/National_intranet"
-msgstr ""
+msgstr "[Intranet nasional]: https://en.wikipedia.org/wiki/National_intranet"
