@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-02 02:42+0200\n"
-"PO-Revision-Date: 2023-07-21 20:06+0000\n"
+"PO-Revision-Date: 2023-07-23 19:05+0000\n"
 "Last-Translator: fadoua <bouaouda.fadoua@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/censorship-no/"
 "ceno/ar/>\n"
@@ -65,7 +65,7 @@ msgstr ""
 
 #: intro/ceno.md:block 7 (header)
 msgid "Who is it for?"
-msgstr ""
+msgstr "لمن يصلح Ouinet؟"
 
 #: intro/ceno.md:block 8 (paragraph)
 msgid ""
@@ -112,6 +112,8 @@ msgstr "[Censorship.no!]: https://censorship.no/"
 #: intro/ceno.md:block 11 (quote)
 msgid "[P2P]: https://en.wikipedia.org/wiki/Peer-to-peer"
 msgstr ""
+"[نظير لنظير P2P]: https://ar.wikipedia.org/wiki/"
+"%D9%86%D8%AF_%D9%84%D9%86%D8%AF"
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[national intranets]: https://en.wikipedia.org/wiki/National_intranet"
