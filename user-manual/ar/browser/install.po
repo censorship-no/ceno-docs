@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2023-07-21 20:06+0000\n"
+"PO-Revision-Date: 2023-07-24 21:07+0000\n"
 "Last-Translator: fadoua <bouaouda.fadoua@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/censorship-no/"
 "browser-install/ar/>\n"
@@ -17,11 +17,11 @@ msgstr ""
 
 #: browser/install.md:block 1 (header)
 msgid "Installing Ceno"
-msgstr ""
+msgstr "تثبيت Ceno"
 
 #: browser/install.md:block 2 (paragraph)
 msgid "Ceno Browser can be installed via the following means:"
-msgstr ""
+msgstr "يمكن تثبيت متصفح Ceno عبر الوسائل التالية:"
 
 #: browser/install.md:block 3 (unordered list)
 msgid ""
