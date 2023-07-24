@@ -3,21 +3,22 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-16 04:02+0200\n"
-"PO-Revision-Date: 2021-03-16 03:02+0000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-07-24 21:06+0000\n"
+"Last-Translator: fadoua <bouaouda.fadoua@gmail.com>\n"
+"Language-Team: Arabic <https://hosted.weblate.org/projects/censorship-no/"
+"public-private/ar/>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 4.5.2-dev\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #
 #: concepts/public-private.md:block 1 (header)
 msgid "Public vs. private browsing"
-msgstr ""
+msgstr "التصفح العام مقابل التصفح الخاص"
 
 #: concepts/public-private.md:block 2 (paragraph)
 msgid ""
@@ -29,32 +30,42 @@ msgid ""
 "let others know that you are trying to or did retrieve), and fortunately "
 "Ceno can help you in this instance as well."
 msgstr ""
+"بفضل استخدامه لعدة تقنيات للتغلب على مشاكل الاتصال، قد يشكل Ceno طريقة "
+"ملائمة لك للحصول على جميع أنواع محتوى الويب. وكما قد تكون قرأت بالفعل في "
+"الأقسام السابقة، كلما استرجعت صفحة ووزعتها باستخدام متصفح Ceno، تصبح متاحة "
+"للآخرين. ومع ذلك، قد يكون هناك محتوى ما لا ترغب في مشاركته (أو لا تريد "
+"السماح للآخرين بمعرفة أنك تحاول استرداده أو تصفحته بالفعل)، لحسن الحظ يمكن "
+"لـ Ceno أن يساعدك في هذه الحالة أيضًا."
 
 #: concepts/public-private.md:block 3 (paragraph)
 msgid ""
 "The default mode when you launch the application is **public browsing**. In "
 "it, Ceno accesses Web content as described previously:"
 msgstr ""
+"الوضع الافتراضي عند تشغيل التطبيق هو **التصفح العام**. يصل فيه Ceno إلى "
+"محتوى الويب كما هو موضح سابقًا:"
 
 #: concepts/public-private.md:block 4 (ordered list)
 msgid "Direct access is attempted."
-msgstr ""
+msgstr "تمت محاولة الوصول المباشر."
 
 #: concepts/public-private.md:block 4 (ordered list)
 msgid "Failing that, the distributed cache is searched."
-msgstr ""
+msgstr "إذا تعذر ذلك، سيتم البحث في ذاكرة التخزين المؤقت الموزعة."
 
 #: concepts/public-private.md:block 4 (ordered list)
 msgid ""
 "Failing that, the content is requested via an injector (maybe via another "
 "client)."
-msgstr ""
+msgstr "إذا تعذر ذلك، سيتم طلب المحتوى عبر حاقن (ربما عبر عميل آخر)."
 
 #: concepts/public-private.md:block 5 (paragraph)
 msgid ""
 "Ceno also has a **private browsing** mode. In it, the distributed cache is "
 "never searched, and injection is never attempted:"
 msgstr ""
+"يحتوي Ceno أيضا على وضع **التصفح الخاص**. لا يتم البحث فيه في ذاكرة التخزين "
+"المؤقت الموزعة مطلقا، ولا تتم محاولة الحقن أبدا:"
 
 #: concepts/public-private.md:block 6 (ordered list)
 msgid ""
@@ -62,48 +73,58 @@ msgid ""
 "*as a normal proxy server*. Note that in this case, neither the injector nor "
 "your client updates the distributed cache with your page."
 msgstr ""
+"إذا تعذر ذلك، يتم الاتصال بحاقن (ربما عبر عميل آخر) واستخدامه *كوكيل خادم "
+"عادي*. لاحظ أنه في هذه الحالة، لا يقوم الحاقن ولا العميل بتحديث ذاكرة "
+"التخزين المؤقت الموزعة بصفحتك."
 
 #: concepts/public-private.md:block 7 (paragraph)
 msgid ""
 "The different behavior results in different characteristics. Thus, in public "
 "mode:"
-msgstr ""
+msgstr "ينتج عن السلوك المختلف خصائص مختلفة. وبالتالي، في الوضع العام:"
 
 #: concepts/public-private.md:block 8 (ordered list)
 msgid ""
 "You have better chances to get Web content, and help others get that content "
 "(from you)."
 msgstr ""
+"لديك فرص أفضل للحصول على محتوى الويب، ومساعدة الآخرين في الحصول على هذا "
+"المحتوى (منك)."
 
 #: concepts/public-private.md:block 8 (ordered list)
 msgid ""
 "Pages with dynamic content (e.g. updated in real time) may break in obvious "
 "or subtle ways."
 msgstr ""
+"قد تتعطل الصفحات ذات المحتوى الديناميكي (على سبيل المثال، التي يتم تحديثها "
+"في الوقت الفعلي) بطرق واضحة أو خفية."
 
 #: concepts/public-private.md:block 8 (ordered list)
 msgid ""
 "Pages requiring authentication do not work (as passwords and cookies are "
 "removed by the client)."
 msgstr ""
+"لا تعمل الصفحات التي تتطلب المصادقة (حيث تتم إزالة كلمات المرور وملفات تعريف "
+"الارتباط بواسطة العميل)."
 
 #: concepts/public-private.md:block 8 (ordered list)
 msgid ""
 "Some browsing activity may be leaked to other users (see [risks](risks.md))."
 msgstr ""
+"قد يتم تسريب بعض أنشطة التصفح إلى مستخدمين آخرين (راجع [المخاطر](risks.md))."
 
 #: concepts/public-private.md:block 8 (ordered list)
 msgid ""
 "Some browsing activity may be leaked to injectors (see [risks](risks.md))."
-msgstr ""
+msgstr "قد يتم تسريب بعض أنشطة التصفح إلى المحاقن (راجع [المخاطر](risks.md))."
 
 #: concepts/public-private.md:block 8 (ordered list)
 msgid "You need to trust injectors to retrieve and sign Web content."
-msgstr ""
+msgstr "تحتاج إلى الوثوق بالحاقن لاسترداد محتوى الويب وتوقيعه."
 
 #: concepts/public-private.md:block 9 (paragraph)
 msgid "While in private mode:"
-msgstr ""
+msgstr "و في الوضع الخاص:"
 
 #: concepts/public-private.md:block 10 (ordered list)
 msgid ""
@@ -111,32 +132,41 @@ msgid ""
 "connectivity is too scarce; even if you could, other Ceno users would not "
 "get that content from you."
 msgstr ""
+"قد لا تتمكن من الوصول إلى محتوى الويب المحظور إذا كان الاتصال الدولي نادرًا "
+"جدًا؛ و حتى لو تمكنت من ذلك، فلن يحصل مستخدمو Ceno الآخرون على هذا المحتوى "
+"منك."
 
 #: concepts/public-private.md:block 10 (ordered list)
 msgid "Pages with dynamic content will probably work."
-msgstr ""
+msgstr "من المحتمل أن تعمل الصفحات ذات المحتوى الديناميكي."
 
 #: concepts/public-private.md:block 10 (ordered list)
 msgid ""
 "Pages requiring authentication may work (when your connection is protected "
 "by HTTPS, the injector does not see your passwords)."
 msgstr ""
+"قد تعمل الصفحات التي تتطلب المصادقة (عندما يكون اتصالك محميًا بواسطة HTTPS، "
+"لا يرى الحاقن كلمات المرور الخاصة بك)."
 
 #: concepts/public-private.md:block 10 (ordered list)
 msgid "Browsing activity is not leaked to other users."
-msgstr ""
+msgstr "لا يتم تسريب نشاط التصفح للمستخدمين الآخرين."
 
 #: concepts/public-private.md:block 10 (ordered list)
 msgid ""
 "Limited browsing activity is leaked to injectors (with HTTPS, only the "
 "origin server name or address)."
 msgstr ""
+"يتم تسريب نشاط التصفح بشكل محدود إلى المحاقن (باستخدام HTTPS، فقط اسم أو "
+"عنوان الخادم الأصلي)."
 
 #: concepts/public-private.md:block 10 (ordered list)
 msgid ""
 "You need not trust injectors (with HTTPS, usual certificate-based security "
 "still works)."
 msgstr ""
+"لا تحتاج إلى الوثوق بالحاقن (مع HTTPS، يعمل الأمان المعتاد المستند إلى "
+"الشهادة)."
 
 #: concepts/public-private.md:block 11 (paragraph)
 msgid ""
@@ -146,6 +176,10 @@ msgid ""
 "to login to Twitter or edit your WordPress website, use *private browsing* "
 "mode."
 msgstr ""
+"ختامًا: إذا كنت تستخدم Ceno لقراءة الأخبار ومشاهدة مقاطع الفيديو وتصفح "
+"ويكيبيديا والموارد الساكنة الأخرى التي تخضع للرقابة في شبكتك، خذ بعين "
+"الإعتبار استخدام وضع *التصفح العام* الافتراضي. وإذا كنت تريد تسجيل الدخول "
+"إلى Twitter أو تعديل موقع WordPress الخاص بك، فاستخدم وضع *التصفح الخاص*."
 
 #: concepts/public-private.md:block 12 (paragraph)
 msgid ""
@@ -155,3 +189,7 @@ msgid ""
 "greater detail in the [Helping others](../browser/bridging.md) section of "
 "the manual."
 msgstr ""
+"يرجى قراءة قسم [المخاطر](risks.md) للحصول على شرح أكثر تفصيلاً. لاحظ أيضًا "
+"أن عميلك يمكنه الاستمرار في العمل كجسر و موزع بغض النظر عن التصفح العام أو "
+"الخاص. نوضح ذلك بمزيد من التفصيل في قسم [مساعدة الآخرين](../browser/bridging."
+"md) من الدليل."
