@@ -3,20 +3,21 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2021-03-05 19:50+0000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-08-01 02:02+0000\n"
+"Last-Translator: fadoua <bouaouda.fadoua@gmail.com>\n"
+"Language-Team: Arabic <https://hosted.weblate.org/projects/censorship-no/"
+"browser-bridging/ar/>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 4.5.1-dev\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #: browser/bridging.md:block 1 (header)
 msgid "Helping other Ceno users browse the Web"
-msgstr ""
+msgstr "مساعدة مستخدمي Ceno الآخرين على تصفح الويب"
 
 #: browser/bridging.md:block 2 (paragraph)
 msgid ""
@@ -42,7 +43,7 @@ msgstr ""
 
 #: browser/bridging.md:block 4 (header)
 msgid "How to become a Ceno bridge"
-msgstr ""
+msgstr "كيف تصبح جسرًا لـ Ceno"
 
 #: browser/bridging.md:block 5 (paragraph)
 msgid ""
@@ -79,11 +80,11 @@ msgstr ""
 
 #: browser/bridging.md:block 9 (ordered list)
 msgid "Have your device plugged in to power at all times."
-msgstr ""
+msgstr "أترك جهازك يُشحن طوال الوقت."
 
 #: browser/bridging.md:block 9 (ordered list)
 msgid "Have the device's screen on at all times."
-msgstr ""
+msgstr "أترك شاشة الجهاز مُشغلة طوال الوقت."
 
 #: browser/bridging.md:block 9 (ordered list)
 msgid ""
@@ -111,7 +112,7 @@ msgstr ""
 
 #: browser/bridging.md:block 11 (header)
 msgid "Running a bridge on a computer"
-msgstr ""
+msgstr "تشغيل جسر على جهاز كمبيوتر"
 
 #: browser/bridging.md:block 12 (paragraph)
 msgid ""
@@ -152,7 +153,7 @@ msgstr ""
 
 #: browser/bridging.md:block 19 (header)
 msgid "Enabling UPnP on your Wi-Fi router"
-msgstr ""
+msgstr "تمكين UPnP على جهاز توجيه Wi-Fi الخاص بك"
 
 #: browser/bridging.md:block 20 (paragraph)
 msgid ""
@@ -176,11 +177,11 @@ msgstr ""
 
 #: browser/bridging.md:block 23 (quote)
 msgid "**Reachability status**"
-msgstr ""
+msgstr "**حالة إمكانية الوصول**"
 
 #: browser/bridging.md:block 23 (quote)
 msgid "**UPnP status**"
-msgstr ""
+msgstr "**حالة UPnP**"
 
 #: browser/bridging.md:block 24 (paragraph)
 msgid ""
@@ -215,39 +216,47 @@ msgstr ""
 
 #: browser/bridging.md:block 30 (unordered list)
 msgid "[Linksys](https://www.linksys.com/us/support-article?articleNum=138290)"
-msgstr ""
+msgstr "[Linksys](https://www.linksys.com/ae/support-article?articleNum=138290)"
 
 #: browser/bridging.md:block 30 (unordered list)
 msgid ""
 "[D-Link](https://eu.dlink.com/uk/en/support/faq/routers/wired-routers/di-"
 "series/how-do-i-enable-upnp-on-my-router)"
 msgstr ""
+"[D-Link](https://eu.dlink.com/uk/en/support/faq/routers/wired-routers/"
+"di-series/how-do-i-enable-upnp-on-my-router)"
 
 #: browser/bridging.md:block 30 (unordered list)
 msgid "[Huawei](https://consumer.huawei.com/ph/support/content/en-us00275342/)"
-msgstr ""
+msgstr "[Huawei](https://consumer.huawei.com/ae/support/content/ar-eg15806294/)"
 
 #: browser/bridging.md:block 30 (unordered list)
 msgid ""
 "[Xfinity](https://www.xfinity.com/support/articles/configure-device-"
 "discovery-for-wifi)"
 msgstr ""
+"[Xfinity](https://www.xfinity.com/support/articles/configure-device-"
+"discovery-for-wifi)"
 
 #: browser/bridging.md:block 30 (unordered list)
 msgid "[TP-Link](https://community.tp-link.com/us/home/kb/detail/348)"
-msgstr ""
+msgstr "[TP-Link](https://community.tp-link.com/us/home/kb/detail/348)"
 
 #: browser/bridging.md:block 30 (unordered list)
 msgid ""
 "[Netgear](https://kb.netgear.com/24306/How-do-I-enable-Universal-Plug-and-"
 "Play-on-my-Nighthawk-router)"
 msgstr ""
+"[Netgear](https://kb.netgear.com/24306/How-do-I-enable-Universal-Plug-and-"
+"Play-on-my-Nighthawk-router)"
 
 #: browser/bridging.md:block 30 (unordered list)
 msgid ""
 "[Ubiquiti](https://www.geekzone.co.nz/forums.asp?"
 "forumid=66&topicid=205740&page_no=5#1725168)"
 msgstr ""
+"[Ubiquiti](https://www.geekzone.co.nz/forums."
+"asp?forumid=66&topicid=205740&page_no=5#1725168)"
 
 #: browser/bridging.md:block 31 (header)
 msgid "Using port forwarding as an alternative to UPnP"
@@ -296,27 +305,36 @@ msgstr ""
 #: browser/bridging.md:block 35 (quote)
 msgid "[docker]: https://en.wikipedia.org/wiki/Docker_(software)"
 msgstr ""
+"[docker]: https://ar.wikipedia.org/wiki/"
+"%D8%AF%D9%88%D9%83%D8%B1_(%D8%A8%D8%B1%D9%85%D8%AC%D9%8A%D8%A9)"
 
 #: browser/bridging.md:block 35 (quote)
 msgid "[docker-install]: https://docs.docker.com/engine/install/"
-msgstr ""
+msgstr "[docker-install]: https://docs.docker.com/engine/install/"
 
 #: browser/bridging.md:block 35 (quote)
 msgid ""
 "[ceno-client-doc]: https://github.com/censorship-no/ceno-docker-"
 "client#running-the-client"
 msgstr ""
+"[ceno-client-doc]: https://github.com/censorship-no/ceno-docker-client"
+"#running-the-client"
 
 #: browser/bridging.md:block 35 (quote)
 msgid "[UPnP]: https://en.wikipedia.org/wiki/Universal_Plug_and_Play"
 msgstr ""
+"[UPnP]: https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9"
+"%84_%D9%88%D8%A7%D9%84%D8%AA%D8%B4%D8%BA%D9%8A%D9%84_%D8%A7%D9%84%D8%B9%D8%A7"
+"%D9%84%D9%85%D9%8A"
 
 #: browser/bridging.md:block 35 (quote)
 msgid ""
 "[upnp-risks]: https://www.howtogeek.com/122487/htg-explains-is-upnp-a-"
 "security-risk"
 msgstr ""
+"[upnp-risks]: https://www.howtogeek.com/122487/htg-explains-is-upnp-a"
+"-security-risk"
 
 #: browser/bridging.md:block 35 (quote)
 msgid "[CGNAT]: https://en.wikipedia.org/wiki/Carrier-grade_NAT"
-msgstr ""
+msgstr "[CGNAT]: https://en.wikipedia.org/wiki/Carrier-grade_NAT"
