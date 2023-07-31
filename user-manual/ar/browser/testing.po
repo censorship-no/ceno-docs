@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-16 04:04+0200\n"
-"PO-Revision-Date: 2023-07-31 00:12+0000\n"
+"PO-Revision-Date: 2023-08-01 02:02+0000\n"
 "Last-Translator: fadoua <bouaouda.fadoua@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/censorship-no/"
 "browser-testing/ar/>\n"
@@ -69,14 +69,19 @@ msgid ""
 "provider or country, looking up the bridge swarm and trying to contact the "
 "injector via some other Ouinet client."
 msgstr ""
+"دعنا نتحقق أولاً مما إذا كان متصفح Ceno الخاص بك يمكنه الوصول إلى حاقن. قد "
+"يبدو هذا بديهيًا، لكن سوف يمارس عميلك العديد من ميزات Ouinet في هذه العملية: "
+"البحث عن عنوان الحاقن في سرب الحاقنات، ومحاولة الاتصال به مباشرة، وإذا تم "
+"حظره بواسطة مزود الوصول أو البلد، سيحاول البحث عن جسر السرب ومحاولة الاتصال "
+"بالحاقن عبر بعض عملاء Ouinet الآخرين."
 
 #: browser/testing.md:block 7 (paragraph)
 msgid "In the first device perform the following steps:"
-msgstr ""
+msgstr "في الجهاز الأول، نفذ الخطوات التالية:"
 
 #: browser/testing.md:block 8 (ordered list)
 msgid "First of all, install Ceno and start it. Its home page will appear."
-msgstr ""
+msgstr "في البداية، قم بتثبيت Ceno وابدأ تشغيله. سوف تظهر صفحته الرئيسية."
 
 #: browser/testing.md:block 8 (ordered list)
 msgid ""
@@ -84,6 +89,9 @@ msgid ""
 "Since we only want to test injector access, uncheck all the boxes for "
 "content sources except *Via the Ceno network (public)*."
 msgstr ""
+"افتح القائمة الرئيسية للتطبيق واختر *Ceno* لفتح صفحة *إعدادات Ceno*. نظرًا "
+"لأننا نريد فقط اختبار الوصول إلى الحاقن، قم بإلغاء تحديد جميع المربعات "
+"الخاصة بمصادر المحتوى باستثناء *عبر شبكة Ceno (العامة)*."
 
 #: browser/testing.md:block 8 (ordered list)
 msgid ""
@@ -92,10 +100,13 @@ msgid ""
 "window. If you know about a site which is usually blocked for you, go ahead "
 "and enter it!"
 msgstr ""
+"عد للصفحة الرئيسية لـ Ceno. يمكنك إما تحديد أحد مواقع الويب الموصى بها، أو "
+"إدخال عنوان URL موقع آخر في شريط العناوين أعلى النافذة. إذا كنت تعرف موقعًا "
+"يتم حظره عادةً، فلا تتردد في إدخاله!"
 
 #: browser/testing.md:block 8 (ordered list)
 msgid "The chosen site should eventually show up."
-msgstr ""
+msgstr "يجب أن يظهر الموقع الذي اخترته."
 
 #: browser/testing.md:block 9 (paragraph)
 msgid ""
@@ -103,6 +114,9 @@ msgid ""
 "address bar to enter the site's URL with `https://` at the beginning "
 "(instead of `http://`) and repeat the test."
 msgstr ""
+"**ملاحظة:** إذا حصلت على صفحة مزيفة بدلاً من الصفحة الحقيقية، فاستخدم شريط "
+"العنوان لإدخال عنوان URL الخاص بالموقع مع`https://`في البداية (بدلاً من "
+"`http://`) وكرر الإختبار."
 
 #: browser/testing.md:block 10 (paragraph)
 msgid ""
@@ -110,6 +124,10 @@ msgid ""
 "injector! Since you are able to query swarms and contact other clients, you "
 "are also likely to be able to retrieve content from the distributed cache."
 msgstr ""
+"إذا تم تحميل الموقع، فيمكنك أن تكون سعيدًا لأن جهازك يمكنه الوصول إلى "
+"الحاقن! نظرًا لأنك قادر على الاستعلام عن الأسراب والاتصال بالعملاء الآخرين، "
+"فمن المحتمل أن تكون قادرًا على استرداد المحتوى من ذاكرة التخزين المؤقت "
+"الموزعة."
 
 #: browser/testing.md:block 11 (paragraph)
 msgid ""
@@ -118,11 +136,15 @@ msgid ""
 "retrieved form the different sources. Only *Via Ceno network (public)* "
 "should have a non-zero value since the other sources were disabled."
 msgstr ""
+"بالمناسبة، إذا قمت بالضغط على أيقونة Ceno في شريط العناوين، فسيتم فتح نافذة "
+"منبثقة مثل الموجودة أدناه، والتي توضح عدد العناصر التي تم استردادها من "
+"الموقع من المصادر المختلفة. فقط *عبر شبكة Ceno (العامة)* يجب أن يكون لها "
+"قيمة غير الصفر بما أنه تم تعطيل المصادر الأخرى."
 
 #: browser/testing.md:block 12 (paragraph)
 msgid ""
 "![Figure: Sources used when testing injection](images/sources-inject.png)"
-msgstr ""
+msgstr "![الشكل: المصادر المستخدمة عند اختبار الحقن](images/sources-inject.png)"
 
 #: browser/testing.md:block 13 (paragraph)
 msgid ""
@@ -130,14 +152,17 @@ msgid ""
 "have seen a popup like the one below, with non-zero counts in *Direct from "
 "website* or *Via Ceno network (private)*."
 msgstr ""
+"في المقابل، إذا كنت قد استخدمت التصفح الخاص بالإعدادات الافتراضية، فقد تكون "
+"رأيت نافذة منبثقة مثل الموجودة أدناه، مع عدد غير الصفر في *مباشر من الموقع "
+"الإلكتروني* أو *عبر شبكة Ceno (الخاصة)*."
 
 #: browser/testing.md:block 14 (paragraph)
 msgid "![Figure: Sources used with private browsing](images/sources-proxy.png)"
-msgstr ""
+msgstr "![الشكل: المصادر المستخدمة في التصفح الخاص](images/sources-proxy.png)"
 
 #: browser/testing.md:block 15 (header)
 msgid "Getting content from close users"
-msgstr ""
+msgstr "الحصول على المحتوى من المستخدمين القريبين"
 
 #: browser/testing.md:block 16 (paragraph)
 msgid ""
@@ -146,6 +171,10 @@ msgid ""
 "cache. The simplest way is to use Ceno's device-to-device support to check "
 "whether getting and verifying signed content works."
 msgstr ""
+"بما أن جهازك الأول كان قادرًا على الحصول على محتوى ما من حاقن، فلنختبر ما "
+"إذا كان قادرًا على مشاركته مع جهاز آخر عبر ذاكرة التخزين المؤقت الموزعة. إن "
+"أبسط طريقة هي استخدام دعم Ceno من جهاز إلى جهاز للتحقق مما إذا كان الحصول "
+"على المحتوى الموقع والتحقق منه يعمل."
 
 #: browser/testing.md:block 17 (paragraph)
 msgid ""
@@ -155,10 +184,14 @@ msgid ""
 "connect it to the same Wi-Fi network. Next, follow the steps below on the "
 "second device:"
 msgstr ""
+"بعد إكمال الاختبار أعلاه بنجاح على الجهاز الأول، اترك Ceno يعمل عليه (يجب أن "
+"يظهر رمز Ceno في شريط الإشعارات الخاص به). ثم احصل على جهاز ثانٍ (يمكنك دعوة "
+"صديق للمساعدة في الاختبار) وتوصيله بنفس شبكة Wi-Fi. بعد ذلك، اتبع الخطوات "
+"أدناه على الجهاز الثاني:"
 
 #: browser/testing.md:block 18 (ordered list)
 msgid "Install Ceno if needed and start it as above."
-msgstr ""
+msgstr "قم بتثبيت Ceno إذا لزم الأمر وابدأ كما هو مذكور أعلاه."
 
 #: browser/testing.md:block 18 (ordered list)
 msgid ""
@@ -166,6 +199,9 @@ msgid ""
 "distributed cache access, uncheck all the boxes for content sources except "
 "*Shared by other Ceno users*."
 msgstr ""
+"افتح صفحة *إعدادات Ceno* على النحو الوارد أعلاه. نظرًا لأننا نريد فقط اختبار "
+"الوصول إلى ذاكرة التخزين المؤقت الموزعة، قم بإلغاء تحديد جميع المربعات "
+"الخاصة بمصادر المحتوى باستثناء *تم مشاركته من قبل مستخدمي Ceno الآخرين*."
 
 #: browser/testing.md:block 18 (ordered list)
 msgid ""
@@ -173,6 +209,9 @@ msgid ""
 "you did above (i.e. by selecting one of the recommended web sites or "
 "entering its URL in the address bar)."
 msgstr ""
+"ارجع إلى الصفحة الرئيسية لـ Ceno وقم بزيارة نفس الموقع بنفس الطريقة التي قمت "
+"بها أعلاه (أي عن طريق اختيار أحد مواقع الويب الموصى بها أو إدخال عنوان URL "
+"الخاص به في شريط العناوين)."
 
 #: browser/testing.md:block 19 (paragraph)
 msgid ""
@@ -180,6 +219,9 @@ msgid ""
 "between its devices. This \"client isolation\" may happen in public networks "
 "like those of parks, bars or hotels. Please try again on a different network."
 msgstr ""
+"إذا لم يعمل، فقد تكون شبكة Wi-Fi تحظر الاتصال المباشر بين أجهزتها. قد يحدث "
+"\"عزل العميل\" هذا في الشبكات العامة مثل تلك الموجودة في المتنزهات أو "
+"الحانات أو الفنادق. يرجى المحاولة مرة أخرى على شبكة مختلفة."
 
 #: browser/testing.md:block 20 (paragraph)
 msgid ""
@@ -187,12 +229,18 @@ msgid ""
 "other clients. Pushing the Ceno address bar icon should show a popup like "
 "the one below, where only *Shared by other Ceno users* has a non-zero value."
 msgstr ""
+"إذا نجح الأمر، فهذا يعني أن كلا الجهازين قادر على توصيل هذا المحتوى إلى "
+"عملاء آخرين. يجب أن يؤدي الضغط على رمز شريط عنوان Ceno إلى إظهار نافذة "
+"منبثقة مثل الموجودة أدناه ، حيث فقط * تم مشاركته من قبل مستخدمي Ceno الآخرين*"
+" له قيمة غير الصفر."
 
 #: browser/testing.md:block 21 (paragraph)
 msgid ""
 "![Figure: Sources used when testing distributed cache retrieval](images/"
 "sources-dcache.png)"
 msgstr ""
+"![الشكل: المصادر المستخدمة عند اختبار استرجاع ذاكرة التخزين المؤقت الموزعة]("
+"images/sources-dcache.png)"
 
 #: browser/testing.md:block 22 (paragraph)
 msgid ""
@@ -201,16 +249,22 @@ msgid ""
 "indeed part of the distributed cache, but they happen to already be stored "
 "in your device, so Ceno does not need to retrieve them over the network."
 msgstr ""
+"أخيرًا، ربما لاحظت أيضًا وجود عداد لـ *تم مشاركته من طرفك*. هذا ليس مصدرًا "
+"مختلفًا *في حد ذاته*: العناصر التي تم عدها هنا هي في الواقع جزء من ذاكرة "
+"التخزين المؤقت الموزعة، ولكن تصادف أنها مخزنة بالفعل في جهازك، لذلك لا يحتاج "
+"Ceno إلى استعادتها عبر الشبكة."
 
 #: browser/testing.md:block 23 (header)
 msgid "Getting content from remote users"
-msgstr ""
+msgstr "الحصول على المحتوى من المستخدمين عن بعد"
 
 #: browser/testing.md:block 24 (paragraph)
 msgid ""
 "We have done a small-scale test of the distributed cache. Let us now test "
 "how it works over the Internet."
 msgstr ""
+"لقد أجرينا اختبارًا لذاكرة التخزين المؤقت الموزعة على نطاق صغير. دعونا الآن "
+"نختبر كيف يعمل عبر الإنترنت."
 
 #: browser/testing.md:block 25 (paragraph)
 msgid ""
@@ -218,6 +272,9 @@ msgid ""
 "first device as with the previous test, and stop Ceno on the second device "
 "(by showing its notifications and pushing \"Tap to stop\")."
 msgstr ""
+"بعد إكمال الاختبار أعلاه بنجاح، اترك Ceno قيد التشغيل على الجهاز الأول كما "
+"في الاختبار السابق، وأوقف Ceno على الجهاز الثاني (من خلال إظهار الإشعارات "
+"والضغط على 'انقر للإيقاف')."
 
 #: browser/testing.md:block 26 (paragraph)
 msgid ""
@@ -225,6 +282,9 @@ msgid ""
 "different Wi-Fi network (maybe another friend can help from home). The steps "
 "to follow for that device are exactly the same as those in the previous test."
 msgstr ""
+"ستحتاج هذه المرة إلى جهاز ثالث، ولكن يجب أن يكون متصلاً بشبكة Wi-Fi مختلفة ("
+"ربما يمكن لصديق آخر المساعدة من المنزل). الخطوات التي يجب اتباعها لهذا "
+"الجهاز هي بالضبط نفس تلك الموجودة في الاختبار السابق."
 
 #: browser/testing.md:block 27 (paragraph)
 msgid ""
@@ -232,7 +292,9 @@ msgid ""
 "The first device is able to seed content to others, and it can most probably "
 "also act as a bridge."
 msgstr ""
+"إذا كان الجهاز الثالث يمكنه تحميل الموقع المستخدَم للاختبار، فأنت جاهز تمامً"
+"ا. الجهاز الأول قادر على نشر المحتوى للآخرين، ويمكن أن يعمل أيضًا كجسر."
 
 #: browser/testing.md:block 28 (paragraph)
 msgid "Congratulations!"
-msgstr ""
+msgstr "مبروك!"
