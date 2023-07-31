@@ -3,21 +3,22 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-16 04:04+0200\n"
-"PO-Revision-Date: 2021-03-16 03:04+0000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-07-31 00:12+0000\n"
+"Last-Translator: fadoua <bouaouda.fadoua@gmail.com>\n"
+"Language-Team: Arabic <https://hosted.weblate.org/projects/censorship-no/"
+"browser-testing/ar/>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 4.5.2-dev\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #
 #: browser/testing.md:block 1 (header)
 msgid "Testing the Browser"
-msgstr ""
+msgstr "إختبر المتصفح"
 
 #: browser/testing.md:block 2 (paragraph)
 msgid ""
@@ -27,12 +28,19 @@ msgid ""
 "different access mechanisms. Keep in mind however that in day-to-day usage "
 "of Ceno, you will seldom need to change the default settings at all."
 msgstr ""
+"الآن بعد أن عرفت كيفية [تثبيت](install.md) و [تهيئة](settings.md) Ceno، دعنا "
+"نتبع بعض الخطوات لاختبار ما إذا كانت الميزات المختلفة الخاصة بـ Ouinet تعمل "
+"أم لا. سيشمل هذا و بشكل انتقائي تمكين وتعطيل آليات الوصول المختلفة. ضع في "
+"اعتبارك أنه أثناء الاستخدام اليومي لـ Ceno، نادرًا ما ستحتاج إلى تغيير "
+"الإعدادات الافتراضية على الإطلاق."
 
 #: browser/testing.md:block 3 (paragraph)
 msgid ""
 "To complete all the tests below you will need at least two devices connected "
 "to the same Wi-Fi network, and a third one on a completely different network."
 msgstr ""
+"لإكمال جميع الاختبارات أدناه، ستحتاج إلى جهازين على الأقل متصلين بنفس شبكة "
+"Wi-Fi، وجهاز ثالث متصل بشبكة مختلفة تمامًا."
 
 #: browser/testing.md:block 4 (paragraph)
 msgid ""
@@ -42,10 +50,15 @@ msgid ""
 "browser gets stuck for more than a couple of minutes while loading a page, "
 "you may hit stop and reload it (although this may alter results slightly)."
 msgstr ""
+"سيتم إجراء جميع الاختبارات باستخدام [التصفح العام](public-private.md). إذا "
+"كان هناك شيء لا يعمل كما هو متوقع، يرجى التحلي بالصبر والتحقق من القسم الخاص "
+"بـ [استكشاف الأخطاء وإصلاحها](troubleshooting.md). على وجه التحديد، إذا توقف "
+"المتصفح لأكثر من دقيقتين أثناء تحميل الصفحة، فيمكنك الضغط على إيقاف وإعادة "
+"تحميلها (على الرغم من أن هذا قد يؤدي إلى تغير النتائج بشكل طفيف)."
 
 #: browser/testing.md:block 5 (header)
 msgid "Accessing an injector"
-msgstr ""
+msgstr "الوصول إلى حاقن"
 
 #: browser/testing.md:block 6 (paragraph)
 msgid ""
