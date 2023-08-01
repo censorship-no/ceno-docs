@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-07-19 10:05+0000\n"
+"PO-Revision-Date: 2023-08-02 16:04+0000\n"
 "Last-Translator: Taufik Adi Wicaksono <taufikadi.wicaksono@tutamail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/censorship-no/"
 "risks/id/>\n"
@@ -307,4 +307,4 @@ msgstr ""
 
 #: concepts/risks.md:block 31 (paragraph)
 msgid "[National intranet]: https://en.wikipedia.org/wiki/National_intranet"
-msgstr "[Intranet nasional]: https://en.wikipedia.org/wiki/National_intranet"
+msgstr "[Intranet nasional]: https://id.wikipedia.org/wiki/Intranet_nasional"
