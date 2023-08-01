@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-08-01 15:07+0000\n"
+"PO-Revision-Date: 2023-08-02 16:04+0000\n"
 "Last-Translator: Taufik Adi Wicaksono <taufikadi.wicaksono@tutamail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/censorship-no/"
 "ouinet/id/>\n"
@@ -85,7 +85,7 @@ msgstr ""
 
 #: intro/ouinet.md:block 9 (quote)
 msgid "[P2P]: https://en.wikipedia.org/wiki/Peer-to-peer"
-msgstr ""
+msgstr "[P2P]: https://id.wikipedia.org/wiki/Peer-to-peer"
 
 #: intro/ouinet.md:block 9 (quote)
 msgid "[eQualitie]: https://equalit.ie/"
