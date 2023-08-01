@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-08-01 15:07+0000\n"
+"PO-Revision-Date: 2023-08-02 16:04+0000\n"
 "Last-Translator: Taufik Adi Wicaksono <taufikadi.wicaksono@tutamail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/censorship-no/"
 "ceno/id/>\n"
@@ -113,6 +113,10 @@ msgid ""
 "operating a standard Web browser (Ceno-specific functionality is largely "
 "hidden under the hood)."
 msgstr ""
+"Anda tidak perlu menjadi pengguna komputer tingkat lanjut atau bahkan "
+"memahami cara kerja jaringan klien ke klien untuk menggunakan Ceno. "
+"Pengalaman pengguna mirip dengan mengoperasikan peramban web standar ("
+"fungsionalitas khusus Ceno sebagian besar tersembunyi di balik layar)."
 
 #: intro/ceno.md:block 10 (paragraph)
 msgid ""
@@ -124,6 +128,14 @@ msgid ""
 "mobile data limits (should you have them), but also to increase the chances "
 "of being able to deliver Web content to other users."
 msgstr ""
+"Namun, Ceno dapat menghasilkan lebih banyak lalu lintas internet daripada "
+"peramban web biasa - karena Ceno perlu memberitahukan kepada pengguna lain "
+"tentang konten web yang dibagikannya ke jaringan dan mungkin mengirimkan "
+"konten ini kepada mereka yang memintanya. Oleh karena itu, Ceno mengandalkan "
+"konektivitas dalam negeri yang cukup baik. Kami menyarankan untuk "
+"menggunakan Ceno ketika terhubung ke Wi-Fi. Tidak hanya untuk menghindari "
+"kuota data seluler yang melelahkan (jika Anda memilikinya), tetapi juga "
+"untuk meningkatkan peluang untuk mengirimkan konten web ke pengguna lainnya."
 
 #: intro/ceno.md:block 11 (quote)
 msgid ""
@@ -133,6 +145,12 @@ msgid ""
 "this tool. See the sections on [public vs. private browsing](../concepts/"
 "public-private.md) and [risks](../concepts/risks.md) for further information."
 msgstr ""
+"**Peringatan:** *Ceno bukanlah alat anonimitas.* Bahkan, menggunakan Ceno "
+"memungkinkan orang lain untuk mengetahui apakah Anda telah mengakses atau "
+"membagikan konten web tertentu. Mohon pertimbangkan dengan cermat risiko apa "
+"yang dapat Anda tanggung dengan menggunakan alat ini. Lihat bagian ["
+"penjelajahan publik vs. privat](../konsep/publik-privat.md) dan [risiko](../"
+"konsep/risks.md) untuk informasi lebih lanjut."
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[Censorship.no!]: https://censorship.no/"
@@ -140,11 +158,11 @@ msgstr "[Censorship.no!]: https://censorship.no/"
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[P2P]: https://en.wikipedia.org/wiki/Peer-to-peer"
-msgstr ""
+msgstr "[P2P]: https://id.wikipedia.org/wiki/Peer-to-peer"
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[national intranets]: https://en.wikipedia.org/wiki/National_intranet"
-msgstr ""
+msgstr "[intranet nasional]: https://id.wikipedia.org/wiki/Intranet_nasional"
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[Firefox for Android]: https://www.mozilla.org/firefox/android/"
@@ -159,7 +177,9 @@ msgid ""
 "[Universal Declaration of Human Rights]: https://www.un.org/en/universal-"
 "declaration-human-rights/"
 msgstr ""
+"[Deklarasi Universal Hak Asasi Manusia]: https://www.un.org/en/"
+"universal-declaration-human-rights/"
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[ceno-repos]: https://github.com/censorship-no/"
-msgstr ""
+msgstr "[repositori ceno]: https://github.com/censorship-no/"
