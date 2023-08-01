@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-07-14 19:47+0000\n"
+"PO-Revision-Date: 2023-08-01 15:07+0000\n"
 "Last-Translator: Taufik Adi Wicaksono <taufikadi.wicaksono@tutamail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/censorship-no/"
 "ouinet/id/>\n"
@@ -53,7 +53,7 @@ msgstr ""
 
 #: intro/ouinet.md:block 6 (header)
 msgid "Who is it for?"
-msgstr ""
+msgstr "Aplikasi ini untuk siapa?"
 
 #: intro/ouinet.md:block 7 (paragraph)
 msgid ""
