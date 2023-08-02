@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2023-08-01 02:02+0000\n"
+"PO-Revision-Date: 2023-08-05 00:11+0000\n"
 "Last-Translator: fadoua <bouaouda.fadoua@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/censorship-no/"
 "browser-bridging/ar/>\n"
@@ -31,6 +31,13 @@ msgid ""
 "through an encrypted tunnel), nor will any of this traffic remain on your "
 "device."
 msgstr ""
+"يتم بناء شبكة نظير إلى نظير من كل عقدة متصلة بها (نعم، هذا يعنيك أيضًا!). "
+"كلما زاد عدد العقد، كلما أصبحت الشبكة أقوى وأكثر تنوعًا. إذا كنت تقوم بتشغيل "
+"متصفح Ceno من بلد لا يفرض رقابة على الإنترنت (أو أقل من بعض الدول)، ففكر في "
+"مساعدة مستخدمي Ceno الآخرين من خلال أن تصبح عقدة **جسر**. ستبدأ حينها في "
+"توجيه حركة المرور بين العملاء الذين يعيشون في البلدان الخاضعة للرقابة "
+"الشديدة وبين حاقنات Ceno. لن تكون قادرًا على رؤية حركة المرور الخاصة بهم ("
+"سيتم إرسالها عبر نفق مشفر)، ولن تظل أي من حركة المرور هذه على جهازك."
 
 #: browser/bridging.md:block 3 (quote)
 msgid ""
@@ -40,6 +47,10 @@ msgid ""
 "(but keep in mind the [risks](../concepts/risks.md) of serving such content "
 "to others)."
 msgstr ""
+"**ملاحظة:** قد تساعد التهيئة الموضحة في هذا القسم جهازك على توزيع المحتوى "
+"بشكل فعال للآخرين على ذاكرة التخزين المؤقت الموزعة، لذا خذ بعين الإعتبار "
+"إمكانية تطبيقها أيضًا عند استخدام Ceno في دولة تخضع للرقابة (ولكن تذكر "
+"[المخاطر](../concepts/risks.md) عند تقديم محتوى كهذا للآخرين)."
 
 #: browser/bridging.md:block 4 (header)
 msgid "How to become a Ceno bridge"
@@ -52,6 +63,9 @@ msgid ""
 "port forwarding configured for Ceno. See the next sections for further "
 "details."
 msgstr ""
+"هذه الخاصية مضمنة بالفعل في متصفح Ceno. سيحتاج جهازك إلى الاتصال بشبكة Wi-Fi "
+"ثم تمكين UPnP أو إعادة توجيه منفذ صريح تم تهيئته لـ Ceno. انظر الأقسام "
+"التالية لمزيد من التفاصيل."
 
 #: browser/bridging.md:block 6 (paragraph)
 msgid ""
@@ -59,6 +73,8 @@ msgid ""
 "a proper bridge while you are actively using it, as power-saving features "
 "will throttle the operation of Ceno otherwise."
 msgstr ""
+"ومع ذلك، يرجى ملاحظة أن أندرويد لا يسمح للجهاز المحمول بالعمل كجسر إلا أثناء "
+"استخدامه فعليا، بما أن ميزات توفير الطاقة تؤدي إلى إعاقة تشغيل Ceno."
 
 #: browser/bridging.md:block 7 (quote)
 msgid ""
@@ -71,12 +87,21 @@ msgid ""
 "interfere with Ceno; please check [Don't kill my app!][Don't kill my app!] "
 "for your device's brand."
 msgstr ""
+"**ملاحظة تقنية:** يرجع هذا أساسًا إلى [وضع الغفوة](https://developer.android."
+"com/training/monitoring-device-state/doze-standby \"Android Developers – "
+"Optimize for Doze and App Standby\") في أندرويد والذي يبطئ تشغيل مكتبة "
+"Ouinet الأصلية. لسوء الحظ، لا يبدو أن تعطيل توفير البطارية لـ Ceno لا يستبعد "
+"Ouinet من ذلك. قد يشتمل جهازك الخاص أيضًا على ميزات توفير الطاقة الخاصة به "
+"والتي قد تتداخل مع Ceno؛ يرجى التحقق من [Don't kill my app!][Don't kill my "
+"app!] للعلامة التجارية لجهازك."
 
 #: browser/bridging.md:block 8 (paragraph)
 msgid ""
 "Thus if you intend to have Ceno acting as a permanent, always-reachable "
 "bridge, besides a properly configured Wi-Fi network you will need to:"
 msgstr ""
+"وبالتالي، إذا كنت تنوي جعل Ceno يعمل كجسر دائم يمكن الوصول إليه دائمًا، إلى "
+"جانب شبكة Wi-Fi مهيأة بشكل صحيح، فستحتاج إلى:"
 
 #: browser/bridging.md:block 9 (ordered list)
 msgid "Have your device plugged in to power at all times."
@@ -95,6 +120,12 @@ msgid ""
 "select *While charging* or *Either*. A very dimmed down clock will appear on "
 "a black background while the device is not active."
 msgstr ""
+"إحدى الطرق الملائمة للقيام بذلك دون استهلاك الكثير من الطاقة والإضاءة "
+"الدائمة المزعجة هي استخدام شاشة التوقف في أندرويد: قم بتمكينها ضمن *"
+"الإعدادات / العرض / شاشة التوقف* (أو *أحلام اليقظة* في بعض الإصدارات)، اختر "
+"أداة *الساعة*، اختر *متى تبدأ شاشة التوقف* في القائمة وحدد *أثناء الشحن* أو *"
+" إما هذا و إما ذاك*. ستظهر ساعة خافتة للغاية على خلفية سوداء عندما يكون "
+"الجهاز غير نشط."
 
 #: browser/bridging.md:block 9 (ordered list)
 msgid ""
@@ -102,6 +133,9 @@ msgid ""
 "this will turn the screen off. Instead, just wait for the device to lock "
 "itself with the screen on."
 msgstr ""
+"يرجى ملاحظة أنه لا يجب استخدام زر الطاقة لقفل الجهاز لأن هذا سيؤدي إلى إيقاف "
+"تشغيل الشاشة. بدلاً من ذلك، فقط انتظر حتى يقفل الجهاز نفسه مع ترك الشاشة "
+"مشغلة."
 
 #: browser/bridging.md:block 10 (paragraph)
 msgid ""
@@ -109,6 +143,8 @@ msgid ""
 "computer with good connectivity that stays on most of the time, please "
 "continue reading."
 msgstr ""
+"إذا لم يكن هذا الإعداد متاحًا لك، فلا تستسلم بعد! إذا كان لديك جهاز كمبيوتر "
+"يتمتع باتصال جيد ويظل مشغلا معظم الوقت، فيرجى متابعة القراءة."
 
 #: browser/bridging.md:block 11 (header)
 msgid "Running a bridge on a computer"
@@ -122,6 +158,11 @@ msgid ""
 "[docker-install] in your platform. For Debian derivatives like Ubuntu or "
 "Linux Mint, you can just run: `sudo apt install docker.io`"
 msgstr ""
+"إذا كان جهاز الكمبيوتر الخاص بك يدعم [حاويات دوكر][docker]، فيمكنك تشغيل "
+"عميل Ceno عليه تم تهيئته مسبقًا ليكون بمثابة جسر. إذا لم يتم تثبيت دوكر بعد، "
+"فالرجاء اتباع التعليمات لـ [تثبيت محرك دوكر][docker-install] في منصتك. "
+"بالنسبة لمشتقات دبيان مثل أوبونتو أو لينكس مينت، يمكنك فقط تشغيل: `sudo apt "
+"install docker.io`"
 
 #: browser/bridging.md:block 13 (paragraph)
 msgid ""
@@ -129,12 +170,16 @@ msgid ""
 "on a terminal (it looks scary but you can just copy and paste it as is on "
 "the command line):"
 msgstr ""
+"لنشر حاوية عميل Ceno، ما عليك سوى تشغيل الأمر التالي على محطة (يبدو الأمر "
+"مخيفًا ولكن يمكنك نسخه ولصقه كما هو في سطر الأوامر):"
 
 #: browser/bridging.md:block 15 (paragraph)
 msgid ""
 "If your computer is not based on GNU/Linux, the command needs to be slightly "
 "different:"
 msgstr ""
+"إذا كان جهاز الكمبيوتر الخاص بك لا يعتمد على جنو/ لينكس، فيجب أن يكون الأمر "
+"مختلفًا قليلاً:"
 
 #: browser/bridging.md:block 17 (paragraph)
 msgid ""
@@ -143,6 +188,9 @@ msgid ""
 "Docker client documentation][ceno-client-doc] for more information on how to "
 "manipulate the container."
 msgstr ""
+"سيبدأ الأمر حاوية تسمى `ceno-client` والتي سيتم تشغيلها عند كل بدء تشغيل ما "
+"لم تطلب منها التوقف. يرجى مراجعة [وثائق دوكر عميل Ceno][ceno-client-doc] "
+"للحصول على مزيد من المعلومات حول كيفية التعامل مع الحاوية."
 
 #: browser/bridging.md:block 18 (quote)
 msgid ""
@@ -150,6 +198,9 @@ msgid ""
 "access that page, open instead the [client front-end](../client/front-end."
 "md), which contains mostly equivalent information."
 msgstr ""
+"**ملاحظة:** هذا العميل ليس لديه *إعدادات Ceno*: عندما يُطلب منك أدناه الوصول "
+"إلى تلك الصفحة، افتح بدلاً من ذلك [واجهة المستخدم](../client/front-end.md)، "
+"والتي تحتوي في الغالب على معلومات مماثلة."
 
 #: browser/bridging.md:block 19 (header)
 msgid "Enabling UPnP on your Wi-Fi router"
@@ -161,6 +212,9 @@ msgid ""
 "client) reachable to the Ceno network. The [Ceno Settings](settings.md) page "
 "will indicate the UPnP status on your local network."
 msgstr ""
+"[UPnP][UPnP] هي أسهل طريقة لجعل متصفح Ceno (أو عميل الكمبيوتر) قابلاً للوصول "
+"عبر شبكة Ceno. ستشير صفحة [إعدادات Ceno](settings.md) إلى حالة UPnP على "
+"شبكتك المحلية."
 
 #: browser/bridging.md:block 21 (quote)
 msgid ""
@@ -168,12 +222,17 @@ msgid ""
 "network to external interference. Please make yourself [aware of the risks]"
 "[upnp-risks] and also consider using alternative methods as explained below."
 msgstr ""
+"**ملاحظة:** قد يؤدي تمكين UPnP على موجه Wi-Fi إلى تعريض الأجهزة الموجودة على "
+"شبكتك لتداخلات خارجية. يرجى أن تكون على [دراية بالمخاطر][upnp-risks] و خذ "
+"بعين الإعتبار استخدام طرق بديلة كما هو موضح أدناه."
 
 #: browser/bridging.md:block 22 (paragraph)
 msgid ""
 "A status like the one below indicates that UPnP is not available or not "
 "working on your WiFi router:"
 msgstr ""
+"تشير الحالة أدناه إلى أن UPnP غير متوفر أو لا يعمل على جهاز توجيه WiFi الخاص "
+"بك:"
 
 #: browser/bridging.md:block 23 (quote)
 msgid "**Reachability status**"
@@ -188,12 +247,15 @@ msgid ""
 "The status below indicates that UPnP is likely working and Ceno is currently "
 "verifying connectivity:"
 msgstr ""
+"تشير الحالة أدناه إلى أن UPnP يعمل على الأرجح وأن Ceno يتحقق حاليًا من "
+"الاتصال:"
 
 #: browser/bridging.md:block 26 (paragraph)
 msgid ""
 "The status below indicates that UPnP is working and you can bridge "
 "connections for other Ceno users:"
 msgstr ""
+"تشير الحالة أدناه إلى أن UPnP يعمل ويمكنك ربط الاتصال بمستخدمي Ceno الآخرين:"
 
 #: browser/bridging.md:block 28 (quote)
 msgid ""
@@ -206,6 +268,14 @@ msgid ""
 "get a public address on your router or to establish port forwardings to the "
 "external endpoint."
 msgstr ""
+"**ملاحظة:** حتى إذا كان UPnP يعمل، فقد يتعذر الوصول إلى جهاز التوجيه الخاص "
+"بك من الخارج. يمكن أن يحدث هذا عندما تكون *إعدادات Ceno* تشير إلى *نقاط "
+"نهاية UDP الخارجية* التي تبدو مثل عناوين [CGNAT][CGNAT] `100.X.Y.Z:N` حيث X "
+"بين 64 و 127 (شائع جدًا عند مزودي خدمة الإنترنت المنزلية)، أو مثل العناوين "
+"الخاصة `10.X.Y.Z:N` و `172.X.Y.Z:N` حيث X بين 16 و 31، و `192.168.X.Y:N`. "
+"إذا كان الأمر كذلك، فيرجى الاتصال بمزود خدمة الإنترنت أو مسؤول الشبكة للحصول "
+"على عنوان عام على جهاز التوجيه الخاص بك أو لتأسيس عمليات إعادة توجيه المنفذ "
+"إلى نقاط النهاية الخارجية."
 
 #: browser/bridging.md:block 29 (paragraph)
 msgid ""
@@ -213,6 +283,8 @@ msgid ""
 "features. Herein a list of some manufacturers' instructions for enabling "
 "UPnP:"
 msgstr ""
+"هناك العديد من أجهزة توجيه Wi-Fi في السوق ولكل منها ميزاته الخاصة. فيما يلي "
+"قائمة ببعض إرشادات الشركات المصنعة لتمكين UPnP:"
 
 #: browser/bridging.md:block 30 (unordered list)
 msgid "[Linksys](https://www.linksys.com/us/support-article?articleNum=138290)"
@@ -260,7 +332,7 @@ msgstr ""
 
 #: browser/bridging.md:block 31 (header)
 msgid "Using port forwarding as an alternative to UPnP"
-msgstr ""
+msgstr "استخدام إعادة توجيه المنفذ كبديل لـ UPnP"
 
 #: browser/bridging.md:block 32 (paragraph)
 msgid ""
@@ -271,10 +343,15 @@ msgid ""
 "forward the connections to and the relevant port, open the *Ceno Settings* "
 "page and look under the *Local UDP endpoints*."
 msgstr ""
+"بدلاً من تمكين UPnP على جهاز التوجيه الخاص بك، يمكنك إنشاء قاعدة إعادة توجيه "
+"المنفذ للتأكد من إعادة توجيه الاتصالات من شبكة Ceno إلى جهازك. ستحتاج إلى "
+"تسجيل الدخول إلى الواجهة الإدارية لجهاز التوجيه وتحديد خيار *إعادة توجيه "
+"المنفذ*. لمعرفة عنوان IP الذي تحتاجه لإعادة توجيه الاتصالات والمنفذ الصحيح، "
+"افتح صفحة *إعدادات Ceno* وانظر *نقاط نهاية UDP المحلية*."
 
 #: browser/bridging.md:block 33 (quote)
 msgid "**Local UDP endpoints**"
-msgstr ""
+msgstr "**نقاط نهاية UDP المحلية**"
 
 #: browser/bridging.md:block 34 (paragraph)
 msgid ""
@@ -284,6 +361,10 @@ msgid ""
 "periodically review the *Ceno Settings* page to see that your device is "
 "reachable to the Ceno network."
 msgstr ""
+"يجب أن تكون إعادة توجيه المنفذ لبروتوكول UDP (وليس TCP). يختار Ceno منفذًا "
+"عشوائيًا عند التشغيل الأول ويحتفظ به لعمليات التشغيل اللاحقة، ولكن قد يتغير "
+"عنوان IP للشبكة المحلية لجهازك من وقت لآخر. وبالتالي، يجب عليك مراجعة صفحة *"
+"إعدادات Ceno* بشكل دوري لمعرفة هل جهازك يمكن الوصول إليه من خلال شبكة Ceno."
 
 #: browser/bridging.md:block 35 (quote)
 msgid ""
@@ -291,16 +372,21 @@ msgid ""
 "assigns the same IP address to your device (e.g. via a static DHCP lease for "
 "the device's MAC address)."
 msgstr ""
+"**ملاحظة تقنية:** بدلاً من ذلك، يمكنك التأكد من أن جهاز التوجيه يعيّن دائمًا "
+"عنوان IP نفسه لجهازك (على سبيل المثال، عبر عقد إيجار DHCP ثابت لعنوان MAC "
+"الخاص بالجهاز)."
 
 #: browser/bridging.md:block 35 (quote)
 msgid ""
 "[Doze mode]: https://developer.android.com/training/monitoring-device-state/"
 "doze-standby"
 msgstr ""
+"[وضع الغفوة]: https://developer.android.com/training/monitoring-device-state/"
+"doze-standby"
 
 #: browser/bridging.md:block 35 (quote)
 msgid "[Don't kill my app!]: https://dontkillmyapp.com/"
-msgstr ""
+msgstr "[Don't kill my app!] \"(لا تقتل تطبيقي!): https://dontkillmyapp.com/"
 
 #: browser/bridging.md:block 35 (quote)
 msgid "[docker]: https://en.wikipedia.org/wiki/Docker_(software)"
