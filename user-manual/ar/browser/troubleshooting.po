@@ -3,21 +3,22 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-10 11:02+0200\n"
-"PO-Revision-Date: 2021-04-09 16:26+0000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-08-05 00:11+0000\n"
+"Last-Translator: Soufiane Ht <ifreelance.0@gmail.com>\n"
+"Language-Team: Arabic <https://hosted.weblate.org/projects/censorship-no/"
+"browser-troubleshooting/ar/>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 4.6-dev\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #
 #: browser/troubleshooting.md:block 1 (header)
 msgid "Troubleshooting"
-msgstr ""
+msgstr "استكشاف الأخطاء وإصلاحها"
 
 #: browser/troubleshooting.md:block 2 (paragraph)
 msgid ""
@@ -34,18 +35,20 @@ msgid ""
 "If problems still persist, please report them to [cenoers@equalit.ie](mailto:"
 "cenoers@equalit.ie). We will try to help you with them."
 msgstr ""
+"إذا استمرت المشكلات، فيرجى الإبلاغ عنها إلى [cenoers@equalit.ie](mailto: "
+"cenoers@equalit.ie). سنحاول مساعدتك معها."
 
 #: browser/troubleshooting.md:block 4 (header)
 msgid "There is no Ceno entry in the app menu"
-msgstr ""
+msgstr "لا يوجد إدخال Ceno في قائمة التطبيق"
 
 #: browser/troubleshooting.md:block 5 (paragraph)
 msgid "The Ceno Extension may still be loading. Please be patient."
-msgstr ""
+msgstr "ربما لا يزال تحميل ملحق Ceno. يرجى التحلي بالصبر."
 
 #: browser/troubleshooting.md:block 6 (header)
 msgid "All widgets are grayed-out in the *Ceno Settings* page"
-msgstr ""
+msgstr "تظهر جميع عناصر واجهة المستخدم باللون الرمادي في صفحة * إعدادات Ceno *"
 
 #: browser/troubleshooting.md:block 7 (paragraph)
 msgid ""
@@ -53,12 +56,16 @@ msgid ""
 "status from Ouinet. Since it may take a moment for Ouinet to be ready, "
 "please be patient."
 msgstr ""
+"تم تحميل ملحق Ceno، لكنه لم يتمكن بعد من استرداد الحالة من Ouinet. نظرًا لأن "
+"الأمر قد يستغرق بعض الوقت حتى يكون Ouinet جاهزًا، يرجى الانتظار."
 
 #: browser/troubleshooting.md:block 8 (paragraph)
 msgid ""
 "If the Settings page stays like that after more than two minutes, Ouinet may "
 "have encountered some issue while starting."
 msgstr ""
+"إذا ظلت صفحة الإعدادات على هذا النحو بعد أكثر من دقيقتين، فقد يكون Ouinet قد "
+"واجه بعض المشكلات أثناء البدء."
 
 #: browser/troubleshooting.md:block 9 (paragraph)
 msgid ""
@@ -81,6 +88,8 @@ msgid ""
 "**Technical note:** This may happen if another application is already "
 "listening on TCP ports `127.0.0.1:8077` or `127.0.0.1:8078`."
 msgstr ""
+"** ملاحظة فنية: ** قد يحدث هذا إذا كان هناك تطبيق آخر يستمع بالفعل على منافذ "
+"‪‫‪‫TCP‏ `127.0.0.1:8077` أو `127.0.0.1:8078`.‎‏"
 
 #: browser/troubleshooting.md:block 12 (header)
 msgid "The *Ouinet client state* under *Ceno Settings* is not `started`"
@@ -89,7 +98,7 @@ msgstr ""
 #: browser/troubleshooting.md:block 13 (paragraph)
 msgid ""
 "The Ouinet client run by Ceno is finding problems starting on your device."
-msgstr ""
+msgstr "يجد عميل Ouinet الذي تديره Ceno مشاكل في بدء التشغيل على جهازك."
 
 #: browser/troubleshooting.md:block 14 (paragraph)
 msgid ""
@@ -121,7 +130,7 @@ msgstr ""
 
 #: browser/troubleshooting.md:block 17 (header)
 msgid "Accessing some content shows \"Failed to retrieve the resource\""
-msgstr ""
+msgstr "يظهر الوصول إلى بعض المحتوى \"فشل استرداد المورد\""
 
 #: browser/troubleshooting.md:block 18 (paragraph)
 msgid ""
@@ -133,7 +142,7 @@ msgstr ""
 msgid ""
 "You should make sure that the following requirements are fulfilled for Ceno "
 "to work:"
-msgstr ""
+msgstr "يجب عليك التأكد من استيفاء المتطلبات التالية لكي يعمل Ceno:"
 
 #: browser/troubleshooting.md:block 20 (unordered list)
 msgid ""
@@ -180,6 +189,7 @@ msgid ""
 "This is the main use case for Ceno and the other mechanisms should "
 "compensate for it."
 msgstr ""
+"هذه هي حالة الاستخدام الرئيسية لـ Ceno ويجب أن تعوض الآليات الأخرى عنها."
 
 #: browser/troubleshooting.md:block 25 (header)
 msgid "Proxy/Injector access"
@@ -351,7 +361,7 @@ msgstr ""
 
 #: browser/troubleshooting.md:block 42 (header)
 msgid "A page shows bogus content (like a block message)"
-msgstr ""
+msgstr "تعرض الصفحة محتوى زائفًا (مثل رسالة حظر)"
 
 #: browser/troubleshooting.md:block 43 (paragraph)
 msgid ""
