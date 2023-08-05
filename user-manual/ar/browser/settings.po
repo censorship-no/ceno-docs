@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2023-08-05 00:11+0000\n"
+"PO-Revision-Date: 2023-08-06 10:10+0000\n"
 "Last-Translator: fadoua <bouaouda.fadoua@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/censorship-no/"
 "browser-settings/ar/>\n"
@@ -316,10 +316,12 @@ msgid ""
 "*Ouinet protocol* is the version number of the protocol that Ceno uses to "
 "talk to other Ouinet clients and injectors. Also include in reports."
 msgstr ""
+"*بروتوكول Ouinet* هو رقم إصدار البروتوكول الذي يستخدمه Ceno للتواصل مع عملاء "
+"وحاقنات Ouinet الآخرين. يرجى تضمين هذا أيضا في التقارير."
 
 #: browser/settings.md:block 14 (header)
 msgid "Purging the local cache"
-msgstr ""
+msgstr "تطهير ذاكرة التخزين المؤقت المحلية"
 
 #: browser/settings.md:block 15 (paragraph)
 msgid ""
@@ -328,6 +330,10 @@ msgid ""
 "This allows you to free up some storage space in your device while keeping "
 "other Ceno settings like Favorites."
 msgstr ""
+"بجانب القيمة *حجم ذاكرة التخزين المؤقت المحلية* أعلاه، يوجد زر يسمح لك "
+"بإيقاف التوزيع والتخلي عن أي محتوى يشاركه جهازك عبر Ouinet. يسمح لك ذلك "
+"بتحرير بعض مساحة التخزين في جهازك مع الاحتفاظ بإعدادات Ceno الأخرى مثل "
+"المفضلات."
 
 #: browser/settings.md:block 16 (paragraph)
 msgid ""
@@ -337,6 +343,11 @@ msgid ""
 "then *Clear private data*. You will be asked about which items you want to "
 "clear."
 msgstr ""
+"إذا كنت ترغب في مسح ذاكرة التخزين المؤقت للتصفح العادي لـ Ceno (تلك التي "
+"يستخدمها المتصفح و لا تتم مشاركتها مع الآخرين) أو عناصر أخرى مثل ملفات تعريف "
+"الارتباط أو سجل التاريخ أو المفضلات، فيجب عليك اختيار *الإعدادات* في القائمة "
+"الرئيسية للتطبيق، ثم *مسح البيانات الخاصة*. سيتم سؤالك عن أي عناصر تريد "
+"مسحها."
 
 #: browser/settings.md:block 17 (paragraph)
 msgid ""
@@ -344,10 +355,12 @@ msgid ""
 "please learn how to use the \"panic button\" feature described in "
 "[Installing Ceno](install.md)."
 msgstr ""
+"للتخلي عن كل شيء في نفس الوقت (خاصة إذا كنت في عجلة من أمرك)، يرجى معرفة "
+"كيفية استخدام ميزة \"زر الطوارئ\" الموضحة في [تثبيت Ceno](install.md)."
 
 #: browser/settings.md:block 18 (header)
 msgid "Collecting log messages"
-msgstr ""
+msgstr "جمع رسائل السجل"
 
 #: browser/settings.md:block 19 (paragraph)
 msgid ""
@@ -356,16 +369,19 @@ msgid ""
 "a file. This should only be used when diagnosing some problem in Ceno; just "
 "follow these steps:"
 msgstr ""
+"يوجد في أسفل الصفحة مربع اختيار *تمكين ملف السجل* الذي يسمح لك بجمع جميع "
+"الرسائل الداخلية لـ Ouinet وتنزيلها إلى ملف. يجب استخدام هذا فقط عند تشخيص "
+"بعض المشاكل في Ceno؛ ما عليك سوى اتباع هذه الخطوات:"
 
 #: browser/settings.md:block 20 (ordered list)
 msgid "At the *Ceno Settings* page, check *Enable log file*."
-msgstr ""
+msgstr "في صفحة *إعدادات Ceno* ، حدد *تمكين ملف السجل*."
 
 #: browser/settings.md:block 20 (ordered list)
 msgid ""
 "Go back to browsing and do whatever actions that trigger the troublesome "
 "behavior."
-msgstr ""
+msgstr "عد للتصفح وقم بأي إجراء يؤدي إلى مشكل في الإستخدام."
 
 #: browser/settings.md:block 20 (ordered list)
 msgid ""
@@ -374,10 +390,14 @@ msgid ""
 "ask you at this point whether to allow Ceno access to stored media: this is "
 "needed to be able to save the file."
 msgstr ""
+"عد إلى صفحة *إعدادات Ceno* وانقر على الرابط *تنزيل* بجوار مربع الاختيار *"
+"تمكين ملف السجل*. احفظ الملف لاستخدامه لاحقًا. قد يطلب منك أندرويد في هذه "
+"المرحلة إذا كنت ستسمح لـ Ceno بالوصول إلى الوسائط المخزنة: هذا ضروري لتتمكن "
+"من حفظ الملف."
 
 #: browser/settings.md:block 20 (ordered list)
 msgid "Uncheck *Enable log file* to avoid the logs from growing too large."
-msgstr ""
+msgstr "قم بإلغاء تحديد *تمكين ملف السجل* لتجنب أن تصبح السجلات كبيرة الحجم."
 
 #: browser/settings.md:block 21 (paragraph)
 msgid ""
@@ -385,3 +405,5 @@ msgid ""
 "avoid making it public since it may contain sensitive information about your "
 "browsing."
 msgstr ""
+"يمكنك الآن استخدام ملف السجل المحفوظ لتوثيق تقرير مشكل ما، ولكن حاول تجنب "
+"جعله عامًا لأنه قد يحتوي على معلومات حساسة حول تصفحك."
