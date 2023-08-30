@@ -3,20 +3,21 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-04 20:09+0200\n"
-"PO-Revision-Date: 2021-03-04 19:09+0000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-07-28 21:07+0000\n"
+"Last-Translator: fadoua <bouaouda.fadoua@gmail.com>\n"
+"Language-Team: Arabic <https://hosted.weblate.org/projects/censorship-no/"
+"risks/ar/>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 4.5.1-dev\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #: concepts/risks.md:block 1 (header)
 msgid "Risks in using Ceno/Ouinet"
-msgstr ""
+msgstr "مخاطر استخدام Ceno/Ouinet"
 
 #: concepts/risks.md:block 2 (paragraph)
 msgid ""
@@ -26,28 +27,34 @@ msgid ""
 "help you understand their implications according to the different roles you "
 "may play when using Ceno:"
 msgstr ""
+"كما هو الحال مع أي نظام حوسبة معقد، وخاصة مثل هذا النظام المبتكر، فإن "
+"استخدام متصفح Ceno (وأي عميل Ouinet بشكل عام) لا يخلو من بعض المخاطر. في هذا "
+"القسم، سنقوم بتجميع هذه المخاطر ووصفها لمساعدتك على فهم آثارها وفقًا للدور "
+"الذي قد تلعبه عند استخدام Ceno:"
 
 #: concepts/risks.md:block 3 (unordered list)
 msgid "as a *user* browsing Web sites"
-msgstr ""
+msgstr "كـ *مستخدم* يتصفح مواقع الويب"
 
 #: concepts/risks.md:block 3 (unordered list)
 msgid ""
 "as a *seeder* sharing content over the distributed cache that you previously "
 "visited"
 msgstr ""
+"كـ *موزع* يشارك المحتوى الذي قمت بزيارته مسبقًا عبر ذاكرة التخزين المؤقت "
+"الموزعة"
 
 #: concepts/risks.md:block 3 (unordered list)
 msgid "as a *bridge* allowing other users to reach an injector"
-msgstr ""
+msgstr "كـ *جسر* يسمح للمستخدمين الآخرين بالوصول إلى حاقن"
 
 #: concepts/risks.md:block 4 (header)
 msgid "As a user"
-msgstr ""
+msgstr "كمستخدم"
 
 #: concepts/risks.md:block 5 (header)
 msgid "Can bridges see my communication with the origin server?"
-msgstr ""
+msgstr "هل يمكن للجسور رؤية اتصالاتي بالخادم الأصلي؟"
 
 #: concepts/risks.md:block 6 (paragraph)
 msgid ""
@@ -55,10 +62,13 @@ msgid ""
 "an injector. This communication is always encrypted and bridges do not have "
 "the private keys required to access the content of the communication."
 msgstr ""
+"لا ، الدور الوحيد للجسر هو إعادة توجيه حركة المرور الأولية بين العميل "
+"والحاقن. يتم دائمًا تشفير هذا الاتصال ولا تمتلك الجسور المفاتيح الخاصة "
+"المطلوبة للوصول إلى محتوى الاتصال."
 
 #: concepts/risks.md:block 7 (header)
 msgid "Can injectors see my communication with the origin server?"
-msgstr ""
+msgstr "هل يمكن للحاقنين رؤية اتصالاتي بالخادم الأصلي؟"
 
 #: concepts/risks.md:block 8 (paragraph)
 msgid ""
@@ -67,6 +77,10 @@ msgid ""
 "from the request by the client, and only then is the request encrypted for "
 "and forwarded to the injector, which proceeds to decrypt it."
 msgstr ""
+"نعم و لا. عندما يطلب المستخدم المحتوى [في وضع التصفح العام](public-private."
+"md)، يتم أولاً إزالة جميع البيانات الخاصة (مثل كلمات المرور وملفات تعريف "
+"الارتباط) من الطلب من قبل العميل، وعندها فقط يتم تشفير الطلب وإعادة توجيهه "
+"إلى الحاقن، الذي يشرع في فك تشفيره."
 
 #: concepts/risks.md:block 9 (paragraph)
 msgid ""
@@ -75,6 +89,9 @@ msgid ""
 "origin server. This means that in this other case the injector cannot "
 "decrypt the content."
 msgstr ""
+"من ناحية أخرى، عندما يستخدم الطلب وضع التصفح الخاص، فإنه لا يتم تعديله من "
+"قبل العميل، ولكن يتم تشفير الاتصال بالكامل للخادم الأصلي. هذا يعني أنه في "
+"هذه الحالة لا يمكن للحاقن فك تشفير المحتوى."
 
 #: concepts/risks.md:block 10 (quote)
 msgid ""
@@ -82,10 +99,13 @@ msgid ""
 "with query parameters removed, along with all but a limited set of "
 "fundamental and privacy-preserving HTTP header fields."
 msgstr ""
+"**ملاحظة تقنية:** فقط الطلبات HTTP الخاصة بـ `GET` مرشحة للحقن، حيث يتم "
+"إزالة معلمات الاستعلام، وأيضًا جميع حقول ترويسات HTTP باستثناء مجموعة محدودة "
+"من الحقول الأساسية والمحافظة على الخصوصية ."
 
 #: concepts/risks.md:block 11 (header)
 msgid "Can injectors see my IP address?"
-msgstr ""
+msgstr "هل يمكن للحاقنين رؤية عنوان IP الخاص بي؟"
 
 #: concepts/risks.md:block 12 (paragraph)
 msgid ""
@@ -93,10 +113,13 @@ msgid ""
 "Ceno user or a bridge. Thus requests going to the injector cannot be "
 "reliably assigned an originating IP addresses."
 msgstr ""
+"نعم. ومع ذلك، لا يمكن للحاقنات التمييز بين ما إذا كان الطلب جاء من مستخدم "
+"Ceno أو من الجسر. وبالتالي لا يمكن تعيين عناوين IP الأصلية للطلبات التي تذهب "
+"إلى الحاقن بشكل موثوق."
 
 #: concepts/risks.md:block 13 (header)
 msgid "Can my private data leak to the distributed cache?"
-msgstr ""
+msgstr "هل يمكن أن تتسرب بياناتي الخاصة إلى ذاكرة التخزين المؤقت الموزعة؟"
 
 #: concepts/risks.md:block 14 (paragraph)
 msgid ""
@@ -108,6 +131,12 @@ msgid ""
 "if the origin server indicated that it is of a private nature, Ceno will not "
 "seed it either."
 msgstr ""
+"نأمل أن لا يحدث ذلك. كما هو مذكور أعلاه، يحاول متصفح Ceno جاهدًا إزالة أي "
+"بيانات خاصة (كلمات المرور وملفات تعريف الارتباط ...) من أي طلب للحقن. "
+"بالإضافة إلى ذلك، لا يقوم الحاقن نفسه بأي توزيع؛ في الواقع، الغرض الوحيد منه "
+"هو توقيع المحتوى حتى يتمكن عملاء Ouinet من توزيعه. هذا يعني أنه عندما يعود "
+"المحتوى إلى العميل، يتم تحليله بشكل أكبر، وإذا أشار الخادم الأصلي إلى أنه ذو "
+"طبيعة خاصة، فلن يقوم Ceno بتوزيعه أيضًا."
 
 #: concepts/risks.md:block 15 (paragraph)
 msgid ""
@@ -118,10 +147,15 @@ msgid ""
 "org`). If you suspect that a page may be doing that, better be on the safe "
 "side and use private browsing for it."
 msgstr ""
+"ومع ذلك، قد تكون هناك بعض الحالات لصفحات سيئة التصميم أو خبيثة قد تجمع بعض "
+"المعلومات منك (مثل عنوان بريد إلكتروني من نموذج أو بعض بصمات المتصفح "
+"باستخدام JavaScript) وتضعها في عنوان URL لرابط آخر كمكونات مسار عادية (على "
+"سبيل المثال `http://example.com/subscribe/you@example.org`). إذا كنت تشك في "
+"أن الصفحة قد تفعل ذلك، فمن الأفضل أن تكون حذرًا و تستخدم التصفح الخاص لها."
 
 #: concepts/risks.md:block 16 (header)
 msgid "Can the origin server know whether I am using Ceno?"
-msgstr ""
+msgstr "هل يمكن للخادم الأصلي معرفة ما إذا كنت أستخدم Ceno؟"
 
 #: concepts/risks.md:block 17 (paragraph)
 msgid ""
@@ -129,6 +163,9 @@ msgid ""
 "behaves as normal Firefox for Android does, so your particular device "
 "appears as a normal Firefox app of the same version."
 msgstr ""
+"على الأرجح لا. عندما يتصل Ceno بخادم أصلي مباشرة ، فإنه يتصرف كما يفعل "
+"فايرفكس العادي لنظام أندرويد، لذلك يظهر جهازك كتطبيق فايرفكس عادي من نفس "
+"الإصدار."
 
 #: concepts/risks.md:block 18 (paragraph)
 msgid ""
@@ -136,12 +173,16 @@ msgid ""
 "server, there are (at least) two ways for the latter to know that Ceno or "
 "Ouinet is involved:"
 msgstr ""
+"ومع ذلك، عندما يستخدم حاقنًا للحصول على بعض المحتوى من خادمه الأصلي، فهناك ("
+"على الأقل) طريقتان لكي يعرف الأخير أن Ceno أو Ouinet متورطان:"
 
 #: concepts/risks.md:block 19 (ordered list)
 msgid ""
 "The source address of the connection reaching the origin server is found in "
 "the injector swarm (since the connection comes indeed from the injector);"
 msgstr ""
+"يتم العثور على عنوان مصدر الاتصال الذي يصل إلى الخادم الأصلي في سرب الحاقن ("
+"بما أن الاتصال يأتي بالفعل من الحاقن)؛"
 
 #: concepts/risks.md:block 19 (ordered list)
 msgid ""
@@ -151,6 +192,9 @@ msgid ""
 "the injector removes information unique to your particular device from the "
 "request."
 msgstr ""
+"وجود أو عدم وجود معلومات معينة في طلب المحتوى هو سمة من سمات Ouinet. يحدث "
+"هذا عندما يطلب الحاقن المحتوى لأن عميلك طلب منه استرداد هذا المحتوى وتوقيعه، "
+"حيث يزيل الحاقن المعلومات الفريدة لجهازك الخاص من الطلب."
 
 #: concepts/risks.md:block 20 (paragraph)
 msgid ""
@@ -160,6 +204,10 @@ msgid ""
 "some personally identifiable information, it could be used to mark you as a "
 "Ceno user."
 msgstr ""
+"يرجى ملاحظة أن هذا يحدد فقط الطلب على أنه قادم من Ouinet، لكنه لا يربطه بك "
+"أو بجهازك المحدد. ومع ذلك، و لسبب من الأسباب المذكورة في السؤال السابق قد "
+"يكون الطلب لا يزال يحتوي على بعض معلومات التعريف الشخصية، حينها يمكن "
+"استخدامه لتمييزك كمستخدم Ceno."
 
 #: concepts/risks.md:block 21 (paragraph)
 msgid ""
@@ -168,14 +216,17 @@ msgid ""
 "(or from a [national intranet][National intranet]), we recommend that you "
 "use a normal Web browser instead of Ceno."
 msgstr ""
+"بشكل عام، إذا كان موقع إلكتروني معين (مثل موقع حكومي) يتوقع منك الاتصال به "
+"كفرد يمكن التعرف عليه، من منطقة معينة (أو من [الإنترت القومي][الإنترت "
+"القومي])، فإننا نوصي باستخدام متصفح الويب العادي بدلاً من Ceno."
 
 #: concepts/risks.md:block 22 (header)
 msgid "As a seeder"
-msgstr ""
+msgstr "كموزع"
 
 #: concepts/risks.md:block 23 (header)
 msgid "What data is seeded from my device?"
-msgstr ""
+msgstr "ما هي البيانات التي يتم توزيعها من جهازي؟"
 
 #: concepts/risks.md:block 24 (paragraph)
 msgid ""
@@ -184,10 +235,13 @@ msgid ""
 "users do not seed anything they have not accessed themselves in the recent "
 "past."
 msgstr ""
+"في الوقت الحالي، المحتوى الوحيد الذي يتم توزيعه بواسطة Ceno هو محتوى الويب "
+"الغير الخاص الذي تم طلبه في وضع التصفح العام. هذا يعني أيضًا أن المستخدمين "
+"لا يقومون بتوزيع أي شيء لم يصلوا إليه مؤخرًا بأنفسهم."
 
 #: concepts/risks.md:block 25 (header)
 msgid "Can an anyone find out what I seed?"
-msgstr ""
+msgstr "هل يمكن لأي شخص أن يكتشف ما أوزعه؟"
 
 #: concepts/risks.md:block 26 (paragraph)
 msgid ""
@@ -197,26 +251,32 @@ msgid ""
 "specific IP address and get a list of all the content seeded by clients "
 "behind it."
 msgstr ""
+"نعم ولا. يمكن لأي شخص لديه فهم كاف لعمليات Ouinet إنشاء أداة لمعرفة عناوين "
+"IP التي تتم مشاركة محتوى معين منها (كما هو الحال مع بت تورنت). ومع ذلك، لا "
+"يمكن استهداف عنوان IP محدد والحصول على قائمة بجميع المحتويات التي يوزعها "
+"العملاء الذين يقفون وراءه."
 
 #: concepts/risks.md:block 27 (header)
 msgid "As a bridge"
-msgstr ""
+msgstr "كجسر"
 
 #: concepts/risks.md:block 28 (header)
 msgid "Can others find my IP address?"
-msgstr ""
+msgstr "هل يمكن للآخرين العثور على عنوان IP الخاص بي؟"
 
 #: concepts/risks.md:block 29 (paragraph)
 msgid ""
 "Yes, every Ceno Browser able to communicate with injectors will register its "
 "IP address in the bridge swarm where other Ouinet clients can find them."
 msgstr ""
+"نعم ، كل متصفح Ceno قادر على التواصل مع حاقن سيسجل عنوان IP الخاص به في سرب "
+"الجسر حيث يمكن لعملاء Ouinet الآخرين العثور عليه."
 
 #: concepts/risks.md:block 30 (header)
 msgid ""
 "Is it possible that I am helping someone to access content which is illegal "
 "in my country?"
-msgstr ""
+msgstr "هل من الممكن أن أساعد شخصًا ما في الوصول إلى محتوى غير قانوني في بلدي؟"
 
 #: concepts/risks.md:block 31 (paragraph)
 msgid ""
@@ -224,7 +284,12 @@ msgid ""
 "client and an injector. This means that a bridge shall never make direct "
 "requests for content to any other server on someone else's behalf."
 msgstr ""
+"نعم. ومع ذلك، تقوم الجسور فقط بنقل الاتصالات المشفرة بين عميل Ouinet "
+"والحاقن. هذا يعني أن الجسر لن يقوم مطلقًا بتقديم طلبات مباشرة للمحتوى إلى أي "
+"خادم آخر نيابة عن شخص آخر."
 
 #: concepts/risks.md:block 31 (paragraph)
 msgid "[National intranet]: https://en.wikipedia.org/wiki/National_intranet"
 msgstr ""
+"[الإنترنت القومي]: https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%A5%D9%86%D8%"
+"AA%D8%B1%D9%86%D8%AA_%D8%A7%D9%84%D9%82%D9%88%D9%85%D9%8A"

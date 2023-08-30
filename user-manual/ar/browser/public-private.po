@@ -3,21 +3,22 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2021-03-05 19:50+0000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-07-21 20:06+0000\n"
+"Last-Translator: fadoua <bouaouda.fadoua@gmail.com>\n"
+"Language-Team: Arabic <https://hosted.weblate.org/projects/censorship-no/"
+"browser-public-private/ar/>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 4.5.1-dev\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #
 #: browser/public-private.md:block 1 (header)
 msgid "Using public or private browsing"
-msgstr ""
+msgstr "استخدام التصفح العام أو الخاص"
 
 #: browser/public-private.md:block 2 (paragraph)
 msgid ""
@@ -26,6 +27,9 @@ msgid ""
 "the content that you browse with others (public browsing) or not (private "
 "browsing)."
 msgstr ""
+"كما هو موضح [في قسم سابق](../concepts/public-private.md)، لدى Ceno وضعان "
+"مختلفان للتشغيل اعتمادا على ما إذا كنت تريد مشاركة المحتوى الذي تتصفحه مع "
+"الآخرين (التصفح العام) أم لا (التصفح الخاص)."
 
 #: browser/public-private.md:block 3 (paragraph)
 msgid ""
@@ -35,24 +39,32 @@ msgid ""
 "menu) is to use public browsing. To open a new tab in private browsing mode, "
 "just choose *New private tab* in the main menu."
 msgstr ""
+"ينطبق هذا الإعداد *على كل علامة تبويب* تفتحها في المتصفح، أي أنه يمكنك "
+"الحصول على علامات تبويب التصفح العام وعلامات تبويب التصفح الخاص. الإعداد "
+"الافتراضي ل Ceno عند بدء تشغيله أو فتح علامة تبويب جديدة (باستخدام *علامة "
+"تبويب جديدة* في القائمة الرئيسية للتطبيق) هو استخدام التصفح العام. لفتح "
+"علامة تبويب جديدة في وضع التصفح الخاص، ما عليك سوى اختيار *علامة تبويب خاصة "
+"جديدة* في القائمة الرئيسية."
 
 #: browser/public-private.md:block 4 (paragraph)
 msgid ""
 "You can tell public tabs from private ones because public tabs have a "
 "lighter (or white) tool bar:"
 msgstr ""
+"يمكنك التمييز بين علامات التبويب العامة وعلامات التبويب الخاصة لأن علامات "
+"التبويب العامة تحتوي على شريط أدوات فاتح (أو أبيض):"
 
 #: browser/public-private.md:block 5 (paragraph)
 msgid "![Figure: A public browsing tab](images/public-tab.png)"
-msgstr ""
+msgstr "![الشكل: علامة تبويب تصفح عامة](images/public-tab.png)"
 
 #: browser/public-private.md:block 6 (paragraph)
 msgid "In contrast, private tabs have a darker tool bar:"
-msgstr ""
+msgstr "في المقابل، تحتوي علامات التبويب الخاصة على شريط أدوات أغمق:"
 
 #: browser/public-private.md:block 7 (paragraph)
 msgid "![Figure: A private browsing tab](images/private-tab.png)"
-msgstr ""
+msgstr "![الشكل: علامة تبويب التصفح الخاص](images/private-tab.png)"
 
 #: browser/public-private.md:block 8 (paragraph)
 msgid ""
@@ -60,3 +72,5 @@ msgid ""
 "bar will help you know how it actually retrieved the different elements of "
 "the content. We will cover this icon later on."
 msgstr ""
+"بمجرد تحميل صفحة في علامة تبويب، سيساعدك رمز Ceno الملون في شريط العناوين "
+"على معرفة كيف تم استرداد العناصر المختلفة للمحتوى. سنعود لهذا الرمز لاحقا."

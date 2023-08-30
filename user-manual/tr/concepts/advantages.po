@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-06-02 15:03+0200\n"
-"PO-Revision-Date: 2023-05-17 03:11+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
+"PO-Revision-Date: 2023-07-18 07:06+0000\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/censorship-no/"
 "advantages/tr/>\n"
 "Language: tr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #
 #: concepts/advantages.md:block 1 (header)
@@ -62,7 +62,7 @@ msgid ""
 "over offline means (e.g. a USB drive) and thus made available to other "
 "clients."
 msgstr ""
-"İmzalanmış içerik, çevrimdışı yöntemlerle (örneğin bir USB sürücüsü ile) "
+"İmzalanmış içerik, çevrim dışı yöntemlerle (örneğin bir USB sürücüsü ile) "
 "belirli istemcilere taşınabilir. Böylece diğer istemciler tarafından da "
 "kullanılması sağlanabilir."
 
@@ -106,7 +106,7 @@ msgstr ""
 
 #: concepts/advantages.md:block 3 (unordered list)
 msgid "[Slashdot effect]: https://en.wikipedia.org/wiki/Slashdot_effect"
-msgstr "[Slashdot etkisi]: https://tr.wikipedia.org/wiki/Slashdot_etkisi"
+msgstr "[Slashdot effect]: https://tr.wikipedia.org/wiki/Slashdot_etkisi"
 
 #: concepts/advantages.md:block 3 (unordered list)
 msgid "[National intranet]: https://en.wikipedia.org/wiki/National_intranet"
