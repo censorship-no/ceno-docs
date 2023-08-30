@@ -1,15 +1,15 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-17 03:11+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
+"PO-Revision-Date: 2023-08-02 16:04+0000\n"
+"Last-Translator: Taufik Adi Wicaksono <taufikadi.wicaksono@tutamail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/censorship-no/"
 "advantages/id/>\n"
 "Language: id\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #: concepts/advantages.md:block 1 (header)
 msgid "Advantages of using Ceno/Ouinet"
@@ -71,8 +71,8 @@ msgstr ""
 
 #: concepts/advantages.md:block 3 (unordered list)
 msgid "[Slashdot effect]: https://en.wikipedia.org/wiki/Slashdot_effect"
-msgstr ""
+msgstr "[Efek Slashdot]: https://id.wikipedia.org/wiki/Efek_Slashdot"
 
 #: concepts/advantages.md:block 3 (unordered list)
 msgid "[National intranet]: https://en.wikipedia.org/wiki/National_intranet"
-msgstr ""
+msgstr "[Intranet nasional]: https://id.wikipedia.org/wiki/Intranet_nasional"

@@ -1,13 +1,19 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2023-06-27 20:52+0000\n"
+"Last-Translator: ssantos <ssantos@web.de>\n"
+"Language-Team: Portuguese <https://hosted.weblate.org/projects/censorship-no/"
+"browser-troubleshooting/pt/>\n"
 "Language: pt\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.18.1\n"
 
 #: browser/troubleshooting.md:block 1 (header)
 msgid "Troubleshooting"
-msgstr ""
+msgstr "Solução de Problemas"
 
 #: browser/troubleshooting.md:block 2 (paragraph)
 msgid ""
@@ -18,24 +24,32 @@ msgid ""
 "network infrastructure, as well as which content other users have retrieved "
 "and the characteristics of their connections."
 msgstr ""
+"Esta secção dará algumas dicas sobre o que fazer quando problemas diferentes "
+"e conhecidos surgem com Ceno e Ouinet. Por favor, tenha em mente que estes "
+"projetos são experimentais e que as suas operações estão sujeitas a uma "
+"multitude de fatores além do nosso controle, como a configuração específica "
+"e o estado da infraestrutura da rede, bem como qual conteúdo outros "
+"utilizadores recuperaram e as características das conexões deles."
 
 #: browser/troubleshooting.md:block 3 (paragraph)
 msgid ""
 "If problems still persist, please report them to [cenoers@equalit.ie](mailto:"
 "cenoers@equalit.ie). We will try to help you with them."
 msgstr ""
+"Se os problemas persistirem, por favor os relate para [cenoers@equalit."
+"ie](mailto:cenoers@equalit.ie). Tentaremos ajudar a resolvê-los."
 
 #: browser/troubleshooting.md:block 4 (header)
 msgid "There is no Ceno entry in the app menu"
-msgstr ""
+msgstr "Não há a entrada Ceno no menu da app"
 
 #: browser/troubleshooting.md:block 5 (paragraph)
 msgid "The Ceno Extension may still be loading. Please be patient."
-msgstr ""
+msgstr "A Extensão Ceno pode ainda estar carregando. Por favor, seja utente."
 
 #: browser/troubleshooting.md:block 6 (header)
 msgid "All widgets are grayed-out in the *Ceno Settings* page"
-msgstr ""
+msgstr "Todos os widgets estão acinzentados na página *Configurações do Ceno*"
 
 #: browser/troubleshooting.md:block 7 (paragraph)
 msgid ""
@@ -43,12 +57,17 @@ msgid ""
 "status from Ouinet. Since it may take a moment for Ouinet to be ready, "
 "please be patient."
 msgstr ""
+"A Extensão Ceno carregou, mas ainda não foi possível recuperar o estado da "
+"Ouinet. Já que pode demorar um tempo para a Ouinet estar pronta, por favor, "
+"seja utente."
 
 #: browser/troubleshooting.md:block 8 (paragraph)
 msgid ""
 "If the Settings page stays like that after more than two minutes, Ouinet may "
 "have encountered some issue while starting."
 msgstr ""
+"Se a página Configurações permanecer dessa maneira por mais que dois "
+"minutos, Ouinet pode ter encontrado algum problema durante a inicialização."
 
 #: browser/troubleshooting.md:block 9 (paragraph)
 msgid ""
@@ -58,6 +77,11 @@ msgid ""
 "connectivity (like being unable to join the BitTorrent network). If you are "
 "on a mobile connection, try again with Wi-Fi."
 msgstr ""
+"Tente visitar alguma página, se possível uma que esteja habitualmente "
+"disponível. Se receber um erro como \"Falha em recuperar o recurso (após "
+"tentar todos os mecanismos configurados)\", Ceno pode encontrar alguns "
+"problemas com a conectividade em geral (como não conseguir entrar na rede "
+"BitTorrent). Se estiver numa conexão móvel, tente novamente com WiFi."
 
 #: browser/troubleshooting.md:block 10 (paragraph)
 msgid ""
@@ -65,21 +89,30 @@ msgid ""
 "visiting the page, try to stop other applications which may be offering some "
 "service to the device, then restart Ceno."
 msgstr ""
+"Se obtiver um erro como \"O servidor proxy recusa conexões\" ao visitar a "
+"página, tente interromper outras aplicações que podem estar oferecendo algum "
+"serviço ao aparelho e, então, reinicie Ceno."
 
 #: browser/troubleshooting.md:block 11 (quote)
 msgid ""
 "**Technical note:** This may happen if another application is already "
 "listening on TCP ports `127.0.0.1:8077` or `127.0.0.1:8078`."
 msgstr ""
+"**Nota técnica:** Isso pode acontecer caso outra aplicação já esteja ouvindo "
+"as portas TCP `127.0.0.1:8077` ou `127.0.0.1:8078`."
 
 #: browser/troubleshooting.md:block 12 (header)
 msgid "The *Ouinet client state* under *Ceno Settings* is not `started`"
 msgstr ""
+"O *estado do cliente Ouinet* dentro das *Configurações do Ceno* não é "
+"`iniciado`"
 
 #: browser/troubleshooting.md:block 13 (paragraph)
 msgid ""
 "The Ouinet client run by Ceno is finding problems starting on your device."
 msgstr ""
+"O cliente Ouinet executado por Ceno encontra problemas para inicializar no "
+"seu aparelho."
 
 #: browser/troubleshooting.md:block 14 (paragraph)
 msgid ""
@@ -91,6 +124,14 @@ msgid ""
 "`starting`, please contact us (especially if the state was `started` in some "
 "previous run)."
 msgstr ""
+"Quando abre Ceno, o estado pode indicar `a inicializar` por alguns segundos, "
+"esse comportamento é normal. No entanto, se o estado permanece `a "
+"inicializar` por muito tempo, pode ser um sinal de sérios problemas de "
+"conectividade que impedem a aplicação de alcançar a rede BitTorrent. Por "
+"favor, verifique a sua conexão de rede e tente reiniciar Ceno. Se tem uma "
+"conexão funcional mas o estado permanece `inicializando`, por favor fale "
+"conosco (especialmente se o estado já foi `iniciado` em alguma execução "
+"anterior)."
 
 #: browser/troubleshooting.md:block 15 (paragraph)
 msgid ""
@@ -102,28 +143,42 @@ msgid ""
 "server. After setting the extra bootstraps, please restart the application. "
 "If the problem persists, contact us."
 msgstr ""
+"Uma possível razão para não conseguir entrar no BitTorrent (principalmente "
+"ao executar Ceno pela primeira vez), é que os servidores bootstrap padrão "
+"usados pelo cliente Ouinet estão bloqueados ou inalcançáveis. Nesse caso, "
+"pode querer tentar oferecer ao Ceno servidores bootstrap BitTorrent "
+"adicionais na [página Configurações](settings.md). Pode nos perguntar caso "
+"não conheça nenhum servidor do tipo. Após configurar os bootstraps "
+"adicionais, por favor, reinicie a aplicação. Se o problema persistir, fale "
+"conosco."
 
 #: browser/troubleshooting.md:block 16 (paragraph)
 msgid ""
 "If you ever see some other state, there may be some internal error in the "
 "Ouinet client. Please report the issue to us."
 msgstr ""
+"Se alguma vez vir um outro estado, pode haver um erro interno no cliente "
+"Ouinet. Por favor, relate-nos o problema."
 
 #: browser/troubleshooting.md:block 17 (header)
 msgid "Accessing some content shows \"Failed to retrieve the resource\""
-msgstr ""
+msgstr "Aceder algum conteúdo retorna \"Falha em recuperar o recurso\""
 
 #: browser/troubleshooting.md:block 18 (paragraph)
 msgid ""
 "This means that Ceno tried all available mechanisms to access the content, "
 "but none of them succeeded."
 msgstr ""
+"Isso significa que o Ceno tentou todos os mecanismos disponíveis para aceder "
+"o conteúdo, mas nenhum deles obteve sucesso."
 
 #: browser/troubleshooting.md:block 19 (paragraph)
 msgid ""
 "You should make sure that the following requirements are fulfilled for Ceno "
 "to work:"
 msgstr ""
+"Deve certificar-se de que os seguintes requisitos foram preenchidos para o "
+"Ceno funcionar:"
 
 #: browser/troubleshooting.md:block 20 (unordered list)
 msgid ""
@@ -131,6 +186,10 @@ msgid ""
 "be able to communicate with newer injectors or other clients. Check the "
 "[installation instructions](install.md) to know where to get new versions."
 msgstr ""
+"Está a executar uma versão recente do Navegador Ceno. Versões obsoletas "
+"podem não ser capazes de comunicar com injetores mais novos ou com outros "
+"clientes. Verifique as [instruções de instalação](install.md) para saber "
+"onde obter novas versões."
 
 #: browser/troubleshooting.md:block 20 (unordered list)
 msgid ""
@@ -138,6 +197,9 @@ msgid ""
 "Otherwise Ceno will not be able to circumvent some connectivity issues when "
 "accessing content."
 msgstr ""
+"Todos os mecanismos de acesso na [página Configurações](settings.md) estão "
+"ativados. De outra forma, Ceno não conseguirá contornar alguns problemas de "
+"conectividade ao aceder o conteúdo."
 
 #: browser/troubleshooting.md:block 20 (unordered list)
 msgid ""
@@ -146,6 +208,11 @@ msgid ""
 "network connectivity is shut down (although users may still find a common Wi-"
 "Fi access point to do device-to-device sharing)."
 msgstr ""
+"O seu aparelho tem uma conexão funcional com a rede, isto é, o seu navegador "
+"Web comum é capaz de abrir alguns websites. Ceno e Ouinet não conseguem "
+"funcionar quando toda a conectividade de rede está cortada (apesar de "
+"utilizadores ainda poderem encontrar um ponto de acesso WiFi em comum para "
+"fazer partilhamento de aparelho para aparelho)."
 
 #: browser/troubleshooting.md:block 21 (paragraph)
 msgid ""
@@ -153,10 +220,13 @@ msgid ""
 "access mechanisms to fail, to give you an idea of your chances for getting "
 "content using Ceno."
 msgstr ""
+"Se é o caso, vale a pena explicar o que pode estar acontecendo para que "
+"todos os mecanismos de acesso estejam falhando, para que tenha uma ideia das "
+"suas chances em obter conteúdo através de Ceno."
 
 #: browser/troubleshooting.md:block 22 (header)
 msgid "Origin access"
-msgstr ""
+msgstr "Acesso à origem"
 
 #: browser/troubleshooting.md:block 23 (paragraph)
 msgid ""
@@ -164,16 +234,22 @@ msgid ""
 "the server is having some difficulties itself (e.g. it is down or under some "
 "attack), or someone is interfering with your connection to it."
 msgstr ""
+"O seu Navegador Ceno não pode alcançar diretamente o conteúdo do servidor de "
+"origem. Ou o servidor está, ele mesmo, enfrentando dificuldades (por "
+"exemplo, caiu ou está sob ataque), ou alguém interfere com a sua conexão com "
+"ele."
 
 #: browser/troubleshooting.md:block 24 (paragraph)
 msgid ""
 "This is the main use case for Ceno and the other mechanisms should "
 "compensate for it."
 msgstr ""
+"Este é o principal caso de uso do Ceno e os outros mecanismos devem "
+"compensá-lo."
 
 #: browser/troubleshooting.md:block 25 (header)
 msgid "Proxy/Injector access"
-msgstr ""
+msgstr "Acesso ao proxy/injetor"
 
 #: browser/troubleshooting.md:block 26 (paragraph)
 msgid ""
@@ -182,11 +258,15 @@ msgid ""
 "Ouinet) gain traction, Ceno resorts to reaching injectors via other clients "
 "acting as bridges."
 msgstr ""
+"Alguém interfere com a sua conexão com os endereços de Internet no enxame de "
+"injetores. Já que se espera que esse problema aconteça eventualmente, "
+"conforme Ceno (e Ouinet) se popularizem, Ceno recorre ao alcance dos "
+"injetores através de outros clientes agindo como pontes."
 
 #: browser/troubleshooting.md:block 27 (paragraph)
 msgid ""
 "There are different reasons for Ceno being unable to reach such clients:"
-msgstr ""
+msgstr "Há diferentes razões para o Ceno não conseguir alcançar tais clientes:"
 
 #: browser/troubleshooting.md:block 28 (unordered list)
 msgid ""
@@ -195,6 +275,11 @@ msgid ""
 "be reached from the outside. This should become less likely as Ceno and "
 "Ouinet get popular and more clients with diverse connectivity come online."
 msgstr ""
+"Nenhum outro cliente é alcançável por si. Se apenas alguns clientes Ouinet "
+"estiverem online, é totalmente possível que nenhum deles esteja numa rede "
+"que possa ser alcançada a partir do exterior. Esse cenário deverá se tornar "
+"menos provável à medida que Ceno e Ouinet se tornarem populares e mais "
+"clientes com conectividade diversificada ficarem online."
 
 #: browser/troubleshooting.md:block 28 (unordered list)
 msgid ""
@@ -203,6 +288,11 @@ msgid ""
 "may entail blocking all BitTorrent traffic) and currently beyond what Ouinet "
 "supports, but we plan to make it more resistant against these attacks."
 msgstr ""
+"O caso extremo aqui é o de as conexões entre clientes Ouinet serem "
+"identificadas como tais por um censor e então bloqueadas. Esta situação é "
+"bem improvável (pois ela poderia implicar um bloqueio de todo o tráfego "
+"BitTorrent) e, atualmente, está além do suportado pela Ouinet. Mas planeamos "
+"torná-la mais resistente a estes ataques."
 
 #: browser/troubleshooting.md:block 28 (unordered list)
 msgid ""
@@ -211,6 +301,10 @@ msgid ""
 "Ouinet clients which are themselves affected by similar network interference "
 "as yours."
 msgstr ""
+"Nenhum outro cliente consegue alcançar o injetor. Por ser improvável que "
+"todos os injetores estejam simultaneamente inativos, isso pode significar "
+"que apenas pode alcançar clientes Ouinet que estejam afetados por uma "
+"interferência na rede similar à sua."
 
 #: browser/troubleshooting.md:block 28 (unordered list)
 msgid ""
@@ -218,6 +312,10 @@ msgid ""
 "is interrupted. Ceno would resort in this case to getting and using the "
 "content from the distributed cache, even if it is stale."
 msgstr ""
+"Tal situação pode acontecer quando todo o tráfego que sai ou entra no país "
+"em que se encontra estiver interrompido. O Ceno iria recorrer, nesse caso, à "
+"obtenção e ao uso do conteúdo do cache distribuído, mesmo se estiver "
+"obsoleto."
 
 #: browser/troubleshooting.md:block 28 (unordered list)
 msgid ""
@@ -228,6 +326,12 @@ msgid ""
 "spread (over the distributed cache) without further need to access the "
 "outside world."
 msgstr ""
+"Novamente, conforme Ceno e Ouinet se tornarem mais populares, aumentarão as "
+"chances de que haja ao menos alguns clientes com algum tipo de acesso a "
+"websites internacionais. Mesmo se o acesso for precário, um único cliente "
+"Ouinet capaz de injetar algum conteúdo dentro do país pode ser suficiente "
+"para permitir que ele se propague (através do cache distribuído) sem "
+"necessidade de aceder o mundo exterior."
 
 #: browser/troubleshooting.md:block 29 (paragraph)
 msgid ""
@@ -236,10 +340,14 @@ msgid ""
 "note that clients with such stable Internet addresses could get blocked as "
 "well."
 msgstr ""
+"Por fim, executamos alguns clientes Ouinet com boa conectividade em "
+"(esperamos) países livres de censura para tentar evitar essas duas "
+"situações. Porém, note que clientes com tais endereços de Internet estáveis "
+"poderiam ser igualmente bloqueados."
 
 #: browser/troubleshooting.md:block 30 (header)
 msgid "Distributed cache"
-msgstr ""
+msgstr "Cache distribuído"
 
 #: browser/troubleshooting.md:block 31 (paragraph)
 msgid ""
@@ -251,6 +359,13 @@ msgid ""
 "other Ouinet client to inject and keep seeding it (which may further expose "
 "them to some [risks](../concepts/risks.md))."
 msgstr ""
+"Tenha em mente que um requisito absoluto para conseguir recuperar qualquer "
+"conteúdo do cache distribuído é tal conteúdo já ter sido injetado por algum "
+"outro utilizador do Ceno ou da Ouinet. Ou seja, muito provavelmente "
+"conteúdos populares serão injetados e replicados de maneira orgânica e "
+"conteúdos mais desconhecidos, não. A menos que alguém se disponha a usar "
+"Ceno ou algum outro cliente Ouinet para injetá-lo e o manter semeando (o que "
+"pode gerar ainda mais exposição a alguns [riscos](../concepts/risks.md))."
 
 #: browser/troubleshooting.md:block 32 (paragraph)
 msgid ""
@@ -260,6 +375,11 @@ msgid ""
 "content that requires authentication, and some traffic exchanged by certain "
 "dynamic Web applications."
 msgstr ""
+"Por favor, observe que alguns conteúdos não considerados seguros para "
+"partilhamento nunca serão injetados, não importa quantas pessoas os "
+"recuperem usando a navegação pública. Isso inclui conteúdo marcado como "
+"privado pelo servidor de origem, conteúdo que requer autenticação e algum "
+"tráfego intercambiado por certas aplicações Web dinâmicas."
 
 #: browser/troubleshooting.md:block 33 (paragraph)
 msgid ""
@@ -267,10 +387,13 @@ msgid ""
 "reachable by you. The same observations described in the previous point for "
 "reaching bridge clients do apply here."
 msgstr ""
+"Observe também que os clientes detentores de cópias de conteúdo injetado "
+"precisam estar alcançáveis por si. As mesmas observações descritas no ponto "
+"anterior sobre alcançar uma ponte se aplicam aqui."
 
 #: browser/troubleshooting.md:block 34 (header)
 msgid "A note on HTTP-only sites"
-msgstr ""
+msgstr "Uma nota sobre websites unicamente HTTP"
 
 #: browser/troubleshooting.md:block 35 (paragraph)
 msgid ""
@@ -281,6 +404,12 @@ msgid ""
 "example.com/…` in the location bar, or when you follow a link with such a "
 "URL in a page."
 msgstr ""
+"Ceno automaticamente seleciona o protocolo mais seguro HTTPS para aceder "
+"websites que seriam de outra maneira acessados usando o simples e inseguro "
+"HTTP. A seleção é feita pela extensão [HTTPS by default][HTTPS by default] "
+"incorporada quando entra um nome de domínio cru como `example.com` ou uma "
+"URL HTTP como `http://example.com/…` na barra de endereço, ou quando segue "
+"uma ligação com tal URL numa página."
 
 #: browser/troubleshooting.md:block 36 (paragraph)
 msgid ""
@@ -290,6 +419,11 @@ msgid ""
 "trivial to detect with HTTPS, so Ceno can work around it instead of being "
 "tricked into loading the bogus content."
 msgstr ""
+"A escolha automática do HTTPS é feita para evitar que alguém intercepte uma "
+"conexão HTTP e a direcione para um servidor ilegítimo, resultando em "
+"conteúdo falso (como uma mensagem de bloqueio). Esse tipo de sequestro é "
+"trivial de detetar com HTTPS, portanto, Ceno pode contorná-lo em vez de ser "
+"induzido a carregar conteúdo falso."
 
 #: browser/troubleshooting.md:block 37 (paragraph)
 msgid ""
@@ -298,18 +432,27 @@ msgid ""
 "case for a site which just failed to load in Ceno, you can edit its URL in "
 "the location bar, change `https://` to `http://`, and try again."
 msgstr ""
+"Apesar de muito incomum, alguns websites não suportam HTTPS e nenhum "
+"mecanismo de acesso funcionará para eles. Se tem total certeza de que este é "
+"o caso para um website cujo carregamento no Ceno acaba de falhar, pode "
+"editar a URL dele na barra de endereços: mude `https://` para `http://` e "
+"tente novamente."
 
 #: browser/troubleshooting.md:block 38 (paragraph)
 msgid ""
 "If you want to always access a particular site over plain HTTP, you can add "
 "a permanent exception like this:"
 msgstr ""
+"Se quiser sempre aceder um website particular através de HTTP simples, pode "
+"adicionar uma exceção permanente como esta:"
 
 #: browser/troubleshooting.md:block 39 (ordered list)
 msgid ""
 "In the app's main menu, choose *HTTPS by default*. You will see that "
 "extension's settings page."
 msgstr ""
+"No menu principal da app, escolha *HTTPS by default*. Verá a página de "
+"configurações dessa extensão."
 
 #: browser/troubleshooting.md:block 39 (ordered list)
 msgid ""
@@ -318,16 +461,23 @@ msgid ""
 "Please note that entering `example.com` will also include all sites under "
 "that domain, like `www.example.com` or `x.y.example.com`."
 msgstr ""
+"Insira o nome do domínio para o website na caixa de texto, como mostrado "
+"abaixo. Observe ali como pode inserir diversos websites separando-os com "
+"espaços ou novas linhas. Por favor, note que inserir `example.com` incluirá "
+"também todos os websites sob esse domínio, como `www.example.com` ou `x.y."
+"example.com`."
 
 #: browser/troubleshooting.md:block 39 (ordered list)
 msgid "When done, go back or close the tab."
-msgstr ""
+msgstr "Quando terminar, volte ou feche a guia."
 
 #: browser/troubleshooting.md:block 40 (paragraph)
 msgid ""
 "![Figure: Adding exceptions for HTTP-only sites](images/httpsbd-exceptions."
 "png)"
 msgstr ""
+"![Figura: Adicionando exceções para websites unicamente HTTP](images/httpsbd-"
+"exceptions.png)"
 
 #: browser/troubleshooting.md:block 41 (paragraph)
 msgid ""
@@ -338,10 +488,16 @@ msgid ""
 "for subsequent runs. We encourage you to contact the site administrators and "
 "tell them to enable HTTPS support."
 msgstr ""
+"**Nota:** No infeliz caso de um website apenas ser acessível via HTTP e "
+"também estar sendo sequestrado por um censor, precisará ir à [página "
+"Configurações](settings.md), desativar o acesso à Origem e tentar novamente. "
+"Por favor, observe que essa configuração afeta todos os websites e ela não é "
+"lembrada pelo Ceno em execuções subsequentes. Encorajamos a contatar os "
+"administradores do website e lhes dizer para ativar o suporte HTTPS."
 
 #: browser/troubleshooting.md:block 42 (header)
 msgid "A page shows bogus content (like a block message)"
-msgstr ""
+msgstr "Uma página mostra conteúdo falso (como uma mensagem de bloqueio)"
 
 #: browser/troubleshooting.md:block 43 (paragraph)
 msgid ""
@@ -350,6 +506,10 @@ msgid ""
 "illegitimate server. Ceno then remembered that redirection, and now it "
 "automatically opens the latter site when trying to visit the former."
 msgstr ""
+"Isso pode acontecer quando usou uma versão antiga do Ceno para visitar um "
+"website bloqueado no passado e alguém interceptou a conexão e a direcionou "
+"para um servidor ilegítimo. Ceno, então, lembrou-se desse redirecionamento e "
+"agora automaticamente abre o último website ao tentar visitar o primeiro."
 
 #: browser/troubleshooting.md:block 44 (paragraph)
 msgid ""
@@ -357,16 +517,24 @@ msgid ""
 "choosing *Settings* in the app's main menu, then *Clear private data*, and "
 "disabling all boxes but *Cache* before tapping on *Clear data*."
 msgstr ""
+"Uma forma de consertar esse problema é limpar o cache de navegação normal do "
+"Ceno escolhendo *Configurações* no menu principal da app, depois clicando em "
+"*Limpar dados privados* e desativando todas as caixas exceto *Cache* antes "
+"de tocar em *Limpar dados*."
 
 #: browser/troubleshooting.md:block 45 (paragraph)
 msgid ""
 "Please note that Ceno version 1.3.0 and newer avoid that hijacking of newly "
 "visited sites by always using HTTPS, as explained in the previous section."
 msgstr ""
+"Por favor, observe que as versões 1.3.0 e posteriores do Ceno evitam o "
+"sequestro de websites recentemente visitados pelo uso perene de HTTPS, como "
+"explicado na secção anterior."
 
 #: browser/troubleshooting.md:block 46 (header)
 msgid "Others cannot retrieve content seeded by my device"
 msgstr ""
+"Outras pessoas não conseguem recuperar conteúdo semeado pelo meu aparelho"
 
 #: browser/troubleshooting.md:block 47 (paragraph)
 msgid ""
@@ -376,6 +544,12 @@ msgid ""
 "load (at least partially), and tapping the Ceno address bar icon should only "
 "show non-zero values under *Shared by other Ceno users* or *Shared by you*."
 msgstr ""
+"Primeiro, certifique-se de que o seu aparelho ainda semea o conteúdo indo à ["
+"página *Configurações do Ceno*](settings.md), deixando marcada apenas a "
+"caixa source *Partilhado por outros utilizadores Ceno* e então acedendo esse "
+"conteúdo novamente: ele deve carregar (ao menos parcialmente) e tocar no "
+"ícone da barra de endereço do Ceno deve mostrar apenas valores diferentes de "
+"zero em *Partilhado por outros utilizadores Ceno* ou *Partilhado por si*."
 
 #: browser/troubleshooting.md:block 48 (paragraph)
 msgid ""
@@ -388,6 +562,15 @@ msgid ""
 "box again and access the content once more; if it still does not load, it "
 "may be that the particular content is not deemed safe for sharing by Ouinet."
 msgstr ""
+"Se o conteúdo não carregar, pode ser que o Ceno já o tenha removido, pois "
+"ele automaticamente limpa conteúdo obsoleto (mais antigo que uma semana, por "
+"padrão) do seu cache local. Ative a source *Via rede do Ceno (pública)* na "
+"página de Configurações e acesse o conteúdo novamente. Por favor, espere "
+"alguns minutos se passarem para que o aparelho anuncie o conteúdo no índex "
+"do cache distribuído. Torne *Partilhado por outros utilizadores Ceno* a "
+"única caixa marcada novamente e acesse o conteúdo mais uma vez. Se ele ainda "
+"não carregar, pode ser que esse conteúdo em particular não seja considerado "
+"seguro para partilhamento pela Ouinet."
 
 #: browser/troubleshooting.md:block 49 (paragraph)
 msgid ""
@@ -398,6 +581,12 @@ msgid ""
 "network does not allow direct communication between devices connected to it. "
 "This happens in some public Wi-Fi networks, so try using a private one."
 msgstr ""
+"Se a etapa anterior funcionar, mas outro aparelho com apenas a source *"
+"Partilhado por outros utilizadores Ceno* ativada ainda exibir \"Falha em "
+"recuperar o recurso…\", há dois cenários possíveis. Se ambos os aparelhos "
+"estão na mesma rede (por exemplo, no mesmo ponto de acesso WiFi), pode ser "
+"que a rede não permita comunicações diretas entre aparelhos lhe conectados. "
+"Isso acontece em algumas redes WiFi públicas, então tente usar uma privada."
 
 #: browser/troubleshooting.md:block 50 (paragraph)
 msgid ""
@@ -407,6 +596,11 @@ msgid ""
 "*Reachability status* it should say *reachable* or *likely reachable*. "
 "Otherwise seeding may not be possible from that network as it is."
 msgstr ""
+"Se os aparelhos estão em redes diferentes, pode ser devido a uma gama de "
+"razões. Uma delas é a rede do primeiro aparelho não permitir conexões "
+"ingressantes: se abrir a página *Configurações do Ceno*, em *Estado de "
+"acessibilidade* deve constar *alcançável* ou *provavelmente alcançável*. "
+"Caso contrário, pode não ser possível semear dessa rede tal como ela está."
 
 #: browser/troubleshooting.md:block 51 (quote)
 msgid ""
@@ -415,7 +609,11 @@ msgid ""
 "port forwarding rule towards your client. See [here](bridging.md) for "
 "further instructions."
 msgstr ""
+"**Nota técnica:** Se o seu aparelho relata acessibilidade *não decidida* e é "
+"possível modificar a configuração do ponto de acesso, pode criar uma regra "
+"permanente de redirecionamento de porta na direção do seu cliente. Veja "
+"[aqui](bridging.md) para maiores instruções."
 
 #: browser/troubleshooting.md:block 51 (quote)
 msgid "[HTTPS by default]: https://github.com/Rob--W/https-by-default"
-msgstr ""
+msgstr "[HTTPS by default]: https://github.com/Rob--W/https-by-default"

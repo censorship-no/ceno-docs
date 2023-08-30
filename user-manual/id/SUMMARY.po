@@ -1,15 +1,15 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-17 02:55+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
+"PO-Revision-Date: 2023-08-02 16:04+0000\n"
+"Last-Translator: Taufik Adi Wicaksono <taufikadi.wicaksono@tutamail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/censorship-no/"
 "user-manual/id/>\n"
 "Language: id\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #: SUMMARY.md:block 1 (header)
 msgid "Summary"
@@ -81,12 +81,12 @@ msgstr "[Menguji Browser](browser/testing.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Helping others](browser/bridging.md)"
-msgstr ""
+msgstr "[Membantu Orang Lain](browser/bridging.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Troubleshooting](browser/troubleshooting.md)"
-msgstr ""
+msgstr "[Pemecahan Masalah](browser/troubleshooting.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Annex: The Ouinet client front-end](client/front-end.md)"
-msgstr ""
+msgstr "[Lampiran: Bagian depan klien Ouinet](client/front-end.md)"

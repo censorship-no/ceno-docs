@@ -1,15 +1,15 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-10-30 14:07+0000\n"
-"Last-Translator: Samira Spolidorio <samira.spolidorio@gmail.com>\n"
+"PO-Revision-Date: 2023-06-26 18:50+0000\n"
+"Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/censorship-no/"
 "browser-testing/pt/>\n"
 "Language: pt\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.14.2-dev\n"
+"X-Generator: Weblate 4.18.1\n"
 
 #: browser/testing.md:block 1 (header)
 msgid "Testing the Browser"
@@ -23,12 +23,21 @@ msgid ""
 "different access mechanisms. Keep in mind however that in day-to-day usage "
 "of Ceno, you will seldom need to change the default settings at all."
 msgstr ""
+"Agora que sabe como [instalar](install.md) e [configurar](settings.md) o "
+"Ceno, permita-nos seguir alguns passos para testar se algumas "
+"funcionalidades específicas da Ouinet funcionam. Essa ação envolve ativar e "
+"desativar seletivamente diferentes mecanismos de acesso. Lembre-se, contudo, "
+"que no uso diário do Ceno raramente precisará modificar as configurações "
+"padrão."
 
 #: browser/testing.md:block 3 (paragraph)
 msgid ""
 "To complete all the tests below you will need at least two devices connected "
 "to the same Wi-Fi network, and a third one on a completely different network."
 msgstr ""
+"Para completar todos os testes abaixo, precisará de ao menos dois aparelhos "
+"conectados à mesma rede WiFi e um terceiro conectado a uma rede "
+"completamente diferente."
 
 #: browser/testing.md:block 4 (paragraph)
 msgid ""
@@ -38,10 +47,16 @@ msgid ""
 "browser gets stuck for more than a couple of minutes while loading a page, "
 "you may hit stop and reload it (although this may alter results slightly)."
 msgstr ""
+"Todos os testes serão performados usando [navegação pública](public-private."
+"md). Se algo não funcionar como esperado, por favor, seja utente e verifique "
+"a secção sobre [solução de problemas](troubleshooting.md). Especificamente, "
+"se o navegador ficar travado por mais que alguns minutos ao carregar uma "
+"página, pode apertar interromper e atualizá-la (embora isso possa alterar "
+"levemente os resultados)."
 
 #: browser/testing.md:block 5 (header)
 msgid "Accessing an injector"
-msgstr ""
+msgstr "Aceder um injetor"
 
 #: browser/testing.md:block 6 (paragraph)
 msgid ""
@@ -52,14 +67,20 @@ msgid ""
 "provider or country, looking up the bridge swarm and trying to contact the "
 "injector via some other Ouinet client."
 msgstr ""
+"Vamos primeiramente verificar se o seu Navegador Ceno consegue alcançar um "
+"injetor. Essa ação pode parecer trivial, mas o seu cliente já estará "
+"exercitando diversas funcionalidades da Ouinet nesse processo: procurar o "
+"endereço do injetor no enxame de injetores, tentar contatá-lo diretamente e, "
+"se ele estiver bloqueado pelo seu provedor de acesso ou país, procurar um "
+"enxame de pontes e tentar contatar o injetor via algum outro cliente Ouinet."
 
 #: browser/testing.md:block 7 (paragraph)
 msgid "In the first device perform the following steps:"
-msgstr ""
+msgstr "No primeiro aparelho, realize as seguintes etapas:"
 
 #: browser/testing.md:block 8 (ordered list)
 msgid "First of all, install Ceno and start it. Its home page will appear."
-msgstr ""
+msgstr "Primeiramente, instale o Ceno e o inicie. A página de início aparecerá."
 
 #: browser/testing.md:block 8 (ordered list)
 msgid ""
@@ -67,6 +88,10 @@ msgid ""
 "Since we only want to test injector access, uncheck all the boxes for "
 "content sources except *Via the Ceno network (public)*."
 msgstr ""
+"Abra o menu principal da app e escolha *Ceno* para abrir a página *"
+"Configurações do Ceno*. Já que apenas queremos testar o acesso do injetor, "
+"desmarque todas as caixas para sources de conteúdo exceto *Via rede do Ceno "
+"(pública)*."
 
 #: browser/testing.md:block 8 (ordered list)
 msgid ""
@@ -75,10 +100,14 @@ msgid ""
 "window. If you know about a site which is usually blocked for you, go ahead "
 "and enter it!"
 msgstr ""
+"Retorne à página inicial do Ceno. Selecione um dos websites recomendados ou "
+"entre a URL de algum outro website na barra de endereço no topo da janela. "
+"Se conhece um website que é frequentemente bloqueado para si, continue e "
+"insira-o!"
 
 #: browser/testing.md:block 8 (ordered list)
 msgid "The chosen site should eventually show up."
-msgstr ""
+msgstr "O website escolhido deve eventualmente aparecer."
 
 #: browser/testing.md:block 9 (paragraph)
 msgid ""
@@ -86,6 +115,9 @@ msgid ""
 "address bar to enter the site's URL with `https://` at the beginning "
 "(instead of `http://`) and repeat the test."
 msgstr ""
+"**Nota:** Se obtiver uma página falsa ao invés de uma legítima, use a barra "
+"de endereço para inserir a URL do website com `https://` no começo (ao invés "
+"de `http://`) e repita o teste."
 
 #: browser/testing.md:block 10 (paragraph)
 msgid ""
@@ -93,6 +125,10 @@ msgid ""
 "injector! Since you are able to query swarms and contact other clients, you "
 "are also likely to be able to retrieve content from the distributed cache."
 msgstr ""
+"Se o website carregar, pode comemorar que o seu aparelho conseguiu alcançar "
+"o injetor! Por ter sido capaz de consultar enxames e contatar outros "
+"clientes, é provável que seja capaz, também, de recuperar conteúdo do cache "
+"distribuído."
 
 #: browser/testing.md:block 11 (paragraph)
 msgid ""
@@ -101,11 +137,17 @@ msgid ""
 "retrieved form the different sources. Only *Via Ceno network (public)* "
 "should have a non-zero value since the other sources were disabled."
 msgstr ""
+"A propósito, se pressionar o ícone do Ceno na barra de endereço, ele abrirá "
+"um popup como o abaixo, mostrando quantos elementos do website foram "
+"recuperados das diferentes sources. Somente em *Via rede Ceno (pública)* "
+"deve haver um valor diferente de zero, dado que as outras sources estavam "
+"desativadas."
 
 #: browser/testing.md:block 12 (paragraph)
 msgid ""
 "![Figure: Sources used when testing injection](images/sources-inject.png)"
 msgstr ""
+"![Figura: Sources usadas ao testar a injeção](images/sources-inject.png)"
 
 #: browser/testing.md:block 13 (paragraph)
 msgid ""
@@ -113,14 +155,18 @@ msgid ""
 "have seen a popup like the one below, with non-zero counts in *Direct from "
 "website* or *Via Ceno network (private)*."
 msgstr ""
+"Em contrapartida, se usou a navegação privativa com configurações padrão, "
+"pode ter visto um popup como o abaixo, com contagens diferentes de zero em *"
+"Direto do website* ou *Via rede Ceno (privativa)*."
 
 #: browser/testing.md:block 14 (paragraph)
 msgid "![Figure: Sources used with private browsing](images/sources-proxy.png)"
 msgstr ""
+"![Figura: Sources usadas com a navegação privativa](images/sources-proxy.png)"
 
 #: browser/testing.md:block 15 (header)
 msgid "Getting content from close users"
-msgstr ""
+msgstr "Obter conteúdo de utilizadores próximos"
 
 #: browser/testing.md:block 16 (paragraph)
 msgid ""
@@ -129,6 +175,11 @@ msgid ""
 "cache. The simplest way is to use Ceno's device-to-device support to check "
 "whether getting and verifying signed content works."
 msgstr ""
+"Visto que o seu aparelho foi capaz de obter algum conteúdo de um injetor, "
+"vamos testar se ele consegue compartilhá-lo com outro aparelho através do "
+"cache distribuído. A maneira mais simples é usar o suporte aparelho a "
+"aparelho do Ceno para verificar se a obtenção e verificação de conteúdo "
+"assinado funcionam."
 
 #: browser/testing.md:block 17 (paragraph)
 msgid ""
@@ -138,10 +189,15 @@ msgid ""
 "connect it to the same Wi-Fi network. Next, follow the steps below on the "
 "second device:"
 msgstr ""
+"Após completar com sucesso o teste acima no primeiro aparelho, deixe o Ceno "
+"continuar a ser executado nele (o ícone do Ceno deve aparecer na barra de "
+"notificações). Consiga, então, um segundo aparelho (pode convidar uma pessoa "
+"amiga para ajudar no teste) e conecte à mesma rede WiFi. Depois, siga as "
+"etapas abaixo para o segundo aparelho:"
 
 #: browser/testing.md:block 18 (ordered list)
 msgid "Install Ceno if needed and start it as above."
-msgstr ""
+msgstr "Instale o Ceno se necessário e inicie como acima."
 
 #: browser/testing.md:block 18 (ordered list)
 msgid ""
@@ -149,6 +205,9 @@ msgid ""
 "distributed cache access, uncheck all the boxes for content sources except "
 "*Shared by other Ceno users*."
 msgstr ""
+"Abra a página *Configurações do Ceno* como acima. Já que apenas desejamos "
+"testar o acesso ao cache distribuído, desmarque as caixas para sources de "
+"conteúdo exceto *Compartilhado por outros utilizadores Ceno*."
 
 #: browser/testing.md:block 18 (ordered list)
 msgid ""
@@ -156,6 +215,9 @@ msgid ""
 "you did above (i.e. by selecting one of the recommended web sites or "
 "entering its URL in the address bar)."
 msgstr ""
+"Volte à página inicial do Ceno e visite o mesmo website da mesma maneira que "
+"fez acima (isto é, a selecionar os websites recomendados ou entrar a sua URL "
+"na barra de endereço)."
 
 #: browser/testing.md:block 19 (paragraph)
 msgid ""
@@ -163,6 +225,10 @@ msgid ""
 "between its devices. This \"client isolation\" may happen in public networks "
 "like those of parks, bars or hotels. Please try again on a different network."
 msgstr ""
+"Caso não funcione, a sua rede WiFi pode estar bloqueando as comunicações "
+"diretas entre os aparelhos dela. Este \"isolamento do cliente\" pode "
+"acontecer em redes públicas como as de parques, bares ou hotéis. Por favor, "
+"tente novamente numa rede diferente."
 
 #: browser/testing.md:block 20 (paragraph)
 msgid ""
@@ -170,12 +236,18 @@ msgid ""
 "other clients. Pushing the Ceno address bar icon should show a popup like "
 "the one below, where only *Shared by other Ceno users* has a non-zero value."
 msgstr ""
+"Caso funcione, significa que ambos os aparelhos são capazes de entregar "
+"aquele conteúdo para outros clientes. Apertar o ícone da barra de endereço "
+"do Ceno deve mostrar um popup como o abaixo, no qual somente *Compartilhado "
+"por outros utilizadores Ceno* possui um valor diferente de zero."
 
 #: browser/testing.md:block 21 (paragraph)
 msgid ""
 "![Figure: Sources used when testing distributed cache retrieval](images/"
 "sources-dcache.png)"
 msgstr ""
+"![Figura: Sources usadas durante o teste de recuperação do cache "
+"distribuído](images/sources-dcache.png)"
 
 #: browser/testing.md:block 22 (paragraph)
 msgid ""
@@ -184,16 +256,22 @@ msgid ""
 "indeed part of the distributed cache, but they happen to already be stored "
 "in your device, so Ceno does not need to retrieve them over the network."
 msgstr ""
+"Finalmente, também pode ter notado que há um contador para *Compartilhado "
+"por si*. Essa não é uma source diferente *em si*: elementos contados aqui "
+"são, de fato, parte do cache distribuído. Porém, eles já estão armazenados "
+"no seu aparelho, então o Ceno não precisa recuperá-los ao longo da rede."
 
 #: browser/testing.md:block 23 (header)
 msgid "Getting content from remote users"
-msgstr ""
+msgstr "Obter conteúdo de utilizadores distantes"
 
 #: browser/testing.md:block 24 (paragraph)
 msgid ""
 "We have done a small-scale test of the distributed cache. Let us now test "
 "how it works over the Internet."
 msgstr ""
+"Realizamos um teste de pequena escala do cache distribuído. Vamos agora "
+"testar como funciona através da Internet."
 
 #: browser/testing.md:block 25 (paragraph)
 msgid ""
@@ -201,6 +279,10 @@ msgid ""
 "first device as with the previous test, and stop Ceno on the second device "
 "(by showing its notifications and pushing \"Tap to stop\")."
 msgstr ""
+"Após completar com sucesso o teste acima, mantenha a execução do Ceno no "
+"primeiro aparelho como no teste anterior e interrompa o Ceno no segundo "
+"aparelho (para interromper, exiba as notificações do Ceno e pressione \"Toque"
+" para interromper\")."
 
 #: browser/testing.md:block 26 (paragraph)
 msgid ""
@@ -208,6 +290,10 @@ msgid ""
 "different Wi-Fi network (maybe another friend can help from home). The steps "
 "to follow for that device are exactly the same as those in the previous test."
 msgstr ""
+"Dessa vez precisará de um terceiro aparelho, mas ele precisa estar conectado "
+"a uma rede WiFi diferente (talvez outra pessoa amiga possa ajudar de casa). "
+"As etapas a seguir para esse aparelho são exatamente as mesmas daquelas no "
+"teste anterior."
 
 #: browser/testing.md:block 27 (paragraph)
 msgid ""
@@ -215,7 +301,10 @@ msgid ""
 "The first device is able to seed content to others, and it can most probably "
 "also act as a bridge."
 msgstr ""
+"Caso o terceiro aparelho consiga carregar o website usado para o teste, está "
+"pronto. O primeiro aparelho é capaz de semear conteúdo para outros e pode, "
+"muito provavelmente, atuar também como ponte."
 
 #: browser/testing.md:block 28 (paragraph)
 msgid "Congratulations!"
-msgstr ""
+msgstr "Parabéns!"

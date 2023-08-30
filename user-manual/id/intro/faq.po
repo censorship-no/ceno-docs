@@ -1,31 +1,33 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-06-01 23:16+0000\n"
-"Last-Translator: Reza Almanda <rezaalmanda27@gmail.com>\n"
+"PO-Revision-Date: 2023-07-19 10:05+0000\n"
+"Last-Translator: Taufik Adi Wicaksono <taufikadi.wicaksono@tutamail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/censorship-no/"
 "faq/id/>\n"
 "Language: id\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.13-dev\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #: intro/faq.md:block 1 (header)
 msgid "Frequently Asked Questions"
-msgstr "Pertanyaan yang sering diajukan"
+msgstr "Tanya Jawab Umum"
 
 #: intro/faq.md:block 2 (header)
 msgid "Usage"
-msgstr ""
+msgstr "Penggunaan"
 
 #: intro/faq.md:block 3 (header)
 msgid "Can Ceno Browser replace my current browser (Chrome/Firefox/Safari)?"
 msgstr ""
+"Bisakah Peramban Ceno menggantikan perambanku saat ini (Chrome/Firefox/"
+"Safari)?"
 
 #: intro/faq.md:block 4 (paragraph)
 msgid "Short answer: yes, at least for some non-critical browsing."
-msgstr ""
+msgstr "Jawaban singkat: ya, setidaknya untuk beberapa penjelajahan nonkritis."
 
 #: intro/faq.md:block 5 (paragraph)
 msgid ""
@@ -34,6 +36,11 @@ msgid ""
 "Ouinet technology for retrieving web content may affect its operation in "
 "subtle ways (some of them potentially involving your privacy)."
 msgstr ""
+"Karena Ceno didasarkan pada Mozilla Firefox untuk Android, Ceno menyediakan "
+"semua fitur yang diharapkan dari peramban modern. Namun, ketergantungannya "
+"pada teknologi Ouinet untuk mengambil konten web dapat memengaruhi "
+"operasinya dengan cara yang tidak kentara (beberapa di antaranya berpotensi "
+"melibatkan privasi Anda)."
 
 #: intro/faq.md:block 6 (paragraph)
 msgid ""
@@ -42,6 +49,12 @@ msgid ""
 "changes are introduced which require you to uninstall the application or "
 "remove stored data (including bookmarks and site settings) before upgrading."
 msgstr ""
+"Selain itu, karena Ceno dan Ouinet sedang dalam pengembangan berkelanjutan, "
+"Anda mungkin mengalami beberapa ketidakstabilan. Hal ini juga dapat berarti "
+"bahwa perubahan yang tidak kompatibel dengan versi sebelumnya akan "
+"diperkenalkan dan mengharuskan Anda untuk menghapus aplikasi atau menghapus "
+"data yang tersimpan (termasuk penanda dan pengaturan situs) sebelum "
+"melakukan pembaruan."
 
 #: intro/faq.md:block 7 (paragraph)
 msgid ""
@@ -49,14 +62,20 @@ msgid ""
 "you use your habitual Web browser instead of Ceno. Please read the section "
 "on [risks](../concepts/risks.md) for more information."
 msgstr ""
+"Untuk pekerjaan penting di situs web yang tidak terkena penyensoran, kami "
+"sarankan Anda untuk menggunakan peramban web yang biasa Anda gunakan, bukan "
+"Ceno. Silakan baca bagian [risiko](../konsep/risks.md) untuk informasi lebih "
+"lanjut."
 
 #: intro/faq.md:block 8 (header)
 msgid "Can I use Ceno Browser to access Twitter, Facebook and Gmail?"
 msgstr ""
+"Bisakah saya menggunakan Peramban Ceno untuk mengakses Twitter, Facebook, "
+"dan Gmail?"
 
 #: intro/faq.md:block 9 (paragraph)
 msgid "Short answer: yes, by using private tabs."
-msgstr ""
+msgstr "Jawaban singkat: ya, dengan menggunakan tab privat."
 
 #: intro/faq.md:block 10 (paragraph)
 msgid ""
@@ -67,6 +86,13 @@ msgid ""
 "down all private data (like passwords and cookies) from Web traffic to "
 "ensure that it does not leak to other untrusted Ceno or Ouinet users."
 msgstr ""
+"Meskipun Ceno berusaha keras untuk menyediakan pengalaman pengguna semirip "
+"mungkin dengan penjelajahan web biasa, beberapa teknik yang digunakan untuk "
+"menghindari gangguan jaringan tidak bekerja dengan baik pada situs-situs "
+"dinamis. Ini adalah kasus pada mode operasi bawaan Ceno (yaitu penjelajahan "
+"publik), karena Ceno menghapus semua data pribadi (seperti kata sandi dan "
+"kuki) dari lalu lintas web untuk memastikan bahwa data tersebut tidak bocor "
+"ke pengguna Ceno atau Ouinet yang tidak tepercaya."
 
 #: intro/faq.md:block 11 (paragraph)
 msgid ""
@@ -76,30 +102,40 @@ msgid ""
 "else. However, this requires that network traffic from your device can reach "
 "those websites in some way."
 msgstr ""
+"Untuk menghindari hal ini dan memungkinkan penggunaan situs dinamis seperti "
+"itu di Ceno, Anda dapat menggunakan tab privat (yaitu penjelajahan privat), "
+"yang membuat data pribadi tetap utuh dan menjaga agar koneksi ke situs "
+"selalu dienkripsi sehingga terlindungi dari orang lain. Namun, hal ini "
+"membutuhkan lalu lintas jaringan dari perangkat Anda untuk dapat mencapai "
+"situs-situs tersebut dengan cara tertentu."
 
 #: intro/faq.md:block 12 (paragraph)
 msgid ""
 "For further details, please refer to the section on the differences between "
 "[public and private browsing](../concepts/public-private.md)."
 msgstr ""
+"Untuk rincian lebih lanjut, lihat bagian tentang perbedaan antara ["
+"penjelajahan publik dan privat](../concepts/public-private.md)."
 
 #: intro/faq.md:block 13 (header)
 msgid "Privacy and security"
-msgstr ""
+msgstr "Privasi dan keamanan"
 
 #: intro/faq.md:block 14 (header)
 msgid "Will my device store content that I did not request?"
-msgstr ""
+msgstr "Apakah perangkat saya menyimpan konten yang tidak saya minta?"
 
 #: intro/faq.md:block 15 (paragraph)
 msgid "Short answer: no."
-msgstr ""
+msgstr "Jawaban singkat: tidak."
 
 #: intro/faq.md:block 16 (paragraph)
 msgid ""
 "Ceno only shares content that you requested (using [public browsing](../"
 "concepts/public-private.md))."
 msgstr ""
+"Ceno hanya membagikan konten yang Anda minta (menggunakan [penjelajahan "
+"publik](../concepts/public-private.md))."
 
 #: intro/faq.md:block 17 (paragraph)
 msgid ""
@@ -109,20 +145,31 @@ msgid ""
 "already does a pretty good job at detecting and blocking such attempts, you "
 "should still avoid visiting suspicious sites."
 msgstr ""
+"Harap perhatikan bahwa situs web jahat mungkin masih mencoba untuk "
+"mengelabui peramban Anda untuk mengambil konten dari situs lain tanpa "
+"sepengetahuan Anda sehingga memaksa perangkat Anda untuk menyimpan dan "
+"membagikannya ke pengguna lain. Meskipun kode Firefox sudah melakukan "
+"pekerjaan yang cukup baik dalam mendeteksi dan memblokir upaya semacam itu, "
+"Anda tetap harus menghindari kunjungan ke situs yang mencurigakan."
 
 #: intro/faq.md:block 18 (paragraph)
 msgid ""
 "Read more about how your Ceno Browser retrieves and shares Web content with "
 "others [here](../concepts/how.md)."
 msgstr ""
+"Baca lebih lanjut tentang bagaimana Peramban Ceno Anda mengambil dan berbagi "
+"konten web dengan orang lain [di sini](../concepts/how.md)."
 
 #: intro/faq.md:block 19 (header)
 msgid "Can anyone see if I am using Ceno Browser to access censored Web sites?"
 msgstr ""
+"Bisakah orang lain melihat jika saya memakai Peramban Ceno untuk mengakses "
+"situs web yang disensor?"
 
 #: intro/faq.md:block 20 (paragraph)
 msgid "Short answer: yes, with some technical knowledge and resources."
 msgstr ""
+"Jawaban singkat: ya, dengan beberapa pengetahuan teknis dan sumber daya."
 
 #: intro/faq.md:block 21 (paragraph)
 msgid ""
@@ -132,6 +179,11 @@ msgid ""
 "particular website, although they cannot list all the content that you are "
 "sharing."
 msgstr ""
+"Ceno bukanlah alat anonimitas. Penyerang yang dapat memata-matai lalu lintas "
+"jaringan Anda, bisa melihat konten yang sedang diminta dari atau dikirim ke "
+"pengguna lain dari perangkat Anda. Penyerang bisa juga menilai apakah Anda "
+"sedang membagikan situs web tertentu atau tidak, meskipun mereka tidak bisa "
+"memerinci semua konten yang Anda bagikan."
 
 #: intro/faq.md:block 22 (paragraph)
 msgid ""
@@ -140,18 +192,23 @@ msgid ""
 "encrypted connections. See [how content retrieval works](../concepts/how.md) "
 "and the associated [risks](../concepts/risks.md) for more information."
 msgstr ""
+"Namun, konten yang diambil oleh jaringan untuk pertama kali atau memakai ["
+"penjelajahan privat](../concepts/public-private.md) akan melakukan "
+"perjalanan melalui koneksi terenkripsi. Lihat [cara kerja pengambilan "
+"konten](../concepts/how.md) dan [risiko](../concepts/risks.md) untuk "
+"informasi lebih lanjut."
 
 #: intro/faq.md:block 23 (header)
 msgid "Resource usage"
-msgstr ""
+msgstr "Penggunaan sumber daya"
 
 #: intro/faq.md:block 24 (header)
 msgid "Does Ceno Browser use a lot of data?"
-msgstr ""
+msgstr "Apakah Peramban Ceno menggunakan banyak data?"
 
 #: intro/faq.md:block 25 (paragraph)
 msgid "Short answer: more than your usual browser."
-msgstr ""
+msgstr "Jawaban singkat: lebih dari peramban biasa Anda."
 
 #: intro/faq.md:block 26 (paragraph)
 msgid ""
@@ -160,6 +217,11 @@ msgid ""
 "large the content is, and how well-connected your device is. Sharing more "
 "content also implies more overhead."
 msgstr ""
+"Setiap kali Peramban Ceno Anda menyajikan konten ke pengguna lain atau "
+"meneruskan lalu lintas mereka, itu mengonsumsi data tambahan tergantung pada "
+"faktor-faktor seperti seberapa populer atau besar kontennya, dan seberapa "
+"baik koneksi perangkat Anda. Berbagi lebih banyak konten juga berarti lebih "
+"banyak biaya data tambahan."
 
 #: intro/faq.md:block 27 (paragraph)
 msgid ""
@@ -168,10 +230,15 @@ msgid ""
 "recommend keeping an eye on the app's data usage (under Android settings) "
 "and running Ceno while connected to Wi-Fi instead of using mobile data."
 msgstr ""
+"Meskipun sumber daya Ceno jauh lebih ringan daripada aplikasi berbagi data "
+"lainnya, Ceno masih dapat menghasilkan peningkatan penggunaan dan biaya "
+"data. Kami merekomendasikan untuk mengawasi penggunaan data aplikasi (di "
+"bawah pengaturan Android) dan menjalankan Ceno saat terhubung ke Wi-Fi "
+"daripada menggunakan data seluler."
 
 #: intro/faq.md:block 28 (header)
 msgid "Does Ceno Browser use a lot of battery on my device?"
-msgstr ""
+msgstr "Apakah Peramban Ceno mengonsumsi banyak baterai di perangkatku?"
 
 #: intro/faq.md:block 30 (paragraph)
 msgid ""
@@ -181,6 +248,13 @@ msgid ""
 "not actively helping other users, it still needs to stay reachable over the "
 "network, which prevents the use of some energy-saving features."
 msgstr ""
+"Ceno dan Ouinet menggunakan berbagai teknik untuk pengguna yang berbeda "
+"untuk bekerja sama dalam menghindari gangguan dan pemadaman jaringan. "
+"Melayani konten ke dan meneruskan lalu lintas untuk pengguna lain "
+"menghabiskan daya baterai ekstra. Selain itu, meskipun perangkat Anda tidak "
+"secara aktif membantu pengguna lain, perangkat tetap harus dapat dijangkau "
+"oleh jaringan, yang mana dapat mencegah penggunaan beberapa fitur hemat "
+"energi."
 
 #: intro/faq.md:block 31 (paragraph)
 msgid ""
@@ -190,26 +264,36 @@ msgid ""
 "completely (it offers a convenient shortcut for this, see [here](../browser/"
 "install.md))."
 msgstr ""
+"Hasil akhirnya adalah Ceno dapat terus menguras baterai Anda bahkan saat "
+"tidak digunakan. Pengujian kami tidak menunjukkan peningkatan konsumsi daya "
+"yang terlalu banyak, tetapi jarak tempuh konten Anda mungkin berbeda. Saat "
+"membutuhkan baterai, kami sarankan untuk menghentikan Ceno sepenuhnya (Ceno "
+"menawarkan pintasan yang nyaman untuk ini, lihat [di sini](../browser/install"
+".md))."
 
 #: intro/faq.md:block 32 (header)
 msgid "Do I need to be connected to Wi-Fi to use Ceno Browser?"
-msgstr ""
+msgstr "Apakah saya perlu terhubung ke Wi-Fi saat menggunakan Peramban Ceno?"
 
 #: intro/faq.md:block 33 (paragraph)
 msgid "Short answer: no, but we strongly recommend it."
-msgstr ""
+msgstr "Jawaban singkat: tidak, tetapi kami sangat menganjurkannya."
 
 #: intro/faq.md:block 34 (paragraph)
 msgid ""
 "Although Ceno should work fine on a mobile connection, there are two reasons "
 "why we recommend using a Wi-Fi connection instead:"
 msgstr ""
+"Meskipun Ceno seharusnya berfungsi dengan baik pada koneksi seluler, ada dua "
+"alasan mengapa kami menyarankan untuk menggunakan koneksi Wi-Fi:"
 
 #: intro/faq.md:block 35 (ordered list)
 msgid ""
 "Ceno consumes an extra amount of data which may result in a higher phone "
 "bill (see above)."
 msgstr ""
+"Ceno menggunakan sejumlah data ekstra yang dapat menyebabkan tagihan ponsel "
+"lebih tinggi (lihat di atas)."
 
 #: intro/faq.md:block 35 (ordered list)
 msgid ""
@@ -217,3 +301,6 @@ msgid ""
 "outside than Wi-Fi ones, thus decreasing the chances that you can help other "
 "users get content."
 msgstr ""
+"Koneksi seluler sering kali membuat perangkat Anda lebih sulit dijangkau "
+"dari luar daripada koneksi Wi-Fi, sehingga mengurangi peluang Anda untuk "
+"membantu pengguna lain dalam mendapatkan konten."

@@ -3,33 +3,34 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-03 02:50+0200\n"
-"PO-Revision-Date: 2021-03-03 01:50+0000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-07-28 21:08+0000\n"
+"Last-Translator: fadoua <bouaouda.fadoua@gmail.com>\n"
+"Language-Team: Arabic <https://hosted.weblate.org/projects/censorship-no/faq/"
+"ar/>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 4.5\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #
 #: intro/faq.md:block 1 (header)
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "أسئلة شائعة"
 
 #: intro/faq.md:block 2 (header)
 msgid "Usage"
-msgstr ""
+msgstr "استعمال"
 
 #: intro/faq.md:block 3 (header)
 msgid "Can Ceno Browser replace my current browser (Chrome/Firefox/Safari)?"
-msgstr ""
+msgstr "هل يمكن لمتصفح Ceno أن يحل محل متصفحي الحالي (Chrome/Firefox/Safari)؟"
 
 #: intro/faq.md:block 4 (paragraph)
 msgid "Short answer: yes, at least for some non-critical browsing."
-msgstr ""
+msgstr "إجابة مختصرة: نعم، على الأقل لبعض عمليات التصفح غير الحرجة."
 
 #: intro/faq.md:block 5 (paragraph)
 msgid ""
@@ -38,6 +39,10 @@ msgid ""
 "Ouinet technology for retrieving web content may affect its operation in "
 "subtle ways (some of them potentially involving your privacy)."
 msgstr ""
+"نظرًا لأن Ceno يعتمد على موزيلا فايرفكس لنظام أندرويد، فإنه يوفر جميع "
+"الميزات المتوقعة من متصفح حديث. ومع ذلك، فإن اعتماده على تقنية Ouinet "
+"لاسترداد محتوى الويب قد يؤثر على تشغيله بطرق خفية (قد يؤثر بعضها على "
+"خصوصيتك)."
 
 #: intro/faq.md:block 6 (paragraph)
 msgid ""
@@ -46,6 +51,10 @@ msgid ""
 "changes are introduced which require you to uninstall the application or "
 "remove stored data (including bookmarks and site settings) before upgrading."
 msgstr ""
+"أيضًا، نظرًا لأن Ceno و Ouinet قيد التطوير المستمر، فقد تلاحظ عدم إستقرار "
+"التطبيق. قد يعني ذلك أيضًا إدخال تعديلات غير متوافقة مع الإصدارات السابقة "
+"والتي تتطلب منك إلغاء تثبيت التطبيق أو إزالة البيانات المخزنة (بما في ذلك "
+"المفضلات وإعدادات الموقع) قبل ترقيته."
 
 #: intro/faq.md:block 7 (paragraph)
 msgid ""
@@ -53,14 +62,17 @@ msgid ""
 "you use your habitual Web browser instead of Ceno. Please read the section "
 "on [risks](../concepts/risks.md) for more information."
 msgstr ""
+"بالنسبة للأعمال المهمة على مواقع الويب التي لا تخضع للرقابة، نوصيك باستخدام "
+"متصفح الويب المعتاد بدلا من Ceno. يرجى قراءة القسم الخاص ب [المخاطر](../"
+"concepts/risks.md) لمزيد من المعلومات."
 
 #: intro/faq.md:block 8 (header)
 msgid "Can I use Ceno Browser to access Twitter, Facebook and Gmail?"
-msgstr ""
+msgstr "هل يمكنني استخدام متصفح Ceno للوصول إلى Twitter و Facebook و Gmail؟"
 
 #: intro/faq.md:block 9 (paragraph)
 msgid "Short answer: yes, by using private tabs."
-msgstr ""
+msgstr "إجابة مختصرة: نعم ، باستخدام علامات التبويب الخاصة."
 
 #: intro/faq.md:block 10 (paragraph)
 msgid ""
@@ -71,6 +83,12 @@ msgid ""
 "down all private data (like passwords and cookies) from Web traffic to "
 "ensure that it does not leak to other untrusted Ceno or Ouinet users."
 msgstr ""
+"على الرغم من أن Ceno يسعى جاهدًا لتوفير تجربة مستخدم مماثلة لتصفح الويب "
+"العادي قدر الإمكان، إلا أن بعض التقنيات المستخدمة لتجنب تداخل الشبكة لا تعمل "
+"بشكل جيد مع المواقع الديناميكية. هذا هو الحال مع وضع التشغيل الافتراضي لـ "
+"Ceno (أي التصفح العام)، لأنه يزيل جميع البيانات الخاصة (مثل كلمات المرور "
+"وملفات تعريف الارتباط) من حركة مرور الويب لضمان عدم تسربها إلى مستخدمي Ceno "
+"أو Ouinet الآخرين غير الموثوق بهم."
 
 #: intro/faq.md:block 11 (paragraph)
 msgid ""
@@ -80,30 +98,38 @@ msgid ""
 "else. However, this requires that network traffic from your device can reach "
 "those websites in some way."
 msgstr ""
+"لتجنب ذلك وتمكين استخدام مثل هذه المواقع الديناميكية في Ceno، يمكنك استخدام "
+"علامات التبويب الخاصة (أي التصفح الخاص)، والتي تترك البيانات الخاصة كما هي "
+"وتحافظ على الاتصال بالمواقع مشفرًا وبالتالي محميًا من الآخرين. ومع ذلك، "
+"يتطلب هذا أن تصل حركة مرور الشبكة من جهازك إلى مواقع الويب هذه بطريقة ما."
 
 #: intro/faq.md:block 12 (paragraph)
 msgid ""
 "For further details, please refer to the section on the differences between "
 "[public and private browsing](../concepts/public-private.md)."
 msgstr ""
+"لمزيد من التفاصيل، يرجى الرجوع إلى القسم الخاص بالاختلافات بين [التصفح العام "
+"والخاص](../concepts/public-private.md)."
 
 #: intro/faq.md:block 13 (header)
 msgid "Privacy and security"
-msgstr ""
+msgstr "الخصوصية والأمن"
 
 #: intro/faq.md:block 14 (header)
 msgid "Will my device store content that I did not request?"
-msgstr ""
+msgstr "هل سيخزن جهازي المحتوى الذي لم أطلبه؟"
 
 #: intro/faq.md:block 15 (paragraph)
 msgid "Short answer: no."
-msgstr ""
+msgstr "إجابة مختصرة: لا."
 
 #: intro/faq.md:block 16 (paragraph)
 msgid ""
 "Ceno only shares content that you requested (using [public browsing](../"
 "concepts/public-private.md))."
 msgstr ""
+"يشارك Ceno المحتوى الذي طلبته فقط (باستخدام [التصفح العام](../concepts/"
+"public-private.md))."
 
 #: intro/faq.md:block 17 (paragraph)
 msgid ""
@@ -113,20 +139,28 @@ msgid ""
 "already does a pretty good job at detecting and blocking such attempts, you "
 "should still avoid visiting suspicious sites."
 msgstr ""
+"يرجى ملاحظة أن المواقع الإلكترونية الخبيثة قد تستمر في محاولة خداع متصفحك "
+"لاسترداد المحتوى من مواقع أخرى دون علمك وذلك لإجبار جهازك على تخزينه "
+"ومشاركته مع مستخدمين آخرين. بينما تقوم شيفرة فايرفكس بعمل جيد جدًا في اكتشاف "
+"مثل هذه المحاولات وحظرها، فلا يزال يتعين عليك تجنب زيارة المواقع المشبوهة."
 
 #: intro/faq.md:block 18 (paragraph)
 msgid ""
 "Read more about how your Ceno Browser retrieves and shares Web content with "
 "others [here](../concepts/how.md)."
 msgstr ""
+"اقرأ المزيد حول كيفية استرداد متصفح Ceno لمحتوى الويب ومشاركته مع الآخرين "
+"[هنا](../concepts/how.md)."
 
 #: intro/faq.md:block 19 (header)
 msgid "Can anyone see if I am using Ceno Browser to access censored Web sites?"
 msgstr ""
+"هل يمكن لأي شخص معرفة ما إذا كنت أستخدم متصفح Ceno للوصول إلى مواقع الويب "
+"الخاضعة للرقابة؟"
 
 #: intro/faq.md:block 20 (paragraph)
 msgid "Short answer: yes, with some technical knowledge and resources."
-msgstr ""
+msgstr "إجابة مختصرة: نعم ، مع بعض المعارف والموارد التقنية."
 
 #: intro/faq.md:block 21 (paragraph)
 msgid ""
@@ -136,6 +170,10 @@ msgid ""
 "particular website, although they cannot list all the content that you are "
 "sharing."
 msgstr ""
+"Ceno ليس أداة إخفاء هوية. يمكن لمهاجم قادر على التجسس على حركة مرور الشبكة "
+"الخاصة بك رؤية المحتوى الذي تطلبه أو الذي ترسله إلى مستخدم آخر من جهازك. "
+"يمكن للمهاجم أيضًا تحديد ما إذا كنت شاركت موقعًا إلكترونيًا معينًا، لكن لا "
+"يمكنه سرد كل المحتوى الذي تشاركه."
 
 #: intro/faq.md:block 22 (paragraph)
 msgid ""
@@ -144,18 +182,22 @@ msgid ""
 "encrypted connections. See [how content retrieval works](../concepts/how.md) "
 "and the associated [risks](../concepts/risks.md) for more information."
 msgstr ""
+"ومع ذلك، المحتوى الذي يتم استرداده إلى الشبكة لأول مرة أو باستخدام [التصفح "
+"الخاص](../concepts/public-private.md) سينتقل عبر اتصالات مشفرة. انظر [كيف "
+"يعمل استرداد المحتوى](../concepts/how.md) و [المخاطر](../concepts/risks.md) "
+"المرتبطة بذلك للمزيد من المعلومات."
 
 #: intro/faq.md:block 23 (header)
 msgid "Resource usage"
-msgstr ""
+msgstr "استخدام الموارد"
 
 #: intro/faq.md:block 24 (header)
 msgid "Does Ceno Browser use a lot of data?"
-msgstr ""
+msgstr "هل يستخدم متصفح Ceno الكثير من البيانات؟"
 
 #: intro/faq.md:block 25 (paragraph)
 msgid "Short answer: more than your usual browser."
-msgstr ""
+msgstr "إجابة مختصرة: أكثر من متصفحك المعتاد."
 
 #: intro/faq.md:block 26 (paragraph)
 msgid ""
@@ -164,6 +206,10 @@ msgid ""
 "large the content is, and how well-connected your device is. Sharing more "
 "content also implies more overhead."
 msgstr ""
+"عندما يرسل متصفح Ceno الخاص بك محتوى ما إلى مستخدم آخر أو يعيد توجيه حركة "
+"المرور الخاصة به، فإنه يستهلك بيانات إضافية اعتمادًا على عدة عوامل مثل مدى "
+"شعبية المحتوى و حجمه وجودة اتصال جهازك. مشاركة المزيد من المحتوى يعني أيضًا "
+"المزيد من الاستهلاك."
 
 #: intro/faq.md:block 27 (paragraph)
 msgid ""
@@ -172,10 +218,14 @@ msgid ""
 "recommend keeping an eye on the app's data usage (under Android settings) "
 "and running Ceno while connected to Wi-Fi instead of using mobile data."
 msgstr ""
+"رغم أن استهلاك Ceno للموارد أقل من تطبيقات مشاركة البيانات الأخرى، إلا أنه "
+"من الممكن أن يؤدي إلى زيادة استخدام البيانات والمصاريف. نوصي بمراقبة استخدام "
+"بيانات التطبيق (ضمن إعدادات أندرويد) وتشغيل Ceno أثناء الاتصال بشبكة Wi-Fi "
+"بدلاً من استخدام بيانات الجوال."
 
 #: intro/faq.md:block 28 (header)
 msgid "Does Ceno Browser use a lot of battery on my device?"
-msgstr ""
+msgstr "هل يستخدم متصفح Ceno الكثير من البطارية على جهازي؟"
 
 #: intro/faq.md:block 30 (paragraph)
 msgid ""
@@ -185,6 +235,11 @@ msgid ""
 "not actively helping other users, it still needs to stay reachable over the "
 "network, which prevents the use of some energy-saving features."
 msgstr ""
+"يستخدم كل من Ceno و Ouinet عدة تقنيات للمستخدمين المختلفين للتعاون في تجاوز "
+"تداخل الشبكة وانقطاعها. إن تقديم المحتوى وإعادة توجيه حركة المرور للمستخدمين "
+"الآخرين يستهلك طاقة إضافية. و حتى عندما لا يكون جهازك يساعد المستخدمين "
+"الآخرين، فلا يزال من الضروري أن يظل متاحًا عبر الشبكة، مما يمنع استخدام بعض "
+"الميزات الموفرة للطاقة."
 
 #: intro/faq.md:block 31 (paragraph)
 msgid ""
@@ -194,26 +249,34 @@ msgid ""
 "completely (it offers a convenient shortcut for this, see [here](../browser/"
 "install.md))."
 msgstr ""
+"كنتيجة قد يستمر Ceno في استنزاف البطارية حتى عندما لا تكون قيد الاستخدام. لم "
+"تُظهر اختباراتنا ارتفاع استهلاك الطاقة كثيرًا، ولكن قد يختلف الأمر بالنسبة "
+"لك. عندما تحتاج إلى شحن البطارية، نوصي بإيقاف Ceno تمامًا (يوفر التطبيق "
+"اختصارًا مناسبًا لذلك، انظر [هنا](../browser/install.md))."
 
 #: intro/faq.md:block 32 (header)
 msgid "Do I need to be connected to Wi-Fi to use Ceno Browser?"
-msgstr ""
+msgstr "هل أحتاج إلى الاتصال بشبكة Wi-Fi لاستخدام متصفح Ceno؟"
 
 #: intro/faq.md:block 33 (paragraph)
 msgid "Short answer: no, but we strongly recommend it."
-msgstr ""
+msgstr "إجابة مختصرة: لا ، لكننا نوصي بذلك بشدة."
 
 #: intro/faq.md:block 34 (paragraph)
 msgid ""
 "Although Ceno should work fine on a mobile connection, there are two reasons "
 "why we recommend using a Wi-Fi connection instead:"
 msgstr ""
+"على الرغم من أن Ceno يجب أن يعمل بشكل جيد على اتصال الهاتف المحمول، إلا أن "
+"هناك سببين يجعلنا نوصي باستخدام اتصال Wi-Fi بدلا من ذلك:"
 
 #: intro/faq.md:block 35 (ordered list)
 msgid ""
 "Ceno consumes an extra amount of data which may result in a higher phone "
 "bill (see above)."
 msgstr ""
+"يستهلك Ceno كمية إضافية من البيانات التي قد تؤدي إلى ارتفاع فاتورة الهاتف ("
+"انظر أعلاه)."
 
 #: intro/faq.md:block 35 (ordered list)
 msgid ""
@@ -221,3 +284,5 @@ msgid ""
 "outside than Wi-Fi ones, thus decreasing the chances that you can help other "
 "users get content."
 msgstr ""
+"غالبا ما تجعل اتصال الجوال الوصول إلى جهازك أكثر صعوبة من الخارج مقارنة مع "
+"اتصال Wi-Fi، مما يقلل من فرص مساعدة المستخدمين الآخرين في الحصول على المحتوى."

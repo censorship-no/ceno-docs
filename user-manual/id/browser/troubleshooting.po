@@ -1,15 +1,15 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-06-01 23:16+0000\n"
-"Last-Translator: Reza Almanda <rezaalmanda27@gmail.com>\n"
+"PO-Revision-Date: 2023-08-08 19:48+0000\n"
+"Last-Translator: Taufik Adi Wicaksono <taufikadi.wicaksono@tutamail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-troubleshooting/id/>\n"
 "Language: id\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.13-dev\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #: browser/troubleshooting.md:block 1 (header)
 msgid "Troubleshooting"
@@ -24,24 +24,32 @@ msgid ""
 "network infrastructure, as well as which content other users have retrieved "
 "and the characteristics of their connections."
 msgstr ""
+"Bagian ini akan memberi Anda beberapa petunjuk tentang apa yang harus Anda "
+"lakukan saat masalah yang berbeda dan diketahui muncul di Ceno dan Ouinet. "
+"Perlu diingat bahwa ini adalah proyek eksperimental, dan operasinya "
+"tergantung pada banyak faktor di luar kendali kami, seperti konfigurasi dan "
+"status infrastruktur jaringan tertentu, serta konten apa saja yang telah "
+"diambil oleh pengguna lain dan karakteristik koneksinya."
 
 #: browser/troubleshooting.md:block 3 (paragraph)
 msgid ""
 "If problems still persist, please report them to [cenoers@equalit.ie](mailto:"
 "cenoers@equalit.ie). We will try to help you with them."
 msgstr ""
+"Jika masalah masih berlanjut, silakan laporkan ke [cenoers@equalit."
+"ie](mailto:cenoers@equalit.ie). Kami akan mencoba untuk membantu Anda."
 
 #: browser/troubleshooting.md:block 4 (header)
 msgid "There is no Ceno entry in the app menu"
-msgstr ""
+msgstr "Tidak ada entri Ceno di menu aplikasi"
 
 #: browser/troubleshooting.md:block 5 (paragraph)
 msgid "The Ceno Extension may still be loading. Please be patient."
-msgstr ""
+msgstr "Ekstensi Ceno mungkin masih dimuat. Mohon untuk bersabar."
 
 #: browser/troubleshooting.md:block 6 (header)
 msgid "All widgets are grayed-out in the *Ceno Settings* page"
-msgstr ""
+msgstr "Semua widget berwarna abu-abu di halaman *Pengaturan Ceno*"
 
 #: browser/troubleshooting.md:block 7 (paragraph)
 msgid ""
@@ -49,12 +57,16 @@ msgid ""
 "status from Ouinet. Since it may take a moment for Ouinet to be ready, "
 "please be patient."
 msgstr ""
+"Ekstensi Ceno telah dimuat, namun belum bisa mengambil status dari Ouinet. "
+"Mungkin perlu beberapa saat agar Ouinet siap, harap bersabar."
 
 #: browser/troubleshooting.md:block 8 (paragraph)
 msgid ""
 "If the Settings page stays like that after more than two minutes, Ouinet may "
 "have encountered some issue while starting."
 msgstr ""
+"Jika halaman Pengaturan tetap seperti itu setelah lebih dari dua menit, "
+"Ouinet mungkin mengalami masalah saat memulai."
 
 #: browser/troubleshooting.md:block 9 (paragraph)
 msgid ""
@@ -64,6 +76,12 @@ msgid ""
 "connectivity (like being unable to join the BitTorrent network). If you are "
 "on a mobile connection, try again with Wi-Fi."
 msgstr ""
+"Cobalah untuk mengunjungi beberapa halaman, jika memungkinkan kunjungi yang "
+"biasanya tersedia. Jika Anda mendapatkan kesalahan seperti \"Gagal mengambil "
+"sumber daya (setelah mencoba semua mekanisme yang dikonfigurasi)\", Ceno "
+"mungkin mengalami beberapa masalah dengan konektivitas umum (seperti tidak "
+"dapat bergabung dengan jaringan BitTorrent). Jika Anda menggunakan koneksi "
+"seluler, cobalah lagi dengan Wi-Fi."
 
 #: browser/troubleshooting.md:block 10 (paragraph)
 msgid ""
@@ -71,21 +89,28 @@ msgid ""
 "visiting the page, try to stop other applications which may be offering some "
 "service to the device, then restart Ceno."
 msgstr ""
+"Jika Anda mendapatkan kesalahan seperti \"Server proksi menolak koneksi\" "
+"saat mengunjungi halaman, coba hentikan aplikasi lain yang mungkin "
+"menawarkan layanan ke perangkat, lalu mulai ulang Ceno."
 
 #: browser/troubleshooting.md:block 11 (quote)
 msgid ""
 "**Technical note:** This may happen if another application is already "
 "listening on TCP ports `127.0.0.1:8077` or `127.0.0.1:8078`."
 msgstr ""
+"**Catatan teknis:** Hal ini dapat terjadi jika aplikasi lain sudah "
+"mendengarkan pada porta TCP `127.0.0.1:8077` atau `127.0.0.1:8078`."
 
 #: browser/troubleshooting.md:block 12 (header)
 msgid "The *Ouinet client state* under *Ceno Settings* is not `started`"
-msgstr ""
+msgstr "Status *Klien Ouinet* di bawah *Pengaturan Ceno* tidak `dimulai`"
 
 #: browser/troubleshooting.md:block 13 (paragraph)
 msgid ""
 "The Ouinet client run by Ceno is finding problems starting on your device."
 msgstr ""
+"Klien Ouinet yang dijalankan oleh Ceno menemukan masalah saat memulai "
+"perangkat Anda."
 
 #: browser/troubleshooting.md:block 14 (paragraph)
 msgid ""
@@ -97,6 +122,14 @@ msgid ""
 "`starting`, please contact us (especially if the state was `started` in some "
 "previous run)."
 msgstr ""
+"Ketika Anda meluncurkan Ceno, status mungkin akan terbaca `memulai` selama "
+"beberapa detik; ini adalah hal yang normal. Namun, jika statusnya tetap "
+"`memulai` terlalu lama, mungkin ini merupakan tanda adanya masalah "
+"konektivitas serius yang menghalangi aplikasi untuk menjangkau jaringan "
+"BitTorrent. Silakan periksa koneksi jaringan Anda dan coba mulai ulang Ceno. "
+"Jika Anda memiliki koneksi yang berfungsi tetapi statusnya tetap `memulai`, "
+"silakan hubungi kami (terutama jika statusnya `memulai` pada beberapa proses "
+"sebelumnya)."
 
 #: browser/troubleshooting.md:block 15 (paragraph)
 msgid ""
@@ -108,28 +141,42 @@ msgid ""
 "server. After setting the extra bootstraps, please restart the application. "
 "If the problem persists, contact us."
 msgstr ""
+"Salah satu alasan yang mungkin untuk tidak dapat masuk ke BitTorrent ("
+"terlebih ketika Anda menjalankan Ceno untuk pertama kalinya), adalah karena "
+"server bootstrap bawaan yang digunakan oleh klien Ouinet diblokir atau tidak "
+"dapat dijangkau. Dalam hal ini, Anda mungkin ingin mencoba menyediakan Ceno "
+"dengan server bootstrap BitTorrent tambahan di [Halaman Pengaturan] (settings"
+".md). Anda dapat bertanya kepada kami jika Anda tidak mengetahui adanya "
+"server tersebut. Setelah mengatur bootstrap tambahan, silakan mulai ulang "
+"aplikasi. Jika masalah masih berlanjut, hubungi kami."
 
 #: browser/troubleshooting.md:block 16 (paragraph)
 msgid ""
 "If you ever see some other state, there may be some internal error in the "
 "Ouinet client. Please report the issue to us."
 msgstr ""
+"Jika Anda melihat status lain, mungkin ada beberapa kesalahan internal pada "
+"klien Ouinet. Silakan laporkan masalah ini kepada kami."
 
 #: browser/troubleshooting.md:block 17 (header)
 msgid "Accessing some content shows \"Failed to retrieve the resource\""
-msgstr ""
+msgstr "Saat mengakses beberapa konten muncul \"Gagal mengambil sumber daya\""
 
 #: browser/troubleshooting.md:block 18 (paragraph)
 msgid ""
 "This means that Ceno tried all available mechanisms to access the content, "
 "but none of them succeeded."
 msgstr ""
+"Hal ini berarti bahwa Ceno mencoba semua mekanisme yang tersedia untuk "
+"mengakses konten, tetapi tidak ada yang berhasil."
 
 #: browser/troubleshooting.md:block 19 (paragraph)
 msgid ""
 "You should make sure that the following requirements are fulfilled for Ceno "
 "to work:"
 msgstr ""
+"Anda harus memastikan bahwa persyaratan berikut ini dipenuhi agar Ceno dapat "
+"bekerja:"
 
 #: browser/troubleshooting.md:block 20 (unordered list)
 msgid ""
@@ -137,6 +184,10 @@ msgid ""
 "be able to communicate with newer injectors or other clients. Check the "
 "[installation instructions](install.md) to know where to get new versions."
 msgstr ""
+"Anda menjalankan versi terbaru dari Peramban Ceno. Versi lama mungkin tidak "
+"dapat berkomunikasi dengan injektor yang lebih baru atau klien lain. Periksa "
+"[petunjuk pemasangan] (install.md) untuk mengetahui di mana Anda bisa "
+"mendapatkan versi terbaru."
 
 #: browser/troubleshooting.md:block 20 (unordered list)
 msgid ""
@@ -144,6 +195,9 @@ msgid ""
 "Otherwise Ceno will not be able to circumvent some connectivity issues when "
 "accessing content."
 msgstr ""
+"Semua mekanisme akses di [Halaman Pengaturan] (settings.md) diaktifkan. Jika "
+"tidak, Ceno tidak dapat menghindari beberapa masalah konektivitas saat "
+"mengakses konten."
 
 #: browser/troubleshooting.md:block 20 (unordered list)
 msgid ""
@@ -152,6 +206,10 @@ msgid ""
 "network connectivity is shut down (although users may still find a common Wi-"
 "Fi access point to do device-to-device sharing)."
 msgstr ""
+"Perangkat Anda memiliki koneksi ke jaringan, misalnya peramban web Anda "
+"dapat membuka beberapa situs web. Ceno dan Ouinet tidak dapat berfungsi "
+"ketika semua konektivitas jaringan dimatikan (meskipun pengguna masih dapat "
+"menemukan titik akses Wi-Fi yang umum untuk berbagi perangkat ke perangkat)."
 
 #: browser/troubleshooting.md:block 21 (paragraph)
 msgid ""
@@ -159,10 +217,13 @@ msgid ""
 "access mechanisms to fail, to give you an idea of your chances for getting "
 "content using Ceno."
 msgstr ""
+"Jika itu masalahnya, ada baiknya menjelaskan apa yang mungkin terjadi "
+"sehingga menyebabkan semua mekanisme akses gagal, untuk memberi Anda "
+"gambaran tentang peluang Anda untuk mendapatkan konten menggunakan Ceno."
 
 #: browser/troubleshooting.md:block 22 (header)
 msgid "Origin access"
-msgstr ""
+msgstr "Akses server asal"
 
 #: browser/troubleshooting.md:block 23 (paragraph)
 msgid ""
@@ -170,16 +231,22 @@ msgid ""
 "the server is having some difficulties itself (e.g. it is down or under some "
 "attack), or someone is interfering with your connection to it."
 msgstr ""
+"Peramban Ceno Anda tidak dapat secara langsung menjangkau server asal suatu "
+"konten. Bisa jadi server itu sendiri sedang mengalami masalah (misalnya "
+"sedang down atau diserang), atau ada yang mengganggu koneksi Anda ke server "
+"tersebut."
 
 #: browser/troubleshooting.md:block 24 (paragraph)
 msgid ""
 "This is the main use case for Ceno and the other mechanisms should "
 "compensate for it."
 msgstr ""
+"Ini adalah kasus penggunaan utama untuk Ceno dan mekanisme lainnya harus "
+"mengimbanginya."
 
 #: browser/troubleshooting.md:block 25 (header)
 msgid "Proxy/Injector access"
-msgstr ""
+msgstr "Akses Proksi/Injektor"
 
 #: browser/troubleshooting.md:block 26 (paragraph)
 msgid ""
@@ -188,11 +255,16 @@ msgid ""
 "Ouinet) gain traction, Ceno resorts to reaching injectors via other clients "
 "acting as bridges."
 msgstr ""
+"Seseorang mengganggu koneksi Anda ke alamat internet dalam kumpulan "
+"injektor. Hal ini diperkirakan pada akhirnya akan terjadi ketika Ceno (dan "
+"Ouinet) mendapatkan daya tarik, Ceno menggunakan cara untuk menjangkau para "
+"injektor melalui klien lain yang bertindak sebagai jembatan."
 
 #: browser/troubleshooting.md:block 27 (paragraph)
 msgid ""
 "There are different reasons for Ceno being unable to reach such clients:"
 msgstr ""
+"Ada beberapa alasan mengapa Ceno tidak dapat menjangkau klien-klien tersebut:"
 
 #: browser/troubleshooting.md:block 28 (unordered list)
 msgid ""
@@ -201,6 +273,11 @@ msgid ""
 "be reached from the outside. This should become less likely as Ceno and "
 "Ouinet get popular and more clients with diverse connectivity come online."
 msgstr ""
+"Tidak ada klien lain yang dapat dijangkau oleh Anda. Jika hanya beberapa "
+"klien Ouinet yang aktif secara daring, sangat mungkin tidak ada satu pun "
+"dari mereka yang berada dalam jaringan yang dapat dijangkau dari luar. Hal "
+"ini seharusnya menjadi lebih kecil kemungkinannya ketika Ceno dan Ouinet "
+"menjadi populer dan lebih banyak klien dengan konektivitas yang aktif."
 
 #: browser/troubleshooting.md:block 28 (unordered list)
 msgid ""
@@ -209,6 +286,10 @@ msgid ""
 "may entail blocking all BitTorrent traffic) and currently beyond what Ouinet "
 "supports, but we plan to make it more resistant against these attacks."
 msgstr ""
+"Kasus ekstrim di sini adalah saat koneksi antara klien Ouinet terdeteksi "
+"oleh sensor dan diblokir. Hal ini sangat tidak mungkin (karena mungkin akan "
+"memblokir semua lalu lintas BitTorrent) dan ini di luar kemampuan Ouinet, "
+"tetapi kami berencana untuk membuatnya lebih tahan terhadap serangan ini."
 
 #: browser/troubleshooting.md:block 28 (unordered list)
 msgid ""
@@ -217,6 +298,10 @@ msgid ""
 "Ouinet clients which are themselves affected by similar network interference "
 "as yours."
 msgstr ""
+"Tidak ada klien lain yang dapat menjangkau injektor. Karena tidak mungkin "
+"semua injektor mati secara bersamaan, itu mungkin berarti bahwa Anda hanya "
+"dapat menjangkau klien Ouinet yang terpengaruh oleh gangguan jaringan yang "
+"sama dengan Anda."
 
 #: browser/troubleshooting.md:block 28 (unordered list)
 msgid ""
@@ -224,8 +309,13 @@ msgid ""
 "is interrupted. Ceno would resort in this case to getting and using the "
 "content from the distributed cache, even if it is stale."
 msgstr ""
+"Hal ini dapat terjadi ketika semua lalu lintas yang keluar atau masuk ke "
+"negara tempat Anda berada sedang terganggu. Ceno dalam hal ini akan "
+"menggunakan cara untuk mendapatkan dan menggunakan konten dari tembolok "
+"terdistribusi, meskipun konten tersebut sudah basi."
 
 #: browser/troubleshooting.md:block 28 (unordered list)
+#, fuzzy
 msgid ""
 "Again, as Ceno and Ouinet become more popular, the chances increase that "
 "there are at least a few clients that do have some kind of access to "
@@ -234,6 +324,11 @@ msgid ""
 "spread (over the distributed cache) without further need to access the "
 "outside world."
 msgstr ""
+"Sekali lagi, seiring meningkatnya popularitas Ceno dan Ouinet, kemungkinan "
+"klien yang memiliki akses ke situs internasional akan meningkat. Bahkan jika "
+"aksesnya genting, satu klien Ouinet yang mampu menyuntikkan beberapa konten "
+"ke dalam negeri cukup untuk menyebarkan konten tersebut (melalui tembolok "
+"terdistribusi) tanpa perlu mengakses dunia luar."
 
 #: browser/troubleshooting.md:block 29 (paragraph)
 msgid ""
@@ -242,10 +337,14 @@ msgid ""
 "note that clients with such stable Internet addresses could get blocked as "
 "well."
 msgstr ""
+"Akhirnya, kami menjalankan beberapa klien Ouinet dengan konektivitas yang "
+"baik di negara-negara yang (mudah-mudahan) bebas dari penyensoran untuk "
+"mencoba menghindari dua situasi tersebut, tetapi harap dicatat bahwa klien "
+"dengan alamat internet yang stabil seperti itu juga bisa diblokir."
 
 #: browser/troubleshooting.md:block 30 (header)
 msgid "Distributed cache"
-msgstr ""
+msgstr "Tembolok terdistribusi"
 
 #: browser/troubleshooting.md:block 31 (paragraph)
 msgid ""
@@ -257,6 +356,14 @@ msgid ""
 "other Ouinet client to inject and keep seeding it (which may further expose "
 "them to some [risks](../concepts/risks.md))."
 msgstr ""
+"Perlu diingat bahwa persyaratan mutlak untuk dapat mengambil konten apa pun "
+"dari tembolok terdistribusi adalah konten tersebut telah disuntikkan oleh "
+"pengguna Ceno atau Ouinet lainnya. Ini berarti bahwa konten yang populer "
+"lebih mungkin untuk disuntikkan dan direplikasi secara alami, sementara "
+"konten yang kurang begitu jelas, kecuali jika seseorang menggunakan Ceno "
+"atau klien Ouinet lainnya untuk menyuntikkan dan terus menyebarkannya (yang "
+"selanjutnya dapat membuat mereka terpapar pada beberapa [risiko](../concepts/"
+"risks.md))."
 
 #: browser/troubleshooting.md:block 32 (paragraph)
 msgid ""
@@ -266,6 +373,12 @@ msgid ""
 "content that requires authentication, and some traffic exchanged by certain "
 "dynamic Web applications."
 msgstr ""
+"Harap diperhatikan bahwa beberapa konten yang dianggap tidak aman untuk "
+"dibagikan tidak akan pernah disuntikkan, tidak peduli berapa banyak orang "
+"yang mengambilnya menggunakan penjelajahan publik. Ini termasuk konten yang "
+"ditandai sebagai privat oleh server asal, konten yang memerlukan "
+"autentikasi, dan beberapa lalu lintas yang dipertukarkan oleh aplikasi web "
+"dinamis tertentu."
 
 #: browser/troubleshooting.md:block 33 (paragraph)
 msgid ""
@@ -273,10 +386,13 @@ msgid ""
 "reachable by you. The same observations described in the previous point for "
 "reaching bridge clients do apply here."
 msgstr ""
+"Perhatikan juga bahwa klien yang memegang salinan konten yang disuntikkan "
+"harus dapat Anda jangkau. Pengamatan yang sama yang dijelaskan pada poin "
+"sebelumnya untuk menjangkau klien jembatan juga berlaku di sini."
 
 #: browser/troubleshooting.md:block 34 (header)
 msgid "A note on HTTP-only sites"
-msgstr ""
+msgstr "Catatan tentang situs khusus HTTP"
 
 #: browser/troubleshooting.md:block 35 (paragraph)
 msgid ""
@@ -287,6 +403,13 @@ msgid ""
 "example.com/…` in the location bar, or when you follow a link with such a "
 "URL in a page."
 msgstr ""
+"Ceno secara otomatis beralih ke protokol HTTPS yang lebih aman untuk "
+"mengakses situs yang seharusnya diakses menggunakan HTTP biasa yang tidak "
+"aman. Hal ini dilakukan oleh ekstensi [HTTPS secara bawaan] [HTTPS secara "
+"bawaan] yang disematkan ketika Anda memasukkan nama domain biasa seperti "
+"`contoh.com` atau URL HTTP seperti `http://contoh.com/...` pada bilah "
+"lokasi, atau ketika Anda mengikuti tautan dengan URL seperti itu pada sebuah "
+"halaman."
 
 #: browser/troubleshooting.md:block 36 (paragraph)
 msgid ""
@@ -296,6 +419,11 @@ msgid ""
 "trivial to detect with HTTPS, so Ceno can work around it instead of being "
 "tricked into loading the bogus content."
 msgstr ""
+"Peralihan otomatis ke HTTPS dilakukan untuk mencegah seseorang mencegat "
+"koneksi HTTP dan mengarahkannya ke server yang tidak sah, yang akan "
+"menghasilkan konten palsu (seperti pesan blokir). Pembajakan semacam ini "
+"sangat mudah dideteksi dengan HTTPS, sehingga Ceno dapat mengatasinya alih-"
+"alih tertipu untuk memuat konten palsu."
 
 #: browser/troubleshooting.md:block 37 (paragraph)
 msgid ""
@@ -304,18 +432,26 @@ msgid ""
 "case for a site which just failed to load in Ceno, you can edit its URL in "
 "the location bar, change `https://` to `http://`, and try again."
 msgstr ""
+"Meskipun sangat tidak biasa, beberapa situs tidak mendukung HTTPS dan tidak "
+"ada mekanisme akses yang dapat digunakan. Jika Anda benar-benar yakin bahwa "
+"ini adalah kasus situs yang gagal dimuat di Ceno, Anda bisa mengedit URL-nya "
+"di bilah lokasi, ubah `https://` menjadi `http://`, dan cobalah kembali."
 
 #: browser/troubleshooting.md:block 38 (paragraph)
 msgid ""
 "If you want to always access a particular site over plain HTTP, you can add "
 "a permanent exception like this:"
 msgstr ""
+"Jika Anda ingin selalu mengakses situs tertentu melalui HTTP biasa, Anda "
+"dapat menambahkan pengecualian permanen seperti ini:"
 
 #: browser/troubleshooting.md:block 39 (ordered list)
 msgid ""
 "In the app's main menu, choose *HTTPS by default*. You will see that "
 "extension's settings page."
 msgstr ""
+"Pada menu utama aplikasi, pilih *HTTPS secara bawaan*. Anda akan melihat "
+"halaman pengaturan ekstensi tersebut."
 
 #: browser/troubleshooting.md:block 39 (ordered list)
 msgid ""
@@ -324,16 +460,23 @@ msgid ""
 "Please note that entering `example.com` will also include all sites under "
 "that domain, like `www.example.com` or `x.y.example.com`."
 msgstr ""
+"Masukkan nama domain situs di kotak teks, seperti yang ditunjukkan di bawah "
+"ini. Lihat di sana bagaimana Anda dapat memasukkan beberapa situs dengan "
+"memisahkannya dengan spasi atau baris baru. Harap diperhatikan bahwa "
+"memasukkan `contoh.com` juga akan menyertakan semua situs di bawah domain "
+"tersebut, seperti `www.contoh.com` atau `x.y.contoh.com`."
 
 #: browser/troubleshooting.md:block 39 (ordered list)
 msgid "When done, go back or close the tab."
-msgstr ""
+msgstr "Setelah selesai, kembali atau tutup tab."
 
 #: browser/troubleshooting.md:block 40 (paragraph)
 msgid ""
 "![Figure: Adding exceptions for HTTP-only sites](images/httpsbd-exceptions."
 "png)"
 msgstr ""
+"![Gambar: Menambahkan pengecualian untuk situs khusus HTTP](images/httpsbd-"
+"exceptions.png)"
 
 #: browser/troubleshooting.md:block 41 (paragraph)
 msgid ""
@@ -344,10 +487,17 @@ msgid ""
 "for subsequent runs. We encourage you to contact the site administrators and "
 "tell them to enable HTTPS support."
 msgstr ""
+"**Catatan:** Jika sebuah situs hanya dapat diakses melalui HTTP, dan situs "
+"tersebut juga dibajak oleh sensor, Anda harus pergi ke [Halaman Pengaturan] "
+"(settings.md), nonaktifkan akses Origin, dan coba lagi. Harap dicatat bahwa "
+"pengaturan ini memengaruhi semua situs, dan tidak akan diingat oleh Ceno "
+"untuk proses selanjutnya. Kami menganjurkan Anda untuk menghubungi "
+"administrator situs tersebut dan memberi tahu mereka untuk mengaktifkan "
+"dukungan HTTPS."
 
 #: browser/troubleshooting.md:block 42 (header)
 msgid "A page shows bogus content (like a block message)"
-msgstr ""
+msgstr "Halaman yang menampilkan konten palsu (seperti pesan blokir)"
 
 #: browser/troubleshooting.md:block 43 (paragraph)
 msgid ""
@@ -356,6 +506,11 @@ msgid ""
 "illegitimate server. Ceno then remembered that redirection, and now it "
 "automatically opens the latter site when trying to visit the former."
 msgstr ""
+"Hal ini dapat terjadi ketika Anda menggunakan Ceno versi lama untuk "
+"mengunjungi situs yang diblokir di masa lalu dan seseorang mencegat koneksi "
+"dan mengarahkannya ke server yang tidak sah. Ceno kemudian mengingat "
+"pengalihan tersebut dan sekarang secara otomatis membuka situs yang terakhir "
+"ketika mencoba mengunjungi situs yang pertama."
 
 #: browser/troubleshooting.md:block 44 (paragraph)
 msgid ""
@@ -363,16 +518,24 @@ msgid ""
 "choosing *Settings* in the app's main menu, then *Clear private data*, and "
 "disabling all boxes but *Cache* before tapping on *Clear data*."
 msgstr ""
+"Salah satu cara untuk mengatasi masalah ini adalah dengan menghapus tembolok "
+"penjelajahan normal Ceno dengan memilih *Pengaturan* di menu utama aplikasi, "
+"lalu *Hapus data pribadi*, dan menonaktifkan semua kotak kecuali *Tembolok* "
+"sebelum mengetuk *Hapus data*."
 
 #: browser/troubleshooting.md:block 45 (paragraph)
 msgid ""
 "Please note that Ceno version 1.3.0 and newer avoid that hijacking of newly "
 "visited sites by always using HTTPS, as explained in the previous section."
 msgstr ""
+"Harap dicatat bahwa Ceno versi 1.3.0 dan yang lebih baru bisa menghindari "
+"pembajakan situs yang baru dikunjungi dengan selalu menggunakan HTTPS, "
+"seperti yang dijelaskan di bagian sebelumnya."
 
 #: browser/troubleshooting.md:block 46 (header)
 msgid "Others cannot retrieve content seeded by my device"
 msgstr ""
+"Orang lain tidak dapat mengambil konten yang disebarkan oleh perangkat saya"
 
 #: browser/troubleshooting.md:block 47 (paragraph)
 msgid ""
@@ -382,6 +545,12 @@ msgid ""
 "load (at least partially), and tapping the Ceno address bar icon should only "
 "show non-zero values under *Shared by other Ceno users* or *Shared by you*."
 msgstr ""
+"Pertama, pastikan bahwa perangkat Anda masih menyebarkan konten dengan "
+"membuka halaman [*Pengaturan Ceno* (settings.md), hanya membiarkan kotak "
+"sumber *Dibagikan oleh pengguna Ceno lainnya* dicentang, lalu akses lagi "
+"konten tersebut: konten tersebut seharusnya dimuat (setidaknya sebagian) dan "
+"mengetuk ikon bilah alamat Ceno hanya akan menampilkan nilai bukan nol di "
+"bawah *Dibagikan oleh pengguna Ceno lainnya* atau *Dibagikan oleh Anda*."
 
 #: browser/troubleshooting.md:block 48 (paragraph)
 msgid ""
@@ -394,6 +563,15 @@ msgid ""
 "box again and access the content once more; if it still does not load, it "
 "may be that the particular content is not deemed safe for sharing by Ouinet."
 msgstr ""
+"Jika konten tidak dimuat, mungkin saja Ceno telah menghapusnya, karena "
+"secara otomatis Ceno membersihkan konten yang sudah basi (lebih dari "
+"seminggu secara bawaan) dari tembolok lokal Anda. Aktifkan sumber *Melalui "
+"jaringan Ceno (publik)* di halaman Pengaturan dan akseslah konten itu lagi. "
+"Tunggu beberapa menit agar perangkat menginformasikan bahwa konten ada dalam "
+"indeks tembolok terdistribusi. Jadikan *Dibagikan oleh pengguna Ceno lainnya*"
+" sebagai satu-satunya kotak yang dicentang dan akses konten tersebut sekali "
+"lagi; jika masih tidak dimuat, mungkin konten tertentu tidak dianggap aman "
+"untuk dibagikan oleh Ouinet."
 
 #: browser/troubleshooting.md:block 49 (paragraph)
 msgid ""
@@ -404,6 +582,14 @@ msgid ""
 "network does not allow direct communication between devices connected to it. "
 "This happens in some public Wi-Fi networks, so try using a private one."
 msgstr ""
+"Jika langkah sebelumnya berhasil, tetapi perangkat lain yang hanya "
+"mengaktifkan sumber *Dibagikan oleh pengguna Ceno lainnya* masih menunjukkan "
+"\"Gagal mengambil sumber daya...\", ada dua skenario yang mungkin terjadi. "
+"Jika kedua perangkat berada dalam jaringan yang sama (misalnya pada titik "
+"akses Wi-Fi yang sama), mungkin saja jaringan tersebut tidak mengizinkan "
+"komunikasi langsung ke sesama perangkat yang terhubung dengannya. Hal ini "
+"terjadi pada beberapa jaringan Wi-Fi publik, jadi cobalah untuk menggunakan "
+"jaringan pribadi."
 
 #: browser/troubleshooting.md:block 50 (paragraph)
 msgid ""
@@ -413,6 +599,12 @@ msgid ""
 "*Reachability status* it should say *reachable* or *likely reachable*. "
 "Otherwise seeding may not be possible from that network as it is."
 msgstr ""
+"Jika perangkat berada di jaringan yang berbeda, hal ini bisa disebabkan oleh "
+"berbagai alasan. Salah satunya adalah jaringan perangkat pertama tidak "
+"mengizinkan koneksi masuk: jika Anda membuka halaman *Pengaturan Ceno*, di "
+"bawah *Status keterjangkauan*, seharusnya tertulis *dapat dijangkau* atau *"
+"kemungkinan dapat dijangkau*. Jika tidak, penyebaran konten mungkin tidak "
+"dapat dilakukan dari jaringan tersebut."
 
 #: browser/troubleshooting.md:block 51 (quote)
 msgid ""
@@ -421,6 +613,10 @@ msgid ""
 "port forwarding rule towards your client. See [here](bridging.md) for "
 "further instructions."
 msgstr ""
+"**Catatan teknis:** Jika perangkat Anda melaporkan jangkauan *tidak pasti* "
+"dan Anda dapat mengubah konfigurasi titik akses, Anda dapat membuat aturan "
+"penerusan porta permanen ke klien Anda. Lihat [di sini] (bridging.md) untuk "
+"petunjuk lebih lanjut."
 
 #: browser/troubleshooting.md:block 51 (quote)
 msgid "[HTTPS by default]: https://github.com/Rob--W/https-by-default"
