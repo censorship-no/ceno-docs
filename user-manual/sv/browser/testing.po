@@ -1,13 +1,19 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2023-06-15 07:53+0000\n"
+"Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/censorship-no/"
+"browser-testing/sv/>\n"
 "Language: sv\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.18\n"
 
 #: browser/testing.md:block 1 (header)
 msgid "Testing the Browser"
-msgstr ""
+msgstr "Prova webbläsaren"
 
 #: browser/testing.md:block 2 (paragraph)
 msgid ""
@@ -23,6 +29,8 @@ msgid ""
 "To complete all the tests below you will need at least two devices connected "
 "to the same Wi-Fi network, and a third one on a completely different network."
 msgstr ""
+"För att slutföra alla tester nedan så behöver du minst två enheter som är "
+"anslutna till samma Wi-Fi-nätverk och en tredje i ett helt annat nätverk."
 
 #: browser/testing.md:block 4 (paragraph)
 msgid ""

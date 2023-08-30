@@ -1,15 +1,15 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-17 03:17+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
+"PO-Revision-Date: 2023-08-02 16:04+0000\n"
+"Last-Translator: Taufik Adi Wicaksono <taufikadi.wicaksono@tutamail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/censorship-no/"
 "ceno/id/>\n"
 "Language: id\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #: intro/ceno.md:block 1 (header)
 msgid "What is Ceno Browser?"
@@ -25,6 +25,14 @@ msgid ""
 "Web content to persist in the network even during heavy filtering and "
 "throttling events."
 msgstr ""
+"Ceno (kependekan dari [Censorship.no!][Censorship.no!]) adalah peramban web "
+"untuk perangkat seluler Android (seperti ponsel cerdas dan tablet) yang "
+"menggunakan pendekatan baru untuk menghindari sensor internet dan berbagi "
+"konten yang diambil di antara semua pengguna dalam mode [klien ke klien][P2P]"
+" (P2P). Hal ini dapat mengurangi ketergantungan keseluruhan pada pertukaran "
+"jaringan internasional dan memungkinkan konten web yang sering diminta dapat "
+"tersedia di jaringan bahkan selama adanya penyaringan dan pelambatan yang "
+"berat."
 
 #: intro/ceno.md:block 3 (paragraph)
 msgid ""
@@ -34,6 +42,12 @@ msgid ""
 "anticipation of aggressive Internet filtering and the establishment of "
 "[national intranets][national intranets] to fence off nations from the Web."
 msgstr ""
+"Apa yang membedakan Ceno dari kebanyakan inisiatif pengelabuan lainnya "
+"adalah pengguna dapat terus berbagi konten web bahkan ketika tidak ada (atau "
+"sangat terbatas) konektivitas yang tersedia melintasi batas-batas negara. "
+"Dengan demikian, Ceno dibangun untuk mengantisipasi penyaringan internet "
+"yang agresif dan pembentukan [intranet nasional] [intranet nasional] untuk "
+"memagari negara-negara dari web."
 
 #: intro/ceno.md:block 4 (paragraph)
 msgid ""
@@ -43,10 +57,14 @@ msgid ""
 "technology allowing it to share content between devices (described in later "
 "sections)."
 msgstr ""
+"Peramban Ceno dibangun di atas versi adaptasi dari [Firefox untuk Android], "
+"peramban bebas/terbuka yang populer, modern, kaya fitur, dan aman. Ceno "
+"memperluas Firefox dengan **Ouinet**, teknologi dasar yang memungkinkannya "
+"untuk berbagi konten antar perangkat (dijelaskan di bagian selanjutnya)."
 
 #: intro/ceno.md:block 5 (header)
 msgid "Who develops Ceno?"
-msgstr ""
+msgstr "Siapa yang mengembangkan Ceno?"
 
 #: intro/ceno.md:block 6 (paragraph)
 msgid ""
@@ -58,10 +76,18 @@ msgid ""
 "anyone to use, study, share and enhance it. Please contact [cenoers@equalit."
 "ie](mailto:cenoers@equalit.ie) in case of doubt or for further information."
 msgstr ""
+"Proyek *Censorship.no!* dijalankan oleh [eQualitie][eQualitie] untuk "
+"mendukung Pasal 18, 19, dan 20 dari [Deklarasi Universal Hak Asasi Manusia]["
+"Deklarasi Universal Hak Asasi Manusia]. Ceno dan teknologi terkait "
+"dikembangkan sebagai perangkat lunak Bebas/Gratis/Sumber Terbuka ([sumber "
+"proyek](https://github.com/censorship-no/ \"Repositori kode sumber Ceno\")), "
+"yang memungkinkan siapa pun untuk menggunakan, mempelajari, berbagi, dan "
+"meningkatkannya. Silakan hubungi [cenoers@equalit.ie](mailto:cenoers@equalit."
+"ie) jika ada keraguan atau untuk informasi lebih lanjut."
 
 #: intro/ceno.md:block 7 (header)
 msgid "Who is it for?"
-msgstr ""
+msgstr "Aplikasi ini untuk siapa?"
 
 #: intro/ceno.md:block 8 (paragraph)
 msgid ""
@@ -72,6 +98,13 @@ msgid ""
 "content among users, creating a decentralized network of peers helping each "
 "other."
 msgstr ""
+"Ceno ditujukan untuk semua orang, tetapi aplikasi ini sangat nyaman dipakai "
+"oleh mereka yang tertarik dengan konten web yang disensor di jaringan mereka "
+"dan mereka yang tinggal di negara-negara di mana konektivitas ke internet "
+"global sangat buruk, tidak dapat diandalkan, atau mahal. Ceno mendorong dan "
+"memungkinkan berbagi konten web di antara para pengguna, menciptakan "
+"jaringan yang terdesentralisasi dari rekan-rekan yang saling membantu satu "
+"sama lain."
 
 #: intro/ceno.md:block 9 (paragraph)
 msgid ""
@@ -80,6 +113,10 @@ msgid ""
 "operating a standard Web browser (Ceno-specific functionality is largely "
 "hidden under the hood)."
 msgstr ""
+"Anda tidak perlu menjadi pengguna komputer tingkat lanjut atau bahkan "
+"memahami cara kerja jaringan klien ke klien untuk menggunakan Ceno. "
+"Pengalaman pengguna mirip dengan mengoperasikan peramban web standar ("
+"fungsionalitas khusus Ceno sebagian besar tersembunyi di balik layar)."
 
 #: intro/ceno.md:block 10 (paragraph)
 msgid ""
@@ -91,6 +128,14 @@ msgid ""
 "mobile data limits (should you have them), but also to increase the chances "
 "of being able to deliver Web content to other users."
 msgstr ""
+"Namun, Ceno dapat menghasilkan lebih banyak lalu lintas internet daripada "
+"peramban web biasa - karena Ceno perlu memberitahukan kepada pengguna lain "
+"tentang konten web yang dibagikannya ke jaringan dan mungkin mengirimkan "
+"konten ini kepada mereka yang memintanya. Oleh karena itu, Ceno mengandalkan "
+"konektivitas dalam negeri yang cukup baik. Kami menyarankan untuk "
+"menggunakan Ceno ketika terhubung ke Wi-Fi. Tidak hanya untuk menghindari "
+"kuota data seluler yang melelahkan (jika Anda memilikinya), tetapi juga "
+"untuk meningkatkan peluang untuk mengirimkan konten web ke pengguna lainnya."
 
 #: intro/ceno.md:block 11 (quote)
 msgid ""
@@ -100,33 +145,41 @@ msgid ""
 "this tool. See the sections on [public vs. private browsing](../concepts/"
 "public-private.md) and [risks](../concepts/risks.md) for further information."
 msgstr ""
+"**Peringatan:** *Ceno bukanlah alat anonimitas.* Bahkan, menggunakan Ceno "
+"memungkinkan orang lain untuk mengetahui apakah Anda telah mengakses atau "
+"membagikan konten web tertentu. Mohon pertimbangkan dengan cermat risiko apa "
+"yang dapat Anda tanggung dengan menggunakan alat ini. Lihat bagian ["
+"penjelajahan publik vs. privat](../konsep/publik-privat.md) dan [risiko](../"
+"konsep/risks.md) untuk informasi lebih lanjut."
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[Censorship.no!]: https://censorship.no/"
-msgstr ""
+msgstr "[Censorship.no!]: https://censorship.no/"
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[P2P]: https://en.wikipedia.org/wiki/Peer-to-peer"
-msgstr ""
+msgstr "[P2P]: https://id.wikipedia.org/wiki/Peer-to-peer"
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[national intranets]: https://en.wikipedia.org/wiki/National_intranet"
-msgstr ""
+msgstr "[intranet nasional]: https://id.wikipedia.org/wiki/Intranet_nasional"
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[Firefox for Android]: https://www.mozilla.org/firefox/android/"
-msgstr ""
+msgstr "[Firefox untuk Android]: https://www.mozilla.org/firefox/android/"
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[eQualitie]: https://equalit.ie/"
-msgstr ""
+msgstr "[eQualitie]: https://equalit.ie/"
 
 #: intro/ceno.md:block 11 (quote)
 msgid ""
 "[Universal Declaration of Human Rights]: https://www.un.org/en/universal-"
 "declaration-human-rights/"
 msgstr ""
+"[Deklarasi Universal Hak Asasi Manusia]: https://www.un.org/en/"
+"universal-declaration-human-rights/"
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[ceno-repos]: https://github.com/censorship-no/"
-msgstr ""
+msgstr "[repositori ceno]: https://github.com/censorship-no/"

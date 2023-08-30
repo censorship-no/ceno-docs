@@ -1,15 +1,15 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-17 03:03+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
+"PO-Revision-Date: 2023-07-19 10:05+0000\n"
+"Last-Translator: Taufik Adi Wicaksono <taufikadi.wicaksono@tutamail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-settings/id/>\n"
 "Language: id\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #: browser/settings.md:block 1 (header)
 msgid "Ceno settings"
@@ -23,6 +23,11 @@ msgid ""
 "strategies against network interference, as well as reporting issues with "
 "the app."
 msgstr ""
+"Peramban Ceno memungkinkan Anda untuk mengubah beberapa pengaturan khusus "
+"Ouinet dan mendapatkan informasi tentang klien Anda dengan cara yang "
+"sederhana. Ini seharusnya tidak diperlukan untuk operasi normal, tetapi akan "
+"berguna untuk menguji berbagai strategi terhadap gangguan jaringan, serta "
+"melaporkan masalah dengan aplikasi."
 
 #: browser/settings.md:block 3 (quote)
 msgid ""
@@ -32,6 +37,12 @@ msgid ""
 "cache retrieval under public browsing, hinting the user about the source of "
 "the content being visualized, and notifying about new versions of Ouinet."
 msgstr ""
+"**Catatan teknis:** Opsi ini disediakan oleh *Ekstensi Ceno*, ekstensi "
+"Firefox yang langsung dipasang bersama Ceno dan menangani integrasi yang "
+"tepat dengan Ouinet, seperti mengaktifkan injeksi konten dan pengambilan "
+"tembolok saat penelusuran publik, memberi petunjuk kepada pengguna tentang "
+"sumber konten yang sedang divisualisasikan, dan memberi tahu tentang versi "
+"baru Ouinet."
 
 #: browser/settings.md:block 4 (paragraph)
 msgid ""
@@ -39,14 +50,18 @@ msgid ""
 "*Ceno* in the app's main menu. Please note that the menu entry may take a "
 "few seconds to pop up on app start. The page should look like this:"
 msgstr ""
+"Fitur-fitur ini tersedia di halaman yang dapat diakses dengan memilih *Ceno* "
+"di menu utama aplikasi. Harap perhatikan bahwa entri menu mungkin memerlukan "
+"beberapa detik untuk muncul saat aplikasi dimulai. Halaman akan terlihat "
+"seperti ini:"
 
 #: browser/settings.md:block 5 (paragraph)
 msgid "![Figure: The Ceno Settings page](images/settings.png)"
-msgstr ""
+msgstr "![Gambar: Halaman Pengaturan Ceno](images/settings.png)"
 
 #: browser/settings.md:block 6 (header)
 msgid "Choosing access mechanisms"
-msgstr ""
+msgstr "Memilih mekanisme akses"
 
 #: browser/settings.md:block 7 (paragraph)
 msgid ""
@@ -55,18 +70,27 @@ msgid ""
 "retrieve content while using either [public or private browsing](public-"
 "private.md) tabs. All boxes are enabled by default."
 msgstr ""
+"Empat kotak centang di bagian atas halaman secara selektif mengaktifkan atau "
+"menonaktifkan berbagai mekanisme atau *sumber* yang digunakan Ceno sebagai "
+"klien Ouinet untuk mengambil konten saat menggunakan tab [penjelajahan "
+"publik atau privat](public-private.md). Semua kotak dicentang secara bawaan."
 
 #: browser/settings.md:block 8 (unordered list)
 msgid ""
 "*Direct from website* (or **origin access**) allows Ceno to try to reach the "
 "origin server directly before attempting other mechanisms enabled below."
 msgstr ""
+"*Langsung dari situs web* (atau **akses sumber**) memungkinkan Ceno mencoba "
+"menjangkau server asal secara langsung sebelum mencoba mekanisme lain yang "
+"diaktifkan di bawah."
 
 #: browser/settings.md:block 8 (unordered list)
 msgid ""
 "Although this mechanism works in both private and public browsing modes, "
 "content thus retrieved cannot be shared with others."
 msgstr ""
+"Meskipun mekanisme ini dapat bekerja dalam mode penjelajahan privat dan "
+"publik, konten yang diambil tidak dapat dibagikan dengan orang lain."
 
 #: browser/settings.md:block 8 (unordered list)
 msgid ""
@@ -76,6 +100,12 @@ msgid ""
 "disabling this option may avoid such connections and trivial tracking (but "
 "not completely, see [risks](../concepts/risks.md))."
 msgstr ""
+"Jika mendapatkan sebagian besar konten web tidak terlalu lambat atau mahal, "
+"mekanisme ini mungkin lebih dari cukup untuk sebagian besar kasus "
+"penggunaan. Namun, koneksi langsung tersebut dapat dilacak oleh ISP atau "
+"pemerintah Anda. Sampai batas tertentu, menonaktifkan opsi ini dapat "
+"menghindari koneksi dan pelacakan seperti itu (namun tidak sepenuhnya, lihat "
+"[risiko](../concepts/risks.md))."
 
 #: browser/settings.md:block 8 (unordered list)
 msgid ""
@@ -86,16 +116,26 @@ msgid ""
 "safer Ceno mechanisms. Please check the section on [troubleshooting]"
 "(troubleshooting.md) to learn more about this issue."
 msgstr ""
+"Selain itu, saat mengakses situs web melalui HTTP yang tidak aman (alih-alih "
+"HTTPS yang lebih aman), sensor dapat mencegat koneksi dan menampilkan situs "
+"palsu kepada pengguna, gangguan yang tidak dapat dideteksi Ceno dengan "
+"sendirinya. Dalam kasus seperti itu, menonaktifkan opsi ini mungkin dapat "
+"membantu dan karenanya selalu menggunakan mekanisme Ceno lain yang lebih "
+"aman. Harap periksa bagian [pemecahan masalah](pemecahan masalah.md) untuk "
+"mempelajari lebih lanjut tentang permasalahan ini."
 
 #: browser/settings.md:block 8 (unordered list)
 msgid ""
 "*Via the Ceno network (private)* (or **proxy access**) allows Ceno to use "
 "injectors as normal HTTP proxy servers to reach origin servers."
 msgstr ""
+"*Melalui jaringan Ceno (privat)* (atau **akses proksi**) memungkinkan Ceno "
+"untuk menggunakan injektor sebagai server proksi HTTP biasa untuk menjangkau "
+"server asal."
 
 #: browser/settings.md:block 8 (unordered list)
 msgid "This mechanism only works in private browsing mode."
-msgstr ""
+msgstr "Mekanisme ini hanya berfungsi di dalam mode penjelajahan privat."
 
 #: browser/settings.md:block 8 (unordered list)
 msgid ""
@@ -105,6 +145,12 @@ msgid ""
 "others). Other participants, such as bridges, will never see the unencrypted "
 "traffic."
 msgstr ""
+"Saat mengakses konten melalui HTTPS, hanya server asal yang dapat "
+"mendekripsi lalu lintas. Saat menggunakan HTTP biasa, injektor juga dapat "
+"melihat lalu lintas yang tidak terenkripsi (namun seharusnya tetap tidak "
+"menandatangani atau membagikan kontennya dengan orang lain). Partisipan "
+"lain, seperti jembatan, tidak akan pernah melihat lalu lintas yang tidak "
+"terenkripsi."
 
 #: browser/settings.md:block 8 (unordered list)
 msgid ""
@@ -113,21 +159,31 @@ msgid ""
 "The injector gets the content from an origin server, signs it, and sends it "
 "back to Ceno - which then begins seeding it."
 msgstr ""
+"*Melalui jaringan Ceno (publik)* (atau **akses injektor**) memungkinkan Ceno "
+"untuk menghapus informasi pribadi apa pun dari permintaan dan mengirimkannya "
+"ke injektor. Injektor mendapatkan konten dari server asal, "
+"menandatanganinya, dan mengirimkannya kembali ke Ceno - yang kemudian mulai "
+"menyebarkannya."
 
 #: browser/settings.md:block 8 (unordered list)
 msgid ""
 "Other participants (such as bridges) will not see the unencrypted traffic."
 msgstr ""
+"Partisipan lain (seperti jembatan) tidak akan melihat lalu lintas yang tidak "
+"terenkripsi."
 
 #: browser/settings.md:block 8 (unordered list)
 msgid "This mechanism only works in public browsing mode."
-msgstr ""
+msgstr "Mekanisme ini hanya berfungsi di dalam mode penjelajahan publik."
 
 #: browser/settings.md:block 8 (unordered list)
 msgid ""
 "*Shared by other Ceno users* allows Ceno to try to retrieve content from the "
 "**distributed cache**, i.e. from other Ceno and Ouinet clients seeding it."
 msgstr ""
+"*Dibagikan oleh pengguna Ceno lainnya* memungkinkan Ceno untuk mencoba "
+"mengambil konten dari **tembolok terdistribusi**, yaitu dari klien Ceno dan "
+"Ouinet lain yang menyebarkannya."
 
 #: browser/settings.md:block 9 (paragraph)
 msgid ""
@@ -135,34 +191,46 @@ msgid ""
 "browsing mode will render them useless. If you establish such a "
 "configuration, a warning will be shown as depicted below:"
 msgstr ""
+"Menonaktifkan semua mekanisme yang tersedia untuk mode penelusuran publik "
+"atau privat akan membuatnya tidak berguna. Jika Anda membuat konfigurasi "
+"seperti itu, peringatan akan ditampilkan seperti yang digambarkan di bawah "
+"ini:"
 
 #: browser/settings.md:block 10 (paragraph)
 msgid ""
 "![Figure: Invalid settings for private browsing](images/settings-no-private."
 "png)"
 msgstr ""
+"![Gambar: Setelan tidak valid untuk penjelajahan privat](images/settings-no-"
+"private.png)"
 
 #: browser/settings.md:block 11 (header)
 msgid "About your app"
-msgstr ""
+msgstr "Tentang aplikasi Anda"
 
 #: browser/settings.md:block 12 (paragraph)
 msgid ""
 "This page also provides you with some information about your Ceno Browser "
 "app and Ouinet client:"
 msgstr ""
+"Halaman ini juga memberikan beberapa informasi tentang aplikasi Peramban "
+"Ceno dan klien Ouinet Anda:"
 
 #: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*Local cache size* shows an approximation of how much storage is taken by "
 "the content being seeded from your device's local cache."
 msgstr ""
+"*Ukuran tembolok lokal* menunjukkan perkiraan berapa banyak penyimpanan yang "
+"diambil oleh konten yang diunggulkan dari tembolok lokal perangkat Anda."
 
 #: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*Content shared by you* allows you to check the content being announced by "
 "your device."
 msgstr ""
+"*Konten yang Anda bagikan* memungkinkan Anda memeriksa konten yang diumumkan "
+"oleh perangkat Anda."
 
 #: browser/settings.md:block 13 (unordered list)
 msgid ""
@@ -170,18 +238,27 @@ msgid ""
 "to run successfully. Otherwise, there may be connectivity issues or some "
 "internal error. Please include this information in your issue reports."
 msgstr ""
+"*Status klien Ouinet*, jika `dimulai`, berarti klien Ouinet Anda berhasil "
+"dijalankan. Jika tidak, mungkin ada masalah konektivitas atau kesalahan "
+"internal. Harap sertakan informasi ini dalam laporan masalah Anda."
 
 #: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*Reachability status* indicates how likely it is for your device to be able "
 "to effectively seed content to other clients. Also include in reports."
 msgstr ""
+"*Status keterjangkauan* menunjukkan seberapa besar kemungkinan perangkat "
+"Anda dapat menyebarkan konten secara efektif ke klien lain. Sertakan juga "
+"dalam laporan."
 
 #: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*UPnP status* indicates whether Ceno was able to tell your router or access "
 "point to allow incoming connections towards it. Also include in reports."
 msgstr ""
+"*Status UPnP* menunjukkan apakah Ceno dapat memberi tahu ruter atau titik "
+"akses Anda untuk mengizinkan koneksi masuk ke sana. Sertakan juga dalam "
+"laporan."
 
 #: browser/settings.md:block 13 (unordered list)
 msgid ""
@@ -189,6 +266,10 @@ msgid ""
 "to seed signed content to other clients. These are shown to help test and "
 "debug the app, and should not be generally disclosed."
 msgstr ""
+"*Titik akhir UDP lokal* adalah alamat Internet di perangkat Anda yang "
+"digunakan oleh Ceno untuk menyebarkan konten yang ditandatangani ke klien "
+"lain. Ini ditampilkan untuk membantu pengujian dan awakutu aplikasi, dan "
+"tidak boleh diungkapkan secara umum."
 
 #: browser/settings.md:block 13 (unordered list)
 msgid ""
@@ -196,6 +277,10 @@ msgid ""
 "your Ceno traffic. Only available with UPnP-enabled routers, they are also "
 "useful for diagnostics and not to be generally disclosed."
 msgstr ""
+"*Titik akhir UDP eksternal* adalah alamat Internet di ruter yang diberikan "
+"ke lalu lintas Ceno Anda. Hanya tersedia di ruter yang mendukung UPnP, "
+"mereka juga berguna untuk mendiagnosis masalah dan tidak diungkapkan secara "
+"umum."
 
 #: browser/settings.md:block 13 (unordered list)
 msgid ""
@@ -203,6 +288,9 @@ msgid ""
 "outside of your network see when communicating with your device. Also for "
 "diagnostics and not to be disclosed."
 msgstr ""
+"*Titik akhir UDP publik* adalah alamat Internet yang dilihat klien Ouinet di "
+"luar jaringan Anda saat berkomunikasi dengan perangkat Anda. Juga untuk "
+"diagnosis dan tidak untuk diungkapkan."
 
 #: browser/settings.md:block 13 (unordered list)
 msgid ""
@@ -212,33 +300,48 @@ msgid ""
 "ports) to set or add your own, then choose *Save*. The changes will be "
 "applied the next time that your Ouinet client is started."
 msgstr ""
+"*Bootstrap BitTorrent ekstra* adalah server yang digunakan untuk membantu "
+"perangkat Anda masuk ke jaringan BitTorrent, jika yang tersedia tidak "
+"berfungsi. Sertakan juga dalam laporan. Anda dapat mengedit daftar host yang "
+"dipisahkan oleh spasi (dengan porta opsional) untuk mengatur atau "
+"menambahkan milik Anda sendiri, lalu pilih *Simpan*. Perubahan akan "
+"diterapkan saat klien Ouinet Anda dimulai lagi."
 
 #: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*Ceno Browser* indicates the exact version of Ceno that you are using. Also "
 "include in reports."
 msgstr ""
+"*Peramban Ceno* menunjukkan versi Ceno yang Anda gunakan. Sertakan juga "
+"dalam laporan."
 
 #: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*Ceno Extension* shows the version of the extension that integrates Firefox "
 "with Ceno. Also include in reports."
 msgstr ""
+"*Ekstensi Ceno* menampilkan versi ekstensi yang mengintegrasikan Firefox "
+"dengan Ceno. Sertakan juga dalam laporan."
 
 #: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*Ouinet* shows the version of Ouinet backing Ceno. Also include in reports."
 msgstr ""
+"*Ouinet* menampilkan versi Ouinet yang mendukung Ceno. Sertakan juga dalam "
+"laporan."
 
 #: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*Ouinet protocol* is the version number of the protocol that Ceno uses to "
 "talk to other Ouinet clients and injectors. Also include in reports."
 msgstr ""
+"*Protokol Ouinet* adalah nomor versi protokol yang digunakan Ceno untuk "
+"berkomunikasi dengan klien dan injektor Ouinet lainnya. Sertakan juga dalam "
+"laporan."
 
 #: browser/settings.md:block 14 (header)
 msgid "Purging the local cache"
-msgstr ""
+msgstr "Membersihkan tembolok lokal"
 
 #: browser/settings.md:block 15 (paragraph)
 msgid ""
@@ -247,6 +350,11 @@ msgid ""
 "This allows you to free up some storage space in your device while keeping "
 "other Ceno settings like Favorites."
 msgstr ""
+"Di samping angka *Ukuran tembolok lokal* di atas, terdapat tombol yang "
+"memungkinkan Anda untuk menghentikan penyebaran dan melepaskan semua konten "
+"yang dibagikan oleh perangkat Anda melalui Ouinet. Ini memungkinkan Anda "
+"untuk mengosongkan sebagian ruang penyimpanan di perangkat Anda sambil "
+"menyimpan pengaturan Ceno lainnya seperti Favorit."
 
 #: browser/settings.md:block 16 (paragraph)
 msgid ""
@@ -256,6 +364,11 @@ msgid ""
 "then *Clear private data*. You will be asked about which items you want to "
 "clear."
 msgstr ""
+"Jika Anda ingin menghapus tembolok penelusuran normal Ceno (yang digunakan "
+"oleh peramban namun tidak dibagikan dengan orang lain) atau hal lain seperti "
+"kuki, riwayat penelusuran, atau favorit, Anda harus memilih *Pengaturan* di "
+"menu utama aplikasi, lalu *Hapus data pribadi*. Anda akan ditanya tentang "
+"hal mana yang ingin Anda hapus."
 
 #: browser/settings.md:block 17 (paragraph)
 msgid ""
@@ -263,10 +376,13 @@ msgid ""
 "please learn how to use the \"panic button\" feature described in "
 "[Installing Ceno](install.md)."
 msgstr ""
+"Untuk menghapus semuanya sekaligus (terutama jika Anda sedang terburu-buru), "
+"pelajari cara menggunakan fitur \"tombol panik\" yang dijelaskan di ["
+"Menginstal Ceno](install.md)."
 
 #: browser/settings.md:block 18 (header)
 msgid "Collecting log messages"
-msgstr ""
+msgstr "Mengumpulkan pesan log"
 
 #: browser/settings.md:block 19 (paragraph)
 msgid ""
@@ -275,16 +391,22 @@ msgid ""
 "a file. This should only be used when diagnosing some problem in Ceno; just "
 "follow these steps:"
 msgstr ""
+"Di bagian bawah halaman terdapat kotak centang *Aktifkan berkas log* yang "
+"memungkinkan Anda untuk mengumpulkan semua pesan internal Ouinet dan "
+"mengunduhnya ke sebuah berkas. Ini hanya boleh digunakan saat mendiagnosis "
+"beberapa masalah di Ceno. Cukup ikuti langkah-langkah ini:"
 
 #: browser/settings.md:block 20 (ordered list)
 msgid "At the *Ceno Settings* page, check *Enable log file*."
-msgstr ""
+msgstr "Di halaman *Pengaturan Ceno*, centang *Aktifkan berkas log*."
 
 #: browser/settings.md:block 20 (ordered list)
 msgid ""
 "Go back to browsing and do whatever actions that trigger the troublesome "
 "behavior."
 msgstr ""
+"Kembali ke penelusuran dan lakukan tindakan apa pun yang dapat memicu "
+"masalah."
 
 #: browser/settings.md:block 20 (ordered list)
 msgid ""
@@ -293,10 +415,16 @@ msgid ""
 "ask you at this point whether to allow Ceno access to stored media: this is "
 "needed to be able to save the file."
 msgstr ""
+"Kembali ke halaman *Pengaturan Ceno* dan klik tautan *Unduh* di sebelah "
+"kotak centang *Aktifkan berkas log*. Simpan berkas untuk digunakan nanti. "
+"Android mungkin bertanya kepada Anda pada saat ini apakah Anda akan "
+"mengizinkan Ceno untuk mengakses media yang disimpan: ini diperlukan untuk "
+"dapat menyimpan berkas tersebut."
 
 #: browser/settings.md:block 20 (ordered list)
 msgid "Uncheck *Enable log file* to avoid the logs from growing too large."
 msgstr ""
+"Hapus centang *Aktifkan berkas log* untuk menghindari bengkaknya ukuran log."
 
 #: browser/settings.md:block 21 (paragraph)
 msgid ""
@@ -304,3 +432,7 @@ msgid ""
 "avoid making it public since it may contain sensitive information about your "
 "browsing."
 msgstr ""
+"Anda sekarang dapat menggunakan berkas log yang disimpan untuk "
+"mendokumentasikan laporan masalah, tetapi cobalah untuk tidak "
+"mempublikasikannya karena berkas itu mungkin berisikan informasi sensitif "
+"mengenai penjelajahan Anda."
