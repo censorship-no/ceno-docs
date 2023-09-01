@@ -17,4 +17,4 @@ The advent of *content delivery networks* (or CDNs, like the commercial Akamai a
 
 Unfortunately again, there are situations in which general connectivity is scarce (developing countries or underserved, impoverished or rural regions), expensive (with some countries charging more for international traffic) or has been actively blocked by an state player (explicitly or as a result of a general shutdown).  In these cases, reaching origin web servers or even CDN servers is difficult or impossible, and your device will not be able to get that content - even if I was somehow able to access it a few hours ago and we're living some streets apart.
 
-This is where CENO Browser and Ouinet come into play.  This chapter will introduce you to them.
+This is where Ceno Browser and Ouinet come into play.  This chapter will introduce you to them.
