@@ -1,15 +1,15 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-07-14 19:47+0000\n"
-"Last-Translator: Taufik Adi Wicaksono <taufikadi.wicaksono@tutamail.com>\n"
+"PO-Revision-Date: 2023-09-01 23:03+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-install/id/>\n"
 "Language: id\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.0-dev\n"
+"X-Generator: Weblate 5.0.1-dev\n"
 
 #: browser/install.md:block 1 (header)
 msgid "Installing Ceno"
@@ -73,8 +73,8 @@ msgstr ""
 "dari asalnya aplikasi, pengguna potensial mereka dapat menjadi seorang "
 "target untuk semua jenis dari versi palsu atau dimanipulasi untuk melanggar "
 "privasi pengguna atau menyerang pengguna Ceno and Ouinet. Jika ragu, mohon "
-"hubungi [cenoers@equalit.ie](mailto:cenoers@equalit.ie) sebelum memasang "
-"sebuah aplikasi mencurigakan."
+"hubungi [cenoers@equalitie.org](mailto:cenoers@equalitie.org) sebelum "
+"memasang sebuah aplikasi mencurigakan."
 
 #: browser/install.md:block 6 (header)
 msgid "Stopping Ceno completely"
