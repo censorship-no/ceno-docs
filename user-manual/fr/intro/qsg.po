@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-07-11 14:51+0000\n"
-"Last-Translator: AO Localisation Lab <ao@localizationlab.org>\n"
+"PO-Revision-Date: 2023-09-01 23:03+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/censorship-no/qsg/"
 "fr/>\n"
 "Language: fr\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.0-dev\n"
+"X-Generator: Weblate 5.0.1-dev\n"
 
 #: intro/qsg.md:block 1 (header)
 msgid "Quick start guide"
@@ -112,8 +112,8 @@ msgid ""
 "Contact us by writing to [cenoers@equalitie.org](mailto:cenoers@equalitie."
 "org)."
 msgstr ""
-"Contactez-nous par courriel à [cenoers@equalit.ie](mailto:cenoers@equalit."
-"ie)."
+"Contactez-nous par courriel à [cenoers@equalitie."
+"org](mailto:cenoers@equalitie.org)."
 
 #: intro/qsg.md:block 11 (unordered list)
 #, fuzzy
