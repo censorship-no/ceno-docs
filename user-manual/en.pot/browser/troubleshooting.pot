@@ -18,8 +18,8 @@ msgstr ""
 
 #: browser/troubleshooting.md:block 3 (paragraph)
 msgid ""
-"If problems still persist, please report them to [cenoers@equalit.ie](mailto:"
-"cenoers@equalit.ie). We will try to help you with them."
+"If problems still persist, please report them to [cenoers@equalitie.org]"
+"(mailto:cenoers@equalitie.org). We will try to help you with them."
 msgstr ""
 
 #: browser/troubleshooting.md:block 4 (header)
