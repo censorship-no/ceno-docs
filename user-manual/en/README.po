@@ -33,7 +33,7 @@ msgid ""
 msgstr ""
 
 #: README.md:block 3 (paragraph)
-msgid "[Ceno Browser]: https://github.com/censorship-no/ceno-browser"
+msgid "[Ceno Browser]: https://gitlab.com/censorship-no/ceno-browser"
 msgstr ""
 
 #: README.md:block 3 (paragraph)
@@ -46,7 +46,7 @@ msgstr ""
 
 #: README.md:block 3 (paragraph)
 msgid ""
-"[Ceno documentation repository]: https://github.com/censorship-no/ceno-docs/"
+"[Ceno documentation repository]: https://github.com/censorship-no/Ceno-docs/"
 msgstr ""
 
 #: README.md:block 3 (paragraph)

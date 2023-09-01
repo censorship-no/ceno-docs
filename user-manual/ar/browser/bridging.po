@@ -36,8 +36,8 @@ msgstr ""
 "متصفح Ceno من بلد لا يفرض رقابة على الإنترنت (أو أقل من بعض الدول)، ففكر في "
 "مساعدة مستخدمي Ceno الآخرين من خلال أن تصبح عقدة **جسر**. ستبدأ حينها في "
 "توجيه حركة المرور بين العملاء الذين يعيشون في البلدان الخاضعة للرقابة "
-"الشديدة وبين حاقنات Ceno. لن تكون قادرًا على رؤية حركة المرور الخاصة بهم ("
-"سيتم إرسالها عبر نفق مشفر)، ولن تظل أي من حركة المرور هذه على جهازك."
+"الشديدة وبين حاقنات Ceno. لن تكون قادرًا على رؤية حركة المرور الخاصة بهم "
+"(سيتم إرسالها عبر نفق مشفر)، ولن تظل أي من حركة المرور هذه على جهازك."
 
 #: browser/bridging.md:block 3 (quote)
 msgid ""
@@ -121,10 +121,10 @@ msgid ""
 "a black background while the device is not active."
 msgstr ""
 "إحدى الطرق الملائمة للقيام بذلك دون استهلاك الكثير من الطاقة والإضاءة "
-"الدائمة المزعجة هي استخدام شاشة التوقف في أندرويد: قم بتمكينها ضمن *"
-"الإعدادات / العرض / شاشة التوقف* (أو *أحلام اليقظة* في بعض الإصدارات)، اختر "
-"أداة *الساعة*، اختر *متى تبدأ شاشة التوقف* في القائمة وحدد *أثناء الشحن* أو *"
-" إما هذا و إما ذاك*. ستظهر ساعة خافتة للغاية على خلفية سوداء عندما يكون "
+"الدائمة المزعجة هي استخدام شاشة التوقف في أندرويد: قم بتمكينها ضمن "
+"*الإعدادات / العرض / شاشة التوقف* (أو *أحلام اليقظة* في بعض الإصدارات)، اختر "
+"أداة *الساعة*، اختر *متى تبدأ شاشة التوقف* في القائمة وحدد *أثناء الشحن* أو "
+"* إما هذا و إما ذاك*. ستظهر ساعة خافتة للغاية على خلفية سوداء عندما يكون "
 "الجهاز غير نشط."
 
 #: browser/bridging.md:block 9 (ordered list)
@@ -182,10 +182,16 @@ msgstr ""
 "مختلفًا قليلاً:"
 
 #: browser/bridging.md:block 17 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "The command will start a container named `ceno-client` that will run on "
+#| "every boot unless you explicitly tell it to stop. Please check the [Ceno "
+#| "Docker client documentation][ceno-client-doc] for more information on how "
+#| "to manipulate the container."
 msgid ""
-"The command will start a container named `ceno-client` that will run on "
+"The command will start a container named `Ceno-client` that will run on "
 "every boot unless you explicitly tell it to stop. Please check the [Ceno "
-"Docker client documentation][ceno-client-doc] for more information on how to "
+"Docker client documentation][Ceno-client-doc] for more information on how to "
 "manipulate the container."
 msgstr ""
 "سيبدأ الأمر حاوية تسمى `ceno-client` والتي سيتم تشغيلها عند كل بدء تشغيل ما "
@@ -288,19 +294,21 @@ msgstr ""
 
 #: browser/bridging.md:block 30 (unordered list)
 msgid "[Linksys](https://www.linksys.com/us/support-article?articleNum=138290)"
-msgstr "[Linksys](https://www.linksys.com/ae/support-article?articleNum=138290)"
+msgstr ""
+"[Linksys](https://www.linksys.com/ae/support-article?articleNum=138290)"
 
 #: browser/bridging.md:block 30 (unordered list)
 msgid ""
 "[D-Link](https://eu.dlink.com/uk/en/support/faq/routers/wired-routers/di-"
 "series/how-do-i-enable-upnp-on-my-router)"
 msgstr ""
-"[D-Link](https://eu.dlink.com/uk/en/support/faq/routers/wired-routers/"
-"di-series/how-do-i-enable-upnp-on-my-router)"
+"[D-Link](https://eu.dlink.com/uk/en/support/faq/routers/wired-routers/di-"
+"series/how-do-i-enable-upnp-on-my-router)"
 
 #: browser/bridging.md:block 30 (unordered list)
 msgid "[Huawei](https://consumer.huawei.com/ph/support/content/en-us00275342/)"
-msgstr "[Huawei](https://consumer.huawei.com/ae/support/content/ar-eg15806294/)"
+msgstr ""
+"[Huawei](https://consumer.huawei.com/ae/support/content/ar-eg15806294/)"
 
 #: browser/bridging.md:block 30 (unordered list)
 msgid ""
@@ -327,8 +335,8 @@ msgid ""
 "[Ubiquiti](https://www.geekzone.co.nz/forums.asp?"
 "forumid=66&topicid=205740&page_no=5#1725168)"
 msgstr ""
-"[Ubiquiti](https://www.geekzone.co.nz/forums."
-"asp?forumid=66&topicid=205740&page_no=5#1725168)"
+"[Ubiquiti](https://www.geekzone.co.nz/forums.asp?"
+"forumid=66&topicid=205740&page_no=5#1725168)"
 
 #: browser/bridging.md:block 31 (header)
 msgid "Using port forwarding as an alternative to UPnP"
@@ -363,8 +371,8 @@ msgid ""
 msgstr ""
 "يجب أن تكون إعادة توجيه المنفذ لبروتوكول UDP (وليس TCP). يختار Ceno منفذًا "
 "عشوائيًا عند التشغيل الأول ويحتفظ به لعمليات التشغيل اللاحقة، ولكن قد يتغير "
-"عنوان IP للشبكة المحلية لجهازك من وقت لآخر. وبالتالي، يجب عليك مراجعة صفحة *"
-"إعدادات Ceno* بشكل دوري لمعرفة هل جهازك يمكن الوصول إليه من خلال شبكة Ceno."
+"عنوان IP للشبكة المحلية لجهازك من وقت لآخر. وبالتالي، يجب عليك مراجعة صفحة "
+"*إعدادات Ceno* بشكل دوري لمعرفة هل جهازك يمكن الوصول إليه من خلال شبكة Ceno."
 
 #: browser/bridging.md:block 35 (quote)
 msgid ""
@@ -399,27 +407,30 @@ msgid "[docker-install]: https://docs.docker.com/engine/install/"
 msgstr "[docker-install]: https://docs.docker.com/engine/install/"
 
 #: browser/bridging.md:block 35 (quote)
+#, fuzzy
+#| msgid ""
+#| "[ceno-client-doc]: https://github.com/censorship-no/ceno-docker-"
+#| "client#running-the-client"
 msgid ""
-"[ceno-client-doc]: https://github.com/censorship-no/ceno-docker-"
+"[Ceno-client-doc]: https://github.com/censorship-no/Ceno-docker-"
 "client#running-the-client"
 msgstr ""
-"[ceno-client-doc]: https://github.com/censorship-no/ceno-docker-client"
-"#running-the-client"
+"[ceno-client-doc]: https://github.com/censorship-no/ceno-docker-"
+"client#running-the-client"
 
 #: browser/bridging.md:block 35 (quote)
 msgid "[UPnP]: https://en.wikipedia.org/wiki/Universal_Plug_and_Play"
 msgstr ""
-"[UPnP]: https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9"
-"%84_%D9%88%D8%A7%D9%84%D8%AA%D8%B4%D8%BA%D9%8A%D9%84_%D8%A7%D9%84%D8%B9%D8%A7"
-"%D9%84%D9%85%D9%8A"
+"[UPnP]: https://ar.wikipedia.org/wiki/"
+"%D8%A7%D9%84%D8%AA%D9%88%D8%B5%D9%8A%D9%84_%D9%88%D8%A7%D9%84%D8%AA%D8%B4%D8%BA%D9%8A%D9%84_%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85%D9%8A"
 
 #: browser/bridging.md:block 35 (quote)
 msgid ""
 "[upnp-risks]: https://www.howtogeek.com/122487/htg-explains-is-upnp-a-"
 "security-risk"
 msgstr ""
-"[upnp-risks]: https://www.howtogeek.com/122487/htg-explains-is-upnp-a"
-"-security-risk"
+"[upnp-risks]: https://www.howtogeek.com/122487/htg-explains-is-upnp-a-"
+"security-risk"
 
 #: browser/bridging.md:block 35 (quote)
 msgid "[CGNAT]: https://en.wikipedia.org/wiki/Carrier-grade_NAT"

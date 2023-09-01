@@ -31,8 +31,8 @@ msgstr ""
 "a sus capacidades relacionadas con Ouinet. Por favor siempre ten en mente "
 "que Ceno está basado en [Firefox para Android][Firefox para Android], de "
 "manera que por preguntas sobre tópicos de navegación genéricos deberías "
-"referirte a las páginas de Mozilla de [Soporte de Firefox para Android]["
-"Soporte de Firefox para Android]."
+"referirte a las páginas de Mozilla de [Soporte de Firefox para Android]"
+"[Soporte de Firefox para Android]."
 
 #: browser/README.md:block 3 (paragraph)
 msgid ""
@@ -47,10 +47,15 @@ msgstr ""
 "de Ceno. Esta documentación está actualizada para Ceno versión 1.6.0."
 
 #: browser/README.md:block 4 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "If your application exhibits behaviors substantially different from those "
+#| "described here, do not hesitate to contact us at [cenoers@equalit.ie]"
+#| "(mailto:cenoers@equalit.ie) and report the issue."
 msgid ""
 "If your application exhibits behaviors substantially different from those "
-"described here, do not hesitate to contact us at [cenoers@equalit.ie](mailto:"
-"cenoers@equalit.ie) and report the issue."
+"described here, do not hesitate to contact us at [cenoers@equalitie.org]"
+"(mailto:cenoers@equalitie.org) and report the issue."
 msgstr ""
 "Si tu aplicación muestra comportamientos substancialmente diferentes de los "
 "que están descritos aquí, no dudes en contactarnos en [cenoers@equalit.ie]"

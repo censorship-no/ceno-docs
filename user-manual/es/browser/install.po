@@ -51,25 +51,34 @@ msgid ""
 msgstr ""
 "Ceno requiere un dispositivo basado en ARM64 o ARM32 compatible con Neo que "
 "ejecute al menos Android 4.1 Jelly Bean, por lo que la mayoría de "
-"dispositivos móviles posteriores a finales de 2012 deberían funcionar. Ceno *"
-"no requiere permisos especiales* para ejecutarse."
+"dispositivos móviles posteriores a finales de 2012 deberían funcionar. Ceno "
+"*no requiere permisos especiales* para ejecutarse."
 
 #: browser/install.md:block 5 (quote)
+#, fuzzy
+#| msgid ""
+#| "**Warning:** Please be *extremely skeptical* about installing Ceno "
+#| "Browser from sources other than the ones listed above. Because of the "
+#| "application's nature, their potential users may become a target for all "
+#| "kinds of fake or manipulated versions used to violate user privacy or "
+#| "attack other Ceno and Ouinet users. If in doubt, please contact "
+#| "[cenoers@equalit.ie](mailto:cenoers@equalit.ie) before installing a "
+#| "suspicious app."
 msgid ""
 "**Warning:** Please be *extremely skeptical* about installing Ceno Browser "
 "from sources other than the ones listed above. Because of the application's "
 "nature, their potential users may become a target for all kinds of fake or "
 "manipulated versions used to violate user privacy or attack other Ceno and "
-"Ouinet users. If in doubt, please contact [cenoers@equalit.ie](mailto:"
-"cenoers@equalit.ie) before installing a suspicious app."
+"Ouinet users. If in doubt, please contact [cenoers@equalitie.org](mailto:"
+"cenoers@equalitie.org) before installing a suspicious app."
 msgstr ""
 "**Advertencia:** Por favor sé *extremadamente escéptica(o)* al instalar el "
 "Ceno Browser desde otras fuentes que no sean las listadas arriba. Debido a "
 "la naturaleza de la aplicación, sus usuaria(o)s potenciales podrían tornarse "
 "en el blanco de toda clase de versiones falsas o manipuladas usadas para "
 "violar la privacidad del usuaria(o) o atacar a otra(o)s usuaria(o)s de Ceno "
-"y Ouinet. Ante la duda, por favor contacta a [cenoers@equalit."
-"ie](mailto:cenoers@equalit.ie) antes de instalar una app sospechosa."
+"y Ouinet. Ante la duda, por favor contacta a [cenoers@equalit.ie](mailto:"
+"cenoers@equalit.ie) antes de instalar una app sospechosa."
 
 #: browser/install.md:block 6 (header)
 msgid "Stopping Ceno completely"
@@ -202,13 +211,19 @@ msgstr ""
 "una app además de sus datos, por ejemplo en su registro del sistema."
 
 #: browser/install.md:block 18 (quote)
+#, fuzzy
+#| msgid ""
+#| "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit."
+#| "ceno"
 msgid ""
-"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
+"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.Ceno"
 msgstr ""
 "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
 
 #: browser/install.md:block 18 (quote)
-msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
+#, fuzzy
+#| msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
+msgid "[ceno-gh]: https://github.com/censorship-no/Ceno-browser/releases"
 msgstr "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
 
 #: browser/install.md:block 18 (quote)

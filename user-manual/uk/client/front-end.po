@@ -66,9 +66,9 @@ msgid ""
 msgstr ""
 "Вам це потрібно лише скориставшись звичайним браузером для тестування "
 "клієнта Ouinet, у цьому випадку Вам також доведеться налаштувати його HTTP/"
-"HTTPS-проксі на `127.0.0.1:8077` та вручну запустити [Розширення Ceno]["
-"Розширення Ceno], щоб інʼєкція працювала. Ми радимо використовувати *окремий "
-"профіль браузера* для цієї мети."
+"HTTPS-проксі на `127.0.0.1:8077` та вручну запустити [Розширення Ceno]"
+"[Розширення Ceno], щоб інʼєкція працювала. Ми радимо використовувати "
+"*окремий профіль браузера* для цієї мети."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
@@ -152,5 +152,8 @@ msgstr ""
 "використовує)."
 
 #: client/front-end.md:block 6 (unordered list)
-msgid "[Ceno Extension]: https://github.com/censorship-no/ceno-ext-settings/"
+#, fuzzy
+#| msgid ""
+#| "[Ceno Extension]: https://github.com/censorship-no/ceno-ext-settings/"
+msgid "[Ceno Extension]: https://github.com/censorship-no/Ceno-ext-settings/"
 msgstr "[Розширення Ceno]: https://github.com/censorship-no/ceno-ext-settings/"

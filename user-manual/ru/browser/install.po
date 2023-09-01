@@ -56,21 +56,30 @@ msgstr ""
 "совместимы. Для работы Ceno *не требуются специальные разрешения*."
 
 #: browser/install.md:block 5 (quote)
+#, fuzzy
+#| msgid ""
+#| "**Warning:** Please be *extremely skeptical* about installing Ceno "
+#| "Browser from sources other than the ones listed above. Because of the "
+#| "application's nature, their potential users may become a target for all "
+#| "kinds of fake or manipulated versions used to violate user privacy or "
+#| "attack other Ceno and Ouinet users. If in doubt, please contact "
+#| "[cenoers@equalit.ie](mailto:cenoers@equalit.ie) before installing a "
+#| "suspicious app."
 msgid ""
 "**Warning:** Please be *extremely skeptical* about installing Ceno Browser "
 "from sources other than the ones listed above. Because of the application's "
 "nature, their potential users may become a target for all kinds of fake or "
 "manipulated versions used to violate user privacy or attack other Ceno and "
-"Ouinet users. If in doubt, please contact [cenoers@equalit.ie](mailto:"
-"cenoers@equalit.ie) before installing a suspicious app."
+"Ouinet users. If in doubt, please contact [cenoers@equalitie.org](mailto:"
+"cenoers@equalitie.org) before installing a suspicious app."
 msgstr ""
 "**Внимание:** Пожалуйста, будьте *крайне осторожны* при установке Браузера "
 "Ceno из любых источников, кроме перечисленных выше. Из-за характера "
 "приложения, потенциальные пользователи могут стать мишенью для всевозможных "
 "поддельных или манипулируемых версий, используемых для нарушения "
 "конфиденциальности пользователя или атаки на других пользователей Ceno и "
-"Ouinet. Если вы сомневаетесь, пожалуйста, свяжитесь с [cenoers@equalit."
-"ie](mailto:cenoers@equalit.ie) перед установкой подозрительного приложения."
+"Ouinet. Если вы сомневаетесь, пожалуйста, свяжитесь с [cenoers@equalit.ie]"
+"(mailto:cenoers@equalit.ie) перед установкой подозрительного приложения."
 
 #: browser/install.md:block 6 (header)
 msgid "Stopping Ceno completely"
@@ -160,8 +169,8 @@ msgid ""
 "![Figure: The last action stops Ceno and clears all its data](images/tap-"
 "purge.png)"
 msgstr ""
-"![Рисунок: Последнее действие останавливает Ceno и очищает все его данные]("
-"images/tap-purge.png)"
+"![Рисунок: Последнее действие останавливает Ceno и очищает все его данные]"
+"(images/tap-purge.png)"
 
 #: browser/install.md:block 15 (paragraph)
 msgid ""
@@ -204,13 +213,19 @@ msgstr ""
 "помимо данных, например, в системном журнале."
 
 #: browser/install.md:block 18 (quote)
+#, fuzzy
+#| msgid ""
+#| "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit."
+#| "ceno"
 msgid ""
-"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
+"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.Ceno"
 msgstr ""
 "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
 
 #: browser/install.md:block 18 (quote)
-msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
+#, fuzzy
+#| msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
+msgid "[ceno-gh]: https://github.com/censorship-no/Ceno-browser/releases"
 msgstr "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
 
 #: browser/install.md:block 18 (quote)

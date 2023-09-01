@@ -55,8 +55,9 @@ msgid ""
 "[Universal Declaration of Human Rights]. Ceno and related technologies are "
 "developed as Free/Libre/Open Source software ([project source](https://"
 "github.com/censorship-no/ \"Ceno source code repositories\")), allowing "
-"anyone to use, study, share and enhance it. Please contact [cenoers@equalit."
-"ie](mailto:cenoers@equalit.ie) in case of doubt or for further information."
+"anyone to use, study, share and enhance it. Please contact "
+"[cenoers@equalitie.org](mailto:cenoers@equalitie.org) in case of doubt or "
+"for further information."
 msgstr ""
 
 #: intro/ceno.md:block 7 (header)
@@ -128,5 +129,7 @@ msgid ""
 msgstr ""
 
 #: intro/ceno.md:block 11 (quote)
-msgid "[ceno-repos]: https://github.com/censorship-no/"
-msgstr ""
+#, fuzzy
+#| msgid "[Censorship.no!]: https://censorship.no/"
+msgid "[Ceno-repos]: https://github.com/censorship-no/"
+msgstr "[Censorship.no!]: https://censorship.no/"

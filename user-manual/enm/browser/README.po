@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Language: enm\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: browser/README.md:block 1 (header)
@@ -29,8 +29,8 @@ msgstr ""
 #: browser/README.md:block 4 (paragraph)
 msgid ""
 "If your application exhibits behaviors substantially different from those "
-"described here, do not hesitate to contact us at [cenoers@equalit.ie](mailto:"
-"cenoers@equalit.ie) and report the issue."
+"described here, do not hesitate to contact us at [cenoers@equalitie.org]"
+"(mailto:cenoers@equalitie.org) and report the issue."
 msgstr ""
 
 #: browser/README.md:block 4 (paragraph)

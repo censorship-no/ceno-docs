@@ -22,8 +22,8 @@ msgid ""
 "[eQualitie][eQualitie]."
 msgstr ""
 "اس ہدایت نامہ کا مقصد [Ceno براؤزر][Ceno Browser] اور متعلقہ ٹیکنالوجیز کے "
-"صارفین کے لیے ہے، جیسا کہ [eQualitie][eQualitie] کے [Censorship."
-"no!][Censorship.no!] پروجیکٹ کے لیے بنایا گیا ہے۔"
+"صارفین کے لیے ہے، جیسا کہ [eQualitie][eQualitie] کے [Censorship.no!]"
+"[Censorship.no!] پروجیکٹ کے لیے بنایا گیا ہے۔"
 
 #: README.md:block 3 (paragraph)
 msgid ""
@@ -37,7 +37,9 @@ msgstr ""
 "کے بارے میں تفصیلات کے ساتھ [پروٹوکول وضاحتیں][پروٹوکول وضاحتیں] ملیں گے۔"
 
 #: README.md:block 3 (paragraph)
-msgid "[Ceno Browser]: https://github.com/censorship-no/ceno-browser"
+#, fuzzy
+#| msgid "[Ceno Browser]: https://github.com/censorship-no/ceno-browser"
+msgid "[Ceno Browser]: https://gitlab.com/censorship-no/ceno-browser"
 msgstr "[Ceno Browser]: https://github.com/censorship-no/ceno-browser"
 
 #: README.md:block 3 (paragraph)
@@ -49,8 +51,12 @@ msgid "[eQualitie]: https://equalit.ie/"
 msgstr "[eQualitie]: https://equalit.ie/"
 
 #: README.md:block 3 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "[Ceno documentation repository]: https://github.com/censorship-no/ceno-"
+#| "docs/"
 msgid ""
-"[Ceno documentation repository]: https://github.com/censorship-no/ceno-docs/"
+"[Ceno documentation repository]: https://github.com/censorship-no/Ceno-docs/"
 msgstr "[Ceno دستاویزات کا ذخیرہ]: https://github.com/censorship-no/ceno-docs/"
 
 #: README.md:block 3 (paragraph)

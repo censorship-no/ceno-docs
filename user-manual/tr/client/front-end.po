@@ -38,8 +38,8 @@ msgid ""
 "device (you can use Ceno too). Its default address is <http://127.0.0.1:8078/"
 ">. If you open it, you will see something like the figure below."
 msgstr ""
-"Ara yüze, aynı aygıtta çalışan herhangi bir tarayıcı ile erişilebilirsiniz ("
-"Ceno da kullanabilirsiniz). Varsayılan adres: <http://127.0.0.1:8078 />. "
+"Ara yüze, aynı aygıtta çalışan herhangi bir tarayıcı ile erişilebilirsiniz "
+"(Ceno da kullanabilirsiniz). Varsayılan adres: <http://127.0.0.1:8078 />. "
 "Eriştiğinizde aşağıdaki görseldeki gibi bir şey göreceksiniz."
 
 #: client/front-end.md:block 4 (paragraph)
@@ -68,9 +68,9 @@ msgid ""
 msgstr ""
 "Bunu yalnızca Ouinet istemcisini farklı bir tarayıcı ile denerken "
 "kullanmanız gerekir. İçerik ekleyicilerin çalışması için HTTP/HTTPS vekil "
-"sunucularını `127.0.0.1: 8077` olarak yapılandırmanız ve [Ceno uzantısını]["
-"Ceno Extension] el ile etkinleştirmeniz gereklidir. Bu amaç için *ayrı, özel "
-"bir tarayıcı profili* kullanmanız önerilir."
+"sunucularını `127.0.0.1: 8077` olarak yapılandırmanız ve [Ceno uzantısını]"
+"[Ceno Extension] el ile etkinleştirmeniz gereklidir. Bu amaç için *ayrı, "
+"özel bir tarayıcı profili* kullanmanız önerilir."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
@@ -150,5 +150,8 @@ msgid ""
 msgstr "Açıksa, dış, sabit ön bellek klasörü (Ceno şu anda bunu kullanmıyor)."
 
 #: client/front-end.md:block 6 (unordered list)
-msgid "[Ceno Extension]: https://github.com/censorship-no/ceno-ext-settings/"
+#, fuzzy
+#| msgid ""
+#| "[Ceno Extension]: https://github.com/censorship-no/ceno-ext-settings/"
+msgid "[Ceno Extension]: https://github.com/censorship-no/Ceno-ext-settings/"
 msgstr "[Ceno uzantısı]: https://github.com/censorship-no/ceno-ext-settings/"

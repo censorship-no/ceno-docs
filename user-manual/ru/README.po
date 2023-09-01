@@ -26,9 +26,9 @@ msgid ""
 "technologies, as created for the [Censorship.no!][Censorship.no!] project by "
 "[eQualitie][eQualitie]."
 msgstr ""
-"Это руководство предназначено для пользователей [Браузера Ceno][Ceno Browser]"
-" и связанных технологий, созданных для проекта [Censorship.no!][Censorship."
-"no!] компании [eQualitie][eQualitie]."
+"Это руководство предназначено для пользователей [Браузера Ceno][Ceno "
+"Browser] и связанных технологий, созданных для проекта [Censorship.no!]"
+"[Censorship.no!] компании [eQualitie][eQualitie]."
 
 #: README.md:block 3 (paragraph)
 msgid ""
@@ -43,7 +43,9 @@ msgstr ""
 "информацию и подробно узнать об интеграции."
 
 #: README.md:block 3 (paragraph)
-msgid "[Ceno Browser]: https://github.com/censorship-no/ceno-browser"
+#, fuzzy
+#| msgid "[Ceno Browser]: https://github.com/censorship-no/ceno-browser"
+msgid "[Ceno Browser]: https://gitlab.com/censorship-no/ceno-browser"
 msgstr "[Ceno Browser]: https://github.com/censorship-no/ceno-browser"
 
 #: README.md:block 3 (paragraph)
@@ -55,8 +57,12 @@ msgid "[eQualitie]: https://equalit.ie/"
 msgstr "[eQualitie]: https://equalit.ie/"
 
 #: README.md:block 3 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "[Ceno documentation repository]: https://github.com/censorship-no/ceno-"
+#| "docs/"
 msgid ""
-"[Ceno documentation repository]: https://github.com/censorship-no/ceno-docs/"
+"[Ceno documentation repository]: https://github.com/censorship-no/Ceno-docs/"
 msgstr ""
 "[Репозиторий документации Ceno]: https://github.com/censorship-no/ceno-docs/"
 

@@ -46,14 +46,19 @@ msgstr ""
 "Ceno. Cette documentation est à jour pour la version 1.6.0 de Ceno."
 
 #: browser/README.md:block 4 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "If your application exhibits behaviors substantially different from those "
+#| "described here, do not hesitate to contact us at [cenoers@equalit.ie]"
+#| "(mailto:cenoers@equalit.ie) and report the issue."
 msgid ""
 "If your application exhibits behaviors substantially different from those "
-"described here, do not hesitate to contact us at [cenoers@equalit.ie](mailto:"
-"cenoers@equalit.ie) and report the issue."
+"described here, do not hesitate to contact us at [cenoers@equalitie.org]"
+"(mailto:cenoers@equalitie.org) and report the issue."
 msgstr ""
 "Si votre appli présente des comportements sensiblement différents de ceux "
-"décrits, n’hésitez pas à nous contacter par courriel à [cenoers@equalit."
-"ie](mailto:cenoers@equalit.ie) et à nous signaler le problème."
+"décrits, n’hésitez pas à nous contacter par courriel à [cenoers@equalit.ie]"
+"(mailto:cenoers@equalit.ie) et à nous signaler le problème."
 
 #: browser/README.md:block 4 (paragraph)
 msgid "[Firefox for Android]: https://www.mozilla.org/firefox/android/"

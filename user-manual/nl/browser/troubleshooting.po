@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Language: nl\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: browser/troubleshooting.md:block 1 (header)
@@ -21,8 +21,8 @@ msgstr ""
 
 #: browser/troubleshooting.md:block 3 (paragraph)
 msgid ""
-"If problems still persist, please report them to [cenoers@equalit.ie](mailto:"
-"cenoers@equalit.ie). We will try to help you with them."
+"If problems still persist, please report them to [cenoers@equalitie.org]"
+"(mailto:cenoers@equalitie.org). We will try to help you with them."
 msgstr ""
 
 #: browser/troubleshooting.md:block 4 (header)

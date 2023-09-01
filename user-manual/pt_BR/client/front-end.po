@@ -64,10 +64,10 @@ msgid ""
 "specific browser profile* for this purpose."
 msgstr ""
 "Você precisa dele apenas para usar um navegador comum para testar o cliente "
-"Ouinet. Nesse caso, você terá de configurar seus proxies HTTP/HTPPS para `127"
-".0.0.1:8077`, e habilitar manualmente a [Extensão Ceno][Extensão Ceno] para "
-"a injeção funcionar. Recomendamos fortemente usar, para este propósito, um *"
-"perfil separado, específico para o navegador*."
+"Ouinet. Nesse caso, você terá de configurar seus proxies HTTP/HTPPS para "
+"`127.0.0.1:8077`, e habilitar manualmente a [Extensão Ceno][Extensão Ceno] "
+"para a injeção funcionar. Recomendamos fortemente usar, para este propósito, "
+"um *perfil separado, específico para o navegador*."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
@@ -150,5 +150,8 @@ msgstr ""
 "usa atualmente)."
 
 #: client/front-end.md:block 6 (unordered list)
-msgid "[Ceno Extension]: https://github.com/censorship-no/ceno-ext-settings/"
+#, fuzzy
+#| msgid ""
+#| "[Ceno Extension]: https://github.com/censorship-no/ceno-ext-settings/"
+msgid "[Ceno Extension]: https://github.com/censorship-no/Ceno-ext-settings/"
 msgstr "[Extensão Ceno]: https://github.com/censorship-no/ceno-ext-settings/"

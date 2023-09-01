@@ -61,22 +61,30 @@ msgstr ""
 "uprawnień*."
 
 #: browser/install.md:block 5 (quote)
+#, fuzzy
+#| msgid ""
+#| "**Warning:** Please be *extremely skeptical* about installing Ceno "
+#| "Browser from sources other than the ones listed above. Because of the "
+#| "application's nature, their potential users may become a target for all "
+#| "kinds of fake or manipulated versions used to violate user privacy or "
+#| "attack other Ceno and Ouinet users. If in doubt, please contact "
+#| "[cenoers@equalit.ie](mailto:cenoers@equalit.ie) before installing a "
+#| "suspicious app."
 msgid ""
 "**Warning:** Please be *extremely skeptical* about installing Ceno Browser "
 "from sources other than the ones listed above. Because of the application's "
 "nature, their potential users may become a target for all kinds of fake or "
 "manipulated versions used to violate user privacy or attack other Ceno and "
-"Ouinet users. If in doubt, please contact [cenoers@equalit.ie](mailto:"
-"cenoers@equalit.ie) before installing a suspicious app."
+"Ouinet users. If in doubt, please contact [cenoers@equalitie.org](mailto:"
+"cenoers@equalitie.org) before installing a suspicious app."
 msgstr ""
 "**Uwaga:** Prosimy o zachowanie *szczególnego sceptyzmu* wobec metod "
 "instalacji Przeglądarki Ceno innych niż te podane powyżej. Z powodu natury "
 "aplikacji, jej potencjalni użytkownicy mogą stać się ofiarami wszelakich "
 "fałszywych lub zmodyfikowanych jej wersji wykorzystywanych do naruszenia "
 "prywatności użytkowników lub atakowania innych użytkowników Ceno i Ouinet. W "
-"razie wątpliwości prosimy o kontakt [cenoers@equalit."
-"ie](mailto:cenoers@equalit.ie) przed instalacją aplikacji z podejrzanego "
-"źródła."
+"razie wątpliwości prosimy o kontakt [cenoers@equalit.ie](mailto:"
+"cenoers@equalit.ie) przed instalacją aplikacji z podejrzanego źródła."
 
 #: browser/install.md:block 6 (header)
 msgid "Stopping Ceno completely"
@@ -171,11 +179,11 @@ msgstr ""
 
 #: browser/install.md:block 18 (quote)
 msgid ""
-"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
+"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.Ceno"
 msgstr ""
 
 #: browser/install.md:block 18 (quote)
-msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
+msgid "[ceno-gh]: https://github.com/censorship-no/Ceno-browser/releases"
 msgstr ""
 
 #: browser/install.md:block 18 (quote)

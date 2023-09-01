@@ -42,10 +42,15 @@ msgstr ""
 "لیے تازہ ترین ہے۔"
 
 #: browser/README.md:block 4 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "If your application exhibits behaviors substantially different from those "
+#| "described here, do not hesitate to contact us at [cenoers@equalit.ie]"
+#| "(mailto:cenoers@equalit.ie) and report the issue."
 msgid ""
 "If your application exhibits behaviors substantially different from those "
-"described here, do not hesitate to contact us at [cenoers@equalit.ie](mailto:"
-"cenoers@equalit.ie) and report the issue."
+"described here, do not hesitate to contact us at [cenoers@equalitie.org]"
+"(mailto:cenoers@equalitie.org) and report the issue."
 msgstr ""
 "اگر آپ کی درخواست یہاں بیان کردہ طرز عمل سے کافی حد تک مختلف ہوتی ہے، تو ہم "
 "سے [cenoers@equalit.ie](mailto:cenoers@equalit.ie) پر رابطہ کرنے میں ہچکچاہٹ "
