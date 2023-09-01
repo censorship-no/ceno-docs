@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-17 03:17+0000\n"
+"PO-Revision-Date: 2023-09-01 22:39+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Urdu <https://hosted.weblate.org/projects/censorship-no/qsg/"
 "ur/>\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.0.1-dev\n"
 
 #: intro/qsg.md:block 1 (header)
 msgid "Quick start guide"
@@ -22,10 +22,10 @@ msgid ""
 "your requests, as well as to store and share retrieved content with others. "
 "[Read more about Ceno](ceno.md)."
 msgstr ""
-"CENO براؤزر آپ کو انٹرنیٹ پر کسی بھی ویب سائٹ تک رسائی کی اجازت دیتا ہے، "
-"چاہے وہ آپ کے ملک میں سنسر ہو۔ CENO آپ کی درخواستوں کو روٹ کرنے کے ساتھ "
+"Ceno براؤزر آپ کو انٹرنیٹ پر کسی بھی ویب سائٹ تک رسائی کی اجازت دیتا ہے، "
+"چاہے وہ آپ کے ملک میں سنسر ہو۔ Ceno آپ کی درخواستوں کو روٹ کرنے کے ساتھ "
 "بازیافت شدہ مواد کو دوسروں کے ساتھ ذخیرہ کرنے اور ان کا اشتراک کرنے کے لیے "
-"پیئر ٹو پیئر انفراسٹرکچر کا استعمال کرتا ہے۔ [CENO کے بارے میں مزید "
+"پیئر ٹو پیئر انفراسٹرکچر کا استعمال کرتا ہے۔ [Ceno کے بارے میں مزید "
 "پڑھیں](ceno.md)۔"
 
 #: intro/qsg.md:block 3 (header)
@@ -42,7 +42,7 @@ msgid ""
 "[Paskoocheh][ceno-pask]. *No special permissions are needed*."
 msgstr ""
 "[Google Play][ceno-gplay]، [GitHub][ceno-gh] یا [Paskoocheh][ceno-pask] سے "
-"CENO براؤزر انسٹال کریں۔ *کسی خاص اجازت کی ضرورت نہیں ہے*۔"
+"Ceno براؤزر انسٹال کریں۔ *کسی خاص اجازت کی ضرورت نہیں ہے*۔"
 
 #: intro/qsg.md:block 5 (ordered list)
 msgid "Run it."
@@ -61,7 +61,7 @@ msgstr ""
 
 #: intro/qsg.md:block 5 (ordered list)
 msgid "Tap on the Ceno notification to stop it completely."
-msgstr "اسے مکمل طور پر روکنے کے لیے CENO اطلاع پر دبائيں۔"
+msgstr "اسے مکمل طور پر روکنے کے لیے Ceno اطلاع پر دبائيں۔"
 
 #: intro/qsg.md:block 6 (paragraph)
 msgid "Detailed installation instructions are [here](../browser/install.md)."
@@ -76,7 +76,7 @@ msgid ""
 "Ceno Browser should work out-of-the-box. You can find some [diagnostics and "
 "settings](../browser/settings.md) under the *Ceno* menu entry."
 msgstr ""
-"CENO براؤزر کو عمومیت سے ہٹ کر کام کرنا چاہئے۔ آپ *CENO* مینو اندراج کے تحت "
+"Ceno براؤزر کو عمومیت سے ہٹ کر کام کرنا چاہئے۔ آپ *Ceno* مینو اندراج کے تحت "
 "کچھ [تشخیص اور ترتیبات](../browser/settings.md) تلاش کر سکتے ہیں۔"
 
 #: intro/qsg.md:block 9 (paragraph)
@@ -99,7 +99,7 @@ msgstr "براہ کرم [اکثر پوچھے گئے سوالات](faq.md) دیک
 #: intro/qsg.md:block 11 (unordered list)
 msgid "Refer to the [troubleshooting guide](../browser/troubleshooting.md)."
 msgstr ""
-"[خرابیوں کا سراغ لگانا گائیڈ] (../browser/troubleshooting.md) سے رجوع کریں۔"
+"[خرابیوں کا سراغ لگانا گائیڈ](../browser/troubleshooting.md) سے رجوع کریں۔"
 
 #: intro/qsg.md:block 11 (unordered list)
 msgid ""
