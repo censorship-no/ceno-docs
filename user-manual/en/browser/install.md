@@ -2,17 +2,17 @@
 
 Ceno Browser can be installed via the following means:
 
-- [Google Play][Ceno-gplay] (*Ceno Browser* from *eQualitie*): the recommended source for most Android users.
-- [GitHub][Ceno-gh]: for Android devices without Google Play.
-- [Paskoocheh][Ceno-pask]: for users in countries blocking access to the previous channels.
+- [Google Play][ceno-gplay] (*Ceno Browser* from *eQualitie*): the recommended source for most Android users.
+- [GitHub][ceno-gh]: for Android devices without Google Play.
+- [Paskoocheh][ceno-pask]: for users in countries blocking access to the previous channels.
 
-[Ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.Ceno
-[Ceno-gh]: https://github.com/censorship-no/Ceno-browser/releases
-[Ceno-pask]: https://paskoocheh.com/tools/124/android.html
+[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.Ceno
+[ceno-gh]: https://github.com/censorship-no/Ceno-browser/releases
+[ceno-pask]: https://paskoocheh.com/tools/124/android.html
 
 Ceno requires an ARM64 or Neon-capable ARM32 device running at least Android 4.1 Jelly Bean, thus most mobile devices released from late 2012 onward should work.  Ceno needs *no special permissions* to run.
 
-> **Warning:** Please be *extremely skeptical* about installing Ceno Browser from sources other than the ones listed above.  Because of the application's nature, their potential users may become a target for all kinds of fake or manipulated versions used to violate user privacy or attack other Ceno and Ouinet users.  If in doubt, please contact <Cenoers@equalit.ie> before installing a suspicious app.
+> **Warning:** Please be *extremely skeptical* about installing Ceno Browser from sources other than the ones listed above.  Because of the application's nature, their potential users may become a target for all kinds of fake or manipulated versions used to violate user privacy or attack other Ceno and Ouinet users.  If in doubt, please contact <cenoers@equalitie.org> before installing a suspicious app.
 
 ## Stopping Ceno completely
 

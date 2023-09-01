@@ -2,7 +2,7 @@
 
 This section will give you some hints about what to do when different, known problems arise with Ceno and Ouinet.  Please bear in mind that these are experimental projects, and that their operation is subject to a multitude of factors beyond our control, like the particular configuration and status of network infrastructure, as well as which content other users have retrieved and the characteristics of their connections.
 
-If problems still persist, please report them to <Cenoers@equalit.ie>.  We will try to help you with them.
+If problems still persist, please report them to <cenoers@equalitie.org>.  We will try to help you with them.
 
 ## There is no Ceno entry in the app menu
 
