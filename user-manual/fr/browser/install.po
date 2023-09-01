@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-07-11 14:51+0000\n"
-"Last-Translator: AO Localisation Lab <ao@localizationlab.org>\n"
+"PO-Revision-Date: 2023-09-01 23:03+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/censorship-no/"
 "browser-install/fr/>\n"
 "Language: fr\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.0-dev\n"
+"X-Generator: Weblate 5.0.1-dev\n"
 
 #
 #: browser/install.md:block 1 (header)
@@ -75,8 +75,8 @@ msgstr ""
 "devenir la cible de toutes sortes de versions fausses ou manipulées "
 "utilisées pour violer la vie privée des utilisateurs et utilisatrices ou "
 "pour attaquer d’autres utilisateurs ou utilisatrices de Ceno et Ouinet. En "
-"cas de doute, contacter par courriel [cenoers@equalit.ie](mailto:"
-"cenoers@equalit.ie) avant d’installer une appli suspecte."
+"cas de doute, contacter par courriel [cenoers@equalitie."
+"org](mailto:cenoers@equalitie.org) avant d’installer une appli suspecte."
 
 #: browser/install.md:block 6 (header)
 msgid "Stopping Ceno completely"
