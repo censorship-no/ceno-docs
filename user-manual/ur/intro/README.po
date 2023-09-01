@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-17 03:13+0000\n"
+"PO-Revision-Date: 2023-09-01 22:39+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Urdu <https://hosted.weblate.org/projects/censorship-no/"
 "readme/ur/>\n"
@@ -9,13 +9,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.0.1-dev\n"
 
 #: intro/README.md:block 1 (header)
 msgid "Introduction"
 msgstr "تعارف"
 
 #: intro/README.md:block 2 (paragraph)
+#, fuzzy
 msgid ""
 "The Internet and the World Wide Web have become more and more important for "
 "people around the world as a source of all kinds of information, and a way "
@@ -98,7 +99,7 @@ msgid ""
 "This is where Ceno Browser and Ouinet come into play. This chapter will "
 "introduce you to them."
 msgstr ""
-"یہ وہ جگہ ہے جہاں CENO براؤزر اور Ouinet کام میں آتے ہیں۔ یہ باب آپ کو ان سے "
+"یہ وہ جگہ ہے جہاں Ceno براؤزر اور Ouinet کام میں آتے ہیں۔ یہ باب آپ کو ان سے "
 "متعارف کرائے گا۔"
 
 #: intro/README.md:block 6 (paragraph)
