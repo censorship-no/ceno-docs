@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-17 02:55+0000\n"
+"PO-Revision-Date: 2023-09-01 22:39+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Urdu <https://hosted.weblate.org/projects/censorship-no/"
 "user-manual/ur/>\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.0.1-dev\n"
 
 #: SUMMARY.md:block 1 (header)
 msgid "Summary"
@@ -81,7 +81,7 @@ msgstr "[براؤزر کی جانچ کرنا](browser/testing.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Helping others](browser/bridging.md)"
-msgstr "[دوسروں کی مدد کرنا](browser/bridge.md)"
+msgstr "[دوسروں کی مدد کرنا](browser/bridging.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Troubleshooting](browser/troubleshooting.md)"
