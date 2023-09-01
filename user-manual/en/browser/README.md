@@ -7,4 +7,4 @@ This chapter gives you some hints on the usage of Ceno Browser as far as its Oui
 
 When relevant, screen captures will be included to illustrate the text.  Please note that these may slightly differ from what you see on your device, especially as Ceno development progresses.  This documentation is up to date for Ceno version 1.6.0.
 
-If your application exhibits behaviors substantially different from those described here, do not hesitate to contact us at <Cenoers@equalit.ie> and report the issue.
+If your application exhibits behaviors substantially different from those described here, do not hesitate to contact us at <cenoers@equalitie.org> and report the issue.

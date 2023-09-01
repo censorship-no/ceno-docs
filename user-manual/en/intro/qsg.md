@@ -1,21 +1,21 @@
 # Quick start guide
 
-Ceno Browser allows you to access any website on the Internet, even if it is censored in your country.  Ceno uses a peer-to-peer infrastructure to route your requests, as well as to store and share retrieved content with others.  [Read more about Ceno](Ceno.md).
+Ceno Browser allows you to access any website on the Internet, even if it is censored in your country.  Ceno uses a peer-to-peer infrastructure to route your requests, as well as to store and share retrieved content with others.  [Read more about Ceno](ceno.md).
 
 ## How to get started
 
 You will need an Android device:
 
-1. Install Ceno Browser from [Google Play][Ceno-gplay], [GitHub][Ceno-gh] or [Paskoocheh][Ceno-pask].  *No special permissions are needed*.
+1. Install Ceno Browser from [Google Play][ceno-gplay], [GitHub][ceno-gh] or [Paskoocheh][ceno-pask].  *No special permissions are needed*.
 2. Run it.
 3. Browse pages normally to help other users access them; if concerned about privacy for some page or if it is not loading as expected, use a private tab (see [public vs. private browsing](../concepts/public-private.md)).
 4. Tap on the Ceno notification to stop it completely.
 
 Detailed installation instructions are [here](../browser/install.md).
 
-[Ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.Ceno
-[Ceno-gh]: https://github.com/censorship-no/Ceno-browser/releases
-[Ceno-pask]: https://paskoocheh.com/tools/124/android.html
+[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.Ceno
+[ceno-gh]: https://github.com/censorship-no/Ceno-browser/releases
+[ceno-pask]: https://paskoocheh.com/tools/124/android.html
 
 ## Configuration
 
@@ -27,4 +27,4 @@ If you want to make sure that your app is also helping others access blocked con
 
 - Please see the [FAQ](faq.md).
 - Refer to the [troubleshooting guide](../browser/troubleshooting.md).
-- Contact us by writing to <Cenoers@equalit.ie>.
+- Contact us by writing to <cenoers@equalitie.org>.
