@@ -114,5 +114,5 @@ msgid ""
 msgstr ""
 
 #: client/front-end.md:block 6 (unordered list)
-msgid "[Ceno Extension]: https://github.com/censorship-no/ceno-ext-settings/"
+msgid "[Ceno Extension]: https://github.com/censorship-no/Ceno-ext-settings/"
 msgstr ""

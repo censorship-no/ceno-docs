@@ -25,8 +25,8 @@ msgstr ""
 "Klien Ouinet (seperti yang dijalankan oleh misalnya Peramban Ceno) "
 "menawarkan halaman bagian depan dengan beberapa informasi dan tindakan yang "
 "mungkin berguna untuk mengawakutu klien. Banyak di antaranya juga ditawarkan "
-"oleh Pengaya Ceno melalui halaman [*Pengaturan Ceno*](../browser/settings.md)"
-", meskipun yang lainnya hanya tersedia di sini."
+"oleh Pengaya Ceno melalui halaman [*Pengaturan Ceno*](../browser/settings."
+"md), meskipun yang lainnya hanya tersedia di sini."
 
 #: client/front-end.md:block 3 (paragraph)
 msgid ""
@@ -66,8 +66,8 @@ msgstr ""
 "Anda hanya memerlukan ini untuk menggunakan peramban biasa demi menguji "
 "klien Ouinet, dalam hal ini Anda juga harus mengonfigurasi proksi HTTP/HTTPS "
 "ke `127.0.0.1:8077`, dan secara manual mengaktifkan [Pengaya Ceno][Pengaya "
-"Ceno] agar injeksi dapat bekerja. Kami sangat menyarankan untuk menggunakan *"
-"profil peramban khusus yang terpisah* untuk tujuan ini."
+"Ceno] agar injeksi dapat bekerja. Kami sangat menyarankan untuk menggunakan "
+"*profil peramban khusus yang terpisah* untuk tujuan ini."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
@@ -136,5 +136,5 @@ msgid ""
 msgstr ""
 
 #: client/front-end.md:block 6 (unordered list)
-msgid "[Ceno Extension]: https://github.com/censorship-no/ceno-ext-settings/"
+msgid "[Ceno Extension]: https://github.com/censorship-no/Ceno-ext-settings/"
 msgstr ""

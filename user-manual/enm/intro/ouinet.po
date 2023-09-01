@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Language: enm\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: intro/ouinet.md:block 1 (header)
@@ -62,9 +62,9 @@ msgstr ""
 msgid ""
 "Please note that Ouinet is an evolving experimental project: some features "
 "may not work reliably enough in certain scenarios, bugs may exist and "
-"crashes may occur. We encourage you to reach out to us at [cenoers@equalit."
-"ie](mailto:cenoers@equalit.ie), test it and report back - your feedback is "
-"very welcome!"
+"crashes may occur. We encourage you to reach out to us at [cenoers@equalitie."
+"org](mailto:cenoers@equalitie.org), test it and report back - your feedback "
+"is very welcome!"
 msgstr ""
 
 #: intro/ouinet.md:block 9 (quote)

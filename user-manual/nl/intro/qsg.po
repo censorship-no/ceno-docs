@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Language: nl\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: intro/qsg.md:block 1 (header)
@@ -80,16 +80,17 @@ msgstr ""
 
 #: intro/qsg.md:block 11 (unordered list)
 msgid ""
-"Contact us by writing to [cenoers@equalit.ie](mailto:cenoers@equalit.ie)."
+"Contact us by writing to [cenoers@equalitie.org](mailto:cenoers@equalitie."
+"org)."
 msgstr ""
 
 #: intro/qsg.md:block 11 (unordered list)
 msgid ""
-"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
+"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.Ceno"
 msgstr ""
 
 #: intro/qsg.md:block 11 (unordered list)
-msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
+msgid "[ceno-gh]: https://github.com/censorship-no/Ceno-browser/releases"
 msgstr ""
 
 #: intro/qsg.md:block 11 (unordered list)

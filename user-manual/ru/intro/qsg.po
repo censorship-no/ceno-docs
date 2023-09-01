@@ -30,8 +30,8 @@ msgstr ""
 "Браузер CENO позволяет вам получить доступ к любому сайту в интернете, даже "
 "если он подвергается цензуре в вашей стране. CENO использует одноранговую "
 "инфраструктуру для маршрутизации ваших запросов, а также для хранения и "
-"обмена полученным контентом с другими пользователями. [Подробнее о CENO](ceno"
-".md)."
+"обмена полученным контентом с другими пользователями. [Подробнее о CENO]"
+"(ceno.md)."
 
 #: intro/qsg.md:block 3 (header)
 msgid "How to get started"
@@ -83,8 +83,8 @@ msgid ""
 "Ceno Browser should work out-of-the-box. You can find some [diagnostics and "
 "settings](../browser/settings.md) under the *Ceno* menu entry."
 msgstr ""
-"Браузер CENO должен работать «из коробки». Вы можете найти некоторые ["
-"диагностики и настройки](../browser/settings.md) под пунктом меню *CENO*."
+"Браузер CENO должен работать «из коробки». Вы можете найти некоторые "
+"[диагностики и настройки](../browser/settings.md) под пунктом меню *CENO*."
 
 #: intro/qsg.md:block 9 (paragraph)
 msgid ""
@@ -110,20 +110,30 @@ msgstr ""
 "troubleshooting.md)."
 
 #: intro/qsg.md:block 11 (unordered list)
+#, fuzzy
+#| msgid ""
+#| "Contact us by writing to [cenoers@equalit.ie](mailto:cenoers@equalit.ie)."
 msgid ""
-"Contact us by writing to [cenoers@equalit.ie](mailto:cenoers@equalit.ie)."
+"Contact us by writing to [cenoers@equalitie.org](mailto:cenoers@equalitie."
+"org)."
 msgstr ""
 "Свяжитесь с нами, написав по адресу [cenoers@equalit.ie](mailto:"
 "cenoers@equalit.ie)."
 
 #: intro/qsg.md:block 11 (unordered list)
+#, fuzzy
+#| msgid ""
+#| "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit."
+#| "ceno"
 msgid ""
-"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
+"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.Ceno"
 msgstr ""
 "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
 
 #: intro/qsg.md:block 11 (unordered list)
-msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
+#, fuzzy
+#| msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
+msgid "[ceno-gh]: https://github.com/censorship-no/Ceno-browser/releases"
 msgstr "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
 
 #: intro/qsg.md:block 11 (unordered list)

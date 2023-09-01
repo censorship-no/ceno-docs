@@ -76,8 +76,8 @@ msgid ""
 "Ceno Browser should work out-of-the-box. You can find some [diagnostics and "
 "settings](../browser/settings.md) under the *Ceno* menu entry."
 msgstr ""
-"O CENO Browser deve funcionar fora da caixa. Pode encontrar alguns ["
-"diagnósticos e definições](.../browser/settings.md) sob a entrada do menu "
+"O CENO Browser deve funcionar fora da caixa. Pode encontrar alguns "
+"[diagnósticos e definições](.../browser/settings.md) sob a entrada do menu "
 "*CENO*."
 
 #: intro/qsg.md:block 9 (paragraph)
@@ -103,19 +103,29 @@ msgstr ""
 "Consultar o [guia de resolução de problemas](.../browser/troubleshooting.md)."
 
 #: intro/qsg.md:block 11 (unordered list)
+#, fuzzy
+#| msgid ""
+#| "Contact us by writing to [cenoers@equalit.ie](mailto:cenoers@equalit.ie)."
 msgid ""
-"Contact us by writing to [cenoers@equalit.ie](mailto:cenoers@equalit.ie)."
+"Contact us by writing to [cenoers@equalitie.org](mailto:cenoers@equalitie."
+"org)."
 msgstr ""
 "Contacte-nos escrevendo para [cenoers@equalit.ie](mailto:cenoers@equalit.ie)."
 
 #: intro/qsg.md:block 11 (unordered list)
+#, fuzzy
+#| msgid ""
+#| "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit."
+#| "ceno"
 msgid ""
-"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
+"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.Ceno"
 msgstr ""
 "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
 
 #: intro/qsg.md:block 11 (unordered list)
-msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
+#, fuzzy
+#| msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
+msgid "[ceno-gh]: https://github.com/censorship-no/Ceno-browser/releases"
 msgstr "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
 
 #: intro/qsg.md:block 11 (unordered list)

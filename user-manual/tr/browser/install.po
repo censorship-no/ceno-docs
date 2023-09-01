@@ -54,13 +54,22 @@ msgstr ""
 "çoğu aygıt desteklenir. Ceno çalışmak için *özel bir izne* gerek duymaz."
 
 #: browser/install.md:block 5 (quote)
+#, fuzzy
+#| msgid ""
+#| "**Warning:** Please be *extremely skeptical* about installing Ceno "
+#| "Browser from sources other than the ones listed above. Because of the "
+#| "application's nature, their potential users may become a target for all "
+#| "kinds of fake or manipulated versions used to violate user privacy or "
+#| "attack other Ceno and Ouinet users. If in doubt, please contact "
+#| "[cenoers@equalit.ie](mailto:cenoers@equalit.ie) before installing a "
+#| "suspicious app."
 msgid ""
 "**Warning:** Please be *extremely skeptical* about installing Ceno Browser "
 "from sources other than the ones listed above. Because of the application's "
 "nature, their potential users may become a target for all kinds of fake or "
 "manipulated versions used to violate user privacy or attack other Ceno and "
-"Ouinet users. If in doubt, please contact [cenoers@equalit.ie](mailto:"
-"cenoers@equalit.ie) before installing a suspicious app."
+"Ouinet users. If in doubt, please contact [cenoers@equalitie.org](mailto:"
+"cenoers@equalitie.org) before installing a suspicious app."
 msgstr ""
 "** Uyarı:** Lütfen yukarıda listelenenler dışında bir kaynaktan Ceno Browser "
 "kurarken *son derece şüpheci* olun. Uygulamanın doğası gereği kullanıcıları, "
@@ -153,8 +162,8 @@ msgid ""
 "![Figure: The last action stops Ceno and clears all its data](images/tap-"
 "purge.png)"
 msgstr ""
-"![Görsel: Tüm Ceno verilerini silip uygulamayı durdurmak için son işlem]("
-"images/tap-purge.png)"
+"![Görsel: Tüm Ceno verilerini silip uygulamayı durdurmak için son işlem]"
+"(images/tap-purge.png)"
 
 #: browser/install.md:block 15 (paragraph)
 msgid ""
@@ -194,13 +203,19 @@ msgstr ""
 "uygulama verileri dışında sistem kayıtları gibi konumlarda tutabilir."
 
 #: browser/install.md:block 18 (quote)
+#, fuzzy
+#| msgid ""
+#| "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit."
+#| "ceno"
 msgid ""
-"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
+"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.Ceno"
 msgstr ""
 "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
 
 #: browser/install.md:block 18 (quote)
-msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
+#, fuzzy
+#| msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
+msgid "[ceno-gh]: https://github.com/censorship-no/Ceno-browser/releases"
 msgstr "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
 
 #: browser/install.md:block 18 (quote)

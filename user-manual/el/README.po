@@ -26,8 +26,8 @@ msgid ""
 "[eQualitie][eQualitie]."
 msgstr ""
 "Το παρόν εγχειρίδιο απευθύνεται στους χρήστες του [Ceno Browser][Ceno "
-"Browser] και σχετικών τεχνολογιών, όπως δημιουργήθηκε για το έργο [Censorship"
-".no!][Censorship.no!] από την [eQualitie][eQualitie]."
+"Browser] και σχετικών τεχνολογιών, όπως δημιουργήθηκε για το έργο "
+"[Censorship.no!][Censorship.no!] από την [eQualitie][eQualitie]."
 
 #: README.md:block 3 (paragraph)
 msgid ""
@@ -38,11 +38,13 @@ msgid ""
 msgstr ""
 "Εάν χρειάζεστε τεχνική τεκμηρίωση, ανατρέξτε στο [αποθετήριο τεκμηρίωσης "
 "Ceno][αποθετήριο τεκμηρίωσης Ceno], όπου θα βρείτε στοιχεία για περαιτέρω "
-"ανάγνωση και λεπτομέρειες σχετικά με την υλοποίηση, καθώς και τις ["
-"προδιαγραφές πρωτοκόλλου][προδιαγραφές πρωτοκόλλου]."
+"ανάγνωση και λεπτομέρειες σχετικά με την υλοποίηση, καθώς και τις "
+"[προδιαγραφές πρωτοκόλλου][προδιαγραφές πρωτοκόλλου]."
 
 #: README.md:block 3 (paragraph)
-msgid "[Ceno Browser]: https://github.com/censorship-no/ceno-browser"
+#, fuzzy
+#| msgid "[Ceno Browser]: https://github.com/censorship-no/ceno-browser"
+msgid "[Ceno Browser]: https://gitlab.com/censorship-no/ceno-browser"
 msgstr "[Φυλλομετρητής Ceno]: https://github.com/censorship-no/ceno-browser"
 
 #: README.md:block 3 (paragraph)
@@ -54,8 +56,12 @@ msgid "[eQualitie]: https://equalit.ie/"
 msgstr "[eQualitie]: https://equalit.ie/"
 
 #: README.md:block 3 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "[Ceno documentation repository]: https://github.com/censorship-no/ceno-"
+#| "docs/"
 msgid ""
-"[Ceno documentation repository]: https://github.com/censorship-no/ceno-docs/"
+"[Ceno documentation repository]: https://github.com/censorship-no/Ceno-docs/"
 msgstr ""
 "[Αποθετήριο τεκμηρίωσης Ceno]: https://github.com/censorship-no/ceno-docs/"
 

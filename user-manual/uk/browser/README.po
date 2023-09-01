@@ -44,10 +44,15 @@ msgstr ""
 "документація є актуальною для версії Ceno 1.6.0."
 
 #: browser/README.md:block 4 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "If your application exhibits behaviors substantially different from those "
+#| "described here, do not hesitate to contact us at [cenoers@equalit.ie]"
+#| "(mailto:cenoers@equalit.ie) and report the issue."
 msgid ""
 "If your application exhibits behaviors substantially different from those "
-"described here, do not hesitate to contact us at [cenoers@equalit.ie](mailto:"
-"cenoers@equalit.ie) and report the issue."
+"described here, do not hesitate to contact us at [cenoers@equalitie.org]"
+"(mailto:cenoers@equalitie.org) and report the issue."
 msgstr ""
 "Якщо Ваша програма функціонує суттєво інакше, як описано тут, не вагайтеся "
 "звʼязатися з нами за адресою [cenoers@equalit.ie](mailto:cenoers@equalit.ie) "

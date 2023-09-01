@@ -22,8 +22,8 @@ msgid ""
 "[eQualitie][eQualitie]."
 msgstr ""
 "Manual ini ditujukan untuk pengguna [Peramban Ceno][Peramban Ceno] dan "
-"teknologi terkait, sebagaimana dibuat untuk proyek [Censorship."
-"no!][Censorship.no!] oleh [eQualitie][eQualitie]."
+"teknologi terkait, sebagaimana dibuat untuk proyek [Censorship.no!]"
+"[Censorship.no!] oleh [eQualitie][eQualitie]."
 
 #: README.md:block 3 (paragraph)
 msgid ""
@@ -34,11 +34,13 @@ msgid ""
 msgstr ""
 "Jika Anda mencari dokumentasi teknis, silakan merujuk ke [repositori "
 "dokumentasi Ceno][repositori dokumentasi Ceno], di mana Anda akan menemukan "
-"petunjuk untuk bacaan lebih lanjut dan perincian implementasi, serta ["
-"spesifikasi protokol][spesifikasi protokol]."
+"petunjuk untuk bacaan lebih lanjut dan perincian implementasi, serta "
+"[spesifikasi protokol][spesifikasi protokol]."
 
 #: README.md:block 3 (paragraph)
-msgid "[Ceno Browser]: https://github.com/censorship-no/ceno-browser"
+#, fuzzy
+#| msgid "[Ceno Browser]: https://github.com/censorship-no/ceno-browser"
+msgid "[Ceno Browser]: https://gitlab.com/censorship-no/ceno-browser"
 msgstr "[Peramban Ceno]: https://github.com/censorship-no/ceno-browser"
 
 #: README.md:block 3 (paragraph)
@@ -50,8 +52,12 @@ msgid "[eQualitie]: https://equalit.ie/"
 msgstr "[eQualitie]: https://equalit.ie/"
 
 #: README.md:block 3 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "[Ceno documentation repository]: https://github.com/censorship-no/ceno-"
+#| "docs/"
 msgid ""
-"[Ceno documentation repository]: https://github.com/censorship-no/ceno-docs/"
+"[Ceno documentation repository]: https://github.com/censorship-no/Ceno-docs/"
 msgstr ""
 "[Repositori dokumentasi Ceno]: https://github.com/censorship-no/ceno-docs/"
 

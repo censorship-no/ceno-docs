@@ -65,8 +65,8 @@ msgid ""
 msgstr ""
 "Vous n’en avez besoin que pour utiliser un navigateur simple pour tester le "
 "client Ouinet, auquel cas vous devrez également configurer ses mandataires "
-"HTTP/HTTPS avec `127.0.0.1:8077`, et activer manuellement l’[Extension Ceno]["
-"Extension Ceno] pour que l’injection fonctionne. À cette fin, nous "
+"HTTP/HTTPS avec `127.0.0.1:8077`, et activer manuellement l’[Extension Ceno]"
+"[Extension Ceno] pour que l’injection fonctionne. À cette fin, nous "
 "recommandons très fortement l’utilisation d’un *profil de navigateur séparé "
 "spécifique*."
 
@@ -105,9 +105,9 @@ msgid ""
 "original log level is restored."
 msgstr ""
 "Si le fichier journal est activé, le niveau de journalisation est "
-"automatiquement défini sur `DEBUG’ (bien que vous puissiez le rechanger ici)"
-". Si le fichier journal est désactivé, le niveau de journalisation original "
-"est rétabli."
+"automatiquement défini sur `DEBUG’ (bien que vous puissiez le rechanger "
+"ici). Si le fichier journal est désactivé, le niveau de journalisation "
+"original est rétabli."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
@@ -154,5 +154,8 @@ msgstr ""
 "pas actuellement)."
 
 #: client/front-end.md:block 6 (unordered list)
-msgid "[Ceno Extension]: https://github.com/censorship-no/ceno-ext-settings/"
+#, fuzzy
+#| msgid ""
+#| "[Ceno Extension]: https://github.com/censorship-no/ceno-ext-settings/"
+msgid "[Ceno Extension]: https://github.com/censorship-no/Ceno-ext-settings/"
 msgstr "[Extension Ceno] : https://github.com/censorship-no/ceno-ext-settings/"

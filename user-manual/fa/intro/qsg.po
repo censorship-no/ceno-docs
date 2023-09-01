@@ -23,8 +23,8 @@ msgid ""
 "your requests, as well as to store and share retrieved content with others. "
 "[Read more about Ceno](ceno.md)."
 msgstr ""
-"مرورگر CENO به شما امکان دسترسی به هر وب‌سایتی روی اینترنت را می‌دهد، حتی "
-"اگر آن وب‌سایت در کشورتان سانسور شده باشد. CENO از یک زیرساخت همتا-به-همتا "
+"مرورگر CENO به شما امکان دسترسی به هر وب‌سایتی روی اینترنت را می‌دهد، حتی اگر "
+"آن وب‌سایت در کشورتان سانسور شده باشد. CENO از یک زیرساخت همتا-به-همتا "
 "استفاده می‌کند تا درخواست‌های شما را رهیابی کند، و نیز محتوای بازیابی‌شده را "
 "ذخیره نماید و با دیگران به اشتراک گذارد. [درباره‌ی سنو بیشتر بخوانید](ceno."
 "md)."
@@ -42,8 +42,8 @@ msgid ""
 "Install Ceno Browser from [Google Play][ceno-gplay], [GitHub][ceno-gh] or "
 "[Paskoocheh][ceno-pask]. *No special permissions are needed*."
 msgstr ""
-"مرورگر CENO را از [گوگل پلی][ceno-gplay]، [گیت‌هاب][ceno-gh] یا [پس‌کوچه"
-"][ceno-pask] دریافت و نصب کنید. *به هیچ جواز خاصی نیازی نیست*."
+"مرورگر CENO را از [گوگل پلی][ceno-gplay]، [گیت‌هاب][ceno-gh] یا [پس‌کوچه][ceno-"
+"pask] دریافت و نصب کنید. *به هیچ جواز خاصی نیازی نیست*."
 
 #: intro/qsg.md:block 5 (ordered list)
 msgid "Run it."
@@ -102,19 +102,29 @@ msgstr ""
 "به [راهنمای شناسایی و رفع اشکال](browser/troubleshooting.md/..) رجوع کنید."
 
 #: intro/qsg.md:block 11 (unordered list)
+#, fuzzy
+#| msgid ""
+#| "Contact us by writing to [cenoers@equalit.ie](mailto:cenoers@equalit.ie)."
 msgid ""
-"Contact us by writing to [cenoers@equalit.ie](mailto:cenoers@equalit.ie)."
+"Contact us by writing to [cenoers@equalitie.org](mailto:cenoers@equalitie."
+"org)."
 msgstr ""
 "با ما با نشانی [cenoers@equalit.ie](mailto:cenoers@equalit.ie) تماس بگیرید."
 
 #: intro/qsg.md:block 11 (unordered list)
+#, fuzzy
+#| msgid ""
+#| "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit."
+#| "ceno"
 msgid ""
-"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
+"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.Ceno"
 msgstr ""
 "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
 
 #: intro/qsg.md:block 11 (unordered list)
-msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
+#, fuzzy
+#| msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
+msgid "[ceno-gh]: https://github.com/censorship-no/Ceno-browser/releases"
 msgstr "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
 
 #: intro/qsg.md:block 11 (unordered list)

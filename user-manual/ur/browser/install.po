@@ -51,13 +51,22 @@ msgstr ""
 "ضرورت نہیں* ہے۔"
 
 #: browser/install.md:block 5 (quote)
+#, fuzzy
+#| msgid ""
+#| "**Warning:** Please be *extremely skeptical* about installing Ceno "
+#| "Browser from sources other than the ones listed above. Because of the "
+#| "application's nature, their potential users may become a target for all "
+#| "kinds of fake or manipulated versions used to violate user privacy or "
+#| "attack other Ceno and Ouinet users. If in doubt, please contact "
+#| "[cenoers@equalit.ie](mailto:cenoers@equalit.ie) before installing a "
+#| "suspicious app."
 msgid ""
 "**Warning:** Please be *extremely skeptical* about installing Ceno Browser "
 "from sources other than the ones listed above. Because of the application's "
 "nature, their potential users may become a target for all kinds of fake or "
 "manipulated versions used to violate user privacy or attack other Ceno and "
-"Ouinet users. If in doubt, please contact [cenoers@equalit.ie](mailto:"
-"cenoers@equalit.ie) before installing a suspicious app."
+"Ouinet users. If in doubt, please contact [cenoers@equalitie.org](mailto:"
+"cenoers@equalitie.org) before installing a suspicious app."
 msgstr ""
 "**انتباہ:** براہ کرم اوپر درج کردہ ذرائع کے علاوہ دیگر ذرائع سے Ceno براؤزر "
 "انسٹال کرنے کے بارے میں *انتہائی محتاط* رہیں۔ ایپلیکیشن کی نوعیت کی وجہ سے، "
@@ -91,11 +100,11 @@ msgid ""
 "far from a charger). Tapping on the notification attached to the icon will "
 "stop both Ceno and its service at once (until you open Ceno again)."
 msgstr ""
-"چونکہ اس طرح کی سروس چلانے میں نیٹ ورک اور پروسیسر کے وسائل استعمال ہوتے ہیں،"
-" اس لیے جب بھی آپ چلتے پھرتے ہوں (یعنی وائی فائی سے منسلک نہ ہوں یا چارجر سے "
-"دور ہوں) تو آپ اسے روک سکتے ہیں۔ آئیکن کے ساتھ منسلک نوٹیفکیشن پر دبانے سے "
-"Ceno اور اس کی سروس دونوں ایک ساتھ بند ہو جائیں گی (جب تک کہ آپ Ceno کو "
-"دوبارہ نہیں کھولیں گے)۔"
+"چونکہ اس طرح کی سروس چلانے میں نیٹ ورک اور پروسیسر کے وسائل استعمال ہوتے "
+"ہیں، اس لیے جب بھی آپ چلتے پھرتے ہوں (یعنی وائی فائی سے منسلک نہ ہوں یا "
+"چارجر سے دور ہوں) تو آپ اسے روک سکتے ہیں۔ آئیکن کے ساتھ منسلک نوٹیفکیشن پر "
+"دبانے سے Ceno اور اس کی سروس دونوں ایک ساتھ بند ہو جائیں گی (جب تک کہ آپ "
+"Ceno کو دوبارہ نہیں کھولیں گے)۔"
 
 #: browser/install.md:block 9 (paragraph)
 msgid ""
@@ -152,8 +161,8 @@ msgid ""
 "![Figure: The last action stops Ceno and clears all its data](images/tap-"
 "purge.png)"
 msgstr ""
-"![تصویر: آخری کارروائی Ceno کو روکتی ہے اور اس کے تمام ڈیٹا کو صاف کرتی ہے]("
-"images/tap-purge.png)"
+"![تصویر: آخری کارروائی Ceno کو روکتی ہے اور اس کے تمام ڈیٹا کو صاف کرتی ہے]"
+"(images/tap-purge.png)"
 
 #: browser/install.md:block 15 (paragraph)
 msgid ""
@@ -178,8 +187,8 @@ msgid ""
 msgstr ""
 "**نوٹ:** اوپر بیان کردہ طریقہ کا تقاضا ہے کہ Ceno آپ کے ڈیوائس پر چل رہا ہو۔ "
 "اسی اثر کو پورا کرنے کے لیے جب Ceno روک دیا جاتا ہے، آپ اینڈرائیڈ کا عمومی "
-"*ترتیبات* صفحہ استعمال کرسکتے ہیں اور *ایپس* کے اندراج کے تحت، Ceno اور پھر *"
-"ڈیٹا صاف کریں* کا انتخاب کرسکتے ہیں۔"
+"*ترتیبات* صفحہ استعمال کرسکتے ہیں اور *ایپس* کے اندراج کے تحت، Ceno اور پھر "
+"*ڈیٹا صاف کریں* کا انتخاب کرسکتے ہیں۔"
 
 #: browser/install.md:block 17 (quote)
 msgid "As a harsher alternative, you may completely uninstall the app."
@@ -194,13 +203,19 @@ msgstr ""
 "دیگر نشانات رکھ سکتا ہے، مثال کے طور پر اس کے سسٹم لاگ میں۔"
 
 #: browser/install.md:block 18 (quote)
+#, fuzzy
+#| msgid ""
+#| "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit."
+#| "ceno"
 msgid ""
-"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
+"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.Ceno"
 msgstr ""
 "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
 
 #: browser/install.md:block 18 (quote)
-msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
+#, fuzzy
+#| msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
+msgid "[ceno-gh]: https://github.com/censorship-no/Ceno-browser/releases"
 msgstr "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
 
 #: browser/install.md:block 18 (quote)

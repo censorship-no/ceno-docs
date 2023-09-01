@@ -66,8 +66,8 @@ msgstr ""
 "Só precisa disto para utilizar um browser simples para testar o cliente "
 "Ouinet, caso em que também terá de configurar os seus proxies HTTP/HTTPS "
 "para `127.0.0.1:8077`, e ativar manualmente a [Extensão Ceno][Extensão Ceno] "
-"para injeção a funcionar. Recomendamos vivamente a utilização de um *"
-"separar, perfil de browser específico* para este fim."
+"para injeção a funcionar. Recomendamos vivamente a utilização de um "
+"*separar, perfil de browser específico* para este fim."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
@@ -151,5 +151,8 @@ msgstr ""
 "utiliza atualmente)."
 
 #: client/front-end.md:block 6 (unordered list)
-msgid "[Ceno Extension]: https://github.com/censorship-no/ceno-ext-settings/"
+#, fuzzy
+#| msgid ""
+#| "[Ceno Extension]: https://github.com/censorship-no/ceno-ext-settings/"
+msgid "[Ceno Extension]: https://github.com/censorship-no/Ceno-ext-settings/"
 msgstr "[Extensão Ceno]: https://github.com/censorship-no/ceno-ext-settings/"

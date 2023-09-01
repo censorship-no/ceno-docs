@@ -40,8 +40,9 @@ msgid ""
 ">. If you open it, you will see something like the figure below."
 msgstr ""
 "Интерфейс доступен с помощью любого веб-браузера, запущенного на том же "
-"устройстве (можно использовать и Ceno). Его адрес по умолчанию — <http://127."
-"0.0.1:8078/>. Если вы откроете его, вы увидите нечто похожее на рисунок ниже."
+"устройстве (можно использовать и Ceno). Его адрес по умолчанию — "
+"<http://127.0.0.1:8078/>. Если вы откроете его, вы увидите нечто похожее на "
+"рисунок ниже."
 
 #: client/front-end.md:block 4 (paragraph)
 msgid "![Figure: The client front-end](images/front-end.png)"
@@ -70,8 +71,8 @@ msgstr ""
 "Это нужно только для использования обычного браузера для тестирования "
 "клиента Ouinet, в этом случае вам также придется настроить его HTTP/HTTPS "
 "прокси на `127.0.0.1:8077`, и вручную включить [Расширение Ceno][Расширение "
-"Ceno], чтобы инъекция работала. Мы настоятельно рекомендуем использовать *"
-"отдельный профиль браузера* для этой цели."
+"Ceno], чтобы инъекция работала. Мы настоятельно рекомендуем использовать "
+"*отдельный профиль браузера* для этой цели."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
@@ -155,5 +156,8 @@ msgstr ""
 "его не использует)."
 
 #: client/front-end.md:block 6 (unordered list)
-msgid "[Ceno Extension]: https://github.com/censorship-no/ceno-ext-settings/"
+#, fuzzy
+#| msgid ""
+#| "[Ceno Extension]: https://github.com/censorship-no/ceno-ext-settings/"
+msgid "[Ceno Extension]: https://github.com/censorship-no/Ceno-ext-settings/"
 msgstr "[Расширение Ceno]: https://github.com/censorship-no/ceno-ext-settings/"

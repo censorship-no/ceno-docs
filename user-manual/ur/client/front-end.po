@@ -23,9 +23,10 @@ msgid ""
 "page](../browser/settings.md), though others are only available here."
 msgstr ""
 "Ouinet کلائنٹ (جیسا کہ Ceno براؤزر چلاتا ہے) کچھ معلومات اور اعمال کے ساتھ "
-"ایک فرنٹ اینڈ صفحہ پیش کرتا ہے جو کلائنٹ کو ڈیبگ کرنے کے لیے مفید ہو سکتا ہے۔"
-" ان میں سے بہت سے Ceno ایکسٹینشن کے ذریعہ [*Ceno ترتیبات* صفحہ](../browser/"
-"settings.md) کے ذریعے بھی پیش کیے جاتے ہیں، حالانکہ دیگر صرف یہاں دستیاب ہیں۔"
+"ایک فرنٹ اینڈ صفحہ پیش کرتا ہے جو کلائنٹ کو ڈیبگ کرنے کے لیے مفید ہو سکتا "
+"ہے۔ ان میں سے بہت سے Ceno ایکسٹینشن کے ذریعہ [*Ceno ترتیبات* صفحہ](../"
+"browser/settings.md) کے ذریعے بھی پیش کیے جاتے ہیں، حالانکہ دیگر صرف یہاں "
+"دستیاب ہیں۔"
 
 #: client/front-end.md:block 3 (paragraph)
 msgid ""
@@ -63,10 +64,10 @@ msgid ""
 "specific browser profile* for this purpose."
 msgstr ""
 "آپ کو صرف Ouinet کلائنٹ کی جانچ کے لیے ایک سادہ براؤزر استعمال کرنے کے لیے "
-"اس کی ضرورت ہے، ایسی صورت میں آپ کو اس کی HTTP/HTTPS پراکسیز کو `127.0.0."
-"1:8077` پر ترتیب کرنا پڑے گا، اور انجکشن کو کام کرنے کے لئے [Ceno ایکسٹینشن]["
-"Ceno Extension] کو دستی طور پر فعال کرنا ہوگا۔ ہم اس مقصد کے لیے ایک *علیحدہ،"
-" مخصوص براؤزر پروفائل* استعمال کرنے کی سختی سے سفارش کرتے ہیں۔"
+"اس کی ضرورت ہے، ایسی صورت میں آپ کو اس کی HTTP/HTTPS پراکسیز کو "
+"`127.0.0.1:8077` پر ترتیب کرنا پڑے گا، اور انجکشن کو کام کرنے کے لئے [Ceno "
+"ایکسٹینشن][Ceno Extension] کو دستی طور پر فعال کرنا ہوگا۔ ہم اس مقصد کے لیے "
+"ایک *علیحدہ، مخصوص براؤزر پروفائل* استعمال کرنے کی سختی سے سفارش کرتے ہیں۔"
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
@@ -148,5 +149,8 @@ msgstr ""
 "کرتا ہے)۔"
 
 #: client/front-end.md:block 6 (unordered list)
-msgid "[Ceno Extension]: https://github.com/censorship-no/ceno-ext-settings/"
+#, fuzzy
+#| msgid ""
+#| "[Ceno Extension]: https://github.com/censorship-no/ceno-ext-settings/"
+msgid "[Ceno Extension]: https://github.com/censorship-no/Ceno-ext-settings/"
 msgstr "[Ceno ایکسٹینشن]: https://github.com/censorship-no/ceno-ext-settings/"

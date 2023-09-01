@@ -25,8 +25,8 @@ msgid ""
 "technologies, as created for the [Censorship.no!][Censorship.no!] project by "
 "[eQualitie][eQualitie]."
 msgstr ""
-"Bu rehber, [eQualitie][eQualitie] tarafından [Censorship.no!][Censorship.no!]"
-" projesi için oluşturulan [Ceno Browser][Ceno Browser] ve ilgili "
+"Bu rehber, [eQualitie][eQualitie] tarafından [Censorship.no!][Censorship."
+"no!] projesi için oluşturulan [Ceno Browser][Ceno Browser] ve ilgili "
 "teknolojilerin kullanıcıları için hazırlanmıştır."
 
 #: README.md:block 3 (paragraph)
@@ -37,12 +37,14 @@ msgid ""
 "the [protocol specifications][protocol specifications]."
 msgstr ""
 "Teknik belgeleri arıyorsanız, lütfen [Ceno belgeleri deposu][Ceno belgeleri "
-"deposu] bölümüne bakın. Orada ayrıntılı bilgiler, uygulama ipuçları ve ["
-"iletişim kuralı teknik özellikleri][iletişim kuralı teknik özellikleri] gibi "
-"konuları bulabilirsiniz."
+"deposu] bölümüne bakın. Orada ayrıntılı bilgiler, uygulama ipuçları ve "
+"[iletişim kuralı teknik özellikleri][iletişim kuralı teknik özellikleri] "
+"gibi konuları bulabilirsiniz."
 
 #: README.md:block 3 (paragraph)
-msgid "[Ceno Browser]: https://github.com/censorship-no/ceno-browser"
+#, fuzzy
+#| msgid "[Ceno Browser]: https://github.com/censorship-no/ceno-browser"
+msgid "[Ceno Browser]: https://gitlab.com/censorship-no/ceno-browser"
 msgstr "[Ceno Browser]: https://github.com/censorship-no/ceno-browser"
 
 #: README.md:block 3 (paragraph)
@@ -54,8 +56,12 @@ msgid "[eQualitie]: https://equalit.ie/"
 msgstr "[eQualitie]: https://equalit.ie/"
 
 #: README.md:block 3 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "[Ceno documentation repository]: https://github.com/censorship-no/ceno-"
+#| "docs/"
 msgid ""
-"[Ceno documentation repository]: https://github.com/censorship-no/ceno-docs/"
+"[Ceno documentation repository]: https://github.com/censorship-no/Ceno-docs/"
 msgstr "[Ceno belgeleri deposu]: https://github.com/censorship-no/ceno-docs/"
 
 #: README.md:block 3 (paragraph)

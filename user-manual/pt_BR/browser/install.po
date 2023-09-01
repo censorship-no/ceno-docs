@@ -51,21 +51,30 @@ msgstr ""
 "permissões especiais* para ser executado."
 
 #: browser/install.md:block 5 (quote)
+#, fuzzy
+#| msgid ""
+#| "**Warning:** Please be *extremely skeptical* about installing Ceno "
+#| "Browser from sources other than the ones listed above. Because of the "
+#| "application's nature, their potential users may become a target for all "
+#| "kinds of fake or manipulated versions used to violate user privacy or "
+#| "attack other Ceno and Ouinet users. If in doubt, please contact "
+#| "[cenoers@equalit.ie](mailto:cenoers@equalit.ie) before installing a "
+#| "suspicious app."
 msgid ""
 "**Warning:** Please be *extremely skeptical* about installing Ceno Browser "
 "from sources other than the ones listed above. Because of the application's "
 "nature, their potential users may become a target for all kinds of fake or "
 "manipulated versions used to violate user privacy or attack other Ceno and "
-"Ouinet users. If in doubt, please contact [cenoers@equalit.ie](mailto:"
-"cenoers@equalit.ie) before installing a suspicious app."
+"Ouinet users. If in doubt, please contact [cenoers@equalitie.org](mailto:"
+"cenoers@equalitie.org) before installing a suspicious app."
 msgstr ""
 "**Aviso:** Por favor, seja uma pessoa *extremamente cética* quanto à "
 "instalar o Navegador Ceno de fontes diferentes das listadas acima. Por causa "
 "da natureza da aplicação, seus usuários em potencial podem se tornar um alvo "
 "para todos os tipos de versões falsas ou manipuladas, usadas para violar a "
 "privacidade do usuário ou atacar outros usuários do Ceno e da Ouinet. Quando "
-"estiver em dúvida, por favor contate [cenoers@equalit."
-"ie](mailto:cenoers@equalit.ie) antes de instalar o aplicativo suspeito."
+"estiver em dúvida, por favor contate [cenoers@equalit.ie](mailto:"
+"cenoers@equalit.ie) antes de instalar o aplicativo suspeito."
 
 #: browser/install.md:block 6 (header)
 msgid "Stopping Ceno completely"
@@ -80,10 +89,10 @@ msgid ""
 "from it at any time."
 msgstr ""
 "Todas as vezes em que você iniciar o aplicativo, um ícone do Ceno aparecerá "
-"na barra de notificações de seu dispositivo. Esse ícone representa o *"
-"serviço do Navegador Ceno*, a parte do Ceno que é executada permanentemente ("
-"mesmo quando você não está navegando) e permite que outros clientes usem seu "
-"dispositivo como uma ponte e recuperem conteúdo dela a qualquer momento."
+"na barra de notificações de seu dispositivo. Esse ícone representa o "
+"*serviço do Navegador Ceno*, a parte do Ceno que é executada permanentemente "
+"(mesmo quando você não está navegando) e permite que outros clientes usem "
+"seu dispositivo como uma ponte e recuperem conteúdo dela a qualquer momento."
 
 #: browser/install.md:block 8 (paragraph)
 msgid ""
@@ -154,8 +163,8 @@ msgid ""
 "![Figure: The last action stops Ceno and clears all its data](images/tap-"
 "purge.png)"
 msgstr ""
-"![Figura: A última ação interrompe o Ceno e limpa todos os seus dados]("
-"images/tap-purge.png)"
+"![Figura: A última ação interrompe o Ceno e limpa todos os seus dados]"
+"(images/tap-purge.png)"
 
 #: browser/install.md:block 15 (paragraph)
 msgid ""
@@ -198,13 +207,19 @@ msgstr ""
 "de um aplicativo; por exemplo no seu log do sistema."
 
 #: browser/install.md:block 18 (quote)
+#, fuzzy
+#| msgid ""
+#| "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit."
+#| "ceno"
 msgid ""
-"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
+"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.Ceno"
 msgstr ""
 "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
 
 #: browser/install.md:block 18 (quote)
-msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
+#, fuzzy
+#| msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
+msgid "[ceno-gh]: https://github.com/censorship-no/Ceno-browser/releases"
 msgstr "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
 
 #: browser/install.md:block 18 (quote)
