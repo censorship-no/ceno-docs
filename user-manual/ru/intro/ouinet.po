@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-03 02:50+0200\n"
-"PO-Revision-Date: 2023-05-17 03:14+0000\n"
+"PO-Revision-Date: 2023-09-01 23:03+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/censorship-no/"
 "ouinet/ru/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.0.1-dev\n"
 
 #
 #: intro/ouinet.md:block 1 (header)
@@ -114,8 +114,8 @@ msgstr ""
 "Обратите внимание, что Ouinet — это развивающийся экспериментальный проект: "
 "в определенных случаях некоторые функции могут работать недостаточно "
 "стабильно; также могут встречаться ошибки и происходить сбои. Мы просим вас "
-"связаться с нами по адресу [cenoers@equalit.ie](mailto:cenoers@equalit.ie) и "
-"сообщить о вашем опыте — будем рады вашим отзывам!"
+"связаться с нами по адресу [cenoers@equalitie.org](mailto:cenoers@equalitie."
+"org) и сообщить о вашем опыте — будем рады вашим отзывам!"
 
 #: intro/ouinet.md:block 9 (quote)
 msgid ""
