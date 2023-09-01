@@ -2,7 +2,7 @@
 
 This manual is aimed at users of [Ceno Browser][] and related technologies, as created for the [Censorship.no!][] project by [eQualitie][].
 
-[Ceno Browser]: https://github.com/censorship-no/Ceno-browser
+[Ceno Browser]: https://gitlab.com/censorship-no/Ceno-browser
 [Censorship.no!]: https://censorship.no/
 [eQualitie]: https://equalit.ie/
 
