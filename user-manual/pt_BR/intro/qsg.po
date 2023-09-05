@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-09-05 19:57+0000\n"
+"PO-Revision-Date: 2023-09-05 21:33+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "censorship-no/qsg/pt_BR/>\n"
@@ -120,7 +120,7 @@ msgstr ""
 #: intro/qsg.md:block 11 (unordered list)
 #, fuzzy
 msgid "[ceno-gh]: https://github.com/censorship-no/Ceno-browser/releases"
-msgstr "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
+msgstr "[ceno-gh]: https://gitlab.com/censorship-no/ceno-browser/releases"
 
 #: intro/qsg.md:block 11 (unordered list)
 msgid "[ceno-pask]: https://paskoocheh.com/tools/124/android.html"
@@ -136,7 +136,7 @@ msgstr ""
 #: intro/qsg.md:block 11 (unordered list)
 #, fuzzy
 msgid "[ceno-gh]: https://gitlab.com/censorship-no/ceno-browser/releases"
-msgstr "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
+msgstr "[ceno-gh]: https://gitlab.com/censorship-no/ceno-browser/releases"
 
 #, fuzzy
 #~| msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
