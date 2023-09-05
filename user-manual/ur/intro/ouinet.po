@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-09-01 22:39+0000\n"
+"PO-Revision-Date: 2023-09-01 23:03+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Urdu <https://hosted.weblate.org/projects/censorship-no/"
 "ouinet/ur/>\n"
@@ -107,9 +107,9 @@ msgid ""
 msgstr ""
 "براہ کرم نوٹ کریں کہ Ouinet ایک ابھرتا ہوا تجرباتی پروجیکٹ ہے: ہو سکتا ہے کہ "
 "کچھ خصوصیات کچھ خاص حالات میں قابل اعتماد طریقے سے کام نہ کریں، بگز موجود ہو "
-"سکتے ہیں اور کریش ہو سکتے ہیں۔ ہم آپ کو [cenoers@equalit.ie](mailto:"
-"cenoers@equalit.ie) پر ہم سے رابطہ کرنے کی ترغیب دیتے ہیں، اس کی جانچ کریں "
-"اور دوبارہ رپورٹ کریں - آپ کے تاثرات کا خیر مقدم کیا جاتا ہے!"
+"سکتے ہیں اور کریش ہو سکتے ہیں۔ ہم آپ کو [cenoers@equalitie."
+"org](mailto:cenoers@equalitie.org) پر ہم سے رابطہ کرنے کی ترغیب دیتے ہیں، اس "
+"کی جانچ کریں اور دوبارہ رپورٹ کریں - آپ کے تاثرات کا خیر مقدم کیا جاتا ہے!"
 
 #: intro/ouinet.md:block 9 (quote)
 msgid ""

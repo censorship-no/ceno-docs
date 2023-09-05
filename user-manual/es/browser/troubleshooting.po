@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-10 11:02+0200\n"
-"PO-Revision-Date: 2023-05-17 03:05+0000\n"
+"PO-Revision-Date: 2023-09-01 23:03+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/censorship-no/"
 "browser-troubleshooting/es/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.0.1-dev\n"
 
 #
 #: browser/troubleshooting.md:block 1 (header)
@@ -45,8 +45,8 @@ msgid ""
 "If problems still persist, please report them to [cenoers@equalitie.org]"
 "(mailto:cenoers@equalitie.org). We will try to help you with them."
 msgstr ""
-"Si los problemas aún persisten, por favor repórtalos a [cenoers@equalit.ie]"
-"(mailto:cenoers@equalit.ie). Intentaremos ayudarte con ellos."
+"Si los problemas aún persisten, por favor repórtalos a [cenoers@equalitie."
+"org](mailto:cenoers@equalitie.org). Intentaremos ayudarte con ellos."
 
 #: browser/troubleshooting.md:block 4 (header)
 msgid "There is no Ceno entry in the app menu"

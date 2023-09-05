@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-09-01 22:39+0000\n"
+"PO-Revision-Date: 2023-09-01 23:03+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Urdu <https://hosted.weblate.org/projects/censorship-no/"
 "browser-readme/ur/>\n"
@@ -53,8 +53,8 @@ msgid ""
 "(mailto:cenoers@equalitie.org) and report the issue."
 msgstr ""
 "اگر آپ کی درخواست یہاں بیان کردہ طرز عمل سے کافی حد تک مختلف ہوتی ہے، تو ہم "
-"سے [cenoers@equalit.ie](mailto:cenoers@equalit.ie) پر رابطہ کرنے میں ہچکچاہٹ "
-"محسوس نہ کریں اور مسئلے کی اطلاع دیں۔"
+"سے [cenoers@equalitie.org](mailto:cenoers@equalitie.org) پر رابطہ کرنے میں "
+"ہچکچاہٹ محسوس نہ کریں اور مسئلے کی اطلاع دیں۔"
 
 #: browser/README.md:block 4 (paragraph)
 msgid "[Firefox for Android]: https://www.mozilla.org/firefox/android/"

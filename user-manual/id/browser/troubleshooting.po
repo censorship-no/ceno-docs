@@ -1,15 +1,15 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-08-08 19:48+0000\n"
-"Last-Translator: Taufik Adi Wicaksono <taufikadi.wicaksono@tutamail.com>\n"
+"PO-Revision-Date: 2023-09-01 23:03+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-troubleshooting/id/>\n"
 "Language: id\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.0-dev\n"
+"X-Generator: Weblate 5.0.1-dev\n"
 
 #: browser/troubleshooting.md:block 1 (header)
 msgid "Troubleshooting"
@@ -40,8 +40,8 @@ msgid ""
 "If problems still persist, please report them to [cenoers@equalitie.org]"
 "(mailto:cenoers@equalitie.org). We will try to help you with them."
 msgstr ""
-"Jika masalah masih berlanjut, silakan laporkan ke [cenoers@equalit.ie]"
-"(mailto:cenoers@equalit.ie). Kami akan mencoba untuk membantu Anda."
+"Jika masalah masih berlanjut, silakan laporkan ke [cenoers@equalitie."
+"org](mailto:cenoers@equalitie.org). Kami akan mencoba untuk membantu Anda."
 
 #: browser/troubleshooting.md:block 4 (header)
 msgid "There is no Ceno entry in the app menu"

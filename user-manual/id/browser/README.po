@@ -1,15 +1,15 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-07-14 19:47+0000\n"
-"Last-Translator: Taufik Adi Wicaksono <taufikadi.wicaksono@tutamail.com>\n"
+"PO-Revision-Date: 2023-09-01 23:03+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-readme/id/>\n"
 "Language: id\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.0-dev\n"
+"X-Generator: Weblate 5.0.1-dev\n"
 
 #: browser/README.md:block 1 (header)
 msgid "Using Ceno Browser"
@@ -54,8 +54,8 @@ msgid ""
 "(mailto:cenoers@equalitie.org) and report the issue."
 msgstr ""
 "Jika aplikasi Anda menunjukkan perilaku yang sangat berbeda dari yang "
-"dijelaskan di sini, jangan ragu untuk menghubungi kami di [cenoers@equalit."
-"ie](mailto:cenoers@equalit.ie) dan laporkan masalah tersebut."
+"dijelaskan di sini, jangan ragu untuk menghubungi kami di [cenoers@equalitie."
+"org](mailto:cenoers@equalitie.org) dan laporkan masalah tersebut."
 
 #: browser/README.md:block 4 (paragraph)
 msgid "[Firefox for Android]: https://www.mozilla.org/firefox/android/"

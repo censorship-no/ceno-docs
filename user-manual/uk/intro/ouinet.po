@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-17 03:14+0000\n"
+"PO-Revision-Date: 2023-09-01 23:03+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "ouinet/uk/>\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.0.1-dev\n"
 
 #: intro/ouinet.md:block 1 (header)
 msgid "What is Ouinet?"
@@ -109,8 +109,8 @@ msgstr ""
 "Будь ласка, зверніть увагу, що Ouinet – це експериментальний проєкт, що "
 "розвивається: іноді деякі функції можуть працювати недостатньо стабільно; "
 "можливі також помилки та збої. Ми просимо Вас контактувати з нами за адресою "
-"[cenoers@equalit.ie](mailto:cenoers@equalit.ie), тестувати та повідомляти "
-"про Ваш досвід – будемо раді Вашим відгукам!"
+"[cenoers@equalitie.org](mailto:cenoers@equalitie.org), тестувати та "
+"повідомляти про Ваш досвід – будемо раді Вашим відгукам!"
 
 #: intro/ouinet.md:block 9 (quote)
 msgid ""

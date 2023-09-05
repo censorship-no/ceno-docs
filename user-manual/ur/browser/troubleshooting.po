@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-09-01 22:39+0000\n"
+"PO-Revision-Date: 2023-09-01 23:03+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Urdu <https://hosted.weblate.org/projects/censorship-no/"
 "browser-troubleshooting/ur/>\n"
@@ -39,9 +39,9 @@ msgid ""
 "If problems still persist, please report them to [cenoers@equalitie.org]"
 "(mailto:cenoers@equalitie.org). We will try to help you with them."
 msgstr ""
-"اگر مسائل اب بھی برقرار رہتے ہیں، تو براہ کرم ان کی اطلاع [cenoers@equalit."
-"ie](mailto:cenoers@equalit.ie) پر دیں۔ ہم آپ کی ان کے ساتھ مدد کرنے کی کوشش "
-"کریں گے۔"
+"اگر مسائل اب بھی برقرار رہتے ہیں، تو براہ کرم ان کی اطلاع [cenoers@equalitie."
+"org](mailto:cenoers@equalitie.org) پر دیں۔ ہم آپ کی ان کے ساتھ مدد کرنے کی "
+"کوشش کریں گے۔"
 
 #: browser/troubleshooting.md:block 4 (header)
 msgid "There is no Ceno entry in the app menu"

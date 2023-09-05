@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-17 03:06+0000\n"
+"PO-Revision-Date: 2023-09-01 23:03+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-readme/uk/>\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.0.1-dev\n"
 
 #: browser/README.md:block 1 (header)
 msgid "Using Ceno Browser"
@@ -55,8 +55,8 @@ msgid ""
 "(mailto:cenoers@equalitie.org) and report the issue."
 msgstr ""
 "Якщо Ваша програма функціонує суттєво інакше, як описано тут, не вагайтеся "
-"звʼязатися з нами за адресою [cenoers@equalit.ie](mailto:cenoers@equalit.ie) "
-"та повідомити про проблему."
+"звʼязатися з нами за адресою [cenoers@equalitie.org](mailto:cenoers@equalitie"
+".org) та повідомити про проблему."
 
 #: browser/README.md:block 4 (paragraph)
 msgid "[Firefox for Android]: https://www.mozilla.org/firefox/android/"

@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-17 03:06+0000\n"
+"PO-Revision-Date: 2023-09-01 23:03+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-readme/fa/>\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.0.1-dev\n"
 
 #
 #: browser/README.md:block 1 (header)
@@ -53,9 +53,9 @@ msgid ""
 "described here, do not hesitate to contact us at [cenoers@equalitie.org]"
 "(mailto:cenoers@equalitie.org) and report the issue."
 msgstr ""
-"اگر نرم‌افزار شما در ظاهر یا عملکرد تفاوت عمده‌ای را با آن‌چه در این‌جا توصیف شد "
-"نشان می‌دهد، در تماس با ما با نشانی [cenoers@equalit.ie](mailto:"
-"cenoers@equalit.ie) مکث نکنید و مشکل را گزارش کنید."
+"اگر نرم‌افزار شما در ظاهر یا عملکرد تفاوت عمده‌ای را با آن‌چه در این‌جا "
+"توصیف شد نشان می‌دهد، در تماس با ما با نشانی [cenoers@equalitie."
+"org](mailto:cenoers@equalitie.org) مکث نکنید و مشکل را گزارش کنید."
 
 #: browser/README.md:block 4 (paragraph)
 msgid "[Firefox for Android]: https://www.mozilla.org/firefox/android/"

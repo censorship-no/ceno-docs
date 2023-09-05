@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-17 03:09+0000\n"
+"PO-Revision-Date: 2023-09-01 23:03+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Urdu <https://hosted.weblate.org/projects/censorship-no/"
 "browser-install/ur/>\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.0.1-dev\n"
 
 #: browser/install.md:block 1 (header)
 msgid "Installing Ceno"
@@ -73,7 +73,8 @@ msgstr ""
 "ان کے ممکنہ صارفین ہر قسم کے جعلی یا ہیرا پھیری والے ورژنز کا نشانہ بن سکتے "
 "ہیں جو صارف کی رازداری کی خلاف ورزی کرنے یا دوسرے Ceno اور Ouinet صارفین پر "
 "حملہ کرنے کے لیے استعمال ہوتے ہیں۔ اگر شک ہو تو، مشتبہ ایپ کو انسٹال کرنے سے "
-"پہلے براہ کرم [cenoers@equalit.ie](mailto:cenoers@equalit.ie) سے رابطہ کریں۔"
+"پہلے براہ کرم [cenoers@equalitie.org](mailto:cenoers@equalitie.org) سے رابطہ "
+"کریں۔"
 
 #: browser/install.md:block 6 (header)
 msgid "Stopping Ceno completely"
