@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-09-05 22:42+0000\n"
+"PO-Revision-Date: 2023-09-05 22:49+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-bridging/fa/>\n"
@@ -412,10 +412,6 @@ msgid "[docker-install]: https://docs.docker.com/engine/install/"
 msgstr "[docker-install]: https://docs.docker.com/engine/install"
 
 #: browser/bridging.md:block 35 (quote)
-#, fuzzy
-#| msgid ""
-#| "[ceno-client-doc]: https://github.com/censorship-no/ceno-docker-"
-#| "client#running-the-client"
 msgid ""
 "[ceno-client-doc]: https://gitlab.com/censorship-no/ceno-docker-"
 "client#running-the-client"
