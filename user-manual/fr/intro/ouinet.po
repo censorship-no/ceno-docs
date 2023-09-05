@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-03 02:50+0200\n"
-"PO-Revision-Date: 2023-09-05 19:57+0000\n"
+"PO-Revision-Date: 2023-09-05 21:33+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/censorship-no/"
 "ouinet/fr/>\n"
@@ -125,7 +125,7 @@ msgstr ""
 
 #: intro/ouinet.md:block 9 (quote)
 msgid "[Ouinet]: https://github.com/equalitie/ouinet/"
-msgstr "[Ouinet] : https://github.com/equalitie/ouinet/"
+msgstr "[Ouinet] : https://gitlab.com/equalitie/ouinet/"
 
 #: intro/ouinet.md:block 9 (quote)
 msgid "[P2P]: https://en.wikipedia.org/wiki/Peer-to-peer"
@@ -133,9 +133,9 @@ msgstr "[Pair à pair] : https://fr.wikipedia.org/wiki/Pair-%C3%A0-pair"
 
 #: intro/ouinet.md:block 9 (quote)
 msgid "[eQualitie]: https://equalit.ie/"
-msgstr "[eQualitie] : https://equalit.ie/fr/"
+msgstr "[eQualitie]: https://equalit.ie/fr/"
 
 #: intro/ouinet.md:block 9 (quote)
 #, fuzzy
 msgid "[Ouinet]: https://gitlab.com/equalitie/ouinet/"
-msgstr "[Ouinet] : https://github.com/equalitie/ouinet/"
+msgstr "[Ouinet] : https://gitlab.com/equalitie/ouinet/"
