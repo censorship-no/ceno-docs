@@ -203,8 +203,8 @@ msgid ""
 msgstr ""
 "El comando iniciará un contenedor llamado `ceno-client` que se ejecutará en "
 "cada inicio de la máquina a menos que explícitamente le digas que se "
-"detenga. Por favor comprueba la [Documentación del cliente Ceno de Docker"
-"][ceno-client-doc] para más información sobre cómo manipular al contenedor."
+"detenga. Por favor comprueba la [Documentación del cliente Ceno de Docker]"
+"[ceno-client-doc] para más información sobre cómo manipular al contenedor."
 
 #: browser/bridging.md:block 18 (quote)
 msgid ""
@@ -422,12 +422,16 @@ msgid "[docker-install]: https://docs.docker.com/engine/install/"
 msgstr "[docker-install]: https://docs.docker.com/engine/install/"
 
 #: browser/bridging.md:block 35 (quote)
+#, fuzzy
+#| msgid ""
+#| "[ceno-client-doc]: https://github.com/censorship-no/ceno-docker-"
+#| "client#running-the-client"
 msgid ""
-"[ceno-client-doc]: https://github.com/censorship-no/ceno-docker-"
+"[ceno-client-doc]: https://gitlab.com/censorship-no/ceno-docker-"
 "client#running-the-client"
 msgstr ""
-"[ceno-client-doc]: https://github.com/censorship-no/ceno-docker-client"
-"#running-the-client"
+"[ceno-client-doc]: https://github.com/censorship-no/ceno-docker-"
+"client#running-the-client"
 
 #: browser/bridging.md:block 35 (quote)
 msgid "[UPnP]: https://en.wikipedia.org/wiki/Universal_Plug_and_Play"

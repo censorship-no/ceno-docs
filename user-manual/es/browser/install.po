@@ -32,8 +32,8 @@ msgstr ""
 "recomendada para la mayoría de usuaria(o)s de Android."
 
 #: browser/install.md:block 3 (unordered list)
-msgid "[GitHub][ceno-gh]: for Android devices without Google Play."
-msgstr "[GitHub][ceno-gh]: para dispositivos Android sin Google Play."
+msgid "[Gitlab][ceno-gh]: for Android devices without Google Play."
+msgstr "[Gitlab][ceno-gh]: para dispositivos Android sin Google Play."
 
 #: browser/install.md:block 3 (unordered list)
 msgid ""
@@ -203,35 +203,33 @@ msgstr ""
 
 #: browser/install.md:block 18 (quote)
 msgid ""
-"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.Ceno"
+"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
 msgstr ""
 "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
 
 #: browser/install.md:block 18 (quote)
-msgid "[ceno-gh]: https://github.com/censorship-no/Ceno-browser/releases"
-msgstr "[ceno-gh]: https://gitlab.com/censorship-no/ceno-browser/releases"
+msgid "[ceno-gh]: https://gitlab.com/censorship-no/ceno-browser/-/releases"
+msgstr "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
 
 #: browser/install.md:block 18 (quote)
 msgid "[ceno-pask]: https://paskoocheh.com/tools/124/android.html"
 msgstr "[ceno-pask]: https://paskoocheh.com/tools/124/android.html"
 
-#: browser/install.md:block 18 (quote)
-msgid ""
-"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
-msgstr ""
-"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
+#~ msgid "[GitHub][ceno-gh]: for Android devices without Google Play."
+#~ msgstr "[GitHub][ceno-gh]: para dispositivos Android sin Google Play."
 
-#: browser/install.md:block 18 (quote)
-msgid "[ceno-gh]: https://gitlab.com/censorship-no/ceno-browser/releases"
-msgstr "[ceno-gh]: https://gitlab.com/censorship-no/ceno-browser/releases"
+#~ msgid ""
+#~ "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit."
+#~ "Ceno"
+#~ msgstr ""
+#~ "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit."
+#~ "ceno"
 
-#: browser/install.md:block 3 (unordered list)
-msgid "[Gitlab][ceno-gh]: for Android devices without Google Play."
-msgstr "[Gitlab][ceno-gh]: para dispositivos Android sin Google Play."
+#~ msgid "[ceno-gh]: https://github.com/censorship-no/Ceno-browser/releases"
+#~ msgstr "[ceno-gh]: https://gitlab.com/censorship-no/ceno-browser/releases"
 
-#: browser/install.md:block 18 (quote)
-msgid "[ceno-gh]: https://gitlab.com/censorship-no/ceno-browser/-/releases"
-msgstr "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
+#~ msgid "[ceno-gh]: https://gitlab.com/censorship-no/ceno-browser/releases"
+#~ msgstr "[ceno-gh]: https://gitlab.com/censorship-no/ceno-browser/releases"
 
 #~ msgid "CENO requires *no special permissions* to run."
 #~ msgstr "CENO *no requiere permisos especiales* para ejecutarse."

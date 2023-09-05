@@ -192,11 +192,10 @@ msgid ""
 "Docker client documentation][ceno-client-doc] for more information on how to "
 "manipulate the container."
 msgstr ""
-"ညွှန်ကြားချက်သည် `ceno-client` နာမည်ဖြင့် ကွန်တိန်နာတစ်ခုကို စတင်ပြီးနောက် "
-"သင့်အနေဖြင့် ရပ်မည့်အကြောင်းအတိအလင်းမပြောမချင်း အချိန်တိုင်းမှာ "
-"အလုပ်လုပ်နေပါလိမ့်မည်။ ကွန်တိန်နာကို ကိုင်တွယ်ထိန်းချုပ်ရန်အတွက် "
-"အချက်အလက်များကိုထပ်မံသိလိုပါက [Ceno Docker အသုံးပြုသူ စာရွက်စာတမ်း][ceno-"
-"client-doc] တွင် ကျေးဇူးပြုပြီး ဝင်ရောက်လေ့လာပါ။"
+"ညွှန်ကြားချက်သည် `ceno-client` နာမည်ဖြင့် ကွန်တိန်နာတစ်ခုကို စတင်ပြီးနောက် သင့်အနေဖြင့် "
+"ရပ်မည့်အကြောင်းအတိအလင်းမပြောမချင်း အချိန်တိုင်းမှာ အလုပ်လုပ်နေပါလိမ့်မည်။ ကွန်တိန်နာကို ကိုင်တွယ်ထိန်းချုပ်ရန်အတွက် "
+"အချက်အလက်များကိုထပ်မံသိလိုပါက [Ceno Docker အသုံးပြုသူ စာရွက်စာတမ်း][ceno-client-doc] တွင် "
+"ကျေးဇူးပြုပြီး ဝင်ရောက်လေ့လာပါ။"
 
 #: browser/bridging.md:block 18 (quote)
 msgid ""
@@ -405,12 +404,16 @@ msgid "[docker-install]: https://docs.docker.com/engine/install/"
 msgstr "[docker-install]: https://docs.docker.com/engine/install/"
 
 #: browser/bridging.md:block 35 (quote)
+#, fuzzy
+#| msgid ""
+#| "[ceno-client-doc]: https://github.com/censorship-no/ceno-docker-"
+#| "client#running-the-client"
 msgid ""
-"[ceno-client-doc]: https://github.com/censorship-no/ceno-docker-"
+"[ceno-client-doc]: https://gitlab.com/censorship-no/ceno-docker-"
 "client#running-the-client"
 msgstr ""
-"[ceno-client-doc]: https://github.com/censorship-no/ceno-docker-client"
-"#running-the-client"
+"[ceno-client-doc]: https://github.com/censorship-no/ceno-docker-"
+"client#running-the-client"
 
 #: browser/bridging.md:block 35 (quote)
 msgid "[UPnP]: https://en.wikipedia.org/wiki/Universal_Plug_and_Play"
