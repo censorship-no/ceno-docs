@@ -120,5 +120,5 @@ msgid ""
 msgstr ""
 
 #: intro/ceno.md:block 11 (quote)
-msgid "[Ceno-repos]: https://gitlab.com/censorship-no/"
+msgid "[ceno-repos]: https://gitlab.com/censorship-no/"
 msgstr ""
