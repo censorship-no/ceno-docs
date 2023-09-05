@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-09-01 23:03+0000\n"
+"PO-Revision-Date: 2023-09-05 19:57+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "censorship-no/browser-install/pt_BR/>\n"
@@ -51,15 +51,6 @@ msgstr ""
 "permissões especiais* para ser executado."
 
 #: browser/install.md:block 5 (quote)
-#, fuzzy
-#| msgid ""
-#| "**Warning:** Please be *extremely skeptical* about installing Ceno "
-#| "Browser from sources other than the ones listed above. Because of the "
-#| "application's nature, their potential users may become a target for all "
-#| "kinds of fake or manipulated versions used to violate user privacy or "
-#| "attack other Ceno and Ouinet users. If in doubt, please contact "
-#| "[cenoers@equalit.ie](mailto:cenoers@equalit.ie) before installing a "
-#| "suspicious app."
 msgid ""
 "**Warning:** Please be *extremely skeptical* about installing Ceno Browser "
 "from sources other than the ones listed above. Because of the application's "
