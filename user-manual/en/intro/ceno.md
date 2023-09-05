@@ -15,11 +15,11 @@ Ceno Browser is built on an adapted version of [Firefox for Android][], a popula
 
 ## Who develops Ceno?
 
-The *Censorship.no!* project is run by [eQualitie][] in support of Articles 18, 19 and 20 of the [Universal Declaration of Human Rights][].  Ceno and related technologies are developed as Free/Libre/Open Source software ([project source][Ceno-repos]), allowing anyone to use, study, share and enhance it.  Please contact <cenoers@equalitie.org> in case of doubt or for further information.
+The *Censorship.no!* project is run by [eQualitie][] in support of Articles 18, 19 and 20 of the [Universal Declaration of Human Rights][].  Ceno and related technologies are developed as Free/Libre/Open Source software ([project source][ceno-repos]), allowing anyone to use, study, share and enhance it.  Please contact <cenoers@equalitie.org> in case of doubt or for further information.
 
 [eQualitie]: https://equalit.ie/
 [Universal Declaration of Human Rights]: https://www.un.org/en/universal-declaration-human-rights/
-[Ceno-repos]: https://gitlab.com/censorship-no/
+[ceno-repos]: https://gitlab.com/censorship-no/
     "Ceno source code repositories"
 
 ## Who is it for?
