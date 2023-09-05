@@ -200,5 +200,5 @@ msgstr ""
 #: intro/ceno.md:block 11 (quote)
 #, fuzzy
 #| msgid "[ceno-repos]: https://github.com/censorship-no/"
-msgid "[Ceno-repos]: https://gitlab.com/censorship-no/"
+msgid "[ceno-repos]: https://gitlab.com/censorship-no/"
 msgstr "[ceno-repos]: https://github.com/censorship-no/"

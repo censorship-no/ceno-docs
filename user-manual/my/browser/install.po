@@ -32,7 +32,9 @@ msgstr ""
 "သုံးစွဲသူအများစုအတွက် အကြံပြုထားသော ရင်းမြစ်ဖြစ်သည်။"
 
 #: browser/install.md:block 3 (unordered list)
-msgid "[GitHub][ceno-gh]: for Android devices without Google Play."
+#, fuzzy
+#| msgid "[GitHub][ceno-gh]: for Android devices without Google Play."
+msgid "[Gitlab][ceno-gh]: for Android devices without Google Play."
 msgstr "[GitHub][ceno-gh] - Google Play မပါသော Android စက်များအတွက် ဖြစ်သည်။"
 
 #: browser/install.md:block 3 (unordered list)
@@ -210,7 +212,7 @@ msgstr ""
 #: browser/install.md:block 18 (quote)
 #, fuzzy
 #| msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
-msgid "[ceno-gh]: https://gitlab.com/censorship-no/ceno-browser/releases"
+msgid "[ceno-gh]: https://gitlab.com/censorship-no/ceno-browser/-/releases"
 msgstr "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
 
 #: browser/install.md:block 18 (quote)
