@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2023-09-05 21:32+0000\n"
+"PO-Revision-Date: 2023-09-05 21:59+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "browser-install/my/>\n"
@@ -196,7 +196,6 @@ msgstr ""
 "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
 
 #: browser/install.md:block 18 (quote)
-#, fuzzy
 msgid "[ceno-gh]: https://github.com/censorship-no/Ceno-browser/releases"
 msgstr "[ceno-gh]: https://gitlab.com/censorship-no/ceno-browser/releases"
 
@@ -212,7 +211,6 @@ msgstr ""
 "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
 
 #: browser/install.md:block 18 (quote)
-#, fuzzy
 msgid "[ceno-gh]: https://gitlab.com/censorship-no/ceno-browser/releases"
 msgstr "[ceno-gh]: https://gitlab.com/censorship-no/ceno-browser/releases"
 
@@ -222,7 +220,6 @@ msgid "[Gitlab][ceno-gh]: for Android devices without Google Play."
 msgstr "[GitHub][ceno-gh] - Google Play မပါသော Android စက်များအတွက် ဖြစ်သည်။"
 
 #: browser/install.md:block 18 (quote)
-#, fuzzy
 msgid "[ceno-gh]: https://gitlab.com/censorship-no/ceno-browser/-/releases"
 msgstr "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
 
