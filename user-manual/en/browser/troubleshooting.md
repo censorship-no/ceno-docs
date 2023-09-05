@@ -78,7 +78,7 @@ Also note that the clients holding copies of injected content need to be reachab
 
 Ceno automatically switches to the more secure HTTPS protocol to access sites which would otherwise be accessed using plain, insecure HTTP.  This is done by the embedded [HTTPS by default][] extension when you enter a bare domain name like `example.com` or an HTTP URL like `http://example.com/…` in the location bar, or when you follow a link with such a URL in a page.
 
-[HTTPS by default]: https://gitlab.com/Rob--W/https-by-default
+[HTTPS by default]: https://github.com/Rob--W/https-by-default
 
 The automatic switching to HTTPS is done to prevent someone from intercepting an HTTP connection and directing it to an illegitimate server, resulting in bogus content (like a block message).  This kind of hijacking is trivial to detect with HTTPS, so Ceno can work around it instead of being tricked into loading the bogus content.
 

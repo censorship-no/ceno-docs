@@ -39,9 +39,8 @@ msgid ""
 "If problems still persist, please report them to [cenoers@equalitie.org]"
 "(mailto:cenoers@equalitie.org). We will try to help you with them."
 msgstr ""
-"ပြဿနာ ဆက်ရှိနေသေးပါက ကျေးဇူးပြု၍ ၎င်းတို့ကို [cenoers@equalitie."
-"org](mailto:cenoers@equalitie.org) ထံ သတင်းပို့ပါ။ ကျွန်ုပ်တို့သည် သင့်အား "
-"၎င်းတို့နှင့် ပတ်သက်၍ ကူညီရန် ကြိုးစားပါမည်။"
+"ပြဿနာ ဆက်ရှိနေသေးပါက ကျေးဇူးပြု၍ ၎င်းတို့ကို [cenoers@equalitie.org](mailto:"
+"cenoers@equalitie.org) ထံ သတင်းပို့ပါ။ ကျွန်ုပ်တို့သည် သင့်အား ၎င်းတို့နှင့် ပတ်သက်၍ ကူညီရန် ကြိုးစားပါမည်။"
 
 #: browser/troubleshooting.md:block 4 (header)
 msgid "There is no Ceno entry in the app menu"
@@ -652,3 +651,8 @@ msgstr "[HTTPS by default]: https://github.com/Rob--W/https-by-default"
 
 #~ msgid "[HTTPS Everywhere]: https://www.eff.org/https-everywhere/"
 #~ msgstr "[HTTPS Everywhere]: https://www.eff.org/https-everywhere/"
+
+#, fuzzy
+#~| msgid "[HTTPS by default]: https://github.com/Rob--W/https-by-default"
+#~ msgid "[HTTPS by default]: https://gitlab.com/Rob--W/https-by-default"
+#~ msgstr "[HTTPS by default]: https://github.com/Rob--W/https-by-default"

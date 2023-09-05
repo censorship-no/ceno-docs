@@ -8,8 +8,8 @@ msgstr ""
 "Language: uk\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.0.1-dev\n"
 
 #: browser/troubleshooting.md:block 1 (header)
@@ -690,3 +690,8 @@ msgstr "[HTTPS by default]: https://github.com/Rob--W/https-by-default"
 
 #~ msgid "[HTTPS Everywhere]: https://www.eff.org/https-everywhere/"
 #~ msgstr "[HTTPS Everywhere]: https://www.eff.org/https-everywhere/"
+
+#, fuzzy
+#~| msgid "[HTTPS by default]: https://github.com/Rob--W/https-by-default"
+#~ msgid "[HTTPS by default]: https://gitlab.com/Rob--W/https-by-default"
+#~ msgstr "[HTTPS by default]: https://github.com/Rob--W/https-by-default"
