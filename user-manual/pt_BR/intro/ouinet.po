@@ -125,7 +125,9 @@ msgstr ""
 "contatar."
 
 #: intro/ouinet.md:block 9 (quote)
-msgid "[Ouinet]: https://github.com/equalitie/ouinet/"
+#, fuzzy
+#| msgid "[Ouinet]: https://github.com/equalitie/ouinet/"
+msgid "[Ouinet]: https://gitlab.com/equalitie/ouinet/"
 msgstr "[Ouinet]: https://github.com/equalitie/ouinet/"
 
 #: intro/ouinet.md:block 9 (quote)

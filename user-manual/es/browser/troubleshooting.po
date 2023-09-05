@@ -627,7 +627,9 @@ msgstr ""
 "(bridging.md) para más instrucciones."
 
 #: browser/troubleshooting.md:block 51 (quote)
-msgid "[HTTPS by default]: https://github.com/Rob--W/https-by-default"
+#, fuzzy
+#| msgid "[HTTPS by default]: https://github.com/Rob--W/https-by-default"
+msgid "[HTTPS by default]: https://gitlab.com/Rob--W/https-by-default"
 msgstr "[HTTPS by default]: https://github.com/Rob--W/https-by-default"
 
 #~ msgid "In the app's main menu, choose *Tools / Add-ons*."

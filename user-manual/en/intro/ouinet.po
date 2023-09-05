@@ -82,7 +82,7 @@ msgid ""
 msgstr ""
 
 #: intro/ouinet.md:block 9 (quote)
-msgid "[Ouinet]: https://github.com/equalitie/ouinet/"
+msgid "[Ouinet]: https://gitlab.com/equalitie/ouinet/"
 msgstr ""
 
 #: intro/ouinet.md:block 9 (quote)

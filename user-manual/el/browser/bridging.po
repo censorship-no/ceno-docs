@@ -430,7 +430,7 @@ msgstr "[εγκατάσταση docker]: https://docs.docker.com/engine/install/
 #| "[ceno-client-doc]: https://github.com/censorship-no/ceno-docker-"
 #| "client#running-the-client"
 msgid ""
-"[ceno-client-doc]: https://github.com/censorship-no/ceno-docker-"
+"[ceno-client-doc]: https://gitlab.com/censorship-no/ceno-docker-"
 "client#running-the-client"
 msgstr ""
 "[τεκμηρίωση ceno-client]: https://github.com/censorship-no/ceno-docker-"

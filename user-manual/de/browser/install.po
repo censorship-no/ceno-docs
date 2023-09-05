@@ -155,7 +155,7 @@ msgid ""
 msgstr ""
 
 #: browser/install.md:block 18 (quote)
-msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
+msgid "[ceno-gh]: https://gitlab.com/censorship-no/ceno-browser/releases"
 msgstr ""
 
 #: browser/install.md:block 18 (quote)

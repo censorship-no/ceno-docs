@@ -117,8 +117,8 @@ msgstr ""
 "Notez que Ouinet est un projet expérimental qui évolue : dans certains "
 "scénarios, des fonctions pourraient ne pas fonctionner avec suffisamment de "
 "fiabilité, des bogues pourraient exister et des plantages se produire. Nous "
-"vous encourageons à nous contacter par courriel à [cenoers@equalitie."
-"org](mailto:cenoers@equalitie.org), à le tester et à nous faire part de vos "
+"vous encourageons à nous contacter par courriel à [cenoers@equalitie.org]"
+"(mailto:cenoers@equalitie.org), à le tester et à nous faire part de vos "
 "commentaires. Ils sont les bienvenus."
 
 #: intro/ouinet.md:block 9 (quote)
@@ -131,7 +131,9 @@ msgstr ""
 "contacter."
 
 #: intro/ouinet.md:block 9 (quote)
-msgid "[Ouinet]: https://github.com/equalitie/ouinet/"
+#, fuzzy
+#| msgid "[Ouinet]: https://github.com/equalitie/ouinet/"
+msgid "[Ouinet]: https://gitlab.com/equalitie/ouinet/"
 msgstr "[Ouinet] : https://github.com/equalitie/ouinet/"
 
 #: intro/ouinet.md:block 9 (quote)

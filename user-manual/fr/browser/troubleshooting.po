@@ -632,5 +632,7 @@ msgstr ""
 "client. Des instructions se trouvent [ici](bridging.md)."
 
 #: browser/troubleshooting.md:block 51 (quote)
-msgid "[HTTPS by default]: https://github.com/Rob--W/https-by-default"
+#, fuzzy
+#| msgid "[HTTPS by default]: https://github.com/Rob--W/https-by-default"
+msgid "[HTTPS by default]: https://gitlab.com/Rob--W/https-by-default"
 msgstr "[HTTPS par défaut] : https://github.com/Rob--W/https-by-default"
