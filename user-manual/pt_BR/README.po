@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-09-05 21:33+0000\n"
+"PO-Revision-Date: 2023-09-05 22:00+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "censorship-no/homepage-readme/pt_BR/>\n"
@@ -39,8 +39,6 @@ msgstr ""
 "protocolo]."
 
 #: README.md:block 3 (paragraph)
-#, fuzzy
-#| msgid "[Ceno Browser]: https://github.com/censorship-no/ceno-browser"
 msgid "[Ceno Browser]: https://gitlab.com/censorship-no/ceno-browser"
 msgstr "[Navegador Ceno]: https://gitlab.com/censorship-no/ceno-browser"
 
@@ -53,10 +51,6 @@ msgid "[eQualitie]: https://equalit.ie/"
 msgstr "[eQualitie]: https://equalit.ie/"
 
 #: README.md:block 3 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "[Ceno documentation repository]: https://github.com/censorship-no/ceno-"
-#| "docs/"
 msgid ""
 "[Ceno documentation repository]: https://gitlab.com/censorship-no/ceno-docs/"
 msgstr ""
