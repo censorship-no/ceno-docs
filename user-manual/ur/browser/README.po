@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-09-01 23:03+0000\n"
+"PO-Revision-Date: 2023-09-05 19:57+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Urdu <https://hosted.weblate.org/projects/censorship-no/"
 "browser-readme/ur/>\n"
@@ -42,11 +42,6 @@ msgstr ""
 "لیے تازہ ترین ہے۔"
 
 #: browser/README.md:block 4 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "If your application exhibits behaviors substantially different from those "
-#| "described here, do not hesitate to contact us at [cenoers@equalit.ie]"
-#| "(mailto:cenoers@equalit.ie) and report the issue."
 msgid ""
 "If your application exhibits behaviors substantially different from those "
 "described here, do not hesitate to contact us at [cenoers@equalitie.org]"

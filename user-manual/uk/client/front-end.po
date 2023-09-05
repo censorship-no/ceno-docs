@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-17 03:10+0000\n"
+"PO-Revision-Date: 2023-09-05 21:58+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "client-front-end/uk/>\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.0.1-dev\n"
 
 #: client/front-end.md:block 1 (header)
 msgid "Annex: The Ouinet client front-end"
@@ -152,8 +152,5 @@ msgstr ""
 "використовує)."
 
 #: client/front-end.md:block 6 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "[Ceno Extension]: https://github.com/censorship-no/ceno-ext-settings/"
 msgid "[Ceno Extension]: https://gitlab.com/censorship-no/ceno-ext-settings/"
-msgstr "[Розширення Ceno]: https://github.com/censorship-no/ceno-ext-settings/"
+msgstr "[Розширення Ceno]: https://gitlab.com/censorship-no/ceno-ext-settings/"

@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-03 02:50+0200\n"
-"PO-Revision-Date: 2023-09-01 23:03+0000\n"
+"PO-Revision-Date: 2023-09-05 19:57+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/censorship-no/"
 "ouinet/es/>\n"
@@ -98,13 +98,6 @@ msgstr ""
 "el acceso a ese servidor."
 
 #: intro/ouinet.md:block 8 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Please note that Ouinet is an evolving experimental project: some "
-#| "features may not work reliably enough in certain scenarios, bugs may "
-#| "exist and crashes may occur. We encourage you to reach out to us at "
-#| "[cenoers@equalit.ie](mailto:cenoers@equalit.ie), test it and report back "
-#| "- your feedback is very welcome!"
 msgid ""
 "Please note that Ouinet is an evolving experimental project: some features "
 "may not work reliably enough in certain scenarios, bugs may exist and "
@@ -115,9 +108,9 @@ msgstr ""
 "Por favor ten en cuenta que Ouinet es un proyecto experimental en evolución: "
 "algunas características pudieran no funcionar en forma suficientemente "
 "confiable en ciertos escenarios, pudieran existir errores y ocurrir "
-"bloqueos. Te animamos a contactarnos a [cenoers@equalitie.org](mailto:"
-"cenoers@equalitie.org), probarla e informar - ¡tu comentario es muy "
-"bienvenido!"
+"bloqueos. Te animamos a contactarnos a [cenoers@equalitie."
+"org](mailto:cenoers@equalitie.org), probarla e informar - ¡tu comentario es "
+"muy bienvenido!"
 
 #: intro/ouinet.md:block 9 (quote)
 msgid ""
@@ -129,9 +122,7 @@ msgstr ""
 "contactarnos."
 
 #: intro/ouinet.md:block 9 (quote)
-#, fuzzy
-#| msgid "[Ouinet]: https://github.com/equalitie/ouinet/"
-msgid "[Ouinet]: https://gitlab.com/equalitie/ouinet/"
+msgid "[Ouinet]: https://github.com/equalitie/ouinet/"
 msgstr "[Ouinet]: https://github.com/equalitie/ouinet/"
 
 #: intro/ouinet.md:block 9 (quote)

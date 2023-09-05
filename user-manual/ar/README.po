@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:51+0200\n"
-"PO-Revision-Date: 2023-07-21 20:06+0000\n"
-"Last-Translator: fadoua <bouaouda.fadoua@gmail.com>\n"
+"PO-Revision-Date: 2023-09-05 22:01+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/censorship-no/"
 "homepage-readme/ar/>\n"
 "Language: ar\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 5.0-dev\n"
+"X-Generator: Weblate 5.0.1-dev\n"
 
 #
 #: README.md:block 1 (header)
@@ -42,10 +42,8 @@ msgstr ""
 "بالإضافة إلى [مواصفات البروتوكول][مواصفات البروتوكول]."
 
 #: README.md:block 3 (paragraph)
-#, fuzzy
-#| msgid "[Ceno Browser]: https://github.com/censorship-no/ceno-browser"
 msgid "[Ceno Browser]: https://gitlab.com/censorship-no/ceno-browser"
-msgstr "[متصفح Ceno]: https://github.com/censorship-no/ceno-browser"
+msgstr "[متصفح Ceno]: https://gitlab.com/censorship-no/ceno-browser"
 
 #: README.md:block 3 (paragraph)
 msgid "[Censorship.no!]: https://censorship.no/"
@@ -56,22 +54,14 @@ msgid "[eQualitie]: https://equalit.ie/"
 msgstr "[eQualitie]: https://equalit.ie/"
 
 #: README.md:block 3 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "[Ceno documentation repository]: https://github.com/censorship-no/ceno-"
-#| "docs/"
 msgid ""
 "[Ceno documentation repository]: https://gitlab.com/censorship-no/ceno-docs/"
-msgstr "[مستودع وثائق Ceno]: https://github.com/censorship-no/ceno-docs/"
+msgstr "[مستودع وثائق Ceno]: https://gitlab.com/censorship-no/ceno-docs/"
 
 #: README.md:block 3 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "[protocol specifications]: https://github.com/equalitie/ouinet/blob/"
-#| "master/doc/ouinet-network-whitepaper.md"
 msgid ""
 "[protocol specifications]: https://gitlab.com/equalitie/ouinet/blob/master/"
 "doc/ouinet-network-whitepaper.md"
 msgstr ""
-"[مواصفات البروتوكول]: https://github.com/equalitie/ouinet/blob/master/doc/"
+"[مواصفات البروتوكول]: https://gitlab.com/equalitie/ouinet/blob/master/doc/"
 "ouinet-network-whitepaper.md"
