@@ -125,9 +125,9 @@ msgstr ""
 
 #: browser/bridging.md:block 17 (paragraph)
 msgid ""
-"The command will start a container named `Ceno-client` that will run on "
+"The command will start a container named `ceno-client` that will run on "
 "every boot unless you explicitly tell it to stop. Please check the [Ceno "
-"Docker client documentation][Ceno-client-doc] for more information on how to "
+"Docker client documentation][ceno-client-doc] for more information on how to "
 "manipulate the container."
 msgstr ""
 
@@ -291,7 +291,7 @@ msgstr ""
 
 #: browser/bridging.md:block 35 (quote)
 msgid ""
-"[Ceno-client-doc]: https://github.com/censorship-no/Ceno-docker-"
+"[ceno-client-doc]: https://github.com/censorship-no/ceno-docker-"
 "client#running-the-client"
 msgstr ""
 
