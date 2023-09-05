@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-09-05 21:33+0000\n"
+"PO-Revision-Date: 2023-09-05 21:58+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Urdu <https://hosted.weblate.org/projects/censorship-no/"
 "client-front-end/ur/>\n"
@@ -149,8 +149,5 @@ msgstr ""
 "کرتا ہے)۔"
 
 #: client/front-end.md:block 6 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "[Ceno Extension]: https://github.com/censorship-no/ceno-ext-settings/"
 msgid "[Ceno Extension]: https://gitlab.com/censorship-no/ceno-ext-settings/"
 msgstr "[Ceno ایکسٹینشن]: https://gitlab.com/censorship-no/ceno-ext-settings/"
