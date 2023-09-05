@@ -46,7 +46,7 @@ msgstr ""
 
 #: README.md:block 3 (paragraph)
 msgid ""
-"[Ceno documentation repository]: https://github.com/censorship-no/Ceno-docs/"
+"[Ceno documentation repository]: https://github.com/censorship-no/ceno-docs/"
 msgstr ""
 
 #: README.md:block 3 (paragraph)

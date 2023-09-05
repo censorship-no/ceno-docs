@@ -155,5 +155,5 @@ msgstr ""
 #, fuzzy
 #| msgid ""
 #| "[Ceno Extension]: https://github.com/censorship-no/ceno-ext-settings/"
-msgid "[Ceno Extension]: https://github.com/censorship-no/Ceno-ext-settings/"
+msgid "[Ceno Extension]: https://github.com/censorship-no/ceno-ext-settings/"
 msgstr "[Розширення Ceno]: https://github.com/censorship-no/ceno-ext-settings/"

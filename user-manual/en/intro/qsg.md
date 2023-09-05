@@ -13,8 +13,8 @@ You will need an Android device:
 
 Detailed installation instructions are [here](../browser/install.md).
 
-[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.Ceno
-[ceno-gh]: https://github.com/censorship-no/Ceno-browser/releases
+[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno
+[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases
 [ceno-pask]: https://paskoocheh.com/tools/124/android.html
 
 ## Configuration

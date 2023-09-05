@@ -57,7 +57,7 @@ msgstr "[eQualitie]: https://equalit.ie/"
 #| "[Ceno documentation repository]: https://github.com/censorship-no/ceno-"
 #| "docs/"
 msgid ""
-"[Ceno documentation repository]: https://github.com/censorship-no/Ceno-docs/"
+"[Ceno documentation repository]: https://github.com/censorship-no/ceno-docs/"
 msgstr ""
 "[Repositori dokumentasi Ceno]: https://github.com/censorship-no/ceno-docs/"
 
