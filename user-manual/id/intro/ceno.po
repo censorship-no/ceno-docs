@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-09-05 21:33+0000\n"
+"PO-Revision-Date: 2023-09-05 21:57+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/censorship-no/"
 "ceno/id/>\n"
@@ -67,7 +67,6 @@ msgid "Who develops Ceno?"
 msgstr "Siapa yang mengembangkan Ceno?"
 
 #: intro/ceno.md:block 6 (paragraph)
-#, fuzzy
 msgid ""
 "The *Censorship.no!* project is run by [eQualitie][eQualitie] in support of "
 "Articles 18, 19 and 20 of the [Universal Declaration of Human Rights]"
@@ -79,13 +78,14 @@ msgid ""
 "for further information."
 msgstr ""
 "Proyek *Censorship.no!* dijalankan oleh [eQualitie][eQualitie] untuk "
-"mendukung Pasal 18, 19, dan 20 dari [Deklarasi Universal Hak Asasi Manusia]"
-"[Deklarasi Universal Hak Asasi Manusia]. Ceno dan teknologi terkait "
+"mendukung Pasal 18, 19, dan 20 dari [Deklarasi Universal Hak Asasi Manusia]["
+"Deklarasi Universal Hak Asasi Manusia]. Ceno dan teknologi terkait "
 "dikembangkan sebagai perangkat lunak Bebas/Gratis/Sumber Terbuka ([sumber "
 "proyek](https://gitlab.com/censorship-no/ \"Repositori kode sumber Ceno\")), "
 "yang memungkinkan siapa pun untuk menggunakan, mempelajari, berbagi, dan "
-"meningkatkannya. Silakan hubungi [cenoers@equalitie.org](mailto:"
-"cenoers@equalitie.org) jika ada keraguan atau untuk informasi lebih lanjut."
+"meningkatkannya. Silakan hubungi [cenoers@equalitie."
+"org](mailto:cenoers@equalitie.org) jika ada keraguan atau untuk informasi "
+"lebih lanjut."
 
 #: intro/ceno.md:block 7 (header)
 msgid "Who is it for?"
