@@ -117,8 +117,8 @@ msgid ""
 "Contact us by writing to [cenoers@equalitie.org](mailto:cenoers@equalitie."
 "org)."
 msgstr ""
-"Свяжитесь с нами, написав по адресу [cenoers@equalitie."
-"org](mailto:cenoers@equalitie.org)."
+"Свяжитесь с нами, написав по адресу [cenoers@equalitie.org](mailto:"
+"cenoers@equalitie.org)."
 
 #: intro/qsg.md:block 11 (unordered list)
 #, fuzzy
@@ -126,14 +126,14 @@ msgstr ""
 #| "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit."
 #| "ceno"
 msgid ""
-"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.Ceno"
+"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
 msgstr ""
 "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
 
 #: intro/qsg.md:block 11 (unordered list)
 #, fuzzy
 #| msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
-msgid "[ceno-gh]: https://github.com/censorship-no/Ceno-browser/releases"
+msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
 msgstr "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
 
 #: intro/qsg.md:block 11 (unordered list)

@@ -153,5 +153,5 @@ msgstr "Açıksa, dış, sabit ön bellek klasörü (Ceno şu anda bunu kullanm�
 #, fuzzy
 #| msgid ""
 #| "[Ceno Extension]: https://github.com/censorship-no/ceno-ext-settings/"
-msgid "[Ceno Extension]: https://github.com/censorship-no/Ceno-ext-settings/"
+msgid "[Ceno Extension]: https://github.com/censorship-no/ceno-ext-settings/"
 msgstr "[Ceno uzantısı]: https://github.com/censorship-no/ceno-ext-settings/"

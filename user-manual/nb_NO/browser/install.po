@@ -147,11 +147,11 @@ msgstr ""
 
 #: browser/install.md:block 18 (quote)
 msgid ""
-"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.Ceno"
+"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
 msgstr ""
 
 #: browser/install.md:block 18 (quote)
-msgid "[ceno-gh]: https://github.com/censorship-no/Ceno-browser/releases"
+msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
 msgstr ""
 
 #: browser/install.md:block 18 (quote)

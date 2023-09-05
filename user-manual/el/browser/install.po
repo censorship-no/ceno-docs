@@ -78,8 +78,8 @@ msgstr ""
 "παραπάνω. Εξαιτίας της φύσης της εφαρμογής, οι χρήστες του μπορεί να γίνουν "
 "στόχος για κάθε είδους ψεύτικες ή κακόβουλες εκδόσεις με σκοπό την παραβίαση "
 "της ιδιωτικότητας των χρηστών ή να επιτεθούν σε άλλους χρήστες του Ceno και "
-"Ouinet. Εάν έχετε αμφιβολίες, επικοινωνήστε με το [cenoers@equalitie."
-"org](mailto:cenoers@equalitie.org) πριν εγκαταστήσετε μια ύποπτη εφαρμογή."
+"Ouinet. Εάν έχετε αμφιβολίες, επικοινωνήστε με το [cenoers@equalitie.org]"
+"(mailto:cenoers@equalitie.org) πριν εγκαταστήσετε μια ύποπτη εφαρμογή."
 
 #: browser/install.md:block 6 (header)
 msgid "Stopping Ceno completely"
@@ -217,14 +217,14 @@ msgstr ""
 #| "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit."
 #| "ceno"
 msgid ""
-"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.Ceno"
+"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
 msgstr ""
 "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.cenο"
 
 #: browser/install.md:block 18 (quote)
 #, fuzzy
 #| msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
-msgid "[ceno-gh]: https://github.com/censorship-no/Ceno-browser/releases"
+msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
 msgstr "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
 
 #: browser/install.md:block 18 (quote)

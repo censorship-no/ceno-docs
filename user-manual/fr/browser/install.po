@@ -75,8 +75,8 @@ msgstr ""
 "devenir la cible de toutes sortes de versions fausses ou manipulées "
 "utilisées pour violer la vie privée des utilisateurs et utilisatrices ou "
 "pour attaquer d’autres utilisateurs ou utilisatrices de Ceno et Ouinet. En "
-"cas de doute, contacter par courriel [cenoers@equalitie."
-"org](mailto:cenoers@equalitie.org) avant d’installer une appli suspecte."
+"cas de doute, contacter par courriel [cenoers@equalitie.org](mailto:"
+"cenoers@equalitie.org) avant d’installer une appli suspecte."
 
 #: browser/install.md:block 6 (header)
 msgid "Stopping Ceno completely"
@@ -215,14 +215,14 @@ msgstr ""
 #| "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit."
 #| "ceno"
 msgid ""
-"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.Ceno"
+"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
 msgstr ""
 "[ceno-gplay] : https://play.google.com/store/apps/details?id=ie.equalit.ceno"
 
 #: browser/install.md:block 18 (quote)
 #, fuzzy
 #| msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
-msgid "[ceno-gh]: https://github.com/censorship-no/Ceno-browser/releases"
+msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
 msgstr "[ceno-gh] : https://github.com/censorship-no/ceno-browser/releases"
 
 #: browser/install.md:block 18 (quote)

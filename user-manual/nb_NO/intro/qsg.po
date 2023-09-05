@@ -92,11 +92,11 @@ msgstr ""
 
 #: intro/qsg.md:block 11 (unordered list)
 msgid ""
-"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.Ceno"
+"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
 msgstr ""
 
 #: intro/qsg.md:block 11 (unordered list)
-msgid "[ceno-gh]: https://github.com/censorship-no/Ceno-browser/releases"
+msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
 msgstr ""
 
 #: intro/qsg.md:block 11 (unordered list)
