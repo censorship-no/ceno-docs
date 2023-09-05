@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-09-05 21:32+0000\n"
+"PO-Revision-Date: 2023-09-05 21:57+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/censorship-no/"
 "ceno/fr/>\n"
@@ -194,7 +194,6 @@ msgid "[Ceno-repos]: https://github.com/censorship-no/"
 msgstr "[ceno-repos]: https://gitlab.com/censorship-no/"
 
 #: intro/ceno.md:block 6 (paragraph)
-#, fuzzy
 msgid ""
 "The *Censorship.no!* project is run by [eQualitie][eQualitie] in support of "
 "Articles 18, 19 and 20 of the [Universal Declaration of Human Rights]"
@@ -212,8 +211,8 @@ msgstr ""
 "source ouvert ([source du projet](https://gitlab.com/censorship-no/ \"Dépôts "
 "du code source de Ceno source\")), ce qui permet à quiconque de les "
 "utiliser, les examiner, les partager et les améliorer. En cas de doute ou "
-"pour de plus amples renseignements, contactez par courriel "
-"[cenoers@equalitie.org](mailto:cenoers@equalitie.org)."
+"pour de plus amples renseignements, contactez par courriel [cenoers@equalitie"
+".org](mailto:cenoers@equalitie.org)."
 
 #: intro/ceno.md:block 11 (quote)
 #, fuzzy
