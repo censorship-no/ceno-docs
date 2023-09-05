@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-09-05 21:58+0000\n"
+"PO-Revision-Date: 2023-09-05 22:50+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/censorship-no/"
 "ceno/pt/>\n"
@@ -79,13 +79,13 @@ msgid ""
 "for further information."
 msgstr ""
 "O projecto *Censorship.no!* é gerido por [eQualitie][eQualitie] em apoio aos "
-"artigos 18, 19 e 20 da [Declaração Universal dos Direitos do Homem]"
-"[Declaração Universal dos Direitos do Homem]. Ceno e tecnologias "
-"relacionadas são desenvolvidas como software livre/libre/ fonte aberta "
-"([project source](https://github.com/censorship-no/ \"Ceno source "
-"repositories\")), permitindo a qualquer pessoa utilizá-lo, estudá-lo, "
-"partilhá-lo e melhorá-lo. Por favor contacte [cenoers@equalitie.org](mailto:"
-"cenoers@equalitie.org) em caso de dúvida ou para mais informações."
+"artigos 18, 19 e 20 da [Declaração Universal dos Direitos do Homem]["
+"Declaração Universal dos Direitos do Homem]. Ceno e tecnologias relacionadas "
+"são desenvolvidas como software livre/libre/ fonte aberta ([project "
+"source](https://gitlab.com/censorship-no/ \"Ceno source repositories\")), "
+"permitindo a qualquer pessoa utilizá-lo, estudá-lo, partilhá-lo e melhorá-"
+"lo. Por favor contacte [cenoers@equalitie.org](mailto:cenoers@equalitie.org) "
+"em caso de dúvida ou para mais informações."
 
 #: intro/ceno.md:block 7 (header)
 msgid "Who is it for?"
@@ -184,7 +184,7 @@ msgstr ""
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[ceno-repos]: https://gitlab.com/censorship-no/"
-msgstr "[ceno-repos]: https://github.com/censorship-no/"
+msgstr "[ceno-repos]: https://gitlab.com/censorship-no/"
 
 #~ msgid ""
 #~ "The *Censorship.no!* project is run by [eQualitie][eQualitie] in support "
