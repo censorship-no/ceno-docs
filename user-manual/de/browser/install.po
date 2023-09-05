@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-09-05 22:06+0000\n"
+"PO-Revision-Date: 2023-09-05 22:20+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/censorship-no/"
 "browser-install/de/>\n"
@@ -26,8 +26,6 @@ msgid ""
 msgstr ""
 
 #: browser/install.md:block 3 (unordered list)
-#, fuzzy
-#| msgid "[GitHub][ceno-gh]: for Android devices without Google Play."
 msgid "[Gitlab][ceno-gh]: for Android devices without Google Play."
 msgstr "[Gitlab][ceno-gh]: für Android-Geräte ohne Google Play."
 
