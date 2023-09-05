@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-17 03:10+0000\n"
+"PO-Revision-Date: 2023-09-05 21:33+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "censorship-no/client-front-end/pt_BR/>\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.0.1-dev\n"
 
 #: client/front-end.md:block 1 (header)
 msgid "Annex: The Ouinet client front-end"
@@ -154,4 +154,4 @@ msgstr ""
 #| msgid ""
 #| "[Ceno Extension]: https://github.com/censorship-no/ceno-ext-settings/"
 msgid "[Ceno Extension]: https://gitlab.com/censorship-no/ceno-ext-settings/"
-msgstr "[Extensão Ceno]: https://github.com/censorship-no/ceno-ext-settings/"
+msgstr "[Extensão Ceno]: https://gitlab.com/censorship-no/ceno-ext-settings/"
