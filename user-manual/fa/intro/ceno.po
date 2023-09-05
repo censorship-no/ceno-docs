@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-09-05 21:57+0000\n"
+"PO-Revision-Date: 2023-09-05 21:58+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "ceno/fa/>\n"
@@ -204,11 +204,9 @@ msgstr ""
 "[cenoers@equalitie.org](mailto:cenoers@equalitie.org) تماس بگیرید."
 
 #: intro/ceno.md:block 11 (quote)
-#, fuzzy
 msgid "[Ceno-repos]: https://gitlab.com/censorship-no/"
 msgstr "[ceno-repos]: https://gitlab.com/censorship-no"
 
 #: intro/ceno.md:block 11 (quote)
-#, fuzzy
 msgid "[ceno-repos]: https://gitlab.com/censorship-no/"
 msgstr "[ceno-repos]: https://github.com/censorship-no"
