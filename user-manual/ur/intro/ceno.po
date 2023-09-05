@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-09-05 21:33+0000\n"
+"PO-Revision-Date: 2023-09-05 21:57+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Urdu <https://hosted.weblate.org/projects/censorship-no/ceno/"
 "ur/>\n"
@@ -183,7 +183,6 @@ msgid "[Ceno-repos]: https://github.com/censorship-no/"
 msgstr "[ceno-repos]: https://gitlab.com/censorship-no/"
 
 #: intro/ceno.md:block 6 (paragraph)
-#, fuzzy
 msgid ""
 "The *Censorship.no!* project is run by [eQualitie][eQualitie] in support of "
 "Articles 18, 19 and 20 of the [Universal Declaration of Human Rights]"
@@ -196,12 +195,12 @@ msgid ""
 msgstr ""
 "*Censorship.no!* پروجیکٹ [eQualitie][eQualitie] کے ذریعے [انسانی حقوق کے "
 "عالمی اعلامیہ] [Universal Declaration of Human Rights] کے آرٹیکل 18، 19 اور "
-"20 کی حمایت میں چلایا جاتا ہے۔ Ceno اور متعلقہ ٹیکنالوجیز کو بطور مفت / "
-"لیبر / اوپن سورس سافٹ ویئر ([منصوبے کا ذریعہ](https://gitlab.com/censorship-"
-"no/ \"Ceno سورس کوڈ ریپوزٹریز\")) کے طور پر تیار کیا گیا ہے، جو کسی کو بھی "
+"20 کی حمایت میں چلایا جاتا ہے۔ Ceno اور متعلقہ ٹیکنالوجیز کو بطور مفت / لیبر "
+"/ اوپن سورس سافٹ ویئر ([منصوبے کا ذریعہ](https://gitlab.com/censorship-no/ "
+"\"Ceno سورس کوڈ ریپوزٹریز\")) کے طور پر تیار کیا گیا ہے، جو کسی کو بھی "
 "استعمال کرنے، مطالعہ کرنے، اشتراک کرنے اور اسے بڑھانا. شک کی صورت میں یا "
-"مزید معلومات کے لیے براہ کرم [cenoers@equalitie.org](mailto:"
-"cenoers@equalitie.org) سے رابطہ کریں۔"
+"مزید معلومات کے لیے براہ کرم [cenoers@equalitie.org](mailto:cenoers@equalitie"
+".org) سے رابطہ کریں۔"
 
 #: intro/ceno.md:block 11 (quote)
 #, fuzzy
