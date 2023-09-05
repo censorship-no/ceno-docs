@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-09-01 22:39+0000\n"
+"PO-Revision-Date: 2023-09-05 21:33+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Urdu <https://hosted.weblate.org/projects/censorship-no/"
 "homepage-readme/ur/>\n"
@@ -40,7 +40,7 @@ msgstr ""
 #, fuzzy
 #| msgid "[Ceno Browser]: https://github.com/censorship-no/ceno-browser"
 msgid "[Ceno Browser]: https://gitlab.com/censorship-no/ceno-browser"
-msgstr "[Ceno Browser]: https://github.com/censorship-no/ceno-browser"
+msgstr "[Ceno Browser]: https://gitlab.com/censorship-no/ceno-browser"
 
 #: README.md:block 3 (paragraph)
 msgid "[Censorship.no!]: https://censorship.no/"
@@ -57,7 +57,7 @@ msgstr "[eQualitie]: https://equalit.ie/"
 #| "docs/"
 msgid ""
 "[Ceno documentation repository]: https://gitlab.com/censorship-no/ceno-docs/"
-msgstr "[Ceno دستاویزات کا ذخیرہ]: https://github.com/censorship-no/ceno-docs/"
+msgstr "[Ceno دستاویزات کا ذخیرہ]: https://gitlab.com/censorship-no/ceno-docs/"
 
 #: README.md:block 3 (paragraph)
 #, fuzzy
@@ -68,5 +68,5 @@ msgid ""
 "[protocol specifications]: https://gitlab.com/equalitie/ouinet/blob/master/"
 "doc/ouinet-network-whitepaper.md"
 msgstr ""
-"[پروٹوکول تفصیلات]: https://github.com/equalitie/ouinet/blob/master/doc/"
+"[پروٹوکول تفصیلات]: https://gitlab.com/equalitie/ouinet/blob/master/doc/"
 "ouinet-network-whitepaper.md"
