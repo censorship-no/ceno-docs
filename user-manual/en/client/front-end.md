@@ -30,4 +30,4 @@ The items shown in the page include:
 
 - The directory of the external, static cache if enabled (Ceno does not currently use this).
 
-[Ceno Extension]: https://github.com/censorship-no/ceno-ext-settings/
+[Ceno Extension]: https://gitlab.com/censorship-no/ceno-ext-settings/
