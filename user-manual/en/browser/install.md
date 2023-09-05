@@ -6,8 +6,8 @@ Ceno Browser can be installed via the following means:
 - [GitHub][ceno-gh]: for Android devices without Google Play.
 - [Paskoocheh][ceno-pask]: for users in countries blocking access to the previous channels.
 
-[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.Ceno
-[ceno-gh]: https://github.com/censorship-no/Ceno-browser/releases
+[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno
+[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases
 [ceno-pask]: https://paskoocheh.com/tools/124/android.html
 
 Ceno requires an ARM64 or Neon-capable ARM32 device running at least Android 4.1 Jelly Bean, thus most mobile devices released from late 2012 onward should work.  Ceno needs *no special permissions* to run.
