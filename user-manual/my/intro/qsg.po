@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-09-05 21:33+0000\n"
+"PO-Revision-Date: 2023-09-05 21:58+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "qsg/my/>\n"
@@ -113,7 +113,6 @@ msgstr ""
 "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
 
 #: intro/qsg.md:block 11 (unordered list)
-#, fuzzy
 msgid "[ceno-gh]: https://github.com/censorship-no/Ceno-browser/releases"
 msgstr "[ceno-gh]: https://gitlab.com/censorship-no/ceno-browser/releases"
 
@@ -129,7 +128,6 @@ msgstr ""
 "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
 
 #: intro/qsg.md:block 11 (unordered list)
-#, fuzzy
 msgid "[ceno-gh]: https://gitlab.com/censorship-no/ceno-browser/releases"
 msgstr "[ceno-gh]: https://gitlab.com/censorship-no/ceno-browser/releases"
 
