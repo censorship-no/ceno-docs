@@ -37,7 +37,7 @@ If your computer supports [Docker containers][docker], you can run a pre-configu
 To deploy a Ceno client container you only need to run the following command on a terminal (it looks scary but you can just copy and paste it as is on the command line):
 
 ```sh
-sudo docker run --name Ceno-client \
+sudo docker run --name ceno-client \
   -dv Ceno:/var/opt/ouinet --network host \
   --restart unless-stopped equalitie/Ceno-client
 ```
@@ -45,15 +45,15 @@ sudo docker run --name Ceno-client \
 If your computer is not based on GNU/Linux, the command needs to be slightly different:
 
 ```sh
-sudo docker run --name Ceno-client \
-  -dv Ceno:/var/opt/ouinet \
+sudo docker run --name ceno-client \
+  -dv ceno:/var/opt/ouinet \
   -p 127.0.0.1:8077-8078:8077-8078 -p 28729:28729/udp \
-  --restart unless-stopped equalitie/Ceno-client
+  --restart unless-stopped equalitie/ceno-client
 ```
 
-The command will start a container named `Ceno-client` that will run on every boot unless you explicitly tell it to stop.  Please check the [Ceno Docker client documentation][Ceno-client-doc] for more information on how to manipulate the container.
+The command will start a container named `ceno-client` that will run on every boot unless you explicitly tell it to stop.  Please check the [Ceno Docker client documentation][ceno-client-doc] for more information on how to manipulate the container.
 
-[Ceno-client-doc]: https://github.com/censorship-no/Ceno-docker-client#running-the-client
+[ceno-client-doc]: https://github.com/censorship-no/ceno-docker-client#running-the-client
 
 > **Note:** This client has no *Ceno Settings*: when instructed below to access that page, open instead the [client front-end](../client/front-end.md), which contains mostly equivalent information.
 

@@ -8,5 +8,5 @@ This manual is aimed at users of [Ceno Browser][] and related technologies, as c
 
 If you are looking for technical documentation, please refer to the [Ceno documentation repository][], where you will find pointers for further reading and details on implementation, as well as the [protocol specifications][].
 
-[Ceno documentation repository]: https://github.com/censorship-no/Ceno-docs/
+[Ceno documentation repository]: https://github.com/censorship-no/ceno-docs/
 [protocol specifications]: https://github.com/equalitie/ouinet/blob/master/doc/ouinet-network-whitepaper.md
