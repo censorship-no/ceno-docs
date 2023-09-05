@@ -66,8 +66,8 @@ msgstr ""
 "devenir la cible de toutes sortes de versions fausses ou manipulées "
 "utilisées pour violer la vie privée des utilisateurs et utilisatrices ou "
 "pour attaquer d’autres utilisateurs ou utilisatrices de Ceno et Ouinet. En "
-"cas de doute, contacter par courriel [cenoers@equalitie."
-"org](mailto:cenoers@equalitie.org) avant d’installer une appli suspecte."
+"cas de doute, contacter par courriel [cenoers@equalitie.org](mailto:"
+"cenoers@equalitie.org) avant d’installer une appli suspecte."
 
 #: browser/install.md:block 6 (header)
 msgid "Stopping Ceno completely"
@@ -202,9 +202,6 @@ msgstr ""
 
 #: browser/install.md:block 18 (quote)
 #, fuzzy
-#| msgid ""
-#| "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit."
-#| "ceno"
 msgid ""
 "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.Ceno"
 msgstr ""
@@ -212,13 +209,24 @@ msgstr ""
 
 #: browser/install.md:block 18 (quote)
 #, fuzzy
-#| msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
 msgid "[ceno-gh]: https://github.com/censorship-no/Ceno-browser/releases"
 msgstr "[ceno-gh] : https://github.com/censorship-no/ceno-browser/releases"
 
 #: browser/install.md:block 18 (quote)
 msgid "[ceno-pask]: https://paskoocheh.com/tools/124/android.html"
 msgstr "[ceno-pask] : https://paskoocheh.com/tools/124/android.html"
+
+#: browser/install.md:block 18 (quote)
+#, fuzzy
+msgid ""
+"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
+msgstr ""
+"[ceno-gplay] : https://play.google.com/store/apps/details?id=ie.equalit.ceno"
+
+#: browser/install.md:block 18 (quote)
+#, fuzzy
+msgid "[ceno-gh]: https://gitlab.com/censorship-no/ceno-browser/releases"
+msgstr "[ceno-gh] : https://github.com/censorship-no/ceno-browser/releases"
 
 #~ msgid "CENO requires *no special permissions* to run."
 #~ msgstr "CENO ne nécessite *aucune autorisation spéciale* pour fonctionner."
@@ -236,3 +244,8 @@ msgstr "[ceno-pask] : https://paskoocheh.com/tools/124/android.html"
 #~ "jusqu’à ce que vous voyiez un bouton *Connectez-vous à Sync* et un lien "
 #~ "*COMMENCER À NAVIGUER*. Firefox Sync n’a pas été testé pour fonctionner "
 #~ "avec CENO, alors il suffit d’appuyer sur *COMMENCER À NAVIGUER*."
+
+#, fuzzy
+#~| msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
+#~ msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
+#~ msgstr "[ceno-gh] : https://github.com/censorship-no/ceno-browser/releases"

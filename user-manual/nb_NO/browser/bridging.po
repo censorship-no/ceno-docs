@@ -302,7 +302,7 @@ msgstr ""
 
 #: browser/bridging.md:block 35 (quote)
 msgid ""
-"[ceno-client-doc]: https://github.com/censorship-no/ceno-docker-"
+"[ceno-client-doc]: https://gitlab.com/censorship-no/ceno-docker-"
 "client#running-the-client"
 msgstr ""
 

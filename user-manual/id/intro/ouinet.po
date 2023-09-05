@@ -80,8 +80,10 @@ msgid ""
 msgstr ""
 
 #: intro/ouinet.md:block 9 (quote)
-msgid "[Ouinet]: https://github.com/equalitie/ouinet/"
-msgstr ""
+#, fuzzy
+#| msgid "[eQualitie]: https://equalit.ie/"
+msgid "[Ouinet]: https://gitlab.com/equalitie/ouinet/"
+msgstr "[eQualitie]: https://equalit.ie/"
 
 #: intro/ouinet.md:block 9 (quote)
 msgid "[P2P]: https://en.wikipedia.org/wiki/Peer-to-peer"

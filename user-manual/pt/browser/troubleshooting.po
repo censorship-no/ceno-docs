@@ -40,8 +40,8 @@ msgid ""
 "If problems still persist, please report them to [cenoers@equalitie.org]"
 "(mailto:cenoers@equalitie.org). We will try to help you with them."
 msgstr ""
-"Se os problemas persistirem, por favor os relate para [cenoers@equalitie."
-"org](mailto:cenoers@equalitie.org). Tentaremos ajudar a resolvê-los."
+"Se os problemas persistirem, por favor os relate para [cenoers@equalitie.org]"
+"(mailto:cenoers@equalitie.org). Tentaremos ajudar a resolvê-los."
 
 #: browser/troubleshooting.md:block 4 (header)
 msgid "There is no Ceno entry in the app menu"
@@ -619,5 +619,7 @@ msgstr ""
 "[aqui](bridging.md) para maiores instruções."
 
 #: browser/troubleshooting.md:block 51 (quote)
-msgid "[HTTPS by default]: https://github.com/Rob--W/https-by-default"
+#, fuzzy
+#| msgid "[HTTPS by default]: https://github.com/Rob--W/https-by-default"
+msgid "[HTTPS by default]: https://gitlab.com/Rob--W/https-by-default"
 msgstr "[HTTPS by default]: https://github.com/Rob--W/https-by-default"

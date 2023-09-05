@@ -48,11 +48,11 @@ msgstr "[eQualitie]: https://equalit.ie/"
 #, fuzzy
 #| msgid "[Ceno Browser]: https://github.com/censorship-no/ceno-browser"
 msgid ""
-"[Ceno documentation repository]: https://github.com/censorship-no/ceno-docs/"
+"[Ceno documentation repository]: https://gitlab.com/censorship-no/ceno-docs/"
 msgstr "[Censorship.no!]: https://censorship.no/"
 
 #: README.md:block 3 (paragraph)
 msgid ""
-"[protocol specifications]: https://github.com/equalitie/ouinet/blob/master/"
+"[protocol specifications]: https://gitlab.com/equalitie/ouinet/blob/master/"
 "doc/ouinet-network-whitepaper.md"
 msgstr ""

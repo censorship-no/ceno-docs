@@ -11,8 +11,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 5.0.1-dev\n"
 
 #
@@ -114,14 +114,11 @@ msgid ""
 "Contact us by writing to [cenoers@equalitie.org](mailto:cenoers@equalitie."
 "org)."
 msgstr ""
-"Свяжитесь с нами, написав по адресу [cenoers@equalitie."
-"org](mailto:cenoers@equalitie.org)."
+"Свяжитесь с нами, написав по адресу [cenoers@equalitie.org](mailto:"
+"cenoers@equalitie.org)."
 
 #: intro/qsg.md:block 11 (unordered list)
 #, fuzzy
-#| msgid ""
-#| "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit."
-#| "ceno"
 msgid ""
 "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.Ceno"
 msgstr ""
@@ -129,13 +126,24 @@ msgstr ""
 
 #: intro/qsg.md:block 11 (unordered list)
 #, fuzzy
-#| msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
 msgid "[ceno-gh]: https://github.com/censorship-no/Ceno-browser/releases"
 msgstr "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
 
 #: intro/qsg.md:block 11 (unordered list)
 msgid "[ceno-pask]: https://paskoocheh.com/tools/124/android.html"
 msgstr "[ceno-pask]: https://paskoocheh.com/tools/124/android.html"
+
+#: intro/qsg.md:block 11 (unordered list)
+#, fuzzy
+msgid ""
+"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
+msgstr ""
+"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
+
+#: intro/qsg.md:block 11 (unordered list)
+#, fuzzy
+msgid "[ceno-gh]: https://gitlab.com/censorship-no/ceno-browser/releases"
+msgstr "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
 
 #~ msgid ""
 #~ "Run it and press *NEXT* on the introductory screens, then press *START "
@@ -149,3 +157,8 @@ msgstr "[ceno-pask]: https://paskoocheh.com/tools/124/android.html"
 #~ msgstr ""
 #~ "[BETA]: https://ru.wikipedia.org/wiki/%D0%91%D0%B5%D1%82%D0%B0-"
 #~ "%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5"
+
+#, fuzzy
+#~| msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
+#~ msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
+#~ msgstr "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"

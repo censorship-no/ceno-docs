@@ -2,7 +2,7 @@
 
 [Ouinet][] is a core technology that allows Ceno Browser to share Web content with other devices.  Ouinet comes in the form of reusable computer code (a library) that an application like Ceno can use to become a participant in a network of cooperating nodes that communicate directly ([peer-to-peer][P2P] or P2P) to help access and store new Web content, and to request and deliver previously accessed content to others.
 
-[Ouinet]: https://github.com/equalitie/ouinet/
+[Ouinet]: https://gitlab.com/equalitie/ouinet/
 [P2P]: https://en.wikipedia.org/wiki/Peer-to-peer
 
 Ouinet is based on a clever combination and use of existing technologies to accomplish each of its functionalities: locating other participants is done with techniques coming from the world of file-sharing (BitTorrent's distributed hash table), communicating with them uses common Web and file-sharing protocols (HTTP proxy requests and BitTorrent's µTP), and modern industry standards ensure the security of communications and the authenticity of exchanged content (TLS encryption and Ed25519 signatures).  Ouinet allows replacing particular technologies with others if needed (for instance, some uses of µTP can be replaced by Tor's Pluggable Transports).
