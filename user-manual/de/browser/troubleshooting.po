@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-09-01 23:03+0000\n"
+"PO-Revision-Date: 2023-09-05 21:33+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/censorship-no/"
 "browser-troubleshooting/de/>\n"
@@ -642,5 +642,5 @@ msgstr ""
 #: browser/troubleshooting.md:block 51 (quote)
 #, fuzzy
 #| msgid "[HTTPS by default]: https://github.com/Rob--W/https-by-default"
-msgid "[HTTPS by default]: https://github.com/Rob--W/https-by-default"
+msgid "[HTTPS by default]: https://gitlab.com/Rob--W/https-by-default"
 msgstr "[HTTPS by default]: https://github.com/Rob--W/https-by-default"

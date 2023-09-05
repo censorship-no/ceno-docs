@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2023-09-01 23:03+0000\n"
+"PO-Revision-Date: 2023-09-05 22:20+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-install/ru/>\n"
@@ -33,9 +33,7 @@ msgstr ""
 "источник для большинства пользователей Android."
 
 #: browser/install.md:block 3 (unordered list)
-#, fuzzy
-#| msgid "[GitHub][ceno-gh]: for Android devices without Google Play."
-msgid "[Gitlab][ceno-gh]: for Android devices without Google Play."
+msgid "[GitHub][ceno-gh]: for Android devices without Google Play."
 msgstr "[GitHub][ceno-gh]: для устройств Android без Google Play."
 
 #: browser/install.md:block 3 (unordered list)
@@ -58,15 +56,6 @@ msgstr ""
 "совместимы. Для работы Ceno *не требуются специальные разрешения*."
 
 #: browser/install.md:block 5 (quote)
-#, fuzzy
-#| msgid ""
-#| "**Warning:** Please be *extremely skeptical* about installing Ceno "
-#| "Browser from sources other than the ones listed above. Because of the "
-#| "application's nature, their potential users may become a target for all "
-#| "kinds of fake or manipulated versions used to violate user privacy or "
-#| "attack other Ceno and Ouinet users. If in doubt, please contact "
-#| "[cenoers@equalit.ie](mailto:cenoers@equalit.ie) before installing a "
-#| "suspicious app."
 msgid ""
 "**Warning:** Please be *extremely skeptical* about installing Ceno Browser "
 "from sources other than the ones listed above. Because of the application's "
@@ -215,24 +204,36 @@ msgstr ""
 "помимо данных, например, в системном журнале."
 
 #: browser/install.md:block 18 (quote)
-#, fuzzy
-#| msgid ""
-#| "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit."
-#| "ceno"
+msgid ""
+"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.Ceno"
+msgstr ""
+"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
+
+#: browser/install.md:block 18 (quote)
+msgid "[ceno-gh]: https://github.com/censorship-no/Ceno-browser/releases"
+msgstr "[ceno-gh]: https://gitlab.com/censorship-no/ceno-browser/releases"
+
+#: browser/install.md:block 18 (quote)
+msgid "[ceno-pask]: https://paskoocheh.com/tools/124/android.html"
+msgstr "[ceno-pask]: https://paskoocheh.com/tools/124/android.html"
+
+#: browser/install.md:block 18 (quote)
 msgid ""
 "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
 msgstr ""
 "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
 
 #: browser/install.md:block 18 (quote)
-#, fuzzy
-#| msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
-msgid "[ceno-gh]: https://gitlab.com/censorship-no/ceno-browser/-/releases"
-msgstr "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
+msgid "[ceno-gh]: https://gitlab.com/censorship-no/ceno-browser/releases"
+msgstr "[ceno-gh]: https://gitlab.com/censorship-no/ceno-browser/releases"
+
+#: browser/install.md:block 3 (unordered list)
+msgid "[Gitlab][ceno-gh]: for Android devices without Google Play."
+msgstr "[Gitlab][ceno-gh]: для устройств Android без Google Play."
 
 #: browser/install.md:block 18 (quote)
-msgid "[ceno-pask]: https://paskoocheh.com/tools/124/android.html"
-msgstr "[ceno-pask]: https://paskoocheh.com/tools/124/android.html"
+msgid "[ceno-gh]: https://gitlab.com/censorship-no/ceno-browser/-/releases"
+msgstr "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
 
 #~ msgid "CENO requires *no special permissions* to run."
 #~ msgstr "Для запуска CENO не требуется *никаких дополнительных разрешений*."
@@ -249,3 +250,7 @@ msgstr "[ceno-pask]: https://paskoocheh.com/tools/124/android.html"
 #~ "Просто пролистайте их, нажимая *СЛЕДУЮЩИЙ*, пока не увидите кнопку "
 #~ "*Войдите для синхронизации* и ссылку *НАЧАТЬ ПРОСМОТР*. Firefox Sync не "
 #~ "тестировался на работу с CENO, поэтому просто нажмите *НАЧАТЬ ПРОСМОТР*."
+
+#, fuzzy
+#~ msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
+#~ msgstr "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"

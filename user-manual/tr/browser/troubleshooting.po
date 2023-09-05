@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-10 11:02+0200\n"
-"PO-Revision-Date: 2023-09-01 23:03+0000\n"
+"PO-Revision-Date: 2023-09-05 19:57+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/censorship-no/"
 "browser-troubleshooting/tr/>\n"
@@ -36,10 +36,6 @@ msgstr ""
 "kaynaklanabilir."
 
 #: browser/troubleshooting.md:block 3 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "If problems still persist, please report them to [cenoers@equalit.ie]"
-#| "(mailto:cenoers@equalit.ie). We will try to help you with them."
 msgid ""
 "If problems still persist, please report them to [cenoers@equalitie.org]"
 "(mailto:cenoers@equalitie.org). We will try to help you with them."
@@ -604,7 +600,11 @@ msgstr ""
 "için [buraya](bridging.md) bakın."
 
 #: browser/troubleshooting.md:block 51 (quote)
-#, fuzzy
-#| msgid "[HTTPS by default]: https://github.com/Rob--W/https-by-default"
 msgid "[HTTPS by default]: https://github.com/Rob--W/https-by-default"
 msgstr "[Varsayılan olarak HTTPS]: https://github.com/Rob--W/https-by-default"
+
+#, fuzzy
+#~| msgid "[HTTPS by default]: https://github.com/Rob--W/https-by-default"
+#~ msgid "[HTTPS by default]: https://gitlab.com/Rob--W/https-by-default"
+#~ msgstr ""
+#~ "[Varsayılan olarak HTTPS]: https://github.com/Rob--W/https-by-default"

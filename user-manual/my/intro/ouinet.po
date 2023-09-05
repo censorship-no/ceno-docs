@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-03 02:50+0200\n"
-"PO-Revision-Date: 2023-09-01 23:03+0000\n"
+"PO-Revision-Date: 2023-09-05 19:57+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "ouinet/my/>\n"
@@ -93,13 +93,6 @@ msgstr ""
 "အကြောင်းအရာ ဝင်ရောက်သုံးစွဲနိုင်မှုကို တိုးတက်စေသည်။"
 
 #: intro/ouinet.md:block 8 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Please note that Ouinet is an evolving experimental project: some "
-#| "features may not work reliably enough in certain scenarios, bugs may "
-#| "exist and crashes may occur. We encourage you to reach out to us at "
-#| "[cenoers@equalit.ie](mailto:cenoers@equalit.ie), test it and report back "
-#| "- your feedback is very welcome!"
 msgid ""
 "Please note that Ouinet is an evolving experimental project: some features "
 "may not work reliably enough in certain scenarios, bugs may exist and "
@@ -107,11 +100,12 @@ msgid ""
 "org](mailto:cenoers@equalitie.org), test it and report back - your feedback "
 "is very welcome!"
 msgstr ""
-"Ouinet သည် စမ်းသပ်ဆဲ ပ‌ရောဂျက်ဖြစ်ကြောင်း ကျေးဇူးပြု၍ သတိပြုပါ - အချို့သော အခြေအနေများတွင် "
-"လုပ်ဆောင်ချက်အချို့ကို လုံလောက်စွာ အားမထားရဘဲ အလုပ်လုပ်နိုင်သည်၊ စက်ချွတ်ယွင်းချက်များ ရှိနိုင်ပြီး ရပ်တန့်မှုများ "
-"ဖြစ်နိုင်သည်။ ကျွန်ုပ်တို့ထံ [cenoers@equalitie.org](mailto:cenoers@equalitie.org) သို့ "
-"ဆက်သွယ်ပြီး ၎င်းကို စမ်းသပ်ကာ ပြန်လည်အစီရင်ခံရန် သင့်အား ကျွန်ုပ်တို့ အားပေးပါသည် - သင့် အကြောင်းပြန်မှုကို "
-"ကြိုဆိုပါသည်။"
+"Ouinet သည် စမ်းသပ်ဆဲ ပ‌ရောဂျက်ဖြစ်ကြောင်း ကျေးဇူးပြု၍ သတိပြုပါ - အချို့သော "
+"အခြေအနေများတွင် လုပ်ဆောင်ချက်အချို့ကို လုံလောက်စွာ အားမထားရဘဲ "
+"အလုပ်လုပ်နိုင်သည်၊ စက်ချွတ်ယွင်းချက်များ ရှိနိုင်ပြီး ရပ်တန့်မှုများ "
+"ဖြစ်နိုင်သည်။ ကျွန်ုပ်တို့ထံ [cenoers@equalitie.org](mailto:cenoers@equalitie"
+".org) သို့ ဆက်သွယ်ပြီး ၎င်းကို စမ်းသပ်ကာ ပြန်လည်အစီရင်ခံရန် သင့်အား "
+"ကျွန်ုပ်တို့ အားပေးပါသည် - သင့် အကြောင်းပြန်မှုကို ကြိုဆိုပါသည်။"
 
 #: intro/ouinet.md:block 9 (quote)
 msgid ""
@@ -122,9 +116,7 @@ msgstr ""
 "သင့်လျော်မှုနှင့် ပတ်သက်ပြီး မသေချာပါက ကျွန်ုပ်တို့ကို ဆက်သွယ်ရန် မတွန့်ဆုတ်ပါနှင့်။"
 
 #: intro/ouinet.md:block 9 (quote)
-#, fuzzy
-#| msgid "[Ouinet]: https://github.com/equalitie/ouinet/"
-msgid "[Ouinet]: https://gitlab.com/equalitie/ouinet/"
+msgid "[Ouinet]: https://github.com/equalitie/ouinet/"
 msgstr "[Ouinet]: https://github.com/equalitie/ouinet/"
 
 #: intro/ouinet.md:block 9 (quote)

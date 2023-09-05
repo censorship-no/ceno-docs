@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-03 02:50+0200\n"
-"PO-Revision-Date: 2022-11-06 17:08+0000\n"
-"Last-Translator: george kitsoukakis <norhorn@gmail.com>\n"
+"PO-Revision-Date: 2023-09-05 22:00+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/censorship-no/"
 "ouinet/el/>\n"
 "Language: el\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.2\n"
+"X-Generator: Weblate 5.0.1-dev\n"
 
 #
 #: intro/ouinet.md:block 1 (header)
@@ -84,10 +84,8 @@ msgid ""
 msgstr ""
 
 #: intro/ouinet.md:block 9 (quote)
-#, fuzzy
-#| msgid "[Ouinet]: https://github.com/equalitie/ouinet/"
 msgid "[Ouinet]: https://gitlab.com/equalitie/ouinet/"
-msgstr "[Ouinet]: https://github.com/equalitie/ouinet/"
+msgstr "[Ouinet]: https://gitlab.com/equalitie/ouinet/"
 
 #: intro/ouinet.md:block 9 (quote)
 msgid "[P2P]: https://en.wikipedia.org/wiki/Peer-to-peer"
