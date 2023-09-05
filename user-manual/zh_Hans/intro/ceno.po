@@ -75,9 +75,8 @@ msgid ""
 "[cenoers@equalitie.org](mailto:cenoers@equalitie.org) in case of doubt or "
 "for further information."
 msgstr ""
-"Censorship."
-"no!项目由eQualitie运营，捍卫《世界人权宣言》第十八条、第十九条和第二十条。"
-"Ceno及其相关技术均作为源代码软件开发 ([项目源](https://gitlab.com/"
+"Censorship.no!项目由eQualitie运营，捍卫《世界人权宣言》第十八条、第十九条和第"
+"二十条。Ceno及其相关技术均作为源代码软件开发 ([项目源](https://gitlab.com/"
 "censorship-no/ \"Ceno source code repositories\"))，允许任何人使用、学习、分"
 "享和改进。如有疑问或想了解更多，请联系cenoers@equalitie.org。"
 
@@ -163,5 +162,5 @@ msgid ""
 msgstr ""
 
 #: intro/ceno.md:block 11 (quote)
-msgid "[Ceno-repos]: https://gitlab.com/censorship-no/"
+msgid "[ceno-repos]: https://gitlab.com/censorship-no/"
 msgstr ""

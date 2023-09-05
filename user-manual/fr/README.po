@@ -55,14 +55,22 @@ msgid "[eQualitie]: https://equalit.ie/"
 msgstr "[eQualitie]: https://equalit.ie/fr/"
 
 #: README.md:block 3 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "[Ceno documentation repository]: https://github.com/censorship-no/ceno-"
+#| "docs/"
 msgid ""
-"[Ceno documentation repository]: https://github.com/censorship-no/ceno-docs/"
+"[Ceno documentation repository]: https://gitlab.com/censorship-no/ceno-docs/"
 msgstr ""
 "[Dépôt de documentation Ceno]: https://github.com/censorship-no/ceno-docs/"
 
 #: README.md:block 3 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "[protocol specifications]: https://github.com/equalitie/ouinet/blob/"
+#| "master/doc/ouinet-network-whitepaper.md"
 msgid ""
-"[protocol specifications]: https://github.com/equalitie/ouinet/blob/master/"
+"[protocol specifications]: https://gitlab.com/equalitie/ouinet/blob/master/"
 "doc/ouinet-network-whitepaper.md"
 msgstr ""
 "[spécifications du protocole] : https://github.com/equalitie/ouinet/blob/"

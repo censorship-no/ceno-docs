@@ -114,20 +114,6 @@ msgstr ""
 
 #: intro/qsg.md:block 11 (unordered list)
 msgid ""
-"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.Ceno"
-msgstr ""
-"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
-
-#: intro/qsg.md:block 11 (unordered list)
-msgid "[ceno-gh]: https://github.com/censorship-no/Ceno-browser/releases"
-msgstr "[ceno-gh] : https://gitlab.com/censorship-no/ceno-browser/releases"
-
-#: intro/qsg.md:block 11 (unordered list)
-msgid "[ceno-pask]: https://paskoocheh.com/tools/124/android.html"
-msgstr "[ceno-pask] : https://paskoocheh.com/tools/124/android.html"
-
-#: intro/qsg.md:block 11 (unordered list)
-msgid ""
 "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
 msgstr ""
 "[ceno-gplay] : https://play.google.com/store/apps/details?id=ie.equalit.ceno"
@@ -135,6 +121,20 @@ msgstr ""
 #: intro/qsg.md:block 11 (unordered list)
 msgid "[ceno-gh]: https://gitlab.com/censorship-no/ceno-browser/releases"
 msgstr "[ceno-gh] : https://gitlab.com/censorship-no/ceno-browser/releases"
+
+#: intro/qsg.md:block 11 (unordered list)
+msgid "[ceno-pask]: https://paskoocheh.com/tools/124/android.html"
+msgstr "[ceno-pask] : https://paskoocheh.com/tools/124/android.html"
+
+#~ msgid ""
+#~ "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit."
+#~ "Ceno"
+#~ msgstr ""
+#~ "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit."
+#~ "ceno"
+
+#~ msgid "[ceno-gh]: https://github.com/censorship-no/Ceno-browser/releases"
+#~ msgstr "[ceno-gh] : https://gitlab.com/censorship-no/ceno-browser/releases"
 
 #, fuzzy
 #~| msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"

@@ -80,9 +80,9 @@ msgstr ""
 "Das *Censorship.no!* Projekt wird betrieben von [eQualitie] zur "
 "Unterstützung der Artikel 18,19 und 20 der [Allgemeinen Erklärung der "
 "Menschenrechte]. Ceno und damit zusammenhängende Technologien sind Freie/"
-"Libre/Open Source Software ([project source](https://gitlab.com/"
-"censorship-no/ \"Ceno source code repositories\")), welche es jedem erlauben "
-"sie zu nutzen, erlernen, teilen oder erweiteren. Bitte um Kontaktaufnahme "
+"Libre/Open Source Software ([project source](https://gitlab.com/censorship-"
+"no/ \"Ceno source code repositories\")), welche es jedem erlauben sie zu "
+"nutzen, erlernen, teilen oder erweiteren. Bitte um Kontaktaufnahme "
 "[cenoers@equalitie.org](mailto:cenoers@equalitie.org) bei Zweifeln oder bei "
 "Bedarf an mehr Informationen."
 
@@ -181,9 +181,8 @@ msgstr ""
 "declaration-human-rights/"
 
 #: intro/ceno.md:block 11 (quote)
-msgid "[Ceno-repos]: https://gitlab.com/censorship-no/"
-msgstr "[ceno-repos]: https://gitlab.com/censorship-no/"
-
-#: intro/ceno.md:block 11 (quote)
 msgid "[ceno-repos]: https://gitlab.com/censorship-no/"
 msgstr "[ceno-repos]: https://github.com/censorship-no/"
+
+#~ msgid "[Ceno-repos]: https://gitlab.com/censorship-no/"
+#~ msgstr "[ceno-repos]: https://gitlab.com/censorship-no/"

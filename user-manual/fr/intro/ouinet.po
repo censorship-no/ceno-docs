@@ -124,7 +124,7 @@ msgstr ""
 "contacter."
 
 #: intro/ouinet.md:block 9 (quote)
-msgid "[Ouinet]: https://github.com/equalitie/ouinet/"
+msgid "[Ouinet]: https://gitlab.com/equalitie/ouinet/"
 msgstr "[Ouinet] : https://gitlab.com/equalitie/ouinet/"
 
 #: intro/ouinet.md:block 9 (quote)
@@ -135,6 +135,5 @@ msgstr "[Pair à pair] : https://fr.wikipedia.org/wiki/Pair-%C3%A0-pair"
 msgid "[eQualitie]: https://equalit.ie/"
 msgstr "[eQualitie]: https://equalit.ie/fr/"
 
-#: intro/ouinet.md:block 9 (quote)
-msgid "[Ouinet]: https://gitlab.com/equalitie/ouinet/"
-msgstr "[Ouinet] : https://gitlab.com/equalitie/ouinet/"
+#~ msgid "[Ouinet]: https://github.com/equalitie/ouinet/"
+#~ msgstr "[Ouinet] : https://gitlab.com/equalitie/ouinet/"
