@@ -634,5 +634,5 @@ msgstr ""
 #: browser/troubleshooting.md:block 51 (quote)
 #, fuzzy
 #| msgid "[HTTPS by default]: https://github.com/Rob--W/https-by-default"
-msgid "[HTTPS by default]: https://gitlab.com/Rob--W/https-by-default"
+msgid "[HTTPS by default]: https://github.com/Rob--W/https-by-default"
 msgstr "[HTTPS par défaut] : https://github.com/Rob--W/https-by-default"
