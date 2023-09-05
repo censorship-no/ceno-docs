@@ -19,7 +19,7 @@ The *Censorship.no!* project is run by [eQualitie][] in support of Articles 18, 
 
 [eQualitie]: https://equalit.ie/
 [Universal Declaration of Human Rights]: https://www.un.org/en/universal-declaration-human-rights/
-[Ceno-repos]: https://github.com/censorship-no/
+[Ceno-repos]: https://gitlab.com/censorship-no/
     "Ceno source code repositories"
 
 ## Who is it for?
