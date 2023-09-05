@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-09-05 22:50+0000\n"
+"PO-Revision-Date: 2023-09-05 22:53+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Urdu <https://hosted.weblate.org/projects/censorship-no/"
 "ouinet/ur/>\n"
@@ -114,8 +114,6 @@ msgstr ""
 "محسوس نہ کریں۔"
 
 #: intro/ouinet.md:block 9 (quote)
-#, fuzzy
-#| msgid "[Ouinet]: https://github.com/equalitie/ouinet/"
 msgid "[Ouinet]: https://gitlab.com/equalitie/ouinet/"
 msgstr "[Ouinet]: https://gitlab.com/equalitie/ouinet/"
 
