@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-17 03:03+0000\n"
+"PO-Revision-Date: 2023-09-01 22:39+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Urdu <https://hosted.weblate.org/projects/censorship-no/"
 "browser-settings/ur/>\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.0.1-dev\n"
 
 #: browser/settings.md:block 1 (header)
 msgid "Ceno settings"
@@ -304,7 +304,7 @@ msgid ""
 "*Ceno Browser* indicates the exact version of Ceno that you are using. Also "
 "include in reports."
 msgstr ""
-"*CENO براؤزر* CENO کے عین مطابق ورژن کی نشاندہی کرتا ہے جسے آپ استعمال کر "
+"*Ceno براؤزر* Ceno کے عین مطابق ورژن کی نشاندہی کرتا ہے جسے آپ استعمال کر "
 "رہے ہیں۔ رپورٹس میں بھی شامل کریں۔"
 
 #: browser/settings.md:block 13 (unordered list)
@@ -312,14 +312,14 @@ msgid ""
 "*Ceno Extension* shows the version of the extension that integrates Firefox "
 "with Ceno. Also include in reports."
 msgstr ""
-"*CENO ایکسٹینشن* یہ ایکسٹینشن کا وہ ورژن دکھاتا ہے جو فائر فاکس کو CENO کے "
+"*Ceno ایکسٹینشن* یہ ایکسٹینشن کا وہ ورژن دکھاتا ہے جو فائر فاکس کو Ceno کے "
 "ساتھ مربوط کرتا ہے۔ رپورٹس میں بھی شامل کریں۔"
 
 #: browser/settings.md:block 13 (unordered list)
 msgid ""
 "*Ouinet* shows the version of Ouinet backing Ceno. Also include in reports."
 msgstr ""
-"*Ouinet* یہ Ouinet کی پشت پناہی کرنے والے CENO کا ورژن دکھاتا ہے۔ رپورٹس میں "
+"*Ouinet* یہ Ouinet کی پشت پناہی کرنے والے Ceno کا ورژن دکھاتا ہے۔ رپورٹس میں "
 "بھی شامل کریں۔"
 
 #: browser/settings.md:block 13 (unordered list)
@@ -327,7 +327,7 @@ msgid ""
 "*Ouinet protocol* is the version number of the protocol that Ceno uses to "
 "talk to other Ouinet clients and injectors. Also include in reports."
 msgstr ""
-"*Ouinet پروٹوکول* یہ پروٹوکول کا ورژن نمبر ہے جسے CENO دوسرے Ouinet کلائنٹس "
+"*Ouinet پروٹوکول* یہ پروٹوکول کا ورژن نمبر ہے جسے Ceno دوسرے Ouinet کلائنٹس "
 "اور انجیکٹرز سے بات کرنے کے لیے استعمال کرتا ہے۔ رپورٹس میں بھی شامل کریں۔"
 
 #: browser/settings.md:block 14 (header)
@@ -343,7 +343,7 @@ msgid ""
 msgstr ""
 "اوپر *مقامی کیش سائز* ویلیو کے آگے، ایک بٹن ہے جو آپ کو سيڈنگ کو روکنے اور "
 "Ouinet پر آپ کے ڈیوائس کے ذریعے اشتراک کردہ تمام مواد کو چھوڑنے کی اجازت "
-"دیتا ہے۔ یہ آپ کو دیگر CENO ترتیبات جیسے پسندیدہ کو برقرار رکھتے ہوئے اپنے "
+"دیتا ہے۔ یہ آپ کو دیگر Ceno ترتیبات جیسے پسندیدہ کو برقرار رکھتے ہوئے اپنے "
 "ڈیوائس میں ذخیرہ کی کچھ جگہ خالی کرنے کی اجازت دیتا ہے۔"
 
 #: browser/settings.md:block 16 (paragraph)
@@ -354,7 +354,7 @@ msgid ""
 "then *Clear private data*. You will be asked about which items you want to "
 "clear."
 msgstr ""
-"اگر آپ CENO کے عام براؤزنگ کیش کو صاف کرنا چاہتے ہیں (جو براؤزر استعمال کرتا "
+"اگر آپ Ceno کے عام براؤزنگ کیش کو صاف کرنا چاہتے ہیں (جو براؤزر استعمال کرتا "
 "ہے لیکن دوسروں کے ساتھ شیئر نہیں کیا جاتا ہے) یا دیگر اشیاء جیسے کوکیز، "
 "براؤزنگ کی سرگزشت یا پسندیدہ، آپ کو ایپ کے مین مینو میں *ترتیبات* کا انتخاب "
 "کرنا چاہیے، پھر *نجی ڈیٹا کو صاف کریں۔ * آپ سے پوچھا جائے گا کہ آپ کن چیزوں "
@@ -367,7 +367,7 @@ msgid ""
 "[Installing Ceno](install.md)."
 msgstr ""
 "ہر چیز کو ایک ہی وقت میں چھوڑنے کے لیے (خاص طور پر اگر آپ جلدی میں ہیں)، "
-"براہ کرم سیکھیں کہ \"گھبراہٹ کا بٹن\" خصوصیت کیسے استعمال کیا جائے جو [CENO "
+"براہ کرم سیکھیں کہ \"گھبراہٹ کا بٹن\" خصوصیت کیسے استعمال کیا جائے جو [Ceno "
 "انسٹال کرنا](install.md) میں بیان کیا گیا ہے۔"
 
 #: browser/settings.md:block 18 (header)
@@ -383,12 +383,12 @@ msgid ""
 msgstr ""
 "صفحہ کے نیچے ایک *لاگ فائل کو فعال کریں* چیک باکس ہے جو آپ کو Ouinet کے تمام "
 "اندرونی پیغامات کو جمع کرنے اور انہیں فائل میں ڈاؤن لوڈ کرنے کی اجازت دیتا "
-"ہے۔ یہ صرف CENO میں کسی مسئلے کی تشخیص کرتے وقت استعمال کیا جانا چاہئے؛ صرف "
+"ہے۔ یہ صرف Ceno میں کسی مسئلے کی تشخیص کرتے وقت استعمال کیا جانا چاہئے؛ صرف "
 "ان اقدامات پر عمل کریں:"
 
 #: browser/settings.md:block 20 (ordered list)
 msgid "At the *Ceno Settings* page, check *Enable log file*."
-msgstr "*CENO ترتیبات* صفحہ پر، *لاگ فائل کو فعال کریں* کو چیک کریں۔"
+msgstr "*Ceno ترتیبات* صفحہ پر، *لاگ فائل کو فعال کریں* کو چیک کریں۔"
 
 #: browser/settings.md:block 20 (ordered list)
 msgid ""
@@ -404,9 +404,9 @@ msgid ""
 "ask you at this point whether to allow Ceno access to stored media: this is "
 "needed to be able to save the file."
 msgstr ""
-"*CENO ترتیبات* صفحہ پر واپس جائیں اور *لاگ فائل کو فعال کریں* چیک باکس کے "
+"*Ceno ترتیبات* صفحہ پر واپس جائیں اور *لاگ فائل کو فعال کریں* چیک باکس کے "
 "آگے *ڈاؤن لوڈ* لنک پر کلک کریں۔ فائل کو بعد میں استعمال کے لیے محفوظ کریں۔ "
-"اینڈروئیڈ اس وقت آپ سے پوچھ سکتا ہے کہ آیا CENO کو ذخیرہ شدہ میڈیا تک رسائی "
+"اینڈروئیڈ اس وقت آپ سے پوچھ سکتا ہے کہ آیا Ceno کو ذخیرہ شدہ میڈیا تک رسائی "
 "کی اجازت دی جائے: فائل کو محفوظ کرنے کے لیے اس کی ضرورت ہے۔"
 
 #: browser/settings.md:block 20 (ordered list)

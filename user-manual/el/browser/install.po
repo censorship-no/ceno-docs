@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2023-05-17 03:09+0000\n"
+"PO-Revision-Date: 2023-09-01 23:03+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Greek <https://hosted.weblate.org/projects/censorship-no/"
 "browser-install/el/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.0.1-dev\n"
 
 #
 #: browser/install.md:block 1 (header)
@@ -21,7 +21,8 @@ msgstr "Εγκατάσταση Ceno"
 
 #: browser/install.md:block 2 (paragraph)
 msgid "Ceno Browser can be installed via the following means:"
-msgstr "Ο φυλλομετρητής Ceno μπορεί να εγκατασταθεί με τους ακόλουθους τρόπους:"
+msgstr ""
+"Ο φυλλομετρητής Ceno μπορεί να εγκατασταθεί με τους ακόλουθους τρόπους:"
 
 #: browser/install.md:block 3 (unordered list)
 msgid ""
@@ -55,21 +56,30 @@ msgstr ""
 "δε χρειάζεται *καμία ειδική άδεια* για να εκτελεστεί."
 
 #: browser/install.md:block 5 (quote)
+#, fuzzy
+#| msgid ""
+#| "**Warning:** Please be *extremely skeptical* about installing Ceno "
+#| "Browser from sources other than the ones listed above. Because of the "
+#| "application's nature, their potential users may become a target for all "
+#| "kinds of fake or manipulated versions used to violate user privacy or "
+#| "attack other Ceno and Ouinet users. If in doubt, please contact "
+#| "[cenoers@equalit.ie](mailto:cenoers@equalit.ie) before installing a "
+#| "suspicious app."
 msgid ""
 "**Warning:** Please be *extremely skeptical* about installing Ceno Browser "
 "from sources other than the ones listed above. Because of the application's "
 "nature, their potential users may become a target for all kinds of fake or "
 "manipulated versions used to violate user privacy or attack other Ceno and "
-"Ouinet users. If in doubt, please contact [cenoers@equalit.ie](mailto:"
-"cenoers@equalit.ie) before installing a suspicious app."
+"Ouinet users. If in doubt, please contact [cenoers@equalitie.org](mailto:"
+"cenoers@equalitie.org) before installing a suspicious app."
 msgstr ""
 "**Προσοχή:** Παρακαλούμε να είστε *εξαιρετικά προσεκτικοί* με την "
 "εγκατάσταση του Ceno Browser από άλλες πηγές εκτός από αυτές που αναφέρονται "
 "παραπάνω. Εξαιτίας της φύσης της εφαρμογής, οι χρήστες του μπορεί να γίνουν "
 "στόχος για κάθε είδους ψεύτικες ή κακόβουλες εκδόσεις με σκοπό την παραβίαση "
 "της ιδιωτικότητας των χρηστών ή να επιτεθούν σε άλλους χρήστες του Ceno και "
-"Ouinet. Εάν έχετε αμφιβολίες, επικοινωνήστε με το [cenoers@equalit."
-"ie](mailto:cenoers@equalit.ie) πριν εγκαταστήσετε μια ύποπτη εφαρμογή."
+"Ouinet. Εάν έχετε αμφιβολίες, επικοινωνήστε με το [cenoers@equalitie."
+"org](mailto:cenoers@equalitie.org) πριν εγκαταστήσετε μια ύποπτη εφαρμογή."
 
 #: browser/install.md:block 6 (header)
 msgid "Stopping Ceno completely"
@@ -84,8 +94,8 @@ msgid ""
 "from it at any time."
 msgstr ""
 "Σε κάθε έναρξη της εφαρμογής, ένα εικονίδιο Ceno θα εμφανίζεται στη γραμμή "
-"ειδοποιήσεων της συσκευής σας. Αυτό το εικονίδιο αντιπροσωπεύει την *"
-"υπηρεσία Ceno Browser*, η οποία είναι το τμήμα που εκτελείται μόνιμα (ακόμη "
+"ειδοποιήσεων της συσκευής σας. Αυτό το εικονίδιο αντιπροσωπεύει την "
+"*υπηρεσία Ceno Browser*, η οποία είναι το τμήμα που εκτελείται μόνιμα (ακόμη "
 "και όταν δεν περιηγείστε) και επιτρέπει σε άλλους πελάτες να χρησιμοποιούν "
 "τη συσκευή σας ως γέφυρα και να ανακτούν περιεχόμενο από αυτήν."
 
@@ -202,13 +212,19 @@ msgstr ""
 "συστήματος."
 
 #: browser/install.md:block 18 (quote)
+#, fuzzy
+#| msgid ""
+#| "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit."
+#| "ceno"
 msgid ""
-"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
+"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.Ceno"
 msgstr ""
 "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.cenο"
 
 #: browser/install.md:block 18 (quote)
-msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
+#, fuzzy
+#| msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
+msgid "[ceno-gh]: https://github.com/censorship-no/Ceno-browser/releases"
 msgstr "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
 
 #: browser/install.md:block 18 (quote)

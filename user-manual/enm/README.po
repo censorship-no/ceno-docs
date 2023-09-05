@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Language: enm\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: README.md:block 1 (header)
@@ -25,7 +25,7 @@ msgid ""
 msgstr ""
 
 #: README.md:block 3 (paragraph)
-msgid "[Ceno Browser]: https://github.com/censorship-no/ceno-browser"
+msgid "[Ceno Browser]: https://gitlab.com/censorship-no/ceno-browser"
 msgstr ""
 
 #: README.md:block 3 (paragraph)
@@ -38,7 +38,7 @@ msgstr ""
 
 #: README.md:block 3 (paragraph)
 msgid ""
-"[Ceno documentation repository]: https://github.com/censorship-no/ceno-docs/"
+"[Ceno documentation repository]: https://github.com/censorship-no/Ceno-docs/"
 msgstr ""
 
 #: README.md:block 3 (paragraph)

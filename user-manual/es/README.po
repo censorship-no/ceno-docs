@@ -42,7 +42,9 @@ msgstr ""
 "las [especificaciones del protocolo][especificaciones del protocolo]."
 
 #: README.md:block 3 (paragraph)
-msgid "[Ceno Browser]: https://github.com/censorship-no/ceno-browser"
+#, fuzzy
+#| msgid "[Ceno Browser]: https://github.com/censorship-no/ceno-browser"
+msgid "[Ceno Browser]: https://gitlab.com/censorship-no/ceno-browser"
 msgstr "[Navegador Ceno]: https://github.com/censorship-no/ceno-browser"
 
 #: README.md:block 3 (paragraph)
@@ -54,11 +56,15 @@ msgid "[eQualitie]: https://equalit.ie/"
 msgstr "[eQualitie]: https://equalit.ie/"
 
 #: README.md:block 3 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "[Ceno documentation repository]: https://github.com/censorship-no/ceno-"
+#| "docs/"
 msgid ""
-"[Ceno documentation repository]: https://github.com/censorship-no/ceno-docs/"
+"[Ceno documentation repository]: https://github.com/censorship-no/Ceno-docs/"
 msgstr ""
-"[repositorio de documentación Ceno]: https://github.com/censorship-no/"
-"ceno-docs/"
+"[repositorio de documentación Ceno]: https://github.com/censorship-no/ceno-"
+"docs/"
 
 #: README.md:block 3 (paragraph)
 msgid ""

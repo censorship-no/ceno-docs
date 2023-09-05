@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-17 03:09+0000\n"
+"PO-Revision-Date: 2023-09-01 23:03+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-install/uk/>\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.0.1-dev\n"
 
 #: browser/install.md:block 1 (header)
 msgid "Installing Ceno"
@@ -52,13 +52,22 @@ msgstr ""
 "роботи."
 
 #: browser/install.md:block 5 (quote)
+#, fuzzy
+#| msgid ""
+#| "**Warning:** Please be *extremely skeptical* about installing Ceno "
+#| "Browser from sources other than the ones listed above. Because of the "
+#| "application's nature, their potential users may become a target for all "
+#| "kinds of fake or manipulated versions used to violate user privacy or "
+#| "attack other Ceno and Ouinet users. If in doubt, please contact "
+#| "[cenoers@equalit.ie](mailto:cenoers@equalit.ie) before installing a "
+#| "suspicious app."
 msgid ""
 "**Warning:** Please be *extremely skeptical* about installing Ceno Browser "
 "from sources other than the ones listed above. Because of the application's "
 "nature, their potential users may become a target for all kinds of fake or "
 "manipulated versions used to violate user privacy or attack other Ceno and "
-"Ouinet users. If in doubt, please contact [cenoers@equalit.ie](mailto:"
-"cenoers@equalit.ie) before installing a suspicious app."
+"Ouinet users. If in doubt, please contact [cenoers@equalitie.org](mailto:"
+"cenoers@equalitie.org) before installing a suspicious app."
 msgstr ""
 "**Увага:** Будь ласка, будьте обережні й НЕ встановлюйте браузер Ceno з будь-"
 "яких інших платформ, окрім перерахованих вище. З огляду на особливість "
@@ -66,7 +75,7 @@ msgstr ""
 "або скомпрометовані версії, що використовуються для порушення "
 "конфіденційності користувача або атаки на інших користувачів Ceno та Ouinet. "
 "Якщо Ви сумніваєтеся, чи достовірна програма, будь ласка, звʼяжіться з "
-"[cenoers@equalit.ie](mailto:cenoers@equalit.ie) перед встановленням."
+"[cenoers@equalitie.org](mailto:cenoers@equalitie.org) перед встановленням."
 
 #: browser/install.md:block 6 (header)
 msgid "Stopping Ceno completely"
@@ -154,8 +163,8 @@ msgid ""
 "![Figure: The last action stops Ceno and clears all its data](images/tap-"
 "purge.png)"
 msgstr ""
-"![Малюнок: Остання дія зупиняє Ceno та очищає всі його дані](images/tap-purge"
-".png)"
+"![Малюнок: Остання дія зупиняє Ceno та очищає всі його дані](images/tap-"
+"purge.png)"
 
 #: browser/install.md:block 15 (paragraph)
 msgid ""
@@ -197,13 +206,19 @@ msgstr ""
 "окрім даних, зокрема, у системному журналі."
 
 #: browser/install.md:block 18 (quote)
+#, fuzzy
+#| msgid ""
+#| "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit."
+#| "ceno"
 msgid ""
-"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
+"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.Ceno"
 msgstr ""
 "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
 
 #: browser/install.md:block 18 (quote)
-msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
+#, fuzzy
+#| msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
+msgid "[ceno-gh]: https://github.com/censorship-no/Ceno-browser/releases"
 msgstr "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
 
 #: browser/install.md:block 18 (quote)

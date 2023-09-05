@@ -37,8 +37,8 @@ msgid ""
 "device (you can use Ceno too). Its default address is <http://127.0.0.1:8078/"
 ">. If you open it, you will see something like the figure below."
 msgstr ""
-"Ο ιστότοπος είναι προσβάσιμος χρησιμοποιώντας οποιονδήποτε φυλλομετρητή ("
-"μπορείτε να χρησιμοποιήσετε και το Ceno). Η προεπιλεγμένη διεύθυνση είναι "
+"Ο ιστότοπος είναι προσβάσιμος χρησιμοποιώντας οποιονδήποτε φυλλομετρητή "
+"(μπορείτε να χρησιμοποιήσετε και το Ceno). Η προεπιλεγμένη διεύθυνση είναι "
 "<http://127.0.0.1:8078/>. Αν την ανοίξετε, θα δείτε κάτι όπως παρακάτω."
 
 #: client/front-end.md:block 4 (paragraph)
@@ -152,9 +152,12 @@ msgid ""
 "The directory of the external, static cache if enabled (Ceno does not "
 "currently use this)."
 msgstr ""
-"Ο κατάλογος της εξωτερικής, στατικής κρυφής μνήμης αν είναι ενεργοποιημένη ("
-"το Ceno δε χρησιμοποιεί επί του παρόντος)."
+"Ο κατάλογος της εξωτερικής, στατικής κρυφής μνήμης αν είναι ενεργοποιημένη "
+"(το Ceno δε χρησιμοποιεί επί του παρόντος)."
 
 #: client/front-end.md:block 6 (unordered list)
-msgid "[Ceno Extension]: https://github.com/censorship-no/ceno-ext-settings/"
+#, fuzzy
+#| msgid ""
+#| "[Ceno Extension]: https://github.com/censorship-no/ceno-ext-settings/"
+msgid "[Ceno Extension]: https://github.com/censorship-no/Ceno-ext-settings/"
 msgstr "[Πρόσθετο Ceno]: https://github.com/censorship-no/ceno-ext-settings/"

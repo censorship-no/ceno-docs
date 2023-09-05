@@ -34,13 +34,15 @@ msgid ""
 "the [protocol specifications][protocol specifications]."
 msgstr ""
 "اگر به دنبال اطلاعات فنی می‌گردید، لطفاً به [انبار اسناد سنو](https://github."
-"com/censorship-no/ceno-docs) رجوع کنید، در آن‌جا ارجاع‌هایی برای مطالعه‌ی "
-"بیشتر و جزئیاتی درباره‌ی پیاده‌سازی و همچنین [جزئیات پروتکل](https://github."
-"com/equalitie/ouinet/blob/master/doc/ouinet-network-whitepaper.md) را خواهید "
+"com/censorship-no/ceno-docs) رجوع کنید، در آن‌جا ارجاع‌هایی برای مطالعه‌ی بیشتر "
+"و جزئیاتی درباره‌ی پیاده‌سازی و همچنین [جزئیات پروتکل](https://github.com/"
+"equalitie/ouinet/blob/master/doc/ouinet-network-whitepaper.md) را خواهید "
 "یافت."
 
 #: README.md:block 3 (paragraph)
-msgid "[Ceno Browser]: https://github.com/censorship-no/ceno-browser"
+#, fuzzy
+#| msgid "[Ceno Browser]: https://github.com/censorship-no/ceno-browser"
+msgid "[Ceno Browser]: https://gitlab.com/censorship-no/ceno-browser"
 msgstr "[Ceno Browser]: https://github.com/censorship-no/ceno-browser"
 
 #: README.md:block 3 (paragraph)
@@ -52,8 +54,12 @@ msgid "[eQualitie]: https://equalit.ie/"
 msgstr "[eQualitie]: https://equalit.ie"
 
 #: README.md:block 3 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "[Ceno documentation repository]: https://github.com/censorship-no/ceno-"
+#| "docs/"
 msgid ""
-"[Ceno documentation repository]: https://github.com/censorship-no/ceno-docs/"
+"[Ceno documentation repository]: https://github.com/censorship-no/Ceno-docs/"
 msgstr ""
 "[Ceno documentation repository]: https://github.com/censorship-no/ceno-docs/"
 

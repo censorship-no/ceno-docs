@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Language: enm\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: client/front-end.md:block 1 (header)
@@ -106,5 +106,5 @@ msgid ""
 msgstr ""
 
 #: client/front-end.md:block 6 (unordered list)
-msgid "[Ceno Extension]: https://github.com/censorship-no/ceno-ext-settings/"
+msgid "[Ceno Extension]: https://github.com/censorship-no/Ceno-ext-settings/"
 msgstr ""

@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-17 03:17+0000\n"
+"PO-Revision-Date: 2023-09-01 23:03+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/censorship-no/"
 "qsg/pt/>\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.0.1-dev\n"
 
 #: intro/qsg.md:block 1 (header)
 msgid "Quick start guide"
@@ -76,8 +76,8 @@ msgid ""
 "Ceno Browser should work out-of-the-box. You can find some [diagnostics and "
 "settings](../browser/settings.md) under the *Ceno* menu entry."
 msgstr ""
-"O CENO Browser deve funcionar fora da caixa. Pode encontrar alguns ["
-"diagnósticos e definições](.../browser/settings.md) sob a entrada do menu "
+"O CENO Browser deve funcionar fora da caixa. Pode encontrar alguns "
+"[diagnósticos e definições](.../browser/settings.md) sob a entrada do menu "
 "*CENO*."
 
 #: intro/qsg.md:block 9 (paragraph)
@@ -103,19 +103,30 @@ msgstr ""
 "Consultar o [guia de resolução de problemas](.../browser/troubleshooting.md)."
 
 #: intro/qsg.md:block 11 (unordered list)
+#, fuzzy
+#| msgid ""
+#| "Contact us by writing to [cenoers@equalit.ie](mailto:cenoers@equalit.ie)."
 msgid ""
-"Contact us by writing to [cenoers@equalit.ie](mailto:cenoers@equalit.ie)."
+"Contact us by writing to [cenoers@equalitie.org](mailto:cenoers@equalitie."
+"org)."
 msgstr ""
-"Contacte-nos escrevendo para [cenoers@equalit.ie](mailto:cenoers@equalit.ie)."
+"Contacte-nos escrevendo para [cenoers@equalitie.org](mailto:cenoers@equalitie"
+".org)."
 
 #: intro/qsg.md:block 11 (unordered list)
+#, fuzzy
+#| msgid ""
+#| "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit."
+#| "ceno"
 msgid ""
-"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
+"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.Ceno"
 msgstr ""
 "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
 
 #: intro/qsg.md:block 11 (unordered list)
-msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
+#, fuzzy
+#| msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
+msgid "[ceno-gh]: https://github.com/censorship-no/Ceno-browser/releases"
 msgstr "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
 
 #: intro/qsg.md:block 11 (unordered list)

@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-17 03:06+0000\n"
+"PO-Revision-Date: 2023-09-01 23:03+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "censorship-no/browser-readme/pt_BR/>\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.0.1-dev\n"
 
 #: browser/README.md:block 1 (header)
 msgid "Using Ceno Browser"
@@ -27,8 +27,8 @@ msgstr ""
 "respeito aos recursos relacionados à Ouinet. Por favor, lembre-se sempre que "
 "o Ceno é baseado em [Firefox para Android][Firefox para Android], então para "
 "todas as perguntas em tópicos sobre navegação genérica você deve consultar "
-"as páginas [Suporte do Firefox para Android][Suporte do Firefox para Android]"
-" da Mozilla."
+"as páginas [Suporte do Firefox para Android][Suporte do Firefox para "
+"Android] da Mozilla."
 
 #: browser/README.md:block 3 (paragraph)
 msgid ""
@@ -43,14 +43,19 @@ msgstr ""
 "avança. Esta documentação está atualizada para a versão 1.6.0."
 
 #: browser/README.md:block 4 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "If your application exhibits behaviors substantially different from those "
+#| "described here, do not hesitate to contact us at [cenoers@equalit.ie]"
+#| "(mailto:cenoers@equalit.ie) and report the issue."
 msgid ""
 "If your application exhibits behaviors substantially different from those "
-"described here, do not hesitate to contact us at [cenoers@equalit.ie](mailto:"
-"cenoers@equalit.ie) and report the issue."
+"described here, do not hesitate to contact us at [cenoers@equalitie.org]"
+"(mailto:cenoers@equalitie.org) and report the issue."
 msgstr ""
 "Se sua aplicação apresenta um comportamento substancialmente diferente dos "
-"descritos aqui, não hesite em nos contatar em [cenoers@equalit.ie](mailto:"
-"cenoers@equalit.ie) e relatar o problema."
+"descritos aqui, não hesite em nos contatar em [cenoers@equalitie."
+"org](mailto:cenoers@equalitie.org) e relatar o problema."
 
 #: browser/README.md:block 4 (paragraph)
 msgid "[Firefox for Android]: https://www.mozilla.org/firefox/android/"

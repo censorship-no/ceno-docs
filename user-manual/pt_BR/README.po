@@ -22,8 +22,8 @@ msgid ""
 "[eQualitie][eQualitie]."
 msgstr ""
 "Este manual é destinado a usuários do [Navegador Ceno][Navegador Ceno] e "
-"tecnologias relacionadas, conforme criadas para o projeto [Censorship."
-"no!][Censorship.no!] pela [eQualitie][eQualitie]."
+"tecnologias relacionadas, conforme criadas para o projeto [Censorship.no!]"
+"[Censorship.no!] pela [eQualitie][eQualitie]."
 
 #: README.md:block 3 (paragraph)
 msgid ""
@@ -32,14 +32,16 @@ msgid ""
 "find pointers for further reading and details on implementation, as well as "
 "the [protocol specifications][protocol specifications]."
 msgstr ""
-"Se você está procurando por documentação técnica, por favor consulte o ["
-"repositório de documentação do Ceno][repositório de documentação do Ceno]. "
+"Se você está procurando por documentação técnica, por favor consulte o "
+"[repositório de documentação do Ceno][repositório de documentação do Ceno]. "
 "Lá você encontrará indicações para leituras posteriores e detalhes de "
 "implementação, bem como as [especificações de protocolo][especificações de "
 "protocolo]."
 
 #: README.md:block 3 (paragraph)
-msgid "[Ceno Browser]: https://github.com/censorship-no/ceno-browser"
+#, fuzzy
+#| msgid "[Ceno Browser]: https://github.com/censorship-no/ceno-browser"
+msgid "[Ceno Browser]: https://gitlab.com/censorship-no/ceno-browser"
 msgstr "[Navegador Ceno]: https://github.com/censorship-no/ceno-browser"
 
 #: README.md:block 3 (paragraph)
@@ -51,11 +53,15 @@ msgid "[eQualitie]: https://equalit.ie/"
 msgstr "[eQualitie]: https://equalit.ie/"
 
 #: README.md:block 3 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "[Ceno documentation repository]: https://github.com/censorship-no/ceno-"
+#| "docs/"
 msgid ""
-"[Ceno documentation repository]: https://github.com/censorship-no/ceno-docs/"
+"[Ceno documentation repository]: https://github.com/censorship-no/Ceno-docs/"
 msgstr ""
-"[repositório de documentação do Ceno]: https://github.com/censorship-no/"
-"ceno-docs/"
+"[repositório de documentação do Ceno]: https://github.com/censorship-no/ceno-"
+"docs/"
 
 #: README.md:block 3 (paragraph)
 msgid ""

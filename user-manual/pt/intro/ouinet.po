@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-17 03:14+0000\n"
+"PO-Revision-Date: 2023-09-01 23:03+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/censorship-no/"
 "ouinet/pt/>\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.0.1-dev\n"
 
 #: intro/ouinet.md:block 1 (header)
 msgid "What is Ouinet?"
@@ -93,18 +93,25 @@ msgstr ""
 "a esse servidor."
 
 #: intro/ouinet.md:block 8 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "Please note that Ouinet is an evolving experimental project: some "
+#| "features may not work reliably enough in certain scenarios, bugs may "
+#| "exist and crashes may occur. We encourage you to reach out to us at "
+#| "[cenoers@equalit.ie](mailto:cenoers@equalit.ie), test it and report back "
+#| "- your feedback is very welcome!"
 msgid ""
 "Please note that Ouinet is an evolving experimental project: some features "
 "may not work reliably enough in certain scenarios, bugs may exist and "
-"crashes may occur. We encourage you to reach out to us at [cenoers@equalit."
-"ie](mailto:cenoers@equalit.ie), test it and report back - your feedback is "
-"very welcome!"
+"crashes may occur. We encourage you to reach out to us at [cenoers@equalitie."
+"org](mailto:cenoers@equalitie.org), test it and report back - your feedback "
+"is very welcome!"
 msgstr ""
 "Note-se que Ouinet é um projeto experimental em evolução: algumas "
 "características podem não funcionar de forma suficientemente fiável em "
 "certos cenários, podem existir bugs e podem ocorrer falhas. Encorajamo-lo a "
-"contactar-nos em [cenoers@equalit.ie](mailto:cenoers@equalit.ie), testá-lo e "
-"comunicar-nos o seu feedback - o seu feedback é muito bem-vindo!"
+"contactar-nos em [cenoers@equalitie.org](mailto:cenoers@equalitie.org), "
+"testá-lo e comunicar-nos o seu feedback - o seu feedback é muito bem-vindo!"
 
 #: intro/ouinet.md:block 9 (quote)
 msgid ""

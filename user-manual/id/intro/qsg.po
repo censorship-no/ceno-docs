@@ -1,15 +1,15 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-07-14 19:47+0000\n"
-"Last-Translator: Taufik Adi Wicaksono <taufikadi.wicaksono@tutamail.com>\n"
+"PO-Revision-Date: 2023-09-01 23:03+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/censorship-no/"
 "qsg/id/>\n"
 "Language: id\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.0-dev\n"
+"X-Generator: Weblate 5.0.1-dev\n"
 
 #: intro/qsg.md:block 1 (header)
 msgid "Quick start guide"
@@ -56,8 +56,8 @@ msgid ""
 msgstr ""
 "Jelajahi halaman secara normal untuk membantu pengguna lain untuk "
 "mengaksesnya. Jika khawatir mengenai privasi untuk beberapa halaman atau "
-"jika tidak memuat seperti yang diharapkan, gunakan tab privat (lihat ["
-"penjelajahan publik vs. privat](../concepts/public-private.md))."
+"jika tidak memuat seperti yang diharapkan, gunakan tab privat (lihat "
+"[penjelajahan publik vs. privat](../concepts/public-private.md))."
 
 #: intro/qsg.md:block 5 (ordered list)
 msgid "Tap on the Ceno notification to stop it completely."
@@ -76,8 +76,8 @@ msgid ""
 "Ceno Browser should work out-of-the-box. You can find some [diagnostics and "
 "settings](../browser/settings.md) under the *Ceno* menu entry."
 msgstr ""
-"Peramban Ceno harus bekerja di luar kotak. Anda dapat menemukan beberapa ["
-"diagnostik dan pengaturan](../browser/settings.md) di bawah entri menu "
+"Peramban Ceno harus bekerja di luar kotak. Anda dapat menemukan beberapa "
+"[diagnostik dan pengaturan](../browser/settings.md) di bawah entri menu "
 "*Ceno*."
 
 #: intro/qsg.md:block 9 (paragraph)
@@ -102,20 +102,30 @@ msgid "Refer to the [troubleshooting guide](../browser/troubleshooting.md)."
 msgstr "Lihat [panduan pemecahan masalah](../browser/troubleshooting.md)."
 
 #: intro/qsg.md:block 11 (unordered list)
+#, fuzzy
+#| msgid ""
+#| "Contact us by writing to [cenoers@equalit.ie](mailto:cenoers@equalit.ie)."
 msgid ""
-"Contact us by writing to [cenoers@equalit.ie](mailto:cenoers@equalit.ie)."
+"Contact us by writing to [cenoers@equalitie.org](mailto:cenoers@equalitie."
+"org)."
 msgstr ""
-"Hubungi kami dengan mengirimkan surel ke [cenoers@equalit."
-"ie](mailto:cenoers@equalit.ie)."
+"Hubungi kami dengan mengirimkan surel ke [cenoers@equalitie."
+"org](mailto:cenoers@equalitie.org)."
 
 #: intro/qsg.md:block 11 (unordered list)
+#, fuzzy
+#| msgid ""
+#| "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit."
+#| "ceno"
 msgid ""
-"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
+"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.Ceno"
 msgstr ""
 "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
 
 #: intro/qsg.md:block 11 (unordered list)
-msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
+#, fuzzy
+#| msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
+msgid "[ceno-gh]: https://github.com/censorship-no/Ceno-browser/releases"
 msgstr "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
 
 #: intro/qsg.md:block 11 (unordered list)

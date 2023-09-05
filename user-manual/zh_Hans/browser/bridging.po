@@ -61,15 +61,16 @@ msgid ""
 "port forwarding configured for Ceno. See the next sections for further "
 "details."
 msgstr ""
-"这一功能已经内置于Ceno浏览器中。您的设备将需要连接到一个Wi-"
-"Fi网络，并将此网络为Ceno配置UPnP功能或显式端口转发。更多细节请看下面的章节。"
+"这一功能已经内置于Ceno浏览器中。您的设备将需要连接到一个Wi-Fi网络，并将此网络"
+"为Ceno配置UPnP功能或显式端口转发。更多细节请看下面的章节。"
 
 #: browser/bridging.md:block 6 (paragraph)
 msgid ""
 "However, please note that Android will only allow a mobile device to act as "
 "a proper bridge while you are actively using it, as power-saving features "
 "will throttle the operation of Ceno otherwise."
-msgstr "然而，请注意，安卓系统只允许移动设备在您使用它时充当可用的桥梁。在不使用设备"
+msgstr ""
+"然而，请注意，安卓系统只允许移动设备在您使用它时充当可用的桥梁。在不使用设备"
 "时，省电功能将扼杀Ceno的运作。"
 
 #: browser/bridging.md:block 7 (quote)
@@ -88,8 +89,9 @@ msgstr ""
 msgid ""
 "Thus if you intend to have Ceno acting as a permanent, always-reachable "
 "bridge, besides a properly configured Wi-Fi network you will need to:"
-msgstr "因此，如果您打算让Ceno充当一个永久的、一直可以到达的网桥"
-"，除了一个正确配置的Wi-Fi网络，您还需要："
+msgstr ""
+"因此，如果您打算让Ceno充当一个永久的、一直可以到达的网桥，除了一个正确配置的"
+"Wi-Fi网络，您还需要："
 
 #: browser/bridging.md:block 9 (ordered list)
 msgid "Have your device plugged in to power at all times."
@@ -158,9 +160,9 @@ msgstr ""
 
 #: browser/bridging.md:block 17 (paragraph)
 msgid ""
-"The command will start a container named `ceno-client` that will run on "
+"The command will start a container named `Ceno-client` that will run on "
 "every boot unless you explicitly tell it to stop. Please check the [Ceno "
-"Docker client documentation][ceno-client-doc] for more information on how to "
+"Docker client documentation][Ceno-client-doc] for more information on how to "
 "manipulate the container."
 msgstr ""
 
@@ -181,8 +183,8 @@ msgid ""
 "client) reachable to the Ceno network. The [Ceno Settings](settings.md) page "
 "will indicate the UPnP status on your local network."
 msgstr ""
-"[UPnP][UPnP]是使您的Ceno浏览器可以接触到Ceno网络的最简单方法。在[Ceno设置](se"
-"ttings.md)页面上会显示您本地网络的UPnP状态。"
+"[UPnP][UPnP]是使您的Ceno浏览器可以接触到Ceno网络的最简单方法。在[Ceno设置]"
+"(settings.md)页面上会显示您本地网络的UPnP状态。"
 
 #: browser/bridging.md:block 21 (quote)
 msgid ""
@@ -306,9 +308,9 @@ msgid ""
 "periodically review the *Ceno Settings* page to see that your device is "
 "reachable to the Ceno network."
 msgstr ""
-"端口转发必须是针对UDP协议的（而非TCP）。Ceno在第一次运行时选择一个随机的端口"
-"，并在以后的运行中保持这个端口，但你的设备的本地网络IP地址可能会不时地发生变"
-"化。因此，你应该定期查看*Ceno设置*页面，以了解你的设备是否可到达Ceno网络。"
+"端口转发必须是针对UDP协议的（而非TCP）。Ceno在第一次运行时选择一个随机的端"
+"口，并在以后的运行中保持这个端口，但你的设备的本地网络IP地址可能会不时地发生"
+"变化。因此，你应该定期查看*Ceno设置*页面，以了解你的设备是否可到达Ceno网络。"
 
 #: browser/bridging.md:block 35 (quote)
 msgid ""
@@ -339,7 +341,7 @@ msgstr ""
 
 #: browser/bridging.md:block 35 (quote)
 msgid ""
-"[ceno-client-doc]: https://github.com/censorship-no/ceno-docker-"
+"[Ceno-client-doc]: https://github.com/censorship-no/Ceno-docker-"
 "client#running-the-client"
 msgstr ""
 

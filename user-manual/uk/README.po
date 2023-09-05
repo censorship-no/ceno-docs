@@ -23,8 +23,8 @@ msgid ""
 "[eQualitie][eQualitie]."
 msgstr ""
 "Цей посібник призначений для користувачів [браузера Ceno][Браузер Ceno] та "
-"повʼязаних із ним технологій, створених для проєкту [Censorship."
-"no!][Censorship.no!] компанією [eQualitie][eQualitie]."
+"повʼязаних із ним технологій, створених для проєкту [Censorship.no!]"
+"[Censorship.no!] компанією [eQualitie][eQualitie]."
 
 #: README.md:block 3 (paragraph)
 msgid ""
@@ -35,11 +35,13 @@ msgid ""
 msgstr ""
 "Якщо Ви шукаєте технічну документацію, ознайомтеся з [репозиторієм "
 "документації Ceno][Репозиторій документації Ceno], де Ви отримаєте "
-"детальнішу інформацію щодо реалізації та [специфікації протоколу]["
-"Специфікація протоколу]."
+"детальнішу інформацію щодо реалізації та [специфікації протоколу]"
+"[Специфікація протоколу]."
 
 #: README.md:block 3 (paragraph)
-msgid "[Ceno Browser]: https://github.com/censorship-no/ceno-browser"
+#, fuzzy
+#| msgid "[Ceno Browser]: https://github.com/censorship-no/ceno-browser"
+msgid "[Ceno Browser]: https://gitlab.com/censorship-no/ceno-browser"
 msgstr "[Браузер Ceno]: https://github.com/censorship-no/ceno-docs/"
 
 #: README.md:block 3 (paragraph)
@@ -51,8 +53,12 @@ msgid "[eQualitie]: https://equalit.ie/"
 msgstr "[eQualitie]: https://equalit.ie/"
 
 #: README.md:block 3 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "[Ceno documentation repository]: https://github.com/censorship-no/ceno-"
+#| "docs/"
 msgid ""
-"[Ceno documentation repository]: https://github.com/censorship-no/ceno-docs/"
+"[Ceno documentation repository]: https://github.com/censorship-no/Ceno-docs/"
 msgstr ""
 "[Репозиторій документації Ceno]: https://github.com/censorship-no/ceno-docs/"
 
