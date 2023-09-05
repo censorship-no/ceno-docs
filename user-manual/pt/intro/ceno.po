@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-09-01 23:03+0000\n"
+"PO-Revision-Date: 2023-09-05 19:57+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/censorship-no/"
 "ceno/pt/>\n"
@@ -68,16 +68,6 @@ msgid "Who develops Ceno?"
 msgstr "Quem desenvolve o Ceno?"
 
 #: intro/ceno.md:block 6 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "The *Censorship.no!* project is run by [eQualitie][eQualitie] in support "
-#| "of Articles 18, 19 and 20 of the [Universal Declaration of Human Rights]"
-#| "[Universal Declaration of Human Rights]. Ceno and related technologies "
-#| "are developed as Free/Libre/Open Source software ([project source]"
-#| "(https://github.com/censorship-no/ \"Ceno source code repositories\")), "
-#| "allowing anyone to use, study, share and enhance it. Please contact "
-#| "[cenoers@equalit.ie](mailto:cenoers@equalit.ie) in case of doubt or for "
-#| "further information."
 msgid ""
 "The *Censorship.no!* project is run by [eQualitie][eQualitie] in support of "
 "Articles 18, 19 and 20 of the [Universal Declaration of Human Rights]"
