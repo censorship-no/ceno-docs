@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-09-05 21:33+0000\n"
+"PO-Revision-Date: 2023-09-05 21:44+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Urdu <https://hosted.weblate.org/projects/censorship-no/"
 "homepage-readme/ur/>\n"
@@ -37,8 +37,6 @@ msgstr ""
 "کے بارے میں تفصیلات کے ساتھ [پروٹوکول وضاحتیں][پروٹوکول وضاحتیں] ملیں گے۔"
 
 #: README.md:block 3 (paragraph)
-#, fuzzy
-#| msgid "[Ceno Browser]: https://github.com/censorship-no/ceno-browser"
 msgid "[Ceno Browser]: https://gitlab.com/censorship-no/ceno-browser"
 msgstr "[Ceno Browser]: https://gitlab.com/censorship-no/ceno-browser"
 
@@ -51,10 +49,6 @@ msgid "[eQualitie]: https://equalit.ie/"
 msgstr "[eQualitie]: https://equalit.ie/"
 
 #: README.md:block 3 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "[Ceno documentation repository]: https://github.com/censorship-no/ceno-"
-#| "docs/"
 msgid ""
 "[Ceno documentation repository]: https://gitlab.com/censorship-no/ceno-docs/"
 msgstr "[Ceno دستاویزات کا ذخیرہ]: https://gitlab.com/censorship-no/ceno-docs/"
