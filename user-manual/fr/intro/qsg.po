@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-09-05 21:58+0000\n"
+"PO-Revision-Date: 2023-09-05 22:01+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/censorship-no/qsg/"
 "fr/>\n"
@@ -127,7 +127,6 @@ msgid "[ceno-pask]: https://paskoocheh.com/tools/124/android.html"
 msgstr "[ceno-pask] : https://paskoocheh.com/tools/124/android.html"
 
 #: intro/qsg.md:block 11 (unordered list)
-#, fuzzy
 msgid ""
 "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
 msgstr ""
