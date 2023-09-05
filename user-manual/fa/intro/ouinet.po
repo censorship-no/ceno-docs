@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-09-01 23:03+0000\n"
+"PO-Revision-Date: 2023-09-05 19:57+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "ouinet/fa/>\n"
@@ -94,13 +94,6 @@ msgstr ""
 "می‌بخشد که دسترسی به آن سرور را مسدود می‌کنند."
 
 #: intro/ouinet.md:block 8 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Please note that Ouinet is an evolving experimental project: some "
-#| "features may not work reliably enough in certain scenarios, bugs may "
-#| "exist and crashes may occur. We encourage you to reach out to us at "
-#| "[cenoers@equalit.ie](mailto:cenoers@equalit.ie), test it and report back "
-#| "- your feedback is very welcome!"
 msgid ""
 "Please note that Ouinet is an evolving experimental project: some features "
 "may not work reliably enough in certain scenarios, bugs may exist and "
