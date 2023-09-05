@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-09-01 23:03+0000\n"
+"PO-Revision-Date: 2023-09-05 19:57+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Urdu <https://hosted.weblate.org/projects/censorship-no/"
 "browser-troubleshooting/ur/>\n"
@@ -31,10 +31,6 @@ msgstr ""
 "کون سا مواد بازیافت کیا ہے اور ان کے کنکشن کی خصوصیات ."
 
 #: browser/troubleshooting.md:block 3 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "If problems still persist, please report them to [cenoers@equalit.ie]"
-#| "(mailto:cenoers@equalit.ie). We will try to help you with them."
 msgid ""
 "If problems still persist, please report them to [cenoers@equalitie.org]"
 "(mailto:cenoers@equalitie.org). We will try to help you with them."
