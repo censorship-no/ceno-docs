@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-02 02:42+0200\n"
-"PO-Revision-Date: 2023-09-05 21:57+0000\n"
+"PO-Revision-Date: 2023-09-05 21:58+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/censorship-no/"
 "ceno/tr/>\n"
@@ -208,11 +208,9 @@ msgstr ""
 "ulaşabilirsiniz."
 
 #: intro/ceno.md:block 11 (quote)
-#, fuzzy
 msgid "[Ceno-repos]: https://gitlab.com/censorship-no/"
 msgstr "[ceno depoları]: https://gitlab.com/censorship-no/"
 
 #: intro/ceno.md:block 11 (quote)
-#, fuzzy
 msgid "[ceno-repos]: https://gitlab.com/censorship-no/"
 msgstr "[ceno depoları]: https://github.com/censorship-no/"
