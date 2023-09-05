@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-09-05 22:00+0000\n"
+"PO-Revision-Date: 2023-09-05 22:01+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "censorship-no/homepage-readme/pt_BR/>\n"
@@ -58,10 +58,6 @@ msgstr ""
 "ceno-docs/"
 
 #: README.md:block 3 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "[protocol specifications]: https://github.com/equalitie/ouinet/blob/"
-#| "master/doc/ouinet-network-whitepaper.md"
 msgid ""
 "[protocol specifications]: https://gitlab.com/equalitie/ouinet/blob/master/"
 "doc/ouinet-network-whitepaper.md"
