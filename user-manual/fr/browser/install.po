@@ -227,6 +227,16 @@ msgstr ""
 msgid "[ceno-gh]: https://gitlab.com/censorship-no/ceno-browser/releases"
 msgstr "[ceno-gh] : https://gitlab.com/censorship-no/ceno-browser/releases"
 
+#: browser/install.md:block 3 (unordered list)
+#, fuzzy
+msgid "[Gitlab][ceno-gh]: for Android devices without Google Play."
+msgstr "[GitHub][ceno-gh] : pour les appareils Android sans Google Play."
+
+#: browser/install.md:block 18 (quote)
+#, fuzzy
+msgid "[ceno-gh]: https://gitlab.com/censorship-no/ceno-browser/-/releases"
+msgstr "[ceno-gh] : https://github.com/censorship-no/ceno-browser/releases"
+
 #~ msgid "CENO requires *no special permissions* to run."
 #~ msgstr "CENO ne nécessite *aucune autorisation spéciale* pour fonctionner."
 
@@ -245,6 +255,5 @@ msgstr "[ceno-gh] : https://gitlab.com/censorship-no/ceno-browser/releases"
 #~ "avec CENO, alors il suffit d’appuyer sur *COMMENCER À NAVIGUER*."
 
 #, fuzzy
-#~| msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
 #~ msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
 #~ msgstr "[ceno-gh] : https://github.com/censorship-no/ceno-browser/releases"

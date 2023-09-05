@@ -223,6 +223,16 @@ msgstr ""
 msgid "[ceno-gh]: https://gitlab.com/censorship-no/ceno-browser/releases"
 msgstr "[ceno-gh]: https://gitlab.com/censorship-no/ceno-browser/releases"
 
+#: browser/install.md:block 3 (unordered list)
+#, fuzzy
+msgid "[Gitlab][ceno-gh]: for Android devices without Google Play."
+msgstr "[گیت‌هاب][ceno-gh]: برای دستگاه اندرویدی بدون گوگل‌پلی."
+
+#: browser/install.md:block 18 (quote)
+#, fuzzy
+msgid "[ceno-gh]: https://gitlab.com/censorship-no/ceno-browser/-/releases"
+msgstr "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
+
 #~ msgid "CENO requires *no special permissions* to run."
 #~ msgstr "CENO برای اجرا نیازی به اجازه‌ای خاص ندارد."
 
@@ -241,6 +251,5 @@ msgstr "[ceno-gh]: https://gitlab.com/censorship-no/ceno-browser/releases"
 #~ "است، بنابراین فقط دکمه‌ی *شروع مرور* را بفشارید."
 
 #, fuzzy
-#~| msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
 #~ msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
 #~ msgstr "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"

@@ -69,15 +69,6 @@ msgstr "من يطور Ceno؟"
 
 #: intro/ceno.md:block 6 (paragraph)
 #, fuzzy
-#| msgid ""
-#| "The *Censorship.no!* project is run by [eQualitie][eQualitie] in support "
-#| "of Articles 18, 19 and 20 of the [Universal Declaration of Human Rights]"
-#| "[Universal Declaration of Human Rights]. Ceno and related technologies "
-#| "are developed as Free/Libre/Open Source software ([project source]"
-#| "(https://github.com/censorship-no/ \"Ceno source code repositories\")), "
-#| "allowing anyone to use, study, share and enhance it. Please contact "
-#| "[cenoers@equalit.ie](mailto:cenoers@equalit.ie) in case of doubt or for "
-#| "further information."
 msgid ""
 "The *Censorship.no!* project is run by [eQualitie][eQualitie] in support of "
 "Articles 18, 19 and 20 of the [Universal Declaration of Human Rights]"
@@ -163,14 +154,14 @@ msgstr "[Censorship.no!]: https://censorship.no/"
 #: intro/ceno.md:block 11 (quote)
 msgid "[P2P]: https://en.wikipedia.org/wiki/Peer-to-peer"
 msgstr ""
-"[نظير لنظير P2P]: https://ar.wikipedia.org/wiki/"
-"%D9%86%D8%AF_%D9%84%D9%86%D8%AF"
+"[نظير لنظير P2P]: https://ar.wikipedia.org/wiki/%D9%86%D8%AF_"
+"%D9%84%D9%86%D8%AF"
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[national intranets]: https://en.wikipedia.org/wiki/National_intranet"
 msgstr ""
-"[أنترنت قومي]: https://ar.wikipedia.org/wiki/"
-"%D8%A7%D9%84%D8%A5%D9%86%D8%AA%D8%B1%D9%86%D8%AA_%D8%A7%D9%84%D9%82%D9%88%D9%85%D9%8A"
+"[أنترنت قومي]: https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%A5%D9%86%D8%AA"
+"%D8%B1%D9%86%D8%AA_%D8%A7%D9%84%D9%82%D9%88%D9%85%D9%8A"
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[Firefox for Android]: https://www.mozilla.org/firefox/android/"
@@ -190,6 +181,10 @@ msgstr ""
 
 #: intro/ceno.md:block 11 (quote)
 #, fuzzy
-#| msgid "[ceno-repos]: https://github.com/censorship-no/"
 msgid "[Ceno-repos]: https://gitlab.com/censorship-no/"
 msgstr "[ceno-repos]: https://gitlab.com/censorship-no/"
+
+#: intro/ceno.md:block 11 (quote)
+#, fuzzy
+msgid "[ceno-repos]: https://gitlab.com/censorship-no/"
+msgstr "[ceno-repos]: https://github.com/censorship-no/"

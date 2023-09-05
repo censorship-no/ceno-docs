@@ -217,3 +217,8 @@ msgstr ""
 #, fuzzy
 msgid "[Ceno-repos]: https://gitlab.com/censorship-no/"
 msgstr "[ceno-repos]: https://gitlab.com/censorship-no/"
+
+#: intro/ceno.md:block 11 (quote)
+#, fuzzy
+msgid "[ceno-repos]: https://gitlab.com/censorship-no/"
+msgstr "[ceno-repos]: https://github.com/censorship-no/"

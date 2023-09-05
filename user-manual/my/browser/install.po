@@ -216,6 +216,16 @@ msgstr ""
 msgid "[ceno-gh]: https://gitlab.com/censorship-no/ceno-browser/releases"
 msgstr "[ceno-gh]: https://gitlab.com/censorship-no/ceno-browser/releases"
 
+#: browser/install.md:block 3 (unordered list)
+#, fuzzy
+msgid "[Gitlab][ceno-gh]: for Android devices without Google Play."
+msgstr "[GitHub][ceno-gh] - Google Play မပါသော Android စက်များအတွက် ဖြစ်သည်။"
+
+#: browser/install.md:block 18 (quote)
+#, fuzzy
+msgid "[ceno-gh]: https://gitlab.com/censorship-no/ceno-browser/-/releases"
+msgstr "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
+
 #~ msgid "CENO requires *no special permissions* to run."
 #~ msgstr "CENO ကို လုပ်ဆောင်ရန် *မည်သည့် အထူးခွင့်ပြုချက်မျှ* မလိုအပ်ပါ။"
 
@@ -232,6 +242,5 @@ msgstr "[ceno-gh]: https://gitlab.com/censorship-no/ceno-browser/releases"
 #~ "ချိန်ကိုက်ခြင်းကို CENO နှင့် တွဲဖက်အလုပ်လုပ်ရန် မစမ်းသပ်ထားသောကြောင့် *စတင်ရှာဖွေမည်* ကိုသာ နှိပ်ပါ။"
 
 #, fuzzy
-#~| msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
 #~ msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
 #~ msgstr "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"

@@ -26,7 +26,7 @@ msgid ""
 msgstr ""
 
 #: browser/install.md:block 3 (unordered list)
-msgid "[GitHub][ceno-gh]: for Android devices without Google Play."
+msgid "[Gitlab][ceno-gh]: for Android devices without Google Play."
 msgstr ""
 
 #: browser/install.md:block 3 (unordered list)
@@ -149,7 +149,7 @@ msgid ""
 msgstr ""
 
 #: browser/install.md:block 18 (quote)
-msgid "[ceno-gh]: https://gitlab.com/censorship-no/ceno-browser/releases"
+msgid "[ceno-gh]: https://gitlab.com/censorship-no/ceno-browser/-/releases"
 msgstr ""
 
 #: browser/install.md:block 18 (quote)
