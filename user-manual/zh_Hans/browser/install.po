@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2023-09-01 23:03+0000\n"
+"PO-Revision-Date: 2023-09-05 22:06+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "censorship-no/browser-install/zh_Hans/>\n"
@@ -35,7 +35,7 @@ msgstr ""
 #, fuzzy
 #| msgid "[GitHub][ceno-gh]: for Android devices without Google Play."
 msgid "[Gitlab][ceno-gh]: for Android devices without Google Play."
-msgstr "[GitHub][ceno-gh]: 适用于无Google Play的Android设备."
+msgstr "[Gitlab][ceno-gh]: 适用于无Google Play的Android设备."
 
 #: browser/install.md:block 3 (unordered list)
 msgid ""
