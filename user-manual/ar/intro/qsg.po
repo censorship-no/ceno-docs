@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-03 02:50+0200\n"
-"PO-Revision-Date: 2023-09-01 23:03+0000\n"
+"PO-Revision-Date: 2023-09-05 22:01+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/censorship-no/qsg/"
 "ar/>\n"
@@ -112,24 +112,18 @@ msgid ""
 "Contact us by writing to [cenoers@equalitie.org](mailto:cenoers@equalitie."
 "org)."
 msgstr ""
-"اتصل بنا عن طريق الكتابة إلى [cenoers@equalitie.org](mailto:cenoers@equalitie"
-".org)."
+"اتصل بنا عن طريق الكتابة إلى [cenoers@equalitie.org](mailto:"
+"cenoers@equalitie.org)."
 
 #: intro/qsg.md:block 11 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit."
-#| "ceno"
 msgid ""
-"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.Ceno"
+"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
 msgstr ""
 "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
 
 #: intro/qsg.md:block 11 (unordered list)
-#, fuzzy
-#| msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
-msgid "[ceno-gh]: https://github.com/censorship-no/Ceno-browser/releases"
-msgstr "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
+msgid "[ceno-gh]: https://gitlab.com/censorship-no/ceno-browser/releases"
+msgstr "[ceno-gh]: https://gitlab.com/censorship-no/ceno-browser/releases"
 
 #: intro/qsg.md:block 11 (unordered list)
 msgid "[ceno-pask]: https://paskoocheh.com/tools/124/android.html"

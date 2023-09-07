@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-09-01 23:03+0000\n"
+"PO-Revision-Date: 2023-09-06 22:59+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-troubleshooting/uk/>\n"
@@ -33,10 +33,6 @@ msgstr ""
 "користувачі та характеристики їхніх зʼєднань."
 
 #: browser/troubleshooting.md:block 3 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "If problems still persist, please report them to [cenoers@equalit.ie]"
-#| "(mailto:cenoers@equalit.ie). We will try to help you with them."
 msgid ""
 "If problems still persist, please report them to [cenoers@equalitie.org]"
 "(mailto:cenoers@equalitie.org). We will try to help you with them."
@@ -694,3 +690,8 @@ msgstr "[HTTPS by default]: https://github.com/Rob--W/https-by-default"
 
 #~ msgid "[HTTPS Everywhere]: https://www.eff.org/https-everywhere/"
 #~ msgstr "[HTTPS Everywhere]: https://www.eff.org/https-everywhere/"
+
+#, fuzzy
+#~| msgid "[HTTPS by default]: https://github.com/Rob--W/https-by-default"
+#~ msgid "[HTTPS by default]: https://gitlab.com/Rob--W/https-by-default"
+#~ msgstr "[HTTPS by default]: https://github.com/Rob--W/https-by-default"

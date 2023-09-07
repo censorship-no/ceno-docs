@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2023-09-01 23:03+0000\n"
+"PO-Revision-Date: 2023-09-05 22:49+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "browser-install/my/>\n"
@@ -32,8 +32,8 @@ msgstr ""
 "သုံးစွဲသူအများစုအတွက် အကြံပြုထားသော ရင်းမြစ်ဖြစ်သည်။"
 
 #: browser/install.md:block 3 (unordered list)
-msgid "[GitHub][ceno-gh]: for Android devices without Google Play."
-msgstr "[GitHub][ceno-gh] - Google Play မပါသော Android စက်များအတွက် ဖြစ်သည်။"
+msgid "[Gitlab][ceno-gh]: for Android devices without Google Play."
+msgstr "[Gitlab][ceno-gh]: Google Play မပါသော Android စက်များအတွက် ဖြစ်သည်။"
 
 #: browser/install.md:block 3 (unordered list)
 msgid ""
@@ -54,15 +54,6 @@ msgstr ""
 "Ceno ကို အလုပ်လုပ်ဖို့အတွက် *အထူးခွင့်ပြုချက်များ မလိုအပ်ပါ*။"
 
 #: browser/install.md:block 5 (quote)
-#, fuzzy
-#| msgid ""
-#| "**Warning:** Please be *extremely skeptical* about installing Ceno "
-#| "Browser from sources other than the ones listed above. Because of the "
-#| "application's nature, their potential users may become a target for all "
-#| "kinds of fake or manipulated versions used to violate user privacy or "
-#| "attack other Ceno and Ouinet users. If in doubt, please contact "
-#| "[cenoers@equalit.ie](mailto:cenoers@equalit.ie) before installing a "
-#| "suspicious app."
 msgid ""
 "**Warning:** Please be *extremely skeptical* about installing Ceno Browser "
 "from sources other than the ones listed above. Because of the application's "
@@ -71,14 +62,12 @@ msgid ""
 "Ouinet users. If in doubt, please contact [cenoers@equalitie.org](mailto:"
 "cenoers@equalitie.org) before installing a suspicious app."
 msgstr ""
-"**သတိပေးချက် -** အထက်ပါ ရင်းမြစ်များမှလွဲ၍ အခြားရင်းမြစ်များမှ Ceno "
-"ဘရောက်ဇာကို ထည့်သွင်းခြင်းနှင့် ပတ်သက်၍ *အလွန် သံသယထားပါ*။ အက်ပလီကေးရှင်း၏ "
-"သဘောသဘာဝကြောင့် ၎င်းတို့၏ ဖြစ်နိုင်ခြေရှိသော သုံးစွဲသူများသည် သုံးစွဲသူ၏ "
-"ကိုယ်ရေးလုံခြုံမှုကို ချိုးဖောက်ရန် သို့မဟုတ် အခြား Ceno နှင့် Ouinet "
-"သုံးစွဲသူများကို တိုက်ခိုက်ရန် အသုံးပြုသော ဗားရှင်းအတု သို့မဟုတ် "
-"ချုပ်ကိုင်ထားသော ဗားရှင်းအားလုံးအတွက် ပစ်မှတ်ဖြစ်လာနိုင်သည်။ အကယ်၍ သံသယရှိပါ"
-"က ကျေးဇူးပြု၍ သံသယဖြစ်ဖွယ် အက်ပ်တစ်ခုကို မထည့်သွင်းမီ [cenoers@equalitie."
-"org](mailto:cenoers@equalitie.org) ကို ဆက်သွယ်ပါ။"
+"**သတိပေးချက် -** အထက်ပါ ရင်းမြစ်များမှလွဲ၍ အခြားရင်းမြစ်များမှ Ceno ဘရောက်ဇာကို "
+"ထည့်သွင်းခြင်းနှင့် ပတ်သက်၍ *အလွန် သံသယထားပါ*။ အက်ပလီကေးရှင်း၏ သဘောသဘာဝကြောင့် ၎င်းတို့၏ "
+"ဖြစ်နိုင်ခြေရှိသော သုံးစွဲသူများသည် သုံးစွဲသူ၏ ကိုယ်ရေးလုံခြုံမှုကို ချိုးဖောက်ရန် သို့မဟုတ် အခြား Ceno နှင့် Ouinet "
+"သုံးစွဲသူများကို တိုက်ခိုက်ရန် အသုံးပြုသော ဗားရှင်းအတု သို့မဟုတ် ချုပ်ကိုင်ထားသော ဗားရှင်းအားလုံးအတွက် "
+"ပစ်မှတ်ဖြစ်လာနိုင်သည်။ အကယ်၍ သံသယရှိပါက ကျေးဇူးပြု၍ သံသယဖြစ်ဖွယ် အက်ပ်တစ်ခုကို မထည့်သွင်းမီ "
+"[cenoers@equalitie.org](mailto:cenoers@equalitie.org) ကို ဆက်သွယ်ပါ။"
 
 #: browser/install.md:block 6 (header)
 msgid "Stopping Ceno completely"
@@ -200,24 +189,34 @@ msgstr ""
 "အခြားသဲလွန်စများကို ဥပမာအားဖြင့် ၎င်း၏ စနစ်မှတ်တမ်းတွင် ဆက်လက်သိမ်းဆည်းထားနိုင်သည်။"
 
 #: browser/install.md:block 18 (quote)
-#, fuzzy
-#| msgid ""
-#| "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit."
-#| "ceno"
 msgid ""
-"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.Ceno"
+"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
 msgstr ""
 "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
 
 #: browser/install.md:block 18 (quote)
-#, fuzzy
-#| msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
-msgid "[ceno-gh]: https://github.com/censorship-no/Ceno-browser/releases"
-msgstr "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
+msgid "[ceno-gh]: https://gitlab.com/censorship-no/ceno-browser/-/releases"
+msgstr "[ceno-gh]: https://gitlab.com/censorship-no/ceno-browser/releases"
 
 #: browser/install.md:block 18 (quote)
 msgid "[ceno-pask]: https://paskoocheh.com/tools/124/android.html"
 msgstr "[ceno-pask]: https://paskoocheh.com/tools/124/android.html"
+
+#~ msgid "[GitHub][ceno-gh]: for Android devices without Google Play."
+#~ msgstr "[GitHub][ceno-gh] - Google Play မပါသော Android စက်များအတွက် ဖြစ်သည်။"
+
+#~ msgid ""
+#~ "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit."
+#~ "Ceno"
+#~ msgstr ""
+#~ "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit."
+#~ "ceno"
+
+#~ msgid "[ceno-gh]: https://github.com/censorship-no/Ceno-browser/releases"
+#~ msgstr "[ceno-gh]: https://gitlab.com/censorship-no/ceno-browser/releases"
+
+#~ msgid "[ceno-gh]: https://gitlab.com/censorship-no/ceno-browser/releases"
+#~ msgstr "[ceno-gh]: https://gitlab.com/censorship-no/ceno-browser/releases"
 
 #~ msgid "CENO requires *no special permissions* to run."
 #~ msgstr "CENO ကို လုပ်ဆောင်ရန် *မည်သည့် အထူးခွင့်ပြုချက်မျှ* မလိုအပ်ပါ။"
@@ -233,3 +232,7 @@ msgstr "[ceno-pask]: https://paskoocheh.com/tools/124/android.html"
 #~ "ဆင်တူသော လုပ်ဆောင်ချက်အချို့ကို မိတ်ဆက်သည့် မျက်နှာပြင်များကို တင်ဆက်ပါမည်။ *ချိန်ကိုက်ရန် ဝင်ရောက်ပါ* "
 #~ "ခလုတ်တစ်ခုနှင့် *စတင်ရှာဖွေမည်* လင့်တစ်ခုကို သင်မြင်ချိန်အထိ *ရှေ့သို့* ကို နှိပ်ပြီး ၎င်းတို့ကို ရွှေ့ပါ။ Firefox "
 #~ "ချိန်ကိုက်ခြင်းကို CENO နှင့် တွဲဖက်အလုပ်လုပ်ရန် မစမ်းသပ်ထားသောကြောင့် *စတင်ရှာဖွေမည်* ကိုသာ နှိပ်ပါ။"
+
+#, fuzzy
+#~ msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
+#~ msgstr "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"

@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2023-05-17 03:01+0000\n"
+"PO-Revision-Date: 2023-09-05 22:49+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "browser-bridging/my/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.0.1-dev\n"
 
 #
 #: browser/bridging.md:block 1 (header)
@@ -186,16 +186,10 @@ msgstr ""
 "လိုအပ်ပါသည်။"
 
 #: browser/bridging.md:block 17 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "The command will start a container named `ceno-client` that will run on "
-#| "every boot unless you explicitly tell it to stop. Please check the [Ceno "
-#| "Docker client documentation][ceno-client-doc] for more information on how "
-#| "to manipulate the container."
 msgid ""
-"The command will start a container named `Ceno-client` that will run on "
+"The command will start a container named `ceno-client` that will run on "
 "every boot unless you explicitly tell it to stop. Please check the [Ceno "
-"Docker client documentation][Ceno-client-doc] for more information on how to "
+"Docker client documentation][ceno-client-doc] for more information on how to "
 "manipulate the container."
 msgstr ""
 "ညွှန်ကြားချက်သည် `ceno-client` နာမည်ဖြင့် ကွန်တိန်နာတစ်ခုကို စတင်ပြီးနောက် သင့်အနေဖြင့် "
@@ -410,16 +404,12 @@ msgid "[docker-install]: https://docs.docker.com/engine/install/"
 msgstr "[docker-install]: https://docs.docker.com/engine/install/"
 
 #: browser/bridging.md:block 35 (quote)
-#, fuzzy
-#| msgid ""
-#| "[ceno-client-doc]: https://github.com/censorship-no/ceno-docker-"
-#| "client#running-the-client"
 msgid ""
-"[Ceno-client-doc]: https://github.com/censorship-no/Ceno-docker-"
+"[ceno-client-doc]: https://gitlab.com/censorship-no/ceno-docker-"
 "client#running-the-client"
 msgstr ""
-"[ceno-client-doc]: https://github.com/censorship-no/ceno-docker-"
-"client#running-the-client"
+"[ceno-client-doc]: https://gitlab.com/censorship-no/ceno-docker-client"
+"#running-the-client"
 
 #: browser/bridging.md:block 35 (quote)
 msgid "[UPnP]: https://en.wikipedia.org/wiki/Universal_Plug_and_Play"

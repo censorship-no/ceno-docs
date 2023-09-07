@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2023-09-01 23:03+0000\n"
+"PO-Revision-Date: 2023-09-05 22:20+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/censorship-no/"
 "browser-install/pl/>\n"
@@ -35,9 +35,9 @@ msgstr ""
 "Android."
 
 #: browser/install.md:block 3 (unordered list)
-msgid "[GitHub][ceno-gh]: for Android devices without Google Play."
+msgid "[Gitlab][ceno-gh]: for Android devices without Google Play."
 msgstr ""
-"[GitHub][ceno-gh]: w przypadku urządzeń z systemem Android bez dostępu do "
+"[Gitlab][ceno-gh]: w przypadku urządzeń z systemem Android bez dostępu do "
 "Google Play."
 
 #: browser/install.md:block 3 (unordered list)
@@ -83,9 +83,8 @@ msgstr ""
 "aplikacji, jej potencjalni użytkownicy mogą stać się ofiarami wszelakich "
 "fałszywych lub zmodyfikowanych jej wersji wykorzystywanych do naruszenia "
 "prywatności użytkowników lub atakowania innych użytkowników Ceno i Ouinet. W "
-"razie wątpliwości prosimy o kontakt [cenoers@equalitie."
-"org](mailto:cenoers@equalitie.org) przed instalacją aplikacji z podejrzanego "
-"źródła."
+"razie wątpliwości prosimy o kontakt [cenoers@equalitie.org](mailto:"
+"cenoers@equalitie.org) przed instalacją aplikacji z podejrzanego źródła."
 
 #: browser/install.md:block 6 (header)
 msgid "Stopping Ceno completely"
@@ -180,11 +179,11 @@ msgstr ""
 
 #: browser/install.md:block 18 (quote)
 msgid ""
-"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.Ceno"
+"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
 msgstr ""
 
 #: browser/install.md:block 18 (quote)
-msgid "[ceno-gh]: https://github.com/censorship-no/Ceno-browser/releases"
+msgid "[ceno-gh]: https://gitlab.com/censorship-no/ceno-browser/-/releases"
 msgstr ""
 
 #: browser/install.md:block 18 (quote)

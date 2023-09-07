@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-09-01 23:03+0000\n"
+"PO-Revision-Date: 2023-09-06 22:59+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "censorship-no/browser-troubleshooting/pt_BR/>\n"
@@ -32,16 +32,12 @@ msgstr ""
 "recuperaram e as características das conexões deles."
 
 #: browser/troubleshooting.md:block 3 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "If problems still persist, please report them to [cenoers@equalit.ie]"
-#| "(mailto:cenoers@equalit.ie). We will try to help you with them."
 msgid ""
 "If problems still persist, please report them to [cenoers@equalitie.org]"
 "(mailto:cenoers@equalitie.org). We will try to help you with them."
 msgstr ""
-"Se os problemas persistirem, por favor os relate para [cenoers@equalitie."
-"org](mailto:cenoers@equalitie.org). Tentaremos ajudar você a resolvê-los."
+"Se os problemas persistirem, por favor os relate para [cenoers@equalitie.org]"
+"(mailto:cenoers@equalitie.org). Tentaremos ajudar você a resolvê-los."
 
 #: browser/troubleshooting.md:block 4 (header)
 msgid "There is no Ceno entry in the app menu"
@@ -626,3 +622,8 @@ msgstr ""
 #: browser/troubleshooting.md:block 51 (quote)
 msgid "[HTTPS by default]: https://github.com/Rob--W/https-by-default"
 msgstr "[HTTPS by default]: https://github.com/Rob--W/https-by-default"
+
+#, fuzzy
+#~| msgid "[HTTPS by default]: https://github.com/Rob--W/https-by-default"
+#~ msgid "[HTTPS by default]: https://gitlab.com/Rob--W/https-by-default"
+#~ msgstr "[HTTPS by default]: https://github.com/Rob--W/https-by-default"

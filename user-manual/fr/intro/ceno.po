@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-09-01 23:03+0000\n"
+"PO-Revision-Date: 2023-09-05 22:49+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/censorship-no/"
 "ceno/fr/>\n"
@@ -70,22 +70,12 @@ msgid "Who develops Ceno?"
 msgstr "Qui développe Ceno ?"
 
 #: intro/ceno.md:block 6 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "The *Censorship.no!* project is run by [eQualitie][eQualitie] in support "
-#| "of Articles 18, 19 and 20 of the [Universal Declaration of Human Rights]"
-#| "[Universal Declaration of Human Rights]. Ceno and related technologies "
-#| "are developed as Free/Libre/Open Source software ([project source]"
-#| "(https://github.com/censorship-no/ \"Ceno source code repositories\")), "
-#| "allowing anyone to use, study, share and enhance it. Please contact "
-#| "[cenoers@equalit.ie](mailto:cenoers@equalit.ie) in case of doubt or for "
-#| "further information."
 msgid ""
 "The *Censorship.no!* project is run by [eQualitie][eQualitie] in support of "
 "Articles 18, 19 and 20 of the [Universal Declaration of Human Rights]"
 "[Universal Declaration of Human Rights]. Ceno and related technologies are "
 "developed as Free/Libre/Open Source software ([project source](https://"
-"github.com/censorship-no/ \"Ceno source code repositories\")), allowing "
+"gitlab.com/censorship-no/ \"Ceno source code repositories\")), allowing "
 "anyone to use, study, share and enhance it. Please contact "
 "[cenoers@equalitie.org](mailto:cenoers@equalitie.org) in case of doubt or "
 "for further information."
@@ -94,11 +84,11 @@ msgstr ""
 "les articles 18, 19 et 20 de la [Déclaration universelle des droits de la "
 "personne][Déclaration universelle des droits la personne]. Ceno et les "
 "technologies connexes sont développés en tant que logiciels libres et à code "
-"source ouvert ([source du projet](https://github.com/censorship-no/ \"Dépôts "
+"source ouvert ([source du projet](https://gitlab.com/censorship-no/ \"Dépôts "
 "du code source de Ceno source\")), ce qui permet à quiconque de les "
 "utiliser, les examiner, les partager et les améliorer. En cas de doute ou "
-"pour de plus amples renseignements, contactez par courriel [cenoers@equalitie"
-".org](mailto:cenoers@equalitie.org)."
+"pour de plus amples renseignements, contactez par courriel "
+"[cenoers@equalitie.org](mailto:cenoers@equalitie.org)."
 
 #: intro/ceno.md:block 7 (header)
 msgid "Who is it for?"
@@ -170,7 +160,7 @@ msgstr ""
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[Censorship.no!]: https://censorship.no/"
-msgstr "[Censorship.no!] : https://censorship.no/"
+msgstr "[Censorship.no!]: https://censorship.no/"
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[P2P]: https://en.wikipedia.org/wiki/Peer-to-peer"
@@ -189,7 +179,7 @@ msgstr ""
 
 #: intro/ceno.md:block 11 (quote)
 msgid "[eQualitie]: https://equalit.ie/"
-msgstr "[eQualitie] : https://equalit.ie/fr/"
+msgstr "[eQualitie]: https://equalit.ie/fr/"
 
 #: intro/ceno.md:block 11 (quote)
 msgid ""
@@ -200,7 +190,31 @@ msgstr ""
 "about-us/universal-declaration-of-human-rights"
 
 #: intro/ceno.md:block 11 (quote)
-#, fuzzy
-#| msgid "[ceno-repos]: https://github.com/censorship-no/"
-msgid "[Ceno-repos]: https://github.com/censorship-no/"
-msgstr "[ceno-repos] : https://github.com/censorship-no/"
+msgid "[ceno-repos]: https://gitlab.com/censorship-no/"
+msgstr "[ceno-repos] : https://gitlab.com/censorship-no/"
+
+#~ msgid ""
+#~ "The *Censorship.no!* project is run by [eQualitie][eQualitie] in support "
+#~ "of Articles 18, 19 and 20 of the [Universal Declaration of Human Rights]"
+#~ "[Universal Declaration of Human Rights]. Ceno and related technologies "
+#~ "are developed as Free/Libre/Open Source software ([project source]"
+#~ "(https://github.com/censorship-no/ \"Ceno source code repositories\")), "
+#~ "allowing anyone to use, study, share and enhance it. Please contact "
+#~ "[cenoers@equalitie.org](mailto:cenoers@equalitie.org) in case of doubt or "
+#~ "for further information."
+#~ msgstr ""
+#~ "Le projet *Censorship.no!* est géré par [eQualitie][eQualitie] pour "
+#~ "soutenir les articles 18, 19 et 20 de la [Déclaration universelle des "
+#~ "droits de la personne][Déclaration universelle des droits la personne]. "
+#~ "Ceno et les technologies connexes sont développés en tant que logiciels "
+#~ "libres et à code source ouvert ([source du projet](https://gitlab.com/"
+#~ "censorship-no/ \"Dépôts du code source de Ceno source\")), ce qui permet "
+#~ "à quiconque de les utiliser, les examiner, les partager et les améliorer. "
+#~ "En cas de doute ou pour de plus amples renseignements, contactez par "
+#~ "courriel [cenoers@equalitie.org](mailto:cenoers@equalitie.org)."
+
+#~ msgid "[Ceno-repos]: https://github.com/censorship-no/"
+#~ msgstr "[ceno-repos]: https://gitlab.com/censorship-no/"
+
+#~ msgid "[Ceno-repos]: https://gitlab.com/censorship-no/"
+#~ msgstr "[ceno-repos] : https://gitlab.com/censorship-no/"

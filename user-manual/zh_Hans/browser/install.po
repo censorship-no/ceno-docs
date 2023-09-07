@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2023-09-01 23:03+0000\n"
+"PO-Revision-Date: 2023-09-05 22:20+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "censorship-no/browser-install/zh_Hans/>\n"
@@ -32,8 +32,8 @@ msgstr ""
 "普通Android用户."
 
 #: browser/install.md:block 3 (unordered list)
-msgid "[GitHub][ceno-gh]: for Android devices without Google Play."
-msgstr "[GitHub][ceno-gh]: 适用于无Google Play的Android设备."
+msgid "[Gitlab][ceno-gh]: for Android devices without Google Play."
+msgstr "[Gitlab][ceno-gh]: 适用于无Google Play的Android设备."
 
 #: browser/install.md:block 3 (unordered list)
 msgid ""
@@ -69,11 +69,10 @@ msgid ""
 "Ouinet users. If in doubt, please contact [cenoers@equalitie.org](mailto:"
 "cenoers@equalitie.org) before installing a suspicious app."
 msgstr ""
-"**警告：**请 *千万小心* 不要从上面列出的来源之外的地方安装 Ceno 浏览器。 "
-"由于应用程序的性质，他们的潜在用户可能成为各种用于侵犯用户隐私或攻击其他 "
-"Ceno 和 Ouinet 用户的虚假或操纵版本的目标。 如有疑问，"
-"请在安装可疑应用程序之前联系 [cenoers@equalitie.org](mailto:cenoers@equalitie"
-".org)。"
+"**警告：**请 *千万小心* 不要从上面列出的来源之外的地方安装 Ceno 浏览器。 由于"
+"应用程序的性质，他们的潜在用户可能成为各种用于侵犯用户隐私或攻击其他 Ceno 和 "
+"Ouinet 用户的虚假或操纵版本的目标。 如有疑问，请在安装可疑应用程序之前联系 "
+"[cenoers@equalitie.org](mailto:cenoers@equalitie.org)。"
 
 #: browser/install.md:block 6 (header)
 msgid "Stopping Ceno completely"
@@ -168,11 +167,11 @@ msgstr ""
 
 #: browser/install.md:block 18 (quote)
 msgid ""
-"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.Ceno"
+"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
 msgstr ""
 
 #: browser/install.md:block 18 (quote)
-msgid "[ceno-gh]: https://github.com/censorship-no/Ceno-browser/releases"
+msgid "[ceno-gh]: https://gitlab.com/censorship-no/ceno-browser/-/releases"
 msgstr ""
 
 #: browser/install.md:block 18 (quote)

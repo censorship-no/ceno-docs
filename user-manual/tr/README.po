@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:51+0200\n"
-"PO-Revision-Date: 2023-05-17 03:12+0000\n"
+"PO-Revision-Date: 2023-09-05 22:01+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/censorship-no/"
 "homepage-readme/tr/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.0.1-dev\n"
 
 #
 #: README.md:block 1 (header)
@@ -42,10 +42,8 @@ msgstr ""
 "gibi konuları bulabilirsiniz."
 
 #: README.md:block 3 (paragraph)
-#, fuzzy
-#| msgid "[Ceno Browser]: https://github.com/censorship-no/ceno-browser"
 msgid "[Ceno Browser]: https://gitlab.com/censorship-no/ceno-browser"
-msgstr "[Ceno Browser]: https://github.com/censorship-no/ceno-browser"
+msgstr "[Ceno Browser]: https://gitlab.com/censorship-no/ceno-browser"
 
 #: README.md:block 3 (paragraph)
 msgid "[Censorship.no!]: https://censorship.no/"
@@ -56,18 +54,14 @@ msgid "[eQualitie]: https://equalit.ie/"
 msgstr "[eQualitie]: https://equalit.ie/"
 
 #: README.md:block 3 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "[Ceno documentation repository]: https://github.com/censorship-no/ceno-"
-#| "docs/"
 msgid ""
-"[Ceno documentation repository]: https://github.com/censorship-no/Ceno-docs/"
-msgstr "[Ceno belgeleri deposu]: https://github.com/censorship-no/ceno-docs/"
+"[Ceno documentation repository]: https://gitlab.com/censorship-no/ceno-docs/"
+msgstr "[Ceno belgeleri deposu]: https://gitlab.com/censorship-no/ceno-docs/"
 
 #: README.md:block 3 (paragraph)
 msgid ""
-"[protocol specifications]: https://github.com/equalitie/ouinet/blob/master/"
+"[protocol specifications]: https://gitlab.com/equalitie/ouinet/blob/master/"
 "doc/ouinet-network-whitepaper.md"
 msgstr ""
-"[iletişim kuralı teknik özellikleri]: https://github.com/equalitie/ouinet/"
+"[iletişim kuralı teknik özellikleri]: https://gitlab.com/equalitie/ouinet/"
 "blob/master/doc/ouinet-network-whitepaper.md"

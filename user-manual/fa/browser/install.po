@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-09-01 23:03+0000\n"
+"PO-Revision-Date: 2023-09-05 22:49+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Persian <https://hosted.weblate.org/projects/censorship-no/"
 "browser-install/fa/>\n"
@@ -29,7 +29,7 @@ msgstr ""
 "اغلب کاربران اندروید."
 
 #: browser/install.md:block 3 (unordered list)
-msgid "[GitHub][ceno-gh]: for Android devices without Google Play."
+msgid "[Gitlab][ceno-gh]: for Android devices without Google Play."
 msgstr "[گیت‌هاب][ceno-gh]: برای دستگاه اندرویدی بدون گوگل‌پلی."
 
 #: browser/install.md:block 3 (unordered list)
@@ -52,15 +52,6 @@ msgstr ""
 "باید امکان‌پذیر باشد. Ceno برای اجرا به مجوزهای خاص نیاز ندارد."
 
 #: browser/install.md:block 5 (quote)
-#, fuzzy
-#| msgid ""
-#| "**Warning:** Please be *extremely skeptical* about installing Ceno "
-#| "Browser from sources other than the ones listed above. Because of the "
-#| "application's nature, their potential users may become a target for all "
-#| "kinds of fake or manipulated versions used to violate user privacy or "
-#| "attack other Ceno and Ouinet users. If in doubt, please contact "
-#| "[cenoers@equalit.ie](mailto:cenoers@equalit.ie) before installing a "
-#| "suspicious app."
 msgid ""
 "**Warning:** Please be *extremely skeptical* about installing Ceno Browser "
 "from sources other than the ones listed above. Because of the application's "
@@ -69,13 +60,12 @@ msgid ""
 "Ouinet users. If in doubt, please contact [cenoers@equalitie.org](mailto:"
 "cenoers@equalitie.org) before installing a suspicious app."
 msgstr ""
-"**هشدار:** لطفاً درباره‌ی نصب مرورگر Ceno از منابعی غیر از موارد فهرست‌شده "
-"در بالا *به‌شدت مراقب و مشکوک* باشید. به خاطر ماهیت این نرم‌افزار، کاربران "
+"**هشدار:** لطفاً درباره‌ی نصب مرورگر Ceno از منابعی غیر از موارد فهرست‌شده در "
+"بالا *به‌شدت مراقب و مشکوک* باشید. به خاطر ماهیت این نرم‌افزار، کاربران "
 "بالقوه‌ی آن می‌توانند هدف انواع و اقسام نسخه‌های جعلی یا دستکاری‌شده‌ای قرار "
 "گیرند که برای نقض حریم خصوصی کاربر یا حمله به سایر کاربران Ceno و Ouinet به "
-"کار می‌روند. اگر در این‌باره تردیدی دارید، لطفاً پیش از نصب یک نرم‌افزار "
-"مشکوک با نشانی [cenoers@equalitie.org](mailto:cenoers@equalitie.org) تماس "
-"بگیرید."
+"کار می‌روند. اگر در این‌باره تردیدی دارید، لطفاً پیش از نصب یک نرم‌افزار مشکوک "
+"با نشانی [cenoers@equalitie.org](mailto:cenoers@equalitie.org) تماس بگیرید."
 
 #: browser/install.md:block 6 (header)
 msgid "Stopping Ceno completely"
@@ -206,24 +196,34 @@ msgstr ""
 "غیر از داده‌هایش نگه دارد؛ برای نمونه در گزارش سیستم‌."
 
 #: browser/install.md:block 18 (quote)
-#, fuzzy
-#| msgid ""
-#| "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit."
-#| "ceno"
 msgid ""
-"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.Ceno"
+"[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
 msgstr ""
 "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit.ceno"
 
 #: browser/install.md:block 18 (quote)
-#, fuzzy
-#| msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
-msgid "[ceno-gh]: https://github.com/censorship-no/Ceno-browser/releases"
-msgstr "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
+msgid "[ceno-gh]: https://gitlab.com/censorship-no/ceno-browser/-/releases"
+msgstr "[ceno-gh]: https://gitlab.com/censorship-no/ceno-browser/releases"
 
 #: browser/install.md:block 18 (quote)
 msgid "[ceno-pask]: https://paskoocheh.com/tools/124/android.html"
 msgstr "[ceno-pask]: https://paskoocheh.com/tools/124/android.html"
+
+#~ msgid "[GitHub][ceno-gh]: for Android devices without Google Play."
+#~ msgstr "[گیت‌هاب][ceno-gh]: برای دستگاه اندرویدی بدون گوگل‌پلی."
+
+#~ msgid ""
+#~ "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit."
+#~ "Ceno"
+#~ msgstr ""
+#~ "[ceno-gplay]: https://play.google.com/store/apps/details?id=ie.equalit."
+#~ "ceno"
+
+#~ msgid "[ceno-gh]: https://github.com/censorship-no/Ceno-browser/releases"
+#~ msgstr "[ceno-gh]: https://gitlab.com/censorship-no/ceno-browser/releases"
+
+#~ msgid "[ceno-gh]: https://gitlab.com/censorship-no/ceno-browser/releases"
+#~ msgstr "[ceno-gh]: https://gitlab.com/censorship-no/ceno-browser/releases"
 
 #~ msgid "CENO requires *no special permissions* to run."
 #~ msgstr "CENO برای اجرا نیازی به اجازه‌ای خاص ندارد."
@@ -241,3 +241,7 @@ msgstr "[ceno-pask]: https://paskoocheh.com/tools/124/android.html"
 #~ "برای هماهنگ‌سازی* [*Sign in to Sync*] را و یک لینک *شروع مرور* [*START "
 #~ "BROWSING*] را ببینید. هماهنگ‌سازیِ فایرفاکس برای کار با سنو آزموده نشده "
 #~ "است، بنابراین فقط دکمه‌ی *شروع مرور* را بفشارید."
+
+#, fuzzy
+#~ msgid "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"
+#~ msgstr "[ceno-gh]: https://github.com/censorship-no/ceno-browser/releases"

@@ -1,15 +1,15 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-07-14 19:47+0000\n"
-"Last-Translator: Taufik Adi Wicaksono <taufikadi.wicaksono@tutamail.com>\n"
+"PO-Revision-Date: 2023-09-05 22:01+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/censorship-no/"
 "homepage-readme/id/>\n"
 "Language: id\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.0-dev\n"
+"X-Generator: Weblate 5.0.1-dev\n"
 
 #: README.md:block 1 (header)
 msgid "Censorship.no! User Manual"
@@ -38,10 +38,8 @@ msgstr ""
 "[spesifikasi protokol][spesifikasi protokol]."
 
 #: README.md:block 3 (paragraph)
-#, fuzzy
-#| msgid "[Ceno Browser]: https://github.com/censorship-no/ceno-browser"
 msgid "[Ceno Browser]: https://gitlab.com/censorship-no/ceno-browser"
-msgstr "[Peramban Ceno]: https://github.com/censorship-no/ceno-browser"
+msgstr "[Peramban Ceno]: https://gitlab.com/censorship-no/ceno-browser"
 
 #: README.md:block 3 (paragraph)
 msgid "[Censorship.no!]: https://censorship.no/"
@@ -52,19 +50,15 @@ msgid "[eQualitie]: https://equalit.ie/"
 msgstr "[eQualitie]: https://equalit.ie/"
 
 #: README.md:block 3 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "[Ceno documentation repository]: https://github.com/censorship-no/ceno-"
-#| "docs/"
 msgid ""
-"[Ceno documentation repository]: https://github.com/censorship-no/Ceno-docs/"
+"[Ceno documentation repository]: https://gitlab.com/censorship-no/ceno-docs/"
 msgstr ""
-"[Repositori dokumentasi Ceno]: https://github.com/censorship-no/ceno-docs/"
+"[Repositori dokumentasi Ceno]: https://gitlab.com/censorship-no/ceno-docs/"
 
 #: README.md:block 3 (paragraph)
 msgid ""
-"[protocol specifications]: https://github.com/equalitie/ouinet/blob/master/"
+"[protocol specifications]: https://gitlab.com/equalitie/ouinet/blob/master/"
 "doc/ouinet-network-whitepaper.md"
 msgstr ""
-"[spesifikasi protokol]: https://github.com/equalitie/ouinet/blob/master/doc/"
+"[spesifikasi protokol]: https://gitlab.com/equalitie/ouinet/blob/master/doc/"
 "ouinet-network-whitepaper.md"
