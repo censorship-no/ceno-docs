@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2023-09-19 07:06+0000\n"
-"Last-Translator: yasmine <yasmeenmr6@gmail.com>\n"
+"PO-Revision-Date: 2023-09-22 16:00+0000\n"
+"Last-Translator: Oussama <oussama.jarrousse@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/censorship-no/"
 "browser-settings/ar/>\n"
 "Language: ar\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 5.0.2\n"
+"X-Generator: Weblate 5.1-dev\n"
 
 #: browser/settings.md:block 1 (header)
 msgid "Ceno settings"
@@ -161,7 +161,7 @@ msgstr ""
 #: browser/settings.md:block 8 (unordered list)
 msgid ""
 "Other participants (such as bridges) will not see the unencrypted traffic."
-msgstr "لن يرى المشاركون الآخرون (مثل الجسور) حركة المرور غير المشفرة."
+msgstr "لن يرى المشاركون الآخرون (مثل الجسور) حركة البيانات غير المشفرة."
 
 #: browser/settings.md:block 8 (unordered list)
 msgid "This mechanism only works in public browsing mode."
@@ -378,6 +378,7 @@ msgid "At the *Ceno Settings* page, check *Enable log file*."
 msgstr "في صفحة *إعدادات Ceno* ، حدد *تمكين ملف السجل*."
 
 #: browser/settings.md:block 20 (ordered list)
+#, fuzzy
 msgid ""
 "Go back to browsing and do whatever actions that trigger the troublesome "
 "behavior."
