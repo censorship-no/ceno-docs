@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-04 20:09+0200\n"
-"PO-Revision-Date: 2023-09-23 09:21+0000\n"
+"PO-Revision-Date: 2023-09-25 08:59+0000\n"
 "Last-Translator: Oussama <oussama.jarrousse@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/censorship-no/"
 "risks/ar/>\n"
@@ -29,7 +29,7 @@ msgid ""
 msgstr ""
 "كما هو الحال مع أي نظام حوسبة معقد، لاسيما الأنظمة المبتكرة حديثة العهد، فإن "
 "استخدام متصفح Ceno (و بشكل عام أي عميل Ouinet) لا يخلو من بعض المخاطر.سنقوم "
-"في هذا القسم بتجميع هذه المخاطر ووصفها لمساعدتك على فهم آثارها وفقًا للدور "
+"في هذا القسم بتجميع هذه المخاطر ووصفها لمساعدتك على فهم آثارها وفقاً للدور "
 "الذي قد تلعبه عند استخدام Ceno:"
 
 #: concepts/risks.md:block 3 (unordered list)
@@ -41,7 +41,7 @@ msgid ""
 "as a *seeder* sharing content over the distributed cache that you previously "
 "visited"
 msgstr ""
-"كـ *موزع* يشارك المحتوى الذي قمت بزيارته مسبقًا عبر ذاكرة التخزين المؤقت "
+"كـ *موزع* يشارك المحتوى الذي قمت بزيارته مسبقاً عبر ذاكرة التخزين المؤقت "
 "الموزعة"
 
 #: concepts/risks.md:block 3 (unordered list)
@@ -100,7 +100,7 @@ msgid ""
 "fundamental and privacy-preserving HTTP header fields."
 msgstr ""
 "**ملاحظة تقنية:** طلبات `GET` الخاصة ببروتوكول HTTP فقط مرشحة للحقن، حيث يتم "
-"إزالة معلمات الاستعلام، وأيضًا جميع حقول ترويسات HTTP باستثناء مجموعة محدودة "
+"إزالة معلمات الاستعلام، وأيضاً جميع حقول ترويسات HTTP باستثناء مجموعة محدودة "
 "من الحقول الأساسية والمحافِظة على الخصوصية ."
 
 #: concepts/risks.md:block 11 (header)
@@ -174,7 +174,7 @@ msgid ""
 "server, there are (at least) two ways for the latter to know that Ceno or "
 "Ouinet is involved:"
 msgstr ""
-"ومع ذلك، عندما يستخدم حاقنًا للحصول على بعض المحتوى من خادمه الأصلي، فهناك ("
+"ومع ذلك، عندما يستخدم حاقناً للحصول على بعض المحتوى من خادمه الأصلي، فهناك ("
 "على الأقل) طريقتان لكي يعرف الأخير أن Ceno أو Ouinet متورطان:"
 
 #: concepts/risks.md:block 19 (ordered list)
@@ -182,8 +182,8 @@ msgid ""
 "The source address of the connection reaching the origin server is found in "
 "the injector swarm (since the connection comes indeed from the injector);"
 msgstr ""
-"يتم العثور على عنوان مصدر الاتصال الذي يصل إلى الخادم الأصلي في سرب الحاقن ("
-"بما أن الاتصال يأتي بالفعل من الحاقن)؛"
+"بالعثور على عنوان مصدر الاتصال الذي يصل إلى الخادم الأصلي في سرب الحاقن (بما "
+"أن الاتصال يأتي بالفعل من الحاقن)؛"
 
 #: concepts/risks.md:block 19 (ordered list)
 msgid ""
@@ -237,7 +237,7 @@ msgid ""
 "past."
 msgstr ""
 "في الوقت الحالي، المحتوى الوحيد الذي يتم توزيعه بواسطة Ceno هو محتوى الويب "
-"غير الخاص الذي تم طلبه في وضع التصفح العام. هذا يعني أيضًا أن المستخدمين لا "
+"غير الخاص الذي تم طلبه في وضع التصفح العام. هذا يعني أيضاً أن المستخدمين لا "
 "يقومون بتوزيع أي شيء لم يصلوا إليه مؤخرًا بأنفسهم."
 
 #: concepts/risks.md:block 25 (header)
@@ -286,7 +286,7 @@ msgid ""
 "requests for content to any other server on someone else's behalf."
 msgstr ""
 "نعم. ومع ذلك، تقوم الجسور فقط بنقل الاتصالات بين عميل Ouinet والحاقن بشكل "
-"مشفّر. هذا يعني أن الجسر لن يقوم مطلقًا بتقديم طلبات مباشرة للمحتوى إلى أي "
+"مشفّر. هذا يعني أن الجسر لن يقوم مطلقاً بتقديم طلبات مباشرة للمحتوى إلى أي "
 "خادم آخر نيابة عن شخص آخر."
 
 #: concepts/risks.md:block 31 (paragraph)
