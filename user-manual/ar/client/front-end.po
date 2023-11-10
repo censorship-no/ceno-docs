@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2023-09-05 21:58+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
+"PO-Revision-Date: 2023-09-23 09:21+0000\n"
+"Last-Translator: Oussama <oussama.jarrousse@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/censorship-no/"
 "client-front-end/ar/>\n"
 "Language: ar\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 5.0.1-dev\n"
+"X-Generator: Weblate 5.1-dev\n"
 
 #
 #: client/front-end.md:block 1 (header)
@@ -29,8 +29,8 @@ msgid ""
 msgstr ""
 "يقدم عميل Ouinet (كما يتم تشغيله بواسطة متصفح Ceno على سبيل المثال) صفحة "
 "أمامية تحتوي على بعض المعلومات والإجراءات التي قد تكون مفيدة لتصحيح أخطاء "
-"العميل. يتم تقديم العديد منها أيضا بواسطة امتداد Ceno عبر صفحة [*إعدادات "
-"Ceno*](.. /browser/settings.md)، على الرغم من أن بعضها متاح هنا فقط."
+"العميل. يتم تقديم العديد منها أيضا بواسطة إضافة متصفح Ceno عبر صفحة [*"
+"إعدادات Ceno*](.. /browser/settings.md)، على الرغم من أن بعضها متاح هنا فقط."
 
 #: client/front-end.md:block 3 (paragraph)
 msgid ""
@@ -39,8 +39,8 @@ msgid ""
 ">. If you open it, you will see something like the figure below."
 msgstr ""
 "يمكن الوصول إلى الواجهة الأمامية باستخدام أي متصفح ويب عادي يعمل على نفس "
-"الجهاز (يمكنك استخدام Ceno أيضا). عنوانه الافتراضي هو <http://127.0.0.1:8078/"
-">. إذا قمت بفتحه ، فسترى شيئا مثل الشكل أدناه."
+"الجهاز (يمكنك استخدام Ceno أيضا). العنوان الافتراضي لعميل Quinet هو "
+"<http://127.0.0.1:8078/>. إذا قمت بفتحه ، فسترى شيئا مثل الشكل أدناه."
 
 #: client/front-end.md:block 4 (paragraph)
 msgid "![Figure: The client front-end](images/front-end.png)"
@@ -68,16 +68,16 @@ msgid ""
 msgstr ""
 "ما عليك سوى استخدام هذا لاستخدام متصفح عادي لاختبار عميل Ouinet، في هذه "
 "الحالة سيتعين عليك أيضا تهيئة وكلاء HTTP/HTTPS إلى \"127.0.0.1:8077\"، "
-"وتمكين [امتداد Ceno][امتداد Ceno] يدويا لكي يعمل هذا الحقن. نوصي بشدة "
-"باستخدام *ملف تعريف متصفح منفصل ومحدد* لهذا الغرض."
+"وتمكين [إضافة متصفح Ceno][إضافة متصفح Ceno] يدويا لكي يعمل هذا الحقن. نوصي "
+"بشدة باستخدام *ملف تعريف متصفح منفصل ومحدد* لهذا الغرض."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
 "Please note that none of this needs to be done for Ceno Browser, since it is "
 "already configured like that."
 msgstr ""
-"يرجى ملاحظة أنه لا يلزم القيام بأي من هذا لمتصفح Ceno، بما أنه تم تهيئته "
-"مسبقا على هذا النحو."
+"يرجى ملاحظة أنه لا يلزم القيام بأي من هذا لمتصفح Ceno، إذ أنه مهئ مسبقا على "
+"هذا النحو."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
@@ -111,7 +111,8 @@ msgstr ""
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
 "Global client state and version information. Useful when reporting errors."
-msgstr "حالة العميل الشاملة ومعلومات الإصدار. مفيد عند الإبلاغ عن الأخطاء."
+msgstr ""
+"حالة العميل الشاملة ومعلومات الإصدار. معلومات مفيدة عند الإبلاغ عن الأخطاء."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
@@ -119,7 +120,7 @@ msgid ""
 "`bep5` method looks up Internet addresses in a BitTorrent injector swarm, as "
 "explained [here](../concepts/how.md)."
 msgstr ""
-"معلومات حول اتصال العميل وعنونة الحاقن. تبحث طريقة `bep5` الافتراضية عن "
+"معلومات حول اتصال العميل وعنونة الحاقن. تبحث آلية `bep5` الافتراضية عن "
 "عناوين الإنترنت في سرب حاقن بت تورنت BitTorrent، كما هو موضح [هنا](../"
 "concepts/how.md)."
 
@@ -151,4 +152,4 @@ msgstr ""
 
 #: client/front-end.md:block 6 (unordered list)
 msgid "[Ceno Extension]: https://gitlab.com/censorship-no/ceno-ext-settings/"
-msgstr "[امتداد Ceno]: https://gitlab.com/censorship-no/ceno-ext-settings/"
+msgstr "[إضافة متصفح Ceno]: https://gitlab.com/censorship-no/ceno-ext-settings/"
