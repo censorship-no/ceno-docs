@@ -1,15 +1,15 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-08-02 16:04+0000\n"
-"Last-Translator: Taufik Adi Wicaksono <taufikadi.wicaksono@tutamail.com>\n"
+"PO-Revision-Date: 2023-11-28 16:01+0000\n"
+"Last-Translator: wahyu adi pribadi <wahyutsarii@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/censorship-no/"
 "risks/id/>\n"
 "Language: id\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.0-dev\n"
+"X-Generator: Weblate 5.3-dev\n"
 
 #: concepts/risks.md:block 1 (header)
 msgid "Risks in using Ceno/Ouinet"
@@ -192,7 +192,6 @@ msgstr ""
 "injektor (karena koneksi memang berasal dari injektor);"
 
 #: concepts/risks.md:block 19 (ordered list)
-#, fuzzy
 msgid ""
 "The presence or absence of certain information in the request for content is "
 "characteristic of Ouinet. This happens when the injector is requesting the "
@@ -200,11 +199,11 @@ msgid ""
 "the injector removes information unique to your particular device from the "
 "request."
 msgstr ""
-"Ada atau tidaknya informasi tertentu dalam permintaan konten merupakan ciri "
-"khas Ouinet. Ini terjadi saat injektor meminta konten karena diminta oleh "
-"klien Anda untuk mengambil dan menandatangani konten tersebut, karena "
-"injektor menghapus informasi unik untuk perangkat Anda dari permintaan "
-"tersebut."
+"Kehadiran atau tidak adanya informasi tertentu atas permintaan konten adalah "
+"karakteristik Ouinet. Ini terjadi ketika injector meminta konten karena "
+"klien Anda memintanya untuk mengambil dan menandatangani konten itu, sebagai "
+"injector menghapus informasi yang unik untuk perangkat tertentu dari "
+"permintaan."
 
 #: concepts/risks.md:block 20 (paragraph)
 msgid ""
