@@ -73,9 +73,7 @@ msgstr "[Ceno ထည့်သွင်းခြင်း](browser/install.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Using public or private browsing](browser/public-private.md)"
-msgstr ""
-"[အများသုံး သို့မဟုတ် သီးသန့် ရှာဖွေမှုကို အသုံးပြုခြင်း](browser/public-"
-"private.md)"
+msgstr "[အများသုံး သို့မဟုတ် သီးသန့် ရှာဖွေမှုကို အသုံးပြုခြင်း](browser/public-private.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Ceno settings](browser/settings.md)"
@@ -95,5 +93,14 @@ msgstr "[ပြဿနာ ဖြေရှင်းခြင်း](browser/troubl
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Annex: The Ouinet client front-end](client/front-end.md)"
-msgstr ""
-"[နောက်ဆက်တွဲ- Ouinet လက်ခံစက် သုံးစွဲသူ ကြားခံစနစ်](client/front-end.md)"
+msgstr "[နောက်ဆက်တွဲ- Ouinet လက်ခံစက် သုံးစွဲသူ ကြားခံစနစ်](client/front-end.md)"
+
+#: SUMMARY.md:block 3 (unordered list)
+#, fuzzy
+msgid "[Public vs. Personal browsing](concepts/public-personal.md)"
+msgstr "[အများသုံးနှင့် သီးသန့် ရှာဖွေမှု](concepts/public-private.md)"
+
+#: SUMMARY.md:block 3 (unordered list)
+#, fuzzy
+msgid "[Using Public or Personal browsing](browser/public-personal.md)"
+msgstr "[အများသုံး သို့မဟုတ် သီးသန့် ရှာဖွေမှုကို အသုံးပြုခြင်း](browser/public-private.md)"
