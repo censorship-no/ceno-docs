@@ -12,7 +12,7 @@
 
 - [Main concepts](concepts/README.md)
     - [How does it work?](concepts/how.md)
-    - [Public vs. private browsing](concepts/public-private.md)
+    - [Public vs. Personal browsing](concepts/public-personal.md)
     - [Advantages of using Ceno/Ouinet](concepts/advantages.md)
     - [Risks in using Ceno/Ouinet](concepts/risks.md)
 

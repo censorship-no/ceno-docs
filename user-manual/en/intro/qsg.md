@@ -8,7 +8,7 @@ You will need an Android device:
 
 1. Install Ceno Browser from [Google Play][ceno-gplay], [GitHub][ceno-gh] or [Paskoocheh][ceno-pask].  *No special permissions are needed*.
 2. Run it.
-3. Browse pages normally to help other users access them; if concerned about privacy for some page or if it is not loading as expected, use a private tab (see [public vs. private browsing](../concepts/public-private.md)).
+3. Browse pages normally to help other users access them; if concerned about privacy for some page or if it is not loading as expected, use a Personal tab (see [Public vs. Personal browsing](../concepts/public-personal.md)).
 4. Tap on the Ceno notification to stop it completely.
 
 Detailed installation instructions are [here](../browser/install.md).

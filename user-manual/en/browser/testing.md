@@ -13,7 +13,7 @@ Let us first check whether your Ceno Browser can reach an injector.  This may lo
 In the first device perform the following steps:
 
 1. First of all, install Ceno and start it.  Its home page will appear.
-2. Open the app's main menu and choose *Ceno* to open the *Ceno Settings* page.  Since we only want to test injector access, uncheck all the boxes for content sources except *Via the Ceno network (public)*.
+2. Open the app's main menu and choose *Settings* to open the *Ceno Settings* page.  Since we only want to test injector access, uncheck all the boxes for content sources except *Via the Ceno network (public)*.
 3. Go back to Ceno's home page.  Either select one of the recommended Web sites, or enter the URL of some other site at the address bar at the top of the window.  If you know about a site which is usually blocked for you, go ahead and enter it!
 4. The chosen site should eventually show up.
 
@@ -25,7 +25,7 @@ By the way, if you push the Ceno icon in the address bar, it will open a popup l
 
 ![Figure: Sources used when testing injection](images/sources-inject.png)
 
-In contrast, if you had used private browsing with default settings, you may have seen a popup like the one below, with non-zero counts in *Direct from website* or *Via Ceno network (private)*.
+In contrast, if you had used Personal browsing with default settings, you may have seen a popup like the one below, with non-zero counts in *Direct from website* or *Via Ceno network (private)*.
 
 ![Figure: Sources used with private browsing](images/sources-proxy.png)
 
