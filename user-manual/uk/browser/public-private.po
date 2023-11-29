@@ -13,14 +13,20 @@ msgstr ""
 "X-Generator: Weblate 4.18-dev\n"
 
 #: browser/public-private.md:block 1 (header)
-msgid "Using public or private browsing"
-msgstr "Використання публічного або приватного перегляду"
+msgid "Public and Personal browsing modes"
+msgstr ""
 
 #: browser/public-private.md:block 2 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "As described [in a previous section](../concepts/public-private.md), Ceno "
+#| "has two different modes of operation depending on whether you want to "
+#| "share the content that you browse with others (public browsing) or not "
+#| "(private browsing)."
 msgid ""
-"As described [in a previous section](../concepts/public-private.md), Ceno "
+"As described [in a previous section](../concepts/public-personal.md), Ceno "
 "has two different modes of operation depending on whether you want to share "
-"the content that you browse with others (public browsing) or not (private "
+"the content that you browse with others (Public browsing) or not (Personal "
 "browsing)."
 msgstr ""
 "Як описано [у попередньому розділі](../concepts/public-private.md), Ceno має "
@@ -28,30 +34,45 @@ msgstr ""
 "вмістом, який переглядаєте (публічний перегляд), чи ні (приватний перегляд)."
 
 #: browser/public-private.md:block 3 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "This setting applies *to each tab* that you open in the browser, i.e. you "
+#| "can have public browsing tabs and private browsing tabs. Ceno's default "
+#| "whenever you start it or open a new tab (using *New tab* in the app's "
+#| "main menu) is to use public browsing. To open a new tab in private "
+#| "browsing mode, just choose *New private tab* in the main menu."
 msgid ""
 "This setting applies *to each tab* that you open in the browser, i.e. you "
-"can have public browsing tabs and private browsing tabs. Ceno's default "
-"whenever you start it or open a new tab (using *New tab* in the app's main "
-"menu) is to use public browsing. To open a new tab in private browsing mode, "
-"just choose *New private tab* in the main menu."
+"can have Public browsing tabs and Personal browsing tabs. Ceno's default "
+"whenever you start it or open a new tab (via the 'Public Tabs' option on the "
+"homepage or the Tabs icon next to the Clear icon in the address bar) is to "
+"use Public browsing. To open a new tab in Personal browsing mode, just "
+"choose *Personal Tabs* on the homepage or switch to the Personal mode icon "
+"in the Tabs menu."
 msgstr ""
 "Це налаштування застосовується до конкретної вкладки, тобто у Вас одночасно "
 "можуть бути вкладки і публічного, і приватного перегляду. За замовчуванням "
 "під час запуску Ceno або відкритті нової вкладки (за допомогою пункту *Нова "
 "вкладка* у головному меню програми) використовується режим публічного "
-"перегляду. Щоб відкрити нову вкладку в режимі приватного перегляду, оберіть *"
-"Нова приватна вкладка* у головному меню."
+"перегляду. Щоб відкрити нову вкладку в режимі приватного перегляду, оберіть "
+"*Нова приватна вкладка* у головному меню."
 
 #: browser/public-private.md:block 4 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "You can tell public tabs from private ones because public tabs have a "
+#| "lighter (or white) tool bar:"
 msgid ""
-"You can tell public tabs from private ones because public tabs have a "
+"You can tell public tabs from personal ones because public tabs have a "
 "lighter (or white) tool bar:"
 msgstr ""
 "Ви можете легко відрізнити публічні вкладки від приватних: публічні вкладки "
 "мають світлішу (або білу) панель інструментів:"
 
 #: browser/public-private.md:block 5 (paragraph)
-msgid "![Figure: A public browsing tab](images/public-tab.png)"
+#, fuzzy
+#| msgid "![Figure: A public browsing tab](images/public-tab.png)"
+msgid "![Figure: A Public browsing tab](images/public-tab.png)"
 msgstr "![Малюнок: Вкладка публічного перегляду](images/public-tab.png)"
 
 #: browser/public-private.md:block 6 (paragraph)
@@ -59,15 +80,25 @@ msgid "In contrast, private tabs have a darker tool bar:"
 msgstr "Приватні вкладки, навпаки, мають темнішу панель інструментів:"
 
 #: browser/public-private.md:block 7 (paragraph)
-msgid "![Figure: A private browsing tab](images/private-tab.png)"
+#, fuzzy
+#| msgid "![Figure: A private browsing tab](images/private-tab.png)"
+msgid "![Figure: A Personal browsing tab](images/private-tab.png)"
 msgstr "![Малюнок: Вкладка приватного перегляду](images/private-tab.png)"
 
 #: browser/public-private.md:block 8 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "Once you have loaded a page in a tab, the colored Ceno icon in the "
+#| "address bar will help you know how it actually retrieved the different "
+#| "elements of the content. We will cover this icon later on."
 msgid ""
-"Once you have loaded a page in a tab, the colored Ceno icon in the address "
-"bar will help you know how it actually retrieved the different elements of "
-"the content. We will cover this icon later on."
+"Once you have loaded a page in a tab, the Ceno icon in the address bar will "
+"help you know how it actually retrieved the different elements of the "
+"content. We will cover this icon later on."
 msgstr ""
 "Після того, як сторінка у вкладці завантажилася, кольоровий значок Ceno в "
 "адресному рядку допоможе Вам дізнатися, як отримано різні елементи вмісту. "
 "Ми розглянемо цей значок пізніше."
+
+#~ msgid "Using public or private browsing"
+#~ msgstr "Використання публічного або приватного перегляду"

@@ -57,8 +57,8 @@ msgstr ""
 "Y también, ya que CENO y Ouinet están bajo desarrollo contínuo, podrías "
 "experimentar alguna inestabilidad. Eso podría significar también que sean "
 "introducidos cambios incompatibles con versiones anteriores, los cuales "
-"requerirían que desinstales la aplicación o remuevas los datos almacenados ("
-"incluyendo marcadores y configuraciones de sitios) antes de actualizar."
+"requerirían que desinstales la aplicación o remuevas los datos almacenados "
+"(incluyendo marcadores y configuraciones de sitios) antes de actualizar."
 
 #: intro/faq.md:block 7 (paragraph)
 msgid ""
@@ -72,10 +72,13 @@ msgstr ""
 
 #: intro/faq.md:block 8 (header)
 msgid "Can I use Ceno Browser to access Twitter, Facebook and Gmail?"
-msgstr "¿Puedo usar al Navegador CENO para acceder a Twitter, Facebook y Gmail?"
+msgstr ""
+"¿Puedo usar al Navegador CENO para acceder a Twitter, Facebook y Gmail?"
 
 #: intro/faq.md:block 9 (paragraph)
-msgid "Short answer: yes, by using private tabs."
+#, fuzzy
+#| msgid "Short answer: yes, by using private tabs."
+msgid "Short answer: yes, by using Personal tabs."
 msgstr "Respuesta corta: sí, usando pestañas privadas."
 
 #: intro/faq.md:block 10 (paragraph)
@@ -90,15 +93,22 @@ msgstr ""
 "A pesar de que CENO se esfuerce en proveer una experiencia de usuario tan "
 "similar a la navegación Web normal como sea posible, algunas de las técnicas "
 "usadas para evitar interferencia de red no van bien con sitios de tal "
-"dinamismo. Este es el caso con el modo de operación por defecto de CENO ("
-"esto es, navegación pública), ya que remueve todos los datos privados (como "
+"dinamismo. Este es el caso con el modo de operación por defecto de CENO "
+"(esto es, navegación pública), ya que remueve todos los datos privados (como "
 "contraseñas y cookies) del tráfico Web para asegurar que no se filtre a "
 "otra(o)s usuaria(o)s de CENO o Ouinet en quienes no se confía."
 
 #: intro/faq.md:block 11 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "To avoid this and enable the use of such dynamic sites in Ceno, you can "
+#| "use private tabs (i.e. private browsing), which leave private data intact "
+#| "and keep connections to the sites encrypted and thus protected from "
+#| "everyone else. However, this requires that network traffic from your "
+#| "device can reach those websites in some way."
 msgid ""
 "To avoid this and enable the use of such dynamic sites in Ceno, you can use "
-"private tabs (i.e. private browsing), which leave private data intact and "
+"Personal tabs (i.e. private browsing), which leave private data intact and "
 "keep connections to the sites encrypted and thus protected from everyone "
 "else. However, this requires that network traffic from your device can reach "
 "those websites in some way."
@@ -111,9 +121,13 @@ msgstr ""
 "sitios web de alguna manera."
 
 #: intro/faq.md:block 12 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "For further details, please refer to the section on the differences "
+#| "between [public and private browsing](../concepts/public-private.md)."
 msgid ""
 "For further details, please refer to the section on the differences between "
-"[public and private browsing](../concepts/public-private.md)."
+"[Public and Personal browsing](../concepts/public-personal.md)."
 msgstr ""
 "Para mayores detalles, por favor consulta la sección sobre las diferencias "
 "entre [navegación pública y privada](../concepts/public-private.md)."
@@ -131,9 +145,13 @@ msgid "Short answer: no."
 msgstr "Respuesta corta: no."
 
 #: intro/faq.md:block 16 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "Ceno only shares content that you requested (using [public browsing](../"
+#| "concepts/public-private.md))."
 msgid ""
-"Ceno only shares content that you requested (using [public browsing](../"
-"concepts/public-private.md))."
+"Ceno only shares content that you requested (using [Public browsing](../"
+"concepts/public-personal.md))."
 msgstr ""
 "CENO solamente comparte contenido que tu solicitaste (usando [navegación "
 "pública](../concepts/public-private.md))."
@@ -186,9 +204,15 @@ msgstr ""
 "el contenido que estás compartiendo."
 
 #: intro/faq.md:block 22 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "However, content being retrieved into the network for the first time or "
+#| "using [private browsing](../concepts/public-private.md) will travel over "
+#| "encrypted connections. See [how content retrieval works](../concepts/how."
+#| "md) and the associated [risks](../concepts/risks.md) for more information."
 msgid ""
 "However, content being retrieved into the network for the first time or "
-"using [private browsing](../concepts/public-private.md) will travel over "
+"using [Personal browsing](../concepts/public-personal.md) will travel over "
 "encrypted connections. See [how content retrieval works](../concepts/how.md) "
 "and the associated [risks](../concepts/risks.md) for more information."
 msgstr ""

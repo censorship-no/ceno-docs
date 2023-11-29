@@ -63,11 +63,17 @@ msgid "Choosing access mechanisms"
 msgstr "Вибір варіантів доступу"
 
 #: browser/settings.md:block 7 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "The four checkboxes on the top of the page selectively enable or disable "
+#| "the different mechanisms or *sources* that Ceno as a Ouinet client uses "
+#| "to retrieve content while using either [public or private browsing]"
+#| "(public-private.md) tabs. All boxes are enabled by default."
 msgid ""
 "The four checkboxes on the top of the page selectively enable or disable the "
 "different mechanisms or *sources* that Ceno as a Ouinet client uses to "
-"retrieve content while using either [public or private browsing](public-"
-"private.md) tabs. All boxes are enabled by default."
+"retrieve content while using either [Public or Personal browsing](public-"
+"personal.md) tabs. All boxes are enabled by default."
 msgstr ""
 "Чотири прапорці у верхній частині сторінки вибірково вмикають чи вимикають "
 "різні варіанти або *джерела*, що їх Ceno як клієнт Ouinet використовує для "
@@ -84,8 +90,12 @@ msgstr ""
 "використовувати інші варіанти, дозволені нижче."
 
 #: browser/settings.md:block 8 (unordered list)
+#, fuzzy
+#| msgid ""
+#| "Although this mechanism works in both private and public browsing modes, "
+#| "content thus retrieved cannot be shared with others."
 msgid ""
-"Although this mechanism works in both private and public browsing modes, "
+"Although this mechanism works in both Personal and Public browsing modes, "
 "content thus retrieved cannot be shared with others."
 msgstr ""
 "Оскільки ця схема працює в режимі як приватного, так і публічного перегляду, "
@@ -115,8 +125,8 @@ msgid ""
 "safer Ceno mechanisms. Please check the section on [troubleshooting]"
 "(troubleshooting.md) to learn more about this issue."
 msgstr ""
-"Крім того, під час доступу до вебсайту за незахищеним протоколом HTTP ("
-"замість безпечнішого HTTPS) цензор може перехопити зʼєднання та надати "
+"Крім того, під час доступу до вебсайту за незахищеним протоколом HTTP "
+"(замість безпечнішого HTTPS) цензор може перехопити зʼєднання та надати "
 "користувачеві фіктивний сайт, який Ceno не може виявити самостійно. У таких "
 "випадках корисно відключити цю опцію і завжди вдаватися до інших безпечніших "
 "способів використання Ceno. Будь ласка, перегляньте розділ [усунення "
@@ -132,7 +142,9 @@ msgstr ""
 "вихідних серверів."
 
 #: browser/settings.md:block 8 (unordered list)
-msgid "This mechanism only works in private browsing mode."
+#, fuzzy
+#| msgid "This mechanism only works in private browsing mode."
+msgid "This mechanism only works in Personal browsing mode."
 msgstr "Цей механізм працює лише в режимі приватного перегляду."
 
 #: browser/settings.md:block 8 (unordered list)
@@ -180,8 +192,13 @@ msgstr ""
 "передають вміст."
 
 #: browser/settings.md:block 9 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "Disabling all of the mechanisms available for either public or private "
+#| "browsing mode will render them useless. If you establish such a "
+#| "configuration, a warning will be shown as depicted below:"
 msgid ""
-"Disabling all of the mechanisms available for either public or private "
+"Disabling all of the mechanisms available for either Public or Personal "
 "browsing mode will render them useless. If you establish such a "
 "configuration, a warning will be shown as depicted below:"
 msgstr ""
@@ -366,8 +383,8 @@ msgid ""
 "[Installing Ceno](install.md)."
 msgstr ""
 "Щоб скинути всі дані відразу (особливо якщо Ви поспішайте), дізнайтеся, як "
-"використовувати функцію «тривожної кнопки», що описано в розділі ["
-"Встановлення Ceno](install.md)."
+"використовувати функцію «тривожної кнопки», що описано в розділі "
+"[Встановлення Ceno](install.md)."
 
 #: browser/settings.md:block 18 (header)
 msgid "Collecting log messages"

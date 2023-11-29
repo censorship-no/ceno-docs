@@ -71,7 +71,9 @@ msgstr ""
 "ہوں؟"
 
 #: intro/faq.md:block 9 (paragraph)
-msgid "Short answer: yes, by using private tabs."
+#, fuzzy
+#| msgid "Short answer: yes, by using private tabs."
+msgid "Short answer: yes, by using Personal tabs."
 msgstr "مختصر جواب: ہاں، نجی ٹیبز کا استعمال کرکے۔"
 
 #: intro/faq.md:block 10 (paragraph)
@@ -86,14 +88,21 @@ msgstr ""
 "اگرچہ Ceno صارف کو عام ویب براؤزنگ جیسا تجربہ فراہم کرنے کی کوشش کرتا ہے، "
 "لیکن نیٹ ورک کی مداخلت سے بچنے کے لیے استعمال کی جانے والی کچھ تکنیکیں ایسی "
 "متحرک سائٹس کے ساتھ اچھا نہیں چلتی ہیں۔ یہی معاملہ Ceno کے آپریشن کے پہلے سے "
-"طے شدہ موڈ (یعنی عوامی براؤزنگ) کا ہے، کیونکہ یہ ویب ٹریفک سے تمام نجی ڈیٹا ("
-"جیسے پاس ورڈز اور کوکیز) کو ہٹا دیتا ہے تاکہ یہ یقینی بنایا جا سکے کہ یہ "
+"طے شدہ موڈ (یعنی عوامی براؤزنگ) کا ہے، کیونکہ یہ ویب ٹریفک سے تمام نجی ڈیٹا "
+"(جیسے پاس ورڈز اور کوکیز) کو ہٹا دیتا ہے تاکہ یہ یقینی بنایا جا سکے کہ یہ "
 "دوسرے غیر بھروسہ مند Ceno یا Ouinet صارفین تک نہ پہنچ جائے۔"
 
 #: intro/faq.md:block 11 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "To avoid this and enable the use of such dynamic sites in Ceno, you can "
+#| "use private tabs (i.e. private browsing), which leave private data intact "
+#| "and keep connections to the sites encrypted and thus protected from "
+#| "everyone else. However, this requires that network traffic from your "
+#| "device can reach those websites in some way."
 msgid ""
 "To avoid this and enable the use of such dynamic sites in Ceno, you can use "
-"private tabs (i.e. private browsing), which leave private data intact and "
+"Personal tabs (i.e. private browsing), which leave private data intact and "
 "keep connections to the sites encrypted and thus protected from everyone "
 "else. However, this requires that network traffic from your device can reach "
 "those websites in some way."
@@ -105,9 +114,13 @@ msgstr ""
 "طریقے سے ان ویب سائٹس تک پہنچ سکے۔"
 
 #: intro/faq.md:block 12 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "For further details, please refer to the section on the differences "
+#| "between [public and private browsing](../concepts/public-private.md)."
 msgid ""
 "For further details, please refer to the section on the differences between "
-"[public and private browsing](../concepts/public-private.md)."
+"[Public and Personal browsing](../concepts/public-personal.md)."
 msgstr ""
 "مزید تفصیلات کے لیے، براہ کرم [عوامی اور نجی براؤزنگ] (../concepts/public-"
 "private.md) کے درمیان فرق پر سیکشن دیکھیں۔"
@@ -126,9 +139,13 @@ msgid "Short answer: no."
 msgstr "مختصر جواب: نہیں۔"
 
 #: intro/faq.md:block 16 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "Ceno only shares content that you requested (using [public browsing](../"
+#| "concepts/public-private.md))."
 msgid ""
-"Ceno only shares content that you requested (using [public browsing](../"
-"concepts/public-private.md))."
+"Ceno only shares content that you requested (using [Public browsing](../"
+"concepts/public-personal.md))."
 msgstr ""
 "Ceno صرف وہ مواد شیئر کرتا ہے جس کی آپ نے درخواست کی تھی ([عوامی براؤزنگ](../"
 "concepts/public-private.md) کا استعمال کرتے ہوئے)۔"
@@ -181,9 +198,15 @@ msgstr ""
 "آپ شیئر کر رہے ہیں۔"
 
 #: intro/faq.md:block 22 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "However, content being retrieved into the network for the first time or "
+#| "using [private browsing](../concepts/public-private.md) will travel over "
+#| "encrypted connections. See [how content retrieval works](../concepts/how."
+#| "md) and the associated [risks](../concepts/risks.md) for more information."
 msgid ""
 "However, content being retrieved into the network for the first time or "
-"using [private browsing](../concepts/public-private.md) will travel over "
+"using [Personal browsing](../concepts/public-personal.md) will travel over "
 "encrypted connections. See [how content retrieval works](../concepts/how.md) "
 "and the associated [risks](../concepts/risks.md) for more information."
 msgstr ""

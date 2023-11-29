@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "PO-Revision-Date: 2023-09-01 22:39+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
-"Language-Team: Urdu <https://hosted.weblate.org/projects/censorship-no/"
-"user-manual/ur/>\n"
+"Language-Team: Urdu <https://hosted.weblate.org/projects/censorship-no/user-"
+"manual/ur/>\n"
 "Language: ur\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -48,7 +48,9 @@ msgid "[How does it work?](concepts/how.md)"
 msgstr "[یہ کیسے کام کرتا ہے؟](concepts/how.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-msgid "[Public vs. private browsing](concepts/public-private.md)"
+#, fuzzy
+#| msgid "[Public vs. private browsing](concepts/public-private.md)"
+msgid "[Public vs. Personal browsing](concepts/public-personal.md)"
 msgstr "[عوامی بمقابلہ نجی براؤزنگ](concepts/public-private.md)"
 
 #: SUMMARY.md:block 3 (unordered list)

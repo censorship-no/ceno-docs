@@ -48,10 +48,15 @@ msgid "Run it."
 msgstr "စတင်လည်ပတ်ပါ။"
 
 #: intro/qsg.md:block 5 (ordered list)
+#, fuzzy
+#| msgid ""
+#| "Browse pages normally to help other users access them; if concerned about "
+#| "privacy for some page or if it is not loading as expected, use a private "
+#| "tab (see [public vs. private browsing](../concepts/public-private.md))."
 msgid ""
 "Browse pages normally to help other users access them; if concerned about "
-"privacy for some page or if it is not loading as expected, use a private tab "
-"(see [public vs. private browsing](../concepts/public-private.md))."
+"privacy for some page or if it is not loading as expected, use a Personal "
+"tab (see [Public vs. Personal browsing](../concepts/public-personal.md))."
 msgstr ""
 "အခြားအသုံးပြုသူများ ဝင်‌ရောက်ကြည့်ရှုနိုင်ရန် အင်တာနက်စာမျက်နှာများကို ပုံမှန်အတိုင်းရှာဖွေပါ။ "
 "အင်တာနက်စာမျက်နှာတစ်ခုခုနှင့် ပတ်သက်၍ လုံခြုံရေးပိုင်းကို သံသယရှိပါက (သို့) သင်ထင်ထားသလို တက်မလာပါက သီးသန့်တပ်ဗ်ကို "

@@ -65,14 +65,20 @@ msgid "Choosing access mechanisms"
 msgstr "Erişim yöntemlerinin seçimi"
 
 #: browser/settings.md:block 7 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "The four checkboxes on the top of the page selectively enable or disable "
+#| "the different mechanisms or *sources* that Ceno as a Ouinet client uses "
+#| "to retrieve content while using either [public or private browsing]"
+#| "(public-private.md) tabs. All boxes are enabled by default."
 msgid ""
 "The four checkboxes on the top of the page selectively enable or disable the "
 "different mechanisms or *sources* that Ceno as a Ouinet client uses to "
-"retrieve content while using either [public or private browsing](public-"
-"private.md) tabs. All boxes are enabled by default."
+"retrieve content while using either [Public or Personal browsing](public-"
+"personal.md) tabs. All boxes are enabled by default."
 msgstr ""
-"Sayfanın üst kısmındaki dört işaret kutusu, Ceno Ouinet istemcisi olarak ["
-"herkese açık ya da gizli gezinme](public-private.md) ile kullanılırken, "
+"Sayfanın üst kısmındaki dört işaret kutusu, Ceno Ouinet istemcisi olarak "
+"[herkese açık ya da gizli gezinme](public-private.md) ile kullanılırken, "
 "içerikleri alma yöntemleri ile kaynaklarını seçmenizi sağlar. Varsayılan "
 "olarak tüm kutular işaretlidir."
 
@@ -85,8 +91,12 @@ msgstr ""
 "diğer yöntemleri denemeden önce kaynak sunucuya bağlanmaya çalışır."
 
 #: browser/settings.md:block 8 (unordered list)
+#, fuzzy
+#| msgid ""
+#| "Although this mechanism works in both private and public browsing modes, "
+#| "content thus retrieved cannot be shared with others."
 msgid ""
-"Although this mechanism works in both private and public browsing modes, "
+"Although this mechanism works in both Personal and Public browsing modes, "
 "content thus retrieved cannot be shared with others."
 msgstr ""
 "Bu yöntem herkese açık ve gizli gezinme kiplerinde çalışsa bile, alınan "
@@ -132,7 +142,9 @@ msgstr ""
 "sunuculara erişir."
 
 #: browser/settings.md:block 8 (unordered list)
-msgid "This mechanism only works in private browsing mode."
+#, fuzzy
+#| msgid "This mechanism only works in private browsing mode."
+msgid "This mechanism only works in Personal browsing mode."
 msgstr "Bu yöntem yalnızca gizli gezinme kipinde çalışır."
 
 #: browser/settings.md:block 8 (unordered list)
@@ -179,8 +191,13 @@ msgstr ""
 "bellekten** alınmaya çalışılır."
 
 #: browser/settings.md:block 9 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "Disabling all of the mechanisms available for either public or private "
+#| "browsing mode will render them useless. If you establish such a "
+#| "configuration, a warning will be shown as depicted below:"
 msgid ""
-"Disabling all of the mechanisms available for either public or private "
+"Disabling all of the mechanisms available for either Public or Personal "
 "browsing mode will render them useless. If you establish such a "
 "configuration, a warning will be shown as depicted below:"
 msgstr ""

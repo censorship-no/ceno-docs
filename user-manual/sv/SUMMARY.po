@@ -48,7 +48,9 @@ msgid "[How does it work?](concepts/how.md)"
 msgstr "[Hur fungerar det?](concepts/how.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-msgid "[Public vs. private browsing](concepts/public-private.md)"
+#, fuzzy
+#| msgid "[Public vs. private browsing](concepts/public-private.md)"
+msgid "[Public vs. Personal browsing](concepts/public-personal.md)"
 msgstr "[Publik mot privat surfning](concepts/public-private.md)"
 
 #: SUMMARY.md:block 3 (unordered list)

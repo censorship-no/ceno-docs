@@ -78,7 +78,7 @@ msgstr ""
 
 #: concepts/risks.md:block 9 (paragraph)
 msgid ""
-"On the other hand, when the request uses private browsing mode, it is not "
+"On the other hand, when the request uses Personal browsing mode, it is not "
 "modified by the client, but the whole communication is encrypted for the "
 "origin server. This means that in this other case the injector cannot "
 "decrypt the content."
@@ -124,7 +124,7 @@ msgid ""
 "browser fingerprints using JavaScript) and stuff it in another link URL as "
 "normal path components (e.g. `http://example.com/subscribe/you@example."
 "org`). If you suspect that a page may be doing that, better be on the safe "
-"side and use private browsing for it."
+"side and use Personal browsing for it."
 msgstr ""
 
 #: concepts/risks.md:block 16 (header)

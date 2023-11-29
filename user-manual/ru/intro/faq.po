@@ -76,7 +76,9 @@ msgstr ""
 "Могу ли я использовать Браузер CENO для доступа к Twitter, Facebook и Gmail?"
 
 #: intro/faq.md:block 9 (paragraph)
-msgid "Short answer: yes, by using private tabs."
+#, fuzzy
+#| msgid "Short answer: yes, by using private tabs."
+msgid "Short answer: yes, by using Personal tabs."
 msgstr "Краткий ответ: да, используя приватные вкладки."
 
 #: intro/faq.md:block 10 (paragraph)
@@ -97,9 +99,16 @@ msgstr ""
 "исключить их утечку другим пользователям CENO или Ouinet."
 
 #: intro/faq.md:block 11 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "To avoid this and enable the use of such dynamic sites in Ceno, you can "
+#| "use private tabs (i.e. private browsing), which leave private data intact "
+#| "and keep connections to the sites encrypted and thus protected from "
+#| "everyone else. However, this requires that network traffic from your "
+#| "device can reach those websites in some way."
 msgid ""
 "To avoid this and enable the use of such dynamic sites in Ceno, you can use "
-"private tabs (i.e. private browsing), which leave private data intact and "
+"Personal tabs (i.e. private browsing), which leave private data intact and "
 "keep connections to the sites encrypted and thus protected from everyone "
 "else. However, this requires that network traffic from your device can reach "
 "those websites in some way."
@@ -112,9 +121,13 @@ msgstr ""
 "образом достигать этих сайтов."
 
 #: intro/faq.md:block 12 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "For further details, please refer to the section on the differences "
+#| "between [public and private browsing](../concepts/public-private.md)."
 msgid ""
 "For further details, please refer to the section on the differences between "
-"[public and private browsing](../concepts/public-private.md)."
+"[Public and Personal browsing](../concepts/public-personal.md)."
 msgstr ""
 "Более подробную информацию можно найти в разделе о различиях между "
 "[публичным и приватным просмотром](../concepts/public-private.md)."
@@ -132,12 +145,16 @@ msgid "Short answer: no."
 msgstr "Краткий ответ: нет."
 
 #: intro/faq.md:block 16 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "Ceno only shares content that you requested (using [public browsing](../"
+#| "concepts/public-private.md))."
 msgid ""
-"Ceno only shares content that you requested (using [public browsing](../"
-"concepts/public-private.md))."
+"Ceno only shares content that you requested (using [Public browsing](../"
+"concepts/public-personal.md))."
 msgstr ""
-"CENO распространяет только контент, который вы запросили (используя ["
-"публичный просмотр страниц](../concepts/public-private.md))."
+"CENO распространяет только контент, который вы запросили (используя "
+"[публичный просмотр страниц](../concepts/public-private.md))."
 
 #: intro/faq.md:block 17 (paragraph)
 msgid ""
@@ -188,9 +205,15 @@ msgstr ""
 "не может получить полный список контента, которым вы делитесь."
 
 #: intro/faq.md:block 22 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "However, content being retrieved into the network for the first time or "
+#| "using [private browsing](../concepts/public-private.md) will travel over "
+#| "encrypted connections. See [how content retrieval works](../concepts/how."
+#| "md) and the associated [risks](../concepts/risks.md) for more information."
 msgid ""
 "However, content being retrieved into the network for the first time or "
-"using [private browsing](../concepts/public-private.md) will travel over "
+"using [Personal browsing](../concepts/public-personal.md) will travel over "
 "encrypted connections. See [how content retrieval works](../concepts/how.md) "
 "and the associated [risks](../concepts/risks.md) for more information."
 msgstr ""
