@@ -18,7 +18,7 @@
 
 - [Using Ceno Browser](browser/README.md)
     - [Installing Ceno](browser/install.md)
-    - [Using public or private browsing](browser/public-private.md)
+    - [Using Public or Personal browsing](browser/public-personal.md)
     - [Ceno settings](browser/settings.md)
     - [Testing the Browser](browser/testing.md)
     - [Helping others](browser/bridging.md)
