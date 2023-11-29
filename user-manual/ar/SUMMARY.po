@@ -75,7 +75,9 @@ msgid "[Installing Ceno](browser/install.md)"
 msgstr "[تثبيت Ceno](browser/install.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-msgid "[Using public or private browsing](browser/public-private.md)"
+#, fuzzy
+#| msgid "[Using public or private browsing](browser/public-private.md)"
+msgid "[Using Public or Personal browsing](browser/public-personal.md)"
 msgstr "[إستخدام التصفح العام أو الخاص](browser/public-private.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
