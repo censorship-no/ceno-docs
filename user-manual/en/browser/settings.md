@@ -10,11 +10,11 @@ These features are available on a page that can be accessed by choosing *Ceno* i
 
 ## Choosing access mechanisms
 
-The four checkboxes on the top of the page selectively enable or disable the different mechanisms or *sources* that Ceno as a Ouinet client uses to retrieve content while using either [public or private browsing](public-private.md) tabs.  All boxes are enabled by default.
+The four checkboxes on the top of the page selectively enable or disable the different mechanisms or *sources* that Ceno as a Ouinet client uses to retrieve content while using either [Public or Personal browsing](public-personal.md) tabs.  All boxes are enabled by default.
 
 - *Direct from website* (or **origin access**) allows Ceno to try to reach the origin server directly before attempting other mechanisms enabled below.
 
-  Although this mechanism works in both private and public browsing modes, content thus retrieved cannot be shared with others.
+  Although this mechanism works in both Personal and Public browsing modes, content thus retrieved cannot be shared with others.
 
   If getting most Web content is not particularly slow or expensive, this mechanism may be more than enough for most use cases.  However, such direct connections may be tracked by your ISP or government. To some extent, disabling this option may avoid such connections and trivial tracking (but not completely, see [risks](../concepts/risks.md)).
 
@@ -22,7 +22,7 @@ The four checkboxes on the top of the page selectively enable or disable the dif
 
 - *Via the Ceno network (private)* (or **proxy access**) allows Ceno to use injectors as normal HTTP proxy servers to reach origin servers.
 
-  This mechanism only works in private browsing mode.
+  This mechanism only works in Personal browsing mode.
 
   When accessing content over HTTPS, only origin servers will be able to decrypt traffic.  When using plain HTTP, the injector may also see the unencrypted traffic (but it should still not sign or share its content with others).  Other participants, such as bridges, will never see the unencrypted traffic.
 
@@ -36,7 +36,7 @@ The four checkboxes on the top of the page selectively enable or disable the dif
 
   This mechanism only works in public browsing mode.
 
-Disabling all of the mechanisms available for either public or private browsing mode will render them useless.  If you establish such a configuration, a warning will be shown as depicted below:
+Disabling all of the mechanisms available for either Public or Personal browsing mode will render them useless.  If you establish such a configuration, a warning will be shown as depicted below:
 
 ![Figure: Invalid settings for private browsing](images/settings-no-private.png)
 
