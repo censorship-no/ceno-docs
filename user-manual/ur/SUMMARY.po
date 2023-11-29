@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "PO-Revision-Date: 2023-11-22 19:59+0000\n"
 "Last-Translator: Connectech <info@connectech.org>\n"
-"Language-Team: Urdu <https://hosted.weblate.org/projects/censorship-no/"
-"user-manual/ur/>\n"
+"Language-Team: Urdu <https://hosted.weblate.org/projects/censorship-no/user-"
+"manual/ur/>\n"
 "Language: ur\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -90,3 +90,8 @@ msgstr "[خرابیوں کا سراغ لگانا](browser/troubleshooting.md)"
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Annex: The Ouinet client front-end](client/front-end.md)"
 msgstr "[ملحقہ: Ouinet کلائنٹ فرنٹ اینڈ](client/front-end.md)"
+
+#: SUMMARY.md:block 3 (unordered list)
+#, fuzzy
+msgid "[Public vs. Personal browsing](concepts/public-personal.md)"
+msgstr "[عوامی بمقابلہ نجی براؤزنگ](concepts/public-private.md)"

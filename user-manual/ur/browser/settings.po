@@ -63,11 +63,17 @@ msgid "Choosing access mechanisms"
 msgstr "رسائی کے طریقہ کار کا انتخاب"
 
 #: browser/settings.md:block 7 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "The four checkboxes on the top of the page selectively enable or disable "
+#| "the different mechanisms or *sources* that Ceno as a Ouinet client uses "
+#| "to retrieve content while using either [public or private browsing]"
+#| "(public-private.md) tabs. All boxes are enabled by default."
 msgid ""
 "The four checkboxes on the top of the page selectively enable or disable the "
 "different mechanisms or *sources* that Ceno as a Ouinet client uses to "
-"retrieve content while using either [public or private browsing](public-"
-"private.md) tabs. All boxes are enabled by default."
+"retrieve content while using either [Public or Personal browsing](public-"
+"personal.md) tabs. All boxes are enabled by default."
 msgstr ""
 "صفحہ کے اوپری حصے میں موجود چار چیک باکسز منتخب طور پر مختلف طریقہ کار یا "
 "*ذرائع* کو فعال یا غیر فعال کرتے ہیں جنہیں Ceno بطور Ouinet کلائنٹ [عوامی یا "
@@ -84,8 +90,12 @@ msgstr ""
 "کی کوشش کرے۔"
 
 #: browser/settings.md:block 8 (unordered list)
+#, fuzzy
+#| msgid ""
+#| "Although this mechanism works in both private and public browsing modes, "
+#| "content thus retrieved cannot be shared with others."
 msgid ""
-"Although this mechanism works in both private and public browsing modes, "
+"Although this mechanism works in both Personal and Public browsing modes, "
 "content thus retrieved cannot be shared with others."
 msgstr ""
 "اگرچہ یہ طریقہ کار نجی اور عوامی براؤزنگ دونوں طریقوں میں کام کرتا ہے، لیکن "
@@ -132,7 +142,9 @@ msgstr ""
 "دیتا ہے۔"
 
 #: browser/settings.md:block 8 (unordered list)
-msgid "This mechanism only works in private browsing mode."
+#, fuzzy
+#| msgid "This mechanism only works in private browsing mode."
+msgid "This mechanism only works in Personal browsing mode."
 msgstr "یہ طریقہ کار صرف نجی براؤزنگ موڈ میں کام کرتا ہے۔"
 
 #: browser/settings.md:block 8 (unordered list)
@@ -180,8 +192,13 @@ msgstr ""
 "کلائنٹس سے جو اسے سیڈنگ کرتے ہیں۔"
 
 #: browser/settings.md:block 9 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "Disabling all of the mechanisms available for either public or private "
+#| "browsing mode will render them useless. If you establish such a "
+#| "configuration, a warning will be shown as depicted below:"
 msgid ""
-"Disabling all of the mechanisms available for either public or private "
+"Disabling all of the mechanisms available for either Public or Personal "
 "browsing mode will render them useless. If you establish such a "
 "configuration, a warning will be shown as depicted below:"
 msgstr ""

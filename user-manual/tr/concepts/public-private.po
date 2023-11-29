@@ -16,7 +16,9 @@ msgstr ""
 
 #
 #: concepts/public-private.md:block 1 (header)
-msgid "Public vs. private browsing"
+#, fuzzy
+#| msgid "Public vs. private browsing"
+msgid "Public vs. Personal browsing"
 msgstr "Herkese açık ve gizli gezinme karşılaştırması"
 
 #: concepts/public-private.md:block 2 (paragraph)
@@ -38,8 +40,12 @@ msgstr ""
 "yardımcı olabilir."
 
 #: concepts/public-private.md:block 3 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "The default mode when you launch the application is **public browsing**. "
+#| "In it, Ceno accesses Web content as described previously:"
 msgid ""
-"The default mode when you launch the application is **public browsing**. In "
+"The default mode when you launch the application is **Public browsing**. In "
 "it, Ceno accesses Web content as described previously:"
 msgstr ""
 "Uygulamayı açtığınızda varsayılan kip **herkese açık gezinme** olur. Ceno bu "
@@ -62,8 +68,12 @@ msgstr ""
 "istenir."
 
 #: concepts/public-private.md:block 5 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "Ceno also has a **private browsing** mode. In it, the distributed cache "
+#| "is never searched, and injection is never attempted:"
 msgid ""
-"Ceno also has a **private browsing** mode. In it, the distributed cache is "
+"Ceno also has a **Personal browsing** mode. In it, the distributed cache is "
 "never searched, and injection is never attempted:"
 msgstr ""
 "Ceno aynı zamanda **gizli gezinme** kipinde de kullanılabilir. Bu gezinme "
@@ -82,8 +92,12 @@ msgstr ""
 "güncellenmeyeceğini unutmayın."
 
 #: concepts/public-private.md:block 7 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "The different behavior results in different characteristics. Thus, in "
+#| "public mode:"
 msgid ""
-"The different behavior results in different characteristics. Thus, in public "
+"The different behavior results in different characteristics. Thus, in Public "
 "mode:"
 msgstr ""
 "Farklı davranışlar farklı sonuçlar verir. Böylelikle herkese açık gezinmede:"
@@ -133,7 +147,9 @@ msgstr ""
 "gereklidir."
 
 #: concepts/public-private.md:block 9 (paragraph)
-msgid "While in private mode:"
+#, fuzzy
+#| msgid "While in private mode:"
+msgid "While in Personal mode:"
 msgstr "Gizli gezinme kipinde:"
 
 #: concepts/public-private.md:block 10 (ordered list)
@@ -179,11 +195,18 @@ msgstr ""
 "tabanlı güvenlik çalışmayı sürdürür)."
 
 #: concepts/public-private.md:block 11 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "In conclusion: if you are using Ceno to read the news, watch videos, "
+#| "browse Wikipedia and other static resources that are otherwise censored "
+#| "in your network, consider using the default *public browsing* mode. And "
+#| "if you want to login to Twitter or edit your WordPress website, use "
+#| "*private browsing* mode."
 msgid ""
 "In conclusion: if you are using Ceno to read the news, watch videos, browse "
 "Wikipedia and other static resources that are otherwise censored in your "
-"network, consider using the default *public browsing* mode. And if you want "
-"to login to Twitter or edit your WordPress website, use *private browsing* "
+"network, consider using the default *Public browsing* mode. And if you want "
+"to login to Twitter or edit your WordPress website, use *Personal browsing* "
 "mode."
 msgstr ""
 "Sonuç olarak, Ceno ile haberleri okumak, video izlemek, Vikipedi'de gezinmek "
@@ -193,10 +216,17 @@ msgstr ""
 "kullanmalısınız."
 
 #: concepts/public-private.md:block 12 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "Please read the section on [risks](risks.md) for a more detailed "
+#| "explanation. Also note that your client can continue to operate as a "
+#| "bridge and a seeder regardless of public or private browsing. We explain "
+#| "this in greater detail in the [Helping others](../browser/bridging.md) "
+#| "section of the manual."
 msgid ""
 "Please read the section on [risks](risks.md) for a more detailed "
 "explanation. Also note that your client can continue to operate as a bridge "
-"and a seeder regardless of public or private browsing. We explain this in "
+"and a seeder regardless of Public or Personal browsing. We explain this in "
 "greater detail in the [Helping others](../browser/bridging.md) section of "
 "the manual."
 msgstr ""

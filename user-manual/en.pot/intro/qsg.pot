@@ -35,8 +35,8 @@ msgstr ""
 #: intro/qsg.md:block 5 (ordered list)
 msgid ""
 "Browse pages normally to help other users access them; if concerned about "
-"privacy for some page or if it is not loading as expected, use a private tab "
-"(see [public vs. private browsing](../concepts/public-private.md))."
+"privacy for some page or if it is not loading as expected, use a Personal "
+"tab (see [Public vs. Personal browsing](../concepts/public-personal.md))."
 msgstr ""
 
 #: intro/qsg.md:block 5 (ordered list)

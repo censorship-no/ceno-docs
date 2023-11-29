@@ -16,7 +16,9 @@ msgstr ""
 
 #
 #: concepts/public-private.md:block 1 (header)
-msgid "Public vs. private browsing"
+#, fuzzy
+#| msgid "Public vs. private browsing"
+msgid "Public vs. Personal browsing"
 msgstr "Navegación pública vs. privada"
 
 #: concepts/public-private.md:block 2 (paragraph)
@@ -39,12 +41,16 @@ msgstr ""
 "afortunadamente Ceno también puede ayudarte en esta instancia."
 
 #: concepts/public-private.md:block 3 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "The default mode when you launch the application is **public browsing**. "
+#| "In it, Ceno accesses Web content as described previously:"
 msgid ""
-"The default mode when you launch the application is **public browsing**. In "
+"The default mode when you launch the application is **Public browsing**. In "
 "it, Ceno accesses Web content as described previously:"
 msgstr ""
-"El modo predeterminado cuando lanzas la aplicación es **navegación pública**"
-". En él, Ceno accede al contenido Web como se describió previamente:"
+"El modo predeterminado cuando lanzas la aplicación es **navegación "
+"pública**. En él, Ceno accede al contenido Web como se describió previamente:"
 
 #: concepts/public-private.md:block 4 (ordered list)
 msgid "Direct access is attempted."
@@ -63,8 +69,12 @@ msgstr ""
 "vía otro cliente)."
 
 #: concepts/public-private.md:block 5 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "Ceno also has a **private browsing** mode. In it, the distributed cache "
+#| "is never searched, and injection is never attempted:"
 msgid ""
-"Ceno also has a **private browsing** mode. In it, the distributed cache is "
+"Ceno also has a **Personal browsing** mode. In it, the distributed cache is "
 "never searched, and injection is never attempted:"
 msgstr ""
 "Ceno también tiene un modo de **navegación privada**. En él, la caché "
@@ -81,8 +91,12 @@ msgstr ""
 "tu cliente actualizan a la caché distribuída con tu página."
 
 #: concepts/public-private.md:block 7 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "The different behavior results in different characteristics. Thus, in "
+#| "public mode:"
 msgid ""
-"The different behavior results in different characteristics. Thus, in public "
+"The different behavior results in different characteristics. Thus, in Public "
 "mode:"
 msgstr ""
 "Este comportamiento diferente resulta en diferentes características. Así, en "
@@ -132,7 +146,9 @@ msgstr ""
 "Necesitas confiar en los inyectores para descargar y firmar contenido Web."
 
 #: concepts/public-private.md:block 9 (paragraph)
-msgid "While in private mode:"
+#, fuzzy
+#| msgid "While in private mode:"
+msgid "While in Personal mode:"
 msgstr "Mientras que en modo privado:"
 
 #: concepts/public-private.md:block 10 (ordered list)
@@ -178,11 +194,18 @@ msgstr ""
 "en certificados aún funciona)."
 
 #: concepts/public-private.md:block 11 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "In conclusion: if you are using Ceno to read the news, watch videos, "
+#| "browse Wikipedia and other static resources that are otherwise censored "
+#| "in your network, consider using the default *public browsing* mode. And "
+#| "if you want to login to Twitter or edit your WordPress website, use "
+#| "*private browsing* mode."
 msgid ""
 "In conclusion: if you are using Ceno to read the news, watch videos, browse "
 "Wikipedia and other static resources that are otherwise censored in your "
-"network, consider using the default *public browsing* mode. And if you want "
-"to login to Twitter or edit your WordPress website, use *private browsing* "
+"network, consider using the default *Public browsing* mode. And if you want "
+"to login to Twitter or edit your WordPress website, use *Personal browsing* "
 "mode."
 msgstr ""
 "En conclusión: si estás usando Ceno para leer las noticias, ver videos, "
@@ -192,10 +215,17 @@ msgstr ""
 "WordPress, usa el modo de *navegación privada*."
 
 #: concepts/public-private.md:block 12 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "Please read the section on [risks](risks.md) for a more detailed "
+#| "explanation. Also note that your client can continue to operate as a "
+#| "bridge and a seeder regardless of public or private browsing. We explain "
+#| "this in greater detail in the [Helping others](../browser/bridging.md) "
+#| "section of the manual."
 msgid ""
 "Please read the section on [risks](risks.md) for a more detailed "
 "explanation. Also note that your client can continue to operate as a bridge "
-"and a seeder regardless of public or private browsing. We explain this in "
+"and a seeder regardless of Public or Personal browsing. We explain this in "
 "greater detail in the [Helping others](../browser/bridging.md) section of "
 "the manual."
 msgstr ""

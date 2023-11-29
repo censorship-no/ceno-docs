@@ -48,7 +48,8 @@ msgid ""
 "These features are available on a page that can be accessed by choosing "
 "*Ceno* in the app's main menu. Please note that the menu entry may take a "
 "few seconds to pop up on app start. The page should look like this:"
-msgstr "通过在应用程序的主菜单中选择*CENO*可以访问这些功能。请注意，菜单条目可能需要"
+msgstr ""
+"通过在应用程序的主菜单中选择*CENO*可以访问这些功能。请注意，菜单条目可能需要"
 "几秒钟才能在应用启动时弹出。该页面应如下所示："
 
 #: browser/settings.md:block 5 (paragraph)
@@ -63,8 +64,8 @@ msgstr "选择访问机制"
 msgid ""
 "The four checkboxes on the top of the page selectively enable or disable the "
 "different mechanisms or *sources* that Ceno as a Ouinet client uses to "
-"retrieve content while using either [public or private browsing](public-"
-"private.md) tabs. All boxes are enabled by default."
+"retrieve content while using either [Public or Personal browsing](public-"
+"personal.md) tabs. All boxes are enabled by default."
 msgstr ""
 
 #: browser/settings.md:block 8 (unordered list)
@@ -75,7 +76,7 @@ msgstr ""
 
 #: browser/settings.md:block 8 (unordered list)
 msgid ""
-"Although this mechanism works in both private and public browsing modes, "
+"Although this mechanism works in both Personal and Public browsing modes, "
 "content thus retrieved cannot be shared with others."
 msgstr ""
 
@@ -105,7 +106,7 @@ msgid ""
 msgstr ""
 
 #: browser/settings.md:block 8 (unordered list)
-msgid "This mechanism only works in private browsing mode."
+msgid "This mechanism only works in Personal browsing mode."
 msgstr ""
 
 #: browser/settings.md:block 8 (unordered list)
@@ -142,7 +143,7 @@ msgstr ""
 
 #: browser/settings.md:block 9 (paragraph)
 msgid ""
-"Disabling all of the mechanisms available for either public or private "
+"Disabling all of the mechanisms available for either Public or Personal "
 "browsing mode will render them useless. If you establish such a "
 "configuration, a warning will be shown as depicted below:"
 msgstr ""

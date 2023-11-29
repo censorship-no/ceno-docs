@@ -50,7 +50,7 @@ msgid "[How does it work?](concepts/how.md)"
 msgstr ""
 
 #: SUMMARY.md:block 3 (unordered list)
-msgid "[Public vs. private browsing](concepts/public-private.md)"
+msgid "[Public vs. Personal browsing](concepts/public-personal.md)"
 msgstr ""
 
 #: SUMMARY.md:block 3 (unordered list)
