@@ -14,13 +14,13 @@ For important work on Web sites not subject to censorship, we recommend that you
 
 ## Can I use Ceno Browser to access Twitter, Facebook and Gmail?
 
-Short answer: yes, by using private tabs.
+Short answer: yes, by using Personal tabs.
 
 Although Ceno strives to provide a user experience as similar to normal Web browsing as possible, some of the techniques used to avoid network interference do not play well with such dynamic sites.  This is the case with Ceno's default mode of operation (i.e. public browsing), since it strips down all private data (like passwords and cookies) from Web traffic to ensure that it does not leak to other untrusted Ceno or Ouinet users.
 
-To avoid this and enable the use of such dynamic sites in Ceno, you can use private tabs (i.e. private browsing), which leave private data intact and keep connections to the sites encrypted and thus protected from everyone else.  However, this requires that network traffic from your device can reach those websites in some way.
+To avoid this and enable the use of such dynamic sites in Ceno, you can use Personal tabs (i.e. private browsing), which leave private data intact and keep connections to the sites encrypted and thus protected from everyone else.  However, this requires that network traffic from your device can reach those websites in some way.
 
-For further details, please refer to the section on the differences between [public and private browsing](../concepts/public-private.md).
+For further details, please refer to the section on the differences between [Public and Personal browsing](../concepts/public-personal.md).
 
 ## Privacy and security
 
@@ -28,7 +28,7 @@ For further details, please refer to the section on the differences between [pub
 
 Short answer: no.
 
-Ceno only shares content that you requested (using [public browsing](../concepts/public-private.md)).
+Ceno only shares content that you requested (using [Public browsing](../concepts/public-personal.md)).
 
 Please note that a malicious website may still try to trick your browser into retrieving content from other sites without your knowledge so as to force your device to store and share it with other users.  While Firefox code already does a pretty good job at detecting and blocking such attempts, you should still avoid visiting suspicious sites.
 
@@ -40,7 +40,7 @@ Short answer: yes, with some technical knowledge and resources.
 
 Ceno is not an anonymity tool.  An attacker able to spy on your network traffic can see content being requested from or served to another user from your device.  The attacker can also assess whether you are sharing a particular website, although they cannot list all the content that you are sharing.
 
-However, content being retrieved into the network for the first time or using [private browsing](../concepts/public-private.md) will travel over encrypted connections.  See [how content retrieval works](../concepts/how.md) and the associated [risks](../concepts/risks.md) for more information.
+However, content being retrieved into the network for the first time or using [Personal browsing](../concepts/public-personal.md) will travel over encrypted connections.  See [how content retrieval works](../concepts/how.md) and the associated [risks](../concepts/risks.md) for more information.
 
 ## Resource usage
 
