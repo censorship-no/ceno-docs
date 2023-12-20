@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-16 04:02+0200\n"
-"PO-Revision-Date: 2023-05-17 03:12+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
+"PO-Revision-Date: 2023-12-21 16:06+0000\n"
+"Last-Translator: Mya Myintzu Hlaing <myamyintzu10@gmail.com>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
 "public-private/my/>\n"
 "Language: my\n"
@@ -12,12 +12,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.4-dev\n"
 
 #
 #: concepts/public-private.md:block 1 (header)
-#, fuzzy
-#| msgid "Public vs. private browsing"
 msgid "Public vs. Personal browsing"
 msgstr "အများသုံးနှင့် သီးသန့် ရှာဖွေမှု"
 
@@ -40,16 +38,13 @@ msgstr ""
 "ကူညီနိုင်ပါသည်။"
 
 #: concepts/public-private.md:block 3 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "The default mode when you launch the application is **public browsing**. "
-#| "In it, Ceno accesses Web content as described previously:"
 msgid ""
 "The default mode when you launch the application is **Public browsing**. In "
 "it, Ceno accesses Web content as described previously:"
 msgstr ""
-"သင် အက်ပလီကေးရှင်းကို ဖွင့်ချိန်တွင် ပုံသေမုဒ်မှာ **အများသုံး ရှာဖွေမှု** ဖြစ်သည်။ ထိုမုဒ်တွင် Ceno သည် ယခင် "
-"ဖော်ပြခဲ့သည့်အတိုင်း ဝက်ဘ်အကြောင်းအရာကို ဝင်ရောက်သုံးစွဲသည် -"
+"သင် အက်ပလီကေးရှင်းကို ဖွင့်ချိန်တွင် ပုံသေမုဒ်မှာ **အများသုံး ရှာဖွေမှု** "
+"ဖြစ်သည်။ ထိုမုဒ်တွင် Ceno သည် ယခင် ဖော်ပြခဲ့သည့်အတိုင်း ဝက်ဘ်အကြောင်းအရာကို "
+"ဝင်ရောက်သုံးစွဲသည် -"
 
 #: concepts/public-private.md:block 4 (ordered list)
 msgid "Direct access is attempted."
@@ -67,16 +62,13 @@ msgstr ""
 "မအောင်မြင်သောအခါ အကြောင်းအရာကို ထိုးသွင်းဖိုင်မှတစ်ဆင့် တောင်းဆိုသည် (အခြားလက်ခံစက်မှတစ်ဆင့် ဖြစ်နိုင်သည်)။"
 
 #: concepts/public-private.md:block 5 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Ceno also has a **private browsing** mode. In it, the distributed cache "
-#| "is never searched, and injection is never attempted:"
 msgid ""
 "Ceno also has a **Personal browsing** mode. In it, the distributed cache is "
 "never searched, and injection is never attempted:"
 msgstr ""
-"Ceno တွင် **သီးသန့်ရှာဖွေမှု** မုဒ်လည်း ရှိသည်။ ထိုမုဒ်တွင် ဖြန့်ချိထားသော ယာယီသိမ်းဆည်းထားသည့် မှတ်ဉာဏ်ကို လုံးဝ "
-"မရှာသည့်အပြင် ထိုးသွင်းရန် လုံးဝမကြိုးစားပါ -"
+"Ceno တွင် **သီးသန့်ရှာဖွေမှု** မုဒ်လည်း ရှိသည်။ ထိုမုဒ်တွင် ဖြန့်ချိထားသော "
+"ယာယီသိမ်းဆည်းထားသည့် မှတ်ဉာဏ်ကို လုံးဝ မရှာသည့်အပြင် ထိုးသွင်းရန် "
+"လုံးဝမကြိုးစားပါ -"
 
 #: concepts/public-private.md:block 6 (ordered list)
 msgid ""
@@ -89,15 +81,12 @@ msgstr ""
 "သင့်လက်ခံစက်ကပါ သင့်စာမျက်နှာအတွက် အပ်ဒိတ်မလုပ်ကြောင်း သတိပြုပါ။"
 
 #: concepts/public-private.md:block 7 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "The different behavior results in different characteristics. Thus, in "
-#| "public mode:"
 msgid ""
 "The different behavior results in different characteristics. Thus, in Public "
 "mode:"
 msgstr ""
-"ကွဲပြားသော အပြုအမူသည် ကွဲပြားသော လက္ခဏာရပ်များကို ဖြစ်ပေါ်စေသည်။ ထို့ကြောင့် အများသုံးမုဒ်တွင် -"
+"ကွဲပြားသော အပြုအမူသည် ကွဲပြားသော လက္ခဏာရပ်များကို ဖြစ်ပေါ်စေသည်။ ထို့ကြောင့် "
+"အများသုံးမုဒ်တွင် -"
 
 #: concepts/public-private.md:block 8 (ordered list)
 msgid ""
@@ -142,8 +131,6 @@ msgid "You need to trust injectors to retrieve and sign Web content."
 msgstr "သင်သည် ဝက်ဘ်အကြောင်းအရာကို ပြန်ထုတ်ရန်နှင့် လက်မှတ်ထိုးရန် ထိုးသွင်းဖိုင်များကို ယုံကြည်ဖို့ လိုအပ်သည်။"
 
 #: concepts/public-private.md:block 9 (paragraph)
-#, fuzzy
-#| msgid "While in private mode:"
 msgid "While in Personal mode:"
 msgstr "သီးသန့်မုဒ် သုံးနေစဉ် -"
 
@@ -189,13 +176,6 @@ msgstr ""
 "လုံခြုံရေးသည် အလုပ်လုပ်သေးသည်)။"
 
 #: concepts/public-private.md:block 11 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "In conclusion: if you are using Ceno to read the news, watch videos, "
-#| "browse Wikipedia and other static resources that are otherwise censored "
-#| "in your network, consider using the default *public browsing* mode. And "
-#| "if you want to login to Twitter or edit your WordPress website, use "
-#| "*private browsing* mode."
 msgid ""
 "In conclusion: if you are using Ceno to read the news, watch videos, browse "
 "Wikipedia and other static resources that are otherwise censored in your "
@@ -203,19 +183,14 @@ msgid ""
 "to login to Twitter or edit your WordPress website, use *Personal browsing* "
 "mode."
 msgstr ""
-"နိဂုံး- သင်သည် သတင်း ဖတ်ရန်၊ ဗီဒီယို ကြည့်ရန် Wikipedia နှင့် တစ်နည်းအားဖြင့် သင့်ကွန်ရက်တွင် "
-"ဆင်ဆာလုပ်ထားသော အခြား တည်တံ့သည့် ရင်းမြစ်များကို ရှာဖွေရန် Ceno ကို အသုံးပြုနေပါက ပုံသေ *အများသုံး "
-"ရှာဖွေမှု* မုဒ်ကို အသုံးပြုရန် စဉ်းစားပါ။ ထို့ပြင် သင်သည် Twitter သို့ ဝင်ရောက်လိုပါက သို့မဟုတ် သင်၏ "
-"WordPress ဝက်ဘ်ဆိုက်ကို တည်းဖြတ်လိုပါက *သီးသန့် ရှာဖွေမှု* မုဒ်ကို အသုံးပြုပါ။"
+"နိဂုံး- သင်သည် သတင်း ဖတ်ရန်၊ ဗီဒီယို ကြည့်ရန် Wikipedia နှင့် တစ်နည်းအားဖြင့်"
+" သင့်ကွန်ရက်တွင် ဆင်ဆာလုပ်ထားသော အခြား တည်တံ့သည့် ရင်းမြစ်များကို ရှာဖွေရန် "
+"Ceno ကို အသုံးပြုနေပါက ပုံသေ *အများသုံး ရှာဖွေမှု* မုဒ်ကို အသုံးပြုရန် "
+"စဉ်းစားပါ။ ထို့ပြင် သင်သည် Twitter သို့ ဝင်ရောက်လိုပါက သို့မဟုတ် သင်၏ "
+"WordPress ဝက်ဘ်ဆိုက်ကို တည်းဖြတ်လိုပါက *သီးသန့် ရှာဖွေမှု* မုဒ်ကို "
+"အသုံးပြုပါ။"
 
 #: concepts/public-private.md:block 12 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Please read the section on [risks](risks.md) for a more detailed "
-#| "explanation. Also note that your client can continue to operate as a "
-#| "bridge and a seeder regardless of public or private browsing. We explain "
-#| "this in greater detail in the [Helping others](../browser/bridging.md) "
-#| "section of the manual."
 msgid ""
 "Please read the section on [risks](risks.md) for a more detailed "
 "explanation. Also note that your client can continue to operate as a bridge "
@@ -223,7 +198,9 @@ msgid ""
 "greater detail in the [Helping others](../browser/bridging.md) section of "
 "the manual."
 msgstr ""
-"ကျေးဇူးပြု၍ ပိုမိုအသေးစိတ်သော ရှင်းပြချက်အတွက် [စွန့်စားမှုများ](risks.md) ရှိ အပိုင်းကို ဖတ်ပါ။ ထို့ပြင် "
-"သင့်လက်ခံစက်သည် အများသုံး သို့မဟုတ် သီးသန့် ရှာဖွေမှုနှင့် မသက်ဆိုင်ဘဲ ပေါင်းကူးနှင့် တင်ပို့စက်အဖြစ် ဆက်လက် "
-"လည်ပတ်နိုင်ကြောင်း သတိပြုပါ။ ကျွန်ုပ်တို့သည် ဤအကြောင်းကို လက်စွဲ၏ [အခြားသူများအား ကူညီခြင်း](../"
-"browser/bridging.md) အပိုင်းတွင် ပိုမိုအသေးစိတ်ကျစွာ ရှင်းပြထားပါသည်။"
+"ကျေးဇူးပြု၍ ပိုမိုအသေးစိတ်သော ရှင်းပြချက်အတွက် [စွန့်စားမှုများ](risks.md) "
+"ရှိ အပိုင်းကို ဖတ်ပါ။ ထို့ပြင် သင့်လက်ခံစက်သည် အများသုံး သို့မဟုတ် သီးသန့် "
+"ရှာဖွေမှုနှင့် မသက်ဆိုင်ဘဲ ပေါင်းကူးနှင့် တင်ပို့စက်အဖြစ် ဆက်လက် "
+"လည်ပတ်နိုင်ကြောင်း သတိပြုပါ။ ကျွန်ုပ်တို့သည် ဤအကြောင်းကို လက်စွဲ၏ "
+"[အခြားသူများအား ကူညီခြင်း](../browser/bridging.md) အပိုင်းတွင် "
+"ပိုမိုအသေးစိတ်ကျစွာ ရှင်းပြထားပါသည်။"
