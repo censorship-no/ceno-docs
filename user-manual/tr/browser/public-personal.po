@@ -1,13 +1,19 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2023-12-28 08:07+0000\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>\n"
+"Language-Team: Turkish <https://hosted.weblate.org/projects/censorship-no/"
+"manual/browser-public-private/tr/>\n"
 "Language: tr\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4-dev\n"
 
 #: browser/public-personal.md:block 1 (header)
 msgid "Public and Personal browsing modes"
-msgstr ""
+msgstr "Herkese açık ve Kişisel gezinme kipleri"
 
 #: browser/public-personal.md:block 2 (paragraph)
 msgid ""
@@ -16,6 +22,10 @@ msgid ""
 "the content that you browse with others (Public browsing) or not (Personal "
 "browsing)."
 msgstr ""
+"[Önceki bir bölümde](../concepts/public-personal.md) açıklandığı gibi, "
+"Ceno'nun, göz attığınız içeriği başkalarıyla paylaşmak isteyip "
+"istemediğinize (Herkese açık gezinme) ya da istemediğinize (Kişisel gezinme) "
+"bağlı olarak iki farklı çalışma kipi vardır."
 
 #: browser/public-personal.md:block 3 (paragraph)
 msgid ""
@@ -27,24 +37,34 @@ msgid ""
 "choose *Personal Tabs* on the homepage or switch to the Personal mode icon "
 "in the Tabs menu."
 msgstr ""
+"Bu ayar, tarayıcıda açtığınız *her sekmeye* uygulanır. Yani Herkese açık "
+"gezinme sekmeleriniz ve Kişisel gezinme sekmeleriniz olabilir. Ceno'yu "
+"başlattığınızda veya yeni bir sekme açtığınızda (ana sayfadaki 'Genel "
+"Sekmeler' seçeneği veya adres çubuğundaki Temizle simgesinin yanındaki "
+"Sekmeler simgesi ile), varsayılan Ceno ayarı Herkese açık gezinmeyi "
+"kullanmaktır. Kişisel gezinme kipinde yeni bir sekme açmak için ana sayfada *"
+"Kişisel sekmeler* seçeneğini kullanmanız ya da Sekmeler menüsündeki Kişisel "
+"kip simgesine geçmeniz yeterlidir."
 
 #: browser/public-personal.md:block 4 (paragraph)
 msgid ""
 "You can tell public tabs from personal ones because public tabs have a "
 "lighter (or white) tool bar:"
 msgstr ""
+"Herkese açık sekmelerdeki daha açık renkli (veya beyaz) araç çubuğu ile "
+"Herkese açık sekmeleri Kişisel sekmelerden ayırt edebilirsiniz:"
 
 #: browser/public-personal.md:block 5 (paragraph)
 msgid "![Figure: A Public browsing tab](images/public-tab.png)"
-msgstr ""
+msgstr "![Şekil: Herkese açık gezinme sekmesi](images/public-tab.png)"
 
 #: browser/public-personal.md:block 6 (paragraph)
 msgid "In contrast, private tabs have a darker tool bar:"
-msgstr ""
+msgstr "Diğer taraftan, Kişisel sekmelerin araç çubuğu daha koyudur:"
 
 #: browser/public-personal.md:block 7 (paragraph)
 msgid "![Figure: A Personal browsing tab](images/private-tab.png)"
-msgstr ""
+msgstr "![Şekil: Kişisel gezinme sekmesi](images/private-tab.png)"
 
 #: browser/public-personal.md:block 8 (paragraph)
 msgid ""
@@ -52,3 +72,6 @@ msgid ""
 "help you know how it actually retrieved the different elements of the "
 "content. We will cover this icon later on."
 msgstr ""
+"Bir sekmeye bir sayfa yükledikten sonra adres çubuğundaki Ceno simgesi, "
+"içeriğin farklı ögelerinin nasıl alındığını bilmenizi sağlar. Bu simgeyi "
+"daha sonra ele alacağız."
