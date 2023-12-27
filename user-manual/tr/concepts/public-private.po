@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-16 04:02+0200\n"
-"PO-Revision-Date: 2023-05-17 03:12+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
+"PO-Revision-Date: 2023-12-27 07:11+0000\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/censorship-no/"
 "public-private/tr/>\n"
 "Language: tr\n"
@@ -12,14 +12,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.4-dev\n"
 
 #
 #: concepts/public-private.md:block 1 (header)
-#, fuzzy
-#| msgid "Public vs. private browsing"
 msgid "Public vs. Personal browsing"
-msgstr "Herkese açık ve gizli gezinme karşılaştırması"
+msgstr "Herkese açık ve Kişisel gezinme karşılaştırması"
 
 #: concepts/public-private.md:block 2 (paragraph)
 msgid ""
@@ -68,15 +66,11 @@ msgstr ""
 "istenir."
 
 #: concepts/public-private.md:block 5 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Ceno also has a **private browsing** mode. In it, the distributed cache "
-#| "is never searched, and injection is never attempted:"
 msgid ""
 "Ceno also has a **Personal browsing** mode. In it, the distributed cache is "
 "never searched, and injection is never attempted:"
 msgstr ""
-"Ceno aynı zamanda **gizli gezinme** kipinde de kullanılabilir. Bu gezinme "
+"Ceno aynı zamanda **Kişisel gezinme** kipinde de kullanılabilir. Bu gezinme "
 "türünde paylaşılan ön bellek asla aranmaz ve içerik ekleme girişiminde "
 "bulunulmaz:"
 
@@ -147,10 +141,8 @@ msgstr ""
 "gereklidir."
 
 #: concepts/public-private.md:block 9 (paragraph)
-#, fuzzy
-#| msgid "While in private mode:"
 msgid "While in Personal mode:"
-msgstr "Gizli gezinme kipinde:"
+msgstr "Kişisel gezinme kipinde:"
 
 #: concepts/public-private.md:block 10 (ordered list)
 msgid ""
@@ -195,13 +187,6 @@ msgstr ""
 "tabanlı güvenlik çalışmayı sürdürür)."
 
 #: concepts/public-private.md:block 11 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "In conclusion: if you are using Ceno to read the news, watch videos, "
-#| "browse Wikipedia and other static resources that are otherwise censored "
-#| "in your network, consider using the default *public browsing* mode. And "
-#| "if you want to login to Twitter or edit your WordPress website, use "
-#| "*private browsing* mode."
 msgid ""
 "In conclusion: if you are using Ceno to read the news, watch videos, browse "
 "Wikipedia and other static resources that are otherwise censored in your "
@@ -211,18 +196,11 @@ msgid ""
 msgstr ""
 "Sonuç olarak, Ceno ile haberleri okumak, video izlemek, Vikipedi'de gezinmek "
 "ve normal ağınızda sansürlenmiş sabit kaynaklara erişmek gibi işlemler "
-"yapacaksanız *herkese açık gezinme* kullanmalısınız. Sosyal ağlarda oturum "
-"açmak ya da WordPress sitenizi düzenlemek gibi işlemler için *gizli gezinme* "
-"kullanmalısınız."
+"yapacaksanız *Herkese açık gezinme* kullanmalısınız. Sosyal ağlarda oturum "
+"açmak ya da WordPress sitenizi düzenlemek gibi işlemler için *Kişisel "
+"gezinme* kullanmalısınız."
 
 #: concepts/public-private.md:block 12 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Please read the section on [risks](risks.md) for a more detailed "
-#| "explanation. Also note that your client can continue to operate as a "
-#| "bridge and a seeder regardless of public or private browsing. We explain "
-#| "this in greater detail in the [Helping others](../browser/bridging.md) "
-#| "section of the manual."
 msgid ""
 "Please read the section on [risks](risks.md) for a more detailed "
 "explanation. Also note that your client can continue to operate as a bridge "
@@ -231,7 +209,7 @@ msgid ""
 "the manual."
 msgstr ""
 "Lütfen ayrıntılı bilgi almak için [tehlikeler sayfasına](risks.md) bakın. "
-"Unutmayın istemciniz herkese açık ya da gizli gezinme kullanmanızdan "
-"bağımsız olarak köprü ve gönderici şeklinde çalışabilir. Bu durumu rehberin "
-"[başkalarına yardım etmek](../browser/bridging.md) bölüömünde daha ayrıntılı "
+"Unutmayın istemciniz herkese açık ya da Kişisel gezinme kullanmanızdan "
+"bağımsız olarak köprü ve gönderici şeklinde çalışabilir. Bu durumu rehberin ["
+"başkalarına yardım etmek](../browser/bridging.md) bölüömünde daha ayrıntılı "
 "açıkladık."
