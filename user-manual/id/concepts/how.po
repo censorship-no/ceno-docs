@@ -1,32 +1,31 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-11-28 16:01+0000\n"
-"Last-Translator: wahyu adi pribadi <wahyutsarii@gmail.com>\n"
+"PO-Revision-Date: 2023-12-29 23:08+0000\n"
+"Last-Translator: Reza Almanda <rezaalmanda27@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/censorship-no/"
 "how/id/>\n"
 "Language: id\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.3-dev\n"
+"X-Generator: Weblate 5.4-dev\n"
 
 #: concepts/how.md:block 1 (header)
 msgid "How does it work?"
 msgstr "Bagaimana cara kerjanya?"
 
 #: concepts/how.md:block 2 (paragraph)
-#, fuzzy
 msgid ""
 "This section will explain Ceno and Ouinet operation by going over a series "
 "of scenarios. Terminology and concepts important to Ouinet will be "
 "introduced (highlighted **in bold letters**) and used afterwards for "
 "efficiency and to avoid confusion."
 msgstr ""
-"Bagian ini akan menjelaskan operasi Ceno dan Ouinet dengan membahas "
-"serangkaian skenario. Terminologi dan konsep yang penting bagi Ouinet akan "
-"diperkenalkan (disorot **dalam huruf tebal**) dan digunakan setelahnya untuk "
-"efisiensi dan menghindari kebingungan."
+"Bagian ini akan menjelaskan pengoperasian Ceno dan Ouinet dengan membahas "
+"serangkaian skenario. Terminologi dan konsep yang penting untuk Ouinet akan "
+"diperkenalkan (disorot **dengan huruf tebal**) dan digunakan setelahnya "
+"untuk efisiensi dan untuk menghindari kebingungan."
 
 #: concepts/how.md:block 3 (header)
 msgid "Accessing content directly"
