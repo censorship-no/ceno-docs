@@ -1,22 +1,21 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-11-28 16:01+0000\n"
-"Last-Translator: wahyu adi pribadi <wahyutsarii@gmail.com>\n"
+"PO-Revision-Date: 2023-12-29 23:08+0000\n"
+"Last-Translator: Reza Almanda <rezaalmanda27@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/censorship-no/"
 "public-private/id/>\n"
 "Language: id\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.3-dev\n"
+"X-Generator: Weblate 5.4-dev\n"
 
 #: concepts/public-private.md:block 1 (header)
 msgid "Public vs. private browsing"
 msgstr "Penjelajahan Publik vs. pribadi"
 
 #: concepts/public-private.md:block 2 (paragraph)
-#, fuzzy
 msgid ""
 "Because of the many techniques used to overcome connectivity issues, Ceno "
 "may become a convenient way for you to get all kinds of Web content. And, as "
@@ -26,10 +25,14 @@ msgid ""
 "let others know that you are trying to or did retrieve), and fortunately "
 "Ceno can help you in this instance as well."
 msgstr ""
-"Bagian ini akan menjelaskan operasi Ceno dan Ouinet dengan membahas "
-"serangkaian skenario. Terminologi dan konsep yang penting bagi Ouinet akan "
-"diperkenalkan (disorot **dalam huruf tebal**) dan digunakan setelahnya untuk "
-"efisiensi dan menghindari kebingungan."
+"Karena banyaknya teknik yang digunakan untuk mengatasi masalah konektivitas, "
+"Ceno dapat menjadi cara yang nyaman bagi Anda untuk mendapatkan semua jenis "
+"konten Web. Dan, seperti yang mungkin sudah Anda baca di bagian sebelumnya, "
+"setiap kali Anda mengambil dan menyemai halaman menggunakan Ceno Browser, "
+"halaman tersebut akan tersedia untuk orang lain. Namun, mungkin ada beberapa "
+"konten yang tidak ingin Anda bagikan (atau Anda tidak ingin orang lain tahu "
+"bahwa Anda sedang mencoba atau telah mengambilnya), dan untungnya Ceno juga "
+"dapat membantu Anda dalam hal ini."
 
 #: concepts/public-private.md:block 3 (paragraph)
 msgid ""
