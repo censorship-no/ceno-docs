@@ -3,20 +3,21 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-16 04:02+0200\n"
-"PO-Revision-Date: 2021-04-20 22:29+0000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-12-29 23:08+0000\n"
+"Last-Translator: c0conut <anaishuangc0conut@gmail.com>\n"
+"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
+"censorship-no/how/zh_Hans/>\n"
 "Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.7-dev\n"
+"X-Generator: Weblate 5.4-dev\n"
 
 #
 #: concepts/how.md:block 1 (header)
 msgid "How does it work?"
-msgstr ""
+msgstr "它是怎样工作的？"
 
 #: concepts/how.md:block 2 (paragraph)
 msgid ""
@@ -25,10 +26,12 @@ msgid ""
 "introduced (highlighted **in bold letters**) and used afterwards for "
 "efficiency and to avoid confusion."
 msgstr ""
+"本节将通过一系列场景解释 Ceno 和 Ouinet 操作。还将介绍 Ouinet "
+"的重要术语和概念（**粗体**显示）并在随后使用，以提高效率并避免混淆。"
 
 #: concepts/how.md:block 3 (header)
 msgid "Accessing content directly"
-msgstr ""
+msgstr "直接访问内容"
 
 #: concepts/how.md:block 4 (paragraph)
 msgid ""
@@ -42,6 +45,12 @@ msgid ""
 "desired content. This is no different from the way in which any normal Web "
 "browser works."
 msgstr ""
+"Ceno Browser 是一个使用 Ouinet 技术检索和共享 Web 内容的应用程序示例。"
+"我们将这样的应用程序称为 Ouinet **客户端**。当您使用您的客户端（即 Ceno）"
+"去尝试访问托管在 Web 服务器（我们将其称为 *X* 的 **原始** 服务器）"
+"上的某些内容 *X* 时，您的客户端会尝试联系原始服务器直接通过 Internet "
+"或通过一些其他机器，这些机器配置为代表其他人联系 Web 服务器（所谓的 **代理** "
+"服务器），然后请求所需的内容。这与任何普通 Web 浏览器的工作方式没有什么不同。"
 
 #: concepts/how.md:block 5 (quote)
 msgid ""
