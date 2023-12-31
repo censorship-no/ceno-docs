@@ -1,13 +1,19 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2024-01-01 23:10+0000\n"
+"Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/censorship-no/"
+"manual/advantages/sv/>\n"
 "Language: sv\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4-dev\n"
 
 #: concepts/advantages.md:block 1 (header)
 msgid "Advantages of using Ceno/Ouinet"
-msgstr ""
+msgstr "Fördelar med att använda Ceno/Ouinet"
 
 #: concepts/advantages.md:block 2 (paragraph)
 msgid ""
