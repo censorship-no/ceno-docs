@@ -3,10 +3,10 @@ msgid ""
 msgstr ""
 "PO-Revision-Date: 2023-11-22 19:59+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
-"Language-Team: Dutch <https://hosted.weblate.org/projects/censorship-no/"
-"user-manual/nl/>\n"
+"Language-Team: Dutch <https://hosted.weblate.org/projects/censorship-no/user-"
+"manual/nl/>\n"
 "Language: nl\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 5.2.1-rc\n"
@@ -48,7 +48,7 @@ msgid "[How does it work?](concepts/how.md)"
 msgstr ""
 
 #: SUMMARY.md:block 3 (unordered list)
-msgid "[Public vs. private browsing](concepts/public-private.md)"
+msgid "[Public vs. Personal browsing](concepts/public-personal.md)"
 msgstr ""
 
 #: SUMMARY.md:block 3 (unordered list)
@@ -68,7 +68,7 @@ msgid "[Installing Ceno](browser/install.md)"
 msgstr ""
 
 #: SUMMARY.md:block 3 (unordered list)
-msgid "[Using public or private browsing](browser/public-private.md)"
+msgid "[Using Public or Personal browsing](browser/public-personal.md)"
 msgstr ""
 
 #: SUMMARY.md:block 3 (unordered list)

@@ -48,7 +48,8 @@ msgid "[How does it work?](concepts/how.md)"
 msgstr "[یہ کیسے کام کرتا ہے؟](concepts/how.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-msgid "[Public vs. private browsing](concepts/public-private.md)"
+#, fuzzy
+msgid "[Public vs. Personal browsing](concepts/public-personal.md)"
 msgstr "[عوامی بمقابلہ نجی براؤزنگ](concepts/public-private.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
@@ -68,7 +69,9 @@ msgid "[Installing Ceno](browser/install.md)"
 msgstr "[Ceno انسٹال کرنا](browser/install.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-msgid "[Using public or private browsing](browser/public-private.md)"
+#, fuzzy
+#| msgid "[Using public or private browsing](browser/public-private.md)"
+msgid "[Using Public or Personal browsing](browser/public-personal.md)"
 msgstr "[عوامی یا نجی براؤزنگ کا استعمال کرتے ہوئے](browser/public-private.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
@@ -91,7 +94,5 @@ msgstr "[خرابیوں کا سراغ لگانا](browser/troubleshooting.md)"
 msgid "[Annex: The Ouinet client front-end](client/front-end.md)"
 msgstr "[ملحقہ: Ouinet کلائنٹ فرنٹ اینڈ](client/front-end.md)"
 
-#: SUMMARY.md:block 3 (unordered list)
-#, fuzzy
-msgid "[Public vs. Personal browsing](concepts/public-personal.md)"
-msgstr "[عوامی بمقابلہ نجی براؤزنگ](concepts/public-private.md)"
+#~ msgid "[Public vs. private browsing](concepts/public-private.md)"
+#~ msgstr "[عوامی بمقابلہ نجی براؤزنگ](concepts/public-private.md)"

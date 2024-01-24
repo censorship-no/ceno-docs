@@ -52,7 +52,7 @@ msgid "[How does it work?](concepts/how.md)"
 msgstr ""
 
 #: SUMMARY.md:block 3 (unordered list)
-msgid "[Public vs. private browsing](concepts/public-private.md)"
+msgid "[Public vs. Personal browsing](concepts/public-personal.md)"
 msgstr ""
 
 #: SUMMARY.md:block 3 (unordered list)
@@ -72,7 +72,7 @@ msgid "[Installing Ceno](browser/install.md)"
 msgstr ""
 
 #: SUMMARY.md:block 3 (unordered list)
-msgid "[Using public or private browsing](browser/public-private.md)"
+msgid "[Using Public or Personal browsing](browser/public-personal.md)"
 msgstr ""
 
 #: SUMMARY.md:block 3 (unordered list)

@@ -49,7 +49,9 @@ msgid "[How does it work?](concepts/how.md)"
 msgstr "[این مرورگر چگونه کار می‌کند؟](concepts/how.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-msgid "[Public vs. private browsing](concepts/public-private.md)"
+#, fuzzy
+#| msgid "[Public vs. private browsing](concepts/public-private.md)"
+msgid "[Public vs. Personal browsing](concepts/public-personal.md)"
 msgstr "[مقایسه‌ی مرور عمومی و خصوصی](concepts/public-private.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
@@ -69,7 +71,9 @@ msgid "[Installing Ceno](browser/install.md)"
 msgstr "[نصب Ceno](browser/install.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-msgid "[Using public or private browsing](browser/public-private.md)"
+#, fuzzy
+#| msgid "[Using public or private browsing](browser/public-private.md)"
+msgid "[Using Public or Personal browsing](browser/public-personal.md)"
 msgstr "[استفاده از مرور عمومی یا خصوصی](browser/public-private.md)"
 
 #: SUMMARY.md:block 3 (unordered list)

@@ -52,8 +52,8 @@ msgid "[How does it work?](concepts/how.md)"
 msgstr "[ဘယ်လို အလုပ်လုပ်သလဲ။](concepts/how.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-msgid "[Public vs. private browsing](concepts/public-private.md)"
-msgstr "[အများသုံးနှင့် သီးသန့် ရှာဖွေမှု](concepts/public-private.md)"
+msgid "[Public vs. Personal browsing](concepts/public-personal.md)"
+msgstr "[အများသုံးနှင့် သီးသန့် ရှာဖွေမှု](concepts/public-personal.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Advantages of using Ceno/Ouinet](concepts/advantages.md)"
@@ -72,10 +72,8 @@ msgid "[Installing Ceno](browser/install.md)"
 msgstr "[Ceno ထည့်သွင်းခြင်း](browser/install.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-msgid "[Using public or private browsing](browser/public-private.md)"
-msgstr ""
-"[အများသုံး သို့မဟုတ် သီးသန့် ရှာဖွေမှုကို အသုံးပြုခြင်း](browser/public-"
-"private.md)"
+msgid "[Using Public or Personal browsing](browser/public-personal.md)"
+msgstr "[အများသုံး သို့မဟုတ် သီးသန့် ရှာဖွေမှုကို အသုံးပြုခြင်း](browser/public-personal.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Ceno settings](browser/settings.md)"
@@ -97,12 +95,8 @@ msgstr "[ပြဿနာ ဖြေရှင်းခြင်း](browser/troubl
 msgid "[Annex: The Ouinet client front-end](client/front-end.md)"
 msgstr "[နောက်ဆက်တွဲ- Ouinet လက်ခံစက် သုံးစွဲသူ ကြားခံစနစ်](client/front-end.md)"
 
-#: SUMMARY.md:block 3 (unordered list)
-msgid "[Public vs. Personal browsing](concepts/public-personal.md)"
-msgstr "[အများသုံးနှင့် သီးသန့် ရှာဖွေမှု](concepts/public-personal.md)"
+#~ msgid "[Public vs. private browsing](concepts/public-private.md)"
+#~ msgstr "[အများသုံးနှင့် သီးသန့် ရှာဖွေမှု](concepts/public-private.md)"
 
-#: SUMMARY.md:block 3 (unordered list)
-msgid "[Using Public or Personal browsing](browser/public-personal.md)"
-msgstr ""
-"[အများသုံး သို့မဟုတ် သီးသန့် ရှာဖွေမှုကို အသုံးပြုခြင်း](browser/public-"
-"personal.md)"
+#~ msgid "[Using public or private browsing](browser/public-private.md)"
+#~ msgstr "[အများသုံး သို့မဟုတ် သီးသန့် ရှာဖွေမှုကို အသုံးပြုခြင်း](browser/public-private.md)"
