@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-16 04:02+0200\n"
-"PO-Revision-Date: 2023-05-17 03:12+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
+"PO-Revision-Date: 2023-12-08 19:02+0000\n"
+"Last-Translator: v1s7 <v1s7@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/censorship-no/"
 "public-private/ru/>\n"
 "Language: ru\n"
@@ -13,12 +13,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.3-dev\n"
 
 #
 #: concepts/public-private.md:block 1 (header)
-msgid "Public vs. private browsing"
-msgstr "Публичный и приватный просмотр"
+msgid "Public vs. Personal browsing"
+msgstr "Публичный и Личный просмотр"
 
 #: concepts/public-private.md:block 2 (paragraph)
 msgid ""
@@ -41,10 +41,10 @@ msgstr ""
 
 #: concepts/public-private.md:block 3 (paragraph)
 msgid ""
-"The default mode when you launch the application is **public browsing**. In "
+"The default mode when you launch the application is **Public browsing**. In "
 "it, Ceno accesses Web content as described previously:"
 msgstr ""
-"По умолчанию при запуске приложения используется режим **публичный просмотр**"
+"По умолчанию при запуске приложения используется режим **Публичный просмотр**"
 ". В нем Ceno получает доступ к веб-контенту, как описано ранее:"
 
 #: concepts/public-private.md:block 4 (ordered list)
@@ -65,10 +65,10 @@ msgstr ""
 
 #: concepts/public-private.md:block 5 (paragraph)
 msgid ""
-"Ceno also has a **private browsing** mode. In it, the distributed cache is "
+"Ceno also has a **Personal browsing** mode. In it, the distributed cache is "
 "never searched, and injection is never attempted:"
 msgstr ""
-"Ceno также имеет режим **приватного просмотра**. В нем распределенный кэш "
+"Ceno также имеет режим **Личного просмотра**. В нем распределенный кэш "
 "никогда не просматривается и попытки инъекции не предпринимаются:"
 
 #: concepts/public-private.md:block 6 (ordered list)
@@ -83,11 +83,11 @@ msgstr ""
 
 #: concepts/public-private.md:block 7 (paragraph)
 msgid ""
-"The different behavior results in different characteristics. Thus, in public "
+"The different behavior results in different characteristics. Thus, in Public "
 "mode:"
 msgstr ""
 "Разное поведение в этих режимах приводит к разным результатам. Так, в "
-"публичном режиме:"
+"Публичном режиме:"
 
 #: concepts/public-private.md:block 8 (ordered list)
 msgid ""
@@ -133,8 +133,8 @@ msgstr ""
 "Вам придется доверять инъекторам получение и подписывание веб-контента."
 
 #: concepts/public-private.md:block 9 (paragraph)
-msgid "While in private mode:"
-msgstr "В режиме приватного просмотра:"
+msgid "While in Personal mode:"
+msgstr "В режиме Личного просмотра:"
 
 #: concepts/public-private.md:block 10 (ordered list)
 msgid ""
@@ -182,26 +182,26 @@ msgstr ""
 msgid ""
 "In conclusion: if you are using Ceno to read the news, watch videos, browse "
 "Wikipedia and other static resources that are otherwise censored in your "
-"network, consider using the default *public browsing* mode. And if you want "
-"to login to Twitter or edit your WordPress website, use *private browsing* "
+"network, consider using the default *Public browsing* mode. And if you want "
+"to login to Twitter or edit your WordPress website, use *Personal browsing* "
 "mode."
 msgstr ""
 "В итоге: если вы используете Ceno для чтения новостей, просмотра видео, "
 "просмотра Википедии и других статических ресурсов, которые подвергаются "
-"цензуре в вашей сети, используйте режим *публичный просмотр* по умолчанию. А "
+"цензуре в вашей сети, используйте режим *Публичный просмотр* по умолчанию. А "
 "если вы хотите войти в Twitter или отредактировать свой сайт WordPress, "
-"используйте режим *приватного просмотра*."
+"используйте режим *Личного просмотра*."
 
 #: concepts/public-private.md:block 12 (paragraph)
 msgid ""
 "Please read the section on [risks](risks.md) for a more detailed "
 "explanation. Also note that your client can continue to operate as a bridge "
-"and a seeder regardless of public or private browsing. We explain this in "
+"and a seeder regardless of Public or Personal browsing. We explain this in "
 "greater detail in the [Helping others](../browser/bridging.md) section of "
 "the manual."
 msgstr ""
 "Более подробную информацию можно найти в разделе [риски](risks.md). Также "
 "обратите внимание, что ваш клиент может продолжать работать в качестве моста "
-"и раздатчика вне зависимости от публичного или приватного просмотра. Мы "
+"и раздатчика вне зависимости от Публичного или Личного просмотра. Мы "
 "объясняем это более подробно в разделе руководства [Помощь другим](../"
 "browser/bridging.md)."

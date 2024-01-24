@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-09-05 22:01+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
+"PO-Revision-Date: 2023-12-06 21:02+0000\n"
+"Last-Translator: Vitalii Moroz <vitaliy.moroz@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "qsg/uk/>\n"
 "Language: uk\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.0.1-dev\n"
+"X-Generator: Weblate 5.3-dev\n"
 
 #: intro/qsg.md:block 1 (header)
 msgid "Quick start guide"
@@ -52,13 +52,14 @@ msgstr "Запустіть його."
 #: intro/qsg.md:block 5 (ordered list)
 msgid ""
 "Browse pages normally to help other users access them; if concerned about "
-"privacy for some page or if it is not loading as expected, use a private tab "
-"(see [public vs. private browsing](../concepts/public-private.md))."
+"privacy for some page or if it is not loading as expected, use a Personal "
+"tab (see [Public vs. Personal browsing](../concepts/public-personal.md))."
 msgstr ""
 "Переглядайте сторінки як зазвичай, щоб допомогти іншим користувачам отримати "
 "до них доступ; якщо Вас непокоїть конфіденційність якоїсь сторінки або якщо "
-"вона завантажується не так, як очікувалося – використовуйте приватну вкладку "
-"(дивіться [публічний або приватний перегляд](../concepts/public-private.md))."
+"вона завантажується не так, як очікувалося – використовуйте персональну "
+"вкладку (дивіться [Публічний або Персональний перегляд](../concepts/public-"
+"private.md))."
 
 #: intro/qsg.md:block 5 (ordered list)
 msgid "Tap on the Ceno notification to stop it completely."

@@ -3,16 +3,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2023-05-17 03:03+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
+"PO-Revision-Date: 2023-12-27 07:11+0000\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/censorship-no/"
-"browser-settings/tr/>\n"
+"manual/browser-settings/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.4-dev\n"
 
 #
 #: browser/settings.md:block 1 (header)
@@ -68,11 +68,11 @@ msgstr "Erişim yöntemlerinin seçimi"
 msgid ""
 "The four checkboxes on the top of the page selectively enable or disable the "
 "different mechanisms or *sources* that Ceno as a Ouinet client uses to "
-"retrieve content while using either [public or private browsing](public-"
-"private.md) tabs. All boxes are enabled by default."
+"retrieve content while using either [Public or Personal browsing](public-"
+"personal.md) tabs. All boxes are enabled by default."
 msgstr ""
 "Sayfanın üst kısmındaki dört işaret kutusu, Ceno Ouinet istemcisi olarak ["
-"herkese açık ya da gizli gezinme](public-private.md) ile kullanılırken, "
+"Herkese açık ya da Kişisel gezinme](public-private.md) ile kullanılırken, "
 "içerikleri alma yöntemleri ile kaynaklarını seçmenizi sağlar. Varsayılan "
 "olarak tüm kutular işaretlidir."
 
@@ -86,10 +86,10 @@ msgstr ""
 
 #: browser/settings.md:block 8 (unordered list)
 msgid ""
-"Although this mechanism works in both private and public browsing modes, "
+"Although this mechanism works in both Personal and Public browsing modes, "
 "content thus retrieved cannot be shared with others."
 msgstr ""
-"Bu yöntem herkese açık ve gizli gezinme kiplerinde çalışsa bile, alınan "
+"Bu yöntem Herkese açık ve Kişisel gezinme kiplerinde çalışsa bile, alınan "
 "içerik diğer kullanıcılarla paylaşılamaz."
 
 #: browser/settings.md:block 8 (unordered list)
@@ -132,8 +132,8 @@ msgstr ""
 "sunuculara erişir."
 
 #: browser/settings.md:block 8 (unordered list)
-msgid "This mechanism only works in private browsing mode."
-msgstr "Bu yöntem yalnızca gizli gezinme kipinde çalışır."
+msgid "This mechanism only works in Personal browsing mode."
+msgstr "Bu yöntem yalnızca Kişisel gezinme kipinde çalışır."
 
 #: browser/settings.md:block 8 (unordered list)
 msgid ""
@@ -180,11 +180,11 @@ msgstr ""
 
 #: browser/settings.md:block 9 (paragraph)
 msgid ""
-"Disabling all of the mechanisms available for either public or private "
+"Disabling all of the mechanisms available for either Public or Personal "
 "browsing mode will render them useless. If you establish such a "
 "configuration, a warning will be shown as depicted below:"
 msgstr ""
-"Herkese açık ya da gizli gezinme kipleri için tüm yöntemleri kapatmak "
+"Herkese açık ya da Kişisel gezinme kipleri için tüm yöntemleri kapatmak "
 "bunları yararsız yapar. Böyle bir yapılandırma uygularsanız aşağıdaki gibi "
 "bir uyarı görüntülenir:"
 

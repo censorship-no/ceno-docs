@@ -12,7 +12,9 @@ msgstr ""
 "X-Generator: Weblate 4.18-dev\n"
 
 #: concepts/public-private.md:block 1 (header)
-msgid "Public vs. private browsing"
+#, fuzzy
+#| msgid "Public vs. private browsing"
+msgid "Public vs. Personal browsing"
 msgstr "Öffentliches- vs. Privates-Browsing"
 
 #: concepts/public-private.md:block 2 (paragraph)
@@ -34,8 +36,12 @@ msgstr ""
 "Daten erhalten haben/wollten), glücklicherweise kann ihnen Ceno dabei helfen."
 
 #: concepts/public-private.md:block 3 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "The default mode when you launch the application is **public browsing**. "
+#| "In it, Ceno accesses Web content as described previously:"
 msgid ""
-"The default mode when you launch the application is **public browsing**. In "
+"The default mode when you launch the application is **Public browsing**. In "
 "it, Ceno accesses Web content as described previously:"
 msgstr ""
 "Der voreingestellte Modus, wenn die das Programm starten, ist **Öffentliches "
@@ -58,8 +64,12 @@ msgstr ""
 "(vielleicht ein weiterer Client)."
 
 #: concepts/public-private.md:block 5 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "Ceno also has a **private browsing** mode. In it, the distributed cache "
+#| "is never searched, and injection is never attempted:"
 msgid ""
-"Ceno also has a **private browsing** mode. In it, the distributed cache is "
+"Ceno also has a **Personal browsing** mode. In it, the distributed cache is "
 "never searched, and injection is never attempted:"
 msgstr ""
 "Ceno verfügt auch über einen **Private Browsing** Modus. In diesem wird der "
@@ -75,7 +85,7 @@ msgstr ""
 
 #: concepts/public-private.md:block 7 (paragraph)
 msgid ""
-"The different behavior results in different characteristics. Thus, in public "
+"The different behavior results in different characteristics. Thus, in Public "
 "mode:"
 msgstr ""
 
@@ -112,7 +122,7 @@ msgid "You need to trust injectors to retrieve and sign Web content."
 msgstr ""
 
 #: concepts/public-private.md:block 9 (paragraph)
-msgid "While in private mode:"
+msgid "While in Personal mode:"
 msgstr ""
 
 #: concepts/public-private.md:block 10 (ordered list)
@@ -152,8 +162,8 @@ msgstr ""
 msgid ""
 "In conclusion: if you are using Ceno to read the news, watch videos, browse "
 "Wikipedia and other static resources that are otherwise censored in your "
-"network, consider using the default *public browsing* mode. And if you want "
-"to login to Twitter or edit your WordPress website, use *private browsing* "
+"network, consider using the default *Public browsing* mode. And if you want "
+"to login to Twitter or edit your WordPress website, use *Personal browsing* "
 "mode."
 msgstr ""
 
@@ -161,7 +171,7 @@ msgstr ""
 msgid ""
 "Please read the section on [risks](risks.md) for a more detailed "
 "explanation. Also note that your client can continue to operate as a bridge "
-"and a seeder regardless of public or private browsing. We explain this in "
+"and a seeder regardless of Public or Personal browsing. We explain this in "
 "greater detail in the [Helping others](../browser/bridging.md) section of "
 "the manual."
 msgstr ""

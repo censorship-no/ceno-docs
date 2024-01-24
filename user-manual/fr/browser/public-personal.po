@@ -1,0 +1,80 @@
+#
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-12-14 23:09+0000\n"
+"Last-Translator: Charlie Mann-Ray <funkycharlie4@gmail.com>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/censorship-no/"
+"manual/browser-public-private/fr/>\n"
+"Language: fr\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.3\n"
+
+#: browser/public-personal.md:block 1 (header)
+msgid "Public and Personal browsing modes"
+msgstr "Modes de navigation public et personnel"
+
+#: browser/public-personal.md:block 2 (paragraph)
+msgid ""
+"As described [in a previous section](../concepts/public-personal.md), Ceno "
+"has two different modes of operation depending on whether you want to share "
+"the content that you browse with others (Public browsing) or not (Personal "
+"browsing)."
+msgstr ""
+"Comme décrit [dans une section précédente] (../concepts/public-personal.md), "
+"Ceno a deux modes d’opération différentes qui dépendent de si vous voulez "
+"partager le contenu que vous naviguez avec les autres (navigation public) ou "
+"pas (navigation personnelle)."
+
+#: browser/public-personal.md:block 3 (paragraph)
+msgid ""
+"This setting applies *to each tab* that you open in the browser, i.e. you "
+"can have Public browsing tabs and Personal browsing tabs. Ceno's default "
+"whenever you start it or open a new tab (via the 'Public Tabs' option on the "
+"homepage or the Tabs icon next to the Clear icon in the address bar) is to "
+"use Public browsing. To open a new tab in Personal browsing mode, just "
+"choose *Personal Tabs* on the homepage or switch to the Personal mode icon "
+"in the Tabs menu."
+msgstr ""
+"Cette paramètre applique *à chaque onglet* que vous avez ouvert dans votre "
+"navigateur, par. ex. vous pouvez avoir des onglets de navigation publique et "
+"des onglets de navigation personnelle. Le défaut pour Ceno quand elle est "
+"démarrée ou quand vous ouvrez un nouvel onglet (via l’option ‘Onglets "
+"Publiques’ sur l’écran d’accueil ou l’icône d’Onglets à côté de l’icône "
+"Effacer dans la barre d'adresse) est d’utiliser la navigation publique. Afin "
+"d’ouvrir un nouvel onglet en mode de navigation personnelle, vous n’avez qu’"
+"à choisir *Onglets Personnels* sur l’écran d’accueil ou changer à l’icône du "
+"mode personnel dans le menu des onglets."
+
+#: browser/public-personal.md:block 4 (paragraph)
+msgid ""
+"You can tell public tabs from personal ones because public tabs have a "
+"lighter (or white) tool bar:"
+msgstr ""
+"Vous pouvez distinguer les onglets publics et personnels parce que les "
+"onglets publics ont une barre d’outils plus clair (ou blanc) :"
+
+#: browser/public-personal.md:block 5 (paragraph)
+#, fuzzy
+msgid "![Figure: A Public browsing tab](images/public-tab.png)"
+msgstr "![Figure : A Public browsing tab](images/public-tab.png)"
+
+#: browser/public-personal.md:block 6 (paragraph)
+msgid "In contrast, private tabs have a darker tool bar:"
+msgstr "Au contraire, les onglets privés ont une barre d’outils plus sombre :"
+
+#: browser/public-personal.md:block 7 (paragraph)
+#, fuzzy
+msgid "![Figure: A Personal browsing tab](images/private-tab.png)"
+msgstr "![Figure : A Personal browsing tab](images/private-tab.png)"
+
+#: browser/public-personal.md:block 8 (paragraph)
+msgid ""
+"Once you have loaded a page in a tab, the Ceno icon in the address bar will "
+"help you know how it actually retrieved the different elements of the "
+"content. We will cover this icon later on."
+msgstr ""
+"Une fois que vous avez chargé une page dans un onglet, l’icône de Ceno dans "
+"la barre d’adresse vous aidera savoir comment il a réellement récupéré les "
+"éléments différents du contenu. Nous allons parler de cette icône plus tard."

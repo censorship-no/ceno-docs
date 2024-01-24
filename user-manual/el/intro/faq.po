@@ -26,8 +26,8 @@ msgstr "Χρήση"
 #: intro/faq.md:block 3 (header)
 msgid "Can Ceno Browser replace my current browser (Chrome/Firefox/Safari)?"
 msgstr ""
-"Μπορεί ο φυλλομετρητής CENO να αντικαταστήσει το πρόγραμμα περιήγησής μου ("
-"Chrome/Firefox/Safari);"
+"Μπορεί ο φυλλομετρητής CENO να αντικαταστήσει το πρόγραμμα περιήγησής μου "
+"(Chrome/Firefox/Safari);"
 
 #: intro/faq.md:block 4 (paragraph)
 msgid "Short answer: yes, at least for some non-critical browsing."
@@ -56,8 +56,8 @@ msgstr ""
 "Επίσης, δεδομένου ότι το CENO και το Ouinet βρίσκονται υπό συνεχή ανάπτυξη, "
 "ενδέχεται να αντιμετωπίσετε δυσλειτουργίες. Αυτό μπορεί επίσης να σημαίνει "
 "ότι εισάγονται αλλαγές που δεν είναι συμβατές και απαιτούν να "
-"απεγκαταστήσετε την εφαρμογή ή να αφαιρέσετε τα αποθηκευμένα δεδομένα ("
-"συμπεριλαμβανομένων των σελιδοδεικτών και των ρυθμίσεων ιστότοπου) πριν από "
+"απεγκαταστήσετε την εφαρμογή ή να αφαιρέσετε τα αποθηκευμένα δεδομένα "
+"(συμπεριλαμβανομένων των σελιδοδεικτών και των ρυθμίσεων ιστότοπου) πριν από "
 "την αναβάθμιση."
 
 #: intro/faq.md:block 7 (paragraph)
@@ -78,7 +78,9 @@ msgstr ""
 "Facebook και το Gmail;"
 
 #: intro/faq.md:block 9 (paragraph)
-msgid "Short answer: yes, by using private tabs."
+#, fuzzy
+#| msgid "Short answer: yes, by using private tabs."
+msgid "Short answer: yes, by using Personal tabs."
 msgstr "Σύντομη απάντηση: ναι, χρησιμοποιώντας τις ιδιωτικές καρτέλες."
 
 #: intro/faq.md:block 10 (paragraph)
@@ -94,16 +96,20 @@ msgstr ""
 #: intro/faq.md:block 11 (paragraph)
 msgid ""
 "To avoid this and enable the use of such dynamic sites in Ceno, you can use "
-"private tabs (i.e. private browsing), which leave private data intact and "
+"Personal tabs (i.e. private browsing), which leave private data intact and "
 "keep connections to the sites encrypted and thus protected from everyone "
 "else. However, this requires that network traffic from your device can reach "
 "those websites in some way."
 msgstr ""
 
 #: intro/faq.md:block 12 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "For further details, please refer to the section on the differences "
+#| "between [public and private browsing](../concepts/public-private.md)."
 msgid ""
 "For further details, please refer to the section on the differences between "
-"[public and private browsing](../concepts/public-private.md)."
+"[Public and Personal browsing](../concepts/public-personal.md)."
 msgstr ""
 "Για περισσότερες λεπτομέρειες, ανατρέξτε στην ενότητα [δημόσιας και "
 "ιδιωτικής περιήγησης](../concepts/public-private.md) σχετικά με τις διαφορές "
@@ -122,12 +128,16 @@ msgid "Short answer: no."
 msgstr "Σύντομη απάντηση: όχι."
 
 #: intro/faq.md:block 16 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "Ceno only shares content that you requested (using [public browsing](../"
+#| "concepts/public-private.md))."
 msgid ""
-"Ceno only shares content that you requested (using [public browsing](../"
-"concepts/public-private.md))."
+"Ceno only shares content that you requested (using [Public browsing](../"
+"concepts/public-personal.md))."
 msgstr ""
-"Η CENO διαμοιράζεται μόνο το περιεχόμενο που ζητήσατε (χρησιμοποιώντας ["
-"public browsing](../concepts/public-private.md))."
+"Η CENO διαμοιράζεται μόνο το περιεχόμενο που ζητήσατε (χρησιμοποιώντας "
+"[public browsing](../concepts/public-private.md))."
 
 #: intro/faq.md:block 17 (paragraph)
 msgid ""
@@ -168,7 +178,7 @@ msgstr ""
 #: intro/faq.md:block 22 (paragraph)
 msgid ""
 "However, content being retrieved into the network for the first time or "
-"using [private browsing](../concepts/public-private.md) will travel over "
+"using [Personal browsing](../concepts/public-personal.md) will travel over "
 "encrypted connections. See [how content retrieval works](../concepts/how.md) "
 "and the associated [risks](../concepts/risks.md) for more information."
 msgstr ""

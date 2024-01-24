@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-16 04:02+0200\n"
-"PO-Revision-Date: 2023-05-17 03:12+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
+"PO-Revision-Date: 2023-12-02 14:04+0000\n"
+"Last-Translator: gallegonovato <fran-carro@hotmail.es>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/censorship-no/"
 "public-private/es/>\n"
 "Language: es\n"
@@ -12,12 +12,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.3-dev\n"
 
 #
 #: concepts/public-private.md:block 1 (header)
-msgid "Public vs. private browsing"
-msgstr "Navegación pública vs. privada"
+msgid "Public vs. Personal browsing"
+msgstr "Navegación pública frente a navegación personal"
 
 #: concepts/public-private.md:block 2 (paragraph)
 msgid ""
@@ -40,11 +40,11 @@ msgstr ""
 
 #: concepts/public-private.md:block 3 (paragraph)
 msgid ""
-"The default mode when you launch the application is **public browsing**. In "
+"The default mode when you launch the application is **Public browsing**. In "
 "it, Ceno accesses Web content as described previously:"
 msgstr ""
-"El modo predeterminado cuando lanzas la aplicación es **navegación pública**"
-". En él, Ceno accede al contenido Web como se describió previamente:"
+"El modo por defecto al lanzar la aplicación es **Navegación pública**. En "
+"él, Ceno accede a los contenidos Web como se ha descrito anteriormente:"
 
 #: concepts/public-private.md:block 4 (ordered list)
 msgid "Direct access is attempted."
@@ -64,10 +64,10 @@ msgstr ""
 
 #: concepts/public-private.md:block 5 (paragraph)
 msgid ""
-"Ceno also has a **private browsing** mode. In it, the distributed cache is "
+"Ceno also has a **Personal browsing** mode. In it, the distributed cache is "
 "never searched, and injection is never attempted:"
 msgstr ""
-"Ceno también tiene un modo de **navegación privada**. En él, la caché "
+"Ceno también tiene un modo de **navegación personal**. En él, la caché "
 "distribuída nunca es buscada, y nunca se intenta la inyección:"
 
 #: concepts/public-private.md:block 6 (ordered list)
@@ -82,11 +82,11 @@ msgstr ""
 
 #: concepts/public-private.md:block 7 (paragraph)
 msgid ""
-"The different behavior results in different characteristics. Thus, in public "
+"The different behavior results in different characteristics. Thus, in Public "
 "mode:"
 msgstr ""
 "Este comportamiento diferente resulta en diferentes características. Así, en "
-"modo público:"
+"modo Público:"
 
 #: concepts/public-private.md:block 8 (ordered list)
 msgid ""
@@ -132,8 +132,8 @@ msgstr ""
 "Necesitas confiar en los inyectores para descargar y firmar contenido Web."
 
 #: concepts/public-private.md:block 9 (paragraph)
-msgid "While in private mode:"
-msgstr "Mientras que en modo privado:"
+msgid "While in Personal mode:"
+msgstr "Mientras que en modo personal:"
 
 #: concepts/public-private.md:block 10 (ordered list)
 msgid ""
@@ -181,26 +181,26 @@ msgstr ""
 msgid ""
 "In conclusion: if you are using Ceno to read the news, watch videos, browse "
 "Wikipedia and other static resources that are otherwise censored in your "
-"network, consider using the default *public browsing* mode. And if you want "
-"to login to Twitter or edit your WordPress website, use *private browsing* "
+"network, consider using the default *Public browsing* mode. And if you want "
+"to login to Twitter or edit your WordPress website, use *Personal browsing* "
 "mode."
 msgstr ""
 "En conclusión: si estás usando Ceno para leer las noticias, ver videos, "
 "navegar Wikipedia y otros recursos estáticos que están censurados de otra "
-"manera en tu red, considera usar el modo predeterminado de *navegación "
-"pública*. Y si quieres iniciar sesión en Twitter o editar tu sitio web de "
-"WordPress, usa el modo de *navegación privada*."
+"manera en tu red, considera usar el modo predeterminado de *Navegación "
+"Pública*. Y si quieres iniciar sesión en Twitter o editar tu sitio web de "
+"WordPress, usa el modo de *Navegación Personal*."
 
 #: concepts/public-private.md:block 12 (paragraph)
 msgid ""
 "Please read the section on [risks](risks.md) for a more detailed "
 "explanation. Also note that your client can continue to operate as a bridge "
-"and a seeder regardless of public or private browsing. We explain this in "
+"and a seeder regardless of Public or Personal browsing. We explain this in "
 "greater detail in the [Helping others](../browser/bridging.md) section of "
 "the manual."
 msgstr ""
 "Por favor lee la sección sobre [riesgos](risks.md) para una explicación más "
 "detallada. También ten en cuenta que tu cliente puede continuar operando "
-"como puente y sembrador independientemente de la navegación pública o "
-"privada. Explicamos esto en mayor detalle en la sección del manual [Ayudando "
-"a otra(o)s](../browser/bridging.md)."
+"como puente y sembrador independientemente de la navegación Pública o "
+"Personal. Explicamos esto en mayor detalle en la sección del manual ["
+"Ayudando a otra(o)s](../browser/bridging.md)."

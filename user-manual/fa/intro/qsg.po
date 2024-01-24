@@ -50,10 +50,15 @@ msgid "Run it."
 msgstr "آن را اجرا کنید."
 
 #: intro/qsg.md:block 5 (ordered list)
+#, fuzzy
+#| msgid ""
+#| "Browse pages normally to help other users access them; if concerned about "
+#| "privacy for some page or if it is not loading as expected, use a private "
+#| "tab (see [public vs. private browsing](../concepts/public-private.md))."
 msgid ""
 "Browse pages normally to help other users access them; if concerned about "
-"privacy for some page or if it is not loading as expected, use a private tab "
-"(see [public vs. private browsing](../concepts/public-private.md))."
+"privacy for some page or if it is not loading as expected, use a Personal "
+"tab (see [Public vs. Personal browsing](../concepts/public-personal.md))."
 msgstr ""
 "مانند معمول صفحه‌ها را مرور کنید تا به کاربران دیگر نیز کمک کنید به آن‌ها "
 "دسترسی پیدا کنند؛ اگر در مورد صفحه‌ای دلواپس حریم خصوصی‌تان بودید یا اگر "

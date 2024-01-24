@@ -16,7 +16,9 @@ msgstr ""
 
 #
 #: concepts/public-private.md:block 1 (header)
-msgid "Public vs. private browsing"
+#, fuzzy
+#| msgid "Public vs. private browsing"
+msgid "Public vs. Personal browsing"
 msgstr "مقایسه‌ی مرور عمومی و مرور خصوصی"
 
 #: concepts/public-private.md:block 2 (paragraph)
@@ -30,17 +32,21 @@ msgid ""
 "Ceno can help you in this instance as well."
 msgstr ""
 "به دلیل تکنیک‌های بسیاری که برای غلبه بر مشکلات اتصال به کار رفته‌اند، Ceno "
-"می‌تواند برای شما به راه مناسبی برای دریافت هرگونه محتوای وب بدل شود. و همان‌"
-"طور که شاید پیشاپیش در بخش‌های پیشین خوانده‌اید، هرگاه با استفاده از سنو "
-"صفحه‌ای را به کمک مرورگر سنو بازیابی و بذرپاشی کنید، این صفحه در دسترس "
-"دیگران نیز قرار می‌گیرد. با این حال، شاید محتوایی در میان باشد که مایل "
-"نباشید آن را به اشتراک بگذارید (یا شاید شما نمی‌خواهید به دیگران اجازه دهید "
-"بدانند که شما سعی می‌کنید آن را بازیابی کنید یا پیشاپیش آن را بازیابی "
-"کرده‌اید)، و خوشبختانه سنو در این مورد نیز می‌تواند به شما کمک کند."
+"می‌تواند برای شما به راه مناسبی برای دریافت هرگونه محتوای وب بدل شود. و "
+"همان‌طور که شاید پیشاپیش در بخش‌های پیشین خوانده‌اید، هرگاه با استفاده از سنو "
+"صفحه‌ای را به کمک مرورگر سنو بازیابی و بذرپاشی کنید، این صفحه در دسترس دیگران "
+"نیز قرار می‌گیرد. با این حال، شاید محتوایی در میان باشد که مایل نباشید آن را "
+"به اشتراک بگذارید (یا شاید شما نمی‌خواهید به دیگران اجازه دهید بدانند که شما "
+"سعی می‌کنید آن را بازیابی کنید یا پیشاپیش آن را بازیابی کرده‌اید)، و خوشبختانه "
+"سنو در این مورد نیز می‌تواند به شما کمک کند."
 
 #: concepts/public-private.md:block 3 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "The default mode when you launch the application is **public browsing**. "
+#| "In it, Ceno accesses Web content as described previously:"
 msgid ""
-"The default mode when you launch the application is **public browsing**. In "
+"The default mode when you launch the application is **Public browsing**. In "
 "it, Ceno accesses Web content as described previously:"
 msgstr ""
 "حالت پیش‌فرض وقتی شما نرم‌افزار را اجرا می‌کنید **مرور عمومی** است. در این "
@@ -63,8 +69,12 @@ msgstr ""
 "سرویس‌گیرنده‌ی دیگر) درخواست می‌شود."
 
 #: concepts/public-private.md:block 5 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "Ceno also has a **private browsing** mode. In it, the distributed cache "
+#| "is never searched, and injection is never attempted:"
 msgid ""
-"Ceno also has a **private browsing** mode. In it, the distributed cache is "
+"Ceno also has a **Personal browsing** mode. In it, the distributed cache is "
 "never searched, and injection is never attempted:"
 msgstr ""
 "مرورگر Ceno یک حالت **مرور خصوصی** نیز دارد. در این حالت، کش توزیع‌شده هرگز "
@@ -82,8 +92,12 @@ msgstr ""
 "با صفحه‌ی شما به‌روز نمی‌کنند."
 
 #: concepts/public-private.md:block 7 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "The different behavior results in different characteristics. Thus, in "
+#| "public mode:"
 msgid ""
-"The different behavior results in different characteristics. Thus, in public "
+"The different behavior results in different characteristics. Thus, in Public "
 "mode:"
 msgstr "رفتار متفاوت به ویژگی‌های متفاوتی می‌انجامد. بنابراین، در حالت عمومی:"
 
@@ -129,7 +143,9 @@ msgid "You need to trust injectors to retrieve and sign Web content."
 msgstr "شما برای بازیابی و امضای محتوای وب بایستی به injectorها اعتماد کنید."
 
 #: concepts/public-private.md:block 9 (paragraph)
-msgid "While in private mode:"
+#, fuzzy
+#| msgid "While in private mode:"
+msgid "While in Personal mode:"
 msgstr "در حالت مرور خصوصی:"
 
 #: concepts/public-private.md:block 10 (ordered list)
@@ -175,24 +191,38 @@ msgstr ""
 "کار می‌کند)."
 
 #: concepts/public-private.md:block 11 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "In conclusion: if you are using Ceno to read the news, watch videos, "
+#| "browse Wikipedia and other static resources that are otherwise censored "
+#| "in your network, consider using the default *public browsing* mode. And "
+#| "if you want to login to Twitter or edit your WordPress website, use "
+#| "*private browsing* mode."
 msgid ""
 "In conclusion: if you are using Ceno to read the news, watch videos, browse "
 "Wikipedia and other static resources that are otherwise censored in your "
-"network, consider using the default *public browsing* mode. And if you want "
-"to login to Twitter or edit your WordPress website, use *private browsing* "
+"network, consider using the default *Public browsing* mode. And if you want "
+"to login to Twitter or edit your WordPress website, use *Personal browsing* "
 "mode."
 msgstr ""
 "در نتیجه: اگر برای خواندن اخبار، تماشای ویدئوها، مرور ویکی‌پدیا و سایر مراجع "
 "ایستایی از Ceno استفاده می‌کنید که در غیر این صورت در شبکه‌ی شما سانسور "
-"شده‌اند، استفاده از حالت پیش‌فرض **مرور عمومی** را لحاظ کنید. و اگر می‌"
-"خواهید وارد حساب کاربری توییترتان شوید یا وب‌سایت وردپرس خودتان را ویرایش "
-"کنید، از حالت **مرور خصوصی** استفاده کنید."
+"شده‌اند، استفاده از حالت پیش‌فرض **مرور عمومی** را لحاظ کنید. و اگر می‌خواهید "
+"وارد حساب کاربری توییترتان شوید یا وب‌سایت وردپرس خودتان را ویرایش کنید، از "
+"حالت **مرور خصوصی** استفاده کنید."
 
 #: concepts/public-private.md:block 12 (paragraph)
+#, fuzzy
+#| msgid ""
+#| "Please read the section on [risks](risks.md) for a more detailed "
+#| "explanation. Also note that your client can continue to operate as a "
+#| "bridge and a seeder regardless of public or private browsing. We explain "
+#| "this in greater detail in the [Helping others](../browser/bridging.md) "
+#| "section of the manual."
 msgid ""
 "Please read the section on [risks](risks.md) for a more detailed "
 "explanation. Also note that your client can continue to operate as a bridge "
-"and a seeder regardless of public or private browsing. We explain this in "
+"and a seeder regardless of Public or Personal browsing. We explain this in "
 "greater detail in the [Helping others](../browser/bridging.md) section of "
 "the manual."
 msgstr ""
