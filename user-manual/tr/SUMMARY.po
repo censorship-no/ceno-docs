@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-02 02:42+0200\n"
-"PO-Revision-Date: 2023-11-22 19:59+0000\n"
-"Last-Translator: Orhan <orya@pm.me>\n"
+"PO-Revision-Date: 2024-01-24 22:12+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/censorship-no/"
 "user-manual/tr/>\n"
 "Language: tr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.2.1-rc\n"
+"X-Generator: Weblate 5.4-dev\n"
 
 #
 #: SUMMARY.md:block 1 (header)
@@ -52,11 +52,9 @@ msgid "[How does it work?](concepts/how.md)"
 msgstr "[Nasıl çalışıyor?](concepts/how.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-#, fuzzy
-#| msgid "[Public vs. private browsing](concepts/public-private.md)"
 msgid "[Public vs. Personal browsing](concepts/public-personal.md)"
 msgstr ""
-"[Herkese açık ve gizli gezinme karşılaştırması](concepts/public-private.md)"
+"[Herkese açık ve gizli gezinme karşılaştırması](concepts/public-personal.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Advantages of using Ceno/Ouinet](concepts/advantages.md)"
@@ -75,11 +73,9 @@ msgid "[Installing Ceno](browser/install.md)"
 msgstr "[Ceno kurmak](browser/install.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-#, fuzzy
-#| msgid "[Using public or private browsing](browser/public-private.md)"
 msgid "[Using Public or Personal browsing](browser/public-personal.md)"
 msgstr ""
-"[Herkese açık ya da gizli gezinmeyi kullanmak](browser/public-private.md)"
+"[Herkese açık ya da gizli gezinmeyi kullanmak](browser/public-personal.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
 msgid "[Ceno settings](browser/settings.md)"
