@@ -1,0 +1,54 @@
+#
+msgid ""
+msgstr ""
+"Language: ru\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: browser/public-personal.md:block 1 (header)
+msgid "Public and Personal browsing modes"
+msgstr ""
+
+#: browser/public-personal.md:block 2 (paragraph)
+msgid ""
+"As described [in a previous section](../concepts/public-personal.md), Ceno "
+"has two different modes of operation depending on whether you want to share "
+"the content that you browse with others (Public browsing) or not (Personal "
+"browsing)."
+msgstr ""
+
+#: browser/public-personal.md:block 3 (paragraph)
+msgid ""
+"This setting applies *to each tab* that you open in the browser, i.e. you "
+"can have Public browsing tabs and Personal browsing tabs. Ceno's default "
+"whenever you start it or open a new tab (via the 'Public Tabs' option on the "
+"homepage or the Tabs icon next to the Clear icon in the address bar) is to "
+"use Public browsing. To open a new tab in Personal browsing mode, just "
+"choose *Personal Tabs* on the homepage or switch to the Personal mode icon "
+"in the Tabs menu."
+msgstr ""
+
+#: browser/public-personal.md:block 4 (paragraph)
+msgid ""
+"You can tell public tabs from personal ones because public tabs have a "
+"lighter (or white) tool bar:"
+msgstr ""
+
+#: browser/public-personal.md:block 5 (paragraph)
+msgid "![Figure: A Public browsing tab](images/public-tab.png)"
+msgstr ""
+
+#: browser/public-personal.md:block 6 (paragraph)
+msgid "In contrast, private tabs have a darker tool bar:"
+msgstr ""
+
+#: browser/public-personal.md:block 7 (paragraph)
+msgid "![Figure: A Personal browsing tab](images/private-tab.png)"
+msgstr ""
+
+#: browser/public-personal.md:block 8 (paragraph)
+msgid ""
+"Once you have loaded a page in a tab, the Ceno icon in the address bar will "
+"help you know how it actually retrieved the different elements of the "
+"content. We will cover this icon later on."
+msgstr ""
