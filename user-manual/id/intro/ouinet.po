@@ -1,15 +1,15 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-09-05 22:00+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
+"PO-Revision-Date: 2023-12-29 23:08+0000\n"
+"Last-Translator: Reza Almanda <rezaalmanda27@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/censorship-no/"
 "ouinet/id/>\n"
 "Language: id\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.0.1-dev\n"
+"X-Generator: Weblate 5.4-dev\n"
 
 #: intro/ouinet.md:block 1 (header)
 msgid "What is Ouinet?"
@@ -24,6 +24,13 @@ msgid ""
 "([peer-to-peer][P2P] or P2P) to help access and store new Web content, and "
 "to request and deliver previously accessed content to others."
 msgstr ""
+"[Ouinet][Ouinet] adalah teknologi yang memungkinkan Ceno Browser berbagi "
+"konten Web dengan perangkat lain. Ouinet hadir dalam bentuk kode komputer "
+"yang dapat digunakan kembali (perpustakaan) yang dapat digunakan oleh "
+"aplikasi seperti Ceno untuk menjadi peserta dalam jaringan node yang bekerja "
+"sama yang berkomunikasi secara langsung ([peer-to-peer][P2P] atau P2P) untuk "
+"membantu mengakses dan menyimpan konten Web baru, serta untuk meminta dan "
+"mengirimkan konten yang telah diakses sebelumnya kepada orang lain."
 
 #: intro/ouinet.md:block 3 (paragraph)
 msgid ""

@@ -3,16 +3,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2023-05-17 03:03+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
+"PO-Revision-Date: 2023-12-21 16:06+0000\n"
+"Last-Translator: Mya Myintzu Hlaing <myamyintzu10@gmail.com>\n"
 "Language-Team: Burmese <https://hosted.weblate.org/projects/censorship-no/"
-"browser-settings/my/>\n"
+"manual/browser-settings/my/>\n"
 "Language: my\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.4-dev\n"
 
 #
 #: browser/settings.md:block 1 (header)
@@ -65,22 +65,17 @@ msgid "Choosing access mechanisms"
 msgstr "ဝင်ရောက်သုံးစွဲမှု စက်ကိရိယာကို ရွေးချယ်ခြင်း"
 
 #: browser/settings.md:block 7 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "The four checkboxes on the top of the page selectively enable or disable "
-#| "the different mechanisms or *sources* that Ceno as a Ouinet client uses "
-#| "to retrieve content while using either [public or private browsing]"
-#| "(public-private.md) tabs. All boxes are enabled by default."
 msgid ""
 "The four checkboxes on the top of the page selectively enable or disable the "
 "different mechanisms or *sources* that Ceno as a Ouinet client uses to "
 "retrieve content while using either [Public or Personal browsing](public-"
 "personal.md) tabs. All boxes are enabled by default."
 msgstr ""
-"စာမျက်နှာထိပ်ဘက်ရှိ အမှန်ခြစ်ရန် အကွက် လေးခုသည် [အများသုံး သို့မဟုတ် သီးသန့် ရှာဖွေခြင်း](public-private."
-"md) တပ်ဗ်များမှ တစ်ခုခုကို အသုံးပြုနေစဉ် အကြောင်းအရာကို ပြန်ထုတ်ရန် Ouinet လက်ခံစက်အနေနှင့် Ceno က "
-"အသုံးပြုသော ကွဲပြားသည့် စက်ကိရိယာ သို့မဟုတ် *ရင်းမြစ်များ* ကို ရွေးချယ်၍ ဖွင့်သည် သို့မဟုတ် ပိတ်သည်။ "
-"ပုံသေအားဖြင့် အကွက်အားလုံးကို ဖွင့်ထားသည်။"
+"စာမျက်နှာထိပ်ဘက်ရှိ အမှန်ခြစ်ရန် အကွက် လေးခုသည် [အများသုံး သို့မဟုတ် သီးသန့် "
+"ရှာဖွေခြင်း](public-personal.md) တပ်ဗ်များမှ တစ်ခုခုကို အသုံးပြုနေစဉ် "
+"အကြောင်းအရာကို ပြန်ထုတ်ရန် Ouinet လက်ခံစက်အနေနှင့် Ceno က အသုံးပြုသော "
+"ကွဲပြားသည့် စက်ကိရိယာ သို့မဟုတ် *ရင်းမြစ်များ* ကို ရွေးချယ်၍ ဖွင့်သည် "
+"သို့မဟုတ် ပိတ်သည်။ ပုံသေအားဖြင့် အကွက်အားလုံးကို ဖွင့်ထားသည်။"
 
 #: browser/settings.md:block 8 (unordered list)
 msgid ""
@@ -91,16 +86,13 @@ msgstr ""
 "မကြိုးစားခင် Ceno အား မူလဆာဗာထံ တိုက်ရိုက်ရောက်အောင် ကြိုးစားခွင့်ပြုသည်။"
 
 #: browser/settings.md:block 8 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "Although this mechanism works in both private and public browsing modes, "
-#| "content thus retrieved cannot be shared with others."
 msgid ""
 "Although this mechanism works in both Personal and Public browsing modes, "
 "content thus retrieved cannot be shared with others."
 msgstr ""
-"ဤစက်ကိရိယာသည် သီးသန့်နှင့် အများသုံး ရှာဖွေခြင်းမုဒ် နှစ်ခုလုံးအတွက် အလုပ်လုပ်သည့်တိုင်အောင် ထိုသို့ ပြန်ထုတ်ထားသော "
-"အကြောင်းအရာကို အခြားသူများနှင့် မမျှဝေနိုင်ပါ။"
+"ဤစက်ကိရိယာသည် သီးသန့်နှင့် အများသုံး ရှာဖွေခြင်းမုဒ် နှစ်ခုလုံးအတွက် "
+"အလုပ်လုပ်သည့်တိုင်အောင် ထိုသို့ ပြန်ထုတ်ထားသော အကြောင်းအရာကို "
+"အခြားသူများနှင့် မမျှဝေနိုင်ပါ။"
 
 #: browser/settings.md:block 8 (unordered list)
 msgid ""
@@ -140,8 +132,6 @@ msgstr ""
 "ရောက်ရှိရန် Ceno အား ထိုးသွင်းဖိုင်များကို ပုံမှန် HTTP ပရောက်စီ ဆာဗာများအဖြစ် အသုံးပြုခွင့်ပေးသည်။"
 
 #: browser/settings.md:block 8 (unordered list)
-#, fuzzy
-#| msgid "This mechanism only works in private browsing mode."
 msgid "This mechanism only works in Personal browsing mode."
 msgstr "ဤစက်ကိရိယာသည် သီးသန့် ရှာဖွေမှုမုဒ်တွင်သာ အလုပ်လုပ်သည်။"
 
@@ -190,18 +180,15 @@ msgstr ""
 "Ouinet လက်ခံစက်များထံမှ ဖြစ်သည်။"
 
 #: browser/settings.md:block 9 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Disabling all of the mechanisms available for either public or private "
-#| "browsing mode will render them useless. If you establish such a "
-#| "configuration, a warning will be shown as depicted below:"
 msgid ""
 "Disabling all of the mechanisms available for either Public or Personal "
 "browsing mode will render them useless. If you establish such a "
 "configuration, a warning will be shown as depicted below:"
 msgstr ""
-"အများသုံး သို့မဟုတ် သီးသန့် ရှာဖွေမှုမုဒ်အတွက် ရရှိနိုင်သော စက်ကိရိယာအားလုံးကို ပိတ်ခြင်းသည် ၎င်းတို့ကို အသုံးမဝင် "
-"ဖြစ်စေလိမ့်မည်။ သင်သည် ထိုစီစဉ်သတ်မှတ်မှုကို တည်ဆောက်ပါက အောက်တွင် ဖော်ပြထားသည့်အတိုင်း သတိပေးချက်ကို ပြသပါမည်။"
+"အများသုံး သို့မဟုတ် သီးသန့် ရှာဖွေမှုမုဒ်အတွက် ရရှိနိုင်သော "
+"စက်ကိရိယာအားလုံးကို ပိတ်ခြင်းသည် ၎င်းတို့ကို အသုံးမဝင် ဖြစ်စေလိမ့်မည်။ သင်သည်"
+" ထိုစီစဉ်သတ်မှတ်မှုကို တည်ဆောက်ပါက အောက်တွင် ဖော်ပြထားသည့်အတိုင်း "
+"သတိပေးချက်ကို ပြသပါမည်။"
 
 #: browser/settings.md:block 10 (paragraph)
 msgid ""

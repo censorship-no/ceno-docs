@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-17 03:12+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
+"PO-Revision-Date: 2023-12-06 21:02+0000\n"
+"Last-Translator: Vitalii Moroz <vitaliy.moroz@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "public-private/uk/>\n"
 "Language: uk\n"
@@ -10,13 +10,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.3-dev\n"
 
 #: concepts/public-private.md:block 1 (header)
-#, fuzzy
-#| msgid "Public vs. private browsing"
 msgid "Public vs. Personal browsing"
-msgstr "Публічний чи приватний перегляд"
+msgstr "Публічний чи Персональний перегляди"
 
 #: concepts/public-private.md:block 2 (paragraph)
 msgid ""
@@ -37,16 +35,12 @@ msgstr ""
 "до нього доступ), і Ceno може допомогти Вам в цьому випадку."
 
 #: concepts/public-private.md:block 3 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "The default mode when you launch the application is **public browsing**. "
-#| "In it, Ceno accesses Web content as described previously:"
 msgid ""
 "The default mode when you launch the application is **Public browsing**. In "
 "it, Ceno accesses Web content as described previously:"
 msgstr ""
-"За замовчуванням під час запуску програми використовується режим **публічний "
-"перегляд**. У цьому режимі Ceno отримує доступ до мережевого вмісту, як це "
+"За замовчуванням під час запуску програми використовується режим **Публічний "
+"перегляд**. У цьому режимі Ceno отримує доступ до мережевого контенту, як це "
 "описано вище:"
 
 #: concepts/public-private.md:block 4 (ordered list)
@@ -66,16 +60,12 @@ msgstr ""
 "користувача)."
 
 #: concepts/public-private.md:block 5 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Ceno also has a **private browsing** mode. In it, the distributed cache "
-#| "is never searched, and injection is never attempted:"
 msgid ""
 "Ceno also has a **Personal browsing** mode. In it, the distributed cache is "
 "never searched, and injection is never attempted:"
 msgstr ""
-"Ceno також має режим **приватного перегляду**. У цьому режимі розподілений "
-"кеш ніколи не проглядається і спроби інʼєкції не робляться:"
+"Ceno також має режим **Персонального перегляду**. У цьому режимі "
+"розподілений кеш ніколи не проглядається і спроби інʼєкції не робляться:"
 
 #: concepts/public-private.md:block 6 (ordered list)
 msgid ""
@@ -88,16 +78,12 @@ msgstr ""
 "інʼєктор, ані Ваш клієнт не завантажують Вашу сторінку до розподіленого кешу."
 
 #: concepts/public-private.md:block 7 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "The different behavior results in different characteristics. Thus, in "
-#| "public mode:"
 msgid ""
 "The different behavior results in different characteristics. Thus, in Public "
 "mode:"
 msgstr ""
 "Різна поведінка у цих режимах призводить до різних результатів. Таким чином "
-"у публічному режимі:"
+"у Публічному режимі:"
 
 #: concepts/public-private.md:block 8 (ordered list)
 msgid ""
@@ -144,10 +130,8 @@ msgstr ""
 "вміст."
 
 #: concepts/public-private.md:block 9 (paragraph)
-#, fuzzy
-#| msgid "While in private mode:"
 msgid "While in Personal mode:"
-msgstr "У режимі приватного перегляду:"
+msgstr "У режимі Персонального перегляду:"
 
 #: concepts/public-private.md:block 10 (ordered list)
 msgid ""
@@ -192,13 +176,6 @@ msgstr ""
 "стандартний захист на основі сертифікатів)."
 
 #: concepts/public-private.md:block 11 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "In conclusion: if you are using Ceno to read the news, watch videos, "
-#| "browse Wikipedia and other static resources that are otherwise censored "
-#| "in your network, consider using the default *public browsing* mode. And "
-#| "if you want to login to Twitter or edit your WordPress website, use "
-#| "*private browsing* mode."
 msgid ""
 "In conclusion: if you are using Ceno to read the news, watch videos, browse "
 "Wikipedia and other static resources that are otherwise censored in your "
@@ -208,18 +185,11 @@ msgid ""
 msgstr ""
 "Підсумовуючи: якщо Ви використовуєте Ceno для читання новин, перегляду "
 "відео, перегляду Вікіпедії та інших статичних ресурсів, що підпадають під "
-"цензуру у Вашій мережі – використовуйте режим *публічний перегляду* за "
+"цензуру у Вашій мережі – використовуйте режим *Публічний перегляду* за "
 "замовчуванням. А якщо Ви хочете ввійти в Twitter або відредагувати свій сайт "
-"на WordPress – використовуйте режим *приватний перегляд*."
+"на WordPress – використовуйте режим *Персональний перегляд*."
 
 #: concepts/public-private.md:block 12 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Please read the section on [risks](risks.md) for a more detailed "
-#| "explanation. Also note that your client can continue to operate as a "
-#| "bridge and a seeder regardless of public or private browsing. We explain "
-#| "this in greater detail in the [Helping others](../browser/bridging.md) "
-#| "section of the manual."
 msgid ""
 "Please read the section on [risks](risks.md) for a more detailed "
 "explanation. Also note that your client can continue to operate as a bridge "
@@ -229,5 +199,5 @@ msgid ""
 msgstr ""
 "Докладнішу інформацію можна знайти в розділі [ризики](risks.md). Зверніть "
 "увагу, що Ваш клієнт може продовжувати працювати як міст і розповсюджувач "
-"незалежно від публічного або приватного перегляду. Ми пояснюємо це "
+"незалежно від Публічного або Персонального перегляду. Ми пояснюємо це "
 "докладніше в розділі посібника [Допомога іншим](../browser/bridging.md)."

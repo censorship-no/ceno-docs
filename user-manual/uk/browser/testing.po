@@ -1,16 +1,16 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-17 03:04+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
+"PO-Revision-Date: 2023-12-06 21:02+0000\n"
+"Last-Translator: Vitalii Moroz <vitaliy.moroz@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
-"browser-testing/uk/>\n"
+"manual/browser-testing/uk/>\n"
 "Language: uk\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.3-dev\n"
 
 #: browser/testing.md:block 1 (header)
 msgid "Testing the Browser"
@@ -84,19 +84,14 @@ msgstr ""
 "Насамперед, встановіть Ceno і запустіть його. Зʼявиться головна сторінка."
 
 #: browser/testing.md:block 8 (ordered list)
-#, fuzzy
-#| msgid ""
-#| "Open the app's main menu and choose *Ceno* to open the *Ceno Settings* "
-#| "page. Since we only want to test injector access, uncheck all the boxes "
-#| "for content sources except *Via the Ceno network (public)*."
 msgid ""
 "Open the app's main menu and choose *Settings* to open the *Ceno Settings* "
 "page. Since we only want to test injector access, uncheck all the boxes for "
 "content sources except *Via the Ceno network (public)*."
 msgstr ""
-"Відкрийте головне меню програми та виберіть *Ceno*, щоб відкрити сторінку "
-"*Налаштування Ceno*. Оскільки ми хочемо перевірити лише доступ до інʼєктора, "
-"зніміть прапорці з джерел вмісту, окрім *У публічній мережі Ceno*."
+"Відкрийте головне меню програми та виберіть *Ceno*, щоб відкрити сторінку *"
+"Налаштування Ceno*. Оскільки ми хочемо перевірити лише доступ до інʼєктора, "
+"зніміть прапорці з джерел вмісту, окрім *У Публічній мережі Ceno*."
 
 #: browser/testing.md:block 8 (ordered list)
 msgid ""
@@ -156,18 +151,13 @@ msgstr ""
 "sources-inject.png)"
 
 #: browser/testing.md:block 13 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "In contrast, if you had used private browsing with default settings, you "
-#| "may have seen a popup like the one below, with non-zero counts in *Direct "
-#| "from website* or *Via Ceno network (private)*."
 msgid ""
 "In contrast, if you had used Personal browsing with default settings, you "
 "may have seen a popup like the one below, with non-zero counts in *Direct "
 "from website* or *Via Ceno network (private)*."
 msgstr ""
-"І навпаки, якщо Ви використовували приватний перегляд із налаштуваннями за "
-"замовчуванням, Ви могли побачити спливаюче вікно, подібне до наведеного "
+"І навпаки, якщо Ви використовували Персональний перегляд із налаштуваннями "
+"за замовчуванням, Ви могли побачити спливаюче вікно, подібне до наведеного "
 "нижче, з ненульовими показниками в *Напряму з вебсайту* або *У приватній "
 "мережі Ceno*."
 

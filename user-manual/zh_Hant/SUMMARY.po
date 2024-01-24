@@ -1,9 +1,15 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2023-11-22 19:59+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
+"censorship-no/user-manual/zh_Hant/>\n"
 "Language: zh_Hant\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.2.1-rc\n"
 
 #: SUMMARY.md:block 1 (header)
 msgid "Summary"
@@ -42,7 +48,7 @@ msgid "[How does it work?](concepts/how.md)"
 msgstr ""
 
 #: SUMMARY.md:block 3 (unordered list)
-msgid "[Public vs. Personal browsing](concepts/public-personal.md)"
+msgid "[Public vs. private browsing](concepts/public-private.md)"
 msgstr ""
 
 #: SUMMARY.md:block 3 (unordered list)
@@ -62,7 +68,7 @@ msgid "[Installing Ceno](browser/install.md)"
 msgstr ""
 
 #: SUMMARY.md:block 3 (unordered list)
-msgid "[Using Public or Personal browsing](browser/public-personal.md)"
+msgid "[Using public or private browsing](browser/public-private.md)"
 msgstr ""
 
 #: SUMMARY.md:block 3 (unordered list)

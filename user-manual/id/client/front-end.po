@@ -1,15 +1,15 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-08-02 16:04+0000\n"
-"Last-Translator: Taufik Adi Wicaksono <taufikadi.wicaksono@tutamail.com>\n"
+"PO-Revision-Date: 2023-11-28 16:01+0000\n"
+"Last-Translator: wahyu adi pribadi <wahyutsarii@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/censorship-no/"
 "client-front-end/id/>\n"
 "Language: id\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.0-dev\n"
+"X-Generator: Weblate 5.3-dev\n"
 
 #: client/front-end.md:block 1 (header)
 msgid "Annex: The Ouinet client front-end"
@@ -103,11 +103,15 @@ msgid ""
 "(though you may change it again from here). When disabling the log file, the "
 "original log level is restored."
 msgstr ""
+"Saat mengaktifkan file log, level log secara otomatis diatur ke `DEBUG` ("
+"meskipun Anda dapat mengubahnya lagi dari sini). Saat menonaktifkan file "
+"log, level log asli dikembalikan."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
 "Global client state and version information. Useful when reporting errors."
 msgstr ""
+"Informasi status dan versi klien global. Berguna saat melaporkan kesalahan."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
@@ -115,12 +119,17 @@ msgid ""
 "`bep5` method looks up Internet addresses in a BitTorrent injector swarm, as "
 "explained [here](../concepts/how.md)."
 msgstr ""
+"Informasi tentang konektivitas klien dan pengalamatan injektor. Metode `bep5`"
+" default mencari alamat Internet di kumpulan injektor BitTorrent, seperti "
+"yang dijelaskan [di sini](../concepts/how.md)."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
 "The public key used to verify signatures from injectors in the distributed "
 "cache."
 msgstr ""
+"Kunci publik yang digunakan untuk memverifikasi tanda tangan dari injektor "
+"di cache terdistribusi."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
@@ -128,13 +137,18 @@ msgid ""
 "size of the cache, a button to purge it completely, and a link to the list "
 "of announced cache entries."
 msgstr ""
+"Informasi tentang cache lokal Anda seperti usia konten maksimum, perkiraan "
+"ukuran cache, tombol untuk membersihkannya sepenuhnya, dan tautan ke daftar "
+"entri cache yang diumumkan."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""
 "The directory of the external, static cache if enabled (Ceno does not "
 "currently use this)."
 msgstr ""
+"Direktori cache eksternal dan statis jika diaktifkan (Ceno saat ini tidak "
+"menggunakan ini)."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid "[Ceno Extension]: https://gitlab.com/censorship-no/ceno-ext-settings/"
-msgstr ""
+msgstr "[Ekstensi Ceno]: https://gitlab.com/censorship-no/ceno-ext-settings/"

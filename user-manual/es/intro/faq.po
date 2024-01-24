@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-03 02:50+0200\n"
-"PO-Revision-Date: 2023-11-06 23:13+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
+"PO-Revision-Date: 2023-12-01 11:01+0000\n"
+"Last-Translator: gallegonovato <fran-carro@hotmail.es>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/censorship-no/"
 "faq/es/>\n"
 "Language: es\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.2-dev\n"
+"X-Generator: Weblate 5.3-dev\n"
 
 #
 #: intro/faq.md:block 1 (header)
@@ -76,10 +76,8 @@ msgstr ""
 "¿Puedo usar al Navegador CENO para acceder a Twitter, Facebook y Gmail?"
 
 #: intro/faq.md:block 9 (paragraph)
-#, fuzzy
-#| msgid "Short answer: yes, by using private tabs."
 msgid "Short answer: yes, by using Personal tabs."
-msgstr "Respuesta corta: sí, usando pestañas privadas."
+msgstr "Respuesta corta: sí, usando pestañas personales."
 
 #: intro/faq.md:block 10 (paragraph)
 msgid ""
@@ -99,13 +97,6 @@ msgstr ""
 "otra(o)s usuaria(o)s de CENO o Ouinet en quienes no se confía."
 
 #: intro/faq.md:block 11 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "To avoid this and enable the use of such dynamic sites in Ceno, you can "
-#| "use private tabs (i.e. private browsing), which leave private data intact "
-#| "and keep connections to the sites encrypted and thus protected from "
-#| "everyone else. However, this requires that network traffic from your "
-#| "device can reach those websites in some way."
 msgid ""
 "To avoid this and enable the use of such dynamic sites in Ceno, you can use "
 "Personal tabs (i.e. private browsing), which leave private data intact and "
@@ -114,23 +105,19 @@ msgid ""
 "those websites in some way."
 msgstr ""
 "Para evitar esto y habilitar el uso de sitios de tal dinamismo en CENO, "
-"puedes usar pestañas privadas (esto es, navegación privada), las cuales "
+"puedes usar pestañas personales (esto es, navegación privada), las cuales "
 "dejan a los datos privados intactos y mantienen las conexiones a los sitios "
 "cifradas y por lo tanto protegidas de todos la(o)s demás. Sin embargo, esto "
 "requiere que el tráfico de red desde tu dispositivo pueda alcanzar a esos "
 "sitios web de alguna manera."
 
 #: intro/faq.md:block 12 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "For further details, please refer to the section on the differences "
-#| "between [public and private browsing](../concepts/public-private.md)."
 msgid ""
 "For further details, please refer to the section on the differences between "
 "[Public and Personal browsing](../concepts/public-personal.md)."
 msgstr ""
 "Para mayores detalles, por favor consulta la sección sobre las diferencias "
-"entre [navegación pública y privada](../concepts/public-private.md)."
+"entre [navegación Pública y personal](../concepts/public-personal.md)."
 
 #: intro/faq.md:block 13 (header)
 msgid "Privacy and security"
@@ -145,16 +132,12 @@ msgid "Short answer: no."
 msgstr "Respuesta corta: no."
 
 #: intro/faq.md:block 16 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Ceno only shares content that you requested (using [public browsing](../"
-#| "concepts/public-private.md))."
 msgid ""
 "Ceno only shares content that you requested (using [Public browsing](../"
 "concepts/public-personal.md))."
 msgstr ""
 "CENO solamente comparte contenido que tu solicitaste (usando [navegación "
-"pública](../concepts/public-private.md))."
+"pública](../concepts/public-personal.md))."
 
 #: intro/faq.md:block 17 (paragraph)
 msgid ""
@@ -204,12 +187,6 @@ msgstr ""
 "el contenido que estás compartiendo."
 
 #: intro/faq.md:block 22 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "However, content being retrieved into the network for the first time or "
-#| "using [private browsing](../concepts/public-private.md) will travel over "
-#| "encrypted connections. See [how content retrieval works](../concepts/how."
-#| "md) and the associated [risks](../concepts/risks.md) for more information."
 msgid ""
 "However, content being retrieved into the network for the first time or "
 "using [Personal browsing](../concepts/public-personal.md) will travel over "
@@ -217,7 +194,7 @@ msgid ""
 "and the associated [risks](../concepts/risks.md) for more information."
 msgstr ""
 "Sin embargo, el contenido siendo descargado dentro de la red por primera vez "
-"o usando [navegación privada](../concepts/public-private.md) viajará sobre "
+"o usando [navegación pública](../concepts/public-private.md) viajará sobre "
 "conexiones cifradas. Mira [cómo funciona la descarga de contenido](../"
 "concepts/how.md) y los [riesgos](../concepts/risks.md) asociados para mayor "
 "información."

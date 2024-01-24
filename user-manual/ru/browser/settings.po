@@ -3,17 +3,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-05 20:50+0200\n"
-"PO-Revision-Date: 2023-05-17 03:03+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
+"PO-Revision-Date: 2023-12-08 19:02+0000\n"
+"Last-Translator: v1s7 <v1s7@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/censorship-no/"
-"browser-settings/ru/>\n"
+"manual/browser-settings/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.3-dev\n"
 
 #
 #: browser/settings.md:block 1 (header)
@@ -67,12 +67,6 @@ msgid "Choosing access mechanisms"
 msgstr "Выбор вариантов доступа"
 
 #: browser/settings.md:block 7 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "The four checkboxes on the top of the page selectively enable or disable "
-#| "the different mechanisms or *sources* that Ceno as a Ouinet client uses "
-#| "to retrieve content while using either [public or private browsing]"
-#| "(public-private.md) tabs. All boxes are enabled by default."
 msgid ""
 "The four checkboxes on the top of the page selectively enable or disable the "
 "different mechanisms or *sources* that Ceno as a Ouinet client uses to "
@@ -81,8 +75,8 @@ msgid ""
 msgstr ""
 "Четыре флажка в верхней части страницы выборочно включают или выключают "
 "различные варианты или *источники*, которые Ceno как клиент Ouinet "
-"использует для получения содержимого при использовании вкладок [публичного "
-"или приватного просмотра](public-private.md). По умолчанию все поля включены."
+"использует для получения содержимого при использовании вкладок [Публичного "
+"или Личного просмотра](public-personal.md). По умолчанию все поля включены."
 
 #: browser/settings.md:block 8 (unordered list)
 msgid ""
@@ -94,15 +88,11 @@ msgstr ""
 "другие варианты, включенные ниже."
 
 #: browser/settings.md:block 8 (unordered list)
-#, fuzzy
-#| msgid ""
-#| "Although this mechanism works in both private and public browsing modes, "
-#| "content thus retrieved cannot be shared with others."
 msgid ""
 "Although this mechanism works in both Personal and Public browsing modes, "
 "content thus retrieved cannot be shared with others."
 msgstr ""
-"Поскольку эта схема работает в режиме как приватного, так и публичного "
+"Поскольку эта схема работает в режиме как Личного, так и Публичного "
 "просмотра, полученный таким образом контент не может быть передан другим "
 "пользователям."
 
@@ -148,10 +138,8 @@ msgstr ""
 "исходным серверам."
 
 #: browser/settings.md:block 8 (unordered list)
-#, fuzzy
-#| msgid "This mechanism only works in private browsing mode."
 msgid "This mechanism only works in Personal browsing mode."
-msgstr "Этот механизм работает только в режиме приватного просмотра."
+msgstr "Этот механизм работает только в режиме Личного просмотра."
 
 #: browser/settings.md:block 8 (unordered list)
 msgid ""
@@ -198,19 +186,14 @@ msgstr ""
 "передающих его."
 
 #: browser/settings.md:block 9 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Disabling all of the mechanisms available for either public or private "
-#| "browsing mode will render them useless. If you establish such a "
-#| "configuration, a warning will be shown as depicted below:"
 msgid ""
 "Disabling all of the mechanisms available for either Public or Personal "
 "browsing mode will render them useless. If you establish such a "
 "configuration, a warning will be shown as depicted below:"
 msgstr ""
-"Отключение всех схем, доступных для публичного или приватного режима "
-"просмотра, сделает их бесполезными. Если вы создадите такую конфигурацию, "
-"будет показано предупреждение, как показано ниже:"
+"Отключение всех схем, доступных для Публичного или Личного режима просмотра, "
+"сделает их бесполезными. Если вы создадите такую конфигурацию, будет "
+"показано предупреждение, как показано ниже:"
 
 #: browser/settings.md:block 10 (paragraph)
 msgid ""

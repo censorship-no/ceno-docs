@@ -1,0 +1,78 @@
+#
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-12-01 11:01+0000\n"
+"Last-Translator: gallegonovato <fran-carro@hotmail.es>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/censorship-no/"
+"manual/browser-public-private/es/>\n"
+"Language: es\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3-dev\n"
+
+#: browser/public-personal.md:block 1 (header)
+msgid "Public and Personal browsing modes"
+msgstr "Modos de navegación público y personal"
+
+#: browser/public-personal.md:block 2 (paragraph)
+msgid ""
+"As described [in a previous section](../concepts/public-personal.md), Ceno "
+"has two different modes of operation depending on whether you want to share "
+"the content that you browse with others (Public browsing) or not (Personal "
+"browsing)."
+msgstr ""
+"Como se ha descrito [en una sección anterior](../concepts/public-personal.md)"
+", Ceno tiene dos modos de funcionamiento diferentes en función de si desea "
+"compartir los contenidos que navega con otras personas (Navegación pública) "
+"o no (Navegación personal)."
+
+#: browser/public-personal.md:block 3 (paragraph)
+msgid ""
+"This setting applies *to each tab* that you open in the browser, i.e. you "
+"can have Public browsing tabs and Personal browsing tabs. Ceno's default "
+"whenever you start it or open a new tab (via the 'Public Tabs' option on the "
+"homepage or the Tabs icon next to the Clear icon in the address bar) is to "
+"use Public browsing. To open a new tab in Personal browsing mode, just "
+"choose *Personal Tabs* on the homepage or switch to the Personal mode icon "
+"in the Tabs menu."
+msgstr ""
+"Esta configuración se aplica *a cada pestaña* que abra en el navegador, es "
+"decir, puede tener pestañas de navegación pública y pestañas de navegación "
+"personal. Por defecto, Ceno utiliza la navegación pública siempre que se "
+"inicia o se abre una nueva pestaña (a través de la opción \"Pestañas "
+"públicas\" de la página de inicio o del icono de pestañas situado junto al "
+"icono \"Limpiar\" de la barra de direcciones). Para abrir una nueva pestaña "
+"en modo de navegación personal, basta con elegir *Pestañas personales* en la "
+"página de inicio o cambiar al icono de modo personal en el menú de pestañas."
+
+#: browser/public-personal.md:block 4 (paragraph)
+msgid ""
+"You can tell public tabs from personal ones because public tabs have a "
+"lighter (or white) tool bar:"
+msgstr ""
+"Puedes distinguir las pestañas públicas de las personales porque las "
+"públicas tienen una barra de herramientas más clara (o blanca):"
+
+#: browser/public-personal.md:block 5 (paragraph)
+msgid "![Figure: A Public browsing tab](images/public-tab.png)"
+msgstr "![Figura: Pestaña de navegación pública](images/public-tab.png)"
+
+#: browser/public-personal.md:block 6 (paragraph)
+msgid "In contrast, private tabs have a darker tool bar:"
+msgstr ""
+"En cambio, las pestañas privadas tienen una barra de herramientas más oscura:"
+
+#: browser/public-personal.md:block 7 (paragraph)
+msgid "![Figure: A Personal browsing tab](images/private-tab.png)"
+msgstr "![Figura: Pestaña de navegación personal](images/private-tab.png)"
+
+#: browser/public-personal.md:block 8 (paragraph)
+msgid ""
+"Once you have loaded a page in a tab, the Ceno icon in the address bar will "
+"help you know how it actually retrieved the different elements of the "
+"content. We will cover this icon later on."
+msgstr ""
+"Una vez que haya cargado una página en una pestaña, el icono Ceno de la "
+"barra de direcciones le ayudará a saber cómo ha recuperado realmente los "
+"distintos elementos del contenido. Nos ocuparemos de este icono más adelante."

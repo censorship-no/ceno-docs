@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-03 02:50+0200\n"
-"PO-Revision-Date: 2023-09-05 22:01+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
+"PO-Revision-Date: 2023-12-27 07:11+0000\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/censorship-no/"
 "qsg/tr/>\n"
 "Language: tr\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.0.1-dev\n"
+"X-Generator: Weblate 5.4-dev\n"
 
 #
 #: intro/qsg.md:block 1 (header)
@@ -53,19 +53,14 @@ msgid "Run it."
 msgstr "Uygulamayı açın."
 
 #: intro/qsg.md:block 5 (ordered list)
-#, fuzzy
-#| msgid ""
-#| "Browse pages normally to help other users access them; if concerned about "
-#| "privacy for some page or if it is not loading as expected, use a private "
-#| "tab (see [public vs. private browsing](../concepts/public-private.md))."
 msgid ""
 "Browse pages normally to help other users access them; if concerned about "
 "privacy for some page or if it is not loading as expected, use a Personal "
 "tab (see [Public vs. Personal browsing](../concepts/public-personal.md))."
 msgstr ""
-"Başka kullanıcıların da erişmesine yardımcı olarak internette normal bir "
-"şekilde gezinin. Gizlilik endişeleriniz varsa ya da bir sayfa farklı şekilde "
-"yükleniyorsa, gizli sekme kullanın ([herkese açık ve gizli genizme "
+"Başka kullanıcıların da erişmesine yardımcı olarak İnternet üzerinde normal "
+"bir şekilde gezinin. Gizlilik endişeleriniz varsa ya da bir sayfa farklı "
+"şekilde yükleniyorsa, gizli sekme kullanın ([Herkese açık ve Kişisel gezinme "
 "karşılaştırması](../concepts/public-private.md) bölümüne bakabilirsiniz)."
 
 #: intro/qsg.md:block 5 (ordered list)

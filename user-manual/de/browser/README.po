@@ -1,19 +1,19 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-09 10:07+0000\n"
-"Last-Translator: Marvin <wile.e.coyote@keemail.me>\n"
+"PO-Revision-Date: 2023-12-17 01:32+0000\n"
+"Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/censorship-no/"
-"browser-readme/de/>\n"
+"manual/browser-readme/de/>\n"
 "Language: de\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.12-dev\n"
+"X-Generator: Weblate 5.3\n"
 
 #: browser/README.md:block 1 (header)
 msgid "Using Ceno Browser"
-msgstr ""
+msgstr "Ceno-Browser benutzen"
 
 #: browser/README.md:block 2 (paragraph)
 msgid ""
