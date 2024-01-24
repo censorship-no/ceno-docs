@@ -1,13 +1,19 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2023-12-01 11:01+0000\n"
+"Last-Translator: Carmelo Serraino <melo@carmu.com>\n"
+"Language-Team: Interlingua <https://hosted.weblate.org/projects/"
+"censorship-no/concepts-readme/ia/>\n"
 "Language: ia\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.3-dev\n"
 
 #: concepts/README.md:block 1 (header)
 msgid "Main concepts"
-msgstr ""
+msgstr "Conceptos principal"
 
 #: concepts/README.md:block 2 (paragraph)
 msgid ""

@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-06-27 20:52+0000\n"
+"PO-Revision-Date: 2023-11-22 19:59+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/censorship-no/"
 "user-manual/pt/>\n"
@@ -9,7 +9,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.18.1\n"
+"X-Generator: Weblate 5.2.1-rc\n"
 
 #: SUMMARY.md:block 1 (header)
 msgid "Summary"
@@ -48,9 +48,7 @@ msgid "[How does it work?](concepts/how.md)"
 msgstr "[Como funciona?](concepts/how.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-#, fuzzy
-#| msgid "[Public vs. private browsing](concepts/public-private.md)"
-msgid "[Public vs. Personal browsing](concepts/public-personal.md)"
+msgid "[Public vs. private browsing](concepts/public-private.md)"
 msgstr "[Navegação pública versus privativa](concepts/public-private.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
@@ -70,9 +68,7 @@ msgid "[Installing Ceno](browser/install.md)"
 msgstr "[Instalar o Ceno](browser/install.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-#, fuzzy
-#| msgid "[Using public or private browsing](browser/public-private.md)"
-msgid "[Using Public or Personal browsing](browser/public-personal.md)"
+msgid "[Using public or private browsing](browser/public-private.md)"
 msgstr "[Usar navegação pública ou privativa](browser/public-private.md)"
 
 #: SUMMARY.md:block 3 (unordered list)

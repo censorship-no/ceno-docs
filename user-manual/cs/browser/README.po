@@ -1,13 +1,19 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2023-12-10 09:03+0000\n"
+"Last-Translator: Kamil Rumanuel Rukola <kamca87@gmail.com>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/censorship-no/"
+"manual/browser-readme/cs/>\n"
 "Language: cs\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 5.3-dev\n"
 
 #: browser/README.md:block 1 (header)
 msgid "Using Ceno Browser"
-msgstr ""
+msgstr "Pomocí prohlížeče cen"
 
 #: browser/README.md:block 2 (paragraph)
 msgid ""
@@ -17,6 +23,11 @@ msgid ""
 "questions on generic browsing topics you should refer to Mozilla's [Firefox "
 "for Android Support][Firefox for Android Support] pages."
 msgstr ""
+"Tato kapitola vám poskytne několik rad k použití prohlížeče Ceno, pokud jde "
+"o možnosti související s Ouinetem. Mějte prosím vždy na paměti, že Ceno je "
+"založeno na [Firefox pro Android][Firefox pro Android], takže pro všechny "
+"otázky týkající se obecných témat procházení byste se měli podívat na "
+"stránky [Podpora Firefoxu pro Android][Firefox pro Android] od Mozilly."
 
 #: browser/README.md:block 3 (paragraph)
 msgid ""
@@ -25,6 +36,10 @@ msgid ""
 "especially as Ceno development progresses. This documentation is up to date "
 "for Ceno version 1.6.0."
 msgstr ""
+"Při relevantních zachytávání obrazovky bude zahrnuto do ilustrování textu. "
+"Vezměte prosím na vědomí, že se může mírně lišit od toho, co vidíte na vašem "
+"zařízení, zejména jako jsou pokroky vývoje ceno. Tato dokumentace je "
+"aktuální pro verzi Ceno 1.6.0."
 
 #: browser/README.md:block 4 (paragraph)
 msgid ""
@@ -32,13 +47,19 @@ msgid ""
 "described here, do not hesitate to contact us at [cenoers@equalitie.org]"
 "(mailto:cenoers@equalitie.org) and report the issue."
 msgstr ""
+"Pokud vaše aplikace vykazuje chování podstatně odlišné od těch, které jsou "
+"zde popsány, neváhejte nás kontaktovat na adrese [cenoers@equalitie."
+"org](mailto:cenoers@equalitie.org) a nahlásit problém."
 
 #: browser/README.md:block 4 (paragraph)
 msgid "[Firefox for Android]: https://www.mozilla.org/firefox/android/"
-msgstr ""
+msgstr "[Firefox pro Android]: https://www.mozilla.org/firefox/android/"
 
 #: browser/README.md:block 4 (paragraph)
+#, fuzzy
 msgid ""
 "[Firefox for Android Support]: https://support.mozilla.org/en-US/products/"
 "mobile"
 msgstr ""
+"[Firefox pro podporu Android]: https://support.mozilla.org/cs-US/products/"
+"mobile"

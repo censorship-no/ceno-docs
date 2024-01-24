@@ -1,19 +1,13 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-12-17 01:32+0000\n"
-"Last-Translator: ssantos <ssantos@web.de>\n"
-"Language-Team: German <https://hosted.weblate.org/projects/censorship-no/"
-"concepts-readme/de/>\n"
-"Language: de\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Language: it\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.3\n"
 
 #: concepts/README.md:block 1 (header)
 msgid "Main concepts"
-msgstr "Wichtigste Konzepte"
+msgstr ""
 
 #: concepts/README.md:block 2 (paragraph)
 msgid ""
@@ -23,12 +17,6 @@ msgid ""
 "cryptography. These techniques are cleverly combined by Ouinet so as to make "
 "the experience of using Ceno as close as possible to normal Web browsing."
 msgstr ""
-"Um sein Ziel zu erfüllen des Umgehens verschiedener Arten von "
-"Netzwerkstörungen und -knappheiten, nutzt Ceno verschiedene Techniken aus "
-"den Bereichen des World Wide Web, Datei-Sharing-Systeme und erweiterte "
-"Kryptografie. Diese Techniken werden von Ouinet clever kombiniert, um die "
-"Erfahrung der Verwendung von Ceno dem normalen Web-Browsing so nah wie "
-"möglich zu machen."
 
 #: concepts/README.md:block 3 (paragraph)
 msgid ""

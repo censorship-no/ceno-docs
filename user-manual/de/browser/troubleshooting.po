@@ -1,15 +1,15 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-09-05 21:33+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
+"PO-Revision-Date: 2023-12-17 01:32+0000\n"
+"Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/censorship-no/"
 "browser-troubleshooting/de/>\n"
 "Language: de\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.0.1-dev\n"
+"X-Generator: Weblate 5.3\n"
 
 #: browser/troubleshooting.md:block 1 (header)
 msgid "Troubleshooting"
@@ -33,10 +33,6 @@ msgstr ""
 "ihrer Verbindungen."
 
 #: browser/troubleshooting.md:block 3 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "If problems still persist, please report them to [cenoers@equalit.ie]"
-#| "(mailto:cenoers@equalit.ie). We will try to help you with them."
 msgid ""
 "If problems still persist, please report them to [cenoers@equalitie.org]"
 "(mailto:cenoers@equalitie.org). We will try to help you with them."
@@ -640,7 +636,5 @@ msgstr ""
 "[hier](bridging.md) für weitere Anweisungen."
 
 #: browser/troubleshooting.md:block 51 (quote)
-#, fuzzy
-#| msgid "[HTTPS by default]: https://github.com/Rob--W/https-by-default"
 msgid "[HTTPS by default]: https://github.com/Rob--W/https-by-default"
 msgstr "[HTTPS by default]: https://github.com/Rob--W/https-by-default"

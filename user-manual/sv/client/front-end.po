@@ -1,13 +1,19 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2023-12-24 12:06+0000\n"
+"Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/censorship-no/"
+"client-front-end/sv/>\n"
 "Language: sv\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4-dev\n"
 
 #: client/front-end.md:block 1 (header)
 msgid "Annex: The Ouinet client front-end"
-msgstr ""
+msgstr "Annex: Oiunet-klientens framände"
 
 #: client/front-end.md:block 2 (paragraph)
 msgid ""
@@ -26,7 +32,7 @@ msgstr ""
 
 #: client/front-end.md:block 4 (paragraph)
 msgid "![Figure: The client front-end](images/front-end.png)"
-msgstr ""
+msgstr "![Figur: The client front-end](images/front-end.png)"
 
 #: client/front-end.md:block 5 (paragraph)
 msgid "The items shown in the page include:"
@@ -52,6 +58,8 @@ msgid ""
 "Please note that none of this needs to be done for Ceno Browser, since it is "
 "already configured like that."
 msgstr ""
+"Vänligen notera att ingen av dessa behöver göras för Ceno-webbläsaren "
+"eftersom att den redan är konfigurerad så."
 
 #: client/front-end.md:block 6 (unordered list)
 msgid ""

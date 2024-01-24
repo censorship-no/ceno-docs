@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-17 02:55+0000\n"
-"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
+"PO-Revision-Date: 2023-11-22 19:59+0000\n"
+"Last-Translator: Andrij Mizyk <andm1zyk@proton.me>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/censorship-no/"
 "user-manual/uk/>\n"
 "Language: uk\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.2.1-rc\n"
 
 #: SUMMARY.md:block 1 (header)
 msgid "Summary"
@@ -49,9 +49,7 @@ msgid "[How does it work?](concepts/how.md)"
 msgstr "[Як це працює?](concepts/how.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-#, fuzzy
-#| msgid "[Public vs. private browsing](concepts/public-private.md)"
-msgid "[Public vs. Personal browsing](concepts/public-personal.md)"
+msgid "[Public vs. private browsing](concepts/public-private.md)"
 msgstr "[Публічний або приватний перегляд](concepts/public-private.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
@@ -71,9 +69,7 @@ msgid "[Installing Ceno](browser/install.md)"
 msgstr "[Встановлення Ceno](browser/install.md)"
 
 #: SUMMARY.md:block 3 (unordered list)
-#, fuzzy
-#| msgid "[Using public or private browsing](browser/public-private.md)"
-msgid "[Using Public or Personal browsing](browser/public-personal.md)"
+msgid "[Using public or private browsing](browser/public-private.md)"
 msgstr ""
 "[Використання публічного або приватного перегляду](browser/public-private.md)"
 
