@@ -3,24 +3,22 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-16 04:02+0200\n"
-"PO-Revision-Date: 2023-09-23 09:21+0000\n"
-"Last-Translator: Oussama <oussama.jarrousse@gmail.com>\n"
+"PO-Revision-Date: 2024-01-24 22:12+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/censorship-no/"
-"public-private/ar/>\n"
+"user-manual-conceptspublic-personal/ar/>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 5.1-dev\n"
+"X-Generator: Weblate 5.4-dev\n"
 
 #
 #: concepts/public-private.md:block 1 (header)
-#, fuzzy
-#| msgid "Public vs. private browsing"
 msgid "Public vs. Personal browsing"
-msgstr "التصفح العام مقابل التصفح الخاص"
+msgstr "التصفح العام مقابل التصفح الشخصي"
 
 #: concepts/public-private.md:block 2 (paragraph)
 msgid ""
@@ -39,10 +37,6 @@ msgstr ""
 "وما تحاول استرداده)، لحسن الحظ يمكن لـ Ceno مساعدتك في هذه الحالة أيضاً."
 
 #: concepts/public-private.md:block 3 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "The default mode when you launch the application is **public browsing**. "
-#| "In it, Ceno accesses Web content as described previously:"
 msgid ""
 "The default mode when you launch the application is **Public browsing**. In "
 "it, Ceno accesses Web content as described previously:"
@@ -65,10 +59,6 @@ msgid ""
 msgstr "إذا تعذر ذلك، سيتم طلب المحتوى عبر حاقن (ربما عبر عميل آخر)."
 
 #: concepts/public-private.md:block 5 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Ceno also has a **private browsing** mode. In it, the distributed cache "
-#| "is never searched, and injection is never attempted:"
 msgid ""
 "Ceno also has a **Personal browsing** mode. In it, the distributed cache is "
 "never searched, and injection is never attempted:"
@@ -87,10 +77,6 @@ msgstr ""
 "التخزين المؤقت الموزعة بصفحتك."
 
 #: concepts/public-private.md:block 7 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "The different behavior results in different characteristics. Thus, in "
-#| "public mode:"
 msgid ""
 "The different behavior results in different characteristics. Thus, in Public "
 "mode:"
@@ -136,8 +122,6 @@ msgid "You need to trust injectors to retrieve and sign Web content."
 msgstr "تحتاج إلى الوثوق بالحاقن لاسترداد محتوى الويب وتوقيعه."
 
 #: concepts/public-private.md:block 9 (paragraph)
-#, fuzzy
-#| msgid "While in private mode:"
 msgid "While in Personal mode:"
 msgstr "و في الوضع الخاص:"
 
@@ -184,13 +168,6 @@ msgstr ""
 "الشهادة)."
 
 #: concepts/public-private.md:block 11 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "In conclusion: if you are using Ceno to read the news, watch videos, "
-#| "browse Wikipedia and other static resources that are otherwise censored "
-#| "in your network, consider using the default *public browsing* mode. And "
-#| "if you want to login to Twitter or edit your WordPress website, use "
-#| "*private browsing* mode."
 msgid ""
 "In conclusion: if you are using Ceno to read the news, watch videos, browse "
 "Wikipedia and other static resources that are otherwise censored in your "
@@ -205,13 +182,6 @@ msgstr ""
 "الخاص*."
 
 #: concepts/public-private.md:block 12 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Please read the section on [risks](risks.md) for a more detailed "
-#| "explanation. Also note that your client can continue to operate as a "
-#| "bridge and a seeder regardless of public or private browsing. We explain "
-#| "this in greater detail in the [Helping others](../browser/bridging.md) "
-#| "section of the manual."
 msgid ""
 "Please read the section on [risks](risks.md) for a more detailed "
 "explanation. Also note that your client can continue to operate as a bridge "
@@ -219,7 +189,7 @@ msgid ""
 "greater detail in the [Helping others](../browser/bridging.md) section of "
 "the manual."
 msgstr ""
-"يرجى قراءة قسم [المخاطر](risks.md) للحصول على شرح أكثر تفصيلاً. لاحظ أيضًا أن "
-"عميلك يمكنه الاستمرار في العمل كجسر و كموزِّع بغض النظر عن التصفح العام أو "
-"الخاص. نوضح ذلك بمزيد من التفصيل في قسم [مساعدة الآخرين](../browser/bridging."
-"md) من الدليل."
+"يرجى قراءة قسم [المخاطر](risks.md) للحصول على شرح أكثر تفصيلاً. لاحظ أيضًا "
+"أن عميلك يمكنه الاستمرار في العمل كجسر و كموزِّع بغض النظر عن التصفح العام "
+"أو الخاص. نوضح ذلك بمزيد من التفصيل في قسم [مساعدة الآخرين](../browser/"
+"bridging.md) من الدليل."

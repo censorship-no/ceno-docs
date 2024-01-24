@@ -3,23 +3,21 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-16 04:02+0200\n"
-"PO-Revision-Date: 2023-07-08 14:49+0000\n"
-"Last-Translator: AO Localisation Lab <ao@localizationlab.org>\n"
+"PO-Revision-Date: 2024-01-24 22:12+0000\n"
+"Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/censorship-no/"
-"public-private/fr/>\n"
+"user-manual-conceptspublic-personal/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.0-dev\n"
+"X-Generator: Weblate 5.4-dev\n"
 
 #
 #: concepts/public-private.md:block 1 (header)
-#, fuzzy
-#| msgid "Public vs. private browsing"
 msgid "Public vs. Personal browsing"
-msgstr "La navigation publique comparée à la navigation privée"
+msgstr "La navigation publique comparée à la navigation personnelle"
 
 #: concepts/public-private.md:block 2 (paragraph)
 msgid ""
@@ -42,17 +40,13 @@ msgstr ""
 "heureusement, Ceno peut aussi vous aider dans ce cas."
 
 #: concepts/public-private.md:block 3 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "The default mode when you launch the application is **public browsing**. "
-#| "In it, Ceno accesses Web content as described previously:"
 msgid ""
 "The default mode when you launch the application is **Public browsing**. In "
 "it, Ceno accesses Web content as described previously:"
 msgstr ""
 "Quand vous lancez l’application, le mode par défaut est **navigation "
-"publique**. Dans ce mode, Ceno accède aux contenus Web comme décrit "
-"précédemment :"
+"Publique**. Dans ce mode, Ceno accède aux contenus Web comme décrit "
+"précédemment :"
 
 #: concepts/public-private.md:block 4 (ordered list)
 msgid "Direct access is attempted."
@@ -71,17 +65,13 @@ msgstr ""
 "(peut-être par l’intermédiaire d’un autre client)."
 
 #: concepts/public-private.md:block 5 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Ceno also has a **private browsing** mode. In it, the distributed cache "
-#| "is never searched, and injection is never attempted:"
 msgid ""
 "Ceno also has a **Personal browsing** mode. In it, the distributed cache is "
 "never searched, and injection is never attempted:"
 msgstr ""
-"Ceno propose aussi d’un mode de **navigation privée**. Dans ce mode, le "
+"Ceno propose aussi d’un mode de **navigation personnel**. Dans ce mode, le "
 "cache distribué n’est jamais consulté, et aucune injection n’est jamais "
-"tentée :"
+"tentée :"
 
 #: concepts/public-private.md:block 6 (ordered list)
 msgid ""
@@ -95,16 +85,12 @@ msgstr ""
 "distribué avec votre page."
 
 #: concepts/public-private.md:block 7 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "The different behavior results in different characteristics. Thus, in "
-#| "public mode:"
 msgid ""
 "The different behavior results in different characteristics. Thus, in Public "
 "mode:"
 msgstr ""
 "Ce comportement différent entraîne des caractéristiques différentes. Ainsi, "
-"en mode public :"
+"en mode Public :"
 
 #: concepts/public-private.md:block 8 (ordered list)
 msgid ""
@@ -151,10 +137,8 @@ msgstr ""
 "contenu Web."
 
 #: concepts/public-private.md:block 9 (paragraph)
-#, fuzzy
-#| msgid "While in private mode:"
 msgid "While in Personal mode:"
-msgstr "Alors qu’en mode de navigation privée :"
+msgstr "Alors qu’en mode de navigation Personnel :"
 
 #: concepts/public-private.md:block 10 (ordered list)
 msgid ""
@@ -200,13 +184,6 @@ msgstr ""
 "habituelle fondée sur les certificats fonctionne encore)."
 
 #: concepts/public-private.md:block 11 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "In conclusion: if you are using Ceno to read the news, watch videos, "
-#| "browse Wikipedia and other static resources that are otherwise censored "
-#| "in your network, consider using the default *public browsing* mode. And "
-#| "if you want to login to Twitter or edit your WordPress website, use "
-#| "*private browsing* mode."
 msgid ""
 "In conclusion: if you are using Ceno to read the news, watch videos, browse "
 "Wikipedia and other static resources that are otherwise censored in your "
@@ -214,20 +191,13 @@ msgid ""
 "to login to Twitter or edit your WordPress website, use *Personal browsing* "
 "mode."
 msgstr ""
-"Pour conclure : si vous utilisez Ceno pour lire les nouvelles, regarder des "
+"Pour conclure : si vous utilisez Ceno pour lire les nouvelles, regarder des "
 "vidéos, parcourir Wikipédia et d’autres ressources statiques qui sont "
-"autrement censurées sur votre réseau, envisagez d’utiliser le mode "
-"*navigation privée* par défaut. Et si vous voulez vous connecter à Twitter "
-"ou modifier votre site Web WordPress, utilisez le mode *navigation privée*."
+"autrement censurées sur votre réseau, envisagez d’utiliser le mode *"
+"navigation Public* par défaut. Et si vous voulez vous connecter à Twitter ou "
+"modifier votre site Web WordPress, utilisez le mode *navigation Personnel*."
 
 #: concepts/public-private.md:block 12 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Please read the section on [risks](risks.md) for a more detailed "
-#| "explanation. Also note that your client can continue to operate as a "
-#| "bridge and a seeder regardless of public or private browsing. We explain "
-#| "this in greater detail in the [Helping others](../browser/bridging.md) "
-#| "section of the manual."
 msgid ""
 "Please read the section on [risks](risks.md) for a more detailed "
 "explanation. Also note that your client can continue to operate as a bridge "
@@ -237,6 +207,6 @@ msgid ""
 msgstr ""
 "Pour plus de précisions, consultez la section sur les [risques](risks.md). "
 "Notez aussi que votre client peut continuer à fonctionner en tant que pont "
-"et propagateur en mode de navigation public ou privé. Nous couvrons ce point "
-"en détail dans la section [Aider les autres](../browser/bridging.md) du "
-"manuel."
+"et propagateur en mode de navigation Publique ou Personnelle. Nous couvrons "
+"ce point en détail dans la section [Aider les autres](../browser/bridging.md)"
+" du manuel."

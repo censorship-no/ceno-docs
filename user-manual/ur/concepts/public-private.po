@@ -1,19 +1,17 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2023-05-17 03:12+0000\n"
+"PO-Revision-Date: 2024-01-24 22:12+0000\n"
 "Last-Translator: Jenny Ryan <jenny@equalitie.org>\n"
 "Language-Team: Urdu <https://hosted.weblate.org/projects/censorship-no/"
-"public-private/ur/>\n"
+"user-manual-conceptspublic-personal/ur/>\n"
 "Language: ur\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.4-dev\n"
 
 #: concepts/public-private.md:block 1 (header)
-#, fuzzy
-#| msgid "Public vs. private browsing"
 msgid "Public vs. Personal browsing"
 msgstr "عوامی بمقابلہ نجی براؤزنگ"
 
@@ -37,10 +35,6 @@ msgstr ""
 "سکتا ہے۔"
 
 #: concepts/public-private.md:block 3 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "The default mode when you launch the application is **public browsing**. "
-#| "In it, Ceno accesses Web content as described previously:"
 msgid ""
 "The default mode when you launch the application is **Public browsing**. In "
 "it, Ceno accesses Web content as described previously:"
@@ -65,10 +59,6 @@ msgstr ""
 "کسی دوسرے کلائنٹ کے ذریعے)۔"
 
 #: concepts/public-private.md:block 5 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Ceno also has a **private browsing** mode. In it, the distributed cache "
-#| "is never searched, and injection is never attempted:"
 msgid ""
 "Ceno also has a **Personal browsing** mode. In it, the distributed cache is "
 "never searched, and injection is never attempted:"
@@ -88,10 +78,6 @@ msgstr ""
 "ساتھ تقسیم شدہ کیش کو اپ ڈیٹ کرتا ہے۔"
 
 #: concepts/public-private.md:block 7 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "The different behavior results in different characteristics. Thus, in "
-#| "public mode:"
 msgid ""
 "The different behavior results in different characteristics. Thus, in Public "
 "mode:"
@@ -142,8 +128,6 @@ msgstr ""
 "ضرورت ہے۔"
 
 #: concepts/public-private.md:block 9 (paragraph)
-#, fuzzy
-#| msgid "While in private mode:"
 msgid "While in Personal mode:"
 msgstr "نجی موڈ میں رہتے ہوئے:"
 
@@ -190,13 +174,6 @@ msgstr ""
 "پر مبنی سیکیورٹی اب بھی کام کرتی ہے)۔"
 
 #: concepts/public-private.md:block 11 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "In conclusion: if you are using Ceno to read the news, watch videos, "
-#| "browse Wikipedia and other static resources that are otherwise censored "
-#| "in your network, consider using the default *public browsing* mode. And "
-#| "if you want to login to Twitter or edit your WordPress website, use "
-#| "*private browsing* mode."
 msgid ""
 "In conclusion: if you are using Ceno to read the news, watch videos, browse "
 "Wikipedia and other static resources that are otherwise censored in your "
@@ -211,13 +188,6 @@ msgstr ""
 "کرنا چاہتے ہیں تو *نجی براؤزنگ* موڈ استعمال کریں۔"
 
 #: concepts/public-private.md:block 12 (paragraph)
-#, fuzzy
-#| msgid ""
-#| "Please read the section on [risks](risks.md) for a more detailed "
-#| "explanation. Also note that your client can continue to operate as a "
-#| "bridge and a seeder regardless of public or private browsing. We explain "
-#| "this in greater detail in the [Helping others](../browser/bridging.md) "
-#| "section of the manual."
 msgid ""
 "Please read the section on [risks](risks.md) for a more detailed "
 "explanation. Also note that your client can continue to operate as a bridge "
@@ -227,5 +197,5 @@ msgid ""
 msgstr ""
 "مزید تفصیلی وضاحت کے لیے براہ کرم [خطرات](risks.md) پر سیکشن پڑھیں۔ یہ بھی "
 "نوٹ کریں کہ آپ کا کلائنٹ عوامی یا نجی براؤزنگ سے قطع نظر ایک پل اور سیڈر کے "
-"طور پر کام جاری رکھ سکتا ہے۔ ہم اس کی وضاحت مینوئل کے [دوسروں کی مدد کرنا]"
-"(../browser/bridging.md) سیکشن میں زیادہ تفصیل سے کرتے ہیں۔"
+"طور پر کام جاری رکھ سکتا ہے۔ ہم اس کی وضاحت مینوئل کے [دوسروں کی مدد "
+"کرنا](../browser/bridging.md) سیکشن میں زیادہ تفصیل سے کرتے ہیں۔"
