@@ -1,6 +1,6 @@
 <img src="images/logo_color.png#gh-light-mode-only" width=250px alt="Ceno Browser logo">
 
-Ceno (short for [Censorship.no!][]) is a mobile Web browser using a novel approach to circumvent Internet censorship infrastructure, allowing users living in a censored zone to share retrieved content with each other, peer to peer. 
+This is the repository for the Ceno Browser User Manual. Ceno (short for [Censorship.no!][]) is a mobile Web browser using a novel approach to circumvent Internet censorship infrastructure, allowing users living in a censored zone to share retrieved content with each other, peer to peer. 
 
 [Censorship.no!]: https://censorship.no/
 
@@ -26,45 +26,117 @@ The *Censorship.no!* project is run by [eQualitie][] in support of Articles 18, 
 [eQualitie]: https://equalit.ie/
 [Universal Declaration of Human Rights]: https://www.un.org/en/universal-declaration-human-rights/
 
-# Current Status
+# Local Development
 
-Ceno is currently being tested in countries that censor large parts of the Internet from their citizens. We offer it with the best intention that it is useful to you, but due to its highly innovative nature and stage of development, you may expect some issues while using it. We will be submitting the codebase to an independent audit in the near future and will update this entry when that work is completed.
+### System setup
 
-We recommend that you use this tool in controlled environments and **only assume reasonable risks**. eQualitie and its associates decline any legal responsibility derived from the use of this software. See 'Operational Warnings' below for more information on what you need to be aware of in running the beta release.
 
-## What currently works
-  - Browse any website with normal speed when Internet access to the resource is not censored.
-  - Browse any website (with slightly slower connection time) when it has been selectively censored (via DNS or IP).
-  - Retrieve requested website content directly from the distributed cache and naturally browse web pages that other people have previously visited, even when the resource or any existing Ceno injectors are not accessible. 
-  - Retrieve and naturally browse content inserted off-line (like website captures) under a complete national Internet disconnection, and share cached content with others on your local network (LAN).
-  
-When users start Ceno Browser, they automatically become part of the Ceno network. This means that - when possible - these devices shall act as temporary proxies (bridges) for people who cannot access desired websites due to network censorship.
+1. Install ```mdpo``` dependency: 
 
-Provided that there are enough Ceno bridges located outside of the censored zone, and that the country has not sealed off international communication completely, Ceno users are able to connect to any website and then share its contents with other peers.
+    ```pip install mdpo==0.3.79```
 
-# How to use Ceno
+    Tested with [mdpo](https://mdpo.readthedocs.io/) v0.3.79 (not newer, because of [mdpo#221](https://github.com/mondeja/mdpo/issues/221)), at least v0.3.68 is needed (to fix ["mdpo#164](https://github.com/mondeja/mdpo/issues/164)) - NOTE: This PR was finally merged in late 2023!.
 
-Please refer to the [Censorship.no! User Manual](https://censorship.no/user-manual/en/) for detailed instructions.
+2. Install fork of ```mdbook``` with rtl-support:
 
-## As a user:
+    ```
+    apt install cargo rustc
+    git clone -b rtl https://github.com/cN3rd/mdBook.git /path/to/mdbook
+    cd /path/to/mdbook
+    cargo build
+    PATH=$PATH:/path/to/mdbook/target/debug
+    ```
 
-Using Ceno is as easy as downloading the application on an Android device and using it to browse websites as one would with any other mainstream browser.
+3. Clone ```ceno-docs``` (the user manual source) and ```ceno-website``` (the website source) to the same directory:
 
-One caveat at the moment: when accessing dynamic websites such as Twitter, Facebook or Gmail, one has to open a personal tab in Ceno. This is because the non-incognito tab strips down all private data from HTTP requests to ensure they don't get leaked into the distributed cache.
+    ```
+    git clone git@gitlab.com:censorship-no/ceno-docs.git
+    git clone git@gitlab.com:censorship-no/ceno-website.git
+    ```
 
-On the other hand, the incognito tab leaves private data (e.g. passwords) intact but the connection stays encrypted - thus only the destination server can see the details of the HTTP transaction (making caching impossible).
 
-## As a bridge:
+### Update English templates and translation files:
 
-Bridges help route HTTP exchanges to and from censored zones. 
+1. Enter the ```ceno-docs``` directory and modify the strings in ```user-manual/en``` as needed and commit the changes to the master branch
 
-Because random IP addresses are usually not blocked, Ceno relies on users outside of censored zones to act as bridges. Therefore, we ask that people willing to help the Ceno project - and most importantly, people behind internet walls - help by becoming a bridge through the following methods:
+2. Once strings in the ```user-manual/en``` markdown files are ready for translation, no-ff merge ```master``` into the ```um-i18n``` branch:
 
-1) Install Ceno on an Android device, start it up and let it run for as long as possible. Make sure that your local wifi network supports UPnP. 
+    ```
+    git checkout um-i18n
+    git merge --no-ff master
+    ```
 
-2) To run Ceno on a laptop or VPS, simply run the Docker client with the following command:
+5. After merging, regenerate the English templates in ```user-manual/en.pot```:
 
-    `sudo docker run --name Ceno-client -dv Ceno:/var/opt/ouinet --network host --restart unless-stopped equalitie/Ceno-client`
+    ```
+    rm -rf user-manual/en.pot
+    cd user-manual
+    ./pot-extract.sh
+    ```
+
+6. Commit the changes to @en.pot```:
+
+    ```git commit -m "Extract POT files"```
+
+7. Now you can create new components in Weblate if needed; this will take care of adding new PO files
+
+8. After generating the new POT files, PO files need to be updated so that Weblate sees the changes to msgids (as explained [here](https://docs.weblate.org/en/latest/faq.html#why-does-weblate-still-show-old-translation-strings-when-i-ve-updated-the-template)).
+
+9. Update PO files for existing components, this will update PO files for all languages based on the new English templates: 
+
+    ```./po-update.sh```
+
+10. Commit modifications to PO files and push:
+
+    ```
+    git commit -m "Update PO files"
+    git push origin um-i18n
+    ```
+
+11. Wait for translators to translate any new strings
+
+12. Weblate pushes changes every 24 hours to their fork, [weblate/ceno-docs:weblate-censorship-no-user-manual](https://gitlab.com/weblate/ceno-docs/-/tree/weblate-censorship-no-user-manual), and it creates a [merge request to our ceno-docs repo](https://gitlab.com/censorship-no/ceno-docs/-/merge_requests) that must be approved before continuing to the next section.
+
+## Generate new website source:
+
+1. Make sure latest MR from ```weblate/ceno-docs:weblate-censorship-no-user-manual``` to ```um-i18n``` has been merged
+
+2. Pull latest translations to your local clone:
+
+    ```git pull origin um-i18n```
+
+3. Generate new html/css pages for the user-manual:
+    ```
+    cd user-manual
+    make clean
+    make
+    ```
+
+4. Copy the newly generated user-manual to the ```ceno-website``` repo (which should be a clean checkout of ```origin/master``` branch in the same directory as ```ceno-docs```):
+    
+    ```make sync```
+
+5. Commit any changes to ```um-i18n``` caused by make and merge them into ```master```:
+    ```
+    git commit -m "make changes to markdown files"
+    git checkout master
+    git merge --no-ff um-i18n
+    ```
+
+6. Push ```master``` and ```um-i18n```:
+
+    ```
+    git push origin master
+    git push origin um-i18n
+    ```
+
+7. Push the user-manual update in ```ceno-website``` repo:
+    ```
+    cd ../ceno-website
+    git add .
+    git commit -m "Update user manual translations"
+    git push origin master
+    ```
 
 # Where to get it
 
